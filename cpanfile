@@ -1,6 +1,6 @@
-# 
+# March 19, 2018
 requires 'CIHM::TDR';
-requires 'CIHM::Meta';
+requires 'CIHM::Meta','0.13';
 requires 'CIHM::METS::parse';
 requires 'Log::Log4perl';
 requires 'common::sense';

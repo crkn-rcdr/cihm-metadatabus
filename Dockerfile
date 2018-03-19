@@ -1,4 +1,4 @@
-FROM ubuntu:trusty-20170817
+FROM ubuntu:trusty-20180302
 
 RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
     mkdir -p /etc/canadiana /var/log/tdr /var/lock/tdr && ln -s /home/tdr /etc/canadiana/tdr && chown tdr.tdr /var/log/tdr /var/lock/tdr && \
@@ -8,5 +8,7 @@ WORKDIR /home/tdr
 COPY cpanfile* *.conf /home/tdr/
 ENV PERL_CPANM_OPT "--mirror http://feta.office.c7a.ca/stacks/c7a-perl-devel/ --mirror http://www.cpan.org/"
 RUN cpanm -n --installdeps . && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
+
+# RUN curl -OL http://feta.office.c7a.ca/deploy/CIHM-Meta-0.13.tar.gz &&cpanm CIHM-Meta-0.13.tar.gz
 
 USER tdr
