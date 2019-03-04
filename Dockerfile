@@ -1,4 +1,4 @@
-FROM ubuntu:trusty-20181115
+FROM ubuntu:trusty-20190122
 
 RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   mkdir -p /etc/canadiana /var/log/tdr /var/lock/tdr && ln -s /home/tdr /etc/canadiana/tdr && chown tdr.tdr /var/log/tdr /var/lock/tdr && \
