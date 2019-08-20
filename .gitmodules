@@ -1,0 +1,12 @@
+[submodule "CIHM-TDR"]
+	path = CIHM-TDR
+	url = https://github.com/crkn-rcdr/CIHM-TDR
+[submodule "CIHM-Meta"]
+	path = CIHM-Meta
+	url = https://github.com/crkn-rcdr/CIHM-Meta
+[submodule "CIHM-METS-parse"]
+	path = CIHM-METS-parse
+	url = https://github.com/crkn-rcdr/CIHM-METS-parse
+[submodule "CIHM-Normalise"]
+	path = CIHM-Normalise
+	url = git@github.com:crkn-rcdr/CIHM-Normalise.git

@@ -26,15 +26,16 @@ RUN set -ex; \
     apt-get purge -y --auto-remove wget ; apt-get clean
 
 WORKDIR /home/tdr
-COPY cpanfile* *.conf /home/tdr/
-COPY aliases /etc/aliases
+COPY aliases docker-entrypoint.sh cpanfile* *.conf /home/tdr/
+RUN mv aliases /etc/alises && mv docker-entrypoint.sh /
 
-ENV PERL_CPANM_OPT "--mirror http://pinto.c7a.ca/stacks/c7a-perl-devel/ --mirror http://www.cpan.org/"
 RUN cpanm -n --installdeps . && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
 
-#COPY dist/CIHM-Meta-0.17.tar.gz .
-#RUN cpanm CIHM-Meta-0.17.tar.gz
 
-COPY docker-entrypoint.sh /
+COPY CIHM-Normalise CIHM-Normalise
+COPY CIHM-TDR CIHM-TDR
+COPY CIHM-Meta CIHM-Meta
+COPY CIHM-METS-parse CIHM-METS-parse
+
 ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
 USER root

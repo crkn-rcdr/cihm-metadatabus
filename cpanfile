@@ -1,13 +1,10 @@
-# March 19, 2018
-requires 'CIHM::TDR', '0.13';
-requires 'CIHM::Meta','0.20';
-requires 'CIHM::METS::parse';
 requires 'Log::Log4perl';
 requires 'common::sense';
 requires 'MIME::Types';
 requires 'Class::Singleton';
 requires 'Config::General';
 requires 'DateTime';
+requires 'Date::Manip';
 requires 'JSON';
 requires 'Types::Standard';
 requires 'Role::REST::Client';
