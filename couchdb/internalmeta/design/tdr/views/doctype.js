@@ -9,5 +9,6 @@ module.exports = {
       ],
       null
     );
-  }
+  },
+  reduce: "_count"
 };

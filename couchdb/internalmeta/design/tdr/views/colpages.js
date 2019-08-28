@@ -9,5 +9,6 @@ module.exports = {
         emit("[none]", doc.pageinfo.count);
       }
     }
-  }
+  },
+  reduce: "_sum"
 };

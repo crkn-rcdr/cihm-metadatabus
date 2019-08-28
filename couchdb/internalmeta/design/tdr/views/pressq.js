@@ -74,5 +74,6 @@ module.exports = {
     // If queuedate set then at least one date was newer than the last
     // time Press ran
     if (queuedate != undefined) emit(queuedate, pressme);
-  }
+  },
+  reduce: "_count"
 };

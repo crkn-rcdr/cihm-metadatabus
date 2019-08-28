@@ -13,5 +13,6 @@ module.exports = {
         emit("[none]", null);
       }
     }
-  }
+  },
+  reduce: "_count"
 };

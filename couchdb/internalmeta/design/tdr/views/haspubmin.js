@@ -3,5 +3,6 @@ module.exports = {
     if ("pubmin" in doc) {
       emit(doc.pubmin, null);
     }
-  }
+  },
+  reduce: "_count"
 };

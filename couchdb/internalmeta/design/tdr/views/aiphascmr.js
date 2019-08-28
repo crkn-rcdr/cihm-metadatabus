@@ -16,5 +16,6 @@ module.exports = {
       }
       emit([present, doc._id], null);
     }
-  }
+  },
+  reduce: "_count"
 };

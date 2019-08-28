@@ -15,5 +15,6 @@ module.exports = {
         emit("[none]", pages);
       }
     }
-  }
+  },
+  reduce: "_sum"
 };

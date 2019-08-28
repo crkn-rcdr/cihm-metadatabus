@@ -16,5 +16,6 @@ module.exports = {
       pubmin: doc["pubmin"],
       approved: "approved" in doc
     });
-  }
+  },
+  reduce: "_count"
 };

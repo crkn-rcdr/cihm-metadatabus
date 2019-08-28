@@ -21,5 +21,6 @@ module.exports = {
       }
       emit([doc.status, doc.format, ext, dep, errormsg], null);
     }
-  }
+  },
+  reduce: "_count"
 };

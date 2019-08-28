@@ -9,5 +9,6 @@ module.exports = {
     ) {
       emit(true, doc.label);
     }
-  }
+  },
+  reduce: "_count"
 };

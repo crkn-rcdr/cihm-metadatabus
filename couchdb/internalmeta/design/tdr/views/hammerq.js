@@ -17,5 +17,6 @@ module.exports = {
         path: doc.METS[doc.METS.length - 1].path
       });
     }
-  }
+  },
+  reduce: "_count"
 };

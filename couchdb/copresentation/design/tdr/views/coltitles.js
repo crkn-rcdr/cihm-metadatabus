@@ -9,5 +9,6 @@ module.exports = {
         emit([thiscol, "updated" in doc ? doc["updated"] : null], null);
       });
     }
-  }
+  },
+  reduce: "_count"
 };

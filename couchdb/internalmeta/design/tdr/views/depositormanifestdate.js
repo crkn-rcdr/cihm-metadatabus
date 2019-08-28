@@ -10,5 +10,6 @@ module.exports = {
         emit(parsedate, null);
       }
     }
-  }
+  },
+  reduce: "_count"
 };

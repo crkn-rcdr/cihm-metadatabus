@@ -6,5 +6,6 @@ module.exports = {
         emit(path, null);
       }
     }
-  }
+  },
+  reduce: "_count"
 };

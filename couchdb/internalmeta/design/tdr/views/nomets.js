@@ -3,5 +3,6 @@ module.exports = {
     if (!("METS" in doc)) {
       emit(null, null);
     }
-  }
+  },
+  reduce: "_count"
 };

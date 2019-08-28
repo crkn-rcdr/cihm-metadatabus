@@ -5,5 +5,6 @@ module.exports = {
       attach = doc.METS.length;
     }
     emit(attach, null);
-  }
+  },
+  reduce: "_count"
 };

@@ -19,5 +19,6 @@ module.exports = {
 
       emit([ntype, dep], null);
     }
-  }
+  },
+  reduce: "_count"
 };

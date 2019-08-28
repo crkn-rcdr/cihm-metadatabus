@@ -19,5 +19,6 @@ module.exports = {
         emit(dups, null);
       }
     }
-  }
+  },
+  reduce: "_count"
 };
