@@ -13,8 +13,8 @@
 
 set -e
 
-export PERL5LIB=/home/tdr/CIHM-TDR/lib:/home/tdr/CIHM-Meta/lib:/home/tdr/CIHM-METS-parse/lib:/home/tdr/CIHM-Normalise/lib
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/tdr/CIHM-TDR/bin:/home/tdr/CIHM-Meta/bin:/home/tdr/CIHM-METS-parse/bin
+export PERL5LIB=/home/tdr/CIHM-TDR/lib:/home/tdr/CIHM-Meta/lib:/home/tdr/CIHM-METS-parse/lib:/home/tdr/CIHM-Normalise/lib:/home/tdr/CIHM-Swift/lib
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/tdr/CIHM-TDR/bin:/home/tdr/CIHM-Meta/bin:/home/tdr/CIHM-METS-parse/bin:/home/tdr/CIHM-Swift/bin
 
 
 # This seems to be owned by wrong user from time to time.
@@ -36,6 +36,14 @@ cronandmail ()
 	/usr/sbin/cron -f
 }
 
+echo "export PATH=$PATH" >> /root/.profile
+echo "export PERL5LIB=$PERL5LIB" >> /root/.profile
+
+echo "export PATH=$PATH" >> /home/tdr/.profile
+echo "export PERL5LIB=$PERL5LIB" >> /home/tdr/.profile
+chown tdr.tdr /home/tdr/.profile
+
+
 # The administrator for the metadata bus -- may change to developers later.
 echo "MAILTO=rmcormond@crkn.ca" > /etc/cron.d/metadatabus
 echo "PATH=$PATH" >> /etc/cron.d/metadatabus
@@ -46,11 +54,9 @@ if [ "$1" = 'solrstream' ]; then
     echo "0-59/10 * * * * tdr /bin/bash -c \"solrstream --limit=$STREAMLIMIT --localdocument=$STREAMLOCALDOCUMENT\"" >> /etc/cron.d/metadatabus
     cronandmail
 elif [ "$1" = 'fullbus' ]; then
-    echo "0-59/10 * * * * tdr /bin/bash -c \"reposync --since=48hours ; hammer --maxprocs=2 --timelimit=14400 ; press\"" >> /etc/cron.d/metadatabus
+    echo "0-59/10 * * * * tdr /bin/bash -c \"reposync --since=6hours ; hammer --maxprocs=2 --timelimit=14400 ; press\"" >> /etc/cron.d/metadatabus
     cronandmail
 else
     # Otherwise run what was asked as the 'tdr' user
-    echo "export PATH=$PATH" >> /home/tdr/.profile
-    echo "export PERL5LIB=$PERL5LIB" >> /home/tdr/.profile
     exec sudo -u tdr -i "$@"
 fi

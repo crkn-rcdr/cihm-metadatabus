@@ -36,6 +36,7 @@ COPY CIHM-Normalise CIHM-Normalise
 COPY CIHM-TDR CIHM-TDR
 COPY CIHM-Meta CIHM-Meta
 COPY CIHM-METS-parse CIHM-METS-parse
+COPY CIHM-Swift CIHM-Swift
 
 ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
 USER root

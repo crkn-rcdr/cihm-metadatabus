@@ -16,3 +16,4 @@ requires 'Coro::Semaphore';
 requires 'AnyEvent';
 requires 'AnyEvent::Fork';
 requires 'AnyEvent::Fork::Pool';
+requires 'Furl';
