@@ -1,8 +1,8 @@
-FROM ubuntu:trusty-20190515
+FROM perl:5.30.0
 
 RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   mkdir -p /etc/canadiana /var/log/tdr /var/lock/tdr && ln -s /home/tdr /etc/canadiana/tdr && chown tdr.tdr /var/log/tdr /var/lock/tdr && \
-  apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq cpanminus build-essential libxml-libxml-perl libxml-libxslt-perl libio-aio-perl rsync cron postfix && apt-get clean
+  apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq cpanminus build-essential libxslt1-dev libxml2-dev libaio-dev libssl-dev rsync cron postfix sudo && apt-get clean
 
 ENV TINI_VERSION 0.16.1
 RUN set -ex; \
