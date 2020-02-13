@@ -10,9 +10,6 @@
 [submodule "CIHM-Normalise"]
 	path = CIHM-Normalise
 	url = git@github.com:crkn-rcdr/CIHM-Normalise.git
-[submodule "CIHM-WIP"]
-	path = CIHM-WIP
-	url = git@github.com:crkn-rcdr/CIHM-WIP.git
 [submodule "CIHM-Swift"]
 	path = CIHM-Swift
 	url = git@github.com:crkn-rcdr/CIHM-Swift.git
