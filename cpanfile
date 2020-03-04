@@ -22,3 +22,4 @@ requires 'XML::LibXSLT';
 requires 'XML::LibXML';
 requires 'IO::AIO';
 requires 'IO::Socket::SSL';
+requires 'List::Compare';
