@@ -1,8 +1,8 @@
-FROM perl:5.30.1
+FROM perl:5.30.2
 
 RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   mkdir -p /etc/canadiana /var/log/tdr /var/lock/tdr && ln -s /home/tdr /etc/canadiana/tdr && chown tdr.tdr /var/log/tdr /var/lock/tdr && \
-  apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq cpanminus build-essential libxslt1-dev libxml2-dev libaio-dev libssl-dev rsync cron postfix sudo && apt-get clean
+  apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq cpanminus build-essential libxslt1-dev libxml2-dev libaio-dev libssl-dev rsync cron postfix sudo less nodejs yarnpkg && apt-get clean
 
 ENV TINI_VERSION 0.16.1
 RUN set -ex; \
@@ -37,6 +37,10 @@ COPY CIHM-TDR CIHM-TDR
 COPY CIHM-Meta CIHM-Meta
 COPY CIHM-METS-parse CIHM-METS-parse
 COPY CIHM-Swift CIHM-Swift
+COPY Access-Platform/Databases Databases
+
+# Used for schema validation
+RUN cd Databases ; yarnpkg install
 
 ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
 USER root
