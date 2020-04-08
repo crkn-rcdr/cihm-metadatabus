@@ -18,12 +18,21 @@ module.exports =function(doc, req) {
 
     if (!doc) {
 		if ("id" in req && req.id) {
-			doc = { _id: req.id, deposits: [] , created: nowdates };
+			doc = { _id: req.id};
 			updated = true;
 		} else {
 			return [null, '{"error": "Missing ID"}\n'];
 		}
-    }
+	}
+	// Transitional
+	if ("deposits" in doc) {
+		delete doc["deposits"];
+		updated = true;
+	}
+	if ("created" in doc) {
+		delete doc["created"];
+		updated = true;
+	}
     if ("repos" in data) {
 
 		// Equality is same membership, even if different order
@@ -49,7 +58,34 @@ module.exports =function(doc, req) {
 		doc["METSManifestDate"] = data["manifestdate"];
 		doc["METSDate"] = nowdates;
 		updated = true;
-    }
+	}
+	if ("slug" in data) {
+		doc["slug"] = data["slug"];
+		updated = true;
+	}
+	if ("dosmelt" in data) {
+		if (!("slug" in doc)) {
+			doc["slug"]=req.id;
+		}
+		if (!("smelt" in doc)) {
+			doc["smelt"]={};
+		}
+		doc["smelt"]["requestDate"] = nowdates;
+	}
+	if ("smelt" in data) {
+		var smelt = JSON.parse(data["smelt"]);
+		if (!("requestDate" in smelt)) {
+		  smelt["requestDate"] = doc["smelt"]["requestDate"];
+		}
+		if (!("processDate" in smelt)) {
+			smelt["processDate"] = nowdates;
+		}
+		if (!("message" in smelt)) {
+			smelt["message"] = "";
+		}
+		doc["smelt"] = smelt;
+		updated = true;
+	}
     var retval = {};
     if ("reposManifestDate" in doc) {
 		retval["METSmatch"] =
