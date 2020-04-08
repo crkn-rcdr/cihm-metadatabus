@@ -7,16 +7,17 @@ module.exports =function(doc, req) {
 
     // Note that form data won't work for the values which aren't simple strings
     if (req.form && Object.keys(req.form).length > 0) {
-		data = req.form;
+	data = req.form;
     } else {
-		try {
-			data = JSON.parse(req.body);
-		} catch (ignore) {
-			return [null, "could not parse body: " + req.body];
-		}
+	try {
+	    data = JSON.parse(req.body);
+	} catch (ignore) {
+	    return [null, "could not parse body: " + req.body];
+	}
     }
 
     if (!doc) {
+<<<<<<< HEAD
 		if ("id" in req && req.id) {
 			doc = { _id: req.id};
 			updated = true;
@@ -33,27 +34,38 @@ module.exports =function(doc, req) {
 		delete doc["created"];
 		updated = true;
 	}
+=======
+	if ("id" in req && req.id) {
+	    
+	    doc = { _id: req.id, deposits: [] , created: nowdates };
+	    updated = true;
+	} else {
+	    return [null, '{"error": "Missing ID"}\n'];
+	}
+    }
+>>>>>>> parent of 0b705b1... Formatting suggestions from VSCode
     if ("repos" in data) {
 
-		// Equality is same membership, even if different order
-		function hasSameMembers(repo1, repo2) {
+	// Equality is same membership, even if different order
+	function hasSameMembers(repo1, repo2) {
             if (!repo1 || !repo2 || repo1.length != repo2.length) {
-				return false;
+		return false;
             }
             // TODO: cheating for now - treat same if length same
             return true;
-		}
-		if (
+	}
+	if (
             !("reposManifestDate" in doc) ||
-			!hasSameMembers(doc["repos"], data["repos"])
-			) {
+		!hasSameMembers(doc["repos"], data["repos"])
+	) {
             doc["repos"] = data["repos"];
             doc["reposManifestDate"] = data["manifestdate"];
             doc["reposDate"] = nowdates;
             updated = true;
-		}
+	}
     }
     if ("METS" in data) {
+<<<<<<< HEAD
 		doc["METS"] = data["METS"];
 		doc["METSManifestDate"] = data["manifestdate"];
 		doc["METSDate"] = nowdates;
@@ -86,18 +98,25 @@ module.exports =function(doc, req) {
 		doc["smelt"] = smelt;
 		updated = true;
 	}
+=======
+	doc["METS"] = data["METS"];
+	doc["METSManifestDate"] = data["manifestdate"];
+	doc["METSDate"] = nowdates;
+	updated = true;
+    }
+>>>>>>> parent of 0b705b1... Formatting suggestions from VSCode
     var retval = {};
     if ("reposManifestDate" in doc) {
-		retval["METSmatch"] =
-			"METSManifestDate" in doc &&
-			doc.reposManifestDate === doc.METSManifestDate;
+	retval["METSmatch"] =
+	    "METSManifestDate" in doc &&
+	    doc.reposManifestDate === doc.METSManifestDate;
     }
     if (updated) {
-		doc["updated"] = nowdates;
-		retval["return"] = "update";
-		return [doc, JSON.stringify(retval) + "\n"];
+	doc["updated"] = nowdates;
+	retval["return"] = "update";
+	return [doc, JSON.stringify(retval) + "\n"];
     } else {
-		retval["return"] = "no update";
-		return [null, JSON.stringify(retval) + "\n"];
+	retval["return"] = "no update";
+	return [null, JSON.stringify(retval) + "\n"];
     }
 };
