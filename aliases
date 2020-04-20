@@ -11,10 +11,11 @@ nobody: root
 noc: root
 postmaster: root
 russell: rmcormond@crkn.ca
+hstgelais: hstgelais@crkn.ca
 security: root
 tdr: root
 usenet: root
 webmaster: root
 www: root
 nagios: root
-root: sysadmin@c7a.ca
+root: rmcormond@crkn.ca,hstgelais@crkn.ca

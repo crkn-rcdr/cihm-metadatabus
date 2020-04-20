@@ -26,8 +26,8 @@ RUN set -ex; \
     apt-get purge -y --auto-remove wget ; apt-get clean
 
 WORKDIR /home/tdr
-COPY aliases docker-entrypoint.sh cpanfile* *.conf /home/tdr/
-RUN mv aliases /etc/alises && mv docker-entrypoint.sh /
+COPY cpanfile* *.conf /home/tdr/
+COPY aliases /etc/aliases
 
 RUN cpanm -n --installdeps . && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
 
@@ -42,5 +42,6 @@ COPY Access-Platform/Databases Databases
 # Used for schema validation
 RUN cd Databases ; yarnpkg install
 
+COPY docker-entrypoint.sh /
 ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
 USER root
