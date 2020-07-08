@@ -40,7 +40,7 @@ COPY CIHM-Swift CIHM-Swift
 COPY Access-Platform/Databases Databases
 
 # Used for schema validation
-RUN cd Databases ; yarnpkg install
+RUN yarnpkg global add https://github.com/crkn-rcdr/kivik ; cd Databases ; yarnpkg install
 
 COPY docker-entrypoint.sh /
 ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
