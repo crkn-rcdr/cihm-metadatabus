@@ -23,3 +23,6 @@ requires 'XML::LibXML';
 requires 'IO::AIO';
 requires 'IO::Socket::SSL';
 requires 'List::Compare';
+
+# Used by CIHM::Meta::dmd::flatten
+requires 'MARC::File::XML';
