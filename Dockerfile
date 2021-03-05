@@ -50,7 +50,7 @@ COPY Access-Platform/Databases Databases
 COPY Access-Platform/couchdb couchdb
 
 # Used for schema validation
-RUN npm install -g kivik && cd couchdb && npm ci
+RUN npm install -g kivik
 
 COPY docker-entrypoint.sh /
 ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
