@@ -46,11 +46,10 @@ COPY CIHM-TDR CIHM-TDR
 COPY CIHM-Meta CIHM-Meta
 COPY CIHM-METS-parse CIHM-METS-parse
 COPY CIHM-Swift CIHM-Swift
-COPY Access-Platform/Databases Databases
-COPY Access-Platform/couchdb couchdb
+COPY Access-Platform Access-Platform
 
 # Used for schema validation
-RUN npm install -g kivik
+RUN npm install -g npm && npm install -g kivik pnpm && cd Access-Platform && pnpm install && pnpm -r build
 
 COPY docker-entrypoint.sh /
 ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
