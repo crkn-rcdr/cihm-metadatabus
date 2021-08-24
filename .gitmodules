@@ -13,6 +13,3 @@
 [submodule "CIHM-Swift"]
 	path = CIHM-Swift
 	url = git@github.com:crkn-rcdr/CIHM-Swift.git
-[submodule "Access-Platform"]
-	path = Access-Platform
-	url = git@github.com:crkn-rcdr/Access-Platform.git
