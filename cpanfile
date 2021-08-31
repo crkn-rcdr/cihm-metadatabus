@@ -26,3 +26,6 @@ requires 'List::Compare';
 
 # Used by CIHM::Meta::dmd::flatten
 requires 'MARC::File::XML';
+
+# Used by dmdtask
+requires 'Text::CSV';
