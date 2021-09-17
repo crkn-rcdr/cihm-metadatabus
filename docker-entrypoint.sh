@@ -55,7 +55,7 @@ if [ "$1" = 'solrstream' ]; then
     cronandmail
 elif [ "$1" = 'fullbus' ]; then
     echo "0-59/10 * * * * tdr /bin/bash -c \"dmdtask ; reposync --since=6hours ; smelter --maxprocs=10 --timelimit=14400 ; hammer --maxprocs=2 --timelimit=14400 ; press ; hammer2 --maxprocs=10 --timelimit=14400 ; press --conf=/home/tdr/press2.conf \"" >> /etc/cron.d/metadatabus
-    echo "5 * * * * tdr /bin/bash -c \"copy-canvas-image --limit=100 --maxprocs=5 --timelimit=14400 \"" >> /etc/cron.d/metadatabus
+    echo "5 * * * * tdr /bin/bash -c \"copy-canvas-image --limit=100 --maxprocs=10 --timelimit=14400 \"" >> /etc/cron.d/metadatabus
     cronandmail
 else
     # Otherwise run what was asked as the 'tdr' user
