@@ -51,7 +51,7 @@ echo "PERL5LIB=$PERL5LIB" >> /etc/cron.d/metadatabus
 
 
 if [ "$1" = 'solrstream' ]; then
-    echo "0-59/10 * * * * tdr /bin/bash -c \"solrstream --limit=$STREAMLIMIT --localdocument=$STREAMLOCALDOCUMENT\"" >> /etc/cron.d/metadatabus
+    echo "0-59/10 * * * * tdr /bin/bash -c \"solrstream --limit=$STREAMLIMIT --timelimit=$STREAMTIMELIMIT --localdocument=$STREAMLOCALDOCUMENT\"" >> /etc/cron.d/metadatabus
     cronandmail
 elif [ "$1" = 'fullbus' ]; then
     echo "0-59/10 * * * * tdr /bin/bash -c \"dmdtask ; reposync --since=6hours ; smelter --maxprocs=10 --timelimit=14400 ; hammer --maxprocs=2 --timelimit=14400 ; press ; hammer2 --maxprocs=10 --timelimit=14400 ; press --conf=/home/tdr/press2.conf \"" >> /etc/cron.d/metadatabus
