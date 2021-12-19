@@ -1,5 +1,0 @@
-#!/bin/bash
-
-(cd ../CIHM-Meta; ./sascha-build) &&
-  docker build -t cihm-metadatabus:latest . &&
-  docker run --network="host" -v "/home/sascha/dev/cihm-metadatabus/tdr.conf:/home/tdr/tdr.conf" -v "/home/sascha/var/log/tdr:/var/log/tdr" -v "/home/sascha/var/lock/tdr:/var/lock/tdr" cihm-metadatabus:latest "$@"
