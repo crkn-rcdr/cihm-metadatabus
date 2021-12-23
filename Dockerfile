@@ -5,7 +5,7 @@ RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   ln -sf /usr/share/zoneinfo/America/Montreal /etc/localtime && \
   \
   apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq cpanminus build-essential libxml-libxml-perl libxml-libxslt-perl libxslt1-dev \
-  libxml2-dev libxml2-utils xml-core libaio-dev libssl-dev rsync sudo less lsb-release && \
+  libxml2-dev libxml2-utils xml-core libaio-dev libssl-dev rsync sudo less lsb-release poppler-utils && \
   \
   curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
   VERSION=node_15.x && DISTRO="$(lsb_release -s -c)" && \
