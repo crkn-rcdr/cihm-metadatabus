@@ -1,5 +1,6 @@
 #!/bin/bash
 
 docker build -t cihm-metadatabus . &&
-  docker run -it -v $(pwd)/CIHM-Meta:/home/tdr/CIHM-Meta --add-host "couch-dev.canadiana.ca:192.168.142.40" -v "/etc/canadiana/tdr/tdr.conf:/home/tdr/tdr.conf" -v "/var/log/tdr:/var/log/tdr" -v "/var/lock/tdr:/var/lock/tdr"  cihm-metadatabus bash
+  docker run -it -v $(pwd)/CIHM-Meta:/home/tdr/CIHM-Meta --add-host "couch-dev.canadiana.ca:192.168.142.40" -v "/etc/canadiana/tdr/tdr.conf:/home/tdr/tdr.conf" -v "/var/log/tdr:/var/log/tdr" -v "/var/lock/tdr:/var/lock/tdr" \
+  --env-file ./.env  cihm-metadatabus bash
 

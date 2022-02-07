@@ -1,0 +1,7 @@
+SWIFT_server=https://swift-uab.canadiana.ca
+SWIFT_user=tdrepo
+SWIFT_password=ThePassword
+SWIFT_account=AUTH_crkn
+COUCHDB_CANVAS=http://gouda.tor.c7a.ca:5984/canvas
+COUCHDB_COPRESENTATION=http://gouda.tor.c7a.ca:5984/copresentation
+COUCHDB_COPRESENTATION2=http://gouda.tor.c7a.ca:5984/copresentation2
