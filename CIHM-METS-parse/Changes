@@ -1,0 +1,5 @@
+Revision history for CIHM-METS-parse
+
+0.01    2017-05-23 16:00:00
+        Making code previously in private Subversion visible to the world.
+        Required some refactoring to not be dependent on other code.

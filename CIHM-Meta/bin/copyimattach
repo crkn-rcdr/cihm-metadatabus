@@ -1,0 +1,105 @@
+#!/usr/bin/env perl
+
+use strict;
+use utf8;
+use warnings;
+use Getopt::Long;
+use Config::General;
+use CIHM::Meta::REST::internalmeta;
+use CIHM::Meta::REST::extrameta;
+use Data::Dumper;
+
+my $conf = "/etc/canadiana/tdr/tdr.conf";
+
+GetOptions( 'conf:s' => \$conf );
+
+my %confighash = new Config::General( -ConfigFile => $conf, )->getall;
+
+# Undefined if no <internalmeta> config block
+my $internalmeta;
+if ( exists $confighash{internalmeta} ) {
+    $internalmeta = new CIHM::Meta::REST::internalmeta(
+        server      => $confighash{internalmeta}{server},
+        database    => $confighash{internalmeta}{database},
+        type        => 'application/json',
+        conf        => $conf,
+        clientattrs => { timeout => 3600 },
+    );
+}
+else {
+    die "Missing <internalmeta> configuration block in config\n";
+}
+
+# Undefined if no <extrameta> config block
+my $extrameta;
+if ( exists $confighash{extrameta} ) {
+    $extrameta = new CIHM::Meta::REST::extrameta(
+        server      => $confighash{extrameta}{server},
+        database    => $confighash{extrameta}{database},
+        type        => 'application/json',
+        conf        => $conf,
+        clientattrs => { timeout => 3600 },
+    );
+}
+else {
+    die "Missing <extrameta> configuration block in config\n";
+}
+
+print "Loading attachment list from '".$internalmeta->database."'...\n";
+$internalmeta->type("application/json");
+my $res = $internalmeta->get(
+    "/" . $internalmeta->database . "/_design/tdr/_view/hasattach?reduce=false",
+    {},
+    { deserializer => 'application/json' }
+);
+if ( $res->code != 200 ) {
+    die "hasattach return code: " . $res->code . "\n";
+}
+
+print "Copying attachments from '".$internalmeta->database."' to ' ".$extrameta->database."'...\n";
+
+foreach my $attach ( @{ $res->data->{rows} } ) {
+    my $id   = $attach->{id};
+    my $file = $attach->{key};
+    next if $file eq 'parl-terms.json';
+
+    my $revision;
+    $extrameta->clear_headers;
+    $extrameta->type('application/json');
+    my $bres = $extrameta->get( "/" . $extrameta->database . "/$id",
+        {}, { deserializer => 'application/json' } );
+    if ( $bres->code == 200 ) {
+        $revision = $bres->data->{'_rev'};
+        # If it is already there, skip to next.
+        next if (exists $bres->data->{'_attachments'}) && (exists $bres->data->{'_attachments'}->{$file}); 
+    }
+    elsif ( $bres->code == 404 ) {
+        $bres = $extrameta->put( "/" . $extrameta->database . "/$id",
+            {}, { deserializer => 'application/json' } );
+        if ( $bres->code != 201 ) {
+            die "PUT of $id return code: " . $bres->code . "\n";
+        }
+        $revision = $bres->data->{rev};
+    }
+    else {
+        die "HEAD of $id return code: " . $bres->code . "\n";
+    }
+
+    # Get source JSON attachment
+    my $ares = $internalmeta->get( "/" . $internalmeta->database . "/$id/$file",
+        {}, { deserializer => 'application/json' } );
+    if ( $ares->code != 200 ) {
+        die "GET of $id/$file return code: " . $res->code . "\n";
+    }
+
+    die "Revision undefined for $id/$file\n" if !$revision;
+
+    # Attachments need the revision of the document.
+    $extrameta->set_header( 'If-Match' => $revision );
+
+    $bres = $extrameta->put( "/" . $extrameta->database . "/$id/$file",
+        $ares->response->content, { deserializer => 'application/json' } );
+    if ( $bres->code != 201 ) {
+        warn "put_attachment($id/$file) PUT return code: " . $bres->code . "\n";
+    }
+}

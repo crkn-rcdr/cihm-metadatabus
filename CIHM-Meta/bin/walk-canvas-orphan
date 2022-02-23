@@ -1,0 +1,147 @@
+#!/usr/bin/env perl
+
+use strict;
+use utf8;
+use warnings;
+use Getopt::Long;
+use Config::General;
+use CIHM::Meta::REST::access;
+use CIHM::Meta::REST::canvas;
+use URI::Escape;
+use Data::Dumper;
+
+my $conf  = "/etc/canadiana/tdr/tdr.conf";
+my $limit = 10000;
+my $quiet;
+my $startkey;
+GetOptions(
+    'conf=s'     => \$conf,
+    'startkey=s' => \$startkey,
+    'limit=i'    => \$limit,
+    'quiet'      => \$quiet
+);
+
+my %confighash = new Config::General( -ConfigFile => $conf, )->getall;
+
+# Undefined if no <access> config block
+my $accessdb;
+if ( exists $confighash{access} ) {
+    $accessdb = new CIHM::Meta::REST::access(
+        server      => $confighash{access}{server},
+        database    => $confighash{access}{database},
+        type        => 'application/json',
+        conf        => $conf,
+        clientattrs => { timeout => 36000 },
+    );
+}
+else {
+    die "Missing <acccess> configuration block in config\n";
+}
+
+# Undefined if no <canvas> config block
+my $canvasdb;
+if ( exists $confighash{canvas} ) {
+    $canvasdb = new CIHM::Meta::REST::canvas(
+        server      => $confighash{canvas}{server},
+        database    => $confighash{canvas}{database},
+        type        => 'application/json',
+        conf        => $conf,
+        clientattrs => { timeout => 36000 },
+    );
+}
+else {
+    die "Missing <canvas> configuration block in config\n";
+}
+
+$canvasdb->type("application/json");
+$accessdb->type("application/json");
+
+my $count = 1;
+while ($count) {
+    my $request = "/"
+      . $canvasdb->{database}
+      . "/_all_docs?include_docs=true"
+      . ( $startkey ? "&startkey=\"" . uri_escape_utf8($startkey) . "\"" : "" )
+      . "&limit=$limit";
+    my $res =
+      $canvasdb->get( $request, {}, { deserializer => 'application/json' } );
+    if ( $res->code != 200 ) {
+        die "CouchDB: \"$request\" return code: " . $res->code . "\n";
+    }
+    my $rows = $res->data->{rows};
+    $count = scalar @{$rows};
+    print "Count: $count\n" if ( !$quiet );
+    if ( $count > 0 ) {
+        my @updates;
+        my $firstkey = $rows->[0]->{'id'};
+        my $lastcount;
+        if ( $count > 1 ) {
+            $lastcount = $count - 2;
+            $startkey  = $rows->[ $count - 1 ]->{'id'};
+        }
+        else {
+            # Do the last one
+            $count     = 0;
+            $lastcount = 0;
+        }
+        my @canvaskeys;
+        for my $i ( 0 .. $lastcount ) {
+            push @canvaskeys, $rows->[$i]->{'id'};
+        }
+        my $requestman =
+          "/" . $accessdb->{database} . "/_design/noid/_view/canvasnoids";
+        my $resman = $accessdb->post(
+            $requestman,
+            {
+                keys => \@canvaskeys
+            },
+            { deserializer => 'application/json' }
+        );
+        if ( $resman->code != 200 ) {
+            die "CouchDB: \"$requestman\" return code: " . $resman->code . "\n";
+        }
+
+        # Create hash from found entries
+        my %canvasfound = map { $_->{key} => 1 } @{ $resman->data->{rows} };
+        for my $i ( 0 .. $lastcount ) {
+            my $doc = $rows->[$i]->{doc};
+            my $id  = $doc->{'_id'};
+
+            # Skip _design and related documents
+            next if substr( $id, 0, 1 ) eq '_';
+
+            my $orphan = !exists $canvasfound{$id};
+
+            # Is orphan, but not currently set
+            if ( $orphan
+                && ( !( exists $doc->{orphan} ) || !( $doc->{orphan} ) ) )
+            {
+                print "$id is orphan, and needs updating\n" if ( !$quiet );
+                $doc->{orphan} = JSON::true;
+                push @updates, $doc;
+            }
+            if ( !$orphan && exists $doc->{orphan} && $doc->{orphan} ) {
+                print "$id not orphan, and needs updating\n" if ( !$quiet );
+                $doc->{orphan} = JSON::false;
+                push @updates, $doc;
+            }
+        }
+
+        if (@updates) {
+            my $res = $canvasdb->post(
+                "/" . $canvasdb->database . "/_bulk_docs",
+                { docs         => \@updates },
+                { deserializer => 'application/json' }
+            );
+            if ( $res->code != 201 ) {
+                if ( defined $res->response->content ) {
+                    warn $res->response->content . "\n";
+                }
+                die "dbupdate of 'canvas' return code: " . $res->code . "\n";
+            }
+        }
+        my $lastkey = $rows->[$lastcount]->{'id'};
+        print "FirstKey: $firstkey LastKey: $lastkey StartKey: $startkey \n"
+          if ( !$quiet );
+    }
+}

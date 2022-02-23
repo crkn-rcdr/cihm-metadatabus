@@ -1,0 +1,75 @@
+#!/usr/bin/env perl
+
+use strict;
+use utf8;
+use warnings;
+use Getopt::Long;
+use Config::General;
+use CIHM::Meta::REST::internalmeta;
+use Data::Dumper;
+
+my $conf = "/etc/canadiana/tdr/tdr.conf";
+
+GetOptions( 'conf:s' => \$conf );
+
+my %confighash = new Config::General( -ConfigFile => $conf, )->getall;
+
+# Undefined if no <internalmeta> config block
+my $internalmeta;
+if ( exists $confighash{internalmeta} ) {
+    $internalmeta = new CIHM::Meta::REST::internalmeta(
+        server      => $confighash{internalmeta}{server},
+        database    => $confighash{internalmeta}{database},
+        type        => 'application/json',
+        conf        => $conf,
+        clientattrs => { timeout => 3600 },
+    );
+}
+else {
+    die "Missing <internalmeta> configuration block in config\n";
+}
+
+print "Loading attachment list from '" . $internalmeta->database . "'...\n";
+$internalmeta->type("application/json");
+my $res = $internalmeta->get(
+    "/" . $internalmeta->database . "/_design/tdr/_view/hasattach?reduce=false",
+    {},
+    { deserializer => 'application/json' }
+);
+if ( $res->code != 200 ) {
+    die "hasattach return code: " . $res->code . "\n";
+}
+
+print "Deleting attachments from '" . $internalmeta->database . "' ...\n";
+
+foreach my $attach ( @{ $res->data->{rows} } ) {
+    my $id   = $attach->{id};
+    my $file = $attach->{key};
+
+    my $revision;
+
+    my $revision;
+    $internalmeta->clear_headers;
+    $internalmeta->type('application/json');
+
+    my $res = $internalmeta->head( "/" . $internalmeta->database . "/$id",
+        {}, { deserializer => 'application/json' } );
+
+    if ( $res->code == 200 ) {
+        $revision = $res->response->header("etag");
+        $revision =~ s/^\"|\"$//g;
+    }
+    else {
+        die "head of $id return code: " . $res->code . "\n";
+    }
+    $internalmeta->set_header( 'If-Match' => $revision );
+
+    $res = $internalmeta->delete( "/" . $internalmeta->database . "/$id/$file",
+        {}, { deserializer => 'application/json' } );
+
+    if ( $res->code != 200 ) {
+        die "delete of $id/$file return code: " . $res->code . "\n";
+    }
+
+    print "$id/$file $revision\n";
+}

@@ -1,15 +1,6 @@
 [submodule "CIHM-TDR"]
 	path = CIHM-TDR
 	url = git@github.com:crkn-rcdr/CIHM-TDR.git
-[submodule "CIHM-Meta"]
-	path = CIHM-Meta
-	url = git@github.com:crkn-rcdr/CIHM-Meta.git
-[submodule "CIHM-METS-parse"]
-	path = CIHM-METS-parse
-	url = git@github.com:crkn-rcdr/CIHM-METS-parse.git
-[submodule "CIHM-Normalise"]
-	path = CIHM-Normalise
-	url = git@github.com:crkn-rcdr/CIHM-Normalise.git
 [submodule "CIHM-Swift"]
 	path = CIHM-Swift
 	url = git@github.com:crkn-rcdr/CIHM-Swift.git
