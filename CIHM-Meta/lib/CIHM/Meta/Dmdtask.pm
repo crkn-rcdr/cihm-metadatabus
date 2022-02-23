@@ -39,46 +39,37 @@ sub new {
     }
     $self->{args} = $args;
 
-    $self->{skip} = delete $args->{skip};
 
-    $self->{maxprocs} = delete $args->{maxprocs};
-    if ( !$self->{maxprocs} ) {
-        $self->{maxprocs} = 3;
+    # Connect to Swift Object Storage
+    my %swiftopt = ( furl_options => { timeout => 3600 } );
+    foreach ( "server", "user", "password", "account" ) {
+        if ( exists $args->{ "swift_" . $_ } ) {
+            $swiftopt{$_} = $args->{ "swift_" . $_ };
+        }
+    }
+    $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
+
+    my $test = $self->swift->container_head( $self->access_metadata );
+    if ( !$test || $test->code != 204 ) {
+        die "Problem connecting to Swift container. Check configuration\n";
     }
 
-    # Set up for time limit
-    $self->{timelimit} = delete $args->{timelimit};
-    if ( $self->{timelimit} ) {
-        $self->{endtime} = time() + $self->{timelimit};
+
+    # Connect to CouchDB
+    $self->{dmdtaskdb} = new restclient(
+        server      => $args->{couchdb_dmdtask},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->dmdtaskdb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->dmdtaskdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to Couchdb database. Check configuration\n";
     }
 
     # Set up in-progress hash (Used to determine which AIPs which are being
     # processed by a slave so we don't try to do the same AIP twice.
     $self->{inprogress} = {};
-
-    $self->{limit} = delete $args->{limit};
-    if ( !$self->{limit} ) {
-        $self->{limit} = ( $self->{maxprocs} ) * 2 + 1;
-    }
-
-    Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
-    $self->{logger} = Log::Log4perl::get_logger("CIHM::TDR");
-
-    my %confighash =
-      new Config::General( -ConfigFile => $args->{configpath}, )->getall;
-
-    if ( exists $confighash{dmdtask} ) {
-        $self->{dmdtaskdb} = new CIHM::Meta::REST::dmdtask(
-            server      => $confighash{dmdtask}{server},
-            database    => $confighash{dmdtask}{database},
-            type        => 'application/json',
-            conf        => $args->{configpath},
-            clientattrs => { timeout => 3600 },
-        );
-    }
-    else {
-        croak "Missing <dmdtask> configuration block in config\n";
-    }
 
     return $self;
 }
@@ -89,34 +80,14 @@ sub args {
     return $self->{args};
 }
 
-sub configpath {
-    my $self = shift;
-    return $self->{args}->{configpath};
-}
-
-sub skip {
-    my $self = shift;
-    return $self->{skip};
-}
-
 sub maxprocs {
     my $self = shift;
-    return $self->{maxprocs};
-}
-
-sub limit {
-    my $self = shift;
-    return $self->{limit};
-}
-
-sub endtime {
-    my $self = shift;
-    return $self->{endtime};
+    return $self->args->{maxprocs};
 }
 
 sub log {
     my $self = shift;
-    return $self->{logger};
+    return $self->args->{logger};
 }
 
 sub dmdtaskdb {
@@ -124,19 +95,24 @@ sub dmdtaskdb {
     return $self->{dmdtaskdb};
 }
 
+sub access_metadata {
+    my $self = shift;
+    return $self->args->{swift_access_metadata};
+}
+
+sub swift {
+    my $self = shift;
+    return $self->{swift};
+}
+
+
 sub dmdtask {
     my ($self) = @_;
 
-    $self->log->info( "Dmdtask time: conf="
-          . $self->configpath
-          . " skip="
-          . $self->skip
-          . " limit="
-          . $self->limit
-          . " maxprocs="
-          . $self->maxprocs
-          . " timelimit="
-          . $self->{timelimit} );
+    $self->log->info( "Dmdtask: maxprocs=" . $self->maxprocs );
+
+    print Dumper ( $self->args );
+    return 0;
 
     my $pool =
       AnyEvent::Fork->new->require("CIHM::Meta::Dmdtask::Worker")
@@ -177,7 +153,7 @@ sub dmdtask {
 }
 
 sub getNextID {
-    my ( $self ) = @_;
+    my ($self) = @_;
 
     return if $self->endtime && time() > $self->endtime;
 
@@ -209,5 +185,15 @@ sub getNextID {
     }
     return;
 }
+
+
+{
+
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
+
 
 1;

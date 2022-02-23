@@ -7,20 +7,46 @@ use lib "$FindBin::RealBin/../lib";
 use Getopt::Long;
 use CIHM::Meta::Dmdtask;
 use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
 
-my $conf     = "/etc/canadiana/tdr/tdr.conf";
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
 my $lockfile = '/var/lock/tdr/dmdtask';
-my $skip     = 0;
+$lockfile = $ENV{dmdtask_lockfile} if ( exists $ENV{dmdtask_lockfile} );
+
 my $maxprocs = 4;
-my $limit;
-my $timelimit;
+$maxprocs = $ENV{dmdtask_maxprocs} if ( exists $ENV{dmdtask_maxprocs} );
+
+my $swift_server;
+$swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
+
+my $swift_user;
+$swift_user = $ENV{SWIFT_user} if ( exists $ENV{SWIFT_user} );
+
+my $swift_password;
+$swift_password = $ENV{SWIFT_password} if ( exists $ENV{SWIFT_password} );
+
+my $swift_account;
+$swift_account = $ENV{SWIFT_account} if ( exists $ENV{SWIFT_account} );
+
+my $swift_access_metadata;
+$swift_access_metadata = $ENV{SWIFT_access_metadata}
+  if ( exists $ENV{SWIFT_access_metadata} );
+
+my $couchdb_dmdtask;
+$couchdb_dmdtask = $ENV{COUCHDB_DMDTASK} if ( exists $ENV{COUCHDB_DMDTASK} );
+
 GetOptions(
-    'conf:s'      => \$conf,
-    'lockfile:s'  => \$lockfile,
-    'skip:i'      => \$skip,
-    'maxprocs:i'  => \$maxprocs,
-    'limit:i'     => \$limit,
-    'timelimit:i' => \$timelimit
+    'lockfile:s'              => \$lockfile,
+    'maxprocs:i'              => \$maxprocs,
+    'swift_server:s'          => \$swift_server,
+    'swift_user:s'            => \$swift_user,
+    'swift_password:s'        => \$swift_password,
+    'swift_account:s'         => \$swift_account,
+    'swift_access_metadata:s' => \$swift_access_metadata,
+    'couchdb_dmdtask:s'       => \$couchdb_dmdtask,
 );
 
 # Only allow one instance to run at a time..
@@ -29,15 +55,32 @@ sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
 flock( FH, LOCK_EX | LOCK_NB )
   or exit 0;
 
-CIHM::Meta::Dmdtask->new(
-    {
-        configpath => $conf,
-        skip       => $skip,
-        maxprocs   => $maxprocs,
-        limit      => $limit,
-        timelimit  => $timelimit
-    }
-)->dmdtask;
+die "couchdb_dmdtask is mandatory (environment or parameter)\n"
+  if ( !$couchdb_dmdtask );
+$couchdb_dmdtask = noEndSlash($couchdb_dmdtask);
+
+try {
+    CIHM::Meta::Dmdtask->new(
+        {
+            maxprocs              => $maxprocs,
+            swift_server          => $swift_server,
+            swift_user            => $swift_user,
+            swift_password        => $swift_password,
+            swift_account         => $swift_account,
+            swift_access_metadata => $swift_access_metadata,
+            couchdb_dmdtask       => $couchdb_dmdtask,
+            logger                => $logger
+        }
+    )->dmdtask;
+}
+catch { $logger->error("$_"); };
+
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
+}
 
 1;
 __END__
