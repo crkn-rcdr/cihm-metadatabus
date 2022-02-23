@@ -1,0 +1,70 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use FindBin;
+use lib "$FindBin::RealBin/../";
+use CIHM::METS::parse;
+use CIHM::METS::parse::accessfile;
+use File::Slurp;
+use Switch;
+use Data::Dumper;
+
+my ($command,$aip,$metspath,$index) = @ARGV;
+
+my $pathinmets;
+my $pathtomets;
+if ($metspath =~ /^(.*\/${aip})(\/.*)$/) {
+    $pathtomets=$1;
+    $pathinmets=$2;
+} else {
+    die "Can't find $aip within $metspath\n";
+}
+
+my $accessfile= CIHM::METS::parse::accessfile->new({
+    pathtomets => $pathtomets
+                                                   });
+
+my $xmlfile;
+if (-f $metspath) {
+    $xmlfile= read_file($metspath);
+} else {
+    die "$metspath doesn't exist or isn't a file\n";
+}
+
+my $mets = CIHM::METS::parse->new({
+    aip => $aip,
+    metspath => $pathinmets,
+    xmlfile => $xmlfile,
+    metsaccess => $accessfile
+                                  });
+
+# At this time there is only one structMap and it must be called "physical"
+$mets->mets_walk_structMap("physical");
+
+
+switch($command) {
+    case "fileinfo"   {
+        print Data::Dumper->Dump([$mets->fileinfo("physical")],[qw(fileinfo)]);
+    }
+    case "metsdata"   {
+        print Data::Dumper->Dump([$mets->metsdata("physical")],[qw(metsdata)]);
+    }
+    case "idata"   {
+        print Data::Dumper->Dump([$mets->extract_idata()],[qw(item_data)]);
+    }
+    case "ocr"   {
+        print Data::Dumper->Dump([$mets->getOCRtxt("physical",$index)],[qw(OCRtxt)]);
+    }
+    else {
+        die "Command $command not understood\n";
+    }
+}
+
+
+
+
+
+
+1;

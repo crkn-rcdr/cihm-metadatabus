@@ -1,0 +1,73 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+
+use Sys::Hostname;
+use Getopt::Long;
+use CIHM::Meta::SolrStream;
+use Fcntl qw(:DEFAULT :flock);
+
+my $lockfile = '/var/lock/tdr/solrstream';
+
+#  Since is a sequence number for the _changes feed
+my $since;
+$since = $ENV{solrstream_since} if ( exists $ENV{solrstream_since} );
+my $limit = 20000;
+$limit = $ENV{solrstream_limit} if ( exists $ENV{solrstream_limit} );
+my $localdocument = "solrstream." . hostname;
+$localdocument = $ENV{solrstream_localdocument}
+  if ( exists $ENV{solrstream_localdocument} );
+my $timelimit;
+$timelimit = $ENV{solrstream_timelimit}
+  if ( exists $ENV{solrstream_timelimit} );
+my $couchserver;
+$couchserver = $ENV{solrstream_couchserver}
+  if ( exists $ENV{solrstream_couchserver} );
+my $couchdb = "cosearch";
+$couchdb = $ENV{solrstream_couchdb} if ( exists $ENV{solrstream_couchdb} );
+my $solrserver;
+$solrserver = $ENV{solrstream_solrserver}
+  if ( exists $ENV{solrstream_solrserver} );
+my $solrdb = "cosearch";
+$solrdb = $ENV{solrstream_solrdb} if ( exists $ENV{solrstream_solrdb} );
+
+GetOptions(
+    'lockfile:s'      => \$lockfile,
+    'since:s'         => \$since,
+    'limit:i'         => \$limit,
+    'localdocument:s' => \$localdocument,
+    'timelimit:i'     => \$timelimit,
+    'couchserver:s'   => \$couchserver,
+    'couchdb:s'       => \$couchdb,
+    'solrserver:s'    => \$solrserver,
+    'solrdb:s'        => \$solrdb,
+);
+
+
+die "Missing `couchserver`" if !defined $couchserver;
+die "Missing `solrserver`" if !defined $solrserver;
+
+# Only allow one instance to run at a time..
+sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
+  or die "can't open lockfile=$lockfile: $!\n";
+flock( FH, LOCK_EX | LOCK_NB )
+  or exit 0;
+
+CIHM::Meta::SolrStream->new(
+    {
+        since         => $since,
+        limit         => $limit,
+        localdocument => $localdocument,
+        timelimit     => $timelimit,
+        couchserver   => $couchserver,
+        couchdb       => $couchdb,
+        solrserver    => $solrserver,
+        solrdb        => $solrdb,
+    }
+)->process;
+
+1;
+__END__

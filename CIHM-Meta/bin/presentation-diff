@@ -1,0 +1,189 @@
+#!/usr/bin/env perl
+
+use strict;
+use utf8;
+use warnings;
+use Data::Dumper;
+use JSON;
+use List::Compare;
+use DateTime;
+
+{
+
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
+
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
+}
+
+my $cop_db = restclient->new(
+    server      => noEndSlash( $ENV{'COUCHDB_COPRESENTATION'} ),
+    type        => 'application/json',
+    clientattrs => { timeout => 3600 },
+);
+$cop_db->set_persistent_header( 'Accept' => 'application/json' );
+
+my $cop2_db = restclient->new(
+    server      => noEndSlash( $ENV{'COUCHDB_COPRESENTATION2'} ),
+    type        => 'application/json',
+    clientattrs => { timeout => 3600 },
+);
+$cop2_db->set_persistent_header( 'Accept' => 'application/json' );
+
+print "Comparing old database="
+  . $cop_db->server
+  . " to new database="
+  . $cop2_db->server . " at "
+  . DateTime->now->datetime() . "\n\n";
+
+my $query = {
+    "selector" => {
+        "type" => {
+            '$eq' => "document"
+        }
+    },
+    "fields" => [ "_id", "collection", "pkey" ],
+    "limit"  => 1000
+};
+
+my %olddocs;
+my %newonly;
+my %different;
+my @parent;
+
+my $bookmark;
+do {
+    my $res =
+      $cop_db->post( "/_find", $query, { deserializer => 'application/json' } );
+
+    if ( $res->code != 200 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        die "/_find returned " . $res->code . "\n";
+    }
+
+    if ( defined $res->data->{'warning'} ) {
+        warn $res->data->{'warning'} . "\n";
+    }
+
+    # https://docs.couchdb.org/en/stable/api/database/find.html#pagination
+    $bookmark = $res->data->{'bookmark'};
+    undef $bookmark
+      if ( ( scalar @{ $res->data->{docs} } < $query->{'limit'} )
+        || ( defined $bookmark && ( $bookmark eq 'nil' ) ) );
+    $query->{'bookmark'} = $bookmark;
+
+    foreach my $row ( @{ $res->data->{docs} } ) {
+        $olddocs{ $row->{'_id'} } = {
+            collection => $row->{'collection'},
+            pkey       => $row->{'pkey'}
+        };
+    }
+
+    #print "Counts: olddocs=" . scalar( keys %olddocs ) . "\n";
+} until ( !$bookmark );
+
+undef $bookmark;
+do {
+    my $res =
+      $cop2_db->post( "/_find", $query,
+        { deserializer => 'application/json' } );
+
+    if ( $res->code != 200 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        die "/_find returned " . $res->code . "\n";
+    }
+
+    if ( defined $res->data->{'warning'} ) {
+        warn $res->data->{'warning'} . "\n";
+    }
+
+    # https://docs.couchdb.org/en/stable/api/database/find.html#pagination
+    $bookmark = $res->data->{'bookmark'};
+    undef $bookmark
+      if ( ( scalar @{ $res->data->{docs} } < $query->{'limit'} )
+        || ( defined $bookmark && ( $bookmark eq 'nil' ) ) );
+    $query->{'bookmark'} = $bookmark;
+
+    foreach my $row ( @{ $res->data->{docs} } ) {
+        if ( defined $olddocs{ $row->{'_id'} } ) {
+            my $olddoc = delete $olddocs{ $row->{'_id'} };
+            my @diff;
+
+            my $opkey = defined $row->{pkey} ? $row->{pkey} : "<undefined>";
+            my $npkey =
+              defined $olddoc->{pkey} ? $olddoc->{pkey} : "<undefined>";
+
+            if ( $opkey ne $npkey ) {
+                push @parent, $row->{'_id'} . ": $opkey!=$npkey";
+            }
+
+            my $lc =
+              List::Compare->new( $olddoc->{collection}, $row->{collection} );
+
+            my @oonly = $lc->get_Lonly;
+            foreach my $old (@oonly) {
+                if ( !defined $different{'missing'}{$old} ) {
+                    $different{'missing'}{$old} = [];
+                }
+                push @{ $different{'missing'}{$old} }, $row->{'_id'};
+            }
+
+            my @nonly = $lc->get_Ronly;
+            foreach my $new (@nonly) {
+                if ( !defined $different{'extra'}{$new} ) {
+                    $different{'extra'}{$new} = [];
+                }
+                push @{ $different{'extra'}{$new} }, $row->{'_id'};
+            }
+
+        }
+        else {
+            $newonly{ $row->{'_id'} } = 1;
+        }
+    }
+
+=pod
+    print "Counts: olddocs="
+      . scalar( keys %olddocs )
+      . " newonly="
+      . scalar( keys %newonly ) . "\n";
+=cut
+
+} until ( !$bookmark );
+
+if ( keys %olddocs ) {
+    print "IDs only in old database (maybe not public?):\n\n"
+      . join( "\n", sort( keys %olddocs ) ) . "\n\n";
+}
+
+if ( keys %newonly ) {
+    print "IDs only in new database:\n\n"
+      . join( "\n", sort( keys %newonly ) ) . "\n\n";
+}
+
+if (@parent) {
+    print "IDs where the parent of an issue doesn't match\n\n"
+      . join( "\n", sort(@parent) ) . "\n\n";
+}
+
+foreach my $diff ( keys %{ $different{'missing'} } ) {
+    print "\n\nMissing collection: $diff\n\n"
+      . join( "\n", sort( @{ $different{'missing'}{$diff} } ) );
+}
+
+foreach my $diff ( keys %{ $different{'extra'} } ) {
+    print "\n\nExtra collection: $diff\n\n"
+      . join( "\n", sort( @{ $different{'extra'}{$diff} } ) );
+}
+
