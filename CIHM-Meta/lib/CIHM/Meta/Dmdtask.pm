@@ -305,8 +305,10 @@ sub handleTask {
 sub postResults {
     my ( $self, $taskid, $status, $message ) = @_;
 
+=pod
     print Data::Dumper->Dump( [ $taskid, $status, $message ],
         [qw(taskid status message)] );
+=cut
 
     my ( $res, $code, $data );
 
