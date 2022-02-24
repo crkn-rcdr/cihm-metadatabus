@@ -49,7 +49,7 @@ sub new {
     $self->{presentdoc} = {};
 
     # Grab the data for the CouchDB document
-    $self->{aipdata} = $self->internalmeta2->get_aip( $self->aip );
+    $self->{aipdata} = $self->get_internalmeta_doc( $self->aip );
 
     if ( !$self->aipdata ) {
         die "Unable to get internalmeta2 data for " . $self->aip . "\n";
@@ -174,9 +174,7 @@ sub adddocument {
 
     # Get the Extrameta data, if it exists..
     $self->extrameta->type("application/json");
-    my $res =
-      $self->extrameta->get(
-        "/" . $self->extrameta->{database} . "/" . $self->aip,
+    my $res = $self->extrameta->get( "/" . $self->aip,
         {}, { deserializer => 'application/json' } );
     if ( $res->code == 200 ) {
         $extradata = $res->data;
@@ -288,7 +286,7 @@ sub update_couch {
     my %couchdocs;
 
     # Looking up the slug
-    my $url = "/" . $dbo->{database} . "/_all_docs";
+    my $url = "/_all_docs";
     my $res = $dbo->post(
         $url,
         { keys         => [ $self->aip ] },
@@ -312,7 +310,7 @@ sub update_couch {
     }
 
     # Looking up the noid
-    $url = "/" . $dbo->{database} . "/_design/access/_view/noid";
+    $url = "/_design/access/_view/noid";
     my $res = $dbo->post(
         $url,
         { keys         => [ $self->noid ], include_docs => JSON::true },
@@ -336,7 +334,7 @@ sub update_couch {
     }
 
     # Looking up the manifest_noid
-    $url = "/" . $dbo->{database} . "/_design/access/_view/manifest_noid";
+    $url = "/_design/access/_view/manifest_noid";
     my $res = $dbo->post(
         $url,
         { keys         => [ $self->noid ], include_docs => JSON::true },
@@ -370,7 +368,7 @@ sub update_couch {
     if (@doclookup) {
 
         # Looking up the slugs of the components
-        $url = "/" . $dbo->{database} . "/_all_docs";
+        $url = "/_all_docs";
         $res = $dbo->post(
             $url,
             { keys         => \@doclookup },
@@ -418,7 +416,7 @@ sub update_couch {
           };
     }
 
-    $url = "/" . $dbo->{database} . "/_bulk_docs";
+    $url = "/_bulk_docs";
     $res = $dbo->post( $url, $postdoc, { deserializer => 'application/json' } );
 
     if ( $res->code == 201 ) {
@@ -430,7 +428,7 @@ sub update_couch {
                 if ( !$thisdoc->{ok} ) {
                     warn $thisdoc->{id}
                       . " was not indicated OK update_couch ("
-                      . $dbo->{database} . ")\n";
+                      . $dbo->server . ")\n";
                     $self->{ustatus} = 0;
                 }
             }
@@ -448,8 +446,7 @@ sub process_hammer {
     my ($self) = @_;
 
     # Grab the data from the attachment (will be hammer.json soon)
-    my $hammerdata =
-      $self->internalmeta2->get_aip( $self->aip . "/hammer.json" );
+    my $hammerdata = $self->get_internalmeta_doc( $self->aip . "/hammer.json" );
 
     # Hammer data is an ordered array with element [0] being item, and other
     # elements being components
@@ -570,8 +567,7 @@ sub process_parl {
     my ($self) = @_;
 
     $self->extrameta->type("application/json");
-    my $res = $self->extrameta->get(
-        "/" . $self->extrameta->{database} . "/" . $self->aip . "/parl.json",
+    my $res = $self->extrameta->get( "/" . $self->aip . "/parl.json",
         {}, { deserializer => 'application/json' } );
     if ( $res->code != 200 ) {
         die "get of parl.json return code: " . $res->code . "\n";
@@ -635,14 +631,8 @@ sub process_externalmetaHP {
     # Grab the data for the CouchDB document
 
     $self->extrameta->type("application/json");
-    my $res = $self->extrameta->get(
-        "/"
-          . $self->extrameta->{database} . "/"
-          . $self->aip
-          . "/externalmetaHP.json",
-        {},
-        { deserializer => 'application/json' }
-    );
+    my $res = $self->extrameta->get( "/" . $self->aip . "/externalmetaHP.json",
+        {}, { deserializer => 'application/json' } );
     if ( $res->code != 200 ) {
         die "get of externalmetaHP.json eturn code: " . $res->code . "\n";
     }
@@ -704,13 +694,8 @@ sub process_issue {
     my ( $self, $parent ) = @_;
 
     # Force parent to be processed (likely again) later, and grab label
-    my $res = $self->internalmeta2->post(
-        "/"
-          . $self->internalmeta2->{database}
-          . "/_design/tdr/_update/parent/$parent",
-        {},
-        { deserializer => 'application/json' }
-    );
+    my $res = $self->internalmeta2->post( "/_design/tdr/_update/parent/$parent",
+        {}, { deserializer => 'application/json' } );
     if ( $res->code != 201 && $res->code != 200 ) {
         die "_update/parent/$parent POST return code: " . $res->code . "\n";
     }
@@ -750,9 +735,7 @@ sub process_series {
     # Look up issues for this series
     $self->internalmeta2->type("application/json");
     my $res = $self->internalmeta2->get(
-        "/"
-          . $self->internalmeta2->{database}
-          . "/_design/tdr/_view/issues?reduce=false&startkey=[\""
+        "/_design/tdr/_view/issues?reduce=false&startkey=[\""
           . $self->aip
           . "\"]&endkey=[\""
           . $self->aip
@@ -860,6 +843,22 @@ sub process_components {
         $self->{presentdoc}->{ $self->aip }->{'components'} = $components;
         $self->{searchdoc}->{ $self->aip }->{'component_count'} =
           scalar(@order);
+    }
+}
+
+sub get_internalmeta_doc {
+    my ( $self, $docid ) = @_;
+
+    $self->internalmeta2->type("application/json");
+    my $url = "/$docid";
+    my $res = $self->internalmeta2->get( $url, {},
+        { deserializer => 'application/json' } );
+    if ( $res->code == 200 ) {
+        return $res->data;
+    }
+    else {
+        warn "get_internalmenta_doc ($url) return code: " . $res->code . "\n";
+        return;
     }
 }
 
