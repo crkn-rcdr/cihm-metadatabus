@@ -285,7 +285,7 @@ sub update_couch {
 
     my %couchdocs;
 
-    # Looking up the slug
+    # Looking up the ID to get revision of any existing document.
     my $url = "/_all_docs";
     my $res = $dbo->post(
         $url,
@@ -296,7 +296,8 @@ sub update_couch {
         foreach my $row ( @{ $res->data->{rows} } ) {
             if (   defined $row->{id}
                 && defined $row->{value}
-                && defined $row->{value}->{rev} )
+                && defined $row->{value}->{rev}
+                && !defined $row->{value}->{deleted} )
             {
                 $couchdocs{ $row->{id} } = $row->{value}->{rev};
             }
@@ -378,7 +379,8 @@ sub update_couch {
             foreach my $row ( @{ $res->data->{rows} } ) {
                 if (   defined $row->{id}
                     && defined $row->{value}
-                    && defined $row->{value}->{rev} )
+                    && defined $row->{value}->{rev}
+                    && !defined $row->{value}->{deleted} )
                 {
                     $couchdocs{ $row->{id} } = $row->{value}->{rev};
                 }
@@ -428,7 +430,8 @@ sub update_couch {
                 if ( !$thisdoc->{ok} ) {
                     warn $thisdoc->{id}
                       . " was not indicated OK update_couch ("
-                      . $dbo->server . ")\n";
+                      . $dbo->server . ") "
+                      . encode_json($thisdoc) . " \n";
                     $self->{ustatus} = 0;
                 }
             }
