@@ -151,7 +151,7 @@ sub flatten {
 sub dmdtask {
     my ($self) = @_;
 
-    $self->log->info( "Dmdtask: maxprocs=" . $self->maxprocs );
+    $self->log->info( "Dmdtask maxprocs=" . $self->maxprocs );
 
     my $somework;
     while ( my $task = $self->getNextID() ) {
