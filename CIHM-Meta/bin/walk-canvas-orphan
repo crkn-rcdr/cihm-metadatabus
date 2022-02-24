@@ -4,63 +4,65 @@ use strict;
 use utf8;
 use warnings;
 use Getopt::Long;
-use Config::General;
-use CIHM::Meta::REST::access;
-use CIHM::Meta::REST::canvas;
 use URI::Escape;
 use Data::Dumper;
+use JSON;
 
-my $conf  = "/etc/canadiana/tdr/tdr.conf";
+
+{
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
+
+
 my $limit = 10000;
 my $quiet;
 my $startkey;
+
+my $couchdb_access;
+$couchdb_access = $ENV{COUCHDB_ACCESS} if ( exists $ENV{COUCHDB_ACCESS} );
+
+my $couchdb_canvas;
+$couchdb_canvas = $ENV{COUCHDB_CANVAS} if ( exists $ENV{COUCHDB_CANVAS} );
+
 GetOptions(
-    'conf=s'     => \$conf,
-    'startkey=s' => \$startkey,
-    'limit=i'    => \$limit,
-    'quiet'      => \$quiet
+    'startkey=s'       => \$startkey,
+    'limit=i'          => \$limit,
+    'quiet'            => \$quiet,
+    'couchdb_canvas:s' => \$couchdb_canvas,
+    'couchdb_access:s' => \$couchdb_access,
 );
 
-my %confighash = new Config::General( -ConfigFile => $conf, )->getall;
+die "couchdb_access is mandatory (environment or parameter)\n"
+  if ( !$couchdb_access );
+$couchdb_access = noEndSlash($couchdb_access);
 
-# Undefined if no <access> config block
-my $accessdb;
-if ( exists $confighash{access} ) {
-    $accessdb = new CIHM::Meta::REST::access(
-        server      => $confighash{access}{server},
-        database    => $confighash{access}{database},
-        type        => 'application/json',
-        conf        => $conf,
-        clientattrs => { timeout => 36000 },
-    );
-}
-else {
-    die "Missing <acccess> configuration block in config\n";
-}
+die "couchdb_canvas is mandatory (environment or parameter)\n"
+  if ( !$couchdb_canvas );
+$couchdb_canvas = noEndSlash($couchdb_canvas);
 
-# Undefined if no <canvas> config block
-my $canvasdb;
-if ( exists $confighash{canvas} ) {
-    $canvasdb = new CIHM::Meta::REST::canvas(
-        server      => $confighash{canvas}{server},
-        database    => $confighash{canvas}{database},
-        type        => 'application/json',
-        conf        => $conf,
-        clientattrs => { timeout => 36000 },
-    );
-}
-else {
-    die "Missing <canvas> configuration block in config\n";
-}
-
-$canvasdb->type("application/json");
+my $accessdb = restclient->new(
+    server      => $couchdb_access,
+    type        => 'application/json',
+    clientattrs => { timeout => 36000 },
+);
+$accessdb->set_persistent_header( 'Accept' => 'application/json' );
 $accessdb->type("application/json");
+
+my $canvasdb = restclient->new(
+    server      => $couchdb_canvas,
+    type        => 'application/json',
+    clientattrs => { timeout => 36000 },
+);
+$canvasdb->set_persistent_header( 'Accept' => 'application/json' );
+$canvasdb->type("application/json");
 
 my $count = 1;
 while ($count) {
-    my $request = "/"
-      . $canvasdb->{database}
-      . "/_all_docs?include_docs=true"
+    my $request =
+        "/_all_docs?include_docs=true"
       . ( $startkey ? "&startkey=\"" . uri_escape_utf8($startkey) . "\"" : "" )
       . "&limit=$limit";
     my $res =
@@ -88,9 +90,8 @@ while ($count) {
         for my $i ( 0 .. $lastcount ) {
             push @canvaskeys, $rows->[$i]->{'id'};
         }
-        my $requestman =
-          "/" . $accessdb->{database} . "/_design/noid/_view/canvasnoids";
-        my $resman = $accessdb->post(
+        my $requestman = "/_design/noid/_view/canvasnoids";
+        my $resman     = $accessdb->post(
             $requestman,
             {
                 keys => \@canvaskeys
@@ -129,7 +130,7 @@ while ($count) {
 
         if (@updates) {
             my $res = $canvasdb->post(
-                "/" . $canvasdb->database . "/_bulk_docs",
+                "/_bulk_docs",
                 { docs         => \@updates },
                 { deserializer => 'application/json' }
             );
@@ -144,4 +145,13 @@ while ($count) {
         print "FirstKey: $firstkey LastKey: $lastkey StartKey: $startkey \n"
           if ( !$quiet );
     }
+}
+
+
+
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
 }

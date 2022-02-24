@@ -12,3 +12,4 @@ COUCHDB_COPRESENTATION=http://gouda.tor.c7a.ca:5984/copresentation
 COUCHDB_COPRESENTATION2=http://gouda.tor.c7a.ca:5984/copresentation2
 COUCHDB_OCRTASK=http://iris.tor.c7a.ca:5984/ocr
 COUCHDB_DMDTASK=http://iris.tor.c7a.ca:5984/dmdtask
+COUCHDB_ACCESS=http://iris.tor.c7a.ca:5984/access
