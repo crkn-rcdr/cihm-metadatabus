@@ -29,13 +29,11 @@ RUN cpanm -n --installdeps . && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/
 
 
 COPY CIHM-Normalise CIHM-Normalise
-COPY CIHM-TDR CIHM-TDR
 COPY CIHM-Meta CIHM-Meta
-COPY CIHM-METS-parse CIHM-METS-parse
 COPY CIHM-Swift CIHM-Swift
 
-ENV PERL5LIB /home/tdr/CIHM-TDR/lib:/home/tdr/CIHM-Meta/lib:/home/tdr/CIHM-METS-parse/lib:/home/tdr/CIHM-Normalise/lib:/home/tdr/CIHM-Swift/lib
-ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/tdr/CIHM-TDR/bin:/home/tdr/CIHM-Meta/bin:/home/tdr/CIHM-METS-parse/bin:/home/tdr/CIHM-Swift/bin
+ENV PERL5LIB /home/tdr/CIHM-Meta/lib:/home/tdr/CIHM-Normalise/lib:/home/tdr/CIHM-Swift/lib
+ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/tdr/CIHM-Meta/bin:/home/tdr/CIHM-Swift/bin
 
 SHELL ["/bin/bash", "-c"]
 USER tdr

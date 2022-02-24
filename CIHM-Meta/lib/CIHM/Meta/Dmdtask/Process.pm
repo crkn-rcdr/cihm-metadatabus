@@ -2,7 +2,6 @@ package CIHM::Meta::Dmdtask::Process;
 
 use 5.014;
 use strict;
-use CIHM::METS::parse;
 use XML::LibXML;
 use Try::Tiny;
 use JSON;
