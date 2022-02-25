@@ -5,6 +5,11 @@ SWIFT_password=ThePassword
 SWIFT_account=AUTH_crkn
 SWIFT_access_metadata=access-metadata
 SWIFT_access_files=access-files
+SWIFT_preservation_files=preservation-cihm-aip
+
+# Cantaloupe Image Server
+IIIF_IMAGE_server=http://image-gouda.canadiana.ca/iiif/2/
+IIIF_IMAGE_password=AnotherPassword
 
 # CouchDB Databases
 COUCHDB_CANVAS=http://iris.tor.c7a.ca:5984/canvas

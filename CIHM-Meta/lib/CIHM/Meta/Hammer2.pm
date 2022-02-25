@@ -5,7 +5,6 @@ use Carp;
 use Config::General;
 use Log::Log4perl;
 
-use CIHM::Meta::REST::access;
 use CIHM::Meta::Hammer2::Worker;
 
 use Coro::Semaphore;
@@ -14,7 +13,6 @@ use AnyEvent::Fork::Pool;
 
 use Try::Tiny;
 use JSON;
-use Data::Dumper;
 
 =head1 NAME
 
@@ -26,9 +24,15 @@ CIHM::Meta::Hammer2 - Normalize metadata from new access platform databases and 
     my $hammer = CIHM::Meta::Hammer2->new($args);
       where $args is a hash of arguments.
 
-      $args->{configpath} is as used by Config::General
-
 =cut
+
+{
+
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
 
 sub new {
     my ( $class, $args ) = @_;
@@ -43,7 +47,7 @@ sub new {
 
     $self->{maxprocs} = delete $args->{maxprocs};
     if ( !$self->{maxprocs} ) {
-        $self->{maxprocs} = 3;
+        $self->{maxprocs} = 1;
     }
 
     # Set up for time limit
@@ -64,20 +68,23 @@ sub new {
     Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
     $self->{logger} = Log::Log4perl::get_logger("CIHM::TDR");
 
-    my %confighash =
-      new Config::General( -ConfigFile => $args->{configpath}, )->getall;
-
-    if ( exists $confighash{access} ) {
-        $self->{accessdb} = new CIHM::Meta::REST::access(
-            server      => $confighash{access}{server},
-            database    => $confighash{access}{database},
-            type        => 'application/json',
-            conf        => $args->{configpath},
-            clientattrs => { timeout => 3600 },
-        );
+    $self->{accessdb} = new restclient(
+        server      => $args->{couchdb_access},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->accessdb->set_persistent_header( 'Accept' => 'application/json' );
+    $self->accessdb->type("application/json");
+    my $test = $self->accessdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to Couchdb database. Check configuration\n";
     }
-    else {
-        croak "Missing <access> configuration block in config\n";
+
+    $self->{slug} = delete $self->args->{slug};
+
+    # If there is a slug, set maximum processes to 1
+    if ( $self->{slug} ) {
+        $self->{maxprocs} = 1;
     }
 
     return $self;
@@ -87,11 +94,6 @@ sub new {
 sub args {
     my $self = shift;
     return $self->{args};
-}
-
-sub configpath {
-    my $self = shift;
-    return $self->{args}->{configpath};
 }
 
 sub skip {
@@ -127,9 +129,7 @@ sub accessdb {
 sub hammer {
     my ($self) = @_;
 
-    $self->log->info( "Hammer2 time: conf="
-          . $self->configpath
-          . " skip="
+    $self->log->info( "Hammer2 skip="
           . $self->skip
           . " limit="
           . $self->limit
@@ -138,42 +138,55 @@ sub hammer {
           . " timelimit="
           . $self->{timelimit} );
 
-    my $pool =
-      AnyEvent::Fork->new->require("CIHM::Meta::Hammer2::Worker")
-      ->AnyEvent::Fork::Pool::run(
-        "CIHM::Meta::Hammer2::Worker::swing",
-        max        => $self->maxprocs,
-        load       => 2,
-        on_destroy => ( my $cv_finish = AE::cv ),
-      );
-
-    # Semaphore keeps us from filling the queue with too many AIPs before
-    # some are processed.
-    my $sem = new Coro::Semaphore( $self->maxprocs * 2 );
     my $somework;
 
-    while ( my $noid = $self->getNextNOID() ) {
-        $somework = 1;
-        $self->{inprogress}->{$noid} = 1;
-        $sem->down;
-        $pool->(
-            $noid,
-            $self->configpath,
-            sub {
-                my $noid = shift;
-                $sem->up;
-                delete $self->{inprogress}->{$noid};
-            }
-        );
+    # Handle single without creating a pool.
+    if ( $self->maxprocs == 1 ) {
+        while ( my $noid = $self->getNextNOID() ) {
+            $somework = 1;
+            CIHM::Meta::Hammer2::Worker::swing( $noid,
+                encode_json $self->args );
+        }
     }
-    undef $pool;
-    if ($somework) {
-        $self->log->info("Waiting for child processes to finish");
+    else {
+        my $pool =
+          AnyEvent::Fork->new->require("CIHM::Meta::Hammer2::Worker")
+          ->AnyEvent::Fork::Pool::run(
+            "CIHM::Meta::Hammer2::Worker::swing",
+            max        => $self->maxprocs,
+            load       => 2,
+            on_destroy => ( my $cv_finish = AE::cv ),
+          );
+
+        # Semaphore keeps us from filling the queue with too many AIPs before
+        # some are processed.
+        my $sem = new Coro::Semaphore( $self->maxprocs * 2 );
+
+        while ( my $noid = $self->getNextNOID() ) {
+            $somework = 1;
+            $self->{inprogress}->{$noid} = 1;
+            $sem->down;
+            $pool->(
+                $noid,
+                encode_json $self->args,
+                sub {
+                    my $noid = shift;
+                    $sem->up;
+                    delete $self->{inprogress}->{$noid};
+                }
+            );
+        }
+        undef $pool;
+        if ($somework) {
+            $self->log->info("Waiting for child processes to finish");
+        }
+        $cv_finish->recv;
     }
-    $cv_finish->recv;
+
     if ($somework) {
         $self->log->info("Finished.");
     }
+
 }
 
 sub getNextNOID {
@@ -181,34 +194,63 @@ sub getNextNOID {
 
     return if $self->endtime && time() > $self->endtime;
 
-    my $skipparam = '';
-    if ( $self->skip ) {
-        $skipparam = "&skip=" . $self->skip;
-    }
+    if ( defined $self->{slug} ) {
+        return if $self->{slug} == JSON::true;
+        my $slug = $self->{slug};
+        $self->{slug} = JSON::true;
 
-    $self->accessdb->type("application/json");
-    my $url = "/"
-      . $self->accessdb->database
-      . "/_design/metadatabus/_view/hammerQueue?reduce=false&limit="
-      . $self->limit
-      . $skipparam;
-    my $res =
-      $self->accessdb->get( $url, {}, { deserializer => 'application/json' } );
-    if ( $res->code == 200 ) {
-        if ( exists $res->data->{rows} ) {
-            foreach my $hr ( @{ $res->data->{rows} } ) {
-                my $noid = $hr->{id};
-                if ( !exists $self->{inprogress}->{$noid} ) {
-                    return $noid;
+        my $url = "/_design/access/_view/slug";
+        my $res = $self->accessdb->post(
+            $url,
+            { keys         => [$slug] },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code == 200 ) {
+            if ( exists $res->data->{rows} ) {
+                my $row = shift @{ $res->data->{rows} };
+                if ( $row && defined $row->{id} ) {
+                    return $row->{id};
                 }
             }
+            $self->log->warn("Nothing found for slug=$slug");
+        }
+        else {
+            warn "$url on "
+              . $self->accessdb->server
+              . " GET return code: "
+              . $res->code . "\n";
         }
     }
     else {
-        warn "$url on "
-          . $self->accessdb->server
-          . " GET return code: "
-          . $res->code . "\n";
+
+        my $skipparam = '';
+        if ( $self->skip ) {
+            $skipparam = "&skip=" . $self->skip;
+        }
+
+        my $url =
+            "/_design/metadatabus/_view/hammerQueue?reduce=false&limit="
+          . $self->limit
+          . $skipparam;
+        my $res =
+          $self->accessdb->get( $url, {},
+            { deserializer => 'application/json' } );
+        if ( $res->code == 200 ) {
+            if ( exists $res->data->{rows} ) {
+                foreach my $hr ( @{ $res->data->{rows} } ) {
+                    my $noid = $hr->{id};
+                    if ( !exists $self->{inprogress}->{$noid} ) {
+                        return $noid;
+                    }
+                }
+            }
+        }
+        else {
+            warn "$url on "
+              . $self->accessdb->server
+              . " GET return code: "
+              . $res->code . "\n";
+        }
     }
     return;
 }
