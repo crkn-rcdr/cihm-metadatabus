@@ -5,10 +5,6 @@ use Carp;
 use Config::General;
 use Log::Log4perl;
 
-use CIHM::Meta::REST::internalmeta;
-use CIHM::Meta::REST::extrameta;
-use CIHM::Meta::REST::cosearch;
-use CIHM::Meta::REST::copresentation;
 use CIHM::Meta::Press2::Process;
 use Try::Tiny;
 use JSON;
