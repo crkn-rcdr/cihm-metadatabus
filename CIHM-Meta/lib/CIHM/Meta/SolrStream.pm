@@ -3,7 +3,6 @@ package CIHM::Meta::SolrStream;
 use strict;
 use Carp;
 use Log::Log4perl;
-use CIHM::Meta::REST::cosearch;
 use Role::REST::Client;
 use Try::Tiny;
 use Data::Dumper;
@@ -26,7 +25,7 @@ CIHM::Meta::SolrStream - Stream cosearch from CouchDB to Solr.
 
 {
 
-    package CIHM::Meta::SolrStream::Solr;
+    package restclient;
 
     use Moo;
     with 'Role::REST::Client';
@@ -45,14 +44,13 @@ sub new {
     Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
     $self->{logger} = Log::Log4perl::get_logger("CIHM::TDR");
 
-    $self->{cosearch} = new CIHM::Meta::REST::cosearch(
+    $self->{cosearch} = new restclient(
         server      => $args->{couchserver},
-        database    => $args->{couchdb},
         type        => 'application/json',
         clientattrs => { timeout => 3600 }
     );
 
-    $self->{cosolr} = new CIHM::Meta::SolrStream::Solr(
+    $self->{cosolr} = new restclient(
         server      => $args->{solrserver},
         type        => 'application/json',
         clientattrs => { timeout => 3600 }
@@ -99,6 +97,11 @@ sub log {
 sub cosearch {
     my $self = shift;
     return $self->{cosearch};
+}
+
+sub couchdb {
+    my $self = shift;
+    return $self->{args}->{couchdb};
 }
 
 sub cosolr {
@@ -180,7 +183,7 @@ sub getNextStream {
     $self->cosearch->type("application/json");
     my $res = $self->cosearch->get(
         "/"
-          . $self->cosearch->database
+          . $self->couchdb
           . "/_changes?include_docs=true&since=$since&limit="
           . $self->limit,
         {},
@@ -203,7 +206,7 @@ sub postSolrStream {
 
     $self->cosolr->type("application/json");
     my $res =
-      $self->cosolr->post( "solr/" . $self->cosolrdb . "/update", $stream );
+      $self->cosolr->post( "/solr/" . $self->cosolrdb . "/update", $stream );
     if ( $res->code != 201 && $res->code != 200 ) {
         $self->log->error( "seq=$startseq return code: " . $res->code );
     }
@@ -216,7 +219,7 @@ sub getSince {
     my $since;
     $self->cosearch->type("application/json");
     my $res = $self->cosearch->get(
-        "/" . $self->cosearch->{database} . "/_local/" . $self->localdocument,
+        "/" . $self->couchdb . "/_local/" . $self->localdocument,
         {}, { deserializer => 'application/json' } );
     if ( $res->code == 200 ) {
         $self->{localdocrev} = $res->data->{"_rev"};
@@ -235,8 +238,7 @@ sub putSince {
 
     $self->cosearch->type("application/json");
     my $res = $self->cosearch->put(
-        "/" . $self->cosearch->{database} . "/_local/" . $self->localdocument,
-        $newdoc );
+        "/" . $self->couchdb . "/_local/" . $self->localdocument, $newdoc );
     if ( $res->code != 201 && $res->code != 200 ) {
         $self->log->error( "_local/"
               . $self->localdocument

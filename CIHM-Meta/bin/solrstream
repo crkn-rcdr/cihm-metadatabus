@@ -48,7 +48,10 @@ GetOptions(
 
 
 die "Missing `couchserver`" if !defined $couchserver;
+$couchserver = noEndSlash($couchserver);
+
 die "Missing `solrserver`" if !defined $solrserver;
+$solrserver = noEndSlash($solrserver);
 
 # Only allow one instance to run at a time..
 sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
@@ -68,6 +71,14 @@ CIHM::Meta::SolrStream->new(
         solrdb        => $solrdb,
     }
 )->process;
+
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
+}
+
 
 1;
 __END__
