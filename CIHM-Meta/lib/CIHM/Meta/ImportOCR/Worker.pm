@@ -5,13 +5,9 @@ use Carp;
 use AnyEvent;
 use Try::Tiny;
 use JSON;
-use Config::General;
 use Log::Log4perl;
 
 use CIHM::Swift::Client;
-use CIHM::Meta::REST::canvas;
-use CIHM::Meta::REST::dipstaging;
-use CIHM::Meta::REST::access;
 use CIHM::Meta::ImportOCR::Process;
 
 our $self;
@@ -25,72 +21,67 @@ our $self;
 }
 
 sub initworker {
-    my $configpath = shift;
+    my $args = shift;
     our $self;
 
-    AE::log debug => "Initworker ($$): $configpath";
-
     $self = bless {};
+
+    if ( ref($args) ne "HASH" ) {
+        die "Argument to CIHM::Meta::ImportOCR->new() not a hash\n";
+    }
+    $self->{args} = $args;
 
     Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
     $self->{logger} = Log::Log4perl::get_logger("CIHM::TDR");
 
-    my %confighash = new Config::General( -ConfigFile => $configpath, )->getall;
-
-    # Undefined if no <canvas> config block
-    if ( exists $confighash{canvas} ) {
-        $self->{canvasdb} = new CIHM::Meta::REST::canvas(
-            server      => $confighash{canvas}{server},
-            database    => $confighash{canvas}{database},
-            type        => 'application/json',
-            clientattrs => { timeout => 3600 },
-        );
-    }
-    else {
-        croak "Missing <canvas> configuration block in config\n";
+    $self->{accessdb} = new restclient(
+        server      => $args->{couchdb_access},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->accessdb->set_persistent_header( 'Accept' => 'application/json' );
+    my $test = $self->accessdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `access` Couchdb database. Check configuration\n";
     }
 
-    # Undefined if no <dipstaging> config block
-    if ( exists $confighash{dipstaging} ) {
-        $self->{dipstagingdb} = new CIHM::Meta::REST::dipstaging(
-            server      => $confighash{dipstaging}{server},
-            database    => $confighash{dipstaging}{database},
-            type        => 'application/json',
-            clientattrs => { timeout => 3600 },
-        );
-    }
-    else {
-        croak "Missing <dipstaging> configuration block in config\n";
-    }
-
-    # Undefined if no <access> config block
-    if ( exists $confighash{access} ) {
-        $self->{accessdb} = new CIHM::Meta::REST::access(
-            server      => $confighash{access}{server},
-            database    => $confighash{access}{database},
-            type        => 'application/json',
-            clientattrs => { timeout => 3600 },
-        );
-    }
-    else {
-        croak "Missing <access> configuration block in config\n";
+    $self->{canvasdb} = new restclient(
+        server      => $args->{couchdb_canvas},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->canvasdb->set_persistent_header( 'Accept' => 'application/json' );
+    my $test = $self->canvasdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `canvas` Couchdb database. Check configuration\n";
     }
 
-    # Undefined if no <swift> config block
-    if ( exists $confighash{swift} ) {
-        my %swiftopt = ( furl_options => { timeout => 120 } );
-        foreach ( "server", "user", "password", "account", "furl_options" ) {
-            if ( exists $confighash{swift}{$_} ) {
-                $swiftopt{$_} = $confighash{swift}{$_};
-            }
+    $self->{dipstagingdb} = new restclient(
+        server      => $args->{couchdb_dipstaging},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->dipstagingdb->set_persistent_header(
+        'Accept' => 'application/json' );
+    my $test = $self->dipstagingdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `dipstaging` Couchdb database. Check configuration\n";
+    }
+
+    my %swiftopt = ( furl_options => { timeout => 3600 } );
+    foreach ( "server", "user", "password", "account" ) {
+        if ( exists $args->{ "swift_" . $_ } ) {
+            $swiftopt{$_} = $args->{ "swift_" . $_ };
         }
-        $self->{swift}              = CIHM::Swift::Client->new(%swiftopt);
-        $self->{preservation_files} = $confighash{swift}{container};
-        $self->{access_metadata}    = $confighash{swift}{access_metadata};
-        $self->{access_files}       = $confighash{swift}{access_files};
     }
-    else {
-        croak "No <swift> configuration block in " . $self->configpath . "\n";
+    $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
+
+    my $test = $self->swift->container_head( $self->access_metadata );
+    if ( !$test || $test->code != 204 ) {
+        die "Problem connecting to Swift container. Check configuration\n";
     }
 
 }
@@ -99,6 +90,16 @@ sub initworker {
 sub log {
     my $self = shift;
     return $self->{logger};
+}
+
+sub args {
+    my $self = shift;
+    return $self->{args};
+}
+
+sub access_metadata {
+    my $self = shift;
+    return $self->args->{access_metadata};
 }
 
 sub canvasdb {
@@ -140,20 +141,20 @@ sub warnings {
 }
 
 sub importocr {
-    my ( $aip, $configpath ) = @_;
+    my ( $aip, $jsonargs ) = @_;
     our $self;
 
     # Capture warnings
     local $SIG{__WARN__} = sub { &warnings };
 
+    my $args = decode_json $jsonargs;
+
     if ( !$self ) {
-        initworker($configpath);
+        initworker($args);
     }
 
     $self->{aip}     = $aip;
     $self->{message} = '';
-
-    AE::log debug => "$aip Before ($$)";
 
     my $succeeded;
 
@@ -162,16 +163,13 @@ sub importocr {
         $succeeded = JSON::true;
         new CIHM::Meta::ImportOCR::Process(
             {
-                aip                => $aip,
-                configpath         => $configpath,
-                log                => $self->log,
-                canvasdb           => $self->canvasdb,
-                dipstagingdb       => $self->dipstagingdb,
-                accessdb           => $self->accessdb,
-                swift              => $self->swift,
-                preservation_files => $self->{preservation_files},
-                access_metadata    => $self->{access_metadata},
-                access_files       => $self->{access_files},
+                aip          => $aip,
+                args         => $self->args,
+                log          => $self->log,
+                canvasdb     => $self->canvasdb,
+                dipstagingdb => $self->dipstagingdb,
+                accessdb     => $self->accessdb,
+                swift        => $self->swift,
             }
         )->process;
     }
@@ -181,8 +179,6 @@ sub importocr {
         $self->{message} .= "Caught: " . $_;
     };
     $self->postResults( $aip, $succeeded );
-
-    AE::log debug => "$aip After ($$)";
 
     return ($aip);
 }
@@ -196,14 +192,12 @@ sub postResults {
     my $message = $self->{message};
     undef $message if !$message;
 
-    my $url = "/"
-      . $self->dipstagingdb->database
-      . "/_design/access/_update/updateOCR/$aip";
+    my $url = "/_design/access/_update/updateOCR/$aip";
 
     $self->dipstagingdb->type("application/json");
     my $res = $self->dipstagingdb->post(
         $url,
-        { succeeded       => $succeeded, message => $message },
+        { succeeded    => $succeeded, message => $message },
         { deserializer => 'application/json' }
     );
 

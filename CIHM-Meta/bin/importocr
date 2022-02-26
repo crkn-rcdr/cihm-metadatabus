@@ -8,23 +8,70 @@ use Getopt::Long;
 use CIHM::Meta::ImportOCR;
 use Fcntl qw(:DEFAULT :flock);
 
-my $conf     = "/etc/canadiana/tdr/tdr.conf";
 my $lockfile = '/var/lock/tdr/importocr';
+$lockfile = $ENV{importocr_lockfile} if ( exists $ENV{importocr_lockfile} );
+
 my $skip     = 0;
 my $maxprocs = 4;
 my $limit;
 my $timelimit;
 my $descending;
 my $aip;
+
+my $couchdb_access;
+$couchdb_access = $ENV{COUCHDB_ACCESS}
+  if ( exists $ENV{COUCHDB_ACCESS} );
+
+my $couchdb_canvas;
+$couchdb_canvas = $ENV{COUCHDB_CANVAS}
+  if ( exists $ENV{COUCHDB_CANVAS} );
+
+my $couchdb_dipstaging;
+$couchdb_dipstaging = $ENV{COUCHDB_DIPSTAGING}
+  if ( exists $ENV{COUCHDB_DIPSTAGING} );
+
+my $swift_server;
+$swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
+
+my $swift_user;
+$swift_user = $ENV{SWIFT_user} if ( exists $ENV{SWIFT_user} );
+
+my $swift_password;
+$swift_password = $ENV{SWIFT_password} if ( exists $ENV{SWIFT_password} );
+
+my $swift_account;
+$swift_account = $ENV{SWIFT_account} if ( exists $ENV{SWIFT_account} );
+
+my $access_metadata;
+$access_metadata = $ENV{SWIFT_access_metadata}
+  if ( exists $ENV{SWIFT_access_metadata} );
+
+my $access_files;
+$access_files = $ENV{SWIFT_access_files}
+  if ( exists $ENV{SWIFT_access_files} );
+
+my $preservation_files;
+$preservation_files = $ENV{SWIFT_preservation_files}
+  if ( exists $ENV{SWIFT_preservation_files} );
+
 GetOptions(
-    'conf:s'      => \$conf,
-    'lockfile:s'  => \$lockfile,
-    'skip:i'      => \$skip,
-    'maxprocs:i'  => \$maxprocs,
-    'limit:i'     => \$limit,
-    'timelimit:i' => \$timelimit,
-    'descending'  => \$descending,
-    'aip:s'       => \$aip
+    'lockfile:s'                 => \$lockfile,
+    'skip:i'                     => \$skip,
+    'maxprocs:i'                 => \$maxprocs,
+    'limit:i'                    => \$limit,
+    'timelimit:i'                => \$timelimit,
+    'descending'                 => \$descending,
+    'aip:s'                      => \$aip,
+    'couchdb_access:s'           => \$couchdb_access,
+    'couchdb_canvas:s'           => \$couchdb_canvas,
+    'couchdb_dipstaging:s'       => \$couchdb_dipstaging,
+    'swift_server:s'             => \$swift_server,
+    'swift_user:s'               => \$swift_user,
+    'swift_password:s'           => \$swift_password,
+    'swift_account:s'            => \$swift_account,
+    'swift_access_metadata:s'    => \$access_metadata,
+    'swift_access_files:s'       => \$access_files,
+    'swift_preservation_files:s' => \$preservation_files,
 );
 
 # Only allow one instance to run at a time..
@@ -33,17 +80,45 @@ sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
 flock( FH, LOCK_EX | LOCK_NB )
   or exit 0;
 
+die "couchdb_access is mandatory (environment or parameter)\n"
+  if ( !$couchdb_access );
+$couchdb_access = noEndSlash($couchdb_access);
+
+die "couchdb_canvas is mandatory (environment or parameter)\n"
+  if ( !$couchdb_canvas );
+$couchdb_canvas = noEndSlash($couchdb_canvas);
+
+die "couchdb_dipstaging is mandatory (environment or parameter)\n"
+  if ( !$couchdb_dipstaging );
+$couchdb_dipstaging = noEndSlash($couchdb_dipstaging);
+
 CIHM::Meta::ImportOCR->new(
     {
-        configpath => $conf,
-        skip       => $skip,
-        maxprocs   => $maxprocs,
-        limit      => $limit,
-        timelimit  => $timelimit,
-        descending => $descending,
-        aip        => $aip
+        skip               => $skip,
+        maxprocs           => $maxprocs,
+        limit              => $limit,
+        timelimit          => $timelimit,
+        descending         => $descending,
+        aip                => $aip,
+        couchdb_access     => $couchdb_access,
+        couchdb_canvas     => $couchdb_canvas,
+        couchdb_dipstaging => $couchdb_dipstaging,
+        swift_server       => $swift_server,
+        swift_user         => $swift_user,
+        swift_password     => $swift_password,
+        swift_account      => $swift_account,
+        access_metadata    => $access_metadata,
+        access_files       => $access_files,
+        preservation_files => $preservation_files,
     }
 )->importOCR;
+
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
+}
 
 1;
 __END__
