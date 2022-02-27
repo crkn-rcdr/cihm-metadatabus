@@ -275,21 +275,6 @@ sub handleTask {
             $self->validate_xml();
             $self->store_flatten();
 
-=pod
-    # Debugging -- matching indexes between XML and Items
-    foreach my $index ( 0 .. scalar( @{ $self->xml } ) - 1 ) {
-        print Data::Dumper->Dump(
-            [
-                {
-                    xml  => @{ $self->xml }[$index],
-                    item => @{ $self->items }[$index]
-                }
-            ],
-            [$index]
-        );
-    }
-=cut
-
         }
     }
     catch {
@@ -304,11 +289,6 @@ sub handleTask {
 
 sub postResults {
     my ( $self, $taskid, $status, $message ) = @_;
-
-=pod
-    print Data::Dumper->Dump( [ $taskid, $status, $message ],
-        [qw(taskid status message)] );
-=cut
 
     my ( $res, $code, $data );
 

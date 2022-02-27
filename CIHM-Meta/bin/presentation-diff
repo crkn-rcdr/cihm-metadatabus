@@ -152,14 +152,6 @@ do {
             $newonly{ $row->{'_id'} } = 1;
         }
     }
-
-=pod
-    print "Counts: olddocs="
-      . scalar( keys %olddocs )
-      . " newonly="
-      . scalar( keys %newonly ) . "\n";
-=cut
-
 } until ( !$bookmark );
 
 if ( keys %olddocs ) {
