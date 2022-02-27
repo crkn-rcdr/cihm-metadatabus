@@ -60,6 +60,11 @@ sub args {
     return $self->{args};
 }
 
+sub envargs {
+    my $self = shift;
+    return $self->args->{args};
+}
+
 sub aip {
     my $self = shift;
     return $self->args->{aip};
@@ -107,17 +112,17 @@ sub swift {
 
 sub access_metadata {
     my $self = shift;
-    return $self->args->{access_metadata};
+    return $self->envargs->{access_metadata};
 }
 
 sub access_files {
     my $self = shift;
-    return $self->args->{access_files};
+    return $self->envargs->{access_files};
 }
 
 sub preservation_files {
     my $self = shift;
-    return $self->args->{preservation_files};
+    return $self->envargs->{preservation_files};
 }
 
 sub xml {
@@ -449,9 +454,7 @@ sub findCreateCanvases {
 
     # Look up if these canvases already exist.
     my $res = $self->canvasdb->post(
-        "/"
-          . $self->canvasdb->database
-          . "/_design/access/_view/cihmsource?reduce=false&include_docs=true",
+        "/_design/access/_view/cihmsource?reduce=false&include_docs=true",
         { keys         => \@lookup },
         { deserializer => 'application/json' }
     );
@@ -536,7 +539,7 @@ sub findCreateCanvases {
         }
 
         my $res = $self->canvasdb->post(
-            "/" . $self->canvasdb->database . "/_bulk_docs",
+            "/_bulk_docs",
             { docs         => \@missingcanvases },
             { deserializer => 'application/json' }
         );
@@ -627,16 +630,13 @@ sub enhanceCanvases {
             }
 
             # Get full replacement document
-            my $newdoc =
-              $self->canvasdb->get_document( uri_escape( $doc->{'_id'} ) );
+            my $newdoc = $self->canvasGetDocument( $doc->{'_id'} );
 
             # Set extension, and store
             $newdoc->{master}->{extension} = $ext;
             delete $newdoc->{master}->{path};
 
-            my $data =
-              $self->canvasdb->put_document( uri_escape( $doc->{'_id'} ),
-                $newdoc );
+            my $data = $self->canvasPutDocument( $doc->{'_id'}, $newdoc );
             die "Put failed\n" if !$data;
 
             $newdoc->{'_rev'} = $data->{'rev'};
@@ -703,7 +703,7 @@ sub enhanceCanvases {
     # Store any that were modified
     if (@updatecanvases) {
         my $res = $self->canvasdb->post(
-            "/" . $self->canvasdb->database . "/_bulk_docs",
+            "/_bulk_docs",
             { docs         => \@updatecanvases },
             { deserializer => 'application/json' }
         );
@@ -781,7 +781,7 @@ sub writeManifest {
     my ($self) = @_;
 
     my $res = $self->accessdb->post(
-        "/" . $self->accessdb->database . "/_bulk_docs",
+        "/_bulk_docs",
         { docs         => [ $self->manifest ] },
         { deserializer => 'application/json' }
     );
@@ -798,13 +798,8 @@ sub getSlug {
     my ( $self, $slug ) = @_;
 
     my $res = $self->accessdb->get(
-        "/"
-          . $self->accessdb->database
-          . "/_design/access/_view/slug?key="
-          . encode_json($slug),
-        {},
-        { deserializer => 'application/json' }
-    );
+        "/_design/access/_view/slug?key=" . encode_json($slug),
+        {}, { deserializer => 'application/json' } );
     if ( $res->code == 404 ) {
         return;
     }
@@ -824,8 +819,7 @@ sub getSlug {
 sub loadDipDoc {
     my $self = shift;
 
-    my $url =
-      "/" . $self->dipstagingdb->database . "/" . uri_escape( $self->aip );
+    my $url = "/" . uri_escape( $self->aip );
     my $res =
       $self->dipstagingdb->get( $url, {},
         { deserializer => 'application/json' } );
@@ -839,6 +833,38 @@ sub loadDipDoc {
           . $res->code . "\n";
     }
     $self->{dipdoc} = $res->data;
+}
+
+sub canvasGetDocument {
+    my ( $self, $docid ) = @_;
+
+    $self->canvasdb->type("application/json");
+    my $url = "/" . uri_escape($docid);
+    my $res =
+      $self->canvasdb->get( $url, {}, { deserializer => 'application/json' } );
+    if ( $res->code == 200 ) {
+        return $res->data;
+    }
+    else {
+        warn "GET $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub canvasPutDocument {
+    my ( $self, $docid, $document ) = @_;
+
+    $self->canvasdb->type("application/json");
+    my $url = "/" . uri_escape($docid);
+    my $res = $self->canvasdb->put( $url, $document,
+        { deserializer => 'application/json' } );
+    if ( $res->code == 201 ) {
+        return $res->data;
+    }
+    else {
+        warn "PUT $url return code: " . $res->code . "\n";
+        return;
+    }
 }
 
 1;

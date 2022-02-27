@@ -144,7 +144,7 @@ sub process {
     my ($self) = @_;
 
     $self->{document} =
-      $self->accessdb->get_document( uri_escape_utf8( $self->noid ) );
+      $self->getAccessDocument( uri_escape_utf8( $self->noid ) );
     die "Missing Document\n" if !( $self->document );
 
     if ( !exists $self->document->{'slug'} ) {
@@ -262,7 +262,7 @@ sub process {
             $self->attachment->[ $i + 1 ]->{'manifest_noid'} = $self->noid;
             $self->attachment->[ $i + 1 ]->{'key'} = $slug . "." . ( $i + 1 );
         }
-        my @canvases = @{ $self->canvasdb->get_documents( \@canvasids ) };
+        my @canvases = @{ $self->getCanvasDocuments( \@canvasids ) };
         die "Array length mismatch\n" if ( @canvases != @canvasids );
 
         foreach my $i ( 0 .. ( @canvases - 1 ) ) {
@@ -458,8 +458,7 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 
             # This is all going away, so doen't have to be ideal design.
             # This is how we create a sequence at the moment.
-            my $parentdoc =
-              $self->accessdb->get_document( uri_escape_utf8($noid) );
+            my $parentdoc = $self->getAccessDocument( uri_escape_utf8($noid) );
 
             if ($parentdoc) {
                 if ( ( ref $parentdoc->{members} ) eq "ARRAY" ) {
@@ -500,9 +499,19 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
       join( ',', keys %{ $self->{collections} } );
 
     # Create document if it doesn't already exist
-    $self->internalmetadb->update_basic_full( $slug, {} );
+    {
+        my $url = "/_design/tdr/_update/basic/" . uri_escape_utf8($slug);
 
-    my $return = $self->internalmetadb->put_attachment(
+        my $res = $self->internalmetadb->post( $url, {},
+            { deserializer => 'application/json' } );
+
+        if ( $res->code != 201 && $res->code != 200 ) {
+            warn "$url POST return code: " . $res->code . "\n";
+        }
+
+    }
+
+    my $return = $self->putInternalmetaAttachment(
         $slug,
         {
             type      => "application/json",
@@ -511,9 +520,69 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
             updatedoc => $self->updatedoc
         }
     );
-    if ( $return != 201 ) {
-        die "Return code $return for internalmetadb->put_attachment($slug)\n";
+    if ($return) {
+        die "Return code $return for putInternalmetaAttachment($slug)\n";
     }
+}
+
+sub putInternalmetaAttachment {
+    my ( $self, $slug, $args ) = @_;
+    my ( $res, $revision, $updatedoc );
+
+    if ( exists $args->{updatedoc} ) {
+        $updatedoc = $args->{updatedoc};
+    }
+    else {
+        $updatedoc = {};
+    }
+
+    if ( !exists $args->{type} ) {
+
+        # Set JSON as the default attachment mime type
+        $args->{type} = "text/json";
+    }
+    my $filename = $args->{filename};
+    if ( !$slug || !$filename || !( $args->{content} ) ) {
+        die "Missing UID, filename, or content for put_attachment\n";
+    }
+
+    $res = $self->internalmetadb->head( "/" . uri_escape_utf8($slug),
+        {}, { deserializer => 'application/json' } );
+    if ( $res->code == 200 ) {
+        $revision = $res->response->header("etag");
+        $revision =~ s/^\"|\"$//g;
+    }
+    else {
+        warn "putInternalmetaAttachment($slug) HEAD return code: "
+          . $res->code . "\n";
+        return $res->code;
+    }
+    $self->internalmetadb->clear_headers;
+    $self->internalmetadb->set_header( 'If-Match' => $revision );
+    $self->internalmetadb->type( $args->{type} );
+    $res =
+      $self->internalmetadb->put( "/" . uri_escape_utf8($slug) . "/$filename",
+        $args->{content}, { deserializer => 'application/json' } );
+    if ( $res->code != 201 ) {
+        warn "putInternalmetaAttachment($slug) PUT return code: "
+          . $res->code . "\n";
+        return $res->code;
+    }
+    else {
+        # If successfully attached, add attachment information and upload date.
+        $updatedoc->{'upload'} = $filename;
+        my $url = "/_design/tdr/_update/basic/" . uri_escape_utf8($slug);
+
+        my $res = $self->internalmetadb->post( $url, $updatedoc,
+            { deserializer => 'application/json' } );
+
+        if ( $res->code != 201 && $res->code != 200 ) {
+            warn "$url POST within putInternalmetaAttachment return code: "
+              . $res->code . "\n";
+            return $res->code;
+        }
+    }
+    return;
 }
 
 # Clear out any other document that has this noid (slug has changed)
@@ -521,7 +590,7 @@ sub clearNoidDocument {
     my ( $self, $slug ) = @_;
 
     $self->internalmetadb->type("application/json");
-    my $url = "/" . $self->internalmetadb->database . "/_design/tdr/_view/noid";
+    my $url = "/_design/tdr/_view/noid";
 
     my $res = $self->internalmetadb->post(
         $url,
@@ -544,9 +613,7 @@ sub clearNoidDocument {
 
         my $thisrev = $doc->{doc}->{_rev};
 
-        my $url = "/"
-          . $self->internalmetadb->database . "/"
-          . uri_escape_utf8($thisslug);
+        my $url = "/" . uri_escape_utf8($thisslug);
         my $res2 = $self->internalmetadb->delete( $url, { rev => $thisrev } );
 
         if ( $res->code != 200 ) {
@@ -573,8 +640,8 @@ sub findCollections {
     while (@lookupnoid) {
         my $noid = shift @lookupnoid;
 
-        my $foundcollections = $self->accessdb->getCollections($noid);
-        die "Can't getCollections()\n" if ( !$foundcollections );
+        my $foundcollections = $self->getAccessCollections($noid);
+        die "Can't getAccessCollections()\n" if ( !$foundcollections );
 
         foreach my $collection ( @{$foundcollections} ) {
             if ( !exists $collections{ $collection->{'id'} } ) {
@@ -585,7 +652,7 @@ sub findCollections {
     }
 
     foreach my $collection ( keys %collections ) {
-        my $slim = $self->accessdb->getSlim($collection);
+        my $slim = $self->getAccessSlim($collection);
 
         if ( exists $slim->{slug} ) {
             my $slug = $slim->{slug};
@@ -608,6 +675,101 @@ sub getIIIFText {
         if ( exists $text->{$try} ) {
             return $text->{$try};
         }
+    }
+}
+
+sub getCanvasDocuments {
+    my ( $self, $docids ) = @_;
+
+    $self->canvasdb->type("application/json");
+    my $url = "/_all_docs?include_docs=true";
+    my $res = $self->canvasdb->post(
+        $url,
+        { keys         => $docids },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code == 200 ) {
+        my @return;
+        foreach my $row ( @{ $res->data->{rows} } ) {
+            if ( exists $row->{doc} ) {
+                push @return, $row->{doc};
+            }
+            else {
+                warn "Key: "
+                  . $row->{key}
+                  . "   Error: "
+                  . $row->{error} . "\n";
+                push @return, undef;
+            }
+        }
+        return \@return;
+    }
+    else {
+        warn "POST $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub getAccessDocument {
+    my ( $self, $docid ) = @_;
+
+    $self->accessdb->type("application/json");
+    my $url = "/$docid";
+    my $res =
+      $self->accessdb->get( $url, {}, { deserializer => 'application/json' } );
+    if ( $res->code == 200 ) {
+        return $res->data;
+    }
+    else {
+        warn "GET $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub getAccessSlim {
+    my ( $self, $docid ) = @_;
+
+    $self->accessdb->type("application/json");
+    my $url = "/_find";
+    my $res = $self->accessdb->post(
+        $url,
+        {
+            "selector" => {
+                "_id" => {
+                    '$eq' => $docid
+                }
+            },
+            "fields" => [ "slug", "behavior" ]
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code == 200 ) {
+        return pop @{ $res->data->{docs} };
+    }
+    else {
+        warn "GET $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub getAccessCollections {
+    my ( $self, $docid ) = @_;
+
+    $self->accessdb->type("application/json");
+    my $url = "/_design/access/_view/members";
+    my $res = $self->accessdb->post(
+        $url,
+        { keys         => [$docid] },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code == 200 ) {
+        return $res->data->{rows};
+    }
+    else {
+        warn "POST $url keys=[$docid] return code: "
+          . $res->code . "("
+          . $res->error . ")\n";
+        return;
     }
 }
 

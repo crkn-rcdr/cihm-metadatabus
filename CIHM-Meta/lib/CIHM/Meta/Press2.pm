@@ -5,13 +5,11 @@ use Carp;
 use Config::General;
 use Log::Log4perl;
 
-use CIHM::Meta::REST::internalmeta;
-use CIHM::Meta::REST::extrameta;
-use CIHM::Meta::REST::cosearch;
-use CIHM::Meta::REST::copresentation;
 use CIHM::Meta::Press2::Process;
 use Try::Tiny;
 use JSON;
+use URI::Escape;
+use Data::Dumper;
 
 =head1 NAME
 
@@ -26,9 +24,15 @@ been modified since the most recent date this tool has processed a document.
     my $press = CIHM::Meta::Press2->new($args);
       where $args is a hash of arguments.
 
-      $args->{configpath} is as used by Config::General
-
 =cut
+
+{
+
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
 
 sub new {
     my ( $class, $args ) = @_;
@@ -42,68 +46,64 @@ sub new {
     Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
     $self->{logger} = Log::Log4perl::get_logger("CIHM::TDR");
 
-    my %confighash =
-      new Config::General( -ConfigFile => $args->{configpath}, )->getall;
-
     $self->{dbconf} = {};
 
-    # Undefined if no <internalmeta> config block
-    if ( exists $confighash{internalmeta2} ) {
-        $self->{internalmeta2} = new CIHM::Meta::REST::internalmeta(
-            server      => $confighash{internalmeta2}{server},
-            database    => $confighash{internalmeta2}{database},
-            type        => 'application/json',
-            conf        => $self->configpath,
-            clientattrs => { timeout => 3600 }
-        );
-    }
-    else {
-        croak "Missing <internalmeta> configuration block in config\n";
+    $self->{internalmeta2} = restclient->new(
+        server      => $args->{couchdb_internalmeta2},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->internalmeta2->set_persistent_header(
+        'Accept' => 'application/json' );
+
+    my $test = $self->internalmeta2->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to internalmeta2 Couchdb database: "
+          . $args->{couchdb_internalmeta2}
+          . " Check configuration\n";
     }
 
-    # Undefined if no <extrameta> config block
-    if ( exists $confighash{extrameta} ) {
-        $self->{extrameta} = new CIHM::Meta::REST::extrameta(
-            server      => $confighash{extrameta}{server},
-            database    => $confighash{extrameta}{database},
-            type        => 'application/json',
-            conf        => $self->configpath,
-            clientattrs => { timeout => 3600 }
-        );
-    }
-    else {
-        croak "Missing <extrameta> configuration block in config\n";
-    }
-
-    # Undefined if no <cosearch> config block
-    if ( exists $confighash{cosearch2} ) {
-        $self->{cosearch2} = new CIHM::Meta::REST::cosearch(
-            server      => $confighash{cosearch2}{server},
-            database    => $confighash{cosearch2}{database},
-            type        => 'application/json',
-            conf        => $self->configpath,
-            clientattrs => { timeout => 3600 }
-        );
-    }
-    else {
-        croak "Missing <cosearch2> configuration block in config\n";
+    $self->{extrameta} = restclient->new(
+        server      => $args->{couchdb_extrameta},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->extrameta->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->extrameta->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to extrameta Couchdb database: "
+          . $args->{couchdb_extrameta}
+          . " Check configuration\n";
     }
 
-    # Undefined if no <copresentation> config block
-    if ( exists $confighash{copresentation2} ) {
-        $self->{copresentation2} = new CIHM::Meta::REST::copresentation(
-            server      => $confighash{copresentation2}{server},
-            database    => $confighash{copresentation2}{database},
-            type        => 'application/json',
-            conf        => $self->configpath,
-            clientattrs => { timeout => 3600 }
-        );
-    }
-    else {
-        croak "Missing <copresentation2> configuration block in config\n";
+    $self->{cosearch2} = restclient->new(
+        server      => $args->{couchdb_cosearch2},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->cosearch2->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->cosearch2->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to cosearch2 Couchdb database: "
+          . $args->{couchdb_cosearch2}
+          . " Check configuration\n";
     }
 
-    $self->{argsaip}        = delete $args->{aip};
+    $self->{copresentation2} = restclient->new(
+        server      => $args->{couchdb_copresentation2},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->copresentation2->set_persistent_header(
+        'Accept' => 'application/json' );
+    $test = $self->copresentation2->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to copresentation2 Couchdb database: "
+          . $args->{couchdb_copresentation2}
+          . " Check configuration\n";
+    }
+
+    $self->{argsaip} = $args->{aip};
     return $self;
 }
 
@@ -116,11 +116,6 @@ sub args {
 sub aip {
     my $self = shift;
     return $self->{aip};
-}
-
-sub configpath {
-    my $self = shift;
-    return $self->{args}->{configpath};
 }
 
 sub skip {
@@ -161,9 +156,7 @@ sub copresentation2 {
 sub Press {
     my ($self) = @_;
 
-    $self->log->info( "Press time: conf="
-          . $self->configpath
-          . " skip="
+    $self->log->info( "Press skip="
           . $self->skip
           . " descending="
           . ( $self->descending ? "true" : "false" ) );
@@ -237,10 +230,7 @@ sub getNextAIP {
     }
 
     $self->internalmeta2->type("application/json");
-    my $url = "/"
-      . $self->internalmeta2->database
-      . "/_design/tdr/_view/pressq?reduce=false&limit=1"
-      . $extraparam;
+    my $url = "/_design/tdr/_view/pressq?reduce=false&limit=1" . $extraparam;
     my $res = $self->internalmeta2->get( $url, {},
         { deserializer => 'application/json' } );
     if ( $res->code == 200 ) {
@@ -258,8 +248,10 @@ sub getNextAIP {
 sub postResults {
     my ( $self, $aip, $status, $message ) = @_;
 
-    $self->internalmeta2->update_basic(
-        $aip,
+    $self->internalmeta2->type("application/json");
+    my $url = "/_design/tdr/_update/basic/" . uri_escape_utf8($aip);
+    my $res = $self->internalmeta2->post(
+        $url,
         {
             "press" => encode_json(
                 {
@@ -267,8 +259,14 @@ sub postResults {
                     "message" => $message
                 }
             )
-        }
+        },
+        { deserializer => 'application/json' }
     );
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        warn "$url POST return code: " . $res->code . "\n";
+    }
+
 }
 
 1;

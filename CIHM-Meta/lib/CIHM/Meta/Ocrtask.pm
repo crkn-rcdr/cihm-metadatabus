@@ -19,7 +19,7 @@ CIHM::Meta::Ocrtask - Process image exports from, and OCR data imports to, the A
 
 =head1 SYNOPSIS
 
-    my $dmdtask = CIHM::Meta::Omdtask->new($args);
+    my $ocrtask = CIHM::Meta::Omdtask->new($args);
       where $args is a hash of arguments.
 
 
@@ -30,7 +30,7 @@ sub new {
     my $self = bless {}, $class;
 
     if ( ref($args) ne "HASH" ) {
-        die "Argument to CIHM::Meta::Hammer2->new() not a hash\n";
+        die "Argument to CIHM::Meta::Ocrtask->new() not a hash\n";
     }
     $self->{args} = $args;
 
@@ -95,7 +95,7 @@ sub maxprocs {
 sub ocrtask {
     my ($self) = @_;
 
-    $self->log->info( "Dmdtask maxprocs=" . $self->maxprocs );
+    $self->log->info( "Ocrtask maxprocs=" . $self->maxprocs );
 
     $self->ocrtaskdb->type("application/json");
     my $url =

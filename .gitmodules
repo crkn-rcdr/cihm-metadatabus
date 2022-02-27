@@ -1,6 +1,3 @@
-[submodule "CIHM-TDR"]
-	path = CIHM-TDR
-	url = git@github.com:crkn-rcdr/CIHM-TDR.git
 [submodule "CIHM-Swift"]
 	path = CIHM-Swift
 	url = git@github.com:crkn-rcdr/CIHM-Swift.git

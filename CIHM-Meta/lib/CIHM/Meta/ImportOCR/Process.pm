@@ -46,6 +46,11 @@ sub args {
     return $self->{args};
 }
 
+sub envargs {
+    my $self = shift;
+    return $self->args->{args};
+}
+
 sub aip {
     my $self = shift;
     return $self->args->{aip};
@@ -54,11 +59,6 @@ sub aip {
 sub log {
     my $self = shift;
     return $self->args->{log};
-}
-
-sub noidsrv {
-    my $self = shift;
-    return $self->args->{noidsrv};
 }
 
 sub canvasdb {
@@ -88,17 +88,17 @@ sub swift {
 
 sub access_metadata {
     my $self = shift;
-    return $self->args->{access_metadata};
+    return $self->envargs->{access_metadata};
 }
 
 sub access_files {
     my $self = shift;
-    return $self->args->{access_files};
+    return $self->envargs->{access_files};
 }
 
 sub preservation_files {
     my $self = shift;
-    return $self->args->{preservation_files};
+    return $self->envargs->{preservation_files};
 }
 
 sub xml {
@@ -376,9 +376,7 @@ sub ocrCanvases {
 
     # Look up existing canvases.
     my $res = $self->canvasdb->post(
-        "/"
-          . $self->canvasdb->database
-          . "/_design/access/_view/cihmsource?reduce=false&include_docs=true",
+        "/_design/access/_view/cihmsource?reduce=false&include_docs=true",
         { keys         => \@lookup },
         { deserializer => 'application/json' }
     );
@@ -688,8 +686,7 @@ sub ocrCanvases {
 
                 push @updateids, $noid;
 
-                my $data =
-                  $self->canvasdb->put_document( uri_escape($noid), $canvas );
+                my $data = $self->canvasPutDocument( $noid, $canvas );
                 die "Put of canvas $noid failed\n" if !$data;
             }
 
@@ -704,9 +701,7 @@ sub ocrCanvases {
     if ($updatecount) {
 
         # Look up what manifests these canvases are in
-        my $url = "/"
-          . $self->accessdb->database
-          . "/_design/noid/_view/canvasnoids?reduce=false";
+        my $url = "/_design/noid/_view/canvasnoids?reduce=false";
         my $res = $self->accessdb->post(
             $url,
             { keys         => \@updateids },
@@ -726,10 +721,8 @@ sub ocrCanvases {
 
         # And force those manifests to be processed
         foreach my $accessid ( keys %foundaccess ) {
-            my $url = "/"
-              . $self->accessdb->database
-              . "/_design/access/_update/forceUpdate/"
-              . uri_escape($accessid);
+            my $url =
+              "/_design/access/_update/forceUpdate/" . uri_escape($accessid);
             my $res = $self->accessdb->post( $url, {},
                 { deserializer => 'application/json' } );
             if ( $res->code != 201 ) {
@@ -783,8 +776,7 @@ sub loadFileMeta {
 sub loadDipDoc {
     my $self = shift;
 
-    my $url =
-      "/" . $self->dipstagingdb->database . "/" . uri_escape( $self->aip );
+    my $url = "/" . uri_escape( $self->aip );
     my $res =
       $self->dipstagingdb->get( $url, {},
         { deserializer => 'application/json' } );
@@ -798,6 +790,22 @@ sub loadDipDoc {
           . $res->code . "\n";
     }
     $self->{dipdoc} = $res->data;
+}
+
+sub canvasPutDocument {
+    my ( $self, $docid, $document ) = @_;
+
+    $self->canvasdb->type("application/json");
+    my $url = "/" . uri_escape($docid);
+    my $res = $self->canvasdb->put( $url, $document,
+        { deserializer => 'application/json' } );
+    if ( $res->code == 201 ) {
+        return $res->data;
+    }
+    else {
+        warn "PUT $url return code: " . $res->code . "\n";
+        return;
+    }
 }
 
 1;
