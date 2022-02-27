@@ -2,10 +2,8 @@ package CIHM::Meta::Smelter;
 
 use strict;
 use Carp;
-use Config::General;
 use Log::Log4perl;
 
-use CIHM::Meta::REST::dipstaging;
 use CIHM::Meta::Smelter::Worker;
 
 use Coro::Semaphore;
@@ -25,8 +23,6 @@ CIHM::Meta::Smelter - Extract metadata from CIHM repository and add to 2020+ des
 
     my $smelter = CIHM::Meta::Smelter->new($args);
       where $args is a hash of arguments.
-
-      $args->{configpath} is as used by Config::General
 
 =cut
 
@@ -66,21 +62,91 @@ sub new {
     Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
     $self->{logger} = Log::Log4perl::get_logger("CIHM::TDR");
 
-    my %confighash =
-      new Config::General( -ConfigFile => $args->{configpath}, )->getall;
-
-    # Undefined if no <internalmeta> config block
-    if ( exists $confighash{dipstaging} ) {
-        $self->{dipstaging} = new CIHM::Meta::REST::dipstaging(
-            server      => $confighash{dipstaging}{server},
-            database    => $confighash{dipstaging}{database},
-            type        => 'application/json',
-            conf        => $args->{configpath},
-            clientattrs => { timeout => 3600 },
-        );
+    $self->{accessdb} = new restclient(
+        server      => $args->{couchdb_access},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->accessdb->set_persistent_header( 'Accept' => 'application/json' );
+    my $test = $self->accessdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `access` Couchdb database. Check configuration\n";
     }
-    else {
-        croak "Missing <dipstaging> configuration block in config\n";
+
+    $self->{canvasdb} = new restclient(
+        server      => $args->{couchdb_canvas},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->canvasdb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->canvasdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `canvas` Couchdb database. Check configuration\n";
+    }
+
+    $self->{dipstagingdb} = new restclient(
+        server      => $args->{couchdb_dipstaging},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->dipstagingdb->set_persistent_header(
+        'Accept' => 'application/json' );
+    $test = $self->dipstagingdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `dipstaging` Couchdb database. Check configuration\n";
+    }
+
+    $self->{cantaloupe} = new CIHM::Meta::REST::cantaloupe(
+        url         => $args->{iiif_image_server},
+        jwt_secret  => $args->{iiif_image_password},
+        jwt_payload => '{"uids":[".*"]}',
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $test = $self->cantaloupe->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to Cantaloupe Server. Check configuration\n";
+    }
+
+    my %swiftopt = ( furl_options => { timeout => 3600 } );
+    foreach ( "server", "user", "password", "account" ) {
+        if ( exists $args->{ "swift_" . $_ } ) {
+            $swiftopt{$_} = $args->{ "swift_" . $_ };
+        }
+    }
+    $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
+
+    $test = $self->swift->container_head( $self->access_metadata );
+    if ( !$test || $test->code != 204 ) {
+        die "Problem connecting to Swift container"
+          . $self->access_metadata
+          . ". Check configuration\n";
+    }
+    $test = $self->swift->container_head( $self->access_files );
+    if ( !$test || $test->code != 204 ) {
+        die "Problem connecting to Swift container"
+          . $self->access_files
+          . ". Check configuration\n";
+    }
+    $test = $self->swift->container_head( $self->preservation_files );
+    if ( !$test || $test->code != 204 ) {
+        die "Problem connecting to Swift container"
+          . $self->preservation_files
+          . ". Check configuration\n";
+    }
+
+    $self->{noidsrv} = new restclient(
+        server      => $args->{noid_server},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->noidsrv->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->noidsrv->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to Noid server. Check configuration\n";
     }
 
     return $self;
@@ -92,9 +158,19 @@ sub args {
     return $self->{args};
 }
 
-sub configpath {
+sub access_metadata {
     my $self = shift;
-    return $self->{args}->{configpath};
+    return $self->args->{access_metadata};
+}
+
+sub access_files {
+    my $self = shift;
+    return $self->args->{access_files};
+}
+
+sub preservation_files {
+    my $self = shift;
+    return $self->args->{preservation_files};
 }
 
 sub skip {
@@ -127,17 +203,40 @@ sub log {
     return $self->{logger};
 }
 
-sub dipstaging {
+sub accessdb {
     my $self = shift;
-    return $self->{dipstaging};
+    return $self->{accessdb};
+}
+
+sub canvasdb {
+    my $self = shift;
+    return $self->{canvasdb};
+}
+
+sub dipstagingdb {
+    my $self = shift;
+    return $self->{dipstagingdb};
+}
+
+sub cantaloupe {
+    my $self = shift;
+    return $self->{cantaloupe};
+}
+
+sub swift {
+    my $self = shift;
+    return $self->{swift};
+}
+
+sub noidsrv {
+    my $self = shift;
+    return $self->{noidsrv};
 }
 
 sub smelter {
     my ($self) = @_;
 
-    $self->log->info( "Smelter: conf="
-          . $self->configpath
-          . " skip="
+    $self->log->info( "Smelter skip="
           . $self->skip
           . " limit="
           . $self->limit
@@ -168,7 +267,7 @@ sub smelter {
         $sem->down;
         $pool->(
             $aip,
-            $self->configpath,
+            encode_json $self->args,
             sub {
                 my $aip = shift;
                 $sem->up;
@@ -207,14 +306,13 @@ sub getNextAIP {
         $descparam = "&descending=true";
     }
 
-    $self->dipstaging->type("application/json");
-    my $url = "/"
-      . $self->dipstaging->database
-      . "/_design/sync/_view/smeltq?reduce=false&limit="
+    $self->dipstagingdb->type("application/json");
+    my $url =
+        "/_design/access/_view/smeltQueue?reduce=false&limit="
       . $self->limit
       . $skipparam
       . $descparam;
-    my $res = $self->dipstaging->get( $url, {},
+    my $res = $self->dipstagingdb->get( $url, {},
         { deserializer => 'application/json' } );
     if ( $res->code == 200 ) {
         if ( exists $res->data->{rows} ) {
@@ -227,7 +325,7 @@ sub getNextAIP {
         }
     }
     else {
-        warn "_view/smeltq GET return code: " . $res->code . "\n";
+        warn "$url GET return code: " . $res->code . "\n";
     }
     return;
 }
