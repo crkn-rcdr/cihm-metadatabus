@@ -1,38 +1,22 @@
 CIHM-Meta
 
-This is a module used by Canadiana to impliment the metadata bus.
-
-Tools:
-
-* hammer - reads METS data from the repository and generates a JSON file
-           stored in the 'internalmeta' couchdb database
-* solrstream - Streams updates in 'cosearch' CouchDB database to Solr.
-* reposync - Keeps 'internalmeta' and 'wipmeta' CouchDB databases current
-             about the public availability of replicas of AIP content
-             in repositories.
-* press  - Checks for 'internalmeta' updates and pushes updates to
-           'cosearch' and 'copresentation' databases.
-
+This is a module used by the Canadian Research Knowledge Network (CRKN) to impliment the metadata bus.
 
 INSTALLATION
 
-To install this module, run the following commands:
+To test this module, run the following commands:
 
 	perl Makefile.PL
 	make
 	make test
-	make install
 
 We run this module from a Docker image built with
-https://github.com/c7a/cihm-metadatabus
+https://github.com/crkn-rcdr/cihm-metadatabus
 
 SUPPORT AND DOCUMENTATION
 
-  https://github.com/c7a/CIHM-Meta has an issue tracker which should be
+  https://github.com/c7a/cihm-metadatabus has an issue tracker which should be
   used for any questions.
-
-  https://github.com/c7a/CIHM-Meta/blob/master/HISTORY.md contains
-  a note about the history of this module.
 
 
 LICENSE AND COPYRIGHT
