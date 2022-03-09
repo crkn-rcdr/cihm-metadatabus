@@ -29,6 +29,7 @@ fi
 TAG=`date -u +"%Y%m%d%H%M%S"`
 
 DISTIMAGE="docker.c7a.ca/cihm-metadatabus${IMAGEEXT}:$TAG"
+DISTLATEST="docker.c7a.ca/cihm-metadatabus${IMAGEEXT}:latest"
 
 echo
 echo "Tagging cihm-metadatabus:latest as $DISTIMAGE"
@@ -40,9 +41,27 @@ if [ "$?" -ne "0" ]; then
 fi
 
 echo
+echo "Tagging cihm-metadatabus:latest as $DISTLATEST"
+
+docker tag cihm-metadatabus:latest $DISTLATEST
+
+if [ "$?" -ne "0" ]; then
+  exit $?
+fi
+
+echo
 echo "Pushing $DISTIMAGE"
 
 docker push $DISTIMAGE
+
+if [ "$?" -ne "0" ]; then
+  exit $?
+fi
+
+echo
+echo "Pushing $DISTLATEST"
+
+docker push $DISTLATEST
 
 if [ "$?" -ne "0" ]; then
   exit $?
