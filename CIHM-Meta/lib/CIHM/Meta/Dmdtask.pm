@@ -158,7 +158,6 @@ sub dmdtask {
         $somework = 1;
         $self->{doc} = $task;
         $self->handleTask();
-        return;
     }
     if ($somework) {
         $self->log->info("Finished.");
