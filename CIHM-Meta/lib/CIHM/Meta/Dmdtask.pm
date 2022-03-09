@@ -274,7 +274,6 @@ sub handleTask {
             $self->store_xml();
             $self->validate_xml();
             $self->store_flatten();
-
         }
     }
     catch {
@@ -307,13 +306,17 @@ sub postResults {
 
     if ( $res->code != 201 && $res->code != 200 ) {
         if ( exists $res->{message} ) {
-            $self->log->info( $taskid . ": " . $res->{message} );
+            $self->log->info( $taskid . ": message=" . $res->{message} );
         }
         if ( exists $res->{content} ) {
-            $self->log->info( $taskid . ": " . $res->{content} );
+            $self->log->info( $taskid . ": content=" . $res->{content} );
         }
         if ( exists $res->{error} ) {
-            $self->log->error( $taskid . ": " . $res->{error} );
+            $self->log->error( $taskid . ": error=" . $res->{error} );
+        }
+        if ( ( ref $res->data eq "HASH" ) && ( exists $res->data->{error} ) ) {
+            $self->log->error(
+                $taskid . ": data error=" . $res->data->{error} );
         }
         $self->log->info( $taskid . ": $url POST return code: " . $res->code );
     }
@@ -537,6 +540,9 @@ sub extractissueinfo_csv {
         push @{ $self->xml }, $doc->toString(0);
 
         $item{'label'} = $row->[ $headers{'label'}[0]->{'index'} ];
+        if (!$item{'label'}) {
+            $item{'label'} = '[unknown]';
+        }
 
         $item{message} .= $self->warnings;
 
