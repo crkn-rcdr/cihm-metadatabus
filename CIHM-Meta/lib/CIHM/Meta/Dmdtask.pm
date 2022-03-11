@@ -240,7 +240,32 @@ sub handleTask {
             && ( ref $self->doc->{items} ) eq 'ARRAY' )
         {
             $self->{items} = $self->doc->{items};
-            warn "Storing not yet supported..  Doing nothing...\n";
+            for (
+                my $index = 0 ;
+                $index < scalar( @{ $self->doc->{items} } ) ;
+                $index++
+              )
+            {
+                my $item = $self->items->[$index];
+                if (
+                       exists $item->{shouldStore}
+                    && $item->{shouldStore} == JSON::true
+                    && ( !exists $item->{stored}
+                        || $item->{stored} != JSON::true )
+                  )
+                {
+
+                    switch ( $item->{destination} ) {
+                        case "access" { $self->storeAccess( $index, $item ); }
+                        case "preservation" {
+                            $self->storePreservation( $index, $item );
+                        }
+                        else {
+                            warn "Destination Unknown!";
+                        }
+                    }
+                }
+            }
         }
         else {
             # Clean out old output attachments if they exist
@@ -283,6 +308,25 @@ sub handleTask {
     $self->postResults( $taskid, $status, $self->{message} );
 
     return ($taskid);
+}
+
+sub storeAccess {
+    my ( $self, $index, $item ) = @_;
+
+    my $id    = $item->{id};
+    my $label = $item->{label};
+    warn
+"Would have stored index=$index with label=$label into Access at id=$id\n";
+}
+
+sub storePreservation {
+    my ( $self, $index, $item ) = @_;
+
+    my $id    = $item->{id};
+    my $label = $item->{label};
+    warn
+"Would have stored index=$index with label=$label into Preservation at id=$id\n";
+
 }
 
 sub postResults {
@@ -539,7 +583,7 @@ sub extractissueinfo_csv {
         push @{ $self->xml }, $doc->toString(0);
 
         $item{'label'} = $row->[ $headers{'label'}[0]->{'index'} ];
-        if (!$item{'label'}) {
+        if ( !$item{'label'} ) {
             $item{'label'} = '[unknown]';
         }
 
