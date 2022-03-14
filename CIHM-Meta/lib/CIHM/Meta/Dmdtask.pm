@@ -418,7 +418,7 @@ sub pagedStore {
                 foreach my $i ( $index .. $last ) {
                     my $id = $items->[$i]->{item}->{id};
 
-                    print Dumper( $docs{$id}, $items->[$i] );
+                    # print Dumper( $docs{$id}, $items->[$i] );
 
                     $self->addStorageResult( $items->[$i]->{index},
                         JSON::true );
@@ -450,7 +450,36 @@ sub addStorageResult {
 sub updateStorageResults {
     my ($self) = @_;
 
-    print Dumper ( $self->{storageresult} );
+    my $taskid = $self->taskid;
+
+    my ( $res, $code, $data );
+
+    #  Post directly as JSON data (Different from other couch databases)
+    $self->dmdtaskdb->type("application/json");
+    my $url = "/_design/access/_update/updateStorageResults/"
+      . uri_escape_utf8($taskid);
+    $res = $self->dmdtaskdb->post(
+        $url,
+        $self->{storageresult},
+        { deserializer => 'application/json' }
+    );
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        if ( exists $res->{message} ) {
+            $self->log->info( $taskid . ": message=" . $res->{message} );
+        }
+        if ( exists $res->{content} ) {
+            $self->log->info( $taskid . ": content=" . $res->{content} );
+        }
+        if ( exists $res->{error} ) {
+            $self->log->error( $taskid . ": error=" . $res->{error} );
+        }
+        if ( ( ref $res->data eq "HASH" ) && ( exists $res->data->{error} ) ) {
+            $self->log->error(
+                $taskid . ": data error=" . $res->data->{error} );
+        }
+        $self->log->info( $taskid . ": $url POST return code: " . $res->code );
+    }
 
     $self->{storageresult} = [];
 }
