@@ -22,6 +22,7 @@ COUCHDB_DMDTASK=http://iris.tor.c7a.ca:5984/dmdtask
 COUCHDB_EXTRAMETA=http://iris.tor.c7a.ca:5984/extrameta
 COUCHDB_INTERNALMETA2=http://iris.tor.c7a.ca:5984/internalmeta2
 COUCHDB_OCRTASK=http://iris.tor.c7a.ca:5984/ocr
+COUCHDB_WIPMETA=http://iris.tor.c7a.ca:5984/wipmeta
 
 # NOID server
 NOID_server=http://noid.c7a.ca
