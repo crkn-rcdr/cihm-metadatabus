@@ -61,6 +61,19 @@ sub new {
     }
 
     # Connect to CouchDB
+    $self->{accessdb} = new restclient(
+        server      => $args->{couchdb_access},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->accessdb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->accessdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to Couchdb database="
+          . $args->{couchdb_access}
+          . " Check configuration\n";
+    }
+
     $self->{dmdtaskdb} = new restclient(
         server      => $args->{couchdb_dmdtask},
         type        => 'application/json',
@@ -69,7 +82,22 @@ sub new {
     $self->dmdtaskdb->set_persistent_header( 'Accept' => 'application/json' );
     $test = $self->dmdtaskdb->head("/");
     if ( !$test || $test->code != 200 ) {
-        die "Problem connecting to Couchdb database. Check configuration\n";
+        die "Problem connecting to Couchdb database="
+          . $args->{couchdb_dmdtask}
+          . " Check configuration\n";
+    }
+
+    $self->{wipmetadb} = new restclient(
+        server      => $args->{couchdb_wipmeta},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->wipmetadb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->wipmetadb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to Couchdb database="
+          . $args->{couchdb_wipmeta}
+          . " Check configuration\n";
     }
 
     # Set up in-progress hash (Used to determine which AIPs which are being
@@ -78,8 +106,9 @@ sub new {
 
     $self->{flatten} = CIHM::Meta::dmd::flatten->new;
 
-    $self->{items} = [];
-    $self->{xml}   = [];
+    $self->{items}         = [];
+    $self->{xml}           = [];
+    $self->{storageresult} = [];
 
     return $self;
 }
@@ -98,9 +127,9 @@ sub args {
     return $self->{args};
 }
 
-sub maxprocs {
+sub pagesize {
     my $self = shift;
-    return $self->args->{maxprocs};
+    return $self->args->{pagesize};
 }
 
 sub log {
@@ -108,9 +137,19 @@ sub log {
     return $self->args->{logger};
 }
 
+sub accessdb {
+    my $self = shift;
+    return $self->{accessdb};
+}
+
 sub dmdtaskdb {
     my $self = shift;
     return $self->{dmdtaskdb};
+}
+
+sub wipmetadb {
+    my $self = shift;
+    return $self->{wipmetadb};
 }
 
 sub access_metadata {
@@ -151,7 +190,7 @@ sub flatten {
 sub dmdtask {
     my ($self) = @_;
 
-    $self->log->info( "Dmdtask maxprocs=" . $self->maxprocs );
+    $self->log->info("Dmdtask");
 
     my $somework;
     while ( my $task = $self->getNextID() ) {
@@ -239,6 +278,8 @@ sub handleTask {
         if (   ( defined $self->doc->{items} )
             && ( ref $self->doc->{items} ) eq 'ARRAY' )
         {
+            my @preservationItems;
+            my @accessItems;
             $self->{items} = $self->doc->{items};
             for (
                 my $index = 0 ;
@@ -256,9 +297,13 @@ sub handleTask {
                 {
 
                     switch ( $item->{destination} ) {
-                        case "access" { $self->storeAccess( $index, $item ); }
+                        case "access" {
+                            push @accessItems,
+                              { index => $index, item => $item };
+                        }
                         case "preservation" {
-                            $self->storePreservation( $index, $item );
+                            push @preservationItems,
+                              { index => $index, item => $item };
                         }
                         else {
                             warn "Destination Unknown!";
@@ -266,6 +311,8 @@ sub handleTask {
                     }
                 }
             }
+            $self->pagedStore( "access",       \@accessItems );
+            $self->pagedStore( "preservation", \@preservationItems );
         }
         else {
             # Clean out old output attachments if they exist
@@ -310,23 +357,102 @@ sub handleTask {
     return ($taskid);
 }
 
-sub storeAccess {
-    my ( $self, $index, $item ) = @_;
+sub pagedStore {
+    my ( $self, $destination, $items ) = @_;
 
-    my $id    = $item->{id};
-    my $label = $item->{label};
-    warn
-"Would have stored index=$index with label=$label into Access at id=$id\n";
+    # Page thorough items
+    for (
+        my $index = 0 ;
+        $index < scalar( @{$items} ) ;
+        $index += $self->pagesize
+      )
+    {
+        my $last = $index + ( $self->pagesize ) - 1;
+        if ( $last >= scalar( @{$items} ) ) {
+            $last = scalar( @{$items} ) - 1;
+        }
+
+        my @ids;
+        foreach my $i ( $index .. $last ) {
+            push @ids, $items->[$i]->{item}->{id};
+        }
+
+        # Use Boolean for which of "access" or "preservation"
+        # Would need to change if a third destination was created.
+        my $da = ( $destination eq "access" );
+
+        my $res;
+        if ($da) {
+            $res = $self->accessdb->post(
+                "/_design/access/_view/slug",
+                {
+                    keys         => \@ids,
+                    include_docs => JSON::true
+                },
+                { deserializer => 'application/json' }
+            );
+        }
+        else {
+            $res = $self->wipmetadb->post(
+                "/_all_docs",
+                {
+                    keys         => \@ids,
+                    include_docs => JSON::true
+                },
+                { deserializer => 'application/json' }
+            );
+        }
+        if ($res) {
+            if ( $res->code == 200 ) {
+                my %docs;
+                foreach my $row ( @{ $res->data->{rows} } ) {
+                    if ( defined $row->{doc} ) {
+                        $docs{
+                              $da
+                            ? $row->{doc}->{'slug'}
+                            : $row->{doc}->{'_id'}
+                        } = $row->{doc};
+                    }
+                }
+
+                foreach my $i ( $index .. $last ) {
+                    my $id = $items->[$i]->{item}->{id};
+
+                    print Dumper( $docs{$id}, $items->[$i] );
+
+                    $self->addStorageResult( $items->[$i]->{index},
+                        JSON::true );
+
+                }
+
+                # Update work so far in the task document.
+                $self->updateStorageResults();
+
+            }    # It wasn't a 200 return from getting the documents...
+            else {
+                if ( defined $res->response->content ) {
+                    warn $res->response->content . "\n";
+                }
+                die "Lookups of IDs for destination=$destination return code: "
+                  . $res->code . "\n";
+            }
+        }
+    }
 }
 
-sub storePreservation {
-    my ( $self, $index, $item ) = @_;
+sub addStorageResult {
+    my ( $self, $index, $status ) = @_;
 
-    my $id    = $item->{id};
-    my $label = $item->{label};
-    warn
-"Would have stored index=$index with label=$label into Preservation at id=$id\n";
+    push @{ $self->{storageresult} }, [ $index, $status ];
 
+}
+
+sub updateStorageResults {
+    my ($self) = @_;
+
+    print Dumper ( $self->{storageresult} );
+
+    $self->{storageresult} = [];
 }
 
 sub postResults {
@@ -473,6 +599,9 @@ sub extractissueinfo_csv {
       or die "Cannot read $tempname: $!\n";
 
     my $headerline = $csv->getline($fh);
+    if ( !$headerline ) {
+        die "Missing header line in CSV file\n";
+    }
 
     # Create hash from headerline
     my %headers;

@@ -16,8 +16,8 @@ my $logger = Log::Log4perl::get_logger("CIHM::TDR");
 my $lockfile = '/var/lock/tdr/dmdtask';
 $lockfile = $ENV{dmdtask_lockfile} if ( exists $ENV{dmdtask_lockfile} );
 
-my $maxprocs = 4;
-$maxprocs = $ENV{dmdtask_maxprocs} if ( exists $ENV{dmdtask_maxprocs} );
+my $pagesize = 40;
+$pagesize = $ENV{dmdtask_pagesize} if ( exists $ENV{dmdtask_pagesize} );
 
 my $swift_server;
 $swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
@@ -35,18 +35,26 @@ my $swift_access_metadata;
 $swift_access_metadata = $ENV{SWIFT_access_metadata}
   if ( exists $ENV{SWIFT_access_metadata} );
 
+my $couchdb_access;
+$couchdb_access = $ENV{COUCHDB_ACCESS} if ( exists $ENV{COUCHDB_ACCESS} );
+
 my $couchdb_dmdtask;
 $couchdb_dmdtask = $ENV{COUCHDB_DMDTASK} if ( exists $ENV{COUCHDB_DMDTASK} );
 
+my $couchdb_wipmeta;
+$couchdb_wipmeta = $ENV{COUCHDB_WIPMETA} if ( exists $ENV{COUCHDB_WIPMETA} );
+
 GetOptions(
     'lockfile:s'              => \$lockfile,
-    'maxprocs:i'              => \$maxprocs,
+    'pagesize:i'              => \$pagesize,
     'swift_server:s'          => \$swift_server,
     'swift_user:s'            => \$swift_user,
     'swift_password:s'        => \$swift_password,
     'swift_account:s'         => \$swift_account,
     'swift_access_metadata:s' => \$swift_access_metadata,
+    'couchdb_access:s'        => \$couchdb_access,
     'couchdb_dmdtask:s'       => \$couchdb_dmdtask,
+    'couchdb_wipmeta:s'       => \$couchdb_wipmeta,
 );
 
 # Only allow one instance to run at a time..
@@ -62,13 +70,15 @@ $couchdb_dmdtask = noEndSlash($couchdb_dmdtask);
 try {
     CIHM::Meta::Dmdtask->new(
         {
-            maxprocs              => $maxprocs,
+            pagesize              => $pagesize,
             swift_server          => $swift_server,
             swift_user            => $swift_user,
             swift_password        => $swift_password,
             swift_account         => $swift_account,
             swift_access_metadata => $swift_access_metadata,
+            couchdb_access        => $couchdb_access,
             couchdb_dmdtask       => $couchdb_dmdtask,
+            couchdb_wipmeta       => $couchdb_wipmeta,
             logger                => $logger
         }
     )->dmdtask;
