@@ -164,12 +164,12 @@ sub swift {
 
 sub taskid {
     my $self = shift;
-    return $self->doc->{'_id'} if $self->doc;
+    return $self->document->{'_id'} if $self->document;
 }
 
-sub doc {
+sub document {
     my $self = shift;
-    return $self->{doc};
+    return $self->{document};
 }
 
 sub items {
@@ -195,7 +195,7 @@ sub dmdtask {
     my $somework;
     while ( my $task = $self->getNextID() ) {
         $somework = 1;
-        $self->{doc} = $task;
+        $self->{document} = $task;
         $self->handleTask();
     }
     if ($somework) {
@@ -203,7 +203,7 @@ sub dmdtask {
     }
 }
 
-sub get_document {
+sub getDocument {
     my $self = shift;
 
     $self->dmdtaskdb->type("application/json");
@@ -213,7 +213,7 @@ sub get_document {
     my $res =
       $self->dmdtaskdb->get( $url, {}, { deserializer => 'application/json' } );
     if ( $res->code == 200 ) {
-        $self->{doc} = $res->data;
+        $self->{document} = $res->data;
     }
     else {
         warn "GET $url return code: " . $res->code . "\n";
@@ -221,7 +221,7 @@ sub get_document {
     }
 }
 
-sub put_document {
+sub headDocument {
     my $self = shift;
 
     $self->dmdtaskdb->type("application/json");
@@ -229,11 +229,77 @@ sub put_document {
     my $url = "/" . uri_escape_utf8( $self->taskid );
 
     my $res =
-      $self->dmdtaskdb->put( $url, $self->doc,
+      $self->dmdtaskdb->head( $url, {},
         { deserializer => 'application/json' } );
-    if ( $res->code != 201 ) {
+    if ( $res->code == 200 ) {
+        my $revision = $res->response->header("etag");
+        $revision =~ s/^\"|\"$//g;
+        return $revision;
+    }
+    else {
+        warn "HEAD $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub getAttachment {
+    my ( $self, $attachment ) = @_;
+    my $self = shift;
+
+    $self->dmdtaskdb->type("application/json");
+
+    my $url = "/" . uri_escape_utf8( $self->taskid ) . "/$attachment";
+
+    my $res =
+      $self->dmdtaskdb->get( $url, {}, { deserializer => 'application/json' } );
+    if ( $res->code == 200 ) {
+        return $res->response->content;
+    }
+    else {
+        warn "GET $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub putAttachment {
+    my ( $self, $revision, $name, $type, $data ) = @_;
+    my $self = shift;
+
+    $self->dmdtaskdb->type($type);
+
+    my $url = "/" . uri_escape_utf8( $self->taskid ) . "/$name";
+
+    $self->dmdtaskdb->clear_headers;
+    $self->dmdtaskdb->set_header( 'If-Match' => $revision ) if $revision;
+    $self->dmdtaskdb->type($type);
+
+    my $res =
+      $self->dmdtaskdb->put( $url, $data,
+        { deserializer => 'application/json' } );
+    if ( $res->code == 201 ) {
+        return $res->data->{rev};
+    }
+    else {
+        if ( $res->failed ) {
+            warn "Content: " . $res->response->content;
+        }
         warn "PUT $url return code: " . $res->code . "\n";
         return;
+    }
+}
+
+sub putDocument {
+    my $self = shift;
+
+    $self->dmdtaskdb->type("application/json");
+
+    my $url = "/" . uri_escape_utf8( $self->taskid );
+
+    my $res =
+      $self->dmdtaskdb->put( $url, $self->document,
+        { deserializer => 'application/json' } );
+    if ( $res->code != 201 ) {
+        die "PUT $url return code: " . $res->code . "\n";
     }
 }
 
@@ -275,15 +341,15 @@ sub handleTask {
     try {
         $status = JSON::true;
 
-        if (   ( defined $self->doc->{items} )
-            && ( ref $self->doc->{items} ) eq 'ARRAY' )
+        if (   ( defined $self->document->{items} )
+            && ( ref $self->document->{items} ) eq 'ARRAY' )
         {
             my @preservationItems;
             my @accessItems;
-            $self->{items} = $self->doc->{items};
+            $self->{items} = $self->document->{items};
             for (
                 my $index = 0 ;
-                $index < scalar( @{ $self->doc->{items} } ) ;
+                $index < scalar( @{ $self->document->{items} } ) ;
                 $index++
               )
             {
@@ -318,10 +384,10 @@ sub handleTask {
             # Clean out old output attachments if they exist
             $self->cleanup();
 
-            my $attach = $self->get_attachment();
+            my $attach = $self->getAttachment("metadata");
             die "Missing `metadata` attachment\n" if !$attach;
 
-            switch ( $self->doc->{format} ) {
+            switch ( $self->document->{format} ) {
                 case "csvissueinfo" { $self->extractissueinfo_csv($attach); }
 
                 case "csvdc" { $self->extractdc_csv($attach); }
@@ -418,10 +484,19 @@ sub pagedStore {
                 foreach my $i ( $index .. $last ) {
                     my $id = $items->[$i]->{item}->{id};
 
-                    # print Dumper( $docs{$id}, $items->[$i] );
+                    my $xml = $self->getAttachment("$i.xml");
+                    die "Can't get $i.xml metadata attachment\n";
 
+                    my $response =
+                      $da
+                      ? ( $self->storeAccess( $docs{$id}, $items->[$i], $xml ) )
+                      : (
+                        $self->storePreservation(
+                            $docs{$id}, $items->[$i], $xml
+                        )
+                      );
                     $self->addStorageResult( $items->[$i]->{index},
-                        JSON::true );
+                        $response ? JSON::true : JSON::false );
 
                 }
 
@@ -440,11 +515,31 @@ sub pagedStore {
     }
 }
 
+sub storeAccess {
+    my ( $self, $doc, $item, $xml ) = @_;
+
+    #print Data::Dumper->Dump( [ $doc, $item, $xml ],
+    #    [qw (accessdoc item xml)] );
+
+    return 1;
+}
+
+sub storePreservation {
+    my ( $self, $doc, $item, $xml ) = @_;
+
+    #print Data::Dumper->Dump( [ $doc, $item, $xml ],
+    #    [qw (preservationdoc item xml)] );
+
+    return 1;
+}
+
 sub addStorageResult {
     my ( $self, $index, $status ) = @_;
 
     push @{ $self->{storageresult} }, [ $index, $status ];
 
+    # We store the completed items array at end
+    @{ $self->items }[$index]->{stored} = $status;
 }
 
 sub updateStorageResults {
@@ -545,46 +640,29 @@ sub getNextID {
     return;
 }
 
-sub get_attachment {
-    my ($self) = @_;
-    my ($res);
-
-    $self->dmdtaskdb->clear_headers;
-    $res = $self->dmdtaskdb->get( "/" . $self->taskid . "/metadata",
-        {}, { deserializer => undef } );
-    if ( $res->code != 200 ) {
-        warn "get_attachment("
-          . $self->taskid
-          . "/metadata) GET return code: "
-          . $res->code . "\n";
-        return;
-    }
-    return $res->data;
-}
-
 # Clean up any attachments that might be from previous run
 sub cleanup {
     my ($self) = @_;
 
-    if ( exists $self->doc->{'_attachments'} ) {
+    if ( exists $self->document->{'_attachments'} ) {
         my $modified = 0;
 
-        foreach my $attachment ( keys %{ $self->doc->{'_attachments'} } ) {
+        foreach my $attachment ( keys %{ $self->document->{'_attachments'} } ) {
             if ( $attachment ne 'metadata' ) {
-                delete $self->doc->{'_attachments'}->{$attachment};
+                delete $self->document->{'_attachments'}->{$attachment};
                 $modified = 1;
             }
         }
         if ($modified) {
 
             # In case it exists, might as well...
-            delete $self->doc->{'items'};
+            delete $self->document->{'items'};
 
             # Update the document
-            $self->put_document();
+            $self->putDocument();
 
             # Get a copy of the updated document (with Attachments removed)
-            $self->get_document();
+            $self->getDocument();
         }
     }
 }
@@ -971,16 +1049,16 @@ sub process_marc {
 sub store_xml {
     my ($self) = @_;
 
-    foreach my $index ( 0 .. scalar( @{ $self->xml } ) - 1 ) {
-        $self->doc->{'_attachments'}->{ $index . ".xml" } = {
-            'content_type' => 'application/xml',
-            'data'         => encode_base64( @{ $self->xml }[$index] )
-        };
-    }
-    $self->put_document();
+  # Document is allowed to change in background by web interface, so get latest.
+    $self->getDocument();
 
-    # Get a copy of the updated document (with Attachments as stubs)
-    $self->get_document();
+    my $newrev = $self->putAttachment(
+        $self->document->{'_rev'}, "dmd.json",
+        "application/json",        $self->xml
+    );
+    die "Failure storing dmd.json attachment\n" if !$newrev;
+    $self->document->{'_rev'} = $newrev;
+
 }
 
 sub validate_xml {
@@ -1036,6 +1114,8 @@ sub validate_xml {
 sub store_flatten {
     my ($self) = @_;
 
+    my @flatten;
+
     foreach my $index ( 0 .. scalar( @{ $self->xml } ) - 1 ) {
 
         # Capture warnings
@@ -1045,28 +1125,24 @@ sub store_flatten {
         my $xml  = @{ $self->xml }[$index];
         my $item = @{ $self->items }[$index];
 
-        $self->doc->{'_attachments'}->{ $index . ".json" } = {
-            'content_type' => 'application/json',
-            'data'         => encode_base64(
-                encode_json(
-                    $self->flatten->byType(
-                        $item->{output},
-                        utf8::is_utf8($xml)
-                        ? Encode::encode_utf8($xml)
-                        : $xml
-                    )
-                )
-            )
-        };
+        $flatten[$index] =
+          $self->flatten->byType( $item->{output},
+              utf8::is_utf8($xml)
+            ? Encode::encode_utf8($xml)
+            : $xml );
 
         @{ $self->items }[$index]->{message} .= $self->warnings;
     }
 
-    $self->put_document();
+  # Document is allowed to change in background by web interface, so get latest.
+    $self->getDocument();
 
-    # Get a copy of the updated document (with Attachments as stubs)
-    $self->get_document();
-
+    my $newrev = $self->putAttachment(
+        $self->document->{'_rev'}, "flatten.json",
+        "application/json",        \@flatten
+    );
+    die "Failure storing flatten.json attachment\n" if !$newrev;
+    $self->document->{'_rev'} = $newrev;
 }
 
 1;
