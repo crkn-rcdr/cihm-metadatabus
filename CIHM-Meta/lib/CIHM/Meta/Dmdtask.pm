@@ -193,7 +193,7 @@ sub dmdtask {
     $self->log->info("Dmdtask");
 
     my $somework;
-    while ( my $task = $self->getNextID() ) {
+    while ( my $task = $self->getNextTask() ) {
         $somework = 1;
         $self->{document} = $task;
         $self->handleTask();
@@ -615,14 +615,14 @@ sub postResults {
     }
 }
 
-sub getNextID {
+sub getNextTask {
     my ($self) = @_;
 
     $self->dmdtaskdb->type("application/json");
     my $url = "/_design/access/_view/processQueue";
     my $res = $self->dmdtaskdb->post(
         $url,
-        { reduce       => JSON::false, include_docs => JSON::true },
+        { reduce => JSON::false, include_docs => JSON::true, limit => 1 },
         { deserializer => 'application/json' }
     );
     if ( $res->code == 200 ) {
