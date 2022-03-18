@@ -162,14 +162,19 @@ sub swift {
     return $self->{swift};
 }
 
+sub document {
+    my $self = shift;
+    return $self->{document};
+}
+
 sub taskid {
     my $self = shift;
     return $self->document->{'_id'} if $self->document;
 }
 
-sub document {
+sub destination {
     my $self = shift;
-    return $self->{document};
+    return $self->document->{destination} if $self->document;
 }
 
 sub items {
@@ -250,10 +255,9 @@ sub getAttachment {
 
     my $url = "/" . uri_escape_utf8( $self->taskid ) . "/$attachment";
 
-    my $res =
-      $self->dmdtaskdb->get( $url, {}, { deserializer => 'application/json' } );
+    my $res = $self->dmdtaskdb->get($url);
     if ( $res->code == 200 ) {
-        return $res->response->content;
+        return $res->data;
     }
     else {
         warn "GET $url return code: " . $res->code . "\n";
@@ -348,8 +352,8 @@ sub handleTask {
         if (   ( defined $self->document->{items} )
             && ( ref $self->document->{items} ) eq 'ARRAY' )
         {
-            my @preservationItems;
-            my @accessItems;
+
+            my @workItems;
             $self->{items} = $self->document->{items};
             for (
                 my $index = 0 ;
@@ -365,24 +369,12 @@ sub handleTask {
                         || $item->{stored} != JSON::true )
                   )
                 {
-
-                    switch ( $item->{destination} ) {
-                        case "access" {
-                            push @accessItems,
-                              { index => $index, item => $item };
-                        }
-                        case "preservation" {
-                            push @preservationItems,
-                              { index => $index, item => $item };
-                        }
-                        else {
-                            warn "Destination Unknown!";
-                        }
-                    }
+                    push @workItems, { index => $index, item => $item };
                 }
             }
-            $self->pagedStore( "access",       \@accessItems );
-            $self->pagedStore( "preservation", \@preservationItems );
+            if (@workItems) {
+                $self->pagedStore( \@workItems );
+            }
         }
         else {
             # Clean out old output attachments if they exist
@@ -428,7 +420,23 @@ sub handleTask {
 }
 
 sub pagedStore {
-    my ( $self, $destination, $items ) = @_;
+    my ( $self, $items ) = @_;
+
+    my $attach = $self->getAttachment("dmd.json");
+    die "Missing `dmd.json` attachment\n" if !$attach;
+    die "'dmd.json' not an array\n" if ref $attach ne "ARRAY";
+
+    $self->{xml} = $attach;
+
+    if (   $self->destination ne "access"
+        && $self->destination ne "preservation" )
+    {
+        die "Destination Unknown!\n";
+    }
+
+    # Use Boolean for which of "access" or "preservation"
+    # Would need to change if a third destination was created.
+    my $da = ( $self->destination eq "access" );
 
     # Page thorough items
     for (
@@ -446,10 +454,6 @@ sub pagedStore {
         foreach my $i ( $index .. $last ) {
             push @ids, $items->[$i]->{item}->{id};
         }
-
-        # Use Boolean for which of "access" or "preservation"
-        # Would need to change if a third destination was created.
-        my $da = ( $destination eq "access" );
 
         my $res;
         if ($da) {
@@ -488,15 +492,16 @@ sub pagedStore {
                 foreach my $i ( $index .. $last ) {
                     my $id = $items->[$i]->{item}->{id};
 
-                    my $xml = $self->getAttachment("$i.xml");
-                    die "Can't get $i.xml metadata attachment\n";
-
                     my $response =
                       $da
-                      ? ( $self->storeAccess( $docs{$id}, $items->[$i], $xml ) )
+                      ? (
+                        $self->storeAccess(
+                            $docs{$id}, $items->[$i], $self->xml->[$i]
+                        )
+                      )
                       : (
                         $self->storePreservation(
-                            $docs{$id}, $items->[$i], $xml
+                            $docs{$id}, $items->[$i], $self->xml->[$i]
                         )
                       );
                     $self->addStorageResult( $items->[$i]->{index},
@@ -512,7 +517,9 @@ sub pagedStore {
                 if ( defined $res->response->content ) {
                     warn $res->response->content . "\n";
                 }
-                die "Lookups of IDs for destination=$destination return code: "
+                die "Lookups of IDs for destination="
+                  . $self->destination
+                  . " return code: "
                   . $res->code . "\n";
             }
         }
@@ -593,7 +600,7 @@ sub postResults {
 
     # Make use of update function support of "delete"
     my $sendItems = $self->items;
-    if ( ( ref $sendItems ne "ARRAY" ) || !$status ) {
+    if ( ( ref $sendItems ne "ARRAY" ) || ( !scalar( @{$sendItems} ) ) ) {
         $sendItems = "delete";
     }
 
