@@ -327,6 +327,10 @@ sub handleTask {
     my $taskid = $self->taskid;
     $self->{message} = '';
 
+    # Reset to empty array for new task.
+    $self->{items} = [];
+    $self->{xml}   = [];
+
     # Capture warnings
     local $SIG{__WARN__} = sub { &top_warnings };
 
@@ -586,13 +590,20 @@ sub postResults {
 
     #  Post directly as JSON data (Different from other couch databases)
     $self->dmdtaskdb->type("application/json");
+
+    # Make use of update function support of "delete"
+    my $sendItems = $self->items;
+    if ( ( ref $sendItems ne "ARRAY" ) || !$status ) {
+        $sendItems = "delete";
+    }
+
     my $url = "/_design/access/_update/process/" . uri_escape_utf8($taskid);
     $res = $self->dmdtaskdb->post(
         $url,
         {
             succeeded => $status,
             message   => $message,
-            items     => $self->items
+            items     => $sendItems
         },
         { deserializer => 'application/json' }
     );
@@ -979,6 +990,9 @@ sub extractxml_marc {
     my @warnings = $marc->warnings();
     foreach my $thiswarning (@warnings) {
         warn $thiswarning . "\n";
+    }
+    if ( !scalar( @{ $self->items } ) ) {
+        die "No records found.  Was it a MARC 21 binary file?\n";
     }
 }
 
