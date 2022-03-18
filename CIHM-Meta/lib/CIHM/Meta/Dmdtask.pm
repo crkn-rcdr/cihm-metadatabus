@@ -491,21 +491,27 @@ sub pagedStore {
 
                 foreach my $i ( $index .. $last ) {
                     my $id = $items->[$i]->{item}->{id};
+                    if ( !exists $docs{$id} ) {
+                        warn
+"CouchDB document for id=$id wasn't found. Skipping...\n";
+                    }
+                    else {
 
-                    my $response =
-                      $da
-                      ? (
-                        $self->storeAccess(
-                            $docs{$id}, $items->[$i], $self->xml->[$i]
-                        )
-                      )
-                      : (
-                        $self->storePreservation(
-                            $docs{$id}, $items->[$i], $self->xml->[$i]
-                        )
-                      );
-                    $self->addStorageResult( $items->[$i]->{index},
-                        $response ? JSON::true : JSON::false );
+                        my $response =
+                          $da
+                          ? (
+                            $self->storeAccess(
+                                $docs{$id}, $items->[$i], $self->xml->[$i]
+                            )
+                          )
+                          : (
+                            $self->storePreservation(
+                                $docs{$id}, $items->[$i], $self->xml->[$i]
+                            )
+                          );
+                        $self->addStorageResult( $items->[$i]->{index},
+                            $response ? JSON::true : JSON::false );
+                    }
 
                 }
 
@@ -529,8 +535,36 @@ sub pagedStore {
 sub storeAccess {
     my ( $self, $doc, $item, $xml ) = @_;
 
+    my $id = $doc->{'_id'};
+
     #print Data::Dumper->Dump( [ $doc, $item, $xml ],
     #    [qw (accessdoc item xml)] );
+
+    # TODO: store in Swift, clean up old data.
+
+    my $url = "/_design/access/_update/editObject/" . uri_escape_utf8($id);
+
+    # editObject() will merge fields into existing document
+    my $updateDoc = {
+        dmdType => $item->{item}->{output},
+        label   => {
+            none => $item->{item}->{label}
+        }
+    };
+
+    $self->accessdb->type("application/json");
+    my $res = $self->accessdb->post(
+        $url,
+        { data         => $updateDoc },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 201 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        warn "storeAccess id=$id return code: " . $res->code . "\n";
+        return 0;
+    }
 
     return 1;
 }
@@ -538,8 +572,13 @@ sub storeAccess {
 sub storePreservation {
     my ( $self, $doc, $item, $xml ) = @_;
 
+    my $id  = $doc->{'_id'};
+    my $rev = $doc->{'_rev'};
+
     #print Data::Dumper->Dump( [ $doc, $item, $xml ],
     #    [qw (preservationdoc item xml)] );
+
+    # TODO:  attach XML in CouchDB, set dmdType and label
 
     return 1;
 }
