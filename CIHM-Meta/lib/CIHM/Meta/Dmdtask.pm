@@ -437,6 +437,9 @@ sub pagedStore {
     # Would need to change if a third destination was created.
     my $da = ( $self->destination eq "access" );
 
+    # Indicate to web interface we have started.
+    $self->updateStorageResults( 0, scalar( @{$items} ) );
+
     # Page thorough items
     for (
         my $index = 0 ;
@@ -518,7 +521,7 @@ sub pagedStore {
                 }
 
                 # Update work so far in the task document.
-                $self->updateStorageResults();
+                $self->updateStorageResults( $last, scalar( @{$items} ) );
 
             }    # It wasn't a 200 return from getting the documents...
             else {
@@ -664,7 +667,7 @@ sub addStorageResult {
 }
 
 sub updateStorageResults {
-    my ($self) = @_;
+    my ( $self, $workProgress, $workSize ) = @_;
 
     my $taskid = $self->taskid;
 
@@ -676,7 +679,11 @@ sub updateStorageResults {
       . uri_escape_utf8($taskid);
     $res = $self->dmdtaskdb->post(
         $url,
-        $self->{storageresult},
+        {
+            array        => $self->{storageresult},
+            workProgress => $workProgress,
+            workSize     => $workSize
+        },
         { deserializer => 'application/json' }
     );
 
