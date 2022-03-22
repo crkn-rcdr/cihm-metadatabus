@@ -419,7 +419,7 @@ sub handleTask {
 }
 
 sub pagedStore {
-    my ( $self, $items ) = @_;
+    my ( $self, $workItems ) = @_;
 
     my $attach = $self->getAttachment("dmd.json");
     die "Missing `dmd.json` attachment\n" if !$attach;
@@ -438,23 +438,23 @@ sub pagedStore {
     my $da = ( $self->destination eq "access" );
 
     # Indicate to web interface we have started.
-    $self->updateStorageResults( 0, scalar( @{$items} ) );
+    $self->updateStorageResults( 0, scalar( @{$workItems} ) );
 
-    # Page thorough items
+    # Page thorough workItems
     for (
         my $index = 0 ;
-        $index < scalar( @{$items} ) ;
+        $index < scalar( @{$workItems} ) ;
         $index += $self->pagesize
       )
     {
         my $last = $index + ( $self->pagesize ) - 1;
-        if ( $last >= scalar( @{$items} ) ) {
-            $last = scalar( @{$items} ) - 1;
+        if ( $last >= scalar( @{$workItems} ) ) {
+            $last = scalar( @{$workItems} ) - 1;
         }
 
         my @ids;
         foreach my $i ( $index .. $last ) {
-            push @ids, $items->[$i]->{item}->{id};
+            push @ids, $workItems->[$i]->{item}->{id};
         }
 
         my $res;
@@ -494,9 +494,9 @@ sub pagedStore {
                 }
 
                 foreach my $i ( $index .. $last ) {
-                    my $id = $items->[$i]->{item}->{id};
+                    my $id = $workItems->[$i]->{item}->{id};
                     if ( !exists $docs{$id} ) {
-                        $self->addStorageResult( $items->[$i]->{index},
+                        $self->addStorageResult( $workItems->[$i]->{index},
                             JSON::false );
                         warn "CouchDB document for id=$id wasn't found.\n";
                     }
@@ -506,22 +506,22 @@ sub pagedStore {
                           $da
                           ? (
                             $self->storeAccess(
-                                $docs{$id}, $items->[$i], $self->xml->[$i]
+                                $docs{$id}, $workItems->[$i], $self->xml->[$i]
                             )
                           )
                           : (
                             $self->storePreservation(
-                                $docs{$id}, $items->[$i], $self->xml->[$i]
+                                $docs{$id}, $workItems->[$i], $self->xml->[$i]
                             )
                           );
-                        $self->addStorageResult( $items->[$i]->{index},
+                        $self->addStorageResult( $workItems->[$i]->{index},
                             $response ? JSON::true : JSON::false );
                     }
 
                 }
 
                 # Update work so far in the task document.
-                $self->updateStorageResults( $last, scalar( @{$items} ) );
+                $self->updateStorageResults( $last, scalar( @{$workItems} ) );
 
             }    # It wasn't a 200 return from getting the documents...
             else {
