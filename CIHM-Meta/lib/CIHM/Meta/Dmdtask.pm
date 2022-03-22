@@ -458,6 +458,7 @@ sub pagedStore {
 
         my $res;
         if ($da) {
+            $self->accessdb->type('application/json');
             $res = $self->accessdb->post(
                 "/_design/access/_view/slug",
                 {
@@ -468,6 +469,7 @@ sub pagedStore {
             );
         }
         else {
+            $self->wipmetadb->type('application/json');
             $res = $self->wipmetadb->post(
                 "/_all_docs",
                 {
@@ -620,7 +622,39 @@ sub storePreservation {
     #print Data::Dumper->Dump( [ $doc, $item, $xml ],
     #    [qw (preservationdoc item xml)] );
 
-    # TODO:  attach XML in CouchDB, set dmdType and label
+    # Attach XML
+    $self->wipmetadb->clear_headers;
+    $self->wipmetadb->set_header( 'If-Match' => $rev ) if $rev;
+    $self->wipmetadb->type('application/xml');
+    my $res = $self->wipmetadb->put( "/$id/dmd.xml", $xml,
+        { deserializer => 'application/json' } );
+    if ( $res->code != 201 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        warn "put_attachment($id) PUT of dmd.xml return code: "
+          . $res->code . "\n";
+        return 0;
+    }
+    $self->wipmetadb->clear_headers;
+
+    # Set the label the way old tool did.
+    my $updatedoc = { label => $item->{item}->{label} };
+
+    # This encoding makes variables available as form data -- the old way
+    $self->wipmetadb->type("application/x-www-form-urlencoded");
+    $res = $self->wipmetadb->post(
+        "/_design/tdr/_update/basic/" . uri_escape_utf8($id),
+        $updatedoc, { deserializer => 'application/json' } );
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        warn "Problem setting label for $id - return code: "
+          . $res->code . "\n";
+        return 0;
+    }
 
     return 1;
 }
