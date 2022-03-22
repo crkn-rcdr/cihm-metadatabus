@@ -492,8 +492,9 @@ sub pagedStore {
                 foreach my $i ( $index .. $last ) {
                     my $id = $items->[$i]->{item}->{id};
                     if ( !exists $docs{$id} ) {
-                        warn
-"CouchDB document for id=$id wasn't found. Skipping...\n";
+                        $self->addStorageResult( $items->[$i]->{index},
+                            JSON::false );
+                        warn "CouchDB document for id=$id wasn't found.\n";
                     }
                     else {
 
