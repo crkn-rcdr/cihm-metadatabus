@@ -20,6 +20,7 @@ use Encode;
 use Text::CSV;
 use MIME::Base64;
 use URI::Escape;
+use Digest::MD5 qw(md5 md5_hex md5_base64);
 
 =head1 NAME
 
@@ -538,11 +539,51 @@ sub storeAccess {
 
     my $id = $doc->{'_id'};
 
-    #print Data::Dumper->Dump( [ $doc, $item, $xml ],
-    #    [qw (accessdoc item xml)] );
+    # Check if we need to delete the old first
+    if ( $doc->{'dmdType'} ne $item->{item}->{output} ) {
+        my $object = $doc->{'_id'} . '/dmd' . uc( $doc->{'dmdType'} ) . '.xml';
 
-    # TODO: store in Swift, clean up old data.
+        my $r = $self->swift->object_delete( $self->access_metadata, $object );
+        if ( $r->code != 404 && $r->code != 204 ) {
+            if ( defined $r->_fr->content ) {
+                warn $r->_fr->content . "\n";
+            }
+            warn "Failed deleting $object - returned " . $r->code . "\n";
+            return 0;
+        }
+    }
 
+    my $dmdRecord = utf8::is_utf8($xml) ? Encode::encode_utf8($xml) : $xml;
+    my $dmdDigest = md5_hex($dmdRecord);
+
+    my $object =
+      $doc->{'_id'} . '/dmd' . uc( $item->{item}->{output} ) . '.xml';
+    my $r = $self->swift->object_head( $self->access_metadata, $object );
+    if ( $r->code == 404 || ( $r->etag ne $dmdDigest ) ) {
+        $r =
+          $self->swift->object_put( $self->access_metadata, $object,
+            $dmdRecord );
+        if ( $r->code != 201 ) {
+            if ( defined $r->_fr->content ) {
+                warn $r->_fr->content . "\n";
+            }
+            warn "Failed writing $object - returned " . $r->code . "\n";
+            return 0;
+        }
+        elsif ( $r->etag ne $dmdDigest ) {
+            warn "object_put($object) didn't return matching etag\n";
+            return 0;
+        }
+    }
+    elsif ( $r->code != 200 ) {
+        if ( defined $r->_fr->content ) {
+            warn $r->_fr->content . "\n";
+        }
+        warn "Head for $object - returned " . $r->code . "\n";
+        return 0;
+    }
+
+    # Update database...
     my $url = "/_design/access/_update/editObject/" . uri_escape_utf8($id);
 
     # editObject() will merge fields into existing document
