@@ -5,8 +5,6 @@ use Carp;
 
 use Try::Tiny;
 use JSON;
-use Data::Dumper;
-
 use Switch;
 use CIHM::Swift::Client;
 use CIHM::Meta::dmd::flatten qw(normaliseSpace);
@@ -618,9 +616,6 @@ sub storePreservation {
 
     my $id  = $doc->{'_id'};
     my $rev = $doc->{'_rev'};
-
-    #print Data::Dumper->Dump( [ $doc, $item, $xml ],
-    #    [qw (preservationdoc item xml)] );
 
     # Attach XML
     $self->wipmetadb->clear_headers;
