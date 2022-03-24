@@ -506,12 +506,14 @@ sub pagedStore {
                           $da
                           ? (
                             $self->storeAccess(
-                                $docs{$id}, $workItems->[$i], $self->xml->[$i]
+                                $docs{$id}, $workItems->[$i],
+                                $self->xml->[$i]
                             )
                           )
                           : (
                             $self->storePreservation(
-                                $docs{$id}, $workItems->[$i], $self->xml->[$i]
+                                $docs{$id}, $workItems->[$i],
+                                $self->xml->[$i]
                             )
                           );
                         $self->addStorageResult( $workItems->[$i]->{index},
@@ -521,7 +523,8 @@ sub pagedStore {
                 }
 
                 # Update work so far in the task document.
-                $self->updateStorageResults( $last, scalar( @{$workItems} ) );
+                $self->updateStorageResults( $last + 1,
+                    scalar( @{$workItems} ) );
 
             }    # It wasn't a 200 return from getting the documents...
             else {
