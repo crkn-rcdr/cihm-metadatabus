@@ -19,6 +19,7 @@ use Text::CSV;
 use MIME::Base64;
 use URI::Escape;
 use Digest::MD5 qw(md5 md5_hex md5_base64);
+use Data::Dumper;
 
 =head1 NAME
 
@@ -438,7 +439,8 @@ sub pagedStore {
     my $da = ( $self->destination eq "access" );
 
     # Indicate to web interface we have started.
-    $self->updateStorageResults( 0, scalar( @{$workItems} ) );
+    my $updateres = $self->updateStorageResults( 0, scalar( @{$workItems} ) );
+    return if ( $updateres eq "paused" );
 
     # Page thorough workItems
     for (
@@ -523,8 +525,9 @@ sub pagedStore {
                 }
 
                 # Update work so far in the task document.
-                $self->updateStorageResults( $last + 1,
+                $updateres = $self->updateStorageResults( $last + 1,
                     scalar( @{$workItems} ) );
+                return if ( $updateres eq "paused" );
 
             }    # It wasn't a 200 return from getting the documents...
             else {
@@ -689,6 +692,7 @@ sub updateStorageResults {
         },
         { deserializer => 'application/json' }
     );
+    $self->{storageresult} = [];
 
     if ( $res->code != 201 && $res->code != 200 ) {
         if ( exists $res->{message} ) {
@@ -705,9 +709,11 @@ sub updateStorageResults {
                 $taskid . ": data error=" . $res->data->{error} );
         }
         $self->log->info( $taskid . ": $url POST return code: " . $res->code );
+        return "error";
     }
-
-    $self->{storageresult} = [];
+    else {
+        return $res->data->{message};
+    }
 }
 
 sub postResults {
