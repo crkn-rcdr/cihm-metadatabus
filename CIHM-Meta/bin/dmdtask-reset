@@ -38,9 +38,18 @@ if ( !$test || $test->code != 200 ) {
 
 my $query = {
     "selector" => {
-        "fileName" => {
-            '$exists' => JSON::true
-        }
+        '$and' => [
+            {
+                "fileName" => {
+                    '$exists' => JSON::true
+                }
+            },
+            {
+                "progress" => {
+                    '$exists' => JSON::false
+                }
+            }
+        ]
     },
     "fields" => ["_id"],
     "limit"  => 1000
