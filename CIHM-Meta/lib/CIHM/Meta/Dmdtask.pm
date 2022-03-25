@@ -849,16 +849,29 @@ sub extractissueinfo_csv {
     open my $fh, "<:encoding(utf8)", $tempname
       or die "Cannot read $tempname: $!\n";
 
-    my $headerline = $csv->getline($fh);
-    if ( !$headerline ) {
-        die "Missing header line in CSV file\n";
+    my @headerline;
+    try {
+        @headerline =
+          $csv->header( $fh, { detect_bom => 1, munge_column_names => "lc" } );
+    }
+    catch {
+        my $error = $_;
+        $error =~ s! at \S+ line \d+.*!!g;
+        die "csv->header: $error\n" if ( $error =~ /\S/ );
+    };
+    die "Problem with header line\n" if ( !@headerline );
+
+    #get object id
+    my $objid_column = first { $headerline[$_] eq 'objid' } 0 .. @headerline;
+    if ( !defined $objid_column ) {
+        die "Column 'objid' not found.\n";
     }
 
     # Create hash from headerline
     my %headers;
     my @unknownheader;
-    for ( my $i = 0 ; $i < @$headerline ; $i++ ) {
-        my $header = $headerline->[$i];
+    for ( my $i = 0 ; $i < scalar(@headerline) ; $i++ ) {
+        my $header = $headerline[$i];
         my $value = { index => $i };
         if ( index( $header, '=' ) != -1 ) {
             my $type;
@@ -887,17 +900,15 @@ sub extractissueinfo_csv {
     die "'label' header missing\n" if ( !defined $headers{'label'} );
 
     my %series;
+    my $linecount = 1;    # first line was header
     while ( my $row = $csv->getline($fh) ) {
-
-        #get object id
-        my $objid_column =
-          first { @$headerline[$_] eq 'objid' } 0 .. @$headerline;
+        $linecount++;
 
         #process each metadata record based on the object ID
         my $id = $row->[$objid_column];
 
         if ( !$id || $id =~ /^\s*$/ ) {
-            warn "Line missing ID - skipping\n";
+            warn "Line $linecount missing ID - skipping\n";
             next;
         }
 
@@ -990,21 +1001,45 @@ sub extractdc_csv {
     open my $fh, "<:encoding(utf8)", $tempname
       or die "Cannot read $tempname: $!\n";
 
-    my $header = $csv->getline($fh);
+    my @headerline;
+    try {
+        @headerline =
+          $csv->header( $fh, { detect_bom => 1, munge_column_names => "lc" } );
+    }
+    catch {
+        my $error = $_;
+        $error =~ s! at \S+ line \d+.*!!g;
+        die "csv->header: $error\n" if ( $error =~ /\S/ );
+    };
+    die "Problem with header line\n" if ( !@headerline );
 
     #get object id
     my $objid_column =
-      first { @$header[$_] && @$header[$_] eq 'objid' } 0 .. @$header;
+      first { $headerline[$_] && $headerline[$_] eq 'objid' } 0 .. @headerline;
     if ( !defined $objid_column ) {
-        die "column 'objid' header not found in first row\n";
+        die "Column 'objid' not found.\n";
     }
 
+    my $hasDC =
+      first { $headerline[$_] && substr( $headerline[$_], 0, 3 ) eq 'dc:' }
+    0 .. @headerline;
+    if ( !defined $hasDC ) {
+        die "No column starts with 'dc:'. Is this a Dublin Core file?\n";
+    }
+
+    my $label_col = first { $headerline[$_] eq 'dc:title' } 0 .. @headerline;
+    if ( !defined $label_col ) {
+        warn "Column 'dc:title' not found.\n";
+    }
+
+    my $linecount = 1;    # first line was header
     while ( my $row = $csv->getline($fh) ) {
+        $linecount++;
 
         #process each metadata record based on the object ID
         my $id = $row->[$objid_column];
         if ( !$id || $id =~ /^\s*$/ ) {
-            warn "Line missing ID --- skipping!\n";
+            warn "Line $linecount missing ID --- skipping!\n";
             next;
         }
 
@@ -1024,9 +1059,9 @@ sub extractdc_csv {
         $root->setNamespace( 'http://purl.org/dc/elements/1.1/', 'dc', 0 );
 
         # map header to dc element and process values
-        foreach my $thisheader (@$header) {
+        foreach my $thisheader (@headerline) {
             if ( substr( $thisheader, 0, 3 ) eq 'dc:' ) {
-                set_element( $thisheader, $header, $row, $root );
+                set_element( $thisheader, \@headerline, $row, $root );
             }
         }
 
@@ -1037,9 +1072,6 @@ sub extractdc_csv {
         push @{ $self->xml }, $doc->toString(0);
 
         $item{'label'} = '[unknown]';
-        my $label_col;
-        my $label;
-        $label_col = first { @$header[$_] eq 'dc:title' } 0 .. @$header;
         if ($label_col) {
             my $label_value = $row->[$label_col];
 
