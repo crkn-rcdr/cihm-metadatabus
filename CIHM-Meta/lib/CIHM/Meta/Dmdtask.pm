@@ -5,8 +5,6 @@ use Carp;
 
 use Try::Tiny;
 use JSON;
-use Data::Dumper;
-
 use Switch;
 use CIHM::Swift::Client;
 use CIHM::Meta::dmd::flatten qw(normaliseSpace);
@@ -20,6 +18,8 @@ use Encode;
 use Text::CSV;
 use MIME::Base64;
 use URI::Escape;
+use Digest::MD5 qw(md5 md5_hex md5_base64);
+use Data::Dumper;
 
 =head1 NAME
 
@@ -61,6 +61,19 @@ sub new {
     }
 
     # Connect to CouchDB
+    $self->{accessdb} = new restclient(
+        server      => $args->{couchdb_access},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->accessdb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->accessdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to Couchdb database="
+          . $args->{couchdb_access}
+          . " Check configuration\n";
+    }
+
     $self->{dmdtaskdb} = new restclient(
         server      => $args->{couchdb_dmdtask},
         type        => 'application/json',
@@ -69,7 +82,22 @@ sub new {
     $self->dmdtaskdb->set_persistent_header( 'Accept' => 'application/json' );
     $test = $self->dmdtaskdb->head("/");
     if ( !$test || $test->code != 200 ) {
-        die "Problem connecting to Couchdb database. Check configuration\n";
+        die "Problem connecting to Couchdb database="
+          . $args->{couchdb_dmdtask}
+          . " Check configuration\n";
+    }
+
+    $self->{wipmetadb} = new restclient(
+        server      => $args->{couchdb_wipmeta},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->wipmetadb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->wipmetadb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to Couchdb database="
+          . $args->{couchdb_wipmeta}
+          . " Check configuration\n";
     }
 
     # Set up in-progress hash (Used to determine which AIPs which are being
@@ -78,8 +106,9 @@ sub new {
 
     $self->{flatten} = CIHM::Meta::dmd::flatten->new;
 
-    $self->{items} = [];
-    $self->{xml}   = [];
+    $self->{items}         = [];
+    $self->{xml}           = [];
+    $self->{storageresult} = [];
 
     return $self;
 }
@@ -98,9 +127,9 @@ sub args {
     return $self->{args};
 }
 
-sub maxprocs {
+sub pagesize {
     my $self = shift;
-    return $self->args->{maxprocs};
+    return $self->args->{pagesize};
 }
 
 sub log {
@@ -108,9 +137,19 @@ sub log {
     return $self->args->{logger};
 }
 
+sub accessdb {
+    my $self = shift;
+    return $self->{accessdb};
+}
+
 sub dmdtaskdb {
     my $self = shift;
     return $self->{dmdtaskdb};
+}
+
+sub wipmetadb {
+    my $self = shift;
+    return $self->{wipmetadb};
 }
 
 sub access_metadata {
@@ -123,14 +162,19 @@ sub swift {
     return $self->{swift};
 }
 
-sub taskid {
+sub document {
     my $self = shift;
-    return $self->doc->{'_id'} if $self->doc;
+    return $self->{document};
 }
 
-sub doc {
+sub taskid {
     my $self = shift;
-    return $self->{doc};
+    return $self->document->{'_id'} if $self->document;
+}
+
+sub destination {
+    my $self = shift;
+    return $self->document->{destination} if $self->document;
 }
 
 sub items {
@@ -151,12 +195,12 @@ sub flatten {
 sub dmdtask {
     my ($self) = @_;
 
-    $self->log->info( "Dmdtask maxprocs=" . $self->maxprocs );
+    $self->log->info("Dmdtask");
 
     my $somework;
-    while ( my $task = $self->getNextID() ) {
+    while ( my $task = $self->getNextTask() ) {
         $somework = 1;
-        $self->{doc} = $task;
+        $self->{document} = $task;
         $self->handleTask();
     }
     if ($somework) {
@@ -164,7 +208,7 @@ sub dmdtask {
     }
 }
 
-sub get_document {
+sub getDocument {
     my $self = shift;
 
     $self->dmdtaskdb->type("application/json");
@@ -174,7 +218,7 @@ sub get_document {
     my $res =
       $self->dmdtaskdb->get( $url, {}, { deserializer => 'application/json' } );
     if ( $res->code == 200 ) {
-        $self->{doc} = $res->data;
+        $self->{document} = $res->data;
     }
     else {
         warn "GET $url return code: " . $res->code . "\n";
@@ -182,7 +226,7 @@ sub get_document {
     }
 }
 
-sub put_document {
+sub headDocument {
     my $self = shift;
 
     $self->dmdtaskdb->type("application/json");
@@ -190,11 +234,76 @@ sub put_document {
     my $url = "/" . uri_escape_utf8( $self->taskid );
 
     my $res =
-      $self->dmdtaskdb->put( $url, $self->doc,
+      $self->dmdtaskdb->head( $url, {},
         { deserializer => 'application/json' } );
-    if ( $res->code != 201 ) {
+    if ( $res->code == 200 ) {
+        my $revision = $res->response->header("etag");
+        $revision =~ s/^\"|\"$//g;
+        return $revision;
+    }
+    else {
+        warn "HEAD $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub getAttachment {
+    my ( $self, $attachment ) = @_;
+    my $self = shift;
+
+    $self->dmdtaskdb->type("application/json");
+
+    my $url = "/" . uri_escape_utf8( $self->taskid ) . "/$attachment";
+
+    my $res = $self->dmdtaskdb->get($url);
+    if ( $res->code == 200 ) {
+        return $res->data;
+    }
+    else {
+        warn "GET $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub putAttachment {
+    my ( $self, $revision, $name, $type, $data ) = @_;
+    my $self = shift;
+
+    $self->dmdtaskdb->type($type);
+
+    my $url = "/" . uri_escape_utf8( $self->taskid ) . "/$name";
+
+    $self->dmdtaskdb->clear_headers;
+    $self->dmdtaskdb->set_header( 'If-Match' => $revision ) if $revision;
+    $self->dmdtaskdb->type($type);
+
+    my $res =
+      $self->dmdtaskdb->put( $url, $data,
+        { deserializer => 'application/json' } );
+    if ( $res->code == 201 ) {
+        return $res->data->{rev};
+    }
+    else {
+        if ( $res->failed ) {
+            warn "Content: " . $res->response->content;
+        }
         warn "PUT $url return code: " . $res->code . "\n";
         return;
+    }
+}
+
+sub putDocument {
+    my $self = shift;
+
+    $self->dmdtaskdb->type("application/json");
+
+    my $url = "/" . uri_escape_utf8( $self->taskid );
+
+    my $res =
+      $self->dmdtaskdb->put( $url, $self->document,
+        { deserializer => 'application/json' } );
+    if ( $res->code != 201 ) {
+        die "PUT $url return code: " . $res->code . "\n";
     }
 }
 
@@ -222,6 +331,10 @@ sub handleTask {
     my $taskid = $self->taskid;
     $self->{message} = '';
 
+    # Reset to empty array for new task.
+    $self->{items} = [];
+    $self->{xml}   = [];
+
     # Capture warnings
     local $SIG{__WARN__} = sub { &top_warnings };
 
@@ -236,20 +349,41 @@ sub handleTask {
     try {
         $status = JSON::true;
 
-        if (   ( defined $self->doc->{items} )
-            && ( ref $self->doc->{items} ) eq 'ARRAY' )
+        if (   ( defined $self->document->{items} )
+            && ( ref $self->document->{items} ) eq 'ARRAY' )
         {
-            $self->{items} = $self->doc->{items};
-            warn "Storing not yet supported..  Doing nothing...\n";
+
+            my @workItems;
+            $self->{items} = $self->document->{items};
+            for (
+                my $index = 0 ;
+                $index < scalar( @{ $self->document->{items} } ) ;
+                $index++
+              )
+            {
+                my $item = $self->items->[$index];
+                if (
+                       exists $item->{shouldStore}
+                    && $item->{shouldStore} == JSON::true
+                    && ( !exists $item->{stored}
+                        || $item->{stored} != JSON::true )
+                  )
+                {
+                    push @workItems, { index => $index, item => $item };
+                }
+            }
+            if (@workItems) {
+                $self->pagedStore( \@workItems );
+            }
         }
         else {
             # Clean out old output attachments if they exist
             $self->cleanup();
 
-            my $attach = $self->get_attachment();
+            my $attach = $self->getAttachment("metadata");
             die "Missing `metadata` attachment\n" if !$attach;
 
-            switch ( $self->doc->{format} ) {
+            switch ( $self->document->{format} ) {
                 case "csvissueinfo" { $self->extractissueinfo_csv($attach); }
 
                 case "csvdc" { $self->extractdc_csv($attach); }
@@ -285,6 +419,303 @@ sub handleTask {
     return ($taskid);
 }
 
+sub pagedStore {
+    my ( $self, $workItems ) = @_;
+
+    my $attach = $self->getAttachment("dmd.json");
+    die "Missing `dmd.json` attachment\n" if !$attach;
+    die "'dmd.json' not an array\n" if ref $attach ne "ARRAY";
+
+    $self->{xml} = $attach;
+
+    if (   $self->destination ne "access"
+        && $self->destination ne "preservation" )
+    {
+        die "Destination Unknown!\n";
+    }
+
+    # Use Boolean for which of "access" or "preservation"
+    # Would need to change if a third destination was created.
+    my $da = ( $self->destination eq "access" );
+
+    # Indicate to web interface we have started.
+    my $updateres = $self->updateStorageResults( 0, scalar( @{$workItems} ) );
+    return if ( $updateres eq "paused" );
+
+    # Page thorough workItems
+    for (
+        my $index = 0 ;
+        $index < scalar( @{$workItems} ) ;
+        $index += $self->pagesize
+      )
+    {
+        my $last = $index + ( $self->pagesize ) - 1;
+        if ( $last >= scalar( @{$workItems} ) ) {
+            $last = scalar( @{$workItems} ) - 1;
+        }
+
+        my @ids;
+        foreach my $i ( $index .. $last ) {
+            push @ids, $workItems->[$i]->{item}->{id};
+        }
+
+        my $res;
+        if ($da) {
+            $self->accessdb->type('application/json');
+            $res = $self->accessdb->post(
+                "/_design/access/_view/slug",
+                {
+                    keys         => \@ids,
+                    include_docs => JSON::true
+                },
+                { deserializer => 'application/json' }
+            );
+        }
+        else {
+            $self->wipmetadb->type('application/json');
+            $res = $self->wipmetadb->post(
+                "/_all_docs",
+                {
+                    keys         => \@ids,
+                    include_docs => JSON::true
+                },
+                { deserializer => 'application/json' }
+            );
+        }
+        if ($res) {
+            if ( $res->code == 200 ) {
+                my %docs;
+                foreach my $row ( @{ $res->data->{rows} } ) {
+                    if ( defined $row->{doc} ) {
+                        $docs{
+                              $da
+                            ? $row->{doc}->{'slug'}
+                            : $row->{doc}->{'_id'}
+                        } = $row->{doc};
+                    }
+                }
+
+                foreach my $i ( $index .. $last ) {
+                    my $id = $workItems->[$i]->{item}->{id};
+                    if ( !exists $docs{$id} ) {
+                        $self->addStorageResult( $workItems->[$i]->{index},
+                            JSON::false );
+                        warn "CouchDB document for id=$id wasn't found.\n";
+                    }
+                    else {
+
+                        my $response =
+                          $da
+                          ? (
+                            $self->storeAccess(
+                                $docs{$id}, $workItems->[$i],
+                                $self->xml->[$i]
+                            )
+                          )
+                          : (
+                            $self->storePreservation(
+                                $docs{$id}, $workItems->[$i],
+                                $self->xml->[$i]
+                            )
+                          );
+                        $self->addStorageResult( $workItems->[$i]->{index},
+                            $response ? JSON::true : JSON::false );
+                    }
+
+                }
+
+                # Update work so far in the task document.
+                $updateres = $self->updateStorageResults( $last + 1,
+                    scalar( @{$workItems} ) );
+                return if ( $updateres eq "paused" );
+
+            }    # It wasn't a 200 return from getting the documents...
+            else {
+                if ( defined $res->response->content ) {
+                    warn $res->response->content . "\n";
+                }
+                die "Lookups of IDs for destination="
+                  . $self->destination
+                  . " return code: "
+                  . $res->code . "\n";
+            }
+        }
+    }
+}
+
+sub storeAccess {
+    my ( $self, $doc, $item, $xml ) = @_;
+
+    my $id = $doc->{'_id'};
+
+    # Check if we need to delete the old first
+    if ( $doc->{'dmdType'} ne $item->{item}->{output} ) {
+        my $object = $doc->{'_id'} . '/dmd' . uc( $doc->{'dmdType'} ) . '.xml';
+
+        my $r = $self->swift->object_delete( $self->access_metadata, $object );
+        if ( $r->code != 404 && $r->code != 204 ) {
+            if ( defined $r->_fr->content ) {
+                warn $r->_fr->content . "\n";
+            }
+            warn "Failed deleting $object - returned " . $r->code . "\n";
+            return 0;
+        }
+    }
+
+    my $dmdRecord = utf8::is_utf8($xml) ? Encode::encode_utf8($xml) : $xml;
+    my $dmdDigest = md5_hex($dmdRecord);
+
+    my $object =
+      $doc->{'_id'} . '/dmd' . uc( $item->{item}->{output} ) . '.xml';
+    my $r = $self->swift->object_head( $self->access_metadata, $object );
+    if ( $r->code == 404 || ( $r->etag ne $dmdDigest ) ) {
+        $r =
+          $self->swift->object_put( $self->access_metadata, $object,
+            $dmdRecord );
+        if ( $r->code != 201 ) {
+            if ( defined $r->_fr->content ) {
+                warn $r->_fr->content . "\n";
+            }
+            warn "Failed writing $object - returned " . $r->code . "\n";
+            return 0;
+        }
+        elsif ( $r->etag ne $dmdDigest ) {
+            warn "object_put($object) didn't return matching etag\n";
+            return 0;
+        }
+    }
+    elsif ( $r->code != 200 ) {
+        if ( defined $r->_fr->content ) {
+            warn $r->_fr->content . "\n";
+        }
+        warn "Head for $object - returned " . $r->code . "\n";
+        return 0;
+    }
+
+    # Update database...
+    my $url = "/_design/access/_update/editObject/" . uri_escape_utf8($id);
+
+    # editObject() will merge fields into existing document
+    my $updateDoc = {
+        dmdType => $item->{item}->{output},
+        label   => {
+            none => $item->{item}->{label}
+        }
+    };
+
+    $self->accessdb->type("application/json");
+    my $res = $self->accessdb->post(
+        $url,
+        { data         => $updateDoc },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 201 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        warn "storeAccess id=$id return code: " . $res->code . "\n";
+        return 0;
+    }
+
+    return 1;
+}
+
+sub storePreservation {
+    my ( $self, $doc, $item, $xml ) = @_;
+
+    my $id  = $doc->{'_id'};
+    my $rev = $doc->{'_rev'};
+
+    # Attach XML
+    $self->wipmetadb->clear_headers;
+    $self->wipmetadb->set_header( 'If-Match' => $rev ) if $rev;
+    $self->wipmetadb->type('application/xml');
+    my $res = $self->wipmetadb->put( "/$id/dmd.xml", $xml,
+        { deserializer => 'application/json' } );
+    if ( $res->code != 201 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        warn "put_attachment($id) PUT of dmd.xml return code: "
+          . $res->code . "\n";
+        return 0;
+    }
+    $self->wipmetadb->clear_headers;
+
+    # Set the label the way old tool did.
+    my $updatedoc = { label => $item->{item}->{label} };
+
+    # This encoding makes variables available as form data -- the old way
+    $self->wipmetadb->type("application/x-www-form-urlencoded");
+    $res = $self->wipmetadb->post(
+        "/_design/tdr/_update/basic/" . uri_escape_utf8($id),
+        $updatedoc, { deserializer => 'application/json' } );
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        warn "Problem setting label for $id - return code: "
+          . $res->code . "\n";
+        return 0;
+    }
+
+    return 1;
+}
+
+sub addStorageResult {
+    my ( $self, $index, $status ) = @_;
+
+    push @{ $self->{storageresult} }, [ $index, $status ];
+
+    # We store the completed items array at end
+    @{ $self->items }[$index]->{stored} = $status;
+}
+
+sub updateStorageResults {
+    my ( $self, $workProgress, $workSize ) = @_;
+
+    my $taskid = $self->taskid;
+
+    my ( $res, $code, $data );
+
+    #  Post directly as JSON data (Different from other couch databases)
+    $self->dmdtaskdb->type("application/json");
+    my $url = "/_design/access/_update/updateStorageResults/"
+      . uri_escape_utf8($taskid);
+    $res = $self->dmdtaskdb->post(
+        $url,
+        {
+            array        => $self->{storageresult},
+            workProgress => $workProgress,
+            workSize     => $workSize
+        },
+        { deserializer => 'application/json' }
+    );
+    $self->{storageresult} = [];
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        if ( exists $res->{message} ) {
+            $self->log->info( $taskid . ": message=" . $res->{message} );
+        }
+        if ( exists $res->{content} ) {
+            $self->log->info( $taskid . ": content=" . $res->{content} );
+        }
+        if ( exists $res->{error} ) {
+            $self->log->error( $taskid . ": error=" . $res->{error} );
+        }
+        if ( ( ref $res->data eq "HASH" ) && ( exists $res->data->{error} ) ) {
+            $self->log->error(
+                $taskid . ": data error=" . $res->data->{error} );
+        }
+        $self->log->info( $taskid . ": $url POST return code: " . $res->code );
+        return "error";
+    }
+    else {
+        return $res->data->{message};
+    }
+}
+
 sub postResults {
     my ( $self, $taskid, $status, $message ) = @_;
 
@@ -292,13 +723,20 @@ sub postResults {
 
     #  Post directly as JSON data (Different from other couch databases)
     $self->dmdtaskdb->type("application/json");
+
+    # Make use of update function support of "delete"
+    my $sendItems = $self->items;
+    if ( ( ref $sendItems ne "ARRAY" ) || ( !scalar( @{$sendItems} ) ) ) {
+        $sendItems = "delete";
+    }
+
     my $url = "/_design/access/_update/process/" . uri_escape_utf8($taskid);
     $res = $self->dmdtaskdb->post(
         $url,
         {
             succeeded => $status,
             message   => $message,
-            items     => $self->items
+            items     => $sendItems
         },
         { deserializer => 'application/json' }
     );
@@ -321,14 +759,14 @@ sub postResults {
     }
 }
 
-sub getNextID {
+sub getNextTask {
     my ($self) = @_;
 
     $self->dmdtaskdb->type("application/json");
     my $url = "/_design/access/_view/processQueue";
     my $res = $self->dmdtaskdb->post(
         $url,
-        { reduce       => JSON::false, include_docs => JSON::true },
+        { reduce => JSON::false, include_docs => JSON::true, limit => 1 },
         { deserializer => 'application/json' }
     );
     if ( $res->code == 200 ) {
@@ -346,46 +784,29 @@ sub getNextID {
     return;
 }
 
-sub get_attachment {
-    my ($self) = @_;
-    my ($res);
-
-    $self->dmdtaskdb->clear_headers;
-    $res = $self->dmdtaskdb->get( "/" . $self->taskid . "/metadata",
-        {}, { deserializer => undef } );
-    if ( $res->code != 200 ) {
-        warn "get_attachment("
-          . $self->taskid
-          . "/metadata) GET return code: "
-          . $res->code . "\n";
-        return;
-    }
-    return $res->data;
-}
-
 # Clean up any attachments that might be from previous run
 sub cleanup {
     my ($self) = @_;
 
-    if ( exists $self->doc->{'_attachments'} ) {
+    if ( exists $self->document->{'_attachments'} ) {
         my $modified = 0;
 
-        foreach my $attachment ( keys %{ $self->doc->{'_attachments'} } ) {
+        foreach my $attachment ( keys %{ $self->document->{'_attachments'} } ) {
             if ( $attachment ne 'metadata' ) {
-                delete $self->doc->{'_attachments'}->{$attachment};
+                delete $self->document->{'_attachments'}->{$attachment};
                 $modified = 1;
             }
         }
         if ($modified) {
 
             # In case it exists, might as well...
-            delete $self->doc->{'items'};
+            delete $self->document->{'items'};
 
             # Update the document
-            $self->put_document();
+            $self->putDocument();
 
             # Get a copy of the updated document (with Attachments removed)
-            $self->get_document();
+            $self->getDocument();
         }
     }
 }
@@ -428,13 +849,29 @@ sub extractissueinfo_csv {
     open my $fh, "<:encoding(utf8)", $tempname
       or die "Cannot read $tempname: $!\n";
 
-    my $headerline = $csv->getline($fh);
+    my @headerline;
+    try {
+        @headerline =
+          $csv->header( $fh, { detect_bom => 1, munge_column_names => "lc" } );
+    }
+    catch {
+        my $error = $_;
+        $error =~ s! at \S+ line \d+.*!!g;
+        die "csv->header: $error\n" if ( $error =~ /\S/ );
+    };
+    die "Problem with header line\n" if ( !@headerline );
+
+    #get object id
+    my $objid_column = first { $headerline[$_] eq 'objid' } 0 .. @headerline;
+    if ( !defined $objid_column ) {
+        die "Column 'objid' not found.\n";
+    }
 
     # Create hash from headerline
     my %headers;
     my @unknownheader;
-    for ( my $i = 0 ; $i < @$headerline ; $i++ ) {
-        my $header = $headerline->[$i];
+    for ( my $i = 0 ; $i < scalar(@headerline) ; $i++ ) {
+        my $header = $headerline[$i];
         my $value = { index => $i };
         if ( index( $header, '=' ) != -1 ) {
             my $type;
@@ -463,17 +900,15 @@ sub extractissueinfo_csv {
     die "'label' header missing\n" if ( !defined $headers{'label'} );
 
     my %series;
+    my $linecount = 1;    # first line was header
     while ( my $row = $csv->getline($fh) ) {
-
-        #get object id
-        my $objid_column =
-          first { @$headerline[$_] eq 'objid' } 0 .. @$headerline;
+        $linecount++;
 
         #process each metadata record based on the object ID
         my $id = $row->[$objid_column];
 
         if ( !$id || $id =~ /^\s*$/ ) {
-            warn "Line missing ID - skipping\n";
+            warn "Line $linecount missing ID - skipping\n";
             next;
         }
 
@@ -539,7 +974,7 @@ sub extractissueinfo_csv {
         push @{ $self->xml }, $doc->toString(0);
 
         $item{'label'} = $row->[ $headers{'label'}[0]->{'index'} ];
-        if (!$item{'label'}) {
+        if ( !$item{'label'} ) {
             $item{'label'} = '[unknown]';
         }
 
@@ -566,21 +1001,45 @@ sub extractdc_csv {
     open my $fh, "<:encoding(utf8)", $tempname
       or die "Cannot read $tempname: $!\n";
 
-    my $header = $csv->getline($fh);
+    my @headerline;
+    try {
+        @headerline =
+          $csv->header( $fh, { detect_bom => 1, munge_column_names => "lc" } );
+    }
+    catch {
+        my $error = $_;
+        $error =~ s! at \S+ line \d+.*!!g;
+        die "csv->header: $error\n" if ( $error =~ /\S/ );
+    };
+    die "Problem with header line\n" if ( !@headerline );
 
     #get object id
     my $objid_column =
-      first { @$header[$_] && @$header[$_] eq 'objid' } 0 .. @$header;
+      first { $headerline[$_] && $headerline[$_] eq 'objid' } 0 .. @headerline;
     if ( !defined $objid_column ) {
-        die "column 'objid' header not found in first row\n";
+        die "Column 'objid' not found.\n";
     }
 
+    my $hasDC =
+      first { $headerline[$_] && substr( $headerline[$_], 0, 3 ) eq 'dc:' }
+    0 .. @headerline;
+    if ( !defined $hasDC ) {
+        die "No column starts with 'dc:'. Is this a Dublin Core file?\n";
+    }
+
+    my $label_col = first { $headerline[$_] eq 'dc:title' } 0 .. @headerline;
+    if ( !defined $label_col ) {
+        warn "Column 'dc:title' not found.\n";
+    }
+
+    my $linecount = 1;    # first line was header
     while ( my $row = $csv->getline($fh) ) {
+        $linecount++;
 
         #process each metadata record based on the object ID
         my $id = $row->[$objid_column];
         if ( !$id || $id =~ /^\s*$/ ) {
-            warn "Line missing ID --- skipping!\n";
+            warn "Line $linecount missing ID --- skipping!\n";
             next;
         }
 
@@ -600,9 +1059,9 @@ sub extractdc_csv {
         $root->setNamespace( 'http://purl.org/dc/elements/1.1/', 'dc', 0 );
 
         # map header to dc element and process values
-        foreach my $thisheader (@$header) {
+        foreach my $thisheader (@headerline) {
             if ( substr( $thisheader, 0, 3 ) eq 'dc:' ) {
-                set_element( $thisheader, $header, $row, $root );
+                set_element( $thisheader, \@headerline, $row, $root );
             }
         }
 
@@ -613,9 +1072,6 @@ sub extractdc_csv {
         push @{ $self->xml }, $doc->toString(0);
 
         $item{'label'} = '[unknown]';
-        my $label_col;
-        my $label;
-        $label_col = first { @$header[$_] eq 'dc:title' } 0 .. @$header;
         if ($label_col) {
             my $label_value = $row->[$label_col];
 
@@ -700,6 +1156,9 @@ sub extractxml_marc {
     foreach my $thiswarning (@warnings) {
         warn $thiswarning . "\n";
     }
+    if ( !scalar( @{ $self->items } ) ) {
+        die "No records found.  Was it a MARC 21 binary file?\n";
+    }
 }
 
 sub process_marc {
@@ -769,16 +1228,16 @@ sub process_marc {
 sub store_xml {
     my ($self) = @_;
 
-    foreach my $index ( 0 .. scalar( @{ $self->xml } ) - 1 ) {
-        $self->doc->{'_attachments'}->{ $index . ".xml" } = {
-            'content_type' => 'application/xml',
-            'data'         => encode_base64( @{ $self->xml }[$index] )
-        };
-    }
-    $self->put_document();
+  # Document is allowed to change in background by web interface, so get latest.
+    $self->getDocument();
 
-    # Get a copy of the updated document (with Attachments as stubs)
-    $self->get_document();
+    my $newrev = $self->putAttachment(
+        $self->document->{'_rev'}, "dmd.json",
+        "application/json",        $self->xml
+    );
+    die "Failure storing dmd.json attachment\n" if !$newrev;
+    $self->document->{'_rev'} = $newrev;
+
 }
 
 sub validate_xml {
@@ -834,6 +1293,8 @@ sub validate_xml {
 sub store_flatten {
     my ($self) = @_;
 
+    my @flatten;
+
     foreach my $index ( 0 .. scalar( @{ $self->xml } ) - 1 ) {
 
         # Capture warnings
@@ -843,28 +1304,24 @@ sub store_flatten {
         my $xml  = @{ $self->xml }[$index];
         my $item = @{ $self->items }[$index];
 
-        $self->doc->{'_attachments'}->{ $index . ".json" } = {
-            'content_type' => 'application/json',
-            'data'         => encode_base64(
-                encode_json(
-                    $self->flatten->byType(
-                        $item->{output},
-                        utf8::is_utf8($xml)
-                        ? Encode::encode_utf8($xml)
-                        : $xml
-                    )
-                )
-            )
-        };
+        $flatten[$index] =
+          $self->flatten->byType( $item->{output},
+              utf8::is_utf8($xml)
+            ? Encode::encode_utf8($xml)
+            : $xml );
 
         @{ $self->items }[$index]->{message} .= $self->warnings;
     }
 
-    $self->put_document();
+  # Document is allowed to change in background by web interface, so get latest.
+    $self->getDocument();
 
-    # Get a copy of the updated document (with Attachments as stubs)
-    $self->get_document();
-
+    my $newrev = $self->putAttachment(
+        $self->document->{'_rev'}, "flatten.json",
+        "application/json",        \@flatten
+    );
+    die "Failure storing flatten.json attachment\n" if !$newrev;
+    $self->document->{'_rev'} = $newrev;
 }
 
 1;
