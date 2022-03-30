@@ -11,6 +11,8 @@ use JSON;
 use Data::Dumper;
 use Switch;
 use URI::Escape;
+use DateTime::Format::ISO8601;
+use Data::Dumper;
 
 =head1 NAME
 
@@ -44,7 +46,7 @@ sub new {
     }
     $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
 
-    my $test = $self->swift->container_head( $self->access_metadata );
+    my $test = $self->swift->container_head( $self->access_files );
     if ( !$test || $test->code != 204 ) {
         die "Problem connecting to Swift container. Check configuration\n";
     }
@@ -57,7 +59,20 @@ sub new {
     $self->ocrtaskdb->set_persistent_header( 'Accept' => 'application/json' );
     $test = $self->ocrtaskdb->head("/");
     if ( !$test || $test->code != 200 ) {
-        die "Problem connecting to Couchdb database. Check configuration\n";
+        die
+"Problem connecting to `ocrtask` Couchdb database. Check configuration\n";
+    }
+
+    $self->{canvasdb} = new restclient(
+        server      => $args->{couchdb_canvas},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->canvasdb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->canvasdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `canvas` Couchdb database. Check configuration\n";
     }
 
     return $self;
@@ -79,6 +94,11 @@ sub access_metadata {
     return $self->args->{swift_access_metadata};
 }
 
+sub access_files {
+    my $self = shift;
+    return $self->args->{swift_access_files};
+}
+
 sub swift {
     my $self = shift;
     return $self->{swift};
@@ -87,6 +107,11 @@ sub swift {
 sub ocrtaskdb {
     my $self = shift;
     return $self->{ocrtaskdb};
+}
+
+sub canvasdb {
+    my $self = shift;
+    return $self->{canvasdb};
 }
 
 sub maxprocs {
@@ -190,15 +215,57 @@ sub ocrtask {
 sub ocrExport {
     my ($self) = @_;
 
-    switch ( int( rand(3) ) ) {
-        case 0 {
-            return;
+    my $workdir = "/home/tdr/ocr/" . $self->task->{name};
+    mkdir $workdir or die "Can't create task work directory $workdir : $!\n";
+
+    $self->canvasdb->type("application/json");
+    my $url = "/_all_docs";
+
+    my $res = $self->canvasdb->post(
+        $url,
+        {
+            keys         => $self->task->{canvases},
+            include_docs => JSON::true
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 200 ) {
+        die "$url return code: " . $res->code . "\n";
+    }
+    foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
+        if ( !defined $canvasdoc->{doc} ) {
+            warn "Didn't find " . $canvasdoc->{id} . "\n";
         }
-        case 1 {
-            warn "Just a little export warning.\n";
-        }
-        case 2 {
-            die "Why this export failed.\n";
+        else {
+            my $canvas = $canvasdoc->{doc};
+            my $objectname =
+              $canvas->{'_id'} . '.' . $canvas->{master}->{extension};
+            my $destfilename = $workdir . '/' . uri_escape_utf8($objectname);
+
+            open( my $fh, '>:raw', $destfilename )
+              or die "Could not open file '$destfilename' $!";
+            my $object =
+              $self->swift->object_get( $self->access_files, $objectname,
+                { write_file => $fh } );
+            close $fh;
+            if ( $object->code != 200 ) {
+                die "Swift object_get container: '"
+                  . $self->access_files
+                  . "' , object: '$objectname' destfilename: '$destfilename'  returned "
+                  . $object->code . " - "
+                  . $object->message . "\n";
+            }
+            my $filemodified = $object->object_meta_header('File-Modified');
+            if ($filemodified) {
+                my $dt =
+                  DateTime::Format::ISO8601->parse_datetime($filemodified);
+                if ( !$dt ) {
+                    die
+"Couldn't parse ISO8601 date from $filemodified (GET from $objectname)\n";
+                }
+                my $atime = time;
+                utime $atime, $dt->epoch(), $destfilename;
+            }
         }
     }
 }
