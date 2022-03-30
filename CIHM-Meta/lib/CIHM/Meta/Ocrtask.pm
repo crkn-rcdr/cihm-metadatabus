@@ -25,9 +25,11 @@ CIHM::Meta::Ocrtask - Process image exports from, and OCR data imports to, the A
 
 =cut
 
+our $self;
+
 sub new {
     my ( $class, $args ) = @_;
-    my $self = bless {}, $class;
+    our $self = bless {}, $class;
 
     if ( ref($args) ne "HASH" ) {
         die "Argument to CIHM::Meta::Ocrtask->new() not a hash\n";
@@ -92,8 +94,55 @@ sub maxprocs {
     return $self->args->{maxprocs};
 }
 
+sub task {
+    my $self = shift;
+    return $self->{task};
+}
+
+sub taskid {
+    my $self = shift;
+    return $self->task->{'_id'} if $self->task;
+}
+
+sub todo {
+    my $self = shift;
+    return $self->{todo};
+}
+
+sub clear_warnings {
+    my $self = shift;
+    $self->{warnings} = "";
+}
+
+sub warnings {
+    my $self = shift;
+    return $self->{warnings};
+}
+
+sub collect_warnings {
+    my $warning = shift;
+    our $self;
+    my $taskid = "unknown";
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    if ($self) {
+        $self->{warnings} .= $warning;
+        $self->log->warn( $self->taskid . ": $stripped" );
+    }
+    else {
+        say STDERR "$warning\n";
+    }
+}
+
 sub ocrtask {
     my ($self) = @_;
+
+    $self->clear_warnings();
+
+    # Capture warnings
+    local $SIG{__WARN__} = sub { &collect_warnings };
 
     $self->log->info( "Ocrtask maxprocs=" . $self->maxprocs );
 
@@ -105,64 +154,76 @@ sub ocrtask {
     if ( $res->code == 200 ) {
         if ( exists $res->data->{rows} ) {
             foreach my $task ( @{ $res->data->{rows} } ) {
+                my $status;
+                $self->clear_warnings();
+
                 my $todo = shift @{ $task->{key} };
-                if ( $todo eq 'export' ) {
-                    $self->ocrExport( $task->{doc} );
+                $self->{todo} = $todo;
+                $self->{task} = $task->{doc};
+
+                # Handle and record any errors
+                try {
+                    $status = JSON::true;
+
+                    if ( $todo eq 'export' ) {
+                        $self->ocrExport();
+                    }
+                    else {
+                        $self->ocrImport();
+                    }
                 }
-                else {
-                    $self->ocrImport( $task->{doc} );
-                }
+                catch {
+                    $status = JSON::false;
+                    $self->log->error( $self->taskid . ": $_" );
+                    $self->{warnings} .= "Caught: " . $_;
+                };
+                $self->postResults( $status, $self->warnings );
             }
         }
     }
     else {
-        die "$url GET return code: " . $res->code."\n";
+        $self->log->error(
+            "ocrtaskdb $url GET return code: " . $res->code . "\n" );
     }
 }
 
 sub ocrExport {
-    my ( $self, $task ) = @_;
-
-    my $taskid = $task->{'_id'};
+    my ($self) = @_;
 
     switch ( int( rand(3) ) ) {
         case 0 {
-            $self->postResults( "Export", $taskid, JSON::true )
+            return;
         }
         case 1 {
-            $self->postResults( "Export", $taskid, JSON::true,
-                "Just a little export warning." )
+            warn "Just a little export warning.\n";
         }
         case 2 {
-            $self->postResults( "Export", $taskid, JSON::false,
-                "Why this export failed." )
+            die "Why this export failed.\n";
         }
     }
 }
 
 sub ocrImport {
-    my ( $self, $task ) = @_;
-
-
-    my $taskid = $task->{'_id'};
+    my ($self) = @_;
 
     switch ( int( rand(3) ) ) {
         case 0 {
-            $self->postResults( "Import", $taskid, JSON::true )
+            return;
         }
         case 1 {
-            $self->postResults( "Import", $taskid, JSON::true,
-                "Just a little import warning." )
+            warn "Just a little import warning.\n";
         }
         case 2 {
-            $self->postResults( "Import", $taskid, JSON::false,
-                "Why this import failed." )
+            die "Why this import failed.\n";
         }
     }
 }
 
 sub postResults {
-    my ( $self, $which, $taskid, $succeeded, $message ) = @_;
+    my ( $self, $succeeded, $message ) = @_;
+
+    my $which = ( $self->todo eq "export" ) ? "Export" : "Import";
+    my $taskid = $self->taskid;
 
     my $url =
       "/_design/access/_update/updateOCR${which}/" . uri_escape_utf8($taskid);
