@@ -13,6 +13,8 @@ use Switch;
 use URI::Escape;
 use DateTime::Format::ISO8601;
 use Data::Dumper;
+use Poppler;
+use Digest::MD5;
 
 =head1 NAME
 
@@ -273,17 +275,93 @@ sub ocrExport {
 sub ocrImport {
     my ($self) = @_;
 
-    switch ( int( rand(3) ) ) {
-        case 0 {
-            return;
+    my $workdir = "/home/tdr/ocr/" . $self->task->{name};
+    if ( !-d $workdir ) {
+        die "Work directory: $workdir : $!\n";
+    }
+
+    $self->canvasdb->type("application/json");
+    my $url = "/_all_docs";
+
+    my $res = $self->canvasdb->post(
+        $url,
+        {
+            keys         => $self->task->{canvases},
+            include_docs => JSON::true
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 200 ) {
+        die "$url return code: " . $res->code . "\n";
+    }
+    foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
+        if ( !defined $canvasdoc->{doc} ) {
+            warn "Didn't find " . $canvasdoc->{id} . "\n";
         }
-        case 1 {
-            warn "Just a little import warning.\n";
-        }
-        case 2 {
-            die "Why this import failed.\n";
+        else {
+            my $canvas = $canvasdoc->{doc};
+
+            my $pdfobjectname = $canvas->{'_id'} . '.pdf';
+            my $pdffilename = $workdir . '/' . uri_escape_utf8($pdfobjectname);
+            if ( -f $pdffilename ) {
+                my $pages = 0;
+                try {
+                    my $pdf = Poppler::Document->new_from_file($pdffilename);
+                    $pages = $pdf->get_n_pages;
+                };
+                if ( $pages == 1 ) {
+                    open( my $fh, '<:raw', $pdffilename )
+                      or die "Can't open '$pdffilename': $!";
+                    binmode($fh);
+                    my $filedate = "unknown";
+                    my $mtime    = ( stat($fh) )[9];
+                    if ($mtime) {
+                        my $dt = DateTime->from_epoch( epoch => $mtime );
+                        $filedate = $dt->datetime . "Z";
+                    }
+                    my $size = ( stat($fh) )[7];
+
+                    my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
+                    seek( $fh, 0, 0 );
+                    print Dumper ($pdffilename,$filedate, $size, $md5digest);
+
+                }
+                else {
+                    warn "$pdffilename is not a single page PDF\n";
+                }
+            }
+            else {
+                warn "$pdffilename doesn't exist\n";
+            }
+
+            my $xmlobjectname = $canvas->{'_id'} . '.xml';
+            my $xmlfilename = $workdir . '/' . uri_escape_utf8($xmlobjectname);
+            if ( -f $xmlfilename ) {
+                my $valid = 1;
+                try {
+                    my $xml = XML::LibXML->new->parse_file($xmlfilename);
+                    my $xpc = XML::LibXML::XPathContext->new($xml);
+                    $xpc->registerNs( 'alto',
+                        'http://www.loc.gov/standards/alto/ns-v3' );
+                    my $schema =
+                      XML::LibXML::Schema->new( location =>
+                          "/opt/xml/current/unpublished/xsd/alto-3-1.xsd" );
+                    $schema->validate($xml);
+                }
+                catch {
+                    $valid = 0;
+                    warn "$xmlfilename is not valid ALTO XML: $_\n";
+                };
+                if ($valid) {
+                    print "$xmlfilename is valid\n";
+                }
+            }
+            else {
+                warn "$xmlfilename doesn't exist\n";
+            }
         }
     }
+    die "Still testing\n";
 }
 
 sub postResults {

@@ -32,3 +32,4 @@ requires 'Text::CSV';
 
 # Used by ocrtask
 requires 'DateTime::Format::ISO8601';
+requires 'Poppler';
