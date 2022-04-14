@@ -563,10 +563,7 @@ sub storeAccess {
         }
     }
 
-    # Needs to be bytes so utf8::downgrade, but don't Encode::encode_utf8()?
-    # TODO: At some point, spend more time to clarify why.
-    my $dmdRecord = $xml;
-    utf8::downgrade($dmdRecord);
+    my $dmdRecord = encode( "utf8",$xml);
     my $dmdDigest = md5_hex($dmdRecord);
 
     my $object = "$id/dmd" . uc( $item->{item}->{output} ) . '.xml';
@@ -629,10 +626,7 @@ sub storePreservation {
     my $id  = $doc->{'_id'};
     my $rev = $doc->{'_rev'};
 
-    # Needs to be bytes so utf8::downgrade, but don't Encode::encode_utf8()?
-    # TODO: At some point, spend more time to clarify why.
-    my $dmdRecord = $xml;
-    utf8::downgrade($dmdRecord);
+    my $dmdRecord = encode( "utf8",$xml);
 
     # Attach XML
     $self->wipmetadb->clear_headers;
