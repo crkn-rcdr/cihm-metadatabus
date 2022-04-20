@@ -13,6 +13,7 @@ use List::MoreUtils qw(uniq);
 use MARC::Batch;
 use MARC::File::XML ( BinaryEncoding => 'utf8', RecordFormat => 'USMARC' );
 use MARC::File::USMARC;
+use XML::LibXML;
 use File::Temp;
 use Encode;
 use Text::CSV;
@@ -562,11 +563,10 @@ sub storeAccess {
         }
     }
 
-    my $dmdRecord = utf8::is_utf8($xml) ? Encode::encode_utf8($xml) : $xml;
+    my $dmdRecord = encode( "utf8",$xml);
     my $dmdDigest = md5_hex($dmdRecord);
 
-    my $object =
-      $doc->{'_id'} . '/dmd' . uc( $item->{item}->{output} ) . '.xml';
+    my $object = "$id/dmd" . uc( $item->{item}->{output} ) . '.xml';
     my $r = $self->swift->object_head( $self->access_metadata, $object );
     if ( $r->code == 404 || ( $r->etag ne $dmdDigest ) ) {
         $r =
@@ -626,11 +626,13 @@ sub storePreservation {
     my $id  = $doc->{'_id'};
     my $rev = $doc->{'_rev'};
 
+    my $dmdRecord = encode( "utf8",$xml);
+
     # Attach XML
     $self->wipmetadb->clear_headers;
     $self->wipmetadb->set_header( 'If-Match' => $rev ) if $rev;
     $self->wipmetadb->type('application/xml');
-    my $res = $self->wipmetadb->put( "/$id/dmd.xml", $xml,
+    my $res = $self->wipmetadb->put( "/$id/dmd.xml", $dmdRecord,
         { deserializer => 'application/json' } );
     if ( $res->code != 201 ) {
         if ( defined $res->response->content ) {
@@ -861,6 +863,10 @@ sub extractissueinfo_csv {
     };
     die "Problem with header line\n" if ( !@headerline );
 
+    if ( defined $csv->{ENCODING} ) {
+        $self->log->info( "Encoding: " . $csv->{ENCODING} );
+    }
+
     #get object id
     my $objid_column = first { $headerline[$_] eq 'objid' } 0 .. @headerline;
     if ( !defined $objid_column ) {
@@ -971,7 +977,8 @@ sub extractissueinfo_csv {
         $doc->setDocumentElement($root);
 
         # Store the XML (for more processing)
-        push @{ $self->xml }, $doc->toString(0);
+        # Need to convert the bytes from XML::LibXML to UTF8 string.
+        push @{ $self->xml }, decode( "utf8", $doc->toString(0) );
 
         $item{'label'} = $row->[ $headers{'label'}[0]->{'index'} ];
         if ( !$item{'label'} ) {
@@ -1012,6 +1019,10 @@ sub extractdc_csv {
         die "csv->header: $error\n" if ( $error =~ /\S/ );
     };
     die "Problem with header line\n" if ( !@headerline );
+
+    if ( defined $csv->{ENCODING} ) {
+        $self->log->info( "Encoding: " . $csv->{ENCODING} );
+    }
 
     #get object id
     my $objid_column =
@@ -1069,7 +1080,8 @@ sub extractdc_csv {
         $doc->setDocumentElement($root);
 
         # Store the XML (for more processing)
-        push @{ $self->xml }, $doc->toString(0);
+        # Need to convert the bytes from XML::LibXML to UTF8 string.
+        push @{ $self->xml }, decode( "utf8", $doc->toString(0) );
 
         $item{'label'} = '[unknown]';
         if ($label_col) {
@@ -1085,7 +1097,6 @@ sub extractdc_csv {
         # Store the item
         push @{ $self->items }, \%item;
     }
-
 }
 
 sub set_element {
@@ -1133,12 +1144,9 @@ sub extractxml_marc {
         }
 
         # Create xml structure
-        # Using the "encode_utf8" function to encode to Perl's internal format
-        my $xml = encode_utf8(
-            join( "",
-                MARC::File::XML::header(), MARC::File::XML::record($record),
-                MARC::File::XML::footer() )
-        );
+        my $xml = join( "",
+            MARC::File::XML::header(), MARC::File::XML::record($record),
+            MARC::File::XML::footer() );
 
         # Store the XML (for more processing)
         push @{ $self->xml }, $xml;
@@ -1305,10 +1313,7 @@ sub store_flatten {
         my $item = @{ $self->items }[$index];
 
         $flatten[$index] =
-          $self->flatten->byType( $item->{output},
-              utf8::is_utf8($xml)
-            ? Encode::encode_utf8($xml)
-            : $xml );
+          $self->flatten->byType( $item->{output}, $xml );
 
         @{ $self->items }[$index]->{message} .= $self->warnings;
     }
