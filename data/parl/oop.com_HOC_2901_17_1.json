@@ -1,1 +1,15 @@
-{"label":"House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Transport and Communications, vol. 1 no. 1-19 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent des transports et des communications, vol. 1 no. 1-19","callNumber":"1973/74 T7 A1 v.1","pubmin":"1973-01-04","session":["29-1"],"language":["eng","fra"],"node":[["eng","c","committees","29-1",21],["fra","c","committees","29-1",23]],"pubmax":"1974-02-26","type":"committees","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Transport and Communications, vol. 1 no. 1-19 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent des transports et des communications, vol. 1 no. 1-19",
+  "callNumber": "1973/74 T7 A1 v.1",
+  "pubmin": "1973-01-04",
+  "session": ["29-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "29-1", 21],
+    ["fra", "c", "committees", "29-1", 23]
+  ],
+  "pubmax": "1974-02-26",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

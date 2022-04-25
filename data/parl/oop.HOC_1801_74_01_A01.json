@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["18-1"],"pubmin":"1936-02-06","label":"House of Commons Journals, 18th Parliament, 1st Session : Vol. 74 App. 1","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"journals","node":[["eng","c","journals","18-1",2]],"pubmax":"1936-06-23"}
+{
+  "language": ["eng"],
+  "session": ["18-1"],
+  "pubmin": "1936-02-06",
+  "label": "House of Commons Journals, 18th Parliament, 1st Session : Vol. 74 App. 1",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "18-1", 2]],
+  "pubmax": "1936-06-23"
+}

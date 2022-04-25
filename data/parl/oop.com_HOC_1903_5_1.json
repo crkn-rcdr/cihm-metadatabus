@@ -1,1 +1,12 @@
-{"pubmax":"1943-01-27","node":[["eng","c","committees","19-3",19]],"type":"committees","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","callNumber":"1942/43 R3 A1","label":"House of Commons Committees, 19th Parliament, 3rd Session : Standing Committee on Railways and Shipping Owned, Operated and Controlled by the Government, vol. 1","pubmin":"1942-01-22","session":["19-3"],"language":["eng"]}
+{
+  "pubmax": "1943-01-27",
+  "node": [["eng", "c", "committees", "19-3", 19]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "callNumber": "1942/43 R3 A1",
+  "label": "House of Commons Committees, 19th Parliament, 3rd Session : Standing Committee on Railways and Shipping Owned, Operated and Controlled by the Government, vol. 1",
+  "pubmin": "1942-01-22",
+  "session": ["19-3"],
+  "language": ["eng"]
+}

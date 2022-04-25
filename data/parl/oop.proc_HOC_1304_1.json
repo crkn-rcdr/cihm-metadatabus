@@ -1,1 +1,12 @@
-{"type":"cproc","node":[["eng","c","cproc","13-4",1]],"pubmax":"1920-07-01","primeMinisters":"Borden, Robert Laird","chamber":["c"],"pubmin":"1920-02-26","label":"House of Commons Votes and Proceedings, 13th Parliament, 4th Session : 1-86","callNumber":"J103 H41 1920 c.2","language":["eng"],"session":["13-4"]}
+{
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "13-4", 1]],
+  "pubmax": "1920-07-01",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "pubmin": "1920-02-26",
+  "label": "House of Commons Votes and Proceedings, 13th Parliament, 4th Session : 1-86",
+  "callNumber": "J103 H41 1920 c.2",
+  "language": ["eng"],
+  "session": ["13-4"]
+}

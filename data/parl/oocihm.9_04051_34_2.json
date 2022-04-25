@@ -1,1 +1,11 @@
-{"pubmin":"1900-02-01","label":"Documents parlementaires, 8e Législature, 5e Session : vol. 3","language":["fra"],"session":["08-5"],"type":"sessional","pubmax":"1900-07-18","node":[["fra","c","sessional","08-5",3]],"chamber":["c"],"primeMinisters":"Laurier, Wilfrid"}
+{
+  "pubmin": "1900-02-01",
+  "label": "Documents parlementaires, 8e Législature, 5e Session : vol. 3",
+  "language": ["fra"],
+  "session": ["08-5"],
+  "type": "sessional",
+  "pubmax": "1900-07-18",
+  "node": [["fra", "c", "sessional", "08-5", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

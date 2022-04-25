@@ -1,1 +1,12 @@
-{"label":"Comités du Sénat, 33e Législature, 2e Session : Comité permanent de l'énergie et des ressources naturelles, Rapport","callNumber":"33-2 E56 A12","pubmin":"1986-09-30","session":["33-2"],"language":["fra"],"reportTitle":["La déréglementation du marché du gaz naturel"],"node":[["fra","s","committees","33-2",22]],"pubmax":"1988-10-01","type":"committees","chamber":["s"]}
+{
+  "label": "Comités du Sénat, 33e Législature, 2e Session : Comité permanent de l'énergie et des ressources naturelles, Rapport",
+  "callNumber": "33-2 E56 A12",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["fra"],
+  "reportTitle": ["La déréglementation du marché du gaz naturel"],
+  "node": [["fra", "s", "committees", "33-2", 22]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "chamber": ["s"]
+}

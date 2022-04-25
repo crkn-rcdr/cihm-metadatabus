@@ -1,1 +1,11 @@
-{"label":"Journaux de la Chambre des communes, 7e Législature, 3e Session : Vol. 27","pubmin":"1893-01-26","session":["07-3"],"language":["fra"],"pubmax":"1893-04-01","node":[["fra","c","journals","07-3",1]],"type":"journals","chamber":["c"],"primeMinisters":"Thompson, John Sparrow David"}
+{
+  "label": "Journaux de la Chambre des communes, 7e Législature, 3e Session : Vol. 27",
+  "pubmin": "1893-01-26",
+  "session": ["07-3"],
+  "language": ["fra"],
+  "pubmax": "1893-04-01",
+  "node": [["fra", "c", "journals", "07-3", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Thompson, John Sparrow David"
+}

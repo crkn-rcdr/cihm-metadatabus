@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["33-1"],"pubmin":"1984-11-05","callNumber":"33-1 C33 A1","label":"House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on the Canadian National Railways' Pension System, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur le régime de pensions des Chemins de fer nationaux du Canada, vol. 1","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",20],["fra","c","committees","33-1",108]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 C33 A1",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on the Canadian National Railways' Pension System, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur le régime de pensions des Chemins de fer nationaux du Canada, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 20],
+    ["fra", "c", "committees", "33-1", 108]
+  ]
+}

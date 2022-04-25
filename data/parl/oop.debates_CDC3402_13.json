@@ -1,1 +1,11 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["fra","c","debates","34-2",13]],"pubmax":"1991-05-12","type":"debates","session":["34-2"],"language":["fra"],"label":"Débats de la Chambre des communes, 34e Législature, 2e Session : Vol. 13","pubmin":"1989-04-03"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "34-2", 13]],
+  "pubmax": "1991-05-12",
+  "type": "debates",
+  "session": ["34-2"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 34e Législature, 2e Session : Vol. 13",
+  "pubmin": "1989-04-03"
+}

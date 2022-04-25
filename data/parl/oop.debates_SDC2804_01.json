@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"debates","node":[["fra","s","debates","28-4",1]],"pubmax":"1972-09-01","language":["fra"],"session":["28-4"],"pubmin":"1972-02-17","label":"Débats du Sénat, 28e Législature, 4e Session : Vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "28-4", 1]],
+  "pubmax": "1972-09-01",
+  "language": ["fra"],
+  "session": ["28-4"],
+  "pubmin": "1972-02-17",
+  "label": "Débats du Sénat, 28e Législature, 4e Session : Vol. 1"
+}

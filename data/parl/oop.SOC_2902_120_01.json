@@ -1,1 +1,10 @@
-{"pubmin":"1974-02-27","label":"Senate Journals, 29th Parliament, 2nd Session : Vol. 120","language":["eng"],"session":["29-2"],"type":"journals","node":[["eng","s","journals","29-2",1]],"pubmax":"1974-05-09","chamber":["s"]}
+{
+  "pubmin": "1974-02-27",
+  "label": "Senate Journals, 29th Parliament, 2nd Session : Vol. 120",
+  "language": ["eng"],
+  "session": ["29-2"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "29-2", 1]],
+  "pubmax": "1974-05-09",
+  "chamber": ["s"]
+}

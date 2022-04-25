@@ -1,1 +1,10 @@
-{"pubmax":"1924-07-19","node":[["fra","s","debates","14-3",1]],"type":"debates","chamber":["s"],"label":"Débats du Sénat, 14e Législature, 3e Session : Vol. 1","pubmin":"1924-02-28","session":["14-3"],"language":["fra"]}
+{
+  "pubmax": "1924-07-19",
+  "node": [["fra", "s", "debates", "14-3", 1]],
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Débats du Sénat, 14e Législature, 3e Session : Vol. 1",
+  "pubmin": "1924-02-28",
+  "session": ["14-3"],
+  "language": ["fra"]
+}

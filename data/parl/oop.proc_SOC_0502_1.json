@@ -1,1 +1,11 @@
-{"type":"sproc","pubmax":"1884-04-19","node":[["eng","s","sproc","05-2",1]],"chamber":["s"],"pubmin":"1884-01-17","callNumber":"J103 H4 1884","label":"Senate Minutes of Proceedings, 5th Parliament, 2nd Session : 1-56","language":["eng"],"session":["05-2"]}
+{
+  "type": "sproc",
+  "pubmax": "1884-04-19",
+  "node": [["eng", "s", "sproc", "05-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1884-01-17",
+  "callNumber": "J103 H4 1884",
+  "label": "Senate Minutes of Proceedings, 5th Parliament, 2nd Session : 1-56",
+  "language": ["eng"],
+  "session": ["05-2"]
+}

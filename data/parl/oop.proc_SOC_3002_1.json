@@ -1,1 +1,11 @@
-{"session":["30-2"],"language":["eng"],"label":"Senate Minutes of Proceedings, 30th Parliament, 2nd Session : 1-12","callNumber":"J103 H4 1976/77 no. 1-12 c.2","pubmin":"1976-10-12","chamber":["s"],"node":[["eng","s","sproc","30-2",1]],"pubmax":"1977-10-17","type":"sproc"}
+{
+  "session": ["30-2"],
+  "language": ["eng"],
+  "label": "Senate Minutes of Proceedings, 30th Parliament, 2nd Session : 1-12",
+  "callNumber": "J103 H4 1976/77 no. 1-12 c.2",
+  "pubmin": "1976-10-12",
+  "chamber": ["s"],
+  "node": [["eng", "s", "sproc", "30-2", 1]],
+  "pubmax": "1977-10-17",
+  "type": "sproc"
+}

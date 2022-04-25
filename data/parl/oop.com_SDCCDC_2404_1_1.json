@@ -1,1 +1,15 @@
-{"callNumber":"1960/61 I6 A44","label":"Comités mixtes, 24e Législature, 4e Session : Comité mixte sur les affaires indiennes, vol. 1","pubmin":"1960-11-17","session":["24-4"],"language":["fra"],"pubmax":"1961-09-29","node":[["fra","c","committees","24-4",3],["fra","s","committees","24-4",2]],"type":"committees","chamber":["c","s"],"primeMinisters":"Diefenbaker, John George"}
+{
+  "callNumber": "1960/61 I6 A44",
+  "label": "Comités mixtes, 24e Législature, 4e Session : Comité mixte sur les affaires indiennes, vol. 1",
+  "pubmin": "1960-11-17",
+  "session": ["24-4"],
+  "language": ["fra"],
+  "pubmax": "1961-09-29",
+  "node": [
+    ["fra", "c", "committees", "24-4", 3],
+    ["fra", "s", "committees", "24-4", 2]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Diefenbaker, John George"
+}

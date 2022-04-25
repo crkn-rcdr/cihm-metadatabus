@@ -1,1 +1,11 @@
-{"label":"Journaux de la Chambre des communes, 12e Législature, 4e Session : Vol. 50","pubmin":"1914-08-18","session":["12-4"],"language":["fra"],"node":[["fra","c","journals","12-4",1]],"pubmax":"1914-08-22","type":"journals","primeMinisters":"Borden, Robert Laird","chamber":["c"]}
+{
+  "label": "Journaux de la Chambre des communes, 12e Législature, 4e Session : Vol. 50",
+  "pubmin": "1914-08-18",
+  "session": ["12-4"],
+  "language": ["fra"],
+  "node": [["fra", "c", "journals", "12-4", 1]],
+  "pubmax": "1914-08-22",
+  "type": "journals",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

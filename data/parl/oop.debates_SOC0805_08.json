@@ -1,1 +1,10 @@
-{"type":"debates","pubmax":"1900-07-18","node":[["eng","s","debates","08-5",1]],"chamber":["s"],"pubmin":"1900-02-01","label":"Senate Debates, 8th Parliament, 5th Session : Vol. 1","language":["eng"],"session":["08-5"]}
+{
+  "type": "debates",
+  "pubmax": "1900-07-18",
+  "node": [["eng", "s", "debates", "08-5", 1]],
+  "chamber": ["s"],
+  "pubmin": "1900-02-01",
+  "label": "Senate Debates, 8th Parliament, 5th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["08-5"]
+}

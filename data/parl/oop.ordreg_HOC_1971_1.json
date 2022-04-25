@@ -1,1 +1,15 @@
-{"label":"Standing Orders of the House of Commons, 1971 = Règlement de la Chambre des communes, 1971","callNumber":"JL164.4 1971","pubmin":"1970-10-08","session":["28-3"],"language":["eng","fra"],"node":[["eng","c","orders",null,13],["fra","c","orders",null,13]],"pubmax":"1972-02-16","type":"orders","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "label": "Standing Orders of the House of Commons, 1971 = Règlement de la Chambre des communes, 1971",
+  "callNumber": "JL164.4 1971",
+  "pubmin": "1970-10-08",
+  "session": ["28-3"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "orders", null, 13],
+    ["fra", "c", "orders", null, 13]
+  ],
+  "pubmax": "1972-02-16",
+  "type": "orders",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

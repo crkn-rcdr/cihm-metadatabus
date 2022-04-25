@@ -1,1 +1,24 @@
-{"722":{"tagDescription":["Forets et pulpe. Protection des forets; Canadian Forestry Ass."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"496":{"tagDate":["1925-01-01T00:00:00.000Z"],"tagDescription":["Finances en general Montreal Gazette, 1925"],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"607":{"tagDescription":["Finances en general Montreal Herald, 1927"],"tagDate":["1927-01-01T00:00:00.000Z"],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]}}
+{
+  "722": {
+    "tagDescription": [
+      "Forets et pulpe. Protection des forets; Canadian Forestry Ass."
+    ],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "496": {
+    "tagDate": ["1925-01-01T00:00:00.000Z"],
+    "tagDescription": ["Finances en general Montreal Gazette, 1925"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "607": {
+    "tagDescription": ["Finances en general Montreal Herald, 1927"],
+    "tagDate": ["1927-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  }
+}

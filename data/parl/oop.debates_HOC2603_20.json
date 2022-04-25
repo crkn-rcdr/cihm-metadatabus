@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","type":"debates","pubmax":"1965-09-08","node":[["eng","c","debates","26-3",4]],"language":["eng"],"session":["26-3"],"pubmin":"1965-04-05","label":"House of Commons Debates, 26th Parliament, 3rd Session : Index"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "type": "debates",
+  "pubmax": "1965-09-08",
+  "node": [["eng", "c", "debates", "26-3", 4]],
+  "language": ["eng"],
+  "session": ["26-3"],
+  "pubmin": "1965-04-05",
+  "label": "House of Commons Debates, 26th Parliament, 3rd Session : Index"
+}

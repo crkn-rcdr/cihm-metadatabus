@@ -1,1 +1,10 @@
-{"node":[["eng","s","debates","20-2",1]],"pubmax":"1946-08-31","type":"debates","chamber":["s"],"label":"Senate Debates, 20th Parliament, 2nd Session : Vol. 1","pubmin":"1946-03-14","session":["20-2"],"language":["eng"]}
+{
+  "node": [["eng", "s", "debates", "20-2", 1]],
+  "pubmax": "1946-08-31",
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Senate Debates, 20th Parliament, 2nd Session : Vol. 1",
+  "pubmin": "1946-03-14",
+  "session": ["20-2"],
+  "language": ["eng"]
+}

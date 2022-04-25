@@ -1,1 +1,11 @@
-{"pubmax":"1940-11-05","node":[["eng","s","sproc","19-1",1]],"type":"sproc","chamber":["s"],"callNumber":"J103 H4 1940","label":"Senate Minutes of Proceedings, 19th Parliament, 1st Session : 1-42","pubmin":"1940-05-16","session":["19-1"],"language":["eng"]}
+{
+  "pubmax": "1940-11-05",
+  "node": [["eng", "s", "sproc", "19-1", 1]],
+  "type": "sproc",
+  "chamber": ["s"],
+  "callNumber": "J103 H4 1940",
+  "label": "Senate Minutes of Proceedings, 19th Parliament, 1st Session : 1-42",
+  "pubmin": "1940-05-16",
+  "session": ["19-1"],
+  "language": ["eng"]
+}

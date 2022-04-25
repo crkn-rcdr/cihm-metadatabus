@@ -1,1 +1,11 @@
-{"chamber":["s"],"pubmax":"1879-05-15","node":[["fra","s","sproc","04-1",1]],"type":"sproc","session":["04-1"],"language":["fra"],"callNumber":"J103 H43 1879","label":"Procès-verbaux du Sénat, 4e Législature, 1re Session : 1-58","pubmin":"1879-02-13"}
+{
+  "chamber": ["s"],
+  "pubmax": "1879-05-15",
+  "node": [["fra", "s", "sproc", "04-1", 1]],
+  "type": "sproc",
+  "session": ["04-1"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1879",
+  "label": "Procès-verbaux du Sénat, 4e Législature, 1re Session : 1-58",
+  "pubmin": "1879-02-13"
+}

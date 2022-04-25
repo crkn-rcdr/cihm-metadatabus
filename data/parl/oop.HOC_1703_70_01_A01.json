@@ -1,1 +1,11 @@
-{"session":["17-3"],"language":["eng"],"label":"House of Commons Journals, 17th Parliament, 3rd Session : Vol. 70 App. 1","pubmin":"1932-02-04","primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"node":[["eng","c","journals","17-3",2]],"pubmax":"1932-05-26","type":"journals"}
+{
+  "session": ["17-3"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 17th Parliament, 3rd Session : Vol. 70 App. 1",
+  "pubmin": "1932-02-04",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "node": [["eng", "c", "journals", "17-3", 2]],
+  "pubmax": "1932-05-26",
+  "type": "journals"
+}

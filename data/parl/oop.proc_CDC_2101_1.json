@@ -1,1 +1,12 @@
-{"type":"cproc","pubmax":"1949-12-10","node":[["fra","c","cproc","21-1",1]],"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmin":"1949-09-15","callNumber":"J103 H44 1949 (2e)","label":"Procès-verbaux de la Chambre des communes, 21e Législature, 1re Session : 1-64","language":["fra"],"session":["21-1"]}
+{
+  "type": "cproc",
+  "pubmax": "1949-12-10",
+  "node": [["fra", "c", "cproc", "21-1", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmin": "1949-09-15",
+  "callNumber": "J103 H44 1949 (2e)",
+  "label": "Procès-verbaux de la Chambre des communes, 21e Législature, 1re Session : 1-64",
+  "language": ["fra"],
+  "session": ["21-1"]
+}

@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1970-10-07","node":[["eng","c","committees","28-2",40],["fra","c","committees","28-2",14]],"language":["eng","fra"],"session":["28-2"],"pubmin":"1969-10-23","callNumber":"1969/70 R4 A1","label":"House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on Regional Development, vol. 1 = Comités de la Chambre des communes, 28e Législature, 2e Session : Comité permanent de l'expansion économique régionale, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1970-10-07",
+  "node": [
+    ["eng", "c", "committees", "28-2", 40],
+    ["fra", "c", "committees", "28-2", 14]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["28-2"],
+  "pubmin": "1969-10-23",
+  "callNumber": "1969/70 R4 A1",
+  "label": "House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on Regional Development, vol. 1 = Comités de la Chambre des communes, 28e Législature, 2e Session : Comité permanent de l'expansion économique régionale, vol. 1"
+}

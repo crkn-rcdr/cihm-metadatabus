@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","pubmax":"1889-05-02","node":[["fra","s","journals","06-3",1]],"language":["fra"],"session":["06-3"],"pubmin":"1889-01-31","label":"Journaux du Sénat, 6e Législature, 3e Session : Vol. 23"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1889-05-02",
+  "node": [["fra", "s", "journals", "06-3", 1]],
+  "language": ["fra"],
+  "session": ["06-3"],
+  "pubmin": "1889-01-31",
+  "label": "Journaux du Sénat, 6e Législature, 3e Session : Vol. 23"
+}

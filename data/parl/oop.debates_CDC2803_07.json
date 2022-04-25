@@ -1,1 +1,11 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["fra","c","debates","28-3",7]],"pubmax":"1972-02-16","type":"debates","session":["28-3"],"language":["fra"],"label":"Débats de la Chambre des communes, 28e Législature, 3e Session : Vol. 7","pubmin":"1970-10-08"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "28-3", 7]],
+  "pubmax": "1972-02-16",
+  "type": "debates",
+  "session": ["28-3"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 28e Législature, 3e Session : Vol. 7",
+  "pubmin": "1970-10-08"
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"Diefenbaker, John George","chamber":["c"],"type":"committees","node":[["fra","c","committees","24-5",1]],"pubmax":"1962-04-19","language":["fra"],"session":["24-5"],"pubmin":"1962-01-18","label":"Comités de la Chambre des communes, 24e Législature, 5e Session : Comité permanent des affaires des anciens combattants, vol. 1","callNumber":"1962 A5 A4"}
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "24-5", 1]],
+  "pubmax": "1962-04-19",
+  "language": ["fra"],
+  "session": ["24-5"],
+  "pubmin": "1962-01-18",
+  "label": "Comités de la Chambre des communes, 24e Législature, 5e Session : Comité permanent des affaires des anciens combattants, vol. 1",
+  "callNumber": "1962 A5 A4"
+}

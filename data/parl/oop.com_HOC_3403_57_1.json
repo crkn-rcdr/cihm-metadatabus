@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","callNumber":"34-3 I483 A1 no.1-8","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-80, an Act to amend the Income Tax Act, to enact the Childen's Special Allowances Acts in consequence thereof and to repeal the Family Allowances Act, vol. 1 no. 1-8 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-80, Loi modifiant la Loi de l'impôt sur le revenu, édictant la Loi sur les allocations spéciales pour enfants, apportant des modifications corrélatives à d'autres lois et abrogeant la Loi sur les allocations familiales, vol. 1 no. 1-8","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",124],["fra","c","committees","34-3",19]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 I483 A1 no.1-8",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-80, an Act to amend the Income Tax Act, to enact the Childen's Special Allowances Acts in consequence thereof and to repeal the Family Allowances Act, vol. 1 no. 1-8 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-80, Loi modifiant la Loi de l'impôt sur le revenu, édictant la Loi sur les allocations spéciales pour enfants, apportant des modifications corrélatives à d'autres lois et abrogeant la Loi sur les allocations familiales, vol. 1 no. 1-8",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 124],
+    ["fra", "c", "committees", "34-3", 19]
+  ]
+}

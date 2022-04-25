@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Mackenzie, Alexander","type":"debates","pubmax":"1874-05-26","node":[["eng","c","debates","03-1",1]],"language":["eng"],"session":["03-1"],"pubmin":"1874-03-26","label":"House of Commons Debates, 3rd Parliament, 1st Session : Vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "type": "debates",
+  "pubmax": "1874-05-26",
+  "node": [["eng", "c", "debates", "03-1", 1]],
+  "language": ["eng"],
+  "session": ["03-1"],
+  "pubmin": "1874-03-26",
+  "label": "House of Commons Debates, 3rd Parliament, 1st Session : Vol. 1"
+}

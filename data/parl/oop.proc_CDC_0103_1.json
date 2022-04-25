@@ -1,1 +1,12 @@
-{"pubmax":"1870-05-12","node":[["fra","c","cproc","01-3",1]],"type":"cproc","chamber":["c"],"primeMinisters":"Macdonald, John Alexander","callNumber":"J103 H44 1870","label":"Procès-verbaux de la Chambre des communes, 1e Législature, 3e Session : 1-62","pubmin":"1870-02-15","session":["01-3"],"language":["fra"]}
+{
+  "pubmax": "1870-05-12",
+  "node": [["fra", "c", "cproc", "01-3", 1]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "callNumber": "J103 H44 1870",
+  "label": "Procès-verbaux de la Chambre des communes, 1e Législature, 3e Session : 1-62",
+  "pubmin": "1870-02-15",
+  "session": ["01-3"],
+  "language": ["fra"]
+}

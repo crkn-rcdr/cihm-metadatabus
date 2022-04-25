@@ -1,1 +1,12 @@
-{"callNumber":"34-2 E56 A12","label":"Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Energy and Natural Resources, Report","pubmin":"1989-04-03","session":["34-2"],"reportTitle":["Petro-Canada"],"language":["eng"],"pubmax":"1991-05-12","node":[["eng","s","committees","34-2",14]],"type":"committees","chamber":["s"]}
+{
+  "callNumber": "34-2 E56 A12",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Energy and Natural Resources, Report",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "reportTitle": ["Petro-Canada"],
+  "language": ["eng"],
+  "pubmax": "1991-05-12",
+  "node": [["eng", "s", "committees", "34-2", 14]],
+  "type": "committees",
+  "chamber": ["s"]
+}

@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["34-2"],"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-10, an Act relating to the forgiveness of debts incurred or assumed in respect of certain official development assistance loans made by the Government of Canada to the governments of certain countries in sub-Saharan Africa, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-10, Loi prévoyant la remise de la dette liée à l'aide publique au développement relativement à certains prêts consentis par le gouvernement du Canada à des gouvernements de l'Afrique subsaharienne, vol. 1 no. 1-2","callNumber":"34-2 D39 A1 no.1-2","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-2",52],["fra","c","committees","34-2",74]],"pubmax":"1991-05-12"}
+{
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-10, an Act relating to the forgiveness of debts incurred or assumed in respect of certain official development assistance loans made by the Government of Canada to the governments of certain countries in sub-Saharan Africa, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-10, Loi prévoyant la remise de la dette liée à l'aide publique au développement relativement à certains prêts consentis par le gouvernement du Canada à des gouvernements de l'Afrique subsaharienne, vol. 1 no. 1-2",
+  "callNumber": "34-2 D39 A1 no.1-2",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 52],
+    ["fra", "c", "committees", "34-2", 74]
+  ],
+  "pubmax": "1991-05-12"
+}

@@ -1,1 +1,14 @@
-{"chamber":["s"],"pubmax":"1979-12-14","node":[["eng","s","committees","31-1",2],["fra","s","committees","31-1",4]],"type":"committees","session":["31-1"],"language":["eng","fra"],"callNumber":"1979 B3 A1","label":"Senate Committees, 31st Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, vol. 1 = Comités du Sénat, 31e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 1","pubmin":"1979-10-09"}
+{
+  "chamber": ["s"],
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "s", "committees", "31-1", 2],
+    ["fra", "s", "committees", "31-1", 4]
+  ],
+  "type": "committees",
+  "session": ["31-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "1979 B3 A1",
+  "label": "Senate Committees, 31st Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, vol. 1 = Comités du Sénat, 31e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 1",
+  "pubmin": "1979-10-09"
+}

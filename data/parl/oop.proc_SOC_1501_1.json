@@ -1,1 +1,11 @@
-{"pubmax":"1926-07-02","node":[["eng","s","sproc","15-1",1]],"type":"sproc","chamber":["s"],"callNumber":"J103 H4 1926","label":"Senate Minutes of Proceedings, 15th Parliament, 1st Session : 1-42","pubmin":"1926-01-07","session":["15-1"],"language":["eng"]}
+{
+  "pubmax": "1926-07-02",
+  "node": [["eng", "s", "sproc", "15-1", 1]],
+  "type": "sproc",
+  "chamber": ["s"],
+  "callNumber": "J103 H4 1926",
+  "label": "Senate Minutes of Proceedings, 15th Parliament, 1st Session : 1-42",
+  "pubmin": "1926-01-07",
+  "session": ["15-1"],
+  "language": ["eng"]
+}

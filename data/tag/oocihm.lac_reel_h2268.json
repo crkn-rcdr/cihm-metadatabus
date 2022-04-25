@@ -1,1 +1,139 @@
-{"826":{"tagDescription":["Mackenzie House - Bond Street - Photographs and photostats"]},"1495":{"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["Niagara Falls Memorial Arch Ceremony - St. Andrews Presbyterian Church"]},"1084":{"tagDate":["[1938-07-01T00:00:00.000Z TO 1939-07-28T23:59:59.999Z]"],"tagDescription":["Niagara Falls Memorial Arch and Queenston Home - Correspondence"]},"1439":{"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["Niagara Falls Memorial Arch and Queenston Home - Speech material - Duplicates"]},"170":{"tagDate":["[1938-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],"tagDescription":["William Lyon Mackenzie - re: articles by Fred Williams"]},"998":{"tagDate":["1949-01-01T00:00:00.000Z"],"tagDescription":["Mackenzie House - Bond Street - Tablet - Wording"]},"282":{"tagDate":["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Mackenzie House - Woodside - Project revived 1949 - Reconstruction - Correspondence with Jenkins and Wright"]},"354":{"tagDescription":["Mackenzie House - Woodside - Acquisition of site - Planning"],"tagDate":["[1942-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]},"828":{"tagDescription":["Mackenzie House - Bond Street - Documents - Proposals - Acquisition deeds, by-laws of foundation"],"tagDate":["[1930-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]},"692":{"tagDate":["[1946-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],"tagDescription":["Mackenzie House - Bond Street - Booklet"]},"483":{"tagDate":["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Mackenzie House - Woodside - Mrs. M. and Marilyn Kilbasco - Kitchener, Ontario"]},"42":{"tagDescription":["William Lyon Mackenzie - re: articles by Fred Williams"],"tagDate":["[1929-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"454":{"tagDescription":["Mackenzie House - Woodside - Plans"],"tagDate":["1949-01-01T00:00:00.000Z"]},"1204":{"tagDescription":["Niagara Falls Memorial Arch and Queenston Home - Correspondence prior to ceremony"],"tagDate":["[1932-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"]},"663":{"tagDate":["[1944-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],"tagDescription":["Mackenzie House - Woodside - Clippings"]},"219":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],"tagDescription":["William Lyon Mackenzie - re: articles - United States newspapers"]},"1009":{"tagDate":["[1937-01-01T00:00:00.000Z TO 1938-06-28T23:59:59.999Z]"],"tagDescription":["Niagara Falls Memorial Arch and Queenston Home - Correspondence"]},"786":{"tagDescription":["Mackenzie House - Bond Street - Miscellaneous"],"tagDate":["[1934-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]},"543":{"tagDescription":["Mackenzie House - Woodside - Renovation and furnishings"],"tagDate":["[1946-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"]},"236":{"tagDescription":["William Lyon Mackenzie - Victoria College manuscripts"],"tagDate":["1931-01-01T00:00:00.000Z"]},"1240":{"tagDescription":["Niagara Falls Memorial Arch and Queenston Home - Speech material"],"tagDate":["1938-01-01T00:00:00.000Z"]},"21":{"tagDate":["[1924-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["William Lyon Mackenzie - re: articles - Winnipeg Free Press"]},"563":{"tagDate":["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Mackenzie House - Woodside - Opening"]},"455":{"tagDate":["[1947-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Mackenzie House - Woodside - Incorporation of The Mackenzie King Woodside Trust 1950"]},"1176":{"tagDescription":["Niagara Falls Memorial Arch and Queenston Home - Itinerary, memoranda etc."],"tagDate":["1938-06-01T00:00:00.000Z"]},"71":{"tagDate":["1937-01-01T00:00:00.000Z"],"tagDescription":["William Lyon Mackenzie - re: articles by Fred Williams"]}}
+{
+  "826": {
+    "tagDescription": [
+      "Mackenzie House - Bond Street - Photographs and photostats"
+    ]
+  },
+  "1495": {
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Niagara Falls Memorial Arch Ceremony - St. Andrews Presbyterian Church"
+    ]
+  },
+  "1084": {
+    "tagDate": ["[1938-07-01T00:00:00.000Z TO 1939-07-28T23:59:59.999Z]"],
+    "tagDescription": [
+      "Niagara Falls Memorial Arch and Queenston Home - Correspondence"
+    ]
+  },
+  "1439": {
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Niagara Falls Memorial Arch and Queenston Home - Speech material - Duplicates"
+    ]
+  },
+  "170": {
+    "tagDate": ["[1938-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],
+    "tagDescription": ["William Lyon Mackenzie - re: articles by Fred Williams"]
+  },
+  "998": {
+    "tagDate": ["1949-01-01T00:00:00.000Z"],
+    "tagDescription": ["Mackenzie House - Bond Street - Tablet - Wording"]
+  },
+  "282": {
+    "tagDate": ["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mackenzie House - Woodside - Project revived 1949 - Reconstruction - Correspondence with Jenkins and Wright"
+    ]
+  },
+  "354": {
+    "tagDescription": [
+      "Mackenzie House - Woodside - Acquisition of site - Planning"
+    ],
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]
+  },
+  "828": {
+    "tagDescription": [
+      "Mackenzie House - Bond Street - Documents - Proposals - Acquisition deeds, by-laws of foundation"
+    ],
+    "tagDate": ["[1930-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]
+  },
+  "692": {
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mackenzie House - Bond Street - Booklet"]
+  },
+  "483": {
+    "tagDate": ["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mackenzie House - Woodside - Mrs. M. and Marilyn Kilbasco - Kitchener, Ontario"
+    ]
+  },
+  "42": {
+    "tagDescription": [
+      "William Lyon Mackenzie - re: articles by Fred Williams"
+    ],
+    "tagDate": ["[1929-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "454": {
+    "tagDescription": ["Mackenzie House - Woodside - Plans"],
+    "tagDate": ["1949-01-01T00:00:00.000Z"]
+  },
+  "1204": {
+    "tagDescription": [
+      "Niagara Falls Memorial Arch and Queenston Home - Correspondence prior to ceremony"
+    ],
+    "tagDate": ["[1932-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"]
+  },
+  "663": {
+    "tagDate": ["[1944-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mackenzie House - Woodside - Clippings"]
+  },
+  "219": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "William Lyon Mackenzie - re: articles - United States newspapers"
+    ]
+  },
+  "1009": {
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1938-06-28T23:59:59.999Z]"],
+    "tagDescription": [
+      "Niagara Falls Memorial Arch and Queenston Home - Correspondence"
+    ]
+  },
+  "786": {
+    "tagDescription": ["Mackenzie House - Bond Street - Miscellaneous"],
+    "tagDate": ["[1934-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]
+  },
+  "543": {
+    "tagDescription": [
+      "Mackenzie House - Woodside - Renovation and furnishings"
+    ],
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"]
+  },
+  "236": {
+    "tagDescription": ["William Lyon Mackenzie - Victoria College manuscripts"],
+    "tagDate": ["1931-01-01T00:00:00.000Z"]
+  },
+  "1240": {
+    "tagDescription": [
+      "Niagara Falls Memorial Arch and Queenston Home - Speech material"
+    ],
+    "tagDate": ["1938-01-01T00:00:00.000Z"]
+  },
+  "21": {
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "William Lyon Mackenzie - re: articles - Winnipeg Free Press"
+    ]
+  },
+  "563": {
+    "tagDate": ["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mackenzie House - Woodside - Opening"]
+  },
+  "455": {
+    "tagDate": ["[1947-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mackenzie House - Woodside - Incorporation of The Mackenzie King Woodside Trust 1950"
+    ]
+  },
+  "1176": {
+    "tagDescription": [
+      "Niagara Falls Memorial Arch and Queenston Home - Itinerary, memoranda etc."
+    ],
+    "tagDate": ["1938-06-01T00:00:00.000Z"]
+  },
+  "71": {
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagDescription": ["William Lyon Mackenzie - re: articles by Fred Williams"]
+  }
+}

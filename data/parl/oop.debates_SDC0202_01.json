@@ -1,1 +1,10 @@
-{"type":"debates","node":[["fra","s","debates","02-2",1]],"pubmax":"1873-11-07","chamber":["s"],"pubmin":"1873-10-23","label":"Débats du Sénat, 2e Législature, 2e Session : Vol. 1","language":["fra"],"session":["02-2"]}
+{
+  "type": "debates",
+  "node": [["fra", "s", "debates", "02-2", 1]],
+  "pubmax": "1873-11-07",
+  "chamber": ["s"],
+  "pubmin": "1873-10-23",
+  "label": "Débats du Sénat, 2e Législature, 2e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["02-2"]
+}

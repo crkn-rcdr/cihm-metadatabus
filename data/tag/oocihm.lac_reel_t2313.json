@@ -1,1 +1,22 @@
-{"600":{"tagDate":["1917-01-01T00:00:00.000Z"],"tagDescription":["Items 220 to 242 ½"]},"1591":{"tagDate":["1917-01-01T00:00:00.000Z"],"tagDescription":["Items 600 to 740"]},"1153":{"tagDate":["1917-01-01T00:00:00.000Z"],"tagDescription":["Items 359 to 599"]},"146":{"tagDescription":["Items 1 to 219"],"tagDate":["1917-01-01T00:00:00.000Z"]},"687":{"tagDescription":["Items 243 to 358"],"tagDate":["1917-01-01T00:00:00.000Z"]}}
+{
+  "600": {
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": ["Items 220 to 242 ½"]
+  },
+  "1591": {
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": ["Items 600 to 740"]
+  },
+  "1153": {
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": ["Items 359 to 599"]
+  },
+  "146": {
+    "tagDescription": ["Items 1 to 219"],
+    "tagDate": ["1917-01-01T00:00:00.000Z"]
+  },
+  "687": {
+    "tagDescription": ["Items 243 to 358"],
+    "tagDate": ["1917-01-01T00:00:00.000Z"]
+  }
+}

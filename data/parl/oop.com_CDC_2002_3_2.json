@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["fra","c","committees","20-2",5]],"pubmax":"1946-08-31","type":"committees","session":["20-2"],"language":["fra"],"label":"Comités de la Chambre des communes, 20e Législature, 2e Session : Comité permanent de la banque et du commerce, vol. 2","callNumber":"1946 B3C A4","pubmin":"1946-03-14"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "20-2", 5]],
+  "pubmax": "1946-08-31",
+  "type": "committees",
+  "session": ["20-2"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 20e Législature, 2e Session : Comité permanent de la banque et du commerce, vol. 2",
+  "callNumber": "1946 B3C A4",
+  "pubmin": "1946-03-14"
+}

@@ -1,1 +1,11 @@
-{"pubmax":"1881-03-21","node":[["eng","c","sessional","04-3",6]],"type":"sessional","chamber":["c"],"primeMinisters":"Macdonald, John Alexander","label":"Sessional Papers, 4th Parliament, 3rd Session : vol. 6","pubmin":"1880-12-09","session":["04-3"],"language":["eng"]}
+{
+  "pubmax": "1881-03-21",
+  "node": [["eng", "c", "sessional", "04-3", 6]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "label": "Sessional Papers, 4th Parliament, 3rd Session : vol. 6",
+  "pubmin": "1880-12-09",
+  "session": ["04-3"],
+  "language": ["eng"]
+}

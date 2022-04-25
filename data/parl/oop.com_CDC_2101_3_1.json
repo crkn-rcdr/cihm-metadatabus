@@ -1,1 +1,12 @@
-{"pubmin":"1949-09-15","callNumber":"1949(2e) C4 A4 v.1","label":"Comités de la Chambre des communes, 21e Législature, 1re Session : Comité permanent des chemins de fer, canaux et télégraphes, vol. 1","language":["fra"],"session":["21-1"],"type":"committees","pubmax":"1949-12-10","node":[["fra","c","committees","21-1",3]],"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen"}
+{
+  "pubmin": "1949-09-15",
+  "callNumber": "1949(2e) C4 A4 v.1",
+  "label": "Comités de la Chambre des communes, 21e Législature, 1re Session : Comité permanent des chemins de fer, canaux et télégraphes, vol. 1",
+  "language": ["fra"],
+  "session": ["21-1"],
+  "type": "committees",
+  "pubmax": "1949-12-10",
+  "node": [["fra", "c", "committees", "21-1", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

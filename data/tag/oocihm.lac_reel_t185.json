@@ -1,1 +1,28 @@
-{"1742":{"tagDescription":["Missing / Manque"]},"1331":{"tagDate":["[1875-01-01T00:00:00.000Z TO 1877-12-31T23:59:59.999Z]"],"tagDescription":["Intercolonial Railway Terminus at Halifax"]},"215":{"tagDescription":["Red River Rebellion Case of Lepine North West Amnesty Amnesty for Louis Riel (See also / Voir Aussi 175) Ambroise Lepine and W.B. ODonoghue"],"tagDate":["[1873-01-01T00:00:00.000Z TO 1885-12-31T23:59:59.999Z]"]},"1744":{"tagName":["Ryland, G. H."],"tagDescription":["G.H. Ryland - Claim to compensation for loss of office - Formerly Clerk and Registrar of the Executive Council of Canada"],"tagDate":["[1855-01-01T00:00:00.000Z TO 1869-12-31T23:59:59.999Z]"]},"974":{"tagDate":["[1848-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"],"tagDescription":["Railroad  Halifax to Quebec Intercolonial Railway"]},"575":{"tagDate":["[1848-01-01T00:00:00.000Z TO 1851-12-31T23:59:59.999Z]"],"tagDescription":["Intercolonial Railway"]}}
+{
+  "1742": { "tagDescription": ["Missing / Manque"] },
+  "1331": {
+    "tagDate": ["[1875-01-01T00:00:00.000Z TO 1877-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Intercolonial Railway Terminus at Halifax"]
+  },
+  "215": {
+    "tagDescription": [
+      "Red River Rebellion Case of Lepine North West Amnesty Amnesty for Louis Riel (See also / Voir Aussi 175) Ambroise Lepine and W.B. ODonoghue"
+    ],
+    "tagDate": ["[1873-01-01T00:00:00.000Z TO 1885-12-31T23:59:59.999Z]"]
+  },
+  "1744": {
+    "tagName": ["Ryland, G. H."],
+    "tagDescription": [
+      "G.H. Ryland - Claim to compensation for loss of office - Formerly Clerk and Registrar of the Executive Council of Canada"
+    ],
+    "tagDate": ["[1855-01-01T00:00:00.000Z TO 1869-12-31T23:59:59.999Z]"]
+  },
+  "974": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Railroad  Halifax to Quebec Intercolonial Railway"]
+  },
+  "575": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1851-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Intercolonial Railway"]
+  }
+}

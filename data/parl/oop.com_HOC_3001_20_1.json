@@ -1,1 +1,15 @@
-{"label":"House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Public Accounts, vol. 1 no. 1-36 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent des comptes publics, vol. 1 no. 1-36","callNumber":"1974/76 P8 A1 v.1","pubmin":"1974-09-30","session":["30-1"],"language":["eng","fra"],"node":[["eng","c","committees","30-1",47],["fra","c","committees","30-1",11]],"pubmax":"1976-10-12","type":"committees","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Public Accounts, vol. 1 no. 1-36 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent des comptes publics, vol. 1 no. 1-36",
+  "callNumber": "1974/76 P8 A1 v.1",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "30-1", 47],
+    ["fra", "c", "committees", "30-1", 11]
+  ],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

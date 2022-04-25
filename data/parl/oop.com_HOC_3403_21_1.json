@@ -1,1 +1,15 @@
-{"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",42],["fra","c","committees","34-3",151]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","callNumber":"34-3 C87 A1 no.1","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-124, an Act to amend the Currency Act, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-124, Loi modifiant la Loi sur la monnaie, vol. 1 no. 1","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"]}
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 42],
+    ["fra", "c", "committees", "34-3", 151]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 C87 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-124, an Act to amend the Currency Act, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-124, Loi modifiant la Loi sur la monnaie, vol. 1 no. 1",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

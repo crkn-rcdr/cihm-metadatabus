@@ -1,1 +1,11 @@
-{"pubmax":"1877-04-28","node":[["eng","c","debates","03-4",1]],"type":"debates","chamber":["c"],"primeMinisters":"Mackenzie, Alexander","label":"House of Commons Debates, 3rd Parliament, 4th Session : Vol. 1","pubmin":"1877-02-08","session":["03-4"],"language":["eng"]}
+{
+  "pubmax": "1877-04-28",
+  "node": [["eng", "c", "debates", "03-4", 1]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "label": "House of Commons Debates, 3rd Parliament, 4th Session : Vol. 1",
+  "pubmin": "1877-02-08",
+  "session": ["03-4"],
+  "language": ["eng"]
+}

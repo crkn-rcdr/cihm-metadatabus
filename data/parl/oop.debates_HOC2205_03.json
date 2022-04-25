@@ -1,1 +1,11 @@
-{"session":["22-5"],"language":["eng"],"label":"House of Commons Debates, 22nd Parliament, 5th Session : Vol. 3","pubmin":"1957-01-08","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["eng","c","debates","22-5",3]],"pubmax":"1957-04-12","type":"debates"}
+{
+  "session": ["22-5"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 22nd Parliament, 5th Session : Vol. 3",
+  "pubmin": "1957-01-08",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "22-5", 3]],
+  "pubmax": "1957-04-12",
+  "type": "debates"
+}

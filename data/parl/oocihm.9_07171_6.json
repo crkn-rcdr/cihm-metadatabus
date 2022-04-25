@@ -1,1 +1,11 @@
-{"type":"journals","node":[["eng","c","journals","02-1",1]],"pubmax":"1873-08-13","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"pubmin":"1873-03-05","label":"House of Commons Journals, 2nd Parliament, 1st Session : Vol. 6","language":["eng"],"session":["02-1"]}
+{
+  "type": "journals",
+  "node": [["eng", "c", "journals", "02-1", 1]],
+  "pubmax": "1873-08-13",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "pubmin": "1873-03-05",
+  "label": "House of Commons Journals, 2nd Parliament, 1st Session : Vol. 6",
+  "language": ["eng"],
+  "session": ["02-1"]
+}

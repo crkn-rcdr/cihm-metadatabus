@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["06-1"],"pubmin":"1887-04-13","label":"Débats de la Chambre des communes, 6e Législature, 1re Session : Vol. 2","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"debates","node":[["fra","c","debates","06-1",2]],"pubmax":"1887-06-23"}
+{
+  "language": ["fra"],
+  "session": ["06-1"],
+  "pubmin": "1887-04-13",
+  "label": "Débats de la Chambre des communes, 6e Législature, 1re Session : Vol. 2",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "06-1", 2]],
+  "pubmax": "1887-06-23"
+}

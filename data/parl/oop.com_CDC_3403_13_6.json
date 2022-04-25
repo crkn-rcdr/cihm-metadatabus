@@ -1,1 +1,13 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["fra","c","committees","34-3",39]],"pubmax":"1993-09-08","reportTitle":["La violence à la télévision : dégradation du tissu social"],"language":["fra"],"session":["34-3"],"pubmin":"1991-05-13","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des communications et de la culture, Troisième rapport","callNumber":"34-3 C472 A123"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "34-3", 39]],
+  "pubmax": "1993-09-08",
+  "reportTitle": ["La violence à la télévision : dégradation du tissu social"],
+  "language": ["fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des communications et de la culture, Troisième rapport",
+  "callNumber": "34-3 C472 A123"
+}

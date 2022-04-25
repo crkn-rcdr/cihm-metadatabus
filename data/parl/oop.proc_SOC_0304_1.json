@@ -1,1 +1,11 @@
-{"callNumber":"J103 H4 1877","label":"Senate Minutes of Proceedings, 3rd Parliament, 4th Session : 1-54","pubmin":"1877-02-08","session":["03-4"],"language":["eng"],"pubmax":"1877-04-28","node":[["eng","s","sproc","03-4",1]],"type":"sproc","chamber":["s"]}
+{
+  "callNumber": "J103 H4 1877",
+  "label": "Senate Minutes of Proceedings, 3rd Parliament, 4th Session : 1-54",
+  "pubmin": "1877-02-08",
+  "session": ["03-4"],
+  "language": ["eng"],
+  "pubmax": "1877-04-28",
+  "node": [["eng", "s", "sproc", "03-4", 1]],
+  "type": "sproc",
+  "chamber": ["s"]
+}

@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["33-1"],"pubmin":"1984-11-05","label":"Permanent and Provisional Standing Orders of the House of Commons, 1986 = Règlement de la Chambre des communes : articles permanents et provisoires, 1986","callNumber":"JL164.4 1986","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"orders","node":[["eng","c","orders",null,21],["fra","c","orders",null,21]],"pubmax":"1986-08-28"}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "label": "Permanent and Provisional Standing Orders of the House of Commons, 1986 = Règlement de la Chambre des communes : articles permanents et provisoires, 1986",
+  "callNumber": "JL164.4 1986",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "orders",
+  "node": [
+    ["eng", "c", "orders", null, 21],
+    ["fra", "c", "orders", null, 21]
+  ],
+  "pubmax": "1986-08-28"
+}

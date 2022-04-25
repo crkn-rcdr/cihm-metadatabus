@@ -1,1 +1,15 @@
-{"callNumber":"34-3 W55 A1 no.1-6","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee C on Bill C-42, an Act respecting the protection of certain species of wild animals and plants, vol. 1 no. 1-6 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif C sur le projet de loi C-42, Loi concernant la protection d'espèces de faune et de flore sauvages, vol. 1 no. 1-6","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"],"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",225],["fra","c","committees","34-3",102]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-3 W55 A1 no.1-6",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee C on Bill C-42, an Act respecting the protection of certain species of wild animals and plants, vol. 1 no. 1-6 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif C sur le projet de loi C-42, Loi concernant la protection d'espèces de faune et de flore sauvages, vol. 1 no. 1-6",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 225],
+    ["fra", "c", "committees", "34-3", 102]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

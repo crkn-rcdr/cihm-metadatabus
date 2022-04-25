@@ -1,1 +1,11 @@
-{"session":["06-1"],"language":["eng"],"label":"Senate Committees, 6th Parliament, 1st Session : Select Committee on Natural Food Products of Northwest Territories, vol. 1","callNumber":"J103 H7 1887 F6 A12","pubmin":"1887-04-13","chamber":["s"],"node":[["eng","s","committees","06-1",1]],"pubmax":"1887-06-23","type":"committees"}
+{
+  "session": ["06-1"],
+  "language": ["eng"],
+  "label": "Senate Committees, 6th Parliament, 1st Session : Select Committee on Natural Food Products of Northwest Territories, vol. 1",
+  "callNumber": "J103 H7 1887 F6 A12",
+  "pubmin": "1887-04-13",
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "06-1", 1]],
+  "pubmax": "1887-06-23",
+  "type": "committees"
+}

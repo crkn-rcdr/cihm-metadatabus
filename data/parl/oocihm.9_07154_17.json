@@ -1,1 +1,10 @@
-{"label":"Senate Journals, 5th Parliament, 1st Session : Vol. 17","pubmin":"1883-02-08","session":["05-1"],"language":["eng"],"pubmax":"1883-05-27","node":[["eng","s","journals","05-1",1]],"type":"journals","chamber":["s"]}
+{
+  "label": "Senate Journals, 5th Parliament, 1st Session : Vol. 17",
+  "pubmin": "1883-02-08",
+  "session": ["05-1"],
+  "language": ["eng"],
+  "pubmax": "1883-05-27",
+  "node": [["eng", "s", "journals", "05-1", 1]],
+  "type": "journals",
+  "chamber": ["s"]
+}

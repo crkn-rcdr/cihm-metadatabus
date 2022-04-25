@@ -1,1 +1,14 @@
-{"session":["33-2"],"language":["eng","fra"],"label":"Senate Committees, 33rd Parliament, 2nd Session : Special Committee on National Defence, vol. 1 no. 1-25 = Comités du Sénat, 33e Législature, 2e Session : Comité spécial de la défense nationale, vol. 1 no. 1-25","callNumber":"33-2 N28 A1 no.1-25","pubmin":"1986-09-30","chamber":["s"],"node":[["eng","s","committees","33-2",32],["fra","s","committees","33-2",19]],"pubmax":"1988-10-01","type":"committees"}
+{
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Special Committee on National Defence, vol. 1 no. 1-25 = Comités du Sénat, 33e Législature, 2e Session : Comité spécial de la défense nationale, vol. 1 no. 1-25",
+  "callNumber": "33-2 N28 A1 no.1-25",
+  "pubmin": "1986-09-30",
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "committees", "33-2", 32],
+    ["fra", "s", "committees", "33-2", 19]
+  ],
+  "pubmax": "1988-10-01",
+  "type": "committees"
+}

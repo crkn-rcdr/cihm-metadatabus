@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1938-07-01","node":[["fra","c","committees","18-3",6]],"type":"committees","session":["18-3"],"language":["fra"],"callNumber":"1938 S47 A4 v.2","label":"Comités de la Chambre des communes, 18e Législature, 3e Session : Comité spécial sur l'application de la Loi du service civil, vol. 2","pubmin":"1938-01-27"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1938-07-01",
+  "node": [["fra", "c", "committees", "18-3", 6]],
+  "type": "committees",
+  "session": ["18-3"],
+  "language": ["fra"],
+  "callNumber": "1938 S47 A4 v.2",
+  "label": "Comités de la Chambre des communes, 18e Législature, 3e Session : Comité spécial sur l'application de la Loi du service civil, vol. 2",
+  "pubmin": "1938-01-27"
+}

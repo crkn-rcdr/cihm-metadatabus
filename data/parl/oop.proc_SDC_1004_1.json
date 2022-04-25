@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"sproc","pubmax":"1908-07-20","node":[["fra","s","sproc","10-4",1]],"language":["fra"],"session":["10-4"],"pubmin":"1907-11-28","callNumber":"J103 H43 1907-08","label":"Procès-verbaux du Sénat, 10e Législature, 4e Session : 1-89"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1908-07-20",
+  "node": [["fra", "s", "sproc", "10-4", 1]],
+  "language": ["fra"],
+  "session": ["10-4"],
+  "pubmin": "1907-11-28",
+  "callNumber": "J103 H43 1907-08",
+  "label": "Procès-verbaux du Sénat, 10e Législature, 4e Session : 1-89"
+}

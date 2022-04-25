@@ -1,1 +1,33 @@
-{"284":{"tagDate":["1920-01-01T00:00:00.000Z"],"tagDescription":["Items 14791 to 14887","N.B. Items 14843 to 14887 formerly of Pt 141 have been relocated to Pt 140"]},"133":{"tagDescription":["Items 14731 to 14790","N.B. Items 14744 to 14790 formerly of Pt 139 have been relocated to Pt 138"],"tagDate":["1920-01-01T00:00:00.000Z"]},"814":{"tagDate":["[1914-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],"tagDescription":["Conversion list for file 14071 -Subject index 1914-1915 (A-Z) -Subject index 1916 (A-Z) -Subject index 191 (A-E)"]},"47":{"tagDescription":["Items 14704 to 14730"],"tagDate":["1920-01-01T00:00:00.000Z"]},"513":{"tagDate":["1920-01-01T00:00:00.000Z"],"tagDescription":["Items 14888 to 14991","N.B. 14938 to 14991 formerly of Pt 143 have been relocated to Pt 142"]}}
+{
+  "284": {
+    "tagDate": ["1920-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Items 14791 to 14887",
+      "N.B. Items 14843 to 14887 formerly of Pt 141 have been relocated to Pt 140"
+    ]
+  },
+  "133": {
+    "tagDescription": [
+      "Items 14731 to 14790",
+      "N.B. Items 14744 to 14790 formerly of Pt 139 have been relocated to Pt 138"
+    ],
+    "tagDate": ["1920-01-01T00:00:00.000Z"]
+  },
+  "814": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Conversion list for file 14071 -Subject index 1914-1915 (A-Z) -Subject index 1916 (A-Z) -Subject index 191 (A-E)"
+    ]
+  },
+  "47": {
+    "tagDescription": ["Items 14704 to 14730"],
+    "tagDate": ["1920-01-01T00:00:00.000Z"]
+  },
+  "513": {
+    "tagDate": ["1920-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Items 14888 to 14991",
+      "N.B. 14938 to 14991 formerly of Pt 143 have been relocated to Pt 142"
+    ]
+  }
+}

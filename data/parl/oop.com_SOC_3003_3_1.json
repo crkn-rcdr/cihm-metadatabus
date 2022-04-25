@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","30-3",4],["fra","s","committees","30-3",8]],"pubmax":"1978-10-10","language":["eng","fra"],"session":["30-3"],"pubmin":"1977-10-18","label":"Senate Committees, 30th Parliament, 3rd Session : Subcommittee on Childhood Experiences as Causes of Criminal Behaviour, vol. 1 = Comités du Sénat, 30e Législature, 3e Session : Sous-comité sur la délinquance imputable aux expériences de l'enfance, vol. 1","callNumber":"1977/78 C45 A1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "30-3", 4],
+    ["fra", "s", "committees", "30-3", 8]
+  ],
+  "pubmax": "1978-10-10",
+  "language": ["eng", "fra"],
+  "session": ["30-3"],
+  "pubmin": "1977-10-18",
+  "label": "Senate Committees, 30th Parliament, 3rd Session : Subcommittee on Childhood Experiences as Causes of Criminal Behaviour, vol. 1 = Comités du Sénat, 30e Législature, 3e Session : Sous-comité sur la délinquance imputable aux expériences de l'enfance, vol. 1",
+  "callNumber": "1977/78 C45 A1"
+}

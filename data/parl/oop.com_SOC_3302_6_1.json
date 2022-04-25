@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","33-2",13],["fra","s","committees","33-2",41]],"pubmax":"1988-10-01","language":["eng","fra"],"session":["33-2"],"pubmin":"1986-09-30","label":"Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on Fisheries, vol. 1 no. 1-20 = Comités du Sénat, 33e Législature, 2e Session : Comité permanent des pêches, vol. 1 no. 1-20","callNumber":"33-2 F557 A1 no.1-20"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "33-2", 13],
+    ["fra", "s", "committees", "33-2", 41]
+  ],
+  "pubmax": "1988-10-01",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on Fisheries, vol. 1 no. 1-20 = Comités du Sénat, 33e Législature, 2e Session : Comité permanent des pêches, vol. 1 no. 1-20",
+  "callNumber": "33-2 F557 A1 no.1-20"
+}

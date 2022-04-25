@@ -1,1 +1,17 @@
-{"language":["eng","fra"],"session":["33-1"],"pubmin":"1984-11-05","callNumber":"33-1 L3 A1 no.1-19","label":"Joint Committees, 33rd Parliament, 1st Session : Standing Joint Committee on Official Languages Policy and Programs, vol. 1 = Comités mixtes, 33e Législature, 1re Session : Comité mixte permanent de la politique et des programmes de langues officielles, vol. 1","chamber":["c","s"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",96],["fra","c","committees","33-1",79],["eng","s","committees","33-1",22],["fra","s","committees","33-1",27]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 L3 A1 no.1-19",
+  "label": "Joint Committees, 33rd Parliament, 1st Session : Standing Joint Committee on Official Languages Policy and Programs, vol. 1 = Comités mixtes, 33e Législature, 1re Session : Comité mixte permanent de la politique et des programmes de langues officielles, vol. 1",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 96],
+    ["fra", "c", "committees", "33-1", 79],
+    ["eng", "s", "committees", "33-1", 22],
+    ["fra", "s", "committees", "33-1", 27]
+  ]
+}

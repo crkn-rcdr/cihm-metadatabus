@@ -1,1 +1,14 @@
-{"pubmin":"1980-04-14","callNumber":"1980/83 C35 A1 no.1-8","label":"Senate Committees, 32nd Parliament, 1st Session : Special Committee on the Canadian Security Intelligence Service, vol. 1 no. 1-8 = Comités du Sénat, 32e Législature, 1re Session : Comité spécial du Service canadien du renseignement de sécurité, vol. 1 no. 1-8","language":["eng","fra"],"session":["32-1"],"type":"committees","pubmax":"1983-11-30","node":[["eng","s","committees","32-1",8],["fra","s","committees","32-1",51]],"chamber":["s"]}
+{
+  "pubmin": "1980-04-14",
+  "callNumber": "1980/83 C35 A1 no.1-8",
+  "label": "Senate Committees, 32nd Parliament, 1st Session : Special Committee on the Canadian Security Intelligence Service, vol. 1 no. 1-8 = Comités du Sénat, 32e Législature, 1re Session : Comité spécial du Service canadien du renseignement de sécurité, vol. 1 no. 1-8",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "s", "committees", "32-1", 8],
+    ["fra", "s", "committees", "32-1", 51]
+  ],
+  "chamber": ["s"]
+}

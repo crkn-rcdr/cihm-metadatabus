@@ -1,1 +1,26 @@
-{"977":{"tagDescription":["Clippings - clippings relating to the 1926 election and to Harold Sifton's Liberal candidacy (defeated) in North York.The North York election was a centre piece for arguments regarding yhe Georgian Bay Canal."],"tagDate":["1926-01-01T00:00:00.000Z"],"tagName":["Clippings, 1921 - 1928"],"tagNotebook":["GEORGIAN BAY CANAL PAPERS, 1891 - 1932"]},"1057":{"tagNotebook":["GEORGIAN BAY CANAL PAPERS, 1891 - 1932"],"tagName":["Clippings, 1921 - 1928"],"tagDate":["[1927-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"],"tagDescription":["Clippings - clippings principally relating to the Parliamentary debate Concerning the Georgian Bay Canal, with special reference to the hyrdo - electric resources of the Ottawa River. 17 files."]},"7":{"tagNotebook":["GEORGIAN BAY CANAL PAPERS, 1891 - 1932"],"tagName":["Clippings, 1921 - 1928"],"tagDate":["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["Clippings - bound clippings regarding the Montreal, Ottawa and Georgian Bay Canal Company's conflict with Ontario Hydro and the Herbert Holt interest in the development of the Carillon Falls.At stake are also the issues of St.Lawrence hydro - electric power, public vs.private power development, federal vs.provincial jurisdiction and the export of power to the United States.7 files."]}}
+{
+  "977": {
+    "tagDescription": [
+      "Clippings - clippings relating to the 1926 election and to Harold Sifton's Liberal candidacy (defeated) in North York.The North York election was a centre piece for arguments regarding yhe Georgian Bay Canal."
+    ],
+    "tagDate": ["1926-01-01T00:00:00.000Z"],
+    "tagName": ["Clippings, 1921 - 1928"],
+    "tagNotebook": ["GEORGIAN BAY CANAL PAPERS, 1891 - 1932"]
+  },
+  "1057": {
+    "tagNotebook": ["GEORGIAN BAY CANAL PAPERS, 1891 - 1932"],
+    "tagName": ["Clippings, 1921 - 1928"],
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Clippings - clippings principally relating to the Parliamentary debate Concerning the Georgian Bay Canal, with special reference to the hyrdo - electric resources of the Ottawa River. 17 files."
+    ]
+  },
+  "7": {
+    "tagNotebook": ["GEORGIAN BAY CANAL PAPERS, 1891 - 1932"],
+    "tagName": ["Clippings, 1921 - 1928"],
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Clippings - bound clippings regarding the Montreal, Ottawa and Georgian Bay Canal Company's conflict with Ontario Hydro and the Herbert Holt interest in the development of the Carillon Falls.At stake are also the issues of St.Lawrence hydro - electric power, public vs.private power development, federal vs.provincial jurisdiction and the export of power to the United States.7 files."
+    ]
+  }
+}

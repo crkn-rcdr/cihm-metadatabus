@@ -1,1 +1,15 @@
-{"language":["eng"],"session":["19-2"],"pubmin":"1940-11-07","label":"Senate and House of Commons Bills, 19th Parliament, 2nd Session : B-H3, 2-104","callNumber":"KE72 C36 19-2 2-104","primeMinisters":"King, William Lyon Mackenzie","chamber":["c","s"],"type":"bills","node":[["eng","c","bills","19-2",1],["eng","s","bills","19-2",1]],"pubmax":"1942-01-21"}
+{
+  "language": ["eng"],
+  "session": ["19-2"],
+  "pubmin": "1940-11-07",
+  "label": "Senate and House of Commons Bills, 19th Parliament, 2nd Session : B-H3, 2-104",
+  "callNumber": "KE72 C36 19-2 2-104",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c", "s"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "19-2", 1],
+    ["eng", "s", "bills", "19-2", 1]
+  ],
+  "pubmax": "1942-01-21"
+}

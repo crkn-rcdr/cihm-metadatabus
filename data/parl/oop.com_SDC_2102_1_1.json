@@ -1,1 +1,11 @@
-{"pubmin":"1950-02-16","label":"Comités du Sénat, 21e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 1","callNumber":"1950 B3 A42","language":["fra"],"session":["21-2"],"type":"committees","node":[["fra","s","committees","21-2",1]],"pubmax":"1950-06-30","chamber":["s"]}
+{
+  "pubmin": "1950-02-16",
+  "label": "Comités du Sénat, 21e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 1",
+  "callNumber": "1950 B3 A42",
+  "language": ["fra"],
+  "session": ["21-2"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "21-2", 1]],
+  "pubmax": "1950-06-30",
+  "chamber": ["s"]
+}

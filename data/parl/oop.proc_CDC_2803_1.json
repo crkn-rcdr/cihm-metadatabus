@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["28-3"],"pubmin":"1970-10-08","label":"Procès-verbaux de la Chambre des communes, 28e Législature, 3e Session : 1-100","callNumber":"J103 H44 1970/72 no. 1-100 ex.2","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"type":"cproc","node":[["fra","c","cproc","28-3",1]],"pubmax":"1972-02-16"}
+{
+  "language": ["fra"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "label": "Procès-verbaux de la Chambre des communes, 28e Législature, 3e Session : 1-100",
+  "callNumber": "J103 H44 1970/72 no. 1-100 ex.2",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "28-3", 1]],
+  "pubmax": "1972-02-16"
+}

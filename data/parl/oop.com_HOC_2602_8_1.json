@@ -1,1 +1,12 @@
-{"type":"committees","pubmax":"1965-04-03","node":[["eng","c","committees","26-2",16]],"chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","pubmin":"1964-02-18","callNumber":"1964/65 M5 A1","label":"House of Commons Committees, 26th Parliament, 2nd Session : Standing Committee on Mines, Forests and Waters, vol. 1","language":["eng"],"session":["26-2"]}
+{
+  "type": "committees",
+  "pubmax": "1965-04-03",
+  "node": [["eng", "c", "committees", "26-2", 16]],
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "pubmin": "1964-02-18",
+  "callNumber": "1964/65 M5 A1",
+  "label": "House of Commons Committees, 26th Parliament, 2nd Session : Standing Committee on Mines, Forests and Waters, vol. 1",
+  "language": ["eng"],
+  "session": ["26-2"]
+}

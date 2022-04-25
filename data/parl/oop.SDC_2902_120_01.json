@@ -1,1 +1,10 @@
-{"session":["29-2"],"language":["fra"],"label":"Journaux du Sénat, 29e Législature, 2e Session : Vol. 120","pubmin":"1974-02-27","chamber":["s"],"pubmax":"1974-05-09","node":[["fra","s","journals","29-2",1]],"type":"journals"}
+{
+  "session": ["29-2"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 29e Législature, 2e Session : Vol. 120",
+  "pubmin": "1974-02-27",
+  "chamber": ["s"],
+  "pubmax": "1974-05-09",
+  "node": [["fra", "s", "journals", "29-2", 1]],
+  "type": "journals"
+}

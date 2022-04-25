@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["07-5"],"pubmin":"1895-04-18","label":"Sessional Papers, 7th Parliament, 5th Session : vol. 2","chamber":["c"],"primeMinisters":"Bowell, Mackenzie","type":"sessional","pubmax":"1895-07-22","node":[["eng","c","sessional","07-5",2]]}
+{
+  "language": ["eng"],
+  "session": ["07-5"],
+  "pubmin": "1895-04-18",
+  "label": "Sessional Papers, 7th Parliament, 5th Session : vol. 2",
+  "chamber": ["c"],
+  "primeMinisters": "Bowell, Mackenzie",
+  "type": "sessional",
+  "pubmax": "1895-07-22",
+  "node": [["eng", "c", "sessional", "07-5", 2]]
+}

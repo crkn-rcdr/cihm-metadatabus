@@ -1,1 +1,26 @@
-{"38":{"tagDescription":["Missing / Manque"]},"47":{"tagDescription":["Missing / Manque"]},"572":{"tagDescription":["United States Prohibition Laws"],"tagDate":["1923-01-01T00:00:00.000Z"]},"49":{"tagDescription":["United States Prohibition"],"tagDate":["[1919-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]},"1281":{"tagDescription":["United States Prohibition Laws (July - December)"],"tagDate":["1924-01-01T00:00:00.000Z"]},"1020":{"tagDate":["1924-01-01T00:00:00.000Z"],"tagDescription":["United States Prohibition Laws (Jan. - June)"]},"40":{"tagDate":["[1920-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],"tagDescription":["Letters from Royal Canadian Mounted Police for Scotland House."]}}
+{
+  "38": { "tagDescription": ["Missing / Manque"] },
+  "47": { "tagDescription": ["Missing / Manque"] },
+  "572": {
+    "tagDescription": ["United States Prohibition Laws"],
+    "tagDate": ["1923-01-01T00:00:00.000Z"]
+  },
+  "49": {
+    "tagDescription": ["United States Prohibition"],
+    "tagDate": ["[1919-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]
+  },
+  "1281": {
+    "tagDescription": ["United States Prohibition Laws (July - December)"],
+    "tagDate": ["1924-01-01T00:00:00.000Z"]
+  },
+  "1020": {
+    "tagDate": ["1924-01-01T00:00:00.000Z"],
+    "tagDescription": ["United States Prohibition Laws (Jan. - June)"]
+  },
+  "40": {
+    "tagDate": ["[1920-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Letters from Royal Canadian Mounted Police for Scotland House."
+    ]
+  }
+}

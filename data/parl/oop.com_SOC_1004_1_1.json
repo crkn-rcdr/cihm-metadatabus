@@ -1,1 +1,11 @@
-{"chamber":["s"],"pubmax":"1908-07-20","node":[["eng","s","committees","10-4",1]],"type":"committees","session":["10-4"],"language":["eng"],"callNumber":"1907/08 B3 A1W","label":"Senate Committees, 10th Parliament, 4th Session : Standing Committee on Banking and Commerce, vol. 1","pubmin":"1907-11-28"}
+{
+  "chamber": ["s"],
+  "pubmax": "1908-07-20",
+  "node": [["eng", "s", "committees", "10-4", 1]],
+  "type": "committees",
+  "session": ["10-4"],
+  "language": ["eng"],
+  "callNumber": "1907/08 B3 A1W",
+  "label": "Senate Committees, 10th Parliament, 4th Session : Standing Committee on Banking and Commerce, vol. 1",
+  "pubmin": "1907-11-28"
+}

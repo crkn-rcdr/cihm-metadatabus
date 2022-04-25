@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-3",149],["fra","c","committees","34-3",175]],"pubmax":"1993-09-08","language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee F on Bill C-9, an Act to facilitate combatting the laundering of proceeds of crime, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif F sur le projet de loi C-9, Loi visant à faciliter la répression du recyclage financier des produits de criminalité, vol. 1 no. 1-2","callNumber":"34-3 L38 A1 no.1-2"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 149],
+    ["fra", "c", "committees", "34-3", 175]
+  ],
+  "pubmax": "1993-09-08",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee F on Bill C-9, an Act to facilitate combatting the laundering of proceeds of crime, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif F sur le projet de loi C-9, Loi visant à faciliter la répression du recyclage financier des produits de criminalité, vol. 1 no. 1-2",
+  "callNumber": "34-3 L38 A1 no.1-2"
+}

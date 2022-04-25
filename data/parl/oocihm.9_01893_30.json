@@ -1,1 +1,10 @@
-{"pubmin":"1896-01-02","label":"Journaux du Sénat, 7e Législature, 6e Session : Vol. 30","language":["fra"],"session":["07-6"],"type":"journals","pubmax":"1896-04-23","node":[["fra","s","journals","07-6",1]],"chamber":["s"]}
+{
+  "pubmin": "1896-01-02",
+  "label": "Journaux du Sénat, 7e Législature, 6e Session : Vol. 30",
+  "language": ["fra"],
+  "session": ["07-6"],
+  "type": "journals",
+  "pubmax": "1896-04-23",
+  "node": [["fra", "s", "journals", "07-6", 1]],
+  "chamber": ["s"]
+}

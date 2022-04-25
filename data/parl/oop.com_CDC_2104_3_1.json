@@ -1,1 +1,12 @@
-{"pubmin":"1951-01-30","callNumber":"1951 B3 A4","label":"Comités de la Chambre des communes, 21e Législature, 4e Session : Comité permanent de la banque et du commerce, vol. 1","language":["fra"],"session":["21-4"],"type":"committees","pubmax":"1951-10-09","node":[["fra","c","committees","21-4",3]],"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen"}
+{
+  "pubmin": "1951-01-30",
+  "callNumber": "1951 B3 A4",
+  "label": "Comités de la Chambre des communes, 21e Législature, 4e Session : Comité permanent de la banque et du commerce, vol. 1",
+  "language": ["fra"],
+  "session": ["21-4"],
+  "type": "committees",
+  "pubmax": "1951-10-09",
+  "node": [["fra", "c", "committees", "21-4", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

@@ -1,1 +1,10 @@
-{"pubmax":"1925-06-27","node":[["eng","s","journals","14-4",1]],"type":"journals","chamber":["s"],"label":"Senate Journals, 14th Parliament, 4th Session : Vol. 62","pubmin":"1925-02-05","session":["14-4"],"language":["eng"]}
+{
+  "pubmax": "1925-06-27",
+  "node": [["eng", "s", "journals", "14-4", 1]],
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Senate Journals, 14th Parliament, 4th Session : Vol. 62",
+  "pubmin": "1925-02-05",
+  "session": ["14-4"],
+  "language": ["eng"]
+}

@@ -1,1 +1,11 @@
-{"pubmax":"1869-06-22","node":[["eng","s","bills","01-2",1]],"type":"bills","chamber":["s"],"callNumber":"KE72 C38 1-2 Bill A-","label":"Senate Bills, 1st Parliament, 2nd Session : A-BB","pubmin":"1869-04-15","session":["01-2"],"language":["eng"]}
+{
+  "pubmax": "1869-06-22",
+  "node": [["eng", "s", "bills", "01-2", 1]],
+  "type": "bills",
+  "chamber": ["s"],
+  "callNumber": "KE72 C38 1-2 Bill A-",
+  "label": "Senate Bills, 1st Parliament, 2nd Session : A-BB",
+  "pubmin": "1869-04-15",
+  "session": ["01-2"],
+  "language": ["eng"]
+}

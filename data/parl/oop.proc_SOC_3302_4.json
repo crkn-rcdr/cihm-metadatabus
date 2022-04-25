@@ -1,1 +1,14 @@
-{"node":[["eng","s","sproc","33-2",4],["fra","s","sproc","33-2",4]],"pubmax":"1988-10-01","type":"sproc","chamber":["s"],"label":"Senate Minutes of Proceedings, 33rd Parliament, 2nd Session : 112-136 = Procès-verbaux du Sénat, 33e Législature, 2e Session : 112-136","callNumber":"J103 H4 33-2 no. 112-136 c.2","pubmin":"1986-09-30","session":["33-2"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "s", "sproc", "33-2", 4],
+    ["fra", "s", "sproc", "33-2", 4]
+  ],
+  "pubmax": "1988-10-01",
+  "type": "sproc",
+  "chamber": ["s"],
+  "label": "Senate Minutes of Proceedings, 33rd Parliament, 2nd Session : 112-136 = Procès-verbaux du Sénat, 33e Législature, 2e Session : 112-136",
+  "callNumber": "J103 H4 33-2 no. 112-136 c.2",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["eng", "fra"]
+}

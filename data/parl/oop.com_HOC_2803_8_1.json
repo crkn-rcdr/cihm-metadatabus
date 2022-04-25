@@ -1,1 +1,15 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["eng","c","committees","28-3",22],["fra","c","committees","28-3",35]],"pubmax":"1972-02-16","type":"committees","session":["28-3"],"language":["eng","fra"],"label":"House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 no. 1-15 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent de la santé, du bien-être social et des affaires sociales, vol. 1 no. 1-15","callNumber":"1970/72 H4 A1 v.1","pubmin":"1970-10-08"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "28-3", 22],
+    ["fra", "c", "committees", "28-3", 35]
+  ],
+  "pubmax": "1972-02-16",
+  "type": "committees",
+  "session": ["28-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 no. 1-15 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent de la santé, du bien-être social et des affaires sociales, vol. 1 no. 1-15",
+  "callNumber": "1970/72 H4 A1 v.1",
+  "pubmin": "1970-10-08"
+}

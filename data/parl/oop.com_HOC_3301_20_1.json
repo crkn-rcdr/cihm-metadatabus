@@ -1,1 +1,15 @@
-{"session":["33-1"],"language":["eng","fra"],"callNumber":"33-1 E44 A1","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Elections, Privileges and Procedure, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des élections, des privilèges et de la procédure, vol. 1","pubmin":"1984-11-05","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",38],["fra","c","committees","33-1",41]],"type":"committees"}
+{
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-1 E44 A1",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Elections, Privileges and Procedure, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des élections, des privilèges et de la procédure, vol. 1",
+  "pubmin": "1984-11-05",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 38],
+    ["fra", "c", "committees", "33-1", 41]
+  ],
+  "type": "committees"
+}

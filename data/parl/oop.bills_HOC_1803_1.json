@@ -1,1 +1,15 @@
-{"pubmin":"1938-01-27","callNumber":"KE72 C36 18-3 C-176","label":"Senate and House of Commons Bills, 18th Parliament, 3rd Session : A-T3, 2-176","language":["eng"],"session":["18-3"],"type":"bills","pubmax":"1938-07-01","node":[["eng","c","bills","18-3",1],["eng","s","bills","18-3",2]],"chamber":["c","s"],"primeMinisters":"King, William Lyon Mackenzie"}
+{
+  "pubmin": "1938-01-27",
+  "callNumber": "KE72 C36 18-3 C-176",
+  "label": "Senate and House of Commons Bills, 18th Parliament, 3rd Session : A-T3, 2-176",
+  "language": ["eng"],
+  "session": ["18-3"],
+  "type": "bills",
+  "pubmax": "1938-07-01",
+  "node": [
+    ["eng", "c", "bills", "18-3", 1],
+    ["eng", "s", "bills", "18-3", 2]
+  ],
+  "chamber": ["c", "s"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

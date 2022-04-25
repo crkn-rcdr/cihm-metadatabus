@@ -1,1 +1,14 @@
-{"chamber":["s"],"pubmax":"1993-09-08","node":[["eng","s","committees","34-3",13],["fra","s","committees","34-3",25]],"type":"committees","session":["34-3"],"language":["eng","fra"],"callNumber":"34-3 E562 A1 no.13-20","label":"Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Energy, the Environment and Natural Resources, vol. 2 no. 13-20 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent de l'énergie, de l'environnement et des ressources naturelles, vol. 2 no. 13-20","pubmin":"1991-05-13"}
+{
+  "chamber": ["s"],
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "s", "committees", "34-3", 13],
+    ["fra", "s", "committees", "34-3", 25]
+  ],
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-3 E562 A1 no.13-20",
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Energy, the Environment and Natural Resources, vol. 2 no. 13-20 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent de l'énergie, de l'environnement et des ressources naturelles, vol. 2 no. 13-20",
+  "pubmin": "1991-05-13"
+}

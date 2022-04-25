@@ -1,1 +1,15 @@
-{"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Sub-Committee on International Debt, vol. 1 no. 1-7 = Comités de la Chambre des communes, 34e Législature, 2e Session : Sous-comité de la dette internationale, vol. 1 no. 1-7","callNumber":"34-2 I548 A1 no.1-7","language":["eng","fra"],"session":["34-2"],"type":"committees","node":[["eng","c","committees","34-2",118],["fra","c","committees","34-2",73]],"pubmax":"1991-05-12","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Sub-Committee on International Debt, vol. 1 no. 1-7 = Comités de la Chambre des communes, 34e Législature, 2e Session : Sous-comité de la dette internationale, vol. 1 no. 1-7",
+  "callNumber": "34-2 I548 A1 no.1-7",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 118],
+    ["fra", "c", "committees", "34-2", 73]
+  ],
+  "pubmax": "1991-05-12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

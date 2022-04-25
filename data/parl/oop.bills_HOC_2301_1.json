@@ -1,1 +1,12 @@
-{"label":"House of Commons Bills, 23rd Parliament, 1st Session : 2-249","callNumber":"KE72 C36 23-1 2-249","pubmin":"1957-10-14","session":["23-1"],"language":["eng"],"node":[["eng","c","bills","23-1",1]],"pubmax":"1958-02-01","type":"bills","primeMinisters":"Diefenbaker, John George","chamber":["c"]}
+{
+  "label": "House of Commons Bills, 23rd Parliament, 1st Session : 2-249",
+  "callNumber": "KE72 C36 23-1 2-249",
+  "pubmin": "1957-10-14",
+  "session": ["23-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "bills", "23-1", 1]],
+  "pubmax": "1958-02-01",
+  "type": "bills",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"]
+}

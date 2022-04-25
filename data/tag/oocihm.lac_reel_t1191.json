@@ -1,1 +1,81 @@
-{"387":{"tagDescription":["United States Immigration -General Question Emigration and Deportation"],"tagDate":["[1927-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]},"1464":{"tagDescription":["Missing / Manque"]},"807":{"tagDate":["[1865-01-01T00:00:00.000Z TO 1871-12-31T23:59:59.999Z]"],"tagDescription":["Denmark. Consular Appointments"]},"1251":{"tagDate":["[1905-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Netherlands. Consular Appointments"]},"1195":{"tagDescription":["Missing / Manque"]},"1004":{"tagDescription":["Alleged expulsion from Germany of a Canadian named Scott. (Mr. G.S. Scott, from Saxony)"],"tagDate":["1910-01-01T00:00:00.000Z"]},"998":{"tagDescription":["Missing / Manque"]},"500":{"tagDescription":["Permission ranted Army officers, non-commissioned officers, men and Nursing sisters to travel in Canada while on leave -Arrangement for payment of leave Salary"]},"1000":{"tagDescription":["Missing / Manque"]},"1467":{"tagDate":["1910-01-01T00:00:00.000Z"],"tagDescription":["Employment of prison labour in the manufacture of goods for export"]},"1002":{"tagDescription":["Missing / Manque"]},"488":{"tagDescription":["Missing / Manque"]},"492":{"tagDate":["1910-01-01T00:00:00.000Z"],"tagDescription":["Payment of retired pay of Lieut. H.A. Tolmer, late of 5th South Australian Imperial Bushman, in Autralia"]},"826":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],"tagDescription":["Denmark. Consular Appointments"]},"1025":{"tagDescription":["Canadian Militia Act, 1904 Question of periodical inspection of Canadian Militia by Inspector General of the Imperial Forces. (see file 270)"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]},"750":{"tagDescription":["Missing / Manque"]},"1198":{"tagDescription":["Netherlands. Consular Appointments"],"tagDate":["[1869-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"]},"1465":{"tagDescription":["Missing / Manque"]},"1478":{"tagDescription":["Missing / Manque"]},"1481":{"tagDescription":["Parliamentary papers"],"tagDate":["[1906-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]},"1001":{"tagDescription":["Missing / Manque"]},"1196":{"tagDescription":["Missing / Manque"]},"752":{"tagDescription":["Missing / Manque"]},"999":{"tagDescription":["Missing / Manque"]},"498":{"tagDescription":["Missing / Manque"]},"490":{"tagDescription":["Missing / Manque"]},"489":{"tagDescription":["Missing / Manque"]},"804":{"tagDescription":["Missing / Manque"]},"997":{"tagDescription":["Missing / Manque"]},"1726":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"],"tagDescription":["Parliamentary papers"]},"1463":{"tagDescription":["Missing / Manque"]},"487":{"tagDescription":["Missing / Manque"]}}
+{
+  "387": {
+    "tagDescription": [
+      "United States Immigration -General Question Emigration and Deportation"
+    ],
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]
+  },
+  "1464": { "tagDescription": ["Missing / Manque"] },
+  "807": {
+    "tagDate": ["[1865-01-01T00:00:00.000Z TO 1871-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Denmark. Consular Appointments"]
+  },
+  "1251": {
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Netherlands. Consular Appointments"]
+  },
+  "1195": { "tagDescription": ["Missing / Manque"] },
+  "1004": {
+    "tagDescription": [
+      "Alleged expulsion from Germany of a Canadian named Scott. (Mr. G.S. Scott, from Saxony)"
+    ],
+    "tagDate": ["1910-01-01T00:00:00.000Z"]
+  },
+  "998": { "tagDescription": ["Missing / Manque"] },
+  "500": {
+    "tagDescription": [
+      "Permission ranted Army officers, non-commissioned officers, men and Nursing sisters to travel in Canada while on leave -Arrangement for payment of leave Salary"
+    ]
+  },
+  "1000": { "tagDescription": ["Missing / Manque"] },
+  "1467": {
+    "tagDate": ["1910-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Employment of prison labour in the manufacture of goods for export"
+    ]
+  },
+  "1002": { "tagDescription": ["Missing / Manque"] },
+  "488": { "tagDescription": ["Missing / Manque"] },
+  "492": {
+    "tagDate": ["1910-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Payment of retired pay of Lieut. H.A. Tolmer, late of 5th South Australian Imperial Bushman, in Autralia"
+    ]
+  },
+  "826": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Denmark. Consular Appointments"]
+  },
+  "1025": {
+    "tagDescription": [
+      "Canadian Militia Act, 1904 Question of periodical inspection of Canadian Militia by Inspector General of the Imperial Forces. (see file 270)"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]
+  },
+  "750": { "tagDescription": ["Missing / Manque"] },
+  "1198": {
+    "tagDescription": ["Netherlands. Consular Appointments"],
+    "tagDate": ["[1869-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"]
+  },
+  "1465": { "tagDescription": ["Missing / Manque"] },
+  "1478": { "tagDescription": ["Missing / Manque"] },
+  "1481": {
+    "tagDescription": ["Parliamentary papers"],
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "1001": { "tagDescription": ["Missing / Manque"] },
+  "1196": { "tagDescription": ["Missing / Manque"] },
+  "752": { "tagDescription": ["Missing / Manque"] },
+  "999": { "tagDescription": ["Missing / Manque"] },
+  "498": { "tagDescription": ["Missing / Manque"] },
+  "490": { "tagDescription": ["Missing / Manque"] },
+  "489": { "tagDescription": ["Missing / Manque"] },
+  "804": { "tagDescription": ["Missing / Manque"] },
+  "997": { "tagDescription": ["Missing / Manque"] },
+  "1726": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Parliamentary papers"]
+  },
+  "1463": { "tagDescription": ["Missing / Manque"] },
+  "487": { "tagDescription": ["Missing / Manque"] }
+}

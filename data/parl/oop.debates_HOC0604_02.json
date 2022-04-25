@@ -1,1 +1,11 @@
-{"type":"debates","pubmax":"1890-05-16","node":[["eng","c","debates","06-4",2]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmin":"1890-01-16","label":"House of Commons Debates, 6th Parliament, 4th Session : Vol. 2","language":["eng"],"session":["06-4"]}
+{
+  "type": "debates",
+  "pubmax": "1890-05-16",
+  "node": [["eng", "c", "debates", "06-4", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmin": "1890-01-16",
+  "label": "House of Commons Debates, 6th Parliament, 4th Session : Vol. 2",
+  "language": ["eng"],
+  "session": ["06-4"]
+}

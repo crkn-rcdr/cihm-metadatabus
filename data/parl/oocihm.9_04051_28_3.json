@@ -1,1 +1,11 @@
-{"type":"sessional","node":[["fra","c","sessional","07-5",3]],"pubmax":"1895-07-22","primeMinisters":"Bowell, Mackenzie","chamber":["c"],"pubmin":"1895-04-18","label":"Documents parlementaires, 7e Législature, 5e Session : vol. 3","language":["fra"],"session":["07-5"]}
+{
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "07-5", 3]],
+  "pubmax": "1895-07-22",
+  "primeMinisters": "Bowell, Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1895-04-18",
+  "label": "Documents parlementaires, 7e Législature, 5e Session : vol. 3",
+  "language": ["fra"],
+  "session": ["07-5"]
+}

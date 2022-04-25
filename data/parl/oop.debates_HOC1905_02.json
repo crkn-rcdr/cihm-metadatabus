@@ -1,1 +1,11 @@
-{"label":"House of Commons Debates, 19th Parliament, 5th Session : Vol. 2","pubmin":"1944-01-27","session":["19-5"],"language":["eng"],"node":[["eng","c","debates","19-5",2]],"pubmax":"1945-01-31","type":"debates","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "label": "House of Commons Debates, 19th Parliament, 5th Session : Vol. 2",
+  "pubmin": "1944-01-27",
+  "session": ["19-5"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "19-5", 2]],
+  "pubmax": "1945-01-31",
+  "type": "debates",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","node":[["fra","s","journals","22-4",1]],"pubmax":"1957-01-08","language":["fra"],"session":["22-4"],"pubmin":"1956-11-26","label":"Journaux du Sénat, 22e Législature, 4e Session : Vol. 101"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["fra", "s", "journals", "22-4", 1]],
+  "pubmax": "1957-01-08",
+  "language": ["fra"],
+  "session": ["22-4"],
+  "pubmin": "1956-11-26",
+  "label": "Journaux du Sénat, 22e Législature, 4e Session : Vol. 101"
+}

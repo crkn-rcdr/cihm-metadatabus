@@ -1,1 +1,11 @@
-{"primeMinisters":"Laurier, Wilfrid","chamber":["c"],"node":[["fra","c","debates","09-4",6]],"pubmax":"1904-08-10","type":"debates","session":["09-4"],"language":["fra"],"label":"Débats de la Chambre des communes, 9e Législature, 4e Session : Index","pubmin":"1904-03-10"}
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "09-4", 6]],
+  "pubmax": "1904-08-10",
+  "type": "debates",
+  "session": ["09-4"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 9e Législature, 4e Session : Index",
+  "pubmin": "1904-03-10"
+}

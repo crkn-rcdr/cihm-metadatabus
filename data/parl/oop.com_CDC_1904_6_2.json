@@ -1,1 +1,12 @@
-{"session":["19-4"],"language":["fra"],"label":"Comités de la Chambre des communes, 19e Législature, 4e Session : Comité spécial de la restauration et du rétablissement, vol. 2","callNumber":"1943/44 R48 A4 v.2","pubmin":"1943-01-28","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["fra","c","committees","19-4",7]],"pubmax":"1944-01-26","type":"committees"}
+{
+  "session": ["19-4"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 19e Législature, 4e Session : Comité spécial de la restauration et du rétablissement, vol. 2",
+  "callNumber": "1943/44 R48 A4 v.2",
+  "pubmin": "1943-01-28",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "19-4", 7]],
+  "pubmax": "1944-01-26",
+  "type": "committees"
+}

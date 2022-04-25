@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1974-05-09","node":[["eng","c","committees","29-2",14],["fra","c","committees","29-2",13]],"type":"committees","session":["29-2"],"language":["eng","fra"],"callNumber":"1974 P76 A1","label":"House of Commons Committees, 29th Parliament, 2nd Session : Standing Committee on Procedure and Organization, vol. 1 = Comités de la Chambre des communes, 29e Législature, 2e Session : Comité permanent de la procédure et de l'organisation, vol. 1","pubmin":"1974-02-27"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1974-05-09",
+  "node": [
+    ["eng", "c", "committees", "29-2", 14],
+    ["fra", "c", "committees", "29-2", 13]
+  ],
+  "type": "committees",
+  "session": ["29-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "1974 P76 A1",
+  "label": "House of Commons Committees, 29th Parliament, 2nd Session : Standing Committee on Procedure and Organization, vol. 1 = Comités de la Chambre des communes, 29e Législature, 2e Session : Comité permanent de la procédure et de l'organisation, vol. 1",
+  "pubmin": "1974-02-27"
+}

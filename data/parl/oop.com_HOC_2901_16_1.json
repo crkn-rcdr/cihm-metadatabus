@@ -1,1 +1,15 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["eng","c","committees","29-1",19],["fra","c","committees","29-1",8]],"pubmax":"1974-02-26","type":"committees","session":["29-1"],"language":["eng","fra"],"label":"House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Regional Development, vol. 1 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent de l'expansion économique régionale, vol. 1","callNumber":"1973/74 R4 A1","pubmin":"1973-01-04"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "29-1", 19],
+    ["fra", "c", "committees", "29-1", 8]
+  ],
+  "pubmax": "1974-02-26",
+  "type": "committees",
+  "session": ["29-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Regional Development, vol. 1 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent de l'expansion économique régionale, vol. 1",
+  "callNumber": "1973/74 R4 A1",
+  "pubmin": "1973-01-04"
+}

@@ -1,1 +1,11 @@
-{"label":"House of Commons Journals, 26th Parliament, 2nd Session : Vol. 111","pubmin":"1964-02-18","session":["26-2"],"language":["eng"],"pubmax":"1965-04-03","node":[["eng","c","journals","26-2",1]],"type":"journals","chamber":["c"],"primeMinisters":"Pearson, Lester Bowles"}
+{
+  "label": "House of Commons Journals, 26th Parliament, 2nd Session : Vol. 111",
+  "pubmin": "1964-02-18",
+  "session": ["26-2"],
+  "language": ["eng"],
+  "pubmax": "1965-04-03",
+  "node": [["eng", "c", "journals", "26-2", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles"
+}

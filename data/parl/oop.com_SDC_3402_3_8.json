@@ -1,1 +1,14 @@
-{"pubmin":"1989-04-03","callNumber":"J103 H7 34-2 B3 A123f","label":"Comités du Sénat, 34e Législature, 2e Session : Comité permanent des banques et du commerce, Treizième rapport","language":["fra"],"reportTitle":["Rapport sur le projet de loi C-62, Loi modifiant la Loi sur la taxe d'accise, le Code criminel, la Loi sur les douanes, le Tarif des douanes, la Loi sur l'accise, la Loi de l'impôt sur le revenu, la Loi sur la statistique et la Loi sur la Cour canadienne de l'impôt"],"session":["34-2"],"type":"committees","pubmax":"1991-05-12","node":[["fra","s","committees","34-2",22]],"chamber":["s"]}
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "J103 H7 34-2 B3 A123f",
+  "label": "Comités du Sénat, 34e Législature, 2e Session : Comité permanent des banques et du commerce, Treizième rapport",
+  "language": ["fra"],
+  "reportTitle": [
+    "Rapport sur le projet de loi C-62, Loi modifiant la Loi sur la taxe d'accise, le Code criminel, la Loi sur les douanes, le Tarif des douanes, la Loi sur l'accise, la Loi de l'impôt sur le revenu, la Loi sur la statistique et la Loi sur la Cour canadienne de l'impôt"
+  ],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["fra", "s", "committees", "34-2", 22]],
+  "chamber": ["s"]
+}

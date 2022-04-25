@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"sproc","pubmax":"1906-07-13","node":[["fra","s","sproc","10-2",1]],"language":["fra"],"session":["10-2"],"pubmin":"1906-03-08","callNumber":"J103 H43 1906","label":"Procès-verbaux du Sénat, 10e Législature, 2e Session : 1-67"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1906-07-13",
+  "node": [["fra", "s", "sproc", "10-2", 1]],
+  "language": ["fra"],
+  "session": ["10-2"],
+  "pubmin": "1906-03-08",
+  "callNumber": "J103 H43 1906",
+  "label": "Procès-verbaux du Sénat, 10e Législature, 2e Session : 1-67"
+}

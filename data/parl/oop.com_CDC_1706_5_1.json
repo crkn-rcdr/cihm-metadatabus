@@ -1,1 +1,12 @@
-{"label":"Comités de la Chambre des communes, 17e Législature, 6e Session : Comité permanent des relations industrielles, vol. 1","callNumber":"1935 R44 A4","pubmin":"1935-01-17","session":["17-6"],"language":["fra"],"node":[["fra","c","committees","17-6",5]],"pubmax":"1935-07-05","type":"committees","primeMinisters":"Bennett, Richard Bedford","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 17e Législature, 6e Session : Comité permanent des relations industrielles, vol. 1",
+  "callNumber": "1935 R44 A4",
+  "pubmin": "1935-01-17",
+  "session": ["17-6"],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "17-6", 5]],
+  "pubmax": "1935-07-05",
+  "type": "committees",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"]
+}

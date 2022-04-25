@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"sproc","pubmax":"1972-09-01","node":[["eng","s","sproc","28-4",1]],"language":["eng"],"session":["28-4"],"pubmin":"1972-02-17","callNumber":"J103 H4 1972 no. 1-47 c.2","label":"Senate Minutes of Proceedings, 28th Parliament, 4th Session : 1-47"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1972-09-01",
+  "node": [["eng", "s", "sproc", "28-4", 1]],
+  "language": ["eng"],
+  "session": ["28-4"],
+  "pubmin": "1972-02-17",
+  "callNumber": "J103 H4 1972 no. 1-47 c.2",
+  "label": "Senate Minutes of Proceedings, 28th Parliament, 4th Session : 1-47"
+}

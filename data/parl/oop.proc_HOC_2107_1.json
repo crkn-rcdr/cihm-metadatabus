@@ -1,1 +1,12 @@
-{"session":["21-7"],"language":["eng"],"callNumber":"J103 H41 1952/53 c.2","label":"House of Commons Votes and Proceedings, 21st Parliament, 7th Session : 1-108","pubmin":"1952-11-20","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmax":"1953-05-14","node":[["eng","c","cproc","21-7",1]],"type":"cproc"}
+{
+  "session": ["21-7"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 1952/53 c.2",
+  "label": "House of Commons Votes and Proceedings, 21st Parliament, 7th Session : 1-108",
+  "pubmin": "1952-11-20",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1953-05-14",
+  "node": [["eng", "c", "cproc", "21-7", 1]],
+  "type": "cproc"
+}

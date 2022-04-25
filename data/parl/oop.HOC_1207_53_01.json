@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["12-7"],"pubmin":"1917-01-18","label":"House of Commons Journals, 12th Parliament, 7th Session : Vol. 53","chamber":["c"],"primeMinisters":"Borden, Robert Laird","type":"journals","pubmax":"1917-09-20","node":[["eng","c","journals","12-7",1]]}
+{
+  "language": ["eng"],
+  "session": ["12-7"],
+  "pubmin": "1917-01-18",
+  "label": "House of Commons Journals, 12th Parliament, 7th Session : Vol. 53",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "journals",
+  "pubmax": "1917-09-20",
+  "node": [["eng", "c", "journals", "12-7", 1]]
+}

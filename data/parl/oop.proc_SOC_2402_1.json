@@ -1,1 +1,11 @@
-{"pubmin":"1959-01-15","callNumber":"J103 H4 1959 c.2","label":"Senate Minutes of Proceedings, 24th Parliament, 2nd Session : 1-75","language":["eng"],"session":["24-2"],"type":"sproc","pubmax":"1959-07-18","node":[["eng","s","sproc","24-2",1]],"chamber":["s"]}
+{
+  "pubmin": "1959-01-15",
+  "callNumber": "J103 H4 1959 c.2",
+  "label": "Senate Minutes of Proceedings, 24th Parliament, 2nd Session : 1-75",
+  "language": ["eng"],
+  "session": ["24-2"],
+  "type": "sproc",
+  "pubmax": "1959-07-18",
+  "node": [["eng", "s", "sproc", "24-2", 1]],
+  "chamber": ["s"]
+}

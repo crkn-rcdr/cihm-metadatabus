@@ -1,1 +1,12 @@
-{"pubmin":"1924-02-28","label":"House of Commons Votes and Proceedings, 14th Parliament, 3rd Session : 1-95","callNumber":"J103 H41 1924 c.2","language":["eng"],"session":["14-3"],"type":"cproc","node":[["eng","c","cproc","14-3",1]],"pubmax":"1924-07-19","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "pubmin": "1924-02-28",
+  "label": "House of Commons Votes and Proceedings, 14th Parliament, 3rd Session : 1-95",
+  "callNumber": "J103 H41 1924 c.2",
+  "language": ["eng"],
+  "session": ["14-3"],
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "14-3", 1]],
+  "pubmax": "1924-07-19",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

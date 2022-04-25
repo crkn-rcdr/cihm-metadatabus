@@ -1,1 +1,15 @@
-{"type":"committees","pubmax":"1991-05-12","node":[["fra","c","committees","34-2",99]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1989-04-03","callNumber":"34-2 E582 A123","label":"Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de l'environnement, Septième rapport","reportTitle":["Transformations de notre astmosphère : partie III En rupture d'équilibre le risque de changements climatiques irréversibles"],"language":["fra"],"session":["34-2"]}
+{
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["fra", "c", "committees", "34-2", 99]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 E582 A123",
+  "label": "Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de l'environnement, Septième rapport",
+  "reportTitle": [
+    "Transformations de notre astmosphère : partie III En rupture d'équilibre le risque de changements climatiques irréversibles"
+  ],
+  "language": ["fra"],
+  "session": ["34-2"]
+}

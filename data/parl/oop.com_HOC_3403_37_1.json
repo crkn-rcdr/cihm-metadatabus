@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",70],["fra","c","committees","34-3",209]],"language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","callNumber":"34-3 E895 A1 no.1-4","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee F on Bill C-10, an Act to amend the Excise Tax Act and the Excise Act, vol. 1 no. 1-4 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif F sur le projet de loi C-10, Loi modifiant la Loi sur la taxe d'accise et la Loi sur l'accise, vol. 1 no. 1-4"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 70],
+    ["fra", "c", "committees", "34-3", 209]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 E895 A1 no.1-4",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee F on Bill C-10, an Act to amend the Excise Tax Act and the Excise Act, vol. 1 no. 1-4 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif F sur le projet de loi C-10, Loi modifiant la Loi sur la taxe d'accise et la Loi sur l'accise, vol. 1 no. 1-4"
+}

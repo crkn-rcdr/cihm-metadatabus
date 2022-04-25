@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Borden, Robert Laird","type":"debates","pubmax":"1919-07-07","node":[["eng","c","debates","13-2",4]],"language":["eng"],"session":["13-2"],"pubmin":"1919-02-20","label":"House of Commons Debates, 13th Parliament, 2nd Session : Vol. 4"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "debates",
+  "pubmax": "1919-07-07",
+  "node": [["eng", "c", "debates", "13-2", 4]],
+  "language": ["eng"],
+  "session": ["13-2"],
+  "pubmin": "1919-02-20",
+  "label": "House of Commons Debates, 13th Parliament, 2nd Session : Vol. 4"
+}

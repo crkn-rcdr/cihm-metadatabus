@@ -1,1 +1,15 @@
-{"label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Government Operations, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'administration gouvernementale, vol. 1","callNumber":"33-1 G68 A1","pubmin":"1984-11-05","session":["33-1"],"language":["eng","fra"],"node":[["eng","c","committees","33-1",78],["fra","c","committees","33-1",2]],"pubmax":"1986-08-28","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Government Operations, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'administration gouvernementale, vol. 1",
+  "callNumber": "33-1 G68 A1",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "33-1", 78],
+    ["fra", "c", "committees", "33-1", 2]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

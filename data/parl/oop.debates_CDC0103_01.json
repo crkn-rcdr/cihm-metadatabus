@@ -1,1 +1,14 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"node":[["eng","c","debates","01-3",1],["fra","c","debates","01-3",1]],"pubmax":"1870-05-12","type":"debates","session":["01-3"],"language":["eng","fra"],"label":"House of Commons Debates, 1st Parliament, 3rd Session : Vol. 1 = Débats de la Chambre des communes, 1e Législature, 3e Session : Vol. 1","pubmin":"1870-02-15"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "debates", "01-3", 1],
+    ["fra", "c", "debates", "01-3", 1]
+  ],
+  "pubmax": "1870-05-12",
+  "type": "debates",
+  "session": ["01-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Debates, 1st Parliament, 3rd Session : Vol. 1 = Débats de la Chambre des communes, 1e Législature, 3e Session : Vol. 1",
+  "pubmin": "1870-02-15"
+}

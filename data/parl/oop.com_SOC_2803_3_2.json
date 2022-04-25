@@ -1,1 +1,11 @@
-{"session":["28-3"],"language":["eng"],"label":"Senate Committees, 28th Parliament, 3rd Session : Standing Committee on Banking, Trade and Commerce, vol. 2","callNumber":"1970/72 B3 A1 v.2","pubmin":"1970-10-08","chamber":["s"],"node":[["eng","s","committees","28-3",2]],"pubmax":"1972-02-16","type":"committees"}
+{
+  "session": ["28-3"],
+  "language": ["eng"],
+  "label": "Senate Committees, 28th Parliament, 3rd Session : Standing Committee on Banking, Trade and Commerce, vol. 2",
+  "callNumber": "1970/72 B3 A1 v.2",
+  "pubmin": "1970-10-08",
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "28-3", 2]],
+  "pubmax": "1972-02-16",
+  "type": "committees"
+}

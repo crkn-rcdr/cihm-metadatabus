@@ -1,1 +1,15 @@
-{"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",69],["fra","c","committees","34-3",75]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","callNumber":"34-3 D682 A1 no.1","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee F on Bill S-2, an Act to implement conventions between Canada and Finland, Canada and the Czech and Slovak Federal Republic and Canada and the United Mexican States for the avoidance of double taxation with respect to income tax and the prevention of fiscal evasion and a convention between Canada and the United Mexican States for the exchange of information with respect to taxes, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif F sur le projet de loi S-2, Loi de mise en oeuvre des conventions conclues entre le Canada et la Finlande, le Canada et la République fédérative tchèque et slovaque et le Canada et les États-Unis Mexicains en vue d'éviter les doubles impositions et de prévenir l'évasion fiscale en matière d'impôts sur le revenu et d'une convention conclue entre le Canada et les États-Unis Mexicains sur l'échange de renseignements en matière fiscale, vol. 1 no. 1","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"]}
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 69],
+    ["fra", "c", "committees", "34-3", 75]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 D682 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee F on Bill S-2, an Act to implement conventions between Canada and Finland, Canada and the Czech and Slovak Federal Republic and Canada and the United Mexican States for the avoidance of double taxation with respect to income tax and the prevention of fiscal evasion and a convention between Canada and the United Mexican States for the exchange of information with respect to taxes, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif F sur le projet de loi S-2, Loi de mise en oeuvre des conventions conclues entre le Canada et la Finlande, le Canada et la République fédérative tchèque et slovaque et le Canada et les États-Unis Mexicains en vue d'éviter les doubles impositions et de prévenir l'évasion fiscale en matière d'impôts sur le revenu et d'une convention conclue entre le Canada et les États-Unis Mexicains sur l'échange de renseignements en matière fiscale, vol. 1 no. 1",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

@@ -1,1 +1,11 @@
-{"label":"Documents parlementaires, 6e Législature, 4e Session : vol. 6","pubmin":"1890-01-16","session":["06-4"],"language":["fra"],"node":[["fra","c","sessional","06-4",6]],"pubmax":"1890-05-16","type":"sessional","primeMinisters":"Macdonald, John Alexander","chamber":["c"]}
+{
+  "label": "Documents parlementaires, 6e Législature, 4e Session : vol. 6",
+  "pubmin": "1890-01-16",
+  "session": ["06-4"],
+  "language": ["fra"],
+  "node": [["fra", "c", "sessional", "06-4", 6]],
+  "pubmax": "1890-05-16",
+  "type": "sessional",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

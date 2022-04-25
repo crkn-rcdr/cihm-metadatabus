@@ -1,1 +1,15 @@
-{"session":["34-2"],"language":["eng","fra"],"callNumber":"34-2 R23 A1 no.1","label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-6, an Act to amend the Radio Act and certain other Acts in consequence thereof, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-6, Loi modifiant la Loi sur la radio et certaines autres lois en conséquence, vol. 1 no. 1","pubmin":"1989-04-03","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",158],["fra","c","committees","34-2",160]],"type":"committees"}
+{
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-2 R23 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-6, an Act to amend the Radio Act and certain other Acts in consequence thereof, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-6, Loi modifiant la Loi sur la radio et certaines autres lois en conséquence, vol. 1 no. 1",
+  "pubmin": "1989-04-03",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 158],
+    ["fra", "c", "committees", "34-2", 160]
+  ],
+  "type": "committees"
+}

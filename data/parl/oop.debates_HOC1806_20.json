@@ -1,1 +1,14 @@
-{"pubmax":"1940-11-05","node":[["eng","c","debates","18-6",2],["eng","c","debates","19-1",4]],"type":"debates","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","label":"House of Commons Debates, 18th Parliament, 6th Session, 19th Parliament, 1st Session : Index","pubmin":"1940-01-25","session":["18-6","19-1"],"language":["eng"]}
+{
+  "pubmax": "1940-11-05",
+  "node": [
+    ["eng", "c", "debates", "18-6", 2],
+    ["eng", "c", "debates", "19-1", 4]
+  ],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "label": "House of Commons Debates, 18th Parliament, 6th Session, 19th Parliament, 1st Session : Index",
+  "pubmin": "1940-01-25",
+  "session": ["18-6", "19-1"],
+  "language": ["eng"]
+}

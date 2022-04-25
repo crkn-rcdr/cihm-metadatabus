@@ -1,1 +1,15 @@
-{"pubmin":"1986-09-30","label":"House of Commons Votes and Proceedings, 33rd Parliament, 2nd Session : 101-187:1 = Procès-verbaux de la Chambre des communes, 33e Législature, 2e Session : 101-187:1","callNumber":"J103 H41 33-2 no. 101-187 c.2","language":["eng","fra"],"session":["33-2"],"type":"cproc","node":[["eng","c","cproc","33-2",2],["fra","c","cproc","33-2",2]],"pubmax":"1988-10-01","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Votes and Proceedings, 33rd Parliament, 2nd Session : 101-187:1 = Procès-verbaux de la Chambre des communes, 33e Législature, 2e Session : 101-187:1",
+  "callNumber": "J103 H41 33-2 no. 101-187 c.2",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "type": "cproc",
+  "node": [
+    ["eng", "c", "cproc", "33-2", 2],
+    ["fra", "c", "cproc", "33-2", 2]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

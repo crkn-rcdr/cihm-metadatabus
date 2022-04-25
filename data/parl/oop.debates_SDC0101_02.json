@@ -1,1 +1,10 @@
-{"label":"Débats du Sénat, 1e Législature, 1re Session : Vol. 1","pubmin":"1867-11-06","session":["01-1"],"language":["fra"],"pubmax":"1868-05-22","node":[["fra","s","debates","01-1",1]],"type":"debates","chamber":["s"]}
+{
+  "label": "Débats du Sénat, 1e Législature, 1re Session : Vol. 1",
+  "pubmin": "1867-11-06",
+  "session": ["01-1"],
+  "language": ["fra"],
+  "pubmax": "1868-05-22",
+  "node": [["fra", "s", "debates", "01-1", 1]],
+  "type": "debates",
+  "chamber": ["s"]
+}

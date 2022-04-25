@@ -1,1 +1,11 @@
-{"type":"debates","node":[["fra","c","debates","14-3",4]],"pubmax":"1924-07-19","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1924-02-28","label":"Débats de la Chambre des communes, 14e Législature, 3e Session : Vol. 4","language":["fra"],"session":["14-3"]}
+{
+  "type": "debates",
+  "node": [["fra", "c", "debates", "14-3", 4]],
+  "pubmax": "1924-07-19",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1924-02-28",
+  "label": "Débats de la Chambre des communes, 14e Législature, 3e Session : Vol. 4",
+  "language": ["fra"],
+  "session": ["14-3"]
+}

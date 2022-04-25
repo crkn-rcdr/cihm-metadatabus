@@ -1,1 +1,11 @@
-{"node":[["fra","s","committees","28-4",1]],"pubmax":"1972-09-01","type":"committees","chamber":["s"],"label":"Comités du Sénat, 28e Législature, 4e Session : Comité permanent des affaires étrangères, vol. 1","callNumber":"1972 A28 A1","pubmin":"1972-02-17","session":["28-4"],"language":["fra"]}
+{
+  "node": [["fra", "s", "committees", "28-4", 1]],
+  "pubmax": "1972-09-01",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Comités du Sénat, 28e Législature, 4e Session : Comité permanent des affaires étrangères, vol. 1",
+  "callNumber": "1972 A28 A1",
+  "pubmin": "1972-02-17",
+  "session": ["28-4"],
+  "language": ["fra"]
+}

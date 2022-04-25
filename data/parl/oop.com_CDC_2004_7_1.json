@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1948-06-30","node":[["fra","c","committees","20-4",9]],"type":"committees","session":["20-4"],"language":["fra"],"callNumber":"1947/48 P75 A4 v.1","label":"Comités de la Chambre des communes, 20e Législature, 4e Session : Comité spécial des prix, vol. 1 no. 1-20","pubmin":"1947-12-05"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1948-06-30",
+  "node": [["fra", "c", "committees", "20-4", 9]],
+  "type": "committees",
+  "session": ["20-4"],
+  "language": ["fra"],
+  "callNumber": "1947/48 P75 A4 v.1",
+  "label": "Comités de la Chambre des communes, 20e Législature, 4e Session : Comité spécial des prix, vol. 1 no. 1-20",
+  "pubmin": "1947-12-05"
+}

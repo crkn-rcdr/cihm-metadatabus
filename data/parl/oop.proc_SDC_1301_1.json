@@ -1,1 +1,11 @@
-{"callNumber":"J103 H43 1918","label":"Procès-verbaux du Sénat, 13e Législature, 1re Session : 1-38","pubmin":"1918-03-18","session":["13-1"],"language":["fra"],"pubmax":"1918-05-24","node":[["fra","s","sproc","13-1",1]],"type":"sproc","chamber":["s"]}
+{
+  "callNumber": "J103 H43 1918",
+  "label": "Procès-verbaux du Sénat, 13e Législature, 1re Session : 1-38",
+  "pubmin": "1918-03-18",
+  "session": ["13-1"],
+  "language": ["fra"],
+  "pubmax": "1918-05-24",
+  "node": [["fra", "s", "sproc", "13-1", 1]],
+  "type": "sproc",
+  "chamber": ["s"]
+}

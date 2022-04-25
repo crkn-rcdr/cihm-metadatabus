@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["14-3"],"pubmin":"1924-02-28","label":"Journaux du Sénat, 14e Législature, 3e Session : Vol. 61","chamber":["s"],"type":"journals","node":[["fra","s","journals","14-3",1]],"pubmax":"1924-07-19"}
+{
+  "language": ["fra"],
+  "session": ["14-3"],
+  "pubmin": "1924-02-28",
+  "label": "Journaux du Sénat, 14e Législature, 3e Session : Vol. 61",
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["fra", "s", "journals", "14-3", 1]],
+  "pubmax": "1924-07-19"
+}

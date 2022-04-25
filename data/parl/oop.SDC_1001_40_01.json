@@ -1,1 +1,10 @@
-{"pubmin":"1905-01-11","label":"Journaux du Sénat, 10e Législature, 1re Session : Vol. 40","language":["fra"],"session":["10-1"],"type":"journals","node":[["fra","s","journals","10-1",1]],"pubmax":"1905-07-20","chamber":["s"]}
+{
+  "pubmin": "1905-01-11",
+  "label": "Journaux du Sénat, 10e Législature, 1re Session : Vol. 40",
+  "language": ["fra"],
+  "session": ["10-1"],
+  "type": "journals",
+  "node": [["fra", "s", "journals", "10-1", 1]],
+  "pubmax": "1905-07-20",
+  "chamber": ["s"]
+}

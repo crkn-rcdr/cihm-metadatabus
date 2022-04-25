@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"committees","node":[["fra","c","committees","20-4",4]],"pubmax":"1948-06-30","language":["fra"],"session":["20-4"],"pubmin":"1947-12-05","label":"Comités de la Chambre des communes, 20e Législature, 4e Session : Comité permanent des chemins de fer, canaux et télégraphes, vol. 1","callNumber":"1947/48 C4 A4"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "20-4", 4]],
+  "pubmax": "1948-06-30",
+  "language": ["fra"],
+  "session": ["20-4"],
+  "pubmin": "1947-12-05",
+  "label": "Comités de la Chambre des communes, 20e Législature, 4e Session : Comité permanent des chemins de fer, canaux et télégraphes, vol. 1",
+  "callNumber": "1947/48 C4 A4"
+}

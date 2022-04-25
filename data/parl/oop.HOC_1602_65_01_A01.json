@@ -1,1 +1,11 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"journals","node":[["eng","c","journals","16-2",2]],"pubmax":"1928-06-11","language":["eng"],"session":["16-2"],"pubmin":"1928-01-26","label":"House of Commons Journals, 16th Parliament, 2nd Session : Vol. 65 App. 1"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "16-2", 2]],
+  "pubmax": "1928-06-11",
+  "language": ["eng"],
+  "session": ["16-2"],
+  "pubmin": "1928-01-26",
+  "label": "House of Commons Journals, 16th Parliament, 2nd Session : Vol. 65 App. 1"
+}

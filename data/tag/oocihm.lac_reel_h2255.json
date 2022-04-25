@@ -1,1 +1,134 @@
-{"1140":{"tagDate":["[1919-07-01T00:00:00.000Z TO 1919-12-28T23:59:59.999Z]"],"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay"]},"852":{"tagDescription":["Mrs. (Margery Rean) William Lyon Mackenzie King"],"tagDate":["[1945-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"]},"409":{"tagDate":["1937-01-01T00:00:00.000Z"],"tagDescription":["Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"]},"370":{"tagDescription":["Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"],"tagDate":["1936-01-01T00:00:00.000Z"]},"916":{"tagDescription":["Mrs. (Margery Rean) William Lyon Mackenzie King"],"tagDate":["[1948-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]},"596":{"tagDate":["1939-01-01T00:00:00.000Z"],"tagDescription":["Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"]},"81":{"tagDescription":["William Lyon Mackenzie King (nephew)"],"tagDate":["[1923-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]},"675":{"tagDate":["1941-01-01T00:00:00.000Z"],"tagDescription":["Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"]},"727":{"tagDate":["[1942-01-01T00:00:00.000Z TO 1943-12-31T23:59:59.999Z]"],"tagDescription":["Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"]},"796":{"tagDescription":["(Margery Rean) William Lyon Mackenzie King Mrs."],"tagDate":["[1943-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"]},"646":{"tagDate":["1940-01-01T00:00:00.000Z"],"tagDescription":["Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"]},"1080":{"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay"],"tagDate":["[1919-01-01T00:00:00.000Z TO 1919-06-28T23:59:59.999Z]"]},"16":{"tagDescription":["Mr. and Mrs. (Kathleen Thomas) Arthur King"],"tagDate":["[1948-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"]},"491":{"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"]},"952":{"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay"],"tagDate":["1918-01-01T00:00:00.000Z"]},"147":{"tagDescription":["William Lyon Mackenzie King (nephew)"],"tagDate":["[1930-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"]},"1476":{"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"],"tagDate":["[1923-07-01T00:00:00.000Z TO 1923-12-28T23:59:59.999Z]"]},"1536":{"tagDate":["[1924-01-01T00:00:00.000Z TO 1924-09-28T23:59:59.999Z]"],"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"]},"1333":{"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"],"tagDate":["1922-01-01T00:00:00.000Z"]},"288":{"tagDate":["[1934-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["William Lyon Mackenzie King (nephew)"]},"61":{"tagDate":["1950-01-01T00:00:00.000Z"],"tagDescription":["Mr. and Mrs. (Kathleen Thomas) Arthur King"]},"202":{"tagDate":["[1932-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],"tagDescription":["William Lyon Mackenzie King (nephew)"]},"1434":{"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"],"tagDate":["[1923-01-01T00:00:00.000Z TO 1923-05-28T23:59:59.999Z]"]},"1246":{"tagDate":["1921-01-01T00:00:00.000Z"],"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"]},"1200":{"tagDescription":["Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"],"tagDate":["1920-01-01T00:00:00.000Z"]}}
+{
+  "1140": {
+    "tagDate": ["[1919-07-01T00:00:00.000Z TO 1919-12-28T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay"
+    ]
+  },
+  "852": {
+    "tagDescription": ["Mrs. (Margery Rean) William Lyon Mackenzie King"],
+    "tagDate": ["[1945-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"]
+  },
+  "409": {
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"
+    ]
+  },
+  "370": {
+    "tagDescription": [
+      "Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"
+    ],
+    "tagDate": ["1936-01-01T00:00:00.000Z"]
+  },
+  "916": {
+    "tagDescription": ["Mrs. (Margery Rean) William Lyon Mackenzie King"],
+    "tagDate": ["[1948-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]
+  },
+  "596": {
+    "tagDate": ["1939-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"
+    ]
+  },
+  "81": {
+    "tagDescription": ["William Lyon Mackenzie King (nephew)"],
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]
+  },
+  "675": {
+    "tagDate": ["1941-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"
+    ]
+  },
+  "727": {
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1943-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"
+    ]
+  },
+  "796": {
+    "tagDescription": ["(Margery Rean) William Lyon Mackenzie King Mrs."],
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"]
+  },
+  "646": {
+    "tagDate": ["1940-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"
+    ]
+  },
+  "1080": {
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay"
+    ],
+    "tagDate": ["[1919-01-01T00:00:00.000Z TO 1919-06-28T23:59:59.999Z]"]
+  },
+  "16": {
+    "tagDescription": ["Mr. and Mrs. (Kathleen Thomas) Arthur King"],
+    "tagDate": ["[1948-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"]
+  },
+  "491": {
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Dr. and Mrs. (Margery Rean) William Lyon Mackenzie King"
+    ]
+  },
+  "952": {
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay"
+    ],
+    "tagDate": ["1918-01-01T00:00:00.000Z"]
+  },
+  "147": {
+    "tagDescription": ["William Lyon Mackenzie King (nephew)"],
+    "tagDate": ["[1930-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"]
+  },
+  "1476": {
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"
+    ],
+    "tagDate": ["[1923-07-01T00:00:00.000Z TO 1923-12-28T23:59:59.999Z]"]
+  },
+  "1536": {
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1924-09-28T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"
+    ]
+  },
+  "1333": {
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"
+    ],
+    "tagDate": ["1922-01-01T00:00:00.000Z"]
+  },
+  "288": {
+    "tagDate": ["[1934-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": ["William Lyon Mackenzie King (nephew)"]
+  },
+  "61": {
+    "tagDate": ["1950-01-01T00:00:00.000Z"],
+    "tagDescription": ["Mr. and Mrs. (Kathleen Thomas) Arthur King"]
+  },
+  "202": {
+    "tagDate": ["[1932-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],
+    "tagDescription": ["William Lyon Mackenzie King (nephew)"]
+  },
+  "1434": {
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"
+    ],
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1923-05-28T23:59:59.999Z]"]
+  },
+  "1246": {
+    "tagDate": ["1921-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"
+    ]
+  },
+  "1200": {
+    "tagDescription": [
+      "Mr. and Mrs. (Janet Lindsey King - Jennie) Harry Morrison Lay and family"
+    ],
+    "tagDate": ["1920-01-01T00:00:00.000Z"]
+  }
+}

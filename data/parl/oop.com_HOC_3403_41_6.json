@@ -1,1 +1,13 @@
-{"pubmin":"1991-05-13","callNumber":"34-3 F553 A123","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Finance, Eighth Report","language":["eng"],"reportTitle":["The Mandate and Governance of the Bank of Canada"],"session":["34-3"],"type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",83]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 F553 A123",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Finance, Eighth Report",
+  "language": ["eng"],
+  "reportTitle": ["The Mandate and Governance of the Bank of Canada"],
+  "session": ["34-3"],
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["eng", "c", "committees", "34-3", 83]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

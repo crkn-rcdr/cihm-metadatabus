@@ -1,1 +1,11 @@
-{"type":"committees","node":[["eng","s","committees","28-1",2]],"pubmax":"1969-10-22","chamber":["s"],"pubmin":"1968-09-12","label":"Senate Committees, 28th Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, vol. 2","callNumber":"1968/69 B3 A1 v.2","language":["eng"],"session":["28-1"]}
+{
+  "type": "committees",
+  "node": [["eng", "s", "committees", "28-1", 2]],
+  "pubmax": "1969-10-22",
+  "chamber": ["s"],
+  "pubmin": "1968-09-12",
+  "label": "Senate Committees, 28th Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, vol. 2",
+  "callNumber": "1968/69 B3 A1 v.2",
+  "language": ["eng"],
+  "session": ["28-1"]
+}

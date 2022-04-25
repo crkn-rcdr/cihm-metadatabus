@@ -1,1 +1,15 @@
-{"type":"orders","pubmax":"1927-04-14","node":[["eng","c","orders",null,1],["fra","c","orders",null,1]],"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmin":"1926-12-09","callNumber":"JL164.4 1927","label":"Standing Orders of the House of Commons, 1927 = Règlement de la Chambre des communes du Canada, 1927","language":["eng","fra"],"session":["16-1"]}
+{
+  "type": "orders",
+  "pubmax": "1927-04-14",
+  "node": [
+    ["eng", "c", "orders", null, 1],
+    ["fra", "c", "orders", null, 1]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmin": "1926-12-09",
+  "callNumber": "JL164.4 1927",
+  "label": "Standing Orders of the House of Commons, 1927 = Règlement de la Chambre des communes du Canada, 1927",
+  "language": ["eng", "fra"],
+  "session": ["16-1"]
+}

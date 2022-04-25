@@ -1,1 +1,11 @@
-{"chamber":["s"],"node":[["fra","s","committees","07-1",1]],"pubmax":"1891-09-30","type":"committees","session":["07-1"],"language":["fra"],"label":"Comités du Sénat, 7e Législature, 1re Session : Comité spécial des chemins de fer, télégraphes et havres, vol. 1","callNumber":"1891 C45 A42","pubmin":"1891-04-29"}
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "committees", "07-1", 1]],
+  "pubmax": "1891-09-30",
+  "type": "committees",
+  "session": ["07-1"],
+  "language": ["fra"],
+  "label": "Comités du Sénat, 7e Législature, 1re Session : Comité spécial des chemins de fer, télégraphes et havres, vol. 1",
+  "callNumber": "1891 C45 A42",
+  "pubmin": "1891-04-29"
+}

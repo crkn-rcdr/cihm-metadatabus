@@ -1,1 +1,17 @@
-{"pubmax":"1983-11-30","node":[["eng","c","committees","32-1",160],["fra","c","committees","32-1",126],["eng","s","committees","32-1",51],["fra","s","committees","32-1",41]],"type":"committees","chamber":["c","s"],"primeMinisters":"Trudeau, Pierre Elliott","callNumber":"1980/83 S45 A1 no.1-15","label":"Joint Committees, 32nd Parliament, 1st Session : Special Joint Committee on Senate Reform, vol. 1 = Comités mixtes, 32e Législature, 1re Session : Comité mixte spécial sur la réforme du Sénat, vol. 1","pubmin":"1980-04-14","session":["32-1"],"language":["eng","fra"]}
+{
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 160],
+    ["fra", "c", "committees", "32-1", 126],
+    ["eng", "s", "committees", "32-1", 51],
+    ["fra", "s", "committees", "32-1", 41]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "callNumber": "1980/83 S45 A1 no.1-15",
+  "label": "Joint Committees, 32nd Parliament, 1st Session : Special Joint Committee on Senate Reform, vol. 1 = Comités mixtes, 32e Législature, 1re Session : Comité mixte spécial sur la réforme du Sénat, vol. 1",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"]
+}

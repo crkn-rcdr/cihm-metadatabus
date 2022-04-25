@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","33-1",71],["fra","c","committees","33-1",85]],"pubmax":"1986-08-28","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"pubmin":"1984-11-05","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Fisheries and Forestry, vol. 1 no. 1-14 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des pêches et des forêts, vol. 1 no. 1-14","callNumber":"33-1 F58 A1 no.1-14","language":["eng","fra"],"session":["33-1"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-1", 71],
+    ["fra", "c", "committees", "33-1", 85]
+  ],
+  "pubmax": "1986-08-28",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1984-11-05",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Fisheries and Forestry, vol. 1 no. 1-14 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des pêches et des forêts, vol. 1 no. 1-14",
+  "callNumber": "33-1 F58 A1 no.1-14",
+  "language": ["eng", "fra"],
+  "session": ["33-1"]
+}

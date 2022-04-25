@@ -1,1 +1,124 @@
-{"1081":{"tagDescription":["National Expansion Drive"],"tagDate":["[1950-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"]},"681":{"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"],"tagDate":["[1945-01-01T00:00:00.000Z TO 1956-12-31T23:59:59.999Z]"],"tagDescription":["Conventions"]},"817":{"tagDate":["[1939-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"],"tagDescription":["Elections: York-Sunbury By-Elections Provincial Elections"],"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"]},"1038":{"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"],"tagDate":["[1942-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"],"tagDescription":["Membership (New Contact)"]},"1345":{"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"],"tagDate":["[1946-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Maritime Provinces (General)"]},"1315":{"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"],"tagDescription":["Programme and Research"],"tagDate":["1947-01-01T00:00:00.000Z"]},"1357":{"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"],"tagDate":["[1934-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"],"tagDescription":["General Correspondence"]},"943":{"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"],"tagDescription":["Finance"],"tagDate":["[1943-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]},"754":{"tagDescription":["Education"],"tagDate":["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"]},"1157":{"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"],"tagDate":["[1946-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],"tagDescription":["Newspapers Correspondence (True Democracy)"]},"706":{"tagDate":["[1934-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Council and Executive Minutes"],"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"]},"1118":{"tagDate":["[1937-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"],"tagDescription":["Newspaper Correspondence (Bulletin)"],"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"]},"1167":{"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"],"tagDate":["[1934-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagDescription":["Organization"]},"376":{"tagDescription":["Correspondence with the Provincial Secretary"],"tagDate":["[1938-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"]},"1335":{"tagDescription":["Nelson Strike"],"tagDate":["1937-01-01T00:00:00.000Z"],"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"]},"1017":{"tagDate":["[1945-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Membership (General)"],"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"]},"1035":{"tagDescription":["Membership and Clubs"],"tagDate":["1936-01-01T00:00:00.000Z"],"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"]},"1339":{"tagDescription":["Trade Union Relations"],"tagDate":["[1944-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"]},"764":{"tagDescription":["Elections (General)"],"tagDate":["1956-01-01T00:00:00.000Z"],"tagPlace":["New Brunswick"],"tagNotebook":["Provincial Files"]},"973":{"tagDescription":["Literature"],"tagDate":["[1944-01-01T00:00:00.000Z TO 1953-12-31T23:59:59.999Z]"],"tagNotebook":["Provincial Files"],"tagPlace":["New Brunswick"]}}
+{
+  "1081": {
+    "tagDescription": ["National Expansion Drive"],
+    "tagDate": ["[1950-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"]
+  },
+  "681": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"],
+    "tagDate": ["[1945-01-01T00:00:00.000Z TO 1956-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Conventions"]
+  },
+  "817": {
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Elections: York-Sunbury By-Elections Provincial Elections"
+    ],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"]
+  },
+  "1038": {
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Membership (New Contact)"]
+  },
+  "1345": {
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Maritime Provinces (General)"]
+  },
+  "1315": {
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDescription": ["Programme and Research"],
+    "tagDate": ["1947-01-01T00:00:00.000Z"]
+  },
+  "1357": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1934-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"],
+    "tagDescription": ["General Correspondence"]
+  },
+  "943": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"],
+    "tagDescription": ["Finance"],
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]
+  },
+  "754": {
+    "tagDescription": ["Education"],
+    "tagDate": ["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "1157": {
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Newspapers Correspondence (True Democracy)"]
+  },
+  "706": {
+    "tagDate": ["[1934-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Council and Executive Minutes"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"]
+  },
+  "1118": {
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Newspaper Correspondence (Bulletin)"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"]
+  },
+  "1167": {
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1934-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Organization"]
+  },
+  "376": {
+    "tagDescription": ["Correspondence with the Provincial Secretary"],
+    "tagDate": ["[1938-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "1335": {
+    "tagDescription": ["Nelson Strike"],
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "1017": {
+    "tagDate": ["[1945-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Membership (General)"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"]
+  },
+  "1035": {
+    "tagDescription": ["Membership and Clubs"],
+    "tagDate": ["1936-01-01T00:00:00.000Z"],
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "1339": {
+    "tagDescription": ["Trade Union Relations"],
+    "tagDate": ["[1944-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"]
+  },
+  "764": {
+    "tagDescription": ["Elections (General)"],
+    "tagDate": ["1956-01-01T00:00:00.000Z"],
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "973": {
+    "tagDescription": ["Literature"],
+    "tagDate": ["[1944-01-01T00:00:00.000Z TO 1953-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["New Brunswick"]
+  }
+}

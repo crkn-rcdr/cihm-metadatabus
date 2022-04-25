@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["33-2"],"pubmin":"1986-09-30","label":"Senate Committees, 33rd Parliament, 2nd Session : Special Committee on Terrorism and the Public Safety, Report","callNumber":"J103 H7 33-2 T47 A12","chamber":["s"],"type":"committees","node":[["eng","s","committees","33-2",47]],"pubmax":"1988-10-01"}
+{
+  "language": ["eng"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Special Committee on Terrorism and the Public Safety, Report",
+  "callNumber": "J103 H7 33-2 T47 A12",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "33-2", 47]],
+  "pubmax": "1988-10-01"
+}

@@ -1,1 +1,15 @@
-{"pubmax":"1896-04-23","node":[["eng","s","bills","07-6",1],["eng","c","bills","07-6",1]],"type":"bills","chamber":["s","c"],"primeMinisters":"Bowell, Mackenzie","callNumber":"KE72 C36 7-6 no.2-111 no.A-S","label":"Senate and House of Commons Bills, 7th Parliament, 6th Session : A-S, 2-111","pubmin":"1896-01-02","session":["07-6"],"language":["eng"]}
+{
+  "pubmax": "1896-04-23",
+  "node": [
+    ["eng", "s", "bills", "07-6", 1],
+    ["eng", "c", "bills", "07-6", 1]
+  ],
+  "type": "bills",
+  "chamber": ["s", "c"],
+  "primeMinisters": "Bowell, Mackenzie",
+  "callNumber": "KE72 C36 7-6 no.2-111 no.A-S",
+  "label": "Senate and House of Commons Bills, 7th Parliament, 6th Session : A-S, 2-111",
+  "pubmin": "1896-01-02",
+  "session": ["07-6"],
+  "language": ["eng"]
+}

@@ -1,1 +1,30 @@
-{"1218":{"tagDate":["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],"tagDescription":["Shipping"]},"774":{"tagDate":["1913-01-01T00:00:00.000Z"],"tagDescription":["Shipping"]},"14":{"tagDescription":["Shipping"],"tagDate":["[1906-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]},"1474":{"tagDate":["1914-01-01T00:00:00.000Z"],"tagDescription":["Shipping"]},"999":{"tagDate":["[1912-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"],"tagDescription":["Shipping"]},"1734":{"tagDescription":["Shipping"],"tagDate":["[1916-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]},"520":{"tagDescription":["Shipping"],"tagDate":["1913-01-01T00:00:00.000Z"]}}
+{
+  "1218": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Shipping"]
+  },
+  "774": {
+    "tagDate": ["1913-01-01T00:00:00.000Z"],
+    "tagDescription": ["Shipping"]
+  },
+  "14": {
+    "tagDescription": ["Shipping"],
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "1474": {
+    "tagDate": ["1914-01-01T00:00:00.000Z"],
+    "tagDescription": ["Shipping"]
+  },
+  "999": {
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Shipping"]
+  },
+  "1734": {
+    "tagDescription": ["Shipping"],
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  },
+  "520": {
+    "tagDescription": ["Shipping"],
+    "tagDate": ["1913-01-01T00:00:00.000Z"]
+  }
+}

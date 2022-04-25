@@ -1,1 +1,13 @@
-{"type":"committees","node":[["eng","c","committees","34-3",141]],"pubmax":"1993-09-08","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Justice and Sollicitor General, Twelfth Report","callNumber":"34-3 J83 A122","language":["eng"],"reportTitle":["Crime Prevention in Canada: Toward a National Strategy"],"session":["34-3"]}
+{
+  "type": "committees",
+  "node": [["eng", "c", "committees", "34-3", 141]],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Justice and Sollicitor General, Twelfth Report",
+  "callNumber": "34-3 J83 A122",
+  "language": ["eng"],
+  "reportTitle": ["Crime Prevention in Canada: Toward a National Strategy"],
+  "session": ["34-3"]
+}

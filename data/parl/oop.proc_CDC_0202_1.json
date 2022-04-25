@@ -1,1 +1,12 @@
-{"pubmax":"1873-11-07","node":[["fra","c","cproc","02-2",1]],"type":"cproc","chamber":["c"],"primeMinisters":"Macdonald, John Alexander (1873-10-23 - 1873-11-05), Mackenzie, Alexander (1873-11-07 - 1873-11-07)","callNumber":"J103 H44 1873","label":"Procès-verbaux de la Chambre des communes, 2e Législature, 2e Session : 1-11","pubmin":"1873-10-23","session":["02-2"],"language":["fra"]}
+{
+  "pubmax": "1873-11-07",
+  "node": [["fra", "c", "cproc", "02-2", 1]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander (1873-10-23 - 1873-11-05), Mackenzie, Alexander (1873-11-07 - 1873-11-07)",
+  "callNumber": "J103 H44 1873",
+  "label": "Procès-verbaux de la Chambre des communes, 2e Législature, 2e Session : 1-11",
+  "pubmin": "1873-10-23",
+  "session": ["02-2"],
+  "language": ["fra"]
+}

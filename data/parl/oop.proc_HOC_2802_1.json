@@ -1,1 +1,12 @@
-{"type":"cproc","node":[["eng","c","cproc","28-2",1]],"pubmax":"1970-10-07","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"pubmin":"1969-10-23","label":"House of Commons Votes and Proceedings, 28th Parliament, 2nd Session : 1-94","callNumber":"J103 H41 1969/70 no. 1-94 c.2","language":["eng"],"session":["28-2"]}
+{
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "28-2", 1]],
+  "pubmax": "1970-10-07",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1969-10-23",
+  "label": "House of Commons Votes and Proceedings, 28th Parliament, 2nd Session : 1-94",
+  "callNumber": "J103 H41 1969/70 no. 1-94 c.2",
+  "language": ["eng"],
+  "session": ["28-2"]
+}

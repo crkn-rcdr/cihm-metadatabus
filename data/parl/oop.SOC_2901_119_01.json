@@ -1,1 +1,10 @@
-{"session":["29-1"],"language":["eng"],"label":"Senate Journals, 29th Parliament, 1st Session : Vol. 119","pubmin":"1973-01-04","chamber":["s"],"pubmax":"1974-02-26","node":[["eng","s","journals","29-1",1]],"type":"journals"}
+{
+  "session": ["29-1"],
+  "language": ["eng"],
+  "label": "Senate Journals, 29th Parliament, 1st Session : Vol. 119",
+  "pubmin": "1973-01-04",
+  "chamber": ["s"],
+  "pubmax": "1974-02-26",
+  "node": [["eng", "s", "journals", "29-1", 1]],
+  "type": "journals"
+}

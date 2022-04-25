@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Borden, Robert Laird","type":"debates","pubmax":"1914-06-12","node":[["eng","c","debates","12-3",6]],"language":["eng"],"session":["12-3"],"pubmin":"1914-01-15","label":"House of Commons Debates, 12th Parliament, 3rd Session : Index"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "debates",
+  "pubmax": "1914-06-12",
+  "node": [["eng", "c", "debates", "12-3", 6]],
+  "language": ["eng"],
+  "session": ["12-3"],
+  "pubmin": "1914-01-15",
+  "label": "House of Commons Debates, 12th Parliament, 3rd Session : Index"
+}

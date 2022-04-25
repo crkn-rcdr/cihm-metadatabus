@@ -1,1 +1,11 @@
-{"primeMinisters":"Thompson, John Sparrow David","chamber":["c"],"node":[["fra","c","sessional","07-4",5]],"pubmax":"1894-07-23","type":"sessional","session":["07-4"],"language":["fra"],"label":"Documents parlementaires, 7e Législature, 4e Session : vol. 5","pubmin":"1894-03-15"}
+{
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"],
+  "node": [["fra", "c", "sessional", "07-4", 5]],
+  "pubmax": "1894-07-23",
+  "type": "sessional",
+  "session": ["07-4"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 7e Législature, 4e Session : vol. 5",
+  "pubmin": "1894-03-15"
+}

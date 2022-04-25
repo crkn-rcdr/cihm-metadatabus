@@ -1,1 +1,11 @@
-{"label":"Sessional Papers, 1st Parliament, 4th Session : vol. 6","pubmin":"1871-02-15","session":["01-4"],"language":["eng"],"pubmax":"1871-04-14","node":[["eng","c","sessional","01-4",6]],"type":"sessional","chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "label": "Sessional Papers, 1st Parliament, 4th Session : vol. 6",
+  "pubmin": "1871-02-15",
+  "session": ["01-4"],
+  "language": ["eng"],
+  "pubmax": "1871-04-14",
+  "node": [["eng", "c", "sessional", "01-4", 6]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

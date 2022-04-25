@@ -1,1 +1,11 @@
-{"pubmax":"1894-07-23","node":[["fra","c","debates","07-4",1]],"type":"debates","chamber":["c"],"primeMinisters":"Thompson, John Sparrow David","label":"Débats de la Chambre des communes, 7e Législature, 4e Session : Vol. 1","pubmin":"1894-03-15","session":["07-4"],"language":["fra"]}
+{
+  "pubmax": "1894-07-23",
+  "node": [["fra", "c", "debates", "07-4", 1]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Thompson, John Sparrow David",
+  "label": "Débats de la Chambre des communes, 7e Législature, 4e Session : Vol. 1",
+  "pubmin": "1894-03-15",
+  "session": ["07-4"],
+  "language": ["fra"]
+}

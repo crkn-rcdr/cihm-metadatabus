@@ -1,1 +1,13 @@
-{"chamber":["s"],"node":[["eng","s","journals","34-3",2],["fra","s","journals","34-3",2]],"pubmax":"1993-09-08","type":"journals","session":["34-3"],"language":["eng","fra"],"label":"Senate Journals, 34th Parliament, 3rd Session : Vol. 131 Pt. 2 = Journaux du Sénat, 34e Législature, 3e Session : Vol. 131 Pt. 2","pubmin":"1991-05-13"}
+{
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "journals", "34-3", 2],
+    ["fra", "s", "journals", "34-3", 2]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "journals",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "label": "Senate Journals, 34th Parliament, 3rd Session : Vol. 131 Pt. 2 = Journaux du Sénat, 34e Législature, 3e Session : Vol. 131 Pt. 2",
+  "pubmin": "1991-05-13"
+}

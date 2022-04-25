@@ -1,1 +1,12 @@
-{"pubmax":"1955-07-28","node":[["eng","c","committees","22-2",5]],"type":"committees","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","callNumber":"1955 E8 A1","label":"House of Commons Committees, 22nd Parliament, 2nd Session : Special Committee on Estimates, vol. 1","pubmin":"1955-01-07","session":["22-2"],"language":["eng"]}
+{
+  "pubmax": "1955-07-28",
+  "node": [["eng", "c", "committees", "22-2", 5]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "callNumber": "1955 E8 A1",
+  "label": "House of Commons Committees, 22nd Parliament, 2nd Session : Special Committee on Estimates, vol. 1",
+  "pubmin": "1955-01-07",
+  "session": ["22-2"],
+  "language": ["eng"]
+}

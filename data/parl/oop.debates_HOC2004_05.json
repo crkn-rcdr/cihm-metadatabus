@@ -1,1 +1,11 @@
-{"pubmax":"1948-06-30","node":[["eng","c","debates","20-4",5]],"type":"debates","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","label":"House of Commons Debates, 20th Parliament, 4th Session : Vol. 5","pubmin":"1947-12-05","session":["20-4"],"language":["eng"]}
+{
+  "pubmax": "1948-06-30",
+  "node": [["eng", "c", "debates", "20-4", 5]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "label": "House of Commons Debates, 20th Parliament, 4th Session : Vol. 5",
+  "pubmin": "1947-12-05",
+  "session": ["20-4"],
+  "language": ["eng"]
+}

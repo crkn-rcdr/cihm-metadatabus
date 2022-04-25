@@ -1,1 +1,11 @@
-{"label":"Débats de la Chambre des communes, 5e Législature, 3e Session : Vol. 1","pubmin":"1885-01-29","session":["05-3"],"language":["fra"],"node":[["fra","c","debates","05-3",1]],"pubmax":"1885-07-20","type":"debates","primeMinisters":"Macdonald, John Alexander","chamber":["c"]}
+{
+  "label": "Débats de la Chambre des communes, 5e Législature, 3e Session : Vol. 1",
+  "pubmin": "1885-01-29",
+  "session": ["05-3"],
+  "language": ["fra"],
+  "node": [["fra", "c", "debates", "05-3", 1]],
+  "pubmax": "1885-07-20",
+  "type": "debates",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

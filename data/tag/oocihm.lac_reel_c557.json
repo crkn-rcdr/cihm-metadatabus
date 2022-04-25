@@ -1,1 +1,128 @@
-{"79":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Shaughnessy, T. G. "]},"94":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Shillinglaw, W. H. "]},"243":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Smart, J. A. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"106":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Sifton, A. L. "]},"424":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Smith, J. O. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"601":{"tagPerson":["Stevens, A. D. "],"tagDate":["1903-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"1030":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Talbot, O. E. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"586":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Spain, M. S., Mrs. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"665":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Stratton, I. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"683":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Sutherland, H. "]},"591":{"tagPerson":["Speer, C. W. "],"tagDate":["1903-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"628":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Stewart, R. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"409":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Smith, C. J. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"608":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Stewart, D. A. "]},"415":{"tagPerson":["Smith, J. E. "],"tagDate":["1903-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"633":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Strang, A. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"694":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Sutherland, J. "]},"652":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Strathcona & Mount Royal, Lord"],"tagDate":["1903-01-01T00:00:00.000Z"]},"118":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Sifton, C. "]},"832":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["T"],"tagDate":["1903-01-01T00:00:00.000Z"]},"388":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Smith, A. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]}}
+{
+  "79": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Shaughnessy, T. G. "]
+  },
+  "94": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Shillinglaw, W. H. "]
+  },
+  "243": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Smart, J. A. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "106": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Sifton, A. L. "]
+  },
+  "424": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Smith, J. O. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "601": {
+    "tagPerson": ["Stevens, A. D. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "1030": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Talbot, O. E. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "586": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Spain, M. S., Mrs. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "665": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Stratton, I. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "683": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Sutherland, H. "]
+  },
+  "591": {
+    "tagPerson": ["Speer, C. W. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "628": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Stewart, R. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "409": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Smith, C. J. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "608": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Stewart, D. A. "]
+  },
+  "415": {
+    "tagPerson": ["Smith, J. E. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "633": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Strang, A. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "694": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Sutherland, J. "]
+  },
+  "652": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Strathcona & Mount Royal, Lord"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "118": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Sifton, C. "]
+  },
+  "832": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["T"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "388": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Smith, A. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  }
+}

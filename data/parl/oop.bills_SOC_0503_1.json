@@ -1,1 +1,11 @@
-{"chamber":["s"],"node":[["eng","s","bills","05-3",1]],"pubmax":"1885-07-20","type":"bills","session":["05-3"],"language":["eng"],"label":"Senate Bills, 5th Parliament, 3rd Session : A-W","callNumber":"KE72 C38 5-3 Bill A-","pubmin":"1885-01-29"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "bills", "05-3", 1]],
+  "pubmax": "1885-07-20",
+  "type": "bills",
+  "session": ["05-3"],
+  "language": ["eng"],
+  "label": "Senate Bills, 5th Parliament, 3rd Session : A-W",
+  "callNumber": "KE72 C38 5-3 Bill A-",
+  "pubmin": "1885-01-29"
+}

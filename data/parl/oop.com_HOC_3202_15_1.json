@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","32-2",21],["fra","c","committees","32-2",19]],"pubmax":"1984-07-09","primeMinisters":"Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)","chamber":["c"],"pubmin":"1983-12-07","label":"House of Commons Committees, 32nd Parliament, 2nd Session : Special Committee on Participation of Visible Minorities in Canadian Society, vol. 1 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité spécial sur la participation des minorités visibles à la Société canadienne, vol. 1","callNumber":"1983/84 M54 A1","language":["eng","fra"],"session":["32-2"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "32-2", 21],
+    ["fra", "c", "committees", "32-2", 19]
+  ],
+  "pubmax": "1984-07-09",
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "chamber": ["c"],
+  "pubmin": "1983-12-07",
+  "label": "House of Commons Committees, 32nd Parliament, 2nd Session : Special Committee on Participation of Visible Minorities in Canadian Society, vol. 1 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité spécial sur la participation des minorités visibles à la Société canadienne, vol. 1",
+  "callNumber": "1983/84 M54 A1",
+  "language": ["eng", "fra"],
+  "session": ["32-2"]
+}

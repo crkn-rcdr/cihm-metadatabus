@@ -1,1 +1,11 @@
-{"label":"Documents parlementaires, 6e Législature, 1re Session : vol. 14","pubmin":"1887-04-13","session":["06-1"],"language":["fra"],"pubmax":"1887-06-23","node":[["fra","c","sessional","06-1",14]],"type":"sessional","chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "label": "Documents parlementaires, 6e Législature, 1re Session : vol. 14",
+  "pubmin": "1887-04-13",
+  "session": ["06-1"],
+  "language": ["fra"],
+  "pubmax": "1887-06-23",
+  "node": [["fra", "c", "sessional", "06-1", 14]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

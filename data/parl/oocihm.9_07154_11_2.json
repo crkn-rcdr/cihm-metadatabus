@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["03-4"],"pubmin":"1877-02-08","label":"Senate Journals, 3rd Parliament, 4th Session : Vol. 11 App.","chamber":["s"],"type":"journals","pubmax":"1877-04-28","node":[["eng","s","journals","03-4",2]]}
+{
+  "language": ["eng"],
+  "session": ["03-4"],
+  "pubmin": "1877-02-08",
+  "label": "Senate Journals, 3rd Parliament, 4th Session : Vol. 11 App.",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1877-04-28",
+  "node": [["eng", "s", "journals", "03-4", 2]]
+}

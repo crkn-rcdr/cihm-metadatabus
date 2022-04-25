@@ -1,1 +1,11 @@
-{"pubmin":"1882-02-09","label":"Débats de la Chambre des communes, 4e Législature, 4e Session : Vol. 1","language":["fra"],"session":["04-4"],"type":"debates","pubmax":"1882-05-17","node":[["fra","c","debates","04-4",1]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "pubmin": "1882-02-09",
+  "label": "Débats de la Chambre des communes, 4e Législature, 4e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["04-4"],
+  "type": "debates",
+  "pubmax": "1882-05-17",
+  "node": [["fra", "c", "debates", "04-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

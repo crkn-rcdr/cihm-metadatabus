@@ -1,1 +1,79 @@
-{"529":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Association of Military Surgeons of the United States"]},"555":{"tagDescription":["Missing / Manque"]},"56":{"tagDescription":["Missing / Manque"]},"1921":{"tagDate":["[1884-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["International Convention for the Protection of Industrial Property. Patents. Industrial Designs Trade Marks. Commercial names Merchandise Marks. Labels Timber marking"]},"391":{"tagDescription":["Missing / Manque"]},"1279":{"tagDescription":["Canadian trade commissioners. Canadian commercial agents -Appointments; transfers; resignations; dismissals; applications for post; illness; death"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]},"892":{"tagDescription":["Suez Canal -Suez Canal dues -Report laid before shareholders of the Suez Canal Company -Annual return of shipping and Tonnage of the Suez Canal -Statistical reports dealing with the Suez Canal"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]},"557":{"tagDate":["[1903-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"],"tagDescription":["Legality and validity of consular marriages -Marriages between resident in the United Kingdom and the overseas Dominions -Validity of Marriages between British subjects and foreigners -Validity of religious marriages in Canada -Marriage in Japan. Marriage with Moslems, Hindus. -Concubinage. Divorce Laws -Marriage Registration, Marriage certificates"]},"401":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],"tagDescription":["Imperial Cancer Research Fund -International Congress on Cancer"]},"58":{"tagDescription":["Civil Service of India - Examination for  Government of India (Civil Services) Act, 1925"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]},"943":{"tagDescription":["Belgium, Consular Appointments"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"942":{"tagDescription":["Missing / Manque"]},"393":{"tagDescription":["Liquidation of the United States Banking Company in Mexico. Appointment of Mr. Stavert, of the Bank of Montreal, as provisional receiver"],"tagDate":["1910-01-01T00:00:00.000Z"]},"815":{"tagDescription":["International conference on Juvenile and Female Labour -Night work for Women and children. Prohibition of - -Limitation of hours of work for women and children -Licences for child actors to perform in Canada -Employment of children abroad supervision of -"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"360":{"tagDescription":["Missing / Manque"]},"1920":{"tagDescription":["Missing / Manque"]},"526":{"tagDescription":["Missing / Manque"]},"891":{"tagDescription":["Missing / Manque"]},"399":{"tagDescription":["Missing / Manque"]},"362":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],"tagDescription":["Organization of Army Nursing Reserve in Canada -Nurses registration Act."]},"1602":{"tagDescription":["Canadian trade commissioners -Appointments, transfers, etc"],"tagDate":["[1922-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"]}}
+{
+  "529": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Association of Military Surgeons of the United States"]
+  },
+  "555": { "tagDescription": ["Missing / Manque"] },
+  "56": { "tagDescription": ["Missing / Manque"] },
+  "1921": {
+    "tagDate": ["[1884-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Convention for the Protection of Industrial Property. Patents. Industrial Designs Trade Marks. Commercial names Merchandise Marks. Labels Timber marking"
+    ]
+  },
+  "391": { "tagDescription": ["Missing / Manque"] },
+  "1279": {
+    "tagDescription": [
+      "Canadian trade commissioners. Canadian commercial agents -Appointments; transfers; resignations; dismissals; applications for post; illness; death"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]
+  },
+  "892": {
+    "tagDescription": [
+      "Suez Canal -Suez Canal dues -Report laid before shareholders of the Suez Canal Company -Annual return of shipping and Tonnage of the Suez Canal -Statistical reports dealing with the Suez Canal"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "557": {
+    "tagDate": ["[1903-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Legality and validity of consular marriages -Marriages between resident in the United Kingdom and the overseas Dominions -Validity of Marriages between British subjects and foreigners -Validity of religious marriages in Canada -Marriage in Japan. Marriage with Moslems, Hindus. -Concubinage. Divorce Laws -Marriage Registration, Marriage certificates"
+    ]
+  },
+  "401": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Imperial Cancer Research Fund -International Congress on Cancer"
+    ]
+  },
+  "58": {
+    "tagDescription": [
+      "Civil Service of India - Examination for  Government of India (Civil Services) Act, 1925"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]
+  },
+  "943": {
+    "tagDescription": ["Belgium, Consular Appointments"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "942": { "tagDescription": ["Missing / Manque"] },
+  "393": {
+    "tagDescription": [
+      "Liquidation of the United States Banking Company in Mexico. Appointment of Mr. Stavert, of the Bank of Montreal, as provisional receiver"
+    ],
+    "tagDate": ["1910-01-01T00:00:00.000Z"]
+  },
+  "815": {
+    "tagDescription": [
+      "International conference on Juvenile and Female Labour -Night work for Women and children. Prohibition of - -Limitation of hours of work for women and children -Licences for child actors to perform in Canada -Employment of children abroad supervision of -"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "360": { "tagDescription": ["Missing / Manque"] },
+  "1920": { "tagDescription": ["Missing / Manque"] },
+  "526": { "tagDescription": ["Missing / Manque"] },
+  "891": { "tagDescription": ["Missing / Manque"] },
+  "399": { "tagDescription": ["Missing / Manque"] },
+  "362": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Organization of Army Nursing Reserve in Canada -Nurses registration Act."
+    ]
+  },
+  "1602": {
+    "tagDescription": [
+      "Canadian trade commissioners -Appointments, transfers, etc"
+    ],
+    "tagDate": ["[1922-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"]
+  }
+}

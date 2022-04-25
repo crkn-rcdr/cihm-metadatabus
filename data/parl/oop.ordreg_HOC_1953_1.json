@@ -1,1 +1,15 @@
-{"node":[["eng","c","orders",null,4],["fra","c","orders",null,4]],"pubmax":"1954-06-26","type":"orders","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"label":"House of Commons Standing Orders, 1953 = Règlement de la Chambre des communes du Canada, 1953","callNumber":"JL164.4 1953","pubmin":"1952-11-20","session":["21-7","22-1"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "c", "orders", null, 4],
+    ["fra", "c", "orders", null, 4]
+  ],
+  "pubmax": "1954-06-26",
+  "type": "orders",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "label": "House of Commons Standing Orders, 1953 = Règlement de la Chambre des communes du Canada, 1953",
+  "callNumber": "JL164.4 1953",
+  "pubmin": "1952-11-20",
+  "session": ["21-7", "22-1"],
+  "language": ["eng", "fra"]
+}

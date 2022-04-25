@@ -1,1 +1,12 @@
-{"session":["16-1"],"language":["eng"],"label":"House of Commons Votes and Proceedings, 16th Parliament, 1st Session : 1-54","callNumber":"J103 H41 1927 c.2","pubmin":"1926-12-09","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","cproc","16-1",1]],"pubmax":"1927-04-14","type":"cproc"}
+{
+  "session": ["16-1"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 16th Parliament, 1st Session : 1-54",
+  "callNumber": "J103 H41 1927 c.2",
+  "pubmin": "1926-12-09",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "16-1", 1]],
+  "pubmax": "1927-04-14",
+  "type": "cproc"
+}

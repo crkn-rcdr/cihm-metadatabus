@@ -1,1 +1,52 @@
-{"263":{"tagDate":["[1930-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Spanish Political Situation - Circular Dispatches - Blue Books, Parliamentary Debates"]},"1171":{"tagDescription":["Missing / Manque"]},"1613":{"tagDescription":["Prints  Sugar Question - International conference on the sugar question. Minutes of proceedings. 1888 - Correspondence relative to the conference on sugar bounties, 1887"],"tagDate":["1888-01-01T00:00:00.000Z"]},"1240":{"tagDate":["[1902-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["Sugar - Sugar conference at Brussels, 1902 - Canadian Customs Laws re Duties on Sugar - Permanent International Sugar Commissions - Bounty on Ontario Sugar Beets - Correspondence with West Indies re Brussels Sugar Convention - Withdrawal of British Government from Brussels Sugar Convention, 1912 - Attack of British Colombia sugar refineries against Hong Kong companies - Demerara Sugar for Canadian refineries - British Sugar (Subsidy) Act, 1925"]},"121":{"tagDate":["[1919-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"],"tagDescription":["Trade Relations with Spain"]},"1783":{"tagDate":["1888-01-01T00:00:00.000Z"],"tagDescription":["Prints  Sugar Question - Further correspondence, 1888 - International conference on sugar regulations. Documents presented at conference by French Government, 1888"]},"916":{"tagDescription":["Pensioners of Royal Navy and Royal Marines selected to serve in Battery of Artillery in British Columbia"],"tagDate":["[1884-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]},"1174":{"tagDescription":["International conference on sugar industries - Absolution of sugar bounties"],"tagDate":["[1887-01-01T00:00:00.000Z TO 1888-12-31T23:59:59.999Z]"]},"1030":{"tagDescription":["Missing / Manque"]},"1172":{"tagDescription":["Missing / Manque"]},"1032":{"tagDescription":["Inter  Colonial conference held at Ottawa; 1894, to consider trade relations and telegraphic communications between the Colonies"],"tagDate":["[1894-01-01T00:00:00.000Z TO 1895-12-31T23:59:59.999Z]"]},"1170":{"tagDescription":["Missing / Manque"]}}
+{
+  "263": {
+    "tagDate": ["[1930-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Spanish Political Situation - Circular Dispatches - Blue Books, Parliamentary Debates"
+    ]
+  },
+  "1171": { "tagDescription": ["Missing / Manque"] },
+  "1613": {
+    "tagDescription": [
+      "Prints  Sugar Question - International conference on the sugar question. Minutes of proceedings. 1888 - Correspondence relative to the conference on sugar bounties, 1887"
+    ],
+    "tagDate": ["1888-01-01T00:00:00.000Z"]
+  },
+  "1240": {
+    "tagDate": ["[1902-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Sugar - Sugar conference at Brussels, 1902 - Canadian Customs Laws re Duties on Sugar - Permanent International Sugar Commissions - Bounty on Ontario Sugar Beets - Correspondence with West Indies re Brussels Sugar Convention - Withdrawal of British Government from Brussels Sugar Convention, 1912 - Attack of British Colombia sugar refineries against Hong Kong companies - Demerara Sugar for Canadian refineries - British Sugar (Subsidy) Act, 1925"
+    ]
+  },
+  "121": {
+    "tagDate": ["[1919-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Trade Relations with Spain"]
+  },
+  "1783": {
+    "tagDate": ["1888-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Prints  Sugar Question - Further correspondence, 1888 - International conference on sugar regulations. Documents presented at conference by French Government, 1888"
+    ]
+  },
+  "916": {
+    "tagDescription": [
+      "Pensioners of Royal Navy and Royal Marines selected to serve in Battery of Artillery in British Columbia"
+    ],
+    "tagDate": ["[1884-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]
+  },
+  "1174": {
+    "tagDescription": [
+      "International conference on sugar industries - Absolution of sugar bounties"
+    ],
+    "tagDate": ["[1887-01-01T00:00:00.000Z TO 1888-12-31T23:59:59.999Z]"]
+  },
+  "1030": { "tagDescription": ["Missing / Manque"] },
+  "1172": { "tagDescription": ["Missing / Manque"] },
+  "1032": {
+    "tagDescription": [
+      "Inter  Colonial conference held at Ottawa; 1894, to consider trade relations and telegraphic communications between the Colonies"
+    ],
+    "tagDate": ["[1894-01-01T00:00:00.000Z TO 1895-12-31T23:59:59.999Z]"]
+  },
+  "1170": { "tagDescription": ["Missing / Manque"] }
+}

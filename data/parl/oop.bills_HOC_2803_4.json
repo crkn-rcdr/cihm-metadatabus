@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1972-02-16","node":[["eng","c","bills","28-3",4],["fra","c","bills","28-3",4]],"type":"bills","session":["28-3"],"language":["eng","fra"],"callNumber":"KE72 C36 28-3 C201-C239","label":"House of Commons Bills, 28th Parliament, 3rd Session : C201-C239 = Projets de loi de la Chambre des communes, 28e Législature, 3e Session : C201-C239","pubmin":"1970-10-08"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1972-02-16",
+  "node": [
+    ["eng", "c", "bills", "28-3", 4],
+    ["fra", "c", "bills", "28-3", 4]
+  ],
+  "type": "bills",
+  "session": ["28-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "KE72 C36 28-3 C201-C239",
+  "label": "House of Commons Bills, 28th Parliament, 3rd Session : C201-C239 = Projets de loi de la Chambre des communes, 28e Législature, 3e Session : C201-C239",
+  "pubmin": "1970-10-08"
+}

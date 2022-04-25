@@ -1,1 +1,16 @@
-{"chamber":["c","s"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1993-09-08","node":[["fra","c","committees","34-3",57],["fra","s","committees","34-3",23]],"type":"committees","session":["34-3"],"language":["fra"],"reportTitle":["Le processus de modification de la Constitution du Canada"],"callNumber":"34-3 P763 A12","label":"Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial sur le processus de modification de la Constitution du Canada, Rapport","pubmin":"1991-05-13"}
+{
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["fra", "c", "committees", "34-3", 57],
+    ["fra", "s", "committees", "34-3", 23]
+  ],
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["fra"],
+  "reportTitle": ["Le processus de modification de la Constitution du Canada"],
+  "callNumber": "34-3 P763 A12",
+  "label": "Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial sur le processus de modification de la Constitution du Canada, Rapport",
+  "pubmin": "1991-05-13"
+}

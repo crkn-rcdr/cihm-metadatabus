@@ -1,1 +1,12 @@
-{"pubmin":"1960-01-14","label":"House of Commons Bills, 24th Parliament, 3rd Session : C75-C90","callNumber":"KE72 C36 24-3 C75-C90","language":["eng"],"session":["24-3"],"type":"bills","node":[["eng","c","bills","24-3",2]],"pubmax":"1960-08-10","primeMinisters":"Diefenbaker, John George","chamber":["c"]}
+{
+  "pubmin": "1960-01-14",
+  "label": "House of Commons Bills, 24th Parliament, 3rd Session : C75-C90",
+  "callNumber": "KE72 C36 24-3 C75-C90",
+  "language": ["eng"],
+  "session": ["24-3"],
+  "type": "bills",
+  "node": [["eng", "c", "bills", "24-3", 2]],
+  "pubmax": "1960-08-10",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"]
+}

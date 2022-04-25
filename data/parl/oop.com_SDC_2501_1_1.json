@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","node":[["fra","s","committees","25-1",1]],"pubmax":"1963-02-06","language":["fra"],"session":["25-1"],"pubmin":"1962-09-27","label":"Comités du Sénat, 25e Législature, 1re Session : Comité spécial sur l'utilisation des terres au Canada, vol. 1","callNumber":"1962/63 T4 A42"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "25-1", 1]],
+  "pubmax": "1963-02-06",
+  "language": ["fra"],
+  "session": ["25-1"],
+  "pubmin": "1962-09-27",
+  "label": "Comités du Sénat, 25e Législature, 1re Session : Comité spécial sur l'utilisation des terres au Canada, vol. 1",
+  "callNumber": "1962/63 T4 A42"
+}

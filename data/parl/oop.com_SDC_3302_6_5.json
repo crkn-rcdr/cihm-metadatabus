@@ -1,1 +1,12 @@
-{"type":"committees","pubmax":"1988-10-01","node":[["fra","s","committees","33-2",45]],"chamber":["s"],"pubmin":"1986-09-30","callNumber":"33-2 F577 A12","label":"Comités du Sénat, 33e Législature, 2e Session : Comité permanent des pêches, Rapport","reportTitle":["La commercialisation du poisson au Canada"],"language":["fra"],"session":["33-2"]}
+{
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [["fra", "s", "committees", "33-2", 45]],
+  "chamber": ["s"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 F577 A12",
+  "label": "Comités du Sénat, 33e Législature, 2e Session : Comité permanent des pêches, Rapport",
+  "reportTitle": ["La commercialisation du poisson au Canada"],
+  "language": ["fra"],
+  "session": ["33-2"]
+}

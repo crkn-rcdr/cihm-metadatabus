@@ -1,1 +1,12 @@
-{"pubmax":"1938-07-01","node":[["eng","c","committees","18-3",7]],"type":"committees","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","callNumber":"1938 R33 A1","label":"House of Commons Committees, 18th Parliament, 3rd Session : Special Committee on Radio Broadcasting, vol. 1","pubmin":"1938-01-27","session":["18-3"],"language":["eng"]}
+{
+  "pubmax": "1938-07-01",
+  "node": [["eng", "c", "committees", "18-3", 7]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "callNumber": "1938 R33 A1",
+  "label": "House of Commons Committees, 18th Parliament, 3rd Session : Special Committee on Radio Broadcasting, vol. 1",
+  "pubmin": "1938-01-27",
+  "session": ["18-3"],
+  "language": ["eng"]
+}

@@ -1,1 +1,11 @@
-{"type":"debates","node":[["eng","c","debates","12-2",4]],"pubmax":"1913-06-06","primeMinisters":"Borden, Robert Laird","chamber":["c"],"pubmin":"1912-11-21","label":"House of Commons Debates, 12th Parliament, 2nd Session : Vol. 4","language":["eng"],"session":["12-2"]}
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "12-2", 4]],
+  "pubmax": "1913-06-06",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "pubmin": "1912-11-21",
+  "label": "House of Commons Debates, 12th Parliament, 2nd Session : Vol. 4",
+  "language": ["eng"],
+  "session": ["12-2"]
+}

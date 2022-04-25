@@ -1,1 +1,12 @@
-{"callNumber":"1962 V4 A1","label":"House of Commons Committees, 24th Parliament, 5th Session : Standing Committee on Veterans Affairs, vol. 1","pubmin":"1962-01-18","session":["24-5"],"language":["eng"],"pubmax":"1962-04-19","node":[["eng","c","committees","24-5",2]],"type":"committees","chamber":["c"],"primeMinisters":"Diefenbaker, John George"}
+{
+  "callNumber": "1962 V4 A1",
+  "label": "House of Commons Committees, 24th Parliament, 5th Session : Standing Committee on Veterans Affairs, vol. 1",
+  "pubmin": "1962-01-18",
+  "session": ["24-5"],
+  "language": ["eng"],
+  "pubmax": "1962-04-19",
+  "node": [["eng", "c", "committees", "24-5", 2]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

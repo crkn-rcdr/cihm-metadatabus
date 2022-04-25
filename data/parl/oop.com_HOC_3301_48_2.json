@@ -1,1 +1,13 @@
-{"callNumber":"33-1 M53 A12","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Miscellaneous Estimates, Report","pubmin":"1984-11-05","session":["33-1"],"reportTitle":["A New Dollar Coin"],"language":["eng"],"pubmax":"1986-08-28","node":[["eng","c","committees","33-1",102]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "33-1 M53 A12",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Miscellaneous Estimates, Report",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "reportTitle": ["A New Dollar Coin"],
+  "language": ["eng"],
+  "pubmax": "1986-08-28",
+  "node": [["eng", "c", "committees", "33-1", 102]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

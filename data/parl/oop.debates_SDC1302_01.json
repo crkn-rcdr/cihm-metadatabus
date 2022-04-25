@@ -1,1 +1,10 @@
-{"type":"debates","pubmax":"1919-07-07","node":[["fra","s","debates","13-2",1]],"chamber":["s"],"pubmin":"1919-02-20","label":"Débats du Sénat, 13e Législature, 2e Session : Vol. 1","language":["fra"],"session":["13-2"]}
+{
+  "type": "debates",
+  "pubmax": "1919-07-07",
+  "node": [["fra", "s", "debates", "13-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1919-02-20",
+  "label": "Débats du Sénat, 13e Législature, 2e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["13-2"]
+}

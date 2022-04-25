@@ -1,1 +1,11 @@
-{"label":"House of Commons Journals, 3rd Parliament, 1st Session : Vol. 8","pubmin":"1874-03-26","session":["03-1"],"language":["eng"],"node":[["eng","c","journals","03-1",1]],"pubmax":"1874-05-26","type":"journals","primeMinisters":"Mackenzie, Alexander","chamber":["c"]}
+{
+  "label": "House of Commons Journals, 3rd Parliament, 1st Session : Vol. 8",
+  "pubmin": "1874-03-26",
+  "session": ["03-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "03-1", 1]],
+  "pubmax": "1874-05-26",
+  "type": "journals",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"]
+}

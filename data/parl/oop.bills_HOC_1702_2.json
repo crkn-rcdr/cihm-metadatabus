@@ -1,1 +1,12 @@
-{"pubmin":"1931-03-12","label":"Senate and House of Commons Bills, 17th Parliament, 2nd Session : A-B2, 101-145","callNumber":"KE72 C36 17-2 101-145","language":["eng"],"session":["17-2"],"type":"bills","node":[["eng","c","bills","17-2",1]],"pubmax":"1931-08-03","primeMinisters":"Bennett, Richard Bedford","chamber":["c","s"]}
+{
+  "pubmin": "1931-03-12",
+  "label": "Senate and House of Commons Bills, 17th Parliament, 2nd Session : A-B2, 101-145",
+  "callNumber": "KE72 C36 17-2 101-145",
+  "language": ["eng"],
+  "session": ["17-2"],
+  "type": "bills",
+  "node": [["eng", "c", "bills", "17-2", 1]],
+  "pubmax": "1931-08-03",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c", "s"]
+}

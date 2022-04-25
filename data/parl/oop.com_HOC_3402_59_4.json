@@ -1,1 +1,13 @@
-{"reportTitle":["Canada Must Compete"],"language":["eng"],"session":["34-2"],"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Industry, Science and Technology, Regional and Northern Development, Report","callNumber":"34-2 I54 A12","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-2",115]],"pubmax":"1991-05-12"}
+{
+  "reportTitle": ["Canada Must Compete"],
+  "language": ["eng"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Industry, Science and Technology, Regional and Northern Development, Report",
+  "callNumber": "34-2 I54 A12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "34-2", 115]],
+  "pubmax": "1991-05-12"
+}

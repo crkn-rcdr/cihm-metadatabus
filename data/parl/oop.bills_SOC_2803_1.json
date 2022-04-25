@@ -1,1 +1,14 @@
-{"callNumber":"KE72 C38 28-3 S2-S22","label":"Senate Bills, 28th Parliament, 3rd Session : S2-S22 = Projets de loi du Sénat, 28e Législature, 3e Session : S2-S22","pubmin":"1970-10-08","session":["28-3"],"language":["eng","fra"],"pubmax":"1972-02-16","node":[["eng","s","bills","28-3",1],["fra","s","bills","28-3",1]],"type":"bills","chamber":["s"]}
+{
+  "callNumber": "KE72 C38 28-3 S2-S22",
+  "label": "Senate Bills, 28th Parliament, 3rd Session : S2-S22 = Projets de loi du Sénat, 28e Législature, 3e Session : S2-S22",
+  "pubmin": "1970-10-08",
+  "session": ["28-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1972-02-16",
+  "node": [
+    ["eng", "s", "bills", "28-3", 1],
+    ["fra", "s", "bills", "28-3", 1]
+  ],
+  "type": "bills",
+  "chamber": ["s"]
+}

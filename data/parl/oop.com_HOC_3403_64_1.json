@@ -1,1 +1,15 @@
-{"callNumber":"34-3 L2 A1","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Labour, Employment and Immigration, vol. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent du travail, emploi et immigration, vol. 1","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"],"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",144],["fra","c","committees","34-3",221]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-3 L2 A1",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Labour, Employment and Immigration, vol. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent du travail, emploi et immigration, vol. 1",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 144],
+    ["fra", "c", "committees", "34-3", 221]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

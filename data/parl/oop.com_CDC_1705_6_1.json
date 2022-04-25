@@ -1,1 +1,12 @@
-{"node":[["fra","c","committees","17-5",8]],"pubmax":"1934-07-03","type":"committees","primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"label":"Comités de la Chambre des communes, 17e Législature, 5e Session : Comité spécial d'enquête sur la Loi du service civil, vol. 1","callNumber":"1934 S47 A4","pubmin":"1934-01-25","session":["17-5"],"language":["fra"]}
+{
+  "node": [["fra", "c", "committees", "17-5", 8]],
+  "pubmax": "1934-07-03",
+  "type": "committees",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "label": "Comités de la Chambre des communes, 17e Législature, 5e Session : Comité spécial d'enquête sur la Loi du service civil, vol. 1",
+  "callNumber": "1934 S47 A4",
+  "pubmin": "1934-01-25",
+  "session": ["17-5"],
+  "language": ["fra"]
+}

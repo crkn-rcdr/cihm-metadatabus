@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"debates","node":[["fra","s","debates","19-2",1]],"pubmax":"1942-01-21","language":["fra"],"session":["19-2"],"pubmin":"1940-11-07","label":"Débats du Sénat, 19e Législature, 2e Session : Vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "19-2", 1]],
+  "pubmax": "1942-01-21",
+  "language": ["fra"],
+  "session": ["19-2"],
+  "pubmin": "1940-11-07",
+  "label": "Débats du Sénat, 19e Législature, 2e Session : Vol. 1"
+}

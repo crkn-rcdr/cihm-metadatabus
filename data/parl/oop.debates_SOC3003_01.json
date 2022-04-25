@@ -1,1 +1,10 @@
-{"pubmax":"1978-10-10","node":[["eng","s","debates","30-3",1]],"type":"debates","chamber":["s"],"label":"Senate Debates, 30th Parliament, 3rd Session : Vol. 1","pubmin":"1977-10-18","session":["30-3"],"language":["eng"]}
+{
+  "pubmax": "1978-10-10",
+  "node": [["eng", "s", "debates", "30-3", 1]],
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Senate Debates, 30th Parliament, 3rd Session : Vol. 1",
+  "pubmin": "1977-10-18",
+  "session": ["30-3"],
+  "language": ["eng"]
+}

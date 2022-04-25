@@ -1,1 +1,11 @@
-{"session":["30-1"],"language":["fra"],"callNumber":"J103 H43 1974/76 no 118-216","label":"Procès-verbaux du Sénat, 30e Législature, 1re Session : 118-216","pubmin":"1974-09-30","chamber":["s"],"pubmax":"1976-10-12","node":[["fra","s","sproc","30-1",2]],"type":"sproc"}
+{
+  "session": ["30-1"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1974/76 no 118-216",
+  "label": "Procès-verbaux du Sénat, 30e Législature, 1re Session : 118-216",
+  "pubmin": "1974-09-30",
+  "chamber": ["s"],
+  "pubmax": "1976-10-12",
+  "node": [["fra", "s", "sproc", "30-1", 2]],
+  "type": "sproc"
+}

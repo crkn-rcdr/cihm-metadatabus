@@ -1,1 +1,11 @@
-{"node":[["fra","s","sproc","24-3",1]],"pubmax":"1960-08-10","type":"sproc","chamber":["s"],"label":"Procès-verbaux du Sénat, 24e Législature, 3e Session : 1-39","callNumber":"J103 H43 1960 v.1","pubmin":"1960-01-14","session":["24-3"],"language":["fra"]}
+{
+  "node": [["fra", "s", "sproc", "24-3", 1]],
+  "pubmax": "1960-08-10",
+  "type": "sproc",
+  "chamber": ["s"],
+  "label": "Procès-verbaux du Sénat, 24e Législature, 3e Session : 1-39",
+  "callNumber": "J103 H43 1960 v.1",
+  "pubmin": "1960-01-14",
+  "session": ["24-3"],
+  "language": ["fra"]
+}

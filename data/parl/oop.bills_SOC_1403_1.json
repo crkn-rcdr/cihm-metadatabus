@@ -1,1 +1,11 @@
-{"session":["14-3"],"language":["eng"],"label":"Senate Bills, 14th Parliament, 3rd Session : A-Z6","callNumber":"KE72 C38 14-3 Bill A-","pubmin":"1924-02-28","chamber":["s"],"node":[["eng","s","bills","14-3",1]],"pubmax":"1924-07-19","type":"bills"}
+{
+  "session": ["14-3"],
+  "language": ["eng"],
+  "label": "Senate Bills, 14th Parliament, 3rd Session : A-Z6",
+  "callNumber": "KE72 C38 14-3 Bill A-",
+  "pubmin": "1924-02-28",
+  "chamber": ["s"],
+  "node": [["eng", "s", "bills", "14-3", 1]],
+  "pubmax": "1924-07-19",
+  "type": "bills"
+}

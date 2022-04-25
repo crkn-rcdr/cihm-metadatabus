@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Borden, Robert Laird","pubmax":"1913-06-06","node":[["fra","c","committees","12-2",1]],"type":"committees","session":["12-2"],"language":["fra"],"callNumber":"1912/13-15 P6 A4","label":"Comités de la Chambre des communes, 12e Législature, 2e Session : Comités spéciaux sur la pollution des eaux navigables, vol. 1","pubmin":"1912-11-21"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1913-06-06",
+  "node": [["fra", "c", "committees", "12-2", 1]],
+  "type": "committees",
+  "session": ["12-2"],
+  "language": ["fra"],
+  "callNumber": "1912/13-15 P6 A4",
+  "label": "Comités de la Chambre des communes, 12e Législature, 2e Session : Comités spéciaux sur la pollution des eaux navigables, vol. 1",
+  "pubmin": "1912-11-21"
+}

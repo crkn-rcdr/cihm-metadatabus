@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1974-02-26","node":[["eng","c","cproc","29-1",2]],"type":"cproc","session":["29-1"],"language":["eng"],"callNumber":"J103 H41 1973/74 no. 94-206 c.2","label":"House of Commons Votes and Proceedings, 29th Parliament, 1st Session : 94-206","pubmin":"1973-01-04"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1974-02-26",
+  "node": [["eng", "c", "cproc", "29-1", 2]],
+  "type": "cproc",
+  "session": ["29-1"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 1973/74 no. 94-206 c.2",
+  "label": "House of Commons Votes and Proceedings, 29th Parliament, 1st Session : 94-206",
+  "pubmin": "1973-01-04"
+}

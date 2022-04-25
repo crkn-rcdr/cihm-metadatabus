@@ -1,1 +1,11 @@
-{"label":"Senate Bills, 11th Parliament, 1st Session : A-GGG","callNumber":"KE72 C38 11-1 Bill A-","pubmin":"1909-01-20","session":["11-1"],"language":["eng"],"node":[["eng","s","bills","11-1",1]],"pubmax":"1909-05-19","type":"bills","chamber":["s"]}
+{
+  "label": "Senate Bills, 11th Parliament, 1st Session : A-GGG",
+  "callNumber": "KE72 C38 11-1 Bill A-",
+  "pubmin": "1909-01-20",
+  "session": ["11-1"],
+  "language": ["eng"],
+  "node": [["eng", "s", "bills", "11-1", 1]],
+  "pubmax": "1909-05-19",
+  "type": "bills",
+  "chamber": ["s"]
+}

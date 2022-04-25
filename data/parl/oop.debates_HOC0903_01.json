@@ -1,1 +1,11 @@
-{"label":"House of Commons Debates, 9th Parliament, 3rd Session : Vol. 1","pubmin":"1903-03-12","session":["09-3"],"language":["eng"],"node":[["eng","c","debates","09-3",1]],"pubmax":"1903-10-24","type":"debates","primeMinisters":"Laurier, Wilfrid","chamber":["c"]}
+{
+  "label": "House of Commons Debates, 9th Parliament, 3rd Session : Vol. 1",
+  "pubmin": "1903-03-12",
+  "session": ["09-3"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "09-3", 1]],
+  "pubmax": "1903-10-24",
+  "type": "debates",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

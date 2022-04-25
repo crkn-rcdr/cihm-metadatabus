@@ -1,1 +1,14 @@
-{"pubmin":"1978-10-11","label":"House of Commons Bills, 30th Parliament, 4th Session : C351-C470 = Projets de loi de la Chambre des communes, 30e Législature, 4e Session : C351-C470","language":["eng","fra"],"session":["30-4"],"type":"bills","pubmax":"1979-03-26","node":[["eng","c","bills","30-4",4],["fra","c","bills","30-4",4]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "pubmin": "1978-10-11",
+  "label": "House of Commons Bills, 30th Parliament, 4th Session : C351-C470 = Projets de loi de la Chambre des communes, 30e Législature, 4e Session : C351-C470",
+  "language": ["eng", "fra"],
+  "session": ["30-4"],
+  "type": "bills",
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "c", "bills", "30-4", 4],
+    ["fra", "c", "bills", "30-4", 4]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

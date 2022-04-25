@@ -1,1 +1,12 @@
-{"node":[["eng","c","committees","10-1",1]],"pubmax":"1905-07-20","type":"committees","primeMinisters":"Laurier, Wilfrid","chamber":["c"],"label":"House of Commons Committees, 10th Parliament, 1st Session : Select Committee on Telephone Systems, vol. 1","callNumber":"1905 T4 A1 pt.1","pubmin":"1905-01-11","session":["10-1"],"language":["eng"]}
+{
+  "node": [["eng", "c", "committees", "10-1", 1]],
+  "pubmax": "1905-07-20",
+  "type": "committees",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 10th Parliament, 1st Session : Select Committee on Telephone Systems, vol. 1",
+  "callNumber": "1905 T4 A1 pt.1",
+  "pubmin": "1905-01-11",
+  "session": ["10-1"],
+  "language": ["eng"]
+}

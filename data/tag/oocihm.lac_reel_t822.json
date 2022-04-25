@@ -1,1 +1,30 @@
-{"900":{"tagDescription":["Pelagic sealing"],"tagDate":["[1912-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]},"1981":{"tagDate":["[1886-01-01T00:00:00.000Z TO 1890-12-31T23:59:59.999Z]"],"tagDescription":["Pelagic sealing - Publications"]},"583":{"tagDescription":["Pelagic sealing"],"tagDate":["[1913-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]},"1548":{"tagDate":["[1921-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"],"tagDescription":["Pelagic sealing"]},"88":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["Pelagic sealing"]},"1174":{"tagDescription":["Pelagic sealing"],"tagDate":["[1915-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]},"301":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["Pelagic sealing"]}}
+{
+  "900": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  },
+  "1981": {
+    "tagDate": ["[1886-01-01T00:00:00.000Z TO 1890-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Pelagic sealing - Publications"]
+  },
+  "583": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]
+  },
+  "1548": {
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Pelagic sealing"]
+  },
+  "88": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Pelagic sealing"]
+  },
+  "1174": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  },
+  "301": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Pelagic sealing"]
+  }
+}

@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["10-4"],"pubmin":"1907-11-28","label":"Senate Debates, 10th Parliament, 4th Session : Vol. 1","chamber":["s"],"type":"debates","pubmax":"1908-07-20","node":[["eng","s","debates","10-4",1]]}
+{
+  "language": ["eng"],
+  "session": ["10-4"],
+  "pubmin": "1907-11-28",
+  "label": "Senate Debates, 10th Parliament, 4th Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1908-07-20",
+  "node": [["eng", "s", "debates", "10-4", 1]]
+}

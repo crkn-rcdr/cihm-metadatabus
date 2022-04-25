@@ -1,1 +1,10 @@
-{"pubmax":"1893-04-01","node":[["eng","s","debates","07-3",1]],"type":"debates","chamber":["s"],"label":"Senate Debates, 7th Parliament, 3rd Session : Vol. 1","pubmin":"1893-01-26","session":["07-3"],"language":["eng"]}
+{
+  "pubmax": "1893-04-01",
+  "node": [["eng", "s", "debates", "07-3", 1]],
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Senate Debates, 7th Parliament, 3rd Session : Vol. 1",
+  "pubmin": "1893-01-26",
+  "session": ["07-3"],
+  "language": ["eng"]
+}

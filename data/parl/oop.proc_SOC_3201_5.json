@@ -1,1 +1,14 @@
-{"label":"Senate Minutes of Proceedings, 32nd Parliament, 1st Session : 127-156 = Procès-verbaux du Sénat, 32e Législature, 1re Session : 127-156","callNumber":"J103 H4 1980/83 no. 127-156 c.2","pubmin":"1980-04-14","session":["32-1"],"language":["eng","fra"],"node":[["eng","s","sproc","32-1",5],["fra","s","sproc","32-1",5]],"pubmax":"1983-11-30","type":"sproc","chamber":["s"]}
+{
+  "label": "Senate Minutes of Proceedings, 32nd Parliament, 1st Session : 127-156 = Procès-verbaux du Sénat, 32e Législature, 1re Session : 127-156",
+  "callNumber": "J103 H4 1980/83 no. 127-156 c.2",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "s", "sproc", "32-1", 5],
+    ["fra", "s", "sproc", "32-1", 5]
+  ],
+  "pubmax": "1983-11-30",
+  "type": "sproc",
+  "chamber": ["s"]
+}

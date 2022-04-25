@@ -1,1 +1,15 @@
-{"language":["eng"],"session":["08-4"],"pubmin":"1899-03-16","label":"Senate and House of Commons Bills, 8th Parliament, 4th Session : A-W, 2-190","callNumber":"KE72 C36 8-4 no.2-190 no.A-W","primeMinisters":"Laurier, Wilfrid","chamber":["s","c"],"type":"bills","node":[["eng","s","bills","08-4",1],["eng","c","bills","08-4",1]],"pubmax":"1899-08-11"}
+{
+  "language": ["eng"],
+  "session": ["08-4"],
+  "pubmin": "1899-03-16",
+  "label": "Senate and House of Commons Bills, 8th Parliament, 4th Session : A-W, 2-190",
+  "callNumber": "KE72 C36 8-4 no.2-190 no.A-W",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["s", "c"],
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "08-4", 1],
+    ["eng", "c", "bills", "08-4", 1]
+  ],
+  "pubmax": "1899-08-11"
+}

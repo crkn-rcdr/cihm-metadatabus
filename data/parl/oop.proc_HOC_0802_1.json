@@ -1,1 +1,12 @@
-{"primeMinisters":"Laurier, Wilfrid","chamber":["c"],"node":[["eng","c","cproc","08-2",1]],"pubmax":"1897-06-29","type":"cproc","session":["08-2"],"language":["eng"],"label":"House of Commons Votes and Proceedings, 8th Parliament, 2nd Session : 1-65","callNumber":"J103 H41 (no call)","pubmin":"1897-03-25"}
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "08-2", 1]],
+  "pubmax": "1897-06-29",
+  "type": "cproc",
+  "session": ["08-2"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 8th Parliament, 2nd Session : 1-65",
+  "callNumber": "J103 H41 (no call)",
+  "pubmin": "1897-03-25"
+}

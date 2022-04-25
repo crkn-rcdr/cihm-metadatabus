@@ -1,1 +1,14 @@
-{"pubmax":"1986-08-28","node":[["eng","s","sproc","33-1",1],["fra","s","sproc","33-1",1]],"type":"sproc","chamber":["s"],"callNumber":"J103 H4 33-1 no. 1-62 c.2","label":"Senate Minutes of Proceedings, 33rd Parliament, 1st Session : 1-62 = Procès-verbaux du Sénat, 33e Législature, 1re Session : 1-62","pubmin":"1984-11-05","session":["33-1"],"language":["eng","fra"]}
+{
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "s", "sproc", "33-1", 1],
+    ["fra", "s", "sproc", "33-1", 1]
+  ],
+  "type": "sproc",
+  "chamber": ["s"],
+  "callNumber": "J103 H4 33-1 no. 1-62 c.2",
+  "label": "Senate Minutes of Proceedings, 33rd Parliament, 1st Session : 1-62 = Procès-verbaux du Sénat, 33e Législature, 1re Session : 1-62",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"]
+}

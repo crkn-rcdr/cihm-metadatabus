@@ -1,1 +1,12 @@
-{"type":"bills","node":[["eng","c","bills","22-5",1]],"pubmax":"1957-04-12","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"pubmin":"1957-01-08","label":"House of Commons Bills, 22nd Parliament, 5th Session : 2-419","callNumber":"KE72 C36 22-5 2-419","language":["eng"],"session":["22-5"]}
+{
+  "type": "bills",
+  "node": [["eng", "c", "bills", "22-5", 1]],
+  "pubmax": "1957-04-12",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "pubmin": "1957-01-08",
+  "label": "House of Commons Bills, 22nd Parliament, 5th Session : 2-419",
+  "callNumber": "KE72 C36 22-5 2-419",
+  "language": ["eng"],
+  "session": ["22-5"]
+}

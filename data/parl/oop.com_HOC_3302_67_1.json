@@ -1,1 +1,15 @@
-{"pubmin":"1986-09-30","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-75, an Act to implement an agreement between the Government of Canada and the Government of Nova Scotia on offshore petroleum resource management and revenue sharing and to make related and consequential amendments, vol. 1 no. 1-8 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-75, Loi concernant la mise en oeuvre de l'accord entre les gouvernements du Canada et de la Nouvelle-Écosse sur la gestion des ressources en hydrocarbures extracôtiers et sur le partage des recettes correspondantes et apportant des modifications corrélatives ou connexes, vol. 1 no. 1-8","callNumber":"33-2 O34 A1 no.1-8","language":["eng","fra"],"session":["33-2"],"type":"committees","node":[["eng","c","committees","33-2",141],["fra","c","committees","33-2",115]],"pubmax":"1988-10-01","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-75, an Act to implement an agreement between the Government of Canada and the Government of Nova Scotia on offshore petroleum resource management and revenue sharing and to make related and consequential amendments, vol. 1 no. 1-8 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-75, Loi concernant la mise en oeuvre de l'accord entre les gouvernements du Canada et de la Nouvelle-Écosse sur la gestion des ressources en hydrocarbures extracôtiers et sur le partage des recettes correspondantes et apportant des modifications corrélatives ou connexes, vol. 1 no. 1-8",
+  "callNumber": "33-2 O34 A1 no.1-8",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 141],
+    ["fra", "c", "committees", "33-2", 115]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

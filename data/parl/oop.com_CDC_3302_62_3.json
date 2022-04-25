@@ -1,1 +1,13 @@
-{"callNumber":"33-2 M84 A12","label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent sur le multiculturalisme, Rapport","pubmin":"1986-09-30","session":["33-2"],"reportTitle":["Cimenter la mosaïque canadienne"],"language":["fra"],"pubmax":"1988-10-01","node":[["fra","c","committees","33-2",136]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "33-2 M84 A12",
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent sur le multiculturalisme, Rapport",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "reportTitle": ["Cimenter la mosaïque canadienne"],
+  "language": ["fra"],
+  "pubmax": "1988-10-01",
+  "node": [["fra", "c", "committees", "33-2", 136]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

@@ -1,1 +1,72 @@
-{"265":{"tagDescription":["Ibid"],"tagDate":["1926-01-01T00:00:00.000Z"]},"1160":{"tagDate":["[1926-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"],"tagDescription":["Luxembourg 1926-Consular appointments 1941-Government of the Grand Duchy of Luxembourg situated at Montreal"]},"1028":{"tagDescription":["Missing/Manque"]},"1056":{"tagDescription":["Imperial Defence College"],"tagDate":["[1926-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"1183":{"tagDescription":["Missing/Manque"]},"812":{"tagDescription":["Proposed establishment of military college in India to train Indians for Indian Army. Visit to Canada of Indian Sandhurst Committee to enquire into the system of military training in Canada Indian Navy. Provision of an ."],"tagDate":["[1925-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"]},"810":{"tagDescription":["Missing/Manque"]},"1088":{"tagDescription":["Missing/Manque"]},"46":{"tagDescription":["Ibid"],"tagDate":["1926-01-01T00:00:00.000Z"]},"439":{"tagDate":["[1930-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Publications re. Imperial Conference Parliamentary Debates  House of Commons; House of Lords"]},"1173":{"tagDate":["[1926-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],"tagDescription":["Egypt  Consular Appointments"]},"1171":{"tagDescription":["Missing/Manque"]},"1158":{"tagDescription":["Missing/Manque"]},"968":{"tagDescription":["Missing/Manque"]},"970":{"tagDescription":["Prince Edward Island. Fox Farms. Fraudulent activities of A.F. Mitchell, Official representative in England of Government of Prince Edward Island, in connection with -"],"tagDate":["[1926-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]},"887":{"tagDescription":["Claims against the British Government arising out of the detention of United States vessels during the blockade of Germany preceding the entrance of the United States into the Great War 1914-1918"],"tagDate":["[1926-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"]},"1029":{"tagDate":["[1920-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Industrial crises in Great Britain 1920:Miners Strikes Threatened railway strike 1921: United Kingdom Railways Act 1926: General Strike"]},"885":{"tagDescription":["Missing/Manque"]},"1185":{"tagDescription":["Visit to Canada of representatives of foreign governments or other persons, to investigate Canadian Industries, etc"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]},"1054":{"tagDescription":["Missing/Manque"]},"1090":{"tagDescription":["Border Incidents -Claims of Canadian and United States Citizens against Immigration and Customs Officials"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]}}
+{
+  "265": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["1926-01-01T00:00:00.000Z"]
+  },
+  "1160": {
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Luxembourg 1926-Consular appointments 1941-Government of the Grand Duchy of Luxembourg situated at Montreal"
+    ]
+  },
+  "1028": { "tagDescription": ["Missing/Manque"] },
+  "1056": {
+    "tagDescription": ["Imperial Defence College"],
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "1183": { "tagDescription": ["Missing/Manque"] },
+  "812": {
+    "tagDescription": [
+      "Proposed establishment of military college in India to train Indians for Indian Army. Visit to Canada of Indian Sandhurst Committee to enquire into the system of military training in Canada Indian Navy. Provision of an ."
+    ],
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"]
+  },
+  "810": { "tagDescription": ["Missing/Manque"] },
+  "1088": { "tagDescription": ["Missing/Manque"] },
+  "46": { "tagDescription": ["Ibid"], "tagDate": ["1926-01-01T00:00:00.000Z"] },
+  "439": {
+    "tagDate": ["[1930-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Publications re. Imperial Conference Parliamentary Debates  House of Commons; House of Lords"
+    ]
+  },
+  "1173": {
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Egypt  Consular Appointments"]
+  },
+  "1171": { "tagDescription": ["Missing/Manque"] },
+  "1158": { "tagDescription": ["Missing/Manque"] },
+  "968": { "tagDescription": ["Missing/Manque"] },
+  "970": {
+    "tagDescription": [
+      "Prince Edward Island. Fox Farms. Fraudulent activities of A.F. Mitchell, Official representative in England of Government of Prince Edward Island, in connection with -"
+    ],
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]
+  },
+  "887": {
+    "tagDescription": [
+      "Claims against the British Government arising out of the detention of United States vessels during the blockade of Germany preceding the entrance of the United States into the Great War 1914-1918"
+    ],
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"]
+  },
+  "1029": {
+    "tagDate": ["[1920-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Industrial crises in Great Britain 1920:Miners Strikes Threatened railway strike 1921: United Kingdom Railways Act 1926: General Strike"
+    ]
+  },
+  "885": { "tagDescription": ["Missing/Manque"] },
+  "1185": {
+    "tagDescription": [
+      "Visit to Canada of representatives of foreign governments or other persons, to investigate Canadian Industries, etc"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "1054": { "tagDescription": ["Missing/Manque"] },
+  "1090": {
+    "tagDescription": [
+      "Border Incidents -Claims of Canadian and United States Citizens against Immigration and Customs Officials"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  }
+}

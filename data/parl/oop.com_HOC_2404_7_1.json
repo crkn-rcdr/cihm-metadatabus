@@ -1,1 +1,12 @@
-{"session":["24-4"],"language":["eng"],"label":"House of Commons Committees, 24th Parliament, 4th Session : Sessional Committee on Railways, Air Lines and Shipping Owned and Controlled by the Government, vol. 1","callNumber":"1960/61 R34 A1","pubmin":"1960-11-17","primeMinisters":"Diefenbaker, John George","chamber":["c"],"node":[["eng","c","committees","24-4",8]],"pubmax":"1961-09-29","type":"committees"}
+{
+  "session": ["24-4"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 24th Parliament, 4th Session : Sessional Committee on Railways, Air Lines and Shipping Owned and Controlled by the Government, vol. 1",
+  "callNumber": "1960/61 R34 A1",
+  "pubmin": "1960-11-17",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "24-4", 8]],
+  "pubmax": "1961-09-29",
+  "type": "committees"
+}

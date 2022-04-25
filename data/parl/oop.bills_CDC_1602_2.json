@@ -1,1 +1,12 @@
-{"node":[["fra","c","bills","16-2",2]],"pubmax":"1928-06-11","type":"bills","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"label":"Projets de loi de la Chambre des communes, 16e Législature, 2e Session : 70-359","callNumber":"KE72 C361 16-2 70-359","pubmin":"1928-01-26","session":["16-2"],"language":["fra"]}
+{
+  "node": [["fra", "c", "bills", "16-2", 2]],
+  "pubmax": "1928-06-11",
+  "type": "bills",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "label": "Projets de loi de la Chambre des communes, 16e Législature, 2e Session : 70-359",
+  "callNumber": "KE72 C361 16-2 70-359",
+  "pubmin": "1928-01-26",
+  "session": ["16-2"],
+  "language": ["fra"]
+}

@@ -1,1 +1,11 @@
-{"label":"Documents parlementaires, 3e Législature, 5e Session : vol. 8","pubmin":"1878-02-07","session":["03-5"],"language":["fra"],"node":[["fra","c","sessional","03-5",8]],"pubmax":"1878-05-10","type":"sessional","primeMinisters":"Mackenzie, Alexander","chamber":["c"]}
+{
+  "label": "Documents parlementaires, 3e Législature, 5e Session : vol. 8",
+  "pubmin": "1878-02-07",
+  "session": ["03-5"],
+  "language": ["fra"],
+  "node": [["fra", "c", "sessional", "03-5", 8]],
+  "pubmax": "1878-05-10",
+  "type": "sessional",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"]
+}

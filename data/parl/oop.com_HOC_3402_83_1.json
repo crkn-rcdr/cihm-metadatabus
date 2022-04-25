@@ -1,1 +1,15 @@
-{"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Special Committee to pre-study Bill C-78, an Act to establish a Federal Environmental Assessment Process, vol. 1 no. 1-16 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité spécial sur l'étude préliminaire du projet de loi C-78, Loi de mise en oeuvre du processus d'évaluation environnementale, vol. 1 no. 1-16","callNumber":"34-2 P62 A1 no.1-16","language":["eng","fra"],"session":["34-2"],"type":"committees","node":[["eng","c","committees","34-2",147],["fra","c","committees","34-2",153]],"pubmax":"1991-05-12","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Special Committee to pre-study Bill C-78, an Act to establish a Federal Environmental Assessment Process, vol. 1 no. 1-16 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité spécial sur l'étude préliminaire du projet de loi C-78, Loi de mise en oeuvre du processus d'évaluation environnementale, vol. 1 no. 1-16",
+  "callNumber": "34-2 P62 A1 no.1-16",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 147],
+    ["fra", "c", "committees", "34-2", 153]
+  ],
+  "pubmax": "1991-05-12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

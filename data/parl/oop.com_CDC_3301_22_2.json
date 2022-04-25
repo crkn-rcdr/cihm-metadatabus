@@ -1,1 +1,15 @@
-{"callNumber":"33-1 E554 A12","label":"Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'énergie, des mines et des ressources, Rapport","pubmin":"1984-11-05","session":["33-1"],"language":["fra"],"reportTitle":["Les mélanges alcool-essence : du nouveau dans les carburants"],"pubmax":"1986-08-28","node":[["fra","c","committees","33-1",43]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "33-1 E554 A12",
+  "label": "Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'énergie, des mines et des ressources, Rapport",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["fra"],
+  "reportTitle": [
+    "Les mélanges alcool-essence : du nouveau dans les carburants"
+  ],
+  "pubmax": "1986-08-28",
+  "node": [["fra", "c", "committees", "33-1", 43]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

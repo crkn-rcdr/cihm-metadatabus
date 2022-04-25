@@ -1,1 +1,12 @@
-{"type":"committees","pubmax":"1944-01-26","node":[["eng","c","committees","19-4",3]],"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmin":"1943-01-28","callNumber":"1943/44 R33 A1","label":"House of Commons Committees, 19th Parliament, 4th Session : Special Committee on Radio Broadcasting, vol. 1","language":["eng"],"session":["19-4"]}
+{
+  "type": "committees",
+  "pubmax": "1944-01-26",
+  "node": [["eng", "c", "committees", "19-4", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmin": "1943-01-28",
+  "callNumber": "1943/44 R33 A1",
+  "label": "House of Commons Committees, 19th Parliament, 4th Session : Special Committee on Radio Broadcasting, vol. 1",
+  "language": ["eng"],
+  "session": ["19-4"]
+}

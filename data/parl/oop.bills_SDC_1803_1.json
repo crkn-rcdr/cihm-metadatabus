@@ -1,1 +1,11 @@
-{"session":["18-3"],"language":["fra"],"callNumber":"KE72 C381 18-3 Bill A-","label":"Projets de loi du Sénat, 18e Législature, 3e Session : A-T3","pubmin":"1938-01-27","chamber":["s"],"pubmax":"1938-07-01","node":[["fra","s","bills","18-3",1]],"type":"bills"}
+{
+  "session": ["18-3"],
+  "language": ["fra"],
+  "callNumber": "KE72 C381 18-3 Bill A-",
+  "label": "Projets de loi du Sénat, 18e Législature, 3e Session : A-T3",
+  "pubmin": "1938-01-27",
+  "chamber": ["s"],
+  "pubmax": "1938-07-01",
+  "node": [["fra", "s", "bills", "18-3", 1]],
+  "type": "bills"
+}

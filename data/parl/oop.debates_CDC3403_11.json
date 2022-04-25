@@ -1,1 +1,11 @@
-{"session":["34-3"],"language":["fra"],"label":"Débats de la Chambre des communes, 34e Législature, 3e Session : Vol. 11","pubmin":"1991-05-13","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1993-09-08","node":[["fra","c","debates","34-3",11]],"type":"debates"}
+{
+  "session": ["34-3"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 34e Législature, 3e Session : Vol. 11",
+  "pubmin": "1991-05-13",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "debates", "34-3", 11]],
+  "type": "debates"
+}

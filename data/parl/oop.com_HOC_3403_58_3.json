@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-3",127]],"pubmax":"1993-09-08","language":["eng"],"reportTitle":["IRAP: An Inquiry into the Industrial Research Assistance Program"],"session":["34-3"],"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Industry, Science and Technology, Regional and Northern Development, First Report","callNumber":"34-3 I54 A12"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "34-3", 127]],
+  "pubmax": "1993-09-08",
+  "language": ["eng"],
+  "reportTitle": [
+    "IRAP: An Inquiry into the Industrial Research Assistance Program"
+  ],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Industry, Science and Technology, Regional and Northern Development, First Report",
+  "callNumber": "34-3 I54 A12"
+}

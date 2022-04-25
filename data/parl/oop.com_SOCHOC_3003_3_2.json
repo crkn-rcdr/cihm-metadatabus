@@ -1,1 +1,17 @@
-{"language":["eng","fra"],"session":["30-3"],"pubmin":"1977-10-18","callNumber":"1977/78 R48 A1 v.2","label":"Joint Committees, 30th Parliament, 3rd Session : Standing Joint Committee on Regulations and other Statutory Instruments, vol. 2 = Comités mixtes, 30e Législature, 3e Session : Comité mixte permanent des règlements et autres textes réglementaires, vol. 2","chamber":["c","s"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1978-10-10","node":[["eng","c","committees","30-3",26],["fra","c","committees","30-3",25],["eng","s","committees","30-3",16],["fra","s","committees","30-3",15]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["30-3"],
+  "pubmin": "1977-10-18",
+  "callNumber": "1977/78 R48 A1 v.2",
+  "label": "Joint Committees, 30th Parliament, 3rd Session : Standing Joint Committee on Regulations and other Statutory Instruments, vol. 2 = Comités mixtes, 30e Législature, 3e Session : Comité mixte permanent des règlements et autres textes réglementaires, vol. 2",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1978-10-10",
+  "node": [
+    ["eng", "c", "committees", "30-3", 26],
+    ["fra", "c", "committees", "30-3", 25],
+    ["eng", "s", "committees", "30-3", 16],
+    ["fra", "s", "committees", "30-3", 15]
+  ]
+}

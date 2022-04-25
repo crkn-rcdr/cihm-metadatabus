@@ -1,1 +1,11 @@
-{"session":["29-1"],"language":["eng"],"label":"Senate Committees, 29th Parliament, 1st Session : Standing Committee on Foreign Affairs, vol. 1","callNumber":"1973/74 F6 A1","pubmin":"1973-01-04","chamber":["s"],"node":[["eng","s","committees","29-1",3]],"pubmax":"1974-02-26","type":"committees"}
+{
+  "session": ["29-1"],
+  "language": ["eng"],
+  "label": "Senate Committees, 29th Parliament, 1st Session : Standing Committee on Foreign Affairs, vol. 1",
+  "callNumber": "1973/74 F6 A1",
+  "pubmin": "1973-01-04",
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "29-1", 3]],
+  "pubmax": "1974-02-26",
+  "type": "committees"
+}

@@ -1,1 +1,12 @@
-{"type":"committees","pubmax":"1955-07-28","node":[["fra","c","committees","22-2",7]],"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmin":"1955-01-07","callNumber":"1955 M3 A4","label":"Comités de la Chambre des communes, 22e Législature, 2e Session : Comité permanent de la marine et des pêcheries, vol. 1","language":["fra"],"session":["22-2"]}
+{
+  "type": "committees",
+  "pubmax": "1955-07-28",
+  "node": [["fra", "c", "committees", "22-2", 7]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmin": "1955-01-07",
+  "callNumber": "1955 M3 A4",
+  "label": "Comités de la Chambre des communes, 22e Législature, 2e Session : Comité permanent de la marine et des pêcheries, vol. 1",
+  "language": ["fra"],
+  "session": ["22-2"]
+}

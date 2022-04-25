@@ -1,1 +1,11 @@
-{"type":"committees","pubmax":"1953-05-14","node":[["fra","s","committees","21-7",3]],"chamber":["s"],"pubmin":"1952-11-20","callNumber":"1952/53 B3 A42 v.2","label":"Comités du Sénat, 21e Législature, 7e Session : Comité permanent des banques et du commerce, vol. 3","language":["fra"],"session":["21-7"]}
+{
+  "type": "committees",
+  "pubmax": "1953-05-14",
+  "node": [["fra", "s", "committees", "21-7", 3]],
+  "chamber": ["s"],
+  "pubmin": "1952-11-20",
+  "callNumber": "1952/53 B3 A42 v.2",
+  "label": "Comités du Sénat, 21e Législature, 7e Session : Comité permanent des banques et du commerce, vol. 3",
+  "language": ["fra"],
+  "session": ["21-7"]
+}

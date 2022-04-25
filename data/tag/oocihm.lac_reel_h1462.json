@@ -1,1 +1,94 @@
-{"888":{"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagDescription":["LANMAN AND KEMP W.D. Yuile, 1873-1879, 25 pages."]},"56":{"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagPerson":["LANMAN AND KEMP"],"tagDescription":["LANMAN AND KEMP Lamplough and Campbell, 1863-1869, 81 pages"]},"391":{"tagDescription":["LANMAN AND KEMP John McArthur and Son, 1871-1879, 18 pages"],"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]},"834":{"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagPerson":["LANMAN AND KEMP"],"tagDescription":["LANMAN AND KEMP John E. Wilson and Sons, 1874, 19 pages"]},"426":{"tagDescription":["LANMAN AND KEMP Perry, Davis and So & Perry, Son and Lawrence, 1868-1879, 2,5 cm"],"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]},"374":{"tagDescription":["LANMAN AND KEMP John Musson and Co., 1863-1878, 23 pages"],"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]},"410":{"tagDescription":["LANMAN AND KEMP Dorion and Company, 1863-1870, 22 pages"],"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]},"912":{"tagDescription":["LANMAN AND KEMP Collections of miscellaneous letters, arranged alphabetically. See the Lande catalogue for a list of the correspondents."],"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1857-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]},"772":{"tagDescription":["LANMAN AND KEMP William Poston, 1867-1871, 62 pages"],"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]},"817":{"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagDescription":["LANMAN AND KEMP J. Whitehead and Co. & Whitehead and Turner, 1870-1879, 29 pages"]},"110":{"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagDescription":["LANMAN AND KEMP Lane, Gibb and Co., 1864-1869, 94 pages"]},"16":{"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagPerson":["LANMAN AND KEMP"],"tagDescription":["LANMAN AND KEMP R.C. Jamieson and Co., 1867-1879, 65 pages"]},"164":{"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagPerson":["LANMAN AND KEMP"],"tagDescription":["LANMAN AND KEMP Lyman, Lymans, Clare and Co & Hyman, Sons and Co., 1864-1880, 1 cm"]},"845":{"tagPerson":["LANMAN AND KEMP"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagDescription":["LANMAN AND KEMP Wulff and Co., 1873-1879, 63 pages"]}}
+{
+  "888": {
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagDescription": ["LANMAN AND KEMP W.D. Yuile, 1873-1879, 25 pages."]
+  },
+  "56": {
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDescription": [
+      "LANMAN AND KEMP Lamplough and Campbell, 1863-1869, 81 pages"
+    ]
+  },
+  "391": {
+    "tagDescription": [
+      "LANMAN AND KEMP John McArthur and Son, 1871-1879, 18 pages"
+    ],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]
+  },
+  "834": {
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDescription": [
+      "LANMAN AND KEMP John E. Wilson and Sons, 1874, 19 pages"
+    ]
+  },
+  "426": {
+    "tagDescription": [
+      "LANMAN AND KEMP Perry, Davis and So & Perry, Son and Lawrence, 1868-1879, 2,5 cm"
+    ],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]
+  },
+  "374": {
+    "tagDescription": [
+      "LANMAN AND KEMP John Musson and Co., 1863-1878, 23 pages"
+    ],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]
+  },
+  "410": {
+    "tagDescription": [
+      "LANMAN AND KEMP Dorion and Company, 1863-1870, 22 pages"
+    ],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]
+  },
+  "912": {
+    "tagDescription": [
+      "LANMAN AND KEMP Collections of miscellaneous letters, arranged alphabetically. See the Lande catalogue for a list of the correspondents."
+    ],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1857-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]
+  },
+  "772": {
+    "tagDescription": ["LANMAN AND KEMP William Poston, 1867-1871, 62 pages"],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]
+  },
+  "817": {
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "LANMAN AND KEMP J. Whitehead and Co. & Whitehead and Turner, 1870-1879, 29 pages"
+    ]
+  },
+  "110": {
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "LANMAN AND KEMP Lane, Gibb and Co., 1864-1869, 94 pages"
+    ]
+  },
+  "16": {
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDescription": [
+      "LANMAN AND KEMP R.C. Jamieson and Co., 1867-1879, 65 pages"
+    ]
+  },
+  "164": {
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDescription": [
+      "LANMAN AND KEMP Lyman, Lymans, Clare and Co & Hyman, Sons and Co., 1864-1880, 1 cm"
+    ]
+  },
+  "845": {
+    "tagPerson": ["LANMAN AND KEMP"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagDescription": ["LANMAN AND KEMP Wulff and Co., 1873-1879, 63 pages"]
+  }
+}

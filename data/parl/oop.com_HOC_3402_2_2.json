@@ -1,1 +1,15 @@
-{"callNumber":"34-2 A184 A1 no.7-13","label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-43, an Act respecting abortion, vol. 2 no. 7-13 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-43, Loi concernant l'avortement, vol. 2 no. 7-13","pubmin":"1989-04-03","session":["34-2"],"language":["eng","fra"],"pubmax":"1991-05-12","node":[["eng","c","committees","34-2",11],["fra","c","committees","34-2",31]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-2 A184 A1 no.7-13",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-43, an Act respecting abortion, vol. 2 no. 7-13 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-43, Loi concernant l'avortement, vol. 2 no. 7-13",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 11],
+    ["fra", "c", "committees", "34-2", 31]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

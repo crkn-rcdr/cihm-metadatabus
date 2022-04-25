@@ -1,1 +1,11 @@
-{"label":"Projets de loi du Sénat, 26e Législature, 1re Session : SD1-SD237","callNumber":"KE72 C381 26-1 SD1-SD237","pubmin":"1963-05-16","session":["26-1"],"language":["fra"],"node":[["fra","s","bills","26-1",2]],"pubmax":"1963-12-21","type":"bills","chamber":["s"]}
+{
+  "label": "Projets de loi du Sénat, 26e Législature, 1re Session : SD1-SD237",
+  "callNumber": "KE72 C381 26-1 SD1-SD237",
+  "pubmin": "1963-05-16",
+  "session": ["26-1"],
+  "language": ["fra"],
+  "node": [["fra", "s", "bills", "26-1", 2]],
+  "pubmax": "1963-12-21",
+  "type": "bills",
+  "chamber": ["s"]
+}

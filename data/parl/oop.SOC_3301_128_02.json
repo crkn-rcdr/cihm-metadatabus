@@ -1,1 +1,13 @@
-{"chamber":["s"],"node":[["eng","s","journals","33-1",2],["fra","s","journals","33-1",2]],"pubmax":"1986-08-28","type":"journals","session":["33-1"],"language":["eng","fra"],"label":"Senate Journals, 33rd Parliament, 1st Session : Vol. 128 Pt. 2 = Journaux du Sénat, 33e Législature, 1re Session : Vol. 128 Pt. 2","pubmin":"1984-11-05"}
+{
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "journals", "33-1", 2],
+    ["fra", "s", "journals", "33-1", 2]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "journals",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "Senate Journals, 33rd Parliament, 1st Session : Vol. 128 Pt. 2 = Journaux du Sénat, 33e Législature, 1re Session : Vol. 128 Pt. 2",
+  "pubmin": "1984-11-05"
+}

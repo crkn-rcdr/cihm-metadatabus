@@ -1,1 +1,14 @@
-{"1360":{"tagDate":["1915-01-01T00:00:00.000Z"],"tagDescription":["European War, Printed selections Prints 11-14"]},"1018":{"tagDescription":["European War, Printed selections Prints 7-10"],"tagDate":["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]},"535":{"tagDate":["1914-01-01T00:00:00.000Z"],"tagDescription":["European War, Printed selections Prints 1-6"]}}
+{
+  "1360": {
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagDescription": ["European War, Printed selections Prints 11-14"]
+  },
+  "1018": {
+    "tagDescription": ["European War, Printed selections Prints 7-10"],
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]
+  },
+  "535": {
+    "tagDate": ["1914-01-01T00:00:00.000Z"],
+    "tagDescription": ["European War, Printed selections Prints 1-6"]
+  }
+}

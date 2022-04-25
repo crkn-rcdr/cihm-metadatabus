@@ -1,1 +1,41 @@
-{"425":{"tagDescription":["Canadian Preferential Tariff"],"tagDate":["[1909-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]},"1866":{"tagDate":["1900-01-01T00:00:00.000Z"],"tagDescription":["South African War Details concerning Canadian Forces Composition of 2nd Battalion Nominal Roll (See also part 1) Six Nations Indians. Offer of Services Offer of Japanese in British Columbia Messages of congratulations and sympathy from the Queen, Government of New South Wales, Princess Louise, Chamberlain, etc Chaplains accompanying troops Admission free of duty of tobacco for Canadian soldiers in South Africa Life insurance on Canadian soldiers Telegraph rates on messages to troops Relief of Mafeking. Pretoria captured June 1900 Copy of field report Canadian Mounted Rifles, Good work done by Canadian soldiers invalided home Agreement for Military service in South Africa Pensions and Allowances"]},"1090":{"tagDate":["[1899-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"],"tagDescription":["South African War - Return showing various units sent by Canada to South Africa since the outbreak of the South African war in October, 1899. Feb. 1902 -List of Officers, Chaplain and Press correspondence who served in South Africa from October 1899  1902. 1st and 2nd contingents, including Officers attached for instructional purposes. - Correspondence relating to the appeal of the Boer Generals to the civilized world. November 1902. - Conditions of service of South African and over-sea contingents employed in the South African War 1899-1902"]},"1286":{"tagDate":["[1899-01-01T00:00:00.000Z TO 1901-12-31T23:59:59.999Z]"],"tagDescription":["South African War Casualties"]},"651":{"tagDescription":["Missing / Manque"]},"1743":{"tagDescription":["Canadian Contingents for service in South Africa - Offer of Lt Colonel Sam Hughes to raise Canadian Regiment for overseas service - Acceptance by his Majestys government of offers of Military assistance - Equipment of troops - Canadian infantry Regiment under Lt Colonel Otter - Medical Volunteers - Post office Corps - Message from the Queen thanking Canadian people for their offers of assistance Canadian Governments reply October, 1899 - 2nd Canadian contingent offered Nov, Accepted Dec - Thanks of British Government to Canadian people, Nov - Preparation of Nominal Roll of Canadian contingent"],"tagDate":["1899-01-01T00:00:00.000Z"]},"927":{"tagDate":["[1899-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"],"tagDescription":["South African War - Correspondence relating to the despatch of Colonial Military contingents to South Africa, November 1899 - Nominal Roll  Officers, Noncommissioned Officers, and men, 1899-1902 - Militia Orders, 1899-1900"]},"653":{"tagDescription":["Japanese Immigration into Canada - Canadian Act to restrict the importation and employment of Aliens - British Colombia Legislation re employment of Japanese Labour, (in Coal Mines)"],"tagDate":["[1898-01-01T00:00:00.000Z TO 1904-12-31T23:59:59.999Z]"]}}
+{
+  "425": {
+    "tagDescription": ["Canadian Preferential Tariff"],
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]
+  },
+  "1866": {
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "South African War Details concerning Canadian Forces Composition of 2nd Battalion Nominal Roll (See also part 1) Six Nations Indians. Offer of Services Offer of Japanese in British Columbia Messages of congratulations and sympathy from the Queen, Government of New South Wales, Princess Louise, Chamberlain, etc Chaplains accompanying troops Admission free of duty of tobacco for Canadian soldiers in South Africa Life insurance on Canadian soldiers Telegraph rates on messages to troops Relief of Mafeking. Pretoria captured June 1900 Copy of field report Canadian Mounted Rifles, Good work done by Canadian soldiers invalided home Agreement for Military service in South Africa Pensions and Allowances"
+    ]
+  },
+  "1090": {
+    "tagDate": ["[1899-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "South African War - Return showing various units sent by Canada to South Africa since the outbreak of the South African war in October, 1899. Feb. 1902 -List of Officers, Chaplain and Press correspondence who served in South Africa from October 1899  1902. 1st and 2nd contingents, including Officers attached for instructional purposes. - Correspondence relating to the appeal of the Boer Generals to the civilized world. November 1902. - Conditions of service of South African and over-sea contingents employed in the South African War 1899-1902"
+    ]
+  },
+  "1286": {
+    "tagDate": ["[1899-01-01T00:00:00.000Z TO 1901-12-31T23:59:59.999Z]"],
+    "tagDescription": ["South African War Casualties"]
+  },
+  "651": { "tagDescription": ["Missing / Manque"] },
+  "1743": {
+    "tagDescription": [
+      "Canadian Contingents for service in South Africa - Offer of Lt Colonel Sam Hughes to raise Canadian Regiment for overseas service - Acceptance by his Majestys government of offers of Military assistance - Equipment of troops - Canadian infantry Regiment under Lt Colonel Otter - Medical Volunteers - Post office Corps - Message from the Queen thanking Canadian people for their offers of assistance Canadian Governments reply October, 1899 - 2nd Canadian contingent offered Nov, Accepted Dec - Thanks of British Government to Canadian people, Nov - Preparation of Nominal Roll of Canadian contingent"
+    ],
+    "tagDate": ["1899-01-01T00:00:00.000Z"]
+  },
+  "927": {
+    "tagDate": ["[1899-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "South African War - Correspondence relating to the despatch of Colonial Military contingents to South Africa, November 1899 - Nominal Roll  Officers, Noncommissioned Officers, and men, 1899-1902 - Militia Orders, 1899-1900"
+    ]
+  },
+  "653": {
+    "tagDescription": [
+      "Japanese Immigration into Canada - Canadian Act to restrict the importation and employment of Aliens - British Colombia Legislation re employment of Japanese Labour, (in Coal Mines)"
+    ],
+    "tagDate": ["[1898-01-01T00:00:00.000Z TO 1904-12-31T23:59:59.999Z]"]
+  }
+}

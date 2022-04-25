@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["32-1"],"pubmin":"1980-04-14","callNumber":"1980/83 I56 A1","label":"House of Commons Committees, 32nd Parliament, 1st Session : Sub-Committee on Import Policy, vol. 1 = Comités de la Chambre des communes, 32e Législature, 1re Session : Sous-comité sur la politique d'importation, vol. 1","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1983-11-30","node":[["eng","c","committees","32-1",78],["fra","c","committees","32-1",110]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "callNumber": "1980/83 I56 A1",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Sub-Committee on Import Policy, vol. 1 = Comités de la Chambre des communes, 32e Législature, 1re Session : Sous-comité sur la politique d'importation, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 78],
+    ["fra", "c", "committees", "32-1", 110]
+  ]
+}

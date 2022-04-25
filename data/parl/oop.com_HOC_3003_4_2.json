@@ -1,1 +1,15 @@
-{"session":["30-3"],"language":["eng","fra"],"callNumber":"1977/78 F55 A1 v.2","label":"House of Commons Committees, 30th Parliament, 3rd Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 2 no. 31-48 = Comités de la Chambre des communes, 30e Législature, 3e Session : Comité permanent des finances, du commerce et des questions économiques, vol. 2 no. 31-48","pubmin":"1977-10-18","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1978-10-10","node":[["eng","c","committees","30-3",6],["fra","c","committees","30-3",12]],"type":"committees"}
+{
+  "session": ["30-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "1977/78 F55 A1 v.2",
+  "label": "House of Commons Committees, 30th Parliament, 3rd Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 2 no. 31-48 = Comités de la Chambre des communes, 30e Législature, 3e Session : Comité permanent des finances, du commerce et des questions économiques, vol. 2 no. 31-48",
+  "pubmin": "1977-10-18",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1978-10-10",
+  "node": [
+    ["eng", "c", "committees", "30-3", 6],
+    ["fra", "c", "committees", "30-3", 12]
+  ],
+  "type": "committees"
+}

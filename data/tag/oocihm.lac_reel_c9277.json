@@ -1,1 +1,20 @@
-{"1277":{"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"],"tagDescription":["Correspondence with Provincial Secretary"],"tagDate":["[1936-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"]},"1009":{"tagDescription":["General Correspondence"],"tagDate":["[1955-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagNotebook":["Provincial Files"],"tagPlace":["Quebec"]},"260":{"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"],"tagDate":["[1940-01-01T00:00:00.000Z TO 1954-12-31T23:59:59.999Z]"],"tagDescription":["General Correspondence"]}}
+{
+  "1277": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDescription": ["Correspondence with Provincial Secretary"],
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"]
+  },
+  "1009": {
+    "tagDescription": ["General Correspondence"],
+    "tagDate": ["[1955-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"]
+  },
+  "260": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1940-01-01T00:00:00.000Z TO 1954-12-31T23:59:59.999Z]"],
+    "tagDescription": ["General Correspondence"]
+  }
+}

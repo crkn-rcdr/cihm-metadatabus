@@ -1,1 +1,10 @@
-{"label":"Senate Journals, 24th Parliament, 2nd Session : Vol. 105","pubmin":"1959-01-15","session":["24-2"],"language":["eng"],"pubmax":"1959-07-18","node":[["eng","s","journals","24-2",1]],"type":"journals","chamber":["s"]}
+{
+  "label": "Senate Journals, 24th Parliament, 2nd Session : Vol. 105",
+  "pubmin": "1959-01-15",
+  "session": ["24-2"],
+  "language": ["eng"],
+  "pubmax": "1959-07-18",
+  "node": [["eng", "s", "journals", "24-2", 1]],
+  "type": "journals",
+  "chamber": ["s"]
+}

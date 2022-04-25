@@ -1,1 +1,11 @@
-{"pubmin":"1888-02-23","label":"Journaux de la Chambre des communes, 6e Législature, 2e Session : Vol. 22 App.","language":["fra"],"session":["06-2"],"type":"journals","pubmax":"1888-05-22","node":[["fra","c","journals","06-2",2]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "pubmin": "1888-02-23",
+  "label": "Journaux de la Chambre des communes, 6e Législature, 2e Session : Vol. 22 App.",
+  "language": ["fra"],
+  "session": ["06-2"],
+  "type": "journals",
+  "pubmax": "1888-05-22",
+  "node": [["fra", "c", "journals", "06-2", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

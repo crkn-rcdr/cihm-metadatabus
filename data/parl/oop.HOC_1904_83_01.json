@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"journals","pubmax":"1944-01-26","node":[["eng","c","journals","19-4",1]],"language":["eng"],"session":["19-4"],"pubmin":"1943-01-28","label":"House of Commons Journals, 19th Parliament, 4th Session : Vol. 83"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "journals",
+  "pubmax": "1944-01-26",
+  "node": [["eng", "c", "journals", "19-4", 1]],
+  "language": ["eng"],
+  "session": ["19-4"],
+  "pubmin": "1943-01-28",
+  "label": "House of Commons Journals, 19th Parliament, 4th Session : Vol. 83"
+}

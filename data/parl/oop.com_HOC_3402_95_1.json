@@ -1,1 +1,15 @@
-{"pubmin":"1989-04-03","callNumber":"34-2 S55 A1 no.1","label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-56, an Act to amend the Small Business Loans Act, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-56, Loi modifiant la Loi sur les prêts aux petites entreprises, vol. 1 no. 1","language":["eng","fra"],"session":["34-2"],"type":"committees","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",170],["fra","c","committees","34-2",150]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 S55 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-56, an Act to amend the Small Business Loans Act, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-56, Loi modifiant la Loi sur les prêts aux petites entreprises, vol. 1 no. 1",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 170],
+    ["fra", "c", "committees", "34-2", 150]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

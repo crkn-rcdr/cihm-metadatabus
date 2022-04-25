@@ -1,1 +1,132 @@
-{"472":{"tagDescription":["197. M 700 - T Miscellaneous"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"944":{"tagName":["Adamson, Rodney"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["205. M.P. 100 Rodney Adamson"]},"999":{"tagName":["Black, George"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["207. M.P. 103 George Black"]},"988":{"tagName":["Anderson, A. J."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["206. M.P. 101 A. J. Anderson"]},"814":{"tagDescription":["201. M 700 - Y Miscellaneous"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"1032":{"tagDescription":["208. M.P. 104 Percy Black"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagName":["Black, Percy"]},"616":{"tagDescription":["198. M 700 - U Professor Frank Underhill"],"tagName":["Underhill, Frank Professor"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"821":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["202. M 700 - Z Miscellaneous"]},"1167":{"tagDescription":["210. M.P. 106 Hon. H. A. Bruce"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagName":["Bruce, H. A."]},"860":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["204. M.P. 99 Circular Letter to Members of Parliament."]},"141":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["195. M 700 - S No. 1 Miscellaneous"]},"1258":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagName":["Cockeram, Alan Col."],"tagDescription":["212. M.P. 109 Col. Alan Cockeram"]},"415":{"tagDescription":["196. M 700 - S No. 2 Miscellaneous"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"674":{"tagDescription":["200. M 700 - W Miscellaneous"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"1308":{"tagName":["Desmond, C. E."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["213. M.P. 110 C. E. Desmond"]},"635":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["199. M 700 - V Miscellaneous"]},"1227":{"tagName":["Church, T. L."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["211. M.P. 108 T. L. Church"]},"832":{"tagDescription":["203. M 800 Merchant Navy"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"89":{"tagDescription":["194. M 700 - R No. 2 Miscellaneous"],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"1119":{"tagDescription":["209. M.P. 105 A. J . Brooks "],"tagName":["Brooks, A. J."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]}}
+{
+  "472": {
+    "tagDescription": ["197. M 700 - T Miscellaneous"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "944": {
+    "tagName": ["Adamson, Rodney"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["205. M.P. 100 Rodney Adamson"]
+  },
+  "999": {
+    "tagName": ["Black, George"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["207. M.P. 103 George Black"]
+  },
+  "988": {
+    "tagName": ["Anderson, A. J."],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["206. M.P. 101 A. J. Anderson"]
+  },
+  "814": {
+    "tagDescription": ["201. M 700 - Y Miscellaneous"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "1032": {
+    "tagDescription": ["208. M.P. 104 Percy Black"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagName": ["Black, Percy"]
+  },
+  "616": {
+    "tagDescription": ["198. M 700 - U Professor Frank Underhill"],
+    "tagName": ["Underhill, Frank Professor"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "821": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["202. M 700 - Z Miscellaneous"]
+  },
+  "1167": {
+    "tagDescription": ["210. M.P. 106 Hon. H. A. Bruce"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagName": ["Bruce, H. A."]
+  },
+  "860": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["204. M.P. 99 Circular Letter to Members of Parliament."]
+  },
+  "141": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["195. M 700 - S No. 1 Miscellaneous"]
+  },
+  "1258": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagName": ["Cockeram, Alan Col."],
+    "tagDescription": ["212. M.P. 109 Col. Alan Cockeram"]
+  },
+  "415": {
+    "tagDescription": ["196. M 700 - S No. 2 Miscellaneous"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "674": {
+    "tagDescription": ["200. M 700 - W Miscellaneous"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "1308": {
+    "tagName": ["Desmond, C. E."],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["213. M.P. 110 C. E. Desmond"]
+  },
+  "635": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["199. M 700 - V Miscellaneous"]
+  },
+  "1227": {
+    "tagName": ["Church, T. L."],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["211. M.P. 108 T. L. Church"]
+  },
+  "832": {
+    "tagDescription": ["203. M 800 Merchant Navy"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "89": {
+    "tagDescription": ["194. M 700 - R No. 2 Miscellaneous"],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "1119": {
+    "tagDescription": ["209. M.P. 105 A. J . Brooks "],
+    "tagName": ["Brooks, A. J."],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  }
+}

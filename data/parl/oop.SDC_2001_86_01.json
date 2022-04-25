@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","pubmax":"1945-12-18","node":[["fra","s","journals","20-1",1]],"language":["fra"],"session":["20-1"],"pubmin":"1945-09-06","label":"Journaux du Sénat, 20e Législature, 1re Session : Vol. 86"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1945-12-18",
+  "node": [["fra", "s", "journals", "20-1", 1]],
+  "language": ["fra"],
+  "session": ["20-1"],
+  "pubmin": "1945-09-06",
+  "label": "Journaux du Sénat, 20e Législature, 1re Session : Vol. 86"
+}

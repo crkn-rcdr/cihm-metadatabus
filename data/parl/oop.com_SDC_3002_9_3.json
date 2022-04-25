@@ -1,1 +1,12 @@
-{"chamber":["s"],"type":"committees","node":[["fra","s","committees","30-2",12]],"pubmax":"1977-10-17","reportTitle":["Une politique scientifique canadienne"],"language":["fra"],"session":["30-2"],"pubmin":"1976-10-12","label":"Comités du Sénat, 30e Législature, 2e Session : Comité spécial sur la politique scientifique, Rapport vol. 4","callNumber":"1976/77 S3 A12f"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "30-2", 12]],
+  "pubmax": "1977-10-17",
+  "reportTitle": ["Une politique scientifique canadienne"],
+  "language": ["fra"],
+  "session": ["30-2"],
+  "pubmin": "1976-10-12",
+  "label": "Comités du Sénat, 30e Législature, 2e Session : Comité spécial sur la politique scientifique, Rapport vol. 4",
+  "callNumber": "1976/77 S3 A12f"
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"cproc","node":[["fra","c","cproc","05-2",1]],"pubmax":"1884-04-19","language":["fra"],"session":["05-2"],"pubmin":"1884-01-17","label":"Procès-verbaux de la Chambre des communes, 5e Législature, 2e Session : 1-67","callNumber":"J103 H44 1884"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "05-2", 1]],
+  "pubmax": "1884-04-19",
+  "language": ["fra"],
+  "session": ["05-2"],
+  "pubmin": "1884-01-17",
+  "label": "Procès-verbaux de la Chambre des communes, 5e Législature, 2e Session : 1-67",
+  "callNumber": "J103 H44 1884"
+}

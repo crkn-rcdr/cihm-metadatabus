@@ -1,1 +1,15 @@
-{"pubmax":"1903-10-24","node":[["eng","s","bills","09-3",1],["eng","c","bills","09-3",1]],"type":"bills","chamber":["s","c"],"primeMinisters":"Laurier, Wilfrid","callNumber":"KE72 C36 9-3 no.2-272","label":"Senate and House of Commons Bills, 9th Parliament, 3rd Session : A-Z, 2-272","pubmin":"1903-03-12","session":["09-3"],"language":["eng"]}
+{
+  "pubmax": "1903-10-24",
+  "node": [
+    ["eng", "s", "bills", "09-3", 1],
+    ["eng", "c", "bills", "09-3", 1]
+  ],
+  "type": "bills",
+  "chamber": ["s", "c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "callNumber": "KE72 C36 9-3 no.2-272",
+  "label": "Senate and House of Commons Bills, 9th Parliament, 3rd Session : A-Z, 2-272",
+  "pubmin": "1903-03-12",
+  "session": ["09-3"],
+  "language": ["eng"]
+}

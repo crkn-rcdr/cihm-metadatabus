@@ -1,1 +1,11 @@
-{"session":["01-4"],"language":["eng"],"label":"House of Commons Debates, 1st Parliament, 4th Session : Vol. 1","pubmin":"1871-02-15","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"node":[["eng","c","debates","01-4",1]],"pubmax":"1871-04-14","type":"debates"}
+{
+  "session": ["01-4"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 1st Parliament, 4th Session : Vol. 1",
+  "pubmin": "1871-02-15",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "01-4", 1]],
+  "pubmax": "1871-04-14",
+  "type": "debates"
+}

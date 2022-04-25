@@ -1,1 +1,12 @@
-{"session":["26-1"],"language":["fra"],"callNumber":"1963 A4 A4","label":"Comités de la Chambre des communes, 26e Législature, 1re Session : Comité spécial des aliments et drogues, vol. 1","pubmin":"1963-05-16","chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","pubmax":"1963-12-21","node":[["fra","c","committees","26-1",4]],"type":"committees"}
+{
+  "session": ["26-1"],
+  "language": ["fra"],
+  "callNumber": "1963 A4 A4",
+  "label": "Comités de la Chambre des communes, 26e Législature, 1re Session : Comité spécial des aliments et drogues, vol. 1",
+  "pubmin": "1963-05-16",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "pubmax": "1963-12-21",
+  "node": [["fra", "c", "committees", "26-1", 4]],
+  "type": "committees"
+}

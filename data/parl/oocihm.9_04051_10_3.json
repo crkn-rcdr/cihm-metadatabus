@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Mackenzie, Alexander","type":"sessional","pubmax":"1877-04-28","node":[["fra","c","sessional","03-4",3]],"language":["fra"],"session":["03-4"],"pubmin":"1877-02-08","label":"Documents parlementaires, 3e Législature, 4e Session : vol. 3"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "type": "sessional",
+  "pubmax": "1877-04-28",
+  "node": [["fra", "c", "sessional", "03-4", 3]],
+  "language": ["fra"],
+  "session": ["03-4"],
+  "pubmin": "1877-02-08",
+  "label": "Documents parlementaires, 3e Législature, 4e Session : vol. 3"
+}

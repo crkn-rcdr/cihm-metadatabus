@@ -1,1 +1,30 @@
-{"280":{"tagDate":["[1921-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"],"tagDescription":["International Boundary Waters. Unites States and Canada"]},"1793":{"tagDescription":["Prints  International Boundary Waters"],"tagDate":["[1906-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]},"657":{"tagDate":["[1918-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],"tagDescription":["International Boundary Waters. Unites States and Canada"]},"1403":{"tagDescription":["International Boundary Waters. Unites States and Canada"],"tagDate":["[1926-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]},"936":{"tagDate":["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["International Boundary Waters. Unites States and Canada"]}}
+{
+  "280": {
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ]
+  },
+  "1793": {
+    "tagDescription": ["Prints  International Boundary Waters"],
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]
+  },
+  "657": {
+    "tagDate": ["[1918-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ]
+  },
+  "1403": {
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ],
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]
+  },
+  "936": {
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ]
+  }
+}

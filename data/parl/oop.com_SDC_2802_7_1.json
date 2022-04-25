@@ -1,1 +1,11 @@
-{"chamber":["s"],"node":[["fra","s","committees","28-2",20]],"pubmax":"1970-10-07","type":"committees","session":["28-2"],"language":["fra"],"label":"Comités du Sénat, 28e Législature, 2e Session : Comité spécial de la politique scientifique, vol. 1","callNumber":"1969/70 P6 A1","pubmin":"1969-10-23"}
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "committees", "28-2", 20]],
+  "pubmax": "1970-10-07",
+  "type": "committees",
+  "session": ["28-2"],
+  "language": ["fra"],
+  "label": "Comités du Sénat, 28e Législature, 2e Session : Comité spécial de la politique scientifique, vol. 1",
+  "callNumber": "1969/70 P6 A1",
+  "pubmin": "1969-10-23"
+}

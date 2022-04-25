@@ -1,1 +1,12 @@
-{"callNumber":"1947 E4 A1","label":"House of Commons Committees, 20th Parliament, 3rd Session : Special Committee on Dominion Elections Act 1938, vol. 1","pubmin":"1947-01-30","session":["20-3"],"language":["eng"],"pubmax":"1947-07-17","node":[["eng","c","committees","20-3",4]],"type":"committees","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie"}
+{
+  "callNumber": "1947 E4 A1",
+  "label": "House of Commons Committees, 20th Parliament, 3rd Session : Special Committee on Dominion Elections Act 1938, vol. 1",
+  "pubmin": "1947-01-30",
+  "session": ["20-3"],
+  "language": ["eng"],
+  "pubmax": "1947-07-17",
+  "node": [["eng", "c", "committees", "20-3", 4]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

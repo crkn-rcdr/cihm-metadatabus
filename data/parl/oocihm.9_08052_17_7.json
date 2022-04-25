@@ -1,1 +1,11 @@
-{"pubmin":"1884-01-17","label":"Sessional Papers, 5th Parliament, 2nd Session : vol. 7","language":["eng"],"session":["05-2"],"type":"sessional","pubmax":"1884-04-19","node":[["eng","c","sessional","05-2",7]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "pubmin": "1884-01-17",
+  "label": "Sessional Papers, 5th Parliament, 2nd Session : vol. 7",
+  "language": ["eng"],
+  "session": ["05-2"],
+  "type": "sessional",
+  "pubmax": "1884-04-19",
+  "node": [["eng", "c", "sessional", "05-2", 7]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

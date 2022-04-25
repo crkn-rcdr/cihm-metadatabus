@@ -1,1 +1,14 @@
-{"callNumber":"34-3 I547 A1 no.26","label":"Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Internal Economy, Budgets and Administration, vol. 2 no. 26 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent de la régie interne, des budgets et de l'administration, vol. 2 no. 26","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"],"pubmax":"1993-09-08","node":[["eng","s","committees","34-3",21],["fra","s","committees","34-3",40]],"type":"committees","chamber":["s"]}
+{
+  "callNumber": "34-3 I547 A1 no.26",
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Internal Economy, Budgets and Administration, vol. 2 no. 26 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent de la régie interne, des budgets et de l'administration, vol. 2 no. 26",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "s", "committees", "34-3", 21],
+    ["fra", "s", "committees", "34-3", 40]
+  ],
+  "type": "committees",
+  "chamber": ["s"]
+}

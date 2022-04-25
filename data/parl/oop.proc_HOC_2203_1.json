@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","type":"cproc","pubmax":"1956-08-14","node":[["eng","c","cproc","22-3",1]],"language":["eng"],"session":["22-3"],"pubmin":"1956-01-10","callNumber":"J103 H41 1956 v.1 c.2","label":"House of Commons Votes and Proceedings, 22nd Parliament, 3rd Session : 1-76"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "cproc",
+  "pubmax": "1956-08-14",
+  "node": [["eng", "c", "cproc", "22-3", 1]],
+  "language": ["eng"],
+  "session": ["22-3"],
+  "pubmin": "1956-01-10",
+  "callNumber": "J103 H41 1956 v.1 c.2",
+  "label": "House of Commons Votes and Proceedings, 22nd Parliament, 3rd Session : 1-76"
+}

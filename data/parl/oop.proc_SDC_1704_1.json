@@ -1,1 +1,11 @@
-{"pubmin":"1932-10-06","label":"Procès-verbaux du Sénat, 17e Législature, 4e Session : 1-64","callNumber":"J103 H43 1932-33","language":["fra"],"session":["17-4"],"type":"sproc","node":[["fra","s","sproc","17-4",1]],"pubmax":"1933-05-27","chamber":["s"]}
+{
+  "pubmin": "1932-10-06",
+  "label": "Procès-verbaux du Sénat, 17e Législature, 4e Session : 1-64",
+  "callNumber": "J103 H43 1932-33",
+  "language": ["fra"],
+  "session": ["17-4"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "17-4", 1]],
+  "pubmax": "1933-05-27",
+  "chamber": ["s"]
+}

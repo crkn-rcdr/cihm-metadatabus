@@ -1,1 +1,13 @@
-{"node":[["eng","s","journals","35-1",2],["fra","s","journals","35-1",2]],"pubmax":"1996-02-02","type":"journals","chamber":["s"],"label":"Senate Journals, 35th Parliament, 1st Session : Vol. 132 Pt. 2 = Journaux du Sénat, 35e Législature, 1re Session : Vol. 132 Pt. 2","pubmin":"1994-01-17","session":["35-1"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "s", "journals", "35-1", 2],
+    ["fra", "s", "journals", "35-1", 2]
+  ],
+  "pubmax": "1996-02-02",
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Senate Journals, 35th Parliament, 1st Session : Vol. 132 Pt. 2 = Journaux du Sénat, 35e Législature, 1re Session : Vol. 132 Pt. 2",
+  "pubmin": "1994-01-17",
+  "session": ["35-1"],
+  "language": ["eng", "fra"]
+}

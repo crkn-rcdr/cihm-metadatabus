@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"debates","pubmax":"1965-09-08","node":[["fra","s","debates","26-3",1]],"language":["fra"],"session":["26-3"],"pubmin":"1965-04-05","label":"Débats du Sénat, 26e Législature, 3e Session : Vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1965-09-08",
+  "node": [["fra", "s", "debates", "26-3", 1]],
+  "language": ["fra"],
+  "session": ["26-3"],
+  "pubmin": "1965-04-05",
+  "label": "Débats du Sénat, 26e Législature, 3e Session : Vol. 1"
+}

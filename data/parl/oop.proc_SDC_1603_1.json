@@ -1,1 +1,11 @@
-{"chamber":["s"],"node":[["fra","s","sproc","16-3",1]],"pubmax":"1929-06-14","type":"sproc","session":["16-3"],"language":["fra"],"label":"Procès-verbaux du Sénat, 16e Législature, 3e Session : 1-44","callNumber":"J103 H43 1929","pubmin":"1929-02-07"}
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "sproc", "16-3", 1]],
+  "pubmax": "1929-06-14",
+  "type": "sproc",
+  "session": ["16-3"],
+  "language": ["fra"],
+  "label": "Procès-verbaux du Sénat, 16e Législature, 3e Session : 1-44",
+  "callNumber": "J103 H43 1929",
+  "pubmin": "1929-02-07"
+}

@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmax":"1873-08-13","node":[["eng","c","bills","02-1",2]],"type":"bills","session":["02-1"],"language":["eng"],"callNumber":"KE72 C36 2-1 no.2-159","label":"House of Commons Bills, 2nd Parliament, 1st Session : 2-159","pubmin":"1873-03-05"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1873-08-13",
+  "node": [["eng", "c", "bills", "02-1", 2]],
+  "type": "bills",
+  "session": ["02-1"],
+  "language": ["eng"],
+  "callNumber": "KE72 C36 2-1 no.2-159",
+  "label": "House of Commons Bills, 2nd Parliament, 1st Session : 2-159",
+  "pubmin": "1873-03-05"
+}

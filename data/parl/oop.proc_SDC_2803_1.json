@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["28-3"],"pubmin":"1970-10-08","callNumber":"J103 H43 1970/72 no 1-90","label":"Procès-verbaux du Sénat, 28e Législature, 3e Session : 1-90","chamber":["s"],"type":"sproc","pubmax":"1972-02-16","node":[["fra","s","sproc","28-3",1]]}
+{
+  "language": ["fra"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "callNumber": "J103 H43 1970/72 no 1-90",
+  "label": "Procès-verbaux du Sénat, 28e Législature, 3e Session : 1-90",
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1972-02-16",
+  "node": [["fra", "s", "sproc", "28-3", 1]]
+}

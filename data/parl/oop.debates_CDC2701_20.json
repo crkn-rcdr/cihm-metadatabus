@@ -1,1 +1,11 @@
-{"primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"node":[["fra","c","debates","27-1",15]],"pubmax":"1967-05-08","type":"debates","session":["27-1"],"language":["fra"],"label":"Débats de la Chambre des communes, 27e Législature, 1re Session : Index","pubmin":"1966-01-18"}
+{
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "27-1", 15]],
+  "pubmax": "1967-05-08",
+  "type": "debates",
+  "session": ["27-1"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 27e Législature, 1re Session : Index",
+  "pubmin": "1966-01-18"
+}

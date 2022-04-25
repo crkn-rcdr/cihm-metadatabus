@@ -1,1 +1,12 @@
-{"pubmin":"1930-02-20","label":"Comités de la Chambre des communes, 16e Législature, 4e Session : Comité permanent des relations industrielles et internationales, vol. 1","callNumber":"1930 R44 A4","language":["fra"],"session":["16-4"],"type":"committees","node":[["fra","c","committees","16-4",2]],"pubmax":"1930-05-30","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "pubmin": "1930-02-20",
+  "label": "Comités de la Chambre des communes, 16e Législature, 4e Session : Comité permanent des relations industrielles et internationales, vol. 1",
+  "callNumber": "1930 R44 A4",
+  "language": ["fra"],
+  "session": ["16-4"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "16-4", 2]],
+  "pubmax": "1930-05-30",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

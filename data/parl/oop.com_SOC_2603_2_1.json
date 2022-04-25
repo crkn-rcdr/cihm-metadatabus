@@ -1,1 +1,11 @@
-{"chamber":["s"],"node":[["eng","s","committees","26-3",2]],"pubmax":"1965-09-08","type":"committees","session":["26-3"],"language":["eng"],"label":"Senate Committees, 26th Parliament, 3rd Session : Standing Committee on External Relations, vol. 1","callNumber":"1965 E98 A1","pubmin":"1965-04-05"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "26-3", 2]],
+  "pubmax": "1965-09-08",
+  "type": "committees",
+  "session": ["26-3"],
+  "language": ["eng"],
+  "label": "Senate Committees, 26th Parliament, 3rd Session : Standing Committee on External Relations, vol. 1",
+  "callNumber": "1965 E98 A1",
+  "pubmin": "1965-04-05"
+}

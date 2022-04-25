@@ -1,1 +1,79 @@
-{"176":{"tagDescription":["National Council and Executive Minutes"],"tagDate":["[1955-01-01T00:00:00.000Z TO 1956-12-31T23:59:59.999Z]"],"tagNotebook":["National Council and National Executive; CCF"]},"913":{"tagNotebook":["National Council and Executive Correspondence"],"tagDescription":["National Council and Executive Correspondence"],"tagDate":["1953-01-01T00:00:00.000Z"]},"283":{"tagDate":["[1957-10-19T00:00:00.000Z TO 1957-10-20T23:59:59.999Z]"],"tagDescription":["National Council Meeting. D. Lewis Notes On"],"tagNotebook":["National Council and National Executive; CCF"]},"1331":{"tagDate":["1957-01-01T00:00:00.000Z"],"tagDescription":["National Council and Executive Correspondence"],"tagNotebook":["National Council and Executive Correspondence"]},"731":{"tagNotebook":["National Council and Executive Correspondence"],"tagDescription":["National Council and Executive Correspondence"],"tagDate":["[1947-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"]},"428":{"tagNotebook":["National Council and Executive Correspondence"],"tagDescription":["National Council and Executive Correspondence"],"tagDate":["1934-01-01T00:00:00.000Z"]},"47":{"tagDescription":["National Council and Executive Minutes"],"tagDate":["[1953-01-01T00:00:00.000Z TO 1954-12-31T23:59:59.999Z]"],"tagNotebook":["National Council and National Executive; CCF"]},"527":{"tagNotebook":["National Council and Executive Correspondence"],"tagDate":["[1939-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"],"tagDescription":["National Council and Executive Correspondence"]},"296":{"tagNotebook":["National Council and Executive Correspondence"],"tagDescription":["Provisional Council Correspondence"],"tagDate":["1932-01-01T00:00:00.000Z"]},"512":{"tagNotebook":["National Council and Executive Correspondence"],"tagDate":["[1935-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],"tagDescription":["National Council and Executive Correspondence"]},"1025":{"tagDate":["1955-01-01T00:00:00.000Z"],"tagDescription":["National Council and Executive Correspondence"],"tagNotebook":["National Council and Executive Correspondence"]},"1424":{"tagDescription":["National Council and Executive Correspondence"],"tagDate":["1958-01-01T00:00:00.000Z"],"tagNotebook":["National Council and Executive Correspondence"]},"312":{"tagDescription":["Provisional Council Correspondence and National Council Correspondence"],"tagDate":["1933-01-01T00:00:00.000Z"],"tagNotebook":["National Council and Executive Correspondence"]},"1200":{"tagNotebook":["National Council and Executive Correspondence"],"tagDate":["1956-01-01T00:00:00.000Z"],"tagDescription":["National Council and Executive Correspondence"]},"963":{"tagDescription":["National Council and Executive Correspondence"],"tagDate":["1954-01-01T00:00:00.000Z"],"tagNotebook":["National Council and Executive Correspondence"]}}
+{
+  "176": {
+    "tagDescription": ["National Council and Executive Minutes"],
+    "tagDate": ["[1955-01-01T00:00:00.000Z TO 1956-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["National Council and National Executive; CCF"]
+  },
+  "913": {
+    "tagNotebook": ["National Council and Executive Correspondence"],
+    "tagDescription": ["National Council and Executive Correspondence"],
+    "tagDate": ["1953-01-01T00:00:00.000Z"]
+  },
+  "283": {
+    "tagDate": ["[1957-10-19T00:00:00.000Z TO 1957-10-20T23:59:59.999Z]"],
+    "tagDescription": ["National Council Meeting. D. Lewis Notes On"],
+    "tagNotebook": ["National Council and National Executive; CCF"]
+  },
+  "1331": {
+    "tagDate": ["1957-01-01T00:00:00.000Z"],
+    "tagDescription": ["National Council and Executive Correspondence"],
+    "tagNotebook": ["National Council and Executive Correspondence"]
+  },
+  "731": {
+    "tagNotebook": ["National Council and Executive Correspondence"],
+    "tagDescription": ["National Council and Executive Correspondence"],
+    "tagDate": ["[1947-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"]
+  },
+  "428": {
+    "tagNotebook": ["National Council and Executive Correspondence"],
+    "tagDescription": ["National Council and Executive Correspondence"],
+    "tagDate": ["1934-01-01T00:00:00.000Z"]
+  },
+  "47": {
+    "tagDescription": ["National Council and Executive Minutes"],
+    "tagDate": ["[1953-01-01T00:00:00.000Z TO 1954-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["National Council and National Executive; CCF"]
+  },
+  "527": {
+    "tagNotebook": ["National Council and Executive Correspondence"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"],
+    "tagDescription": ["National Council and Executive Correspondence"]
+  },
+  "296": {
+    "tagNotebook": ["National Council and Executive Correspondence"],
+    "tagDescription": ["Provisional Council Correspondence"],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "512": {
+    "tagNotebook": ["National Council and Executive Correspondence"],
+    "tagDate": ["[1935-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],
+    "tagDescription": ["National Council and Executive Correspondence"]
+  },
+  "1025": {
+    "tagDate": ["1955-01-01T00:00:00.000Z"],
+    "tagDescription": ["National Council and Executive Correspondence"],
+    "tagNotebook": ["National Council and Executive Correspondence"]
+  },
+  "1424": {
+    "tagDescription": ["National Council and Executive Correspondence"],
+    "tagDate": ["1958-01-01T00:00:00.000Z"],
+    "tagNotebook": ["National Council and Executive Correspondence"]
+  },
+  "312": {
+    "tagDescription": [
+      "Provisional Council Correspondence and National Council Correspondence"
+    ],
+    "tagDate": ["1933-01-01T00:00:00.000Z"],
+    "tagNotebook": ["National Council and Executive Correspondence"]
+  },
+  "1200": {
+    "tagNotebook": ["National Council and Executive Correspondence"],
+    "tagDate": ["1956-01-01T00:00:00.000Z"],
+    "tagDescription": ["National Council and Executive Correspondence"]
+  },
+  "963": {
+    "tagDescription": ["National Council and Executive Correspondence"],
+    "tagDate": ["1954-01-01T00:00:00.000Z"],
+    "tagNotebook": ["National Council and Executive Correspondence"]
+  }
+}

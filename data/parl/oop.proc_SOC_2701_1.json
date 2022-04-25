@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["27-1"],"pubmin":"1966-01-18","callNumber":"J103 H41966/67 no. 1-25","label":"Senate Minutes of Proceedings, 27th Parliament, 1st Session : 1-25","chamber":["s"],"type":"sproc","pubmax":"1967-05-08","node":[["eng","s","sproc","27-1",1]]}
+{
+  "language": ["eng"],
+  "session": ["27-1"],
+  "pubmin": "1966-01-18",
+  "callNumber": "J103 H41966/67 no. 1-25",
+  "label": "Senate Minutes of Proceedings, 27th Parliament, 1st Session : 1-25",
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1967-05-08",
+  "node": [["eng", "s", "sproc", "27-1", 1]]
+}

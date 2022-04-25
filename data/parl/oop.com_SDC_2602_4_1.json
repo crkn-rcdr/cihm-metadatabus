@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","pubmax":"1965-04-03","node":[["fra","s","committees","26-2",10]],"language":["fra"],"session":["26-2"],"pubmin":"1964-02-18","callNumber":"1964/65 R4 A42","label":"Comités du Sénat, 26e Législature, 2e Session : Comité permanent des relations extérieures, vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1965-04-03",
+  "node": [["fra", "s", "committees", "26-2", 10]],
+  "language": ["fra"],
+  "session": ["26-2"],
+  "pubmin": "1964-02-18",
+  "callNumber": "1964/65 R4 A42",
+  "label": "Comités du Sénat, 26e Législature, 2e Session : Comité permanent des relations extérieures, vol. 1"
+}

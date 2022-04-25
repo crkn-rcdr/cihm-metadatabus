@@ -1,1 +1,40 @@
-{"889":{"tagDescription":["Ibid"]},"2051":{"tagDate":["1925-01-01T00:00:00.000Z"],"tagDescription":["Ibid"]},"1024":{"tagDescription":["Ibid"]},"82":{"tagDate":["[1915-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],"tagDescription":["United States Consular Appointments"]},"1910":{"tagDate":["1923-01-01T00:00:00.000Z"],"tagDescription":["Ibid"]},"708":{"tagDate":["[1918-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],"tagDescription":["United States Consular Appointments"]},"1531":{"tagDescription":["Ibid"],"tagDate":["1924-01-01T00:00:00.000Z"]},"1197":{"tagDescription":["United States Consular Appointments"],"tagDate":["[1921-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]},"1362":{"tagDate":["1920-01-01T00:00:00.000Z"],"tagDescription":["Ibid"]},"516":{"tagDescription":["United States Consular Appointments"],"tagDate":["[1919-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]},"1750":{"tagDescription":["United States Consular Appointments"],"tagDate":["[1924-12-31T23:59:59.999Z TO 1932-01-01T00:00:00.000Z]"]}}
+{
+  "889": { "tagDescription": ["Ibid"] },
+  "2051": {
+    "tagDate": ["1925-01-01T00:00:00.000Z"],
+    "tagDescription": ["Ibid"]
+  },
+  "1024": { "tagDescription": ["Ibid"] },
+  "82": {
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],
+    "tagDescription": ["United States Consular Appointments"]
+  },
+  "1910": {
+    "tagDate": ["1923-01-01T00:00:00.000Z"],
+    "tagDescription": ["Ibid"]
+  },
+  "708": {
+    "tagDate": ["[1918-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],
+    "tagDescription": ["United States Consular Appointments"]
+  },
+  "1531": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["1924-01-01T00:00:00.000Z"]
+  },
+  "1197": {
+    "tagDescription": ["United States Consular Appointments"],
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]
+  },
+  "1362": {
+    "tagDate": ["1920-01-01T00:00:00.000Z"],
+    "tagDescription": ["Ibid"]
+  },
+  "516": {
+    "tagDescription": ["United States Consular Appointments"],
+    "tagDate": ["[1919-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  },
+  "1750": {
+    "tagDescription": ["United States Consular Appointments"],
+    "tagDate": ["[1924-12-31T23:59:59.999Z TO 1932-01-01T00:00:00.000Z]"]
+  }
+}

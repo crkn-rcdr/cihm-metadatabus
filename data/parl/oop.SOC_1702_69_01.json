@@ -1,1 +1,10 @@
-{"pubmax":"1931-08-03","node":[["eng","s","journals","17-2",1]],"type":"journals","chamber":["s"],"label":"Senate Journals, 17th Parliament, 2nd Session : Vol. 69","pubmin":"1931-03-12","session":["17-2"],"language":["eng"]}
+{
+  "pubmax": "1931-08-03",
+  "node": [["eng", "s", "journals", "17-2", 1]],
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Senate Journals, 17th Parliament, 2nd Session : Vol. 69",
+  "pubmin": "1931-03-12",
+  "session": ["17-2"],
+  "language": ["eng"]
+}

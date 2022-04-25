@@ -1,1 +1,12 @@
-{"pubmin":"1940-11-07","label":"Comités de la Chambre des communes, 19e Législature, 2e Session : Comité spécial sur la Loi des pensions et la Loi des allocations aux anciens combattants, vol. 1","callNumber":"1940/42 P4 A1","language":["fra"],"session":["19-2"],"type":"committees","node":[["fra","c","committees","19-2",4]],"pubmax":"1942-01-21","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "pubmin": "1940-11-07",
+  "label": "Comités de la Chambre des communes, 19e Législature, 2e Session : Comité spécial sur la Loi des pensions et la Loi des allocations aux anciens combattants, vol. 1",
+  "callNumber": "1940/42 P4 A1",
+  "language": ["fra"],
+  "session": ["19-2"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "19-2", 4]],
+  "pubmax": "1942-01-21",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

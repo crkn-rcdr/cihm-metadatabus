@@ -1,1 +1,11 @@
-{"chamber":["s"],"pubmax":"1988-10-01","node":[["fra","s","committees","33-2",50]],"type":"committees","session":["33-2"],"language":["fra"],"callNumber":"33-2 T47 A12f","label":"Comités du Sénat, 33e Législature, 2e Session : Comité spécial sur le terrorisme et la sécurité publique, Rapport","pubmin":"1986-09-30"}
+{
+  "chamber": ["s"],
+  "pubmax": "1988-10-01",
+  "node": [["fra", "s", "committees", "33-2", 50]],
+  "type": "committees",
+  "session": ["33-2"],
+  "language": ["fra"],
+  "callNumber": "33-2 T47 A12f",
+  "label": "Comités du Sénat, 33e Législature, 2e Session : Comité spécial sur le terrorisme et la sécurité publique, Rapport",
+  "pubmin": "1986-09-30"
+}

@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["07-3"],"pubmin":"1893-01-26","label":"Senate Minutes of Proceedings, 7th Parliament, 3rd Session : 1-37","callNumber":"J103 H4 1893","chamber":["s"],"type":"sproc","node":[["eng","s","sproc","07-3",1]],"pubmax":"1893-04-01"}
+{
+  "language": ["eng"],
+  "session": ["07-3"],
+  "pubmin": "1893-01-26",
+  "label": "Senate Minutes of Proceedings, 7th Parliament, 3rd Session : 1-37",
+  "callNumber": "J103 H4 1893",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "07-3", 1]],
+  "pubmax": "1893-04-01"
+}

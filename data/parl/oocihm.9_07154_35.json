@@ -1,1 +1,10 @@
-{"chamber":["s"],"node":[["eng","s","journals","08-5",1]],"pubmax":"1900-07-18","type":"journals","session":["08-5"],"language":["eng"],"label":"Senate Journals, 8th Parliament, 5th Session : Vol. 35","pubmin":"1900-02-01"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "08-5", 1]],
+  "pubmax": "1900-07-18",
+  "type": "journals",
+  "session": ["08-5"],
+  "language": ["eng"],
+  "label": "Senate Journals, 8th Parliament, 5th Session : Vol. 35",
+  "pubmin": "1900-02-01"
+}

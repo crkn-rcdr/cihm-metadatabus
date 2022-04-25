@@ -1,1 +1,12 @@
-{"pubmax":"1935-07-05","node":[["eng","c","committees","17-6",2]],"type":"committees","chamber":["c"],"primeMinisters":"Bennett, Richard Bedford","callNumber":"1935 G7 A1","label":"House of Commons Committees, 17th Parliament, 6th Session : Special Committee on Canadian Grain Board Act, vol. 1","pubmin":"1935-01-17","session":["17-6"],"language":["eng"]}
+{
+  "pubmax": "1935-07-05",
+  "node": [["eng", "c", "committees", "17-6", 2]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "callNumber": "1935 G7 A1",
+  "label": "House of Commons Committees, 17th Parliament, 6th Session : Special Committee on Canadian Grain Board Act, vol. 1",
+  "pubmin": "1935-01-17",
+  "session": ["17-6"],
+  "language": ["eng"]
+}

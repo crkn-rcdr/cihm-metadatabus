@@ -1,1 +1,15 @@
-{"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",49]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","callNumber":"34-3 D49 A12","label":"House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on Development and Human Rights, Report","pubmin":"1991-05-13","session":["34-3"],"reportTitle":["Canada, Southern Africa, and the 1990s: Nourishing the Roots of Democracy"],"language":["eng"]}
+{
+  "pubmax": "1993-09-08",
+  "node": [["eng", "c", "committees", "34-3", 49]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 D49 A12",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on Development and Human Rights, Report",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "reportTitle": [
+    "Canada, Southern Africa, and the 1990s: Nourishing the Roots of Democracy"
+  ],
+  "language": ["eng"]
+}

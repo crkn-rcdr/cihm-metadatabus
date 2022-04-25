@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["03-5"],"pubmin":"1878-02-07","label":"Senate Debates, 3rd Parliament, 5th Session : Vol. 1","chamber":["s"],"type":"debates","node":[["eng","s","debates","03-5",1]],"pubmax":"1878-05-10"}
+{
+  "language": ["eng"],
+  "session": ["03-5"],
+  "pubmin": "1878-02-07",
+  "label": "Senate Debates, 3rd Parliament, 5th Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["eng", "s", "debates", "03-5", 1]],
+  "pubmax": "1878-05-10"
+}

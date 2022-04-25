@@ -1,1 +1,173 @@
-{"117":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["204. St. Lawrence Waterways."]},"635":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["217. United States Extradition Papers."]},"731":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["220. Veterans"]},"120":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["205. Subsides."]},"125":{"tagDescription":["206. Sympathy, Letters of "],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"388":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["211. Thompson, Geo. C., Halifax."]},"1214":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["228. Wartime Housing Ltd."]},"1204":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["227. National War Services"]},"249":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["207. Tait, J. Starr"]},"1132":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["226. War Appropriation (a) United Nations Mutual Aid","226. (b) Bill (1944)."]},"252":{"tagDescription":["208. Temperance."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"725":{"tagDescription":["219. Verner Ottawa Letter."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"626":{"tagDescription":["216. United Service Corporation."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"46":{"tagDescription":["202. Speeches, R. B. Hanson."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"304":{"tagDescription":["209. Tennant, Mrs. D. A."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"778":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["221. Veteran's Affairs Bill."]},"933":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["224. Victory Bonds."]},"100":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["203. St. Croix Harbour."]},"1228":{"tagDescription":["229. Wartime Information Board."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"578":{"tagDescription":["215. Unemployment Trek."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"453":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["213. Trans-Canada Airlines."]},"944":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["225. War Appropriation Bill."]},"477":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["214. Trend."]},"323":{"tagDescription":["210. Thanks, Letters of"],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"888":{"tagDescription":["223. Veterans Land Act."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"722":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["218. United States Power Company."]},"879":{"tagDescription":["222. Veterans Guard of Canada"],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"424":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["212. Tomer, Ms. Eunice"]}}
+{
+  "117": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["204. St. Lawrence Waterways."]
+  },
+  "635": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["217. United States Extradition Papers."]
+  },
+  "731": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["220. Veterans"]
+  },
+  "120": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["205. Subsides."]
+  },
+  "125": {
+    "tagDescription": ["206. Sympathy, Letters of "],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "388": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["211. Thompson, Geo. C., Halifax."]
+  },
+  "1214": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["228. Wartime Housing Ltd."]
+  },
+  "1204": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["227. National War Services"]
+  },
+  "249": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["207. Tait, J. Starr"]
+  },
+  "1132": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": [
+      "226. War Appropriation (a) United Nations Mutual Aid",
+      "226. (b) Bill (1944)."
+    ]
+  },
+  "252": {
+    "tagDescription": ["208. Temperance."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "725": {
+    "tagDescription": ["219. Verner Ottawa Letter."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "626": {
+    "tagDescription": ["216. United Service Corporation."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "46": {
+    "tagDescription": ["202. Speeches, R. B. Hanson."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "304": {
+    "tagDescription": ["209. Tennant, Mrs. D. A."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "778": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["221. Veteran's Affairs Bill."]
+  },
+  "933": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["224. Victory Bonds."]
+  },
+  "100": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["203. St. Croix Harbour."]
+  },
+  "1228": {
+    "tagDescription": ["229. Wartime Information Board."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "578": {
+    "tagDescription": ["215. Unemployment Trek."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "453": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["213. Trans-Canada Airlines."]
+  },
+  "944": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["225. War Appropriation Bill."]
+  },
+  "477": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["214. Trend."]
+  },
+  "323": {
+    "tagDescription": ["210. Thanks, Letters of"],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "888": {
+    "tagDescription": ["223. Veterans Land Act."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "722": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["218. United States Power Company."]
+  },
+  "879": {
+    "tagDescription": ["222. Veterans Guard of Canada"],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "424": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["212. Tomer, Ms. Eunice"]
+  }
+}

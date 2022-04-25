@@ -1,1 +1,11 @@
-{"label":"House of Commons Debates, 21st Parliament, 5th Session : Index","pubmin":"1951-10-09","session":["21-5"],"language":["eng"],"pubmax":"1951-12-29","node":[["eng","c","debates","21-5",3]],"type":"debates","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen"}
+{
+  "label": "House of Commons Debates, 21st Parliament, 5th Session : Index",
+  "pubmin": "1951-10-09",
+  "session": ["21-5"],
+  "language": ["eng"],
+  "pubmax": "1951-12-29",
+  "node": [["eng", "c", "debates", "21-5", 3]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

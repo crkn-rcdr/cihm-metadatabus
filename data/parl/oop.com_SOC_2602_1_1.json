@@ -1,1 +1,11 @@
-{"pubmin":"1964-02-18","callNumber":"1964/65 A25 A1 v.1","label":"Senate Committees, 26th Parliament, 2nd Session : Special Committee on Aging, vol. 1","language":["eng"],"session":["26-2"],"type":"committees","pubmax":"1965-04-03","node":[["eng","s","committees","26-2",1]],"chamber":["s"]}
+{
+  "pubmin": "1964-02-18",
+  "callNumber": "1964/65 A25 A1 v.1",
+  "label": "Senate Committees, 26th Parliament, 2nd Session : Special Committee on Aging, vol. 1",
+  "language": ["eng"],
+  "session": ["26-2"],
+  "type": "committees",
+  "pubmax": "1965-04-03",
+  "node": [["eng", "s", "committees", "26-2", 1]],
+  "chamber": ["s"]
+}

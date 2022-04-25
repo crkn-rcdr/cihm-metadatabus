@@ -1,1 +1,15 @@
-{"session":["32-2"],"language":["eng","fra"],"label":"House of Commons Committees, 32nd Parliament, 2nd Session : Standing Committee on Miscellaneous Estimates, vol. 1 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité permanent des prévisions budgétaires en général, vol. 1","callNumber":"1983/84 M53 A1","pubmin":"1983-12-07","primeMinisters":"Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)","chamber":["c"],"node":[["eng","c","committees","32-2",18],["fra","c","committees","32-2",25]],"pubmax":"1984-07-09","type":"committees"}
+{
+  "session": ["32-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 32nd Parliament, 2nd Session : Standing Committee on Miscellaneous Estimates, vol. 1 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité permanent des prévisions budgétaires en général, vol. 1",
+  "callNumber": "1983/84 M53 A1",
+  "pubmin": "1983-12-07",
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "32-2", 18],
+    ["fra", "c", "committees", "32-2", 25]
+  ],
+  "pubmax": "1984-07-09",
+  "type": "committees"
+}

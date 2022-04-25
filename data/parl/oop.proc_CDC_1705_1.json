@@ -1,1 +1,12 @@
-{"primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"type":"cproc","node":[["fra","c","cproc","17-5",1]],"pubmax":"1934-07-03","language":["fra"],"session":["17-5"],"pubmin":"1934-01-25","label":"Procès-verbaux de la Chambre des communes, 17e Législature, 5e Session : 1-105","callNumber":"J103 H44 1934"}
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "17-5", 1]],
+  "pubmax": "1934-07-03",
+  "language": ["fra"],
+  "session": ["17-5"],
+  "pubmin": "1934-01-25",
+  "label": "Procès-verbaux de la Chambre des communes, 17e Législature, 5e Session : 1-105",
+  "callNumber": "J103 H44 1934"
+}

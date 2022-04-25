@@ -1,1 +1,11 @@
-{"label":"House of Commons Journals, 12th Parliament, 6th Session : Vol. 52 App. 1","pubmin":"1916-01-12","session":["12-6"],"language":["eng"],"node":[["eng","c","journals","12-6",2]],"pubmax":"1916-05-18","type":"journals","primeMinisters":"Borden, Robert Laird","chamber":["c"]}
+{
+  "label": "House of Commons Journals, 12th Parliament, 6th Session : Vol. 52 App. 1",
+  "pubmin": "1916-01-12",
+  "session": ["12-6"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "12-6", 2]],
+  "pubmax": "1916-05-18",
+  "type": "journals",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

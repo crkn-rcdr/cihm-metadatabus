@@ -1,1 +1,13 @@
-{"reportTitle":["Watching the House at Work"],"language":["eng"],"session":["34-2"],"pubmin":"1989-04-03","callNumber":"34-2 E442 A12","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Elections, Privileges, Procedure and Private Members' Business, Report","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",57]]}
+{
+  "reportTitle": ["Watching the House at Work"],
+  "language": ["eng"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 E442 A12",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Elections, Privileges, Procedure and Private Members' Business, Report",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["eng", "c", "committees", "34-2", 57]]
+}

@@ -1,1 +1,12 @@
-{"pubmax":"1958-09-06","node":[["fra","c","committees","24-1",6]],"type":"committees","chamber":["c"],"primeMinisters":"Diefenbaker, John George","callNumber":"1958 C44 A4","label":"Comités de la Chambre des communes, 24e Législature, 1re Session : Comité sessionnel des chemins de fer, des lignes aériennes et de la marine marchande que l'État possède, exploite et contrôle, vol. 1","pubmin":"1958-05-12","session":["24-1"],"language":["fra"]}
+{
+  "pubmax": "1958-09-06",
+  "node": [["fra", "c", "committees", "24-1", 6]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "callNumber": "1958 C44 A4",
+  "label": "Comités de la Chambre des communes, 24e Législature, 1re Session : Comité sessionnel des chemins de fer, des lignes aériennes et de la marine marchande que l'État possède, exploite et contrôle, vol. 1",
+  "pubmin": "1958-05-12",
+  "session": ["24-1"],
+  "language": ["fra"]
+}

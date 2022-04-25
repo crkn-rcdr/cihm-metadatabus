@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["fra","c","committees","34-2",7]],"pubmax":"1991-05-12","reportTitle":["Examen du programme d'aide aux étudiants du niveau postsecondaire du ministère des Affaires indiennes et du Nord canadien"],"language":["fra"],"session":["34-2"],"pubmin":"1989-04-03","label":"Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des affaires autochtones, Premier rapport","callNumber":"34-2 A182 A12"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "34-2", 7]],
+  "pubmax": "1991-05-12",
+  "reportTitle": [
+    "Examen du programme d'aide aux étudiants du niveau postsecondaire du ministère des Affaires indiennes et du Nord canadien"
+  ],
+  "language": ["fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des affaires autochtones, Premier rapport",
+  "callNumber": "34-2 A182 A12"
+}

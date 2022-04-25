@@ -1,1 +1,14 @@
-{"type":"bills","pubmax":"1991-05-12","node":[["eng","c","bills","34-2",9],["fra","c","bills","34-2",9]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1989-04-03","label":"House of Commons Bills, 34th Parliament, 2nd Session : C293-C351 = Projets de loi de la Chambre des communes, 34e Législature, 2e Session : C293-C351","language":["eng","fra"],"session":["34-2"]}
+{
+  "type": "bills",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "bills", "34-2", 9],
+    ["fra", "c", "bills", "34-2", 9]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Bills, 34th Parliament, 2nd Session : C293-C351 = Projets de loi de la Chambre des communes, 34e Législature, 2e Session : C293-C351",
+  "language": ["eng", "fra"],
+  "session": ["34-2"]
+}

@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["24-2"],"pubmin":"1959-01-15","label":"Comités de la Chambre des communes, 24e Législature, 2e Session : Comité permanent des relations industrielles, vol. 1","callNumber":"1959 R44 A4","primeMinisters":"Diefenbaker, John George","chamber":["c"],"type":"committees","node":[["fra","c","committees","24-2",13]],"pubmax":"1959-07-18"}
+{
+  "language": ["fra"],
+  "session": ["24-2"],
+  "pubmin": "1959-01-15",
+  "label": "Comités de la Chambre des communes, 24e Législature, 2e Session : Comité permanent des relations industrielles, vol. 1",
+  "callNumber": "1959 R44 A4",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "24-2", 13]],
+  "pubmax": "1959-07-18"
+}

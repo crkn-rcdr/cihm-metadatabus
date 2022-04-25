@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1969-10-22","node":[["fra","c","committees","28-1",13]],"type":"committees","session":["28-1"],"language":["fra"],"callNumber":"1968/69 F55 A1 v.1","label":"Comités de la Chambre des communes, 28e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, vol. 1","pubmin":"1968-09-12"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1969-10-22",
+  "node": [["fra", "c", "committees", "28-1", 13]],
+  "type": "committees",
+  "session": ["28-1"],
+  "language": ["fra"],
+  "callNumber": "1968/69 F55 A1 v.1",
+  "label": "Comités de la Chambre des communes, 28e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, vol. 1",
+  "pubmin": "1968-09-12"
+}

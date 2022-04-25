@@ -1,1 +1,11 @@
-{"pubmax":"1962-04-19","node":[["eng","s","committees","24-5",2]],"type":"committees","chamber":["s"],"callNumber":"1962 E9 A1","label":"Senate Committees, 24th Parliament, 5th Session : Standing Committee on External Relations, vol. 1","pubmin":"1962-01-18","session":["24-5"],"language":["eng"]}
+{
+  "pubmax": "1962-04-19",
+  "node": [["eng", "s", "committees", "24-5", 2]],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "1962 E9 A1",
+  "label": "Senate Committees, 24th Parliament, 5th Session : Standing Committee on External Relations, vol. 1",
+  "pubmin": "1962-01-18",
+  "session": ["24-5"],
+  "language": ["eng"]
+}

@@ -1,1 +1,15 @@
-{"type":"bills","pubmax":"1974-02-26","node":[["eng","c","bills","29-1",5],["fra","c","bills","29-1",5]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmin":"1973-01-04","callNumber":"KE72 C36 C214-C253 Index","label":"House of Commons Bills, 29th Parliament, 1st Session : C214-C253, Index = Projets de loi de la Chambre des communes, 29e Législature, 1re Session : C214-C253, Index","language":["eng","fra"],"session":["29-1"]}
+{
+  "type": "bills",
+  "pubmax": "1974-02-26",
+  "node": [
+    ["eng", "c", "bills", "29-1", 5],
+    ["fra", "c", "bills", "29-1", 5]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1973-01-04",
+  "callNumber": "KE72 C36 C214-C253 Index",
+  "label": "House of Commons Bills, 29th Parliament, 1st Session : C214-C253, Index = Projets de loi de la Chambre des communes, 29e Législature, 1re Session : C214-C253, Index",
+  "language": ["eng", "fra"],
+  "session": ["29-1"]
+}

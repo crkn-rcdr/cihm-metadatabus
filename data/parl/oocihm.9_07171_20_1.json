@@ -1,1 +1,11 @@
-{"type":"journals","pubmax":"1886-06-02","node":[["eng","c","journals","05-4",1]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmin":"1886-02-25","label":"House of Commons Journals, 5th Parliament, 4th Session : Vol. 20","language":["eng"],"session":["05-4"]}
+{
+  "type": "journals",
+  "pubmax": "1886-06-02",
+  "node": [["eng", "c", "journals", "05-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmin": "1886-02-25",
+  "label": "House of Commons Journals, 5th Parliament, 4th Session : Vol. 20",
+  "language": ["eng"],
+  "session": ["05-4"]
+}

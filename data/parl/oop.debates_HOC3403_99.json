@@ -1,1 +1,11 @@
-{"pubmin":"1991-05-13","label":"House of Commons Debates, 34th Parliament, 3rd Session : Index","language":["eng"],"session":["34-3"],"type":"debates","pubmax":"1993-09-08","node":[["eng","c","debates","34-3",17]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Debates, 34th Parliament, 3rd Session : Index",
+  "language": ["eng"],
+  "session": ["34-3"],
+  "type": "debates",
+  "pubmax": "1993-09-08",
+  "node": [["eng", "c", "debates", "34-3", 17]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

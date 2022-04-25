@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","33-2",2],["fra","c","committees","33-2",10]],"pubmax":"1988-10-01","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"pubmin":"1986-09-30","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Aboriginal Affairs and Northern Development, vol. 2 no. 22-38 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des affaires autochtones et du développement du Nord, vol. 2 no. 22-38","callNumber":"33-2 A18 A1 no.22-38","language":["eng","fra"],"session":["33-2"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 2],
+    ["fra", "c", "committees", "33-2", 10]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Aboriginal Affairs and Northern Development, vol. 2 no. 22-38 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des affaires autochtones et du développement du Nord, vol. 2 no. 22-38",
+  "callNumber": "33-2 A18 A1 no.22-38",
+  "language": ["eng", "fra"],
+  "session": ["33-2"]
+}

@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",15],["fra","c","committees","34-3",200]],"type":"committees","session":["34-3"],"language":["eng","fra"],"callNumber":"34-3 A37 A1 no.1","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-69, an Act to amend the Criminal Code (air and maritime safety), vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-69, Loi modifiant le Code criminel (sécurité aérienne et maritime), vol. 1 no. 1","pubmin":"1991-05-13"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 15],
+    ["fra", "c", "committees", "34-3", 200]
+  ],
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-3 A37 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-69, an Act to amend the Criminal Code (air and maritime safety), vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-69, Loi modifiant le Code criminel (sécurité aérienne et maritime), vol. 1 no. 1",
+  "pubmin": "1991-05-13"
+}

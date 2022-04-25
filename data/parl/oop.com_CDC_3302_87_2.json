@@ -1,1 +1,13 @@
-{"pubmin":"1986-09-30","callNumber":"33-2 S78 A12","label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la condition des personnes handicapées, Rapport","language":["fra"],"reportTitle":["Pas de nouvelles, mauvaises nouvelles"],"session":["33-2"],"type":"committees","pubmax":"1988-10-01","node":[["fra","c","committees","33-2",58]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 S78 A12",
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la condition des personnes handicapées, Rapport",
+  "language": ["fra"],
+  "reportTitle": ["Pas de nouvelles, mauvaises nouvelles"],
+  "session": ["33-2"],
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [["fra", "c", "committees", "33-2", 58]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

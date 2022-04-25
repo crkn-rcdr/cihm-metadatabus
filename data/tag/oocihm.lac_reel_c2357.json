@@ -1,1 +1,43 @@
-{"682":{"tagDescription":["Comptes personnels: depots en banque, billets"],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"1219":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDate":["1927-01-01T00:00:00.000Z"],"tagDescription":["Confederation, 50ieme anniversaire 1927"]},"284":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Towagnac Exploration Co.; Twin City Rapid Transit Co . ; Union Pacific Railroad Co.; United Amusement Co.; Viauville Lands Ltd.; Voyages Hone Tours (Inc.); Wabash Railway Co."]},"1129":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Comptes personnels: assurances"]},"124":{"tagDescription":["Compagnies Southern Canada Power Co.; Stadacona Rouyn Mines Ltd.; Stetson, Cutler Co.; Title Guarantee & Trust Corp."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"386":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Comptes personnels: impot sur le revenu"]}}
+{
+  "682": {
+    "tagDescription": ["Comptes personnels: depots en banque, billets"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "1219": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDate": ["1927-01-01T00:00:00.000Z"],
+    "tagDescription": ["Confederation, 50ieme anniversaire 1927"]
+  },
+  "284": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": [
+      "Compagnies Towagnac Exploration Co.; Twin City Rapid Transit Co . ; Union Pacific Railroad Co.; United Amusement Co.; Viauville Lands Ltd.; Voyages Hone Tours (Inc.); Wabash Railway Co."
+    ]
+  },
+  "1129": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Comptes personnels: assurances"]
+  },
+  "124": {
+    "tagDescription": [
+      "Compagnies Southern Canada Power Co.; Stadacona Rouyn Mines Ltd.; Stetson, Cutler Co.; Title Guarantee & Trust Corp."
+    ],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "386": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Comptes personnels: impot sur le revenu"]
+  }
+}

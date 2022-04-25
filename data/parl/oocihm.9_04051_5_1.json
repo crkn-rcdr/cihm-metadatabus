@@ -1,1 +1,11 @@
-{"type":"sessional","pubmax":"1872-06-14","node":[["fra","c","sessional","01-5",1]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmin":"1872-04-11","label":"Documents parlementaires, 1e Législature, 5e Session : vol. 1","language":["fra"],"session":["01-5"]}
+{
+  "type": "sessional",
+  "pubmax": "1872-06-14",
+  "node": [["fra", "c", "sessional", "01-5", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmin": "1872-04-11",
+  "label": "Documents parlementaires, 1e Législature, 5e Session : vol. 1",
+  "language": ["fra"],
+  "session": ["01-5"]
+}

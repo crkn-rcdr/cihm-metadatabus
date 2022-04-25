@@ -1,1 +1,11 @@
-{"type":"sproc","pubmax":"1970-10-07","node":[["eng","s","sproc","28-2",2]],"chamber":["s"],"pubmin":"1969-10-23","callNumber":"J103 H4 1969/70 no. 50-84 c.2","label":"Senate Minutes of Proceedings, 28th Parliament, 2nd Session : 50-84","language":["eng"],"session":["28-2"]}
+{
+  "type": "sproc",
+  "pubmax": "1970-10-07",
+  "node": [["eng", "s", "sproc", "28-2", 2]],
+  "chamber": ["s"],
+  "pubmin": "1969-10-23",
+  "callNumber": "J103 H4 1969/70 no. 50-84 c.2",
+  "label": "Senate Minutes of Proceedings, 28th Parliament, 2nd Session : 50-84",
+  "language": ["eng"],
+  "session": ["28-2"]
+}

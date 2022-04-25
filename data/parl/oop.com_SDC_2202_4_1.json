@@ -1,1 +1,11 @@
-{"node":[["fra","s","committees","22-2",5]],"pubmax":"1955-07-28","type":"committees","chamber":["s"],"label":"Comités du Sénat, 22e Législature, 2e Session : Comité permanent des relations commerciales du Canada, vol. 1","callNumber":"1955 R4 A42","pubmin":"1955-01-07","session":["22-2"],"language":["fra"]}
+{
+  "node": [["fra", "s", "committees", "22-2", 5]],
+  "pubmax": "1955-07-28",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Comités du Sénat, 22e Législature, 2e Session : Comité permanent des relations commerciales du Canada, vol. 1",
+  "callNumber": "1955 R4 A42",
+  "pubmin": "1955-01-07",
+  "session": ["22-2"],
+  "language": ["fra"]
+}

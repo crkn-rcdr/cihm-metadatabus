@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["16-1"],"pubmin":"1926-12-09","callNumber":"1926/27 R3P A1","label":"House of Commons Committees, 16th Parliament, 1st Session : Select Standing Committee on Railways, Canals and Telephone Lines, vol. 2","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"committees","pubmax":"1927-04-14","node":[["eng","c","committees","16-1",3]]}
+{
+  "language": ["eng"],
+  "session": ["16-1"],
+  "pubmin": "1926-12-09",
+  "callNumber": "1926/27 R3P A1",
+  "label": "House of Commons Committees, 16th Parliament, 1st Session : Select Standing Committee on Railways, Canals and Telephone Lines, vol. 2",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "committees",
+  "pubmax": "1927-04-14",
+  "node": [["eng", "c", "committees", "16-1", 3]]
+}

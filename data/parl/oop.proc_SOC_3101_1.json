@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"sproc","pubmax":"1979-12-14","node":[["eng","s","sproc","31-1",1],["fra","s","sproc","31-1",1]],"language":["eng","fra"],"session":["31-1"],"pubmin":"1979-10-09","callNumber":"J103 H4 1979 no. 1-31 c.2","label":"Senate Minutes of Proceedings, 31st Parliament, 1st Session : 1- 31 = Procès-verbaux du Sénat, 31e Législature, 1re Session : 1- 31"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "s", "sproc", "31-1", 1],
+    ["fra", "s", "sproc", "31-1", 1]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["31-1"],
+  "pubmin": "1979-10-09",
+  "callNumber": "J103 H4 1979 no. 1-31 c.2",
+  "label": "Senate Minutes of Proceedings, 31st Parliament, 1st Session : 1- 31 = Procès-verbaux du Sénat, 31e Législature, 1re Session : 1- 31"
+}

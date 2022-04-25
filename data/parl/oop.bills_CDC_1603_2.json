@@ -1,1 +1,12 @@
-{"callNumber":"KE72 C361 16-3 61-365","label":"Projets de loi de la Chambre des communes, 16e Législature, 3e Session : 61-365","pubmin":"1929-02-07","session":["16-3"],"language":["fra"],"pubmax":"1929-06-14","node":[["fra","c","bills","16-3",2]],"type":"bills","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie"}
+{
+  "callNumber": "KE72 C361 16-3 61-365",
+  "label": "Projets de loi de la Chambre des communes, 16e Législature, 3e Session : 61-365",
+  "pubmin": "1929-02-07",
+  "session": ["16-3"],
+  "language": ["fra"],
+  "pubmax": "1929-06-14",
+  "node": [["fra", "c", "bills", "16-3", 2]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

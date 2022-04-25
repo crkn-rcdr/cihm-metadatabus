@@ -1,1 +1,56 @@
-{"392":{"tag":["leaflet"],"tagName":["Miss Una M. Saunders"]},"301":{"tagName":["Canada's First Hostess House"]},"304":{"tagName":["How Women Can Release Men "]},"458":{"tagName":["Mrs. A.A. Pinckney "],"tag":["photograph "]},"419":{"tag":["photograph "],"tagName":["Genevieve Jackson ; Janet Piggott ; Mabel Loutber ; Lala Minor "]},"608":{"tagName":["Miss R.C. McAdams"],"tag":["photograph "]},"100":{"tagName":["Pageant History of Winnipeg ; Camp Fire Girls"],"tag":["leaflet"]},"88":{"tagName":["Some Encouraging Facts of 1912 ; Dominion Council of the Young Women's Christian Associations of Canada"],"tag":["leaflet"]},"484":{"tagName":["Miss Roberta MacAdams"],"tag":["photograph "]},"234":{"tagName":["Mrs. Holloway ; Mrs. M.J. Middleton"],"tag":["leaflet"]},"462":{"tag":["photograph "],"tagName":["Miss Katie McCrimmon "]},"485":{"tagName":["Mrs. Nellie McClung"],"tag":["photograph "]},"475":{"tagName":["Miss Olive Zeigler"],"tag":["photograph "]},"465":{"tag":["photograph "],"tagName":["Mrs. Walter Parlby ; Miss Annie Jackson"]},"460":{"tag":["photograph "],"tagName":["Dr. Jessie M. Allyn"]},"95":{"tag":["leaflet"],"tagName":["Sixth Summer Conference"],"tagDate":["1914-01-01T00:00:00.000Z"]},"91":{"tagName":["Our Purpose ; The dominion Council of the Young Women's Christian Associations of Canada - Bank of Commerce Chambers, corner of College Street and spadina Avenue Toronto"]},"454":{"tag":["photograph "],"tagName":["Mrs. Louise C. McKinney ; Mrs. Arthur Murphy "]},"507":{"tagName":["Northern Alberta : Girl Leader's Conference "],"tag":["photograph "],"tagDate":["1918-04-01T00:00:00.000Z"]},"469":{"tagName":["Miss Una Saunders"],"tag":["photograph "]}}
+{
+  "392": { "tag": ["leaflet"], "tagName": ["Miss Una M. Saunders"] },
+  "301": { "tagName": ["Canada's First Hostess House"] },
+  "304": { "tagName": ["How Women Can Release Men "] },
+  "458": { "tagName": ["Mrs. A.A. Pinckney "], "tag": ["photograph "] },
+  "419": {
+    "tag": ["photograph "],
+    "tagName": [
+      "Genevieve Jackson ; Janet Piggott ; Mabel Loutber ; Lala Minor "
+    ]
+  },
+  "608": { "tagName": ["Miss R.C. McAdams"], "tag": ["photograph "] },
+  "100": {
+    "tagName": ["Pageant History of Winnipeg ; Camp Fire Girls"],
+    "tag": ["leaflet"]
+  },
+  "88": {
+    "tagName": [
+      "Some Encouraging Facts of 1912 ; Dominion Council of the Young Women's Christian Associations of Canada"
+    ],
+    "tag": ["leaflet"]
+  },
+  "484": { "tagName": ["Miss Roberta MacAdams"], "tag": ["photograph "] },
+  "234": {
+    "tagName": ["Mrs. Holloway ; Mrs. M.J. Middleton"],
+    "tag": ["leaflet"]
+  },
+  "462": { "tag": ["photograph "], "tagName": ["Miss Katie McCrimmon "] },
+  "485": { "tagName": ["Mrs. Nellie McClung"], "tag": ["photograph "] },
+  "475": { "tagName": ["Miss Olive Zeigler"], "tag": ["photograph "] },
+  "465": {
+    "tag": ["photograph "],
+    "tagName": ["Mrs. Walter Parlby ; Miss Annie Jackson"]
+  },
+  "460": { "tag": ["photograph "], "tagName": ["Dr. Jessie M. Allyn"] },
+  "95": {
+    "tag": ["leaflet"],
+    "tagName": ["Sixth Summer Conference"],
+    "tagDate": ["1914-01-01T00:00:00.000Z"]
+  },
+  "91": {
+    "tagName": [
+      "Our Purpose ; The dominion Council of the Young Women's Christian Associations of Canada - Bank of Commerce Chambers, corner of College Street and spadina Avenue Toronto"
+    ]
+  },
+  "454": {
+    "tag": ["photograph "],
+    "tagName": ["Mrs. Louise C. McKinney ; Mrs. Arthur Murphy "]
+  },
+  "507": {
+    "tagName": ["Northern Alberta : Girl Leader's Conference "],
+    "tag": ["photograph "],
+    "tagDate": ["1918-04-01T00:00:00.000Z"]
+  },
+  "469": { "tagName": ["Miss Una Saunders"], "tag": ["photograph "] }
+}

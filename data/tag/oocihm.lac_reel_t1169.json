@@ -1,1 +1,36 @@
-{"1798":{"tagDate":["[1904-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],"tagDescription":["Empire Cables"]},"1375":{"tagDescription":["Naturalization"],"tagDate":["[1931-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]},"135":{"tagDate":["[1921-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],"tagDescription":["Naturalization of Aliens -Identification certificates for British seamen for use abroad -Registration of British subjects abroad"]},"1689":{"tagDescription":["Reports  Naturalization Act"],"tagDate":["[1901-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]},"600":{"tagDate":["[1923-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["Naturalization of Aliens -Identification certificates for British seamen for use abroad -Registration of British subjects abroad"]},"1016":{"tagDate":["[1926-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["Naturalization of Aliens -Identification certificates for British seamen for use abroad -Registration of British subjects abroad"]},"1208":{"tagDate":["1926-01-01T00:00:00.000Z"],"tagDescription":["Ibid"]}}
+{
+  "1798": {
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Empire Cables"]
+  },
+  "1375": {
+    "tagDescription": ["Naturalization"],
+    "tagDate": ["[1931-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]
+  },
+  "135": {
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Naturalization of Aliens -Identification certificates for British seamen for use abroad -Registration of British subjects abroad"
+    ]
+  },
+  "1689": {
+    "tagDescription": ["Reports  Naturalization Act"],
+    "tagDate": ["[1901-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]
+  },
+  "600": {
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Naturalization of Aliens -Identification certificates for British seamen for use abroad -Registration of British subjects abroad"
+    ]
+  },
+  "1016": {
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Naturalization of Aliens -Identification certificates for British seamen for use abroad -Registration of British subjects abroad"
+    ]
+  },
+  "1208": {
+    "tagDate": ["1926-01-01T00:00:00.000Z"],
+    "tagDescription": ["Ibid"]
+  }
+}

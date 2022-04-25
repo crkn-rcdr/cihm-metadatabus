@@ -1,1 +1,11 @@
-{"pubmax":"1882-05-17","node":[["eng","s","bills","04-4",1]],"type":"bills","chamber":["s"],"callNumber":"KE72 C38 4-4 Bill A-","label":"Senate Bills, 4th Parliament, 4th Session : A-Z","pubmin":"1882-02-09","session":["04-4"],"language":["eng"]}
+{
+  "pubmax": "1882-05-17",
+  "node": [["eng", "s", "bills", "04-4", 1]],
+  "type": "bills",
+  "chamber": ["s"],
+  "callNumber": "KE72 C38 4-4 Bill A-",
+  "label": "Senate Bills, 4th Parliament, 4th Session : A-Z",
+  "pubmin": "1882-02-09",
+  "session": ["04-4"],
+  "language": ["eng"]
+}

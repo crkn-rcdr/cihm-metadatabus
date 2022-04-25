@@ -1,1 +1,12 @@
-{"session":["24-4"],"language":["eng"],"label":"House of Commons Bills, 24th Parliament, 4th Session : C2-C85","callNumber":"KE72 C36 24-4 C2-C85","pubmin":"1960-11-17","primeMinisters":"Diefenbaker, John George","chamber":["c"],"node":[["eng","c","bills","24-4",1]],"pubmax":"1961-09-29","type":"bills"}
+{
+  "session": ["24-4"],
+  "language": ["eng"],
+  "label": "House of Commons Bills, 24th Parliament, 4th Session : C2-C85",
+  "callNumber": "KE72 C36 24-4 C2-C85",
+  "pubmin": "1960-11-17",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "node": [["eng", "c", "bills", "24-4", 1]],
+  "pubmax": "1961-09-29",
+  "type": "bills"
+}

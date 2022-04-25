@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["22-1"],"pubmin":"1953-11-12","callNumber":"1953/54 B35 A1","label":"Senate Committees, 22nd Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 1","chamber":["s"],"type":"committees","pubmax":"1954-06-26","node":[["eng","s","committees","22-1",1]]}
+{
+  "language": ["eng"],
+  "session": ["22-1"],
+  "pubmin": "1953-11-12",
+  "callNumber": "1953/54 B35 A1",
+  "label": "Senate Committees, 22nd Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 1",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1954-06-26",
+  "node": [["eng", "s", "committees", "22-1", 1]]
+}

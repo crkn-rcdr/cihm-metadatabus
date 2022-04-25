@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","33-1",42]],"pubmax":"1986-08-28","type":"committees","session":["33-1"],"language":["eng"],"reportTitle":["Alcohol Additives: A New Opportunity in Transportation Fuels"],"label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Energy, Mines and Resources, Report","callNumber":"33-1 E554 A12","pubmin":"1984-11-05"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "33-1", 42]],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng"],
+  "reportTitle": [
+    "Alcohol Additives: A New Opportunity in Transportation Fuels"
+  ],
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Energy, Mines and Resources, Report",
+  "callNumber": "33-1 E554 A12",
+  "pubmin": "1984-11-05"
+}

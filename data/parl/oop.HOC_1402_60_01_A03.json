@@ -1,1 +1,11 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","journals","14-2",4]],"pubmax":"1923-06-30","type":"journals","session":["14-2"],"language":["eng"],"label":"House of Commons Journals, 14th Parliament, 2nd Session : Vol. 60 App.  3","pubmin":"1923-01-31"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "journals", "14-2", 4]],
+  "pubmax": "1923-06-30",
+  "type": "journals",
+  "session": ["14-2"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 14th Parliament, 2nd Session : Vol. 60 App.  3",
+  "pubmin": "1923-01-31"
+}

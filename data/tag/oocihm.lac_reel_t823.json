@@ -1,1 +1,18 @@
-{"1176":{"tagDescription":["Pelagic sealing - Publications"],"tagDate":["1893-01-01T00:00:00.000Z"]},"575":{"tagDate":["1892-01-01T00:00:00.000Z"],"tagDescription":["Pelagic sealing  Publications"]},"388":{"tagDate":["[1891-01-01T00:00:00.000Z TO 1892-12-31T23:59:59.999Z]"],"tagDescription":["Pelagic sealing - Publications"]},"824":{"tagDescription":["Pelagic sealing - Publications"],"tagDate":["1893-01-01T00:00:00.000Z"]}}
+{
+  "1176": {
+    "tagDescription": ["Pelagic sealing - Publications"],
+    "tagDate": ["1893-01-01T00:00:00.000Z"]
+  },
+  "575": {
+    "tagDate": ["1892-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing  Publications"]
+  },
+  "388": {
+    "tagDate": ["[1891-01-01T00:00:00.000Z TO 1892-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Pelagic sealing - Publications"]
+  },
+  "824": {
+    "tagDescription": ["Pelagic sealing - Publications"],
+    "tagDate": ["1893-01-01T00:00:00.000Z"]
+  }
+}

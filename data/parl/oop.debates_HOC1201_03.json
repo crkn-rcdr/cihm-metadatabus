@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Borden, Robert Laird","pubmax":"1912-04-01","node":[["eng","c","debates","12-1",3]],"type":"debates","session":["12-1"],"language":["eng"],"label":"House of Commons Debates, 12th Parliament, 1st Session : Vol. 3","pubmin":"1911-11-15"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1912-04-01",
+  "node": [["eng", "c", "debates", "12-1", 3]],
+  "type": "debates",
+  "session": ["12-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 12th Parliament, 1st Session : Vol. 3",
+  "pubmin": "1911-11-15"
+}

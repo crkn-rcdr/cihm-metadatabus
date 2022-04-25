@@ -1,1 +1,15 @@
-{"pubmin":"1991-05-13","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des affaires autochtones, Cinquième rapport","callNumber":"J103 H7 34-3 A182 A125f","reportTitle":["Le commerce de la fourrure : un mode de vie autochtone en péril"],"language":["fra"],"session":["34-3"],"type":"committees","node":[["fra","c","committees","34-3",7]],"pubmax":"1993-09-08","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1991-05-13",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des affaires autochtones, Cinquième rapport",
+  "callNumber": "J103 H7 34-3 A182 A125f",
+  "reportTitle": [
+    "Le commerce de la fourrure : un mode de vie autochtone en péril"
+  ],
+  "language": ["fra"],
+  "session": ["34-3"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "34-3", 7]],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

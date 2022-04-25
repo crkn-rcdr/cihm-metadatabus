@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["02-2"],"pubmin":"1873-10-23","label":"Journaux du Sénat, 2e Législature, 2e Session : Vol. 7","chamber":["s"],"type":"journals","node":[["fra","s","journals","02-2",1]],"pubmax":"1873-11-07"}
+{
+  "language": ["fra"],
+  "session": ["02-2"],
+  "pubmin": "1873-10-23",
+  "label": "Journaux du Sénat, 2e Législature, 2e Session : Vol. 7",
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["fra", "s", "journals", "02-2", 1]],
+  "pubmax": "1873-11-07"
+}

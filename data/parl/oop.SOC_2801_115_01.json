@@ -1,1 +1,10 @@
-{"session":["28-1"],"language":["eng"],"label":"Senate Journals, 28th Parliament, 1st Session : Vol. 115 Pt. 1","pubmin":"1968-09-12","chamber":["s"],"pubmax":"1969-10-22","node":[["eng","s","journals","28-1",1]],"type":"journals"}
+{
+  "session": ["28-1"],
+  "language": ["eng"],
+  "label": "Senate Journals, 28th Parliament, 1st Session : Vol. 115 Pt. 1",
+  "pubmin": "1968-09-12",
+  "chamber": ["s"],
+  "pubmax": "1969-10-22",
+  "node": [["eng", "s", "journals", "28-1", 1]],
+  "type": "journals"
+}

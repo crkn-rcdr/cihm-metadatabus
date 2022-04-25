@@ -1,1 +1,10 @@
-{"pubmin":"1956-01-10","label":"Senate Journals, 22nd Parliament, 3rd Session : Vol. 100","language":["eng"],"session":["22-3"],"type":"journals","pubmax":"1956-08-14","node":[["eng","s","journals","22-3",1]],"chamber":["s"]}
+{
+  "pubmin": "1956-01-10",
+  "label": "Senate Journals, 22nd Parliament, 3rd Session : Vol. 100",
+  "language": ["eng"],
+  "session": ["22-3"],
+  "type": "journals",
+  "pubmax": "1956-08-14",
+  "node": [["eng", "s", "journals", "22-3", 1]],
+  "chamber": ["s"]
+}

@@ -1,1 +1,11 @@
-{"label":"Sessional Papers, 8th Parliament, 2nd Session : vol. 5","pubmin":"1897-03-25","session":["08-2"],"language":["eng"],"node":[["eng","c","sessional","08-2",5]],"pubmax":"1897-06-29","type":"sessional","primeMinisters":"Laurier, Wilfrid","chamber":["c"]}
+{
+  "label": "Sessional Papers, 8th Parliament, 2nd Session : vol. 5",
+  "pubmin": "1897-03-25",
+  "session": ["08-2"],
+  "language": ["eng"],
+  "node": [["eng", "c", "sessional", "08-2", 5]],
+  "pubmax": "1897-06-29",
+  "type": "sessional",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

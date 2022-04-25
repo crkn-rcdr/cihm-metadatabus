@@ -1,1 +1,12 @@
-{"session":["12-3"],"language":["eng"],"label":"House of Commons Committees, 12th Parliament, 3rd Session : Select Standing Committee on Agriculture and Colonization, vol. 1","callNumber":"1914 A3 A1","pubmin":"1914-01-15","primeMinisters":"Borden, Robert Laird","chamber":["c"],"node":[["eng","c","committees","12-3",1]],"pubmax":"1914-06-12","type":"committees"}
+{
+  "session": ["12-3"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 12th Parliament, 3rd Session : Select Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1914 A3 A1",
+  "pubmin": "1914-01-15",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "12-3", 1]],
+  "pubmax": "1914-06-12",
+  "type": "committees"
+}

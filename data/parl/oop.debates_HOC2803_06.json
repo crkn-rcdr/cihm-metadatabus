@@ -1,1 +1,11 @@
-{"session":["28-3"],"language":["eng"],"label":"House of Commons Debates, 28th Parliament, 3rd Session : Vol. 6","pubmin":"1970-10-08","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1972-02-16","node":[["eng","c","debates","28-3",6]],"type":"debates"}
+{
+  "session": ["28-3"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 28th Parliament, 3rd Session : Vol. 6",
+  "pubmin": "1970-10-08",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1972-02-16",
+  "node": [["eng", "c", "debates", "28-3", 6]],
+  "type": "debates"
+}

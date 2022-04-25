@@ -1,1 +1,11 @@
-{"type":"debates","pubmax":"1991-05-12","node":[["eng","c","debates","34-2",1]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1989-04-03","label":"House of Commons Debates, 34th Parliament, 2nd Session : Vol. 1","language":["eng"],"session":["34-2"]}
+{
+  "type": "debates",
+  "pubmax": "1991-05-12",
+  "node": [["eng", "c", "debates", "34-2", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Debates, 34th Parliament, 2nd Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["34-2"]
+}

@@ -1,1 +1,11 @@
-{"chamber":["s"],"pubmax":"1976-10-12","node":[["eng","s","sproc","30-1",2]],"type":"sproc","session":["30-1"],"language":["eng"],"callNumber":"J103 H4 1974/76 no. 118-216","label":"Senate Minutes of Proceedings, 30th Parliament, 1st Session : 118-216","pubmin":"1974-09-30"}
+{
+  "chamber": ["s"],
+  "pubmax": "1976-10-12",
+  "node": [["eng", "s", "sproc", "30-1", 2]],
+  "type": "sproc",
+  "session": ["30-1"],
+  "language": ["eng"],
+  "callNumber": "J103 H4 1974/76 no. 118-216",
+  "label": "Senate Minutes of Proceedings, 30th Parliament, 1st Session : 118-216",
+  "pubmin": "1974-09-30"
+}

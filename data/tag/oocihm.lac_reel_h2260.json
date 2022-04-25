@@ -1,1 +1,127 @@
-{"151":{"tagDescription":["George Lindsey (son of Colonel Charles B. Lindsey)"],"tagDate":["[1942-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]},"641":{"tagDate":["[1936-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Mr. and Mrs. (Christina) John King (grandparents) - Correspondence"]},"764":{"tagDescription":["Mr. John King (father) - Correspondence"],"tagDate":["[1916-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"]},"294":{"tagDate":["[1935-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],"tagDescription":["Miss Ella Baxter"]},"906":{"tagDate":["[1895-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],"tagDescription":["Mr. John King and family - Agreements, Advances"]},"1499":{"tagDescription":["Mrs. (Isabel) John King (father) - re: Death of Isabel King - Correspondence"],"tagDate":["[1917-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]},"409":{"tagDate":["1934-01-01T00:00:00.000Z"],"tagDescription":["Major W. James Baxter"]},"958":{"tagDate":["[1916-08-01T00:00:00.000Z TO 1916-09-28T23:59:59.999Z]"],"tagDescription":["Mr. John King - Correspondence re: Death of John King"]},"161":{"tagDate":["[1945-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],"tagDescription":["Casimir Lindsey (son of Colonel Charles B. Lindsey)"]},"275":{"tagDate":["[1937-01-01T00:00:00.000Z TO 1945-12-31T23:59:59.999Z]"],"tagDescription":["Isabelle and Florence Baxter"]},"565":{"tagDate":["[1915-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],"tagDescription":["Mr. and Mrs. (Christina) John King (grandparents) - Memoranda"]},"413":{"tagDescription":["Mrs. L.D.M. Baxter"],"tagDate":["1948-01-01T00:00:00.000Z"]},"1156":{"tagDescription":["Mr. John King (father) - Correspondence re: Finance"],"tagDate":["[1915-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]},"519":{"tagDescription":["Andrew King"],"tagDate":["1938-01-01T00:00:00.000Z"]},"169":{"tagDescription":["Mrs. (Katherine Baxter) W.J. Anderson (Katherine Baxter)"],"tagDate":["[1921-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]},"631":{"tagDate":["[1937-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Mr. and Mrs. (Christina) John King (grandparents) - Clippings"]},"1279":{"tagDate":["[1915-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],"tagDescription":["Mr. John King (father) - Correspondence - Ancient Order of United Workers (A.O.U.W.) - Correspondence"]},"866":{"tagDate":["[1916-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["Mr. John King (father) - Memoranda"]},"415":{"tagDescription":["Mackenzie Family - USA - Lima, Ohio"],"tagDate":["[1915-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]},"466":{"tagDate":["[1937-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],"tagDescription":["Reverend John King"]},"1427":{"tagDate":["[1917-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],"tagDescription":["Mrs. (Isabel) John King (father) - re: Death of Isabel King - Clippings"]},"947":{"tagDate":["[1894-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],"tagDescription":["Mr. John King and family - Clippings"]},"521":{"tagDescription":["Mr. and Mrs. (Christina) John King (grandparents)"]},"20":{"tagDescription":["Colonel and Mrs. Charles B. Lindsey (son of G.G.S. Lindsey)"],"tagDate":["[1941-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]},"686":{"tagDate":["[1914-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],"tagDescription":["Mr. John King (father) - Correspondence"]},"681":{"tagDescription":["Mr. Dougall Macdougall (great-uncle)"],"tagDate":["1944-01-01T00:00:00.000Z"]},"1137":{"tagDescription":["Mr. John King (father) - Correspondence re: Death of John King"],"tagDate":["[1916-10-01T00:00:00.000Z TO 1916-12-28T23:59:59.999Z]"]}}
+{
+  "151": {
+    "tagDescription": ["George Lindsey (son of Colonel Charles B. Lindsey)"],
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]
+  },
+  "641": {
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mr. and Mrs. (Christina) John King (grandparents) - Correspondence"
+    ]
+  },
+  "764": {
+    "tagDescription": ["Mr. John King (father) - Correspondence"],
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"]
+  },
+  "294": {
+    "tagDate": ["[1935-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Miss Ella Baxter"]
+  },
+  "906": {
+    "tagDate": ["[1895-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mr. John King and family - Agreements, Advances"]
+  },
+  "1499": {
+    "tagDescription": [
+      "Mrs. (Isabel) John King (father) - re: Death of Isabel King - Correspondence"
+    ],
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]
+  },
+  "409": {
+    "tagDate": ["1934-01-01T00:00:00.000Z"],
+    "tagDescription": ["Major W. James Baxter"]
+  },
+  "958": {
+    "tagDate": ["[1916-08-01T00:00:00.000Z TO 1916-09-28T23:59:59.999Z]"],
+    "tagDescription": ["Mr. John King - Correspondence re: Death of John King"]
+  },
+  "161": {
+    "tagDate": ["[1945-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Casimir Lindsey (son of Colonel Charles B. Lindsey)"]
+  },
+  "275": {
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1945-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Isabelle and Florence Baxter"]
+  },
+  "565": {
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mr. and Mrs. (Christina) John King (grandparents) - Memoranda"
+    ]
+  },
+  "413": {
+    "tagDescription": ["Mrs. L.D.M. Baxter"],
+    "tagDate": ["1948-01-01T00:00:00.000Z"]
+  },
+  "1156": {
+    "tagDescription": ["Mr. John King (father) - Correspondence re: Finance"],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]
+  },
+  "519": {
+    "tagDescription": ["Andrew King"],
+    "tagDate": ["1938-01-01T00:00:00.000Z"]
+  },
+  "169": {
+    "tagDescription": [
+      "Mrs. (Katherine Baxter) W.J. Anderson (Katherine Baxter)"
+    ],
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]
+  },
+  "631": {
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mr. and Mrs. (Christina) John King (grandparents) - Clippings"
+    ]
+  },
+  "1279": {
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mr. John King (father) - Correspondence - Ancient Order of United Workers (A.O.U.W.) - Correspondence"
+    ]
+  },
+  "866": {
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mr. John King (father) - Memoranda"]
+  },
+  "415": {
+    "tagDescription": ["Mackenzie Family - USA - Lima, Ohio"],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]
+  },
+  "466": {
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Reverend John King"]
+  },
+  "1427": {
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mrs. (Isabel) John King (father) - re: Death of Isabel King - Clippings"
+    ]
+  },
+  "947": {
+    "tagDate": ["[1894-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mr. John King and family - Clippings"]
+  },
+  "521": {
+    "tagDescription": ["Mr. and Mrs. (Christina) John King (grandparents)"]
+  },
+  "20": {
+    "tagDescription": [
+      "Colonel and Mrs. Charles B. Lindsey (son of G.G.S. Lindsey)"
+    ],
+    "tagDate": ["[1941-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]
+  },
+  "686": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mr. John King (father) - Correspondence"]
+  },
+  "681": {
+    "tagDescription": ["Mr. Dougall Macdougall (great-uncle)"],
+    "tagDate": ["1944-01-01T00:00:00.000Z"]
+  },
+  "1137": {
+    "tagDescription": [
+      "Mr. John King (father) - Correspondence re: Death of John King"
+    ],
+    "tagDate": ["[1916-10-01T00:00:00.000Z TO 1916-12-28T23:59:59.999Z]"]
+  }
+}

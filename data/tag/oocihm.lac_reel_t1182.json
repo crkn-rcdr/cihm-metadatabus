@@ -1,1 +1,40 @@
-{"1451":{"tagDate":["1925-01-01T00:00:00.000Z"],"tagDescription":["Naval and Military Defence of Canada. Imperial Defence"]},"1748":{"tagDescription":["Naval and Military Defence of Canada. Imperial Defence"],"tagDate":["1926-01-01T00:00:00.000Z"]},"19":{"tagDate":["[1916-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],"tagDescription":["Naval and Military Defence of Canada. Imperial Defence"]},"479":{"tagDate":["1923-01-01T00:00:00.000Z"],"tagDescription":["Naval and Military Defence of Canada. Imperial Defence"]},"1132":{"tagDate":["1924-01-01T00:00:00.000Z"],"tagDescription":["Naval and Military Defence of Canada and other related subjects. Imperial Defence"]},"177":{"tagDate":["[1921-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],"tagDescription":["Naval and Military Defence of Canada. Imperial Defence"]},"1338":{"tagDate":["1924-01-01T00:00:00.000Z"],"tagDescription":["Sub-file of file 343 Pt 10. Visit to Canada of the Special Service Squadron under Vice Admiral Sir Fredrick Field, K.C.B., C.M.G., Mr. H.F. Batterbee, Political Secretary Governor General to entertain Vice Admiral and other officers of Ottawa. Canadian National exhibition, Vice-Admiral Field asks to open -Programme, list of guests, accommodation, etc -Coaling of H.M.A.S.Adelaide -Press reports on visit and speeches of Sir F. Field, etc -Thanks of Vice-Admiral for Canadian reception"]},"931":{"tagDate":["1924-01-01T00:00:00.000Z"],"tagDescription":["Naval and Military Defence of Canada. Imperial Defence"]}}
+{
+  "1451": {
+    "tagDate": ["1925-01-01T00:00:00.000Z"],
+    "tagDescription": ["Naval and Military Defence of Canada. Imperial Defence"]
+  },
+  "1748": {
+    "tagDescription": [
+      "Naval and Military Defence of Canada. Imperial Defence"
+    ],
+    "tagDate": ["1926-01-01T00:00:00.000Z"]
+  },
+  "19": {
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Naval and Military Defence of Canada. Imperial Defence"]
+  },
+  "479": {
+    "tagDate": ["1923-01-01T00:00:00.000Z"],
+    "tagDescription": ["Naval and Military Defence of Canada. Imperial Defence"]
+  },
+  "1132": {
+    "tagDate": ["1924-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Naval and Military Defence of Canada and other related subjects. Imperial Defence"
+    ]
+  },
+  "177": {
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Naval and Military Defence of Canada. Imperial Defence"]
+  },
+  "1338": {
+    "tagDate": ["1924-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Sub-file of file 343 Pt 10. Visit to Canada of the Special Service Squadron under Vice Admiral Sir Fredrick Field, K.C.B., C.M.G., Mr. H.F. Batterbee, Political Secretary Governor General to entertain Vice Admiral and other officers of Ottawa. Canadian National exhibition, Vice-Admiral Field asks to open -Programme, list of guests, accommodation, etc -Coaling of H.M.A.S.Adelaide -Press reports on visit and speeches of Sir F. Field, etc -Thanks of Vice-Admiral for Canadian reception"
+    ]
+  },
+  "931": {
+    "tagDate": ["1924-01-01T00:00:00.000Z"],
+    "tagDescription": ["Naval and Military Defence of Canada. Imperial Defence"]
+  }
+}

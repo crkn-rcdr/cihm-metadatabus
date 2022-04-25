@@ -1,1 +1,11 @@
-{"type":"committees","node":[["eng","s","committees","12-3",2]],"pubmax":"1914-06-12","chamber":["s"],"pubmin":"1914-01-15","label":"Senate Committees, 12th Parliament, 3rd Session : Standing Committee on Public Health and Inspection of Foods, vol. 1","callNumber":"1914 P82 A1","language":["eng"],"session":["12-3"]}
+{
+  "type": "committees",
+  "node": [["eng", "s", "committees", "12-3", 2]],
+  "pubmax": "1914-06-12",
+  "chamber": ["s"],
+  "pubmin": "1914-01-15",
+  "label": "Senate Committees, 12th Parliament, 3rd Session : Standing Committee on Public Health and Inspection of Foods, vol. 1",
+  "callNumber": "1914 P82 A1",
+  "language": ["eng"],
+  "session": ["12-3"]
+}

@@ -1,1 +1,15 @@
-{"pubmin":"1984-11-05","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de la santé, du bien-être social et des affaires sociales, vol. 1","callNumber":"33-1 H4 A1","language":["eng","fra"],"session":["33-1"],"type":"committees","node":[["eng","c","committees","33-1",80],["fra","c","committees","33-1",130]],"pubmax":"1986-08-28","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1984-11-05",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de la santé, du bien-être social et des affaires sociales, vol. 1",
+  "callNumber": "33-1 H4 A1",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-1", 80],
+    ["fra", "c", "committees", "33-1", 130]
+  ],
+  "pubmax": "1986-08-28",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

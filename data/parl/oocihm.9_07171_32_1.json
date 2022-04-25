@@ -1,1 +1,11 @@
-{"label":"House of Commons Journals, 8th Parliament, 2nd Session : Vol. 32","pubmin":"1897-03-25","session":["08-2"],"language":["eng"],"node":[["eng","c","journals","08-2",1]],"pubmax":"1897-06-29","type":"journals","primeMinisters":"Laurier, Wilfrid","chamber":["c"]}
+{
+  "label": "House of Commons Journals, 8th Parliament, 2nd Session : Vol. 32",
+  "pubmin": "1897-03-25",
+  "session": ["08-2"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "08-2", 1]],
+  "pubmax": "1897-06-29",
+  "type": "journals",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

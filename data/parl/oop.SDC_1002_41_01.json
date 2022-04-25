@@ -1,1 +1,10 @@
-{"type":"journals","pubmax":"1906-07-13","node":[["fra","s","journals","10-2",1]],"chamber":["s"],"pubmin":"1906-03-08","label":"Journaux du Sénat, 10e Législature, 2e Session : Vol. 41","language":["fra"],"session":["10-2"]}
+{
+  "type": "journals",
+  "pubmax": "1906-07-13",
+  "node": [["fra", "s", "journals", "10-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1906-03-08",
+  "label": "Journaux du Sénat, 10e Législature, 2e Session : Vol. 41",
+  "language": ["fra"],
+  "session": ["10-2"]
+}

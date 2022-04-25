@@ -1,1 +1,32 @@
-{"338":{"tagDescription":["(no 32) État des Grands et petits Gouvernements. Lieutenants de Roy, commandants et majors des places. Leurs appointements et emoluments. Statement of salaries paid in France to Governors and other royal officials, which affords interesting comparison with salaries paid to same officials in Canada. 134 pages."],"tagDate":["1748-01-01T00:00:00.000Z"]},"7":{"tagDate":["1685-01-01T00:00:00.000Z"],"tagDescription":["(no 11) A New Abridgment of Modern Geography. By Isaac Du Quere. This manuscript of a geography must have been composed by M. Du Quere about the year 1685 as it mentions Louisiana. It devotes several pages to America, pp. 62-66, and describes Louisiana, New England and New France. 82 pages."]},"91":{"tagDescription":["(no 12) Recueil de plusieurs termes de finances et plusieurs comptes qui serendent en la Chambre des Comptes à Paris. This is a summary of Frances expenditure under Louis XIV. It encloses several items relating to the settlement of Canada and Acadia, the sending of troops, craftsmen, marriageable girls, cattle, etc., interalia. See for instance, pp. 187, 191, etc. 197 pages."],"tagDate":["1685-01-01T00:00:00.000Z"]},"198":{"tagDescription":["(no 18) Mémoires sur les intérêts de la France pendant les derniers vingtcinq ans du 17ième siècle. This item throws a sidelight on Frances neglect of her Canadian and American colonies. 271 pages."],"tagDate":["1690-01-01T00:00:00.000Z"]},"413":{"tagDescription":["(no 51) Manuscrit contenant de différentes matières intéressantes y compris une description du Canada, par F.G. Thouret. 411 pages."],"tagDate":["1780-01-01T00:00:00.000Z"]}}
+{
+  "338": {
+    "tagDescription": [
+      "(no 32) État des Grands et petits Gouvernements. Lieutenants de Roy, commandants et majors des places. Leurs appointements et emoluments. Statement of salaries paid in France to Governors and other royal officials, which affords interesting comparison with salaries paid to same officials in Canada. 134 pages."
+    ],
+    "tagDate": ["1748-01-01T00:00:00.000Z"]
+  },
+  "7": {
+    "tagDate": ["1685-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "(no 11) A New Abridgment of Modern Geography. By Isaac Du Quere. This manuscript of a geography must have been composed by M. Du Quere about the year 1685 as it mentions Louisiana. It devotes several pages to America, pp. 62-66, and describes Louisiana, New England and New France. 82 pages."
+    ]
+  },
+  "91": {
+    "tagDescription": [
+      "(no 12) Recueil de plusieurs termes de finances et plusieurs comptes qui serendent en la Chambre des Comptes à Paris. This is a summary of Frances expenditure under Louis XIV. It encloses several items relating to the settlement of Canada and Acadia, the sending of troops, craftsmen, marriageable girls, cattle, etc., interalia. See for instance, pp. 187, 191, etc. 197 pages."
+    ],
+    "tagDate": ["1685-01-01T00:00:00.000Z"]
+  },
+  "198": {
+    "tagDescription": [
+      "(no 18) Mémoires sur les intérêts de la France pendant les derniers vingtcinq ans du 17ième siècle. This item throws a sidelight on Frances neglect of her Canadian and American colonies. 271 pages."
+    ],
+    "tagDate": ["1690-01-01T00:00:00.000Z"]
+  },
+  "413": {
+    "tagDescription": [
+      "(no 51) Manuscrit contenant de différentes matières intéressantes y compris une description du Canada, par F.G. Thouret. 411 pages."
+    ],
+    "tagDate": ["1780-01-01T00:00:00.000Z"]
+  }
+}

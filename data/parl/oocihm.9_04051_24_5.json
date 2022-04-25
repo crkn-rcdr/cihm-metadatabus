@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["07-1"],"pubmin":"1891-04-29","label":"Documents parlementaires, 7e Législature, 1re Session : vol. 5","primeMinisters":"Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)","chamber":["c"],"type":"sessional","node":[["fra","c","sessional","07-1",5]],"pubmax":"1891-09-30"}
+{
+  "language": ["fra"],
+  "session": ["07-1"],
+  "pubmin": "1891-04-29",
+  "label": "Documents parlementaires, 7e Législature, 1re Session : vol. 5",
+  "primeMinisters": "Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "07-1", 5]],
+  "pubmax": "1891-09-30"
+}

@@ -1,1 +1,15 @@
-{"pubmin":"1969-10-23","callNumber":"KE72 C36 28-2 C81-C150","label":"House of Commons Bills, 28th Parliament, 2nd Session : C81-C150 = Projets de loi de la Chambre des communes, 28e Législature, 2e Session : C81-C150","language":["eng","fra"],"session":["28-2"],"type":"bills","pubmax":"1970-10-07","node":[["eng","c","bills","28-2",2],["fra","c","bills","28-2",2]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "pubmin": "1969-10-23",
+  "callNumber": "KE72 C36 28-2 C81-C150",
+  "label": "House of Commons Bills, 28th Parliament, 2nd Session : C81-C150 = Projets de loi de la Chambre des communes, 28e Législature, 2e Session : C81-C150",
+  "language": ["eng", "fra"],
+  "session": ["28-2"],
+  "type": "bills",
+  "pubmax": "1970-10-07",
+  "node": [
+    ["eng", "c", "bills", "28-2", 2],
+    ["fra", "c", "bills", "28-2", 2]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

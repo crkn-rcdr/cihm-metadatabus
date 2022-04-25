@@ -1,1 +1,14 @@
-{"chamber":["s"],"node":[["eng","s","committees","34-3",4]],"pubmax":"1993-09-08","type":"committees","session":["34-3"],"language":["eng"],"reportTitle":["Farm Stress: Its Economic Dimension, Its Human Consequences"],"label":"Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Agriculture and Forestry, Interim Report","callNumber":"34-3 A32 A122","pubmin":"1991-05-13"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "34-3", 4]],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng"],
+  "reportTitle": [
+    "Farm Stress: Its Economic Dimension, Its Human Consequences"
+  ],
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Agriculture and Forestry, Interim Report",
+  "callNumber": "34-3 A32 A122",
+  "pubmin": "1991-05-13"
+}

@@ -1,1 +1,11 @@
-{"session":["22-5"],"language":["eng"],"label":"Senate Minutes of Proceedings, 22nd Parliament, 5th Session : 1-46","callNumber":"J103 H4 1957 c.2","pubmin":"1957-01-08","chamber":["s"],"node":[["eng","s","sproc","22-5",1]],"pubmax":"1957-04-12","type":"sproc"}
+{
+  "session": ["22-5"],
+  "language": ["eng"],
+  "label": "Senate Minutes of Proceedings, 22nd Parliament, 5th Session : 1-46",
+  "callNumber": "J103 H4 1957 c.2",
+  "pubmin": "1957-01-08",
+  "chamber": ["s"],
+  "node": [["eng", "s", "sproc", "22-5", 1]],
+  "pubmax": "1957-04-12",
+  "type": "sproc"
+}

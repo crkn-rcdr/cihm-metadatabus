@@ -1,1 +1,15 @@
-{"language":["eng"],"session":["08-1"],"pubmin":"1896-08-19","label":"Senate and House of Commons Bills, 8th Parliament, 1st Session : A-G, 2-38","callNumber":"KE72 C36 8-1 no.2-38 no.A-G","primeMinisters":"Laurier, Wilfrid","chamber":["s","c"],"type":"bills","node":[["eng","s","bills","08-1",1],["eng","c","bills","08-1",1]],"pubmax":"1896-10-05"}
+{
+  "language": ["eng"],
+  "session": ["08-1"],
+  "pubmin": "1896-08-19",
+  "label": "Senate and House of Commons Bills, 8th Parliament, 1st Session : A-G, 2-38",
+  "callNumber": "KE72 C36 8-1 no.2-38 no.A-G",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["s", "c"],
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "08-1", 1],
+    ["eng", "c", "bills", "08-1", 1]
+  ],
+  "pubmax": "1896-10-05"
+}

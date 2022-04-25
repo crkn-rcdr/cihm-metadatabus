@@ -1,1 +1,11 @@
-{"session":["21-6"],"language":["eng"],"label":"Senate Committees, 21st Parliament, 6th Session : Special Committee on Sale and Distribution of Salacious and Indecent Literature, vol. 1","callNumber":"1952 L5 A1","pubmin":"1952-02-28","chamber":["s"],"node":[["eng","s","committees","21-6",3]],"pubmax":"1952-11-20","type":"committees"}
+{
+  "session": ["21-6"],
+  "language": ["eng"],
+  "label": "Senate Committees, 21st Parliament, 6th Session : Special Committee on Sale and Distribution of Salacious and Indecent Literature, vol. 1",
+  "callNumber": "1952 L5 A1",
+  "pubmin": "1952-02-28",
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "21-6", 3]],
+  "pubmax": "1952-11-20",
+  "type": "committees"
+}

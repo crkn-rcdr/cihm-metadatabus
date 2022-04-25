@@ -1,1 +1,17 @@
-{"type":"committees","pubmax":"1978-10-10","node":[["eng","c","committees","30-3",17],["fra","c","committees","30-3",23],["eng","s","committees","30-3",10],["fra","s","committees","30-3",13]],"chamber":["c","s"],"primeMinisters":"Trudeau, Pierre Elliott","pubmin":"1977-10-18","callNumber":"1977/78 N27 A1","label":"Joint Committees, 30th Parliament, 3rd Session : Special Joint Committee on the National Capital Region, vol. 1 = Comités mixtes, 30e Législature, 3e Session : Comité mixte spécial sur la Région de la capitale nationale, vol. 1","language":["eng","fra"],"session":["30-3"]}
+{
+  "type": "committees",
+  "pubmax": "1978-10-10",
+  "node": [
+    ["eng", "c", "committees", "30-3", 17],
+    ["fra", "c", "committees", "30-3", 23],
+    ["eng", "s", "committees", "30-3", 10],
+    ["fra", "s", "committees", "30-3", 13]
+  ],
+  "chamber": ["c", "s"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1977-10-18",
+  "callNumber": "1977/78 N27 A1",
+  "label": "Joint Committees, 30th Parliament, 3rd Session : Special Joint Committee on the National Capital Region, vol. 1 = Comités mixtes, 30e Législature, 3e Session : Comité mixte spécial sur la Région de la capitale nationale, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["30-3"]
+}

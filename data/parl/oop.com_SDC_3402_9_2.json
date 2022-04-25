@@ -1,1 +1,12 @@
-{"language":["fra"],"reportTitle":["Les forces terrestres du Canada"],"session":["34-2"],"pubmin":"1989-04-03","label":"Comités du Sénat, 34e Législature, 2e Session : Comité spécial sur la défense nationale, Rapport","callNumber":"34-2 N28 A12","chamber":["s"],"type":"committees","node":[["fra","s","committees","34-2",28]],"pubmax":"1991-05-12"}
+{
+  "language": ["fra"],
+  "reportTitle": ["Les forces terrestres du Canada"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "Comités du Sénat, 34e Législature, 2e Session : Comité spécial sur la défense nationale, Rapport",
+  "callNumber": "34-2 N28 A12",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "34-2", 28]],
+  "pubmax": "1991-05-12"
+}

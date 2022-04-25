@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"bills","node":[["fra","s","bills","22-2",1]],"pubmax":"1955-07-28","language":["fra"],"session":["22-2"],"pubmin":"1955-01-07","label":"Projets de loi du Sénat, 22e Législature, 2e Session : B-Z4","callNumber":"KE72 C381 22-2 v.1"}
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["fra", "s", "bills", "22-2", 1]],
+  "pubmax": "1955-07-28",
+  "language": ["fra"],
+  "session": ["22-2"],
+  "pubmin": "1955-01-07",
+  "label": "Projets de loi du Sénat, 22e Législature, 2e Session : B-Z4",
+  "callNumber": "KE72 C381 22-2 v.1"
+}

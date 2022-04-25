@@ -1,1 +1,11 @@
-{"pubmin":"1912-11-21","label":"Débats de la Chambre des communes, 12e Législature, 2e Session : Vol. 4","language":["fra"],"session":["12-2"],"type":"debates","pubmax":"1913-06-06","node":[["fra","c","debates","12-2",4]],"chamber":["c"],"primeMinisters":"Borden, Robert Laird"}
+{
+  "pubmin": "1912-11-21",
+  "label": "Débats de la Chambre des communes, 12e Législature, 2e Session : Vol. 4",
+  "language": ["fra"],
+  "session": ["12-2"],
+  "type": "debates",
+  "pubmax": "1913-06-06",
+  "node": [["fra", "c", "debates", "12-2", 4]],
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird"
+}

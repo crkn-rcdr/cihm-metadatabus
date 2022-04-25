@@ -1,1 +1,12 @@
-{"type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",124]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1984-11-05","callNumber":"33-1 R38 A12","label":"House of Commons Committees, 33rd Parliament, 1st Session : Special Committee on the Reform of the House of Commons, Third Report","language":["eng"],"session":["33-1"]}
+{
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [["eng", "c", "committees", "33-1", 124]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 R38 A12",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Special Committee on the Reform of the House of Commons, Third Report",
+  "language": ["eng"],
+  "session": ["33-1"]
+}

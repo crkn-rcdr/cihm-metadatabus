@@ -1,1 +1,11 @@
-{"pubmin":"1937-01-14","label":"Senate Committees, 18th Parliament, 2nd Session : Standing Committee on Railways, Telegraphs and Harbours, vol. 1","callNumber":"1937 R35 A1","language":["eng"],"session":["18-2"],"type":"committees","node":[["eng","s","committees","18-2",2]],"pubmax":"1937-04-10","chamber":["s"]}
+{
+  "pubmin": "1937-01-14",
+  "label": "Senate Committees, 18th Parliament, 2nd Session : Standing Committee on Railways, Telegraphs and Harbours, vol. 1",
+  "callNumber": "1937 R35 A1",
+  "language": ["eng"],
+  "session": ["18-2"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "18-2", 2]],
+  "pubmax": "1937-04-10",
+  "chamber": ["s"]
+}

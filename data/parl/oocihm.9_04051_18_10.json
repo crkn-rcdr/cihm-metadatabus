@@ -1,1 +1,11 @@
-{"pubmin":"1885-01-29","label":"Documents parlementaires, 5e Législature, 3e Session : vol. 10","language":["fra"],"session":["05-3"],"type":"sessional","pubmax":"1885-07-20","node":[["fra","c","sessional","05-3",10]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "pubmin": "1885-01-29",
+  "label": "Documents parlementaires, 5e Législature, 3e Session : vol. 10",
+  "language": ["fra"],
+  "session": ["05-3"],
+  "type": "sessional",
+  "pubmax": "1885-07-20",
+  "node": [["fra", "c", "sessional", "05-3", 10]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"committees","node":[["eng","c","committees","14-3",1]],"pubmax":"1924-07-19","language":["eng"],"session":["14-3"],"pubmin":"1924-02-28","label":"House of Commons Committees, 14th Parliament, 3rd Session : Select Standing Committee on Agriculture and Colonization, vol. 1","callNumber":"1924 A3P A1"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "14-3", 1]],
+  "pubmax": "1924-07-19",
+  "language": ["eng"],
+  "session": ["14-3"],
+  "pubmin": "1924-02-28",
+  "label": "House of Commons Committees, 14th Parliament, 3rd Session : Select Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1924 A3P A1"
+}

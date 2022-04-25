@@ -1,1 +1,12 @@
-{"session":["33-2"],"language":["fra"],"callNumber":"J103 H7 33-2 Z95 A2","label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Index non révisé de la procédure des comités de la Chambre et des comités mixtes, Index","pubmin":"1986-09-30","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1988-10-01","node":[["fra","c","committees","33-2",192]],"type":"committees"}
+{
+  "session": ["33-2"],
+  "language": ["fra"],
+  "callNumber": "J103 H7 33-2 Z95 A2",
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Index non révisé de la procédure des comités de la Chambre et des comités mixtes, Index",
+  "pubmin": "1986-09-30",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1988-10-01",
+  "node": [["fra", "c", "committees", "33-2", 192]],
+  "type": "committees"
+}

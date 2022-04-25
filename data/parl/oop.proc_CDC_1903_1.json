@@ -1,1 +1,12 @@
-{"session":["19-3"],"language":["fra"],"label":"Procès-verbaux de la Chambre des communes, 19e Législature, 3e Session : 1-124","callNumber":"J103 H44 1942-43","pubmin":"1942-01-22","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["fra","c","cproc","19-3",1]],"pubmax":"1943-01-27","type":"cproc"}
+{
+  "session": ["19-3"],
+  "language": ["fra"],
+  "label": "Procès-verbaux de la Chambre des communes, 19e Législature, 3e Session : 1-124",
+  "callNumber": "J103 H44 1942-43",
+  "pubmin": "1942-01-22",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "cproc", "19-3", 1]],
+  "pubmax": "1943-01-27",
+  "type": "cproc"
+}

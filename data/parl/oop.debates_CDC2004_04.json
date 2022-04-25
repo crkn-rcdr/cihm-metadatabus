@@ -1,1 +1,11 @@
-{"pubmax":"1948-06-30","node":[["fra","c","debates","20-4",4]],"type":"debates","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","label":"Débats de la Chambre des communes, 20e Législature, 4e Session : Vol. 6","pubmin":"1947-12-05","session":["20-4"],"language":["fra"]}
+{
+  "pubmax": "1948-06-30",
+  "node": [["fra", "c", "debates", "20-4", 4]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "label": "Débats de la Chambre des communes, 20e Législature, 4e Session : Vol. 6",
+  "pubmin": "1947-12-05",
+  "session": ["20-4"],
+  "language": ["fra"]
+}

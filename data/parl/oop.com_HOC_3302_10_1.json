@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","33-2",16],["fra","c","committees","33-2",31]],"pubmax":"1988-10-01","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"pubmin":"1986-09-30","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-7, an Act respecting the Archives of Canada and records of government institutions of Canada and to amend the Copyright Act, vol. 1 no. 1-3 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-7, Loi concernant les Archives du Canada et les documents des institutions fédérales du Canada et modifiant la Loi sur le droit d'auteur, vol. 1 no. 1-3","callNumber":"33-2 A722 A1 no.1-3","language":["eng","fra"],"session":["33-2"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 16],
+    ["fra", "c", "committees", "33-2", 31]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-7, an Act respecting the Archives of Canada and records of government institutions of Canada and to amend the Copyright Act, vol. 1 no. 1-3 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-7, Loi concernant les Archives du Canada et les documents des institutions fédérales du Canada et modifiant la Loi sur le droit d'auteur, vol. 1 no. 1-3",
+  "callNumber": "33-2 A722 A1 no.1-3",
+  "language": ["eng", "fra"],
+  "session": ["33-2"]
+}

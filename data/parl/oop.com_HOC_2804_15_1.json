@@ -1,1 +1,15 @@
-{"node":[["eng","c","committees","28-4",18],["fra","c","committees","28-4",8]],"pubmax":"1972-09-01","type":"committees","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"label":"House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Regional Development, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent de l'expansion économique régionale, vol. 1","callNumber":"1972 R4 A1","pubmin":"1972-02-17","session":["28-4"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "c", "committees", "28-4", 18],
+    ["fra", "c", "committees", "28-4", 8]
+  ],
+  "pubmax": "1972-09-01",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Regional Development, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent de l'expansion économique régionale, vol. 1",
+  "callNumber": "1972 R4 A1",
+  "pubmin": "1972-02-17",
+  "session": ["28-4"],
+  "language": ["eng", "fra"]
+}

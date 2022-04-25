@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["33-2"],"pubmin":"1986-09-30","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-14, an Act to amend the Excise Tax Act and the Excise Act, vol. 1 no. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-14, Loi modifiant la Loi sur la taxe d'accise et la Loi sur l'accise, vol. 1 no. 1","callNumber":"33-2 E8943 A1 no.1","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","33-2",68],["fra","c","committees","33-2",175]],"pubmax":"1988-10-01"}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-14, an Act to amend the Excise Tax Act and the Excise Act, vol. 1 no. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-14, Loi modifiant la Loi sur la taxe d'accise et la Loi sur l'accise, vol. 1 no. 1",
+  "callNumber": "33-2 E8943 A1 no.1",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 68],
+    ["fra", "c", "committees", "33-2", 175]
+  ],
+  "pubmax": "1988-10-01"
+}

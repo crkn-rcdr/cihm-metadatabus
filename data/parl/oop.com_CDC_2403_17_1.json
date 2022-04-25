@@ -1,1 +1,12 @@
-{"node":[["fra","c","committees","24-3",18]],"pubmax":"1960-08-10","type":"committees","primeMinisters":"Diefenbaker, John George","chamber":["c"],"label":"Comités de la Chambre des communes, 24e Législature, 3e Session : Comité spécial chargé d'examiner, avec l'Orateur, la procédure de la Chambre des communes, vol. 1","callNumber":"1960 P76 A12","pubmin":"1960-01-14","session":["24-3"],"language":["fra"]}
+{
+  "node": [["fra", "c", "committees", "24-3", 18]],
+  "pubmax": "1960-08-10",
+  "type": "committees",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "label": "Comités de la Chambre des communes, 24e Législature, 3e Session : Comité spécial chargé d'examiner, avec l'Orateur, la procédure de la Chambre des communes, vol. 1",
+  "callNumber": "1960 P76 A12",
+  "pubmin": "1960-01-14",
+  "session": ["24-3"],
+  "language": ["fra"]
+}

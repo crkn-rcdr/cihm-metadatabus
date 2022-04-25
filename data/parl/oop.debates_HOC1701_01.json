@@ -1,1 +1,11 @@
-{"session":["17-1"],"language":["eng"],"label":"House of Commons Debates, 17th Parliament, 1st Session : Vol. 1","pubmin":"1930-09-08","chamber":["c"],"primeMinisters":"Bennett, Richard Bedford","pubmax":"1930-09-22","node":[["eng","c","debates","17-1",1]],"type":"debates"}
+{
+  "session": ["17-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 17th Parliament, 1st Session : Vol. 1",
+  "pubmin": "1930-09-08",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "pubmax": "1930-09-22",
+  "node": [["eng", "c", "debates", "17-1", 1]],
+  "type": "debates"
+}

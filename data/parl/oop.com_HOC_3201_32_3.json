@@ -1,1 +1,13 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1983-11-30","node":[["eng","c","committees","32-1",124]],"type":"committees","session":["32-1"],"reportTitle":["Canada's Trade Challenge"],"language":["eng"],"callNumber":"1980/83 N37 A12","label":"House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on National Trading Corporation, Report","pubmin":"1980-04-14"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1983-11-30",
+  "node": [["eng", "c", "committees", "32-1", 124]],
+  "type": "committees",
+  "session": ["32-1"],
+  "reportTitle": ["Canada's Trade Challenge"],
+  "language": ["eng"],
+  "callNumber": "1980/83 N37 A12",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on National Trading Corporation, Report",
+  "pubmin": "1980-04-14"
+}

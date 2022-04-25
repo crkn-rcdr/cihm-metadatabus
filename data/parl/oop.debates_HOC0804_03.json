@@ -1,1 +1,11 @@
-{"pubmin":"1899-03-16","label":"House of Commons Debates, 8th Parliament, 4th Session : Vol. 3","language":["eng"],"session":["08-4"],"type":"debates","pubmax":"1899-08-11","node":[["eng","c","debates","08-4",3]],"chamber":["c"],"primeMinisters":"Laurier, Wilfrid"}
+{
+  "pubmin": "1899-03-16",
+  "label": "House of Commons Debates, 8th Parliament, 4th Session : Vol. 3",
+  "language": ["eng"],
+  "session": ["08-4"],
+  "type": "debates",
+  "pubmax": "1899-08-11",
+  "node": [["eng", "c", "debates", "08-4", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

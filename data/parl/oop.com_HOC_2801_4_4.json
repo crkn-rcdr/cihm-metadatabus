@@ -1,1 +1,15 @@
-{"session":["28-1"],"language":["eng","fra"],"label":"House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, Index = Comités de la Chambre des communes, 28e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, Index","callNumber":"1968/69 F55 A1 Index","pubmin":"1968-09-12","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["eng","c","committees","28-1",12],["fra","c","committees","28-1",17]],"pubmax":"1969-10-22","type":"committees"}
+{
+  "session": ["28-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, Index = Comités de la Chambre des communes, 28e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, Index",
+  "callNumber": "1968/69 F55 A1 Index",
+  "pubmin": "1968-09-12",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "28-1", 12],
+    ["fra", "c", "committees", "28-1", 17]
+  ],
+  "pubmax": "1969-10-22",
+  "type": "committees"
+}

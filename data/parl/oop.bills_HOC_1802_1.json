@@ -1,1 +1,15 @@
-{"pubmin":"1937-01-14","label":"Senate and House of Commons Bills, 18th Parliament, 2nd Session : A-G3, 1-121","callNumber":"KE72 C36 18-2 1-121","language":["eng"],"session":["18-2"],"type":"bills","node":[["eng","c","bills","18-2",1],["eng","s","bills","18-2",1]],"pubmax":"1937-04-10","primeMinisters":"King, William Lyon Mackenzie","chamber":["c","s"]}
+{
+  "pubmin": "1937-01-14",
+  "label": "Senate and House of Commons Bills, 18th Parliament, 2nd Session : A-G3, 1-121",
+  "callNumber": "KE72 C36 18-2 1-121",
+  "language": ["eng"],
+  "session": ["18-2"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "18-2", 1],
+    ["eng", "s", "bills", "18-2", 1]
+  ],
+  "pubmax": "1937-04-10",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c", "s"]
+}

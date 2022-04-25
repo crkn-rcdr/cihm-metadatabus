@@ -1,1 +1,30 @@
-{"1404":{"tagDescription":["Pelagic sealing"],"tagDate":["1888-01-01T00:00:00.000Z"]},"1699":{"tagDate":["1888-01-01T00:00:00.000Z"],"tagDescription":["Pelagic sealing"]},"899":{"tagDate":["[1887-01-01T00:00:00.000Z TO 1888-12-31T23:59:59.999Z]"],"tagDescription":["Pelagic sealing"]},"1140":{"tagDate":["[1886-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"],"tagDescription":["Pelagic sealing"]},"305":{"tagDate":["[1909-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],"tagDescription":["Printed correspondence respecting pelagic sealing (Behring Sea)"]},"13":{"tagDate":["[1909-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],"tagDescription":["Printed correspondence respecting pelagic sealing (Behring Sea)"]}}
+{
+  "1404": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["1888-01-01T00:00:00.000Z"]
+  },
+  "1699": {
+    "tagDate": ["1888-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing"]
+  },
+  "899": {
+    "tagDate": ["[1887-01-01T00:00:00.000Z TO 1888-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Pelagic sealing"]
+  },
+  "1140": {
+    "tagDate": ["[1886-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Pelagic sealing"]
+  },
+  "305": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Printed correspondence respecting pelagic sealing (Behring Sea)"
+    ]
+  },
+  "13": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Printed correspondence respecting pelagic sealing (Behring Sea)"
+    ]
+  }
+}

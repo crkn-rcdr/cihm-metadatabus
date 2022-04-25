@@ -1,1 +1,10 @@
-{"chamber":["s"],"pubmax":"1911-07-29","node":[["eng","s","debates","11-3",1]],"type":"debates","session":["11-3"],"language":["eng"],"label":"Senate Debates, 11th Parliament, 3rd Session : Vol. 1","pubmin":"1910-11-17"}
+{
+  "chamber": ["s"],
+  "pubmax": "1911-07-29",
+  "node": [["eng", "s", "debates", "11-3", 1]],
+  "type": "debates",
+  "session": ["11-3"],
+  "language": ["eng"],
+  "label": "Senate Debates, 11th Parliament, 3rd Session : Vol. 1",
+  "pubmin": "1910-11-17"
+}

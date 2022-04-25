@@ -1,1 +1,11 @@
-{"type":"bills","node":[["fra","s","bills","16-4",1]],"pubmax":"1930-05-30","chamber":["s"],"pubmin":"1930-02-20","label":"Projets de loi du Sénat, 16e Législature, 4e Session : B-X9","callNumber":"KE72 C381 16-4 Bill B-","language":["fra"],"session":["16-4"]}
+{
+  "type": "bills",
+  "node": [["fra", "s", "bills", "16-4", 1]],
+  "pubmax": "1930-05-30",
+  "chamber": ["s"],
+  "pubmin": "1930-02-20",
+  "label": "Projets de loi du Sénat, 16e Législature, 4e Session : B-X9",
+  "callNumber": "KE72 C381 16-4 Bill B-",
+  "language": ["fra"],
+  "session": ["16-4"]
+}

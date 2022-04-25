@@ -1,1 +1,11 @@
-{"type":"bills","node":[["eng","s","bills","04-3",1]],"pubmax":"1881-03-21","chamber":["s"],"pubmin":"1880-12-09","label":"Senate Bills, 4th Parliament, 3rd Session : A-T","callNumber":"KE72 C38 4-3 Bill A-","language":["eng"],"session":["04-3"]}
+{
+  "type": "bills",
+  "node": [["eng", "s", "bills", "04-3", 1]],
+  "pubmax": "1881-03-21",
+  "chamber": ["s"],
+  "pubmin": "1880-12-09",
+  "label": "Senate Bills, 4th Parliament, 3rd Session : A-T",
+  "callNumber": "KE72 C38 4-3 Bill A-",
+  "language": ["eng"],
+  "session": ["04-3"]
+}

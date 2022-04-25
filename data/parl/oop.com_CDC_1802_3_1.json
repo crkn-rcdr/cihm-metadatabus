@@ -1,1 +1,12 @@
-{"pubmin":"1937-01-14","label":"Comités de la Chambre des communes, 18e Législature, 2e Session : Comité spécial sur le prix des instruments aratoires, vol. 1","callNumber":"1937 I58 A4","language":["fra"],"session":["18-2"],"type":"committees","node":[["fra","c","committees","18-2",3]],"pubmax":"1937-04-10","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "pubmin": "1937-01-14",
+  "label": "Comités de la Chambre des communes, 18e Législature, 2e Session : Comité spécial sur le prix des instruments aratoires, vol. 1",
+  "callNumber": "1937 I58 A4",
+  "language": ["fra"],
+  "session": ["18-2"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "18-2", 3]],
+  "pubmax": "1937-04-10",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

@@ -1,1 +1,10 @@
-{"type":"debates","node":[["fra","s","debates","35-1",1]],"pubmax":"1996-02-02","chamber":["s"],"pubmin":"1994-01-17","label":"Débats du Sénat, 35e Législature, 1re Session : Vol. 1","language":["fra"],"session":["35-1"]}
+{
+  "type": "debates",
+  "node": [["fra", "s", "debates", "35-1", 1]],
+  "pubmax": "1996-02-02",
+  "chamber": ["s"],
+  "pubmin": "1994-01-17",
+  "label": "Débats du Sénat, 35e Législature, 1re Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["35-1"]
+}

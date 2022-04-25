@@ -1,1 +1,14 @@
-{"chamber":["s"],"node":[["eng","s","committees","34-3",42],["fra","s","committees","34-3",8]],"pubmax":"1993-09-08","type":"committees","session":["34-3"],"language":["eng","fra"],"label":"Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Social Affairs, Science and Technology, vol. 1 no. 1-20 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent des affaires sociales, sciences et technologie, vol. 1 no. 1-20","callNumber":"34-3 S6 A1 no.1-20","pubmin":"1991-05-13"}
+{
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "committees", "34-3", 42],
+    ["fra", "s", "committees", "34-3", 8]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Social Affairs, Science and Technology, vol. 1 no. 1-20 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent des affaires sociales, sciences et technologie, vol. 1 no. 1-20",
+  "callNumber": "34-3 S6 A1 no.1-20",
+  "pubmin": "1991-05-13"
+}

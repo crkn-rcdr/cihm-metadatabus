@@ -1,1 +1,11 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"sessional","node":[["eng","c","sessional","04-4",4]],"pubmax":"1882-05-17","language":["eng"],"session":["04-4"],"pubmin":"1882-02-09","label":"Sessional Papers, 4th Parliament, 4th Session : vol. 4"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["eng", "c", "sessional", "04-4", 4]],
+  "pubmax": "1882-05-17",
+  "language": ["eng"],
+  "session": ["04-4"],
+  "pubmin": "1882-02-09",
+  "label": "Sessional Papers, 4th Parliament, 4th Session : vol. 4"
+}

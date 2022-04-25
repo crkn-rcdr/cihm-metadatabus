@@ -1,1 +1,71 @@
-{"236":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Agriculture"]},"363":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Church Matters"]},"554":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Corporations"]},"850":{"tagDescription":["Pacific cable"],"tagDate":["1901-01-24T00:00:00.000Z"],"tagName":["Strathcona, Lord (Smith, Sir Donald A.)"]},"31":{"tagDate":["[1896-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively","(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Alaska Boundary"]},"650":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Dominion-Provincial Conference 1906"],"tagDate":["1906-01-01T00:00:00.000Z"]},"591":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Copyright"]},"9":{"tagDescription":["8. Letter to Liberal Party 1887 Original draft, in English and French, of a circular letterwritten by Laurier to the leaders of the Liberal Party on Commercial Union and Unrestricted Reciprocity. Also the draft of a speech on the same subject."],"tagDate":["1887-01-01T00:00:00.000Z"]},"764":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Elections and Electoral Districts"]},"634":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Dominion Bureau of Mines"]},"350":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Banking"]},"750":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Dundonald, Lord"]},"480":{"tagDescription":["(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Civil Service"]}}
+{
+  "236": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Agriculture"
+    ]
+  },
+  "363": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Church Matters"
+    ]
+  },
+  "554": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Corporations"
+    ]
+  },
+  "850": {
+    "tagDescription": ["Pacific cable"],
+    "tagDate": ["1901-01-24T00:00:00.000Z"],
+    "tagName": ["Strathcona, Lord (Smith, Sir Donald A.)"]
+  },
+  "31": {
+    "tagDate": ["[1896-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively",
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Alaska Boundary"
+    ]
+  },
+  "650": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Dominion-Provincial Conference 1906"
+    ],
+    "tagDate": ["1906-01-01T00:00:00.000Z"]
+  },
+  "591": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Copyright"
+    ]
+  },
+  "9": {
+    "tagDescription": [
+      "8. Letter to Liberal Party 1887 Original draft, in English and French, of a circular letterwritten by Laurier to the leaders of the Liberal Party on Commercial Union and Unrestricted Reciprocity. Also the draft of a speech on the same subject."
+    ],
+    "tagDate": ["1887-01-01T00:00:00.000Z"]
+  },
+  "764": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Elections and Electoral Districts"
+    ]
+  },
+  "634": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Dominion Bureau of Mines"
+    ]
+  },
+  "350": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Banking"
+    ]
+  },
+  "750": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Dundonald, Lord"
+    ]
+  },
+  "480": {
+    "tagDescription": [
+      "(b) Memoranda and notes, 6 ft. Unsigned and often undated memoranda, reports, estimates and notes, arranged alphabetically in subject files and numbered consecutively Civil Service"
+    ]
+  }
+}

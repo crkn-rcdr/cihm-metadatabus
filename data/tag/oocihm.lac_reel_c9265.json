@@ -1,1 +1,85 @@
-{"239":{"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["Convention - Correspondence"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"459":{"tagDescription":["Convention - Resolution and Delegates"],"tagDate":["1938-01-01T00:00:00.000Z"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"1390":{"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"],"tagDescription":["Convention - Correspondence"],"tagDate":["1944-01-01T00:00:00.000Z"]},"1307":{"tagDescription":["Convention -  Report"],"tagDate":["1942-01-01T00:00:00.000Z"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"24":{"tagDescription":["Convention - Transcripts of Minutes"],"tagDate":["1937-01-01T00:00:00.000Z"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"574":{"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"],"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["Convention - Minutes - Last Detailed Minutes Available (2 files)"]},"155":{"tagDate":["1937-01-01T00:00:00.000Z"],"tagDescription":["Convention - Clippings"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"1228":{"tagDescription":["Convention - Correspondence"],"tagDate":["1942-01-01T00:00:00.000Z"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"1179":{"tagDate":["1940-01-01T00:00:00.000Z"],"tagDescription":["Convention - Report","Convention - Delegates","Convention - Correspondence"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"1147":{"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["Convention Report"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"188":{"tagDate":["1937-01-01T00:00:00.000Z"],"tagDescription":["Convention - Convention Report"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]}}
+{
+  "239": {
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Correspondence"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "459": {
+    "tagDescription": ["Convention - Resolution and Delegates"],
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1390": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDescription": ["Convention - Correspondence"],
+    "tagDate": ["1944-01-01T00:00:00.000Z"]
+  },
+  "1307": {
+    "tagDescription": ["Convention -  Report"],
+    "tagDate": ["1942-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "24": {
+    "tagDescription": ["Convention - Transcripts of Minutes"],
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "574": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Convention - Minutes - Last Detailed Minutes Available (2 files)"
+    ]
+  },
+  "155": {
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Clippings"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1228": {
+    "tagDescription": ["Convention - Correspondence"],
+    "tagDate": ["1942-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1179": {
+    "tagDate": ["1940-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Convention - Report",
+      "Convention - Delegates",
+      "Convention - Correspondence"
+    ],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1147": {
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention Report"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "188": {
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Convention Report"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  }
+}

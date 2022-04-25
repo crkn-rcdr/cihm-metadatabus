@@ -1,1 +1,15 @@
-{"session":["34-3"],"language":["eng","fra"],"label":"House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on Tax Matters, vol. 1 no. 1-9 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité sur les questions fiscales, vol. 1 no. 1-9","callNumber":"34-3 T38 A1 no.1-9","pubmin":"1991-05-13","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","34-3",210],["fra","c","committees","34-3",170]],"pubmax":"1993-09-08","type":"committees"}
+{
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on Tax Matters, vol. 1 no. 1-9 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité sur les questions fiscales, vol. 1 no. 1-9",
+  "callNumber": "34-3 T38 A1 no.1-9",
+  "pubmin": "1991-05-13",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "34-3", 210],
+    ["fra", "c", "committees", "34-3", 170]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees"
+}

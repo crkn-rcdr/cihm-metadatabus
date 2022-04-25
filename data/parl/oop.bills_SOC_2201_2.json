@@ -1,1 +1,11 @@
-{"node":[["eng","s","bills","22-1",2]],"pubmax":"1954-06-26","type":"bills","chamber":["s"],"label":"Senate Bills, 22nd Parliament, 1st Session : O8-Q15","callNumber":"KE72 C38 22-1 v.2","pubmin":"1953-11-12","session":["22-1"],"language":["eng"]}
+{
+  "node": [["eng", "s", "bills", "22-1", 2]],
+  "pubmax": "1954-06-26",
+  "type": "bills",
+  "chamber": ["s"],
+  "label": "Senate Bills, 22nd Parliament, 1st Session : O8-Q15",
+  "callNumber": "KE72 C38 22-1 v.2",
+  "pubmin": "1953-11-12",
+  "session": ["22-1"],
+  "language": ["eng"]
+}

@@ -1,1 +1,11 @@
-{"pubmin":"1875-02-04","label":"Documents parlementaires, 3e Législature, 2e Session : vol. 1","language":["fra"],"session":["03-2"],"type":"sessional","node":[["fra","c","sessional","03-2",1]],"pubmax":"1875-04-08","primeMinisters":"Mackenzie, Alexander","chamber":["c"]}
+{
+  "pubmin": "1875-02-04",
+  "label": "Documents parlementaires, 3e Législature, 2e Session : vol. 1",
+  "language": ["fra"],
+  "session": ["03-2"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "03-2", 1]],
+  "pubmax": "1875-04-08",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"]
+}

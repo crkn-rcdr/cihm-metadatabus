@@ -1,1 +1,10 @@
-{"type":"debates","pubmax":"1979-03-26","node":[["eng","s","debates","30-4",1]],"chamber":["s"],"pubmin":"1978-10-11","label":"Senate Debates, 30th Parliament, 4th Session : Vol. 1","language":["eng"],"session":["30-4"]}
+{
+  "type": "debates",
+  "pubmax": "1979-03-26",
+  "node": [["eng", "s", "debates", "30-4", 1]],
+  "chamber": ["s"],
+  "pubmin": "1978-10-11",
+  "label": "Senate Debates, 30th Parliament, 4th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["30-4"]
+}

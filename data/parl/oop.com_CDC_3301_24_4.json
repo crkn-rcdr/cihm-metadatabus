@@ -1,1 +1,13 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["fra","c","committees","33-1",38]],"pubmax":"1986-08-28","type":"committees","session":["33-1"],"reportTitle":["Égalité pour tous"],"language":["fra"],"label":"Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur les droits à l'égalité, Rapport","callNumber":"33-1 E6 A12","pubmin":"1984-11-05"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "33-1", 38]],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "session": ["33-1"],
+  "reportTitle": ["Égalité pour tous"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur les droits à l'égalité, Rapport",
+  "callNumber": "33-1 E6 A12",
+  "pubmin": "1984-11-05"
+}

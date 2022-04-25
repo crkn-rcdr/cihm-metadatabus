@@ -1,1 +1,10 @@
-{"session":["28-2"],"language":["fra"],"label":"Débats du Sénat, 28e Législature, 2e Session : Vol. 2","pubmin":"1969-10-23","chamber":["s"],"node":[["fra","s","debates","28-2",2]],"pubmax":"1970-10-07","type":"debates"}
+{
+  "session": ["28-2"],
+  "language": ["fra"],
+  "label": "Débats du Sénat, 28e Législature, 2e Session : Vol. 2",
+  "pubmin": "1969-10-23",
+  "chamber": ["s"],
+  "node": [["fra", "s", "debates", "28-2", 2]],
+  "pubmax": "1970-10-07",
+  "type": "debates"
+}

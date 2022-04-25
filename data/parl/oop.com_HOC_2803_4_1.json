@@ -1,1 +1,15 @@
-{"pubmin":"1970-10-08","label":"House of Commons Committees, 28th Parliament, 3rd Session : Special Committee on Environmental Pollution, vol. 1 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité spécial de la pollution de l'environnement, vol. 1","callNumber":"1970/72 E5 A1","language":["eng","fra"],"session":["28-3"],"type":"committees","node":[["eng","c","committees","28-3",16],["fra","c","committees","28-3",29]],"pubmax":"1972-02-16","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "pubmin": "1970-10-08",
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Special Committee on Environmental Pollution, vol. 1 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité spécial de la pollution de l'environnement, vol. 1",
+  "callNumber": "1970/72 E5 A1",
+  "language": ["eng", "fra"],
+  "session": ["28-3"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "28-3", 16],
+    ["fra", "c", "committees", "28-3", 29]
+  ],
+  "pubmax": "1972-02-16",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

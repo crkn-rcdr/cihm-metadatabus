@@ -1,1 +1,52 @@
-{"240":{"tagDescription":["III Medical Reports - Cures Bacillus- Calmette- Guerin (B .C.G.) (no file)"]},"222":{"tagDate":["1908-01-01T00:00:00.000Z"],"tagDescription":["III Medical Reports - Cures Antituberculosis Work in Canada, 1908"]},"81":{"tagDescription":["III Medical Reports - Cures Age and Tuberculosis"]},"636":{"tagDescription":["III Medical Reports - Cures B.C.G. Studies - Britain"]},"1074":{"tagDescription":["III Medical Reports - Cures B.C.G. Studies - U.S.A."]},"538":{"tagDescription":["III Medical Reports - Cures B.C.G. Research in Animals"]},"941":{"tagDescription":["III Medical Reports - Cures B.C.G. Studies- Foreign Countries"]},"243":{"tagDescription":["III Medical Reports - Cures B.C. G. Reports of Dr . J.A . Baudouin"]},"762":{"tagDescription":["III Medical Reports - Cures B.C.G. Studies - Canada and other countries"]},"150":{"tagDescription":["III Medical Reports - Cures Allergy and Immunity"]},"511":{"tagDate":["1946-01-01T00:00:00.000Z"],"tagDescription":["III Medical Reports - Cures B.C.G. Panel Discussion, 1946"]},"46":{"tagDescription":["III Medical Reports - Cures After Care- Occupational"]}}
+{
+  "240": {
+    "tagDescription": [
+      "III Medical Reports - Cures Bacillus- Calmette- Guerin (B .C.G.) (no file)"
+    ]
+  },
+  "222": {
+    "tagDate": ["1908-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "III Medical Reports - Cures Antituberculosis Work in Canada, 1908"
+    ]
+  },
+  "81": {
+    "tagDescription": ["III Medical Reports - Cures Age and Tuberculosis"]
+  },
+  "636": {
+    "tagDescription": ["III Medical Reports - Cures B.C.G. Studies - Britain"]
+  },
+  "1074": {
+    "tagDescription": ["III Medical Reports - Cures B.C.G. Studies - U.S.A."]
+  },
+  "538": {
+    "tagDescription": ["III Medical Reports - Cures B.C.G. Research in Animals"]
+  },
+  "941": {
+    "tagDescription": [
+      "III Medical Reports - Cures B.C.G. Studies- Foreign Countries"
+    ]
+  },
+  "243": {
+    "tagDescription": [
+      "III Medical Reports - Cures B.C. G. Reports of Dr . J.A . Baudouin"
+    ]
+  },
+  "762": {
+    "tagDescription": [
+      "III Medical Reports - Cures B.C.G. Studies - Canada and other countries"
+    ]
+  },
+  "150": {
+    "tagDescription": ["III Medical Reports - Cures Allergy and Immunity"]
+  },
+  "511": {
+    "tagDate": ["1946-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "III Medical Reports - Cures B.C.G. Panel Discussion, 1946"
+    ]
+  },
+  "46": {
+    "tagDescription": ["III Medical Reports - Cures After Care- Occupational"]
+  }
+}

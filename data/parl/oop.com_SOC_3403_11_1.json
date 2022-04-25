@@ -1,1 +1,14 @@
-{"pubmax":"1993-09-08","node":[["eng","s","committees","34-3",41],["fra","s","committees","34-3",49]],"type":"committees","chamber":["s"],"callNumber":"34-3 S424 A1 no.1-13","label":"Senate Committees, 34th Parliament, 3rd Session : Subcommittee on Security and National Defence, vol. 1 no. 1-13 = Comités du Sénat, 34e Législature, 3e Session : Sous-comité sur la sécurité et défense nationale, vol. 1 no. 1-13","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"]}
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "s", "committees", "34-3", 41],
+    ["fra", "s", "committees", "34-3", 49]
+  ],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "34-3 S424 A1 no.1-13",
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Subcommittee on Security and National Defence, vol. 1 no. 1-13 = Comités du Sénat, 34e Législature, 3e Session : Sous-comité sur la sécurité et défense nationale, vol. 1 no. 1-13",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

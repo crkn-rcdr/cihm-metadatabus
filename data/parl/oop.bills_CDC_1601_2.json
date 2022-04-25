@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"bills","node":[["fra","c","bills","16-1",2]],"pubmax":"1927-04-14","language":["fra"],"session":["16-1"],"pubmin":"1926-12-09","label":"Projets de loi de la Chambre des communes, 16e Législature, 1re Session : 146-340","callNumber":"KE72 C361 16-1 146-340"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "16-1", 2]],
+  "pubmax": "1927-04-14",
+  "language": ["fra"],
+  "session": ["16-1"],
+  "pubmin": "1926-12-09",
+  "label": "Projets de loi de la Chambre des communes, 16e Législature, 1re Session : 146-340",
+  "callNumber": "KE72 C361 16-1 146-340"
+}

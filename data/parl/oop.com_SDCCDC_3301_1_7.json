@@ -1,1 +1,16 @@
-{"pubmax":"1986-08-28","node":[["fra","c","committees","33-1",123],["fra","s","committees","33-1",39]],"type":"committees","chamber":["c","s"],"primeMinisters":"Mulroney, Martin Brian","callNumber":"33-1 C32 A12","label":"Comités mixtes, 33e Législature, 1re Session : Comité mixte spécial sur les relations extérieures du Canada, Rapport","pubmin":"1984-11-05","session":["33-1"],"language":["fra"],"reportTitle":["Indépendance et internationalisme"]}
+{
+  "pubmax": "1986-08-28",
+  "node": [
+    ["fra", "c", "committees", "33-1", 123],
+    ["fra", "s", "committees", "33-1", 39]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "33-1 C32 A12",
+  "label": "Comités mixtes, 33e Législature, 1re Session : Comité mixte spécial sur les relations extérieures du Canada, Rapport",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["fra"],
+  "reportTitle": ["Indépendance et internationalisme"]
+}

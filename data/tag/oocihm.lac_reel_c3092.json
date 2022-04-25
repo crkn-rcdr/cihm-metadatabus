@@ -1,1 +1,71 @@
-{"984":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["93. D 320 - C Department of National Defence (Special Select Committee, War Expenditures Committee)."]},"93":{"tagDescription":["89. D 320 - A No. 3 Department of National Defence for Air."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"799":{"tagDescription":["92. D 320 - A No. 6 Department of National Defence for Air."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"991":{"tagDescription":["94. D 320 - Ch Department of National Defence - Churches' Role in War Effort."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"1043":{"tagDescription":["96. D 320 - M Lt. James T. Mavor."],"tagName":["Mavor, James T. Lt."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"535":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["91. D 320 - A No. 5 Department of National Defence for Air."]},"255":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["90. D 320 - A No. 4 Department of National Defence for Air."]},"1008":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["95. D 320 - D No. 1 Rev. Aubrey Horwood."]},"1046":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["97. D 320 - N Department of National Defence for Naval Services."]}}
+{
+  "984": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": [
+      "93. D 320 - C Department of National Defence (Special Select Committee, War Expenditures Committee)."
+    ]
+  },
+  "93": {
+    "tagDescription": [
+      "89. D 320 - A No. 3 Department of National Defence for Air."
+    ],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "799": {
+    "tagDescription": [
+      "92. D 320 - A No. 6 Department of National Defence for Air."
+    ],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "991": {
+    "tagDescription": [
+      "94. D 320 - Ch Department of National Defence - Churches' Role in War Effort."
+    ],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "1043": {
+    "tagDescription": ["96. D 320 - M Lt. James T. Mavor."],
+    "tagName": ["Mavor, James T. Lt."],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "535": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": [
+      "91. D 320 - A No. 5 Department of National Defence for Air."
+    ]
+  },
+  "255": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": [
+      "90. D 320 - A No. 4 Department of National Defence for Air."
+    ]
+  },
+  "1008": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["95. D 320 - D No. 1 Rev. Aubrey Horwood."]
+  },
+  "1046": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": [
+      "97. D 320 - N Department of National Defence for Naval Services."
+    ]
+  }
+}

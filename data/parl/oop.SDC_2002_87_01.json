@@ -1,1 +1,10 @@
-{"chamber":["s"],"node":[["fra","s","journals","20-2",1]],"pubmax":"1946-08-31","type":"journals","session":["20-2"],"language":["fra"],"label":"Journaux du Sénat, 20e Législature, 2e Session : Vol. 87","pubmin":"1946-03-14"}
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "20-2", 1]],
+  "pubmax": "1946-08-31",
+  "type": "journals",
+  "session": ["20-2"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 20e Législature, 2e Session : Vol. 87",
+  "pubmin": "1946-03-14"
+}

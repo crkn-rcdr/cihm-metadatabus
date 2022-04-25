@@ -1,1 +1,91 @@
-{"1024":{"tagDate":["[1908-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"],"tagDescription":["Complaint of the United States against Canadian Customs Inspector Herbert R Wright, in case of one Margaret Rice"]},"1455":{"tagDescription":["Naval Cadetship"],"tagDate":["[1881-01-01T00:00:00.000Z TO 1890-12-31T23:59:59.999Z]"]},"1124":{"tagDescription":["Missing / Manque"]},"1122":{"tagDescription":["Missing / Manque"]},"1022":{"tagDescription":["Missing / Manque"]},"1130":{"tagDescription":["Newfoundland  Appointment of Governors -Speeches opening and closing of General Assembly"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]},"1020":{"tagDescription":["Missing / Manque"]},"1061":{"tagDescription":["Missing / Manque"]},"1063":{"tagDescription":["Missing / Manque"]},"1059":{"tagDescription":["Missing / Manque"]},"1216":{"tagDescription":["Naval cadetship. Entry of Engineer students in Royal Navy, and entry of Students in Naval Construction"],"tagDate":["[1893-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]},"1127":{"tagDescription":["Missing / Manque"]},"772":{"tagDescription":["Nomination of Candidates for cadetship at the Royal Academy, Woolwich and the Royal Military College Sandhurst -Regulations respecting admission"],"tagDate":["[1917-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]},"1210":{"tagDescription":["Missing / Manque"]},"1128":{"tagDescription":["Missing / Manque"]},"653":{"tagDescription":["Courses of Military Instruction for Canadian military officers and men"],"tagDate":["[1915-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"1019":{"tagDescription":["Missing / Manque"]},"1212":{"tagDescription":["Missing / Manque"]},"1065":{"tagDescription":["Missing / Manque"]},"280":{"tagDescription":["Military Instruction in England of Canadian Officers, NCOs and men of Canadian Forces"],"tagDate":["1913-01-01T00:00:00.000Z"]},"1624":{"tagDescription":["Naval Cadetship"],"tagDate":["[1865-01-01T00:00:00.000Z TO 1880-12-31T23:59:59.999Z]"]},"1126":{"tagDescription":["Missing / Manque"]},"1067":{"tagDescription":["Missing / Manque"]},"424":{"tagDescription":["Military Instruction in England of Canadian Officers, NCOs and men"],"tagDate":["1914-01-01T00:00:00.000Z"]},"1125":{"tagDescription":["Missing / Manque"]},"1068":{"tagDescription":["Missing / Manque"]},"146":{"tagDate":["1913-01-01T00:00:00.000Z"],"tagDescription":["Military Instruction in England of Canadian Officers, NCOs and men"]},"1213":{"tagDescription":["Missing / Manque"]},"1211":{"tagDescription":["Missing / Manque"]},"1066":{"tagDescription":["Missing / Manque"]},"1056":{"tagDescription":["Missing / Manque"]},"1064":{"tagDescription":["Missing / Manque"]},"1060":{"tagDescription":["Missing / Manque"]},"1062":{"tagDescription":["Missing / Manque"]},"1775":{"tagDate":["[1904-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],"tagDescription":["Naval Cadetship -Colonial nomination to Naval Cadets"]},"1058":{"tagDescription":["Missing / Manque"]},"1121":{"tagDescription":["Missing / Manque"]},"1021":{"tagDescription":["Missing / Manque"]},"1123":{"tagDescription":["Missing / Manque"]},"1057":{"tagDescription":["Missing / Manque"]}}
+{
+  "1024": {
+    "tagDate": ["[1908-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Complaint of the United States against Canadian Customs Inspector Herbert R Wright, in case of one Margaret Rice"
+    ]
+  },
+  "1455": {
+    "tagDescription": ["Naval Cadetship"],
+    "tagDate": ["[1881-01-01T00:00:00.000Z TO 1890-12-31T23:59:59.999Z]"]
+  },
+  "1124": { "tagDescription": ["Missing / Manque"] },
+  "1122": { "tagDescription": ["Missing / Manque"] },
+  "1022": { "tagDescription": ["Missing / Manque"] },
+  "1130": {
+    "tagDescription": [
+      "Newfoundland  Appointment of Governors -Speeches opening and closing of General Assembly"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]
+  },
+  "1020": { "tagDescription": ["Missing / Manque"] },
+  "1061": { "tagDescription": ["Missing / Manque"] },
+  "1063": { "tagDescription": ["Missing / Manque"] },
+  "1059": { "tagDescription": ["Missing / Manque"] },
+  "1216": {
+    "tagDescription": [
+      "Naval cadetship. Entry of Engineer students in Royal Navy, and entry of Students in Naval Construction"
+    ],
+    "tagDate": ["[1893-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]
+  },
+  "1127": { "tagDescription": ["Missing / Manque"] },
+  "772": {
+    "tagDescription": [
+      "Nomination of Candidates for cadetship at the Royal Academy, Woolwich and the Royal Military College Sandhurst -Regulations respecting admission"
+    ],
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]
+  },
+  "1210": { "tagDescription": ["Missing / Manque"] },
+  "1128": { "tagDescription": ["Missing / Manque"] },
+  "653": {
+    "tagDescription": [
+      "Courses of Military Instruction for Canadian military officers and men"
+    ],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "1019": { "tagDescription": ["Missing / Manque"] },
+  "1212": { "tagDescription": ["Missing / Manque"] },
+  "1065": { "tagDescription": ["Missing / Manque"] },
+  "280": {
+    "tagDescription": [
+      "Military Instruction in England of Canadian Officers, NCOs and men of Canadian Forces"
+    ],
+    "tagDate": ["1913-01-01T00:00:00.000Z"]
+  },
+  "1624": {
+    "tagDescription": ["Naval Cadetship"],
+    "tagDate": ["[1865-01-01T00:00:00.000Z TO 1880-12-31T23:59:59.999Z]"]
+  },
+  "1126": { "tagDescription": ["Missing / Manque"] },
+  "1067": { "tagDescription": ["Missing / Manque"] },
+  "424": {
+    "tagDescription": [
+      "Military Instruction in England of Canadian Officers, NCOs and men"
+    ],
+    "tagDate": ["1914-01-01T00:00:00.000Z"]
+  },
+  "1125": { "tagDescription": ["Missing / Manque"] },
+  "1068": { "tagDescription": ["Missing / Manque"] },
+  "146": {
+    "tagDate": ["1913-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Military Instruction in England of Canadian Officers, NCOs and men"
+    ]
+  },
+  "1213": { "tagDescription": ["Missing / Manque"] },
+  "1211": { "tagDescription": ["Missing / Manque"] },
+  "1066": { "tagDescription": ["Missing / Manque"] },
+  "1056": { "tagDescription": ["Missing / Manque"] },
+  "1064": { "tagDescription": ["Missing / Manque"] },
+  "1060": { "tagDescription": ["Missing / Manque"] },
+  "1062": { "tagDescription": ["Missing / Manque"] },
+  "1775": {
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Naval Cadetship -Colonial nomination to Naval Cadets"]
+  },
+  "1058": { "tagDescription": ["Missing / Manque"] },
+  "1121": { "tagDescription": ["Missing / Manque"] },
+  "1021": { "tagDescription": ["Missing / Manque"] },
+  "1123": { "tagDescription": ["Missing / Manque"] },
+  "1057": { "tagDescription": ["Missing / Manque"] }
+}

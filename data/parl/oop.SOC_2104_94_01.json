@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","pubmax":"1951-10-09","node":[["eng","s","journals","21-4",1]],"language":["eng"],"session":["21-4"],"pubmin":"1951-01-30","label":"Senate Journals, 21st Parliament, 4th Session : Vol. 94"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1951-10-09",
+  "node": [["eng", "s", "journals", "21-4", 1]],
+  "language": ["eng"],
+  "session": ["21-4"],
+  "pubmin": "1951-01-30",
+  "label": "Senate Journals, 21st Parliament, 4th Session : Vol. 94"
+}

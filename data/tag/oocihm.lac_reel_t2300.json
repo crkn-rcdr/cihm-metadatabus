@@ -1,1 +1,73 @@
-{"110":{"tagDate":["[1914-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"],"tagDescription":["Peru. Consular appointments"]},"100":{"tagDescription":["Missing / Manque"]},"423":{"tagDate":["[1914-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],"tagDescription":["International Congress of Administrative Sciences"]},"287":{"tagDescription":["Missing / Manque"]},"108":{"tagDescription":["Missing / Manque"]},"464":{"tagDescription":["Items 1 to 400"],"tagDate":["1914-01-01T00:00:00.000Z"]},"443":{"tagDescription":["Missing / Manque"]},"96":{"tagDescription":["Acquisition of the Aldwych site in London with a view of erecting thereon a Dominion House for the use of his Majestys selfgoverning Dominion Lord Greys proposal"],"tagDate":["1914-01-01T00:00:00.000Z"]},"102":{"tagDate":["1914-01-01T00:00:00.000Z"],"tagDescription":["Foundation of German Society to supply foreign press of certain countries with news favourable to Germany and German Interests -Reduction of German cable rates for press telegrams"]},"289":{"tagDate":["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],"tagDescription":["Loss of Canadian liner Empress of Ireland"]},"421":{"tagDescription":["Missing / Manque"]},"6":{"tagDescription":["Missing / Manque"]},"41":{"tagDescription":["National system of labour bureaus -Interest of Miss E. Sr. John Wileman in"],"tagDate":["[1913-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]},"237":{"tagDate":["[1914-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["International conferences on commercial statistics -Imperial statistical conference -Establishment in London of Bureau of statistical for the British empire"]},"189":{"tagDescription":["Missing / Manque"]},"94":{"tagDescription":["Missing / Manque"]},"192":{"tagDescription":["Quebec Bridge Collapse -Claim on Messrs. G Simpson and R.C. Dunbar against the United States Geological survey"],"tagDate":["[1914-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]},"39":{"tagDescription":["Missing / Manque"]},"463":{"tagDescription":["A.Dimitriou Alias. G. Sarandis, Alias John Martin -Threatening letters to the King of Greece"]},"10":{"tagDescription":["Norwegian method of preserving fish - Solling method of packing fish (Danish) -Norwegian legislation for the encouragement of fisheries (bounties) -Inspection of klip fish in Norway"],"tagDate":["[1914-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]},"235":{"tagDescription":["Missing / Manque"]},"1182":{"tagDescription":["Items 401 to 662 1/2"],"tagDate":["1914-01-01T00:00:00.000Z"]}}
+{
+  "110": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Peru. Consular appointments"]
+  },
+  "100": { "tagDescription": ["Missing / Manque"] },
+  "423": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],
+    "tagDescription": ["International Congress of Administrative Sciences"]
+  },
+  "287": { "tagDescription": ["Missing / Manque"] },
+  "108": { "tagDescription": ["Missing / Manque"] },
+  "464": {
+    "tagDescription": ["Items 1 to 400"],
+    "tagDate": ["1914-01-01T00:00:00.000Z"]
+  },
+  "443": { "tagDescription": ["Missing / Manque"] },
+  "96": {
+    "tagDescription": [
+      "Acquisition of the Aldwych site in London with a view of erecting thereon a Dominion House for the use of his Majestys selfgoverning Dominion Lord Greys proposal"
+    ],
+    "tagDate": ["1914-01-01T00:00:00.000Z"]
+  },
+  "102": {
+    "tagDate": ["1914-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Foundation of German Society to supply foreign press of certain countries with news favourable to Germany and German Interests -Reduction of German cable rates for press telegrams"
+    ]
+  },
+  "289": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Loss of Canadian liner Empress of Ireland"]
+  },
+  "421": { "tagDescription": ["Missing / Manque"] },
+  "6": { "tagDescription": ["Missing / Manque"] },
+  "41": {
+    "tagDescription": [
+      "National system of labour bureaus -Interest of Miss E. Sr. John Wileman in"
+    ],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  },
+  "237": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International conferences on commercial statistics -Imperial statistical conference -Establishment in London of Bureau of statistical for the British empire"
+    ]
+  },
+  "189": { "tagDescription": ["Missing / Manque"] },
+  "94": { "tagDescription": ["Missing / Manque"] },
+  "192": {
+    "tagDescription": [
+      "Quebec Bridge Collapse -Claim on Messrs. G Simpson and R.C. Dunbar against the United States Geological survey"
+    ],
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]
+  },
+  "39": { "tagDescription": ["Missing / Manque"] },
+  "463": {
+    "tagDescription": [
+      "A.Dimitriou Alias. G. Sarandis, Alias John Martin -Threatening letters to the King of Greece"
+    ]
+  },
+  "10": {
+    "tagDescription": [
+      "Norwegian method of preserving fish - Solling method of packing fish (Danish) -Norwegian legislation for the encouragement of fisheries (bounties) -Inspection of klip fish in Norway"
+    ],
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]
+  },
+  "235": { "tagDescription": ["Missing / Manque"] },
+  "1182": {
+    "tagDescription": ["Items 401 to 662 1/2"],
+    "tagDate": ["1914-01-01T00:00:00.000Z"]
+  }
+}

@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",113],["fra","c","committees","33-1",112]],"type":"committees","session":["33-1"],"language":["eng","fra"],"callNumber":"33-1 P54 A1 no.1-9","label":"House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-92, an Act to regulate interests in petroleum in relation to frontier lands, to amend the Oil and Gas Production and Conservation Act and to repeal the Canada Oil and Gas Act and Bill C-94, an Act to implement an agreement between the Government of Canada and the Government of Newfoundland and Labrador on offshore petroleum resource management and revenue sharing and to make related and consequential amendments, vol. 1 no. 1-9 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-92, Loi visant la réglementation des titres pétroliers et gaziers sur les terres domaniales, modifiant la Loi sur la production du pétrole et du gaz et abrogeant la Loi sur le pétrole et le gaz du Canada [et] Projet de loi C-94, Loi concernant la mise en oeuvre de l'accord entre les gouvernements du Canada et de Terre-Neuve et du Labrador sur la gestion des ressources en hydrocarbures extracôtiers et sur le partage des recettes correspondantes et apportant des modifications corrélatives ou connexes, vol. 1 no. 1-9","pubmin":"1984-11-05"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 113],
+    ["fra", "c", "committees", "33-1", 112]
+  ],
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-1 P54 A1 no.1-9",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-92, an Act to regulate interests in petroleum in relation to frontier lands, to amend the Oil and Gas Production and Conservation Act and to repeal the Canada Oil and Gas Act and Bill C-94, an Act to implement an agreement between the Government of Canada and the Government of Newfoundland and Labrador on offshore petroleum resource management and revenue sharing and to make related and consequential amendments, vol. 1 no. 1-9 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-92, Loi visant la réglementation des titres pétroliers et gaziers sur les terres domaniales, modifiant la Loi sur la production du pétrole et du gaz et abrogeant la Loi sur le pétrole et le gaz du Canada [et] Projet de loi C-94, Loi concernant la mise en oeuvre de l'accord entre les gouvernements du Canada et de Terre-Neuve et du Labrador sur la gestion des ressources en hydrocarbures extracôtiers et sur le partage des recettes correspondantes et apportant des modifications corrélatives ou connexes, vol. 1 no. 1-9",
+  "pubmin": "1984-11-05"
+}

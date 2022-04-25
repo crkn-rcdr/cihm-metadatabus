@@ -1,1 +1,11 @@
-{"session":["14-3"],"language":["eng"],"label":"House of Commons Journals, 14th Parliament, 3rd Session : Vol. 61 App.  2","pubmin":"1924-02-28","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1924-07-19","node":[["eng","c","journals","14-3",3]],"type":"journals"}
+{
+  "session": ["14-3"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 14th Parliament, 3rd Session : Vol. 61 App.  2",
+  "pubmin": "1924-02-28",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1924-07-19",
+  "node": [["eng", "c", "journals", "14-3", 3]],
+  "type": "journals"
+}

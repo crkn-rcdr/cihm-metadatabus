@@ -1,1 +1,10 @@
-{"pubmin":"1885-01-29","label":"Senate Journals, 5th Parliament, 3rd Session : Vol. 19 App.","language":["eng"],"session":["05-3"],"type":"journals","node":[["eng","s","journals","05-3",2]],"pubmax":"1885-07-20","chamber":["s"]}
+{
+  "pubmin": "1885-01-29",
+  "label": "Senate Journals, 5th Parliament, 3rd Session : Vol. 19 App.",
+  "language": ["eng"],
+  "session": ["05-3"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "05-3", 2]],
+  "pubmax": "1885-07-20",
+  "chamber": ["s"]
+}

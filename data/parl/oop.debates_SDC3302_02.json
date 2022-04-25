@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["33-2"],"pubmin":"1986-09-30","label":"Débats du Sénat, 33e Législature, 2e Session : Vol. 2","chamber":["s"],"type":"debates","node":[["fra","s","debates","33-2",2]],"pubmax":"1988-10-01"}
+{
+  "language": ["fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "Débats du Sénat, 33e Législature, 2e Session : Vol. 2",
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "33-2", 2]],
+  "pubmax": "1988-10-01"
+}

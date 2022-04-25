@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["15-1"],"pubmin":"1926-01-07","label":"Senate Committees, 15th Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 1","callNumber":"1926 B3 A1","chamber":["s"],"type":"committees","node":[["eng","s","committees","15-1",1]],"pubmax":"1926-07-02"}
+{
+  "language": ["eng"],
+  "session": ["15-1"],
+  "pubmin": "1926-01-07",
+  "label": "Senate Committees, 15th Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 1",
+  "callNumber": "1926 B3 A1",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "15-1", 1]],
+  "pubmax": "1926-07-02"
+}

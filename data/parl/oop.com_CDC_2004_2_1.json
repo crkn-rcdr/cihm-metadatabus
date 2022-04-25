@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1948-06-30","node":[["fra","c","committees","20-4",1]],"type":"committees","session":["20-4"],"language":["fra"],"callNumber":"1947/48 A5 A4","label":"Comités de la Chambre des communes, 20e Législature, 4e Session : Comité spécial des affaires des anciens combattants, vol. 1","pubmin":"1947-12-05"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1948-06-30",
+  "node": [["fra", "c", "committees", "20-4", 1]],
+  "type": "committees",
+  "session": ["20-4"],
+  "language": ["fra"],
+  "callNumber": "1947/48 A5 A4",
+  "label": "Comités de la Chambre des communes, 20e Législature, 4e Session : Comité spécial des affaires des anciens combattants, vol. 1",
+  "pubmin": "1947-12-05"
+}

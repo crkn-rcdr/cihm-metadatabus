@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["17-6"],"pubmin":"1935-01-17","callNumber":"KE72 C361 17-6 2-60","label":"Projets de loi de la Chambre des communes, 17e Législature, 6e Session : 2-60","chamber":["c"],"primeMinisters":"Bennett, Richard Bedford","type":"bills","pubmax":"1935-07-05","node":[["fra","c","bills","17-6",1]]}
+{
+  "language": ["fra"],
+  "session": ["17-6"],
+  "pubmin": "1935-01-17",
+  "callNumber": "KE72 C361 17-6 2-60",
+  "label": "Projets de loi de la Chambre des communes, 17e Législature, 6e Session : 2-60",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "type": "bills",
+  "pubmax": "1935-07-05",
+  "node": [["fra", "c", "bills", "17-6", 1]]
+}

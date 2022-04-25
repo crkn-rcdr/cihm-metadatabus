@@ -1,1 +1,11 @@
-{"session":["04-2"],"language":["eng"],"label":"House of Commons Journals, 4th Parliament, 2nd Session : Vol. 14","pubmin":"1880-02-12","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"node":[["eng","c","journals","04-2",1]],"pubmax":"1880-05-07","type":"journals"}
+{
+  "session": ["04-2"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 4th Parliament, 2nd Session : Vol. 14",
+  "pubmin": "1880-02-12",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "journals", "04-2", 1]],
+  "pubmax": "1880-05-07",
+  "type": "journals"
+}

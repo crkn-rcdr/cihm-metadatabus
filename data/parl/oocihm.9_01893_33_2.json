@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["08-3"],"pubmin":"1898-02-03","label":"Journaux du Sénat, 8e Législature, 3e Session : Vol. 33 App.","chamber":["s"],"type":"journals","pubmax":"1898-06-13","node":[["fra","s","journals","08-3",2]]}
+{
+  "language": ["fra"],
+  "session": ["08-3"],
+  "pubmin": "1898-02-03",
+  "label": "Journaux du Sénat, 8e Législature, 3e Session : Vol. 33 App.",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1898-06-13",
+  "node": [["fra", "s", "journals", "08-3", 2]]
+}

@@ -1,1 +1,12 @@
-{"pubmax":"1967-05-08","node":[["eng","c","cproc","27-1",2]],"type":"cproc","chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","callNumber":"J103 H41 1966/67 no. 51-118 c.2","label":"House of Commons Votes and Proceedings, 27th Parliament, 1st Session : 51-118","pubmin":"1966-01-18","session":["27-1"],"language":["eng"]}
+{
+  "pubmax": "1967-05-08",
+  "node": [["eng", "c", "cproc", "27-1", 2]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "callNumber": "J103 H41 1966/67 no. 51-118 c.2",
+  "label": "House of Commons Votes and Proceedings, 27th Parliament, 1st Session : 51-118",
+  "pubmin": "1966-01-18",
+  "session": ["27-1"],
+  "language": ["eng"]
+}

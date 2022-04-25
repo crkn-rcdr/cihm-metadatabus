@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","committees","16-4",3]],"pubmax":"1930-05-30","type":"committees","session":["16-4"],"language":["eng"],"label":"House of Commons Committees, 16th Parliament, 4th Session : Special Committee on Dominion Elections Act and Corrupt Practices Inquiries Act, vol. 1","callNumber":"1930 E4 A1","pubmin":"1930-02-20"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "16-4", 3]],
+  "pubmax": "1930-05-30",
+  "type": "committees",
+  "session": ["16-4"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 16th Parliament, 4th Session : Special Committee on Dominion Elections Act and Corrupt Practices Inquiries Act, vol. 1",
+  "callNumber": "1930 E4 A1",
+  "pubmin": "1930-02-20"
+}

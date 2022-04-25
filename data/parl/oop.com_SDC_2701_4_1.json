@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","pubmax":"1967-05-08","node":[["fra","s","committees","27-1",11]],"language":["fra"],"session":["27-1"],"pubmin":"1966-01-18","callNumber":"1966/67 I45 A1","label":"Comités du Sénat, 27e Législature, 1re Session : Comité permanent de l'immigration et du travail, vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1967-05-08",
+  "node": [["fra", "s", "committees", "27-1", 11]],
+  "language": ["fra"],
+  "session": ["27-1"],
+  "pubmin": "1966-01-18",
+  "callNumber": "1966/67 I45 A1",
+  "label": "Comités du Sénat, 27e Législature, 1re Session : Comité permanent de l'immigration et du travail, vol. 1"
+}

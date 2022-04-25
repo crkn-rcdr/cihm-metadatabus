@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["26-2"],"pubmin":"1964-02-18","label":"Règlement du Sénat du Canada, 1964","callNumber":"JL158.3 1964f","chamber":["s"],"type":"rules","node":[["fra","s","rules",null,14]],"pubmax":"1965-04-03"}
+{
+  "language": ["fra"],
+  "session": ["26-2"],
+  "pubmin": "1964-02-18",
+  "label": "Règlement du Sénat du Canada, 1964",
+  "callNumber": "JL158.3 1964f",
+  "chamber": ["s"],
+  "type": "rules",
+  "node": [["fra", "s", "rules", null, 14]],
+  "pubmax": "1965-04-03"
+}

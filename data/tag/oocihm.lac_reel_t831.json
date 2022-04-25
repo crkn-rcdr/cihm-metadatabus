@@ -1,1 +1,57 @@
-{"925":{"tagDate":["1887-01-01T00:00:00.000Z"],"tagDescription":["Proceedings of the Colonial conference 1887. Printed reports. (This file has 4 dockets on file  Printed Reports  Not on file)"]},"930":{"tagDescription":["Colonial Conference, 1887. London"],"tagDate":["[1886-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]},"256":{"tagDescription":["Seal Fishery in the North Pacific. Capture of British Sealing vessels by Russian authorities"],"tagDate":["[1894-01-01T00:00:00.000Z TO 1895-12-31T23:59:59.999Z]"]},"445":{"tagDate":["[1896-01-01T00:00:00.000Z TO 1901-12-31T23:59:59.999Z]"],"tagDescription":["Capture of British Sealing vessels by Russian authorities"]},"1383":{"tagDescription":["Missing / Manque"]},"1381":{"tagDescription":["Missing / Manque"]},"923":{"tagDescription":["Missing / Manque"]},"1177":{"tagDescription":["Admission of Newfoundland into Confederation of Canada. 1869-1870: Address of two Houses of Parliament praying for admission of Newfoundland into confederation General Election in Newfoundland. Majority against Union 1888-1892: Suggested by Canadian Government that Newfoundland send deputation with power to negotiate terms of admission of Newfoundland into Confederation. 1895: Conference between representatives of Government of Canada and Newfoundland, April 1895, 1906: Further suggestion of Union 1926: Enquiry re 1895 despatch"],"tagDate":["[1892-12-31T23:59:59.999Z TO 1926-01-01T00:00:00.000Z]"]},"748":{"tagDescription":["Behring Sea Seal Fishery"],"tagDate":["[1902-01-01T00:00:00.000Z TO 1908-12-31T23:59:59.999Z]"]},"1385":{"tagDescription":["Imperial subsidies to mail steamers Transport of mail from Europe to America Fast Atlantic Service. Mail, Passenger and Freight Canadian-Australasian Royal mail line FYI  Port of Call"],"tagDate":["[1911-12-31T23:59:59.999Z TO 1925-01-01T00:00:00.000Z]"]},"1382":{"tagDescription":["Missing / Manque"]},"1380":{"tagDescription":["Missing / Manque"]},"1626":{"tagDate":["[1884-01-01T00:00:00.000Z TO 1888-12-31T23:59:59.999Z]"],"tagDescription":["Disallowance of Manitoba railway Acts and other Acts of Manitoba Legislature. Conditions in Manitoba - 1884"]},"1919":{"tagDate":["[1893-01-01T00:00:00.000Z TO 1900-12-31T23:59:59.999Z]"],"tagDescription":["Outstanding questions between Canada and the United States. - Ontario Lumber Act, 1897 - Branding of cattle, for identification urposes. - Mining Legislation in British Columbia and Alaska"]}}
+{
+  "925": {
+    "tagDate": ["1887-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Proceedings of the Colonial conference 1887. Printed reports. (This file has 4 dockets on file  Printed Reports  Not on file)"
+    ]
+  },
+  "930": {
+    "tagDescription": ["Colonial Conference, 1887. London"],
+    "tagDate": ["[1886-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]
+  },
+  "256": {
+    "tagDescription": [
+      "Seal Fishery in the North Pacific. Capture of British Sealing vessels by Russian authorities"
+    ],
+    "tagDate": ["[1894-01-01T00:00:00.000Z TO 1895-12-31T23:59:59.999Z]"]
+  },
+  "445": {
+    "tagDate": ["[1896-01-01T00:00:00.000Z TO 1901-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Capture of British Sealing vessels by Russian authorities"
+    ]
+  },
+  "1383": { "tagDescription": ["Missing / Manque"] },
+  "1381": { "tagDescription": ["Missing / Manque"] },
+  "923": { "tagDescription": ["Missing / Manque"] },
+  "1177": {
+    "tagDescription": [
+      "Admission of Newfoundland into Confederation of Canada. 1869-1870: Address of two Houses of Parliament praying for admission of Newfoundland into confederation General Election in Newfoundland. Majority against Union 1888-1892: Suggested by Canadian Government that Newfoundland send deputation with power to negotiate terms of admission of Newfoundland into Confederation. 1895: Conference between representatives of Government of Canada and Newfoundland, April 1895, 1906: Further suggestion of Union 1926: Enquiry re 1895 despatch"
+    ],
+    "tagDate": ["[1892-12-31T23:59:59.999Z TO 1926-01-01T00:00:00.000Z]"]
+  },
+  "748": {
+    "tagDescription": ["Behring Sea Seal Fishery"],
+    "tagDate": ["[1902-01-01T00:00:00.000Z TO 1908-12-31T23:59:59.999Z]"]
+  },
+  "1385": {
+    "tagDescription": [
+      "Imperial subsidies to mail steamers Transport of mail from Europe to America Fast Atlantic Service. Mail, Passenger and Freight Canadian-Australasian Royal mail line FYI  Port of Call"
+    ],
+    "tagDate": ["[1911-12-31T23:59:59.999Z TO 1925-01-01T00:00:00.000Z]"]
+  },
+  "1382": { "tagDescription": ["Missing / Manque"] },
+  "1380": { "tagDescription": ["Missing / Manque"] },
+  "1626": {
+    "tagDate": ["[1884-01-01T00:00:00.000Z TO 1888-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Disallowance of Manitoba railway Acts and other Acts of Manitoba Legislature. Conditions in Manitoba - 1884"
+    ]
+  },
+  "1919": {
+    "tagDate": ["[1893-01-01T00:00:00.000Z TO 1900-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Outstanding questions between Canada and the United States. - Ontario Lumber Act, 1897 - Branding of cattle, for identification urposes. - Mining Legislation in British Columbia and Alaska"
+    ]
+  }
+}

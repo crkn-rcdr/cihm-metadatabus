@@ -1,1 +1,14 @@
-{"pubmax":"1976-10-12","node":[["eng","c","bills","30-1",7],["fra","c","bills","30-1",7]],"type":"bills","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","label":"House of Commons Bills, 30th Parliament, 1st Session : C72-C95 = Projets de loi de la Chambre des communes, 30e Législature, 1re Session : C72-C95","pubmin":"1974-09-30","session":["30-1"],"language":["eng","fra"]}
+{
+  "pubmax": "1976-10-12",
+  "node": [
+    ["eng", "c", "bills", "30-1", 7],
+    ["fra", "c", "bills", "30-1", 7]
+  ],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "label": "House of Commons Bills, 30th Parliament, 1st Session : C72-C95 = Projets de loi de la Chambre des communes, 30e Législature, 1re Session : C72-C95",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng", "fra"]
+}

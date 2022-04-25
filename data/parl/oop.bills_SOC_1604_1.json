@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["16-4"],"pubmin":"1930-02-20","callNumber":"KE72 C38 16-4 Bill B-","label":"Senate Bills, 16th Parliament, 4th Session : B-K9","chamber":["s"],"type":"bills","pubmax":"1930-05-30","node":[["eng","s","bills","16-4",1]]}
+{
+  "language": ["eng"],
+  "session": ["16-4"],
+  "pubmin": "1930-02-20",
+  "callNumber": "KE72 C38 16-4 Bill B-",
+  "label": "Senate Bills, 16th Parliament, 4th Session : B-K9",
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1930-05-30",
+  "node": [["eng", "s", "bills", "16-4", 1]]
+}

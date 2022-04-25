@@ -1,1 +1,15 @@
-{"type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",37],["fra","c","committees","33-1",73]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1984-11-05","callNumber":"33-1 D52 A1","label":"House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on the Disabled and the Handicapped, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur les invalides et les handicapés, vol. 1","language":["eng","fra"],"session":["33-1"]}
+{
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 37],
+    ["fra", "c", "committees", "33-1", 73]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 D52 A1",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on the Disabled and the Handicapped, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur les invalides et les handicapés, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["33-1"]
+}

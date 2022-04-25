@@ -1,1 +1,63 @@
-{"548":{"tagDescription":["[MAZARIN, Jules, cardinal Mazarin]. Lettre de la duchesse d'Aiguillon au [cardinal Mazarin] relative à l'abbé de Richelieu qui veut se retirer, Paris, 14 avril 1650."],"tagPerson":["[MAZARIN, Jules, cardinal Mazarin]."]},"556":{"tagDate":["1832-01-01T00:00:00.000Z"],"tagPerson":["EMIGRANT GUIDE BOOK TO NEW BRUNSWICK"],"tagDescription":["EMIGRANT GUIDE BOOK TO NEW BRUNSWICK Pratical information to emigrants, including details, collected from the most authentic accounts, relative to the soil, climate, natural productions, agriculture, etc. of the province of New Brunswick (London: John Richardson, Royal Exchange, 1832), 80 pages, including two maps."]},"612":{"tagDescription":["SIR JOHN FRANKLIN EXPEDITION IN THE ARCTIC REGIONS Sir John Franklin and the Arctic Regions: showing the progress of British Enterprise for the discovery of the North-West passage during the nineteenth century: with more detailed notices of the recent expeditions in search of the missing vessels under Capt. Sir John Franklin, by P.L. Simmonds (London: George Routledge & Co., Soho Square, 1851), 375 pages, including two maps."],"tagPerson":["SIR JOHN FRANKLIN EXPEDITION IN THE ARCTIC REGIONS"],"tagDate":["1851-01-01T00:00:00.000Z"]},"553":{"tagDescription":["MICHAELS, Myer Receipt relating to the estate of Myer Michaels, signed by John Delisle, J. Viger, [Pierre] Gamelin, Étienne Saint-Dizière and McCord, 1818-1819."],"tagPerson":["MICHAELS, Myer"],"tagDate":["[1818-01-01T00:00:00.000Z TO 1819-12-31T23:59:59.999Z]"]},"399":{"tagPerson":["DOUKHOBOR SETTLEMENTS IN WESTERN CANADA"],"tagDate":["1918-01-01T00:00:00.000Z"],"tagDescription":["DOUKHOBOR SETTLEMENTS IN WESTERN CANADA Dukhobortsi V Kanad-Skiikh Preriiakh, by Vladimir Bonch-Bruevich (Petrograd: Biblioteka Oshchestvovie Dienya, 14, 1918), 276 pages."]},"23":{"tagDescription":["BIART, Lucien Auteur français. À travers l'Amérique. Nouvelles et récits par Lucien Biard. Vingt-huit dessins hors texte par F. Lix. Gravures de Gérard, Hotelin, Langeval, A. Leray, F. Meaulle et Ravanel, Paris, Bibliothèque du magasin des demoiselles, [1876], 383 pages."],"tagDate":["1876-01-01T00:00:00.000Z"],"tagPerson":["BIART, Lucien"]},"824":{"tagPerson":["FRANKLIN, John"],"tagDate":["1859-01-01T00:00:00.000Z"],"tagDescription":["FRANKLIN, John The Voyage of the Fox in the Arctic Seas. A narrative of the discovery of the fate of Sir John Franklin and his companions , by Captain McCleantock (London: John Murray, Albemarble Street, 1859), 403 pages, with maps."]},"10":{"tagPlace":["DOMINION OF CANADA"],"tagDescription":["DOMINION OF CANADA A graphic description of the Dominion of Canada, and its provinces, also, Newfoundland, the North West Territories, Anticosti and Labrador, with an Appendix, containing information of especial interest to the emigrant, and a table of routes, showing the proximity of the railroad stations, and sea, lakes and river ports to the cities, towns and villages in British North America (Montreal and Rouses Point, N.Y.: Lovell Printing and publishing Company, 1875), 115 pages."],"tagDate":["1875-01-01T00:00:00.000Z"]},"289":{"tagDescription":["MANITOBA SCHOOLS ACTS, Printed copy of Manitoba Schools Acts, 1881-1895, 118 pages, with five typewritten pages of revisions, [n.d.]."],"tagPerson":["MANITOBA SCHOOLS ACTS"]}}
+{
+  "548": {
+    "tagDescription": [
+      "[MAZARIN, Jules, cardinal Mazarin]. Lettre de la duchesse d'Aiguillon au [cardinal Mazarin] relative à l'abbé de Richelieu qui veut se retirer, Paris, 14 avril 1650."
+    ],
+    "tagPerson": ["[MAZARIN, Jules, cardinal Mazarin]."]
+  },
+  "556": {
+    "tagDate": ["1832-01-01T00:00:00.000Z"],
+    "tagPerson": ["EMIGRANT GUIDE BOOK TO NEW BRUNSWICK"],
+    "tagDescription": [
+      "EMIGRANT GUIDE BOOK TO NEW BRUNSWICK Pratical information to emigrants, including details, collected from the most authentic accounts, relative to the soil, climate, natural productions, agriculture, etc. of the province of New Brunswick (London: John Richardson, Royal Exchange, 1832), 80 pages, including two maps."
+    ]
+  },
+  "612": {
+    "tagDescription": [
+      "SIR JOHN FRANKLIN EXPEDITION IN THE ARCTIC REGIONS Sir John Franklin and the Arctic Regions: showing the progress of British Enterprise for the discovery of the North-West passage during the nineteenth century: with more detailed notices of the recent expeditions in search of the missing vessels under Capt. Sir John Franklin, by P.L. Simmonds (London: George Routledge & Co., Soho Square, 1851), 375 pages, including two maps."
+    ],
+    "tagPerson": ["SIR JOHN FRANKLIN EXPEDITION IN THE ARCTIC REGIONS"],
+    "tagDate": ["1851-01-01T00:00:00.000Z"]
+  },
+  "553": {
+    "tagDescription": [
+      "MICHAELS, Myer Receipt relating to the estate of Myer Michaels, signed by John Delisle, J. Viger, [Pierre] Gamelin, Étienne Saint-Dizière and McCord, 1818-1819."
+    ],
+    "tagPerson": ["MICHAELS, Myer"],
+    "tagDate": ["[1818-01-01T00:00:00.000Z TO 1819-12-31T23:59:59.999Z]"]
+  },
+  "399": {
+    "tagPerson": ["DOUKHOBOR SETTLEMENTS IN WESTERN CANADA"],
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "DOUKHOBOR SETTLEMENTS IN WESTERN CANADA Dukhobortsi V Kanad-Skiikh Preriiakh, by Vladimir Bonch-Bruevich (Petrograd: Biblioteka Oshchestvovie Dienya, 14, 1918), 276 pages."
+    ]
+  },
+  "23": {
+    "tagDescription": [
+      "BIART, Lucien Auteur français. À travers l'Amérique. Nouvelles et récits par Lucien Biard. Vingt-huit dessins hors texte par F. Lix. Gravures de Gérard, Hotelin, Langeval, A. Leray, F. Meaulle et Ravanel, Paris, Bibliothèque du magasin des demoiselles, [1876], 383 pages."
+    ],
+    "tagDate": ["1876-01-01T00:00:00.000Z"],
+    "tagPerson": ["BIART, Lucien"]
+  },
+  "824": {
+    "tagPerson": ["FRANKLIN, John"],
+    "tagDate": ["1859-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "FRANKLIN, John The Voyage of the Fox in the Arctic Seas. A narrative of the discovery of the fate of Sir John Franklin and his companions , by Captain McCleantock (London: John Murray, Albemarble Street, 1859), 403 pages, with maps."
+    ]
+  },
+  "10": {
+    "tagPlace": ["DOMINION OF CANADA"],
+    "tagDescription": [
+      "DOMINION OF CANADA A graphic description of the Dominion of Canada, and its provinces, also, Newfoundland, the North West Territories, Anticosti and Labrador, with an Appendix, containing information of especial interest to the emigrant, and a table of routes, showing the proximity of the railroad stations, and sea, lakes and river ports to the cities, towns and villages in British North America (Montreal and Rouses Point, N.Y.: Lovell Printing and publishing Company, 1875), 115 pages."
+    ],
+    "tagDate": ["1875-01-01T00:00:00.000Z"]
+  },
+  "289": {
+    "tagDescription": [
+      "MANITOBA SCHOOLS ACTS, Printed copy of Manitoba Schools Acts, 1881-1895, 118 pages, with five typewritten pages of revisions, [n.d.]."
+    ],
+    "tagPerson": ["MANITOBA SCHOOLS ACTS"]
+  }
+}

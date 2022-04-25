@@ -1,1 +1,15 @@
-{"session":["34-2"],"language":["eng","fra"],"callNumber":"34-2 E96 A1 no.1-4","label":"House of Commons Committees, 34th Parliament, 2nd Session : Sub-Committee on Expenditure Priorities, vol. 1 no. 1-4 = Comités de la Chambre des communes, 34e Législature, 2e Session : Sous-comité sur les priorités des dépenses, vol. 1 no. 1-4","pubmin":"1989-04-03","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",71],["fra","c","committees","34-2",72]],"type":"committees"}
+{
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-2 E96 A1 no.1-4",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Sub-Committee on Expenditure Priorities, vol. 1 no. 1-4 = Comités de la Chambre des communes, 34e Législature, 2e Session : Sous-comité sur les priorités des dépenses, vol. 1 no. 1-4",
+  "pubmin": "1989-04-03",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 71],
+    ["fra", "c", "committees", "34-2", 72]
+  ],
+  "type": "committees"
+}

@@ -1,1 +1,11 @@
-{"type":"bills","pubmax":"1928-06-11","node":[["eng","s","bills","16-2",1]],"chamber":["s"],"pubmin":"1928-01-26","callNumber":"KE72 C38 16-2 Bill A-","label":"Senate Bills, 16th Parliament, 2nd Session : A-S10","language":["eng"],"session":["16-2"]}
+{
+  "type": "bills",
+  "pubmax": "1928-06-11",
+  "node": [["eng", "s", "bills", "16-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1928-01-26",
+  "callNumber": "KE72 C38 16-2 Bill A-",
+  "label": "Senate Bills, 16th Parliament, 2nd Session : A-S10",
+  "language": ["eng"],
+  "session": ["16-2"]
+}

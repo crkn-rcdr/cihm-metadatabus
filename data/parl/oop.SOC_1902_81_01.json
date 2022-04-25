@@ -1,1 +1,10 @@
-{"chamber":["s"],"node":[["eng","s","journals","19-2",1]],"pubmax":"1942-01-21","type":"journals","session":["19-2"],"language":["eng"],"label":"Senate Journals, 19th Parliament, 2nd Session : Vol. 81","pubmin":"1940-11-07"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "19-2", 1]],
+  "pubmax": "1942-01-21",
+  "type": "journals",
+  "session": ["19-2"],
+  "language": ["eng"],
+  "label": "Senate Journals, 19th Parliament, 2nd Session : Vol. 81",
+  "pubmin": "1940-11-07"
+}

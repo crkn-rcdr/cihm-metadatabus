@@ -1,1 +1,12 @@
-{"callNumber":"1934 P75 A1 v.2","label":"House of Commons Committees, 17th Parliament, 5th Session : Special Committee on Price Spreads and Mass Buying, vol. 2","pubmin":"1934-01-25","session":["17-5"],"language":["eng"],"pubmax":"1934-07-03","node":[["eng","c","committees","17-5",6]],"type":"committees","chamber":["c"],"primeMinisters":"Bennett, Richard Bedford"}
+{
+  "callNumber": "1934 P75 A1 v.2",
+  "label": "House of Commons Committees, 17th Parliament, 5th Session : Special Committee on Price Spreads and Mass Buying, vol. 2",
+  "pubmin": "1934-01-25",
+  "session": ["17-5"],
+  "language": ["eng"],
+  "pubmax": "1934-07-03",
+  "node": [["eng", "c", "committees", "17-5", 6]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford"
+}

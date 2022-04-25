@@ -1,1 +1,12 @@
-{"node":[["eng","c","committees","22-1",4]],"pubmax":"1954-06-26","type":"committees","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"label":"House of Commons Committees, 22nd Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 3","callNumber":"1953/54 B3 A1a","pubmin":"1953-11-12","session":["22-1"],"language":["eng"]}
+{
+  "node": [["eng", "c", "committees", "22-1", 4]],
+  "pubmax": "1954-06-26",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 22nd Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 3",
+  "callNumber": "1953/54 B3 A1a",
+  "pubmin": "1953-11-12",
+  "session": ["22-1"],
+  "language": ["eng"]
+}

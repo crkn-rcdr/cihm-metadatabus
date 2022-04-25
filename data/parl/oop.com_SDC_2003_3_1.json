@@ -1,1 +1,11 @@
-{"pubmax":"1947-07-17","node":[["fra","s","committees","20-3",6]],"type":"committees","chamber":["s"],"callNumber":"1947 T6 A42","label":"Comités du Sénat, 20e Législature, 3e Session : Comité permanent du tourisme, vol. 1","pubmin":"1947-01-30","session":["20-3"],"language":["fra"]}
+{
+  "pubmax": "1947-07-17",
+  "node": [["fra", "s", "committees", "20-3", 6]],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "1947 T6 A42",
+  "label": "Comités du Sénat, 20e Législature, 3e Session : Comité permanent du tourisme, vol. 1",
+  "pubmin": "1947-01-30",
+  "session": ["20-3"],
+  "language": ["fra"]
+}

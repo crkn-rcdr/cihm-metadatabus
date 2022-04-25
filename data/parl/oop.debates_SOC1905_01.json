@@ -1,1 +1,10 @@
-{"type":"debates","node":[["eng","s","debates","19-5",1]],"pubmax":"1945-01-31","chamber":["s"],"pubmin":"1944-01-27","label":"Senate Debates, 19th Parliament, 5th Session : Vol. 1","language":["eng"],"session":["19-5"]}
+{
+  "type": "debates",
+  "node": [["eng", "s", "debates", "19-5", 1]],
+  "pubmax": "1945-01-31",
+  "chamber": ["s"],
+  "pubmin": "1944-01-27",
+  "label": "Senate Debates, 19th Parliament, 5th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["19-5"]
+}

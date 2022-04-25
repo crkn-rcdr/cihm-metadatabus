@@ -1,1 +1,12 @@
-{"pubmin":"1957-10-14","label":"Procès-verbaux de la Chambre des communes, 23e Législature, 1re Session : 1-78","callNumber":"J103 H44 1957/58 ex.2","language":["fra"],"session":["23-1"],"type":"cproc","node":[["fra","c","cproc","23-1",1]],"pubmax":"1958-02-01","primeMinisters":"Diefenbaker, John George","chamber":["c"]}
+{
+  "pubmin": "1957-10-14",
+  "label": "Procès-verbaux de la Chambre des communes, 23e Législature, 1re Session : 1-78",
+  "callNumber": "J103 H44 1957/58 ex.2",
+  "language": ["fra"],
+  "session": ["23-1"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "23-1", 1]],
+  "pubmax": "1958-02-01",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"]
+}

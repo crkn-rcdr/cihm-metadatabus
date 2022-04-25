@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","committees","16-3",8]],"pubmax":"1929-06-14","type":"committees","session":["16-3"],"language":["eng"],"label":"House of Commons Committees, 16th Parliament, 3rd Session : Select Standing Committee on Railways and Shipping Owned, Operated and Controlled by the Government, vol. 1","callNumber":"1929 R3 A1","pubmin":"1929-02-07"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "16-3", 8]],
+  "pubmax": "1929-06-14",
+  "type": "committees",
+  "session": ["16-3"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 16th Parliament, 3rd Session : Select Standing Committee on Railways and Shipping Owned, Operated and Controlled by the Government, vol. 1",
+  "callNumber": "1929 R3 A1",
+  "pubmin": "1929-02-07"
+}

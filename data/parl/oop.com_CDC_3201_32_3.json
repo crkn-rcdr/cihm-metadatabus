@@ -1,1 +1,13 @@
-{"type":"committees","pubmax":"1983-11-30","node":[["fra","c","committees","32-1",161]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmin":"1980-04-14","callNumber":"1980/83 N37 A12","label":"Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial sur une société nationale du commerce, Rapport","language":["fra"],"reportTitle":["Le défi commercial du Canada"],"session":["32-1"]}
+{
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [["fra", "c", "committees", "32-1", 161]],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1980-04-14",
+  "callNumber": "1980/83 N37 A12",
+  "label": "Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial sur une société nationale du commerce, Rapport",
+  "language": ["fra"],
+  "reportTitle": ["Le défi commercial du Canada"],
+  "session": ["32-1"]
+}

@@ -1,1 +1,12 @@
-{"session":["20-4"],"language":["fra"],"label":"Projets de loi de la Chambre des communes, 20e Législature, 4e Session : 2-399","callNumber":"KE72 C361 20-4 2-399","pubmin":"1947-12-05","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["fra","c","bills","20-4",1]],"pubmax":"1948-06-30","type":"bills"}
+{
+  "session": ["20-4"],
+  "language": ["fra"],
+  "label": "Projets de loi de la Chambre des communes, 20e Législature, 4e Session : 2-399",
+  "callNumber": "KE72 C361 20-4 2-399",
+  "pubmin": "1947-12-05",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "bills", "20-4", 1]],
+  "pubmax": "1948-06-30",
+  "type": "bills"
+}

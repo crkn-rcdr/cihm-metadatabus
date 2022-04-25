@@ -1,1 +1,11 @@
-{"label":"House of Commons Debates, 23rd Parliament, 1st Session : Vol. 1","pubmin":"1957-10-14","session":["23-1"],"language":["eng"],"pubmax":"1958-02-01","node":[["eng","c","debates","23-1",1]],"type":"debates","chamber":["c"],"primeMinisters":"Diefenbaker, John George"}
+{
+  "label": "House of Commons Debates, 23rd Parliament, 1st Session : Vol. 1",
+  "pubmin": "1957-10-14",
+  "session": ["23-1"],
+  "language": ["eng"],
+  "pubmax": "1958-02-01",
+  "node": [["eng", "c", "debates", "23-1", 1]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

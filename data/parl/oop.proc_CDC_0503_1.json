@@ -1,1 +1,12 @@
-{"callNumber":"J103 H44 1885","label":"Procès-verbaux de la Chambre des communes, 5e Législature, 3e Session : 1-119","pubmin":"1885-01-29","session":["05-3"],"language":["fra"],"pubmax":"1885-07-20","node":[["fra","c","cproc","05-3",1]],"type":"cproc","chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "callNumber": "J103 H44 1885",
+  "label": "Procès-verbaux de la Chambre des communes, 5e Législature, 3e Session : 1-119",
+  "pubmin": "1885-01-29",
+  "session": ["05-3"],
+  "language": ["fra"],
+  "pubmax": "1885-07-20",
+  "node": [["fra", "c", "cproc", "05-3", 1]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

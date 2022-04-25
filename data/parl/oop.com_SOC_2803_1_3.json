@@ -1,1 +1,14 @@
-{"language":["eng","fra"],"session":["28-3"],"pubmin":"1970-10-08","callNumber":"1970/72 F6 A1C","label":"Senate Committees, 28th Parliament, 3rd Session : Standing Committee on Foreign Affairs - Special Joint meeting with The House of Commons External Affairs and National Defence Committee, vol. 1 = Comités du Sénat, 28e Législature, 3e Session : Comité permanent des affaires étrangères - Réunion spéciale mixte avec le Comité des affaires extérieures et de la Défense nationale de la Chambre des communes, vol. 1","chamber":["s"],"type":"committees","pubmax":"1972-02-16","node":[["eng","s","committees","28-3",16],["fra","s","committees","28-3",4]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "callNumber": "1970/72 F6 A1C",
+  "label": "Senate Committees, 28th Parliament, 3rd Session : Standing Committee on Foreign Affairs - Special Joint meeting with The House of Commons External Affairs and National Defence Committee, vol. 1 = Comités du Sénat, 28e Législature, 3e Session : Comité permanent des affaires étrangères - Réunion spéciale mixte avec le Comité des affaires extérieures et de la Défense nationale de la Chambre des communes, vol. 1",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1972-02-16",
+  "node": [
+    ["eng", "s", "committees", "28-3", 16],
+    ["fra", "s", "committees", "28-3", 4]
+  ]
+}

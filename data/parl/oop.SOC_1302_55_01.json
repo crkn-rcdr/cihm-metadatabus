@@ -1,1 +1,10 @@
-{"session":["13-2"],"language":["eng"],"label":"Senate Journals, 13th Parliament, 2nd Session : Vol. 55","pubmin":"1919-02-20","chamber":["s"],"node":[["eng","s","journals","13-2",1]],"pubmax":"1919-07-07","type":"journals"}
+{
+  "session": ["13-2"],
+  "language": ["eng"],
+  "label": "Senate Journals, 13th Parliament, 2nd Session : Vol. 55",
+  "pubmin": "1919-02-20",
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "13-2", 1]],
+  "pubmax": "1919-07-07",
+  "type": "journals"
+}

@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","pubmax":"1969-10-22","node":[["fra","s","committees","28-1",15]],"language":["fra"],"session":["28-1"],"pubmin":"1968-09-12","callNumber":"J103 H7 1968/69 S4 A12f","label":"Comités du Sénat, 28e Législature, 1re Session : Comité spécial du Règlement du Sénat, Rapport"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1969-10-22",
+  "node": [["fra", "s", "committees", "28-1", 15]],
+  "language": ["fra"],
+  "session": ["28-1"],
+  "pubmin": "1968-09-12",
+  "callNumber": "J103 H7 1968/69 S4 A12f",
+  "label": "Comités du Sénat, 28e Législature, 1re Session : Comité spécial du Règlement du Sénat, Rapport"
+}

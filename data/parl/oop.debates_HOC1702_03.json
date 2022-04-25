@@ -1,1 +1,11 @@
-{"pubmin":"1931-03-12","label":"House of Commons Debates, 17th Parliament, 2nd Session : Vol. 3","language":["eng"],"session":["17-2"],"type":"debates","node":[["eng","c","debates","17-2",3]],"pubmax":"1931-08-03","primeMinisters":"Bennett, Richard Bedford","chamber":["c"]}
+{
+  "pubmin": "1931-03-12",
+  "label": "House of Commons Debates, 17th Parliament, 2nd Session : Vol. 3",
+  "language": ["eng"],
+  "session": ["17-2"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "17-2", 3]],
+  "pubmax": "1931-08-03",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"]
+}

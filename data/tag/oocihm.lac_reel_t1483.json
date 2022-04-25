@@ -1,1 +1,53 @@
-{"1743":{"tagDescription":["International Dairy Congress -Importation and sale by cheese"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"1782":{"tagDescription":["Missing / Manque"]},"1177":{"tagDescription":["Missing / Manque"]},"1421":{"tagDescription":["Communicable diseases"],"tagDate":["[1897-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"1178":{"tagDescription":["Tuberculosis"],"tagDate":["[1937-12-31T23:59:59.999Z TO 1941-01-01T00:00:00.000Z]"]},"1003":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["Workmens Compensation Laws -Rights of foreign labour under Canadian Laws re -Claims of certain persons"]},"1310":{"tagDate":["[1912-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"],"tagDescription":["Queen Mary Hospital for Consumptive children"]},"1002":{"tagDescription":["Missing / Manque"]},"888":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["New-Zealand school journal"]},"1783":{"tagDescription":["Italy. Consular appointments"],"tagDate":["[1871-12-31T23:59:59.999Z TO 1938-01-01T00:00:00.000Z]"]},"1742":{"tagDescription":["Missing / Manque"]},"1420":{"tagDescription":["Missing / Manque"]},"172":{"tagDescription":["Printed papers and correspondence"],"tagDate":["1925-01-01T00:00:00.000Z"]},"887":{"tagDescription":["Missing / Manque"]},"540":{"tagDescription":["Opium Traffic"],"tagDate":["[1921-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]},"319":{"tagDescription":["Missing / Manque"]},"320":{"tagDescription":["Opium Traffic"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]}}
+{
+  "1743": {
+    "tagDescription": [
+      "International Dairy Congress -Importation and sale by cheese"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "1782": { "tagDescription": ["Missing / Manque"] },
+  "1177": { "tagDescription": ["Missing / Manque"] },
+  "1421": {
+    "tagDescription": ["Communicable diseases"],
+    "tagDate": ["[1897-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "1178": {
+    "tagDescription": ["Tuberculosis"],
+    "tagDate": ["[1937-12-31T23:59:59.999Z TO 1941-01-01T00:00:00.000Z]"]
+  },
+  "1003": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Workmens Compensation Laws -Rights of foreign labour under Canadian Laws re -Claims of certain persons"
+    ]
+  },
+  "1310": {
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Queen Mary Hospital for Consumptive children"]
+  },
+  "1002": { "tagDescription": ["Missing / Manque"] },
+  "888": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": ["New-Zealand school journal"]
+  },
+  "1783": {
+    "tagDescription": ["Italy. Consular appointments"],
+    "tagDate": ["[1871-12-31T23:59:59.999Z TO 1938-01-01T00:00:00.000Z]"]
+  },
+  "1742": { "tagDescription": ["Missing / Manque"] },
+  "1420": { "tagDescription": ["Missing / Manque"] },
+  "172": {
+    "tagDescription": ["Printed papers and correspondence"],
+    "tagDate": ["1925-01-01T00:00:00.000Z"]
+  },
+  "887": { "tagDescription": ["Missing / Manque"] },
+  "540": {
+    "tagDescription": ["Opium Traffic"],
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]
+  },
+  "319": { "tagDescription": ["Missing / Manque"] },
+  "320": {
+    "tagDescription": ["Opium Traffic"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  }
+}

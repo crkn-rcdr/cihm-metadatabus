@@ -1,1 +1,10 @@
-{"pubmax":"1974-02-26","node":[["eng","s","debates","29-1",2]],"type":"debates","chamber":["s"],"label":"Senate Debates, 29th Parliament, 1st Session : Vol. 2","pubmin":"1973-01-04","session":["29-1"],"language":["eng"]}
+{
+  "pubmax": "1974-02-26",
+  "node": [["eng", "s", "debates", "29-1", 2]],
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Senate Debates, 29th Parliament, 1st Session : Vol. 2",
+  "pubmin": "1973-01-04",
+  "session": ["29-1"],
+  "language": ["eng"]
+}

@@ -1,1 +1,11 @@
-{"pubmin":"1966-01-18","callNumber":"1966/67 I45 A1","label":"Senate Committees, 27th Parliament, 1st Session : Standing Committee on Immigration and Labour, vol. 1","language":["eng"],"session":["27-1"],"type":"committees","pubmax":"1967-05-08","node":[["eng","s","committees","27-1",15]],"chamber":["s"]}
+{
+  "pubmin": "1966-01-18",
+  "callNumber": "1966/67 I45 A1",
+  "label": "Senate Committees, 27th Parliament, 1st Session : Standing Committee on Immigration and Labour, vol. 1",
+  "language": ["eng"],
+  "session": ["27-1"],
+  "type": "committees",
+  "pubmax": "1967-05-08",
+  "node": [["eng", "s", "committees", "27-1", 15]],
+  "chamber": ["s"]
+}

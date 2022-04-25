@@ -1,1 +1,11 @@
-{"type":"committees","node":[["fra","s","committees","17-3",1]],"pubmax":"1932-05-26","chamber":["s"],"pubmin":"1932-02-04","label":"Comités du Sénat, 17e Législature, 3e Session : Comité spécial sur l'entreprise hydroélectrique de Beauharnois, vol. 1","callNumber":"1932 B4 A42","language":["fra"],"session":["17-3"]}
+{
+  "type": "committees",
+  "node": [["fra", "s", "committees", "17-3", 1]],
+  "pubmax": "1932-05-26",
+  "chamber": ["s"],
+  "pubmin": "1932-02-04",
+  "label": "Comités du Sénat, 17e Législature, 3e Session : Comité spécial sur l'entreprise hydroélectrique de Beauharnois, vol. 1",
+  "callNumber": "1932 B4 A42",
+  "language": ["fra"],
+  "session": ["17-3"]
+}

@@ -1,1 +1,19 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1988-10-01","node":[["eng","c","committees","33-2",5],["fra","c","committees","33-2",14]],"reportTitle":["Report on the consideration of the implementation of the Act to amend the Indian Act as passed by the House of Commons on June 12, 1985","Rapport sur l'étude de la mise en oeuvre de la Loi modifiant la loi sur les Indiens adoptée par la Chambre des communes le 12 juin 1985"],"language":["eng","fra"],"session":["33-2"],"pubmin":"1986-09-30","callNumber":"33-2 A18 A122","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Aboriginal Affairs and Northern Development, Fifth Report = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des affaires autochtones et du développement du Nord, Cinquième rapport"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 5],
+    ["fra", "c", "committees", "33-2", 14]
+  ],
+  "reportTitle": [
+    "Report on the consideration of the implementation of the Act to amend the Indian Act as passed by the House of Commons on June 12, 1985",
+    "Rapport sur l'étude de la mise en oeuvre de la Loi modifiant la loi sur les Indiens adoptée par la Chambre des communes le 12 juin 1985"
+  ],
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 A18 A122",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Aboriginal Affairs and Northern Development, Fifth Report = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des affaires autochtones et du développement du Nord, Cinquième rapport"
+}

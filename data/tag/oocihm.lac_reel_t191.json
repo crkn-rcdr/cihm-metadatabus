@@ -1,1 +1,76 @@
-{"1095":{"tagDescription":["Missing / Manque"]},"183":{"tagDescription":["Missing / Manque"]},"1043":{"tagDescription":["British Consulate at Iswego"],"tagDate":["[1863-01-01T00:00:00.000Z TO 1869-12-31T23:59:59.999Z]"]},"535":{"tagDate":["[1891-01-01T00:00:00.000Z TO 1893-12-31T23:59:59.999Z]"],"tagDescription":["Tolls levied on United States traffic through Welland Canals. Proposed reciprocity treaty arising out of controversy. For General Reciprocity File  U.S. and Canada see file 578"]},"13":{"tagDescription":["Juan de Fuca Strait  Haro Channel United States  Canada Boundary Line  Decision of Emperor of Germany. Arbitration under provisions of Treaty of Washington, 1871 San Juan Island  Rights of British subjects who settled on Island before Treaty of 1846. Detachment of marines at San Juan(cannot read rest of page 11)"],"tagDate":["[1870-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]},"189":{"tagDescription":["Missing / Manque"]},"993":{"tagDescription":["Roman Catholic Ecclesiastical Appointments, Deaths, etc Oath of R.C. Bishops in Quebec Petition of Roman Catholic Dignitaries of Quebec re Irish Question Roman Catholic Relief Act Political Activities of Roman Catholic Priests"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"]},"355":{"tagDescription":["Canals. Mutual use by the United States and Canada of"],"tagDate":["[1872-01-01T00:00:00.000Z TO 1875-12-31T23:59:59.999Z]"]},"1118":{"tagDate":["1857-01-01T00:00:00.000Z"],"tagDescription":["Seizure of the Julia Smith or Mazeppa by United States Authorities"]},"831":{"tagDate":["[1874-01-01T00:00:00.000Z TO 1877-12-31T23:59:59.999Z]"],"tagDescription":["Tax on ships for the maintenance of light, etc"]},"185":{"tagDescription":["Canadian Surgeons Qualifications of surgeons carried by passenger Steamers"],"tagDate":["1877-01-01T00:00:00.000Z"]},"829":{"tagDescription":["Missing / Manque"]},"191":{"tagDate":["[1875-01-01T00:00:00.000Z TO 1876-12-31T23:59:59.999Z]"],"tagDescription":["Canals. Mutual use by the United States and Canada of"]},"1097":{"tagDescription":["Mrs. Cunninghams claim for pension for U.S. Government"],"tagDate":["[1864-01-01T00:00:00.000Z TO 1869-12-31T23:59:59.999Z]"]},"1164":{"tagDescription":["Commercial Treaties  Trade negotiations with France and Spain. Flag Treaty Spain and United States Sir A Galts Mission (For Frano- American Treaty) (See/Voir 329) (For Commercial Relations  Canada and Spain (See/Voir 218)"]},"1040":{"tagDescription":["Missing / Manque"]},"849":{"tagDate":["[1834-01-01T00:00:00.000Z TO 1874-12-31T23:59:59.999Z]"],"tagDescription":["Roman Catholic Ecclesiastical Appointments Establishment of Archbishopric in British North America 1842 Establishment of New Roman Catholic Diocese Oath of Allegiance"]},"1641":{"tagDate":["[1878-01-01T00:00:00.000Z TO 1880-12-31T23:59:59.999Z]"],"tagDescription":["Admission of Canadian built ships into France & Commercial negotiations with that country"]}}
+{
+  "1095": { "tagDescription": ["Missing / Manque"] },
+  "183": { "tagDescription": ["Missing / Manque"] },
+  "1043": {
+    "tagDescription": ["British Consulate at Iswego"],
+    "tagDate": ["[1863-01-01T00:00:00.000Z TO 1869-12-31T23:59:59.999Z]"]
+  },
+  "535": {
+    "tagDate": ["[1891-01-01T00:00:00.000Z TO 1893-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Tolls levied on United States traffic through Welland Canals. Proposed reciprocity treaty arising out of controversy. For General Reciprocity File  U.S. and Canada see file 578"
+    ]
+  },
+  "13": {
+    "tagDescription": [
+      "Juan de Fuca Strait  Haro Channel United States  Canada Boundary Line  Decision of Emperor of Germany. Arbitration under provisions of Treaty of Washington, 1871 San Juan Island  Rights of British subjects who settled on Island before Treaty of 1846. Detachment of marines at San Juan(cannot read rest of page 11)"
+    ],
+    "tagDate": ["[1870-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]
+  },
+  "189": { "tagDescription": ["Missing / Manque"] },
+  "993": {
+    "tagDescription": [
+      "Roman Catholic Ecclesiastical Appointments, Deaths, etc Oath of R.C. Bishops in Quebec Petition of Roman Catholic Dignitaries of Quebec re Irish Question Roman Catholic Relief Act Political Activities of Roman Catholic Priests"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"]
+  },
+  "355": {
+    "tagDescription": ["Canals. Mutual use by the United States and Canada of"],
+    "tagDate": ["[1872-01-01T00:00:00.000Z TO 1875-12-31T23:59:59.999Z]"]
+  },
+  "1118": {
+    "tagDate": ["1857-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Seizure of the Julia Smith or Mazeppa by United States Authorities"
+    ]
+  },
+  "831": {
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1877-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Tax on ships for the maintenance of light, etc"]
+  },
+  "185": {
+    "tagDescription": [
+      "Canadian Surgeons Qualifications of surgeons carried by passenger Steamers"
+    ],
+    "tagDate": ["1877-01-01T00:00:00.000Z"]
+  },
+  "829": { "tagDescription": ["Missing / Manque"] },
+  "191": {
+    "tagDate": ["[1875-01-01T00:00:00.000Z TO 1876-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Canals. Mutual use by the United States and Canada of"]
+  },
+  "1097": {
+    "tagDescription": [
+      "Mrs. Cunninghams claim for pension for U.S. Government"
+    ],
+    "tagDate": ["[1864-01-01T00:00:00.000Z TO 1869-12-31T23:59:59.999Z]"]
+  },
+  "1164": {
+    "tagDescription": [
+      "Commercial Treaties  Trade negotiations with France and Spain. Flag Treaty Spain and United States Sir A Galts Mission (For Frano- American Treaty) (See/Voir 329) (For Commercial Relations  Canada and Spain (See/Voir 218)"
+    ]
+  },
+  "1040": { "tagDescription": ["Missing / Manque"] },
+  "849": {
+    "tagDate": ["[1834-01-01T00:00:00.000Z TO 1874-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Roman Catholic Ecclesiastical Appointments Establishment of Archbishopric in British North America 1842 Establishment of New Roman Catholic Diocese Oath of Allegiance"
+    ]
+  },
+  "1641": {
+    "tagDate": ["[1878-01-01T00:00:00.000Z TO 1880-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Admission of Canadian built ships into France & Commercial negotiations with that country"
+    ]
+  }
+}

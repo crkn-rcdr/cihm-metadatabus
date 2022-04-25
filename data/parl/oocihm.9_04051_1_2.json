@@ -1,1 +1,11 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"node":[["fra","c","sessional","01-1",2]],"pubmax":"1868-05-22","type":"sessional","session":["01-1"],"language":["fra"],"label":"Documents parlementaires, 1e Législature, 1re Session : vol. 2","pubmin":"1867-11-06"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["fra", "c", "sessional", "01-1", 2]],
+  "pubmax": "1868-05-22",
+  "type": "sessional",
+  "session": ["01-1"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 1e Législature, 1re Session : vol. 2",
+  "pubmin": "1867-11-06"
+}

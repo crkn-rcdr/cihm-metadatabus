@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["05-3"],"pubmin":"1885-01-29","label":"House of Commons Journals, 5th Parliament, 3rd Session : Vol. 19 App.","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"journals","node":[["eng","c","journals","05-3",2]],"pubmax":"1885-07-20"}
+{
+  "language": ["eng"],
+  "session": ["05-3"],
+  "pubmin": "1885-01-29",
+  "label": "House of Commons Journals, 5th Parliament, 3rd Session : Vol. 19 App.",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "05-3", 2]],
+  "pubmax": "1885-07-20"
+}

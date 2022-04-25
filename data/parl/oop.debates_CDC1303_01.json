@@ -1,1 +1,11 @@
-{"primeMinisters":"Borden, Robert Laird","chamber":["c"],"type":"debates","node":[["fra","c","debates","13-3",1]],"pubmax":"1919-11-10","language":["fra"],"session":["13-3"],"pubmin":"1919-09-01","label":"Débats de la Chambre des communes, 13e Législature, 3e Session : Vol. 1"}
+{
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "13-3", 1]],
+  "pubmax": "1919-11-10",
+  "language": ["fra"],
+  "session": ["13-3"],
+  "pubmin": "1919-09-01",
+  "label": "Débats de la Chambre des communes, 13e Législature, 3e Session : Vol. 1"
+}

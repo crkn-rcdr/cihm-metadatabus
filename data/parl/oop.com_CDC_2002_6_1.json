@@ -1,1 +1,12 @@
-{"pubmin":"1946-03-14","label":"Comités de la Chambre des communes, 20e Législature, 2e Session : Comité spécial des dépenses et économies de guerre, vol. 1","callNumber":"1946 G8 A1","language":["fra"],"session":["20-2"],"type":"committees","node":[["fra","c","committees","20-2",8]],"pubmax":"1946-08-31","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "pubmin": "1946-03-14",
+  "label": "Comités de la Chambre des communes, 20e Législature, 2e Session : Comité spécial des dépenses et économies de guerre, vol. 1",
+  "callNumber": "1946 G8 A1",
+  "language": ["fra"],
+  "session": ["20-2"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "20-2", 8]],
+  "pubmax": "1946-08-31",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

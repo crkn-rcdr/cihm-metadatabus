@@ -1,1 +1,11 @@
-{"type":"debates","pubmax":"1934-07-03","node":[["eng","c","debates","17-5",3]],"chamber":["c"],"primeMinisters":"Bennett, Richard Bedford","pubmin":"1934-01-25","label":"House of Commons Debates, 17th Parliament, 5th Session : Vol. 3","language":["eng"],"session":["17-5"]}
+{
+  "type": "debates",
+  "pubmax": "1934-07-03",
+  "node": [["eng", "c", "debates", "17-5", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "pubmin": "1934-01-25",
+  "label": "House of Commons Debates, 17th Parliament, 5th Session : Vol. 3",
+  "language": ["eng"],
+  "session": ["17-5"]
+}

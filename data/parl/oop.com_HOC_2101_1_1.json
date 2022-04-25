@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["21-1"],"pubmin":"1949-09-15","label":"House of Commons Committees, 21st Parliament, 1st Session : Standing Committee on Agriculture and Colonization, vol. 1","callNumber":"1949 2d. Sess. A3 A1","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"type":"committees","node":[["eng","c","committees","21-1",1]],"pubmax":"1949-12-10"}
+{
+  "language": ["eng"],
+  "session": ["21-1"],
+  "pubmin": "1949-09-15",
+  "label": "House of Commons Committees, 21st Parliament, 1st Session : Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1949 2d. Sess. A3 A1",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "21-1", 1]],
+  "pubmax": "1949-12-10"
+}

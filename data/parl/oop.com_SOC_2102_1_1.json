@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","pubmax":"1950-06-30","node":[["eng","s","committees","21-2",1]],"language":["eng"],"session":["21-2"],"pubmin":"1950-02-16","callNumber":"HJ4661 A2 A32 1950 c.2","label":"Senate Committees, 21st Parliament, 2nd Session : Standing Committee on Banking and Commerce, vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1950-06-30",
+  "node": [["eng", "s", "committees", "21-2", 1]],
+  "language": ["eng"],
+  "session": ["21-2"],
+  "pubmin": "1950-02-16",
+  "callNumber": "HJ4661 A2 A32 1950 c.2",
+  "label": "Senate Committees, 21st Parliament, 2nd Session : Standing Committee on Banking and Commerce, vol. 1"
+}

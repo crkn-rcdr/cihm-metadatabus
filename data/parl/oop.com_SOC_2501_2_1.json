@@ -1,1 +1,11 @@
-{"chamber":["s"],"node":[["eng","s","committees","25-1",2]],"pubmax":"1963-02-06","type":"committees","session":["25-1"],"language":["eng"],"label":"Senate Committees, 25th Parliament, 1st Session : Special Committee on Land Use in Canada, vol. 1","callNumber":"1962/63 L3 A1","pubmin":"1962-09-27"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "25-1", 2]],
+  "pubmax": "1963-02-06",
+  "type": "committees",
+  "session": ["25-1"],
+  "language": ["eng"],
+  "label": "Senate Committees, 25th Parliament, 1st Session : Special Committee on Land Use in Canada, vol. 1",
+  "callNumber": "1962/63 L3 A1",
+  "pubmin": "1962-09-27"
+}

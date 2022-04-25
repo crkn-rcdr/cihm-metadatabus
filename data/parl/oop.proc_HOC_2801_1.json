@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["28-1"],"pubmin":"1968-09-12","label":"House of Commons Votes and Proceedings, 28th Parliament, 1st Session : 1-54","callNumber":"J103 H41 1968/69 nos. 1-54 c.2","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"type":"cproc","node":[["eng","c","cproc","28-1",1]],"pubmax":"1969-10-22"}
+{
+  "language": ["eng"],
+  "session": ["28-1"],
+  "pubmin": "1968-09-12",
+  "label": "House of Commons Votes and Proceedings, 28th Parliament, 1st Session : 1-54",
+  "callNumber": "J103 H41 1968/69 nos. 1-54 c.2",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "28-1", 1]],
+  "pubmax": "1969-10-22"
+}

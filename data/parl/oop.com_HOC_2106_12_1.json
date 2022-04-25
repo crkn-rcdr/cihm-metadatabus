@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["21-6"],"pubmin":"1952-02-28","callNumber":"1952 V4 A1","label":"House of Commons Committees, 21st Parliament, 6th Session : Special Committee on Veterans Affairs, vol. 1","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","type":"committees","pubmax":"1952-11-20","node":[["eng","c","committees","21-6",12]]}
+{
+  "language": ["eng"],
+  "session": ["21-6"],
+  "pubmin": "1952-02-28",
+  "callNumber": "1952 V4 A1",
+  "label": "House of Commons Committees, 21st Parliament, 6th Session : Special Committee on Veterans Affairs, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "committees",
+  "pubmax": "1952-11-20",
+  "node": [["eng", "c", "committees", "21-6", 12]]
+}

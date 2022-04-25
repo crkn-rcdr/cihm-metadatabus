@@ -1,1 +1,12 @@
-{"session":["22-5"],"language":["fra"],"label":"Comités de la Chambre des communes, 22e Législature, 5e Session : Comité spécial des prévisions budgétaires, vol. 1","callNumber":"1957 P74 A4","pubmin":"1957-01-08","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["fra","c","committees","22-5",6]],"pubmax":"1957-04-12","type":"committees"}
+{
+  "session": ["22-5"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 22e Législature, 5e Session : Comité spécial des prévisions budgétaires, vol. 1",
+  "callNumber": "1957 P74 A4",
+  "pubmin": "1957-01-08",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "22-5", 6]],
+  "pubmax": "1957-04-12",
+  "type": "committees"
+}

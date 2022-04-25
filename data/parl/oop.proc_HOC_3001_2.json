@@ -1,1 +1,12 @@
-{"session":["30-1"],"language":["eng"],"callNumber":"J103 H41 1974/76 no. 183-343 c.2","label":"House of Commons Votes and Proceedings, 30th Parliament, 1st Session : 183-343","pubmin":"1974-09-30","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1976-10-12","node":[["eng","c","cproc","30-1",2]],"type":"cproc"}
+{
+  "session": ["30-1"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 1974/76 no. 183-343 c.2",
+  "label": "House of Commons Votes and Proceedings, 30th Parliament, 1st Session : 183-343",
+  "pubmin": "1974-09-30",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1976-10-12",
+  "node": [["eng", "c", "cproc", "30-1", 2]],
+  "type": "cproc"
+}

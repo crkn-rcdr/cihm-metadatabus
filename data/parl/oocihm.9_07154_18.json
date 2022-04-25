@@ -1,1 +1,10 @@
-{"node":[["eng","s","journals","05-2",1]],"pubmax":"1884-04-19","type":"journals","chamber":["s"],"label":"Senate Journals, 5th Parliament, 2nd Session : Vol. 18","pubmin":"1884-01-17","session":["05-2"],"language":["eng"]}
+{
+  "node": [["eng", "s", "journals", "05-2", 1]],
+  "pubmax": "1884-04-19",
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Senate Journals, 5th Parliament, 2nd Session : Vol. 18",
+  "pubmin": "1884-01-17",
+  "session": ["05-2"],
+  "language": ["eng"]
+}

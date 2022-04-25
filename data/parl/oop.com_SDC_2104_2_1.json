@@ -1,1 +1,11 @@
-{"pubmin":"1951-01-30","callNumber":"1951 F5 A42","label":"Comités du Sénat, 21e Législature, 4e Session : Comité permanent des finances, vol. 1","language":["fra"],"session":["21-4"],"type":"committees","pubmax":"1951-10-09","node":[["fra","s","committees","21-4",2]],"chamber":["s"]}
+{
+  "pubmin": "1951-01-30",
+  "callNumber": "1951 F5 A42",
+  "label": "Comités du Sénat, 21e Législature, 4e Session : Comité permanent des finances, vol. 1",
+  "language": ["fra"],
+  "session": ["21-4"],
+  "type": "committees",
+  "pubmax": "1951-10-09",
+  "node": [["fra", "s", "committees", "21-4", 2]],
+  "chamber": ["s"]
+}

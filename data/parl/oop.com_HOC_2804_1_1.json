@@ -1,1 +1,15 @@
-{"session":["28-4"],"language":["eng","fra"],"label":"House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Agriculture, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent de l'agriculture, vol. 1","callNumber":"1972 A3 A1","pubmin":"1972-02-17","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["eng","c","committees","28-4",1],["fra","c","committees","28-4",4]],"pubmax":"1972-09-01","type":"committees"}
+{
+  "session": ["28-4"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Agriculture, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent de l'agriculture, vol. 1",
+  "callNumber": "1972 A3 A1",
+  "pubmin": "1972-02-17",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "28-4", 1],
+    ["fra", "c", "committees", "28-4", 4]
+  ],
+  "pubmax": "1972-09-01",
+  "type": "committees"
+}

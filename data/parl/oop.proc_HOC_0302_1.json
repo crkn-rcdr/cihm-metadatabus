@@ -1,1 +1,12 @@
-{"callNumber":"J103 H41 1875","label":"House of Commons Votes and Proceedings, 3rd Parliament, 2nd Session : 1-48","pubmin":"1875-02-04","session":["03-2"],"language":["eng"],"pubmax":"1875-04-08","node":[["eng","c","cproc","03-2",1]],"type":"cproc","chamber":["c"],"primeMinisters":"Mackenzie, Alexander"}
+{
+  "callNumber": "J103 H41 1875",
+  "label": "House of Commons Votes and Proceedings, 3rd Parliament, 2nd Session : 1-48",
+  "pubmin": "1875-02-04",
+  "session": ["03-2"],
+  "language": ["eng"],
+  "pubmax": "1875-04-08",
+  "node": [["eng", "c", "cproc", "03-2", 1]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander"
+}

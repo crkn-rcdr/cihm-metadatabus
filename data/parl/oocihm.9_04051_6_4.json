@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["02-1"],"pubmin":"1873-03-05","label":"Documents parlementaires, 2e Législature, 1re Session : vol. 4","chamber":["c"],"primeMinisters":"Macdonald, John Alexander","type":"sessional","pubmax":"1873-08-13","node":[["fra","c","sessional","02-1",4]]}
+{
+  "language": ["fra"],
+  "session": ["02-1"],
+  "pubmin": "1873-03-05",
+  "label": "Documents parlementaires, 2e Législature, 1re Session : vol. 4",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "sessional",
+  "pubmax": "1873-08-13",
+  "node": [["fra", "c", "sessional", "02-1", 4]]
+}

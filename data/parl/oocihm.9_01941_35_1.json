@@ -1,1 +1,11 @@
-{"pubmax":"1900-07-18","node":[["fra","c","journals","08-5",1]],"type":"journals","chamber":["c"],"primeMinisters":"Laurier, Wilfrid","label":"Journaux de la Chambre des communes, 8e Législature, 5e Session : Vol. 35","pubmin":"1900-02-01","session":["08-5"],"language":["fra"]}
+{
+  "pubmax": "1900-07-18",
+  "node": [["fra", "c", "journals", "08-5", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "label": "Journaux de la Chambre des communes, 8e Législature, 5e Session : Vol. 35",
+  "pubmin": "1900-02-01",
+  "session": ["08-5"],
+  "language": ["fra"]
+}

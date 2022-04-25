@@ -1,1 +1,12 @@
-{"reportTitle":["The Marketing of Fish in Canada"],"language":["eng"],"session":["33-2"],"pubmin":"1986-09-30","callNumber":"33-2 F577 A12","label":"Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on Fisheries, Report","chamber":["s"],"type":"committees","pubmax":"1988-10-01","node":[["eng","s","committees","33-2",17]]}
+{
+  "reportTitle": ["The Marketing of Fish in Canada"],
+  "language": ["eng"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 F577 A12",
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on Fisheries, Report",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [["eng", "s", "committees", "33-2", 17]]
+}

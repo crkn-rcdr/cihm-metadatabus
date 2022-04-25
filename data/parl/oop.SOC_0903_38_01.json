@@ -1,1 +1,10 @@
-{"type":"journals","node":[["eng","s","journals","09-3",1]],"pubmax":"1903-10-24","chamber":["s"],"pubmin":"1903-03-12","label":"Senate Journals, 9th Parliament, 3rd Session : Vol. 38","language":["eng"],"session":["09-3"]}
+{
+  "type": "journals",
+  "node": [["eng", "s", "journals", "09-3", 1]],
+  "pubmax": "1903-10-24",
+  "chamber": ["s"],
+  "pubmin": "1903-03-12",
+  "label": "Senate Journals, 9th Parliament, 3rd Session : Vol. 38",
+  "language": ["eng"],
+  "session": ["09-3"]
+}

@@ -1,1 +1,11 @@
-{"label":"Senate Bills, 3rd Parliament, 4th Session : A-K","callNumber":"KE72 C38 3-4 Bill A-","pubmin":"1877-02-08","session":["03-4"],"language":["eng"],"node":[["eng","s","bills","03-4",1]],"pubmax":"1877-04-28","type":"bills","chamber":["s"]}
+{
+  "label": "Senate Bills, 3rd Parliament, 4th Session : A-K",
+  "callNumber": "KE72 C38 3-4 Bill A-",
+  "pubmin": "1877-02-08",
+  "session": ["03-4"],
+  "language": ["eng"],
+  "node": [["eng", "s", "bills", "03-4", 1]],
+  "pubmax": "1877-04-28",
+  "type": "bills",
+  "chamber": ["s"]
+}

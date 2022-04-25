@@ -1,1 +1,12 @@
-{"node":[["eng","s","committees","29-1",7]],"pubmax":"1974-02-26","type":"committees","chamber":["s"],"label":"Senate Committees, 29th Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, Report","callNumber":"1973/74 L4 A12","pubmin":"1973-01-04","session":["29-1"],"reportTitle":["Parole in Canada"],"language":["eng"]}
+{
+  "node": [["eng", "s", "committees", "29-1", 7]],
+  "pubmax": "1974-02-26",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Senate Committees, 29th Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, Report",
+  "callNumber": "1973/74 L4 A12",
+  "pubmin": "1973-01-04",
+  "session": ["29-1"],
+  "reportTitle": ["Parole in Canada"],
+  "language": ["eng"]
+}

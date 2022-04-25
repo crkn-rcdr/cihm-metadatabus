@@ -1,1 +1,10 @@
-{"pubmin":"1935-01-17","label":"Senate Journals, 17th Parliament, 6th Session : Vol. 73","language":["eng"],"session":["17-6"],"type":"journals","pubmax":"1935-07-05","node":[["eng","s","journals","17-6",1]],"chamber":["s"]}
+{
+  "pubmin": "1935-01-17",
+  "label": "Senate Journals, 17th Parliament, 6th Session : Vol. 73",
+  "language": ["eng"],
+  "session": ["17-6"],
+  "type": "journals",
+  "pubmax": "1935-07-05",
+  "node": [["eng", "s", "journals", "17-6", 1]],
+  "chamber": ["s"]
+}

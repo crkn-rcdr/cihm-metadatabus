@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["24-4"],"pubmin":"1960-11-17","label":"Senate Minutes of Proceedings, 24th Parliament, 4th Session : 1-50","callNumber":"J103 H4 1961 v.1 c.2","chamber":["s"],"type":"sproc","node":[["eng","s","sproc","24-4",1]],"pubmax":"1961-09-29"}
+{
+  "language": ["eng"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "label": "Senate Minutes of Proceedings, 24th Parliament, 4th Session : 1-50",
+  "callNumber": "J103 H4 1961 v.1 c.2",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "24-4", 1]],
+  "pubmax": "1961-09-29"
+}

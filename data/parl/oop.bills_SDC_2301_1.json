@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["23-1"],"pubmin":"1957-10-14","label":"Projets de loi du Sénat, 23e Législature, 1re Session : B-U7","callNumber":"KE72 C381 23-1 Bill B-","chamber":["s"],"type":"bills","node":[["fra","s","bills","23-1",1]],"pubmax":"1958-02-01"}
+{
+  "language": ["fra"],
+  "session": ["23-1"],
+  "pubmin": "1957-10-14",
+  "label": "Projets de loi du Sénat, 23e Législature, 1re Session : B-U7",
+  "callNumber": "KE72 C381 23-1 Bill B-",
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["fra", "s", "bills", "23-1", 1]],
+  "pubmax": "1958-02-01"
+}

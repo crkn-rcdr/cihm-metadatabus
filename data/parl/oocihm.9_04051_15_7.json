@@ -1,1 +1,11 @@
-{"label":"Documents parlementaires, 4e Législature, 4e Session : vol. 7","pubmin":"1882-02-09","session":["04-4"],"language":["fra"],"pubmax":"1882-05-17","node":[["fra","c","sessional","04-4",7]],"type":"sessional","chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "label": "Documents parlementaires, 4e Législature, 4e Session : vol. 7",
+  "pubmin": "1882-02-09",
+  "session": ["04-4"],
+  "language": ["fra"],
+  "pubmax": "1882-05-17",
+  "node": [["fra", "c", "sessional", "04-4", 7]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

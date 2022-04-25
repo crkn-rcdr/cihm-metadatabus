@@ -1,1 +1,11 @@
-{"type":"debates","pubmax":"1956-08-14","node":[["fra","c","debates","22-3",6]],"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmin":"1956-01-10","label":"Débats de la Chambre des communes, 22e Législature, 3e Session : Vol. 6","language":["fra"],"session":["22-3"]}
+{
+  "type": "debates",
+  "pubmax": "1956-08-14",
+  "node": [["fra", "c", "debates", "22-3", 6]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmin": "1956-01-10",
+  "label": "Débats de la Chambre des communes, 22e Législature, 3e Session : Vol. 6",
+  "language": ["fra"],
+  "session": ["22-3"]
+}

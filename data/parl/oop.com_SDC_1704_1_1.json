@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","node":[["fra","s","committees","17-4",1]],"pubmax":"1933-05-27","language":["fra"],"session":["17-4"],"pubmin":"1932-10-06","label":"Comités du Sénat, 17e Législature, 4e Session : Comité permanent de la banque et du commerce, vol. 1","callNumber":"J103 H72 1932/33 B3 A4 ex.2"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "17-4", 1]],
+  "pubmax": "1933-05-27",
+  "language": ["fra"],
+  "session": ["17-4"],
+  "pubmin": "1932-10-06",
+  "label": "Comités du Sénat, 17e Législature, 4e Session : Comité permanent de la banque et du commerce, vol. 1",
+  "callNumber": "J103 H72 1932/33 B3 A4 ex.2"
+}

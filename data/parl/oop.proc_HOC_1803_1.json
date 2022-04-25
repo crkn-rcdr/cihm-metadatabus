@@ -1,1 +1,12 @@
-{"node":[["eng","c","cproc","18-3",1]],"pubmax":"1938-07-01","type":"cproc","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"label":"House of Commons Votes and Proceedings, 18th Parliament, 3rd Session : 1-102","callNumber":"J103 H41 1938 c.2","pubmin":"1938-01-27","session":["18-3"],"language":["eng"]}
+{
+  "node": [["eng", "c", "cproc", "18-3", 1]],
+  "pubmax": "1938-07-01",
+  "type": "cproc",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "label": "House of Commons Votes and Proceedings, 18th Parliament, 3rd Session : 1-102",
+  "callNumber": "J103 H41 1938 c.2",
+  "pubmin": "1938-01-27",
+  "session": ["18-3"],
+  "language": ["eng"]
+}

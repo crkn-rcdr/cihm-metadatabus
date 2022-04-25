@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1946-08-31","node":[["eng","c","committees","20-2",3]],"type":"committees","session":["20-2"],"language":["eng"],"callNumber":"1946 E9 A1","label":"House of Commons Committees, 20th Parliament, 2nd Session : Standing Committee on External Affairs, vol. 1","pubmin":"1946-03-14"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1946-08-31",
+  "node": [["eng", "c", "committees", "20-2", 3]],
+  "type": "committees",
+  "session": ["20-2"],
+  "language": ["eng"],
+  "callNumber": "1946 E9 A1",
+  "label": "House of Commons Committees, 20th Parliament, 2nd Session : Standing Committee on External Affairs, vol. 1",
+  "pubmin": "1946-03-14"
+}

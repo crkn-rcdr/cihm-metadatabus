@@ -1,1 +1,11 @@
-{"pubmin":"1903-03-12","label":"House of Commons Debates, 9th Parliament, 3rd Session : Vol. 6","language":["eng"],"session":["09-3"],"type":"debates","node":[["eng","c","debates","09-3",6]],"pubmax":"1903-10-24","primeMinisters":"Laurier, Wilfrid","chamber":["c"]}
+{
+  "pubmin": "1903-03-12",
+  "label": "House of Commons Debates, 9th Parliament, 3rd Session : Vol. 6",
+  "language": ["eng"],
+  "session": ["09-3"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "09-3", 6]],
+  "pubmax": "1903-10-24",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

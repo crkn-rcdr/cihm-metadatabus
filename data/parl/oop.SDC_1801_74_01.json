@@ -1,1 +1,10 @@
-{"session":["18-1"],"language":["fra"],"label":"Journaux du Sénat, 18e Législature, 1re Session : Vol. 74","pubmin":"1936-02-06","chamber":["s"],"pubmax":"1936-06-23","node":[["fra","s","journals","18-1",1]],"type":"journals"}
+{
+  "session": ["18-1"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 18e Législature, 1re Session : Vol. 74",
+  "pubmin": "1936-02-06",
+  "chamber": ["s"],
+  "pubmax": "1936-06-23",
+  "node": [["fra", "s", "journals", "18-1", 1]],
+  "type": "journals"
+}

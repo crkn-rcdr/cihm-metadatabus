@@ -1,1 +1,13 @@
-{"pubmin":"1980-04-14","label":"House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on North-South Relations, Report","callNumber":"1980/83 N6 A12","language":["eng"],"reportTitle":["The Relations between Developed and Developing Countries"],"session":["32-1"],"type":"committees","node":[["eng","c","committees","32-1",131]],"pubmax":"1983-11-30","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on North-South Relations, Report",
+  "callNumber": "1980/83 N6 A12",
+  "language": ["eng"],
+  "reportTitle": ["The Relations between Developed and Developing Countries"],
+  "session": ["32-1"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "32-1", 131]],
+  "pubmax": "1983-11-30",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

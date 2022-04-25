@@ -1,1 +1,11 @@
-{"pubmax":"1949-12-10","node":[["eng","s","rules",null,10]],"type":"rules","chamber":["s"],"callNumber":"JL158.3 1949 Index","label":"Topical Index of the Rules of the Senate, 1949","pubmin":"1949-01-26","session":["20-5","21-1"],"language":["eng"]}
+{
+  "pubmax": "1949-12-10",
+  "node": [["eng", "s", "rules", null, 10]],
+  "type": "rules",
+  "chamber": ["s"],
+  "callNumber": "JL158.3 1949 Index",
+  "label": "Topical Index of the Rules of the Senate, 1949",
+  "pubmin": "1949-01-26",
+  "session": ["20-5", "21-1"],
+  "language": ["eng"]
+}

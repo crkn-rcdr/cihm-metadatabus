@@ -1,1 +1,11 @@
-{"session":["21-4"],"language":["eng"],"label":"House of Commons Journals, 21st Parliament, 4th Session : Vol. 94","pubmin":"1951-01-30","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmax":"1951-10-09","node":[["eng","c","journals","21-4",1]],"type":"journals"}
+{
+  "session": ["21-4"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 21st Parliament, 4th Session : Vol. 94",
+  "pubmin": "1951-01-30",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1951-10-09",
+  "node": [["eng", "c", "journals", "21-4", 1]],
+  "type": "journals"
+}

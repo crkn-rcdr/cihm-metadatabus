@@ -1,1 +1,38 @@
-{"859":{"tagDate":["[1882-01-01T00:00:00.000Z TO 1892-12-31T23:59:59.999Z]"],"tagDescription":["Copyright Questions"]},"487":{"tagDate":["[1867-01-01T00:00:00.000Z TO 1881-12-31T23:59:59.999Z]"],"tagDescription":["Imperial and Colonial copyright Acts"]},"196":{"tagDescription":["Reciprocity in wrecking privileges with the United States"],"tagDate":["[1892-01-01T00:00:00.000Z TO 1894-12-31T23:59:59.999Z]"]},"36":{"tagDescription":["Wrecking and towing in inland waters contiguous to Canada and the United States"],"tagDate":["[1890-12-31T23:59:59.999Z TO 1893-01-01T00:00:00.000Z]"]},"1425":{"tagDate":["[1874-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"],"tagDescription":["Copyright file - Correspondence respecting Colonial copyright, 1873 - Correspondence on the subject of the Lay of Copyright in Canada 1889-1895 - Correspondence respecting the copyright conference at Paris, 1895 - Report  Copyright Bill (H.L.) and the copyright (Artistic) Bill (H.L.), 18991 - An act to simplify and amend the Law relating to Copyright in Artistic works, and other documents enclosed in C.O. circular of the 28 October, 1899 - Minutes of evidence taken before the Law of Copyright Committee, 1909 - Minutes of proceedings of the Imperial Copyright Conference, 1910"]},"318":{"tagDate":["[1918-12-31T23:59:59.999Z TO 1933-01-01T00:00:00.000Z]"],"tagDescription":["Missing / Manque","North West Rebellion Medal of 1885"]},"1170":{"tagDate":["[1894-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"],"tagDescription":["Copyright question - Canadian copyright act - Copies of books first published in Canada, to which copyright privileges are granted, to be supplied to the British Museum. - Foreign Reprints Act - International copyright convention"]}}
+{
+  "859": {
+    "tagDate": ["[1882-01-01T00:00:00.000Z TO 1892-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Copyright Questions"]
+  },
+  "487": {
+    "tagDate": ["[1867-01-01T00:00:00.000Z TO 1881-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Imperial and Colonial copyright Acts"]
+  },
+  "196": {
+    "tagDescription": [
+      "Reciprocity in wrecking privileges with the United States"
+    ],
+    "tagDate": ["[1892-01-01T00:00:00.000Z TO 1894-12-31T23:59:59.999Z]"]
+  },
+  "36": {
+    "tagDescription": [
+      "Wrecking and towing in inland waters contiguous to Canada and the United States"
+    ],
+    "tagDate": ["[1890-12-31T23:59:59.999Z TO 1893-01-01T00:00:00.000Z]"]
+  },
+  "1425": {
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Copyright file - Correspondence respecting Colonial copyright, 1873 - Correspondence on the subject of the Lay of Copyright in Canada 1889-1895 - Correspondence respecting the copyright conference at Paris, 1895 - Report  Copyright Bill (H.L.) and the copyright (Artistic) Bill (H.L.), 18991 - An act to simplify and amend the Law relating to Copyright in Artistic works, and other documents enclosed in C.O. circular of the 28 October, 1899 - Minutes of evidence taken before the Law of Copyright Committee, 1909 - Minutes of proceedings of the Imperial Copyright Conference, 1910"
+    ]
+  },
+  "318": {
+    "tagDate": ["[1918-12-31T23:59:59.999Z TO 1933-01-01T00:00:00.000Z]"],
+    "tagDescription": ["Missing / Manque", "North West Rebellion Medal of 1885"]
+  },
+  "1170": {
+    "tagDate": ["[1894-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Copyright question - Canadian copyright act - Copies of books first published in Canada, to which copyright privileges are granted, to be supplied to the British Museum. - Foreign Reprints Act - International copyright convention"
+    ]
+  }
+}

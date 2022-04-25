@@ -1,1 +1,12 @@
-{"pubmax":"1965-04-03","node":[["fra","c","committees","26-2",5]],"type":"committees","chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","callNumber":"1964/65 A3 A4","label":"Comités de la Chambre des communes, 26e Législature, 2e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1","pubmin":"1964-02-18","session":["26-2"],"language":["fra"]}
+{
+  "pubmax": "1965-04-03",
+  "node": [["fra", "c", "committees", "26-2", 5]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "callNumber": "1964/65 A3 A4",
+  "label": "Comités de la Chambre des communes, 26e Législature, 2e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1",
+  "pubmin": "1964-02-18",
+  "session": ["26-2"],
+  "language": ["fra"]
+}

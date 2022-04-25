@@ -1,1 +1,14 @@
-{"pubmin":"1976-10-12","label":"House of Commons Bills, 30th Parliament, 2nd Session : C21-C26 = Projets de loi de la Chambre des communes, 30e Législature, 2e Session : C21-C26","language":["eng","fra"],"session":["30-2"],"type":"bills","pubmax":"1977-10-17","node":[["eng","c","bills","30-2",2],["fra","c","bills","30-2",2]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "pubmin": "1976-10-12",
+  "label": "House of Commons Bills, 30th Parliament, 2nd Session : C21-C26 = Projets de loi de la Chambre des communes, 30e Législature, 2e Session : C21-C26",
+  "language": ["eng", "fra"],
+  "session": ["30-2"],
+  "type": "bills",
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "c", "bills", "30-2", 2],
+    ["fra", "c", "bills", "30-2", 2]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

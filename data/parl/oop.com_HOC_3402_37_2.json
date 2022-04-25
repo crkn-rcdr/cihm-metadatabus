@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-2",61],["fra","c","committees","34-2",91]],"pubmax":"1991-05-12","language":["eng","fra"],"session":["34-2"],"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Environment, vol. 2 no. 16-28 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de l'environnement, vol. 2 no. 16-28","callNumber":"34-2 E582 A1 no.16-28"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 61],
+    ["fra", "c", "committees", "34-2", 91]
+  ],
+  "pubmax": "1991-05-12",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Environment, vol. 2 no. 16-28 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de l'environnement, vol. 2 no. 16-28",
+  "callNumber": "34-2 E582 A1 no.16-28"
+}

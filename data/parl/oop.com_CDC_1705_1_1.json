@@ -1,1 +1,12 @@
-{"label":"Comités de la Chambre des communes, 17e Législature, 5e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1","callNumber":"1934 A25 A4","pubmin":"1934-01-25","session":["17-5"],"language":["fra"],"node":[["fra","c","committees","17-5",1]],"pubmax":"1934-07-03","type":"committees","primeMinisters":"Bennett, Richard Bedford","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 17e Législature, 5e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1",
+  "callNumber": "1934 A25 A4",
+  "pubmin": "1934-01-25",
+  "session": ["17-5"],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "17-5", 1]],
+  "pubmax": "1934-07-03",
+  "type": "committees",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"]
+}

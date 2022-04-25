@@ -1,1 +1,11 @@
-{"session":["32-1"],"language":["fra"],"label":"Débats de la Chambre des communes, 32e Législature, 1re Session : Vol. 17","pubmin":"1980-04-14","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1983-11-30","node":[["fra","c","debates","32-1",17]],"type":"debates"}
+{
+  "session": ["32-1"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 32e Législature, 1re Session : Vol. 17",
+  "pubmin": "1980-04-14",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1983-11-30",
+  "node": [["fra", "c", "debates", "32-1", 17]],
+  "type": "debates"
+}

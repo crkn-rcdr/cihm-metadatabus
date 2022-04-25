@@ -1,1 +1,11 @@
-{"label":"Senate Committees, 24th Parliament, 2nd Session : Special Committee on Land Use in Canada, vol. 1","callNumber":"1959 L3 A1","pubmin":"1959-01-15","session":["24-2"],"language":["eng"],"node":[["eng","s","committees","24-2",5]],"pubmax":"1959-07-18","type":"committees","chamber":["s"]}
+{
+  "label": "Senate Committees, 24th Parliament, 2nd Session : Special Committee on Land Use in Canada, vol. 1",
+  "callNumber": "1959 L3 A1",
+  "pubmin": "1959-01-15",
+  "session": ["24-2"],
+  "language": ["eng"],
+  "node": [["eng", "s", "committees", "24-2", 5]],
+  "pubmax": "1959-07-18",
+  "type": "committees",
+  "chamber": ["s"]
+}

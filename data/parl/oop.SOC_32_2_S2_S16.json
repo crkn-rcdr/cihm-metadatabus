@@ -1,1 +1,13 @@
-{"label":"Senate Bills, 32nd Parliament, 2nd Session : S2-S16 = Projets de loi du Sénat, 32e Législature, 2e Session : S2-S16","pubmin":"1983-12-07","session":["32-2"],"language":["eng","fra"],"node":[["eng","s","bills","32-2",1],["fra","s","bills","32-2",1]],"pubmax":"1984-07-09","type":"bills","chamber":["s"]}
+{
+  "label": "Senate Bills, 32nd Parliament, 2nd Session : S2-S16 = Projets de loi du Sénat, 32e Législature, 2e Session : S2-S16",
+  "pubmin": "1983-12-07",
+  "session": ["32-2"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "s", "bills", "32-2", 1],
+    ["fra", "s", "bills", "32-2", 1]
+  ],
+  "pubmax": "1984-07-09",
+  "type": "bills",
+  "chamber": ["s"]
+}

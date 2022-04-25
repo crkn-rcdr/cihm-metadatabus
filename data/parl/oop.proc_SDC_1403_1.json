@@ -1,1 +1,11 @@
-{"callNumber":"J103 H43 1924","label":"Procès-verbaux du Sénat, 14e Législature, 3e Session : 1-60","pubmin":"1924-02-28","session":["14-3"],"language":["fra"],"pubmax":"1924-07-19","node":[["fra","s","sproc","14-3",1]],"type":"sproc","chamber":["s"]}
+{
+  "callNumber": "J103 H43 1924",
+  "label": "Procès-verbaux du Sénat, 14e Législature, 3e Session : 1-60",
+  "pubmin": "1924-02-28",
+  "session": ["14-3"],
+  "language": ["fra"],
+  "pubmax": "1924-07-19",
+  "node": [["fra", "s", "sproc", "14-3", 1]],
+  "type": "sproc",
+  "chamber": ["s"]
+}

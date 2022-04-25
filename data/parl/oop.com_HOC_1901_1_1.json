@@ -1,1 +1,12 @@
-{"callNumber":"1940 B3 A1","label":"House of Commons Committees, 19th Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 1","pubmin":"1940-05-16","session":["19-1"],"language":["eng"],"pubmax":"1940-11-05","node":[["eng","c","committees","19-1",1]],"type":"committees","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie"}
+{
+  "callNumber": "1940 B3 A1",
+  "label": "House of Commons Committees, 19th Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 1",
+  "pubmin": "1940-05-16",
+  "session": ["19-1"],
+  "language": ["eng"],
+  "pubmax": "1940-11-05",
+  "node": [["eng", "c", "committees", "19-1", 1]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

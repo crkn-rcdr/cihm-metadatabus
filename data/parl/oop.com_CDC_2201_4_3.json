@@ -1,1 +1,12 @@
-{"pubmin":"1953-11-12","callNumber":"1953/54 B3R A4","label":"Comités de la Chambre des communes, 22e Législature, 1re Session : Comité permanent de la banque et du commerce, vol. 3","language":["fra"],"session":["22-1"],"type":"committees","pubmax":"1954-06-26","node":[["fra","c","committees","22-1",6]],"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen"}
+{
+  "pubmin": "1953-11-12",
+  "callNumber": "1953/54 B3R A4",
+  "label": "Comités de la Chambre des communes, 22e Législature, 1re Session : Comité permanent de la banque et du commerce, vol. 3",
+  "language": ["fra"],
+  "session": ["22-1"],
+  "type": "committees",
+  "pubmax": "1954-06-26",
+  "node": [["fra", "c", "committees", "22-1", 6]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

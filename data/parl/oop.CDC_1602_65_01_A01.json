@@ -1,1 +1,11 @@
-{"session":["16-2"],"language":["fra"],"label":"Journaux de la Chambre des communes, 16e Législature, 2e Session : Vol. 65 App. 1","pubmin":"1928-01-26","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1928-06-11","node":[["fra","c","journals","16-2",2]],"type":"journals"}
+{
+  "session": ["16-2"],
+  "language": ["fra"],
+  "label": "Journaux de la Chambre des communes, 16e Législature, 2e Session : Vol. 65 App. 1",
+  "pubmin": "1928-01-26",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1928-06-11",
+  "node": [["fra", "c", "journals", "16-2", 2]],
+  "type": "journals"
+}

@@ -1,1 +1,12 @@
-{"session":["24-4"],"language":["fra"],"callNumber":"KE72 C361 24-4 C2-C75","label":"Projets de loi de la Chambre des communes, 24e Législature, 4e Session : C2-C75","pubmin":"1960-11-17","chamber":["c"],"primeMinisters":"Diefenbaker, John George","pubmax":"1961-09-29","node":[["fra","c","bills","24-4",1]],"type":"bills"}
+{
+  "session": ["24-4"],
+  "language": ["fra"],
+  "callNumber": "KE72 C361 24-4 C2-C75",
+  "label": "Projets de loi de la Chambre des communes, 24e Législature, 4e Session : C2-C75",
+  "pubmin": "1960-11-17",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmax": "1961-09-29",
+  "node": [["fra", "c", "bills", "24-4", 1]],
+  "type": "bills"
+}

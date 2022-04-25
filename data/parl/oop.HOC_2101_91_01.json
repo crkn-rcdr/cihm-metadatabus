@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmax":"1949-12-10","node":[["eng","c","journals","21-1",1]],"type":"journals","session":["21-1"],"language":["eng"],"label":"House of Commons Journals, 21st Parliament, 1st Session : Vol. 91","pubmin":"1949-09-15"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1949-12-10",
+  "node": [["eng", "c", "journals", "21-1", 1]],
+  "type": "journals",
+  "session": ["21-1"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 21st Parliament, 1st Session : Vol. 91",
+  "pubmin": "1949-09-15"
+}

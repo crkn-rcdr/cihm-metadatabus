@@ -1,1 +1,11 @@
-{"pubmin":"1894-03-15","label":"Journaux de la Chambre des communes, 7e Législature, 4e Session : Vol. 28 App.","language":["fra"],"session":["07-4"],"type":"journals","node":[["fra","c","journals","07-4",2]],"pubmax":"1894-07-23","primeMinisters":"Thompson, John Sparrow David","chamber":["c"]}
+{
+  "pubmin": "1894-03-15",
+  "label": "Journaux de la Chambre des communes, 7e Législature, 4e Session : Vol. 28 App.",
+  "language": ["fra"],
+  "session": ["07-4"],
+  "type": "journals",
+  "node": [["fra", "c", "journals", "07-4", 2]],
+  "pubmax": "1894-07-23",
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"]
+}

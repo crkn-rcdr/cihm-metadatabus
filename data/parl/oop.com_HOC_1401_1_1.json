@@ -1,1 +1,12 @@
-{"type":"committees","node":[["eng","c","committees","14-1",1]],"pubmax":"1922-06-28","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1922-03-08","label":"House of Commons Committees, 14th Parliament, 1st Session : Select Standing Committee on Agriculture and Colonization, vol. 1","callNumber":"1922 A3 A1","language":["eng"],"session":["14-1"]}
+{
+  "type": "committees",
+  "node": [["eng", "c", "committees", "14-1", 1]],
+  "pubmax": "1922-06-28",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1922-03-08",
+  "label": "House of Commons Committees, 14th Parliament, 1st Session : Select Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1922 A3 A1",
+  "language": ["eng"],
+  "session": ["14-1"]
+}

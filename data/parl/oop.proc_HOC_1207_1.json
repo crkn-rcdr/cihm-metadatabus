@@ -1,1 +1,12 @@
-{"session":["12-7"],"language":["eng"],"callNumber":"J103 H41 (no call)","label":"House of Commons Votes and Proceedings, 12th Parliament, 7th Session : 1-135","pubmin":"1917-01-18","chamber":["c"],"primeMinisters":"Borden, Robert Laird","pubmax":"1917-09-20","node":[["eng","c","cproc","12-7",1]],"type":"cproc"}
+{
+  "session": ["12-7"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 (no call)",
+  "label": "House of Commons Votes and Proceedings, 12th Parliament, 7th Session : 1-135",
+  "pubmin": "1917-01-18",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1917-09-20",
+  "node": [["eng", "c", "cproc", "12-7", 1]],
+  "type": "cproc"
+}

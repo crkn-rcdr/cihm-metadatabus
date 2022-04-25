@@ -1,1 +1,10 @@
-{"session":["14-3"],"language":["eng"],"label":"Senate Journals, 14th Parliament, 3rd Session : Vol. 61","pubmin":"1924-02-28","chamber":["s"],"node":[["eng","s","journals","14-3",1]],"pubmax":"1924-07-19","type":"journals"}
+{
+  "session": ["14-3"],
+  "language": ["eng"],
+  "label": "Senate Journals, 14th Parliament, 3rd Session : Vol. 61",
+  "pubmin": "1924-02-28",
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "14-3", 1]],
+  "pubmax": "1924-07-19",
+  "type": "journals"
+}

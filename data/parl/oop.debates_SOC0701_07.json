@@ -1,1 +1,10 @@
-{"label":"Senate Debates, 7th Parliament, 1st Session : Vol. 1","pubmin":"1891-04-29","session":["07-1"],"language":["eng"],"pubmax":"1891-09-30","node":[["eng","s","debates","07-1",1]],"type":"debates","chamber":["s"]}
+{
+  "label": "Senate Debates, 7th Parliament, 1st Session : Vol. 1",
+  "pubmin": "1891-04-29",
+  "session": ["07-1"],
+  "language": ["eng"],
+  "pubmax": "1891-09-30",
+  "node": [["eng", "s", "debates", "07-1", 1]],
+  "type": "debates",
+  "chamber": ["s"]
+}

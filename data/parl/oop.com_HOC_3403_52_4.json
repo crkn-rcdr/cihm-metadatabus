@@ -1,1 +1,13 @@
-{"callNumber":"34-3 H68 A12","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on House Management, Draft report","pubmin":"1991-05-13","session":["34-3"],"language":["eng"],"reportTitle":["Draft Report on Parliamentary Reform"],"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",108]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-3 H68 A12",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on House Management, Draft report",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng"],
+  "reportTitle": ["Draft Report on Parliamentary Reform"],
+  "pubmax": "1993-09-08",
+  "node": [["eng", "c", "committees", "34-3", 108]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

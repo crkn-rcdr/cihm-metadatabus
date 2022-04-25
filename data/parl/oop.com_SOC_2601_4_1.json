@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","26-1",4]],"pubmax":"1963-12-21","language":["eng"],"session":["26-1"],"pubmin":"1963-05-16","label":"Senate Committees, 26th Parliament, 1st Session : Standing Committee on Miscellaneous Private Bills, vol. 1","callNumber":"1963 M55 A1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "26-1", 4]],
+  "pubmax": "1963-12-21",
+  "language": ["eng"],
+  "session": ["26-1"],
+  "pubmin": "1963-05-16",
+  "label": "Senate Committees, 26th Parliament, 1st Session : Standing Committee on Miscellaneous Private Bills, vol. 1",
+  "callNumber": "1963 M55 A1"
+}

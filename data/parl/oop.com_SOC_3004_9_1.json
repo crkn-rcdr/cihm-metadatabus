@@ -1,1 +1,14 @@
-{"pubmin":"1978-10-11","callNumber":"1978/79 O4 A1","label":"Senate Committees, 30th Parliament, 4th Session : Subcommittee on Off-Track Betting, vol. 1 = Comités du Sénat, 30e Législature, 4e Session : Sous-comité sur les paris hors-piste, vol. 1","language":["eng","fra"],"session":["30-4"],"type":"committees","pubmax":"1979-03-26","node":[["eng","s","committees","30-4",10],["fra","s","committees","30-4",10]],"chamber":["s"]}
+{
+  "pubmin": "1978-10-11",
+  "callNumber": "1978/79 O4 A1",
+  "label": "Senate Committees, 30th Parliament, 4th Session : Subcommittee on Off-Track Betting, vol. 1 = Comités du Sénat, 30e Législature, 4e Session : Sous-comité sur les paris hors-piste, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["30-4"],
+  "type": "committees",
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "s", "committees", "30-4", 10],
+    ["fra", "s", "committees", "30-4", 10]
+  ],
+  "chamber": ["s"]
+}

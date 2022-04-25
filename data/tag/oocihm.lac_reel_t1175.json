@@ -1,1 +1,28 @@
-{"441":{"tagDate":["1915-01-01T00:00:00.000Z"],"tagDescription":["Hindu Question"]},"1618":{"tagDate":["[1920-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["Hindu Question"]},"655":{"tagDescription":["Hindu Question"],"tagDate":["1916-01-01T00:00:00.000Z"]},"1268":{"tagDescription":["Hindu Question"],"tagDate":["[1917-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"]},"192":{"tagDate":["1915-01-01T00:00:00.000Z"],"tagDescription":["Hindu Question"]},"1990":{"tagDate":["[1926-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["Asiatic immigration into Canada. Chinese: Janpanese: East Indian -Statistics of Japanese passengers to and from Canada -Proposed exclusion from Canadian Fisheries -Seditious activities of Sikhs in Victoria, B.C Fraud practiced by a Japanese soldier killed in the Great War, receiving pensions from Canadian Government"]}}
+{
+  "441": {
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagDescription": ["Hindu Question"]
+  },
+  "1618": {
+    "tagDate": ["[1920-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Hindu Question"]
+  },
+  "655": {
+    "tagDescription": ["Hindu Question"],
+    "tagDate": ["1916-01-01T00:00:00.000Z"]
+  },
+  "1268": {
+    "tagDescription": ["Hindu Question"],
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"]
+  },
+  "192": {
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagDescription": ["Hindu Question"]
+  },
+  "1990": {
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Asiatic immigration into Canada. Chinese: Janpanese: East Indian -Statistics of Japanese passengers to and from Canada -Proposed exclusion from Canadian Fisheries -Seditious activities of Sikhs in Victoria, B.C Fraud practiced by a Japanese soldier killed in the Great War, receiving pensions from Canadian Government"
+    ]
+  }
+}

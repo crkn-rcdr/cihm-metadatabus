@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"debates","pubmax":"1927-04-14","node":[["fra","c","debates","16-1",1]],"language":["fra"],"session":["16-1"],"pubmin":"1926-12-09","label":"Débats de la Chambre des communes, 16e Législature, 1re Session : Vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "debates",
+  "pubmax": "1927-04-14",
+  "node": [["fra", "c", "debates", "16-1", 1]],
+  "language": ["fra"],
+  "session": ["16-1"],
+  "pubmin": "1926-12-09",
+  "label": "Débats de la Chambre des communes, 16e Législature, 1re Session : Vol. 1"
+}

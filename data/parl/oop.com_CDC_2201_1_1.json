@@ -1,1 +1,12 @@
-{"label":"Comités de la Chambre des communes, 22e Législature, 1re Session : Comité permanent des affaires extérieures, vol. 1","callNumber":"1953/54 A25 A4","pubmin":"1953-11-12","session":["22-1"],"language":["fra"],"node":[["fra","c","committees","22-1",2]],"pubmax":"1954-06-26","type":"committees","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 22e Législature, 1re Session : Comité permanent des affaires extérieures, vol. 1",
+  "callNumber": "1953/54 A25 A4",
+  "pubmin": "1953-11-12",
+  "session": ["22-1"],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "22-1", 2]],
+  "pubmax": "1954-06-26",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

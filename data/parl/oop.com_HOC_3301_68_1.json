@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","33-1",127],["fra","c","committees","33-1",49]],"pubmax":"1986-08-28","language":["eng","fra"],"session":["33-1"],"pubmin":"1984-11-05","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Regional Industrial Expansion, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'expansion industrielle régionale, vol. 1","callNumber":"33-1 R44 A1"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-1", 127],
+    ["fra", "c", "committees", "33-1", 49]
+  ],
+  "pubmax": "1986-08-28",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Regional Industrial Expansion, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'expansion industrielle régionale, vol. 1",
+  "callNumber": "33-1 R44 A1"
+}

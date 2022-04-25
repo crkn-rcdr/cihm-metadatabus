@@ -1,1 +1,12 @@
-{"pubmin":"1922-03-08","label":"House of Commons Committees, 14th Parliament, 1st Session : Special Committee on Railway Transportation Costs, vol. 1","callNumber":"1922 R35 A1","language":["eng"],"session":["14-1"],"type":"committees","node":[["eng","c","committees","14-1",4]],"pubmax":"1922-06-28","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "pubmin": "1922-03-08",
+  "label": "House of Commons Committees, 14th Parliament, 1st Session : Special Committee on Railway Transportation Costs, vol. 1",
+  "callNumber": "1922 R35 A1",
+  "language": ["eng"],
+  "session": ["14-1"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "14-1", 4]],
+  "pubmax": "1922-06-28",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

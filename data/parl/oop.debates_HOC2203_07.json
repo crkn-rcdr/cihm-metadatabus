@@ -1,1 +1,11 @@
-{"pubmax":"1956-08-14","node":[["eng","c","debates","22-3",7]],"type":"debates","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","label":"House of Commons Debates, 22nd Parliament, 3rd Session : Vol. 7","pubmin":"1956-01-10","session":["22-3"],"language":["eng"]}
+{
+  "pubmax": "1956-08-14",
+  "node": [["eng", "c", "debates", "22-3", 7]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "label": "House of Commons Debates, 22nd Parliament, 3rd Session : Vol. 7",
+  "pubmin": "1956-01-10",
+  "session": ["22-3"],
+  "language": ["eng"]
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["eng","c","committees","28-1",9]],"pubmax":"1969-10-22","type":"committees","session":["28-1"],"language":["eng"],"label":"House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 1 no. 1-22","callNumber":"1968/69 F55 A1 v.1","pubmin":"1968-09-12"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "28-1", 9]],
+  "pubmax": "1969-10-22",
+  "type": "committees",
+  "session": ["28-1"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 1 no. 1-22",
+  "callNumber": "1968/69 F55 A1 v.1",
+  "pubmin": "1968-09-12"
+}

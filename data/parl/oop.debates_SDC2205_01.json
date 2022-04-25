@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["22-5"],"pubmin":"1957-01-08","label":"Débats du Sénat, 22e Législature, 5e Session : Vol. 1","chamber":["s"],"type":"debates","pubmax":"1957-04-12","node":[["fra","s","debates","22-5",1]]}
+{
+  "language": ["fra"],
+  "session": ["22-5"],
+  "pubmin": "1957-01-08",
+  "label": "Débats du Sénat, 22e Législature, 5e Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1957-04-12",
+  "node": [["fra", "s", "debates", "22-5", 1]]
+}

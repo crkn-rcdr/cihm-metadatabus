@@ -1,1 +1,18 @@
-{"5":{"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"],"tagDate":["1834-10-01T00:00:00.000Z"]},"139":{"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"],"tagDate":["1834-11-01T00:00:00.000Z"]},"1574":{"tagDate":["1835-01-01T00:00:00.000Z"],"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"]},"828":{"tagDate":["1834-12-01T00:00:00.000Z"],"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"]}}
+{
+  "5": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["1834-10-01T00:00:00.000Z"]
+  },
+  "139": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["1834-11-01T00:00:00.000Z"]
+  },
+  "1574": {
+    "tagDate": ["1835-01-01T00:00:00.000Z"],
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"]
+  },
+  "828": {
+    "tagDate": ["1834-12-01T00:00:00.000Z"],
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"]
+  }
+}

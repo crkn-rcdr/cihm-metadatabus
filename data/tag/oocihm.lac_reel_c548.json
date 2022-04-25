@@ -1,1 +1,140 @@
-{"797":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Clark, F. J. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"603":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Campbell, J. E. "]},"524":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Cameron, S. "]},"786":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Chisolm, J. M. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"406":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Cameron, J. D. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"900":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Coates, E. D. F. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"383":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Calvert, W. S. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"908":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Collier, A. P. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"676":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Castle, C. C. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"847":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Clement, J. D'E. "]},"859":{"tagPerson":["Clement, S. E. "],"tagDate":["1903-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"650":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Cartwright, R. J. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"881":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Clougher, T. R. "]},"389":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Cameron, A. E. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"803":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Clark, O. H. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"554":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Campbell, A. M. "]},"886":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Close, W. B. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"737":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Chapin, F. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"869":{"tagPerson":["Clingan, F. W. "],"tagDate":["1903-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"596":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Campbell, I. "],"tagDate":["1903-01-01T00:00:00.000Z"]},"614":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Campbell, K. "]},"750":{"tagPerson":["Chevrier, H. "],"tagDate":["1903-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"537":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagPerson":["Campbell, A. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]}}
+{
+  "797": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Clark, F. J. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "603": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Campbell, J. E. "]
+  },
+  "524": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Cameron, S. "]
+  },
+  "786": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Chisolm, J. M. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "406": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Cameron, J. D. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "900": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Coates, E. D. F. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "383": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Calvert, W. S. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "908": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Collier, A. P. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "676": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Castle, C. C. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "847": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Clement, J. D'E. "]
+  },
+  "859": {
+    "tagPerson": ["Clement, S. E. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "650": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Cartwright, R. J. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "881": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Clougher, T. R. "]
+  },
+  "389": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Cameron, A. E. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "803": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Clark, O. H. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "554": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Campbell, A. M. "]
+  },
+  "886": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Close, W. B. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "737": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Chapin, F. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "869": {
+    "tagPerson": ["Clingan, F. W. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "596": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Campbell, I. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"]
+  },
+  "614": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Campbell, K. "]
+  },
+  "750": {
+    "tagPerson": ["Chevrier, H. "],
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "537": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagPerson": ["Campbell, A. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  }
+}

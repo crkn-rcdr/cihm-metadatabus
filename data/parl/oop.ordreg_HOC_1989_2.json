@@ -1,1 +1,15 @@
-{"pubmin":"1989-04-03","callNumber":"JL164.4 1989 Dec.","label":"Standing Orders of the House of Commons, December 1989 = Règlement de la Chambre des communes, décembre 1989","language":["eng","fra"],"session":["34-2"],"type":"orders","pubmax":"1991-05-12","node":[["eng","c","orders",null,25],["fra","c","orders",null,25]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "JL164.4 1989 Dec.",
+  "label": "Standing Orders of the House of Commons, December 1989 = Règlement de la Chambre des communes, décembre 1989",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "orders",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "orders", null, 25],
+    ["fra", "c", "orders", null, 25]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

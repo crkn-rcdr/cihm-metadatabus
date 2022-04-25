@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"sproc","node":[["fra","s","sproc","05-1",1]],"pubmax":"1883-05-27","language":["fra"],"session":["05-1"],"pubmin":"1883-02-08","label":"Procès-verbaux du Sénat, 5e Législature, 1re Session : 1-61","callNumber":"J103 H43 1883"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "05-1", 1]],
+  "pubmax": "1883-05-27",
+  "language": ["fra"],
+  "session": ["05-1"],
+  "pubmin": "1883-02-08",
+  "label": "Procès-verbaux du Sénat, 5e Législature, 1re Session : 1-61",
+  "callNumber": "J103 H43 1883"
+}

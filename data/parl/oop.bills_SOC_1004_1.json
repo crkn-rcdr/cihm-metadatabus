@@ -1,1 +1,11 @@
-{"node":[["eng","s","bills","10-4",1]],"pubmax":"1908-07-20","type":"bills","chamber":["s"],"label":"Senate Bills, 10th Parliament, 4th Session : B-JJJ","callNumber":"KE72 C38 10-4 Bill B-","pubmin":"1907-11-28","session":["10-4"],"language":["eng"]}
+{
+  "node": [["eng", "s", "bills", "10-4", 1]],
+  "pubmax": "1908-07-20",
+  "type": "bills",
+  "chamber": ["s"],
+  "label": "Senate Bills, 10th Parliament, 4th Session : B-JJJ",
+  "callNumber": "KE72 C38 10-4 Bill B-",
+  "pubmin": "1907-11-28",
+  "session": ["10-4"],
+  "language": ["eng"]
+}

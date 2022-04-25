@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["17-2"],"pubmin":"1931-03-12","callNumber":"1931 B4 A1","label":"House of Commons Committees, 17th Parliament, 2nd Session : Special Committee on Beauharnois Power Project, vol. 1","chamber":["c"],"primeMinisters":"Bennett, Richard Bedford","type":"committees","pubmax":"1931-08-03","node":[["eng","c","committees","17-2",3]]}
+{
+  "language": ["eng"],
+  "session": ["17-2"],
+  "pubmin": "1931-03-12",
+  "callNumber": "1931 B4 A1",
+  "label": "House of Commons Committees, 17th Parliament, 2nd Session : Special Committee on Beauharnois Power Project, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "type": "committees",
+  "pubmax": "1931-08-03",
+  "node": [["eng", "c", "committees", "17-2", 3]]
+}

@@ -1,1 +1,74 @@
-{"249":{"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"],"tagDate":["[1945-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],"tagDescription":["M.P.P.s"]},"844":{"tagNotebook":["Provincial Files"],"tagPlace":["Ontario"],"tagDate":["[1944-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],"tagDescription":["Newspapers (Ontario CCF News Correspondence)"]},"732":{"tagNotebook":["Provincial Files"],"tagPlace":["Ontario"],"tagDescription":["Newspapers (General)"],"tagDate":["[1937-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"]},"1116":{"tagDescription":["Policy and Research: (Correspondence)"],"tagDate":["[1943-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],"tagNotebook":["Provincial Files"],"tagPlace":["Ontario"]},"26":{"tagDescription":["Membership (General)"],"tagDate":["[1937-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagNotebook":["Provincial Files"],"tagPlace":["Ontario"]},"832":{"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"],"tagDate":["[1943-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],"tagDescription":["Newspaper Clippings"]},"150":{"tagDescription":["Membership - CCF Club \"Forward\""],"tagDate":["[1947-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"]},"23":{"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"],"tagDate":["1939-01-01T00:00:00.000Z"],"tagDescription":["May Day Committee"]},"176":{"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"],"tagDate":["1939-01-01T00:00:00.000Z"],"tagDescription":["Membership - Danforth Club"]},"316":{"tagDescription":["National Expansion Drive"],"tagDate":["[1950-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"]},"961":{"tagDate":["[1946-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],"tagDescription":["Organization"],"tagNotebook":["Provincial Files"],"tagPlace":["Ontario"]},"650":{"tagDate":["[1941-01-01T00:00:00.000Z TO 1943-12-31T23:59:59.999Z]"],"tagDescription":["New Contacts"],"tagNotebook":["Provincial Files"],"tagPlace":["Ontario"]}}
+{
+  "249": {
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1945-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagDescription": ["M.P.P.s"]
+  },
+  "844": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"],
+    "tagDate": ["[1944-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Newspapers (Ontario CCF News Correspondence)"]
+  },
+  "732": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"],
+    "tagDescription": ["Newspapers (General)"],
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"]
+  },
+  "1116": {
+    "tagDescription": ["Policy and Research: (Correspondence)"],
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"]
+  },
+  "26": {
+    "tagDescription": ["Membership (General)"],
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"]
+  },
+  "832": {
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Newspaper Clippings"]
+  },
+  "150": {
+    "tagDescription": ["Membership - CCF Club \"Forward\""],
+    "tagDate": ["[1947-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "23": {
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["1939-01-01T00:00:00.000Z"],
+    "tagDescription": ["May Day Committee"]
+  },
+  "176": {
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["1939-01-01T00:00:00.000Z"],
+    "tagDescription": ["Membership - Danforth Club"]
+  },
+  "316": {
+    "tagDescription": ["National Expansion Drive"],
+    "tagDate": ["[1950-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "961": {
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Organization"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"]
+  },
+  "650": {
+    "tagDate": ["[1941-01-01T00:00:00.000Z TO 1943-12-31T23:59:59.999Z]"],
+    "tagDescription": ["New Contacts"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"]
+  }
+}

@@ -1,1 +1,17 @@
-{"pubmax":"1986-08-28","node":[["eng","c","committees","33-1",129],["fra","c","committees","33-1",114],["eng","s","committees","33-1",33],["fra","s","committees","33-1",31]],"type":"committees","chamber":["c","s"],"primeMinisters":"Mulroney, Martin Brian","callNumber":"33-1 R48 A1 no.19-34","label":"Joint Committees, 33rd Parliament, 1st Session : Standing Joint Committee on Regulations and other Statutory Instruments, vol. 2 = Comités mixtes, 33e Législature, 1re Session : Comité mixte permanent des règlements et autres textes réglementaires, vol. 2","pubmin":"1984-11-05","session":["33-1"],"language":["eng","fra"]}
+{
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 129],
+    ["fra", "c", "committees", "33-1", 114],
+    ["eng", "s", "committees", "33-1", 33],
+    ["fra", "s", "committees", "33-1", 31]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "33-1 R48 A1 no.19-34",
+  "label": "Joint Committees, 33rd Parliament, 1st Session : Standing Joint Committee on Regulations and other Statutory Instruments, vol. 2 = Comités mixtes, 33e Législature, 1re Session : Comité mixte permanent des règlements et autres textes réglementaires, vol. 2",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"]
+}

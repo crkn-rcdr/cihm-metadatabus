@@ -1,1 +1,13 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","34-3",84]],"pubmax":"1993-09-08","type":"committees","session":["34-3"],"language":["eng"],"reportTitle":["Regulations and Competitiveness"],"label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Finance, Seventeenth Report","callNumber":"34-3 F553 A124","pubmin":"1991-05-13"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "34-3", 84]],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng"],
+  "reportTitle": ["Regulations and Competitiveness"],
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Finance, Seventeenth Report",
+  "callNumber": "34-3 F553 A124",
+  "pubmin": "1991-05-13"
+}

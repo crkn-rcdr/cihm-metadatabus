@@ -1,1 +1,13 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["fra","c","committees","34-3",162]],"pubmax":"1993-09-08","language":["fra"],"reportTitle":["De la parole aux actes"],"session":["34-3"],"pubmin":"1991-05-13","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité sur les pluies acides, Rapport","callNumber":"34-3 E582 A124"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "34-3", 162]],
+  "pubmax": "1993-09-08",
+  "language": ["fra"],
+  "reportTitle": ["De la parole aux actes"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité sur les pluies acides, Rapport",
+  "callNumber": "34-3 E582 A124"
+}

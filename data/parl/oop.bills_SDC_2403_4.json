@@ -1,1 +1,11 @@
-{"pubmin":"1960-01-14","callNumber":"KE72 C381 24-3 SD251-SD375","label":"Projets de loi du Sénat, 24e Législature, 3e Session : SD251-SD375","language":["fra"],"session":["24-3"],"type":"bills","pubmax":"1960-08-10","node":[["fra","s","bills","24-3",4]],"chamber":["s"]}
+{
+  "pubmin": "1960-01-14",
+  "callNumber": "KE72 C381 24-3 SD251-SD375",
+  "label": "Projets de loi du Sénat, 24e Législature, 3e Session : SD251-SD375",
+  "language": ["fra"],
+  "session": ["24-3"],
+  "type": "bills",
+  "pubmax": "1960-08-10",
+  "node": [["fra", "s", "bills", "24-3", 4]],
+  "chamber": ["s"]
+}

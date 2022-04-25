@@ -1,1 +1,11 @@
-{"label":"Senate Committees, 28th Parliament, 4th Session : Standing Committee on Banking, Trade and Commerce, vol. 1","callNumber":"1972 B3 A1","pubmin":"1972-02-17","session":["28-4"],"language":["eng"],"node":[["eng","s","committees","28-4",2]],"pubmax":"1972-09-01","type":"committees","chamber":["s"]}
+{
+  "label": "Senate Committees, 28th Parliament, 4th Session : Standing Committee on Banking, Trade and Commerce, vol. 1",
+  "callNumber": "1972 B3 A1",
+  "pubmin": "1972-02-17",
+  "session": ["28-4"],
+  "language": ["eng"],
+  "node": [["eng", "s", "committees", "28-4", 2]],
+  "pubmax": "1972-09-01",
+  "type": "committees",
+  "chamber": ["s"]
+}

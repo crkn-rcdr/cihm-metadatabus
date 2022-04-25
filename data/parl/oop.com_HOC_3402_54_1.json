@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-2",99],["fra","c","committees","34-2",165]],"pubmax":"1991-05-12","language":["eng","fra"],"session":["34-2"],"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Health and Welfare, Social Affairs, Seniors and the Status of Women, vol. 1 no. 1-31 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de la santé et du bien-être social, des affaires sociales, du troisième âge et de la condition féminine, vol. 1 no. 1-31","callNumber":"34-2 H432 A1 no.1-31"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 99],
+    ["fra", "c", "committees", "34-2", 165]
+  ],
+  "pubmax": "1991-05-12",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Health and Welfare, Social Affairs, Seniors and the Status of Women, vol. 1 no. 1-31 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de la santé et du bien-être social, des affaires sociales, du troisième âge et de la condition féminine, vol. 1 no. 1-31",
+  "callNumber": "34-2 H432 A1 no.1-31"
+}

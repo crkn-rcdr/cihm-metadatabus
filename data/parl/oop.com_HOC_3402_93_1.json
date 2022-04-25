@@ -1,1 +1,15 @@
-{"callNumber":"34-2 S25 A1 no.1","label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill S-9, an Act to amalgamate the two Corporations known, respectively, as \"The Governing Council of the Salvation Army, Canada East\" and \"The Governing Council of the Salvation Army, Canada West\", and to make necessary provisions regarding the charter of the amalgamated corporation, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de S-9, Loi fusionnant les deux corporations appelées respectivement «Conseil de direction de l'Armée du Salut (Est du Canada)» et «Conseil de direction de l'Armée du Salut (Ouest du Canada)» et édictant des mesures nécessaires relativement à la charte de la corporation issue de cette fusion, vol. 1 no. 1","pubmin":"1989-04-03","session":["34-2"],"language":["eng","fra"],"pubmax":"1991-05-12","node":[["eng","c","committees","34-2",167],["fra","c","committees","34-2",23]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-2 S25 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill S-9, an Act to amalgamate the two Corporations known, respectively, as \"The Governing Council of the Salvation Army, Canada East\" and \"The Governing Council of the Salvation Army, Canada West\", and to make necessary provisions regarding the charter of the amalgamated corporation, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de S-9, Loi fusionnant les deux corporations appelées respectivement «Conseil de direction de l'Armée du Salut (Est du Canada)» et «Conseil de direction de l'Armée du Salut (Ouest du Canada)» et édictant des mesures nécessaires relativement à la charte de la corporation issue de cette fusion, vol. 1 no. 1",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 167],
+    ["fra", "c", "committees", "34-2", 23]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

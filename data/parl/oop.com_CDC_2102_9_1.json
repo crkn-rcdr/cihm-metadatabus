@@ -1,1 +1,12 @@
-{"primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["fra","c","committees","21-2",9]],"pubmax":"1950-06-30","type":"committees","session":["21-2"],"language":["fra"],"label":"Comités de la Chambre des communes, 21e Législature, 2e Session : Comité spécial de la Loi des élections fédérales, 1938, et ses modifications, vol. 1","callNumber":"1950 E4 A4","pubmin":"1950-02-16"}
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "21-2", 9]],
+  "pubmax": "1950-06-30",
+  "type": "committees",
+  "session": ["21-2"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 21e Législature, 2e Session : Comité spécial de la Loi des élections fédérales, 1938, et ses modifications, vol. 1",
+  "callNumber": "1950 E4 A4",
+  "pubmin": "1950-02-16"
+}

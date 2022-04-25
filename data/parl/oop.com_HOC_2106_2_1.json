@@ -1,1 +1,12 @@
-{"label":"House of Commons Committees, 21st Parliament, 6th Session : Standing Committee on Banking and Commerce, vol. 1","callNumber":"1952 B3 A1","pubmin":"1952-02-28","session":["21-6"],"language":["eng"],"node":[["eng","c","committees","21-6",2]],"pubmax":"1952-11-20","type":"committees","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 21st Parliament, 6th Session : Standing Committee on Banking and Commerce, vol. 1",
+  "callNumber": "1952 B3 A1",
+  "pubmin": "1952-02-28",
+  "session": ["21-6"],
+  "language": ["eng"],
+  "node": [["eng", "c", "committees", "21-6", 2]],
+  "pubmax": "1952-11-20",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

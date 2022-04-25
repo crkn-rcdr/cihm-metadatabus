@@ -1,1 +1,11 @@
-{"type":"committees","node":[["fra","s","committees","25-1",0.1]],"pubmax":"1963-02-06","chamber":["s"],"pubmin":"1962-09-27","label":"Comités du Sénat, 25e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 1","callNumber":"1962/63 B3 A42","language":["fra"],"session":["25-1"]}
+{
+  "type": "committees",
+  "node": [["fra", "s", "committees", "25-1", 0.1]],
+  "pubmax": "1963-02-06",
+  "chamber": ["s"],
+  "pubmin": "1962-09-27",
+  "label": "Comités du Sénat, 25e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 1",
+  "callNumber": "1962/63 B3 A42",
+  "language": ["fra"],
+  "session": ["25-1"]
+}

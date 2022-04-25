@@ -1,1 +1,11 @@
-{"node":[["fra","c","journals","19-4",1]],"pubmax":"1944-01-26","type":"journals","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"label":"Journaux de la Chambre des communes, 19e Législature, 4e Session : Vol. 83","pubmin":"1943-01-28","session":["19-4"],"language":["fra"]}
+{
+  "node": [["fra", "c", "journals", "19-4", 1]],
+  "pubmax": "1944-01-26",
+  "type": "journals",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "label": "Journaux de la Chambre des communes, 19e Législature, 4e Session : Vol. 83",
+  "pubmin": "1943-01-28",
+  "session": ["19-4"],
+  "language": ["fra"]
+}

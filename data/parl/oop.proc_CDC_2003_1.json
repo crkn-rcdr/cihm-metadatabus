@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"cproc","pubmax":"1947-07-17","node":[["fra","c","cproc","20-3",1]],"language":["fra"],"session":["20-3"],"pubmin":"1947-01-30","callNumber":"J103 H44 1947","label":"Procès-verbaux de la Chambre des communes, 20e Législature, 3e Session : 1-115"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "cproc",
+  "pubmax": "1947-07-17",
+  "node": [["fra", "c", "cproc", "20-3", 1]],
+  "language": ["fra"],
+  "session": ["20-3"],
+  "pubmin": "1947-01-30",
+  "callNumber": "J103 H44 1947",
+  "label": "Procès-verbaux de la Chambre des communes, 20e Législature, 3e Session : 1-115"
+}

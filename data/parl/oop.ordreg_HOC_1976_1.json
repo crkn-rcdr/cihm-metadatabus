@@ -1,1 +1,15 @@
-{"pubmin":"1974-09-30","callNumber":"JL164.4 1976","label":"Permanent and Provisional Standing Orders of the House of Commons, 1976 = Règlement de la Chambre des communes : articles permanents et provisoires, 1976","language":["eng","fra"],"session":["30-1"],"type":"orders","pubmax":"1976-10-12","node":[["eng","c","orders",null,15],["fra","c","orders",null,15]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "pubmin": "1974-09-30",
+  "callNumber": "JL164.4 1976",
+  "label": "Permanent and Provisional Standing Orders of the House of Commons, 1976 = Règlement de la Chambre des communes : articles permanents et provisoires, 1976",
+  "language": ["eng", "fra"],
+  "session": ["30-1"],
+  "type": "orders",
+  "pubmax": "1976-10-12",
+  "node": [
+    ["eng", "c", "orders", null, 15],
+    ["fra", "c", "orders", null, 15]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

@@ -1,1 +1,10 @@
-{"label":"Senate Debates, 14th Parliament, 1st Session : Vol. 1","pubmin":"1922-03-08","session":["14-1"],"language":["eng"],"pubmax":"1922-06-28","node":[["eng","s","debates","14-1",1]],"type":"debates","chamber":["s"]}
+{
+  "label": "Senate Debates, 14th Parliament, 1st Session : Vol. 1",
+  "pubmin": "1922-03-08",
+  "session": ["14-1"],
+  "language": ["eng"],
+  "pubmax": "1922-06-28",
+  "node": [["eng", "s", "debates", "14-1", 1]],
+  "type": "debates",
+  "chamber": ["s"]
+}

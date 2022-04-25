@@ -1,1 +1,12 @@
-{"session":["20-5"],"language":["eng"],"label":"House of Commons Bills, 20th Parliament, 5th Session : 2-248","callNumber":"KE72 C36 20-5 2-248","pubmin":"1949-01-26","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["eng","c","bills","20-5",1]],"pubmax":"1949-04-30","type":"bills"}
+{
+  "session": ["20-5"],
+  "language": ["eng"],
+  "label": "House of Commons Bills, 20th Parliament, 5th Session : 2-248",
+  "callNumber": "KE72 C36 20-5 2-248",
+  "pubmin": "1949-01-26",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["eng", "c", "bills", "20-5", 1]],
+  "pubmax": "1949-04-30",
+  "type": "bills"
+}

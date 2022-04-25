@@ -1,1 +1,15 @@
-{"type":"committees","pubmax":"1979-03-26","node":[["eng","c","committees","30-4",7],["fra","c","committees","30-4",13]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmin":"1978-10-11","callNumber":"1978/79 F58 A1","label":"House of Commons Committees, 30th Parliament, 4th Session : Standing Committee on Fisheries and Forestry, vol. 1 = Comités de la Chambre des communes, 30e Législature, 4e Session : Comité permanent des pêches et des forêts, vol. 1","language":["eng","fra"],"session":["30-4"]}
+{
+  "type": "committees",
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "c", "committees", "30-4", 7],
+    ["fra", "c", "committees", "30-4", 13]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1978-10-11",
+  "callNumber": "1978/79 F58 A1",
+  "label": "House of Commons Committees, 30th Parliament, 4th Session : Standing Committee on Fisheries and Forestry, vol. 1 = Comités de la Chambre des communes, 30e Législature, 4e Session : Comité permanent des pêches et des forêts, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["30-4"]
+}

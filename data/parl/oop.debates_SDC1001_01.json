@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["10-1"],"pubmin":"1905-01-11","label":"Débats du Sénat, 10e Législature, 1re Session : Vol. 1","chamber":["s"],"type":"debates","node":[["fra","s","debates","10-1",1]],"pubmax":"1905-07-20"}
+{
+  "language": ["fra"],
+  "session": ["10-1"],
+  "pubmin": "1905-01-11",
+  "label": "Débats du Sénat, 10e Législature, 1re Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "10-1", 1]],
+  "pubmax": "1905-07-20"
+}

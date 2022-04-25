@@ -1,1 +1,14 @@
-{"label":"Comités du Sénat, 33e Législature, 2e Session : Comité permanent des affaires étrangères, Sommaire du rapport","callNumber":"J103 H7 33-2 F6 A12fa","pubmin":"1986-09-30","session":["33-2"],"reportTitle":["Le Canada, les institutions financières internationales et le problème de l'endettement du Tiers monde"],"language":["fra"],"node":[["fra","s","committees","33-2",4]],"pubmax":"1988-10-01","type":"committees","chamber":["s"]}
+{
+  "label": "Comités du Sénat, 33e Législature, 2e Session : Comité permanent des affaires étrangères, Sommaire du rapport",
+  "callNumber": "J103 H7 33-2 F6 A12fa",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "reportTitle": [
+    "Le Canada, les institutions financières internationales et le problème de l'endettement du Tiers monde"
+  ],
+  "language": ["fra"],
+  "node": [["fra", "s", "committees", "33-2", 4]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "chamber": ["s"]
+}

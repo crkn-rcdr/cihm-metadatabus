@@ -1,1 +1,11 @@
-{"type":"debates","node":[["eng","c","debates","14-2",1]],"pubmax":"1923-06-30","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1923-01-31","label":"House of Commons Debates, 14th Parliament, 2nd Session : Vol. 1","language":["eng"],"session":["14-2"]}
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "14-2", 1]],
+  "pubmax": "1923-06-30",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1923-01-31",
+  "label": "House of Commons Debates, 14th Parliament, 2nd Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["14-2"]
+}

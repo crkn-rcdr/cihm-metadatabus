@@ -1,1 +1,11 @@
-{"node":[["eng","c","journals","01-3",1]],"pubmax":"1870-05-12","type":"journals","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"label":"House of Commons Journals, 1st Parliament, 3rd Session : Vol. 3","pubmin":"1870-02-15","session":["01-3"],"language":["eng"]}
+{
+  "node": [["eng", "c", "journals", "01-3", 1]],
+  "pubmax": "1870-05-12",
+  "type": "journals",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "label": "House of Commons Journals, 1st Parliament, 3rd Session : Vol. 3",
+  "pubmin": "1870-02-15",
+  "session": ["01-3"],
+  "language": ["eng"]
+}

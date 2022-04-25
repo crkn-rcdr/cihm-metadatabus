@@ -1,1 +1,12 @@
-{"label":"House of Commons Committees, 22nd Parliament, 2nd Session : Special Committee appointed to consider with Mr. Speaker the procedure of the House of Commons, Report","callNumber":"1955 H6 A12","pubmin":"1955-01-07","session":["22-2"],"language":["eng"],"node":[["eng","c","committees","22-2",7]],"pubmax":"1955-07-28","type":"committees","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 22nd Parliament, 2nd Session : Special Committee appointed to consider with Mr. Speaker the procedure of the House of Commons, Report",
+  "callNumber": "1955 H6 A12",
+  "pubmin": "1955-01-07",
+  "session": ["22-2"],
+  "language": ["eng"],
+  "node": [["eng", "c", "committees", "22-2", 7]],
+  "pubmax": "1955-07-28",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

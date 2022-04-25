@@ -1,1 +1,15 @@
-{"label":"House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Justice and Legal Affairs, vol. 2 no. 26-45 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent de la justice et des questions juridiques, vol. 2 no. 26-45","callNumber":"1970/72 J8 A1 v.2","pubmin":"1970-10-08","session":["28-3"],"language":["eng","fra"],"node":[["eng","c","committees","28-3",27],["fra","c","committees","28-3",27]],"pubmax":"1972-02-16","type":"committees","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Justice and Legal Affairs, vol. 2 no. 26-45 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent de la justice et des questions juridiques, vol. 2 no. 26-45",
+  "callNumber": "1970/72 J8 A1 v.2",
+  "pubmin": "1970-10-08",
+  "session": ["28-3"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "28-3", 27],
+    ["fra", "c", "committees", "28-3", 27]
+  ],
+  "pubmax": "1972-02-16",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

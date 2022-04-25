@@ -1,1 +1,10 @@
-{"type":"journals","node":[["fra","s","journals","01-2",1]],"pubmax":"1869-06-22","chamber":["s"],"pubmin":"1869-04-15","label":"Journaux du Sénat, 1e Législature, 2e Session : Vol. 2","language":["fra"],"session":["01-2"]}
+{
+  "type": "journals",
+  "node": [["fra", "s", "journals", "01-2", 1]],
+  "pubmax": "1869-06-22",
+  "chamber": ["s"],
+  "pubmin": "1869-04-15",
+  "label": "Journaux du Sénat, 1e Législature, 2e Session : Vol. 2",
+  "language": ["fra"],
+  "session": ["01-2"]
+}

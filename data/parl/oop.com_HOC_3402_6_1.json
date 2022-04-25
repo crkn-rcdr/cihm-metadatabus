@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",20],["fra","c","committees","34-2",123]],"language":["eng","fra"],"session":["34-2"],"pubmin":"1989-04-03","callNumber":"34-2 A78 A1 no.1-2","label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-53, an Act to amend the Criminal Code (arson), vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-53, Loi modifiant le Code criminel (incendie criminel), vol. 1 no. 1-2"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 20],
+    ["fra", "c", "committees", "34-2", 123]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 A78 A1 no.1-2",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-53, an Act to amend the Criminal Code (arson), vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-53, Loi modifiant le Code criminel (incendie criminel), vol. 1 no. 1-2"
+}

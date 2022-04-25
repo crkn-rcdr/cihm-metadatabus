@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["24-3"],"pubmin":"1960-01-14","label":"Senate Journals, 24th Parliament, 3rd Session : Vol. 106","chamber":["s"],"type":"journals","pubmax":"1960-08-10","node":[["eng","s","journals","24-3",1]]}
+{
+  "language": ["eng"],
+  "session": ["24-3"],
+  "pubmin": "1960-01-14",
+  "label": "Senate Journals, 24th Parliament, 3rd Session : Vol. 106",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1960-08-10",
+  "node": [["eng", "s", "journals", "24-3", 1]]
+}

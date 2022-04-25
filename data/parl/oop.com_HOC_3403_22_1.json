@@ -1,1 +1,15 @@
-{"callNumber":"34-3 C983 A1 no.1","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-102, an Act to amend the Customs Tariff, the Excise Act, the Excise Tax Act, the Customs Act, the Criminal Code and a related Act, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-102, Loi modifiant le Tarif des douanes, la Loi sur l'accise, la Loi sur la taxe d'accise, la Loi sur les douanes, le Code criminel et une loi connexe, vol. 1 no. 1","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"],"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",44],["fra","c","committees","34-3",73]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-3 C983 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-102, an Act to amend the Customs Tariff, the Excise Act, the Excise Tax Act, the Customs Act, the Criminal Code and a related Act, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-102, Loi modifiant le Tarif des douanes, la Loi sur l'accise, la Loi sur la taxe d'accise, la Loi sur les douanes, le Code criminel et une loi connexe, vol. 1 no. 1",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 44],
+    ["fra", "c", "committees", "34-3", 73]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

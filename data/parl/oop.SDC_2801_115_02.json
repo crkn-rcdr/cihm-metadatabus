@@ -1,1 +1,10 @@
-{"session":["28-1"],"language":["fra"],"label":"Journaux du Sénat, 28e Législature, 1re Session : Vol. 115 Pt. 2","pubmin":"1968-09-12","chamber":["s"],"node":[["fra","s","journals","28-1",2]],"pubmax":"1969-10-22","type":"journals"}
+{
+  "session": ["28-1"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 28e Législature, 1re Session : Vol. 115 Pt. 2",
+  "pubmin": "1968-09-12",
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "28-1", 2]],
+  "pubmax": "1969-10-22",
+  "type": "journals"
+}

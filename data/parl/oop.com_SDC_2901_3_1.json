@@ -1,1 +1,11 @@
-{"pubmin":"1973-01-04","label":"Comités du Sénat, 29e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 1","callNumber":"1973/74 B3 A1","language":["fra"],"session":["29-1"],"type":"committees","node":[["fra","s","committees","29-1",5]],"pubmax":"1974-02-26","chamber":["s"]}
+{
+  "pubmin": "1973-01-04",
+  "label": "Comités du Sénat, 29e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 1",
+  "callNumber": "1973/74 B3 A1",
+  "language": ["fra"],
+  "session": ["29-1"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "29-1", 5]],
+  "pubmax": "1974-02-26",
+  "chamber": ["s"]
+}

@@ -1,1 +1,11 @@
-{"session":["19-6"],"language":["fra"],"label":"Journaux de la Chambre des communes, 19e Législature, 6e Session : Vol. 85","pubmin":"1945-03-19","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1945-04-16","node":[["fra","c","journals","19-6",1]],"type":"journals"}
+{
+  "session": ["19-6"],
+  "language": ["fra"],
+  "label": "Journaux de la Chambre des communes, 19e Législature, 6e Session : Vol. 85",
+  "pubmin": "1945-03-19",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1945-04-16",
+  "node": [["fra", "c", "journals", "19-6", 1]],
+  "type": "journals"
+}

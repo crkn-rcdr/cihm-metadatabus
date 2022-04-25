@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Laurier, Wilfrid","type":"cproc","pubmax":"1911-07-29","node":[["fra","c","cproc","11-3",1]],"language":["fra"],"session":["11-3"],"pubmin":"1910-11-17","callNumber":"J103 H44 1910-11","label":"Procès-verbaux de la Chambre des communes, 11e Législature, 3e Session : 1-117"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "type": "cproc",
+  "pubmax": "1911-07-29",
+  "node": [["fra", "c", "cproc", "11-3", 1]],
+  "language": ["fra"],
+  "session": ["11-3"],
+  "pubmin": "1910-11-17",
+  "callNumber": "J103 H44 1910-11",
+  "label": "Procès-verbaux de la Chambre des communes, 11e Législature, 3e Session : 1-117"
+}

@@ -1,1 +1,11 @@
-{"pubmin":"1955-01-07","label":"Débats de la Chambre des communes, 22e Législature, 2e Session : Vol. 5","language":["fra"],"session":["22-2"],"type":"debates","node":[["fra","c","debates","22-2",5]],"pubmax":"1955-07-28","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"]}
+{
+  "pubmin": "1955-01-07",
+  "label": "Débats de la Chambre des communes, 22e Législature, 2e Session : Vol. 5",
+  "language": ["fra"],
+  "session": ["22-2"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "22-2", 5]],
+  "pubmax": "1955-07-28",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

@@ -1,1 +1,10 @@
-{"label":"Débats du Sénat, 24e Législature, 2e Session : Vol. 1","pubmin":"1959-01-15","session":["24-2"],"language":["fra"],"pubmax":"1959-07-18","node":[["fra","s","debates","24-2",1]],"type":"debates","chamber":["s"]}
+{
+  "label": "Débats du Sénat, 24e Législature, 2e Session : Vol. 1",
+  "pubmin": "1959-01-15",
+  "session": ["24-2"],
+  "language": ["fra"],
+  "pubmax": "1959-07-18",
+  "node": [["fra", "s", "debates", "24-2", 1]],
+  "type": "debates",
+  "chamber": ["s"]
+}

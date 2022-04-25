@@ -1,1 +1,95 @@
-{"955":{"tagDescription":["National Portrait Gallery -National Museums and Galleries in Great Britain"],"tagDate":["[1918-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]},"714":{"tagDescription":["Bronze figure for the new legislative buildings of the Province of Manitoba"],"tagDate":["1918-01-01T00:00:00.000Z"]},"216":{"tagDescription":["Missing / Manque"]},"691":{"tagDate":["1918-01-01T00:00:00.000Z"],"tagDescription":["Vancouver Island Settlers Act of 1917 -Position of Canadian collieries (Dunsmuir) Ltd. In view of provisions of -"]},"1238":{"tagDescription":["Missing / Manque"]},"271":{"tagDescription":["Missing / Manque"]},"1082":{"tagDescription":["Missing / Manque"]},"208":{"tagDescription":["Missing / Manque"]},"218":{"tagDate":["1919-01-01T00:00:00.000Z"],"tagDescription":["1916: Industrial Organization of Canada. Report of Sir Charles Ross 1919: Promotion and encouragement of Industries in Canada. Enquiry of South African Government"]},"689":{"tagDescription":["Missing / Manque"]},"1084":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],"tagDescription":["Scottish law Agents -Canadian Bar Association -American Bar Association -Colonial Solicitors Act"]},"566":{"tagDate":["[1917-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],"tagDescription":["Construction of a National Monument to commemorate the independence of Brazil -Centenary of the independence of the republic of Brazil -National exhibition to be held at Rio de Janeiro -Political situation in Brazil"]},"723":{"tagDescription":["Missing / Manque"]},"210":{"tagDate":["1917-01-01T00:00:00.000Z"],"tagDescription":["Death of General Foster United States Diplomatist -Message of sympathy from The Canadian Government"]},"698":{"tagDescription":["Missing / Manque"]},"361":{"tagDescription":["Missing / Manque"]},"764":{"tagDescription":["Missing / Manque"]},"766":{"tagDescription":["Visit of Prince Arthur of Connaught to Canada on return from Garter Mission to Japan"],"tagDate":["1906-01-01T00:00:00.000Z"]},"700":{"tagDescription":["Condensed Milk -Condensed Milk Factory in Jamaica"],"tagDate":["[1918-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]},"599":{"tagDescription":["Consular Appointments -Serbia -Montenegro -Kingdom of the Serbs, Croats and Slovenes-Yugoslavia"],"tagDate":["[1918-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"272":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Police Organization in Canada"]},"1240":{"tagDescription":["Rules of Court"]},"363":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],"tagDescription":["Exhibition. Expositions. Shows. Fairs"]},"1260":{"tagDescription":["Missing / Manque"]},"953":{"tagDescription":["Missing / Manque"]},"597":{"tagDescription":["Missing / Manque"]},"712":{"tagDescription":["Missing / Manque"]},"992":{"tagDate":["[1928-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"],"tagDescription":["Printed reports -Royal Commissions on national Museums and Galleries"]},"725":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Speech delivered by Sir Thomas Shaughnessy, President of the Canadian Pacific Railway -Annual report of the Canadian Pacific Railway -Speech made by Mr. E.W. Beatty"]}}
+{
+  "955": {
+    "tagDescription": [
+      "National Portrait Gallery -National Museums and Galleries in Great Britain"
+    ],
+    "tagDate": ["[1918-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]
+  },
+  "714": {
+    "tagDescription": [
+      "Bronze figure for the new legislative buildings of the Province of Manitoba"
+    ],
+    "tagDate": ["1918-01-01T00:00:00.000Z"]
+  },
+  "216": { "tagDescription": ["Missing / Manque"] },
+  "691": {
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Vancouver Island Settlers Act of 1917 -Position of Canadian collieries (Dunsmuir) Ltd. In view of provisions of -"
+    ]
+  },
+  "1238": { "tagDescription": ["Missing / Manque"] },
+  "271": { "tagDescription": ["Missing / Manque"] },
+  "1082": { "tagDescription": ["Missing / Manque"] },
+  "208": { "tagDescription": ["Missing / Manque"] },
+  "218": {
+    "tagDate": ["1919-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "1916: Industrial Organization of Canada. Report of Sir Charles Ross 1919: Promotion and encouragement of Industries in Canada. Enquiry of South African Government"
+    ]
+  },
+  "689": { "tagDescription": ["Missing / Manque"] },
+  "1084": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Scottish law Agents -Canadian Bar Association -American Bar Association -Colonial Solicitors Act"
+    ]
+  },
+  "566": {
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Construction of a National Monument to commemorate the independence of Brazil -Centenary of the independence of the republic of Brazil -National exhibition to be held at Rio de Janeiro -Political situation in Brazil"
+    ]
+  },
+  "723": { "tagDescription": ["Missing / Manque"] },
+  "210": {
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Death of General Foster United States Diplomatist -Message of sympathy from The Canadian Government"
+    ]
+  },
+  "698": { "tagDescription": ["Missing / Manque"] },
+  "361": { "tagDescription": ["Missing / Manque"] },
+  "764": { "tagDescription": ["Missing / Manque"] },
+  "766": {
+    "tagDescription": [
+      "Visit of Prince Arthur of Connaught to Canada on return from Garter Mission to Japan"
+    ],
+    "tagDate": ["1906-01-01T00:00:00.000Z"]
+  },
+  "700": {
+    "tagDescription": ["Condensed Milk -Condensed Milk Factory in Jamaica"],
+    "tagDate": ["[1918-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  },
+  "599": {
+    "tagDescription": [
+      "Consular Appointments -Serbia -Montenegro -Kingdom of the Serbs, Croats and Slovenes-Yugoslavia"
+    ],
+    "tagDate": ["[1918-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "272": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Police Organization in Canada"]
+  },
+  "1240": { "tagDescription": ["Rules of Court"] },
+  "363": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Exhibition. Expositions. Shows. Fairs"]
+  },
+  "1260": { "tagDescription": ["Missing / Manque"] },
+  "953": { "tagDescription": ["Missing / Manque"] },
+  "597": { "tagDescription": ["Missing / Manque"] },
+  "712": { "tagDescription": ["Missing / Manque"] },
+  "992": {
+    "tagDate": ["[1928-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Printed reports -Royal Commissions on national Museums and Galleries"
+    ]
+  },
+  "725": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Speech delivered by Sir Thomas Shaughnessy, President of the Canadian Pacific Railway -Annual report of the Canadian Pacific Railway -Speech made by Mr. E.W. Beatty"
+    ]
+  }
+}

@@ -1,1 +1,11 @@
-{"callNumber":"J103 H43 1962-63","label":"Procès-verbaux du Sénat, 25e Législature, 1re Session : 1-43","pubmin":"1962-09-27","session":["25-1"],"language":["fra"],"pubmax":"1963-02-06","node":[["fra","s","sproc","25-1",1]],"type":"sproc","chamber":["s"]}
+{
+  "callNumber": "J103 H43 1962-63",
+  "label": "Procès-verbaux du Sénat, 25e Législature, 1re Session : 1-43",
+  "pubmin": "1962-09-27",
+  "session": ["25-1"],
+  "language": ["fra"],
+  "pubmax": "1963-02-06",
+  "node": [["fra", "s", "sproc", "25-1", 1]],
+  "type": "sproc",
+  "chamber": ["s"]
+}

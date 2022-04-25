@@ -1,1 +1,90 @@
-{"913":{"tagDate":["1931-01-01T00:00:00.000Z"],"tagDescription":["Opening of Parliament 12 March 1931 (No Drawing room)(No State Dinner) Prorogation  3 August 1931 "]},"1515":{"tagDescription":["Prorogation of Parliament  26 May 1932, Performed by Chief Justice of Canada"],"tagDate":["1932-01-01T00:00:00.000Z"]},"902":{"tagDate":["1931-01-01T00:00:00.000Z"],"tagDescription":["Opening of Parliament  12 March 1931"]},"1596":{"tagDescription":["Opening of Fourth Session, Seventeenth Parliament  6 October 1932"],"tagDate":["1932-01-01T00:00:00.000Z"]},"612":{"tagDescription":["Levée, 1931"],"tagDate":["1931-01-01T00:00:00.000Z"]},"2104":{"tagDate":["1933-01-01T00:00:00.000Z"],"tagDescription":["Prorogation of Parliament  27 May 1933"]},"1909":{"tagDescription":["Drawing room 10 February 1933"],"tagDate":["1933-01-01T00:00:00.000Z"]},"1235":{"tagDate":["1932-01-01T00:00:00.000Z"],"tagDescription":["State Dinner - 3 February 1932 Opening of Parliament  7 February 1932 Drawing room  5 February 1932"]},"144":{"tagDescription":["State Dinner  Feb 19, 1930 Opening  Feb 20, 1930 Drawing room  Feb 21, 1930"],"tagDate":["1930-01-01T00:00:00.000Z"]},"1726":{"tagDate":["1933-01-01T00:00:00.000Z"],"tagDescription":["His Excellencys New Year Levée Drawing room  10 February 1933  acknowledgments"]},"507":{"tagDate":["1930-01-01T00:00:00.000Z"],"tagDescription":["Opening of Parliament September 1930 Prorogation of Parliament September 22, 1930"]},"1105":{"tagDescription":["His Excellencys New Year Levée"],"tagDate":["1932-01-01T00:00:00.000Z"]},"13":{"tagDescription":["State Dinner  Feb 19, 1930 Opening  Feb 20, 1930 Drawing room  Feb 21, 1930"],"tagDate":["1930-01-01T00:00:00.000Z"]},"663":{"tagDate":["1931-01-01T00:00:00.000Z"],"tagDescription":["Governor Generals Levée 1 January 1931"]},"333":{"tagDate":["1930-01-01T00:00:00.000Z"],"tagDescription":["Prorogation of Parliament  May 30, 1930 Opening of Parliament  September 30, 1930 (No Drawing room)(No State dinner)"]},"1200":{"tagDescription":["Levee  Acknowledgments  Some memoranda"],"tagDate":["1932-01-01T00:00:00.000Z"]},"1361":{"tagDate":["1932-01-01T00:00:00.000Z"],"tagDescription":["State Dinner  3 February 1932 Opening of Parliament  4 February 1932 Drawing room  5 February 1932"]}}
+{
+  "913": {
+    "tagDate": ["1931-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Opening of Parliament 12 March 1931 (No Drawing room)(No State Dinner) Prorogation  3 August 1931 "
+    ]
+  },
+  "1515": {
+    "tagDescription": [
+      "Prorogation of Parliament  26 May 1932, Performed by Chief Justice of Canada"
+    ],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "902": {
+    "tagDate": ["1931-01-01T00:00:00.000Z"],
+    "tagDescription": ["Opening of Parliament  12 March 1931"]
+  },
+  "1596": {
+    "tagDescription": [
+      "Opening of Fourth Session, Seventeenth Parliament  6 October 1932"
+    ],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "612": {
+    "tagDescription": ["Levée, 1931"],
+    "tagDate": ["1931-01-01T00:00:00.000Z"]
+  },
+  "2104": {
+    "tagDate": ["1933-01-01T00:00:00.000Z"],
+    "tagDescription": ["Prorogation of Parliament  27 May 1933"]
+  },
+  "1909": {
+    "tagDescription": ["Drawing room 10 February 1933"],
+    "tagDate": ["1933-01-01T00:00:00.000Z"]
+  },
+  "1235": {
+    "tagDate": ["1932-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "State Dinner - 3 February 1932 Opening of Parliament  7 February 1932 Drawing room  5 February 1932"
+    ]
+  },
+  "144": {
+    "tagDescription": [
+      "State Dinner  Feb 19, 1930 Opening  Feb 20, 1930 Drawing room  Feb 21, 1930"
+    ],
+    "tagDate": ["1930-01-01T00:00:00.000Z"]
+  },
+  "1726": {
+    "tagDate": ["1933-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "His Excellencys New Year Levée Drawing room  10 February 1933  acknowledgments"
+    ]
+  },
+  "507": {
+    "tagDate": ["1930-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Opening of Parliament September 1930 Prorogation of Parliament September 22, 1930"
+    ]
+  },
+  "1105": {
+    "tagDescription": ["His Excellencys New Year Levée"],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "13": {
+    "tagDescription": [
+      "State Dinner  Feb 19, 1930 Opening  Feb 20, 1930 Drawing room  Feb 21, 1930"
+    ],
+    "tagDate": ["1930-01-01T00:00:00.000Z"]
+  },
+  "663": {
+    "tagDate": ["1931-01-01T00:00:00.000Z"],
+    "tagDescription": ["Governor Generals Levée 1 January 1931"]
+  },
+  "333": {
+    "tagDate": ["1930-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Prorogation of Parliament  May 30, 1930 Opening of Parliament  September 30, 1930 (No Drawing room)(No State dinner)"
+    ]
+  },
+  "1200": {
+    "tagDescription": ["Levee  Acknowledgments  Some memoranda"],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "1361": {
+    "tagDate": ["1932-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "State Dinner  3 February 1932 Opening of Parliament  4 February 1932 Drawing room  5 February 1932"
+    ]
+  }
+}

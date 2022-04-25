@@ -1,1 +1,12 @@
-{"primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"type":"committees","node":[["fra","c","committees","26-1",11]],"pubmax":"1963-12-21","language":["fra"],"session":["26-1"],"pubmin":"1963-05-16","label":"Comités de la Chambre des communes, 26e Législature, 1re Session : Comité permanent des mines, forêts et cours d'eau, vol. 1","callNumber":"1963 M5 A4"}
+{
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "26-1", 11]],
+  "pubmax": "1963-12-21",
+  "language": ["fra"],
+  "session": ["26-1"],
+  "pubmin": "1963-05-16",
+  "label": "Comités de la Chambre des communes, 26e Législature, 1re Session : Comité permanent des mines, forêts et cours d'eau, vol. 1",
+  "callNumber": "1963 M5 A4"
+}

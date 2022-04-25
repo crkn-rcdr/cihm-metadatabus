@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["22-1"],"pubmin":"1953-11-12","label":"Journaux du Sénat, 22e Législature, 1re Session : Vol. 98","chamber":["s"],"type":"journals","node":[["fra","s","journals","22-1",1]],"pubmax":"1954-06-26"}
+{
+  "language": ["fra"],
+  "session": ["22-1"],
+  "pubmin": "1953-11-12",
+  "label": "Journaux du Sénat, 22e Législature, 1re Session : Vol. 98",
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["fra", "s", "journals", "22-1", 1]],
+  "pubmax": "1954-06-26"
+}

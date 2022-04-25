@@ -1,1 +1,12 @@
-{"session":["18-4"],"language":["eng"],"label":"House of Commons Votes and Proceedings, 18th Parliament, 4th Session : 1-103","callNumber":"J103 H41 1939 c.2","pubmin":"1939-01-12","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","cproc","18-4",1]],"pubmax":"1939-06-03","type":"cproc"}
+{
+  "session": ["18-4"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 18th Parliament, 4th Session : 1-103",
+  "callNumber": "J103 H41 1939 c.2",
+  "pubmin": "1939-01-12",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "18-4", 1]],
+  "pubmax": "1939-06-03",
+  "type": "cproc"
+}

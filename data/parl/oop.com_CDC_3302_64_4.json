@@ -1,1 +1,13 @@
-{"callNumber":"33-2 N278 A122","label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la défense nationale, Deuxième rapport","pubmin":"1986-09-30","session":["33-2"],"language":["fra"],"reportTitle":["Le programme canadien d'acquisition de sous-marins"],"pubmax":"1988-10-01","node":[["fra","c","committees","33-2",69]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "33-2 N278 A122",
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la défense nationale, Deuxième rapport",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["fra"],
+  "reportTitle": ["Le programme canadien d'acquisition de sous-marins"],
+  "pubmax": "1988-10-01",
+  "node": [["fra", "c", "committees", "33-2", 69]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

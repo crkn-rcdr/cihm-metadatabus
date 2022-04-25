@@ -1,1 +1,10 @@
-{"session":["13-5"],"language":["fra"],"label":"Débats du Sénat, 13e Législature, 5e Session : Vol. 1","pubmin":"1921-02-14","chamber":["s"],"pubmax":"1921-06-04","node":[["fra","s","debates","13-5",1]],"type":"debates"}
+{
+  "session": ["13-5"],
+  "language": ["fra"],
+  "label": "Débats du Sénat, 13e Législature, 5e Session : Vol. 1",
+  "pubmin": "1921-02-14",
+  "chamber": ["s"],
+  "pubmax": "1921-06-04",
+  "node": [["fra", "s", "debates", "13-5", 1]],
+  "type": "debates"
+}

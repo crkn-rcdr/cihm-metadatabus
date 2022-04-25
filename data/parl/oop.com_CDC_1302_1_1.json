@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Borden, Robert Laird","pubmax":"1919-07-07","node":[["fra","c","committees","13-2",1]],"type":"committees","session":["13-2"],"language":["fra"],"callNumber":"1919 A3 A4","label":"Comités de la Chambre des communes, 13e Législature, 2e Session : Comité spécial permanent de l'agriculture et de la colonisation, vol. 1","pubmin":"1919-02-20"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1919-07-07",
+  "node": [["fra", "c", "committees", "13-2", 1]],
+  "type": "committees",
+  "session": ["13-2"],
+  "language": ["fra"],
+  "callNumber": "1919 A3 A4",
+  "label": "Comités de la Chambre des communes, 13e Législature, 2e Session : Comité spécial permanent de l'agriculture et de la colonisation, vol. 1",
+  "pubmin": "1919-02-20"
+}

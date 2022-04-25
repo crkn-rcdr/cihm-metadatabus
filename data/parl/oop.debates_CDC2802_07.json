@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["28-2"],"pubmin":"1969-10-23","label":"Débats de la Chambre des communes, 28e Législature, 2e Session : Vol. 7","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"debates","pubmax":"1970-10-07","node":[["fra","c","debates","28-2",7]]}
+{
+  "language": ["fra"],
+  "session": ["28-2"],
+  "pubmin": "1969-10-23",
+  "label": "Débats de la Chambre des communes, 28e Législature, 2e Session : Vol. 7",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "debates",
+  "pubmax": "1970-10-07",
+  "node": [["fra", "c", "debates", "28-2", 7]]
+}

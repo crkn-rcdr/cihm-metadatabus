@@ -1,1 +1,10 @@
-{"session":["22-5"],"language":["eng"],"label":"Senate Debates, 22nd Parliament, 5th Session : Vol. 1","pubmin":"1957-01-08","chamber":["s"],"pubmax":"1957-04-12","node":[["eng","s","debates","22-5",1]],"type":"debates"}
+{
+  "session": ["22-5"],
+  "language": ["eng"],
+  "label": "Senate Debates, 22nd Parliament, 5th Session : Vol. 1",
+  "pubmin": "1957-01-08",
+  "chamber": ["s"],
+  "pubmax": "1957-04-12",
+  "node": [["eng", "s", "debates", "22-5", 1]],
+  "type": "debates"
+}

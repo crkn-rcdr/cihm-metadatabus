@@ -1,1 +1,11 @@
-{"callNumber":"KE72 C38 1-3 Bill A-","label":"Senate Bills, 1st Parliament, 3rd Session : A-X","pubmin":"1870-02-15","session":["01-3"],"language":["eng"],"pubmax":"1870-05-12","node":[["eng","s","bills","01-3",1]],"type":"bills","chamber":["s"]}
+{
+  "callNumber": "KE72 C38 1-3 Bill A-",
+  "label": "Senate Bills, 1st Parliament, 3rd Session : A-X",
+  "pubmin": "1870-02-15",
+  "session": ["01-3"],
+  "language": ["eng"],
+  "pubmax": "1870-05-12",
+  "node": [["eng", "s", "bills", "01-3", 1]],
+  "type": "bills",
+  "chamber": ["s"]
+}

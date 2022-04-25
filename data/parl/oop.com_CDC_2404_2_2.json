@@ -1,1 +1,12 @@
-{"primeMinisters":"Diefenbaker, John George","chamber":["c"],"type":"committees","node":[["fra","c","committees","24-4",5]],"pubmax":"1961-09-29","language":["fra"],"session":["24-4"],"pubmin":"1960-11-17","label":"Comités de la Chambre des communes, 24e Législature, 4e Session : Comité permanent de l'agriculture et de la colonisation, vol. 2","callNumber":"1960/61 A3 A4 v.2"}
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "24-4", 5]],
+  "pubmax": "1961-09-29",
+  "language": ["fra"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "label": "Comités de la Chambre des communes, 24e Législature, 4e Session : Comité permanent de l'agriculture et de la colonisation, vol. 2",
+  "callNumber": "1960/61 A3 A4 v.2"
+}

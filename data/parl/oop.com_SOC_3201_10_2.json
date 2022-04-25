@@ -1,1 +1,14 @@
-{"session":["32-1"],"language":["eng","fra"],"callNumber":"1980/83 N3 A1 no.21-48","label":"Senate Committees, 32nd Parliament, 1st Session : Standing Committee on National Finance, vol. 2 no. 21-48 = Comités du Sénat, 32e Législature, 1re Session : Comité permanent des finances nationales, vol. 2 no. 21-48","pubmin":"1980-04-14","chamber":["s"],"pubmax":"1983-11-30","node":[["eng","s","committees","32-1",36],["fra","s","committees","32-1",28]],"type":"committees"}
+{
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "1980/83 N3 A1 no.21-48",
+  "label": "Senate Committees, 32nd Parliament, 1st Session : Standing Committee on National Finance, vol. 2 no. 21-48 = Comités du Sénat, 32e Législature, 1re Session : Comité permanent des finances nationales, vol. 2 no. 21-48",
+  "pubmin": "1980-04-14",
+  "chamber": ["s"],
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "s", "committees", "32-1", 36],
+    ["fra", "s", "committees", "32-1", 28]
+  ],
+  "type": "committees"
+}

@@ -1,1 +1,15 @@
-{"callNumber":"1974/76 J8 A1 v.4","label":"House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Justice and Legal Affairs, vol. 4 no. 57-72 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent de la justice et des questions juridiques, vol. 4 no. 57-72","pubmin":"1974-09-30","session":["30-1"],"language":["eng","fra"],"pubmax":"1976-10-12","node":[["eng","c","committees","30-1",32],["fra","c","committees","30-1",30]],"type":"committees","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "callNumber": "1974/76 J8 A1 v.4",
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Justice and Legal Affairs, vol. 4 no. 57-72 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent de la justice et des questions juridiques, vol. 4 no. 57-72",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1976-10-12",
+  "node": [
+    ["eng", "c", "committees", "30-1", 32],
+    ["fra", "c", "committees", "30-1", 30]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

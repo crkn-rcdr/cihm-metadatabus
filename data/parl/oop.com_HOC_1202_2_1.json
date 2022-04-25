@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["12-2"],"pubmin":"1912-11-21","label":"House of Commons Committees, 12th Parliament, 2nd Session : Select Standing Committee on Banking and Commerce, vol. 1","callNumber":"1912-13 B3 A1","primeMinisters":"Borden, Robert Laird","chamber":["c"],"type":"committees","node":[["eng","c","committees","12-2",3]],"pubmax":"1913-06-06"}
+{
+  "language": ["eng"],
+  "session": ["12-2"],
+  "pubmin": "1912-11-21",
+  "label": "House of Commons Committees, 12th Parliament, 2nd Session : Select Standing Committee on Banking and Commerce, vol. 1",
+  "callNumber": "1912-13 B3 A1",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "12-2", 3]],
+  "pubmax": "1913-06-06"
+}

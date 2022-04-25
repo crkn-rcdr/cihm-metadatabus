@@ -1,1 +1,12 @@
-{"type":"cproc","pubmax":"1874-05-26","node":[["fra","c","cproc","03-1",1]],"chamber":["c"],"primeMinisters":"Mackenzie, Alexander","pubmin":"1874-03-26","callNumber":"J103 H44 1874","label":"Procès-verbaux de la Chambre des communes, 3e Législature, 1re Session : 1-42","language":["fra"],"session":["03-1"]}
+{
+  "type": "cproc",
+  "pubmax": "1874-05-26",
+  "node": [["fra", "c", "cproc", "03-1", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "pubmin": "1874-03-26",
+  "callNumber": "J103 H44 1874",
+  "label": "Procès-verbaux de la Chambre des communes, 3e Législature, 1re Session : 1-42",
+  "language": ["fra"],
+  "session": ["03-1"]
+}

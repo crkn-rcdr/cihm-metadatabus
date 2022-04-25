@@ -1,1 +1,13 @@
-{"pubmin":"1989-04-03","callNumber":"34-2 N2782 A12","label":"Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de la défense nationale et des affaires des anciens combattants, Rapport","language":["fra"],"reportTitle":["La souveraineté maritime"],"session":["34-2"],"type":"committees","pubmax":"1991-05-12","node":[["fra","c","committees","34-2",70]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 N2782 A12",
+  "label": "Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de la défense nationale et des affaires des anciens combattants, Rapport",
+  "language": ["fra"],
+  "reportTitle": ["La souveraineté maritime"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["fra", "c", "committees", "34-2", 70]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

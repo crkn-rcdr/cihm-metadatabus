@@ -1,1 +1,13 @@
-{"type":"bills","pubmax":"1978-10-10","node":[["eng","s","bills","30-3",1],["fra","s","bills","30-3",1]],"chamber":["s"],"pubmin":"1977-10-18","label":"Senate Bills, 30th Parliament, 3rd Session : S2-S11 = Projets de loi du Sénat, 30e Législature, 3e Session : S2-S11","language":["eng","fra"],"session":["30-3"]}
+{
+  "type": "bills",
+  "pubmax": "1978-10-10",
+  "node": [
+    ["eng", "s", "bills", "30-3", 1],
+    ["fra", "s", "bills", "30-3", 1]
+  ],
+  "chamber": ["s"],
+  "pubmin": "1977-10-18",
+  "label": "Senate Bills, 30th Parliament, 3rd Session : S2-S11 = Projets de loi du Sénat, 30e Législature, 3e Session : S2-S11",
+  "language": ["eng", "fra"],
+  "session": ["30-3"]
+}

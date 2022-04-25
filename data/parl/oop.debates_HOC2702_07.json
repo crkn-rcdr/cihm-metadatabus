@@ -1,1 +1,11 @@
-{"primeMinisters":"Pearson, Lester Bowles (1967-05-08 - 1968-04-19), Trudeau, Pierre Elliott (1968-04-20 - 1968-04-23)","chamber":["c"],"type":"debates","node":[["eng","c","debates","27-2",7]],"pubmax":"1968-04-23","language":["eng"],"session":["27-2"],"pubmin":"1967-05-08","label":"House of Commons Debates, 27th Parliament, 2nd Session : Vol. 7"}
+{
+  "primeMinisters": "Pearson, Lester Bowles (1967-05-08 - 1968-04-19), Trudeau, Pierre Elliott (1968-04-20 - 1968-04-23)",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "27-2", 7]],
+  "pubmax": "1968-04-23",
+  "language": ["eng"],
+  "session": ["27-2"],
+  "pubmin": "1967-05-08",
+  "label": "House of Commons Debates, 27th Parliament, 2nd Session : Vol. 7"
+}

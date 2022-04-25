@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["17-6"],"pubmin":"1935-01-17","label":"Comités du Sénat, 17e Législature, 6e Session : Comité permanent des banques et du commerce, vol. 1","callNumber":"1935 B3 A42","chamber":["s"],"type":"committees","node":[["fra","s","committees","17-6",1]],"pubmax":"1935-07-05"}
+{
+  "language": ["fra"],
+  "session": ["17-6"],
+  "pubmin": "1935-01-17",
+  "label": "Comités du Sénat, 17e Législature, 6e Session : Comité permanent des banques et du commerce, vol. 1",
+  "callNumber": "1935 B3 A42",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "17-6", 1]],
+  "pubmax": "1935-07-05"
+}

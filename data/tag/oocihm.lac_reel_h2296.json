@@ -1,1 +1,37 @@
-{"47":{"tagDescription":["Skiing. Articles and Papers"],"tagDate":["1930-01-01T00:00:00.000Z"],"tagNotebook":["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"]},"19":{"tagDate":["[1955-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],"tagDescription":["Royal Society of Canada"],"tagNotebook":["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"]},"311":{"tagDescription":["Catalogue of Prints"],"tagDate":["[1932-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagNotebook":["TAYLOR, Frederick B. MG 30, D 360 CATALOGUE SERIES"]},"332":{"tagNotebook":["TAYLOR, Frederick B. MG 30, D 360 CATALOGUE SERIES"],"tagDescription":["Catalogue of Paintings"],"tagDate":["[1936-01-01T00:00:00.000Z TO 1980-12-31T23:59:59.999Z]"]},"161":{"tagDate":["[1933-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],"tagDescription":["Skiing. Lunn, etc. (1 of 3)"],"tagNotebook":["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"]},"251":{"tagNotebook":["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"],"tagDescription":["Skiing. Lunn, etc. (3 of 3)"],"tagDate":["[1933-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"214":{"tagNotebook":["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"],"tagDate":["[1933-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],"tagDescription":["Skiing. Lunn, etc. (2 of 3)"]}}
+{
+  "47": {
+    "tagDescription": ["Skiing. Articles and Papers"],
+    "tagDate": ["1930-01-01T00:00:00.000Z"],
+    "tagNotebook": ["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"]
+  },
+  "19": {
+    "tagDate": ["[1955-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Royal Society of Canada"],
+    "tagNotebook": ["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"]
+  },
+  "311": {
+    "tagDescription": ["Catalogue of Prints"],
+    "tagDate": ["[1932-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["TAYLOR, Frederick B. MG 30, D 360 CATALOGUE SERIES"]
+  },
+  "332": {
+    "tagNotebook": ["TAYLOR, Frederick B. MG 30, D 360 CATALOGUE SERIES"],
+    "tagDescription": ["Catalogue of Paintings"],
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1980-12-31T23:59:59.999Z]"]
+  },
+  "161": {
+    "tagDate": ["[1933-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Skiing. Lunn, etc. (1 of 3)"],
+    "tagNotebook": ["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"]
+  },
+  "251": {
+    "tagNotebook": ["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"],
+    "tagDescription": ["Skiing. Lunn, etc. (3 of 3)"],
+    "tagDate": ["[1933-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "214": {
+    "tagNotebook": ["TAYLOR, Frederick B. MG 30, D 360 SUBJECT FILES SERIES"],
+    "tagDate": ["[1933-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Skiing. Lunn, etc. (2 of 3)"]
+  }
+}

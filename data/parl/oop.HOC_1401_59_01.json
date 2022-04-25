@@ -1,1 +1,11 @@
-{"session":["14-1"],"language":["eng"],"label":"House of Commons Journals, 14th Parliament, 1st Session : Vol. 59","pubmin":"1922-03-08","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1922-06-28","node":[["eng","c","journals","14-1",1]],"type":"journals"}
+{
+  "session": ["14-1"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 14th Parliament, 1st Session : Vol. 59",
+  "pubmin": "1922-03-08",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1922-06-28",
+  "node": [["eng", "c", "journals", "14-1", 1]],
+  "type": "journals"
+}

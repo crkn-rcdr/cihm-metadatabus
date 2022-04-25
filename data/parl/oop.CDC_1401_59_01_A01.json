@@ -1,1 +1,11 @@
-{"label":"Journaux de la Chambre des communes, 14e Législature, 1re Session : Vol. 59 App. 1","pubmin":"1922-03-08","session":["14-1"],"language":["fra"],"pubmax":"1922-06-28","node":[["fra","c","journals","14-1",2]],"type":"journals","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie"}
+{
+  "label": "Journaux de la Chambre des communes, 14e Législature, 1re Session : Vol. 59 App. 1",
+  "pubmin": "1922-03-08",
+  "session": ["14-1"],
+  "language": ["fra"],
+  "pubmax": "1922-06-28",
+  "node": [["fra", "c", "journals", "14-1", 2]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

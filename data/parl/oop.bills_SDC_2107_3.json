@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"bills","pubmax":"1953-05-14","node":[["fra","s","bills","21-7",3]],"language":["fra"],"session":["21-7"],"pubmin":"1952-11-20","callNumber":"KE72 C381 21-7 v.3","label":"Projets de loi du Sénat, 21e Législature, 7e Session : A6-F12"}
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1953-05-14",
+  "node": [["fra", "s", "bills", "21-7", 3]],
+  "language": ["fra"],
+  "session": ["21-7"],
+  "pubmin": "1952-11-20",
+  "callNumber": "KE72 C381 21-7 v.3",
+  "label": "Projets de loi du Sénat, 21e Législature, 7e Session : A6-F12"
+}

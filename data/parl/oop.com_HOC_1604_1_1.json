@@ -1,1 +1,12 @@
-{"type":"committees","node":[["eng","c","committees","16-4",1]],"pubmax":"1930-05-30","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1930-02-20","label":"House of Commons Committees, 16th Parliament, 4th Session : Select Standing Committee on Agriculture and Colonization, vol. 1","callNumber":"1930 A3 A12","language":["eng"],"session":["16-4"]}
+{
+  "type": "committees",
+  "node": [["eng", "c", "committees", "16-4", 1]],
+  "pubmax": "1930-05-30",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1930-02-20",
+  "label": "House of Commons Committees, 16th Parliament, 4th Session : Select Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1930 A3 A12",
+  "language": ["eng"],
+  "session": ["16-4"]
+}

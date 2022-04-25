@@ -1,1 +1,11 @@
-{"pubmin":"1944-01-27","label":"House of Commons Journals, 19th Parliament, 5th Session : Vol. 84 App. 2","language":["eng"],"session":["19-5"],"type":"journals","pubmax":"1945-01-31","node":[["eng","c","journals","19-5",3]],"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie"}
+{
+  "pubmin": "1944-01-27",
+  "label": "House of Commons Journals, 19th Parliament, 5th Session : Vol. 84 App. 2",
+  "language": ["eng"],
+  "session": ["19-5"],
+  "type": "journals",
+  "pubmax": "1945-01-31",
+  "node": [["eng", "c", "journals", "19-5", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

@@ -1,1 +1,15 @@
-{"language":["eng"],"reportTitle":["Human Rights Considerations and Coherence in Canada's Foreign Policy"],"session":["34-2"],"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Human Rights and the Status of Disabled Persons, Third Report","callNumber":"34-2 H792 A123","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-2",108]],"pubmax":"1991-05-12"}
+{
+  "language": ["eng"],
+  "reportTitle": [
+    "Human Rights Considerations and Coherence in Canada's Foreign Policy"
+  ],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Human Rights and the Status of Disabled Persons, Third Report",
+  "callNumber": "34-2 H792 A123",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "34-2", 108]],
+  "pubmax": "1991-05-12"
+}

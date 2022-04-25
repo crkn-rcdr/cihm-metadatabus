@@ -1,1 +1,12 @@
-{"primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"type":"committees","node":[["fra","c","committees","21-5",7]],"pubmax":"1951-12-29","language":["fra"],"session":["21-5"],"pubmin":"1951-10-09","label":"Comités de la Chambre des communes, 21e Législature, 5e Session : Comité spécial de la radiodiffusion, vol. 1","callNumber":"1951(2e) R33 A4"}
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "21-5", 7]],
+  "pubmax": "1951-12-29",
+  "language": ["fra"],
+  "session": ["21-5"],
+  "pubmin": "1951-10-09",
+  "label": "Comités de la Chambre des communes, 21e Législature, 5e Session : Comité spécial de la radiodiffusion, vol. 1",
+  "callNumber": "1951(2e) R33 A4"
+}

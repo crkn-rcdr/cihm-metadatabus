@@ -1,1 +1,12 @@
-{"pubmin":"1984-11-05","label":"Comités du Sénat, 33e Législature, 1re Session : Comité spécial sur la jeunesse, Rapport","callNumber":"33-1 Y69 A12","reportTitle":["Jeunesse : un plan d'action"],"language":["fra"],"session":["33-1"],"type":"committees","node":[["fra","s","committees","33-1",26]],"pubmax":"1986-08-28","chamber":["s"]}
+{
+  "pubmin": "1984-11-05",
+  "label": "Comités du Sénat, 33e Législature, 1re Session : Comité spécial sur la jeunesse, Rapport",
+  "callNumber": "33-1 Y69 A12",
+  "reportTitle": ["Jeunesse : un plan d'action"],
+  "language": ["fra"],
+  "session": ["33-1"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "33-1", 26]],
+  "pubmax": "1986-08-28",
+  "chamber": ["s"]
+}

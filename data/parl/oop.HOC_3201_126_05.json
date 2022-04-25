@@ -1,1 +1,14 @@
-{"pubmin":"1980-04-14","label":"House of Commons Journals, 32nd Parliament, 1st Session : Vol. 126 Pt. 5 = Journaux de la Chambre des communes, 32e Législature, 1re Session : Vol. 126 Pt. 5","language":["eng","fra"],"session":["32-1"],"type":"journals","node":[["eng","c","journals","32-1",5],["fra","c","journals","32-1",5]],"pubmax":"1983-11-30","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Journals, 32nd Parliament, 1st Session : Vol. 126 Pt. 5 = Journaux de la Chambre des communes, 32e Législature, 1re Session : Vol. 126 Pt. 5",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "type": "journals",
+  "node": [
+    ["eng", "c", "journals", "32-1", 5],
+    ["fra", "c", "journals", "32-1", 5]
+  ],
+  "pubmax": "1983-11-30",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

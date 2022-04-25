@@ -1,1 +1,10 @@
-{"session":["12-7"],"language":["fra"],"label":"Débats du Sénat, 12e Législature, 7e Session : Vol. 1","pubmin":"1917-01-18","chamber":["s"],"pubmax":"1917-09-20","node":[["fra","s","debates","12-7",1]],"type":"debates"}
+{
+  "session": ["12-7"],
+  "language": ["fra"],
+  "label": "Débats du Sénat, 12e Législature, 7e Session : Vol. 1",
+  "pubmin": "1917-01-18",
+  "chamber": ["s"],
+  "pubmax": "1917-09-20",
+  "node": [["fra", "s", "debates", "12-7", 1]],
+  "type": "debates"
+}

@@ -1,1 +1,12 @@
-{"session":["24-1"],"language":["eng"],"label":"House of Commons Votes and Proceedings, 24th Parliament, 1st Session : 1-93","callNumber":"J103 H41 1958 c.2","pubmin":"1958-05-12","primeMinisters":"Diefenbaker, John George","chamber":["c"],"node":[["eng","c","cproc","24-1",1]],"pubmax":"1958-09-06","type":"cproc"}
+{
+  "session": ["24-1"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 24th Parliament, 1st Session : 1-93",
+  "callNumber": "J103 H41 1958 c.2",
+  "pubmin": "1958-05-12",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "24-1", 1]],
+  "pubmax": "1958-09-06",
+  "type": "cproc"
+}

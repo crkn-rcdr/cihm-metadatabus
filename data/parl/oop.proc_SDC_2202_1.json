@@ -1,1 +1,11 @@
-{"pubmin":"1955-01-07","callNumber":"J103 H43 1955","label":"Procès-verbaux du Sénat, 22e Législature, 2e Session : 1-79","language":["fra"],"session":["22-2"],"type":"sproc","pubmax":"1955-07-28","node":[["fra","s","sproc","22-2",1]],"chamber":["s"]}
+{
+  "pubmin": "1955-01-07",
+  "callNumber": "J103 H43 1955",
+  "label": "Procès-verbaux du Sénat, 22e Législature, 2e Session : 1-79",
+  "language": ["fra"],
+  "session": ["22-2"],
+  "type": "sproc",
+  "pubmax": "1955-07-28",
+  "node": [["fra", "s", "sproc", "22-2", 1]],
+  "chamber": ["s"]
+}

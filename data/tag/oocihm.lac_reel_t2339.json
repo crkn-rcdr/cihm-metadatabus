@@ -1,1 +1,60 @@
-{"362":{"tagDescription":["Emden Azores cable landing at Halifax"],"tagDate":["[1916-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]},"1487":{"tagDate":["1918-01-01T00:00:00.000Z"],"tagDescription":["Decorations -Items 27-64"]},"1237":{"tagDate":["1918-01-01T00:00:00.000Z"],"tagDescription":["Decorations -Items 198-234"]},"256":{"tagDate":["[1915-12-31T23:59:59.999Z TO 1923-01-01T00:00:00.000Z]"],"tagDescription":["Shooting of two Americans near Fort Erie by Canadian Militiamen"]},"80":{"tagDescription":["Canadian Womens Hospital Ship fund (indexed)"],"tagDate":["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]},"522":{"tagDescription":["Halifax Disaster"],"tagDate":["[1917-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]},"1174":{"tagDescription":["Decorations -Items 180-197"],"tagDate":["1918-01-01T00:00:00.000Z"]},"1020":{"tagDate":["1918-01-01T00:00:00.000Z"],"tagDescription":["Decorations -Items 109-179"]},"212":{"tagDescription":["Offer of Lieutenant Colonel Hamilton Merritt to equip corps of North American Indians for service"],"tagDate":["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]},"748":{"tagDescription":["Decorations -Index -Items 1-46"],"tagDate":["[1915-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"]},"1355":{"tagDescription":["Decorations -Index -Items 1-26"],"tagDate":["1918-01-01T00:00:00.000Z"]},"899":{"tagDescription":["Decorations -Items 47-108"],"tagDate":["[1917-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]},"160":{"tagDescription":["Forms for Aviators -Reports of Lieutenant  Colonel Burke on aviation personnel in Canada -Rates of pay of Aviators"],"tagDate":["[1915-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"]}}
+{
+  "362": {
+    "tagDescription": ["Emden Azores cable landing at Halifax"],
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]
+  },
+  "1487": {
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": ["Decorations -Items 27-64"]
+  },
+  "1237": {
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": ["Decorations -Items 198-234"]
+  },
+  "256": {
+    "tagDate": ["[1915-12-31T23:59:59.999Z TO 1923-01-01T00:00:00.000Z]"],
+    "tagDescription": [
+      "Shooting of two Americans near Fort Erie by Canadian Militiamen"
+    ]
+  },
+  "80": {
+    "tagDescription": ["Canadian Womens Hospital Ship fund (indexed)"],
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]
+  },
+  "522": {
+    "tagDescription": ["Halifax Disaster"],
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]
+  },
+  "1174": {
+    "tagDescription": ["Decorations -Items 180-197"],
+    "tagDate": ["1918-01-01T00:00:00.000Z"]
+  },
+  "1020": {
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": ["Decorations -Items 109-179"]
+  },
+  "212": {
+    "tagDescription": [
+      "Offer of Lieutenant Colonel Hamilton Merritt to equip corps of North American Indians for service"
+    ],
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]
+  },
+  "748": {
+    "tagDescription": ["Decorations -Index -Items 1-46"],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"]
+  },
+  "1355": {
+    "tagDescription": ["Decorations -Index -Items 1-26"],
+    "tagDate": ["1918-01-01T00:00:00.000Z"]
+  },
+  "899": {
+    "tagDescription": ["Decorations -Items 47-108"],
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]
+  },
+  "160": {
+    "tagDescription": [
+      "Forms for Aviators -Reports of Lieutenant  Colonel Burke on aviation personnel in Canada -Rates of pay of Aviators"
+    ],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"]
+  }
+}

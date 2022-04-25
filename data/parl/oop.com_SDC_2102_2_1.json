@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["21-2"],"pubmin":"1950-02-16","label":"Comités du Sénat, 21e Législature, 2e Session : Comité spécial sur les droits de l'Homme et des libertés fondamentales, vol. 1","callNumber":"1950 H83 A4","chamber":["s"],"type":"committees","node":[["fra","s","committees","21-2",2]],"pubmax":"1950-06-30"}
+{
+  "language": ["fra"],
+  "session": ["21-2"],
+  "pubmin": "1950-02-16",
+  "label": "Comités du Sénat, 21e Législature, 2e Session : Comité spécial sur les droits de l'Homme et des libertés fondamentales, vol. 1",
+  "callNumber": "1950 H83 A4",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "21-2", 2]],
+  "pubmax": "1950-06-30"
+}

@@ -1,1 +1,45 @@
-{"1431":{"tagDescription":["Missing / Manque"]},"17":{"tagDescription":["Passports"],"tagDate":["1924-01-01T00:00:00.000Z"]},"1569":{"tagDescription":["Missing / Manque"]},"1312":{"tagDate":["[1931-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Ibid"]},"1436":{"tagDescription":["Missing / Manque"]},"1437":{"tagDescription":["Missing / Manque"]},"619":{"tagDate":["1926-01-01T00:00:00.000Z"],"tagDescription":["Passports"]},"1438":{"tagDescription":["Missing / Manque"]},"1567":{"tagDescription":["Missing / Manque"]},"1441":{"tagDescription":["Germany - Consular Appointments"],"tagDate":["[1866-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"1572":{"tagDescription":["Ancient claims to property in Canada"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]},"1568":{"tagDescription":["Missing / Manque"]},"1570":{"tagDescription":["Missing / Manque"]},"333":{"tagDescription":["Passports"],"tagDate":["1925-01-01T00:00:00.000Z"]},"1434":{"tagDescription":["Missing / Manque"]},"1009":{"tagDescription":["Passports"],"tagDate":["[1927-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]},"1566":{"tagDescription":["Missing / Manque"]},"463":{"tagDescription":["Passports"],"tagDate":["1925-01-01T00:00:00.000Z"]},"1435":{"tagDescription":["Missing / Manque"]}}
+{
+  "1431": { "tagDescription": ["Missing / Manque"] },
+  "17": {
+    "tagDescription": ["Passports"],
+    "tagDate": ["1924-01-01T00:00:00.000Z"]
+  },
+  "1569": { "tagDescription": ["Missing / Manque"] },
+  "1312": {
+    "tagDate": ["[1931-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid"]
+  },
+  "1436": { "tagDescription": ["Missing / Manque"] },
+  "1437": { "tagDescription": ["Missing / Manque"] },
+  "619": {
+    "tagDate": ["1926-01-01T00:00:00.000Z"],
+    "tagDescription": ["Passports"]
+  },
+  "1438": { "tagDescription": ["Missing / Manque"] },
+  "1567": { "tagDescription": ["Missing / Manque"] },
+  "1441": {
+    "tagDescription": ["Germany - Consular Appointments"],
+    "tagDate": ["[1866-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "1572": {
+    "tagDescription": ["Ancient claims to property in Canada"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]
+  },
+  "1568": { "tagDescription": ["Missing / Manque"] },
+  "1570": { "tagDescription": ["Missing / Manque"] },
+  "333": {
+    "tagDescription": ["Passports"],
+    "tagDate": ["1925-01-01T00:00:00.000Z"]
+  },
+  "1434": { "tagDescription": ["Missing / Manque"] },
+  "1009": {
+    "tagDescription": ["Passports"],
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]
+  },
+  "1566": { "tagDescription": ["Missing / Manque"] },
+  "463": {
+    "tagDescription": ["Passports"],
+    "tagDate": ["1925-01-01T00:00:00.000Z"]
+  },
+  "1435": { "tagDescription": ["Missing / Manque"] }
+}

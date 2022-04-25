@@ -1,1 +1,15 @@
-{"node":[["fra","c","committees","34-3",84]],"pubmax":"1993-09-08","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des droits de la personne et de la condition des personnes handicapées, Quatrième rapport","callNumber":"J103 H7 34-3 H792 A124f","pubmin":"1991-05-13","session":["34-3"],"language":["fra"],"reportTitle":["Boucler la boucle : Rapport sur les personnes autochtones handicapées"]}
+{
+  "node": [["fra", "c", "committees", "34-3", 84]],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des droits de la personne et de la condition des personnes handicapées, Quatrième rapport",
+  "callNumber": "J103 H7 34-3 H792 A124f",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["fra"],
+  "reportTitle": [
+    "Boucler la boucle : Rapport sur les personnes autochtones handicapées"
+  ]
+}

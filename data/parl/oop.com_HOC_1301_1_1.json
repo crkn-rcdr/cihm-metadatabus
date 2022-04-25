@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["13-1"],"pubmin":"1918-03-18","callNumber":"1918 P7 A1","label":"House of Commons Committees, 13th Parliament, 1st Session : Standing Committee on Privileges and Elections, vol. 1","chamber":["c"],"primeMinisters":"Borden, Robert Laird","type":"committees","pubmax":"1918-05-24","node":[["eng","c","committees","13-1",1]]}
+{
+  "language": ["eng"],
+  "session": ["13-1"],
+  "pubmin": "1918-03-18",
+  "callNumber": "1918 P7 A1",
+  "label": "House of Commons Committees, 13th Parliament, 1st Session : Standing Committee on Privileges and Elections, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "committees",
+  "pubmax": "1918-05-24",
+  "node": [["eng", "c", "committees", "13-1", 1]]
+}

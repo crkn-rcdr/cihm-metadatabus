@@ -1,1 +1,14 @@
-{"pubmin":"1989-04-03","callNumber":"34-2 B3 A1 no.1-30","label":"Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, vol. 1 no. 1-30 = Comités du Sénat, 34e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 1 no. 1-30","language":["eng","fra"],"session":["34-2"],"type":"committees","pubmax":"1991-05-12","node":[["eng","s","committees","34-2",4],["fra","s","committees","34-2",15]],"chamber":["s"]}
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 B3 A1 no.1-30",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, vol. 1 no. 1-30 = Comités du Sénat, 34e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 1 no. 1-30",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "s", "committees", "34-2", 4],
+    ["fra", "s", "committees", "34-2", 15]
+  ],
+  "chamber": ["s"]
+}

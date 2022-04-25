@@ -1,1 +1,12 @@
-{"session":["14-2"],"language":["fra"],"label":"Projets de loi de la Chambre des communes, 14e Législature, 2e Session : 2-82","callNumber":"KE72 C361 14-2 2-82","pubmin":"1923-01-31","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["fra","c","bills","14-2",1]],"pubmax":"1923-06-30","type":"bills"}
+{
+  "session": ["14-2"],
+  "language": ["fra"],
+  "label": "Projets de loi de la Chambre des communes, 14e Législature, 2e Session : 2-82",
+  "callNumber": "KE72 C361 14-2 2-82",
+  "pubmin": "1923-01-31",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "bills", "14-2", 1]],
+  "pubmax": "1923-06-30",
+  "type": "bills"
+}

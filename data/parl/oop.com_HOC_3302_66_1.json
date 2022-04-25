@@ -1,1 +1,15 @@
-{"type":"committees","pubmax":"1988-10-01","node":[["eng","c","committees","33-2",142],["fra","c","committees","33-2",114]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1986-09-30","callNumber":"33-2 O33 A1 no.1","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-6, an Act to implement an agreement between the Government of Newfoundland and Labrador on offshore petroleum resource management and revenue sharing and to make related and consequential amendments, vol. 1 no. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-6, Loi concernant la mise en oeuvre de l'accord entre les gouvernements du Canada et de Terre-Neuve et du Labrador sur la gestion des ressources en hydrocarbures extracôtiers et sur le partage des recettes correspondantes et apportant des modifications corrélatives ou connexes, vol. 1 no. 1","language":["eng","fra"],"session":["33-2"]}
+{
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 142],
+    ["fra", "c", "committees", "33-2", 114]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 O33 A1 no.1",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-6, an Act to implement an agreement between the Government of Newfoundland and Labrador on offshore petroleum resource management and revenue sharing and to make related and consequential amendments, vol. 1 no. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-6, Loi concernant la mise en oeuvre de l'accord entre les gouvernements du Canada et de Terre-Neuve et du Labrador sur la gestion des ressources en hydrocarbures extracôtiers et sur le partage des recettes correspondantes et apportant des modifications corrélatives ou connexes, vol. 1 no. 1",
+  "language": ["eng", "fra"],
+  "session": ["33-2"]
+}

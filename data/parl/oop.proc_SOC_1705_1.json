@@ -1,1 +1,11 @@
-{"pubmax":"1934-07-03","node":[["eng","s","sproc","17-5",1]],"type":"sproc","chamber":["s"],"callNumber":"J103 H4 1934","label":"Senate Minutes of Proceedings, 17th Parliament, 5th Session : 1-59","pubmin":"1934-01-25","session":["17-5"],"language":["eng"]}
+{
+  "pubmax": "1934-07-03",
+  "node": [["eng", "s", "sproc", "17-5", 1]],
+  "type": "sproc",
+  "chamber": ["s"],
+  "callNumber": "J103 H4 1934",
+  "label": "Senate Minutes of Proceedings, 17th Parliament, 5th Session : 1-59",
+  "pubmin": "1934-01-25",
+  "session": ["17-5"],
+  "language": ["eng"]
+}

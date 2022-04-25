@@ -1,1 +1,12 @@
-{"pubmin":"1960-01-14","label":"Comités de la Chambre des communes, 24e Législature, 3e Session : Comité permanent des prévisions de dépenses, vol. 1","callNumber":"1960 P74 A4","language":["fra"],"session":["24-3"],"type":"committees","node":[["fra","c","committees","24-3",15]],"pubmax":"1960-08-10","primeMinisters":"Diefenbaker, John George","chamber":["c"]}
+{
+  "pubmin": "1960-01-14",
+  "label": "Comités de la Chambre des communes, 24e Législature, 3e Session : Comité permanent des prévisions de dépenses, vol. 1",
+  "callNumber": "1960 P74 A4",
+  "language": ["fra"],
+  "session": ["24-3"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "24-3", 15]],
+  "pubmax": "1960-08-10",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"]
+}

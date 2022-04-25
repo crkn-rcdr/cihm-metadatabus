@@ -1,1 +1,15 @@
-{"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Communications, Culture, Citizenship and Multiculturalism, vol. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des communications, de la culture, de la citoyenneté et du multiculturalisme, vol. 1","callNumber":"34-2 C47 A1","language":["eng","fra"],"session":["34-2"],"type":"committees","node":[["eng","c","committees","34-2",37],["fra","c","committees","34-2",45]],"pubmax":"1991-05-12","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Communications, Culture, Citizenship and Multiculturalism, vol. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des communications, de la culture, de la citoyenneté et du multiculturalisme, vol. 1",
+  "callNumber": "34-2 C47 A1",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 37],
+    ["fra", "c", "committees", "34-2", 45]
+  ],
+  "pubmax": "1991-05-12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

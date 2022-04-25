@@ -1,1 +1,14 @@
-{"node":[["fra","s","committees","34-3",10]],"pubmax":"1993-09-08","type":"committees","chamber":["s"],"label":"Comités du Sénat, 34e Législature, 3e Session : Comité permanent des affaires sociales, sciences et technologie, Dixième rapport","callNumber":"34-3 S6 A121","pubmin":"1991-05-13","session":["34-3"],"language":["fra"],"reportTitle":["La notion, le développement et la promotion de la citoyenneté au Canada"]}
+{
+  "node": [["fra", "s", "committees", "34-3", 10]],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Comités du Sénat, 34e Législature, 3e Session : Comité permanent des affaires sociales, sciences et technologie, Dixième rapport",
+  "callNumber": "34-3 S6 A121",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["fra"],
+  "reportTitle": [
+    "La notion, le développement et la promotion de la citoyenneté au Canada"
+  ]
+}

@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["17-5"],"pubmin":"1934-01-25","callNumber":"KE72 C36 17-5 98-129","label":"House of Commons Bills, 17th Parliament, 5th Session : 98-129","chamber":["c"],"primeMinisters":"Bennett, Richard Bedford","type":"bills","pubmax":"1934-07-03","node":[["eng","c","bills","17-5",3]]}
+{
+  "language": ["eng"],
+  "session": ["17-5"],
+  "pubmin": "1934-01-25",
+  "callNumber": "KE72 C36 17-5 98-129",
+  "label": "House of Commons Bills, 17th Parliament, 5th Session : 98-129",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "type": "bills",
+  "pubmax": "1934-07-03",
+  "node": [["eng", "c", "bills", "17-5", 3]]
+}

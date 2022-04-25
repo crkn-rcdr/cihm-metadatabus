@@ -1,1 +1,13 @@
-{"type":"committees","pubmax":"1991-05-12","node":[["fra","c","committees","34-2",117]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1989-04-03","callNumber":"34-2 F66 A12","label":"Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des forêts et des pêches, Rapport","reportTitle":["Les forêts du Canada : le rôle du fédéral"],"language":["fra"],"session":["34-2"]}
+{
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["fra", "c", "committees", "34-2", 117]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 F66 A12",
+  "label": "Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des forêts et des pêches, Rapport",
+  "reportTitle": ["Les forêts du Canada : le rôle du fédéral"],
+  "language": ["fra"],
+  "session": ["34-2"]
+}

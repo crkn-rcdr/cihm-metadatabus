@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","34-3",204],["fra","c","committees","34-3",14]],"pubmax":"1993-09-08","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-49, an Act to amend the Criminal Code (sexual assault), vol. 1 no. 1-7 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-49, Loi modifiant le Code criminel (agression sexuelle), vol. 1 no. 1-7","callNumber":"34-3 S49 A1 no.1-7","language":["eng","fra"],"session":["34-3"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 204],
+    ["fra", "c", "committees", "34-3", 14]
+  ],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-49, an Act to amend the Criminal Code (sexual assault), vol. 1 no. 1-7 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-49, Loi modifiant le Code criminel (agression sexuelle), vol. 1 no. 1-7",
+  "callNumber": "34-3 S49 A1 no.1-7",
+  "language": ["eng", "fra"],
+  "session": ["34-3"]
+}

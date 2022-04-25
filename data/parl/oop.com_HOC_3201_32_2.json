@@ -1,1 +1,15 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"type":"committees","node":[["eng","c","committees","32-1",123],["fra","c","committees","32-1",160]],"pubmax":"1983-11-30","language":["eng","fra"],"session":["32-1"],"pubmin":"1980-04-14","label":"House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on National Trading Corporation, vol. 2 no. 17-40 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial sur une société nationale du commerce, vol. 2 no. 17-40","callNumber":"1980/83 N37 A1 no.17-40"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "32-1", 123],
+    ["fra", "c", "committees", "32-1", 160]
+  ],
+  "pubmax": "1983-11-30",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on National Trading Corporation, vol. 2 no. 17-40 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial sur une société nationale du commerce, vol. 2 no. 17-40",
+  "callNumber": "1980/83 N37 A1 no.17-40"
+}

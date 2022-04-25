@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["24-2"],"pubmin":"1959-01-15","callNumber":"1959 R3 A1","label":"House of Commons Committees, 24th Parliament, 2nd Session : Sessional Committee on Railways, Air Lines and Shipping Owned and Controlled by the Government, vol. 1","chamber":["c"],"primeMinisters":"Diefenbaker, John George","type":"committees","pubmax":"1959-07-18","node":[["eng","c","committees","24-2",11]]}
+{
+  "language": ["eng"],
+  "session": ["24-2"],
+  "pubmin": "1959-01-15",
+  "callNumber": "1959 R3 A1",
+  "label": "House of Commons Committees, 24th Parliament, 2nd Session : Sessional Committee on Railways, Air Lines and Shipping Owned and Controlled by the Government, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "type": "committees",
+  "pubmax": "1959-07-18",
+  "node": [["eng", "c", "committees", "24-2", 11]]
+}

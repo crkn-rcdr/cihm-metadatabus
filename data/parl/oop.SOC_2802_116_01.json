@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["28-2"],"pubmin":"1969-10-23","label":"Senate Journals, 28th Parliament, 2nd Session : Vol. 116","chamber":["s"],"type":"journals","node":[["eng","s","journals","28-2",1]],"pubmax":"1970-10-07"}
+{
+  "language": ["eng"],
+  "session": ["28-2"],
+  "pubmin": "1969-10-23",
+  "label": "Senate Journals, 28th Parliament, 2nd Session : Vol. 116",
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "28-2", 1]],
+  "pubmax": "1970-10-07"
+}

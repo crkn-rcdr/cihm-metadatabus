@@ -1,1 +1,10 @@
-{"node":[["fra","s","journals","07-3",1]],"pubmax":"1893-04-01","type":"journals","chamber":["s"],"label":"Journaux du Sénat, 7e Législature, 3e Session : Vol. 27","pubmin":"1893-01-26","session":["07-3"],"language":["fra"]}
+{
+  "node": [["fra", "s", "journals", "07-3", 1]],
+  "pubmax": "1893-04-01",
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Journaux du Sénat, 7e Législature, 3e Session : Vol. 27",
+  "pubmin": "1893-01-26",
+  "session": ["07-3"],
+  "language": ["fra"]
+}

@@ -1,1 +1,11 @@
-{"label":"Sessional Papers, 3rd Parliament, 4th Session : vol. 6","pubmin":"1877-02-08","session":["03-4"],"language":["eng"],"node":[["eng","c","sessional","03-4",6]],"pubmax":"1877-04-28","type":"sessional","primeMinisters":"Mackenzie, Alexander","chamber":["c"]}
+{
+  "label": "Sessional Papers, 3rd Parliament, 4th Session : vol. 6",
+  "pubmin": "1877-02-08",
+  "session": ["03-4"],
+  "language": ["eng"],
+  "node": [["eng", "c", "sessional", "03-4", 6]],
+  "pubmax": "1877-04-28",
+  "type": "sessional",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"]
+}

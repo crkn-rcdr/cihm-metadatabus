@@ -1,1 +1,12 @@
-{"pubmax":"1921-06-04","node":[["eng","c","committees","13-5",1]],"type":"committees","chamber":["c"],"primeMinisters":"Meighen, Arthur","callNumber":"1921 C5 A1","label":"House of Commons Committees, 13th Parliament, 5th Session : Special Committee on the Civil Service Act, vol. 1","pubmin":"1921-02-14","session":["13-5"],"language":["eng"]}
+{
+  "pubmax": "1921-06-04",
+  "node": [["eng", "c", "committees", "13-5", 1]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Meighen, Arthur",
+  "callNumber": "1921 C5 A1",
+  "label": "House of Commons Committees, 13th Parliament, 5th Session : Special Committee on the Civil Service Act, vol. 1",
+  "pubmin": "1921-02-14",
+  "session": ["13-5"],
+  "language": ["eng"]
+}

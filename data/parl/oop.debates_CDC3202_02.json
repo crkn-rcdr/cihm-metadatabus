@@ -1,1 +1,11 @@
-{"type":"debates","pubmax":"1984-07-09","node":[["fra","c","debates","32-2",2]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)","pubmin":"1983-12-07","label":"Débats de la Chambre des communes, 32e Législature, 2e Session : Vol. 2","language":["fra"],"session":["32-2"]}
+{
+  "type": "debates",
+  "pubmax": "1984-07-09",
+  "node": [["fra", "c", "debates", "32-2", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "pubmin": "1983-12-07",
+  "label": "Débats de la Chambre des communes, 32e Législature, 2e Session : Vol. 2",
+  "language": ["fra"],
+  "session": ["32-2"]
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"Laurier, Wilfrid","chamber":["c"],"type":"committees","node":[["eng","c","committees","10-3",1]],"pubmax":"1907-04-27","language":["eng"],"session":["10-3"],"pubmin":"1906-11-22","label":"House of Commons Committees, 10th Parliament, 3rd Session : Select Standing Committee on Agriculture and Colonization, vol. 1","callNumber":"1906-1907 A3 A12"}
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "10-3", 1]],
+  "pubmax": "1907-04-27",
+  "language": ["eng"],
+  "session": ["10-3"],
+  "pubmin": "1906-11-22",
+  "label": "House of Commons Committees, 10th Parliament, 3rd Session : Select Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1906-1907 A3 A12"
+}

@@ -1,1 +1,11 @@
-{"session":["06-2"],"language":["eng"],"label":"Sessional Papers, 6th Parliament, 2nd Session : vol. 17","pubmin":"1888-02-23","chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmax":"1888-05-22","node":[["eng","c","sessional","06-2",17]],"type":"sessional"}
+{
+  "session": ["06-2"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 6th Parliament, 2nd Session : vol. 17",
+  "pubmin": "1888-02-23",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1888-05-22",
+  "node": [["eng", "c", "sessional", "06-2", 17]],
+  "type": "sessional"
+}

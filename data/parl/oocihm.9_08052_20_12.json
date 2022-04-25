@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","type":"sessional","pubmax":"1887-06-23","node":[["eng","c","sessional","06-1",12]],"language":["eng"],"session":["06-1"],"pubmin":"1887-04-13","label":"Sessional Papers, 6th Parliament, 1st Session : vol. 12"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "sessional",
+  "pubmax": "1887-06-23",
+  "node": [["eng", "c", "sessional", "06-1", 12]],
+  "language": ["eng"],
+  "session": ["06-1"],
+  "pubmin": "1887-04-13",
+  "label": "Sessional Papers, 6th Parliament, 1st Session : vol. 12"
+}

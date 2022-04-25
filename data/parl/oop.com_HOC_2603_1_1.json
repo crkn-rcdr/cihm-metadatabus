@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["26-3"],"pubmin":"1965-04-05","label":"House of Commons Committees, 26th Parliament, 3rd Session : Standing Committee on External Affairs, vol. 1","callNumber":"1965 E9 A1","primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"type":"committees","node":[["eng","c","committees","26-3",1]],"pubmax":"1965-09-08"}
+{
+  "language": ["eng"],
+  "session": ["26-3"],
+  "pubmin": "1965-04-05",
+  "label": "House of Commons Committees, 26th Parliament, 3rd Session : Standing Committee on External Affairs, vol. 1",
+  "callNumber": "1965 E9 A1",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "26-3", 1]],
+  "pubmax": "1965-09-08"
+}

@@ -1,1 +1,15 @@
-{"type":"committees","pubmax":"1988-10-01","node":[["eng","c","committees","33-2",150],["fra","c","committees","33-2",15]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1986-09-30","callNumber":"33-2 P68 A1","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee Private Members' Business, vol. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des affaires émanant des députés, vol. 1","language":["eng","fra"],"session":["33-2"]}
+{
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 150],
+    ["fra", "c", "committees", "33-2", 15]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 P68 A1",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee Private Members' Business, vol. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des affaires émanant des députés, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["33-2"]
+}

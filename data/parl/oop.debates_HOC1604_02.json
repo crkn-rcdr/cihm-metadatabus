@@ -1,1 +1,11 @@
-{"pubmax":"1930-05-30","node":[["eng","c","debates","16-4",2]],"type":"debates","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","label":"House of Commons Debates, 16th Parliament, 4th Session : Vol. 2","pubmin":"1930-02-20","session":["16-4"],"language":["eng"]}
+{
+  "pubmax": "1930-05-30",
+  "node": [["eng", "c", "debates", "16-4", 2]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "label": "House of Commons Debates, 16th Parliament, 4th Session : Vol. 2",
+  "pubmin": "1930-02-20",
+  "session": ["16-4"],
+  "language": ["eng"]
+}

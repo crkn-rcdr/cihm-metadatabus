@@ -1,1 +1,38 @@
-{"163":{"tagDescription":["Pecuniary Claims Proposed convention Fishing and Sealing Claims Newfoundland claims against United States Fishermen Claims of Cayuga Indians against State of New York "],"tagDate":["[1909-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"]},"1494":{"tagDate":["[1915-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],"tagDescription":["Pecuniary Claims Resumption of proceedings interrupted by the War. Payment of awards made by Anglo-American Pecuniary Claims Tribunal"]},"807":{"tagDescription":["Pecuniary Claims Convention Second schedule of claims for consideration by arbitration tribunal Appointment of Neutral arbitrator Expenses of Tribunal"],"tagDate":["[1912-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]},"1613":{"tagDate":["[1925-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["Anglo-American pecuniary Claims Tribunal Claims arising out the 1914-1918 War"]},"509":{"tagDate":["1911-01-01T00:00:00.000Z"],"tagDescription":["Pecuniary Claims United States and British Government including Canada and Newfoundland Claims for inclusion in first schedule to Pecuniary Claims agreement"]},"1284":{"tagDate":["[1921-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["Pecuniary Claims Resumption of proceedings interrupted by the War. Payment of awards made by Anglo-American Pecuniary Claims Tribunal"]}}
+{
+  "163": {
+    "tagDescription": [
+      "Pecuniary Claims Proposed convention Fishing and Sealing Claims Newfoundland claims against United States Fishermen Claims of Cayuga Indians against State of New York "
+    ],
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"]
+  },
+  "1494": {
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Pecuniary Claims Resumption of proceedings interrupted by the War. Payment of awards made by Anglo-American Pecuniary Claims Tribunal"
+    ]
+  },
+  "807": {
+    "tagDescription": [
+      "Pecuniary Claims Convention Second schedule of claims for consideration by arbitration tribunal Appointment of Neutral arbitrator Expenses of Tribunal"
+    ],
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]
+  },
+  "1613": {
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Anglo-American pecuniary Claims Tribunal Claims arising out the 1914-1918 War"
+    ]
+  },
+  "509": {
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Pecuniary Claims United States and British Government including Canada and Newfoundland Claims for inclusion in first schedule to Pecuniary Claims agreement"
+    ]
+  },
+  "1284": {
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Pecuniary Claims Resumption of proceedings interrupted by the War. Payment of awards made by Anglo-American Pecuniary Claims Tribunal"
+    ]
+  }
+}

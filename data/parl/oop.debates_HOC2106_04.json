@@ -1,1 +1,11 @@
-{"label":"House of Commons Debates, 21st Parliament, 6th Session : Vol. 4","pubmin":"1952-02-28","session":["21-6"],"language":["eng"],"node":[["eng","c","debates","21-6",4]],"pubmax":"1952-11-20","type":"debates","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"]}
+{
+  "label": "House of Commons Debates, 21st Parliament, 6th Session : Vol. 4",
+  "pubmin": "1952-02-28",
+  "session": ["21-6"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "21-6", 4]],
+  "pubmax": "1952-11-20",
+  "type": "debates",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

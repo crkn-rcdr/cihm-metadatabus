@@ -1,1 +1,11 @@
-{"node":[["eng","c","journals","06-2",1]],"pubmax":"1888-05-22","type":"journals","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"label":"House of Commons Journals, 6th Parliament, 2nd Session : Vol. 22","pubmin":"1888-02-23","session":["06-2"],"language":["eng"]}
+{
+  "node": [["eng", "c", "journals", "06-2", 1]],
+  "pubmax": "1888-05-22",
+  "type": "journals",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "label": "House of Commons Journals, 6th Parliament, 2nd Session : Vol. 22",
+  "pubmin": "1888-02-23",
+  "session": ["06-2"],
+  "language": ["eng"]
+}

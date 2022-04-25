@@ -1,1 +1,10 @@
-{"pubmin":"1973-01-04","label":"Débats du Sénat, 29e Législature, 1re Session : Vol. 2","language":["fra"],"session":["29-1"],"type":"debates","pubmax":"1974-02-26","node":[["fra","s","debates","29-1",2]],"chamber":["s"]}
+{
+  "pubmin": "1973-01-04",
+  "label": "Débats du Sénat, 29e Législature, 1re Session : Vol. 2",
+  "language": ["fra"],
+  "session": ["29-1"],
+  "type": "debates",
+  "pubmax": "1974-02-26",
+  "node": [["fra", "s", "debates", "29-1", 2]],
+  "chamber": ["s"]
+}

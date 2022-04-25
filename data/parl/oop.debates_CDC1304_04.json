@@ -1,1 +1,11 @@
-{"node":[["fra","c","debates","13-4",4]],"pubmax":"1920-07-01","type":"debates","primeMinisters":"Borden, Robert Laird","chamber":["c"],"label":"Débats de la Chambre des communes, 13e Législature, 4e Session : Vol. 4","pubmin":"1920-02-26","session":["13-4"],"language":["fra"]}
+{
+  "node": [["fra", "c", "debates", "13-4", 4]],
+  "pubmax": "1920-07-01",
+  "type": "debates",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "label": "Débats de la Chambre des communes, 13e Législature, 4e Session : Vol. 4",
+  "pubmin": "1920-02-26",
+  "session": ["13-4"],
+  "language": ["fra"]
+}

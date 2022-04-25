@@ -1,1 +1,11 @@
-{"session":["07-1"],"language":["eng"],"label":"Senate Committees, 7th Parliament, 1st Session : Select Committee on Railways, Telegraphs and Harbours, vol. 1","callNumber":"J103 H7 1891 R35 A1","pubmin":"1891-04-29","chamber":["s"],"node":[["eng","s","committees","07-1",1]],"pubmax":"1891-09-30","type":"committees"}
+{
+  "session": ["07-1"],
+  "language": ["eng"],
+  "label": "Senate Committees, 7th Parliament, 1st Session : Select Committee on Railways, Telegraphs and Harbours, vol. 1",
+  "callNumber": "J103 H7 1891 R35 A1",
+  "pubmin": "1891-04-29",
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "07-1", 1]],
+  "pubmax": "1891-09-30",
+  "type": "committees"
+}

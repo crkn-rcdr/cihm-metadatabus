@@ -1,1 +1,12 @@
-{"callNumber":"KE72 C36 19-6 2-4","label":"House of Commons Bills, 19th Parliament, 6th Session : 2-4","pubmin":"1945-03-19","session":["19-6"],"language":["eng"],"pubmax":"1945-04-16","node":[["eng","c","bills","19-6",1]],"type":"bills","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie"}
+{
+  "callNumber": "KE72 C36 19-6 2-4",
+  "label": "House of Commons Bills, 19th Parliament, 6th Session : 2-4",
+  "pubmin": "1945-03-19",
+  "session": ["19-6"],
+  "language": ["eng"],
+  "pubmax": "1945-04-16",
+  "node": [["eng", "c", "bills", "19-6", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

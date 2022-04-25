@@ -1,1 +1,11 @@
-{"pubmin":"1959-01-15","label":"Senate Committees, 24th Parliament, 2nd Session : Standing Committee on Canadian Trade Relations, vol. 1","callNumber":"1959 T7 A1","language":["eng"],"session":["24-2"],"type":"committees","node":[["eng","s","committees","24-2",8]],"pubmax":"1959-07-18","chamber":["s"]}
+{
+  "pubmin": "1959-01-15",
+  "label": "Senate Committees, 24th Parliament, 2nd Session : Standing Committee on Canadian Trade Relations, vol. 1",
+  "callNumber": "1959 T7 A1",
+  "language": ["eng"],
+  "session": ["24-2"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "24-2", 8]],
+  "pubmax": "1959-07-18",
+  "chamber": ["s"]
+}

@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","34-2",22],["fra","c","committees","34-2",149]],"pubmax":"1991-05-12","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-65, an Act to provide borrowing authority, vol. 1 no. 1-4 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-65, Loi portant pouvoir d'emprunt, vol. 1 no. 1-4","callNumber":"34-2 B57 A1 no.1-4","language":["eng","fra"],"session":["34-2"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 22],
+    ["fra", "c", "committees", "34-2", 149]
+  ],
+  "pubmax": "1991-05-12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-65, an Act to provide borrowing authority, vol. 1 no. 1-4 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-65, Loi portant pouvoir d'emprunt, vol. 1 no. 1-4",
+  "callNumber": "34-2 B57 A1 no.1-4",
+  "language": ["eng", "fra"],
+  "session": ["34-2"]
+}

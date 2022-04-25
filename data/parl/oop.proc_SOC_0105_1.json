@@ -1,1 +1,11 @@
-{"type":"sproc","node":[["eng","s","sproc","01-5",1]],"pubmax":"1872-06-14","chamber":["s"],"pubmin":"1872-04-11","label":"Senate Minutes of Proceedings, 1st Parliament, 5th Session : 1-41","callNumber":"J103 H4 1872","language":["eng"],"session":["01-5"]}
+{
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "01-5", 1]],
+  "pubmax": "1872-06-14",
+  "chamber": ["s"],
+  "pubmin": "1872-04-11",
+  "label": "Senate Minutes of Proceedings, 1st Parliament, 5th Session : 1-41",
+  "callNumber": "J103 H4 1872",
+  "language": ["eng"],
+  "session": ["01-5"]
+}

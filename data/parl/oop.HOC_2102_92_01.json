@@ -1,1 +1,11 @@
-{"type":"journals","pubmax":"1950-06-30","node":[["eng","c","journals","21-2",1]],"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmin":"1950-02-16","label":"House of Commons Journals, 21st Parliament, 2nd Session : Vol. 92","language":["eng"],"session":["21-2"]}
+{
+  "type": "journals",
+  "pubmax": "1950-06-30",
+  "node": [["eng", "c", "journals", "21-2", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmin": "1950-02-16",
+  "label": "House of Commons Journals, 21st Parliament, 2nd Session : Vol. 92",
+  "language": ["eng"],
+  "session": ["21-2"]
+}

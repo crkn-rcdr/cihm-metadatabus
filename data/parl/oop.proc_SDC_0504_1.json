@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"sproc","node":[["fra","s","sproc","05-4",1]],"pubmax":"1886-06-02","language":["fra"],"session":["05-4"],"pubmin":"1886-02-25","label":"Procès-verbaux du Sénat, 5e Législature, 4e Session : 1-52","callNumber":"J103 H43 1886"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "05-4", 1]],
+  "pubmax": "1886-06-02",
+  "language": ["fra"],
+  "session": ["05-4"],
+  "pubmin": "1886-02-25",
+  "label": "Procès-verbaux du Sénat, 5e Législature, 4e Session : 1-52",
+  "callNumber": "J103 H43 1886"
+}

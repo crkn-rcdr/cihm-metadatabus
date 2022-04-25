@@ -1,1 +1,12 @@
-{"node":[["fra","c","committees","19-1",3]],"pubmax":"1940-11-05","type":"committees","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"label":"Comités de la Chambre des communes, 19e Législature, 1re Session : Comité permanent des chemins de fer et de la marine marchande que le Gouvernement possède, exploite et contrôle, vol. 1","callNumber":"1940 C44 A4","pubmin":"1940-05-16","session":["19-1"],"language":["fra"]}
+{
+  "node": [["fra", "c", "committees", "19-1", 3]],
+  "pubmax": "1940-11-05",
+  "type": "committees",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "label": "Comités de la Chambre des communes, 19e Législature, 1re Session : Comité permanent des chemins de fer et de la marine marchande que le Gouvernement possède, exploite et contrôle, vol. 1",
+  "callNumber": "1940 C44 A4",
+  "pubmin": "1940-05-16",
+  "session": ["19-1"],
+  "language": ["fra"]
+}

@@ -1,1 +1,134 @@
-{"50":{"tagPerson":["Morton, T. L. "],"tagDate":["1901-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"403":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Murray, H. M. "],"tagDate":["1901-01-01T00:00:00.000Z"]},"413":{"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Murray, W. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"362":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Munroe, C. B. "]},"767":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Oliver, F. "],"tagDate":["1901-01-01T00:00:00.000Z"]},"18":{"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Morrow, J. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"356":{"tagPerson":["Munn, D. J. "],"tagDate":["1901-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"659":{"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["O"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"75":{"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Muir, R. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"3":{"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Morrison, A. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"615":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Nicol, T. "]},"586":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Newcombe, E. L. "],"tagDate":["1901-01-01T00:00:00.000Z"]},"374":{"tagPerson":["Murphy, C. "],"tagDate":["1901-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"549":{"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Nelson, J. R. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"621":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Norris, T. C. "],"tagDate":["1901-01-01T00:00:00.000Z"]},"738":{"tagPerson":["O'Brien, M. E. "],"tagDate":["1901-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"470":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["N"],"tagDate":["1901-01-01T00:00:00.000Z"]},"185":{"tagPerson":["Mulock, W. "],"tagDate":["1901-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"421":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Myers, R. H. "]},"63":{"tagDate":["1901-01-01T00:00:00.000Z"],"tagPerson":["Motherwell, W. R. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"753":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["O'Leary, H. "],"tagDate":["1901-01-01T00:00:00.000Z"]},"745":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["O'Hara, F. C. T. "],"tagDate":["1901-01-01T00:00:00.000Z"]}}
+{
+  "50": {
+    "tagPerson": ["Morton, T. L. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "403": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Murray, H. M. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  },
+  "413": {
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Murray, W. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "362": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Munroe, C. B. "]
+  },
+  "767": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Oliver, F. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  },
+  "18": {
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Morrow, J. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "356": {
+    "tagPerson": ["Munn, D. J. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "659": {
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["O"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "75": {
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Muir, R. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "3": {
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Morrison, A. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "615": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Nicol, T. "]
+  },
+  "586": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Newcombe, E. L. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  },
+  "374": {
+    "tagPerson": ["Murphy, C. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "549": {
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Nelson, J. R. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "621": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Norris, T. C. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  },
+  "738": {
+    "tagPerson": ["O'Brien, M. E. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "470": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["N"],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  },
+  "185": {
+    "tagPerson": ["Mulock, W. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "421": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Myers, R. H. "]
+  },
+  "63": {
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagPerson": ["Motherwell, W. R. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "753": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["O'Leary, H. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  },
+  "745": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["O'Hara, F. C. T. "],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  }
+}

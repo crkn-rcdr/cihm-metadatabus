@@ -1,1 +1,11 @@
-{"session":["07-2"],"language":["eng"],"label":"Sessional Papers, 7th Parliament, 2nd Session : vol. 9","pubmin":"1892-02-25","primeMinisters":"Abbott, John Joseph Caldwell","chamber":["c"],"node":[["eng","c","sessional","07-2",9]],"pubmax":"1892-07-09","type":"sessional"}
+{
+  "session": ["07-2"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 7th Parliament, 2nd Session : vol. 9",
+  "pubmin": "1892-02-25",
+  "primeMinisters": "Abbott, John Joseph Caldwell",
+  "chamber": ["c"],
+  "node": [["eng", "c", "sessional", "07-2", 9]],
+  "pubmax": "1892-07-09",
+  "type": "sessional"
+}

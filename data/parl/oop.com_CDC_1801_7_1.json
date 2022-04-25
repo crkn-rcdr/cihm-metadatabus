@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["18-1"],"pubmin":"1936-02-06","label":"Comités de la Chambre des communes, 18e Législature, 1re Session : Comité spécial d'enquête sur la Commission canadienne de la radiodiffusion, vol. 1","callNumber":"1936 R33 A4","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"committees","node":[["fra","c","committees","18-1",7]],"pubmax":"1936-06-23"}
+{
+  "language": ["fra"],
+  "session": ["18-1"],
+  "pubmin": "1936-02-06",
+  "label": "Comités de la Chambre des communes, 18e Législature, 1re Session : Comité spécial d'enquête sur la Commission canadienne de la radiodiffusion, vol. 1",
+  "callNumber": "1936 R33 A4",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "18-1", 7]],
+  "pubmax": "1936-06-23"
+}

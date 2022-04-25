@@ -1,1 +1,10 @@
-{"session":["25-1"],"language":["fra"],"label":"Journaux du Sénat, 25e Législature, 1re Session : Vol. 109","pubmin":"1962-09-27","chamber":["s"],"node":[["fra","s","journals","25-1",1]],"pubmax":"1963-02-06","type":"journals"}
+{
+  "session": ["25-1"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 25e Législature, 1re Session : Vol. 109",
+  "pubmin": "1962-09-27",
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "25-1", 1]],
+  "pubmax": "1963-02-06",
+  "type": "journals"
+}

@@ -1,1 +1,12 @@
-{"pubmin":"1906-11-22","label":"Procès-verbaux de la Chambre des communes, 10e Législature, 3e Session : 1-95","callNumber":"J103 H44 1906-07","language":["fra"],"session":["10-3"],"type":"cproc","node":[["fra","c","cproc","10-3",1]],"pubmax":"1907-04-27","primeMinisters":"Laurier, Wilfrid","chamber":["c"]}
+{
+  "pubmin": "1906-11-22",
+  "label": "Procès-verbaux de la Chambre des communes, 10e Législature, 3e Session : 1-95",
+  "callNumber": "J103 H44 1906-07",
+  "language": ["fra"],
+  "session": ["10-3"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "10-3", 1]],
+  "pubmax": "1907-04-27",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

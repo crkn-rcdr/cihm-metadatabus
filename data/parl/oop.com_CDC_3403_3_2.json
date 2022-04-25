@@ -1,1 +1,13 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1993-09-08","node":[["fra","c","committees","34-3",72]],"reportTitle":["Loi sur les douanes"],"language":["fra"],"session":["34-3"],"pubmin":"1991-05-13","callNumber":"34-3 A24 A12","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité spécial chargé de l'examen de la Loi concernant les Douanes, Rapport"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "committees", "34-3", 72]],
+  "reportTitle": ["Loi sur les douanes"],
+  "language": ["fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 A24 A12",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité spécial chargé de l'examen de la Loi concernant les Douanes, Rapport"
+}

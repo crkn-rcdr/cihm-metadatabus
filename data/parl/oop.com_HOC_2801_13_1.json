@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1969-10-22","node":[["eng","c","committees","28-1",22],["fra","c","committees","28-1",20]],"language":["eng","fra"],"session":["28-1"],"pubmin":"1968-09-12","callNumber":"1968/69 L3 A1","label":"House of Commons Committees, 28th Parliament, 1st Session : Special Committee on the Official Languages Bill, vol. 1 = Comités de la Chambre des communes, 28e Législature, 1re Session : Comité spécial concernant le bill relatif aux langues officielles, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1969-10-22",
+  "node": [
+    ["eng", "c", "committees", "28-1", 22],
+    ["fra", "c", "committees", "28-1", 20]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["28-1"],
+  "pubmin": "1968-09-12",
+  "callNumber": "1968/69 L3 A1",
+  "label": "House of Commons Committees, 28th Parliament, 1st Session : Special Committee on the Official Languages Bill, vol. 1 = Comités de la Chambre des communes, 28e Législature, 1re Session : Comité spécial concernant le bill relatif aux langues officielles, vol. 1"
+}

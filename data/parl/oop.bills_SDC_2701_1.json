@@ -1,1 +1,11 @@
-{"type":"bills","pubmax":"1967-05-08","node":[["fra","s","bills","27-1",1]],"chamber":["s"],"pubmin":"1966-01-18","callNumber":"KE72 C381 27-1 S2-S60","label":"Projets de loi du Sénat, 27e Législature, 1re Session : S2-S60","language":["fra"],"session":["27-1"]}
+{
+  "type": "bills",
+  "pubmax": "1967-05-08",
+  "node": [["fra", "s", "bills", "27-1", 1]],
+  "chamber": ["s"],
+  "pubmin": "1966-01-18",
+  "callNumber": "KE72 C381 27-1 S2-S60",
+  "label": "Projets de loi du Sénat, 27e Législature, 1re Session : S2-S60",
+  "language": ["fra"],
+  "session": ["27-1"]
+}

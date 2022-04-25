@@ -1,1 +1,11 @@
-{"pubmin":"1953-11-12","callNumber":"KE72 C38 22-1 v.1","label":"Senate Bills, 22nd Parliament, 1st Session : B-N8","language":["eng"],"session":["22-1"],"type":"bills","pubmax":"1954-06-26","node":[["eng","s","bills","22-1",1]],"chamber":["s"]}
+{
+  "pubmin": "1953-11-12",
+  "callNumber": "KE72 C38 22-1 v.1",
+  "label": "Senate Bills, 22nd Parliament, 1st Session : B-N8",
+  "language": ["eng"],
+  "session": ["22-1"],
+  "type": "bills",
+  "pubmax": "1954-06-26",
+  "node": [["eng", "s", "bills", "22-1", 1]],
+  "chamber": ["s"]
+}

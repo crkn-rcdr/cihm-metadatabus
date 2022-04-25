@@ -1,1 +1,13 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["fra","c","committees","33-2",86]],"pubmax":"1988-10-01","language":["fra"],"reportTitle":["Démystification de l'énergie nucléaire"],"session":["33-2"],"pubmin":"1986-09-30","label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de l'énergie, des mines et des ressources, Dixième rapport","callNumber":"33-2 E554 A122"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "33-2", 86]],
+  "pubmax": "1988-10-01",
+  "language": ["fra"],
+  "reportTitle": ["Démystification de l'énergie nucléaire"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de l'énergie, des mines et des ressources, Dixième rapport",
+  "callNumber": "33-2 E554 A122"
+}

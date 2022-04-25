@@ -1,1 +1,15 @@
-{"pubmin":"1983-12-07","callNumber":"1983/84 E9 A1 no.16-29","label":"House of Commons Committees, 32nd Parliament, 2nd Session : Standing Committee on External Affairs and National Defence, vol. 2 no. 16-29 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité permanent des affaires extérieures et de la Défense nationale, vol. 2 no. 16-29","language":["eng","fra"],"session":["32-2"],"type":"committees","pubmax":"1984-07-09","node":[["eng","c","committees","32-2",7],["fra","c","committees","32-2",3]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)"}
+{
+  "pubmin": "1983-12-07",
+  "callNumber": "1983/84 E9 A1 no.16-29",
+  "label": "House of Commons Committees, 32nd Parliament, 2nd Session : Standing Committee on External Affairs and National Defence, vol. 2 no. 16-29 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité permanent des affaires extérieures et de la Défense nationale, vol. 2 no. 16-29",
+  "language": ["eng", "fra"],
+  "session": ["32-2"],
+  "type": "committees",
+  "pubmax": "1984-07-09",
+  "node": [
+    ["eng", "c", "committees", "32-2", 7],
+    ["fra", "c", "committees", "32-2", 3]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)"
+}

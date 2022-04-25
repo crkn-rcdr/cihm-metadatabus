@@ -1,1 +1,14 @@
-{"language":["eng","fra"],"session":["30-2"],"pubmin":"1976-10-12","label":"Senate Committees, 30th Parliament, 2nd Session : Special Committee on the Clerestory of the Senate Chamber, vol. 1 = Comités du Sénat, 30e Législature, 2e Session : Comité spécial de la claire-voie du Sénat, vol. 1","callNumber":"1976/77 C4 A1","chamber":["s"],"type":"committees","node":[["eng","s","committees","30-2",6],["fra","s","committees","30-2",7]],"pubmax":"1977-10-17"}
+{
+  "language": ["eng", "fra"],
+  "session": ["30-2"],
+  "pubmin": "1976-10-12",
+  "label": "Senate Committees, 30th Parliament, 2nd Session : Special Committee on the Clerestory of the Senate Chamber, vol. 1 = Comités du Sénat, 30e Législature, 2e Session : Comité spécial de la claire-voie du Sénat, vol. 1",
+  "callNumber": "1976/77 C4 A1",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "30-2", 6],
+    ["fra", "s", "committees", "30-2", 7]
+  ],
+  "pubmax": "1977-10-17"
+}

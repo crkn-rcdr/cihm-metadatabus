@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","pubmax":"1947-07-17","node":[["fra","s","journals","20-3",1]],"language":["fra"],"session":["20-3"],"pubmin":"1947-01-30","label":"Journaux du Sénat, 20e Législature, 3e Session : Vol. 88"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1947-07-17",
+  "node": [["fra", "s", "journals", "20-3", 1]],
+  "language": ["fra"],
+  "session": ["20-3"],
+  "pubmin": "1947-01-30",
+  "label": "Journaux du Sénat, 20e Législature, 3e Session : Vol. 88"
+}

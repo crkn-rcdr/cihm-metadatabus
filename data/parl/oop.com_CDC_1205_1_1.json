@@ -1,1 +1,12 @@
-{"type":"committees","node":[["fra","c","committees","12-5",1]],"pubmax":"1915-04-15","primeMinisters":"Borden, Robert Laird","chamber":["c"],"pubmin":"1915-02-04","label":"Comités de la Chambre des communes, 12e Législature, 5e Session : Comité spécial d'enquête sur les chaussures fournies au ministère de la milice et de la défense, vol. 1","callNumber":"1915 C43 A4","language":["fra"],"session":["12-5"]}
+{
+  "type": "committees",
+  "node": [["fra", "c", "committees", "12-5", 1]],
+  "pubmax": "1915-04-15",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "pubmin": "1915-02-04",
+  "label": "Comités de la Chambre des communes, 12e Législature, 5e Session : Comité spécial d'enquête sur les chaussures fournies au ministère de la milice et de la défense, vol. 1",
+  "callNumber": "1915 C43 A4",
+  "language": ["fra"],
+  "session": ["12-5"]
+}

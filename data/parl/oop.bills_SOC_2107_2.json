@@ -1,1 +1,11 @@
-{"pubmax":"1953-05-14","node":[["eng","s","bills","21-7",2]],"type":"bills","chamber":["s"],"callNumber":"KE72 C38 21-7 v.2","label":"Senate Bills, 21st Parliament, 7th Session : A4-F12","pubmin":"1952-11-20","session":["21-7"],"language":["eng"]}
+{
+  "pubmax": "1953-05-14",
+  "node": [["eng", "s", "bills", "21-7", 2]],
+  "type": "bills",
+  "chamber": ["s"],
+  "callNumber": "KE72 C38 21-7 v.2",
+  "label": "Senate Bills, 21st Parliament, 7th Session : A4-F12",
+  "pubmin": "1952-11-20",
+  "session": ["21-7"],
+  "language": ["eng"]
+}

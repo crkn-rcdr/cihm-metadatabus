@@ -1,1 +1,11 @@
-{"pubmin":"1899-03-16","label":"Sessional Papers, 8th Parliament, 4th Session : vol. 1","language":["eng"],"session":["08-4"],"type":"sessional","pubmax":"1899-08-11","node":[["eng","c","sessional","08-4",1]],"chamber":["c"],"primeMinisters":"Laurier, Wilfrid"}
+{
+  "pubmin": "1899-03-16",
+  "label": "Sessional Papers, 8th Parliament, 4th Session : vol. 1",
+  "language": ["eng"],
+  "session": ["08-4"],
+  "type": "sessional",
+  "pubmax": "1899-08-11",
+  "node": [["eng", "c", "sessional", "08-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

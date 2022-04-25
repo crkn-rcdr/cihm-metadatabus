@@ -1,1 +1,15 @@
-{"type":"committees","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",88]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1989-04-03","callNumber":"34-2 F553 A12","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Finance, Report","language":["eng"],"reportTitle":["Report on the Technical Paper on the Goods and Services Tax"],"session":["34-2"]}
+{
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["eng", "c", "committees", "34-2", 88]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 F553 A12",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Finance, Report",
+  "language": ["eng"],
+  "reportTitle": [
+    "Report on the Technical Paper on the Goods and Services Tax"
+  ],
+  "session": ["34-2"]
+}

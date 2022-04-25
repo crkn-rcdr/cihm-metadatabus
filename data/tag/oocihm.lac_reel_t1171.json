@@ -1,1 +1,56 @@
-{"81":{"tagDescription":["Transfer of Admiralty properties at Halifax and Esquimalt to Dominion authorities"],"tagDate":["[1905-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]},"16":{"tagDate":["[1902-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Extradition Treaty between Great Britain and Belgium"]},"1538":{"tagDate":["[1874-01-01T00:00:00.000Z TO 1900-12-31T23:59:59.999Z]"],"tagDescription":["Treaty of commerce and navigation between Great Britain and France"]},"851":{"tagDate":["[1924-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"],"tagDescription":["Ibid"]},"562":{"tagDate":["[1906-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"],"tagDescription":["Grant of Royal Bounty for assistance of married women who have given birth to triplets"]},"1714":{"tagDescription":["Commercial relations between Canada and France"],"tagDate":["[1904-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"]},"1259":{"tagDate":["[1904-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"],"tagDescription":["Poll tax exacted from British subjects by United States authorities upon entrance into the United States. Treatment accorded to Canadians entering the US by US immigration Offices"]},"1478":{"tagDate":["[1891-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"],"tagDescription":["Prohibition of exportation of nickel ore or matter from Canada in time of national emergency -Retention under British Control of the working of nickel bearing properties in Ontario"]},"290":{"tagDescription":["Supreme Courts of appeal for the Empire (Colonial Court of Appeal) -Representation of the Dominions on the judicial committee of the Privy Council -Rules regulating practice and procedures in appeals to His Majestys Privy Council -Canadian bill to abolish appeals from Canada to the Privy Council"],"tagDate":["[1901-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]},"1397":{"tagDescription":["Claim of Mr. John Cummings to certain land in Portage La Prairie, Manitoba"],"tagDate":["[1887-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"]}}
+{
+  "81": {
+    "tagDescription": [
+      "Transfer of Admiralty properties at Halifax and Esquimalt to Dominion authorities"
+    ],
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]
+  },
+  "16": {
+    "tagDate": ["[1902-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Extradition Treaty between Great Britain and Belgium"]
+  },
+  "1538": {
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1900-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Treaty of commerce and navigation between Great Britain and France"
+    ]
+  },
+  "851": {
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid"]
+  },
+  "562": {
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Grant of Royal Bounty for assistance of married women who have given birth to triplets"
+    ]
+  },
+  "1714": {
+    "tagDescription": ["Commercial relations between Canada and France"],
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"]
+  },
+  "1259": {
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Poll tax exacted from British subjects by United States authorities upon entrance into the United States. Treatment accorded to Canadians entering the US by US immigration Offices"
+    ]
+  },
+  "1478": {
+    "tagDate": ["[1891-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Prohibition of exportation of nickel ore or matter from Canada in time of national emergency -Retention under British Control of the working of nickel bearing properties in Ontario"
+    ]
+  },
+  "290": {
+    "tagDescription": [
+      "Supreme Courts of appeal for the Empire (Colonial Court of Appeal) -Representation of the Dominions on the judicial committee of the Privy Council -Rules regulating practice and procedures in appeals to His Majestys Privy Council -Canadian bill to abolish appeals from Canada to the Privy Council"
+    ],
+    "tagDate": ["[1901-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]
+  },
+  "1397": {
+    "tagDescription": [
+      "Claim of Mr. John Cummings to certain land in Portage La Prairie, Manitoba"
+    ],
+    "tagDate": ["[1887-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"]
+  }
+}

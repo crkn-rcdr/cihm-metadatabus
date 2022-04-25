@@ -1,1 +1,17 @@
-{"session":["34-3"],"language":["eng","fra"],"callNumber":"34-3 R485 A1 no.1-18","label":"Joint Committees, 34th Parliament, 3rd Session : Special Joint Committee on a Renewed Canada, vol. 1 = Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial sur le renouvellement du Canada, vol. 1","pubmin":"1991-05-13","chamber":["c","s"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",189],["fra","c","committees","34-3",181],["eng","s","committees","34-3",30],["fra","s","committees","34-3",43]],"type":"committees"}
+{
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-3 R485 A1 no.1-18",
+  "label": "Joint Committees, 34th Parliament, 3rd Session : Special Joint Committee on a Renewed Canada, vol. 1 = Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial sur le renouvellement du Canada, vol. 1",
+  "pubmin": "1991-05-13",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 189],
+    ["fra", "c", "committees", "34-3", 181],
+    ["eng", "s", "committees", "34-3", 30],
+    ["fra", "s", "committees", "34-3", 43]
+  ],
+  "type": "committees"
+}

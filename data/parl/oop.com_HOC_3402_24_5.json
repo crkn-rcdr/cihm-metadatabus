@@ -1,1 +1,13 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","34-2",44]],"pubmax":"1991-05-12","type":"committees","session":["34-2"],"language":["eng"],"reportTitle":["Charge it: Credit Cards and the Canadian Consumer"],"label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Consumer and Corporate Affairs and Government Operations, First Report","callNumber":"34-2 C662 A12","pubmin":"1989-04-03"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "34-2", 44]],
+  "pubmax": "1991-05-12",
+  "type": "committees",
+  "session": ["34-2"],
+  "language": ["eng"],
+  "reportTitle": ["Charge it: Credit Cards and the Canadian Consumer"],
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Consumer and Corporate Affairs and Government Operations, First Report",
+  "callNumber": "34-2 C662 A12",
+  "pubmin": "1989-04-03"
+}

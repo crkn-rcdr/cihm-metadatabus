@@ -1,1 +1,10 @@
-{"chamber":["s"],"node":[["fra","s","journals","11-2",1]],"pubmax":"1910-05-04","type":"journals","session":["11-2"],"language":["fra"],"label":"Journaux du Sénat, 11e Législature, 2e Session : Vol. 45","pubmin":"1909-11-11"}
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "11-2", 1]],
+  "pubmax": "1910-05-04",
+  "type": "journals",
+  "session": ["11-2"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 11e Législature, 2e Session : Vol. 45",
+  "pubmin": "1909-11-11"
+}

@@ -1,1 +1,12 @@
-{"type":"bills","pubmax":"1968-04-23","node":[["eng","c","bills","27-2",2]],"chamber":["c"],"primeMinisters":"Pearson, Lester Bowles (1967-05-08 - 1968-04-19), Trudeau, Pierre Elliott (1968-04-20 - 1968-04-23)","pubmin":"1967-05-08","callNumber":"KE72 C36 27-2 C146-C212","label":"House of Commons Bills, 27th Parliament, 2nd Session : C146-C212","language":["eng"],"session":["27-2"]}
+{
+  "type": "bills",
+  "pubmax": "1968-04-23",
+  "node": [["eng", "c", "bills", "27-2", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles (1967-05-08 - 1968-04-19), Trudeau, Pierre Elliott (1968-04-20 - 1968-04-23)",
+  "pubmin": "1967-05-08",
+  "callNumber": "KE72 C36 27-2 C146-C212",
+  "label": "House of Commons Bills, 27th Parliament, 2nd Session : C146-C212",
+  "language": ["eng"],
+  "session": ["27-2"]
+}

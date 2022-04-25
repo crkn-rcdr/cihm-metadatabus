@@ -1,1 +1,11 @@
-{"session":["24-5"],"language":["eng"],"label":"House of Commons Debates, 24th Parliament, 5th Session : Vol. 1","pubmin":"1962-01-18","primeMinisters":"Diefenbaker, John George","chamber":["c"],"node":[["eng","c","debates","24-5",1]],"pubmax":"1962-04-19","type":"debates"}
+{
+  "session": ["24-5"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 24th Parliament, 5th Session : Vol. 1",
+  "pubmin": "1962-01-18",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "24-5", 1]],
+  "pubmax": "1962-04-19",
+  "type": "debates"
+}

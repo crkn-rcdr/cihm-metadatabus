@@ -1,1 +1,11 @@
-{"session":["28-1"],"language":["eng"],"callNumber":"1968/69 S3 A1 v.2","label":"Senate Committees, 28th Parliament, 1st Session : Special Committee on Science Policy, vol. 2","pubmin":"1968-09-12","chamber":["s"],"pubmax":"1969-10-22","node":[["eng","s","committees","28-1",10]],"type":"committees"}
+{
+  "session": ["28-1"],
+  "language": ["eng"],
+  "callNumber": "1968/69 S3 A1 v.2",
+  "label": "Senate Committees, 28th Parliament, 1st Session : Special Committee on Science Policy, vol. 2",
+  "pubmin": "1968-09-12",
+  "chamber": ["s"],
+  "pubmax": "1969-10-22",
+  "node": [["eng", "s", "committees", "28-1", 10]],
+  "type": "committees"
+}

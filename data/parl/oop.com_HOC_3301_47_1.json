@@ -1,1 +1,15 @@
-{"label":"House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-75, an Act to amend the Canada Shipping Act and to amend the Arctic Waters Pollution Prevention Act, the Maritime Code Act and the Oil and Gas Production and Conservation Act in consequence thereof, vol. 1 no. 1-18 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-75, Loi modifiant la Loi sur la marine marchande du Canada et, en conséquence, la Loi sur la prévention de la pollution des eaux arctiques, la Loi sur le Code maritime et la Loi sur la production et la conservation du pétrole et du gaz, vol. 1 no. 1-18","callNumber":"33-1 M34 A1 no.1-18","pubmin":"1984-11-05","session":["33-1"],"language":["eng","fra"],"node":[["eng","c","committees","33-1",100],["fra","c","committees","33-1",83]],"pubmax":"1986-08-28","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-75, an Act to amend the Canada Shipping Act and to amend the Arctic Waters Pollution Prevention Act, the Maritime Code Act and the Oil and Gas Production and Conservation Act in consequence thereof, vol. 1 no. 1-18 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-75, Loi modifiant la Loi sur la marine marchande du Canada et, en conséquence, la Loi sur la prévention de la pollution des eaux arctiques, la Loi sur le Code maritime et la Loi sur la production et la conservation du pétrole et du gaz, vol. 1 no. 1-18",
+  "callNumber": "33-1 M34 A1 no.1-18",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "33-1", 100],
+    ["fra", "c", "committees", "33-1", 83]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

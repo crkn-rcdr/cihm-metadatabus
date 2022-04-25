@@ -1,1 +1,15 @@
-{"node":[["eng","c","committees","32-2",13],["fra","c","committees","32-2",16]],"pubmax":"1984-07-09","type":"committees","primeMinisters":"Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)","chamber":["c"],"label":"House of Commons Committees, 32nd Parliament, 2nd Session : Standing Committee on Justice and Legal Affairs, vol. 1 no. 1-20 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité permanent de la justice et des questions juridiques, vol. 1 no. 1-20","callNumber":"1983/84 J8 A1 no.1-20","pubmin":"1983-12-07","session":["32-2"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "c", "committees", "32-2", 13],
+    ["fra", "c", "committees", "32-2", 16]
+  ],
+  "pubmax": "1984-07-09",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 32nd Parliament, 2nd Session : Standing Committee on Justice and Legal Affairs, vol. 1 no. 1-20 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité permanent de la justice et des questions juridiques, vol. 1 no. 1-20",
+  "callNumber": "1983/84 J8 A1 no.1-20",
+  "pubmin": "1983-12-07",
+  "session": ["32-2"],
+  "language": ["eng", "fra"]
+}

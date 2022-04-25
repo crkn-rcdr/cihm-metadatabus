@@ -1,1 +1,15 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["eng","c","committees","32-1",97],["fra","c","committees","32-1",79]],"pubmax":"1983-11-30","type":"committees","session":["32-1"],"language":["eng","fra"],"label":"House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Justice and Legal Affairs, vol. 6 no. 108-134 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité permanent de la justice et des questions juridiques, vol. 6 no. 108-134","callNumber":"1980/83 J8 A1 no.108-134","pubmin":"1980-04-14"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "32-1", 97],
+    ["fra", "c", "committees", "32-1", 79]
+  ],
+  "pubmax": "1983-11-30",
+  "type": "committees",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Justice and Legal Affairs, vol. 6 no. 108-134 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité permanent de la justice et des questions juridiques, vol. 6 no. 108-134",
+  "callNumber": "1980/83 J8 A1 no.108-134",
+  "pubmin": "1980-04-14"
+}

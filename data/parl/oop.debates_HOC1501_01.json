@@ -1,1 +1,11 @@
-{"pubmin":"1926-01-07","label":"House of Commons Debates, 15th Parliament, 1st Session : Vol. 1","language":["eng"],"session":["15-1"],"type":"debates","pubmax":"1926-07-02","node":[["eng","c","debates","15-1",1]],"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie (1926-01-07 - 1926-06-28), Meighen, Arthur (1926-06-29 - 1926-07-02)"}
+{
+  "pubmin": "1926-01-07",
+  "label": "House of Commons Debates, 15th Parliament, 1st Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["15-1"],
+  "type": "debates",
+  "pubmax": "1926-07-02",
+  "node": [["eng", "c", "debates", "15-1", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie (1926-01-07 - 1926-06-28), Meighen, Arthur (1926-06-29 - 1926-07-02)"
+}

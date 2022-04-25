@@ -1,1 +1,17 @@
-{"language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","label":"Joint Committees, 34th Parliament, 3rd Session : Standing Joint Committee for the Scrutiny of Regulations, vol. 3 = Comités mixtes, 34e Législature, 3e Session : Comité mixte permanent d'examen de la réglementation, vol. 3","callNumber":"34-3 S35 A1 no.16-22","primeMinisters":"Mulroney, Martin Brian","chamber":["c","s"],"type":"committees","node":[["eng","c","committees","34-3",199],["fra","c","committees","34-3",105],["eng","s","committees","34-3",38],["fra","s","committees","34-3",30]],"pubmax":"1993-09-08"}
+{
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "Joint Committees, 34th Parliament, 3rd Session : Standing Joint Committee for the Scrutiny of Regulations, vol. 3 = Comités mixtes, 34e Législature, 3e Session : Comité mixte permanent d'examen de la réglementation, vol. 3",
+  "callNumber": "34-3 S35 A1 no.16-22",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 199],
+    ["fra", "c", "committees", "34-3", 105],
+    ["eng", "s", "committees", "34-3", 38],
+    ["fra", "s", "committees", "34-3", 30]
+  ],
+  "pubmax": "1993-09-08"
+}

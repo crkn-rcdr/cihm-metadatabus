@@ -1,1 +1,12 @@
-{"type":"committees","node":[["fra","c","committees","24-4",9]],"pubmax":"1961-09-29","primeMinisters":"Diefenbaker, John George","chamber":["c"],"pubmin":"1960-11-17","label":"Comités de la Chambre des communes, 24e Législature, 4e Session : Comité permanent des comptes publics, vol. 1","callNumber":"1960/61 C6 A4","language":["fra"],"session":["24-4"]}
+{
+  "type": "committees",
+  "node": [["fra", "c", "committees", "24-4", 9]],
+  "pubmax": "1961-09-29",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "pubmin": "1960-11-17",
+  "label": "Comités de la Chambre des communes, 24e Législature, 4e Session : Comité permanent des comptes publics, vol. 1",
+  "callNumber": "1960/61 C6 A4",
+  "language": ["fra"],
+  "session": ["24-4"]
+}

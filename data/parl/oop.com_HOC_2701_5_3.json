@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","type":"committees","pubmax":"1967-05-08","node":[["eng","c","committees","27-1",21]],"language":["eng"],"session":["27-1"],"pubmin":"1966-01-18","callNumber":"1966/67 F55 A1 v.3","label":"House of Commons Committees, 27th Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 3"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "type": "committees",
+  "pubmax": "1967-05-08",
+  "node": [["eng", "c", "committees", "27-1", 21]],
+  "language": ["eng"],
+  "session": ["27-1"],
+  "pubmin": "1966-01-18",
+  "callNumber": "1966/67 F55 A1 v.3",
+  "label": "House of Commons Committees, 27th Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 3"
+}

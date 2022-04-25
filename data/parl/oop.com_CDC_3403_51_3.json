@@ -1,1 +1,13 @@
-{"pubmin":"1991-05-13","callNumber":"34-3 H432 A12","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la santé et du bien-être social, des affaires sociales, du troisième âge et de la condition féminine, Premier rapport","language":["fra"],"reportTitle":["La guerre contre les femmes"],"session":["34-3"],"type":"committees","pubmax":"1993-09-08","node":[["fra","c","committees","34-3",193]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 H432 A12",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la santé et du bien-être social, des affaires sociales, du troisième âge et de la condition féminine, Premier rapport",
+  "language": ["fra"],
+  "reportTitle": ["La guerre contre les femmes"],
+  "session": ["34-3"],
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "committees", "34-3", 193]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

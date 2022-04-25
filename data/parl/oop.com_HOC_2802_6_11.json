@@ -1,1 +1,15 @@
-{"pubmin":"1969-10-23","callNumber":"1969/70 F55 A1 v.11","label":"House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 11 no. 90-93 = Comités de la Chambre des communes, 28e Législature, 2e Session : Comité permanent des finances, du commerce et des questions économiques, vol. 11 no. 90-93","language":["eng","fra"],"session":["28-2"],"type":"committees","pubmax":"1970-10-07","node":[["eng","c","committees","28-2",21],["fra","c","committees","28-2",25]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "pubmin": "1969-10-23",
+  "callNumber": "1969/70 F55 A1 v.11",
+  "label": "House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 11 no. 90-93 = Comités de la Chambre des communes, 28e Législature, 2e Session : Comité permanent des finances, du commerce et des questions économiques, vol. 11 no. 90-93",
+  "language": ["eng", "fra"],
+  "session": ["28-2"],
+  "type": "committees",
+  "pubmax": "1970-10-07",
+  "node": [
+    ["eng", "c", "committees", "28-2", 21],
+    ["fra", "c", "committees", "28-2", 25]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

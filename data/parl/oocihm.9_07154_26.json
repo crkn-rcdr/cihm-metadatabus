@@ -1,1 +1,10 @@
-{"type":"journals","pubmax":"1892-07-09","node":[["eng","s","journals","07-2",1]],"chamber":["s"],"pubmin":"1892-02-25","label":"Senate Journals, 7th Parliament, 2nd Session : Vol. 26","language":["eng"],"session":["07-2"]}
+{
+  "type": "journals",
+  "pubmax": "1892-07-09",
+  "node": [["eng", "s", "journals", "07-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1892-02-25",
+  "label": "Senate Journals, 7th Parliament, 2nd Session : Vol. 26",
+  "language": ["eng"],
+  "session": ["07-2"]
+}

@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","34-2",176],["fra","c","committees","34-2",37]],"pubmax":"1991-05-12","type":"committees","session":["34-2"],"language":["eng","fra"],"label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-85, an Act to provide for certain matters respecting official languages, employees' pensions and labour relations in connection with the transfer of certain airports, vol. 1 no. 1-5 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-85, Loi réglant certaines questions soulevées par les cessions d'aéroports en matière de langues officielles, de régimes de pension ou retraite et de relations du travail, vol. 1 no. 1-5","callNumber":"34-2 T695 A1 no.1-5","pubmin":"1989-04-03"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "34-2", 176],
+    ["fra", "c", "committees", "34-2", 37]
+  ],
+  "pubmax": "1991-05-12",
+  "type": "committees",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-85, an Act to provide for certain matters respecting official languages, employees' pensions and labour relations in connection with the transfer of certain airports, vol. 1 no. 1-5 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-85, Loi réglant certaines questions soulevées par les cessions d'aéroports en matière de langues officielles, de régimes de pension ou retraite et de relations du travail, vol. 1 no. 1-5",
+  "callNumber": "34-2 T695 A1 no.1-5",
+  "pubmin": "1989-04-03"
+}

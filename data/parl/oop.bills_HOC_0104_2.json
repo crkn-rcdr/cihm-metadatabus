@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["01-4"],"pubmin":"1871-02-15","label":"House of Commons Bills, 1st Parliament, 4th Session : 17-94 = Projets de loi de la Chambre des communes, 1re Législature, 3e Session : 17-94","callNumber":"KE72 C36 1-4 no.17-94","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"bills","node":[["eng","c","bills","01-4",1],["fra","c","bills","01-4",1]],"pubmax":"1871-04-14"}
+{
+  "language": ["eng", "fra"],
+  "session": ["01-4"],
+  "pubmin": "1871-02-15",
+  "label": "House of Commons Bills, 1st Parliament, 4th Session : 17-94 = Projets de loi de la Chambre des communes, 1re Législature, 3e Session : 17-94",
+  "callNumber": "KE72 C36 1-4 no.17-94",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "01-4", 1],
+    ["fra", "c", "bills", "01-4", 1]
+  ],
+  "pubmax": "1871-04-14"
+}

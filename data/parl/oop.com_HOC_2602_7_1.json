@@ -1,1 +1,12 @@
-{"node":[["eng","c","committees","26-2",15]],"pubmax":"1965-04-03","type":"committees","primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"label":"House of Commons Committees, 26th Parliament, 2nd Session : Standing Committee on Marine and Fisheries, vol. 1","callNumber":"1964/65 M3 A1","pubmin":"1964-02-18","session":["26-2"],"language":["eng"]}
+{
+  "node": [["eng", "c", "committees", "26-2", 15]],
+  "pubmax": "1965-04-03",
+  "type": "committees",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 26th Parliament, 2nd Session : Standing Committee on Marine and Fisheries, vol. 1",
+  "callNumber": "1964/65 M3 A1",
+  "pubmin": "1964-02-18",
+  "session": ["26-2"],
+  "language": ["eng"]
+}

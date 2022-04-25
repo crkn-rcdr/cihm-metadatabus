@@ -1,1 +1,12 @@
-{"chamber":["s"],"node":[["eng","s","committees","32-1",34]],"pubmax":"1983-11-30","type":"committees","session":["32-1"],"reportTitle":["Canada's Maritime Defence"],"language":["eng"],"label":"Senate Committees, 32nd Parliament, 1st Session : Subcommittee on National Defence, Report","callNumber":"1980/83 N28 A122","pubmin":"1980-04-14"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "32-1", 34]],
+  "pubmax": "1983-11-30",
+  "type": "committees",
+  "session": ["32-1"],
+  "reportTitle": ["Canada's Maritime Defence"],
+  "language": ["eng"],
+  "label": "Senate Committees, 32nd Parliament, 1st Session : Subcommittee on National Defence, Report",
+  "callNumber": "1980/83 N28 A122",
+  "pubmin": "1980-04-14"
+}

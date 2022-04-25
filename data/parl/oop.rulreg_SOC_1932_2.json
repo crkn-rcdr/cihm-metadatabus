@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"rules","node":[["eng","s","rules",null,9]],"pubmax":"1933-05-27","language":["eng"],"session":["17-3","17-4"],"pubmin":"1932-02-04","label":"Forms of Proceeding of the Senate of Canada, 1932","callNumber":"JL158.3 1932a"}
+{
+  "chamber": ["s"],
+  "type": "rules",
+  "node": [["eng", "s", "rules", null, 9]],
+  "pubmax": "1933-05-27",
+  "language": ["eng"],
+  "session": ["17-3", "17-4"],
+  "pubmin": "1932-02-04",
+  "label": "Forms of Proceeding of the Senate of Canada, 1932",
+  "callNumber": "JL158.3 1932a"
+}

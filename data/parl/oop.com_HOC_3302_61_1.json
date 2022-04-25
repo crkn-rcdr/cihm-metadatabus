@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","33-2",128],["fra","c","committees","33-2",116]],"pubmax":"1988-10-01","type":"committees","session":["33-2"],"language":["eng","fra"],"label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Management and Members' Services, vol. 1 no. 1-3 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la gestion et des services aux députés, vol. 1 no. 1-3","callNumber":"33-2 M3 A1 no.1-3","pubmin":"1986-09-30"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-2", 128],
+    ["fra", "c", "committees", "33-2", 116]
+  ],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Management and Members' Services, vol. 1 no. 1-3 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la gestion et des services aux députés, vol. 1 no. 1-3",
+  "callNumber": "33-2 M3 A1 no.1-3",
+  "pubmin": "1986-09-30"
+}

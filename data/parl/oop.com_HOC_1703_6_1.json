@@ -1,1 +1,12 @@
-{"primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"node":[["eng","c","committees","17-3",8]],"pubmax":"1932-05-26","type":"committees","session":["17-3"],"language":["eng"],"label":"House of Commons Committees, 17th Parliament, 3rd Session : Select Standing Committee on Railways and Shipping Owned, Operated and Controlled by the Government, vol. 1","callNumber":"1932 R3 A1","pubmin":"1932-02-04"}
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "17-3", 8]],
+  "pubmax": "1932-05-26",
+  "type": "committees",
+  "session": ["17-3"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 17th Parliament, 3rd Session : Select Standing Committee on Railways and Shipping Owned, Operated and Controlled by the Government, vol. 1",
+  "callNumber": "1932 R3 A1",
+  "pubmin": "1932-02-04"
+}

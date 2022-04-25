@@ -1,1 +1,12 @@
-{"pubmin":"1984-11-05","callNumber":"33-1 Y69 A12","label":"Senate Committees, 33rd Parliament, 1st Session : Special Committee on Youth, Report","reportTitle":["Youth: A Plan of Action"],"language":["eng"],"session":["33-1"],"type":"committees","pubmax":"1986-08-28","node":[["eng","s","committees","33-1",40]],"chamber":["s"]}
+{
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 Y69 A12",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Special Committee on Youth, Report",
+  "reportTitle": ["Youth: A Plan of Action"],
+  "language": ["eng"],
+  "session": ["33-1"],
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [["eng", "s", "committees", "33-1", 40]],
+  "chamber": ["s"]
+}

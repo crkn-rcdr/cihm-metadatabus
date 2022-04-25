@@ -1,1 +1,15 @@
-{"type":"orders","pubmax":"1983-11-30","node":[["eng","c","orders",null,19],["fra","c","orders",null,19]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmin":"1980-04-14","callNumber":"JL164.4 Index 1982","label":"Index to Permanent and Provisional Standing Orders of the House of Commons, 1982 = Index du Règlement de la Chambre des communes : articles permanents et provisoires, 1982","language":["eng","fra"],"session":["32-1"]}
+{
+  "type": "orders",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "orders", null, 19],
+    ["fra", "c", "orders", null, 19]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1980-04-14",
+  "callNumber": "JL164.4 Index 1982",
+  "label": "Index to Permanent and Provisional Standing Orders of the House of Commons, 1982 = Index du Règlement de la Chambre des communes : articles permanents et provisoires, 1982",
+  "language": ["eng", "fra"],
+  "session": ["32-1"]
+}

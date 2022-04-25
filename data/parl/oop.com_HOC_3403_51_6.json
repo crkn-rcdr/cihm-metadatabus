@@ -1,1 +1,13 @@
-{"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Health and Welfare, Social Affairs, Seniors and the Status of Women, Fifth Report","callNumber":"34-3 H432 A124","reportTitle":["Foetal Alcohol Syndrome: a Preventable Tragedy"],"language":["eng"],"session":["34-3"],"type":"committees","node":[["eng","c","committees","34-3",101]],"pubmax":"1993-09-08","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Health and Welfare, Social Affairs, Seniors and the Status of Women, Fifth Report",
+  "callNumber": "34-3 H432 A124",
+  "reportTitle": ["Foetal Alcohol Syndrome: a Preventable Tragedy"],
+  "language": ["eng"],
+  "session": ["34-3"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "34-3", 101]],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

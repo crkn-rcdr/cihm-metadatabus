@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["26-2"],"pubmin":"1964-02-18","label":"Projets de loi du Sénat, 26e Législature, 2e Session : S26-S48","callNumber":"KE72 C381 26-2 S26-S48","chamber":["s"],"type":"bills","node":[["fra","s","bills","26-2",3]],"pubmax":"1965-04-03"}
+{
+  "language": ["fra"],
+  "session": ["26-2"],
+  "pubmin": "1964-02-18",
+  "label": "Projets de loi du Sénat, 26e Législature, 2e Session : S26-S48",
+  "callNumber": "KE72 C381 26-2 S26-S48",
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["fra", "s", "bills", "26-2", 3]],
+  "pubmax": "1965-04-03"
+}

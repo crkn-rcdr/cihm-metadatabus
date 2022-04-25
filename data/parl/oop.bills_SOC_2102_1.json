@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"bills","node":[["eng","s","bills","21-2",1]],"pubmax":"1950-06-30","language":["eng"],"session":["21-2"],"pubmin":"1950-02-16","label":"Senate Bills, 21st Parliament, 2nd Session : B-L10","callNumber":"KE72 C38 21-2 Bill B-"}
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["eng", "s", "bills", "21-2", 1]],
+  "pubmax": "1950-06-30",
+  "language": ["eng"],
+  "session": ["21-2"],
+  "pubmin": "1950-02-16",
+  "label": "Senate Bills, 21st Parliament, 2nd Session : B-L10",
+  "callNumber": "KE72 C38 21-2 Bill B-"
+}

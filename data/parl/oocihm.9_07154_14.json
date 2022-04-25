@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","node":[["eng","s","journals","04-2",1]],"pubmax":"1880-05-07","language":["eng"],"session":["04-2"],"pubmin":"1880-02-12","label":"Senate Journals, 4th Parliament, 2nd Session : Vol. 14"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "04-2", 1]],
+  "pubmax": "1880-05-07",
+  "language": ["eng"],
+  "session": ["04-2"],
+  "pubmin": "1880-02-12",
+  "label": "Senate Journals, 4th Parliament, 2nd Session : Vol. 14"
+}

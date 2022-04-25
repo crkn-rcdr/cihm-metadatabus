@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","node":[["eng","s","journals","02-2",1]],"pubmax":"1873-11-07","language":["eng"],"session":["02-2"],"pubmin":"1873-10-23","label":"Senate Journals, 2nd Parliament, 2nd Session : Vol. 7"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "02-2", 1]],
+  "pubmax": "1873-11-07",
+  "language": ["eng"],
+  "session": ["02-2"],
+  "pubmin": "1873-10-23",
+  "label": "Senate Journals, 2nd Parliament, 2nd Session : Vol. 7"
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"committees","node":[["eng","c","committees","18-3",9]],"pubmax":"1938-07-01","language":["eng"],"session":["18-3"],"pubmin":"1938-01-27","label":"House of Commons Committees, 18th Parliament, 3rd Session : Standing Committee on Railways, Canals and Telegraph Lines, vol. 1","callNumber":"1938 R35 A1"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "18-3", 9]],
+  "pubmax": "1938-07-01",
+  "language": ["eng"],
+  "session": ["18-3"],
+  "pubmin": "1938-01-27",
+  "label": "House of Commons Committees, 18th Parliament, 3rd Session : Standing Committee on Railways, Canals and Telegraph Lines, vol. 1",
+  "callNumber": "1938 R35 A1"
+}

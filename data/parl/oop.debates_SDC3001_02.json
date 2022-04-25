@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["30-1"],"pubmin":"1974-09-30","label":"Débats du Sénat, 30e Législature, 1re Session : Vol. 2","chamber":["s"],"type":"debates","pubmax":"1976-10-12","node":[["fra","s","debates","30-1",2]]}
+{
+  "language": ["fra"],
+  "session": ["30-1"],
+  "pubmin": "1974-09-30",
+  "label": "Débats du Sénat, 30e Législature, 1re Session : Vol. 2",
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1976-10-12",
+  "node": [["fra", "s", "debates", "30-1", 2]]
+}

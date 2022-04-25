@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Laurier, Wilfrid","type":"committees","pubmax":"1908-07-20","node":[["eng","c","committees","10-4",4]],"language":["eng"],"session":["10-4"],"pubmin":"1907-11-28","callNumber":"1907-1908 Q4 A12","label":"House of Commons Committees, 10th Parliament, 4th Session : Select Committee on Quebec Bridge and Railway Company, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "type": "committees",
+  "pubmax": "1908-07-20",
+  "node": [["eng", "c", "committees", "10-4", 4]],
+  "language": ["eng"],
+  "session": ["10-4"],
+  "pubmin": "1907-11-28",
+  "callNumber": "1907-1908 Q4 A12",
+  "label": "House of Commons Committees, 10th Parliament, 4th Session : Select Committee on Quebec Bridge and Railway Company, vol. 1"
+}

@@ -1,1 +1,12 @@
-{"type":"committees","node":[["fra","c","committees","22-3",2]],"pubmax":"1956-08-14","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"pubmin":"1956-01-10","label":"Comités de la Chambre des communes, 22e Législature, 3e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1","callNumber":"1956 A3 A4","language":["fra"],"session":["22-3"]}
+{
+  "type": "committees",
+  "node": [["fra", "c", "committees", "22-3", 2]],
+  "pubmax": "1956-08-14",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "pubmin": "1956-01-10",
+  "label": "Comités de la Chambre des communes, 22e Législature, 3e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1",
+  "callNumber": "1956 A3 A4",
+  "language": ["fra"],
+  "session": ["22-3"]
+}

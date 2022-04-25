@@ -1,1 +1,11 @@
-{"pubmax":"1936-06-23","node":[["fra","c","journals","18-1",2]],"type":"journals","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","label":"Journaux de la Chambre des communes, 18e Législature, 1re Session : Vol. 74 App. 1","pubmin":"1936-02-06","session":["18-1"],"language":["fra"]}
+{
+  "pubmax": "1936-06-23",
+  "node": [["fra", "c", "journals", "18-1", 2]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "label": "Journaux de la Chambre des communes, 18e Législature, 1re Session : Vol. 74 App. 1",
+  "pubmin": "1936-02-06",
+  "session": ["18-1"],
+  "language": ["fra"]
+}

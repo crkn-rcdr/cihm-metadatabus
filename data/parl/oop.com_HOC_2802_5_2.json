@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","28-2",10],["fra","c","committees","28-2",3]],"pubmax":"1970-10-07","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"pubmin":"1969-10-23","label":"House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on External Affairs and National Defence, vol. 2 no. 24-35 = Comités de la Chambre des communes, 28e Législature, 2e Session : Comité permanent des affaires extérieures et de la défense nationale, vol. 2 no. 24-35","callNumber":"1969/70 E9 A1 v.2","language":["eng","fra"],"session":["28-2"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "28-2", 10],
+    ["fra", "c", "committees", "28-2", 3]
+  ],
+  "pubmax": "1970-10-07",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1969-10-23",
+  "label": "House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on External Affairs and National Defence, vol. 2 no. 24-35 = Comités de la Chambre des communes, 28e Législature, 2e Session : Comité permanent des affaires extérieures et de la défense nationale, vol. 2 no. 24-35",
+  "callNumber": "1969/70 E9 A1 v.2",
+  "language": ["eng", "fra"],
+  "session": ["28-2"]
+}

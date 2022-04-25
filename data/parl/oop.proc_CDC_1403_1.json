@@ -1,1 +1,12 @@
-{"label":"Procès-verbaux de la Chambre des communes, 14e Législature, 3e Session : 1-95","callNumber":"J103 H44 1924","pubmin":"1924-02-28","session":["14-3"],"language":["fra"],"node":[["fra","c","cproc","14-3",1]],"pubmax":"1924-07-19","type":"cproc","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "label": "Procès-verbaux de la Chambre des communes, 14e Législature, 3e Session : 1-95",
+  "callNumber": "J103 H44 1924",
+  "pubmin": "1924-02-28",
+  "session": ["14-3"],
+  "language": ["fra"],
+  "node": [["fra", "c", "cproc", "14-3", 1]],
+  "pubmax": "1924-07-19",
+  "type": "cproc",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

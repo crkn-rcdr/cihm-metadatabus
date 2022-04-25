@@ -1,1 +1,13 @@
-{"node":[["eng","c","committees","34-3",104]],"pubmax":"1993-09-08","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Health and Welfare, Social Affairs, Seniors and the Status of Women, Ninth Report","callNumber":"34-3 H432 A128","pubmin":"1991-05-13","session":["34-3"],"reportTitle":["Disclosure of Information to Emergency Response Personnel"],"language":["eng"]}
+{
+  "node": [["eng", "c", "committees", "34-3", 104]],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Health and Welfare, Social Affairs, Seniors and the Status of Women, Ninth Report",
+  "callNumber": "34-3 H432 A128",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "reportTitle": ["Disclosure of Information to Emergency Response Personnel"],
+  "language": ["eng"]
+}

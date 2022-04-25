@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["21-5"],"pubmin":"1951-10-09","label":"Senate Debates, 21st Parliament, 5th Session : Vol. 1","chamber":["s"],"type":"debates","pubmax":"1951-12-29","node":[["eng","s","debates","21-5",1]]}
+{
+  "language": ["eng"],
+  "session": ["21-5"],
+  "pubmin": "1951-10-09",
+  "label": "Senate Debates, 21st Parliament, 5th Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1951-12-29",
+  "node": [["eng", "s", "debates", "21-5", 1]]
+}

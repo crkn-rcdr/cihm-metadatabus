@@ -1,1 +1,11 @@
-{"session":["25-1"],"language":["eng"],"label":"House of Commons Debates, 25th Parliament, 1st Session : Index","pubmin":"1962-09-27","chamber":["c"],"primeMinisters":"Diefenbaker, John George","pubmax":"1963-02-06","node":[["eng","c","debates","25-1",4]],"type":"debates"}
+{
+  "session": ["25-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 25th Parliament, 1st Session : Index",
+  "pubmin": "1962-09-27",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmax": "1963-02-06",
+  "node": [["eng", "c", "debates", "25-1", 4]],
+  "type": "debates"
+}

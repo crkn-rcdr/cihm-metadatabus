@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["28-1"],"pubmin":"1968-09-12","callNumber":"1968/69 T7 A1 v.1","label":"Comités de la Chambre des communes, 28e Législature, 1re Session : Comité permanent des transports et des communications, vol. 1","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1969-10-22","node":[["fra","c","committees","28-1",31]]}
+{
+  "language": ["fra"],
+  "session": ["28-1"],
+  "pubmin": "1968-09-12",
+  "callNumber": "1968/69 T7 A1 v.1",
+  "label": "Comités de la Chambre des communes, 28e Législature, 1re Session : Comité permanent des transports et des communications, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1969-10-22",
+  "node": [["fra", "c", "committees", "28-1", 31]]
+}

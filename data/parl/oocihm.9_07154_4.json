@@ -1,1 +1,10 @@
-{"chamber":["s"],"node":[["eng","s","journals","01-4",1]],"pubmax":"1871-04-14","type":"journals","session":["01-4"],"language":["eng"],"label":"Senate Journals, 1st Parliament, 4th Session : Vol. 4","pubmin":"1871-02-15"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "01-4", 1]],
+  "pubmax": "1871-04-14",
+  "type": "journals",
+  "session": ["01-4"],
+  "language": ["eng"],
+  "label": "Senate Journals, 1st Parliament, 4th Session : Vol. 4",
+  "pubmin": "1871-02-15"
+}

@@ -1,1 +1,11 @@
-{"callNumber":"1970/72 P6 A12 v.1","label":"Comités du Sénat, 28e Législature, 3e Session : Comité spécial de la politique scientifique, Rapport vol. 1","pubmin":"1970-10-08","session":["28-3"],"language":["fra"],"pubmax":"1972-02-16","node":[["fra","s","committees","28-3",20]],"type":"committees","chamber":["s"]}
+{
+  "callNumber": "1970/72 P6 A12 v.1",
+  "label": "Comités du Sénat, 28e Législature, 3e Session : Comité spécial de la politique scientifique, Rapport vol. 1",
+  "pubmin": "1970-10-08",
+  "session": ["28-3"],
+  "language": ["fra"],
+  "pubmax": "1972-02-16",
+  "node": [["fra", "s", "committees", "28-3", 20]],
+  "type": "committees",
+  "chamber": ["s"]
+}

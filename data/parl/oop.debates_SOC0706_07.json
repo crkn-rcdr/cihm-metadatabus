@@ -1,1 +1,10 @@
-{"session":["07-6"],"language":["eng"],"label":"Senate Debates, 7th Parliament, 6th Session : Vol. 1","pubmin":"1896-01-02","chamber":["s"],"node":[["eng","s","debates","07-6",1]],"pubmax":"1896-04-23","type":"debates"}
+{
+  "session": ["07-6"],
+  "language": ["eng"],
+  "label": "Senate Debates, 7th Parliament, 6th Session : Vol. 1",
+  "pubmin": "1896-01-02",
+  "chamber": ["s"],
+  "node": [["eng", "s", "debates", "07-6", 1]],
+  "pubmax": "1896-04-23",
+  "type": "debates"
+}

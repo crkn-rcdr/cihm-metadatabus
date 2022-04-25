@@ -1,1 +1,12 @@
-{"session":["21-1"],"language":["fra"],"callNumber":"1949(2e) C65 A4","label":"Comités de la Chambre des communes, 21e Législature, 1re Session : Comité spécial sur la Commission de contrôle de l'énergie atomique, vol. 1","pubmin":"1949-09-15","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmax":"1949-12-10","node":[["fra","c","committees","21-1",5]],"type":"committees"}
+{
+  "session": ["21-1"],
+  "language": ["fra"],
+  "callNumber": "1949(2e) C65 A4",
+  "label": "Comités de la Chambre des communes, 21e Législature, 1re Session : Comité spécial sur la Commission de contrôle de l'énergie atomique, vol. 1",
+  "pubmin": "1949-09-15",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1949-12-10",
+  "node": [["fra", "c", "committees", "21-1", 5]],
+  "type": "committees"
+}

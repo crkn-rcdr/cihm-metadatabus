@@ -1,1 +1,12 @@
-{"pubmax":"1919-07-07","node":[["fra","c","cproc","13-2",1]],"type":"cproc","chamber":["c"],"primeMinisters":"Borden, Robert Laird","callNumber":"J103 H44 1919","label":"Procès-verbaux de la Chambre des communes, 13e Législature, 2e Session : 1-93","pubmin":"1919-02-20","session":["13-2"],"language":["fra"]}
+{
+  "pubmax": "1919-07-07",
+  "node": [["fra", "c", "cproc", "13-2", 1]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "callNumber": "J103 H44 1919",
+  "label": "Procès-verbaux de la Chambre des communes, 13e Législature, 2e Session : 1-93",
+  "pubmin": "1919-02-20",
+  "session": ["13-2"],
+  "language": ["fra"]
+}

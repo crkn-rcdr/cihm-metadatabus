@@ -1,1 +1,10 @@
-{"pubmin":"1964-02-18","label":"Journaux du Sénat, 26e Législature, 2e Session : Vol. 111 Pt. 1","language":["fra"],"session":["26-2"],"type":"journals","pubmax":"1965-04-03","node":[["fra","s","journals","26-2",1]],"chamber":["s"]}
+{
+  "pubmin": "1964-02-18",
+  "label": "Journaux du Sénat, 26e Législature, 2e Session : Vol. 111 Pt. 1",
+  "language": ["fra"],
+  "session": ["26-2"],
+  "type": "journals",
+  "pubmax": "1965-04-03",
+  "node": [["fra", "s", "journals", "26-2", 1]],
+  "chamber": ["s"]
+}

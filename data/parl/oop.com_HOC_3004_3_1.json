@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","30-4",3],["fra","c","committees","30-4",2]],"pubmax":"1979-03-26","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"pubmin":"1978-10-11","label":"House of Commons Committees, 30th Parliament, 4th Session : Standing Committee on External Affairs and National Defence, vol. 1 = Comités de la Chambre des communes, 30e Législature, 4e Session : Comité permanent des affaires extérieures et de la défense nationale, vol. 1","callNumber":"1978/79 E9 A1","language":["eng","fra"],"session":["30-4"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "30-4", 3],
+    ["fra", "c", "committees", "30-4", 2]
+  ],
+  "pubmax": "1979-03-26",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1978-10-11",
+  "label": "House of Commons Committees, 30th Parliament, 4th Session : Standing Committee on External Affairs and National Defence, vol. 1 = Comités de la Chambre des communes, 30e Législature, 4e Session : Comité permanent des affaires extérieures et de la défense nationale, vol. 1",
+  "callNumber": "1978/79 E9 A1",
+  "language": ["eng", "fra"],
+  "session": ["30-4"]
+}

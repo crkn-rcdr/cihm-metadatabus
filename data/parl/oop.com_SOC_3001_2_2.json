@@ -1,1 +1,11 @@
-{"pubmin":"1974-09-30","label":"Senate Committees, 30th Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, vol. 2","callNumber":"1974/76 B3 A1 v.2","language":["eng"],"session":["30-1"],"type":"committees","node":[["eng","s","committees","30-1",4]],"pubmax":"1976-10-12","chamber":["s"]}
+{
+  "pubmin": "1974-09-30",
+  "label": "Senate Committees, 30th Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, vol. 2",
+  "callNumber": "1974/76 B3 A1 v.2",
+  "language": ["eng"],
+  "session": ["30-1"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "30-1", 4]],
+  "pubmax": "1976-10-12",
+  "chamber": ["s"]
+}

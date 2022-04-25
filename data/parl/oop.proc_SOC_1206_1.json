@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["12-6"],"pubmin":"1916-01-12","label":"Senate Minutes of Proceedings, 12th Parliament, 6th Session : 1-59","callNumber":"J103 H4 1916","chamber":["s"],"type":"sproc","node":[["eng","s","sproc","12-6",1]],"pubmax":"1916-05-18"}
+{
+  "language": ["eng"],
+  "session": ["12-6"],
+  "pubmin": "1916-01-12",
+  "label": "Senate Minutes of Proceedings, 12th Parliament, 6th Session : 1-59",
+  "callNumber": "J103 H4 1916",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "12-6", 1]],
+  "pubmax": "1916-05-18"
+}

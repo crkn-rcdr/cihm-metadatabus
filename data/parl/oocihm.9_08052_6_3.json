@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["02-1"],"pubmin":"1873-03-05","label":"Sessional Papers, 2nd Parliament, 1st Session : vol. 3","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"sessional","node":[["eng","c","sessional","02-1",3]],"pubmax":"1873-08-13"}
+{
+  "language": ["eng"],
+  "session": ["02-1"],
+  "pubmin": "1873-03-05",
+  "label": "Sessional Papers, 2nd Parliament, 1st Session : vol. 3",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["eng", "c", "sessional", "02-1", 3]],
+  "pubmax": "1873-08-13"
+}

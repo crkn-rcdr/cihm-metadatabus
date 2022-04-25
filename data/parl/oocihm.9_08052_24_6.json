@@ -1,1 +1,11 @@
-{"type":"sessional","pubmax":"1891-09-30","node":[["eng","c","sessional","07-1",6]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)","pubmin":"1891-04-29","label":"Sessional Papers, 7th Parliament, 1st Session : vol. 6","language":["eng"],"session":["07-1"]}
+{
+  "type": "sessional",
+  "pubmax": "1891-09-30",
+  "node": [["eng", "c", "sessional", "07-1", 6]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)",
+  "pubmin": "1891-04-29",
+  "label": "Sessional Papers, 7th Parliament, 1st Session : vol. 6",
+  "language": ["eng"],
+  "session": ["07-1"]
+}

@@ -1,1 +1,80 @@
-{"290":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Mills, D. "],"tagDate":["1899-01-01T00:00:00.000Z"]},"132":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Metcalfe, T. L. "]},"263":{"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Middleton, W. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"270":{"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Millar, M. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"427":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Minto, Lord"]},"166":{"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Mickle, C. J. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"278":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Mills, A. F. H. "]},"457":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Monet, D. "]},"150":{"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Michaud, A. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"364":{"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Mills, W. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"371":{"tagPerson":["Milne, G. L. "],"tagDate":["1899-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"141":{"tagDate":["1899-01-01T00:00:00.000Z"],"tagPerson":["Miall, E. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"483":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["G. N. & Co. ","Morang"],"tagDate":["1899-01-01T00:00:00.000Z"]}}
+{
+  "290": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Mills, D. "],
+    "tagDate": ["1899-01-01T00:00:00.000Z"]
+  },
+  "132": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Metcalfe, T. L. "]
+  },
+  "263": {
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Middleton, W. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "270": {
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Millar, M. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "427": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Minto, Lord"]
+  },
+  "166": {
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Mickle, C. J. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "278": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Mills, A. F. H. "]
+  },
+  "457": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Monet, D. "]
+  },
+  "150": {
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Michaud, A. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "364": {
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Mills, W. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "371": {
+    "tagPerson": ["Milne, G. L. "],
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "141": {
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagPerson": ["Miall, E. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "483": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["G. N. & Co. ", "Morang"],
+    "tagDate": ["1899-01-01T00:00:00.000Z"]
+  }
+}

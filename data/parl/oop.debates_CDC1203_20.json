@@ -1,1 +1,11 @@
-{"pubmax":"1914-06-12","node":[["fra","c","debates","12-3",6]],"type":"debates","chamber":["c"],"primeMinisters":"Borden, Robert Laird","label":"Débats de la Chambre des communes, 12e Législature, 3e Session : Index","pubmin":"1914-01-15","session":["12-3"],"language":["fra"]}
+{
+  "pubmax": "1914-06-12",
+  "node": [["fra", "c", "debates", "12-3", 6]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "label": "Débats de la Chambre des communes, 12e Législature, 3e Session : Index",
+  "pubmin": "1914-01-15",
+  "session": ["12-3"],
+  "language": ["fra"]
+}

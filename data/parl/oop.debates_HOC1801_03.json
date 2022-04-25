@@ -1,1 +1,11 @@
-{"session":["18-1"],"language":["eng"],"label":"House of Commons Debates, 18th Parliament, 1st Session : Vol. 3","pubmin":"1936-02-06","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","debates","18-1",3]],"pubmax":"1936-06-23","type":"debates"}
+{
+  "session": ["18-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 18th Parliament, 1st Session : Vol. 3",
+  "pubmin": "1936-02-06",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "18-1", 3]],
+  "pubmax": "1936-06-23",
+  "type": "debates"
+}

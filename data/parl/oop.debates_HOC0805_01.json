@@ -1,1 +1,11 @@
-{"session":["08-5"],"language":["eng"],"label":"House of Commons Debates, 8th Parliament, 5th Session : Vol. 1","pubmin":"1900-02-01","primeMinisters":"Laurier, Wilfrid","chamber":["c"],"node":[["eng","c","debates","08-5",1]],"pubmax":"1900-07-18","type":"debates"}
+{
+  "session": ["08-5"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 8th Parliament, 5th Session : Vol. 1",
+  "pubmin": "1900-02-01",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "08-5", 1]],
+  "pubmax": "1900-07-18",
+  "type": "debates"
+}

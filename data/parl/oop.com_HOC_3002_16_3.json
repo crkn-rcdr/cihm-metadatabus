@@ -1,1 +1,15 @@
-{"type":"committees","pubmax":"1977-10-17","node":[["eng","c","committees","30-2",33],["fra","c","committees","30-2",8]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmin":"1976-10-12","callNumber":"1976/77 P8 A1 v.3","label":"House of Commons Committees, 30th Parliament, 2nd Session : Standing Committee on Public Accounts, vol. 3 no. 23-31 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité permanent des comptes publics, vol. 3 no. 23-31","language":["eng","fra"],"session":["30-2"]}
+{
+  "type": "committees",
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "c", "committees", "30-2", 33],
+    ["fra", "c", "committees", "30-2", 8]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1976-10-12",
+  "callNumber": "1976/77 P8 A1 v.3",
+  "label": "House of Commons Committees, 30th Parliament, 2nd Session : Standing Committee on Public Accounts, vol. 3 no. 23-31 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité permanent des comptes publics, vol. 3 no. 23-31",
+  "language": ["eng", "fra"],
+  "session": ["30-2"]
+}

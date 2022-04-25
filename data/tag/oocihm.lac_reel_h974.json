@@ -1,1 +1,152 @@
-{"2072":{"tagName":["Chamberlain & Ballantyne"],"tagDate":["1932-01-01T00:00:00.000Z"]},"1333":{"tagName":["Atherton, Moses"],"tagDate":["[1927-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]},"70":{"tagDescription":["Weldon: Business Correspondence J to W (incl selling Lindsay practice)"],"tagDate":["[1923-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]},"2267":{"tagName":["Cotey, Ruth Chas"],"tagDate":["[1933-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]},"2225":{"tagDate":["1933-01-01T00:00:00.000Z"],"tagName":["Colby, Arley"]},"1770":{"tagDescription":["Bower and Forth"],"tagDate":["1932-01-01T00:00:00.000Z"]},"1310":{"tagName":["Ash, James - Mechanics Lien Act"],"tagDate":["1932-01-01T00:00:00.000Z"]},"2159":{"tagName":["Clou, Leith"],"tagDate":["[1929-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]},"2059":{"tagDate":["1932-01-01T00:00:00.000Z"],"tagName":["Caton, Una Bertha"]},"1196":{"tagDescription":["Architects' Bill"],"tagDate":["1931-01-01T00:00:00.000Z"]},"1818":{"tagDate":["1928-01-01T00:00:00.000Z"],"tagName":["Brown, C."]},"1470":{"tagDate":["1928-01-01T00:00:00.000Z"],"tagName":["Barker, George (Lindsay)"]},"1420":{"tagDescription":["Ballyntine"],"tagDate":["1932-01-01T00:00:00.000Z"]},"11":{"tagDescription":["Weldon: Business Correspondence A to I"],"tagDate":["[1923-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]},"2038":{"tagDescription":["Carlton"],"tagDate":["1934-01-01T00:00:00.000Z"],"tagName":["Carlton, Herb"]},"1738":{"tagDate":["1935-01-01T00:00:00.000Z"],"tagDescription":["Birchall and Benwell"]},"2027":{"tagDate":["1932-01-01T00:00:00.000Z"],"tagDescription":["Carlton, W. H. vs McKay"],"tagName":["Carlton, W. H."]},"1926":{"tagDescription":["Bryans vs Fletcher"],"tagDate":["[1926-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]},"1778":{"tagDate":["1933-01-01T00:00:00.000Z"],"tagName":["Broughton, george"]},"1776":{"tagName":["Bradley, William Deed"],"tagDate":["1935-01-01T00:00:00.000Z"]},"1461":{"tagDescription":["Bakogeorge (Lindsay)"],"tagDate":["1934-01-01T00:00:00.000Z"]},"1946":{"tagName":["Bulley, Roland"],"tagDate":["1933-01-01T00:00:00.000Z"]},"1188":{"tagDescription":["Ames, Ross·and Garthshore Co. Ltd. vs Alex Hooey"],"tagDate":["1933-01-01T00:00:00.000Z"]},"1735":{"tagDate":["1929-01-01T00:00:00.000Z"],"tagDescription":["Beacock and Cuthbert"]},"1982":{"tagDescription":["Canadian Paperboard Co. And A.E. Boyce"],"tagDate":["1930-01-01T00:00:00.000Z"]},"1158":{"tagDescription":["Alton and Alton 1932"],"tagDate":["1932-01-01T00:00:00.000Z"]},"1227":{"tagDate":["1931-01-01T00:00:00.000Z"],"tagName":["Armsden, Victor","Armsden, Violet"]},"2002":{"tagDescription":["Canadian Paperboard Co."],"tagDate":["1933-01-01T00:00:00.000Z"]},"1056":{"tagName":["Adam, W.H."],"tagDate":["1933-01-01T00:00:00.000Z"]},"1238":{"tagDate":["1930-01-01T00:00:00.000Z"],"tagName":["Ash, James"]},"2243":{"tagName":["Colby, E."],"tagDate":["1931-01-01T00:00:00.000Z"]},"1487":{"tagDescription":["Battison And Bryan vs Toronto Transport co."],"tagDate":["[1928-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]},"1433":{"tagDate":["[1931-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],"tagDescription":["Baker Estate (Mrs. Weldon)"]},"1762":{"tagDate":["1929-01-01T00:00:00.000Z"],"tagName":["Bird, A.W."]},"1050":{"tagDate":["1926-01-01T00:00:00.000Z"],"tagName":["Adam, W.H."]},"1851":{"tagDate":["1934-01-01T00:00:00.000Z"],"tagName":["Brown, C. (Different Matters)"]},"1068":{"tagDate":["1931-01-01T00:00:00.000Z"],"tagName":["Allan, Harry"]},"1370":{"tagDate":["[1931-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],"tagName":["Baldwin, J.R. Rev."]}}
+{
+  "2072": {
+    "tagName": ["Chamberlain & Ballantyne"],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "1333": {
+    "tagName": ["Atherton, Moses"],
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]
+  },
+  "70": {
+    "tagDescription": [
+      "Weldon: Business Correspondence J to W (incl selling Lindsay practice)"
+    ],
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]
+  },
+  "2267": {
+    "tagName": ["Cotey, Ruth Chas"],
+    "tagDate": ["[1933-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]
+  },
+  "2225": {
+    "tagDate": ["1933-01-01T00:00:00.000Z"],
+    "tagName": ["Colby, Arley"]
+  },
+  "1770": {
+    "tagDescription": ["Bower and Forth"],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "1310": {
+    "tagName": ["Ash, James - Mechanics Lien Act"],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "2159": {
+    "tagName": ["Clou, Leith"],
+    "tagDate": ["[1929-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]
+  },
+  "2059": {
+    "tagDate": ["1932-01-01T00:00:00.000Z"],
+    "tagName": ["Caton, Una Bertha"]
+  },
+  "1196": {
+    "tagDescription": ["Architects' Bill"],
+    "tagDate": ["1931-01-01T00:00:00.000Z"]
+  },
+  "1818": { "tagDate": ["1928-01-01T00:00:00.000Z"], "tagName": ["Brown, C."] },
+  "1470": {
+    "tagDate": ["1928-01-01T00:00:00.000Z"],
+    "tagName": ["Barker, George (Lindsay)"]
+  },
+  "1420": {
+    "tagDescription": ["Ballyntine"],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "11": {
+    "tagDescription": ["Weldon: Business Correspondence A to I"],
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]
+  },
+  "2038": {
+    "tagDescription": ["Carlton"],
+    "tagDate": ["1934-01-01T00:00:00.000Z"],
+    "tagName": ["Carlton, Herb"]
+  },
+  "1738": {
+    "tagDate": ["1935-01-01T00:00:00.000Z"],
+    "tagDescription": ["Birchall and Benwell"]
+  },
+  "2027": {
+    "tagDate": ["1932-01-01T00:00:00.000Z"],
+    "tagDescription": ["Carlton, W. H. vs McKay"],
+    "tagName": ["Carlton, W. H."]
+  },
+  "1926": {
+    "tagDescription": ["Bryans vs Fletcher"],
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]
+  },
+  "1778": {
+    "tagDate": ["1933-01-01T00:00:00.000Z"],
+    "tagName": ["Broughton, george"]
+  },
+  "1776": {
+    "tagName": ["Bradley, William Deed"],
+    "tagDate": ["1935-01-01T00:00:00.000Z"]
+  },
+  "1461": {
+    "tagDescription": ["Bakogeorge (Lindsay)"],
+    "tagDate": ["1934-01-01T00:00:00.000Z"]
+  },
+  "1946": {
+    "tagName": ["Bulley, Roland"],
+    "tagDate": ["1933-01-01T00:00:00.000Z"]
+  },
+  "1188": {
+    "tagDescription": ["Ames, Ross·and Garthshore Co. Ltd. vs Alex Hooey"],
+    "tagDate": ["1933-01-01T00:00:00.000Z"]
+  },
+  "1735": {
+    "tagDate": ["1929-01-01T00:00:00.000Z"],
+    "tagDescription": ["Beacock and Cuthbert"]
+  },
+  "1982": {
+    "tagDescription": ["Canadian Paperboard Co. And A.E. Boyce"],
+    "tagDate": ["1930-01-01T00:00:00.000Z"]
+  },
+  "1158": {
+    "tagDescription": ["Alton and Alton 1932"],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "1227": {
+    "tagDate": ["1931-01-01T00:00:00.000Z"],
+    "tagName": ["Armsden, Victor", "Armsden, Violet"]
+  },
+  "2002": {
+    "tagDescription": ["Canadian Paperboard Co."],
+    "tagDate": ["1933-01-01T00:00:00.000Z"]
+  },
+  "1056": {
+    "tagName": ["Adam, W.H."],
+    "tagDate": ["1933-01-01T00:00:00.000Z"]
+  },
+  "1238": {
+    "tagDate": ["1930-01-01T00:00:00.000Z"],
+    "tagName": ["Ash, James"]
+  },
+  "2243": { "tagName": ["Colby, E."], "tagDate": ["1931-01-01T00:00:00.000Z"] },
+  "1487": {
+    "tagDescription": ["Battison And Bryan vs Toronto Transport co."],
+    "tagDate": ["[1928-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]
+  },
+  "1433": {
+    "tagDate": ["[1931-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Baker Estate (Mrs. Weldon)"]
+  },
+  "1762": {
+    "tagDate": ["1929-01-01T00:00:00.000Z"],
+    "tagName": ["Bird, A.W."]
+  },
+  "1050": {
+    "tagDate": ["1926-01-01T00:00:00.000Z"],
+    "tagName": ["Adam, W.H."]
+  },
+  "1851": {
+    "tagDate": ["1934-01-01T00:00:00.000Z"],
+    "tagName": ["Brown, C. (Different Matters)"]
+  },
+  "1068": {
+    "tagDate": ["1931-01-01T00:00:00.000Z"],
+    "tagName": ["Allan, Harry"]
+  },
+  "1370": {
+    "tagDate": ["[1931-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],
+    "tagName": ["Baldwin, J.R. Rev."]
+  }
+}

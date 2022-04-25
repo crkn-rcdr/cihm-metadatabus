@@ -1,1 +1,11 @@
-{"type":"sessional","pubmax":"1869-06-22","node":[["eng","c","sessional","01-2",3]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmin":"1869-04-15","label":"Sessional Papers, 1st Parliament, 2nd Session : vol. 3","language":["eng"],"session":["01-2"]}
+{
+  "type": "sessional",
+  "pubmax": "1869-06-22",
+  "node": [["eng", "c", "sessional", "01-2", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmin": "1869-04-15",
+  "label": "Sessional Papers, 1st Parliament, 2nd Session : vol. 3",
+  "language": ["eng"],
+  "session": ["01-2"]
+}

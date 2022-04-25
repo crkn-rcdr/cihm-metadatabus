@@ -1,1 +1,11 @@
-{"label":"House of Commons Journals, 13th Parliament, 4th Session : Vol. 57 App. 1","pubmin":"1920-02-26","session":["13-4"],"language":["eng"],"pubmax":"1920-07-01","node":[["eng","c","journals","13-4",2]],"type":"journals","chamber":["c"],"primeMinisters":"Borden, Robert Laird"}
+{
+  "label": "House of Commons Journals, 13th Parliament, 4th Session : Vol. 57 App. 1",
+  "pubmin": "1920-02-26",
+  "session": ["13-4"],
+  "language": ["eng"],
+  "pubmax": "1920-07-01",
+  "node": [["eng", "c", "journals", "13-4", 2]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird"
+}

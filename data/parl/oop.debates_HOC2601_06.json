@@ -1,1 +1,11 @@
-{"type":"debates","node":[["eng","c","debates","26-1",6]],"pubmax":"1963-12-21","primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"pubmin":"1963-05-16","label":"House of Commons Debates, 26th Parliament, 1st Session : Vol. 6","language":["eng"],"session":["26-1"]}
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "26-1", 6]],
+  "pubmax": "1963-12-21",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "pubmin": "1963-05-16",
+  "label": "House of Commons Debates, 26th Parliament, 1st Session : Vol. 6",
+  "language": ["eng"],
+  "session": ["26-1"]
+}

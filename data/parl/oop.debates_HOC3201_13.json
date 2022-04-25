@@ -1,1 +1,11 @@
-{"pubmax":"1983-11-30","node":[["eng","c","debates","32-1",13]],"type":"debates","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","label":"House of Commons Debates, 32nd Parliament, 1st Session : Vol. 13","pubmin":"1980-04-14","session":["32-1"],"language":["eng"]}
+{
+  "pubmax": "1983-11-30",
+  "node": [["eng", "c", "debates", "32-1", 13]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "label": "House of Commons Debates, 32nd Parliament, 1st Session : Vol. 13",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng"]
+}

@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["30-2"],"pubmin":"1976-10-12","label":"Senate Debates, 30th Parliament, 2nd Session : Vol. 2","chamber":["s"],"type":"debates","pubmax":"1977-10-17","node":[["eng","s","debates","30-2",2]]}
+{
+  "language": ["eng"],
+  "session": ["30-2"],
+  "pubmin": "1976-10-12",
+  "label": "Senate Debates, 30th Parliament, 2nd Session : Vol. 2",
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1977-10-17",
+  "node": [["eng", "s", "debates", "30-2", 2]]
+}

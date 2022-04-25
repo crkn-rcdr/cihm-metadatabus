@@ -1,1 +1,14 @@
-{"pubmin":"1984-11-05","label":"Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Agriculture, Fisheries and Forestry, vol. 1 no. 1-27 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent de l'agriculture, des pêches et des forêts, vol. 1 no. 1-27","callNumber":"33-1 A32 A1 no.1-27","language":["eng","fra"],"session":["33-1"],"type":"committees","node":[["eng","s","committees","33-1",1],["fra","s","committees","33-1",9]],"pubmax":"1986-08-28","chamber":["s"]}
+{
+  "pubmin": "1984-11-05",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Agriculture, Fisheries and Forestry, vol. 1 no. 1-27 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent de l'agriculture, des pêches et des forêts, vol. 1 no. 1-27",
+  "callNumber": "33-1 A32 A1 no.1-27",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "33-1", 1],
+    ["fra", "s", "committees", "33-1", 9]
+  ],
+  "pubmax": "1986-08-28",
+  "chamber": ["s"]
+}

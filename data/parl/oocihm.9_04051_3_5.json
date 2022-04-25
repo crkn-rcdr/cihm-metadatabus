@@ -1,1 +1,11 @@
-{"node":[["fra","c","sessional","01-3",5]],"pubmax":"1870-05-12","type":"sessional","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"label":"Documents parlementaires, 1e Législature, 3e Session : vol. 5","pubmin":"1870-02-15","session":["01-3"],"language":["fra"]}
+{
+  "node": [["fra", "c", "sessional", "01-3", 5]],
+  "pubmax": "1870-05-12",
+  "type": "sessional",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "label": "Documents parlementaires, 1e Législature, 3e Session : vol. 5",
+  "pubmin": "1870-02-15",
+  "session": ["01-3"],
+  "language": ["fra"]
+}

@@ -1,1 +1,14 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"bills","pubmax":"1993-09-08","node":[["eng","c","bills","34-3",16],["fra","c","bills","34-3",16]],"language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","label":"House of Commons Bills, 34th Parliament, 3rd Session : C115 Schedule Part A = Projets de loi de la Chambre des communes, 34e Législature, 3e Session : C115 Annexe partie A"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "bills",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "bills", "34-3", 16],
+    ["fra", "c", "bills", "34-3", 16]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Bills, 34th Parliament, 3rd Session : C115 Schedule Part A = Projets de loi de la Chambre des communes, 34e Législature, 3e Session : C115 Annexe partie A"
+}

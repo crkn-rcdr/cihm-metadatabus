@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1972-09-01","node":[["eng","c","cproc","28-4",1]],"type":"cproc","session":["28-4"],"language":["eng"],"callNumber":"J103 H41 1972 no. 1-91 c.2","label":"House of Commons Votes and Proceedings, 28th Parliament, 4th Session : 1-91","pubmin":"1972-02-17"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1972-09-01",
+  "node": [["eng", "c", "cproc", "28-4", 1]],
+  "type": "cproc",
+  "session": ["28-4"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 1972 no. 1-91 c.2",
+  "label": "House of Commons Votes and Proceedings, 28th Parliament, 4th Session : 1-91",
+  "pubmin": "1972-02-17"
+}

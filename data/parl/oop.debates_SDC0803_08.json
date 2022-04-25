@@ -1,1 +1,10 @@
-{"pubmin":"1898-02-03","label":"Débats du Sénat, 8e Législature, 3e Session : Vol. 1","language":["fra"],"session":["08-3"],"type":"debates","pubmax":"1898-06-13","node":[["fra","s","debates","08-3",1]],"chamber":["s"]}
+{
+  "pubmin": "1898-02-03",
+  "label": "Débats du Sénat, 8e Législature, 3e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["08-3"],
+  "type": "debates",
+  "pubmax": "1898-06-13",
+  "node": [["fra", "s", "debates", "08-3", 1]],
+  "chamber": ["s"]
+}

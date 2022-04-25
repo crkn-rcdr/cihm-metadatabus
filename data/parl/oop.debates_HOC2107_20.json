@@ -1,1 +1,11 @@
-{"node":[["eng","c","debates","21-7",6]],"pubmax":"1953-05-14","type":"debates","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"label":"House of Commons Debates, 21st Parliament, 7th Session : Index","pubmin":"1952-11-20","session":["21-7"],"language":["eng"]}
+{
+  "node": [["eng", "c", "debates", "21-7", 6]],
+  "pubmax": "1953-05-14",
+  "type": "debates",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "label": "House of Commons Debates, 21st Parliament, 7th Session : Index",
+  "pubmin": "1952-11-20",
+  "session": ["21-7"],
+  "language": ["eng"]
+}

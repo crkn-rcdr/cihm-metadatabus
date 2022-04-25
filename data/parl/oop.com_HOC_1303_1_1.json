@@ -1,1 +1,12 @@
-{"pubmin":"1919-09-01","callNumber":"1919 2d session S6 A1","label":"House of Commons Committees, 13th Parliament, 3rd Session : Special Committee on Department of Soldiers' Civil Re-establishment Act, vol. 1","language":["eng"],"session":["13-3"],"type":"committees","pubmax":"1919-11-10","node":[["eng","c","committees","13-3",1]],"chamber":["c"],"primeMinisters":"Borden, Robert Laird"}
+{
+  "pubmin": "1919-09-01",
+  "callNumber": "1919 2d session S6 A1",
+  "label": "House of Commons Committees, 13th Parliament, 3rd Session : Special Committee on Department of Soldiers' Civil Re-establishment Act, vol. 1",
+  "language": ["eng"],
+  "session": ["13-3"],
+  "type": "committees",
+  "pubmax": "1919-11-10",
+  "node": [["eng", "c", "committees", "13-3", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird"
+}

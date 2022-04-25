@@ -1,1 +1,12 @@
-{"session":["21-4"],"language":["fra"],"callNumber":"1951 C6 A4","label":"Comités de la Chambre des communes, 21e Législature, 4e Session : Comité permanent des comptes publics, vol. 1","pubmin":"1951-01-30","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmax":"1951-10-09","node":[["fra","c","committees","21-4",6]],"type":"committees"}
+{
+  "session": ["21-4"],
+  "language": ["fra"],
+  "callNumber": "1951 C6 A4",
+  "label": "Comités de la Chambre des communes, 21e Législature, 4e Session : Comité permanent des comptes publics, vol. 1",
+  "pubmin": "1951-01-30",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1951-10-09",
+  "node": [["fra", "c", "committees", "21-4", 6]],
+  "type": "committees"
+}

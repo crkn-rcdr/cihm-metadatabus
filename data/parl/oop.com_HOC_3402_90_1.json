@@ -1,1 +1,15 @@
-{"type":"committees","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",162],["fra","c","committees","34-2",163]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1989-04-03","callNumber":"34-2 R373 A1 no.1-2","label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-60, an Act to amend various Acts to give effect to the reconstitution of the courts in Ontario and to provide for other related matters, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-60, Loi modifiant plusieurs lois pour donner effet à la réorganisation judiciaire de l'Ontario et mettre en oeuvre diverses mesures connexes, vol. 1 no. 1-2","language":["eng","fra"],"session":["34-2"]}
+{
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 162],
+    ["fra", "c", "committees", "34-2", 163]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 R373 A1 no.1-2",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-60, an Act to amend various Acts to give effect to the reconstitution of the courts in Ontario and to provide for other related matters, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-60, Loi modifiant plusieurs lois pour donner effet à la réorganisation judiciaire de l'Ontario et mettre en oeuvre diverses mesures connexes, vol. 1 no. 1-2",
+  "language": ["eng", "fra"],
+  "session": ["34-2"]
+}

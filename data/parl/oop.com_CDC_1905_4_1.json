@@ -1,1 +1,12 @@
-{"pubmax":"1945-01-31","node":[["fra","c","committees","19-5",5]],"type":"committees","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","callNumber":"1944/45 C6 A4","label":"Comités de la Chambre des communes, 19e Législature, 5e Session : Comité permanent des comptes publics, vol. 1","pubmin":"1944-01-27","session":["19-5"],"language":["fra"]}
+{
+  "pubmax": "1945-01-31",
+  "node": [["fra", "c", "committees", "19-5", 5]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "callNumber": "1944/45 C6 A4",
+  "label": "Comités de la Chambre des communes, 19e Législature, 5e Session : Comité permanent des comptes publics, vol. 1",
+  "pubmin": "1944-01-27",
+  "session": ["19-5"],
+  "language": ["fra"]
+}

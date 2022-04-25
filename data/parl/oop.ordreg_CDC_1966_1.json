@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","pubmax":"1967-05-08","node":[["fra","c","orders",null,9]],"type":"orders","session":["27-1"],"language":["fra"],"callNumber":"JL164.4 1966f","label":"Réimpression provisoire du Règlement de la Chambre pour la première session du 27e Parlement, 1966","pubmin":"1966-01-18"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "pubmax": "1967-05-08",
+  "node": [["fra", "c", "orders", null, 9]],
+  "type": "orders",
+  "session": ["27-1"],
+  "language": ["fra"],
+  "callNumber": "JL164.4 1966f",
+  "label": "Réimpression provisoire du Règlement de la Chambre pour la première session du 27e Parlement, 1966",
+  "pubmin": "1966-01-18"
+}

@@ -1,1 +1,12 @@
-{"node":[["eng","s","committees","33-1",17]],"pubmax":"1986-08-28","type":"committees","chamber":["s"],"label":"Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Energy and Natural Resources, Third Report","callNumber":"33-1 E56 A122","pubmin":"1984-11-05","session":["33-1"],"language":["eng"],"reportTitle":["Canadian Energy Policy"]}
+{
+  "node": [["eng", "s", "committees", "33-1", 17]],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Energy and Natural Resources, Third Report",
+  "callNumber": "33-1 E56 A122",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng"],
+  "reportTitle": ["Canadian Energy Policy"]
+}

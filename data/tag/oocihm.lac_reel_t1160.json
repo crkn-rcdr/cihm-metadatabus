@@ -1,1 +1,74 @@
-{"1789":{"tagDescription":["Missing / Manque"]},"789":{"tagDescription":["Missing / Manque"]},"1301":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Flag Book -Flags, Badges and Arms of the British Dominion beyond the Seas"]},"306":{"tagDescription":["Reports -International radiotelegraphic conference of Berlin, 1906"],"tagDate":["1906-01-01T00:00:00.000Z"]},"920":{"tagDescription":["Naval Flags of Canada -Use of White, blue and red ensigns -Badges of Dominion and Provinces (use of ensign on Canadian Yachts, see 201 sub files) (Flag salutes see 193A) (Admiralty Flag Book  see envelop maked Books)"],"tagDate":["[1865-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"1980":{"tagDescription":["Ibid"],"tagDate":["[1861-01-01T00:00:00.000Z TO 1878-12-31T23:59:59.999Z]"]},"726":{"tagDescription":["Extradition treaty with Cuba -Fugitive from Justice, D.A. Hamel"],"tagDate":["[1904-01-01T00:00:00.000Z TO 1905-12-31T23:59:59.999Z]"]},"454":{"tagDescription":["Reports -Radiotelegraphic convention, 1907 -Conference International de lheure 1913"],"tagDate":["[1907-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]},"14":{"tagDate":["[1927-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Wireless Telegraphy"]},"854":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["Flags  General Enquiries regarding flags from private individuals"]},"1232":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],"tagDescription":["Canadian red and blue ensign -Samples of Flags and Badges published in Admiralty Flag Book -Flags. Badges and Arms of the British Dominion beyond the Sea  Part I  Flags and Badge Part II  Arms"]},"1299":{"tagDescription":["Missing / Manque"]},"1352":{"tagDescription":["Letters to Chief Justice, and Judges of the Supreme Court asking them to act as Deputy Governor General or Administrator -Commissions appointing Deputy Governor General -Telegrams to Colonial Office, Washington and Newfoundland notifying them of assumption of office by the Deputy Governor General or Administrator, and resumption of Governor General -Letters to Secretary of State and Privy Council notifying them period for which Deputy Governor General will act"],"tagDate":["[1876-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]},"791":{"tagDate":["[1864-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],"tagDescription":["Foreign Consular appointments in his Majestys Possessions and Protectorates -Recognition of Vice Consuls, Acting consuls, etc -Public officers not allowed to act in a consular capacity for foreign state -Procedure for preparation and issue of exequaturs -Information re lappe or withdrawal of -"]},"1791":{"tagDescription":["Letters Patent constituting permanently the office of Governor General in Canada -New letter Patent -Royal Instructions -Commissions appointing Governors General -Procedure in connection with the installation of a Governor General -Recording of Commission"],"tagDate":["[1879-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]},"1300":{"tagDescription":["Missing / Manque"]}}
+{
+  "1789": { "tagDescription": ["Missing / Manque"] },
+  "789": { "tagDescription": ["Missing / Manque"] },
+  "1301": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Flag Book -Flags, Badges and Arms of the British Dominion beyond the Seas"
+    ]
+  },
+  "306": {
+    "tagDescription": [
+      "Reports -International radiotelegraphic conference of Berlin, 1906"
+    ],
+    "tagDate": ["1906-01-01T00:00:00.000Z"]
+  },
+  "920": {
+    "tagDescription": [
+      "Naval Flags of Canada -Use of White, blue and red ensigns -Badges of Dominion and Provinces (use of ensign on Canadian Yachts, see 201 sub files) (Flag salutes see 193A) (Admiralty Flag Book  see envelop maked Books)"
+    ],
+    "tagDate": ["[1865-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "1980": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1861-01-01T00:00:00.000Z TO 1878-12-31T23:59:59.999Z]"]
+  },
+  "726": {
+    "tagDescription": [
+      "Extradition treaty with Cuba -Fugitive from Justice, D.A. Hamel"
+    ],
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1905-12-31T23:59:59.999Z]"]
+  },
+  "454": {
+    "tagDescription": [
+      "Reports -Radiotelegraphic convention, 1907 -Conference International de lheure 1913"
+    ],
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  },
+  "14": {
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Wireless Telegraphy"]
+  },
+  "854": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Flags  General Enquiries regarding flags from private individuals"
+    ]
+  },
+  "1232": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Canadian red and blue ensign -Samples of Flags and Badges published in Admiralty Flag Book -Flags. Badges and Arms of the British Dominion beyond the Sea  Part I  Flags and Badge Part II  Arms"
+    ]
+  },
+  "1299": { "tagDescription": ["Missing / Manque"] },
+  "1352": {
+    "tagDescription": [
+      "Letters to Chief Justice, and Judges of the Supreme Court asking them to act as Deputy Governor General or Administrator -Commissions appointing Deputy Governor General -Telegrams to Colonial Office, Washington and Newfoundland notifying them of assumption of office by the Deputy Governor General or Administrator, and resumption of Governor General -Letters to Secretary of State and Privy Council notifying them period for which Deputy Governor General will act"
+    ],
+    "tagDate": ["[1876-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]
+  },
+  "791": {
+    "tagDate": ["[1864-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Foreign Consular appointments in his Majestys Possessions and Protectorates -Recognition of Vice Consuls, Acting consuls, etc -Public officers not allowed to act in a consular capacity for foreign state -Procedure for preparation and issue of exequaturs -Information re lappe or withdrawal of -"
+    ]
+  },
+  "1791": {
+    "tagDescription": [
+      "Letters Patent constituting permanently the office of Governor General in Canada -New letter Patent -Royal Instructions -Commissions appointing Governors General -Procedure in connection with the installation of a Governor General -Recording of Commission"
+    ],
+    "tagDate": ["[1879-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "1300": { "tagDescription": ["Missing / Manque"] }
+}

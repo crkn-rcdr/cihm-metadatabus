@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"bills","pubmax":"1963-02-06","node":[["fra","s","bills","25-1",4]],"language":["fra"],"session":["25-1"],"pubmin":"1962-09-27","callNumber":"KE72 C381 25-1 SD394-SD494","label":"Projets de loi du Sénat, 25e Législature, 1re Session : SD394-SD494"}
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1963-02-06",
+  "node": [["fra", "s", "bills", "25-1", 4]],
+  "language": ["fra"],
+  "session": ["25-1"],
+  "pubmin": "1962-09-27",
+  "callNumber": "KE72 C381 25-1 SD394-SD494",
+  "label": "Projets de loi du Sénat, 25e Législature, 1re Session : SD394-SD494"
+}

@@ -1,1 +1,12 @@
-{"label":"Projets de loi de la Chambre des communes, 17e Législature, 2e Session : 96-145","callNumber":"KE72 C361 17-2 96-145","pubmin":"1931-03-12","session":["17-2"],"language":["fra"],"node":[["fra","c","bills","17-2",2]],"pubmax":"1931-08-03","type":"bills","primeMinisters":"Bennett, Richard Bedford","chamber":["c"]}
+{
+  "label": "Projets de loi de la Chambre des communes, 17e Législature, 2e Session : 96-145",
+  "callNumber": "KE72 C361 17-2 96-145",
+  "pubmin": "1931-03-12",
+  "session": ["17-2"],
+  "language": ["fra"],
+  "node": [["fra", "c", "bills", "17-2", 2]],
+  "pubmax": "1931-08-03",
+  "type": "bills",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"]
+}

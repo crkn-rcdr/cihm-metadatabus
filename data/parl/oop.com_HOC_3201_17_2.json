@@ -1,1 +1,15 @@
-{"label":"House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Fisheries and Forestry, vol. 2 no. 27-48 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité permanent des pêches et des forêts, vol. 2 no. 27-48","callNumber":"1980/83 F58 A1 no.27-48","pubmin":"1980-04-14","session":["32-1"],"language":["eng","fra"],"node":[["eng","c","committees","32-1",68],["fra","c","committees","32-1",91]],"pubmax":"1983-11-30","type":"committees","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Fisheries and Forestry, vol. 2 no. 27-48 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité permanent des pêches et des forêts, vol. 2 no. 27-48",
+  "callNumber": "1980/83 F58 A1 no.27-48",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "32-1", 68],
+    ["fra", "c", "committees", "32-1", 91]
+  ],
+  "pubmax": "1983-11-30",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

@@ -1,1 +1,11 @@
-{"pubmax":"1976-10-12","node":[["eng","c","debates","30-1",9]],"type":"debates","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","label":"House of Commons Debates, 30th Parliament, 1st Session : Vol. 9","pubmin":"1974-09-30","session":["30-1"],"language":["eng"]}
+{
+  "pubmax": "1976-10-12",
+  "node": [["eng", "c", "debates", "30-1", 9]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "label": "House of Commons Debates, 30th Parliament, 1st Session : Vol. 9",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng"]
+}

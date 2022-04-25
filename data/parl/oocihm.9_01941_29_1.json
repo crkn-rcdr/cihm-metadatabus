@@ -1,1 +1,11 @@
-{"node":[["fra","c","journals","07-5",1]],"pubmax":"1895-07-22","type":"journals","primeMinisters":"Bowell, Mackenzie","chamber":["c"],"label":"Journaux de la Chambre des communes, 7e Législature, 5e Session : Vol. 29","pubmin":"1895-04-18","session":["07-5"],"language":["fra"]}
+{
+  "node": [["fra", "c", "journals", "07-5", 1]],
+  "pubmax": "1895-07-22",
+  "type": "journals",
+  "primeMinisters": "Bowell, Mackenzie",
+  "chamber": ["c"],
+  "label": "Journaux de la Chambre des communes, 7e Législature, 5e Session : Vol. 29",
+  "pubmin": "1895-04-18",
+  "session": ["07-5"],
+  "language": ["fra"]
+}

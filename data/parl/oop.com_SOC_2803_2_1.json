@@ -1,1 +1,12 @@
-{"pubmin":"1970-10-08","callNumber":"1970/72 N3 A12","label":"Senate Committees, 28th Parliament, 3rd Session : Standing Committee on National Finance, Report","reportTitle":["Growth, Employment and Price Stability"],"language":["eng"],"session":["28-3"],"type":"committees","pubmax":"1972-02-16","node":[["eng","s","committees","28-3",20]],"chamber":["s"]}
+{
+  "pubmin": "1970-10-08",
+  "callNumber": "1970/72 N3 A12",
+  "label": "Senate Committees, 28th Parliament, 3rd Session : Standing Committee on National Finance, Report",
+  "reportTitle": ["Growth, Employment and Price Stability"],
+  "language": ["eng"],
+  "session": ["28-3"],
+  "type": "committees",
+  "pubmax": "1972-02-16",
+  "node": [["eng", "s", "committees", "28-3", 20]],
+  "chamber": ["s"]
+}

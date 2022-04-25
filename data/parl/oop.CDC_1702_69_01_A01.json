@@ -1,1 +1,11 @@
-{"pubmin":"1931-03-12","label":"Journaux de la Chambre des communes, 17e Législature, 2e Session : Vol. 69 App. 1","language":["fra"],"session":["17-2"],"type":"journals","pubmax":"1931-08-03","node":[["fra","c","journals","17-2",2]],"chamber":["c"],"primeMinisters":"Bennett, Richard Bedford"}
+{
+  "pubmin": "1931-03-12",
+  "label": "Journaux de la Chambre des communes, 17e Législature, 2e Session : Vol. 69 App. 1",
+  "language": ["fra"],
+  "session": ["17-2"],
+  "type": "journals",
+  "pubmax": "1931-08-03",
+  "node": [["fra", "c", "journals", "17-2", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford"
+}

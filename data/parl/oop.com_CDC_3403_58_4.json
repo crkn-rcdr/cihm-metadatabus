@@ -1,1 +1,15 @@
-{"language":["fra"],"reportTitle":["Au-delà de l'excellence : l'avenir des réseaux de centres d'excellence du Canada"],"session":["34-3"],"pubmin":"1991-05-13","callNumber":"34-3 I54 A123","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de l'industrie, de la science et de la technologie et du développement régional et du Nord, Troisième rapport","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1993-09-08","node":[["fra","c","committees","34-3",133]]}
+{
+  "language": ["fra"],
+  "reportTitle": [
+    "Au-delà de l'excellence : l'avenir des réseaux de centres d'excellence du Canada"
+  ],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 I54 A123",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de l'industrie, de la science et de la technologie et du développement régional et du Nord, Troisième rapport",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "committees", "34-3", 133]]
+}

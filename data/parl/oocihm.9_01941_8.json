@@ -1,1 +1,11 @@
-{"type":"journals","pubmax":"1874-05-26","node":[["fra","c","journals","03-1",1]],"chamber":["c"],"primeMinisters":"Mackenzie, Alexander","pubmin":"1874-03-26","label":"Journaux de la Chambre des communes, 3e Législature, 1re Session : Vol. 8","language":["fra"],"session":["03-1"]}
+{
+  "type": "journals",
+  "pubmax": "1874-05-26",
+  "node": [["fra", "c", "journals", "03-1", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "pubmin": "1874-03-26",
+  "label": "Journaux de la Chambre des communes, 3e Législature, 1re Session : Vol. 8",
+  "language": ["fra"],
+  "session": ["03-1"]
+}

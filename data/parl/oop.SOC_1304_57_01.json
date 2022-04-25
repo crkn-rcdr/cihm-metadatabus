@@ -1,1 +1,10 @@
-{"node":[["eng","s","journals","13-4",1]],"pubmax":"1920-07-01","type":"journals","chamber":["s"],"label":"Senate Journals, 13th Parliament, 4th Session : Vol. 57","pubmin":"1920-02-26","session":["13-4"],"language":["eng"]}
+{
+  "node": [["eng", "s", "journals", "13-4", 1]],
+  "pubmax": "1920-07-01",
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Senate Journals, 13th Parliament, 4th Session : Vol. 57",
+  "pubmin": "1920-02-26",
+  "session": ["13-4"],
+  "language": ["eng"]
+}

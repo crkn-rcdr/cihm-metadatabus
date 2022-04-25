@@ -1,1 +1,15 @@
-{"chamber":["c","s"],"primeMinisters":"Mackenzie, Alexander","type":"bills","pubmax":"1877-04-28","node":[["eng","c","bills","03-4",1],["eng","s","bills","03-4",2]],"language":["eng"],"session":["03-4"],"pubmin":"1877-02-08","callNumber":"KE72 C36 3-4 no.2-124","label":"Senate and House of Commons Bills, 3rd Parliament, 4th Session : A-K, 2-124"}
+{
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "type": "bills",
+  "pubmax": "1877-04-28",
+  "node": [
+    ["eng", "c", "bills", "03-4", 1],
+    ["eng", "s", "bills", "03-4", 2]
+  ],
+  "language": ["eng"],
+  "session": ["03-4"],
+  "pubmin": "1877-02-08",
+  "callNumber": "KE72 C36 3-4 no.2-124",
+  "label": "Senate and House of Commons Bills, 3rd Parliament, 4th Session : A-K, 2-124"
+}

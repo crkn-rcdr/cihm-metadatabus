@@ -1,1 +1,11 @@
-{"session":["29-2"],"language":["fra"],"callNumber":"J103 H43 1974","label":"Procès-verbaux du Sénat, 29e Législature, 2e Session : 1-31","pubmin":"1974-02-27","chamber":["s"],"pubmax":"1974-05-09","node":[["fra","s","sproc","29-2",1]],"type":"sproc"}
+{
+  "session": ["29-2"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1974",
+  "label": "Procès-verbaux du Sénat, 29e Législature, 2e Session : 1-31",
+  "pubmin": "1974-02-27",
+  "chamber": ["s"],
+  "pubmax": "1974-05-09",
+  "node": [["fra", "s", "sproc", "29-2", 1]],
+  "type": "sproc"
+}

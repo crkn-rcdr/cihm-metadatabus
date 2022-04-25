@@ -1,1 +1,15 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["eng","c","committees","30-3",10],["fra","c","committees","30-3",3]],"pubmax":"1978-10-10","type":"committees","session":["30-3"],"language":["eng","fra"],"label":"House of Commons Committees, 30th Parliament, 3rd Session : Standing Committee on Indian Affairs and Northern Development, vol. 1 = Comités de la Chambre des communes, 30e Législature, 3e Session : Comité permanent des affaires indiennes et du développement du Nord canadien, vol. 1","callNumber":"1977/78 I5 A1","pubmin":"1977-10-18"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "30-3", 10],
+    ["fra", "c", "committees", "30-3", 3]
+  ],
+  "pubmax": "1978-10-10",
+  "type": "committees",
+  "session": ["30-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 30th Parliament, 3rd Session : Standing Committee on Indian Affairs and Northern Development, vol. 1 = Comités de la Chambre des communes, 30e Législature, 3e Session : Comité permanent des affaires indiennes et du développement du Nord canadien, vol. 1",
+  "callNumber": "1977/78 I5 A1",
+  "pubmin": "1977-10-18"
+}

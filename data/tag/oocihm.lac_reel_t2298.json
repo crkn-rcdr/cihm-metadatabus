@@ -1,1 +1,93 @@
-{"1188":{"tagDescription":["Missing / Manque"]},"1410":{"tagDescription":["Missing / Manque"]},"368":{"tagDescription":["Missing / Manque"]},"1412":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"],"tagDescription":["Preservation of wild plumage birds"]},"171":{"tagDate":["[1900-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["Anglo-American Convention re the Tenure and Disposition of Real and personal property -1925: Extent to which British subjects resident in Canada have the right to hold title to property in the United States"]},"1203":{"tagDescription":["Missing / Manque"]},"1471":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],"tagDescription":["Arbitration Agreements and Peace Commissions -Peace Treaty between Great Britain and the US -Multi-Lateral Treaty condemning War"]},"1205":{"tagDate":["[1900-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],"tagDescription":["Exportation of arms and munitions of was to China"]},"1184":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],"tagDescription":["1913  Congo State. Recognition of Belgian Authority 1936  Congo Basin Treaties"]},"168":{"tagDescription":["Missing / Manque"]},"1390":{"tagDescription":["Missing / Manque"]},"1448":{"tagDescription":["Liberia. Consular appointment"],"tagDate":["[1913-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]},"371":{"tagDescription":["United States Presidential file -Elections to the Senate and House of Representatives -Message to Congress -Election of Governors of States"],"tagDate":["[1913-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]},"8":{"tagDescription":["Extradition treaty with the United States - Supplementary convention between United States and Canada (desertion of wives and children)"],"tagDate":["[1921-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]},"1881":{"tagDate":["[1928-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["Ibid"]},"1465":{"tagDescription":["Missing / Manque"]},"1453":{"tagDescription":["Missing / Manque"]},"288":{"tagDescription":["Switzerland, Commercial relation with"],"tagDate":["[1905-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"285":{"tagDescription":["Missing / Manque"]},"1445":{"tagDescription":["Missing / Manque"]},"1138":{"tagDescription":["Missing / Manque"]},"1393":{"tagDate":["1913-01-01T00:00:00.000Z"],"tagDescription":["Loan to the province of Quebec of the service of an official statistician by the Government of France"]},"1181":{"tagDescription":["Missing / Manque"]},"681":{"tagDescription":["United States Financial condition and General Business National Budget System"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"1141":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],"tagDescription":["International Dental Congress"]},"1190":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],"tagDescription":["Conversion of fish waste and inedible fish into need for use as food for animals"]},"1455":{"tagDate":["1913-01-01T00:00:00.000Z"],"tagDescription":["Perry Centennial Commission. -Invitation for detachment of Canadian Troops to attend"]},"679":{"tagDescription":["Missing / Manque"]}}
+{
+  "1188": { "tagDescription": ["Missing / Manque"] },
+  "1410": { "tagDescription": ["Missing / Manque"] },
+  "368": { "tagDescription": ["Missing / Manque"] },
+  "1412": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Preservation of wild plumage birds"]
+  },
+  "171": {
+    "tagDate": ["[1900-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Anglo-American Convention re the Tenure and Disposition of Real and personal property -1925: Extent to which British subjects resident in Canada have the right to hold title to property in the United States"
+    ]
+  },
+  "1203": { "tagDescription": ["Missing / Manque"] },
+  "1471": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Arbitration Agreements and Peace Commissions -Peace Treaty between Great Britain and the US -Multi-Lateral Treaty condemning War"
+    ]
+  },
+  "1205": {
+    "tagDate": ["[1900-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Exportation of arms and munitions of was to China"]
+  },
+  "1184": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "1913  Congo State. Recognition of Belgian Authority 1936  Congo Basin Treaties"
+    ]
+  },
+  "168": { "tagDescription": ["Missing / Manque"] },
+  "1390": { "tagDescription": ["Missing / Manque"] },
+  "1448": {
+    "tagDescription": ["Liberia. Consular appointment"],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]
+  },
+  "371": {
+    "tagDescription": [
+      "United States Presidential file -Elections to the Senate and House of Representatives -Message to Congress -Election of Governors of States"
+    ],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]
+  },
+  "8": {
+    "tagDescription": [
+      "Extradition treaty with the United States - Supplementary convention between United States and Canada (desertion of wives and children)"
+    ],
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]
+  },
+  "1881": {
+    "tagDate": ["[1928-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid"]
+  },
+  "1465": { "tagDescription": ["Missing / Manque"] },
+  "1453": { "tagDescription": ["Missing / Manque"] },
+  "288": {
+    "tagDescription": ["Switzerland, Commercial relation with"],
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "285": { "tagDescription": ["Missing / Manque"] },
+  "1445": { "tagDescription": ["Missing / Manque"] },
+  "1138": { "tagDescription": ["Missing / Manque"] },
+  "1393": {
+    "tagDate": ["1913-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Loan to the province of Quebec of the service of an official statistician by the Government of France"
+    ]
+  },
+  "1181": { "tagDescription": ["Missing / Manque"] },
+  "681": {
+    "tagDescription": [
+      "United States Financial condition and General Business National Budget System"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "1141": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": ["International Dental Congress"]
+  },
+  "1190": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Conversion of fish waste and inedible fish into need for use as food for animals"
+    ]
+  },
+  "1455": {
+    "tagDate": ["1913-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Perry Centennial Commission. -Invitation for detachment of Canadian Troops to attend"
+    ]
+  },
+  "679": { "tagDescription": ["Missing / Manque"] }
+}

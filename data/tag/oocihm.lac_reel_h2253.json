@@ -1,1 +1,106 @@
-{"927":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["[1922-09-01T00:00:00.000Z TO 1922-12-28T23:59:59.999Z]"]},"108":{"tagDate":["[1920-04-01T00:00:00.000Z TO 1920-06-28T23:59:59.999Z]"],"tagDescription":["Dr. Dougall Macdougall (Max) King"]},"1397":{"tagDate":["[1929-08-01T00:00:00.000Z TO 1929-12-28T23:59:59.999Z]"],"tagDescription":["Mrs. (May) Dougall Macdougall King"]},"820":{"tagDescription":["Dr. Dougall Macdougall (Max) King"],"tagDate":["1922-03-01T00:00:00.000Z"]},"1131":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["[1925-10-01T00:00:00.000Z TO 1925-12-28T23:59:59.999Z]"]},"1334":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["[1929-01-01T00:00:00.000Z TO 1929-07-28T23:59:59.999Z]"]},"1482":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["1930-01-01T00:00:00.000Z"]},"983":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["[1924-01-01T00:00:00.000Z TO 1924-06-28T23:59:59.999Z]"]},"862":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["[1922-04-01T00:00:00.000Z TO 1922-08-28T23:59:59.999Z]"]},"348":{"tagDescription":["Dr. Dougall Macdougall (Max) King"],"tagDate":["[1921-01-01T00:00:00.000Z TO 1921-03-28T23:59:59.999Z]"]},"1082":{"tagDate":["[1925-01-01T00:00:00.000Z TO 1925-09-28T23:59:59.999Z]"],"tagDescription":["Mrs. (May) Dougall Macdougall King"]},"274":{"tagDate":["[1920-11-01T00:00:00.000Z TO 1920-12-28T23:59:59.999Z]"],"tagDescription":["Dr. Dougall Macdougall (Max) King"]},"613":{"tagDescription":["Dr. Dougall Macdougall (Max) King"],"tagDate":["[1921-10-01T00:00:00.000Z TO 1921-11-28T23:59:59.999Z]"]},"1028":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["[1924-07-01T00:00:00.000Z TO 1924-12-28T23:59:59.999Z]"]},"16":{"tagDescription":["Dr. Dougall Macdougall (Max) King"],"tagDate":["[1920-01-01T00:00:00.000Z TO 1920-03-28T23:59:59.999Z]"]},"1576":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["[1931-01-01T00:00:00.000Z TO 1931-07-28T23:59:59.999Z]"]},"429":{"tagDescription":["Dr. Dougall Macdougall (Max) King"],"tagDate":["[1921-04-01T00:00:00.000Z TO 1921-06-28T23:59:59.999Z]"]},"724":{"tagDate":["1922-01-01T00:00:00.000Z"],"tagDescription":["Dr. Dougall Macdougall (Max) King"]},"779":{"tagDate":["1922-02-01T00:00:00.000Z"],"tagDescription":["Dr. Dougall Macdougall (Max) King"]},"1217":{"tagDate":["1927-01-01T00:00:00.000Z"],"tagDescription":["Mrs. (May) Dougall Macdougall King"]},"1174":{"tagDate":["1926-01-01T00:00:00.000Z"],"tagDescription":["Mrs. (May) Dougall Macdougall King"]},"962":{"tagDate":["1923-01-01T00:00:00.000Z"],"tagDescription":["Mrs. (May) Dougall Macdougall King"]},"519":{"tagDate":["[1921-07-01T00:00:00.000Z TO 1921-09-28T23:59:59.999Z]"],"tagDescription":["Dr. Dougall Macdougall (Max) King"]},"1280":{"tagDescription":["Mrs. (May) Dougall Macdougall King"],"tagDate":["1928-01-01T00:00:00.000Z"]},"192":{"tagDate":["[1920-07-01T00:00:00.000Z TO 1920-10-28T23:59:59.999Z]"],"tagDescription":["Dr. Dougall Macdougall (Max) King"]},"662":{"tagDescription":["Dr. Dougall Macdougall (Max) King"],"tagDate":["1921-12-01T00:00:00.000Z"]}}
+{
+  "927": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["[1922-09-01T00:00:00.000Z TO 1922-12-28T23:59:59.999Z]"]
+  },
+  "108": {
+    "tagDate": ["[1920-04-01T00:00:00.000Z TO 1920-06-28T23:59:59.999Z]"],
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"]
+  },
+  "1397": {
+    "tagDate": ["[1929-08-01T00:00:00.000Z TO 1929-12-28T23:59:59.999Z]"],
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"]
+  },
+  "820": {
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"],
+    "tagDate": ["1922-03-01T00:00:00.000Z"]
+  },
+  "1131": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["[1925-10-01T00:00:00.000Z TO 1925-12-28T23:59:59.999Z]"]
+  },
+  "1334": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["[1929-01-01T00:00:00.000Z TO 1929-07-28T23:59:59.999Z]"]
+  },
+  "1482": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["1930-01-01T00:00:00.000Z"]
+  },
+  "983": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1924-06-28T23:59:59.999Z]"]
+  },
+  "862": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["[1922-04-01T00:00:00.000Z TO 1922-08-28T23:59:59.999Z]"]
+  },
+  "348": {
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"],
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1921-03-28T23:59:59.999Z]"]
+  },
+  "1082": {
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1925-09-28T23:59:59.999Z]"],
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"]
+  },
+  "274": {
+    "tagDate": ["[1920-11-01T00:00:00.000Z TO 1920-12-28T23:59:59.999Z]"],
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"]
+  },
+  "613": {
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"],
+    "tagDate": ["[1921-10-01T00:00:00.000Z TO 1921-11-28T23:59:59.999Z]"]
+  },
+  "1028": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["[1924-07-01T00:00:00.000Z TO 1924-12-28T23:59:59.999Z]"]
+  },
+  "16": {
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"],
+    "tagDate": ["[1920-01-01T00:00:00.000Z TO 1920-03-28T23:59:59.999Z]"]
+  },
+  "1576": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["[1931-01-01T00:00:00.000Z TO 1931-07-28T23:59:59.999Z]"]
+  },
+  "429": {
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"],
+    "tagDate": ["[1921-04-01T00:00:00.000Z TO 1921-06-28T23:59:59.999Z]"]
+  },
+  "724": {
+    "tagDate": ["1922-01-01T00:00:00.000Z"],
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"]
+  },
+  "779": {
+    "tagDate": ["1922-02-01T00:00:00.000Z"],
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"]
+  },
+  "1217": {
+    "tagDate": ["1927-01-01T00:00:00.000Z"],
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"]
+  },
+  "1174": {
+    "tagDate": ["1926-01-01T00:00:00.000Z"],
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"]
+  },
+  "962": {
+    "tagDate": ["1923-01-01T00:00:00.000Z"],
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"]
+  },
+  "519": {
+    "tagDate": ["[1921-07-01T00:00:00.000Z TO 1921-09-28T23:59:59.999Z]"],
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"]
+  },
+  "1280": {
+    "tagDescription": ["Mrs. (May) Dougall Macdougall King"],
+    "tagDate": ["1928-01-01T00:00:00.000Z"]
+  },
+  "192": {
+    "tagDate": ["[1920-07-01T00:00:00.000Z TO 1920-10-28T23:59:59.999Z]"],
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"]
+  },
+  "662": {
+    "tagDescription": ["Dr. Dougall Macdougall (Max) King"],
+    "tagDate": ["1921-12-01T00:00:00.000Z"]
+  }
+}

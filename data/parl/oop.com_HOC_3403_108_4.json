@@ -1,1 +1,13 @@
-{"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",217]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","callNumber":"34-3 T7 A12","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Transport, Second Report","pubmin":"1991-05-13","session":["34-3"],"reportTitle":["High Speed Rail: the Canadian Concept"],"language":["eng"]}
+{
+  "pubmax": "1993-09-08",
+  "node": [["eng", "c", "committees", "34-3", 217]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 T7 A12",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Transport, Second Report",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "reportTitle": ["High Speed Rail: the Canadian Concept"],
+  "language": ["eng"]
+}

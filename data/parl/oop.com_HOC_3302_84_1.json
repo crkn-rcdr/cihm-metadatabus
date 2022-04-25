@@ -1,1 +1,15 @@
-{"node":[["eng","c","committees","33-2",172],["fra","c","committees","33-2",170]],"pubmax":"1988-10-01","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"label":"House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-204, an Act to regulate smoking in the federal workplace and on common carriers and to amend the Hazardous Products in relation to cigarette advertising and Bill C-51, an Act to prohibit the advertising and promotion and respecting the labelling and monitoring of tobacco products, vol. 1 no. 1-14 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-204, Loi régissant l'usage du tabac dans les lieux de travail fédéraux et les véhicules de transport en commun et modifiant la Loi sur les produits dangereux en ce qui concerne la publicité des cigarettes et Projet de loi C-51, Loi interdisant la publicité en faveur des produits du tabac, réglementant leur étiquetage et prévoyant certaines mesures de contrôle, vol. 1 no. 1-14","callNumber":"33-2 S56 A1 no.1-14","pubmin":"1986-09-30","session":["33-2"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "c", "committees", "33-2", 172],
+    ["fra", "c", "committees", "33-2", 170]
+  ],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-204, an Act to regulate smoking in the federal workplace and on common carriers and to amend the Hazardous Products in relation to cigarette advertising and Bill C-51, an Act to prohibit the advertising and promotion and respecting the labelling and monitoring of tobacco products, vol. 1 no. 1-14 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-204, Loi régissant l'usage du tabac dans les lieux de travail fédéraux et les véhicules de transport en commun et modifiant la Loi sur les produits dangereux en ce qui concerne la publicité des cigarettes et Projet de loi C-51, Loi interdisant la publicité en faveur des produits du tabac, réglementant leur étiquetage et prévoyant certaines mesures de contrôle, vol. 1 no. 1-14",
+  "callNumber": "33-2 S56 A1 no.1-14",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["eng", "fra"]
+}

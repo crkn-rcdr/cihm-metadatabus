@@ -1,1 +1,10 @@
-{"chamber":["s"],"node":[["eng","s","journals","17-4",1]],"pubmax":"1933-05-27","type":"journals","session":["17-4"],"language":["eng"],"label":"Senate Journals, 17th Parliament, 4th Session : Vol. 71","pubmin":"1932-10-06"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "17-4", 1]],
+  "pubmax": "1933-05-27",
+  "type": "journals",
+  "session": ["17-4"],
+  "language": ["eng"],
+  "label": "Senate Journals, 17th Parliament, 4th Session : Vol. 71",
+  "pubmin": "1932-10-06"
+}

@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Macdonald, John Alexander (1873-10-23 - 1873-11-05), Mackenzie, Alexander (1873-11-07 - 1873-11-07)","type":"cproc","pubmax":"1873-11-07","node":[["eng","c","cproc","02-2",1]],"language":["eng"],"session":["02-2"],"pubmin":"1873-10-23","callNumber":"J103 H41 1873 2d. Sess. c.2","label":"House of Commons Votes and Proceedings, 2nd Parliament, 2nd Session : 1-11"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander (1873-10-23 - 1873-11-05), Mackenzie, Alexander (1873-11-07 - 1873-11-07)",
+  "type": "cproc",
+  "pubmax": "1873-11-07",
+  "node": [["eng", "c", "cproc", "02-2", 1]],
+  "language": ["eng"],
+  "session": ["02-2"],
+  "pubmin": "1873-10-23",
+  "callNumber": "J103 H41 1873 2d. Sess. c.2",
+  "label": "House of Commons Votes and Proceedings, 2nd Parliament, 2nd Session : 1-11"
+}

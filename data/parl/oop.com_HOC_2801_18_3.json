@@ -1,1 +1,12 @@
-{"callNumber":"1968/69 T7 A1 v.3","label":"House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Transport and Communications, vol. 3 no. 25-37","pubmin":"1968-09-12","session":["28-1"],"language":["eng"],"pubmax":"1969-10-22","node":[["eng","c","committees","28-1",32]],"type":"committees","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "callNumber": "1968/69 T7 A1 v.3",
+  "label": "House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Transport and Communications, vol. 3 no. 25-37",
+  "pubmin": "1968-09-12",
+  "session": ["28-1"],
+  "language": ["eng"],
+  "pubmax": "1969-10-22",
+  "node": [["eng", "c", "committees", "28-1", 32]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

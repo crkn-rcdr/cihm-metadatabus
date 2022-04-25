@@ -1,1 +1,11 @@
-{"pubmin":"1964-02-18","label":"Rules of the Senate of Canada, 1964","callNumber":"JL158.3 1964","language":["eng"],"session":["26-2"],"type":"rules","node":[["eng","s","rules",null,14]],"pubmax":"1965-04-03","chamber":["s"]}
+{
+  "pubmin": "1964-02-18",
+  "label": "Rules of the Senate of Canada, 1964",
+  "callNumber": "JL158.3 1964",
+  "language": ["eng"],
+  "session": ["26-2"],
+  "type": "rules",
+  "node": [["eng", "s", "rules", null, 14]],
+  "pubmax": "1965-04-03",
+  "chamber": ["s"]
+}

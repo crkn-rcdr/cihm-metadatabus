@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"debates","pubmax":"1888-05-22","node":[["eng","s","debates","06-2",1]],"language":["eng"],"session":["06-2"],"pubmin":"1888-02-23","label":"Senate Debates, 6th Parliament, 2nd Session : Vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1888-05-22",
+  "node": [["eng", "s", "debates", "06-2", 1]],
+  "language": ["eng"],
+  "session": ["06-2"],
+  "pubmin": "1888-02-23",
+  "label": "Senate Debates, 6th Parliament, 2nd Session : Vol. 1"
+}

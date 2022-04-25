@@ -1,1 +1,14 @@
-{"language":["fra"],"reportTitle":["Programme des subventions de contrepartie du gouvernement du Canada"],"session":["33-2"],"pubmin":"1986-09-30","callNumber":"33-2 N3 A13","label":"Comités du Sénat, 33e Législature, 2e Session : Comité permanent des finances nationales, Troisième rapport","chamber":["s"],"type":"committees","pubmax":"1988-10-01","node":[["fra","s","committees","33-2",30]]}
+{
+  "language": ["fra"],
+  "reportTitle": [
+    "Programme des subventions de contrepartie du gouvernement du Canada"
+  ],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 N3 A13",
+  "label": "Comités du Sénat, 33e Législature, 2e Session : Comité permanent des finances nationales, Troisième rapport",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [["fra", "s", "committees", "33-2", 30]]
+}

@@ -1,1 +1,12 @@
-{"label":"Comités de la Chambre des communes, 21e Législature, 7e Session : Comité spécial des dépenses aux fins de la défense, vol. 1","callNumber":"1952/53 D4 A4","pubmin":"1952-11-20","session":["21-7"],"language":["fra"],"node":[["fra","c","committees","21-7",6]],"pubmax":"1953-05-14","type":"committees","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 21e Législature, 7e Session : Comité spécial des dépenses aux fins de la défense, vol. 1",
+  "callNumber": "1952/53 D4 A4",
+  "pubmin": "1952-11-20",
+  "session": ["21-7"],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "21-7", 6]],
+  "pubmax": "1953-05-14",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

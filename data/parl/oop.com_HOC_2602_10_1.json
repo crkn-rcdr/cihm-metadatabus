@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["26-2"],"pubmin":"1964-02-18","callNumber":"1964/65 P7 A1","label":"House of Commons Committees, 26th Parliament, 2nd Session : Standing Committee on Privileges and Elections, vol. 1","chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","type":"committees","pubmax":"1965-04-03","node":[["eng","c","committees","26-2",18]]}
+{
+  "language": ["eng"],
+  "session": ["26-2"],
+  "pubmin": "1964-02-18",
+  "callNumber": "1964/65 P7 A1",
+  "label": "House of Commons Committees, 26th Parliament, 2nd Session : Standing Committee on Privileges and Elections, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "type": "committees",
+  "pubmax": "1965-04-03",
+  "node": [["eng", "c", "committees", "26-2", 18]]
+}

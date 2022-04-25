@@ -1,1 +1,15 @@
-{"pubmin":"1991-05-13","callNumber":"34-3 I553 A1","label":"House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on International Financial Institutions, vol. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité sur les institutions financières internationales, vol. 1","language":["eng","fra"],"session":["34-3"],"type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",129],["fra","c","committees","34-3",135]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 I553 A1",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on International Financial Institutions, vol. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité sur les institutions financières internationales, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 129],
+    ["fra", "c", "committees", "34-3", 135]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

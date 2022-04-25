@@ -1,1 +1,12 @@
-{"primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["fra","c","committees","21-5",6]],"pubmax":"1951-12-29","type":"committees","session":["21-5"],"language":["fra"],"label":"Comités de la Chambre des communes, 21e Législature, 5e Session : Comité spécial sur la législation ferroviaire, vol. 1","callNumber":"1951(2e) L4 A4","pubmin":"1951-10-09"}
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "21-5", 6]],
+  "pubmax": "1951-12-29",
+  "type": "committees",
+  "session": ["21-5"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 21e Législature, 5e Session : Comité spécial sur la législation ferroviaire, vol. 1",
+  "callNumber": "1951(2e) L4 A4",
+  "pubmin": "1951-10-09"
+}

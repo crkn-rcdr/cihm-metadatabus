@@ -1,1 +1,14 @@
-{"pubmin":"1984-11-05","label":"House of Commons Bills, 33rd Parliament, 1st Session : C213-C294 = Projets de loi de la Chambre des communes, 33e Législature, 1re Session : C213-C294","language":["eng","fra"],"session":["33-1"],"type":"bills","pubmax":"1986-08-28","node":[["eng","c","bills","33-1",11],["fra","c","bills","33-1",11]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1984-11-05",
+  "label": "House of Commons Bills, 33rd Parliament, 1st Session : C213-C294 = Projets de loi de la Chambre des communes, 33e Législature, 1re Session : C213-C294",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "type": "bills",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "bills", "33-1", 11],
+    ["fra", "c", "bills", "33-1", 11]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

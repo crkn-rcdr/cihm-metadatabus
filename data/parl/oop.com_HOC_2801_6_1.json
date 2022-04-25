@@ -1,1 +1,12 @@
-{"session":["28-1"],"language":["eng"],"callNumber":"1968/69 H4 A1 v.1","label":"House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 no. 1-27","pubmin":"1968-09-12","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1969-10-22","node":[["eng","c","committees","28-1",15]],"type":"committees"}
+{
+  "session": ["28-1"],
+  "language": ["eng"],
+  "callNumber": "1968/69 H4 A1 v.1",
+  "label": "House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 no. 1-27",
+  "pubmin": "1968-09-12",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1969-10-22",
+  "node": [["eng", "c", "committees", "28-1", 15]],
+  "type": "committees"
+}

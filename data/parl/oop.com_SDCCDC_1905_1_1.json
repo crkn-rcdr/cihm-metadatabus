@@ -1,1 +1,15 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c","s"],"node":[["fra","c","committees","19-5",8],["fra","s","committees","19-5",1]],"pubmax":"1945-01-31","type":"committees","session":["19-5"],"language":["fra"],"label":"Comités mixtes, 19e Législature, 5e Session : Comité mixte sur les problèmes spéciaux résultant du fait que la ville d'Ottawa est le siège du gouvernement, vol. 1","callNumber":"1944/45 O8 A44","pubmin":"1944-01-27"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c", "s"],
+  "node": [
+    ["fra", "c", "committees", "19-5", 8],
+    ["fra", "s", "committees", "19-5", 1]
+  ],
+  "pubmax": "1945-01-31",
+  "type": "committees",
+  "session": ["19-5"],
+  "language": ["fra"],
+  "label": "Comités mixtes, 19e Législature, 5e Session : Comité mixte sur les problèmes spéciaux résultant du fait que la ville d'Ottawa est le siège du gouvernement, vol. 1",
+  "callNumber": "1944/45 O8 A44",
+  "pubmin": "1944-01-27"
+}

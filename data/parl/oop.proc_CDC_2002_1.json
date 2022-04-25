@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"cproc","pubmax":"1946-08-31","node":[["fra","c","cproc","20-2",1]],"language":["fra"],"session":["20-2"],"pubmin":"1946-03-14","callNumber":"J103 H44 1946","label":"Procès-verbaux de la Chambre des communes, 20e Législature, 2e Session : 1-118"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "cproc",
+  "pubmax": "1946-08-31",
+  "node": [["fra", "c", "cproc", "20-2", 1]],
+  "language": ["fra"],
+  "session": ["20-2"],
+  "pubmin": "1946-03-14",
+  "callNumber": "J103 H44 1946",
+  "label": "Procès-verbaux de la Chambre des communes, 20e Législature, 2e Session : 1-118"
+}

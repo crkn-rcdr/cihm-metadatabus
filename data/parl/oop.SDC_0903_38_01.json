@@ -1,1 +1,10 @@
-{"chamber":["s"],"node":[["fra","s","journals","09-3",1]],"pubmax":"1903-10-24","type":"journals","session":["09-3"],"language":["fra"],"label":"Journaux du Sénat, 9e Législature, 3e Session : Vol. 38","pubmin":"1903-03-12"}
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "09-3", 1]],
+  "pubmax": "1903-10-24",
+  "type": "journals",
+  "session": ["09-3"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 9e Législature, 3e Session : Vol. 38",
+  "pubmin": "1903-03-12"
+}

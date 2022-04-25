@@ -1,1 +1,11 @@
-{"label":"Sessional Papers, 3rd Parliament, 1st Session : vol. 2","pubmin":"1874-03-26","session":["03-1"],"language":["eng"],"node":[["eng","c","sessional","03-1",2]],"pubmax":"1874-05-26","type":"sessional","primeMinisters":"Mackenzie, Alexander","chamber":["c"]}
+{
+  "label": "Sessional Papers, 3rd Parliament, 1st Session : vol. 2",
+  "pubmin": "1874-03-26",
+  "session": ["03-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "sessional", "03-1", 2]],
+  "pubmax": "1874-05-26",
+  "type": "sessional",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"]
+}

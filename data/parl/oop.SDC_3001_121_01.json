@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["30-1"],"pubmin":"1974-09-30","label":"Journaux du Sénat, 30e Législature, 1re Session : Vol. 121","chamber":["s"],"type":"journals","pubmax":"1976-10-12","node":[["fra","s","journals","30-1",1]]}
+{
+  "language": ["fra"],
+  "session": ["30-1"],
+  "pubmin": "1974-09-30",
+  "label": "Journaux du Sénat, 30e Législature, 1re Session : Vol. 121",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1976-10-12",
+  "node": [["fra", "s", "journals", "30-1", 1]]
+}

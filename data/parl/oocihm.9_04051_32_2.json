@@ -1,1 +1,11 @@
-{"session":["08-3"],"language":["fra"],"label":"Documents parlementaires, 8e Législature, 3e Session : vol. 2","pubmin":"1898-02-03","primeMinisters":"Laurier, Wilfrid","chamber":["c"],"node":[["fra","c","sessional","08-3",2]],"pubmax":"1898-06-13","type":"sessional"}
+{
+  "session": ["08-3"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 8e Législature, 3e Session : vol. 2",
+  "pubmin": "1898-02-03",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["fra", "c", "sessional", "08-3", 2]],
+  "pubmax": "1898-06-13",
+  "type": "sessional"
+}

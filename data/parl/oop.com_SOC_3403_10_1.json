@@ -1,1 +1,14 @@
-{"type":"committees","node":[["eng","s","committees","34-3",47],["fra","s","committees","34-3",41]],"pubmax":"1993-09-08","chamber":["s"],"pubmin":"1991-05-13","label":"Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Standing Rules and Orders, vol. 1 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent du Règlement et de la procédure, vol. 1","callNumber":"34-3 P73 A1","language":["eng","fra"],"session":["34-3"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "34-3", 47],
+    ["fra", "s", "committees", "34-3", 41]
+  ],
+  "pubmax": "1993-09-08",
+  "chamber": ["s"],
+  "pubmin": "1991-05-13",
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Standing Rules and Orders, vol. 1 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent du Règlement et de la procédure, vol. 1",
+  "callNumber": "34-3 P73 A1",
+  "language": ["eng", "fra"],
+  "session": ["34-3"]
+}

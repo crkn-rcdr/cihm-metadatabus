@@ -1,1 +1,11 @@
-{"chamber":["s"],"node":[["eng","s","committees","08-3",1]],"pubmax":"1898-06-13","type":"committees","session":["08-3"],"language":["eng"],"label":"Senate Committees, 8th Parliament, 3rd Session : Special Committee on the Montreal, Ottawa and Georgian Bay Canal, Report","callNumber":"1898 M6 A12","pubmin":"1898-02-03"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "committees", "08-3", 1]],
+  "pubmax": "1898-06-13",
+  "type": "committees",
+  "session": ["08-3"],
+  "language": ["eng"],
+  "label": "Senate Committees, 8th Parliament, 3rd Session : Special Committee on the Montreal, Ottawa and Georgian Bay Canal, Report",
+  "callNumber": "1898 M6 A12",
+  "pubmin": "1898-02-03"
+}

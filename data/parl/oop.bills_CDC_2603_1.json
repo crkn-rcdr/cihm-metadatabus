@@ -1,1 +1,12 @@
-{"session":["26-3"],"language":["fra"],"label":"Projets de loi de la Chambre des communes, 26e Législature, 3e Session : C2-C100","callNumber":"KE72 C361 26-3 C2-C100","pubmin":"1965-04-05","primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"node":[["fra","c","bills","26-3",1]],"pubmax":"1965-09-08","type":"bills"}
+{
+  "session": ["26-3"],
+  "language": ["fra"],
+  "label": "Projets de loi de la Chambre des communes, 26e Législature, 3e Session : C2-C100",
+  "callNumber": "KE72 C361 26-3 C2-C100",
+  "pubmin": "1965-04-05",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "node": [["fra", "c", "bills", "26-3", 1]],
+  "pubmax": "1965-09-08",
+  "type": "bills"
+}

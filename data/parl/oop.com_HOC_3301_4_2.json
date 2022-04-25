@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["33-1"],"pubmin":"1984-11-05","callNumber":"33-1 A3 A1 no.25-41","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Agriculture, vol. 2 no. 25-41 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'agriculture, vol. 2 no. 25-41","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",6],["fra","c","committees","33-1",17]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 A3 A1 no.25-41",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Agriculture, vol. 2 no. 25-41 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'agriculture, vol. 2 no. 25-41",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 6],
+    ["fra", "c", "committees", "33-1", 17]
+  ]
+}

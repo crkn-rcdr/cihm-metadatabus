@@ -1,1 +1,11 @@
-{"type":"debates","node":[["fra","c","debates","14-4",5]],"pubmax":"1925-06-27","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1925-02-05","label":"Débats de la Chambre des communes, 14e Législature, 4e Session : Vol. 5","language":["fra"],"session":["14-4"]}
+{
+  "type": "debates",
+  "node": [["fra", "c", "debates", "14-4", 5]],
+  "pubmax": "1925-06-27",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1925-02-05",
+  "label": "Débats de la Chambre des communes, 14e Législature, 4e Session : Vol. 5",
+  "language": ["fra"],
+  "session": ["14-4"]
+}

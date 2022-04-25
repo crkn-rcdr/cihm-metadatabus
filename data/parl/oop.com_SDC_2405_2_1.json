@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","pubmax":"1962-04-19","node":[["fra","s","committees","24-5",4]],"language":["fra"],"session":["24-5"],"pubmin":"1962-01-18","callNumber":"1962 B43 A42","label":"Comités du Sénat, 24e Législature, 5e Session : Comité permanent des relations extérieures, vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1962-04-19",
+  "node": [["fra", "s", "committees", "24-5", 4]],
+  "language": ["fra"],
+  "session": ["24-5"],
+  "pubmin": "1962-01-18",
+  "callNumber": "1962 B43 A42",
+  "label": "Comités du Sénat, 24e Législature, 5e Session : Comité permanent des relations extérieures, vol. 1"
+}

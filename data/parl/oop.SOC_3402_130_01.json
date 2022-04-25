@@ -1,1 +1,13 @@
-{"type":"journals","node":[["eng","s","journals","34-2",0],["fra","s","journals","34-2",0]],"pubmax":"1991-05-12","chamber":["s"],"pubmin":"1989-04-03","label":"Senate Journals, 34th Parliament, 2nd Session : Vol. 130 Pt. 1 = Journaux du Sénat, 34e Législature, 2e Session : Vol. 130 Pt. 1","language":["eng","fra"],"session":["34-2"]}
+{
+  "type": "journals",
+  "node": [
+    ["eng", "s", "journals", "34-2", 0],
+    ["fra", "s", "journals", "34-2", 0]
+  ],
+  "pubmax": "1991-05-12",
+  "chamber": ["s"],
+  "pubmin": "1989-04-03",
+  "label": "Senate Journals, 34th Parliament, 2nd Session : Vol. 130 Pt. 1 = Journaux du Sénat, 34e Législature, 2e Session : Vol. 130 Pt. 1",
+  "language": ["eng", "fra"],
+  "session": ["34-2"]
+}

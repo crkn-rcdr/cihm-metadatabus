@@ -1,1 +1,15 @@
-{"callNumber":"34-3 C665 A1 no.1-3","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-46, an Act respecting contraventions of federal enactments, vol. 1 no. 1-3 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-46, Loi concernant les contraventions aux textes législatifs fédéraux, vol. 1 no. 1-3","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"],"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",38],["fra","c","committees","34-3",58]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-3 C665 A1 no.1-3",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-46, an Act respecting contraventions of federal enactments, vol. 1 no. 1-3 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-46, Loi concernant les contraventions aux textes législatifs fédéraux, vol. 1 no. 1-3",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 38],
+    ["fra", "c", "committees", "34-3", 58]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

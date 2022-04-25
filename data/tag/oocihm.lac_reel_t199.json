@@ -1,1 +1,95 @@
-{"1396":{"tagDescription":["Behring Sea Question Pricis of correspondence"],"tagDate":["[1892-01-01T00:00:00.000Z TO 1896-12-31T23:59:59.999Z]"]},"1353":{"tagDate":["[1884-01-01T00:00:00.000Z TO 1885-12-31T23:59:59.999Z]"],"tagDescription":["Colonel Irwina Half Pay"]},"1351":{"tagDescription":["Missing / Manque"]},"260":{"tagDate":["[1874-01-01T00:00:00.000Z TO 1877-12-31T23:59:59.999Z]"],"tagDescription":["Annexation to Dominion of all British Territories on North American continent with the Islands adjacent thereto which have not hitherto been annexed to any colony. Labrador  Case of W.A. Mintzer A.W. Hervey U.S. Government Hudsons Bay Co. Territories, ie Rupertis Land. Limits of  North West Territories Boundaries of Canada Map of Canada Charts of Northern part of North American Continent"]},"390":{"tagDescription":["Missing / Manque"]},"378":{"tagDescription":["Missing / Manque"]},"540":{"tagDate":["[1904-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["Medical Practioners. Registration of  Medical Act 1886"]},"1167":{"tagDescription":["Missing / Manque"]},"376":{"tagDescription":["Missing / Manque"]},"1168":{"tagDescription":["Missing / Manque"]},"210":{"tagDescription":["Missing / Manque"]},"13":{"tagDate":["[1898-12-31T23:59:59.999Z TO 1914-01-01T00:00:00.000Z]"],"tagDescription":["North Atlantic Fishery Question Prints and documents"]},"1290":{"tagDate":["1885-01-01T00:00:00.000Z"],"tagDescription":["Provincial Queens Council"]},"732":{"tagDescription":["Medical Practioners. Registration of  Medical Act 1886"],"tagDate":["[1904-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"391":{"tagDescription":["Missing / Manque"]},"880":{"tagDate":["[1878-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagDescription":["Case of Letellier"]},"394":{"tagDate":["[1878-01-01T00:00:00.000Z TO 1889-12-31T23:59:59.999Z]"],"tagDescription":["Imperial Medical Acts 1858, 1886 Dentists Act 1878"]},"258":{"tagDescription":["Missing / Manque"]},"1394":{"tagDescription":["Missing / Manque"]},"377":{"tagDescription":["Missing / Manque"]},"1262":{"tagDate":["1889-01-01T00:00:00.000Z"],"tagDescription":["Esquimalt Harbour. Assignment of a portion for exclusive use of H.M. Ships"]},"1393":{"tagDescription":["Missing / Manque"]},"1307":{"tagDate":["1887-01-01T00:00:00.000Z"],"tagDescription":["Case of T.B. Browning"]},"1288":{"tagDescription":["Missing / Manque"]},"392":{"tagDescription":["Missing / Manque"]},"379":{"tagDescription":["Missing / Manque"]},"112":{"tagDescription":["North Atlantic Fishery Question Prints and documents"],"tagDate":["1898-01-01T00:00:00.000Z"]},"328":{"tagDate":["[1877-01-01T00:00:00.000Z TO 1878-12-31T23:59:59.999Z]"],"tagDescription":["Mr. J.F. Croft Case of "],"tagName":["Croft, J.F. Mr."]},"212":{"tagDate":["[1877-01-01T00:00:00.000Z TO 1878-12-31T23:59:59.999Z]"],"tagDescription":["Award to Canada of $5,500,000. by Halifax Fisheries Commission 1877"]},"1170":{"tagDescription":["Case of Messrs Dudley Hall & Company Customs Case"],"tagDate":["[1883-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]},"257":{"tagDescription":["Missing / Manque"]},"381":{"tagDescription":["Regulations on Lake Michigan"],"tagDate":["1873-01-01T00:00:00.000Z"]},"1669":{"tagDescription":["Behring Sea Question Pricis of correspondence"],"tagDate":["[1886-01-01T00:00:00.000Z TO 1891-12-31T23:59:59.999Z]"]}}
+{
+  "1396": {
+    "tagDescription": ["Behring Sea Question Pricis of correspondence"],
+    "tagDate": ["[1892-01-01T00:00:00.000Z TO 1896-12-31T23:59:59.999Z]"]
+  },
+  "1353": {
+    "tagDate": ["[1884-01-01T00:00:00.000Z TO 1885-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Colonel Irwina Half Pay"]
+  },
+  "1351": { "tagDescription": ["Missing / Manque"] },
+  "260": {
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1877-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Annexation to Dominion of all British Territories on North American continent with the Islands adjacent thereto which have not hitherto been annexed to any colony. Labrador  Case of W.A. Mintzer A.W. Hervey U.S. Government Hudsons Bay Co. Territories, ie Rupertis Land. Limits of  North West Territories Boundaries of Canada Map of Canada Charts of Northern part of North American Continent"
+    ]
+  },
+  "390": { "tagDescription": ["Missing / Manque"] },
+  "378": { "tagDescription": ["Missing / Manque"] },
+  "540": {
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Medical Practioners. Registration of  Medical Act 1886"]
+  },
+  "1167": { "tagDescription": ["Missing / Manque"] },
+  "376": { "tagDescription": ["Missing / Manque"] },
+  "1168": { "tagDescription": ["Missing / Manque"] },
+  "210": { "tagDescription": ["Missing / Manque"] },
+  "13": {
+    "tagDate": ["[1898-12-31T23:59:59.999Z TO 1914-01-01T00:00:00.000Z]"],
+    "tagDescription": ["North Atlantic Fishery Question Prints and documents"]
+  },
+  "1290": {
+    "tagDate": ["1885-01-01T00:00:00.000Z"],
+    "tagDescription": ["Provincial Queens Council"]
+  },
+  "732": {
+    "tagDescription": [
+      "Medical Practioners. Registration of  Medical Act 1886"
+    ],
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "391": { "tagDescription": ["Missing / Manque"] },
+  "880": {
+    "tagDate": ["[1878-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Case of Letellier"]
+  },
+  "394": {
+    "tagDate": ["[1878-01-01T00:00:00.000Z TO 1889-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Imperial Medical Acts 1858, 1886 Dentists Act 1878"]
+  },
+  "258": { "tagDescription": ["Missing / Manque"] },
+  "1394": { "tagDescription": ["Missing / Manque"] },
+  "377": { "tagDescription": ["Missing / Manque"] },
+  "1262": {
+    "tagDate": ["1889-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Esquimalt Harbour. Assignment of a portion for exclusive use of H.M. Ships"
+    ]
+  },
+  "1393": { "tagDescription": ["Missing / Manque"] },
+  "1307": {
+    "tagDate": ["1887-01-01T00:00:00.000Z"],
+    "tagDescription": ["Case of T.B. Browning"]
+  },
+  "1288": { "tagDescription": ["Missing / Manque"] },
+  "392": { "tagDescription": ["Missing / Manque"] },
+  "379": { "tagDescription": ["Missing / Manque"] },
+  "112": {
+    "tagDescription": ["North Atlantic Fishery Question Prints and documents"],
+    "tagDate": ["1898-01-01T00:00:00.000Z"]
+  },
+  "328": {
+    "tagDate": ["[1877-01-01T00:00:00.000Z TO 1878-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mr. J.F. Croft Case of "],
+    "tagName": ["Croft, J.F. Mr."]
+  },
+  "212": {
+    "tagDate": ["[1877-01-01T00:00:00.000Z TO 1878-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Award to Canada of $5,500,000. by Halifax Fisheries Commission 1877"
+    ]
+  },
+  "1170": {
+    "tagDescription": ["Case of Messrs Dudley Hall & Company Customs Case"],
+    "tagDate": ["[1883-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]
+  },
+  "257": { "tagDescription": ["Missing / Manque"] },
+  "381": {
+    "tagDescription": ["Regulations on Lake Michigan"],
+    "tagDate": ["1873-01-01T00:00:00.000Z"]
+  },
+  "1669": {
+    "tagDescription": ["Behring Sea Question Pricis of correspondence"],
+    "tagDate": ["[1886-01-01T00:00:00.000Z TO 1891-12-31T23:59:59.999Z]"]
+  }
+}

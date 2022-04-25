@@ -1,1 +1,12 @@
-{"session":["27-1"],"language":["fra"],"callNumber":"J103 H44 1966 no. 1-50","label":"Procès-verbaux de la Chambre des communes, 27e Législature, 1re Session : 1-50","pubmin":"1966-01-18","chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","pubmax":"1967-05-08","node":[["fra","c","cproc","27-1",1]],"type":"cproc"}
+{
+  "session": ["27-1"],
+  "language": ["fra"],
+  "callNumber": "J103 H44 1966 no. 1-50",
+  "label": "Procès-verbaux de la Chambre des communes, 27e Législature, 1re Session : 1-50",
+  "pubmin": "1966-01-18",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "pubmax": "1967-05-08",
+  "node": [["fra", "c", "cproc", "27-1", 1]],
+  "type": "cproc"
+}

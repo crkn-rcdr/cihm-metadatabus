@@ -1,1 +1,11 @@
-{"type":"sessional","node":[["fra","c","sessional","06-1",10]],"pubmax":"1887-06-23","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"pubmin":"1887-04-13","label":"Documents parlementaires, 6e Législature, 1re Session : vol. 10","language":["fra"],"session":["06-1"]}
+{
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "06-1", 10]],
+  "pubmax": "1887-06-23",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "pubmin": "1887-04-13",
+  "label": "Documents parlementaires, 6e Législature, 1re Session : vol. 10",
+  "language": ["fra"],
+  "session": ["06-1"]
+}

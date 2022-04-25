@@ -1,1 +1,15 @@
-{"node":[["eng","c","committees","19-3",13],["eng","c","committees","19-2",10]],"pubmax":"1943-01-27","type":"committees","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"label":"House of Commons Committees, 19th Parliament, 2nd and 3rd Sessions : Special Committee on Defence of Canada Regulations, no.9","callNumber":"1941/42 D4 A1 No. 9","pubmin":"1940-11-07","session":["19-2","19-3"],"language":["eng"]}
+{
+  "node": [
+    ["eng", "c", "committees", "19-3", 13],
+    ["eng", "c", "committees", "19-2", 10]
+  ],
+  "pubmax": "1943-01-27",
+  "type": "committees",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 19th Parliament, 2nd and 3rd Sessions : Special Committee on Defence of Canada Regulations, no.9",
+  "callNumber": "1941/42 D4 A1 No. 9",
+  "pubmin": "1940-11-07",
+  "session": ["19-2", "19-3"],
+  "language": ["eng"]
+}

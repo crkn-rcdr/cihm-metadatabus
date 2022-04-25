@@ -1,1 +1,15 @@
-{"callNumber":"34-2 P773 A1 no.10-16","label":"House of Commons Committees, 34th Parliament, 2nd Session : Special Committee to study the Proposed Companion Resolution to the Meech Lake Accord, vol. 2 no. 10-16 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité spécial pour examiner le projet de résolution d'accompagnement à l'Accord du lac Meech, vol. 2 no. 10-16","pubmin":"1989-04-03","session":["34-2"],"language":["eng","fra"],"pubmax":"1991-05-12","node":[["eng","c","committees","34-2",153],["fra","c","committees","34-2",156]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-2 P773 A1 no.10-16",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Special Committee to study the Proposed Companion Resolution to the Meech Lake Accord, vol. 2 no. 10-16 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité spécial pour examiner le projet de résolution d'accompagnement à l'Accord du lac Meech, vol. 2 no. 10-16",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 153],
+    ["fra", "c", "committees", "34-2", 156]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

@@ -1,1 +1,12 @@
-{"label":"Comités de la Chambre des communes, 26e Législature, 2e Session : Comité permanent des mines, forêts et cours d'eau, vol. 1","callNumber":"1964/65 M5 A4","pubmin":"1964-02-18","session":["26-2"],"language":["fra"],"node":[["fra","c","committees","26-2",19]],"pubmax":"1965-04-03","type":"committees","primeMinisters":"Pearson, Lester Bowles","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 26e Législature, 2e Session : Comité permanent des mines, forêts et cours d'eau, vol. 1",
+  "callNumber": "1964/65 M5 A4",
+  "pubmin": "1964-02-18",
+  "session": ["26-2"],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "26-2", 19]],
+  "pubmax": "1965-04-03",
+  "type": "committees",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"]
+}

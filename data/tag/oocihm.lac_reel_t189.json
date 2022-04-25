@@ -1,1 +1,39 @@
-{"1143":{"tagDate":["[1874-01-01T00:00:00.000Z TO 1875-12-31T23:59:59.999Z]"],"tagDescription":["Marine Electric Telegraphs Bill Transatlantic cables"]},"1095":{"tagDescription":["Missing / Manque"]},"498":{"tagDescription":["Hudsons Bay Company Annexation of North West Territory and Red River Settlement to Dominion of Canada. Construction of telegraph line and road to British Columbia"],"tagDate":["[1870-12-31T23:59:59.999Z TO 1930-01-01T00:00:00.000Z]"]},"737":{"tagDate":["[1851-01-01T00:00:00.000Z TO 1856-12-31T23:59:59.999Z]"],"tagDescription":["Ordnance Lands"]},"1097":{"tagName":["Dufferin, Lord"],"tagDate":["[1874-01-01T00:00:00.000Z TO 1875-12-31T23:59:59.999Z]"],"tagDescription":["Lord Dufferin  Governor General of Canada"]},"1694":{"tagDescription":["St. Albans Raid Confederate Organizations in Canada"],"tagDate":["[1864-01-01T00:00:00.000Z TO 1865-12-31T23:59:59.999Z]"]},"1463":{"tagDate":["[1864-01-01T00:00:00.000Z TO 1865-12-31T23:59:59.999Z]"],"tagDescription":["St. Albans Raid Confederate Organizations in Canada"]},"1278":{"tagDescription":["Toronto Military Reserve Lands"],"tagDate":["[1833-01-01T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]},"1024":{"tagName":["Stuart, Edgar S.S."],"tagDate":["1871-01-01T00:00:00.000Z"],"tagDescription":["S.S. Edgar Stuart"]}}
+{
+  "1143": {
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1875-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Marine Electric Telegraphs Bill Transatlantic cables"]
+  },
+  "1095": { "tagDescription": ["Missing / Manque"] },
+  "498": {
+    "tagDescription": [
+      "Hudsons Bay Company Annexation of North West Territory and Red River Settlement to Dominion of Canada. Construction of telegraph line and road to British Columbia"
+    ],
+    "tagDate": ["[1870-12-31T23:59:59.999Z TO 1930-01-01T00:00:00.000Z]"]
+  },
+  "737": {
+    "tagDate": ["[1851-01-01T00:00:00.000Z TO 1856-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ordnance Lands"]
+  },
+  "1097": {
+    "tagName": ["Dufferin, Lord"],
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1875-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Lord Dufferin  Governor General of Canada"]
+  },
+  "1694": {
+    "tagDescription": ["St. Albans Raid Confederate Organizations in Canada"],
+    "tagDate": ["[1864-01-01T00:00:00.000Z TO 1865-12-31T23:59:59.999Z]"]
+  },
+  "1463": {
+    "tagDate": ["[1864-01-01T00:00:00.000Z TO 1865-12-31T23:59:59.999Z]"],
+    "tagDescription": ["St. Albans Raid Confederate Organizations in Canada"]
+  },
+  "1278": {
+    "tagDescription": ["Toronto Military Reserve Lands"],
+    "tagDate": ["[1833-01-01T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "1024": {
+    "tagName": ["Stuart, Edgar S.S."],
+    "tagDate": ["1871-01-01T00:00:00.000Z"],
+    "tagDescription": ["S.S. Edgar Stuart"]
+  }
+}

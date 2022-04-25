@@ -1,1 +1,71 @@
-{"150":{"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"],"tagDescription":["Annual financial statements for 1962"],"tagDate":["1963-01-01T00:00:00.000Z"]},"501":{"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 REPORTS, GENERAL"],"tagDescription":["Shawinigan Water and Power Company. Research Department. Progress Report on Titanium Metal Research Project"],"tagDate":["1952-01-01T00:00:00.000Z"]},"204":{"tagDescription":["Annual financial statements for 1963"],"tagDate":["1964-01-01T00:00:00.000Z"],"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"]},"336":{"tagDescription":["Internal Audit Department. Special Report, Shawinigan Chemicals Limited, Shawinigan Falls"],"tagDate":["1931-01-01T00:00:00.000Z"],"tagName":["Bancroft, M. T."],"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 REPORTS, GENERAL"]},"250":{"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"],"tagDate":["1965-01-01T00:00:00.000Z"],"tagDescription":["Annual financial statements for 1964"]},"7":{"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"],"tagDescription":["Annual financial statements for 1959"],"tagDate":["1960-01-01T00:00:00.000Z"]},"54":{"tagDate":["1961-01-01T00:00:00.000Z"],"tagDescription":["Annual financial statements for 1960"],"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"]},"103":{"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"],"tagDescription":["Annual financial statements for 1961"],"tagDate":["1962-01-01T00:00:00.000Z"]},"316":{"tagDate":["1963-01-01T00:00:00.000Z"],"tagDescription":["Shawinigan Looks Ahead - speech"],"tagNotebook":["SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 PAPERS, ARTICLES AND SPEECHES BY OFFICERS OF SHAWINIGAN CHEMICALS LIMITED"],"tagName":["Fuller, J. A."]}}
+{
+  "150": {
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"
+    ],
+    "tagDescription": ["Annual financial statements for 1962"],
+    "tagDate": ["1963-01-01T00:00:00.000Z"]
+  },
+  "501": {
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 REPORTS, GENERAL"
+    ],
+    "tagDescription": [
+      "Shawinigan Water and Power Company. Research Department. Progress Report on Titanium Metal Research Project"
+    ],
+    "tagDate": ["1952-01-01T00:00:00.000Z"]
+  },
+  "204": {
+    "tagDescription": ["Annual financial statements for 1963"],
+    "tagDate": ["1964-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"
+    ]
+  },
+  "336": {
+    "tagDescription": [
+      "Internal Audit Department. Special Report, Shawinigan Chemicals Limited, Shawinigan Falls"
+    ],
+    "tagDate": ["1931-01-01T00:00:00.000Z"],
+    "tagName": ["Bancroft, M. T."],
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 REPORTS, GENERAL"
+    ]
+  },
+  "250": {
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"
+    ],
+    "tagDate": ["1965-01-01T00:00:00.000Z"],
+    "tagDescription": ["Annual financial statements for 1964"]
+  },
+  "7": {
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"
+    ],
+    "tagDescription": ["Annual financial statements for 1959"],
+    "tagDate": ["1960-01-01T00:00:00.000Z"]
+  },
+  "54": {
+    "tagDate": ["1961-01-01T00:00:00.000Z"],
+    "tagDescription": ["Annual financial statements for 1960"],
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"
+    ]
+  },
+  "103": {
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 ANNUAL FINANCIAL STATEMENTS"
+    ],
+    "tagDescription": ["Annual financial statements for 1961"],
+    "tagDate": ["1962-01-01T00:00:00.000Z"]
+  },
+  "316": {
+    "tagDate": ["1963-01-01T00:00:00.000Z"],
+    "tagDescription": ["Shawinigan Looks Ahead - speech"],
+    "tagNotebook": [
+      "SHAWINIGAN CHEMICALS LIMITED MG 28, III 108 PAPERS, ARTICLES AND SPEECHES BY OFFICERS OF SHAWINIGAN CHEMICALS LIMITED"
+    ],
+    "tagName": ["Fuller, J. A."]
+  }
+}

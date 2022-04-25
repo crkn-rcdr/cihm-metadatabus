@@ -1,1 +1,12 @@
-{"chamber":["s"],"pubmax":"1976-10-12","node":[["eng","s","committees","30-1",10]],"type":"committees","session":["30-1"],"language":["eng"],"reportTitle":["Canada-United States Relations vol. 2"],"callNumber":"1974/76 F6 A12 v.2","label":"Senate Committees, 30th Parliament, 1st Session : Standing Committee on Foreign Affairs, Report vol. 2","pubmin":"1974-09-30"}
+{
+  "chamber": ["s"],
+  "pubmax": "1976-10-12",
+  "node": [["eng", "s", "committees", "30-1", 10]],
+  "type": "committees",
+  "session": ["30-1"],
+  "language": ["eng"],
+  "reportTitle": ["Canada-United States Relations vol. 2"],
+  "callNumber": "1974/76 F6 A12 v.2",
+  "label": "Senate Committees, 30th Parliament, 1st Session : Standing Committee on Foreign Affairs, Report vol. 2",
+  "pubmin": "1974-09-30"
+}

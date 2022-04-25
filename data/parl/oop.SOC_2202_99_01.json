@@ -1,1 +1,10 @@
-{"pubmax":"1955-07-28","node":[["eng","s","journals","22-2",1]],"type":"journals","chamber":["s"],"label":"Senate Journals, 22nd Parliament, 2nd Session : Vol. 99","pubmin":"1955-01-07","session":["22-2"],"language":["eng"]}
+{
+  "pubmax": "1955-07-28",
+  "node": [["eng", "s", "journals", "22-2", 1]],
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Senate Journals, 22nd Parliament, 2nd Session : Vol. 99",
+  "pubmin": "1955-01-07",
+  "session": ["22-2"],
+  "language": ["eng"]
+}

@@ -1,1 +1,11 @@
-{"session":["20-5"],"language":["eng"],"label":"House of Commons Debates, 20th Parliament, 5th Session : Index","pubmin":"1949-01-26","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["eng","c","debates","20-5",4]],"pubmax":"1949-04-30","type":"debates"}
+{
+  "session": ["20-5"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 20th Parliament, 5th Session : Index",
+  "pubmin": "1949-01-26",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "20-5", 4]],
+  "pubmax": "1949-04-30",
+  "type": "debates"
+}

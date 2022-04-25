@@ -1,1 +1,11 @@
-{"session":["16-2"],"language":["fra"],"callNumber":"J103 H43 1928","label":"Procès-verbaux du Sénat, 16e Législature, 2e Session : 1-52","pubmin":"1928-01-26","chamber":["s"],"pubmax":"1928-06-11","node":[["fra","s","sproc","16-2",1]],"type":"sproc"}
+{
+  "session": ["16-2"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1928",
+  "label": "Procès-verbaux du Sénat, 16e Législature, 2e Session : 1-52",
+  "pubmin": "1928-01-26",
+  "chamber": ["s"],
+  "pubmax": "1928-06-11",
+  "node": [["fra", "s", "sproc", "16-2", 1]],
+  "type": "sproc"
+}

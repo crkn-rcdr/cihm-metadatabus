@@ -1,1 +1,11 @@
-{"session":["26-2"],"language":["fra"],"callNumber":"J103 H43 1964/65 no 70-106","label":"Procès-verbaux du Sénat, 26e Législature, 2e Session : 70-106","pubmin":"1964-02-18","chamber":["s"],"pubmax":"1965-04-03","node":[["fra","s","sproc","26-2",3]],"type":"sproc"}
+{
+  "session": ["26-2"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1964/65 no 70-106",
+  "label": "Procès-verbaux du Sénat, 26e Législature, 2e Session : 70-106",
+  "pubmin": "1964-02-18",
+  "chamber": ["s"],
+  "pubmax": "1965-04-03",
+  "node": [["fra", "s", "sproc", "26-2", 3]],
+  "type": "sproc"
+}

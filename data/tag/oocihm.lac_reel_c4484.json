@@ -1,1 +1,82 @@
-{"795":{"tagName":["Lane, Wm."],"tagDescription":["II (a) Correspondence & Memoranda Lane, Wm."]},"1069":{"tagDescription":["II (a) Correspondence & Memoranda Maritime Educational Committee"]},"852":{"tagDescription":["II (a) Correspondence & Memoranda Maritime Educational Committee"]},"807":{"tagDate":["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["II (a) Correspondence & Memoranda League of Nations (1924-1925)"]},"762":{"tagName":["King, D.M. Dr."],"tagDescription":["II (a) Correspondence & Memoranda King, Dr. D.M."]},"1126":{"tagDescription":["II (a) Correspondence & Memoranda Maritime Educational Committee - Insurance Companies"]},"438":{"tagDescription":["II (a) Correspondence & Memoranda India"]},"768":{"tagDate":["1919-01-01T00:00:00.000Z"],"tagDescription":["II (a) Correspondence & Memoranda Laennec Society (1919)"]},"754":{"tagDescription":["II (a) Correspondence & Memoranda Japanese - World War II"]},"1168":{"tagDescription":["II (a) Correspondence & Memoranda Maritime Educational Committee - Nova Scotia"]},"914":{"tagDescription":["II (a) Correspondence & Memoranda Maritime Educational Committee - (Canadian Life Insurance Officers Association)"]},"1148":{"tagDescription":["II (a) Correspondence & Memoranda Maritime Educational Committee - New Brunswick"]},"821":{"tagDescription":["II (a) Correspondence & Memoranda Literature (1905-1920)"],"tagDate":["[1905-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]},"748":{"tagDate":["[1903-01-01T00:00:00.000Z TO 1904-12-31T23:59:59.999Z]"],"tagDescription":["II (a) Correspondence & Memoranda Insurance Companies (1903-1904)"]},"15":{"tagDescription":["II (a) Correspondence & Memoranda Indians - Reports"]},"844":{"tagDescription":["II (a) Correspondence & Memoranda Magazines (Proposed)"]},"1216":{"tagDescription":["II (a) Correspondence & Memoranda Maritime Educational Committee - Nova Scotia"]},"384":{"tagDescription":["II (a) Correspondence & Memoranda Immigrants"]}}
+{
+  "795": {
+    "tagName": ["Lane, Wm."],
+    "tagDescription": ["II (a) Correspondence & Memoranda Lane, Wm."]
+  },
+  "1069": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Maritime Educational Committee"
+    ]
+  },
+  "852": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Maritime Educational Committee"
+    ]
+  },
+  "807": {
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda League of Nations (1924-1925)"
+    ]
+  },
+  "762": {
+    "tagName": ["King, D.M. Dr."],
+    "tagDescription": ["II (a) Correspondence & Memoranda King, Dr. D.M."]
+  },
+  "1126": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Maritime Educational Committee - Insurance Companies"
+    ]
+  },
+  "438": { "tagDescription": ["II (a) Correspondence & Memoranda India"] },
+  "768": {
+    "tagDate": ["1919-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Laennec Society (1919)"
+    ]
+  },
+  "754": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Japanese - World War II"
+    ]
+  },
+  "1168": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Maritime Educational Committee - Nova Scotia"
+    ]
+  },
+  "914": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Maritime Educational Committee - (Canadian Life Insurance Officers Association)"
+    ]
+  },
+  "1148": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Maritime Educational Committee - New Brunswick"
+    ]
+  },
+  "821": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Literature (1905-1920)"
+    ],
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  },
+  "748": {
+    "tagDate": ["[1903-01-01T00:00:00.000Z TO 1904-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Insurance Companies (1903-1904)"
+    ]
+  },
+  "15": {
+    "tagDescription": ["II (a) Correspondence & Memoranda Indians - Reports"]
+  },
+  "844": {
+    "tagDescription": ["II (a) Correspondence & Memoranda Magazines (Proposed)"]
+  },
+  "1216": {
+    "tagDescription": [
+      "II (a) Correspondence & Memoranda Maritime Educational Committee - Nova Scotia"
+    ]
+  },
+  "384": { "tagDescription": ["II (a) Correspondence & Memoranda Immigrants"] }
+}

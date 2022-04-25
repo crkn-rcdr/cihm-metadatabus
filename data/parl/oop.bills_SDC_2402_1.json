@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"bills","node":[["fra","s","bills","24-2",1]],"pubmax":"1959-07-18","language":["fra"],"session":["24-2"],"pubmin":"1959-01-15","label":"Projets de loi du Sénat, 24e Législature, 2e Session : S2-S32","callNumber":"KE72 C381 24-2 S2-S32"}
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["fra", "s", "bills", "24-2", 1]],
+  "pubmax": "1959-07-18",
+  "language": ["fra"],
+  "session": ["24-2"],
+  "pubmin": "1959-01-15",
+  "label": "Projets de loi du Sénat, 24e Législature, 2e Session : S2-S32",
+  "callNumber": "KE72 C381 24-2 S2-S32"
+}

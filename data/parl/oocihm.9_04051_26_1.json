@@ -1,1 +1,11 @@
-{"node":[["fra","c","sessional","07-3",1]],"pubmax":"1893-04-01","type":"sessional","primeMinisters":"Thompson, John Sparrow David","chamber":["c"],"label":"Documents parlementaires, 7e Législature, 3e Session : vol. 1","pubmin":"1893-01-26","session":["07-3"],"language":["fra"]}
+{
+  "node": [["fra", "c", "sessional", "07-3", 1]],
+  "pubmax": "1893-04-01",
+  "type": "sessional",
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"],
+  "label": "Documents parlementaires, 7e Législature, 3e Session : vol. 1",
+  "pubmin": "1893-01-26",
+  "session": ["07-3"],
+  "language": ["fra"]
+}

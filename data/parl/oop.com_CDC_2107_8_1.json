@@ -1,1 +1,12 @@
-{"primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"type":"committees","node":[["fra","c","committees","21-7",8]],"pubmax":"1953-05-14","language":["fra"],"session":["21-7"],"pubmin":"1952-11-20","label":"Comités de la Chambre des communes, 21e Législature, 7e Session : Comité spécial sur l'activité de l'État dans le domaine de l'énergie atomique, vol. 1","callNumber":"1952/53 E5 A4"}
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "21-7", 8]],
+  "pubmax": "1953-05-14",
+  "language": ["fra"],
+  "session": ["21-7"],
+  "pubmin": "1952-11-20",
+  "label": "Comités de la Chambre des communes, 21e Législature, 7e Session : Comité spécial sur l'activité de l'État dans le domaine de l'énergie atomique, vol. 1",
+  "callNumber": "1952/53 E5 A4"
+}

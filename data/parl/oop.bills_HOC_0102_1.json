@@ -1,1 +1,12 @@
-{"pubmin":"1869-04-15","callNumber":"KE72 C36 1-2 no.2-121","label":"House of Commons Bills, 1st Parliament, 2nd Session : 2-121","language":["eng"],"session":["01-2"],"type":"bills","pubmax":"1869-06-22","node":[["eng","c","bills","01-2",1]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "pubmin": "1869-04-15",
+  "callNumber": "KE72 C36 1-2 no.2-121",
+  "label": "House of Commons Bills, 1st Parliament, 2nd Session : 2-121",
+  "language": ["eng"],
+  "session": ["01-2"],
+  "type": "bills",
+  "pubmax": "1869-06-22",
+  "node": [["eng", "c", "bills", "01-2", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

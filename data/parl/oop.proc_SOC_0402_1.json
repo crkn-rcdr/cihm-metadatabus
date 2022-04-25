@@ -1,1 +1,11 @@
-{"pubmax":"1880-05-07","node":[["eng","s","sproc","04-2",1]],"type":"sproc","chamber":["s"],"callNumber":"J103 H4 1880","label":"Senate Minutes of Proceedings, 4th Parliament, 2nd Session : 1-56","pubmin":"1880-02-12","session":["04-2"],"language":["eng"]}
+{
+  "pubmax": "1880-05-07",
+  "node": [["eng", "s", "sproc", "04-2", 1]],
+  "type": "sproc",
+  "chamber": ["s"],
+  "callNumber": "J103 H4 1880",
+  "label": "Senate Minutes of Proceedings, 4th Parliament, 2nd Session : 1-56",
+  "pubmin": "1880-02-12",
+  "session": ["04-2"],
+  "language": ["eng"]
+}

@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["32-1"],"pubmin":"1980-04-14","label":"House of Commons Votes and Proceedings, 32nd Parliament, 1st Session : 310-372 = Procès-verbaux de la Chambre des communes, 32e Législature, 1re Session : 310-372","callNumber":"J103 H41 1980/83 no. 310-372 c.2","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"type":"cproc","node":[["eng","c","cproc","32-1",8],["fra","c","cproc","32-1",8]],"pubmax":"1983-11-30"}
+{
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Votes and Proceedings, 32nd Parliament, 1st Session : 310-372 = Procès-verbaux de la Chambre des communes, 32e Législature, 1re Session : 310-372",
+  "callNumber": "J103 H41 1980/83 no. 310-372 c.2",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [
+    ["eng", "c", "cproc", "32-1", 8],
+    ["fra", "c", "cproc", "32-1", 8]
+  ],
+  "pubmax": "1983-11-30"
+}

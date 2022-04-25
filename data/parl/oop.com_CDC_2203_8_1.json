@@ -1,1 +1,12 @@
-{"type":"committees","node":[["fra","c","committees","22-3",10]],"pubmax":"1956-08-14","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"pubmin":"1956-01-10","label":"Comités de la Chambre des communes, 22e Législature, 3e Session : Comité spécial sur les recherches scientifiques, vol. 1","callNumber":"1956 R4 A4","language":["fra"],"session":["22-3"]}
+{
+  "type": "committees",
+  "node": [["fra", "c", "committees", "22-3", 10]],
+  "pubmax": "1956-08-14",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "pubmin": "1956-01-10",
+  "label": "Comités de la Chambre des communes, 22e Législature, 3e Session : Comité spécial sur les recherches scientifiques, vol. 1",
+  "callNumber": "1956 R4 A4",
+  "language": ["fra"],
+  "session": ["22-3"]
+}

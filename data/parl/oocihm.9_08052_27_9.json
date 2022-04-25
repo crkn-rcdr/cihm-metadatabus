@@ -1,1 +1,11 @@
-{"node":[["eng","c","sessional","07-4",9]],"pubmax":"1894-07-23","type":"sessional","primeMinisters":"Thompson, John Sparrow David","chamber":["c"],"label":"Sessional Papers, 7th Parliament, 4th Session : vol. 9","pubmin":"1894-03-15","session":["07-4"],"language":["eng"]}
+{
+  "node": [["eng", "c", "sessional", "07-4", 9]],
+  "pubmax": "1894-07-23",
+  "type": "sessional",
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"],
+  "label": "Sessional Papers, 7th Parliament, 4th Session : vol. 9",
+  "pubmin": "1894-03-15",
+  "session": ["07-4"],
+  "language": ["eng"]
+}

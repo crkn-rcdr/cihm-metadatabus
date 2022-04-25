@@ -1,1 +1,12 @@
-{"pubmin":"1911-11-15","label":"House of Commons Committees, 12th Parliament, 1st Session : Standing Committee on Public Accounts, vol. 1","callNumber":"1911-12 P8 A1","language":["eng"],"session":["12-1"],"type":"committees","node":[["eng","c","committees","12-1",3]],"pubmax":"1912-04-01","primeMinisters":"Borden, Robert Laird","chamber":["c"]}
+{
+  "pubmin": "1911-11-15",
+  "label": "House of Commons Committees, 12th Parliament, 1st Session : Standing Committee on Public Accounts, vol. 1",
+  "callNumber": "1911-12 P8 A1",
+  "language": ["eng"],
+  "session": ["12-1"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "12-1", 3]],
+  "pubmax": "1912-04-01",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

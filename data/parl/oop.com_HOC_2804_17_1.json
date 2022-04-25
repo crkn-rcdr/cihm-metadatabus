@@ -1,1 +1,15 @@
-{"callNumber":"1972 V4 A1","label":"House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Veterans Affairs, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent des affaires des anciens combattants, vol. 1","pubmin":"1972-02-17","session":["28-4"],"language":["eng","fra"],"pubmax":"1972-09-01","node":[["eng","c","committees","28-4",20],["fra","c","committees","28-4",1]],"type":"committees","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "callNumber": "1972 V4 A1",
+  "label": "House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Veterans Affairs, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent des affaires des anciens combattants, vol. 1",
+  "pubmin": "1972-02-17",
+  "session": ["28-4"],
+  "language": ["eng", "fra"],
+  "pubmax": "1972-09-01",
+  "node": [
+    ["eng", "c", "committees", "28-4", 20],
+    ["fra", "c", "committees", "28-4", 1]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

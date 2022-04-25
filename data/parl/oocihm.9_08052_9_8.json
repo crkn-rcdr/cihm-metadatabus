@@ -1,1 +1,11 @@
-{"pubmin":"1876-02-10","label":"Sessional Papers, 3rd Parliament, 3rd Session : vol. 8","language":["eng"],"session":["03-3"],"type":"sessional","pubmax":"1876-04-12","node":[["eng","c","sessional","03-3",8]],"chamber":["c"],"primeMinisters":"Mackenzie, Alexander"}
+{
+  "pubmin": "1876-02-10",
+  "label": "Sessional Papers, 3rd Parliament, 3rd Session : vol. 8",
+  "language": ["eng"],
+  "session": ["03-3"],
+  "type": "sessional",
+  "pubmax": "1876-04-12",
+  "node": [["eng", "c", "sessional", "03-3", 8]],
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander"
+}

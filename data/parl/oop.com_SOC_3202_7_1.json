@@ -1,1 +1,14 @@
-{"chamber":["s"],"pubmax":"1984-07-09","node":[["eng","s","committees","32-2",16],["fra","s","committees","32-2",4]],"type":"committees","session":["32-2"],"language":["eng","fra"],"callNumber":"1983/84 S6 A1","label":"Senate Committees, 32nd Parliament, 2nd Session : Standing Committee on Social Affairs, Science and Technology, vol. 1 = Comités du Sénat, 32e Législature, 2e Session : Comité permanent des affaires sociales, des sciences et de la technologie, vol. 1","pubmin":"1983-12-07"}
+{
+  "chamber": ["s"],
+  "pubmax": "1984-07-09",
+  "node": [
+    ["eng", "s", "committees", "32-2", 16],
+    ["fra", "s", "committees", "32-2", 4]
+  ],
+  "type": "committees",
+  "session": ["32-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "1983/84 S6 A1",
+  "label": "Senate Committees, 32nd Parliament, 2nd Session : Standing Committee on Social Affairs, Science and Technology, vol. 1 = Comités du Sénat, 32e Législature, 2e Session : Comité permanent des affaires sociales, des sciences et de la technologie, vol. 1",
+  "pubmin": "1983-12-07"
+}

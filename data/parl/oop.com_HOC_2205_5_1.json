@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["22-5"],"pubmin":"1957-01-08","callNumber":"1957 M3 A1","label":"House of Commons Committees, 22nd Parliament, 5th Session : Standing Committee on Marine and Fisheries, vol. 1","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","type":"committees","pubmax":"1957-04-12","node":[["eng","c","committees","22-5",5]]}
+{
+  "language": ["eng"],
+  "session": ["22-5"],
+  "pubmin": "1957-01-08",
+  "callNumber": "1957 M3 A1",
+  "label": "House of Commons Committees, 22nd Parliament, 5th Session : Standing Committee on Marine and Fisheries, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "committees",
+  "pubmax": "1957-04-12",
+  "node": [["eng", "c", "committees", "22-5", 5]]
+}

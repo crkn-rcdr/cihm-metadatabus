@@ -1,1 +1,40 @@
-{"759":{"tagDate":["1912-01-01T00:00:00.000Z"],"tagDescription":["Prints  Naval and Military Defence"]},"493":{"tagDate":["[1931-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],"tagDescription":["Naval and Military Defence of Canada. Imperial Defence"]},"886":{"tagDescription":["Ibid"],"tagDate":["[1918-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]},"2001":{"tagDate":["[1929-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"],"tagDescription":["Ibid"]},"1554":{"tagDescription":["Ibid"],"tagDate":["1924-01-01T00:00:00.000Z"]},"1841":{"tagDescription":["Ibid"],"tagDate":["1926-01-01T00:00:00.000Z"]},"117":{"tagDate":["[1927-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["Naval and Military Defence of Canada and other related subject. Imperial Defence"]},"1435":{"tagDescription":["Prints  Naval and Military Defence"],"tagDate":["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"]},"1033":{"tagDescription":["Ibid"],"tagDate":["[1922-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"]}}
+{
+  "759": {
+    "tagDate": ["1912-01-01T00:00:00.000Z"],
+    "tagDescription": ["Prints  Naval and Military Defence"]
+  },
+  "493": {
+    "tagDate": ["[1931-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Naval and Military Defence of Canada. Imperial Defence"]
+  },
+  "886": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1918-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]
+  },
+  "2001": {
+    "tagDate": ["[1929-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid"]
+  },
+  "1554": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["1924-01-01T00:00:00.000Z"]
+  },
+  "1841": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["1926-01-01T00:00:00.000Z"]
+  },
+  "117": {
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Naval and Military Defence of Canada and other related subject. Imperial Defence"
+    ]
+  },
+  "1435": {
+    "tagDescription": ["Prints  Naval and Military Defence"],
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"]
+  },
+  "1033": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1922-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"]
+  }
+}

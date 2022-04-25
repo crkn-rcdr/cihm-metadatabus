@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["13-2"],"pubmin":"1919-02-20","callNumber":"1919 S47 A4","label":"Comités de la Chambre des communes, 13e Législature, 2e Session : Comité spécial sur le fonctionnement du personnel du Service civil intérieur, vol. 1","chamber":["c"],"primeMinisters":"Borden, Robert Laird","type":"committees","pubmax":"1919-07-07","node":[["fra","c","committees","13-2",4]]}
+{
+  "language": ["fra"],
+  "session": ["13-2"],
+  "pubmin": "1919-02-20",
+  "callNumber": "1919 S47 A4",
+  "label": "Comités de la Chambre des communes, 13e Législature, 2e Session : Comité spécial sur le fonctionnement du personnel du Service civil intérieur, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "committees",
+  "pubmax": "1919-07-07",
+  "node": [["fra", "c", "committees", "13-2", 4]]
+}

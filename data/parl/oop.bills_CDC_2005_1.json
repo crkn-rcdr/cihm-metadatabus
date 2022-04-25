@@ -1,1 +1,12 @@
-{"pubmin":"1949-01-26","label":"Projets de loi de la Chambre des communes, 20e Législature, 5e Session : 11-237","callNumber":"KE72 C361 20-5 11-231 21-1 2-222","language":["fra"],"session":["20-5"],"type":"bills","node":[["fra","c","bills","20-5",1]],"pubmax":"1949-04-30","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"]}
+{
+  "pubmin": "1949-01-26",
+  "label": "Projets de loi de la Chambre des communes, 20e Législature, 5e Session : 11-237",
+  "callNumber": "KE72 C361 20-5 11-231 21-1 2-222",
+  "language": ["fra"],
+  "session": ["20-5"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "20-5", 1]],
+  "pubmax": "1949-04-30",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

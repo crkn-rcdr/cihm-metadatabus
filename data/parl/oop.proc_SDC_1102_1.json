@@ -1,1 +1,11 @@
-{"type":"sproc","node":[["fra","s","sproc","11-2",1]],"pubmax":"1910-05-04","chamber":["s"],"pubmin":"1909-11-11","label":"Procès-verbaux du Sénat, 11e Législature, 2e Session : 1-68","callNumber":"J103 H43 1909-10","language":["fra"],"session":["11-2"]}
+{
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "11-2", 1]],
+  "pubmax": "1910-05-04",
+  "chamber": ["s"],
+  "pubmin": "1909-11-11",
+  "label": "Procès-verbaux du Sénat, 11e Législature, 2e Session : 1-68",
+  "callNumber": "J103 H43 1909-10",
+  "language": ["fra"],
+  "session": ["11-2"]
+}

@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["33-2"],"pubmin":"1986-09-30","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Special Committee on Acid Rain, vol. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité spécial sur les pluies acides, vol. 1","callNumber":"33-2 A2 A1","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","33-2",6],["fra","c","committees","33-2",145]],"pubmax":"1988-10-01"}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Special Committee on Acid Rain, vol. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité spécial sur les pluies acides, vol. 1",
+  "callNumber": "33-2 A2 A1",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 6],
+    ["fra", "c", "committees", "33-2", 145]
+  ],
+  "pubmax": "1988-10-01"
+}

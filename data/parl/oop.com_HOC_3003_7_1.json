@@ -1,1 +1,15 @@
-{"callNumber":"1977/78 H4 A1","label":"House of Commons Committees, 30th Parliament, 3rd Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 = Comités de la Chambre des communes, 30e Législature, 3e Session : Comité permanent de la santé, du bien-être social et des affaires sociales, vol. 1","pubmin":"1977-10-18","session":["30-3"],"language":["eng","fra"],"pubmax":"1978-10-10","node":[["eng","c","committees","30-3",9],["fra","c","committees","30-3",27]],"type":"committees","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "callNumber": "1977/78 H4 A1",
+  "label": "House of Commons Committees, 30th Parliament, 3rd Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 = Comités de la Chambre des communes, 30e Législature, 3e Session : Comité permanent de la santé, du bien-être social et des affaires sociales, vol. 1",
+  "pubmin": "1977-10-18",
+  "session": ["30-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1978-10-10",
+  "node": [
+    ["eng", "c", "committees", "30-3", 9],
+    ["fra", "c", "committees", "30-3", 27]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

@@ -1,1 +1,11 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"sessional","node":[["eng","c","sessional","05-1",5]],"pubmax":"1883-05-27","language":["eng"],"session":["05-1"],"pubmin":"1883-02-08","label":"Sessional Papers, 5th Parliament, 1st Session : vol. 5"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["eng", "c", "sessional", "05-1", 5]],
+  "pubmax": "1883-05-27",
+  "language": ["eng"],
+  "session": ["05-1"],
+  "pubmin": "1883-02-08",
+  "label": "Sessional Papers, 5th Parliament, 1st Session : vol. 5"
+}

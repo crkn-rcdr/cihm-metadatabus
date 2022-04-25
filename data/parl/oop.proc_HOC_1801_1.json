@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1936-06-23","node":[["eng","c","cproc","18-1",1]],"type":"cproc","session":["18-1"],"language":["eng"],"callNumber":"J103 H41 1936 c.2","label":"House of Commons Votes and Proceedings, 18th Parliament, 1st Session : 1-91","pubmin":"1936-02-06"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1936-06-23",
+  "node": [["eng", "c", "cproc", "18-1", 1]],
+  "type": "cproc",
+  "session": ["18-1"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 1936 c.2",
+  "label": "House of Commons Votes and Proceedings, 18th Parliament, 1st Session : 1-91",
+  "pubmin": "1936-02-06"
+}

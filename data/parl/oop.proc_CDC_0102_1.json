@@ -1,1 +1,12 @@
-{"node":[["fra","c","cproc","01-2",1]],"pubmax":"1869-06-22","type":"cproc","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"label":"Procès-verbaux de la Chambre des communes, 1e Législature, 2e Session : 1-49","callNumber":"J103 H44 1869","pubmin":"1869-04-15","session":["01-2"],"language":["fra"]}
+{
+  "node": [["fra", "c", "cproc", "01-2", 1]],
+  "pubmax": "1869-06-22",
+  "type": "cproc",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "label": "Procès-verbaux de la Chambre des communes, 1e Législature, 2e Session : 1-49",
+  "callNumber": "J103 H44 1869",
+  "pubmin": "1869-04-15",
+  "session": ["01-2"],
+  "language": ["fra"]
+}

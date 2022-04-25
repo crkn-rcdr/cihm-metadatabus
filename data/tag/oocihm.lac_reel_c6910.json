@@ -1,1 +1,18 @@
-{"7":{"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"],"tagDate":["[1839-11-01T00:00:00.000Z TO 1839-11-15T23:59:59.999Z]"]},"385":{"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"],"tagDate":["[1839-11-16T00:00:00.000Z TO 1839-11-30T23:59:59.999Z]"]},"1761":{"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"],"tagDate":["[1839-12-16T00:00:00.000Z TO 1839-12-31T23:59:59.999Z]"]},"1147":{"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"],"tagDate":["[1839-12-01T00:00:00.000Z TO 1839-12-15T23:59:59.999Z]"]}}
+{
+  "7": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["[1839-11-01T00:00:00.000Z TO 1839-11-15T23:59:59.999Z]"]
+  },
+  "385": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["[1839-11-16T00:00:00.000Z TO 1839-11-30T23:59:59.999Z]"]
+  },
+  "1761": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["[1839-12-16T00:00:00.000Z TO 1839-12-31T23:59:59.999Z]"]
+  },
+  "1147": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["[1839-12-01T00:00:00.000Z TO 1839-12-15T23:59:59.999Z]"]
+  }
+}

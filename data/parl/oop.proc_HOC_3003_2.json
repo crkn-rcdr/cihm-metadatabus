@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1978-10-10","node":[["eng","c","cproc","30-3",2],["fra","c","cproc","30-3",2]],"type":"cproc","session":["30-3"],"language":["eng","fra"],"callNumber":"J103 H41 1977/78 no. 87-151 c.2","label":"House of Commons Votes and Proceedings, 30th Parliament, 3rd Session : 87-151 = Procès-verbaux de la Chambre des communes, 30e Législature, 3e Session : 87-151","pubmin":"1977-10-18"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1978-10-10",
+  "node": [
+    ["eng", "c", "cproc", "30-3", 2],
+    ["fra", "c", "cproc", "30-3", 2]
+  ],
+  "type": "cproc",
+  "session": ["30-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "J103 H41 1977/78 no. 87-151 c.2",
+  "label": "House of Commons Votes and Proceedings, 30th Parliament, 3rd Session : 87-151 = Procès-verbaux de la Chambre des communes, 30e Législature, 3e Session : 87-151",
+  "pubmin": "1977-10-18"
+}

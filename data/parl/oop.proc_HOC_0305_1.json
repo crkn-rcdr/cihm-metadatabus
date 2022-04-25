@@ -1,1 +1,12 @@
-{"type":"cproc","pubmax":"1878-05-10","node":[["eng","c","cproc","03-5",1]],"chamber":["c"],"primeMinisters":"Mackenzie, Alexander","pubmin":"1878-02-07","callNumber":"J103 H41 1878 c.2","label":"House of Commons Votes and Proceedings, 3rd Parliament, 5th Session : 1-67","language":["eng"],"session":["03-5"]}
+{
+  "type": "cproc",
+  "pubmax": "1878-05-10",
+  "node": [["eng", "c", "cproc", "03-5", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "pubmin": "1878-02-07",
+  "callNumber": "J103 H41 1878 c.2",
+  "label": "House of Commons Votes and Proceedings, 3rd Parliament, 5th Session : 1-67",
+  "language": ["eng"],
+  "session": ["03-5"]
+}

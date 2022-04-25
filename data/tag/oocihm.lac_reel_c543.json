@@ -1,1 +1,134 @@
-{"246":{"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["Russell, B. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"778":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Scott, J. G. "],"tagDate":["1902-01-01T00:00:00.000Z"]},"813":{"tagPerson":["Scott, M. "],"tagDate":["1902-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"803":{"tagPerson":["Scott, L. B. "],"tagDate":["1902-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"98":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Ross, J. H. "],"tagDate":["1902-01-01T00:00:00.000Z"]},"182":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Ross, J. K. "],"tagDate":["1902-01-01T00:00:00.000Z"]},"229":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["Rowell, N. W. "]},"205":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Ross, Wm. "],"tagDate":["1902-01-01T00:00:00.000Z"]},"215":{"tagPerson":["Rothwell, T. G. "],"tagDate":["1902-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"58":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Ross, G. W. "],"tagDate":["1902-01-01T00:00:00.000Z"]},"28":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["Rose, S. P. "]},"237":{"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["Roy, A. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"822":{"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["Scott, R. W. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"21":{"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["Rose, J. H. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"848":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Scott, Walter"],"tagDate":["1902-01-01T00:00:00.000Z"]},"1013":{"tagPerson":["Senkler, E. C. "],"tagDate":["1902-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"259":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["S"]},"1055":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["Shillinglaw, W. H. "]},"709":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Schreiber, C. "],"tagDate":["1902-01-01T00:00:00.000Z"]},"719":{"tagPerson":["Schultz, F. "],"tagDate":["1902-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"188":{"tagPerson":["Ross, W.","Halifax, N. S. "],"tagDate":["1902-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"1024":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1902-01-01T00:00:00.000Z"],"tagPerson":["Shaughnessy, T. G. "]}}
+{
+  "246": {
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["Russell, B. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "778": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Scott, J. G. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"]
+  },
+  "813": {
+    "tagPerson": ["Scott, M. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "803": {
+    "tagPerson": ["Scott, L. B. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "98": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Ross, J. H. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"]
+  },
+  "182": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Ross, J. K. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"]
+  },
+  "229": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["Rowell, N. W. "]
+  },
+  "205": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Ross, Wm. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"]
+  },
+  "215": {
+    "tagPerson": ["Rothwell, T. G. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "58": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Ross, G. W. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"]
+  },
+  "28": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["Rose, S. P. "]
+  },
+  "237": {
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["Roy, A. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "822": {
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["Scott, R. W. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "21": {
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["Rose, J. H. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "848": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Scott, Walter"],
+    "tagDate": ["1902-01-01T00:00:00.000Z"]
+  },
+  "1013": {
+    "tagPerson": ["Senkler, E. C. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "259": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["S"]
+  },
+  "1055": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["Shillinglaw, W. H. "]
+  },
+  "709": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Schreiber, C. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"]
+  },
+  "719": {
+    "tagPerson": ["Schultz, F. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "188": {
+    "tagPerson": ["Ross, W.", "Halifax, N. S. "],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "1024": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1902-01-01T00:00:00.000Z"],
+    "tagPerson": ["Shaughnessy, T. G. "]
+  }
+}

@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","24-5",5]],"pubmax":"1962-04-19","language":["eng"],"session":["24-5"],"pubmin":"1962-01-18","label":"Senate Committees, 24th Parliament, 5th Session : Standing Committee on Tourist Traffic, vol. 1","callNumber":"1962 T6 A1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "24-5", 5]],
+  "pubmax": "1962-04-19",
+  "language": ["eng"],
+  "session": ["24-5"],
+  "pubmin": "1962-01-18",
+  "label": "Senate Committees, 24th Parliament, 5th Session : Standing Committee on Tourist Traffic, vol. 1",
+  "callNumber": "1962 T6 A1"
+}

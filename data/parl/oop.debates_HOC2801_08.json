@@ -1,1 +1,11 @@
-{"type":"debates","node":[["eng","c","debates","28-1",8]],"pubmax":"1969-10-22","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"pubmin":"1968-09-12","label":"House of Commons Debates, 28th Parliament, 1st Session : Vol. 8","language":["eng"],"session":["28-1"]}
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "28-1", 8]],
+  "pubmax": "1969-10-22",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1968-09-12",
+  "label": "House of Commons Debates, 28th Parliament, 1st Session : Vol. 8",
+  "language": ["eng"],
+  "session": ["28-1"]
+}

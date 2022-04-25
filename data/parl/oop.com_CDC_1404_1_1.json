@@ -1,1 +1,12 @@
-{"session":["14-4"],"language":["fra"],"label":"Comités de la Chambre des communes, 14e Législature, 4e Session : Comité spécial sur la Loi du droit d'auteur, vol. 1","callNumber":"1925 D7 A4","pubmin":"1925-02-05","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["fra","c","committees","14-4",1]],"pubmax":"1925-06-27","type":"committees"}
+{
+  "session": ["14-4"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 14e Législature, 4e Session : Comité spécial sur la Loi du droit d'auteur, vol. 1",
+  "callNumber": "1925 D7 A4",
+  "pubmin": "1925-02-05",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "14-4", 1]],
+  "pubmax": "1925-06-27",
+  "type": "committees"
+}

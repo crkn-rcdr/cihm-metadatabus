@@ -1,1 +1,13 @@
-{"type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",99]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1991-05-13","callNumber":"34-3 H432 A123","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Health and Welfare, Social Affairs, Seniors and the Status of Women, Third Report","reportTitle":["Hepatitis B"],"language":["eng"],"session":["34-3"]}
+{
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["eng", "c", "committees", "34-3", 99]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 H432 A123",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Health and Welfare, Social Affairs, Seniors and the Status of Women, Third Report",
+  "reportTitle": ["Hepatitis B"],
+  "language": ["eng"],
+  "session": ["34-3"]
+}

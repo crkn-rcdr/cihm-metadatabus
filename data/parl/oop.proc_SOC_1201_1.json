@@ -1,1 +1,11 @@
-{"node":[["eng","s","sproc","12-1",1]],"pubmax":"1912-04-01","type":"sproc","chamber":["s"],"label":"Senate Minutes of Proceedings, 12th Parliament, 1st Session : 1-51","callNumber":"J103 H4 1911-12","pubmin":"1911-11-15","session":["12-1"],"language":["eng"]}
+{
+  "node": [["eng", "s", "sproc", "12-1", 1]],
+  "pubmax": "1912-04-01",
+  "type": "sproc",
+  "chamber": ["s"],
+  "label": "Senate Minutes of Proceedings, 12th Parliament, 1st Session : 1-51",
+  "callNumber": "J103 H4 1911-12",
+  "pubmin": "1911-11-15",
+  "session": ["12-1"],
+  "language": ["eng"]
+}

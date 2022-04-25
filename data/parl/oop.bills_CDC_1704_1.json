@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["17-4"],"pubmin":"1932-10-06","label":"Projets de loi de la Chambre des communes, 17e Législature, 4e Session : 2-45","callNumber":"KE72 C361 17-4 2-45","primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"type":"bills","node":[["fra","c","bills","17-4",1]],"pubmax":"1933-05-27"}
+{
+  "language": ["fra"],
+  "session": ["17-4"],
+  "pubmin": "1932-10-06",
+  "label": "Projets de loi de la Chambre des communes, 17e Législature, 4e Session : 2-45",
+  "callNumber": "KE72 C361 17-4 2-45",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "17-4", 1]],
+  "pubmax": "1933-05-27"
+}

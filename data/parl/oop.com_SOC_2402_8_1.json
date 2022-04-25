@@ -1,1 +1,11 @@
-{"chamber":["s"],"pubmax":"1959-07-18","node":[["eng","s","committees","24-2",9]],"type":"committees","session":["24-2"],"language":["eng"],"callNumber":"1959 T73 A1","label":"Senate Committees, 24th Parliament, 2nd Session : Standing Committee on Transport and Communications, vol. 1","pubmin":"1959-01-15"}
+{
+  "chamber": ["s"],
+  "pubmax": "1959-07-18",
+  "node": [["eng", "s", "committees", "24-2", 9]],
+  "type": "committees",
+  "session": ["24-2"],
+  "language": ["eng"],
+  "callNumber": "1959 T73 A1",
+  "label": "Senate Committees, 24th Parliament, 2nd Session : Standing Committee on Transport and Communications, vol. 1",
+  "pubmin": "1959-01-15"
+}

@@ -1,1 +1,15 @@
-{"pubmax":"1972-02-16","node":[["eng","c","committees","28-3",34],["fra","c","committees","28-3",32]],"type":"committees","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","callNumber":"1970/72 P76 A1","label":"House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Procedure and Organization, vol. 1 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent de la procédure et de l'organisation, vol. 1","pubmin":"1970-10-08","session":["28-3"],"language":["eng","fra"]}
+{
+  "pubmax": "1972-02-16",
+  "node": [
+    ["eng", "c", "committees", "28-3", 34],
+    ["fra", "c", "committees", "28-3", 32]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "callNumber": "1970/72 P76 A1",
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Procedure and Organization, vol. 1 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent de la procédure et de l'organisation, vol. 1",
+  "pubmin": "1970-10-08",
+  "session": ["28-3"],
+  "language": ["eng", "fra"]
+}

@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["26-3"],"pubmin":"1965-04-05","callNumber":"KE72 C36 26-3 C2-C99","label":"House of Commons Bills, 26th Parliament, 3rd Session : C2-C99","chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","type":"bills","pubmax":"1965-09-08","node":[["eng","c","bills","26-3",1]]}
+{
+  "language": ["eng"],
+  "session": ["26-3"],
+  "pubmin": "1965-04-05",
+  "callNumber": "KE72 C36 26-3 C2-C99",
+  "label": "House of Commons Bills, 26th Parliament, 3rd Session : C2-C99",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "type": "bills",
+  "pubmax": "1965-09-08",
+  "node": [["eng", "c", "bills", "26-3", 1]]
+}

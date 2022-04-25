@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","30-4",2],["fra","s","committees","30-4",5]],"pubmax":"1979-03-26","language":["eng","fra"],"session":["30-4"],"pubmin":"1978-10-11","label":"Senate Committees, 30th Parliament, 4th Session : Standing Committee on Banking, Trade and Commerce, vol. 1 = Comités du Sénat, 30e Législature, 4e Session : Comité permanent des banques et du commerce, vol. 1","callNumber":"1978/79 B3 A1 v.1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "30-4", 2],
+    ["fra", "s", "committees", "30-4", 5]
+  ],
+  "pubmax": "1979-03-26",
+  "language": ["eng", "fra"],
+  "session": ["30-4"],
+  "pubmin": "1978-10-11",
+  "label": "Senate Committees, 30th Parliament, 4th Session : Standing Committee on Banking, Trade and Commerce, vol. 1 = Comités du Sénat, 30e Législature, 4e Session : Comité permanent des banques et du commerce, vol. 1",
+  "callNumber": "1978/79 B3 A1 v.1"
+}

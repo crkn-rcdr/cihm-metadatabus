@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Borden, Robert Laird","type":"debates","pubmax":"1920-07-01","node":[["eng","c","debates","13-4",5]],"language":["eng"],"session":["13-4"],"pubmin":"1920-02-26","label":"House of Commons Debates, 13th Parliament, 4th Session : Vol. 5"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "debates",
+  "pubmax": "1920-07-01",
+  "node": [["eng", "c", "debates", "13-4", 5]],
+  "language": ["eng"],
+  "session": ["13-4"],
+  "pubmin": "1920-02-26",
+  "label": "House of Commons Debates, 13th Parliament, 4th Session : Vol. 5"
+}

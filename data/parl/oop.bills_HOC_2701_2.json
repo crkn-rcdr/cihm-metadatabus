@@ -1,1 +1,12 @@
-{"pubmin":"1966-01-18","label":"House of Commons Bills, 27th Parliament, 1st Session : C140-C200","callNumber":"KE72 C36 27-1 C140-C200","language":["eng"],"session":["27-1"],"type":"bills","node":[["eng","c","bills","27-1",2]],"pubmax":"1967-05-08","primeMinisters":"Pearson, Lester Bowles","chamber":["c"]}
+{
+  "pubmin": "1966-01-18",
+  "label": "House of Commons Bills, 27th Parliament, 1st Session : C140-C200",
+  "callNumber": "KE72 C36 27-1 C140-C200",
+  "language": ["eng"],
+  "session": ["27-1"],
+  "type": "bills",
+  "node": [["eng", "c", "bills", "27-1", 2]],
+  "pubmax": "1967-05-08",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"]
+}

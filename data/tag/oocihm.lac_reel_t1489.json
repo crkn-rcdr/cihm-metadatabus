@@ -1,1 +1,137 @@
-{"711":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["Portugal -Formal recognition of  -Uprising in  - Trouble in Madeira"]},"1747":{"tagDescription":["Missing / Manque"]},"1164":{"tagDescription":["Russian Consular Service"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]},"1345":{"tagDescription":["Missing / Manque"]},"1016":{"tagDescription":["Missing / Manque"]},"1050":{"tagDescription":["Missing / Manque"]},"394":{"tagDate":["[1925-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["International Congress on Entomology. -Botanical Conference -Imperial Mycological Conference -Salary and travelling expenses of an economy botanist--International Congress of Plant sciences"]},"1484":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["National Health Insurance"]},"1017":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["International Congress of Americanists"]},"1234":{"tagDescription":["Missing / Manque"]},"861":{"tagDescription":["Missing / Manque"]},"1852":{"tagDescription":["Panama Canal -Permission asked by the United States Government to advertise in Canada for boilermakers to work on -"],"tagDate":["[1912-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]},"455":{"tagDescription":["Missing / Manque"]},"1051":{"tagDescription":["Venezuela. Consular Appointments"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"1038":{"tagDescription":["Canadian surveyors for service in the Malay Peninsularà -Trade with the Malay States -Rubber Footwear from Singapore"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]},"1346":{"tagDescription":["Sweden. Commercial relations with -"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"1615":{"tagDescription":["Services of a detective required by Government of Bermuda to deal with thefts in the Colony frequent during tourist season"],"tagDate":["[1912-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]},"728":{"tagDescription":["Missing / Manque"]},"456":{"tagDescription":["Official Secrets Act, 1911 and 1920"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]},"502":{"tagDescription":["Imperial Bankcruptcy Act"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]},"1625":{"tagDescription":["Missing / Manque"]},"1748":{"tagDescription":["Panama Canal Modification of Bulwar Clayton Treaty as affecting builing of Nicaragua Canal. Ship Canal across Isthmus of Panama"],"tagDate":["[1899-01-01T00:00:00.000Z TO 1900-12-31T23:59:59.999Z]"]},"501":{"tagDescription":["Missing / Manque"]},"1265":{"tagDescription":["Missing / Manque"]},"1700":{"tagDescription":["Missing / Manque"]},"1614":{"tagDescription":["Missing / Manque"]},"862":{"tagDate":["[1892-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"],"tagDescription":["Colonial Regulations -Also ruling re the examination of baggage of Colonial Governors on entering Great Brtiain -Pensions (Governors of Dominions, etc) Act, 1925"]},"729":{"tagDescription":["The King's Police Medal"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"710":{"tagDescription":["Missing / Manque"]},"81":{"tagDescription":["Missing / Manque"]},"1483":{"tagDescription":["Missing / Manque"]},"1037":{"tagDescription":["Missing / Manque"]},"1003":{"tagDescription":["Missing / Manque","Infringement of rights of Hudson's Bay Company by Company trading in New York City under names of Hudson Bay Importing Company and by a film doing business in Boston under name of Hudson's Bay Fur Company"],"tagDate":["1911-01-01T00:00:00.000Z"]},"1163":{"tagDescription":["Missing / Manque"]},"1280":{"tagDescription":["Olympic games"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"1701":{"tagDescription":["Colombia. Consular Appointments"],"tagDate":["[1912-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]},"1246":{"tagDescription":["Missing / Manque"]},"1247":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["Dredges"]},"1626":{"tagDate":["[1912-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"],"tagDescription":["Switzerland. Consular Appointments"]},"1235":{"tagDescription":["Adoption by Countess Schimmelmann of three sons Question of Transmission of Title"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"]},"1279":{"tagDescription":["Missing / Manque"]},"82":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["International Congress of Entomology. Brussels, Aug 1910 Noxious insects"]},"1267":{"tagDescription":["French Government Archives Permission for Mr Gilbert Tucker to consult archives relating to Canada prior to 1763"],"tagDate":["1926-01-01T00:00:00.000Z"]}}
+{
+  "711": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Portugal -Formal recognition of  -Uprising in  - Trouble in Madeira"
+    ]
+  },
+  "1747": { "tagDescription": ["Missing / Manque"] },
+  "1164": {
+    "tagDescription": ["Russian Consular Service"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]
+  },
+  "1345": { "tagDescription": ["Missing / Manque"] },
+  "1016": { "tagDescription": ["Missing / Manque"] },
+  "1050": { "tagDescription": ["Missing / Manque"] },
+  "394": {
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Congress on Entomology. -Botanical Conference -Imperial Mycological Conference -Salary and travelling expenses of an economy botanist--International Congress of Plant sciences"
+    ]
+  },
+  "1484": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["National Health Insurance"]
+  },
+  "1017": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": ["International Congress of Americanists"]
+  },
+  "1234": { "tagDescription": ["Missing / Manque"] },
+  "861": { "tagDescription": ["Missing / Manque"] },
+  "1852": {
+    "tagDescription": [
+      "Panama Canal -Permission asked by the United States Government to advertise in Canada for boilermakers to work on -"
+    ],
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  },
+  "455": { "tagDescription": ["Missing / Manque"] },
+  "1051": {
+    "tagDescription": ["Venezuela. Consular Appointments"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "1038": {
+    "tagDescription": [
+      "Canadian surveyors for service in the Malay Peninsularà -Trade with the Malay States -Rubber Footwear from Singapore"
+    ],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"]
+  },
+  "1346": {
+    "tagDescription": ["Sweden. Commercial relations with -"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "1615": {
+    "tagDescription": [
+      "Services of a detective required by Government of Bermuda to deal with thefts in the Colony frequent during tourist season"
+    ],
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  },
+  "728": { "tagDescription": ["Missing / Manque"] },
+  "456": {
+    "tagDescription": ["Official Secrets Act, 1911 and 1920"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]
+  },
+  "502": {
+    "tagDescription": ["Imperial Bankcruptcy Act"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]
+  },
+  "1625": { "tagDescription": ["Missing / Manque"] },
+  "1748": {
+    "tagDescription": [
+      "Panama Canal Modification of Bulwar Clayton Treaty as affecting builing of Nicaragua Canal. Ship Canal across Isthmus of Panama"
+    ],
+    "tagDate": ["[1899-01-01T00:00:00.000Z TO 1900-12-31T23:59:59.999Z]"]
+  },
+  "501": { "tagDescription": ["Missing / Manque"] },
+  "1265": { "tagDescription": ["Missing / Manque"] },
+  "1700": { "tagDescription": ["Missing / Manque"] },
+  "1614": { "tagDescription": ["Missing / Manque"] },
+  "862": {
+    "tagDate": ["[1892-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Colonial Regulations -Also ruling re the examination of baggage of Colonial Governors on entering Great Brtiain -Pensions (Governors of Dominions, etc) Act, 1925"
+    ]
+  },
+  "729": {
+    "tagDescription": ["The King's Police Medal"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "710": { "tagDescription": ["Missing / Manque"] },
+  "81": { "tagDescription": ["Missing / Manque"] },
+  "1483": { "tagDescription": ["Missing / Manque"] },
+  "1037": { "tagDescription": ["Missing / Manque"] },
+  "1003": {
+    "tagDescription": [
+      "Missing / Manque",
+      "Infringement of rights of Hudson's Bay Company by Company trading in New York City under names of Hudson Bay Importing Company and by a film doing business in Boston under name of Hudson's Bay Fur Company"
+    ],
+    "tagDate": ["1911-01-01T00:00:00.000Z"]
+  },
+  "1163": { "tagDescription": ["Missing / Manque"] },
+  "1280": {
+    "tagDescription": ["Olympic games"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "1701": {
+    "tagDescription": ["Colombia. Consular Appointments"],
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]
+  },
+  "1246": { "tagDescription": ["Missing / Manque"] },
+  "1247": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Dredges"]
+  },
+  "1626": {
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Switzerland. Consular Appointments"]
+  },
+  "1235": {
+    "tagDescription": [
+      "Adoption by Countess Schimmelmann of three sons Question of Transmission of Title"
+    ],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"]
+  },
+  "1279": { "tagDescription": ["Missing / Manque"] },
+  "82": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Congress of Entomology. Brussels, Aug 1910 Noxious insects"
+    ]
+  },
+  "1267": {
+    "tagDescription": [
+      "French Government Archives Permission for Mr Gilbert Tucker to consult archives relating to Canada prior to 1763"
+    ],
+    "tagDate": ["1926-01-01T00:00:00.000Z"]
+  }
+}

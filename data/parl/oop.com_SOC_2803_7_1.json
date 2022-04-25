@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","28-3",23]],"pubmax":"1972-02-16","language":["eng"],"session":["28-3"],"pubmin":"1970-10-08","label":"Senate Committees, 28th Parliament, 3rd Session : Special Committee on Science Policy, Report vol. 1","callNumber":"1970/72 S3 A12 v.1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "28-3", 23]],
+  "pubmax": "1972-02-16",
+  "language": ["eng"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "label": "Senate Committees, 28th Parliament, 3rd Session : Special Committee on Science Policy, Report vol. 1",
+  "callNumber": "1970/72 S3 A12 v.1"
+}

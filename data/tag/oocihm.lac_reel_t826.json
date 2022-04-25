@@ -1,1 +1,38 @@
-{"368":{"tagDescription":["Missing / Manque"]},"1189":{"tagDescription":["Defence of Canada"],"tagDate":["[1868-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"]},"369":{"tagDescription":["Missing / Manque"]},"1589":{"tagDate":["1885-01-01T00:00:00.000Z"],"tagDescription":["Defence of Canada"]},"1728":{"tagDescription":["Defence of Canada"],"tagDate":["[1880-01-01T00:00:00.000Z TO 1885-12-31T23:59:59.999Z]"]},"371":{"tagDescription":["Defence of Canada. Defence of Provinces"],"tagDate":["[1860-01-01T00:00:00.000Z TO 1864-12-31T23:59:59.999Z]"]},"1948":{"tagDate":["[1888-01-01T00:00:00.000Z TO 1889-12-31T23:59:59.999Z]"],"tagDescription":["Defence of Canada"]},"772":{"tagDescription":["Defence of Canada"],"tagDate":["[1865-01-01T00:00:00.000Z TO 1867-12-31T23:59:59.999Z]"]},"970":{"tagDate":["[1870-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],"tagDescription":["Defence of Canada"]},"1360":{"tagDescription":["Defence of Canada Transfer of the Corvette Charybdis to Canada to be used as a training ship (1880)"],"tagDate":["[1885-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]}}
+{
+  "368": { "tagDescription": ["Missing / Manque"] },
+  "1189": {
+    "tagDescription": ["Defence of Canada"],
+    "tagDate": ["[1868-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"]
+  },
+  "369": { "tagDescription": ["Missing / Manque"] },
+  "1589": {
+    "tagDate": ["1885-01-01T00:00:00.000Z"],
+    "tagDescription": ["Defence of Canada"]
+  },
+  "1728": {
+    "tagDescription": ["Defence of Canada"],
+    "tagDate": ["[1880-01-01T00:00:00.000Z TO 1885-12-31T23:59:59.999Z]"]
+  },
+  "371": {
+    "tagDescription": ["Defence of Canada. Defence of Provinces"],
+    "tagDate": ["[1860-01-01T00:00:00.000Z TO 1864-12-31T23:59:59.999Z]"]
+  },
+  "1948": {
+    "tagDate": ["[1888-01-01T00:00:00.000Z TO 1889-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Defence of Canada"]
+  },
+  "772": {
+    "tagDescription": ["Defence of Canada"],
+    "tagDate": ["[1865-01-01T00:00:00.000Z TO 1867-12-31T23:59:59.999Z]"]
+  },
+  "970": {
+    "tagDate": ["[1870-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Defence of Canada"]
+  },
+  "1360": {
+    "tagDescription": [
+      "Defence of Canada Transfer of the Corvette Charybdis to Canada to be used as a training ship (1880)"
+    ],
+    "tagDate": ["[1885-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]
+  }
+}

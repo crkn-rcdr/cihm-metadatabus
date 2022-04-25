@@ -1,1 +1,12 @@
-{"pubmax":"1919-11-10","node":[["fra","c","committees","13-3",1]],"type":"committees","chamber":["c"],"primeMinisters":"Borden, Robert Laird","callNumber":"1919(2e) M5 A4","label":"Comités de la Chambre des communes, 13e Législature, 3e Session : Comité spécial sur le rétablissement des soldats dans la vie civile, vol. 1","pubmin":"1919-09-01","session":["13-3"],"language":["fra"]}
+{
+  "pubmax": "1919-11-10",
+  "node": [["fra", "c", "committees", "13-3", 1]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "callNumber": "1919(2e) M5 A4",
+  "label": "Comités de la Chambre des communes, 13e Législature, 3e Session : Comité spécial sur le rétablissement des soldats dans la vie civile, vol. 1",
+  "pubmin": "1919-09-01",
+  "session": ["13-3"],
+  "language": ["fra"]
+}

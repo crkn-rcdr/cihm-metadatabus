@@ -1,1 +1,12 @@
-{"type":"bills","node":[["fra","c","bills","19-2",1]],"pubmax":"1942-01-21","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1940-11-07","label":"Projets de loi de la Chambre des communes, 19e Législature, 2e Session : 2-104","callNumber":"KE72 C361 19-2 2-104","language":["fra"],"session":["19-2"]}
+{
+  "type": "bills",
+  "node": [["fra", "c", "bills", "19-2", 1]],
+  "pubmax": "1942-01-21",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1940-11-07",
+  "label": "Projets de loi de la Chambre des communes, 19e Législature, 2e Session : 2-104",
+  "callNumber": "KE72 C361 19-2 2-104",
+  "language": ["fra"],
+  "session": ["19-2"]
+}

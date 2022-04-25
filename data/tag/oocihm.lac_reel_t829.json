@@ -1,1 +1,45 @@
-{"1798":{"tagDate":["[1885-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],"tagDescription":["Queen versus Riel"]},"1035":{"tagDate":["[1903-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"],"tagDescription":["Alaska boundary"]},"1532":{"tagDescription":["Alaska boundary"],"tagDate":["[1906-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"672":{"tagDescription":["Alaska boundary"],"tagDate":["[1899-01-01T00:00:00.000Z TO 1901-12-31T23:59:59.999Z]"]},"2083":{"tagDate":["1837-01-01T00:00:00.000Z"],"tagDescription":["Death of Queen Victoria - Accession to the throne of King Edward VII - Court mourning, etc"]},"13":{"tagDescription":["Alaska boundary"],"tagDate":["[1891-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]},"437":{"tagDate":["[1901-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"],"tagDescription":["Alaska boundary"]},"1770":{"tagDescription":["Vice Regal Residence Montreal - Proposed construction in commemoration of 50th anniversary of Queen Victorias Reign Vice Regal Residence Montreal- Newspaper clipping regarding Monkland","Vice Regal Residence Montreal - Proposed construction in commemoration of 50th anniversary of Queen Victorias Reign Vice Regal Residence Montreal - Newspaper clipping regarding Monkland"],"tagDate":["[1888-12-31T23:59:59.999Z TO 1945-01-01T00:00:00.000Z]"]},"1768":{"tagDescription":["Missing / Manque"]},"1767":{"tagDescription":["Missing / Manque"]},"850":{"tagDate":["1899-01-01T00:00:00.000Z"],"tagDescription":["Alaska boundary"]}}
+{
+  "1798": {
+    "tagDate": ["[1885-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Queen versus Riel"]
+  },
+  "1035": {
+    "tagDate": ["[1903-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Alaska boundary"]
+  },
+  "1532": {
+    "tagDescription": ["Alaska boundary"],
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "672": {
+    "tagDescription": ["Alaska boundary"],
+    "tagDate": ["[1899-01-01T00:00:00.000Z TO 1901-12-31T23:59:59.999Z]"]
+  },
+  "2083": {
+    "tagDate": ["1837-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Death of Queen Victoria - Accession to the throne of King Edward VII - Court mourning, etc"
+    ]
+  },
+  "13": {
+    "tagDescription": ["Alaska boundary"],
+    "tagDate": ["[1891-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]
+  },
+  "437": {
+    "tagDate": ["[1901-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Alaska boundary"]
+  },
+  "1770": {
+    "tagDescription": [
+      "Vice Regal Residence Montreal - Proposed construction in commemoration of 50th anniversary of Queen Victorias Reign Vice Regal Residence Montreal- Newspaper clipping regarding Monkland",
+      "Vice Regal Residence Montreal - Proposed construction in commemoration of 50th anniversary of Queen Victorias Reign Vice Regal Residence Montreal - Newspaper clipping regarding Monkland"
+    ],
+    "tagDate": ["[1888-12-31T23:59:59.999Z TO 1945-01-01T00:00:00.000Z]"]
+  },
+  "1768": { "tagDescription": ["Missing / Manque"] },
+  "1767": { "tagDescription": ["Missing / Manque"] },
+  "850": {
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagDescription": ["Alaska boundary"]
+  }
+}

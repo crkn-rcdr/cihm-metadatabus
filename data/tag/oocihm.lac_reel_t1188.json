@@ -1,1 +1,81 @@
-{"1405":{"tagDescription":["Missing / Manque"]},"1856":{"tagDescription":["Missing / Manque"]},"1411":{"tagDescription":["Missing / Manque"]},"1409":{"tagDescription":["Missing / Manque"]},"1413":{"tagDescription":["Missing / Manque"]},"207":{"tagDescription":["Extradition cases; (Jan  July)"],"tagDate":["1924-01-01T00:00:00.000Z"]},"502":{"tagDescription":["Extradition cases;"],"tagDate":["1925-01-01T00:00:00.000Z"]},"1858":{"tagDescription":["Missing / Manque"]},"1857":{"tagDescription":["Missing / Manque"]},"757":{"tagDate":["1925-01-01T00:00:00.000Z"],"tagDescription":["Extradition cases;"]},"1669":{"tagDescription":["Missing / Manque"]},"1848":{"tagDescription":["Missing / Manque"]},"1852":{"tagDescription":["Missing / Manque"]},"959":{"tagDate":["1926-01-01T00:00:00.000Z"],"tagDescription":["Extradition cases;"]},"1672":{"tagDescription":["Missing / Manque"]},"1850":{"tagDescription":["Missing / Manque"]},"1670":{"tagDescription":["Missing / Manque"]},"1415":{"tagDescription":["Missing / Manque"]},"1854":{"tagDescription":["Missing / Manque"]},"1416":{"tagDescription":["Missing / Manque"]},"1404":{"tagDescription":["Missing / Manque"]},"1851":{"tagDescription":["Missing / Manque"]},"1671":{"tagDescription":["Missing / Manque"]},"1849":{"tagDescription":["Missing / Manque"]},"1853":{"tagDescription":["Missing / Manque"]},"1418":{"tagDate":["[1908-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"],"tagDescription":["Grant to Nova Scotia Government of certain land transferred by War Department to Dominion Lands at York Ridoubt, Halifax. Acquired from Thomas Hanrahan Difficulty re: deed -Demolition of old war department buildings at Halifax -Unconditional transfer to Canadian Government of the whole of the remaining former War Department Property at Halifax (9-8-19) -List of Deeds in respect of War Department properties transferred to Canadian Government. Transfer and sale of Military land at Halifax"]},"1876":{"tagDate":["[1908-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],"tagDescription":["Royal Military College, Kingston"]},"1666":{"tagDescription":["Missing / Manque"]},"1408":{"tagDescription":["Missing / Manque"]},"22":{"tagDate":["1924-01-01T00:00:00.000Z"],"tagDescription":["Extradition cases; (August  December)"]},"1265":{"tagDate":["[1927-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Extradition cases;"]},"1407":{"tagDescription":["Missing / Manque"]},"1675":{"tagDescription":["Spain. Consular appointments"],"tagDate":["[1867-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"1410":{"tagDescription":["Missing / Manque"]},"1861":{"tagDescription":["Steps of local rank to Imperial officer serving Staff of R.M.C."],"tagDate":["1877-01-01T00:00:00.000Z"]},"1855":{"tagDescription":["Missing / Manque"]},"1412":{"tagDescription":["Missing / Manque"]},"1406":{"tagDescription":["Missing / Manque"]},"1668":{"tagDescription":["Missing / Manque"]},"383":{"tagDate":["[1923-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["Extradition of Louis Austin"]},"1667":{"tagDescription":["Missing / Manque"]},"1414":{"tagDescription":["Missing / Manque"]}}
+{
+  "1405": { "tagDescription": ["Missing / Manque"] },
+  "1856": { "tagDescription": ["Missing / Manque"] },
+  "1411": { "tagDescription": ["Missing / Manque"] },
+  "1409": { "tagDescription": ["Missing / Manque"] },
+  "1413": { "tagDescription": ["Missing / Manque"] },
+  "207": {
+    "tagDescription": ["Extradition cases; (Jan  July)"],
+    "tagDate": ["1924-01-01T00:00:00.000Z"]
+  },
+  "502": {
+    "tagDescription": ["Extradition cases;"],
+    "tagDate": ["1925-01-01T00:00:00.000Z"]
+  },
+  "1858": { "tagDescription": ["Missing / Manque"] },
+  "1857": { "tagDescription": ["Missing / Manque"] },
+  "757": {
+    "tagDate": ["1925-01-01T00:00:00.000Z"],
+    "tagDescription": ["Extradition cases;"]
+  },
+  "1669": { "tagDescription": ["Missing / Manque"] },
+  "1848": { "tagDescription": ["Missing / Manque"] },
+  "1852": { "tagDescription": ["Missing / Manque"] },
+  "959": {
+    "tagDate": ["1926-01-01T00:00:00.000Z"],
+    "tagDescription": ["Extradition cases;"]
+  },
+  "1672": { "tagDescription": ["Missing / Manque"] },
+  "1850": { "tagDescription": ["Missing / Manque"] },
+  "1670": { "tagDescription": ["Missing / Manque"] },
+  "1415": { "tagDescription": ["Missing / Manque"] },
+  "1854": { "tagDescription": ["Missing / Manque"] },
+  "1416": { "tagDescription": ["Missing / Manque"] },
+  "1404": { "tagDescription": ["Missing / Manque"] },
+  "1851": { "tagDescription": ["Missing / Manque"] },
+  "1671": { "tagDescription": ["Missing / Manque"] },
+  "1849": { "tagDescription": ["Missing / Manque"] },
+  "1853": { "tagDescription": ["Missing / Manque"] },
+  "1418": {
+    "tagDate": ["[1908-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Grant to Nova Scotia Government of certain land transferred by War Department to Dominion Lands at York Ridoubt, Halifax. Acquired from Thomas Hanrahan Difficulty re: deed -Demolition of old war department buildings at Halifax -Unconditional transfer to Canadian Government of the whole of the remaining former War Department Property at Halifax (9-8-19) -List of Deeds in respect of War Department properties transferred to Canadian Government. Transfer and sale of Military land at Halifax"
+    ]
+  },
+  "1876": {
+    "tagDate": ["[1908-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Royal Military College, Kingston"]
+  },
+  "1666": { "tagDescription": ["Missing / Manque"] },
+  "1408": { "tagDescription": ["Missing / Manque"] },
+  "22": {
+    "tagDate": ["1924-01-01T00:00:00.000Z"],
+    "tagDescription": ["Extradition cases; (August  December)"]
+  },
+  "1265": {
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Extradition cases;"]
+  },
+  "1407": { "tagDescription": ["Missing / Manque"] },
+  "1675": {
+    "tagDescription": ["Spain. Consular appointments"],
+    "tagDate": ["[1867-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "1410": { "tagDescription": ["Missing / Manque"] },
+  "1861": {
+    "tagDescription": [
+      "Steps of local rank to Imperial officer serving Staff of R.M.C."
+    ],
+    "tagDate": ["1877-01-01T00:00:00.000Z"]
+  },
+  "1855": { "tagDescription": ["Missing / Manque"] },
+  "1412": { "tagDescription": ["Missing / Manque"] },
+  "1406": { "tagDescription": ["Missing / Manque"] },
+  "1668": { "tagDescription": ["Missing / Manque"] },
+  "383": {
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Extradition of Louis Austin"]
+  },
+  "1667": { "tagDescription": ["Missing / Manque"] },
+  "1414": { "tagDescription": ["Missing / Manque"] }
+}

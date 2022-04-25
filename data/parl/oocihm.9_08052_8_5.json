@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Mackenzie, Alexander","pubmax":"1875-04-08","node":[["eng","c","sessional","03-2",5]],"type":"sessional","session":["03-2"],"language":["eng"],"label":"Sessional Papers, 3rd Parliament, 2nd Session : vol. 5","pubmin":"1875-02-04"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "pubmax": "1875-04-08",
+  "node": [["eng", "c", "sessional", "03-2", 5]],
+  "type": "sessional",
+  "session": ["03-2"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 3rd Parliament, 2nd Session : vol. 5",
+  "pubmin": "1875-02-04"
+}

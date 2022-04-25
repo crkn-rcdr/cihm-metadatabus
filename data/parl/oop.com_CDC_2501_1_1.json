@@ -1,1 +1,12 @@
-{"pubmin":"1962-09-27","label":"Comités de la Chambre des communes, 25e Législature, 1re Session : Comité spécial des aliments et drogues, vol. 1","callNumber":"1962/63 A4 A4","language":["fra"],"session":["25-1"],"type":"committees","node":[["fra","c","committees","25-1",1]],"pubmax":"1963-02-06","primeMinisters":"Diefenbaker, John George","chamber":["c"]}
+{
+  "pubmin": "1962-09-27",
+  "label": "Comités de la Chambre des communes, 25e Législature, 1re Session : Comité spécial des aliments et drogues, vol. 1",
+  "callNumber": "1962/63 A4 A4",
+  "language": ["fra"],
+  "session": ["25-1"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "25-1", 1]],
+  "pubmax": "1963-02-06",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"]
+}

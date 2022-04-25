@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["21-5"],"pubmin":"1951-10-09","label":"House of Commons Committees, 21st Parliament, 5th Session : Special Committee on Railway Legislation, vol. 1","callNumber":"1951 2d. Session R345 A1","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"type":"committees","node":[["eng","c","committees","21-5",9]],"pubmax":"1951-12-29"}
+{
+  "language": ["eng"],
+  "session": ["21-5"],
+  "pubmin": "1951-10-09",
+  "label": "House of Commons Committees, 21st Parliament, 5th Session : Special Committee on Railway Legislation, vol. 1",
+  "callNumber": "1951 2d. Session R345 A1",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "21-5", 9]],
+  "pubmax": "1951-12-29"
+}

@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","type":"journals","pubmax":"1957-04-12","node":[["eng","c","journals","22-5",1]],"language":["eng"],"session":["22-5"],"pubmin":"1957-01-08","label":"House of Commons Journals, 22nd Parliament, 5th Session : Vol. 102"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "journals",
+  "pubmax": "1957-04-12",
+  "node": [["eng", "c", "journals", "22-5", 1]],
+  "language": ["eng"],
+  "session": ["22-5"],
+  "pubmin": "1957-01-08",
+  "label": "House of Commons Journals, 22nd Parliament, 5th Session : Vol. 102"
+}

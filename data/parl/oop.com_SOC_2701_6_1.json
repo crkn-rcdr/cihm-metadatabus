@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["27-1"],"pubmin":"1966-01-18","callNumber":"1966/67 T73 A1","label":"Senate Committees, 27th Parliament, 1st Session : Standing Committee on Transport and Communications, vol. 1","chamber":["s"],"type":"committees","pubmax":"1967-05-08","node":[["eng","s","committees","27-1",18]]}
+{
+  "language": ["eng"],
+  "session": ["27-1"],
+  "pubmin": "1966-01-18",
+  "callNumber": "1966/67 T73 A1",
+  "label": "Senate Committees, 27th Parliament, 1st Session : Standing Committee on Transport and Communications, vol. 1",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1967-05-08",
+  "node": [["eng", "s", "committees", "27-1", 18]]
+}

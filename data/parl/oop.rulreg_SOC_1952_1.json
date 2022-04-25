@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"rules","node":[["eng","s","rules",null,11]],"pubmax":"1953-05-14","language":["eng"],"session":["21-6","21-7"],"pubmin":"1952-02-28","label":"Rules of the Senate of Canada, 1952","callNumber":"JL158.3 1952"}
+{
+  "chamber": ["s"],
+  "type": "rules",
+  "node": [["eng", "s", "rules", null, 11]],
+  "pubmax": "1953-05-14",
+  "language": ["eng"],
+  "session": ["21-6", "21-7"],
+  "pubmin": "1952-02-28",
+  "label": "Rules of the Senate of Canada, 1952",
+  "callNumber": "JL158.3 1952"
+}

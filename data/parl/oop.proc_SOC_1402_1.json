@@ -1,1 +1,11 @@
-{"chamber":["s"],"node":[["eng","s","sproc","14-2",1]],"pubmax":"1923-06-30","type":"sproc","session":["14-2"],"language":["eng"],"label":"Senate Minutes of Proceedings, 14th Parliament, 2nd Session : 1-63","callNumber":"J103 H4 1923","pubmin":"1923-01-31"}
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "sproc", "14-2", 1]],
+  "pubmax": "1923-06-30",
+  "type": "sproc",
+  "session": ["14-2"],
+  "language": ["eng"],
+  "label": "Senate Minutes of Proceedings, 14th Parliament, 2nd Session : 1-63",
+  "callNumber": "J103 H4 1923",
+  "pubmin": "1923-01-31"
+}

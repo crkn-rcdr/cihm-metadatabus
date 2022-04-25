@@ -1,1 +1,10 @@
-{"pubmin":"1872-04-11","label":"Journaux du Sénat, 1e Législature, 5e Session : Vol. 5","language":["fra"],"session":["01-5"],"type":"journals","pubmax":"1872-06-14","node":[["fra","s","journals","01-5",1]],"chamber":["s"]}
+{
+  "pubmin": "1872-04-11",
+  "label": "Journaux du Sénat, 1e Législature, 5e Session : Vol. 5",
+  "language": ["fra"],
+  "session": ["01-5"],
+  "type": "journals",
+  "pubmax": "1872-06-14",
+  "node": [["fra", "s", "journals", "01-5", 1]],
+  "chamber": ["s"]
+}

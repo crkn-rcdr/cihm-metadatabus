@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Bennett, Richard Bedford","pubmax":"1932-05-26","node":[["fra","c","committees","17-3",2]],"type":"committees","session":["17-3"],"language":["fra"],"callNumber":"1932 G6 A4","label":"Comités de la Chambre des communes, 17e Législature, 3e Session : Comité spécial sur les accusations et allégations formulées par George N. Gordon, vol. 1","pubmin":"1932-02-04"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "pubmax": "1932-05-26",
+  "node": [["fra", "c", "committees", "17-3", 2]],
+  "type": "committees",
+  "session": ["17-3"],
+  "language": ["fra"],
+  "callNumber": "1932 G6 A4",
+  "label": "Comités de la Chambre des communes, 17e Législature, 3e Session : Comité spécial sur les accusations et allégations formulées par George N. Gordon, vol. 1",
+  "pubmin": "1932-02-04"
+}

@@ -1,1 +1,11 @@
-{"chamber":["s"],"pubmax":"1915-04-15","node":[["fra","s","sproc","12-5",1]],"type":"sproc","session":["12-5"],"language":["fra"],"callNumber":"J103 H43 1915","label":"Procès-verbaux du Sénat, 12e Législature, 5e Session : 1-37","pubmin":"1915-02-04"}
+{
+  "chamber": ["s"],
+  "pubmax": "1915-04-15",
+  "node": [["fra", "s", "sproc", "12-5", 1]],
+  "type": "sproc",
+  "session": ["12-5"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1915",
+  "label": "Procès-verbaux du Sénat, 12e Législature, 5e Session : 1-37",
+  "pubmin": "1915-02-04"
+}

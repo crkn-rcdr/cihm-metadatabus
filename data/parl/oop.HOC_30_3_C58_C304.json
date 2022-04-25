@@ -1,1 +1,14 @@
-{"type":"bills","node":[["eng","c","bills","30-3",4],["fra","c","bills","30-3",4]],"pubmax":"1978-10-10","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"pubmin":"1977-10-18","label":"House of Commons Bills, 30th Parliament, 3rd Session : C58-C304 = Projets de loi de la Chambre des communes, 30e Législature, 3e Session : C58-C304","language":["eng","fra"],"session":["30-3"]}
+{
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "30-3", 4],
+    ["fra", "c", "bills", "30-3", 4]
+  ],
+  "pubmax": "1978-10-10",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1977-10-18",
+  "label": "House of Commons Bills, 30th Parliament, 3rd Session : C58-C304 = Projets de loi de la Chambre des communes, 30e Législature, 3e Session : C58-C304",
+  "language": ["eng", "fra"],
+  "session": ["30-3"]
+}

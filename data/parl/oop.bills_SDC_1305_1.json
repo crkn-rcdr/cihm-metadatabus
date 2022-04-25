@@ -1,1 +1,11 @@
-{"session":["13-5"],"language":["fra"],"callNumber":"KE72 C381 13-5 Bill A-","label":"Projets de loi du Sénat, 13e Législature, 5e Session : A-D6","pubmin":"1921-02-14","chamber":["s"],"pubmax":"1921-06-04","node":[["fra","s","bills","13-5",1]],"type":"bills"}
+{
+  "session": ["13-5"],
+  "language": ["fra"],
+  "callNumber": "KE72 C381 13-5 Bill A-",
+  "label": "Projets de loi du Sénat, 13e Législature, 5e Session : A-D6",
+  "pubmin": "1921-02-14",
+  "chamber": ["s"],
+  "pubmax": "1921-06-04",
+  "node": [["fra", "s", "bills", "13-5", 1]],
+  "type": "bills"
+}

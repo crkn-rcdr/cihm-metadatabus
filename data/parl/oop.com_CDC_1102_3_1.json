@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Laurier, Wilfrid","pubmax":"1910-05-04","node":[["fra","c","committees","11-2",3]],"type":"committees","session":["11-2"],"language":["fra"],"callNumber":"1909/10 R3 A2","label":"Comités de la Chambre des communes, 11e Législature, 2e Session : Comité spécial relatif aux paris sur les courses de chevaux, vol. 1","pubmin":"1909-11-11"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "pubmax": "1910-05-04",
+  "node": [["fra", "c", "committees", "11-2", 3]],
+  "type": "committees",
+  "session": ["11-2"],
+  "language": ["fra"],
+  "callNumber": "1909/10 R3 A2",
+  "label": "Comités de la Chambre des communes, 11e Législature, 2e Session : Comité spécial relatif aux paris sur les courses de chevaux, vol. 1",
+  "pubmin": "1909-11-11"
+}

@@ -1,1 +1,86 @@
-{"961":{"tagDate":["[1936-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagDescription":["Membership"],"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"]},"496":{"tagNotebook":["Provincial Files"],"tagPlace":["Quebec"],"tagDescription":["Legislative Assembly"],"tagDate":["1945-01-01T00:00:00.000Z"]},"1191":{"tagDate":["[1943-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Newspapers"],"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"]},"115":{"tagNotebook":["Provincial Files"],"tagPlace":["Quebec"],"tagDate":["[1942-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagDescription":["Executive and Council Minutes"]},"1110":{"tagNotebook":["Provincial Files"],"tagPlace":["Quebec"],"tagDescription":["New Contacts"],"tagDate":["[1942-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"]},"1328":{"tagDate":["1943-01-01T00:00:00.000Z"],"tagDescription":["Newspaper: (News Comment Subscriptions)"],"tagNotebook":["Provincial Files"],"tagPlace":["Quebec"]},"1238":{"tagDate":["[1933-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"],"tagDescription":["Newspaper Clippings and Memoranda"],"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"]},"156":{"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"],"tagDate":["[1939-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagDescription":["Finances and Dues"]},"1046":{"tagDate":["[1950-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],"tagDescription":["National Expansion Drive"],"tagNotebook":["Provincial Files"],"tagPlace":["Quebec"]},"12":{"tagDescription":["Cartier Riding"],"tagDate":["[1944-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"]},"308":{"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"],"tagDescription":["Income Tax"],"tagDate":["[1954-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"]},"347":{"tagDate":["[1940-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],"tagDescription":["Labour"],"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"]},"40":{"tagPlace":["Quebec"],"tagNotebook":["Provincial Files"],"tagDescription":["Pontiac By-Election"],"tagDate":["1946-01-01T00:00:00.000Z"]},"284":{"tagDate":["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],"tagDescription":["Government"],"tagNotebook":["Provincial Files"],"tagPlace":["Quebec"]}}
+{
+  "961": {
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Membership"],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "496": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"],
+    "tagDescription": ["Legislative Assembly"],
+    "tagDate": ["1945-01-01T00:00:00.000Z"]
+  },
+  "1191": {
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Newspapers"],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "115": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"],
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Executive and Council Minutes"]
+  },
+  "1110": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"],
+    "tagDescription": ["New Contacts"],
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"]
+  },
+  "1328": {
+    "tagDate": ["1943-01-01T00:00:00.000Z"],
+    "tagDescription": ["Newspaper: (News Comment Subscriptions)"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"]
+  },
+  "1238": {
+    "tagDate": ["[1933-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Newspaper Clippings and Memoranda"],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "156": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Finances and Dues"]
+  },
+  "1046": {
+    "tagDate": ["[1950-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagDescription": ["National Expansion Drive"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"]
+  },
+  "12": {
+    "tagDescription": ["Cartier Riding"],
+    "tagDate": ["[1944-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "308": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDescription": ["Income Tax"],
+    "tagDate": ["[1954-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"]
+  },
+  "347": {
+    "tagDate": ["[1940-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Labour"],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "40": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDescription": ["Pontiac By-Election"],
+    "tagDate": ["1946-01-01T00:00:00.000Z"]
+  },
+  "284": {
+    "tagDate": ["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Government"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"]
+  }
+}

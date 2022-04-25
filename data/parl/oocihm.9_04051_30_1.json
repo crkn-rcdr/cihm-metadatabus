@@ -1,1 +1,11 @@
-{"type":"sessional","node":[["fra","c","sessional","08-1",1]],"pubmax":"1896-10-05","primeMinisters":"Laurier, Wilfrid","chamber":["c"],"pubmin":"1896-08-19","label":"Documents parlementaires, 8e Législature, 1re Session : vol. 1","language":["fra"],"session":["08-1"]}
+{
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "08-1", 1]],
+  "pubmax": "1896-10-05",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "pubmin": "1896-08-19",
+  "label": "Documents parlementaires, 8e Législature, 1re Session : vol. 1",
+  "language": ["fra"],
+  "session": ["08-1"]
+}

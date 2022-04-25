@@ -1,1 +1,12 @@
-{"label":"Procès-verbaux de la Chambre des communes, 18e Législature, 4e Session : 1-103","callNumber":"J103 H44 1939","pubmin":"1939-01-12","session":["18-4"],"language":["fra"],"node":[["fra","c","cproc","18-4",1]],"pubmax":"1939-06-03","type":"cproc","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "label": "Procès-verbaux de la Chambre des communes, 18e Législature, 4e Session : 1-103",
+  "callNumber": "J103 H44 1939",
+  "pubmin": "1939-01-12",
+  "session": ["18-4"],
+  "language": ["fra"],
+  "node": [["fra", "c", "cproc", "18-4", 1]],
+  "pubmax": "1939-06-03",
+  "type": "cproc",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

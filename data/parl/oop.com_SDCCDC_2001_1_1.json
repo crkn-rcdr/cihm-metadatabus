@@ -1,1 +1,15 @@
-{"language":["fra"],"session":["20-1"],"pubmin":"1945-09-06","callNumber":"1945(2e) D7 A44","label":"Comités mixtes, 20e Législature, 1re Session : Comité mixte du drapeau national pour le Canada, vol. 1","chamber":["c","s"],"primeMinisters":"King, William Lyon Mackenzie","type":"committees","pubmax":"1945-12-18","node":[["fra","c","committees","20-1",7],["fra","s","committees","20-1",1]]}
+{
+  "language": ["fra"],
+  "session": ["20-1"],
+  "pubmin": "1945-09-06",
+  "callNumber": "1945(2e) D7 A44",
+  "label": "Comités mixtes, 20e Législature, 1re Session : Comité mixte du drapeau national pour le Canada, vol. 1",
+  "chamber": ["c", "s"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "committees",
+  "pubmax": "1945-12-18",
+  "node": [
+    ["fra", "c", "committees", "20-1", 7],
+    ["fra", "s", "committees", "20-1", 1]
+  ]
+}

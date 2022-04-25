@@ -1,1 +1,83 @@
-{"1567":{"tagDate":["1911-01-01T00:00:00.000Z"],"tagDescription":["Report of Canadian Contingent Baden-Powell Boy Scouts to the Coronation and Rally (June  July 1911)"]},"93":{"tagDescription":["Missing / Manque"]},"92":{"tagDescription":["Missing / Manque"]},"151":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["Documents relations to the Crown Colony of Vancouver for the Provincial Government Library at Victoria"]},"1988":{"tagDescription":["Ibid "],"tagDate":["1910-01-01T00:00:00.000Z"]},"165":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"],"tagDescription":["Fiji  Appointments in  Trade with  Income tax law of  Representatives of -"]},"1349":{"tagDate":["1910-01-01T00:00:00.000Z"],"tagDescription":["Death of King Edward VII  6 May 1910 Accession of King Edward V  9 May 190"]},"1487":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["Messages of Sympathy on the death of King Edward VII Assurances of loyalty to King George V"]},"1106":{"tagDescription":["Missing / Manque"]},"1616":{"tagDescription":["Death of King Edward VII - Addresses of Condolence."],"tagDate":["1910-01-01T00:00:00.000Z"]},"275":{"tagDate":["[1901-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],"tagDescription":["Letters of request. Commissions rogatoire"]},"1033":{"tagDescription":["Purchase of the Gauss now the Arctic by the Canadian Government. Claim of Mr. B. Nordahl against Captain Bernier for commission in connection with"],"tagDate":["[1908-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]},"1108":{"tagDescription":["United States  Regiments visit to Canada."],"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]},"636":{"tagDate":["[1920-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Ibid "]},"1347":{"tagDescription":["Missing / Manque"]},"163":{"tagDescription":["Missing / Manque"]},"95":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Report of the National Rifle Associations. Report of the Dominion of Canada Rifle Associations. Government Grants for the encouragement of Rifle Shooting."]},"1030":{"tagDescription":["Missing / Manque"]},"489":{"tagDate":["[1901-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],"tagDescription":["Letters of request. Commissions rogatoire"]},"15":{"tagDescription":["Missing / Manque"]},"17":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],"tagDescription":["United States  Mexican Boundary Arbitration. Title to the Chamizal Tract."]},"273":{"tagDescription":["Missing / Manque"]},"149":{"tagDescription":["Missing / Manque"]}}
+{
+  "1567": {
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Report of Canadian Contingent Baden-Powell Boy Scouts to the Coronation and Rally (June  July 1911)"
+    ]
+  },
+  "93": { "tagDescription": ["Missing / Manque"] },
+  "92": { "tagDescription": ["Missing / Manque"] },
+  "151": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Documents relations to the Crown Colony of Vancouver for the Provincial Government Library at Victoria"
+    ]
+  },
+  "1988": {
+    "tagDescription": ["Ibid "],
+    "tagDate": ["1910-01-01T00:00:00.000Z"]
+  },
+  "165": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Fiji  Appointments in  Trade with  Income tax law of  Representatives of -"
+    ]
+  },
+  "1349": {
+    "tagDate": ["1910-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Death of King Edward VII  6 May 1910 Accession of King Edward V  9 May 190"
+    ]
+  },
+  "1487": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Messages of Sympathy on the death of King Edward VII Assurances of loyalty to King George V"
+    ]
+  },
+  "1106": { "tagDescription": ["Missing / Manque"] },
+  "1616": {
+    "tagDescription": ["Death of King Edward VII - Addresses of Condolence."],
+    "tagDate": ["1910-01-01T00:00:00.000Z"]
+  },
+  "275": {
+    "tagDate": ["[1901-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Letters of request. Commissions rogatoire"]
+  },
+  "1033": {
+    "tagDescription": [
+      "Purchase of the Gauss now the Arctic by the Canadian Government. Claim of Mr. B. Nordahl against Captain Bernier for commission in connection with"
+    ],
+    "tagDate": ["[1908-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "1108": {
+    "tagDescription": ["United States  Regiments visit to Canada."],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "636": {
+    "tagDate": ["[1920-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid "]
+  },
+  "1347": { "tagDescription": ["Missing / Manque"] },
+  "163": { "tagDescription": ["Missing / Manque"] },
+  "95": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Report of the National Rifle Associations. Report of the Dominion of Canada Rifle Associations. Government Grants for the encouragement of Rifle Shooting."
+    ]
+  },
+  "1030": { "tagDescription": ["Missing / Manque"] },
+  "489": {
+    "tagDate": ["[1901-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Letters of request. Commissions rogatoire"]
+  },
+  "15": { "tagDescription": ["Missing / Manque"] },
+  "17": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "United States  Mexican Boundary Arbitration. Title to the Chamizal Tract."
+    ]
+  },
+  "273": { "tagDescription": ["Missing / Manque"] },
+  "149": { "tagDescription": ["Missing / Manque"] }
+}

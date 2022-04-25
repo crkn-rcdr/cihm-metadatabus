@@ -1,1 +1,15 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"type":"committees","node":[["eng","c","committees","32-1",128],["fra","c","committees","32-1",143]],"pubmax":"1983-11-30","language":["eng","fra"],"session":["32-1"],"pubmin":"1980-04-14","label":"House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on North-South Relations, vol. 1 no. 1-14 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial des relations Nord-Sud, vol. 1 no. 1-14","callNumber":"1980/83 N6 A1 v.1"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "32-1", 128],
+    ["fra", "c", "committees", "32-1", 143]
+  ],
+  "pubmax": "1983-11-30",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on North-South Relations, vol. 1 no. 1-14 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial des relations Nord-Sud, vol. 1 no. 1-14",
+  "callNumber": "1980/83 N6 A1 v.1"
+}

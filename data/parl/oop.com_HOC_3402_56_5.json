@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","34-2",107]],"pubmax":"1991-05-12","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Human Rights and the Status of Disabled Persons, Second Report","callNumber":"34-2 H792 A122","language":["eng"],"reportTitle":["A Concensus for Action: the Economic Integration of Disabled Persons"],"session":["34-2"]}
+{
+  "type": "committees",
+  "node": [["eng", "c", "committees", "34-2", 107]],
+  "pubmax": "1991-05-12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Human Rights and the Status of Disabled Persons, Second Report",
+  "callNumber": "34-2 H792 A122",
+  "language": ["eng"],
+  "reportTitle": [
+    "A Concensus for Action: the Economic Integration of Disabled Persons"
+  ],
+  "session": ["34-2"]
+}

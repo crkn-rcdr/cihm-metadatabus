@@ -1,1 +1,14 @@
-{"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmax":"1869-06-22","node":[["eng","c","debates","01-2",2],["fra","c","debates","01-2",2]],"type":"debates","session":["01-2"],"language":["eng","fra"],"label":"House of Commons Debates, 1st Parliament, 2nd Session : Vol. 1 = Débats de la Chambre des communes, 1e Législature, 2e Session : Vol. 1","pubmin":"1869-04-15"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1869-06-22",
+  "node": [
+    ["eng", "c", "debates", "01-2", 2],
+    ["fra", "c", "debates", "01-2", 2]
+  ],
+  "type": "debates",
+  "session": ["01-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Debates, 1st Parliament, 2nd Session : Vol. 1 = Débats de la Chambre des communes, 1e Législature, 2e Session : Vol. 1",
+  "pubmin": "1869-04-15"
+}

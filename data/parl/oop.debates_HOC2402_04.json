@@ -1,1 +1,11 @@
-{"pubmax":"1959-07-18","node":[["eng","c","debates","24-2",4]],"type":"debates","chamber":["c"],"primeMinisters":"Diefenbaker, John George","label":"House of Commons Debates, 24th Parliament, 2nd Session : Vol. 4","pubmin":"1959-01-15","session":["24-2"],"language":["eng"]}
+{
+  "pubmax": "1959-07-18",
+  "node": [["eng", "c", "debates", "24-2", 4]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "label": "House of Commons Debates, 24th Parliament, 2nd Session : Vol. 4",
+  "pubmin": "1959-01-15",
+  "session": ["24-2"],
+  "language": ["eng"]
+}

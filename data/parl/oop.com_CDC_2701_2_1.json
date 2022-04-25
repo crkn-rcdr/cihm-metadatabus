@@ -1,1 +1,12 @@
-{"label":"Comités de la Chambre des communes, 27e Législature, 1re Session : Comité permanent des affaires indiennes, des droits de l'homme, de la citoyenneté et de l'immigration, vol. 1","callNumber":"1966/67 A28 A1","pubmin":"1966-01-18","session":["27-1"],"language":["fra"],"node":[["fra","c","committees","27-1",3]],"pubmax":"1967-05-08","type":"committees","primeMinisters":"Pearson, Lester Bowles","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 27e Législature, 1re Session : Comité permanent des affaires indiennes, des droits de l'homme, de la citoyenneté et de l'immigration, vol. 1",
+  "callNumber": "1966/67 A28 A1",
+  "pubmin": "1966-01-18",
+  "session": ["27-1"],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "27-1", 3]],
+  "pubmax": "1967-05-08",
+  "type": "committees",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"]
+}

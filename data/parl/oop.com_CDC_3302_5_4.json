@@ -1,1 +1,15 @@
-{"node":[["fra","c","committees","33-2",13]],"pubmax":"1988-10-01","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des affaires autochtones et du développement du Nord, Premier rapport","callNumber":"33-2 A18 A12","pubmin":"1986-09-30","session":["33-2"],"language":["fra"],"reportTitle":["La question des fourrures, d'hier à demain une culture et son économie"]}
+{
+  "node": [["fra", "c", "committees", "33-2", 13]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des affaires autochtones et du développement du Nord, Premier rapport",
+  "callNumber": "33-2 A18 A12",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["fra"],
+  "reportTitle": [
+    "La question des fourrures, d'hier à demain une culture et son économie"
+  ]
+}

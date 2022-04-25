@@ -1,1 +1,11 @@
-{"callNumber":"KE72 C381 16-1 Bill A-","label":"Projets de loi du Sénat, 16e Législature, 1re Session : A-C9","pubmin":"1926-12-09","session":["16-1"],"language":["fra"],"pubmax":"1927-04-14","node":[["fra","s","bills","16-1",1]],"type":"bills","chamber":["s"]}
+{
+  "callNumber": "KE72 C381 16-1 Bill A-",
+  "label": "Projets de loi du Sénat, 16e Législature, 1re Session : A-C9",
+  "pubmin": "1926-12-09",
+  "session": ["16-1"],
+  "language": ["fra"],
+  "pubmax": "1927-04-14",
+  "node": [["fra", "s", "bills", "16-1", 1]],
+  "type": "bills",
+  "chamber": ["s"]
+}

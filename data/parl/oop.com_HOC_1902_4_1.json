@@ -1,1 +1,12 @@
-{"session":["19-2"],"language":["eng"],"label":"House of Commons Committees, 19th Parliament, 2nd Session : Standing Committee on Railways, Canals and Telegraph Lines, vol. 1","callNumber":"1940/42 R35 A1","pubmin":"1940-11-07","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","committees","19-2",15]],"pubmax":"1942-01-21","type":"committees"}
+{
+  "session": ["19-2"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 19th Parliament, 2nd Session : Standing Committee on Railways, Canals and Telegraph Lines, vol. 1",
+  "callNumber": "1940/42 R35 A1",
+  "pubmin": "1940-11-07",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "19-2", 15]],
+  "pubmax": "1942-01-21",
+  "type": "committees"
+}

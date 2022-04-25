@@ -1,1 +1,14 @@
-{"label":"House of Commons Journals, 34th Parliament, 1st Session : Vol. 130 = Journaux de la Chambre des communes, 34e Législature, 1re Session : Vol. 130","pubmin":"1988-12-12","session":["34-1"],"language":["eng","fra"],"pubmax":"1989-02-28","node":[["eng","c","journals","34-1",1],["fra","c","journals","34-1",1]],"type":"journals","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "label": "House of Commons Journals, 34th Parliament, 1st Session : Vol. 130 = Journaux de la Chambre des communes, 34e Législature, 1re Session : Vol. 130",
+  "pubmin": "1988-12-12",
+  "session": ["34-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1989-02-28",
+  "node": [
+    ["eng", "c", "journals", "34-1", 1],
+    ["fra", "c", "journals", "34-1", 1]
+  ],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

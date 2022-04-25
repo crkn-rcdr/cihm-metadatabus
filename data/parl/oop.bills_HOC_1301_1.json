@@ -1,1 +1,12 @@
-{"pubmax":"1918-05-24","node":[["eng","c","bills","13-1",1]],"type":"bills","chamber":["c"],"primeMinisters":"Borden, Robert Laird","callNumber":"KE72 C36 13-1 2-113","label":"House of Commons Bills, 13th Parliament, 1st Session : 2-113","pubmin":"1918-03-18","session":["13-1"],"language":["eng"]}
+{
+  "pubmax": "1918-05-24",
+  "node": [["eng", "c", "bills", "13-1", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "callNumber": "KE72 C36 13-1 2-113",
+  "label": "House of Commons Bills, 13th Parliament, 1st Session : 2-113",
+  "pubmin": "1918-03-18",
+  "session": ["13-1"],
+  "language": ["eng"]
+}

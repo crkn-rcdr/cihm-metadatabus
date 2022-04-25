@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1993-09-08","node":[["fra","c","committees","34-3",198]],"reportTitle":["Divulgation de renseignements au personnel des services d'intervention d'urgence"],"language":["fra"],"session":["34-3"],"pubmin":"1991-05-13","callNumber":"34-3 H432 A128","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la santé et du bien-être social, des affaires sociales, du troisième âge et de la condition féminine, Neuvième rapport"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "committees", "34-3", 198]],
+  "reportTitle": [
+    "Divulgation de renseignements au personnel des services d'intervention d'urgence"
+  ],
+  "language": ["fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 H432 A128",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la santé et du bien-être social, des affaires sociales, du troisième âge et de la condition féminine, Neuvième rapport"
+}

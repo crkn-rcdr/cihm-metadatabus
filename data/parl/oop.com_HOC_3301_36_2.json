@@ -1,1 +1,13 @@
-{"session":["33-1"],"language":["eng"],"reportTitle":["Child and Elderly Benefits"],"callNumber":"33-1 H4 A12","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Health, Welfare and Social Affairs, First Report","pubmin":"1984-11-05","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",81]],"type":"committees"}
+{
+  "session": ["33-1"],
+  "language": ["eng"],
+  "reportTitle": ["Child and Elderly Benefits"],
+  "callNumber": "33-1 H4 A12",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Health, Welfare and Social Affairs, First Report",
+  "pubmin": "1984-11-05",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1986-08-28",
+  "node": [["eng", "c", "committees", "33-1", 81]],
+  "type": "committees"
+}

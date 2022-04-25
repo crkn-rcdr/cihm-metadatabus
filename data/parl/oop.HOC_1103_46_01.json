@@ -1,1 +1,11 @@
-{"session":["11-3"],"language":["eng"],"label":"House of Commons Journals, 11th Parliament, 3rd Session : Vol. 46","pubmin":"1910-11-17","chamber":["c"],"primeMinisters":"Laurier, Wilfrid","pubmax":"1911-07-29","node":[["eng","c","journals","11-3",1]],"type":"journals"}
+{
+  "session": ["11-3"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 11th Parliament, 3rd Session : Vol. 46",
+  "pubmin": "1910-11-17",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "pubmax": "1911-07-29",
+  "node": [["eng", "c", "journals", "11-3", 1]],
+  "type": "journals"
+}

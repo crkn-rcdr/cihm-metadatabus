@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["05-1"],"pubmin":"1883-02-08","label":"Documents parlementaires, 5e Législature, 1re Session : vol. 11","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"sessional","node":[["fra","c","sessional","05-1",11]],"pubmax":"1883-05-27"}
+{
+  "language": ["fra"],
+  "session": ["05-1"],
+  "pubmin": "1883-02-08",
+  "label": "Documents parlementaires, 5e Législature, 1re Session : vol. 11",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "05-1", 11]],
+  "pubmax": "1883-05-27"
+}

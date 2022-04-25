@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","33-2",63],["fra","c","committees","33-2",91]],"pubmax":"1988-10-01","language":["eng","fra"],"session":["33-2"],"pubmin":"1986-09-30","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Environment and Forestry, vol. 1 no. 1-28 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de l'environnement et des forêts, vol. 1 no. 1-28","callNumber":"33-2 E58 A1 no.1-28"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 63],
+    ["fra", "c", "committees", "33-2", 91]
+  ],
+  "pubmax": "1988-10-01",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Environment and Forestry, vol. 1 no. 1-28 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de l'environnement et des forêts, vol. 1 no. 1-28",
+  "callNumber": "33-2 E58 A1 no.1-28"
+}

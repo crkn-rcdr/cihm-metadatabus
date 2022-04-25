@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["33-2","34-1"],"pubmin":"1986-09-30","label":"Standing Orders of the House of Commons, 1988 = Règlement de la Chambre des communes, 1988","callNumber":"JL164.4 1988 Nov.","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"orders","node":[["eng","c","orders",null,23],["fra","c","orders",null,23]],"pubmax":"1989-02-28"}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-2", "34-1"],
+  "pubmin": "1986-09-30",
+  "label": "Standing Orders of the House of Commons, 1988 = Règlement de la Chambre des communes, 1988",
+  "callNumber": "JL164.4 1988 Nov.",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "orders",
+  "node": [
+    ["eng", "c", "orders", null, 23],
+    ["fra", "c", "orders", null, 23]
+  ],
+  "pubmax": "1989-02-28"
+}

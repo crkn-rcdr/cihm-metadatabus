@@ -1,1 +1,12 @@
-{"type":"cproc","node":[["eng","c","cproc","20-2",1]],"pubmax":"1946-08-31","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1946-03-14","label":"House of Commons Votes and Proceedings, 20th Parliament, 2nd Session : 1-118","callNumber":"J103 H41 1946 c.2","language":["eng"],"session":["20-2"]}
+{
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "20-2", 1]],
+  "pubmax": "1946-08-31",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1946-03-14",
+  "label": "House of Commons Votes and Proceedings, 20th Parliament, 2nd Session : 1-118",
+  "callNumber": "J103 H41 1946 c.2",
+  "language": ["eng"],
+  "session": ["20-2"]
+}

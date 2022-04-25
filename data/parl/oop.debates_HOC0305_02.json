@@ -1,1 +1,11 @@
-{"label":"House of Commons Debates, 3rd Parliament, 5th Session : Vol. 2","pubmin":"1878-02-07","session":["03-5"],"language":["eng"],"node":[["eng","c","debates","03-5",2]],"pubmax":"1878-05-10","type":"debates","primeMinisters":"Mackenzie, Alexander","chamber":["c"]}
+{
+  "label": "House of Commons Debates, 3rd Parliament, 5th Session : Vol. 2",
+  "pubmin": "1878-02-07",
+  "session": ["03-5"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "03-5", 2]],
+  "pubmax": "1878-05-10",
+  "type": "debates",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"]
+}

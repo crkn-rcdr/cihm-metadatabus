@@ -1,1 +1,12 @@
-{"session":["22-2"],"language":["eng"],"callNumber":"1955 E9 A1","label":"House of Commons Committees, 22nd Parliament, 2nd Session : Standing Committee on External Affairs, vol. 1","pubmin":"1955-01-07","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","pubmax":"1955-07-28","node":[["eng","c","committees","22-2",6]],"type":"committees"}
+{
+  "session": ["22-2"],
+  "language": ["eng"],
+  "callNumber": "1955 E9 A1",
+  "label": "House of Commons Committees, 22nd Parliament, 2nd Session : Standing Committee on External Affairs, vol. 1",
+  "pubmin": "1955-01-07",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1955-07-28",
+  "node": [["eng", "c", "committees", "22-2", 6]],
+  "type": "committees"
+}

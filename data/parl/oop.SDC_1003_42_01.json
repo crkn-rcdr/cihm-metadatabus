@@ -1,1 +1,10 @@
-{"chamber":["s"],"node":[["fra","s","journals","10-3",1]],"pubmax":"1907-04-27","type":"journals","session":["10-3"],"language":["fra"],"label":"Journaux du Sénat, 10e Législature, 3e Session : Vol. 42","pubmin":"1906-11-22"}
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "10-3", 1]],
+  "pubmax": "1907-04-27",
+  "type": "journals",
+  "session": ["10-3"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 10e Législature, 3e Session : Vol. 42",
+  "pubmin": "1906-11-22"
+}

@@ -1,1 +1,12 @@
-{"pubmin":"1882-02-09","label":"House of Commons Bills, 4th Parliament, 4th Session : 2-175","callNumber":"KE72 C36 4-4 no.2-160","language":["eng"],"session":["04-4"],"type":"bills","node":[["eng","c","bills","04-4",1]],"pubmax":"1882-05-17","primeMinisters":"Macdonald, John Alexander","chamber":["c"]}
+{
+  "pubmin": "1882-02-09",
+  "label": "House of Commons Bills, 4th Parliament, 4th Session : 2-175",
+  "callNumber": "KE72 C36 4-4 no.2-160",
+  "language": ["eng"],
+  "session": ["04-4"],
+  "type": "bills",
+  "node": [["eng", "c", "bills", "04-4", 1]],
+  "pubmax": "1882-05-17",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

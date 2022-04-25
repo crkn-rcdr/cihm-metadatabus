@@ -1,1 +1,107 @@
-{"731":{"tagDescription":["BÉDARD, Joseph-Isidore. Poème écrit par [Isidore Bédard], signé sous le pseudonyme Baptiste, lors de la mort de George IV."],"tagDate":["[1832-01-01T00:00:00.000Z TO 1833-12-31T23:59:59.999Z]"],"tagPerson":["BÉDARD, Joseph-Isidore"]},"334":{"tagDescription":["MOORE, Thomas. A Canadian Boat-Song arranged for Three Voices by Thomas Moore, London, Printed for James Carpenter, 1805. 6 pages."],"tagPerson":["MOORE, Thomas"],"tagDate":["1805-01-01T00:00:00.000Z"]},"726":{"tagDescription":["BINGHAM, Nathaniel D Recommendation signed by 86 inhabitants of the seigniory of Noyan stating that Nathaniel D. Bingham is well qualified to exercise the office of bailiff, 18 August 1830."],"tagDate":["1830-01-01T00:00:00.000Z"],"tagPerson":["BINGHAM, Nathaniel D"]},"314":{"tagDescription":["BOISDORÉ, Joseph Don à Joseph Boisdoré d'une somme d'argent équivalente à la valeur des rentes qu'il n'a pas payées dans la seigneurie de la Tortue, en retour de services rendus, signé au Sault Saint-Louis par John Stacey, «receveur des sauvages», 28 Septembre 1793."],"tagPerson":["BOISDORÉ, Joseph"],"tagDate":["1793-01-01T00:00:00.000Z"]},"735":{"tagDate":["1836-01-01T00:00:00.000Z"],"tagPerson":["[GILMAN, Chandler Robbins]"],"tagDescription":["[GILMAN, Chandler Robbins] Volumes 1 and 2 of the book entitled: Life on the Lakes: being Tales and Sketches collected during a Trip to the Pictured Rocks of Lake Superior. By the author of Legends of a Log Cabin, New York, George Dearborn, Publisher, 1836, 270 and 275 pages."]},"342":{"tagPerson":["HÔTEL-DIEU"],"tagDate":["1805-01-01T00:00:00.000Z"],"tagDescription":["HÔTEL-DIEU, Montreal (Quebec). Order from the justices James Reid and Jn. Delisle requesting that the magistrates of Montreal attend a meeting at the Court House about the fire at the Hôtel-Dieu, 24 July 1805."]},"189":{"tagDescription":["GREAT BRITAIN, Parliament, 18th Century Book entitled: Characters. Containing an impartial review of the public conduct and abilities of the most eminent personages in the Parliament of Great-Britain, Dublin, Printed for W. Wilson and R. Moncrieffe, 1771, 207 pages."],"tagPerson":["GREAT BRITAIN, Parliament, 18th Century"],"tagDate":["[1775-12-31T23:59:59.999Z TO 1777-01-01T00:00:00.000Z]"]},"725":{"tagDescription":["WOLFE, James Bust portrait in wax mounted in old circular wood frame with bulls-eye glass. Portrait height 90mm, frame diameter 150mm, ca.1820."],"tagDate":["1820-01-01T00:00:00.000Z"],"tagPerson":["WOLFE, James"]},"329":{"tagPlace":["LOWER CANADA"],"tagDate":["1804-01-01T00:00:00.000Z"],"tagDescription":["LOWER CANADA, Court of King's Bench, District of Montreal Draft of a declaration from Joseph Saint-Denis, for and behalf of his daughter Marie-Louise, asking that Louis Ducharme may be adjudged and condemned to pay 250 pounds for having seduced his minor daughter, April 1804."]},"10":{"tagDate":["[1777-12-31T23:59:59.999Z TO 1781-01-01T00:00:00.000Z]"],"tagPerson":["GREAT BRITAIN, American colonies"],"tagDescription":["GREAT BRITAIN, American colonies Three pamphlets in favour of the American colonists versus England. An Address to the People of England, Scotland, and Ireland, on the present Important Crisis of Affairs, by Catharine Macaulay, Printed by R. Cruttwell, in Bath, for Edward and Charles Dilly, in the Poultry, London, 1775, 29 pages. The letters of Valens, with corrections, explanatory notes, and a preface, by the author [Valens], London, Printed for J. Almon, 1777, 160 pages. L'Amériquain aux Anglois, ou observations d'un membre des Etats Unis de l'Amérique, à divers ministres d'Angleterre, traduit par M.D. B.xxx, Philadelphie, 1781, 108 pages."]},"317":{"tagPlace":["LOWER CANADA"],"tagDate":["1794-01-01T00:00:00.000Z"],"tagDescription":["LOWER CANADA, Judicature Abstract of the Judicature Bill, to which His Majesty has granted the Royal Assent, as declared by His Excellency the Governor's Proclamation, on the 11th Dec. 1794."]},"352":{"tagPlace":["LOWER CANADA"],"tagDate":["1809-01-01T00:00:00.000Z"],"tagDescription":["LOWER CANADA, Court of King's Bench, District of Quebec Book entitled: Orders and Rules of Practice in the Court of King's Bench, for the district of Quebec, Lower Canada, Quebec, 1809, 396 pages. The authors were probably Sewell, J. Williams, P.A. de Bonne, and J. Kerr."]},"348":{"tagDescription":["MONTREAL (Quebec), Tavern licences List of 127 persons who obtained certificates as tavern keepers in Montreal for the year 1806."],"tagDate":["1806-01-01T00:00:00.000Z"],"tagPlace":["MONTREAL (Québec)"]},"576":{"tagDescription":["MONTREAL (Quebec), Police regulations Regulations of police for the City of Montreal made in the Court of Quarter Sessions of the Peace held at Montreal on 30 April 1817."],"tagDate":["1817-01-01T00:00:00.000Z"],"tagPlace":["MONTREAL (Québec)"]},"345":{"tagDate":["1805-01-01T00:00:00.000Z"],"tagPerson":["HÔTEL-DIEU"],"tagDescription":["HÔTEL-DIEU, Montreal (Quebec). Notification from John Richardson asking Mr. Marston to request the magistrates of Montreal at the Court House about the fire of Detroit, 12 August 1805."]}}
+{
+  "731": {
+    "tagDescription": [
+      "BÉDARD, Joseph-Isidore. Poème écrit par [Isidore Bédard], signé sous le pseudonyme Baptiste, lors de la mort de George IV."
+    ],
+    "tagDate": ["[1832-01-01T00:00:00.000Z TO 1833-12-31T23:59:59.999Z]"],
+    "tagPerson": ["BÉDARD, Joseph-Isidore"]
+  },
+  "334": {
+    "tagDescription": [
+      "MOORE, Thomas. A Canadian Boat-Song arranged for Three Voices by Thomas Moore, London, Printed for James Carpenter, 1805. 6 pages."
+    ],
+    "tagPerson": ["MOORE, Thomas"],
+    "tagDate": ["1805-01-01T00:00:00.000Z"]
+  },
+  "726": {
+    "tagDescription": [
+      "BINGHAM, Nathaniel D Recommendation signed by 86 inhabitants of the seigniory of Noyan stating that Nathaniel D. Bingham is well qualified to exercise the office of bailiff, 18 August 1830."
+    ],
+    "tagDate": ["1830-01-01T00:00:00.000Z"],
+    "tagPerson": ["BINGHAM, Nathaniel D"]
+  },
+  "314": {
+    "tagDescription": [
+      "BOISDORÉ, Joseph Don à Joseph Boisdoré d'une somme d'argent équivalente à la valeur des rentes qu'il n'a pas payées dans la seigneurie de la Tortue, en retour de services rendus, signé au Sault Saint-Louis par John Stacey, «receveur des sauvages», 28 Septembre 1793."
+    ],
+    "tagPerson": ["BOISDORÉ, Joseph"],
+    "tagDate": ["1793-01-01T00:00:00.000Z"]
+  },
+  "735": {
+    "tagDate": ["1836-01-01T00:00:00.000Z"],
+    "tagPerson": ["[GILMAN, Chandler Robbins]"],
+    "tagDescription": [
+      "[GILMAN, Chandler Robbins] Volumes 1 and 2 of the book entitled: Life on the Lakes: being Tales and Sketches collected during a Trip to the Pictured Rocks of Lake Superior. By the author of Legends of a Log Cabin, New York, George Dearborn, Publisher, 1836, 270 and 275 pages."
+    ]
+  },
+  "342": {
+    "tagPerson": ["HÔTEL-DIEU"],
+    "tagDate": ["1805-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "HÔTEL-DIEU, Montreal (Quebec). Order from the justices James Reid and Jn. Delisle requesting that the magistrates of Montreal attend a meeting at the Court House about the fire at the Hôtel-Dieu, 24 July 1805."
+    ]
+  },
+  "189": {
+    "tagDescription": [
+      "GREAT BRITAIN, Parliament, 18th Century Book entitled: Characters. Containing an impartial review of the public conduct and abilities of the most eminent personages in the Parliament of Great-Britain, Dublin, Printed for W. Wilson and R. Moncrieffe, 1771, 207 pages."
+    ],
+    "tagPerson": ["GREAT BRITAIN, Parliament, 18th Century"],
+    "tagDate": ["[1775-12-31T23:59:59.999Z TO 1777-01-01T00:00:00.000Z]"]
+  },
+  "725": {
+    "tagDescription": [
+      "WOLFE, James Bust portrait in wax mounted in old circular wood frame with bulls-eye glass. Portrait height 90mm, frame diameter 150mm, ca.1820."
+    ],
+    "tagDate": ["1820-01-01T00:00:00.000Z"],
+    "tagPerson": ["WOLFE, James"]
+  },
+  "329": {
+    "tagPlace": ["LOWER CANADA"],
+    "tagDate": ["1804-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "LOWER CANADA, Court of King's Bench, District of Montreal Draft of a declaration from Joseph Saint-Denis, for and behalf of his daughter Marie-Louise, asking that Louis Ducharme may be adjudged and condemned to pay 250 pounds for having seduced his minor daughter, April 1804."
+    ]
+  },
+  "10": {
+    "tagDate": ["[1777-12-31T23:59:59.999Z TO 1781-01-01T00:00:00.000Z]"],
+    "tagPerson": ["GREAT BRITAIN, American colonies"],
+    "tagDescription": [
+      "GREAT BRITAIN, American colonies Three pamphlets in favour of the American colonists versus England. An Address to the People of England, Scotland, and Ireland, on the present Important Crisis of Affairs, by Catharine Macaulay, Printed by R. Cruttwell, in Bath, for Edward and Charles Dilly, in the Poultry, London, 1775, 29 pages. The letters of Valens, with corrections, explanatory notes, and a preface, by the author [Valens], London, Printed for J. Almon, 1777, 160 pages. L'Amériquain aux Anglois, ou observations d'un membre des Etats Unis de l'Amérique, à divers ministres d'Angleterre, traduit par M.D. B.xxx, Philadelphie, 1781, 108 pages."
+    ]
+  },
+  "317": {
+    "tagPlace": ["LOWER CANADA"],
+    "tagDate": ["1794-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "LOWER CANADA, Judicature Abstract of the Judicature Bill, to which His Majesty has granted the Royal Assent, as declared by His Excellency the Governor's Proclamation, on the 11th Dec. 1794."
+    ]
+  },
+  "352": {
+    "tagPlace": ["LOWER CANADA"],
+    "tagDate": ["1809-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "LOWER CANADA, Court of King's Bench, District of Quebec Book entitled: Orders and Rules of Practice in the Court of King's Bench, for the district of Quebec, Lower Canada, Quebec, 1809, 396 pages. The authors were probably Sewell, J. Williams, P.A. de Bonne, and J. Kerr."
+    ]
+  },
+  "348": {
+    "tagDescription": [
+      "MONTREAL (Quebec), Tavern licences List of 127 persons who obtained certificates as tavern keepers in Montreal for the year 1806."
+    ],
+    "tagDate": ["1806-01-01T00:00:00.000Z"],
+    "tagPlace": ["MONTREAL (Québec)"]
+  },
+  "576": {
+    "tagDescription": [
+      "MONTREAL (Quebec), Police regulations Regulations of police for the City of Montreal made in the Court of Quarter Sessions of the Peace held at Montreal on 30 April 1817."
+    ],
+    "tagDate": ["1817-01-01T00:00:00.000Z"],
+    "tagPlace": ["MONTREAL (Québec)"]
+  },
+  "345": {
+    "tagDate": ["1805-01-01T00:00:00.000Z"],
+    "tagPerson": ["HÔTEL-DIEU"],
+    "tagDescription": [
+      "HÔTEL-DIEU, Montreal (Quebec). Notification from John Richardson asking Mr. Marston to request the magistrates of Montreal at the Court House about the fire of Detroit, 12 August 1805."
+    ]
+  }
+}

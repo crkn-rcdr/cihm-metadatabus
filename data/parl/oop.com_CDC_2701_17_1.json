@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["27-1"],"pubmin":"1966-01-18","label":"Comités de la Chambre des communes, 27e Législature, 1re Session : Comité permanent du travail et de l'emploi, vol. 1","callNumber":"1966/67 T8 A1","primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"type":"committees","node":[["fra","c","committees","27-1",40]],"pubmax":"1967-05-08"}
+{
+  "language": ["fra"],
+  "session": ["27-1"],
+  "pubmin": "1966-01-18",
+  "label": "Comités de la Chambre des communes, 27e Législature, 1re Session : Comité permanent du travail et de l'emploi, vol. 1",
+  "callNumber": "1966/67 T8 A1",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "27-1", 40]],
+  "pubmax": "1967-05-08"
+}

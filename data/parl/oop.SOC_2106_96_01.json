@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["21-6"],"pubmin":"1952-02-28","label":"Senate Journals, 21st Parliament, 6th Session : Vol. 96","chamber":["s"],"type":"journals","pubmax":"1952-11-20","node":[["eng","s","journals","21-6",1]]}
+{
+  "language": ["eng"],
+  "session": ["21-6"],
+  "pubmin": "1952-02-28",
+  "label": "Senate Journals, 21st Parliament, 6th Session : Vol. 96",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1952-11-20",
+  "node": [["eng", "s", "journals", "21-6", 1]]
+}

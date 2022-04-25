@@ -1,1 +1,11 @@
-{"session":["08-4"],"language":["fra"],"callNumber":"J103 H43 1899","label":"Procès-verbaux du Sénat, 8e Législature, 4e Session : 1-78","pubmin":"1899-03-16","chamber":["s"],"pubmax":"1899-08-11","node":[["fra","s","sproc","08-4",1]],"type":"sproc"}
+{
+  "session": ["08-4"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1899",
+  "label": "Procès-verbaux du Sénat, 8e Législature, 4e Session : 1-78",
+  "pubmin": "1899-03-16",
+  "chamber": ["s"],
+  "pubmax": "1899-08-11",
+  "node": [["fra", "s", "sproc", "08-4", 1]],
+  "type": "sproc"
+}

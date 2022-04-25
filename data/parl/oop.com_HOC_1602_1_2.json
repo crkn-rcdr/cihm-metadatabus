@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"committees","pubmax":"1928-06-11","node":[["eng","c","committees","16-2",2]],"language":["eng"],"session":["16-2"],"pubmin":"1928-01-26","callNumber":"1928 A3W A1","label":"House of Commons Committees, 16th Parliament, 2nd Session : Select Standing Committee on Agriculture and Colonization, vol. 2"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "committees",
+  "pubmax": "1928-06-11",
+  "node": [["eng", "c", "committees", "16-2", 2]],
+  "language": ["eng"],
+  "session": ["16-2"],
+  "pubmin": "1928-01-26",
+  "callNumber": "1928 A3W A1",
+  "label": "House of Commons Committees, 16th Parliament, 2nd Session : Select Standing Committee on Agriculture and Colonization, vol. 2"
+}

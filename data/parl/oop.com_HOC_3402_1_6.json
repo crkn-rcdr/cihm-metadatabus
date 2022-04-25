@@ -1,1 +1,15 @@
-{"language":["eng"],"reportTitle":["A review of the post-secondary student assistance program of the Department of Indian Affairs and Northern Development"],"session":["34-2"],"pubmin":"1989-04-03","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Aboriginal Affairs, First Report","callNumber":"34-2 A182 A12","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-2",6]],"pubmax":"1991-05-12"}
+{
+  "language": ["eng"],
+  "reportTitle": [
+    "A review of the post-secondary student assistance program of the Department of Indian Affairs and Northern Development"
+  ],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Aboriginal Affairs, First Report",
+  "callNumber": "34-2 A182 A12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "34-2", 6]],
+  "pubmax": "1991-05-12"
+}

@@ -1,1 +1,40 @@
-{"644":{"tagDescription":["Missing / Manque"]},"500":{"tagDescription":["Royal Military College , Kingston"],"tagDate":["[1916-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]},"733":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],"tagDescription":["Intelligence Summary (January 1910  June 1911)"]},"729":{"tagDescription":["Missing / Manque"]},"728":{"tagDescription":["Missing / Manque"]},"2131":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],"tagDescription":["Intelligence Diary (Jan 1913  Aug 1915)"]},"730":{"tagDescription":["Missing / Manque"]},"272":{"tagDate":["[1919-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],"tagDescription":["Royal Military College, Kingston Imperial officers and noncommissioned officers employed on staff of  (see also 270-B) -Armorial Ensigns for Royal Military College of Canada, 1920 Substitution of Army number for Regimental numbers throughout His Majestys Forces. Case of Corp. A. Middleton, attached to R.M.C Kingston, 1920 -Admission of pupil from R.M.C. Kingston, to French Military school at St Cyr. -Visit to the United States in Uniform of Gentlemen Cadets of the R.M.C. Kingston - Visit of hockey team of the US Military Academy at West Point, to the R.M.C. Kingston. Visit of the R.M.C. Hockey team to the United States -Case of G.C.Guy C. Simonds son of Lt Colonel C.B. Simonds of Victoria, 1925"]},"647":{"tagDescription":["Tours of teachers. Interchange of teachers. Visit of Manitoba School teachers to Englan.Mr. Fred J. Ney"]},"1358":{"tagDescription":["Intelligence Diary (July 1911-July 1912)"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"]},"643":{"tagDescription":["Missing / Manque"]},"731":{"tagDescription":["Missing / Manque"]},"1880":{"tagDescription":["Intelligence Diary"],"tagDate":["1912-01-01T00:00:00.000Z"]},"645":{"tagDescription":["Missing / Manque"]}}
+{
+  "644": { "tagDescription": ["Missing / Manque"] },
+  "500": {
+    "tagDescription": ["Royal Military College , Kingston"],
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]
+  },
+  "733": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Intelligence Summary (January 1910  June 1911)"]
+  },
+  "729": { "tagDescription": ["Missing / Manque"] },
+  "728": { "tagDescription": ["Missing / Manque"] },
+  "2131": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Intelligence Diary (Jan 1913  Aug 1915)"]
+  },
+  "730": { "tagDescription": ["Missing / Manque"] },
+  "272": {
+    "tagDate": ["[1919-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Royal Military College, Kingston Imperial officers and noncommissioned officers employed on staff of  (see also 270-B) -Armorial Ensigns for Royal Military College of Canada, 1920 Substitution of Army number for Regimental numbers throughout His Majestys Forces. Case of Corp. A. Middleton, attached to R.M.C Kingston, 1920 -Admission of pupil from R.M.C. Kingston, to French Military school at St Cyr. -Visit to the United States in Uniform of Gentlemen Cadets of the R.M.C. Kingston - Visit of hockey team of the US Military Academy at West Point, to the R.M.C. Kingston. Visit of the R.M.C. Hockey team to the United States -Case of G.C.Guy C. Simonds son of Lt Colonel C.B. Simonds of Victoria, 1925"
+    ]
+  },
+  "647": {
+    "tagDescription": [
+      "Tours of teachers. Interchange of teachers. Visit of Manitoba School teachers to Englan.Mr. Fred J. Ney"
+    ]
+  },
+  "1358": {
+    "tagDescription": ["Intelligence Diary (July 1911-July 1912)"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"]
+  },
+  "643": { "tagDescription": ["Missing / Manque"] },
+  "731": { "tagDescription": ["Missing / Manque"] },
+  "1880": {
+    "tagDescription": ["Intelligence Diary"],
+    "tagDate": ["1912-01-01T00:00:00.000Z"]
+  },
+  "645": { "tagDescription": ["Missing / Manque"] }
+}

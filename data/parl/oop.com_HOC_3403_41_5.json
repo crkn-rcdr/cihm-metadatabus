@@ -1,1 +1,13 @@
-{"type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",82]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1991-05-13","callNumber":"34-3 F553 A12","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Finance, Sixth Report","reportTitle":["Proposed Spending Control Act"],"language":["eng"],"session":["34-3"]}
+{
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["eng", "c", "committees", "34-3", 82]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 F553 A12",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Finance, Sixth Report",
+  "reportTitle": ["Proposed Spending Control Act"],
+  "language": ["eng"],
+  "session": ["34-3"]
+}

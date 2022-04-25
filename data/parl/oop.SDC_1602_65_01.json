@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","pubmax":"1928-06-11","node":[["fra","s","journals","16-2",1]],"language":["fra"],"session":["16-2"],"pubmin":"1928-01-26","label":"Journaux du Sénat, 16e Législature, 2e Session : Vol. 65"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1928-06-11",
+  "node": [["fra", "s", "journals", "16-2", 1]],
+  "language": ["fra"],
+  "session": ["16-2"],
+  "pubmin": "1928-01-26",
+  "label": "Journaux du Sénat, 16e Législature, 2e Session : Vol. 65"
+}

@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"sproc","pubmax":"1897-06-29","node":[["fra","s","sproc","08-2",1]],"language":["fra"],"session":["08-2"],"pubmin":"1897-03-25","callNumber":"J103 H43 1897","label":"Procès-verbaux du Sénat, 8e Législature, 2e Session : 1-51"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1897-06-29",
+  "node": [["fra", "s", "sproc", "08-2", 1]],
+  "language": ["fra"],
+  "session": ["08-2"],
+  "pubmin": "1897-03-25",
+  "callNumber": "J103 H43 1897",
+  "label": "Procès-verbaux du Sénat, 8e Législature, 2e Session : 1-51"
+}

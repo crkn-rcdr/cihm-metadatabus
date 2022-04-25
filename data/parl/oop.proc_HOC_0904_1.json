@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["09-4"],"pubmin":"1904-03-10","callNumber":"J103 H41 1904 c.2","label":"House of Commons Votes and Proceedings, 9th Parliament, 4th Session : 1-103","chamber":["c"],"primeMinisters":"Laurier, Wilfrid","type":"cproc","pubmax":"1904-08-10","node":[["eng","c","cproc","09-4",1]]}
+{
+  "language": ["eng"],
+  "session": ["09-4"],
+  "pubmin": "1904-03-10",
+  "callNumber": "J103 H41 1904 c.2",
+  "label": "House of Commons Votes and Proceedings, 9th Parliament, 4th Session : 1-103",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "type": "cproc",
+  "pubmax": "1904-08-10",
+  "node": [["eng", "c", "cproc", "09-4", 1]]
+}

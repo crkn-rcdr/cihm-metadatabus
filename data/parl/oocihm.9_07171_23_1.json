@@ -1,1 +1,11 @@
-{"type":"journals","node":[["eng","c","journals","06-3",1]],"pubmax":"1889-05-02","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"pubmin":"1889-01-31","label":"House of Commons Journals, 6th Parliament, 3rd Session : Vol. 23","language":["eng"],"session":["06-3"]}
+{
+  "type": "journals",
+  "node": [["eng", "c", "journals", "06-3", 1]],
+  "pubmax": "1889-05-02",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "pubmin": "1889-01-31",
+  "label": "House of Commons Journals, 6th Parliament, 3rd Session : Vol. 23",
+  "language": ["eng"],
+  "session": ["06-3"]
+}

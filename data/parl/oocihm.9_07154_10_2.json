@@ -1,1 +1,10 @@
-{"chamber":["s"],"pubmax":"1876-04-12","node":[["eng","s","journals","03-3",2]],"type":"journals","session":["03-3"],"language":["eng"],"label":"Senate Journals, 3rd Parliament, 3rd Session : Vol. 10 App.","pubmin":"1876-02-10"}
+{
+  "chamber": ["s"],
+  "pubmax": "1876-04-12",
+  "node": [["eng", "s", "journals", "03-3", 2]],
+  "type": "journals",
+  "session": ["03-3"],
+  "language": ["eng"],
+  "label": "Senate Journals, 3rd Parliament, 3rd Session : Vol. 10 App.",
+  "pubmin": "1876-02-10"
+}

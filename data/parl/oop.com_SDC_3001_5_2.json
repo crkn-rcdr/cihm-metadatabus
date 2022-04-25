@@ -1,1 +1,12 @@
-{"node":[["fra","s","committees","30-1",11]],"pubmax":"1976-10-12","type":"committees","chamber":["s"],"label":"Comités du Sénat, 30e Législature, 1re Session : Comité permanent des finances nationales, Rapport","callNumber":"1974/76 F5 A12","pubmin":"1974-09-30","session":["30-1"],"language":["fra"],"reportTitle":["Main-d'oeuvre Canada"]}
+{
+  "node": [["fra", "s", "committees", "30-1", 11]],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Comités du Sénat, 30e Législature, 1re Session : Comité permanent des finances nationales, Rapport",
+  "callNumber": "1974/76 F5 A12",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["fra"],
+  "reportTitle": ["Main-d'oeuvre Canada"]
+}

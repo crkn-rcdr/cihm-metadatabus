@@ -1,1 +1,15 @@
-{"session":["34-2"],"language":["eng","fra"],"callNumber":"34-2 H792 A1 no.16-32","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Human Rights and the Status of Disabled Persons, vol. 2 no. 16-32 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des droits de la personne et de la condition des personnes handicapées, vol. 2 no. 16-32","pubmin":"1989-04-03","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",104],["fra","c","committees","34-2",80]],"type":"committees"}
+{
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-2 H792 A1 no.16-32",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Human Rights and the Status of Disabled Persons, vol. 2 no. 16-32 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des droits de la personne et de la condition des personnes handicapées, vol. 2 no. 16-32",
+  "pubmin": "1989-04-03",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 104],
+    ["fra", "c", "committees", "34-2", 80]
+  ],
+  "type": "committees"
+}

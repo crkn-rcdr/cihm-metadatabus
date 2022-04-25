@@ -1,1 +1,15 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"type":"committees","node":[["eng","c","committees","30-2",39],["fra","c","committees","30-2",26]],"pubmax":"1977-10-17","language":["eng","fra"],"session":["30-2"],"pubmin":"1976-10-12","label":"House of Commons Committees, 30th Parliament, 2nd Session : Special Committee on TV and Radio Broadcasting of Proceedings of the House and its Committees, vol. 1 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité spécial de la radio-télédiffusion des délibérations de la Chambre et de ses comités, vol. 1","callNumber":"1976/77 T9 A1"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "30-2", 39],
+    ["fra", "c", "committees", "30-2", 26]
+  ],
+  "pubmax": "1977-10-17",
+  "language": ["eng", "fra"],
+  "session": ["30-2"],
+  "pubmin": "1976-10-12",
+  "label": "House of Commons Committees, 30th Parliament, 2nd Session : Special Committee on TV and Radio Broadcasting of Proceedings of the House and its Committees, vol. 1 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité spécial de la radio-télédiffusion des délibérations de la Chambre et de ses comités, vol. 1",
+  "callNumber": "1976/77 T9 A1"
+}

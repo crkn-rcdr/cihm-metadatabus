@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"committees","pubmax":"1939-06-03","node":[["fra","c","committees","18-4",5]],"language":["fra"],"session":["18-4"],"pubmin":"1939-01-12","callNumber":"1939 C6 A4 v.2","label":"Comités de la Chambre des communes, 18e Législature, 4e Session : Comité permanent des comptes publics, vol. 2"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "committees",
+  "pubmax": "1939-06-03",
+  "node": [["fra", "c", "committees", "18-4", 5]],
+  "language": ["fra"],
+  "session": ["18-4"],
+  "pubmin": "1939-01-12",
+  "callNumber": "1939 C6 A4 v.2",
+  "label": "Comités de la Chambre des communes, 18e Législature, 4e Session : Comité permanent des comptes publics, vol. 2"
+}

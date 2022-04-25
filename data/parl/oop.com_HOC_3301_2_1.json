@@ -1,1 +1,15 @@
-{"pubmax":"1986-08-28","node":[["eng","c","committees","33-1",3],["fra","c","committees","33-1",92]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","callNumber":"33-1 A2 A1","label":"House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on Acid Rain, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur les pluies acides, vol. 1","pubmin":"1984-11-05","session":["33-1"],"language":["eng","fra"]}
+{
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 3],
+    ["fra", "c", "committees", "33-1", 92]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "33-1 A2 A1",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on Acid Rain, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur les pluies acides, vol. 1",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"]
+}

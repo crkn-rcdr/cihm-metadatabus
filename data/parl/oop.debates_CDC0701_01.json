@@ -1,1 +1,11 @@
-{"node":[["fra","c","debates","07-1",1]],"pubmax":"1891-09-30","type":"debates","primeMinisters":"Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)","chamber":["c"],"label":"Débats de la Chambre des communes, 7e Législature, 1re Session : Vol. 1","pubmin":"1891-04-29","session":["07-1"],"language":["fra"]}
+{
+  "node": [["fra", "c", "debates", "07-1", 1]],
+  "pubmax": "1891-09-30",
+  "type": "debates",
+  "primeMinisters": "Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)",
+  "chamber": ["c"],
+  "label": "Débats de la Chambre des communes, 7e Législature, 1re Session : Vol. 1",
+  "pubmin": "1891-04-29",
+  "session": ["07-1"],
+  "language": ["fra"]
+}

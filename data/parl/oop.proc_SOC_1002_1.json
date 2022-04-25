@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["10-2"],"pubmin":"1906-03-08","label":"Senate Minutes of Proceedings, 10th Parliament, 2nd Session : 1-67","callNumber":"J103 H4 1906","chamber":["s"],"type":"sproc","node":[["eng","s","sproc","10-2",1]],"pubmax":"1906-07-13"}
+{
+  "language": ["eng"],
+  "session": ["10-2"],
+  "pubmin": "1906-03-08",
+  "label": "Senate Minutes of Proceedings, 10th Parliament, 2nd Session : 1-67",
+  "callNumber": "J103 H4 1906",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "10-2", 1]],
+  "pubmax": "1906-07-13"
+}

@@ -1,1 +1,11 @@
-{"pubmax":"1952-11-20","node":[["eng","s","sproc","21-6",1]],"type":"sproc","chamber":["s"],"callNumber":"J103 H4 1952 c.2","label":"Senate Minutes of Proceedings, 21st Parliament, 6th Session : 1-60","pubmin":"1952-02-28","session":["21-6"],"language":["eng"]}
+{
+  "pubmax": "1952-11-20",
+  "node": [["eng", "s", "sproc", "21-6", 1]],
+  "type": "sproc",
+  "chamber": ["s"],
+  "callNumber": "J103 H4 1952 c.2",
+  "label": "Senate Minutes of Proceedings, 21st Parliament, 6th Session : 1-60",
+  "pubmin": "1952-02-28",
+  "session": ["21-6"],
+  "language": ["eng"]
+}

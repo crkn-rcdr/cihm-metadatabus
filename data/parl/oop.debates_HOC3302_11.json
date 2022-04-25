@@ -1,1 +1,11 @@
-{"pubmin":"1986-09-30","label":"House of Commons Debates, 33rd Parliament, 2nd Session : Vol. 11","language":["eng"],"session":["33-2"],"type":"debates","node":[["eng","c","debates","33-2",11]],"pubmax":"1988-10-01","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Debates, 33rd Parliament, 2nd Session : Vol. 11",
+  "language": ["eng"],
+  "session": ["33-2"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "33-2", 11]],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

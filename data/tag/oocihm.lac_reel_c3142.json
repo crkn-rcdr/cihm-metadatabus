@@ -1,1 +1,172 @@
-{"645":{"tagDescription":["187. Sherwood, E. S."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"798":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["192. Special Committee on the Division of House Rules."]},"1219":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["201. Budget Speech, March 18, 1943"]},"1056":{"tagDescription":["196. Speech from Throne."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"265":{"tagDescription":["180. Salmon Dinner, June 16, 1943."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"560":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["185. Selective Service - National."]},"351":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["181. Salmon Dinner."]},"246":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["179. St. John Telegraph Journal."]},"678":{"tagDescription":["189. Social Security Committee"],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"601":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["186. Sessional Papers -Miscellaneous."]},"965":{"tagDescription":["194. Speech, May 31, Montreal."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"469":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["182. Schools Fredericton"]},"479":{"tagDescription":["184. Secretary of State."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"1102":{"tagDescription":["198. Speech on Debate of Throne Speech."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"1184":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["200. Speech on Readjustment and Rehabilitation."]},"863":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["193. Speech On The Debate on the Speech from Throne."]},"791":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["191. Soldiers Settlement - Land Debts."]},"473":{"tagDescription":["183. Scott, W. B. , Correspondence with"],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"5":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["174. Rideout, Sherwood H. Mr."]},"652":{"tagDescription":["188. Sisan, Mrs. J. W. B."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"34":{"tagDescription":["176. R. C.A. F. Accidents."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"109":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["178. Rowell - Sirois Commission - Submission of Province of New Brunswick."]},"1165":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["199. Speech, Supplementary War Appropriation."]},"96":{"tagDescription":["177. R. C. M. P."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"709":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["190. Social Security"]},"15":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["175. Robicheau, Hon. J. L. P."]},"1059":{"tagDescription":["197. Speech, Winnipeg Convention."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"985":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["195. Speech, Dumbarton Oaks."]}}
+{
+  "645": {
+    "tagDescription": ["187. Sherwood, E. S."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "798": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["192. Special Committee on the Division of House Rules."]
+  },
+  "1219": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["201. Budget Speech, March 18, 1943"]
+  },
+  "1056": {
+    "tagDescription": ["196. Speech from Throne."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "265": {
+    "tagDescription": ["180. Salmon Dinner, June 16, 1943."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "560": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["185. Selective Service - National."]
+  },
+  "351": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["181. Salmon Dinner."]
+  },
+  "246": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["179. St. John Telegraph Journal."]
+  },
+  "678": {
+    "tagDescription": ["189. Social Security Committee"],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "601": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["186. Sessional Papers -Miscellaneous."]
+  },
+  "965": {
+    "tagDescription": ["194. Speech, May 31, Montreal."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "469": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["182. Schools Fredericton"]
+  },
+  "479": {
+    "tagDescription": ["184. Secretary of State."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "1102": {
+    "tagDescription": ["198. Speech on Debate of Throne Speech."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "1184": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["200. Speech on Readjustment and Rehabilitation."]
+  },
+  "863": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["193. Speech On The Debate on the Speech from Throne."]
+  },
+  "791": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["191. Soldiers Settlement - Land Debts."]
+  },
+  "473": {
+    "tagDescription": ["183. Scott, W. B. , Correspondence with"],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "5": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["174. Rideout, Sherwood H. Mr."]
+  },
+  "652": {
+    "tagDescription": ["188. Sisan, Mrs. J. W. B."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "34": {
+    "tagDescription": ["176. R. C.A. F. Accidents."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "109": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": [
+      "178. Rowell - Sirois Commission - Submission of Province of New Brunswick."
+    ]
+  },
+  "1165": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["199. Speech, Supplementary War Appropriation."]
+  },
+  "96": {
+    "tagDescription": ["177. R. C. M. P."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "709": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["190. Social Security"]
+  },
+  "15": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["175. Robicheau, Hon. J. L. P."]
+  },
+  "1059": {
+    "tagDescription": ["197. Speech, Winnipeg Convention."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "985": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["195. Speech, Dumbarton Oaks."]
+  }
+}

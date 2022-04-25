@@ -1,1 +1,36 @@
-{"1281":{"tagDate":["1924-01-01T00:00:00.000Z"],"tagDescription":["Ibid "]},"161":{"tagDate":["1922-01-01T00:00:00.000Z"],"tagDescription":["Peace Treaty, etc. League of Nations. Conferences leading out of  (Jan.  June)"]},"385":{"tagDescription":["Peace Treaty, etc. League of Nations. Conferences leading out of  (July  Dec.)"],"tagDate":["1922-01-01T00:00:00.000Z"]},"688":{"tagDescription":["Peace Treaties. League of Nations. Conferences leading out of"],"tagDate":["1923-01-01T00:00:00.000Z"]},"888":{"tagDate":["1923-01-01T00:00:00.000Z"],"tagDescription":["Peace Treaties. League of Nations. Conferences leading out of"]},"1073":{"tagDate":["1923-01-01T00:00:00.000Z"],"tagDescription":["Peace Treaties. League of Nations. Conferences leading out of"]}}
+{
+  "1281": {
+    "tagDate": ["1924-01-01T00:00:00.000Z"],
+    "tagDescription": ["Ibid "]
+  },
+  "161": {
+    "tagDate": ["1922-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Peace Treaty, etc. League of Nations. Conferences leading out of  (Jan.  June)"
+    ]
+  },
+  "385": {
+    "tagDescription": [
+      "Peace Treaty, etc. League of Nations. Conferences leading out of  (July  Dec.)"
+    ],
+    "tagDate": ["1922-01-01T00:00:00.000Z"]
+  },
+  "688": {
+    "tagDescription": [
+      "Peace Treaties. League of Nations. Conferences leading out of"
+    ],
+    "tagDate": ["1923-01-01T00:00:00.000Z"]
+  },
+  "888": {
+    "tagDate": ["1923-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Peace Treaties. League of Nations. Conferences leading out of"
+    ]
+  },
+  "1073": {
+    "tagDate": ["1923-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Peace Treaties. League of Nations. Conferences leading out of"
+    ]
+  }
+}

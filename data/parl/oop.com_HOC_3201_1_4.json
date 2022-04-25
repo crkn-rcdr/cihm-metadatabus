@@ -1,1 +1,13 @@
-{"session":["32-1"],"language":["eng"],"reportTitle":["Still Waters: The Chilling Reality of Acid Rain"],"callNumber":"1980/83 A2 A12","label":"House of Commons Committees, 32nd Parliament, 1st Session : Subcommittee on Acid Rain, Report","pubmin":"1980-04-14","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1983-11-30","node":[["eng","c","committees","32-1",4]],"type":"committees"}
+{
+  "session": ["32-1"],
+  "language": ["eng"],
+  "reportTitle": ["Still Waters: The Chilling Reality of Acid Rain"],
+  "callNumber": "1980/83 A2 A12",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Subcommittee on Acid Rain, Report",
+  "pubmin": "1980-04-14",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1983-11-30",
+  "node": [["eng", "c", "committees", "32-1", 4]],
+  "type": "committees"
+}

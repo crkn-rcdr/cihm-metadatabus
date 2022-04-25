@@ -1,1 +1,15 @@
-{"pubmin":"1989-04-03","callNumber":"34-2 F586 A1 no.1-5","label":"House of Commons Committees, 34th Parliament, 2nd Session : Sub-Committee on Fitness and Amateur Sport, vol. 1 no. 1-[1]5 = Comités de la Chambre des communes, 34e Législature, 2e Session : Sous-comité sur la condition physique et le sport amateur, vol. 1 no. 1-[1]5","language":["eng","fra"],"session":["34-2"],"type":"committees","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",92],["fra","c","committees","34-2",50]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 F586 A1 no.1-5",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Sub-Committee on Fitness and Amateur Sport, vol. 1 no. 1-[1]5 = Comités de la Chambre des communes, 34e Législature, 2e Session : Sous-comité sur la condition physique et le sport amateur, vol. 1 no. 1-[1]5",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 92],
+    ["fra", "c", "committees", "34-2", 50]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

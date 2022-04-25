@@ -1,1 +1,15 @@
-{"node":[["fra","c","committees","21-2",10],["fra","s","committees","21-2",3]],"pubmax":"1950-06-30","type":"committees","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c","s"],"label":"Comités mixtes, 21e Législature, 2e Session : Comité mixte des pensions de vieillesse, vol. 1","callNumber":"1950 P4 A44","pubmin":"1950-02-16","session":["21-2"],"language":["fra"]}
+{
+  "node": [
+    ["fra", "c", "committees", "21-2", 10],
+    ["fra", "s", "committees", "21-2", 3]
+  ],
+  "pubmax": "1950-06-30",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c", "s"],
+  "label": "Comités mixtes, 21e Législature, 2e Session : Comité mixte des pensions de vieillesse, vol. 1",
+  "callNumber": "1950 P4 A44",
+  "pubmin": "1950-02-16",
+  "session": ["21-2"],
+  "language": ["fra"]
+}

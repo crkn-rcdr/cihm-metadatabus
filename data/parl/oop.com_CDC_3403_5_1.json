@@ -1,1 +1,13 @@
-{"node":[["fra","c","committees","34-3",6]],"pubmax":"1993-09-08","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des affaires autochtones, Quatrième rapport","callNumber":"J103 H7 34-3 A182 A1241f","pubmin":"1991-05-13","session":["34-3"],"language":["fra"],"reportTitle":["Le logement des autochtones : le temps d'agir"]}
+{
+  "node": [["fra", "c", "committees", "34-3", 6]],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des affaires autochtones, Quatrième rapport",
+  "callNumber": "J103 H7 34-3 A182 A1241f",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["fra"],
+  "reportTitle": ["Le logement des autochtones : le temps d'agir"]
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"Borden, Robert Laird","chamber":["c"],"type":"committees","node":[["eng","c","committees","13-2",4]],"pubmax":"1919-07-07","language":["eng"],"session":["13-2"],"pubmin":"1919-02-20","label":"House of Commons Committees, 13th Parliament, 2nd Session : Special Committee on Pensions and Pension Regulations, vol. 1","callNumber":"1919 P6 A1"}
+{
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "13-2", 4]],
+  "pubmax": "1919-07-07",
+  "language": ["eng"],
+  "session": ["13-2"],
+  "pubmin": "1919-02-20",
+  "label": "House of Commons Committees, 13th Parliament, 2nd Session : Special Committee on Pensions and Pension Regulations, vol. 1",
+  "callNumber": "1919 P6 A1"
+}

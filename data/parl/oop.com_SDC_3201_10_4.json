@@ -1,1 +1,12 @@
-{"type":"committees","pubmax":"1983-11-30","node":[["fra","s","committees","32-1",30]],"chamber":["s"],"pubmin":"1980-04-14","callNumber":"J103 H7 1980/83 N3 A12f","label":"Comités du Sénat, 32e Législature, 1re Session : Comité permanent des finances nationales, Rapport","language":["fra"],"reportTitle":["La politique gouvernementale et le développement régional"],"session":["32-1"]}
+{
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [["fra", "s", "committees", "32-1", 30]],
+  "chamber": ["s"],
+  "pubmin": "1980-04-14",
+  "callNumber": "J103 H7 1980/83 N3 A12f",
+  "label": "Comités du Sénat, 32e Législature, 1re Session : Comité permanent des finances nationales, Rapport",
+  "language": ["fra"],
+  "reportTitle": ["La politique gouvernementale et le développement régional"],
+  "session": ["32-1"]
+}

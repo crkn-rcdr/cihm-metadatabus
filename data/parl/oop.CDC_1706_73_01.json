@@ -1,1 +1,11 @@
-{"primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"type":"journals","node":[["fra","c","journals","17-6",1]],"pubmax":"1935-07-05","language":["fra"],"session":["17-6"],"pubmin":"1935-01-17","label":"Journaux de la Chambre des communes, 17e Législature, 6e Session : Vol. 73"}
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["fra", "c", "journals", "17-6", 1]],
+  "pubmax": "1935-07-05",
+  "language": ["fra"],
+  "session": ["17-6"],
+  "pubmin": "1935-01-17",
+  "label": "Journaux de la Chambre des communes, 17e Législature, 6e Session : Vol. 73"
+}

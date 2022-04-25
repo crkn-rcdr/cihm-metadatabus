@@ -1,1 +1,11 @@
-{"pubmin":"1906-11-22","label":"House of Commons Journals, 10th Parliament, 3rd Session : Vol. 42","language":["eng"],"session":["10-3"],"type":"journals","pubmax":"1907-04-27","node":[["eng","c","journals","10-3",1]],"chamber":["c"],"primeMinisters":"Laurier, Wilfrid"}
+{
+  "pubmin": "1906-11-22",
+  "label": "House of Commons Journals, 10th Parliament, 3rd Session : Vol. 42",
+  "language": ["eng"],
+  "session": ["10-3"],
+  "type": "journals",
+  "pubmax": "1907-04-27",
+  "node": [["eng", "c", "journals", "10-3", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

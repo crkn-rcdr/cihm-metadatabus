@@ -1,1 +1,11 @@
-{"session":["35-1"],"language":["eng"],"label":"House of Commons Debates, 35th Parliament, 1st Session : Index","pubmin":"1994-01-17","chamber":["c"],"primeMinisters":"Chrétien, Joseph Jacques Jean","pubmax":"1996-02-02","node":[["eng","c","debates","35-1",16]],"type":"debates"}
+{
+  "session": ["35-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 35th Parliament, 1st Session : Index",
+  "pubmin": "1994-01-17",
+  "chamber": ["c"],
+  "primeMinisters": "Chrétien, Joseph Jacques Jean",
+  "pubmax": "1996-02-02",
+  "node": [["eng", "c", "debates", "35-1", 16]],
+  "type": "debates"
+}

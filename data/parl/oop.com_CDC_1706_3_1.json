@@ -1,1 +1,12 @@
-{"primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"node":[["fra","c","committees","17-6",3]],"pubmax":"1935-07-05","type":"committees","session":["17-6"],"language":["fra"],"label":"Comités de la Chambre des communes, 17e Législature, 6e Session : Comité spécial d'étude sur la Loi sur la Commission canadienne des grains, vol. 1","callNumber":"1935 C6 A4","pubmin":"1935-01-17"}
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "17-6", 3]],
+  "pubmax": "1935-07-05",
+  "type": "committees",
+  "session": ["17-6"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 17e Législature, 6e Session : Comité spécial d'étude sur la Loi sur la Commission canadienne des grains, vol. 1",
+  "callNumber": "1935 C6 A4",
+  "pubmin": "1935-01-17"
+}

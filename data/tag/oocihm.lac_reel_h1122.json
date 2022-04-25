@@ -1,1 +1,30 @@
-{"5":{"tagDate":["1970-01-01T00:00:00.000Z"],"tagPerson":["LANDE, Lawrence Montague"],"tagDescription":["LANDE, Lawrence Montague A supplement of Canadiana to the Lande bibliography in the private collection of Lawrence M. Lande made up -- 1541 typed entries with introductions in French or English by Lawrence M. Lande and Stanley Brice Frost, 1970."]},"1024":{"tagDescription":["WOLFE, James A King's warrant for a payment of £1000 in advance to Mr. Wilton, statuary, towards Lieutenant General Wolfe's memorial monument, signed by George II, King of England, Lord Newcastle, H.B. Legge and J. Grenville, 20 October 1760."],"tagDate":["1760-10-20T00:00:00.000Z"],"tagPerson":["WOLFE, James"]},"982":{"tagDescription":["DUCHARME, Gonzague 1921 Album d'autographes contenant poésies, pensées, signatures de personnalités canadiennes-françaises notamment Marie-Claire Daveluy, Albert Lozeau, Aegidius Fauteux, Michelle Le Normand, Émile Vézina et Colette (France). Les noms de ces personnalités ont été versés au catalogue de renvois."],"tagPerson":["DUCHARME, Gonzague "],"tagDate":["1921-01-01T00:00:00.000Z"]},"768":{"tagPerson":["DUCHARME, Gonzague"],"tagDate":["[1922-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["DUCHARME, Gonzague Livres de comptes, reçus, listes et divers autres documents, 1922-1930, relatifs au commerce de livres de Gonzague Ducharme. On y trouve d'intéressants détails sur la clientèle (institutions, collectionneurs, individus), sur la liquidation de certaines bibliothèques privées et divers articles de journaux dont un article présentant l'opinion de G. Ducharme sur la «richesse et la valeur de la littérature canadienne» (La Presse, Montréal, 1921)."]}}
+{
+  "5": {
+    "tagDate": ["1970-01-01T00:00:00.000Z"],
+    "tagPerson": ["LANDE, Lawrence Montague"],
+    "tagDescription": [
+      "LANDE, Lawrence Montague A supplement of Canadiana to the Lande bibliography in the private collection of Lawrence M. Lande made up -- 1541 typed entries with introductions in French or English by Lawrence M. Lande and Stanley Brice Frost, 1970."
+    ]
+  },
+  "1024": {
+    "tagDescription": [
+      "WOLFE, James A King's warrant for a payment of £1000 in advance to Mr. Wilton, statuary, towards Lieutenant General Wolfe's memorial monument, signed by George II, King of England, Lord Newcastle, H.B. Legge and J. Grenville, 20 October 1760."
+    ],
+    "tagDate": ["1760-10-20T00:00:00.000Z"],
+    "tagPerson": ["WOLFE, James"]
+  },
+  "982": {
+    "tagDescription": [
+      "DUCHARME, Gonzague 1921 Album d'autographes contenant poésies, pensées, signatures de personnalités canadiennes-françaises notamment Marie-Claire Daveluy, Albert Lozeau, Aegidius Fauteux, Michelle Le Normand, Émile Vézina et Colette (France). Les noms de ces personnalités ont été versés au catalogue de renvois."
+    ],
+    "tagPerson": ["DUCHARME, Gonzague "],
+    "tagDate": ["1921-01-01T00:00:00.000Z"]
+  },
+  "768": {
+    "tagPerson": ["DUCHARME, Gonzague"],
+    "tagDate": ["[1922-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "DUCHARME, Gonzague Livres de comptes, reçus, listes et divers autres documents, 1922-1930, relatifs au commerce de livres de Gonzague Ducharme. On y trouve d'intéressants détails sur la clientèle (institutions, collectionneurs, individus), sur la liquidation de certaines bibliothèques privées et divers articles de journaux dont un article présentant l'opinion de G. Ducharme sur la «richesse et la valeur de la littérature canadienne» (La Presse, Montréal, 1921)."
+    ]
+  }
+}

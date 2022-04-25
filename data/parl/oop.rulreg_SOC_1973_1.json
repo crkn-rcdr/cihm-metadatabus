@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"rules","node":[["eng","s","rules",null,17],["fra","s","rules",null,17]],"pubmax":"1974-02-26","language":["eng","fra"],"session":["29-1"],"pubmin":"1973-01-04","label":"Rules of the Senate of Canada, 1973 = Règlement du Sénat du Canada, 1973","callNumber":"JL158.3 1973"}
+{
+  "chamber": ["s"],
+  "type": "rules",
+  "node": [
+    ["eng", "s", "rules", null, 17],
+    ["fra", "s", "rules", null, 17]
+  ],
+  "pubmax": "1974-02-26",
+  "language": ["eng", "fra"],
+  "session": ["29-1"],
+  "pubmin": "1973-01-04",
+  "label": "Rules of the Senate of Canada, 1973 = Règlement du Sénat du Canada, 1973",
+  "callNumber": "JL158.3 1973"
+}

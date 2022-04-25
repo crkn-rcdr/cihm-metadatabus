@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","pubmax":"1928-06-11","node":[["eng","s","committees","16-2",2]],"language":["eng"],"session":["16-2"],"pubmin":"1928-01-26","callNumber":"1928 P9 A1","label":"Senate Committees, 16th Parliament, 2nd Session : Standing Committee on Public Health and Inspection of Foods, vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1928-06-11",
+  "node": [["eng", "s", "committees", "16-2", 2]],
+  "language": ["eng"],
+  "session": ["16-2"],
+  "pubmin": "1928-01-26",
+  "callNumber": "1928 P9 A1",
+  "label": "Senate Committees, 16th Parliament, 2nd Session : Standing Committee on Public Health and Inspection of Foods, vol. 1"
+}

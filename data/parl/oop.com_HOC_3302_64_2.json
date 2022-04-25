@@ -1,1 +1,15 @@
-{"pubmin":"1986-09-30","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on National Defence, vol. 2 no. 24-42 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la défense nationale, vol. 2 no. 24-42","callNumber":"33-2 N278 A1 no.24-42","language":["eng","fra"],"session":["33-2"],"type":"committees","node":[["eng","c","committees","33-2",134],["fra","c","committees","33-2",67]],"pubmax":"1988-10-01","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on National Defence, vol. 2 no. 24-42 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la défense nationale, vol. 2 no. 24-42",
+  "callNumber": "33-2 N278 A1 no.24-42",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 134],
+    ["fra", "c", "committees", "33-2", 67]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

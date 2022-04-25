@@ -1,1 +1,11 @@
-{"label":"Senate Bills, 12th Parliament, 1st Session : A-K3","callNumber":"KE72 C38 12-1 Bill A-","pubmin":"1911-11-15","session":["12-1"],"language":["eng"],"node":[["eng","s","bills","12-1",1]],"pubmax":"1912-04-01","type":"bills","chamber":["s"]}
+{
+  "label": "Senate Bills, 12th Parliament, 1st Session : A-K3",
+  "callNumber": "KE72 C38 12-1 Bill A-",
+  "pubmin": "1911-11-15",
+  "session": ["12-1"],
+  "language": ["eng"],
+  "node": [["eng", "s", "bills", "12-1", 1]],
+  "pubmax": "1912-04-01",
+  "type": "bills",
+  "chamber": ["s"]
+}

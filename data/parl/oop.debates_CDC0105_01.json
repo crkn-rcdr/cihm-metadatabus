@@ -1,1 +1,11 @@
-{"pubmax":"1872-06-14","node":[["fra","c","debates","01-5",1]],"type":"debates","chamber":["c"],"primeMinisters":"Macdonald, John Alexander","label":"Débats de la Chambre des communes, 1e Législature, 5e Session : Vol. 1","pubmin":"1872-04-11","session":["01-5"],"language":["fra"]}
+{
+  "pubmax": "1872-06-14",
+  "node": [["fra", "c", "debates", "01-5", 1]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "label": "Débats de la Chambre des communes, 1e Législature, 5e Session : Vol. 1",
+  "pubmin": "1872-04-11",
+  "session": ["01-5"],
+  "language": ["fra"]
+}

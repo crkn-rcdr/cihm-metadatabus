@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1972-02-16","node":[["eng","c","committees","28-3",15],["fra","c","committees","28-3",22]],"language":["eng","fra"],"session":["28-3"],"pubmin":"1970-10-08","callNumber":"1970/72 E4 A1","label":"House of Commons Committees, 28th Parliament, 3rd Session : Special Committee on Election Expenses, vol. 1 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité spécial sur les dépenses électorales, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1972-02-16",
+  "node": [
+    ["eng", "c", "committees", "28-3", 15],
+    ["fra", "c", "committees", "28-3", 22]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "callNumber": "1970/72 E4 A1",
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Special Committee on Election Expenses, vol. 1 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité spécial sur les dépenses électorales, vol. 1"
+}

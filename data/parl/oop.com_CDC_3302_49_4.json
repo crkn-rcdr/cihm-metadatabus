@@ -1,1 +1,15 @@
-{"label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la santé nationale et du bien-être social, Premier rapport","callNumber":"33-2 H43 A12","pubmin":"1986-09-30","session":["33-2"],"reportTitle":["Boisson, pilules et drogue, comment diminuer leur consommation au Canada"],"language":["fra"],"node":[["fra","c","committees","33-2",162]],"pubmax":"1988-10-01","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la santé nationale et du bien-être social, Premier rapport",
+  "callNumber": "33-2 H43 A12",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "reportTitle": [
+    "Boisson, pilules et drogue, comment diminuer leur consommation au Canada"
+  ],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "33-2", 162]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

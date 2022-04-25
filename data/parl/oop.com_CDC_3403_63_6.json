@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1993-09-08","node":[["fra","c","committees","34-3",147]],"type":"committees","session":["34-3"],"language":["fra"],"reportTitle":["Examen des projets de réglementation déposés à la Chambre par la ministre de la Justice le mardi 31 mars 1992"],"callNumber":"34-3 J83 A12","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la justice et Solliciteur général, Rapport","pubmin":"1991-05-13"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "committees", "34-3", 147]],
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["fra"],
+  "reportTitle": [
+    "Examen des projets de réglementation déposés à la Chambre par la ministre de la Justice le mardi 31 mars 1992"
+  ],
+  "callNumber": "34-3 J83 A12",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la justice et Solliciteur général, Rapport",
+  "pubmin": "1991-05-13"
+}

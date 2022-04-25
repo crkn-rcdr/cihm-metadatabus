@@ -1,1 +1,13 @@
-{"callNumber":"34-3 H792 A127","label":"Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des droits de la personne et de la condition des personnes handicapées, Septième rapport","pubmin":"1991-05-13","session":["34-3"],"reportTitle":["Des choix rentables pour tous"],"language":["fra"],"pubmax":"1993-09-08","node":[["fra","c","committees","34-3",82]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-3 H792 A127",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des droits de la personne et de la condition des personnes handicapées, Septième rapport",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "reportTitle": ["Des choix rentables pour tous"],
+  "language": ["fra"],
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "committees", "34-3", 82]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

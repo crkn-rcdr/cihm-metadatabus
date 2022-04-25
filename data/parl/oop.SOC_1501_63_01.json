@@ -1,1 +1,10 @@
-{"session":["15-1"],"language":["eng"],"label":"Senate Journals, 15th Parliament, 1st Session : Vol. 63","pubmin":"1926-01-07","chamber":["s"],"node":[["eng","s","journals","15-1",1]],"pubmax":"1926-07-02","type":"journals"}
+{
+  "session": ["15-1"],
+  "language": ["eng"],
+  "label": "Senate Journals, 15th Parliament, 1st Session : Vol. 63",
+  "pubmin": "1926-01-07",
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "15-1", 1]],
+  "pubmax": "1926-07-02",
+  "type": "journals"
+}

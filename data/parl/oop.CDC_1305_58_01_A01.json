@@ -1,1 +1,11 @@
-{"pubmax":"1921-06-04","node":[["fra","c","journals","13-5",2]],"type":"journals","chamber":["c"],"primeMinisters":"Meighen, Arthur","label":"Journaux de la Chambre des communes, 13e Législature, 5e Session : Vol. 58 App. 1","pubmin":"1921-02-14","session":["13-5"],"language":["fra"]}
+{
+  "pubmax": "1921-06-04",
+  "node": [["fra", "c", "journals", "13-5", 2]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Meighen, Arthur",
+  "label": "Journaux de la Chambre des communes, 13e Législature, 5e Session : Vol. 58 App. 1",
+  "pubmin": "1921-02-14",
+  "session": ["13-5"],
+  "language": ["fra"]
+}

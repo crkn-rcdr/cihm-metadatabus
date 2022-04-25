@@ -1,1 +1,11 @@
-{"pubmin":"1869-04-15","callNumber":"J103 H43 1869","label":"Procès-verbaux du Sénat, 1e Législature, 2e Session : 1-43","language":["fra"],"session":["01-2"],"type":"sproc","pubmax":"1869-06-22","node":[["fra","s","sproc","01-2",1]],"chamber":["s"]}
+{
+  "pubmin": "1869-04-15",
+  "callNumber": "J103 H43 1869",
+  "label": "Procès-verbaux du Sénat, 1e Législature, 2e Session : 1-43",
+  "language": ["fra"],
+  "session": ["01-2"],
+  "type": "sproc",
+  "pubmax": "1869-06-22",
+  "node": [["fra", "s", "sproc", "01-2", 1]],
+  "chamber": ["s"]
+}

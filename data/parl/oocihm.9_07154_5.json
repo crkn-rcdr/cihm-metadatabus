@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"journals","pubmax":"1872-06-14","node":[["eng","s","journals","01-5",1]],"language":["eng"],"session":["01-5"],"pubmin":"1872-04-11","label":"Senate Journals, 1st Parliament, 5th Session : Vol. 5"}
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1872-06-14",
+  "node": [["eng", "s", "journals", "01-5", 1]],
+  "language": ["eng"],
+  "session": ["01-5"],
+  "pubmin": "1872-04-11",
+  "label": "Senate Journals, 1st Parliament, 5th Session : Vol. 5"
+}

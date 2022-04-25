@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"debates","node":[["fra","s","debates","18-1",1]],"pubmax":"1936-06-23","language":["fra"],"session":["18-1"],"pubmin":"1936-02-06","label":"Débats du Sénat, 18e Législature, 1re Session : Vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "18-1", 1]],
+  "pubmax": "1936-06-23",
+  "language": ["fra"],
+  "session": ["18-1"],
+  "pubmin": "1936-02-06",
+  "label": "Débats du Sénat, 18e Législature, 1re Session : Vol. 1"
+}

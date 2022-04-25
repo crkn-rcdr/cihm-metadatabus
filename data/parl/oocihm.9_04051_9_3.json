@@ -1,1 +1,11 @@
-{"primeMinisters":"Mackenzie, Alexander","chamber":["c"],"node":[["fra","c","sessional","03-3",3]],"pubmax":"1876-04-12","type":"sessional","session":["03-3"],"language":["fra"],"label":"Documents parlementaires, 3e Législature, 3e Session : vol. 3","pubmin":"1876-02-10"}
+{
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"],
+  "node": [["fra", "c", "sessional", "03-3", 3]],
+  "pubmax": "1876-04-12",
+  "type": "sessional",
+  "session": ["03-3"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 3e Législature, 3e Session : vol. 3",
+  "pubmin": "1876-02-10"
+}

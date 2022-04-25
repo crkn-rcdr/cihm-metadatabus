@@ -1,1 +1,12 @@
-{"language":["eng"],"session":["19-5"],"pubmin":"1944-01-27","label":"House of Commons Bills, 19th Parliament, 5th Session : 2-185","callNumber":"KE72 C36 19-5 2-185","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"bills","node":[["eng","c","bills","19-5",1]],"pubmax":"1945-01-31"}
+{
+  "language": ["eng"],
+  "session": ["19-5"],
+  "pubmin": "1944-01-27",
+  "label": "House of Commons Bills, 19th Parliament, 5th Session : 2-185",
+  "callNumber": "KE72 C36 19-5 2-185",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["eng", "c", "bills", "19-5", 1]],
+  "pubmax": "1945-01-31"
+}

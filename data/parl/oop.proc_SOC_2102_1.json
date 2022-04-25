@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["21-2"],"pubmin":"1950-02-16","label":"Senate Minutes of Proceedings, 21st Parliament, 2nd Session : 1-65","callNumber":"J103 H4 1950 c.2","chamber":["s"],"type":"sproc","node":[["eng","s","sproc","21-2",1]],"pubmax":"1950-06-30"}
+{
+  "language": ["eng"],
+  "session": ["21-2"],
+  "pubmin": "1950-02-16",
+  "label": "Senate Minutes of Proceedings, 21st Parliament, 2nd Session : 1-65",
+  "callNumber": "J103 H4 1950 c.2",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "21-2", 1]],
+  "pubmax": "1950-06-30"
+}

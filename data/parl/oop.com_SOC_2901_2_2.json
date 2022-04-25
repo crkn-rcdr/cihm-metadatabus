@@ -1,1 +1,11 @@
-{"session":["29-1"],"language":["eng"],"callNumber":"1973/74 L4 A1","label":"Senate Committees, 29th Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, vol. 1","pubmin":"1973-01-04","chamber":["s"],"pubmax":"1974-02-26","node":[["eng","s","committees","29-1",6]],"type":"committees"}
+{
+  "session": ["29-1"],
+  "language": ["eng"],
+  "callNumber": "1973/74 L4 A1",
+  "label": "Senate Committees, 29th Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, vol. 1",
+  "pubmin": "1973-01-04",
+  "chamber": ["s"],
+  "pubmax": "1974-02-26",
+  "node": [["eng", "s", "committees", "29-1", 6]],
+  "type": "committees"
+}

@@ -1,1 +1,10 @@
-{"chamber":["s"],"pubmax":"1930-09-22","node":[["eng","s","debates","17-1",1]],"type":"debates","session":["17-1"],"language":["eng"],"label":"Senate Debates, 17th Parliament, 1st Session : Vol. 1","pubmin":"1930-09-08"}
+{
+  "chamber": ["s"],
+  "pubmax": "1930-09-22",
+  "node": [["eng", "s", "debates", "17-1", 1]],
+  "type": "debates",
+  "session": ["17-1"],
+  "language": ["eng"],
+  "label": "Senate Debates, 17th Parliament, 1st Session : Vol. 1",
+  "pubmin": "1930-09-08"
+}

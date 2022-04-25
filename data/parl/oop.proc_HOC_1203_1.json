@@ -1,1 +1,12 @@
-{"primeMinisters":"Borden, Robert Laird","chamber":["c"],"node":[["eng","c","cproc","12-3",1]],"pubmax":"1914-06-12","type":"cproc","session":["12-3"],"language":["eng"],"label":"House of Commons Votes and Proceedings, 12th Parliament, 3rd Session : 1-103","callNumber":"J103 H41 (no call)","pubmin":"1914-01-15"}
+{
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "12-3", 1]],
+  "pubmax": "1914-06-12",
+  "type": "cproc",
+  "session": ["12-3"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 12th Parliament, 3rd Session : 1-103",
+  "callNumber": "J103 H41 (no call)",
+  "pubmin": "1914-01-15"
+}

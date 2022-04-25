@@ -1,1 +1,11 @@
-{"callNumber":"KE72 C38 24-2 S2-S32","label":"Senate Bills, 24th Parliament, 2nd Session : S2-S32","pubmin":"1959-01-15","session":["24-2"],"language":["eng"],"pubmax":"1959-07-18","node":[["eng","s","bills","24-2",1]],"type":"bills","chamber":["s"]}
+{
+  "callNumber": "KE72 C38 24-2 S2-S32",
+  "label": "Senate Bills, 24th Parliament, 2nd Session : S2-S32",
+  "pubmin": "1959-01-15",
+  "session": ["24-2"],
+  "language": ["eng"],
+  "pubmax": "1959-07-18",
+  "node": [["eng", "s", "bills", "24-2", 1]],
+  "type": "bills",
+  "chamber": ["s"]
+}

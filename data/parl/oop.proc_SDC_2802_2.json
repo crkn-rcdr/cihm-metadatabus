@@ -1,1 +1,11 @@
-{"session":["28-2"],"language":["fra"],"label":"Procès-verbaux du Sénat, 28e Législature, 2e Session : 50-84","callNumber":"J103 H43 1968/69 no 50-84","pubmin":"1969-10-23","chamber":["s"],"node":[["fra","s","sproc","28-2",2]],"pubmax":"1970-10-07","type":"sproc"}
+{
+  "session": ["28-2"],
+  "language": ["fra"],
+  "label": "Procès-verbaux du Sénat, 28e Législature, 2e Session : 50-84",
+  "callNumber": "J103 H43 1968/69 no 50-84",
+  "pubmin": "1969-10-23",
+  "chamber": ["s"],
+  "node": [["fra", "s", "sproc", "28-2", 2]],
+  "pubmax": "1970-10-07",
+  "type": "sproc"
+}

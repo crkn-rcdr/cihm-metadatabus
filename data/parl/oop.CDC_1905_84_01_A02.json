@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1945-01-31","node":[["fra","c","journals","19-5",3]],"type":"journals","session":["19-5"],"language":["fra"],"label":"Journaux de la Chambre des communes, 19e Législature, 5e Session : Vol. 84 App. 2","pubmin":"1944-01-27"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1945-01-31",
+  "node": [["fra", "c", "journals", "19-5", 3]],
+  "type": "journals",
+  "session": ["19-5"],
+  "language": ["fra"],
+  "label": "Journaux de la Chambre des communes, 19e Législature, 5e Session : Vol. 84 App. 2",
+  "pubmin": "1944-01-27"
+}

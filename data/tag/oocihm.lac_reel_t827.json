@@ -1,1 +1,59 @@
-{"89":{"tagDate":["[1894-01-01T00:00:00.000Z TO 1896-12-31T23:59:59.999Z]"],"tagDescription":["Defence of Canada"]},"551":{"tagDescription":["Defence of Canada"],"tagDate":["[1897-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]},"176":{"tagDate":["[1892-01-01T00:00:00.000Z TO 1893-12-31T23:59:59.999Z]"],"tagDescription":["Defence of Canada"]},"1537":{"tagDate":["[1897-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"],"tagDescription":["Case of Colonel Strathy. Difficulty with General Gascoigne"]},"455":{"tagDescription":["Defence of Canada"],"tagDate":["[1890-01-01T00:00:00.000Z TO 1891-12-31T23:59:59.999Z]"]},"1371":{"tagDescription":["Defence of Canada  Additions (M Series)"],"tagDate":["1878-01-01T00:00:00.000Z"]},"1734":{"tagDescription":["Colonial Conference (Premiers) London"],"tagDate":["1897-01-01T00:00:00.000Z"]},"1863":{"tagDescription":["Missing / Manque"]},"736":{"tagDescription":["Defence of Canada"],"tagDate":["[1900-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"]},"1732":{"tagDescription":["Missing / Manque"]},"1123":{"tagDescription":["Defence of Canada  Additions"],"tagDate":["[1880-01-01T00:00:00.000Z TO 1892-12-31T23:59:59.999Z]"]},"1865":{"tagDescription":["Case of Valentine Shortis Parliamentary Return"],"tagDate":["[1895-01-01T00:00:00.000Z TO 1896-12-31T23:59:59.999Z]"]},"1862":{"tagDescription":["Missing / Manque"]},"710":{"tagDescription":["Report of Canadian Defence Committee, 1898"],"tagDate":["[1900-01-01T00:00:00.000Z TO 1903-12-31T23:59:59.999Z]"]},"1246":{"tagDate":["[1885-01-01T00:00:00.000Z TO 1990-12-31T23:59:59.999Z]"],"tagDescription":["Defence of Canada  Additions (R Series)"]},"863":{"tagDescription":["Defence of Canada"],"tagDate":["[1903-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"]}}
+{
+  "89": {
+    "tagDate": ["[1894-01-01T00:00:00.000Z TO 1896-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Defence of Canada"]
+  },
+  "551": {
+    "tagDescription": ["Defence of Canada"],
+    "tagDate": ["[1897-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]
+  },
+  "176": {
+    "tagDate": ["[1892-01-01T00:00:00.000Z TO 1893-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Defence of Canada"]
+  },
+  "1537": {
+    "tagDate": ["[1897-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Case of Colonel Strathy. Difficulty with General Gascoigne"
+    ]
+  },
+  "455": {
+    "tagDescription": ["Defence of Canada"],
+    "tagDate": ["[1890-01-01T00:00:00.000Z TO 1891-12-31T23:59:59.999Z]"]
+  },
+  "1371": {
+    "tagDescription": ["Defence of Canada  Additions (M Series)"],
+    "tagDate": ["1878-01-01T00:00:00.000Z"]
+  },
+  "1734": {
+    "tagDescription": ["Colonial Conference (Premiers) London"],
+    "tagDate": ["1897-01-01T00:00:00.000Z"]
+  },
+  "1863": { "tagDescription": ["Missing / Manque"] },
+  "736": {
+    "tagDescription": ["Defence of Canada"],
+    "tagDate": ["[1900-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"]
+  },
+  "1732": { "tagDescription": ["Missing / Manque"] },
+  "1123": {
+    "tagDescription": ["Defence of Canada  Additions"],
+    "tagDate": ["[1880-01-01T00:00:00.000Z TO 1892-12-31T23:59:59.999Z]"]
+  },
+  "1865": {
+    "tagDescription": ["Case of Valentine Shortis Parliamentary Return"],
+    "tagDate": ["[1895-01-01T00:00:00.000Z TO 1896-12-31T23:59:59.999Z]"]
+  },
+  "1862": { "tagDescription": ["Missing / Manque"] },
+  "710": {
+    "tagDescription": ["Report of Canadian Defence Committee, 1898"],
+    "tagDate": ["[1900-01-01T00:00:00.000Z TO 1903-12-31T23:59:59.999Z]"]
+  },
+  "1246": {
+    "tagDate": ["[1885-01-01T00:00:00.000Z TO 1990-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Defence of Canada  Additions (R Series)"]
+  },
+  "863": {
+    "tagDescription": ["Defence of Canada"],
+    "tagDate": ["[1903-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"]
+  }
+}

@@ -1,1 +1,10 @@
-{"label":"Journaux du Sénat, 17e Législature, 2e Session : Vol. 69","pubmin":"1931-03-12","session":["17-2"],"language":["fra"],"pubmax":"1931-08-03","node":[["fra","s","journals","17-2",1]],"type":"journals","chamber":["s"]}
+{
+  "label": "Journaux du Sénat, 17e Législature, 2e Session : Vol. 69",
+  "pubmin": "1931-03-12",
+  "session": ["17-2"],
+  "language": ["fra"],
+  "pubmax": "1931-08-03",
+  "node": [["fra", "s", "journals", "17-2", 1]],
+  "type": "journals",
+  "chamber": ["s"]
+}

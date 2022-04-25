@@ -1,1 +1,11 @@
-{"node":[["fra","c","debates","21-3",1]],"pubmax":"1951-01-29","type":"debates","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"label":"Débats de la Chambre des communes, 21e Législature, 3e Session : Vol. 1","pubmin":"1950-08-29","session":["21-3"],"language":["fra"]}
+{
+  "node": [["fra", "c", "debates", "21-3", 1]],
+  "pubmax": "1951-01-29",
+  "type": "debates",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "label": "Débats de la Chambre des communes, 21e Législature, 3e Session : Vol. 1",
+  "pubmin": "1950-08-29",
+  "session": ["21-3"],
+  "language": ["fra"]
+}

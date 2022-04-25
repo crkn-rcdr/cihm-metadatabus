@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"committees","pubmax":"1923-06-30","node":[["fra","c","committees","14-2",5]],"language":["fra"],"session":["14-2"],"pubmin":"1923-01-31","callNumber":"1923 S47 A4","label":"Comités de la Chambre des communes, 14e Législature, 2e Session : Comité spécial d'enquête sur la loi concernant le service civil, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "committees",
+  "pubmax": "1923-06-30",
+  "node": [["fra", "c", "committees", "14-2", 5]],
+  "language": ["fra"],
+  "session": ["14-2"],
+  "pubmin": "1923-01-31",
+  "callNumber": "1923 S47 A4",
+  "label": "Comités de la Chambre des communes, 14e Législature, 2e Session : Comité spécial d'enquête sur la loi concernant le service civil, vol. 1"
+}

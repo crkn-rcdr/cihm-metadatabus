@@ -1,1 +1,13 @@
-{"language":["eng"],"reportTitle":["Bank Profits"],"session":["32-1"],"pubmin":"1980-04-14","callNumber":"1980/83 F55 A12","label":"House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, Report","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1983-11-30","node":[["eng","c","committees","32-1",66]]}
+{
+  "language": ["eng"],
+  "reportTitle": ["Bank Profits"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "callNumber": "1980/83 F55 A12",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, Report",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [["eng", "c", "committees", "32-1", 66]]
+}

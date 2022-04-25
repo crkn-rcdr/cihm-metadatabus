@@ -1,1 +1,12 @@
-{"callNumber":"J103 H7 1980/83 Z95 A2","label":"Comités de la Chambre des communes, 32e Législature, 1re Session : Index non révisé de la procédure des comités de la Chambre et des comités mixtes, Index","pubmin":"1980-04-14","session":["32-1"],"language":["fra"],"pubmax":"1983-11-30","node":[["fra","c","committees","32-1",181]],"type":"committees","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "callNumber": "J103 H7 1980/83 Z95 A2",
+  "label": "Comités de la Chambre des communes, 32e Législature, 1re Session : Index non révisé de la procédure des comités de la Chambre et des comités mixtes, Index",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["fra"],
+  "pubmax": "1983-11-30",
+  "node": [["fra", "c", "committees", "32-1", 181]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

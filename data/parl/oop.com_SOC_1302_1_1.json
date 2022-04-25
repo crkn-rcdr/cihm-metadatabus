@@ -1,1 +1,11 @@
-{"type":"committees","pubmax":"1919-07-07","node":[["eng","s","committees","13-2",1]],"chamber":["s"],"pubmin":"1919-02-20","callNumber":"1919 C6 A12","label":"Senate Committees, 13th Parliament, 2nd Session : Special Committee on the Cancellation of Leases to certain Coal Areas in the Province of Alberta, Report","language":["eng"],"session":["13-2"]}
+{
+  "type": "committees",
+  "pubmax": "1919-07-07",
+  "node": [["eng", "s", "committees", "13-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1919-02-20",
+  "callNumber": "1919 C6 A12",
+  "label": "Senate Committees, 13th Parliament, 2nd Session : Special Committee on the Cancellation of Leases to certain Coal Areas in the Province of Alberta, Report",
+  "language": ["eng"],
+  "session": ["13-2"]
+}

@@ -1,1 +1,15 @@
-{"node":[["fra","c","committees","34-3",50],["fra","s","committees","34-3",21]],"pubmax":"1993-09-08","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c","s"],"label":"Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial relatif aux conflits d'intérêts, Rapport","callNumber":"34-3 C53 A12","pubmin":"1991-05-13","session":["34-3"],"language":["fra"]}
+{
+  "node": [
+    ["fra", "c", "committees", "34-3", 50],
+    ["fra", "s", "committees", "34-3", 21]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c", "s"],
+  "label": "Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial relatif aux conflits d'intérêts, Rapport",
+  "callNumber": "34-3 C53 A12",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["fra"]
+}

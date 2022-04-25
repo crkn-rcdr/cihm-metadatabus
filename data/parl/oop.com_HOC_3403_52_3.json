@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-3",109],["fra","c","committees","34-3",29]],"pubmax":"1993-09-08","language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on House Management, Eighty-First Report = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la gestion de la Chambre, Quatre-vingt-unième Rapport","callNumber":"34-3 H68 A12 1993"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 109],
+    ["fra", "c", "committees", "34-3", 29]
+  ],
+  "pubmax": "1993-09-08",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on House Management, Eighty-First Report = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la gestion de la Chambre, Quatre-vingt-unième Rapport",
+  "callNumber": "34-3 H68 A12 1993"
+}

@@ -1,1 +1,11 @@
-{"chamber":["s"],"pubmax":"1962-04-19","node":[["eng","s","bills","24-5",2]],"type":"bills","session":["24-5"],"language":["eng"],"callNumber":"KE72 C38 24-5 SD1-SD132","label":"Senate Bills, 24th Parliament, 5th Session : SD1-SD132","pubmin":"1962-01-18"}
+{
+  "chamber": ["s"],
+  "pubmax": "1962-04-19",
+  "node": [["eng", "s", "bills", "24-5", 2]],
+  "type": "bills",
+  "session": ["24-5"],
+  "language": ["eng"],
+  "callNumber": "KE72 C38 24-5 SD1-SD132",
+  "label": "Senate Bills, 24th Parliament, 5th Session : SD1-SD132",
+  "pubmin": "1962-01-18"
+}

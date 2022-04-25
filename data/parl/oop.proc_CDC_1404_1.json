@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["14-4"],"pubmin":"1925-02-05","label":"Procès-verbaux de la Chambre des communes, 14e Législature, 4e Session : 1-98","callNumber":"J103 H44 1925","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"cproc","node":[["fra","c","cproc","14-4",1]],"pubmax":"1925-06-27"}
+{
+  "language": ["fra"],
+  "session": ["14-4"],
+  "pubmin": "1925-02-05",
+  "label": "Procès-verbaux de la Chambre des communes, 14e Législature, 4e Session : 1-98",
+  "callNumber": "J103 H44 1925",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "14-4", 1]],
+  "pubmax": "1925-06-27"
+}

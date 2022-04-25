@@ -1,1 +1,130 @@
-{"880":{"tagDate":["[1907-08-01T00:00:00.000Z TO 1907-09-28T23:59:59.999Z]"],"tagDescription":["Family Letters"]},"1554":{"tagDescription":["Family Letters"],"tagDate":["1909-06-01T00:00:00.000Z"]},"485":{"tagDescription":["Family Letters"],"tagDate":["1906-09-01T00:00:00.000Z"]},"944":{"tagDate":["[1907-10-01T00:00:00.000Z TO 1907-12-28T23:59:59.999Z]"],"tagDescription":["Family Letters"]},"205":{"tagDate":["1906-01-01T00:00:00.000Z"],"tagDescription":["Family Letters"]},"644":{"tagDescription":["Family Letters"],"tagDate":["[1906-11-01T00:00:00.000Z TO 1906-12-28T23:59:59.999Z]"]},"718":{"tagDescription":["Family Letters"],"tagDate":["[1907-01-01T00:00:00.000Z TO 1907-02-28T23:59:59.999Z]"]},"1017":{"tagDate":["[1908-01-01T00:00:00.000Z TO 1908-02-28T23:59:59.999Z]"],"tagDescription":["Family Letters"]},"382":{"tagDescription":["Family Letters"],"tagDate":["[1906-05-01T00:00:00.000Z TO 1906-06-28T23:59:59.999Z]"]},"1298":{"tagDate":["1908-11-01T00:00:00.000Z"],"tagDescription":["Family Letters"]},"158":{"tagDate":["1905-12-01T00:00:00.000Z"],"tagDescription":["Family Letters"]},"556":{"tagDate":["1906-10-01T00:00:00.000Z"],"tagDescription":["Family Letters"]},"1142":{"tagDate":["1908-05-01T00:00:00.000Z"],"tagDescription":["Family Letters"]},"444":{"tagDescription":["Family Letters"],"tagDate":["[1906-07-01T00:00:00.000Z TO 1906-08-28T23:59:59.999Z]"]},"1085":{"tagDescription":["Family Letters"],"tagDate":["[1908-03-01T00:00:00.000Z TO 1908-04-28T23:59:59.999Z]"]},"1185":{"tagDescription":["Family Letters"],"tagDate":["1908-06-01T00:00:00.000Z"]},"313":{"tagDate":["[1906-03-01T00:00:00.000Z TO 1906-04-28T23:59:59.999Z]"],"tagDescription":["Family Letters"]},"259":{"tagDate":["1906-02-01T00:00:00.000Z"],"tagDescription":["Family Letters"]},"1589":{"tagDate":["[1909-07-01T00:00:00.000Z TO 1909-09-28T23:59:59.999Z]"],"tagDescription":["Family Letters"]},"1005":{"tagDescription":["Family Letters"],"tagDate":["1908-01-01T00:00:00.000Z"]},"1395":{"tagDescription":["Family Letters"],"tagDate":["1909-01-01T00:00:00.000Z"]},"1490":{"tagDate":["[1909-03-01T00:00:00.000Z TO 1909-05-28T23:59:59.999Z]"],"tagDescription":["Family Letters"]},"60":{"tagDescription":["Family Letters"],"tagDate":["1905-09-01T00:00:00.000Z"]},"1413":{"tagDescription":["Family Letters"],"tagDate":["[1909-01-01T00:00:00.000Z TO 1909-02-28T23:59:59.999Z]"]},"1318":{"tagDate":["1908-12-01T00:00:00.000Z"],"tagDescription":["Family Letters"]},"112":{"tagDate":["1905-11-01T00:00:00.000Z"],"tagDescription":["Family Letters"]},"1258":{"tagDescription":["Family Letters"],"tagDate":["[1908-09-01T00:00:00.000Z TO 1908-10-28T23:59:59.999Z]"]},"779":{"tagDescription":["Family Letters"],"tagDate":["[1907-03-01T00:00:00.000Z TO 1907-05-28T23:59:59.999Z]"]},"833":{"tagDescription":["Family Letters"],"tagDate":["[1907-06-01T00:00:00.000Z TO 1907-07-28T23:59:59.999Z]"]},"1210":{"tagDescription":["Family Letters"],"tagDate":["[1908-07-01T00:00:00.000Z TO 1908-08-28T23:59:59.999Z]"]},"88":{"tagDescription":["Family Letters"],"tagDate":["1905-10-01T00:00:00.000Z"]},"16":{"tagDescription":["Family Letters"],"tagDate":["1905-08-01T00:00:00.000Z"]}}
+{
+  "880": {
+    "tagDate": ["[1907-08-01T00:00:00.000Z TO 1907-09-28T23:59:59.999Z]"],
+    "tagDescription": ["Family Letters"]
+  },
+  "1554": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["1909-06-01T00:00:00.000Z"]
+  },
+  "485": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["1906-09-01T00:00:00.000Z"]
+  },
+  "944": {
+    "tagDate": ["[1907-10-01T00:00:00.000Z TO 1907-12-28T23:59:59.999Z]"],
+    "tagDescription": ["Family Letters"]
+  },
+  "205": {
+    "tagDate": ["1906-01-01T00:00:00.000Z"],
+    "tagDescription": ["Family Letters"]
+  },
+  "644": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1906-11-01T00:00:00.000Z TO 1906-12-28T23:59:59.999Z]"]
+  },
+  "718": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1907-02-28T23:59:59.999Z]"]
+  },
+  "1017": {
+    "tagDate": ["[1908-01-01T00:00:00.000Z TO 1908-02-28T23:59:59.999Z]"],
+    "tagDescription": ["Family Letters"]
+  },
+  "382": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1906-05-01T00:00:00.000Z TO 1906-06-28T23:59:59.999Z]"]
+  },
+  "1298": {
+    "tagDate": ["1908-11-01T00:00:00.000Z"],
+    "tagDescription": ["Family Letters"]
+  },
+  "158": {
+    "tagDate": ["1905-12-01T00:00:00.000Z"],
+    "tagDescription": ["Family Letters"]
+  },
+  "556": {
+    "tagDate": ["1906-10-01T00:00:00.000Z"],
+    "tagDescription": ["Family Letters"]
+  },
+  "1142": {
+    "tagDate": ["1908-05-01T00:00:00.000Z"],
+    "tagDescription": ["Family Letters"]
+  },
+  "444": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1906-07-01T00:00:00.000Z TO 1906-08-28T23:59:59.999Z]"]
+  },
+  "1085": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1908-03-01T00:00:00.000Z TO 1908-04-28T23:59:59.999Z]"]
+  },
+  "1185": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["1908-06-01T00:00:00.000Z"]
+  },
+  "313": {
+    "tagDate": ["[1906-03-01T00:00:00.000Z TO 1906-04-28T23:59:59.999Z]"],
+    "tagDescription": ["Family Letters"]
+  },
+  "259": {
+    "tagDate": ["1906-02-01T00:00:00.000Z"],
+    "tagDescription": ["Family Letters"]
+  },
+  "1589": {
+    "tagDate": ["[1909-07-01T00:00:00.000Z TO 1909-09-28T23:59:59.999Z]"],
+    "tagDescription": ["Family Letters"]
+  },
+  "1005": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["1908-01-01T00:00:00.000Z"]
+  },
+  "1395": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["1909-01-01T00:00:00.000Z"]
+  },
+  "1490": {
+    "tagDate": ["[1909-03-01T00:00:00.000Z TO 1909-05-28T23:59:59.999Z]"],
+    "tagDescription": ["Family Letters"]
+  },
+  "60": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["1905-09-01T00:00:00.000Z"]
+  },
+  "1413": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1909-02-28T23:59:59.999Z]"]
+  },
+  "1318": {
+    "tagDate": ["1908-12-01T00:00:00.000Z"],
+    "tagDescription": ["Family Letters"]
+  },
+  "112": {
+    "tagDate": ["1905-11-01T00:00:00.000Z"],
+    "tagDescription": ["Family Letters"]
+  },
+  "1258": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1908-09-01T00:00:00.000Z TO 1908-10-28T23:59:59.999Z]"]
+  },
+  "779": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1907-03-01T00:00:00.000Z TO 1907-05-28T23:59:59.999Z]"]
+  },
+  "833": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1907-06-01T00:00:00.000Z TO 1907-07-28T23:59:59.999Z]"]
+  },
+  "1210": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["[1908-07-01T00:00:00.000Z TO 1908-08-28T23:59:59.999Z]"]
+  },
+  "88": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["1905-10-01T00:00:00.000Z"]
+  },
+  "16": {
+    "tagDescription": ["Family Letters"],
+    "tagDate": ["1905-08-01T00:00:00.000Z"]
+  }
+}

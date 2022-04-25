@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Diefenbaker, John George","type":"committees","pubmax":"1961-09-29","node":[["fra","c","committees","24-4",13]],"language":["fra"],"session":["24-4"],"pubmin":"1960-11-17","callNumber":"1960/61 R4 A4 v.2","label":"Comités de la Chambre des communes, 24e Législature, 4e Session : Comité spécial des recherches, vol. 2"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "type": "committees",
+  "pubmax": "1961-09-29",
+  "node": [["fra", "c", "committees", "24-4", 13]],
+  "language": ["fra"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "callNumber": "1960/61 R4 A4 v.2",
+  "label": "Comités de la Chambre des communes, 24e Législature, 4e Session : Comité spécial des recherches, vol. 2"
+}

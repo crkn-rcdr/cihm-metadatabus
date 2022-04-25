@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","callNumber":"34-3 Y682 A1 no.1-6","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-126, an Act to amend the Criminal Code and the Young Offenders Act, vol. 1 no. 1-6 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-126, Loi modifiant le Code criminel et la Loi sur les jeunes contrevenants, vol. 1 no. 1-6","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",226],["fra","c","committees","34-3",137]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 Y682 A1 no.1-6",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-126, an Act to amend the Criminal Code and the Young Offenders Act, vol. 1 no. 1-6 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-126, Loi modifiant le Code criminel et la Loi sur les jeunes contrevenants, vol. 1 no. 1-6",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 226],
+    ["fra", "c", "committees", "34-3", 137]
+  ]
+}

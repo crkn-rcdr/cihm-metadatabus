@@ -1,1 +1,15 @@
-{"node":[["eng","s","bills","09-2",1],["eng","c","bills","09-2",1]],"pubmax":"1902-05-15","type":"bills","primeMinisters":"Laurier, Wilfrid","chamber":["s","c"],"label":"Senate and House of Commons Bills, 9th Parliament, 2nd Session : A-CC, 2-165","callNumber":"KE72 C36 9-2 no.2-165 no.A-CC","pubmin":"1902-02-13","session":["09-2"],"language":["eng"]}
+{
+  "node": [
+    ["eng", "s", "bills", "09-2", 1],
+    ["eng", "c", "bills", "09-2", 1]
+  ],
+  "pubmax": "1902-05-15",
+  "type": "bills",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["s", "c"],
+  "label": "Senate and House of Commons Bills, 9th Parliament, 2nd Session : A-CC, 2-165",
+  "callNumber": "KE72 C36 9-2 no.2-165 no.A-CC",
+  "pubmin": "1902-02-13",
+  "session": ["09-2"],
+  "language": ["eng"]
+}

@@ -1,1 +1,15 @@
-{"callNumber":"1926/27 T7 A44","label":"Comités mixtes, 16e Législature, 1re Session : Comité spécial mixte sur les réclamations des tribus indiennes alliées de la Colombie-Britannique, vol. 1","pubmin":"1926-12-09","session":["16-1"],"language":["fra"],"pubmax":"1927-04-14","node":[["fra","c","committees","16-1",1],["fra","s","committees","16-1",1]],"type":"committees","chamber":["c","s"],"primeMinisters":"King, William Lyon Mackenzie"}
+{
+  "callNumber": "1926/27 T7 A44",
+  "label": "Comités mixtes, 16e Législature, 1re Session : Comité spécial mixte sur les réclamations des tribus indiennes alliées de la Colombie-Britannique, vol. 1",
+  "pubmin": "1926-12-09",
+  "session": ["16-1"],
+  "language": ["fra"],
+  "pubmax": "1927-04-14",
+  "node": [
+    ["fra", "c", "committees", "16-1", 1],
+    ["fra", "s", "committees", "16-1", 1]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

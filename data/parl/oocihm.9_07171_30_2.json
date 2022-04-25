@@ -1,1 +1,11 @@
-{"session":["07-6"],"language":["eng"],"label":"House of Commons Journals, 7th Parliament, 6th Session : Vol. 30 App.","pubmin":"1896-01-02","primeMinisters":"Bowell, Mackenzie","chamber":["c"],"node":[["eng","c","journals","07-6",2]],"pubmax":"1896-04-23","type":"journals"}
+{
+  "session": ["07-6"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 7th Parliament, 6th Session : Vol. 30 App.",
+  "pubmin": "1896-01-02",
+  "primeMinisters": "Bowell, Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "journals", "07-6", 2]],
+  "pubmax": "1896-04-23",
+  "type": "journals"
+}

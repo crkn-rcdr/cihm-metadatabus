@@ -1,1 +1,12 @@
-{"type":"committees","pubmax":"1991-05-12","node":[["eng","s","committees","34-2",28]],"chamber":["s"],"pubmin":"1989-04-03","callNumber":"34-2 N3 A12","label":"Senate Committees, 34th Parliament, 2nd Session : Standing Committee on National Finance, Report","reportTitle":["The Form and Use of Royal Recommendations"],"language":["eng"],"session":["34-2"]}
+{
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["eng", "s", "committees", "34-2", 28]],
+  "chamber": ["s"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 N3 A12",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on National Finance, Report",
+  "reportTitle": ["The Form and Use of Royal Recommendations"],
+  "language": ["eng"],
+  "session": ["34-2"]
+}

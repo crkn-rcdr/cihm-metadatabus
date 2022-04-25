@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["28-1"],"pubmin":"1968-09-12","label":"House of Commons Journals, 28th Parliament, 1st Session : Vol. 115","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"type":"journals","node":[["eng","c","journals","28-1",1]],"pubmax":"1969-10-22"}
+{
+  "language": ["eng"],
+  "session": ["28-1"],
+  "pubmin": "1968-09-12",
+  "label": "House of Commons Journals, 28th Parliament, 1st Session : Vol. 115",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "28-1", 1]],
+  "pubmax": "1969-10-22"
+}

@@ -1,1 +1,12 @@
-{"pubmax":"1962-04-19","node":[["fra","c","bills","24-5",1]],"type":"bills","chamber":["c"],"primeMinisters":"Diefenbaker, John George","callNumber":"KE72 C361 24-5 C2-C89","label":"Projets de loi de la Chambre des communes, 24e Législature, 5e Session : C2-C90","pubmin":"1962-01-18","session":["24-5"],"language":["fra"]}
+{
+  "pubmax": "1962-04-19",
+  "node": [["fra", "c", "bills", "24-5", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "callNumber": "KE72 C361 24-5 C2-C89",
+  "label": "Projets de loi de la Chambre des communes, 24e Législature, 5e Session : C2-C90",
+  "pubmin": "1962-01-18",
+  "session": ["24-5"],
+  "language": ["fra"]
+}

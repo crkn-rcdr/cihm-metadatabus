@@ -1,1 +1,15 @@
-{"type":"bills","node":[["eng","s","bills","11-3",1],["eng","c","bills","11-3",1]],"pubmax":"1911-07-29","primeMinisters":"Laurier, Wilfrid","chamber":["s","c"],"pubmin":"1910-11-17","label":"Senate and House of Commons Bills, 11th Parliament, 3rd Session : A-A3, 2-224","callNumber":"KE72C36","language":["eng"],"session":["11-3"]}
+{
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "11-3", 1],
+    ["eng", "c", "bills", "11-3", 1]
+  ],
+  "pubmax": "1911-07-29",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["s", "c"],
+  "pubmin": "1910-11-17",
+  "label": "Senate and House of Commons Bills, 11th Parliament, 3rd Session : A-A3, 2-224",
+  "callNumber": "KE72C36",
+  "language": ["eng"],
+  "session": ["11-3"]
+}

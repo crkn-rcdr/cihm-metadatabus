@@ -1,1 +1,15 @@
-{"type":"committees","node":[["eng","c","committees","34-3",118],["fra","c","committees","34-3",124]],"pubmax":"1993-09-08","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on Immigration, vol. 1 no. 1-3 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité de l'immigration, vol. 1 no. 1-3","callNumber":"34-3 I47 A1 no.1-3","language":["eng","fra"],"session":["34-3"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 118],
+    ["fra", "c", "committees", "34-3", 124]
+  ],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on Immigration, vol. 1 no. 1-3 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité de l'immigration, vol. 1 no. 1-3",
+  "callNumber": "34-3 I47 A1 no.1-3",
+  "language": ["eng", "fra"],
+  "session": ["34-3"]
+}

@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["33-1"],"pubmin":"1984-11-05","label":"Débats du Sénat, 33e Législature, 1re Session : Vol. 1","chamber":["s"],"type":"debates","pubmax":"1986-08-28","node":[["fra","s","debates","33-1",1]]}
+{
+  "language": ["fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "label": "Débats du Sénat, 33e Législature, 1re Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1986-08-28",
+  "node": [["fra", "s", "debates", "33-1", 1]]
+}

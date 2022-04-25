@@ -1,1 +1,35 @@
-{"122":{"tagDescription":["Beauharnois - BBHPA - correspondence to MP's PM"]},"466":{"tagDescription":["Beauharnois - BBHPA - misc"]},"124":{"tagDescription":["Beauharnois - correspondence to Weldon re BBHPA (filed by region)"]},"898":{"tagDate":["[1914-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"],"tagDescription":["Weldon's business correspondence (filed according to year, each folder then filed chronologically)"]},"998":{"tagDate":["[1928-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],"tagDescription":["Correspondence relating to Weldon's Toronto properties 1248 Queen St West"]},"891":{"tagDescription":["Beauharnois - Commerce & Transportation Building shares"]},"894":{"tagDescription":["Beauharnois - petition to PM re Beauharnois"]},"636":{"tagDescription":["Beauharnois - correspondence miscellaneous"]},"83":{"tagDescription":["Beauharnois - replies to correspondence from Govt; Hydro Commission"]}}
+{
+  "122": {
+    "tagDescription": ["Beauharnois - BBHPA - correspondence to MP's PM"]
+  },
+  "466": { "tagDescription": ["Beauharnois - BBHPA - misc"] },
+  "124": {
+    "tagDescription": [
+      "Beauharnois - correspondence to Weldon re BBHPA (filed by region)"
+    ]
+  },
+  "898": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Weldon's business correspondence (filed according to year, each folder then filed chronologically)"
+    ]
+  },
+  "998": {
+    "tagDate": ["[1928-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Correspondence relating to Weldon's Toronto properties 1248 Queen St West"
+    ]
+  },
+  "891": {
+    "tagDescription": [
+      "Beauharnois - Commerce & Transportation Building shares"
+    ]
+  },
+  "894": { "tagDescription": ["Beauharnois - petition to PM re Beauharnois"] },
+  "636": { "tagDescription": ["Beauharnois - correspondence miscellaneous"] },
+  "83": {
+    "tagDescription": [
+      "Beauharnois - replies to correspondence from Govt; Hydro Commission"
+    ]
+  }
+}

@@ -1,1 +1,36 @@
-{"411":{"tagDate":["[1909-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["Differences between Canada and the United States  Amended Fishery Regulations. North Atlantic Coast Fisheries Arbitration at the Hague, 1909 The argument of the United States Memorandum of facts and arguments for use of British Counsel Argument presented on the part of the British Government"]},"265":{"tagDate":["[1909-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],"tagDescription":["Prints 1  17"]},"766":{"tagDate":["1909-01-01T00:00:00.000Z"],"tagDescription":["Case presented on the part of the British Government Appendix to the case presented in the part of the British Government"]},"1260":{"tagDate":["1910-01-01T00:00:00.000Z"],"tagDescription":["Counter-Case presented on the part of the British Government Appendix to the counter-case Award of the Tribunal North Atlantic Fisheries  The Hague 1910"]},"17":{"tagDescription":["North Atlantic Fisheries Arbitrations 1909 British Government Case North Atlantic Coast Fisheries Convention of 1818 between Great Britain and the United States. Correspondence respecting the Newfoundland Fisheries. Unites States Fishing Rights in Newfoundland"],"tagDate":["[1907-12-31T23:59:59.999Z TO 1912-01-01T00:00:00.000Z]"]},"1469":{"tagDescription":["Pecuniary Claims Claims of Canadian and United States citizens"],"tagDate":["[1883-01-01T00:00:00.000Z TO 1908-12-31T23:59:59.999Z]"]}}
+{
+  "411": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Differences between Canada and the United States  Amended Fishery Regulations. North Atlantic Coast Fisheries Arbitration at the Hague, 1909 The argument of the United States Memorandum of facts and arguments for use of British Counsel Argument presented on the part of the British Government"
+    ]
+  },
+  "265": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Prints 1  17"]
+  },
+  "766": {
+    "tagDate": ["1909-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Case presented on the part of the British Government Appendix to the case presented in the part of the British Government"
+    ]
+  },
+  "1260": {
+    "tagDate": ["1910-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Counter-Case presented on the part of the British Government Appendix to the counter-case Award of the Tribunal North Atlantic Fisheries  The Hague 1910"
+    ]
+  },
+  "17": {
+    "tagDescription": [
+      "North Atlantic Fisheries Arbitrations 1909 British Government Case North Atlantic Coast Fisheries Convention of 1818 between Great Britain and the United States. Correspondence respecting the Newfoundland Fisheries. Unites States Fishing Rights in Newfoundland"
+    ],
+    "tagDate": ["[1907-12-31T23:59:59.999Z TO 1912-01-01T00:00:00.000Z]"]
+  },
+  "1469": {
+    "tagDescription": [
+      "Pecuniary Claims Claims of Canadian and United States citizens"
+    ],
+    "tagDate": ["[1883-01-01T00:00:00.000Z TO 1908-12-31T23:59:59.999Z]"]
+  }
+}

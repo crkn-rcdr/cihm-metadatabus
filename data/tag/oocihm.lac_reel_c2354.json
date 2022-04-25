@@ -1,1 +1,146 @@
-{"578":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Cuban Canadian Sugar"]},"645":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Dupuis Freres"]},"676":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Foreign Power Co."]},"610":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Donnacona Paper Co."]},"290":{"tagDescription":["Compagnies Compagnie de Telephone Nationale"],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"654":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Famous Players Cdn. Corp."]},"237":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Cornpagnie d'Assurance du Canada"]},"371":{"tagDescription":["Compagnies Credit-Canada"],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"374":{"tagDescription":["Compagnies Credit Foncier Franco-Canadien"],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"727":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Geo. A. Fuller Co."]},"200":{"tagDescription":["Compagnies Cockshutt Plow Co."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"348":{"tagDescription":["Compagnies Credit Anglo-francsais"],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"763":{"tagDescription":["Compagnies Hillcrest Collieries Ltd."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"788":{"tagDescription":["Compagnies International Paper and Power Co."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"120":{"tagDescription":["Compagnies Canadian Salt Co ."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"277":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Compagnie de Ciment Nationale"]},"734":{"tagDescription":["Compagnies Geoffrion & Co."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"692":{"tagDescription":["Compagnies Fraser Companies"],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"6":{"tagDescription":["Compagnies Canadian Pacific Ry. Co."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"738":{"tagDescription":["Compagnies Harvie Mining Exploration Co."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"343":{"tagDescription":["Compagnies Consolidated Asbestos Ltd."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"631":{"tagDescription":["Compagnies Dupont De Nemours Co."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]},"286":{"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"],"tagDescription":["Compagnies Compagnie de Telephone de Quebec"]},"134":{"tagDescription":["Compagnies Cities Service Co."],"tagNotebook":["3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"]}}
+{
+  "578": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Cuban Canadian Sugar"]
+  },
+  "645": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Dupuis Freres"]
+  },
+  "676": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Foreign Power Co."]
+  },
+  "610": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Donnacona Paper Co."]
+  },
+  "290": {
+    "tagDescription": ["Compagnies Compagnie de Telephone Nationale"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "654": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Famous Players Cdn. Corp."]
+  },
+  "237": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Cornpagnie d'Assurance du Canada"]
+  },
+  "371": {
+    "tagDescription": ["Compagnies Credit-Canada"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "374": {
+    "tagDescription": ["Compagnies Credit Foncier Franco-Canadien"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "727": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Geo. A. Fuller Co."]
+  },
+  "200": {
+    "tagDescription": ["Compagnies Cockshutt Plow Co."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "348": {
+    "tagDescription": ["Compagnies Credit Anglo-francsais"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "763": {
+    "tagDescription": ["Compagnies Hillcrest Collieries Ltd."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "788": {
+    "tagDescription": ["Compagnies International Paper and Power Co."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "120": {
+    "tagDescription": ["Compagnies Canadian Salt Co ."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "277": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Compagnie de Ciment Nationale"]
+  },
+  "734": {
+    "tagDescription": ["Compagnies Geoffrion & Co."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "692": {
+    "tagDescription": ["Compagnies Fraser Companies"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "6": {
+    "tagDescription": ["Compagnies Canadian Pacific Ry. Co."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "738": {
+    "tagDescription": ["Compagnies Harvie Mining Exploration Co."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "343": {
+    "tagDescription": ["Compagnies Consolidated Asbestos Ltd."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "631": {
+    "tagDescription": ["Compagnies Dupont De Nemours Co."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "286": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Compagnies Compagnie de Telephone de Quebec"]
+  },
+  "134": {
+    "tagDescription": ["Compagnies Cities Service Co."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  }
+}

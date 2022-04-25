@@ -1,1 +1,12 @@
-{"session":["18-5"],"language":["eng"],"label":"House of Commons Votes and Proceedings, 18th Parliament, 5th Session : 1-6","callNumber":"J103 H41 1939 2d Sess.","pubmin":"1939-09-07","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","cproc","18-5",1]],"pubmax":"1939-09-13","type":"cproc"}
+{
+  "session": ["18-5"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 18th Parliament, 5th Session : 1-6",
+  "callNumber": "J103 H41 1939 2d Sess.",
+  "pubmin": "1939-09-07",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "18-5", 1]],
+  "pubmax": "1939-09-13",
+  "type": "cproc"
+}

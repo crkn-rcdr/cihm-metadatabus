@@ -1,1 +1,14 @@
-{"label":"Senate Committees, 33rd Parliament, 1st Session : Special Committee on Youth, vol. 2 no. 17-20 = Comités du Sénat, 33e Législature, 1re Session : Comité spécial sur la jeunesse, vol. 2 no. 17-20","callNumber":"33-1 Y69 A1 no.17-20","pubmin":"1984-11-05","session":["33-1"],"language":["eng","fra"],"node":[["eng","s","committees","33-1",39],["fra","s","committees","33-1",25]],"pubmax":"1986-08-28","type":"committees","chamber":["s"]}
+{
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Special Committee on Youth, vol. 2 no. 17-20 = Comités du Sénat, 33e Législature, 1re Session : Comité spécial sur la jeunesse, vol. 2 no. 17-20",
+  "callNumber": "33-1 Y69 A1 no.17-20",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "s", "committees", "33-1", 39],
+    ["fra", "s", "committees", "33-1", 25]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "chamber": ["s"]
+}

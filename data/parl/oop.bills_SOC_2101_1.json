@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["21-1"],"pubmin":"1949-09-15","label":"Senate Bills, 21st Parliament, 1st Session : B-Z6","callNumber":"KE72 C38 21-1 Bill B-","chamber":["s"],"type":"bills","node":[["eng","s","bills","21-1",1]],"pubmax":"1949-12-10"}
+{
+  "language": ["eng"],
+  "session": ["21-1"],
+  "pubmin": "1949-09-15",
+  "label": "Senate Bills, 21st Parliament, 1st Session : B-Z6",
+  "callNumber": "KE72 C38 21-1 Bill B-",
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["eng", "s", "bills", "21-1", 1]],
+  "pubmax": "1949-12-10"
+}

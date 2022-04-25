@@ -1,1 +1,15 @@
-{"language":["eng"],"session":["12-1"],"pubmin":"1911-11-15","label":"Senate and House of Commons Bills, 12th Parliament, 1st Session : A-J3, 2-195","callNumber":"KE72 C36 12-1 no 2-195, no A-J3","primeMinisters":"Borden, Robert Laird","chamber":["s","c"],"type":"bills","node":[["eng","s","bills","12-1",1],["eng","c","bills","12-1",1]],"pubmax":"1912-04-01"}
+{
+  "language": ["eng"],
+  "session": ["12-1"],
+  "pubmin": "1911-11-15",
+  "label": "Senate and House of Commons Bills, 12th Parliament, 1st Session : A-J3, 2-195",
+  "callNumber": "KE72 C36 12-1 no 2-195, no A-J3",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["s", "c"],
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "12-1", 1],
+    ["eng", "c", "bills", "12-1", 1]
+  ],
+  "pubmax": "1912-04-01"
+}

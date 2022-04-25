@@ -1,1 +1,50 @@
-{"89":{"tagDescription":["Missing / Manque"]},"14":{"tagDescription":["Missing / Manque"]},"21":{"tagDescription":["Missing / Manque"]},"1951":{"tagDate":["[1930-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"],"tagDescription":["China"]},"69":{"tagDescription":["Missing / Manque"]},"413":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["China: General file Outbreaks in China, Japan, etc -Danger to Canadian Missionaries"]},"90":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["China General file. Outbreaks in China, Japan, etc -Danger to Canadian Missionaries"]},"22":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],"tagDescription":["Case of Mr. George S. Ham -Detention in Mexican prison"]},"15":{"tagDate":["1911-01-01T00:00:00.000Z"],"tagDescription":["Importation of dogs into Jamaica"]},"1104":{"tagDate":["1927-01-01T00:00:00.000Z"],"tagDescription":["China: General file Outbreaks in China, Japan, etc -Danger to Canadian Missionaries"]},"71":{"tagDate":["1911-01-01T00:00:00.000Z"],"tagDescription":["Extradition Treaty between the United Kingdom and Paraguay"]},"704":{"tagDescription":["Ibid"],"tagDate":["[1925-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]},"1410":{"tagDescription":["Ibid"],"tagDate":["[1928-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]}}
+{
+  "89": { "tagDescription": ["Missing / Manque"] },
+  "14": { "tagDescription": ["Missing / Manque"] },
+  "21": { "tagDescription": ["Missing / Manque"] },
+  "1951": {
+    "tagDate": ["[1930-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"],
+    "tagDescription": ["China"]
+  },
+  "69": { "tagDescription": ["Missing / Manque"] },
+  "413": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "China: General file Outbreaks in China, Japan, etc -Danger to Canadian Missionaries"
+    ]
+  },
+  "90": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "China General file. Outbreaks in China, Japan, etc -Danger to Canadian Missionaries"
+    ]
+  },
+  "22": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Case of Mr. George S. Ham -Detention in Mexican prison"]
+  },
+  "15": {
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagDescription": ["Importation of dogs into Jamaica"]
+  },
+  "1104": {
+    "tagDate": ["1927-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "China: General file Outbreaks in China, Japan, etc -Danger to Canadian Missionaries"
+    ]
+  },
+  "71": {
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Extradition Treaty between the United Kingdom and Paraguay"
+    ]
+  },
+  "704": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "1410": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1928-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]
+  }
+}

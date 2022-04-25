@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",95],["fra","c","committees","33-1",145]],"type":"committees","session":["33-1"],"language":["eng","fra"],"callNumber":"33-1 L2 A1 no.46-73A","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Labour, Employment and Immigration, vol. 3 no. 46-73A = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent du travail, de l'emploi et de l'immigration, vol. 3 no. 46-73A","pubmin":"1984-11-05"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 95],
+    ["fra", "c", "committees", "33-1", 145]
+  ],
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-1 L2 A1 no.46-73A",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Labour, Employment and Immigration, vol. 3 no. 46-73A = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent du travail, de l'emploi et de l'immigration, vol. 3 no. 46-73A",
+  "pubmin": "1984-11-05"
+}

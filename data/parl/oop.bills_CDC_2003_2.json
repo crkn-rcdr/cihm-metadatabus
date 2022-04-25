@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["20-3"],"pubmin":"1947-01-30","label":"Projets de loi de la Chambre des communes, 20e Législature, 3e Session : 255-457","callNumber":"KE72 C361 20-3 255-457","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"type":"bills","node":[["fra","c","bills","20-3",2]],"pubmax":"1947-07-17"}
+{
+  "language": ["fra"],
+  "session": ["20-3"],
+  "pubmin": "1947-01-30",
+  "label": "Projets de loi de la Chambre des communes, 20e Législature, 3e Session : 255-457",
+  "callNumber": "KE72 C361 20-3 255-457",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "20-3", 2]],
+  "pubmax": "1947-07-17"
+}

@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"committees","pubmax":"1978-10-10","node":[["eng","s","committees","30-3",2],["fra","s","committees","30-3",4]],"language":["eng","fra"],"session":["30-3"],"pubmin":"1977-10-18","callNumber":"1977/78 B3 A1 v.1","label":"Senate Committees, 30th Parliament, 3rd Session : Standing Committee on Banking, Trade and Commerce, vol. 1 = Comités du Sénat, 30e Législature, 3e Session : Comité permanent des banques et du commerce, vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1978-10-10",
+  "node": [
+    ["eng", "s", "committees", "30-3", 2],
+    ["fra", "s", "committees", "30-3", 4]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["30-3"],
+  "pubmin": "1977-10-18",
+  "callNumber": "1977/78 B3 A1 v.1",
+  "label": "Senate Committees, 30th Parliament, 3rd Session : Standing Committee on Banking, Trade and Commerce, vol. 1 = Comités du Sénat, 30e Législature, 3e Session : Comité permanent des banques et du commerce, vol. 1"
+}

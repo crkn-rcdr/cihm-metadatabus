@@ -1,1 +1,15 @@
-{"session":["28-1","28-2"],"language":["eng","fra"],"callNumber":"JL164.4 1969 Oct.","label":"Standing Orders of the House of Commons, October 1969 = Règlement de la Chambre des communes, octobre 1969","pubmin":"1968-09-12","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1970-10-07","node":[["eng","c","orders",null,12],["fra","c","orders",null,12]],"type":"orders"}
+{
+  "session": ["28-1", "28-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "JL164.4 1969 Oct.",
+  "label": "Standing Orders of the House of Commons, October 1969 = Règlement de la Chambre des communes, octobre 1969",
+  "pubmin": "1968-09-12",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1970-10-07",
+  "node": [
+    ["eng", "c", "orders", null, 12],
+    ["fra", "c", "orders", null, 12]
+  ],
+  "type": "orders"
+}

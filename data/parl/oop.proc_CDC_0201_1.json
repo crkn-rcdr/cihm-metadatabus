@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["02-1"],"pubmin":"1873-03-05","label":"Procès-verbaux de la Chambre des communes, 2e Législature, 1re Session : 1-59","callNumber":"J103 H44 1873","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"cproc","node":[["fra","c","cproc","02-1",1]],"pubmax":"1873-08-13"}
+{
+  "language": ["fra"],
+  "session": ["02-1"],
+  "pubmin": "1873-03-05",
+  "label": "Procès-verbaux de la Chambre des communes, 2e Législature, 1re Session : 1-59",
+  "callNumber": "J103 H44 1873",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "02-1", 1]],
+  "pubmax": "1873-08-13"
+}

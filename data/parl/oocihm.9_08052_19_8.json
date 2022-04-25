@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["05-4"],"pubmin":"1886-02-25","label":"Sessional Papers, 5th Parliament, 4th Session : vol. 8","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"sessional","node":[["eng","c","sessional","05-4",8]],"pubmax":"1886-06-02"}
+{
+  "language": ["eng"],
+  "session": ["05-4"],
+  "pubmin": "1886-02-25",
+  "label": "Sessional Papers, 5th Parliament, 4th Session : vol. 8",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["eng", "c", "sessional", "05-4", 8]],
+  "pubmax": "1886-06-02"
+}

@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Diefenbaker, John George","type":"committees","pubmax":"1960-08-10","node":[["eng","c","committees","24-3",9]],"language":["eng"],"session":["24-3"],"pubmin":"1960-01-14","callNumber":"1960 M5 A1","label":"House of Commons Committees, 24th Parliament, 3rd Session : Standing Committee on Mines, Forests and Waters, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "type": "committees",
+  "pubmax": "1960-08-10",
+  "node": [["eng", "c", "committees", "24-3", 9]],
+  "language": ["eng"],
+  "session": ["24-3"],
+  "pubmin": "1960-01-14",
+  "callNumber": "1960 M5 A1",
+  "label": "House of Commons Committees, 24th Parliament, 3rd Session : Standing Committee on Mines, Forests and Waters, vol. 1"
+}

@@ -1,1 +1,10 @@
-{"pubmin":"1951-01-30","label":"Journaux du Sénat, 21e Législature, 4e Session : Vol. 94","language":["fra"],"session":["21-4"],"type":"journals","node":[["fra","s","journals","21-4",1]],"pubmax":"1951-10-09","chamber":["s"]}
+{
+  "pubmin": "1951-01-30",
+  "label": "Journaux du Sénat, 21e Législature, 4e Session : Vol. 94",
+  "language": ["fra"],
+  "session": ["21-4"],
+  "type": "journals",
+  "node": [["fra", "s", "journals", "21-4", 1]],
+  "pubmax": "1951-10-09",
+  "chamber": ["s"]
+}

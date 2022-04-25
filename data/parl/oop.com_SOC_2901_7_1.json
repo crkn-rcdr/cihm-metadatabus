@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","29-1",10]],"pubmax":"1974-02-26","language":["eng"],"session":["29-1"],"pubmin":"1973-01-04","label":"Senate Committees, 29th Parliament, 1st Session : Special Committee on Science Policy, Report vol. 3","callNumber":"1973/74 S3 A12"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "29-1", 10]],
+  "pubmax": "1974-02-26",
+  "language": ["eng"],
+  "session": ["29-1"],
+  "pubmin": "1973-01-04",
+  "label": "Senate Committees, 29th Parliament, 1st Session : Special Committee on Science Policy, Report vol. 3",
+  "callNumber": "1973/74 S3 A12"
+}

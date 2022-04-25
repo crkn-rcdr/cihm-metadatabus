@@ -1,1 +1,15 @@
-{"callNumber":"34-2 F553 A1 no.63-81","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Finance, vol. 4 no. 63-81 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des finances, vol. 4 no. 63-81","pubmin":"1989-04-03","session":["34-2"],"language":["eng","fra"],"pubmax":"1991-05-12","node":[["eng","c","committees","34-2",82],["fra","c","committees","34-2",106]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-2 F553 A1 no.63-81",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Finance, vol. 4 no. 63-81 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des finances, vol. 4 no. 63-81",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 82],
+    ["fra", "c", "committees", "34-2", 106]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["26-1"],"pubmin":"1963-05-16","label":"Comités du Sénat, 26e Législature, 1re Session : Comité permanent des transports et communications, vol. 1","callNumber":"1963 T7 A42","chamber":["s"],"type":"committees","node":[["fra","s","committees","26-1",4]],"pubmax":"1963-12-21"}
+{
+  "language": ["fra"],
+  "session": ["26-1"],
+  "pubmin": "1963-05-16",
+  "label": "Comités du Sénat, 26e Législature, 1re Session : Comité permanent des transports et communications, vol. 1",
+  "callNumber": "1963 T7 A42",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "26-1", 4]],
+  "pubmax": "1963-12-21"
+}

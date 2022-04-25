@@ -1,1 +1,11 @@
-{"type":"debates","pubmax":"1932-05-26","node":[["eng","c","debates","17-3",3]],"chamber":["c"],"primeMinisters":"Bennett, Richard Bedford","pubmin":"1932-02-04","label":"House of Commons Debates, 17th Parliament, 3rd Session : Vol. 3","language":["eng"],"session":["17-3"]}
+{
+  "type": "debates",
+  "pubmax": "1932-05-26",
+  "node": [["eng", "c", "debates", "17-3", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "pubmin": "1932-02-04",
+  "label": "House of Commons Debates, 17th Parliament, 3rd Session : Vol. 3",
+  "language": ["eng"],
+  "session": ["17-3"]
+}

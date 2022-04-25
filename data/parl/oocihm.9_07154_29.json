@@ -1,1 +1,10 @@
-{"type":"journals","node":[["eng","s","journals","07-5",1]],"pubmax":"1895-07-22","chamber":["s"],"pubmin":"1895-04-18","label":"Senate Journals, 7th Parliament, 5th Session : Vol. 29","language":["eng"],"session":["07-5"]}
+{
+  "type": "journals",
+  "node": [["eng", "s", "journals", "07-5", 1]],
+  "pubmax": "1895-07-22",
+  "chamber": ["s"],
+  "pubmin": "1895-04-18",
+  "label": "Senate Journals, 7th Parliament, 5th Session : Vol. 29",
+  "language": ["eng"],
+  "session": ["07-5"]
+}

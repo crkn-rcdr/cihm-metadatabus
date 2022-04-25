@@ -1,1 +1,12 @@
-{"language":["fra"],"session":["21-7"],"pubmin":"1952-11-20","label":"Comités de la Chambre des communes, 21e Législature, 7e Session : Comité spécial sur le bill 107, Loi modifiant la Loi sur les postes, vol. 1","callNumber":"1952/53 P6 A4","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"type":"committees","node":[["fra","c","committees","21-7",10]],"pubmax":"1953-05-14"}
+{
+  "language": ["fra"],
+  "session": ["21-7"],
+  "pubmin": "1952-11-20",
+  "label": "Comités de la Chambre des communes, 21e Législature, 7e Session : Comité spécial sur le bill 107, Loi modifiant la Loi sur les postes, vol. 1",
+  "callNumber": "1952/53 P6 A4",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "21-7", 10]],
+  "pubmax": "1953-05-14"
+}

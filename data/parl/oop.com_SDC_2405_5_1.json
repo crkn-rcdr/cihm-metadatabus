@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["24-5"],"pubmin":"1962-01-18","label":"Comités du Sénat, 24e Législature, 5e Session : Comité permanent du tourisme, vol. 1","callNumber":"1962 T6 A42","chamber":["s"],"type":"committees","node":[["fra","s","committees","24-5",6]],"pubmax":"1962-04-19"}
+{
+  "language": ["fra"],
+  "session": ["24-5"],
+  "pubmin": "1962-01-18",
+  "label": "Comités du Sénat, 24e Législature, 5e Session : Comité permanent du tourisme, vol. 1",
+  "callNumber": "1962 T6 A42",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "24-5", 6]],
+  "pubmax": "1962-04-19"
+}

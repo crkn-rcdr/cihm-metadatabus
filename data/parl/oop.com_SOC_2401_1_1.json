@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"committees","pubmax":"1958-09-06","node":[["eng","s","committees","24-1",1]],"language":["eng"],"session":["24-1"],"pubmin":"1958-05-12","callNumber":"1958 B35 A1","label":"Senate Committees, 24th Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1958-09-06",
+  "node": [["eng", "s", "committees", "24-1", 1]],
+  "language": ["eng"],
+  "session": ["24-1"],
+  "pubmin": "1958-05-12",
+  "callNumber": "1958 B35 A1",
+  "label": "Senate Committees, 24th Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 1"
+}

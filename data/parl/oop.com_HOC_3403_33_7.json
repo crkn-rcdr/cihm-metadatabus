@@ -1,1 +1,13 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",65]],"type":"committees","session":["34-3"],"reportTitle":["Ozone Depletion: Acting Responsibly"],"language":["eng"],"callNumber":"34-3 E582 A123","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Environment, Fourth Report","pubmin":"1991-05-13"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [["eng", "c", "committees", "34-3", 65]],
+  "type": "committees",
+  "session": ["34-3"],
+  "reportTitle": ["Ozone Depletion: Acting Responsibly"],
+  "language": ["eng"],
+  "callNumber": "34-3 E582 A123",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Environment, Fourth Report",
+  "pubmin": "1991-05-13"
+}

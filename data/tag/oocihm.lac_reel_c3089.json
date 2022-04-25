@@ -1,1 +1,46 @@
-{"365":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["69. D 310 No . 1 Department of Munitions and Supply."]},"209":{"tagDescription":["68. D 300 No. 2 Department of Mines and Resources."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"722":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["71. D 310 No . 3 Department of Munitions and Supply."]},"927":{"tagDescription":["72. D 310 No . 4 Department of Munitions and Supply."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]},"1175":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["74. D 310 No . 6 Department of Munitions and Supply."]},"1115":{"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."],"tagDescription":["73. D 310 No . 5 Department of Munitions and Supply."]},"448":{"tagDescription":["70. D 310 No . 2 Department of Munitions and Supply. - 1941."],"tagNotebook":["LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."]}}
+{
+  "365": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["69. D 310 No . 1 Department of Munitions and Supply."]
+  },
+  "209": {
+    "tagDescription": ["68. D 300 No. 2 Department of Mines and Resources."],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "722": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["71. D 310 No . 3 Department of Munitions and Supply."]
+  },
+  "927": {
+    "tagDescription": ["72. D 310 No . 4 Department of Munitions and Supply."],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  },
+  "1175": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["74. D 310 No . 6 Department of Munitions and Supply."]
+  },
+  "1115": {
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ],
+    "tagDescription": ["73. D 310 No . 5 Department of Munitions and Supply."]
+  },
+  "448": {
+    "tagDescription": [
+      "70. D 310 No . 2 Department of Munitions and Supply. - 1941."
+    ],
+    "tagNotebook": [
+      "LEADER OF THE OPPOSITION SUBJECT FILES - 1940 TO 1943. VOLS. 12 TO 85."
+    ]
+  }
+}

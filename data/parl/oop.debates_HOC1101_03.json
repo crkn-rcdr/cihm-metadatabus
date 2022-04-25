@@ -1,1 +1,11 @@
-{"session":["11-1"],"language":["eng"],"label":"House of Commons Debates, 11th Parliament, 1st Session : Vol. 3","pubmin":"1909-01-20","primeMinisters":"Laurier, Wilfrid","chamber":["c"],"node":[["eng","c","debates","11-1",3]],"pubmax":"1909-05-19","type":"debates"}
+{
+  "session": ["11-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 11th Parliament, 1st Session : Vol. 3",
+  "pubmin": "1909-01-20",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "11-1", 3]],
+  "pubmax": "1909-05-19",
+  "type": "debates"
+}

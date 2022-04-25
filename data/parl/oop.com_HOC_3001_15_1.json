@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1976-10-12","node":[["eng","c","committees","30-1",38],["fra","c","committees","30-1",9]],"type":"committees","session":["30-1"],"language":["eng","fra"],"callNumber":"1974/76 M55 A1","label":"House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Miscellaneous Private Bills and Standing Orders, vol. 1 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent des bills privés en général et du Règlement, vol. 1","pubmin":"1974-09-30"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1976-10-12",
+  "node": [
+    ["eng", "c", "committees", "30-1", 38],
+    ["fra", "c", "committees", "30-1", 9]
+  ],
+  "type": "committees",
+  "session": ["30-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "1974/76 M55 A1",
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Miscellaneous Private Bills and Standing Orders, vol. 1 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent des bills privés en général et du Règlement, vol. 1",
+  "pubmin": "1974-09-30"
+}

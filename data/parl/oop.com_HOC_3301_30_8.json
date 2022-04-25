@@ -1,1 +1,15 @@
-{"pubmin":"1984-11-05","callNumber":"33-1 F55 A1 no.75-85","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 8 no. 75-85 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, vol. 8 no. 75-85","language":["eng","fra"],"session":["33-1"],"type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",68],["fra","c","committees","33-1",60]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 F55 A1 no.75-85",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 8 no. 75-85 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, vol. 8 no. 75-85",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 68],
+    ["fra", "c", "committees", "33-1", 60]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

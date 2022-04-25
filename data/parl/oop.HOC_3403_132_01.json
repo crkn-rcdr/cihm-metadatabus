@@ -1,1 +1,14 @@
-{"node":[["eng","c","journals","34-3",1],["fra","c","journals","34-3",1]],"pubmax":"1993-09-08","type":"journals","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"label":"House of Commons Journals, 34th Parliament, 3rd Session : Vol. 132 Pt. 1 = Journaux de la Chambre des communes, 34e Législature, 3e Session : Vol. 132 Pt. 1","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "c", "journals", "34-3", 1],
+    ["fra", "c", "journals", "34-3", 1]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "journals",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "House of Commons Journals, 34th Parliament, 3rd Session : Vol. 132 Pt. 1 = Journaux de la Chambre des communes, 34e Législature, 3e Session : Vol. 132 Pt. 1",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

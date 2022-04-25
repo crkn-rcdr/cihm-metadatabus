@@ -1,1 +1,11 @@
-{"pubmin":"1962-01-18","label":"Projets de loi du Sénat, 24e Législature, 5e Session : SD1-SD125","callNumber":"KE72 C381 24-5 SD1-SD125","language":["fra"],"session":["24-5"],"type":"bills","node":[["fra","s","bills","24-5",2]],"pubmax":"1962-04-19","chamber":["s"]}
+{
+  "pubmin": "1962-01-18",
+  "label": "Projets de loi du Sénat, 24e Législature, 5e Session : SD1-SD125",
+  "callNumber": "KE72 C381 24-5 SD1-SD125",
+  "language": ["fra"],
+  "session": ["24-5"],
+  "type": "bills",
+  "node": [["fra", "s", "bills", "24-5", 2]],
+  "pubmax": "1962-04-19",
+  "chamber": ["s"]
+}

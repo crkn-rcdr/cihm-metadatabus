@@ -1,1 +1,61 @@
-{"303":{"tagDescription":["Missing / Manque"]},"1590":{"tagDate":["[1907-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],"tagDescription":["Naval and Military Defence of Canada. -Conference at London  1909"]},"543":{"tagDescription":["International Institute of Agriculture. Shows exhibitions, Congresses"],"tagDate":["[1906-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]},"1379":{"tagDate":["1909-01-01T00:00:00.000Z"],"tagDescription":["Naval and Military Defence of Canada"]},"1927":{"tagDescription":["Naval and Military Defence of Canada  Imperial"],"tagDate":["1910-01-01T00:00:00.000Z"]},"305":{"tagDescription":["The Earl of Minto"],"tagDate":["[1900-01-01T00:00:00.000Z TO 1904-12-31T23:59:59.999Z]"]},"1247":{"tagDescription":["Conservation of Natural Resources -Conference at Washington 1909"],"tagDate":["[1909-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]},"410":{"tagDescription":["International Institute of Agriculture"],"tagDate":["[1914-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"18":{"tagDescription":["Trade relations with the West Indies"],"tagDate":["[1927-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]},"383":{"tagDescription":["Secretary to the Governor General -Secret and personal letters to the Colonial office"],"tagDate":["1916-01-01T00:00:00.000Z"]},"819":{"tagDate":["[1906-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["Prints"]},"1044":{"tagDate":["[1897-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],"tagDescription":["Succession (Death) Duties"]},"1782":{"tagDate":["1909-01-01T00:00:00.000Z"],"tagDescription":["Sub-file of file 343 Pt.1 Canadas share in Imperial Defence. Press reports of speeches and copies of Hansard"]}}
+{
+  "303": { "tagDescription": ["Missing / Manque"] },
+  "1590": {
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Naval and Military Defence of Canada. -Conference at London  1909"
+    ]
+  },
+  "543": {
+    "tagDescription": [
+      "International Institute of Agriculture. Shows exhibitions, Congresses"
+    ],
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"]
+  },
+  "1379": {
+    "tagDate": ["1909-01-01T00:00:00.000Z"],
+    "tagDescription": ["Naval and Military Defence of Canada"]
+  },
+  "1927": {
+    "tagDescription": ["Naval and Military Defence of Canada  Imperial"],
+    "tagDate": ["1910-01-01T00:00:00.000Z"]
+  },
+  "305": {
+    "tagDescription": ["The Earl of Minto"],
+    "tagDate": ["[1900-01-01T00:00:00.000Z TO 1904-12-31T23:59:59.999Z]"]
+  },
+  "1247": {
+    "tagDescription": [
+      "Conservation of Natural Resources -Conference at Washington 1909"
+    ],
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  },
+  "410": {
+    "tagDescription": ["International Institute of Agriculture"],
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "18": {
+    "tagDescription": ["Trade relations with the West Indies"],
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]
+  },
+  "383": {
+    "tagDescription": [
+      "Secretary to the Governor General -Secret and personal letters to the Colonial office"
+    ],
+    "tagDate": ["1916-01-01T00:00:00.000Z"]
+  },
+  "819": {
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Prints"]
+  },
+  "1044": {
+    "tagDate": ["[1897-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Succession (Death) Duties"]
+  },
+  "1782": {
+    "tagDate": ["1909-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Sub-file of file 343 Pt.1 Canadas share in Imperial Defence. Press reports of speeches and copies of Hansard"
+    ]
+  }
+}

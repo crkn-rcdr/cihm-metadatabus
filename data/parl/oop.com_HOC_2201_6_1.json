@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","type":"committees","pubmax":"1954-06-26","node":[["eng","c","committees","22-1",9]],"language":["eng"],"session":["22-1"],"pubmin":"1953-11-12","callNumber":"1953/54 R34 A1","label":"House of Commons Committees, 22nd Parliament, 1st Session : Standing Committee on Railways, Canals and Telegraph Lines, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "committees",
+  "pubmax": "1954-06-26",
+  "node": [["eng", "c", "committees", "22-1", 9]],
+  "language": ["eng"],
+  "session": ["22-1"],
+  "pubmin": "1953-11-12",
+  "callNumber": "1953/54 R34 A1",
+  "label": "House of Commons Committees, 22nd Parliament, 1st Session : Standing Committee on Railways, Canals and Telegraph Lines, vol. 1"
+}

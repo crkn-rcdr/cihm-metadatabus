@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"sproc","node":[["eng","s","sproc","26-2",2]],"pubmax":"1965-04-03","language":["eng"],"session":["26-2"],"pubmin":"1964-02-18","label":"Senate Minutes of Proceedings, 26th Parliament, 2nd Session : 51-106","callNumber":"J103 H4 1964 v.2 c.2"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "26-2", 2]],
+  "pubmax": "1965-04-03",
+  "language": ["eng"],
+  "session": ["26-2"],
+  "pubmin": "1964-02-18",
+  "label": "Senate Minutes of Proceedings, 26th Parliament, 2nd Session : 51-106",
+  "callNumber": "J103 H4 1964 v.2 c.2"
+}

@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["03-1"],"pubmin":"1874-03-26","label":"Documents parlementaires, 3e Législature, 1re Session : vol. 6","chamber":["c"],"primeMinisters":"Mackenzie, Alexander","type":"sessional","pubmax":"1874-05-26","node":[["fra","c","sessional","03-1",6]]}
+{
+  "language": ["fra"],
+  "session": ["03-1"],
+  "pubmin": "1874-03-26",
+  "label": "Documents parlementaires, 3e Législature, 1re Session : vol. 6",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "type": "sessional",
+  "pubmax": "1874-05-26",
+  "node": [["fra", "c", "sessional", "03-1", 6]]
+}

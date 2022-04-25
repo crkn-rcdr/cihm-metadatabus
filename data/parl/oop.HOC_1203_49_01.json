@@ -1,1 +1,11 @@
-{"pubmin":"1914-01-15","label":"House of Commons Journals, 12th Parliament, 3rd Session : Vol. 49","language":["eng"],"session":["12-3"],"type":"journals","pubmax":"1914-06-12","node":[["eng","c","journals","12-3",1]],"chamber":["c"],"primeMinisters":"Borden, Robert Laird"}
+{
+  "pubmin": "1914-01-15",
+  "label": "House of Commons Journals, 12th Parliament, 3rd Session : Vol. 49",
+  "language": ["eng"],
+  "session": ["12-3"],
+  "type": "journals",
+  "pubmax": "1914-06-12",
+  "node": [["eng", "c", "journals", "12-3", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird"
+}

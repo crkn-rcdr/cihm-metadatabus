@@ -1,1 +1,13 @@
-{"pubmin":"1980-04-14","callNumber":"J103 H7 1980/83 D5 A126f","label":"Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial concernant les invalides et les handicapés, Cinquième rapport","language":["fra"],"reportTitle":["Obstacles : cinquième rapport"],"session":["32-1"],"type":"committees","pubmax":"1983-11-30","node":[["fra","c","committees","32-1",71]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "pubmin": "1980-04-14",
+  "callNumber": "J103 H7 1980/83 D5 A126f",
+  "label": "Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial concernant les invalides et les handicapés, Cinquième rapport",
+  "language": ["fra"],
+  "reportTitle": ["Obstacles : cinquième rapport"],
+  "session": ["32-1"],
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [["fra", "c", "committees", "32-1", 71]],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

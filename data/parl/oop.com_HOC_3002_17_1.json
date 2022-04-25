@@ -1,1 +1,15 @@
-{"session":["30-2"],"language":["eng","fra"],"callNumber":"1976/77 R4 A1","label":"House of Commons Committees, 30th Parliament, 2nd Session : Standing Committee on Regional Development, vol. 1 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité permanent de l'expansion économique régionale, vol. 1","pubmin":"1976-10-12","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1977-10-17","node":[["eng","c","committees","30-2",35],["fra","c","committees","30-2",12]],"type":"committees"}
+{
+  "session": ["30-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "1976/77 R4 A1",
+  "label": "House of Commons Committees, 30th Parliament, 2nd Session : Standing Committee on Regional Development, vol. 1 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité permanent de l'expansion économique régionale, vol. 1",
+  "pubmin": "1976-10-12",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "c", "committees", "30-2", 35],
+    ["fra", "c", "committees", "30-2", 12]
+  ],
+  "type": "committees"
+}

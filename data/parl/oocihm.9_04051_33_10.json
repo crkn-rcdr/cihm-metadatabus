@@ -1,1 +1,11 @@
-{"type":"sessional","pubmax":"1899-08-11","node":[["fra","c","sessional","08-4",11]],"chamber":["c"],"primeMinisters":"Laurier, Wilfrid","pubmin":"1899-03-16","label":"Documents parlementaires, 8e Législature, 4e Session : vol. 11","language":["fra"],"session":["08-4"]}
+{
+  "type": "sessional",
+  "pubmax": "1899-08-11",
+  "node": [["fra", "c", "sessional", "08-4", 11]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "pubmin": "1899-03-16",
+  "label": "Documents parlementaires, 8e Législature, 4e Session : vol. 11",
+  "language": ["fra"],
+  "session": ["08-4"]
+}

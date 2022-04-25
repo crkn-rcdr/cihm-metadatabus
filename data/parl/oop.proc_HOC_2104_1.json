@@ -1,1 +1,12 @@
-{"pubmin":"1951-01-30","label":"House of Commons Votes and Proceedings, 21st Parliament, 4th Session : 1-105","callNumber":"J103 H41 1951 c.2","language":["eng"],"session":["21-4"],"type":"cproc","node":[["eng","c","cproc","21-4",1]],"pubmax":"1951-10-09","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"]}
+{
+  "pubmin": "1951-01-30",
+  "label": "House of Commons Votes and Proceedings, 21st Parliament, 4th Session : 1-105",
+  "callNumber": "J103 H41 1951 c.2",
+  "language": ["eng"],
+  "session": ["21-4"],
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "21-4", 1]],
+  "pubmax": "1951-10-09",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

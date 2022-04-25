@@ -1,1 +1,13 @@
-{"pubmin":"1996-02-27","label":"Senate Bills, 35th Parliament, 2nd Session : S2-S16 = Projets de loi du Sénat, 35e Législature, 2e Session : S2-S16","language":["eng","fra"],"session":["35-2"],"type":"bills","pubmax":"1997-04-27","node":[["eng","s","bills","35-2",1],["fra","s","bills","35-2",1]],"chamber":["s"]}
+{
+  "pubmin": "1996-02-27",
+  "label": "Senate Bills, 35th Parliament, 2nd Session : S2-S16 = Projets de loi du Sénat, 35e Législature, 2e Session : S2-S16",
+  "language": ["eng", "fra"],
+  "session": ["35-2"],
+  "type": "bills",
+  "pubmax": "1997-04-27",
+  "node": [
+    ["eng", "s", "bills", "35-2", 1],
+    ["fra", "s", "bills", "35-2", 1]
+  ],
+  "chamber": ["s"]
+}

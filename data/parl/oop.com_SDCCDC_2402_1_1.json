@@ -1,1 +1,15 @@
-{"pubmin":"1959-01-15","label":"Comités mixtes, 24e Législature, 2e Session : Comité mixte chargé d'enquêter sur les affaires indiennes, vol. 1","callNumber":"1959 I6 A44","language":["fra"],"session":["24-2"],"type":"committees","node":[["fra","c","committees","24-2",3],["fra","s","committees","24-2",1]],"pubmax":"1959-07-18","primeMinisters":"Diefenbaker, John George","chamber":["c","s"]}
+{
+  "pubmin": "1959-01-15",
+  "label": "Comités mixtes, 24e Législature, 2e Session : Comité mixte chargé d'enquêter sur les affaires indiennes, vol. 1",
+  "callNumber": "1959 I6 A44",
+  "language": ["fra"],
+  "session": ["24-2"],
+  "type": "committees",
+  "node": [
+    ["fra", "c", "committees", "24-2", 3],
+    ["fra", "s", "committees", "24-2", 1]
+  ],
+  "pubmax": "1959-07-18",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c", "s"]
+}

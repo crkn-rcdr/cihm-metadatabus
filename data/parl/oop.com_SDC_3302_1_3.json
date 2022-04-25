@@ -1,1 +1,12 @@
-{"chamber":["s"],"pubmax":"1988-10-01","node":[["fra","s","committees","33-2",13]],"type":"committees","session":["33-2"],"reportTitle":["Le financement de la ferme familiale jusqu'à l'an 2000"],"language":["fra"],"callNumber":"33-2 A32 A12","label":"Comités du Sénat, 33e Législature, 2e Session : Comité permanent de l'agriculture et des forêts, Rapport","pubmin":"1986-09-30"}
+{
+  "chamber": ["s"],
+  "pubmax": "1988-10-01",
+  "node": [["fra", "s", "committees", "33-2", 13]],
+  "type": "committees",
+  "session": ["33-2"],
+  "reportTitle": ["Le financement de la ferme familiale jusqu'à l'an 2000"],
+  "language": ["fra"],
+  "callNumber": "33-2 A32 A12",
+  "label": "Comités du Sénat, 33e Législature, 2e Session : Comité permanent de l'agriculture et des forêts, Rapport",
+  "pubmin": "1986-09-30"
+}

@@ -1,1 +1,12 @@
-{"node":[["fra","c","cproc","09-2",1]],"pubmax":"1902-05-15","type":"cproc","primeMinisters":"Laurier, Wilfrid","chamber":["c"],"label":"Procès-verbaux de la Chambre des communes, 9e Législature, 2e Session : 1-63","callNumber":"J103 H44 1902","pubmin":"1902-02-13","session":["09-2"],"language":["fra"]}
+{
+  "node": [["fra", "c", "cproc", "09-2", 1]],
+  "pubmax": "1902-05-15",
+  "type": "cproc",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "label": "Procès-verbaux de la Chambre des communes, 9e Législature, 2e Session : 1-63",
+  "callNumber": "J103 H44 1902",
+  "pubmin": "1902-02-13",
+  "session": ["09-2"],
+  "language": ["fra"]
+}

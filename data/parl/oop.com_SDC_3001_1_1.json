@@ -1,1 +1,14 @@
-{"chamber":["s"],"node":[["fra","s","committees","30-1",6]],"pubmax":"1976-10-12","type":"committees","session":["30-1"],"language":["fra"],"reportTitle":["Sauvons le Comté de Kent. Une enquête sur l'avenir de l'agriculture dans l'Est du Nouveau-Brunswick"],"label":"Comités du Sénat, 30e Législature, 1re Session : Comité permanent de l'agriculture, Rapport","callNumber":"1974/76 A32 A12","pubmin":"1974-09-30"}
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "committees", "30-1", 6]],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "session": ["30-1"],
+  "language": ["fra"],
+  "reportTitle": [
+    "Sauvons le Comté de Kent. Une enquête sur l'avenir de l'agriculture dans l'Est du Nouveau-Brunswick"
+  ],
+  "label": "Comités du Sénat, 30e Législature, 1re Session : Comité permanent de l'agriculture, Rapport",
+  "callNumber": "1974/76 A32 A12",
+  "pubmin": "1974-09-30"
+}

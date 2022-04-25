@@ -1,1 +1,16 @@
-{"89":{"tagDescription":["LEWIS AND CLARK EXPEDITION History of the expedition of Captains Lewis and Clark 1804-5-6. Reprinted from the edition of 1814, by James K. Kosmer, in two volumes with portraits and maps (Chicago: A.C. McClurg & Co., 1904), 583 and 500 pages; and Gass's Journal of the Lewis and Clark Expedition, by Sergeant Patrick Gass, one of the persons employed in the expedition, reprinted from the edition of 1811 (Chicago: A.C. McClurg & Co., 1904), 298 pages."],"tagDate":["1904-01-01T00:00:00.000Z"],"tagPerson":["LEWIS AND CLARK EXPEDITION"]},"10":{"tagDescription":["CHIPPEWA JOURNAL Anishinabe Enamiad. A monthly journal devoted to the interests of the Franciscan missions among the Ottawa and Chippewa Indians. (Bound in two volumes, volumes 1-14, March 1896-February 1910)."],"tagPerson":["CHIPPEWA JOURNAL"],"tagDate":["[1896-03-01T00:00:00.000Z TO 1910-02-28T23:59:59.999Z]"]}}
+{
+  "89": {
+    "tagDescription": [
+      "LEWIS AND CLARK EXPEDITION History of the expedition of Captains Lewis and Clark 1804-5-6. Reprinted from the edition of 1814, by James K. Kosmer, in two volumes with portraits and maps (Chicago: A.C. McClurg & Co., 1904), 583 and 500 pages; and Gass's Journal of the Lewis and Clark Expedition, by Sergeant Patrick Gass, one of the persons employed in the expedition, reprinted from the edition of 1811 (Chicago: A.C. McClurg & Co., 1904), 298 pages."
+    ],
+    "tagDate": ["1904-01-01T00:00:00.000Z"],
+    "tagPerson": ["LEWIS AND CLARK EXPEDITION"]
+  },
+  "10": {
+    "tagDescription": [
+      "CHIPPEWA JOURNAL Anishinabe Enamiad. A monthly journal devoted to the interests of the Franciscan missions among the Ottawa and Chippewa Indians. (Bound in two volumes, volumes 1-14, March 1896-February 1910)."
+    ],
+    "tagPerson": ["CHIPPEWA JOURNAL"],
+    "tagDate": ["[1896-03-01T00:00:00.000Z TO 1910-02-28T23:59:59.999Z]"]
+  }
+}

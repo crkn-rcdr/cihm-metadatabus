@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",164],["fra","c","committees","34-3",26]],"type":"committees","session":["34-3"],"language":["eng","fra"],"callNumber":"34-3 P281 A1 no.7-9","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-91, an Act to amend the Patent Act, to amend another Act in consequence thereof and to provide for other related matters, vol. 2 no. 7-9 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-91, Loi modifiant la Loi sur les brevets ainsi qu'une autre loi en conséquence et prévoyant des dispositions connexes, vol. 2 no. 7-9","pubmin":"1991-05-13"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 164],
+    ["fra", "c", "committees", "34-3", 26]
+  ],
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-3 P281 A1 no.7-9",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-91, an Act to amend the Patent Act, to amend another Act in consequence thereof and to provide for other related matters, vol. 2 no. 7-9 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-91, Loi modifiant la Loi sur les brevets ainsi qu'une autre loi en conséquence et prévoyant des dispositions connexes, vol. 2 no. 7-9",
+  "pubmin": "1991-05-13"
+}

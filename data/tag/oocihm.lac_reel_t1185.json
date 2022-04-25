@@ -1,1 +1,55 @@
-{"669":{"tagDescription":["Ibid"],"tagDate":["[1906-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]},"2061":{"tagDescription":["Extradition of prisoners under Treaty between Great Britain and the United States"],"tagDate":["1876-01-01T00:00:00.000Z"]},"199":{"tagDescription":["Canadian National Exhibition, Toronot -Western Canada Association of Exhibitions -British Trade Exhibitions in Canada. Organization of  -Toronto Centennial Celebration"],"tagDate":["[1913-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]},"487":{"tagDescription":["Death Certificates -Estates of Foreign Nationals who have died within the Dominion -Estates of Britishers who have died within the Dominion Disposal of  -Report relating to the Registration of Births, Marriages and deaths in Ontario.(Nov 1914) -Validity for civil purposes of certificates of deaths issued by the ecclesiastical authorities in Canada (31/7/18)"],"tagDate":["[1920-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]},"1500":{"tagDate":["[1861-01-01T00:00:00.000Z TO 1869-12-31T23:59:59.999Z]"],"tagDescription":["Extradition Cases -1861:Extradition case of fugitive slave Anderson -1866-1867:Extardition case of Lamirande -1867-1868:Extradition case of Freeman B Smith -1868-1869:Extradition cases of Anderson and Reno"]},"323":{"tagDate":["[1909-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],"tagDescription":["Canadian National Exhibition, Toronot -Western Canada Association of Exhibitions -British Trade Exhibitions in Canada. Organization of  -Toronto Centennial Celebration"]},"874":{"tagDescription":["Death certificates -Disposal of estates of foreign nationals -An act to amend the law relating to certification of deaths and the disposal of the dead. (19/1/27)"],"tagDate":["[1927-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"977":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],"tagDescription":["Violent death or murder of Englishmen or Foreign Nationals in Canada. Investigation of -"]},"1095":{"tagDate":["[1909-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"],"tagDescription":["South African War -Pensions in respect of South African War -Pensions in respect of service in South African Constabulary -Application for the Queens and Kings South African Medals and\nclasps -Replacement of lost medal -Application for wound gratuities and arrears of Pay -Land grants in Canada in respect of service in South African War -Africa General Service Medal with Clasp (see file 233  South African War [up to 1905]) (see file 233-A  South African Constabulary [up to 1902])"]},"321":{"tagDescription":["Missing / Manque"]}}
+{
+  "669": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  },
+  "2061": {
+    "tagDescription": [
+      "Extradition of prisoners under Treaty between Great Britain and the United States"
+    ],
+    "tagDate": ["1876-01-01T00:00:00.000Z"]
+  },
+  "199": {
+    "tagDescription": [
+      "Canadian National Exhibition, Toronot -Western Canada Association of Exhibitions -British Trade Exhibitions in Canada. Organization of  -Toronto Centennial Celebration"
+    ],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]
+  },
+  "487": {
+    "tagDescription": [
+      "Death Certificates -Estates of Foreign Nationals who have died within the Dominion -Estates of Britishers who have died within the Dominion Disposal of  -Report relating to the Registration of Births, Marriages and deaths in Ontario.(Nov 1914) -Validity for civil purposes of certificates of deaths issued by the ecclesiastical authorities in Canada (31/7/18)"
+    ],
+    "tagDate": ["[1920-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "1500": {
+    "tagDate": ["[1861-01-01T00:00:00.000Z TO 1869-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Extradition Cases -1861:Extradition case of fugitive slave Anderson -1866-1867:Extardition case of Lamirande -1867-1868:Extradition case of Freeman B Smith -1868-1869:Extradition cases of Anderson and Reno"
+    ]
+  },
+  "323": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Canadian National Exhibition, Toronot -Western Canada Association of Exhibitions -British Trade Exhibitions in Canada. Organization of  -Toronto Centennial Celebration"
+    ]
+  },
+  "874": {
+    "tagDescription": [
+      "Death certificates -Disposal of estates of foreign nationals -An act to amend the law relating to certification of deaths and the disposal of the dead. (19/1/27)"
+    ],
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "977": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Violent death or murder of Englishmen or Foreign Nationals in Canada. Investigation of -"
+    ]
+  },
+  "1095": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1931-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "South African War -Pensions in respect of South African War -Pensions in respect of service in South African Constabulary -Application for the Queens and Kings South African Medals and\nclasps -Replacement of lost medal -Application for wound gratuities and arrears of Pay -Land grants in Canada in respect of service in South African War -Africa General Service Medal with Clasp (see file 233  South African War [up to 1905]) (see file 233-A  South African Constabulary [up to 1902])"
+    ]
+  },
+  "321": { "tagDescription": ["Missing / Manque"] }
+}

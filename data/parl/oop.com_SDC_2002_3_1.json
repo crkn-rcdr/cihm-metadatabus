@@ -1,1 +1,11 @@
-{"type":"committees","node":[["fra","s","committees","20-2",4]],"pubmax":"1946-08-31","chamber":["s"],"pubmin":"1946-03-14","label":"Comités du Sénat, 20e Législature, 2e Session : Comité permanent de l'immigration et du travail, vol. 1","callNumber":"1946 I5 A42","language":["fra"],"session":["20-2"]}
+{
+  "type": "committees",
+  "node": [["fra", "s", "committees", "20-2", 4]],
+  "pubmax": "1946-08-31",
+  "chamber": ["s"],
+  "pubmin": "1946-03-14",
+  "label": "Comités du Sénat, 20e Législature, 2e Session : Comité permanent de l'immigration et du travail, vol. 1",
+  "callNumber": "1946 I5 A42",
+  "language": ["fra"],
+  "session": ["20-2"]
+}

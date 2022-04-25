@@ -1,1 +1,74 @@
-{"75":{"tagName":["Second Series, 1911 - 1926"],"tagNotebook":["SUBJECT FILES, 1880 - 1929"],"tagDescription":["Repatriation - memorandum Concerning a colony for disabled soldiers with families and prospectuses Concerning the philanthropic and profit sharing venture The Dairydale Farm Company Limited, a scheme to assist dairy farmer veterans."],"tagDate":["1920-01-01T00:00:00.000Z"]},"352":{"tagDate":["[1925-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Speeches - speeches by Harold Sifton in the occasion of the 1926 election campaign as candidate for the federal riding of York."],"tagNotebook":["INVESTMENT PAPERS, 1891 - 1932"],"tagName":["Family Papers, 1925 - 1957"]},"386":{"tagNotebook":["INVESTMENT PAPERS, 1891 - 1932"],"tagName":["Dafoe Papers, 1929 - 1931"],"tagDate":["[1936-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"],"tagDescription":["Winnipeg Free Press - financial notes."]},"101":{"tagName":["Background Documents, 1898 - 1903 "],"tagNotebook":["ALASKA BOUNDARY TRIBUNAL PAPERS"],"tagDescription":["Protocals of the Anglo - American Joint High Commission and papers relating to the Russian occupation."],"tagDate":["[1898-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]},"33":{"tagName":["Second Series, 1911 - 1926"],"tagNotebook":["SUBJECT FILES, 1880 - 1929"],"tagDescription":["Lausanne Conference and Treaty - Sessional Papers containing Copies of Telegrams exchanged between the Canadian and British governments."],"tagDate":["1924-01-01T00:00:00.000Z"]},"283":{"tagDate":["1903-01-01T00:00:00.000Z"],"tagDescription":["Memorandum on the claim to treat inlets of the sea as territorial waters, by J. A. Simon."],"tagNotebook":["ALASKA BOUNDARY TRIBUNAL PAPERS"],"tagName":["Background Documents, 1898 - 1903 "]},"8":{"tagName":["Second Series, 1911 - 1926"],"tagPlace":["Toronto"],"tagNotebook":["SUBJECT FILES, 1880 - 1929"],"tagDescription":["Imperial federation - address delivered before the Canada First League at Toronto."],"tagDate":["1917-01-01T00:00:00.000Z"]},"95":{"tagDescription":["Royal Canadian Institute - memorandum to the Minister of Education of Ontario."],"tagDate":["1920-01-01T00:00:00.000Z"],"tagName":["Second Series, 1911 - 1926"],"tagNotebook":["SUBJECT FILES, 1880 - 1929"],"tagPlace":["Ontario"]},"40":{"tagName":["Second Series, 1911 - 1926"],"tagNotebook":["SUBJECT FILES, 1880 - 1929"],"tagDescription":["Reciprocity - clippings Concerning Reciprocity and Concerning The Roman Catholic Church."],"tagDate":["1911-01-01T00:00:00.000Z"]}}
+{
+  "75": {
+    "tagName": ["Second Series, 1911 - 1926"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagDescription": [
+      "Repatriation - memorandum Concerning a colony for disabled soldiers with families and prospectuses Concerning the philanthropic and profit sharing venture The Dairydale Farm Company Limited, a scheme to assist dairy farmer veterans."
+    ],
+    "tagDate": ["1920-01-01T00:00:00.000Z"]
+  },
+  "352": {
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Speeches - speeches by Harold Sifton in the occasion of the 1926 election campaign as candidate for the federal riding of York."
+    ],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Family Papers, 1925 - 1957"]
+  },
+  "386": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Dafoe Papers, 1929 - 1931"],
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Winnipeg Free Press - financial notes."]
+  },
+  "101": {
+    "tagName": ["Background Documents, 1898 - 1903 "],
+    "tagNotebook": ["ALASKA BOUNDARY TRIBUNAL PAPERS"],
+    "tagDescription": [
+      "Protocals of the Anglo - American Joint High Commission and papers relating to the Russian occupation."
+    ],
+    "tagDate": ["[1898-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]
+  },
+  "33": {
+    "tagName": ["Second Series, 1911 - 1926"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagDescription": [
+      "Lausanne Conference and Treaty - Sessional Papers containing Copies of Telegrams exchanged between the Canadian and British governments."
+    ],
+    "tagDate": ["1924-01-01T00:00:00.000Z"]
+  },
+  "283": {
+    "tagDate": ["1903-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Memorandum on the claim to treat inlets of the sea as territorial waters, by J. A. Simon."
+    ],
+    "tagNotebook": ["ALASKA BOUNDARY TRIBUNAL PAPERS"],
+    "tagName": ["Background Documents, 1898 - 1903 "]
+  },
+  "8": {
+    "tagName": ["Second Series, 1911 - 1926"],
+    "tagPlace": ["Toronto"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagDescription": [
+      "Imperial federation - address delivered before the Canada First League at Toronto."
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"]
+  },
+  "95": {
+    "tagDescription": [
+      "Royal Canadian Institute - memorandum to the Minister of Education of Ontario."
+    ],
+    "tagDate": ["1920-01-01T00:00:00.000Z"],
+    "tagName": ["Second Series, 1911 - 1926"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagPlace": ["Ontario"]
+  },
+  "40": {
+    "tagName": ["Second Series, 1911 - 1926"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagDescription": [
+      "Reciprocity - clippings Concerning Reciprocity and Concerning The Roman Catholic Church."
+    ],
+    "tagDate": ["1911-01-01T00:00:00.000Z"]
+  }
+}

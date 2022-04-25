@@ -1,1 +1,102 @@
-{"217":{"tagDescription":["Bowes, Maria. Accounts; Power of Attorney"],"tagDate":["[1830-01-01T00:00:00.000Z TO 1832-12-31T23:59:59.999Z]"],"tagNotebook":["Correspondence. n.d."]},"43":{"tagDescription":["Estate Papers. Leslie, Starnes and Company."],"tagDate":["1844-01-01T00:00:00.000Z"],"tagNotebook":["Correspondence. n.d."]},"60":{"tagNotebook":["Correspondence. n.d."],"tagDescription":["Bowes, Maria. Bank Book and Cancelled Cheques."],"tagDate":["[1827-01-01T00:00:00.000Z TO 1830-12-31T23:59:59.999Z]"]},"14":{"tagDescription":["Estate Papers. Receipts."],"tagDate":["[1826-01-01T00:00:00.000Z TO 1835-12-31T23:59:59.999Z]"],"tagNotebook":["Correspondence. n.d."]},"350":{"tagDescription":["Newspaper Clippings"],"tagNotebook":["Correspondence. n.d."]},"80":{"tagDescription":["Estate Papers. Testaments, Powers of Attorney, Land Sales, Wills."],"tagDate":["[1862-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],"tagNotebook":["Correspondence. n.d."]},"45":{"tagDate":["1847-01-01T00:00:00.000Z"],"tagDescription":["Estate Papers. Leslie, Starnes and Company."],"tagNotebook":["Correspondence. n.d."]},"41":{"tagDescription":["Estate Papers. Receipts."],"tagDate":["1865-01-01T00:00:00.000Z"],"tagNotebook":["Correspondence. n.d."]},"29":{"tagNotebook":["Correspondence. n.d."],"tagDescription":["Estate Papers. Receipts."],"tagDate":["[1850-12-31T23:59:59.999Z TO 1853-01-01T00:00:00.000Z]"]},"264":{"tagNotebook":["Correspondence. n.d."],"tagDescription":["Government Records. Reports, Petitions, Correspondence."]},"243":{"tagNotebook":["Correspondence. n.d."],"tagDescription":["Bowes, Maria. Accounts; Power of Attorney"],"tagDate":["1844-01-01T00:00:00.000Z"]},"56":{"tagNotebook":["Correspondence. n.d."],"tagDescription":["Estate Papers. Leslie, Starnes and Company."],"tagDate":["1858-01-01T00:00:00.000Z"]},"255":{"tagNotebook":["Correspondence. n.d."],"tagDescription":["Courts. Accounts; Subpeona."],"tagDate":["1854-01-01T00:00:00.000Z"]},"55":{"tagNotebook":["Correspondence. n.d."],"tagDate":["1854-01-01T00:00:00.000Z"],"tagDescription":["Estate Papers. Leslie, Starnes and Company."]},"256":{"tagNotebook":["Correspondence. n.d."],"tagDate":["[1849-01-01T00:00:00.000Z TO 1852-12-31T23:59:59.999Z]"],"tagDescription":["Government Records. Receipts"]},"389":{"tagDescription":["Miscellaneous Notes and Memorabilia"],"tagDate":["1854-01-01T00:00:00.000Z"],"tagNotebook":["Correspondence. n.d."]},"362":{"tagDescription":["Historical Notes. L'Isle Tokens; St.-Simon de Bagot"],"tagNotebook":["Correspondence. n.d."]},"251":{"tagNotebook":["Correspondence. n.d."],"tagDescription":["Courts. Accounts; Subpeona."],"tagDate":["1852-01-01T00:00:00.000Z"]},"387":{"tagNotebook":["Correspondence. n.d."],"tagDescription":["Miscellaneous Notes and Memorabilia"]},"47":{"tagNotebook":["Correspondence. n.d."],"tagDate":["1852-01-01T00:00:00.000Z"],"tagDescription":["Estate Papers. Leslie, Starnes and Company."]}}
+{
+  "217": {
+    "tagDescription": ["Bowes, Maria. Accounts; Power of Attorney"],
+    "tagDate": ["[1830-01-01T00:00:00.000Z TO 1832-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "43": {
+    "tagDescription": ["Estate Papers. Leslie, Starnes and Company."],
+    "tagDate": ["1844-01-01T00:00:00.000Z"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "60": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Bowes, Maria. Bank Book and Cancelled Cheques."],
+    "tagDate": ["[1827-01-01T00:00:00.000Z TO 1830-12-31T23:59:59.999Z]"]
+  },
+  "14": {
+    "tagDescription": ["Estate Papers. Receipts."],
+    "tagDate": ["[1826-01-01T00:00:00.000Z TO 1835-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "350": {
+    "tagDescription": ["Newspaper Clippings"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "80": {
+    "tagDescription": [
+      "Estate Papers. Testaments, Powers of Attorney, Land Sales, Wills."
+    ],
+    "tagDate": ["[1862-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "45": {
+    "tagDate": ["1847-01-01T00:00:00.000Z"],
+    "tagDescription": ["Estate Papers. Leslie, Starnes and Company."],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "41": {
+    "tagDescription": ["Estate Papers. Receipts."],
+    "tagDate": ["1865-01-01T00:00:00.000Z"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "29": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Estate Papers. Receipts."],
+    "tagDate": ["[1850-12-31T23:59:59.999Z TO 1853-01-01T00:00:00.000Z]"]
+  },
+  "264": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": [
+      "Government Records. Reports, Petitions, Correspondence."
+    ]
+  },
+  "243": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Bowes, Maria. Accounts; Power of Attorney"],
+    "tagDate": ["1844-01-01T00:00:00.000Z"]
+  },
+  "56": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Estate Papers. Leslie, Starnes and Company."],
+    "tagDate": ["1858-01-01T00:00:00.000Z"]
+  },
+  "255": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Courts. Accounts; Subpeona."],
+    "tagDate": ["1854-01-01T00:00:00.000Z"]
+  },
+  "55": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDate": ["1854-01-01T00:00:00.000Z"],
+    "tagDescription": ["Estate Papers. Leslie, Starnes and Company."]
+  },
+  "256": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1852-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Government Records. Receipts"]
+  },
+  "389": {
+    "tagDescription": ["Miscellaneous Notes and Memorabilia"],
+    "tagDate": ["1854-01-01T00:00:00.000Z"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "362": {
+    "tagDescription": ["Historical Notes. L'Isle Tokens; St.-Simon de Bagot"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "251": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Courts. Accounts; Subpeona."],
+    "tagDate": ["1852-01-01T00:00:00.000Z"]
+  },
+  "387": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Miscellaneous Notes and Memorabilia"]
+  },
+  "47": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDate": ["1852-01-01T00:00:00.000Z"],
+    "tagDescription": ["Estate Papers. Leslie, Starnes and Company."]
+  }
+}

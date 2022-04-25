@@ -1,1 +1,96 @@
-{"730":{"tagDescription":["CHAIGNEAU, L[éonard] Note signée de L[éonard] Chaigneau, Séminaire de Ville-Marie, indiquant que Hugues Messaguet a obtenu de M. Dollier quatre arpents de terre sur la continuation de son habitation située sur le coteau de St-Pierre, 7 octobre 1691."],"tagDate":["1691-10-07T00:00:00.000Z"],"tagPerson":["CHAIGNEAU, L[éonard]"]},"719":{"tagDate":["1668-09-20T00:00:00.000Z"],"tagPerson":["LAFONTAINE, - ."],"tagDescription":["Une transcription en français et en anglais du document est reproduite dans le catalogue Lande.","LAFONTAINE, Certificat attestant que le soldat Lafontaine a fait soigner une blessure, infligée à la main par messieurs de Bellefonds et Dufresne, par [Louis] Pinard, et qu'il est guéri. Champlain, 20 septembre 1668."]},"732":{"tagPerson":["BOUCHER, Pierre"],"tagDescription":["BOUCHER, Pierre. Copie du testament de Pierre Boucher certifiée et signée par le notaire Loiseau attestant que cette copie faite à partir de celle rédigée par le notaire Antoine Adhémar le 2 juillet 1771 est conforme à une autre copie faite par le notaire Adhémar le 12 juin 1771."]},"312":{"tagDescription":["Postanovka khliefnoi forgovli v Soedinennykh Shatatakh i Kanadie [Establishment of the Grain Trade in the United States and Canada], by Iosof Boriosovich Rozen (Khar'kov: Tip. i lit. M. Sergieeva i K. Gal'chenka, 1914) 220 pages."],"tagPerson":["RUSSIAN BOOKS ON LAND SETTLEMENT AND THE GRAIN TRADE IN CANADIAN WEST"]},"749":{"tagDescription":["BOUCHER, Ph[hilippe]Lettre autographe de Ph[hilippe] Boucher, curé de Saint-Joseph, à un destinataire non identifié, concernant l'envoi d'une procuration pour vendre la terre d'un nommé Beaulieu, 14 janvier 1715."],"tagPerson":["BOUCHER, Ph[hilippe]"],"tagDate":["1715-01-14T00:00:00.000Z"]},"462":{"tagPlace":["MONTREAL (Québec)"],"tagDescription":["ÉGLISE NOTRE-DAME, Premier registre de l'église Notre-Dame de Montréal, Montréal, Édition des Dix, 1961, 491 pages. (Fac-similé du premier registre des actes de baptême, 1642-1669, mariage, 1643-1670, sépulture, 1643-1680.)"],"tagDate":["1961-01-01T00:00:00.000Z"],"tagPerson":["ÉGLISE NOTRE-DAME"]},"176":{"tagDate":["1907-01-01T00:00:00.000Z"],"tagPerson":["RUSSIAN BOOKS ON LAND SETTLEMENT AND THE GRAIN TRADE IN CANADIAN WEST"],"tagDescription":["RUSSIAN BOOKS ON LAND SETTLEMENT AND THE GRAIN TRADE IN CANADIAN WEST Raboty po zemleustroistvu v Slevernoi Amerikie [Land Settlement Work in North America], by N. Sinel'nikov (St. Petersburg: Tipo-lit. F. Vaisberga i P. Gershunina, 1907) 176 pages."]},"780":{"tagDescription":["INDÉPENDANCE AMÉRICAINE L'indépendance des Anglo-Américains démontrée utile à la Grande-Bretagne. Lettres extrait. du Journal d'Agriculture, Avril & Mai 1782, [Paris], 82 pages."],"tagPerson":["INDÉPENDANCE AMÉRICAINE"]},"772":{"tagDescription":["CAPITULATION OF MONTREAL, Caledonian Mercury (Edinburgh, 17 January 1776): article on the articles of capitulation made and entered into between Major General Richard Montgomery (1736-1775) and the citizens of Montreal."],"tagDate":["1776-01-01T00:00:00.000Z"],"tagPerson":["CAPITULATION OF MONTREAL, 1775"]},"449":{"tagDate":["1909-01-01T00:00:00.000Z"],"tagPerson":["MAP OF THE DOMINION OF CANADA"],"tagDescription":["MAP OF THE DOMINION OF CANADA Stovel's Pocket Map of the Dominion of Canada engraved and published exclusively by The Stovel Company, Winnipeg, including manuscript notes in French by missionaries [Grouard and Breynat] relating to the limits of the future diocese of Regina, and to new limits of the diocese of Prince Albert and of the future apostolic vicarage of Keewatin."]},"778":{"tagDate":["1776-10-18T00:00:00.000Z"],"tagPerson":["AMHERST, Jeffry"],"tagDescription":["AMHERST, Jeffry. A leaf from the register of the storekeeper at the Portsmouth Ordnance Office, relating to the issue of ammunition waggons, etc., shipped on the transports Favorite and Mary and Ann for the service of the troops destined for America, 18 October 1776. Signed by Amherst."]},"751":{"tagDate":["1755-01-01T00:00:00.000Z"],"tagPerson":["ACADIE ET TRAITÉ D'UTRECHT"],"tagDescription":["ACADIE ET TRAITÉ D'UTRECHT Discussion sommaire sur les anciennes limites de l'Acadie, et sur les stipulations du Traité d'Utrecht qui y sont relatives, Altona, 1755. Texte et titres en français et en Danois."]},"721":{"tagPerson":["JALLOT, Jean"],"tagDate":["1676-10-19T00:00:00.000Z"],"tagDescription":["JALLOT, Jean Acte de vente de leur maison par Louis Pinard, maître chirurgien de Champlain, et Marie-Madeleine Hertel, sa femme, à Jean Jallot, maître chirurgien du Cap-de-la-Madeleine, 19 octobre 1676. Signé par le notaire Antoine Adhémar."]}}
+{
+  "730": {
+    "tagDescription": [
+      "CHAIGNEAU, L[éonard] Note signée de L[éonard] Chaigneau, Séminaire de Ville-Marie, indiquant que Hugues Messaguet a obtenu de M. Dollier quatre arpents de terre sur la continuation de son habitation située sur le coteau de St-Pierre, 7 octobre 1691."
+    ],
+    "tagDate": ["1691-10-07T00:00:00.000Z"],
+    "tagPerson": ["CHAIGNEAU, L[éonard]"]
+  },
+  "719": {
+    "tagDate": ["1668-09-20T00:00:00.000Z"],
+    "tagPerson": ["LAFONTAINE, - ."],
+    "tagDescription": [
+      "Une transcription en français et en anglais du document est reproduite dans le catalogue Lande.",
+      "LAFONTAINE, Certificat attestant que le soldat Lafontaine a fait soigner une blessure, infligée à la main par messieurs de Bellefonds et Dufresne, par [Louis] Pinard, et qu'il est guéri. Champlain, 20 septembre 1668."
+    ]
+  },
+  "732": {
+    "tagPerson": ["BOUCHER, Pierre"],
+    "tagDescription": [
+      "BOUCHER, Pierre. Copie du testament de Pierre Boucher certifiée et signée par le notaire Loiseau attestant que cette copie faite à partir de celle rédigée par le notaire Antoine Adhémar le 2 juillet 1771 est conforme à une autre copie faite par le notaire Adhémar le 12 juin 1771."
+    ]
+  },
+  "312": {
+    "tagDescription": [
+      "Postanovka khliefnoi forgovli v Soedinennykh Shatatakh i Kanadie [Establishment of the Grain Trade in the United States and Canada], by Iosof Boriosovich Rozen (Khar'kov: Tip. i lit. M. Sergieeva i K. Gal'chenka, 1914) 220 pages."
+    ],
+    "tagPerson": [
+      "RUSSIAN BOOKS ON LAND SETTLEMENT AND THE GRAIN TRADE IN CANADIAN WEST"
+    ]
+  },
+  "749": {
+    "tagDescription": [
+      "BOUCHER, Ph[hilippe]Lettre autographe de Ph[hilippe] Boucher, curé de Saint-Joseph, à un destinataire non identifié, concernant l'envoi d'une procuration pour vendre la terre d'un nommé Beaulieu, 14 janvier 1715."
+    ],
+    "tagPerson": ["BOUCHER, Ph[hilippe]"],
+    "tagDate": ["1715-01-14T00:00:00.000Z"]
+  },
+  "462": {
+    "tagPlace": ["MONTREAL (Québec)"],
+    "tagDescription": [
+      "ÉGLISE NOTRE-DAME, Premier registre de l'église Notre-Dame de Montréal, Montréal, Édition des Dix, 1961, 491 pages. (Fac-similé du premier registre des actes de baptême, 1642-1669, mariage, 1643-1670, sépulture, 1643-1680.)"
+    ],
+    "tagDate": ["1961-01-01T00:00:00.000Z"],
+    "tagPerson": ["ÉGLISE NOTRE-DAME"]
+  },
+  "176": {
+    "tagDate": ["1907-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "RUSSIAN BOOKS ON LAND SETTLEMENT AND THE GRAIN TRADE IN CANADIAN WEST"
+    ],
+    "tagDescription": [
+      "RUSSIAN BOOKS ON LAND SETTLEMENT AND THE GRAIN TRADE IN CANADIAN WEST Raboty po zemleustroistvu v Slevernoi Amerikie [Land Settlement Work in North America], by N. Sinel'nikov (St. Petersburg: Tipo-lit. F. Vaisberga i P. Gershunina, 1907) 176 pages."
+    ]
+  },
+  "780": {
+    "tagDescription": [
+      "INDÉPENDANCE AMÉRICAINE L'indépendance des Anglo-Américains démontrée utile à la Grande-Bretagne. Lettres extrait. du Journal d'Agriculture, Avril & Mai 1782, [Paris], 82 pages."
+    ],
+    "tagPerson": ["INDÉPENDANCE AMÉRICAINE"]
+  },
+  "772": {
+    "tagDescription": [
+      "CAPITULATION OF MONTREAL, Caledonian Mercury (Edinburgh, 17 January 1776): article on the articles of capitulation made and entered into between Major General Richard Montgomery (1736-1775) and the citizens of Montreal."
+    ],
+    "tagDate": ["1776-01-01T00:00:00.000Z"],
+    "tagPerson": ["CAPITULATION OF MONTREAL, 1775"]
+  },
+  "449": {
+    "tagDate": ["1909-01-01T00:00:00.000Z"],
+    "tagPerson": ["MAP OF THE DOMINION OF CANADA"],
+    "tagDescription": [
+      "MAP OF THE DOMINION OF CANADA Stovel's Pocket Map of the Dominion of Canada engraved and published exclusively by The Stovel Company, Winnipeg, including manuscript notes in French by missionaries [Grouard and Breynat] relating to the limits of the future diocese of Regina, and to new limits of the diocese of Prince Albert and of the future apostolic vicarage of Keewatin."
+    ]
+  },
+  "778": {
+    "tagDate": ["1776-10-18T00:00:00.000Z"],
+    "tagPerson": ["AMHERST, Jeffry"],
+    "tagDescription": [
+      "AMHERST, Jeffry. A leaf from the register of the storekeeper at the Portsmouth Ordnance Office, relating to the issue of ammunition waggons, etc., shipped on the transports Favorite and Mary and Ann for the service of the troops destined for America, 18 October 1776. Signed by Amherst."
+    ]
+  },
+  "751": {
+    "tagDate": ["1755-01-01T00:00:00.000Z"],
+    "tagPerson": ["ACADIE ET TRAITÉ D'UTRECHT"],
+    "tagDescription": [
+      "ACADIE ET TRAITÉ D'UTRECHT Discussion sommaire sur les anciennes limites de l'Acadie, et sur les stipulations du Traité d'Utrecht qui y sont relatives, Altona, 1755. Texte et titres en français et en Danois."
+    ]
+  },
+  "721": {
+    "tagPerson": ["JALLOT, Jean"],
+    "tagDate": ["1676-10-19T00:00:00.000Z"],
+    "tagDescription": [
+      "JALLOT, Jean Acte de vente de leur maison par Louis Pinard, maître chirurgien de Champlain, et Marie-Madeleine Hertel, sa femme, à Jean Jallot, maître chirurgien du Cap-de-la-Madeleine, 19 octobre 1676. Signé par le notaire Antoine Adhémar."
+    ]
+  }
+}

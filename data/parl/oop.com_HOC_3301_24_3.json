@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["33-1"],"pubmin":"1984-11-05","callNumber":"33-1 E6 A1 no.23-29","label":"House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on Equality Rights, vol. 3 no. 23-29 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur les droits à l'égalité, vol. 3 no. 23-29","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",47],["fra","c","committees","33-1",37]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 E6 A1 no.23-29",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on Equality Rights, vol. 3 no. 23-29 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur les droits à l'égalité, vol. 3 no. 23-29",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 47],
+    ["fra", "c", "committees", "33-1", 37]
+  ]
+}

@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["08-3"],"pubmin":"1898-02-03","label":"Comités du Sénat, 8e Législature, 3e Session : Comité spécial sur une route pour le Yukon, Rapport","callNumber":"1898 R6 A42","chamber":["s"],"type":"committees","node":[["fra","s","committees","08-3",2]],"pubmax":"1898-06-13"}
+{
+  "language": ["fra"],
+  "session": ["08-3"],
+  "pubmin": "1898-02-03",
+  "label": "Comités du Sénat, 8e Législature, 3e Session : Comité spécial sur une route pour le Yukon, Rapport",
+  "callNumber": "1898 R6 A42",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "08-3", 2]],
+  "pubmax": "1898-06-13"
+}

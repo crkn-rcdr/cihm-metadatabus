@@ -1,1 +1,11 @@
-{"type":"committees","pubmax":"1933-05-27","node":[["eng","s","committees","17-4",1]],"chamber":["s"],"pubmin":"1932-10-06","callNumber":"1932/33 A33 A1","label":"Senate Committees, 17th Parliament, 4th Session : Standing Committee on Agriculture and Forestry, vol. 1","language":["eng"],"session":["17-4"]}
+{
+  "type": "committees",
+  "pubmax": "1933-05-27",
+  "node": [["eng", "s", "committees", "17-4", 1]],
+  "chamber": ["s"],
+  "pubmin": "1932-10-06",
+  "callNumber": "1932/33 A33 A1",
+  "label": "Senate Committees, 17th Parliament, 4th Session : Standing Committee on Agriculture and Forestry, vol. 1",
+  "language": ["eng"],
+  "session": ["17-4"]
+}

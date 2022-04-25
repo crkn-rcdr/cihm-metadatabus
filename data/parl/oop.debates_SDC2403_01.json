@@ -1,1 +1,10 @@
-{"type":"debates","node":[["fra","s","debates","24-3",1]],"pubmax":"1960-08-10","chamber":["s"],"pubmin":"1960-01-14","label":"Débats du Sénat, 24e Législature, 3e Session : Vol. 1","language":["fra"],"session":["24-3"]}
+{
+  "type": "debates",
+  "node": [["fra", "s", "debates", "24-3", 1]],
+  "pubmax": "1960-08-10",
+  "chamber": ["s"],
+  "pubmin": "1960-01-14",
+  "label": "Débats du Sénat, 24e Législature, 3e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["24-3"]
+}

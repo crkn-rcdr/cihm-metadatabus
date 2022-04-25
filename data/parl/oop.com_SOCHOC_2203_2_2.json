@@ -1,1 +1,15 @@
-{"language":["eng"],"session":["22-3"],"pubmin":"1956-01-10","callNumber":"1956 F4 A1 Index","label":"Joint Committees, 22nd Parliament, 3rd Session : Joint Committee on the Federal District Commission, Index","chamber":["c","s"],"primeMinisters":"St-Laurent, Louis Stephen","type":"committees","pubmax":"1956-08-14","node":[["eng","c","committees","22-3",7],["eng","s","committees","22-3",3]]}
+{
+  "language": ["eng"],
+  "session": ["22-3"],
+  "pubmin": "1956-01-10",
+  "callNumber": "1956 F4 A1 Index",
+  "label": "Joint Committees, 22nd Parliament, 3rd Session : Joint Committee on the Federal District Commission, Index",
+  "chamber": ["c", "s"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "committees",
+  "pubmax": "1956-08-14",
+  "node": [
+    ["eng", "c", "committees", "22-3", 7],
+    ["eng", "s", "committees", "22-3", 3]
+  ]
+}

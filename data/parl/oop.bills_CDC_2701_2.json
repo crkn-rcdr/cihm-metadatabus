@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Pearson, Lester Bowles","type":"bills","pubmax":"1967-05-08","node":[["fra","c","bills","27-1",2]],"language":["fra"],"session":["27-1"],"pubmin":"1966-01-18","callNumber":"KE72 C361 27-1 C151-C200","label":"Projets de loi de la Chambre des communes, 27e Législature, 1re Session : C151-C200"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "type": "bills",
+  "pubmax": "1967-05-08",
+  "node": [["fra", "c", "bills", "27-1", 2]],
+  "language": ["fra"],
+  "session": ["27-1"],
+  "pubmin": "1966-01-18",
+  "callNumber": "KE72 C361 27-1 C151-C200",
+  "label": "Projets de loi de la Chambre des communes, 27e Législature, 1re Session : C151-C200"
+}

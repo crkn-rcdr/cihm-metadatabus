@@ -1,1 +1,15 @@
-{"callNumber":"34-3 A182 A1 no.1-20","label":"House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Aboriginal Affairs, vol. 1 no. 1-20 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des affaires autochtones, vol. 1 no. 1-20","pubmin":"1991-05-13","session":["34-3"],"language":["eng","fra"],"pubmax":"1993-09-08","node":[["eng","c","committees","34-3",1],["fra","c","committees","34-3",3]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "34-3 A182 A1 no.1-20",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Aboriginal Affairs, vol. 1 no. 1-20 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des affaires autochtones, vol. 1 no. 1-20",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 1],
+    ["fra", "c", "committees", "34-3", 3]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

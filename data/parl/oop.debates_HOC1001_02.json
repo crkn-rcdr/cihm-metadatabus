@@ -1,1 +1,11 @@
-{"pubmin":"1905-01-11","label":"House of Commons Debates, 10th Parliament, 1st Session : Vol. 2","language":["eng"],"session":["10-1"],"type":"debates","node":[["eng","c","debates","10-1",2]],"pubmax":"1905-07-20","primeMinisters":"Laurier, Wilfrid","chamber":["c"]}
+{
+  "pubmin": "1905-01-11",
+  "label": "House of Commons Debates, 10th Parliament, 1st Session : Vol. 2",
+  "language": ["eng"],
+  "session": ["10-1"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "10-1", 2]],
+  "pubmax": "1905-07-20",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

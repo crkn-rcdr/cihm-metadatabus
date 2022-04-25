@@ -1,1 +1,13 @@
-{"label":"House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on the Disabled and the Handicapped, Fourth Report","callNumber":"1980/83 D5 A125","pubmin":"1980-04-14","session":["32-1"],"reportTitle":["Obstacles: Fourth Report"],"language":["eng"],"node":[["eng","c","committees","32-1",30]],"pubmax":"1983-11-30","type":"committees","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on the Disabled and the Handicapped, Fourth Report",
+  "callNumber": "1980/83 D5 A125",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "reportTitle": ["Obstacles: Fourth Report"],
+  "language": ["eng"],
+  "node": [["eng", "c", "committees", "32-1", 30]],
+  "pubmax": "1983-11-30",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

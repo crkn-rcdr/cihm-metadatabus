@@ -1,1 +1,12 @@
-{"type":"bills","pubmax":"1960-08-10","node":[["fra","c","bills","24-3",1]],"chamber":["c"],"primeMinisters":"Diefenbaker, John George","pubmin":"1960-01-14","callNumber":"KE72 C361 24-3 C2-C69","label":"Projets de loi de la Chambre des communes, 24e Législature, 3e Session : C2-C69","language":["fra"],"session":["24-3"]}
+{
+  "type": "bills",
+  "pubmax": "1960-08-10",
+  "node": [["fra", "c", "bills", "24-3", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmin": "1960-01-14",
+  "callNumber": "KE72 C361 24-3 C2-C69",
+  "label": "Projets de loi de la Chambre des communes, 24e Législature, 3e Session : C2-C69",
+  "language": ["fra"],
+  "session": ["24-3"]
+}

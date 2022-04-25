@@ -1,1 +1,12 @@
-{"session":["14-2"],"language":["fra"],"callNumber":"1923 A3 A4 v.2","label":"Comités de la Chambre des communes, 14e Législature, 2e Session : Comité spécial sur les conditions de l'agriculture, vol. 2","pubmin":"1923-01-31","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1923-06-30","node":[["fra","c","committees","14-2",2]],"type":"committees"}
+{
+  "session": ["14-2"],
+  "language": ["fra"],
+  "callNumber": "1923 A3 A4 v.2",
+  "label": "Comités de la Chambre des communes, 14e Législature, 2e Session : Comité spécial sur les conditions de l'agriculture, vol. 2",
+  "pubmin": "1923-01-31",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1923-06-30",
+  "node": [["fra", "c", "committees", "14-2", 2]],
+  "type": "committees"
+}

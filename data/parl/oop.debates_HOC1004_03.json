@@ -1,1 +1,11 @@
-{"pubmin":"1907-11-28","label":"House of Commons Debates, 10th Parliament, 4th Session : Vol. 3","language":["eng"],"session":["10-4"],"type":"debates","node":[["eng","c","debates","10-4",3]],"pubmax":"1908-07-20","primeMinisters":"Laurier, Wilfrid","chamber":["c"]}
+{
+  "pubmin": "1907-11-28",
+  "label": "House of Commons Debates, 10th Parliament, 4th Session : Vol. 3",
+  "language": ["eng"],
+  "session": ["10-4"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "10-4", 3]],
+  "pubmax": "1908-07-20",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

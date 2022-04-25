@@ -1,1 +1,10 @@
-{"chamber":["s"],"type":"debates","pubmax":"1929-06-14","node":[["fra","s","debates","16-3",1]],"language":["fra"],"session":["16-3"],"pubmin":"1929-02-07","label":"Débats du Sénat, 16e Législature, 3e Session : Vol. 1"}
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1929-06-14",
+  "node": [["fra", "s", "debates", "16-3", 1]],
+  "language": ["fra"],
+  "session": ["16-3"],
+  "pubmin": "1929-02-07",
+  "label": "Débats du Sénat, 16e Législature, 3e Session : Vol. 1"
+}

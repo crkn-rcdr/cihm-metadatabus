@@ -1,1 +1,52 @@
-{"1053":{"tagDate":["[1865-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"],"tagDescription":["Fenian Raid and conspiracy"]},"1012":{"tagDescription":["Missing / Manque"]},"1007":{"tagDescription":["Missing / Manque"]},"630":{"tagDate":["1925-01-01T00:00:00.000Z"],"tagDescription":["Ibid"]},"1387":{"tagDate":["[1866-01-01T00:00:00.000Z TO 1868-12-31T23:59:59.999Z]"],"tagDescription":["Fenian convicts -Return made 24 March 1868"]},"1630":{"tagDescription":["Fenian Raid claims"],"tagDate":["[1870-01-01T00:00:00.000Z TO 1871-12-31T23:59:59.999Z]"]},"1008":{"tagDescription":["Notices re order of Peter Friedrick Ludwig"],"tagDate":["1912-01-01T00:00:00.000Z"]},"1881":{"tagDescription":["Trial by Militia Courts Martial of Foreigners and others who are guilty of or accessory to acts of aggression or hostility in Lower Canada (1866-1867) -Sentences on Fenian convicts -Fenian designs against Manitoba (1884) -Designs of Fenians in Texas against Canada (1900) -Application for grant of medal and sum of money in respect of services in the Fenian Raid of 1866-(1912)"],"tagDate":["[1866-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]},"271":{"tagDate":["1924-01-01T00:00:00.000Z"],"tagDescription":["Annual Report (Printed) of the Proceedings of the Ordnance Committee"]},"1013":{"tagDescription":["Cartier Centenary celebrations -Ceremony of inauguration of the memorial to commemorate the centenary of the birth of Sir George E. Cartier. Planned to take place 6 Sept. 1914  postponed until 6 Sept 1919 -Jacques Cartier celebrations 400th anniversary of the discovery of Canada"],"tagDate":["[1914-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]},"963":{"tagDescription":["Employment of female labours by Asiatics"],"tagDate":["[1912-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]},"962":{"tagDescription":["Missing / Manque"]},"1052":{"tagDescription":["Missing / Manque"]},"1686":{"tagDate":["1870-01-01T00:00:00.000Z"],"tagDescription":["Military reports on Fenian Raid"]}}
+{
+  "1053": {
+    "tagDate": ["[1865-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Fenian Raid and conspiracy"]
+  },
+  "1012": { "tagDescription": ["Missing / Manque"] },
+  "1007": { "tagDescription": ["Missing / Manque"] },
+  "630": {
+    "tagDate": ["1925-01-01T00:00:00.000Z"],
+    "tagDescription": ["Ibid"]
+  },
+  "1387": {
+    "tagDate": ["[1866-01-01T00:00:00.000Z TO 1868-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Fenian convicts -Return made 24 March 1868"]
+  },
+  "1630": {
+    "tagDescription": ["Fenian Raid claims"],
+    "tagDate": ["[1870-01-01T00:00:00.000Z TO 1871-12-31T23:59:59.999Z]"]
+  },
+  "1008": {
+    "tagDescription": ["Notices re order of Peter Friedrick Ludwig"],
+    "tagDate": ["1912-01-01T00:00:00.000Z"]
+  },
+  "1881": {
+    "tagDescription": [
+      "Trial by Militia Courts Martial of Foreigners and others who are guilty of or accessory to acts of aggression or hostility in Lower Canada (1866-1867) -Sentences on Fenian convicts -Fenian designs against Manitoba (1884) -Designs of Fenians in Texas against Canada (1900) -Application for grant of medal and sum of money in respect of services in the Fenian Raid of 1866-(1912)"
+    ],
+    "tagDate": ["[1866-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]
+  },
+  "271": {
+    "tagDate": ["1924-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Annual Report (Printed) of the Proceedings of the Ordnance Committee"
+    ]
+  },
+  "1013": {
+    "tagDescription": [
+      "Cartier Centenary celebrations -Ceremony of inauguration of the memorial to commemorate the centenary of the birth of Sir George E. Cartier. Planned to take place 6 Sept. 1914  postponed until 6 Sept 1919 -Jacques Cartier celebrations 400th anniversary of the discovery of Canada"
+    ],
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]
+  },
+  "963": {
+    "tagDescription": ["Employment of female labours by Asiatics"],
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]
+  },
+  "962": { "tagDescription": ["Missing / Manque"] },
+  "1052": { "tagDescription": ["Missing / Manque"] },
+  "1686": {
+    "tagDate": ["1870-01-01T00:00:00.000Z"],
+    "tagDescription": ["Military reports on Fenian Raid"]
+  }
+}

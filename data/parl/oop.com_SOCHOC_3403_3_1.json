@@ -1,1 +1,17 @@
-{"type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",31],["fra","c","committees","34-3",49],["eng","s","committees","34-3",10],["fra","s","committees","34-3",20]],"chamber":["c","s"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1991-05-13","callNumber":"34-3 C53 A1 no.1-17","label":"Joint Committees, 34th Parliament, 3rd Session : Special Joint Committee on Conflict of Interests, vol. 1 = Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial relatif aux conflits d'intérêts, vol. 1","language":["eng","fra"],"session":["34-3"]}
+{
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 31],
+    ["fra", "c", "committees", "34-3", 49],
+    ["eng", "s", "committees", "34-3", 10],
+    ["fra", "s", "committees", "34-3", 20]
+  ],
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 C53 A1 no.1-17",
+  "label": "Joint Committees, 34th Parliament, 3rd Session : Special Joint Committee on Conflict of Interests, vol. 1 = Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial relatif aux conflits d'intérêts, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["34-3"]
+}

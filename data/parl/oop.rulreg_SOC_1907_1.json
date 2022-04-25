@@ -1,1 +1,11 @@
-{"pubmin":"1906-11-22","label":"Standing Orders and Rules of the Senate of Canada, 1907","callNumber":"JL158.3 1907","language":["eng"],"session":["10-3","10-4"],"type":"rules","node":[["eng","s","rules",null,6]],"pubmax":"1908-07-20","chamber":["s"]}
+{
+  "pubmin": "1906-11-22",
+  "label": "Standing Orders and Rules of the Senate of Canada, 1907",
+  "callNumber": "JL158.3 1907",
+  "language": ["eng"],
+  "session": ["10-3", "10-4"],
+  "type": "rules",
+  "node": [["eng", "s", "rules", null, 6]],
+  "pubmax": "1908-07-20",
+  "chamber": ["s"]
+}

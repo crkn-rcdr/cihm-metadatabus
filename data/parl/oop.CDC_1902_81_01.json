@@ -1,1 +1,11 @@
-{"pubmax":"1942-01-21","node":[["fra","c","journals","19-2",1]],"type":"journals","chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","label":"Journaux de la Chambre des communes, 19e Législature, 2e Session : Vol. 81","pubmin":"1940-11-07","session":["19-2"],"language":["fra"]}
+{
+  "pubmax": "1942-01-21",
+  "node": [["fra", "c", "journals", "19-2", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "label": "Journaux de la Chambre des communes, 19e Législature, 2e Session : Vol. 81",
+  "pubmin": "1940-11-07",
+  "session": ["19-2"],
+  "language": ["fra"]
+}

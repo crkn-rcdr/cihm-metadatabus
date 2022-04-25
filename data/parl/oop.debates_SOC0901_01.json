@@ -1,1 +1,10 @@
-{"label":"Senate Debates, 9th Parliament, 1st Session : Vol. 1","pubmin":"1901-02-06","session":["09-1"],"language":["eng"],"pubmax":"1901-05-23","node":[["eng","s","debates","09-1",1]],"type":"debates","chamber":["s"]}
+{
+  "label": "Senate Debates, 9th Parliament, 1st Session : Vol. 1",
+  "pubmin": "1901-02-06",
+  "session": ["09-1"],
+  "language": ["eng"],
+  "pubmax": "1901-05-23",
+  "node": [["eng", "s", "debates", "09-1", 1]],
+  "type": "debates",
+  "chamber": ["s"]
+}

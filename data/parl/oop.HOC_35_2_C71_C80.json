@@ -1,1 +1,14 @@
-{"pubmin":"1996-02-27","label":"House of Commons Bills, 35th Parliament, 2nd Session : C71-C80 = Projets de loi de la Chambre des communes, 35e Législature, 2e Session : C71-C80","language":["eng","fra"],"session":["35-2"],"type":"bills","node":[["eng","c","bills","35-2",10],["fra","c","bills","35-2",10]],"pubmax":"1997-04-27","primeMinisters":"Chrétien, Joseph Jacques Jean","chamber":["c"]}
+{
+  "pubmin": "1996-02-27",
+  "label": "House of Commons Bills, 35th Parliament, 2nd Session : C71-C80 = Projets de loi de la Chambre des communes, 35e Législature, 2e Session : C71-C80",
+  "language": ["eng", "fra"],
+  "session": ["35-2"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "35-2", 10],
+    ["fra", "c", "bills", "35-2", 10]
+  ],
+  "pubmax": "1997-04-27",
+  "primeMinisters": "Chrétien, Joseph Jacques Jean",
+  "chamber": ["c"]
+}

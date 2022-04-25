@@ -1,1 +1,12 @@
-{"primeMinisters":"Diefenbaker, John George","chamber":["c"],"type":"committees","node":[["eng","c","committees","24-1",6]],"pubmax":"1958-09-06","language":["eng"],"session":["24-1"],"pubmin":"1958-05-12","label":"House of Commons Committees, 24th Parliament, 1st Session : Standing Committee on Marine and Fisheries, vol. 1","callNumber":"1958 M3 A1"}
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "24-1", 6]],
+  "pubmax": "1958-09-06",
+  "language": ["eng"],
+  "session": ["24-1"],
+  "pubmin": "1958-05-12",
+  "label": "House of Commons Committees, 24th Parliament, 1st Session : Standing Committee on Marine and Fisheries, vol. 1",
+  "callNumber": "1958 M3 A1"
+}

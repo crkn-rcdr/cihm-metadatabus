@@ -1,1 +1,12 @@
-{"session":["33-1"],"reportTitle":["La défense aérienne du territoire canadien"],"language":["fra"],"callNumber":"33-1 N28 A12","label":"Comités du Sénat, 33e Législature, 1re Session : Comité spécial sur la défense nationale, Premier rapport","pubmin":"1984-11-05","chamber":["s"],"pubmax":"1986-08-28","node":[["fra","s","committees","33-1",16]],"type":"committees"}
+{
+  "session": ["33-1"],
+  "reportTitle": ["La défense aérienne du territoire canadien"],
+  "language": ["fra"],
+  "callNumber": "33-1 N28 A12",
+  "label": "Comités du Sénat, 33e Législature, 1re Session : Comité spécial sur la défense nationale, Premier rapport",
+  "pubmin": "1984-11-05",
+  "chamber": ["s"],
+  "pubmax": "1986-08-28",
+  "node": [["fra", "s", "committees", "33-1", 16]],
+  "type": "committees"
+}

@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","callNumber":"34-3 T738 A1 no.1-2","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee E on Bill C-45, an Act to promote public safety in the transportation of dangerous goods, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif E sur le projet de loi C-45, Loi visant à accroître la sécurité publique en matière de transport des marchandises dangereuses, vol. 1 no. 1-2","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1993-09-08","node":[["eng","c","committees","34-3",220],["fra","c","committees","34-3",214]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 T738 A1 no.1-2",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee E on Bill C-45, an Act to promote public safety in the transportation of dangerous goods, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif E sur le projet de loi C-45, Loi visant à accroître la sécurité publique en matière de transport des marchandises dangereuses, vol. 1 no. 1-2",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 220],
+    ["fra", "c", "committees", "34-3", 214]
+  ]
+}

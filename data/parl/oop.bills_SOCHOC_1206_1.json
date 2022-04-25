@@ -1,1 +1,15 @@
-{"session":["12-6"],"language":["eng"],"callNumber":"KE72 C36 12-6 no.2-101 no.A-NN","label":"Senate and House of Commons Bills, 12th Parliament, 6th Session : A-N2, 2-101","pubmin":"1916-01-12","chamber":["s","c"],"primeMinisters":"Borden, Robert Laird","pubmax":"1916-05-18","node":[["eng","s","bills","12-6",1],["eng","c","bills","12-6",1]],"type":"bills"}
+{
+  "session": ["12-6"],
+  "language": ["eng"],
+  "callNumber": "KE72 C36 12-6 no.2-101 no.A-NN",
+  "label": "Senate and House of Commons Bills, 12th Parliament, 6th Session : A-N2, 2-101",
+  "pubmin": "1916-01-12",
+  "chamber": ["s", "c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1916-05-18",
+  "node": [
+    ["eng", "s", "bills", "12-6", 1],
+    ["eng", "c", "bills", "12-6", 1]
+  ],
+  "type": "bills"
+}

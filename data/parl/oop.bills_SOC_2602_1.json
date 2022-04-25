@@ -1,1 +1,11 @@
-{"type":"bills","pubmax":"1965-04-03","node":[["eng","s","bills","26-2",1]],"chamber":["s"],"pubmin":"1964-02-18","callNumber":"KE72 C38 26-2 S2-S48","label":"Senate Bills, 26th Parliament, 2nd Session : S2-S48","language":["eng"],"session":["26-2"]}
+{
+  "type": "bills",
+  "pubmax": "1965-04-03",
+  "node": [["eng", "s", "bills", "26-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1964-02-18",
+  "callNumber": "KE72 C38 26-2 S2-S48",
+  "label": "Senate Bills, 26th Parliament, 2nd Session : S2-S48",
+  "language": ["eng"],
+  "session": ["26-2"]
+}

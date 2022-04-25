@@ -1,1 +1,12 @@
-{"session":["21-7"],"language":["fra"],"label":"Comités de la Chambre des communes, 21e Législature, 7e Session : Comité permanent des chemins de fer, canaux et lignes télégraphiques, vol. 1","callNumber":"1952/53 C4 A4","pubmin":"1952-11-20","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["fra","c","committees","21-7",4]],"pubmax":"1953-05-14","type":"committees"}
+{
+  "session": ["21-7"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 21e Législature, 7e Session : Comité permanent des chemins de fer, canaux et lignes télégraphiques, vol. 1",
+  "callNumber": "1952/53 C4 A4",
+  "pubmin": "1952-11-20",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "21-7", 4]],
+  "pubmax": "1953-05-14",
+  "type": "committees"
+}

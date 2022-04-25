@@ -1,1 +1,12 @@
-{"type":"committees","node":[["fra","c","committees","25-1",5]],"pubmax":"1963-02-06","primeMinisters":"Diefenbaker, John George","chamber":["c"],"pubmin":"1962-09-27","label":"Comités de la Chambre des communes, 25e Législature, 1re Session : Comité permanent des privilèges et élections, vol. 1","callNumber":"1962/63 P7 A4","language":["fra"],"session":["25-1"]}
+{
+  "type": "committees",
+  "node": [["fra", "c", "committees", "25-1", 5]],
+  "pubmax": "1963-02-06",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "pubmin": "1962-09-27",
+  "label": "Comités de la Chambre des communes, 25e Législature, 1re Session : Comité permanent des privilèges et élections, vol. 1",
+  "callNumber": "1962/63 P7 A4",
+  "language": ["fra"],
+  "session": ["25-1"]
+}

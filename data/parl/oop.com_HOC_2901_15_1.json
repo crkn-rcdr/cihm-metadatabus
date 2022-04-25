@@ -1,1 +1,15 @@
-{"pubmin":"1973-01-04","label":"House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Public Accounts, vol. 1 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent des comptes publics, vol. 1","callNumber":"1973/74 P8 A1","language":["eng","fra"],"session":["29-1"],"type":"committees","node":[["eng","c","committees","29-1",18],["fra","c","committees","29-1",7]],"pubmax":"1974-02-26","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "pubmin": "1973-01-04",
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Public Accounts, vol. 1 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent des comptes publics, vol. 1",
+  "callNumber": "1973/74 P8 A1",
+  "language": ["eng", "fra"],
+  "session": ["29-1"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "29-1", 18],
+    ["fra", "c", "committees", "29-1", 7]
+  ],
+  "pubmax": "1974-02-26",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

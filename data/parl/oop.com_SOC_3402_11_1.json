@@ -1,1 +1,14 @@
-{"type":"committees","pubmax":"1991-05-12","node":[["eng","s","committees","34-2",33],["fra","s","committees","34-2",35]],"chamber":["s"],"pubmin":"1989-04-03","callNumber":"34-2 P774 A1 no.1-3","label":"Senate Committees, 34th Parliament, 2nd Session : Special Committee on the Propriety of the Conduct of the Honourable Senator Cogger, vol. 1 no. 1-3 = Comités du Sénat, 34e Législature, 2e Session : Comité spécial de la justification de la conduite de l'honorable sénateur Cogger, vol. 1 no. 1-3","language":["eng","fra"],"session":["34-2"]}
+{
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "s", "committees", "34-2", 33],
+    ["fra", "s", "committees", "34-2", 35]
+  ],
+  "chamber": ["s"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 P774 A1 no.1-3",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Special Committee on the Propriety of the Conduct of the Honourable Senator Cogger, vol. 1 no. 1-3 = Comités du Sénat, 34e Législature, 2e Session : Comité spécial de la justification de la conduite de l'honorable sénateur Cogger, vol. 1 no. 1-3",
+  "language": ["eng", "fra"],
+  "session": ["34-2"]
+}

@@ -1,1 +1,17 @@
-{"primeMinisters":"Trudeau, Pierre Elliott","chamber":["c","s"],"type":"committees","node":[["eng","c","committees","28-3",13],["fra","c","committees","28-3",20],["eng","s","committees","28-3",11],["fra","s","committees","28-3",14]],"pubmax":"1972-02-16","language":["eng","fra"],"session":["28-3"],"pubmin":"1970-10-08","label":"Joint Committees, 28th Parliament, 3rd Session : Special Joint Committee on the Constitution of Canada, vol. 7 = Comités mixtes, 28e Législature, 3e Session : Comité spécial mixte sur la Constitution du Canada, vol. 7","callNumber":"1970/72 C6 A1 v.7"}
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "28-3", 13],
+    ["fra", "c", "committees", "28-3", 20],
+    ["eng", "s", "committees", "28-3", 11],
+    ["fra", "s", "committees", "28-3", 14]
+  ],
+  "pubmax": "1972-02-16",
+  "language": ["eng", "fra"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "label": "Joint Committees, 28th Parliament, 3rd Session : Special Joint Committee on the Constitution of Canada, vol. 7 = Comités mixtes, 28e Législature, 3e Session : Comité spécial mixte sur la Constitution du Canada, vol. 7",
+  "callNumber": "1970/72 C6 A1 v.7"
+}

@@ -1,1 +1,10 @@
-{"pubmin":"1949-09-15","label":"Débats du Sénat, 21e Législature, 1re Session : Vol. 1","language":["fra"],"session":["21-1"],"type":"debates","pubmax":"1949-12-10","node":[["fra","s","debates","21-1",1]],"chamber":["s"]}
+{
+  "pubmin": "1949-09-15",
+  "label": "Débats du Sénat, 21e Législature, 1re Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["21-1"],
+  "type": "debates",
+  "pubmax": "1949-12-10",
+  "node": [["fra", "s", "debates", "21-1", 1]],
+  "chamber": ["s"]
+}

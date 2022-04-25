@@ -1,1 +1,11 @@
-{"node":[["fra","c","debates","24-3",1]],"pubmax":"1960-08-10","type":"debates","primeMinisters":"Diefenbaker, John George","chamber":["c"],"label":"Débats de la Chambre des communes, 24e Législature, 3e Session : Vol. 1","pubmin":"1960-01-14","session":["24-3"],"language":["fra"]}
+{
+  "node": [["fra", "c", "debates", "24-3", 1]],
+  "pubmax": "1960-08-10",
+  "type": "debates",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "label": "Débats de la Chambre des communes, 24e Législature, 3e Session : Vol. 1",
+  "pubmin": "1960-01-14",
+  "session": ["24-3"],
+  "language": ["fra"]
+}

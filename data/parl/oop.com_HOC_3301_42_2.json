@@ -1,1 +1,15 @@
-{"pubmax":"1986-08-28","node":[["eng","c","committees","33-1",90],["fra","c","committees","33-1",76]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","callNumber":"33-1 J8 A1 no.24-41","label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Justice and Legal Affairs, vol. 2 no. 24-41 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de la justice et des questions juridiques, vol. 2 no. 24-41","pubmin":"1984-11-05","session":["33-1"],"language":["eng","fra"]}
+{
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 90],
+    ["fra", "c", "committees", "33-1", 76]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "33-1 J8 A1 no.24-41",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Justice and Legal Affairs, vol. 2 no. 24-41 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de la justice et des questions juridiques, vol. 2 no. 24-41",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"]
+}

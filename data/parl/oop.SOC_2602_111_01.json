@@ -1,1 +1,10 @@
-{"pubmin":"1964-02-18","label":"Senate Journals, 26th Parliament, 2nd Session : Vol. 111 Pt. 1","language":["eng"],"session":["26-2"],"type":"journals","pubmax":"1965-04-03","node":[["eng","s","journals","26-2",1]],"chamber":["s"]}
+{
+  "pubmin": "1964-02-18",
+  "label": "Senate Journals, 26th Parliament, 2nd Session : Vol. 111 Pt. 1",
+  "language": ["eng"],
+  "session": ["26-2"],
+  "type": "journals",
+  "pubmax": "1965-04-03",
+  "node": [["eng", "s", "journals", "26-2", 1]],
+  "chamber": ["s"]
+}

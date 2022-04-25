@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["05-2"],"pubmin":"1884-01-17","label":"Journaux de la Chambre des communes, 5e Législature, 2e Session : Vol. 18","chamber":["c"],"primeMinisters":"Macdonald, John Alexander","type":"journals","pubmax":"1884-04-19","node":[["fra","c","journals","05-2",1]]}
+{
+  "language": ["fra"],
+  "session": ["05-2"],
+  "pubmin": "1884-01-17",
+  "label": "Journaux de la Chambre des communes, 5e Législature, 2e Session : Vol. 18",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "journals",
+  "pubmax": "1884-04-19",
+  "node": [["fra", "c", "journals", "05-2", 1]]
+}

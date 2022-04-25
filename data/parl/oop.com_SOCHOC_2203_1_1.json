@@ -1,1 +1,15 @@
-{"node":[["eng","c","committees","22-3",3],["eng","s","committees","22-3",1]],"pubmax":"1956-08-14","type":"committees","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c","s"],"label":"Joint Committees, 22nd Parliament, 3rd Session : Joint Committee on Capital and Corporal Punishment and Lotteries, Reports","callNumber":"1956 C31 A12","pubmin":"1956-01-10","session":["22-3"],"language":["eng"]}
+{
+  "node": [
+    ["eng", "c", "committees", "22-3", 3],
+    ["eng", "s", "committees", "22-3", 1]
+  ],
+  "pubmax": "1956-08-14",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c", "s"],
+  "label": "Joint Committees, 22nd Parliament, 3rd Session : Joint Committee on Capital and Corporal Punishment and Lotteries, Reports",
+  "callNumber": "1956 C31 A12",
+  "pubmin": "1956-01-10",
+  "session": ["22-3"],
+  "language": ["eng"]
+}

@@ -1,1 +1,104 @@
-{"511":{"tagDate":["1900-01-01T00:00:00.000Z"],"tagPerson":["Simpson, H. C. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"362":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Sifton, C. "],"tagDate":["1900-01-01T00:00:00.000Z"]},"265":{"tagDate":["1900-01-01T00:00:00.000Z"],"tagPerson":["Shaver, H. H. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"298":{"tagPerson":["Sifton, A. L. "],"tagDate":["1900-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"241":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Shaughnessy, T. G. "],"tagDate":["1900-01-01T00:00:00.000Z"]},"3":{"tagDate":["1900-01-01T00:00:00.000Z"],"tagPerson":["Scott, W. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"562":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Smart, J. A. "],"tagDate":["1900-01-01T00:00:00.000Z"]},"756":{"tagDate":["1900-01-01T00:00:00.000Z"],"tagPerson":["Smith, J. O. "],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"288":{"tagDate":["1900-01-01T00:00:00.000Z"],"tagPerson":["Short, J. W. "],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"281":{"tagPerson":["Sherk, F. M., Mrs. "],"tagDate":["1900-01-01T00:00:00.000Z"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"]},"678":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagDate":["1900-01-01T00:00:00.000Z"],"tagPerson":["Smillie, N. C. "]},"750":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Smith, C. "],"tagDate":["1900-01-01T00:00:00.000Z"]},"549":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Skelton, J. M. "],"tagDate":["1900-01-01T00:00:00.000Z"]},"446":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Sifton, J. W. "],"tagDate":["1900-01-01T00:00:00.000Z"]},"530":{"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagPerson":["Sirett, W. F. "],"tagDate":["1900-01-01T00:00:00.000Z"]},"713":{"tagPerson":["Smith, A. "],"tagDate":["1900-01-01T00:00:00.000Z"],"tagName":["General Correspondence, 1889 - 1926"],"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"]},"274":{"tagNotebook":["POLITICAL PAPERS, 1889 - 1926"],"tagName":["General Correspondence, 1889 - 1926"],"tagPerson":["Sheppard, E. E. "],"tagDate":["1900-01-01T00:00:00.000Z"]}}
+{
+  "511": {
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagPerson": ["Simpson, H. C. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "362": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Sifton, C. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  },
+  "265": {
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagPerson": ["Shaver, H. H. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "298": {
+    "tagPerson": ["Sifton, A. L. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "241": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Shaughnessy, T. G. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  },
+  "3": {
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagPerson": ["Scott, W. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "562": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Smart, J. A. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  },
+  "756": {
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagPerson": ["Smith, J. O. "],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "288": {
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagPerson": ["Short, J. W. "],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "281": {
+    "tagPerson": ["Sherk, F. M., Mrs. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"]
+  },
+  "678": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagPerson": ["Smillie, N. C. "]
+  },
+  "750": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Smith, C. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  },
+  "549": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Skelton, J. M. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  },
+  "446": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Sifton, J. W. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  },
+  "530": {
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagPerson": ["Sirett, W. F. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  },
+  "713": {
+    "tagPerson": ["Smith, A. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"]
+  },
+  "274": {
+    "tagNotebook": ["POLITICAL PAPERS, 1889 - 1926"],
+    "tagName": ["General Correspondence, 1889 - 1926"],
+    "tagPerson": ["Sheppard, E. E. "],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  }
+}

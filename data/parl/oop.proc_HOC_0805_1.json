@@ -1,1 +1,12 @@
-{"pubmin":"1900-02-01","label":"House of Commons Votes and Proceedings, 8th Parliament, 5th Session : 1-115","callNumber":"J103 H41 1900 c.2","language":["eng"],"session":["08-5"],"type":"cproc","node":[["eng","c","cproc","08-5",1]],"pubmax":"1900-07-18","primeMinisters":"Laurier, Wilfrid","chamber":["c"]}
+{
+  "pubmin": "1900-02-01",
+  "label": "House of Commons Votes and Proceedings, 8th Parliament, 5th Session : 1-115",
+  "callNumber": "J103 H41 1900 c.2",
+  "language": ["eng"],
+  "session": ["08-5"],
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "08-5", 1]],
+  "pubmax": "1900-07-18",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

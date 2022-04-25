@@ -1,1 +1,14 @@
-{"pubmin":"1980-04-14","label":"Senate Committees, 32nd Parliament, 1st Session : Special Committee on Retirement Age Policies, vol. 1 = Comités du Sénat, 32e Législature, 1re Session : Comité spécial sur les politiques relatives à l'âge de la retraite, vol. 1","callNumber":"1980/83 R5 A1","language":["eng","fra"],"session":["32-1"],"type":"committees","node":[["eng","s","committees","32-1",50],["fra","s","committees","32-1",8]],"pubmax":"1983-11-30","chamber":["s"]}
+{
+  "pubmin": "1980-04-14",
+  "label": "Senate Committees, 32nd Parliament, 1st Session : Special Committee on Retirement Age Policies, vol. 1 = Comités du Sénat, 32e Législature, 1re Session : Comité spécial sur les politiques relatives à l'âge de la retraite, vol. 1",
+  "callNumber": "1980/83 R5 A1",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "32-1", 50],
+    ["fra", "s", "committees", "32-1", 8]
+  ],
+  "pubmax": "1983-11-30",
+  "chamber": ["s"]
+}

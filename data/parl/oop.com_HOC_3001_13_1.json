@@ -1,1 +1,15 @@
-{"node":[["eng","c","committees","30-1",35],["fra","c","committees","30-1",15]],"pubmax":"1976-10-12","type":"committees","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"label":"House of Commons Committees, 30th Parliament, 1st Session : Special Committee on Rights and Immunities of Members, vol. 1 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité spécial des droits et immunités des députés, vol. 1","callNumber":"1974/76 M4 A1","pubmin":"1974-09-30","session":["30-1"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "c", "committees", "30-1", 35],
+    ["fra", "c", "committees", "30-1", 15]
+  ],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Special Committee on Rights and Immunities of Members, vol. 1 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité spécial des droits et immunités des députés, vol. 1",
+  "callNumber": "1974/76 M4 A1",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng", "fra"]
+}

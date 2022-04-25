@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1977-10-17","node":[["fra","c","debates","30-2",1]],"type":"debates","session":["30-2"],"language":["fra"],"label":"Débats de la Chambre des communes, 30e Législature, 2e Session : Vol. 1","pubmin":"1976-10-12"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1977-10-17",
+  "node": [["fra", "c", "debates", "30-2", 1]],
+  "type": "debates",
+  "session": ["30-2"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 30e Législature, 2e Session : Vol. 1",
+  "pubmin": "1976-10-12"
+}

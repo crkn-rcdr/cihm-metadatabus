@@ -1,1 +1,12 @@
-{"type":"cproc","pubmax":"1893-04-01","node":[["fra","c","cproc","07-3",1]],"chamber":["c"],"primeMinisters":"Thompson, John Sparrow David","pubmin":"1893-01-26","callNumber":"J103 H44 1893","label":"Procès-verbaux de la Chambre des communes, 7e Législature, 3e Session : 1-47","language":["fra"],"session":["07-3"]}
+{
+  "type": "cproc",
+  "pubmax": "1893-04-01",
+  "node": [["fra", "c", "cproc", "07-3", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Thompson, John Sparrow David",
+  "pubmin": "1893-01-26",
+  "callNumber": "J103 H44 1893",
+  "label": "Procès-verbaux de la Chambre des communes, 7e Législature, 3e Session : 1-47",
+  "language": ["fra"],
+  "session": ["07-3"]
+}

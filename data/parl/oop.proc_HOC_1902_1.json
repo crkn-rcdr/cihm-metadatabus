@@ -1,1 +1,12 @@
-{"label":"House of Commons Votes and Proceedings, 19th Parliament, 2nd Session : 1-105","callNumber":"J103 H41 1940/42 c.2","pubmin":"1940-11-07","session":["19-2"],"language":["eng"],"node":[["eng","c","cproc","19-2",1]],"pubmax":"1942-01-21","type":"cproc","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"]}
+{
+  "label": "House of Commons Votes and Proceedings, 19th Parliament, 2nd Session : 1-105",
+  "callNumber": "J103 H41 1940/42 c.2",
+  "pubmin": "1940-11-07",
+  "session": ["19-2"],
+  "language": ["eng"],
+  "node": [["eng", "c", "cproc", "19-2", 1]],
+  "pubmax": "1942-01-21",
+  "type": "cproc",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

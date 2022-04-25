@@ -1,1 +1,15 @@
-{"pubmin":"1983-12-07","label":"Senate Committees, 32nd Parliament, 2nd Session : Standing Committee on Foreign Affairs, Report = Comités du Sénat, 32e Législature, 2e Session : Comité permanent des affaires étrangères, Rapport","callNumber":"1983/84 F6 A12","language":["eng","fra"],"reportTitle":["Visit to the Middle East","Visite au Moyen-Orient"],"session":["32-2"],"type":"committees","node":[["eng","s","committees","32-2",8],["fra","s","committees","32-2",2]],"pubmax":"1984-07-09","chamber":["s"]}
+{
+  "pubmin": "1983-12-07",
+  "label": "Senate Committees, 32nd Parliament, 2nd Session : Standing Committee on Foreign Affairs, Report = Comités du Sénat, 32e Législature, 2e Session : Comité permanent des affaires étrangères, Rapport",
+  "callNumber": "1983/84 F6 A12",
+  "language": ["eng", "fra"],
+  "reportTitle": ["Visit to the Middle East", "Visite au Moyen-Orient"],
+  "session": ["32-2"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "32-2", 8],
+    ["fra", "s", "committees", "32-2", 2]
+  ],
+  "pubmax": "1984-07-09",
+  "chamber": ["s"]
+}

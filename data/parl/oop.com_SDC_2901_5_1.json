@@ -1,1 +1,11 @@
-{"type":"committees","node":[["fra","s","committees","29-1",7]],"pubmax":"1974-02-26","chamber":["s"],"pubmin":"1973-01-04","label":"Comités du Sénat, 29e Législature, 1re Session : Comité spécial de la politique scientifique, Rapport vol. 3","callNumber":"1973/74 P6 A12","language":["fra"],"session":["29-1"]}
+{
+  "type": "committees",
+  "node": [["fra", "s", "committees", "29-1", 7]],
+  "pubmax": "1974-02-26",
+  "chamber": ["s"],
+  "pubmin": "1973-01-04",
+  "label": "Comités du Sénat, 29e Législature, 1re Session : Comité spécial de la politique scientifique, Rapport vol. 3",
+  "callNumber": "1973/74 P6 A12",
+  "language": ["fra"],
+  "session": ["29-1"]
+}

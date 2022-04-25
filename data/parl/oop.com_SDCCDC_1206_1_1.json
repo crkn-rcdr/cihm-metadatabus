@@ -1,1 +1,15 @@
-{"node":[["fra","c","committees","12-6",1],["fra","s","committees","12-6",1]],"pubmax":"1916-05-18","type":"committees","primeMinisters":"Borden, Robert Laird","chamber":["c","s"],"label":"Comités mixtes, 12e Législature, 6e Session : Comité conjoint des impressions du Parlement, vol. 1","callNumber":"1916 I5 A44","pubmin":"1916-01-12","session":["12-6"],"language":["fra"]}
+{
+  "node": [
+    ["fra", "c", "committees", "12-6", 1],
+    ["fra", "s", "committees", "12-6", 1]
+  ],
+  "pubmax": "1916-05-18",
+  "type": "committees",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c", "s"],
+  "label": "Comités mixtes, 12e Législature, 6e Session : Comité conjoint des impressions du Parlement, vol. 1",
+  "callNumber": "1916 I5 A44",
+  "pubmin": "1916-01-12",
+  "session": ["12-6"],
+  "language": ["fra"]
+}

@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","type":"cproc","pubmax":"1950-06-30","node":[["fra","c","cproc","21-2",1]],"language":["fra"],"session":["21-2"],"pubmin":"1950-02-16","callNumber":"J103 H44 1950","label":"Procès-verbaux de la Chambre des communes, 21e Législature, 2e Session : 1-90"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "cproc",
+  "pubmax": "1950-06-30",
+  "node": [["fra", "c", "cproc", "21-2", 1]],
+  "language": ["fra"],
+  "session": ["21-2"],
+  "pubmin": "1950-02-16",
+  "callNumber": "J103 H44 1950",
+  "label": "Procès-verbaux de la Chambre des communes, 21e Législature, 2e Session : 1-90"
+}

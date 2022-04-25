@@ -1,1 +1,11 @@
-{"pubmin":"1885-01-29","label":"Sessional Papers, 5th Parliament, 3rd Session : vol. 12","language":["eng"],"session":["05-3"],"type":"sessional","pubmax":"1885-07-20","node":[["eng","c","sessional","05-3",12]],"chamber":["c"],"primeMinisters":"Macdonald, John Alexander"}
+{
+  "pubmin": "1885-01-29",
+  "label": "Sessional Papers, 5th Parliament, 3rd Session : vol. 12",
+  "language": ["eng"],
+  "session": ["05-3"],
+  "type": "sessional",
+  "pubmax": "1885-07-20",
+  "node": [["eng", "c", "sessional", "05-3", 12]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

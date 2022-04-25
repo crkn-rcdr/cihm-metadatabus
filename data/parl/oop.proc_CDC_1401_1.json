@@ -1,1 +1,12 @@
-{"type":"cproc","node":[["fra","c","cproc","14-1",1]],"pubmax":"1922-06-28","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1922-03-08","label":"Procès-verbaux de la Chambre des communes, 14e Législature, 1re Session : 1-75","callNumber":"J103 H44 1922","language":["fra"],"session":["14-1"]}
+{
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "14-1", 1]],
+  "pubmax": "1922-06-28",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1922-03-08",
+  "label": "Procès-verbaux de la Chambre des communes, 14e Législature, 1re Session : 1-75",
+  "callNumber": "J103 H44 1922",
+  "language": ["fra"],
+  "session": ["14-1"]
+}

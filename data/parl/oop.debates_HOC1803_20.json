@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1938-07-01","node":[["eng","c","debates","18-3",5]],"type":"debates","session":["18-3"],"language":["eng"],"label":"House of Commons Debates, 18th Parliament, 3rd Session : Index","pubmin":"1938-01-27"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1938-07-01",
+  "node": [["eng", "c", "debates", "18-3", 5]],
+  "type": "debates",
+  "session": ["18-3"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 18th Parliament, 3rd Session : Index",
+  "pubmin": "1938-01-27"
+}

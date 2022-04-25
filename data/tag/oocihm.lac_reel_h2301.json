@@ -1,1 +1,43 @@
-{"253":{"tagNotebook":["SPEECHES AND ARTICLES"],"tagDescription":["Speeches, addresses, articles"],"tagDate":["[1930-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"69":{"tagDate":["1960-01-01T00:00:00.000Z"],"tagDescription":["Book: includes list of contributors to World Refugee Fund and letters regarding the bust unveiling"],"tagNotebook":["CORRESPONDENCE AND DIARIES"]},"91":{"tagNotebook":["SPEECHES AND ARTICLES"],"tagDescription":["Speeches, addresses, articles"]},"668":{"tagNotebook":["SPEECHES AND ARTICLES"],"tagDate":["[1939-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"],"tagDescription":["Speeches, addresses, articles"]},"498":{"tagNotebook":["SPEECHES AND ARTICLES"],"tagDate":["[1934-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],"tagDescription":["Speeches, addresses, articles"]},"349":{"tagNotebook":["SPEECHES AND ARTICLES"],"tagDate":["[1930-12-31T23:59:59.999Z TO 1932-01-01T00:00:00.000Z]"],"tagDescription":["Speeches, addresses, articles"]},"1085":{"tagDate":["[1948-01-01T00:00:00.000Z TO 1961-12-31T23:59:59.999Z]"],"tagDescription":["Speeches, addresses, articles"],"tagNotebook":["SPEECHES AND ARTICLES"]},"19":{"tagNotebook":["CORRESPONDENCE AND DIARIES"],"tagDescription":["Diary: Cairine R. Mackay"],"tagDate":["1904-08-01T00:00:00.000Z"]}}
+{
+  "253": {
+    "tagNotebook": ["SPEECHES AND ARTICLES"],
+    "tagDescription": ["Speeches, addresses, articles"],
+    "tagDate": ["[1930-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "69": {
+    "tagDate": ["1960-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Book: includes list of contributors to World Refugee Fund and letters regarding the bust unveiling"
+    ],
+    "tagNotebook": ["CORRESPONDENCE AND DIARIES"]
+  },
+  "91": {
+    "tagNotebook": ["SPEECHES AND ARTICLES"],
+    "tagDescription": ["Speeches, addresses, articles"]
+  },
+  "668": {
+    "tagNotebook": ["SPEECHES AND ARTICLES"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Speeches, addresses, articles"]
+  },
+  "498": {
+    "tagNotebook": ["SPEECHES AND ARTICLES"],
+    "tagDate": ["[1934-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Speeches, addresses, articles"]
+  },
+  "349": {
+    "tagNotebook": ["SPEECHES AND ARTICLES"],
+    "tagDate": ["[1930-12-31T23:59:59.999Z TO 1932-01-01T00:00:00.000Z]"],
+    "tagDescription": ["Speeches, addresses, articles"]
+  },
+  "1085": {
+    "tagDate": ["[1948-01-01T00:00:00.000Z TO 1961-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Speeches, addresses, articles"],
+    "tagNotebook": ["SPEECHES AND ARTICLES"]
+  },
+  "19": {
+    "tagNotebook": ["CORRESPONDENCE AND DIARIES"],
+    "tagDescription": ["Diary: Cairine R. Mackay"],
+    "tagDate": ["1904-08-01T00:00:00.000Z"]
+  }
+}

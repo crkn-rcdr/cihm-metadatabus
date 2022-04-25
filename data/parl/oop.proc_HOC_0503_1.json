@@ -1,1 +1,12 @@
-{"session":["05-3"],"language":["eng"],"label":"House of Commons Votes and Proceedings, 5th Parliament, 3rd Session : 1-119","callNumber":"J103 H41 1885 c.2","pubmin":"1885-01-29","primeMinisters":"Macdonald, John Alexander","chamber":["c"],"node":[["eng","c","cproc","05-3",1]],"pubmax":"1885-07-20","type":"cproc"}
+{
+  "session": ["05-3"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 5th Parliament, 3rd Session : 1-119",
+  "callNumber": "J103 H41 1885 c.2",
+  "pubmin": "1885-01-29",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "05-3", 1]],
+  "pubmax": "1885-07-20",
+  "type": "cproc"
+}

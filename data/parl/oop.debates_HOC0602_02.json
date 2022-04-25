@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["06-2"],"pubmin":"1888-02-23","label":"House of Commons Debates, 6th Parliament, 2nd Session : Vol. 2","chamber":["c"],"primeMinisters":"Macdonald, John Alexander","type":"debates","pubmax":"1888-05-22","node":[["eng","c","debates","06-2",2]]}
+{
+  "language": ["eng"],
+  "session": ["06-2"],
+  "pubmin": "1888-02-23",
+  "label": "House of Commons Debates, 6th Parliament, 2nd Session : Vol. 2",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "debates",
+  "pubmax": "1888-05-22",
+  "node": [["eng", "c", "debates", "06-2", 2]]
+}

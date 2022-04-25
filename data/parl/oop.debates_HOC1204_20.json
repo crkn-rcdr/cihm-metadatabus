@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Borden, Robert Laird","type":"debates","pubmax":"1914-08-22","node":[["eng","c","debates","12-4",2]],"language":["eng"],"session":["12-4"],"pubmin":"1914-08-18","label":"House of Commons Debates, 12th Parliament, 4th Session : Index"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "debates",
+  "pubmax": "1914-08-22",
+  "node": [["eng", "c", "debates", "12-4", 2]],
+  "language": ["eng"],
+  "session": ["12-4"],
+  "pubmin": "1914-08-18",
+  "label": "House of Commons Debates, 12th Parliament, 4th Session : Index"
+}

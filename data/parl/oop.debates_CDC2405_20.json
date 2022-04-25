@@ -1,1 +1,11 @@
-{"session":["24-5"],"language":["fra"],"label":"Débats de la Chambre des communes, 24e Législature, 5e Session : Index","pubmin":"1962-01-18","chamber":["c"],"primeMinisters":"Diefenbaker, John George","pubmax":"1962-04-19","node":[["fra","c","debates","24-5",4]],"type":"debates"}
+{
+  "session": ["24-5"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 24e Législature, 5e Session : Index",
+  "pubmin": "1962-01-18",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmax": "1962-04-19",
+  "node": [["fra", "c", "debates", "24-5", 4]],
+  "type": "debates"
+}

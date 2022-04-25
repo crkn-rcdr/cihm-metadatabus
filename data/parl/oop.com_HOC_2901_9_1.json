@@ -1,1 +1,15 @@
-{"callNumber":"1973/74 L2 A1","label":"House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Labour, Manpower and Immigration, vol. 1 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent du travail, de la main-d'oeuvre et de l'immigration, vol. 1","pubmin":"1973-01-04","session":["29-1"],"language":["eng","fra"],"pubmax":"1974-02-26","node":[["eng","c","committees","29-1",11],["fra","c","committees","29-1",25]],"type":"committees","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "callNumber": "1973/74 L2 A1",
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Labour, Manpower and Immigration, vol. 1 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent du travail, de la main-d'oeuvre et de l'immigration, vol. 1",
+  "pubmin": "1973-01-04",
+  "session": ["29-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1974-02-26",
+  "node": [
+    ["eng", "c", "committees", "29-1", 11],
+    ["fra", "c", "committees", "29-1", 25]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

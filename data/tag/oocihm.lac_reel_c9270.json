@@ -1,1 +1,72 @@
-{"816":{"tagDate":["1943-01-01T00:00:00.000Z"],"tagDescription":["Briefs"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"1068":{"tagDate":["1944-01-01T00:00:00.000Z"],"tagDescription":["Conference"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"423":{"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"],"tagDescription":["Convention - Reports, Agenda and Addresses"],"tagDate":["1958-01-01T00:00:00.000Z"]},"699":{"tagDate":["1943-01-01T00:00:00.000Z"],"tagDescription":["Conference (Regina) - Correspondence"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"610":{"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"],"tagDate":["1958-01-01T00:00:00.000Z"],"tagDescription":["Convention Report"]},"635":{"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"],"tagDate":["1960-01-01T00:00:00.000Z"],"tagDescription":["Convention - Reports, Resolutions, etc."]},"439":{"tagDate":["1958-01-01T00:00:00.000Z"],"tagDescription":["Convention - Resolutions and Correspondence"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]},"589":{"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"],"tagDescription":["Convention - Delegates and Credentials"],"tagDate":["1958-01-01T00:00:00.000Z"]},"64":{"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"],"tagDate":["1958-01-01T00:00:00.000Z"],"tagDescription":["Convention - Correspondence (2 files)"]},"1284":{"tagDate":["1947-01-01T00:00:00.000Z"],"tagDescription":["Conference - Correspondence"],"tagNotebook":["CCF National Conventions and Inter -Provincial Conferences"]}}
+{
+  "816": {
+    "tagDate": ["1943-01-01T00:00:00.000Z"],
+    "tagDescription": ["Briefs"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1068": {
+    "tagDate": ["1944-01-01T00:00:00.000Z"],
+    "tagDescription": ["Conference"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "423": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDescription": ["Convention - Reports, Agenda and Addresses"],
+    "tagDate": ["1958-01-01T00:00:00.000Z"]
+  },
+  "699": {
+    "tagDate": ["1943-01-01T00:00:00.000Z"],
+    "tagDescription": ["Conference (Regina) - Correspondence"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "610": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDate": ["1958-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention Report"]
+  },
+  "635": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDate": ["1960-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Reports, Resolutions, etc."]
+  },
+  "439": {
+    "tagDate": ["1958-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Resolutions and Correspondence"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "589": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDescription": ["Convention - Delegates and Credentials"],
+    "tagDate": ["1958-01-01T00:00:00.000Z"]
+  },
+  "64": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDate": ["1958-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Correspondence (2 files)"]
+  },
+  "1284": {
+    "tagDate": ["1947-01-01T00:00:00.000Z"],
+    "tagDescription": ["Conference - Correspondence"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  }
+}

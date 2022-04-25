@@ -1,1 +1,12 @@
-{"pubmax":"1910-05-04","node":[["eng","c","cproc","11-2",1]],"type":"cproc","chamber":["c"],"primeMinisters":"Laurier, Wilfrid","callNumber":"J103 H41 1909/10 c.2","label":"House of Commons Votes and Proceedings, 11th Parliament, 2nd Session : 1-102","pubmin":"1909-11-11","session":["11-2"],"language":["eng"]}
+{
+  "pubmax": "1910-05-04",
+  "node": [["eng", "c", "cproc", "11-2", 1]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "callNumber": "J103 H41 1909/10 c.2",
+  "label": "House of Commons Votes and Proceedings, 11th Parliament, 2nd Session : 1-102",
+  "pubmin": "1909-11-11",
+  "session": ["11-2"],
+  "language": ["eng"]
+}

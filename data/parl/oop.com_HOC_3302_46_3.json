@@ -1,1 +1,15 @@
-{"node":[["eng","c","committees","33-2",90],["fra","c","committees","33-2",143]],"pubmax":"1988-10-01","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Fisheries and Oceans, vol. 3 no. 40 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des pêches et des océans, vol. 3 no. 40","callNumber":"33-2 F583 A1 no.40","pubmin":"1986-09-30","session":["33-2"],"language":["eng","fra"]}
+{
+  "node": [
+    ["eng", "c", "committees", "33-2", 90],
+    ["fra", "c", "committees", "33-2", 143]
+  ],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Fisheries and Oceans, vol. 3 no. 40 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des pêches et des océans, vol. 3 no. 40",
+  "callNumber": "33-2 F583 A1 no.40",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["eng", "fra"]
+}

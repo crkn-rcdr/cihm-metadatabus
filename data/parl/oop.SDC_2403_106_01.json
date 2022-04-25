@@ -1,1 +1,10 @@
-{"session":["24-3"],"language":["fra"],"label":"Journaux du Sénat, 24e Législature, 3e Session : Vol. 106","pubmin":"1960-01-14","chamber":["s"],"node":[["fra","s","journals","24-3",1]],"pubmax":"1960-08-10","type":"journals"}
+{
+  "session": ["24-3"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 24e Législature, 3e Session : Vol. 106",
+  "pubmin": "1960-01-14",
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "24-3", 1]],
+  "pubmax": "1960-08-10",
+  "type": "journals"
+}

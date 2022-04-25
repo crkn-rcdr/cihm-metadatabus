@@ -1,1 +1,13 @@
-{"pubmin":"1989-04-03","callNumber":"34-2 C662 A122","label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Consumer and Corporate Affairs and Government Operations, Second Report","reportTitle":["Moving the Mail: Canada's Postal Service in the 1990's"],"language":["eng"],"session":["34-2"],"type":"committees","pubmax":"1991-05-12","node":[["eng","c","committees","34-2",45]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 C662 A122",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Consumer and Corporate Affairs and Government Operations, Second Report",
+  "reportTitle": ["Moving the Mail: Canada's Postal Service in the 1990's"],
+  "language": ["eng"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["eng", "c", "committees", "34-2", 45]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

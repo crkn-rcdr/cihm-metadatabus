@@ -1,1 +1,11 @@
-{"pubmax":"1897-06-29","node":[["eng","c","debates","08-2",2]],"type":"debates","chamber":["c"],"primeMinisters":"Laurier, Wilfrid","label":"House of Commons Debates, 8th Parliament, 2nd Session : Vol. 2","pubmin":"1897-03-25","session":["08-2"],"language":["eng"]}
+{
+  "pubmax": "1897-06-29",
+  "node": [["eng", "c", "debates", "08-2", 2]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "label": "House of Commons Debates, 8th Parliament, 2nd Session : Vol. 2",
+  "pubmin": "1897-03-25",
+  "session": ["08-2"],
+  "language": ["eng"]
+}

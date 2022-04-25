@@ -1,1 +1,12 @@
-{"node":[["eng","s","committees","33-2",36]],"pubmax":"1988-10-01","type":"committees","chamber":["s"],"label":"Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on National Finance, Third Report","callNumber":"33-2 N3 A13","pubmin":"1986-09-30","session":["33-2"],"reportTitle":["Matching Grants Program of the Government of Canada"],"language":["eng"]}
+{
+  "node": [["eng", "s", "committees", "33-2", 36]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on National Finance, Third Report",
+  "callNumber": "33-2 N3 A13",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "reportTitle": ["Matching Grants Program of the Government of Canada"],
+  "language": ["eng"]
+}

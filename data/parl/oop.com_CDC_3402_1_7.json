@@ -1,1 +1,13 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["fra","c","committees","34-2",8]],"pubmax":"1991-05-12","type":"committees","session":["34-2"],"language":["fra"],"reportTitle":["L'été de 1990"],"label":"Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des affaires autochtones, Cinquième rapport","callNumber":"34-2 A182 A125","pubmin":"1989-04-03"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "34-2", 8]],
+  "pubmax": "1991-05-12",
+  "type": "committees",
+  "session": ["34-2"],
+  "language": ["fra"],
+  "reportTitle": ["L'été de 1990"],
+  "label": "Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des affaires autochtones, Cinquième rapport",
+  "callNumber": "34-2 A182 A125",
+  "pubmin": "1989-04-03"
+}

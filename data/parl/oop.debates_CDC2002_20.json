@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"debates","pubmax":"1946-08-31","node":[["fra","c","debates","20-2",6]],"language":["fra"],"session":["20-2"],"pubmin":"1946-03-14","label":"Débats de la Chambre des communes, 20e Législature, 2e Session : Index"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "debates",
+  "pubmax": "1946-08-31",
+  "node": [["fra", "c", "debates", "20-2", 6]],
+  "language": ["fra"],
+  "session": ["20-2"],
+  "pubmin": "1946-03-14",
+  "label": "Débats de la Chambre des communes, 20e Législature, 2e Session : Index"
+}

@@ -1,1 +1,11 @@
-{"pubmin":"1945-09-06","label":"Senate Minutes of Proceedings, 20th Parliament, 1st Session : 1-44","callNumber":"J103 H4 1945 (2d. Sess.) c.2","language":["eng"],"session":["20-1"],"type":"sproc","node":[["eng","s","sproc","20-1",1]],"pubmax":"1945-12-18","chamber":["s"]}
+{
+  "pubmin": "1945-09-06",
+  "label": "Senate Minutes of Proceedings, 20th Parliament, 1st Session : 1-44",
+  "callNumber": "J103 H4 1945 (2d. Sess.) c.2",
+  "language": ["eng"],
+  "session": ["20-1"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "20-1", 1]],
+  "pubmax": "1945-12-18",
+  "chamber": ["s"]
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"node":[["fra","c","cproc","26-1",2]],"pubmax":"1963-12-21","type":"cproc","session":["26-1"],"language":["fra"],"label":"Procès-verbaux de la Chambre des communes, 26e Législature, 1re Session : 55-117","callNumber":"J103 H44 1963 v.2 ex.2","pubmin":"1963-05-16"}
+{
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "node": [["fra", "c", "cproc", "26-1", 2]],
+  "pubmax": "1963-12-21",
+  "type": "cproc",
+  "session": ["26-1"],
+  "language": ["fra"],
+  "label": "Procès-verbaux de la Chambre des communes, 26e Législature, 1re Session : 55-117",
+  "callNumber": "J103 H44 1963 v.2 ex.2",
+  "pubmin": "1963-05-16"
+}

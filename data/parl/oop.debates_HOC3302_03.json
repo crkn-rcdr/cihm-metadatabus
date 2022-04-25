@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["33-2"],"pubmin":"1986-09-30","label":"House of Commons Debates, 33rd Parliament, 2nd Session : Vol. 3","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"debates","node":[["eng","c","debates","33-2",3]],"pubmax":"1988-10-01"}
+{
+  "language": ["eng"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Debates, 33rd Parliament, 2nd Session : Vol. 3",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "33-2", 3]],
+  "pubmax": "1988-10-01"
+}

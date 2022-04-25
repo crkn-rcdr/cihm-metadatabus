@@ -1,1 +1,17 @@
-{"type":"committees","node":[["eng","c","committees","33-1",11],["fra","c","committees","33-1",116],["eng","s","committees","33-1",7],["fra","s","committees","33-1",32]],"pubmax":"1986-08-28","primeMinisters":"Mulroney, Martin Brian","chamber":["c","s"],"pubmin":"1984-11-05","label":"Joint Committees, 33rd Parliament, 1st Session : Special Joint Committee on Canada's International Relations, vol. 1 = Comités mixtes, 33e Législature, 1re Session : Comité mixte spécial sur les relations extérieures du Canada, vol. 1","callNumber":"33-1 C32 A1 no.1-9","language":["eng","fra"],"session":["33-1"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-1", 11],
+    ["fra", "c", "committees", "33-1", 116],
+    ["eng", "s", "committees", "33-1", 7],
+    ["fra", "s", "committees", "33-1", 32]
+  ],
+  "pubmax": "1986-08-28",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c", "s"],
+  "pubmin": "1984-11-05",
+  "label": "Joint Committees, 33rd Parliament, 1st Session : Special Joint Committee on Canada's International Relations, vol. 1 = Comités mixtes, 33e Législature, 1re Session : Comité mixte spécial sur les relations extérieures du Canada, vol. 1",
+  "callNumber": "33-1 C32 A1 no.1-9",
+  "language": ["eng", "fra"],
+  "session": ["33-1"]
+}

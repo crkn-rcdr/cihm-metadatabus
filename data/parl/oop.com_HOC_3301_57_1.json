@@ -1,1 +1,15 @@
-{"pubmin":"1984-11-05","callNumber":"33-1 P533 A1 no.1-3","label":"House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-82, an Act to amend the Petroleum and Gas Revenue Tax Act and the Income Tax Act, vol. 1 no. 1-3 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-82, Loi modifiant la Loi de l'impôt sur les revenus pétroliers et la Loi de l'impôt sur le revenu, vol. 1 no. 1-3","language":["eng","fra"],"session":["33-1"],"type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",111],["fra","c","committees","33-1",72]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 P533 A1 no.1-3",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-82, an Act to amend the Petroleum and Gas Revenue Tax Act and the Income Tax Act, vol. 1 no. 1-3 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-82, Loi modifiant la Loi de l'impôt sur les revenus pétroliers et la Loi de l'impôt sur le revenu, vol. 1 no. 1-3",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 111],
+    ["fra", "c", "committees", "33-1", 72]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

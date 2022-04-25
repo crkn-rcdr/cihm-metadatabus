@@ -1,1 +1,10 @@
-{"language":["fra"],"session":["24-5"],"pubmin":"1962-01-18","label":"Débats du Sénat, 24e Législature, 5e Session : Vol. 1","chamber":["s"],"type":"debates","node":[["fra","s","debates","24-5",1]],"pubmax":"1962-04-19"}
+{
+  "language": ["fra"],
+  "session": ["24-5"],
+  "pubmin": "1962-01-18",
+  "label": "Débats du Sénat, 24e Législature, 5e Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "24-5", 1]],
+  "pubmax": "1962-04-19"
+}

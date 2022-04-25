@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["12-2"],"pubmin":"1912-11-21","callNumber":"KE72 C38 12-2 Bill A-","label":"Senate Bills, 12th Parliament, 2nd Session : A-M4","chamber":["s"],"type":"bills","pubmax":"1913-06-06","node":[["eng","s","bills","12-2",1]]}
+{
+  "language": ["eng"],
+  "session": ["12-2"],
+  "pubmin": "1912-11-21",
+  "callNumber": "KE72 C38 12-2 Bill A-",
+  "label": "Senate Bills, 12th Parliament, 2nd Session : A-M4",
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1913-06-06",
+  "node": [["eng", "s", "bills", "12-2", 1]]
+}

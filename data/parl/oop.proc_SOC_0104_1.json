@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["01-4"],"pubmin":"1871-02-15","callNumber":"J103 H4 1871","label":"Senate Minutes of Proceedings, 1st Parliament, 4th Session : 1-39","chamber":["s"],"type":"sproc","pubmax":"1871-04-14","node":[["eng","s","sproc","01-4",1]]}
+{
+  "language": ["eng"],
+  "session": ["01-4"],
+  "pubmin": "1871-02-15",
+  "callNumber": "J103 H4 1871",
+  "label": "Senate Minutes of Proceedings, 1st Parliament, 4th Session : 1-39",
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1871-04-14",
+  "node": [["eng", "s", "sproc", "01-4", 1]]
+}

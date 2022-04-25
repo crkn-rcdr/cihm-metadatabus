@@ -1,1 +1,11 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"debates","node":[["fra","c","debates","05-1",2]],"pubmax":"1883-05-27","language":["fra"],"session":["05-1"],"pubmin":"1883-02-08","label":"Débats de la Chambre des communes, 5e Législature, 1re Session : Vol. 2"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "05-1", 2]],
+  "pubmax": "1883-05-27",
+  "language": ["fra"],
+  "session": ["05-1"],
+  "pubmin": "1883-02-08",
+  "label": "Débats de la Chambre des communes, 5e Législature, 1re Session : Vol. 2"
+}

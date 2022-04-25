@@ -1,1 +1,97 @@
-{"405":{"tagDescription":["138. National Revenue."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"429":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["139. National Selective Service."]},"635":{"tagDescription":["144. Neill, John"],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"351":{"tagDescription":["135. National Defence Res. Dr. A. A. Rowen."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"638":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["146. News."]},"789":{"tagDescription":["147. Overseas Reinforcements."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"494":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["141. National War Services Dept."]},"593":{"tagDescription":["142. Navarro."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"386":{"tagDescription":["137. National Registration."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"488":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["140. National War Finances Committee."]},"359":{"tagDescription":["136. Call ups and Enlistments under the National Mobilization Act."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"636":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["145. New Brunswick Power Company."]},"865":{"tagDescription":["148. Pamphlets - Miscellaneous."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"296":{"tagDescription":["134. (b) Gardner, W. Bullard","134. National Defence (a) Air"],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"614":{"tagDescription":["143. Navy, Royal Canadian"],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]}}
+{
+  "405": {
+    "tagDescription": ["138. National Revenue."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "429": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["139. National Selective Service."]
+  },
+  "635": {
+    "tagDescription": ["144. Neill, John"],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "351": {
+    "tagDescription": ["135. National Defence Res. Dr. A. A. Rowen."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "638": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["146. News."]
+  },
+  "789": {
+    "tagDescription": ["147. Overseas Reinforcements."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "494": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["141. National War Services Dept."]
+  },
+  "593": {
+    "tagDescription": ["142. Navarro."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "386": {
+    "tagDescription": ["137. National Registration."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "488": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["140. National War Finances Committee."]
+  },
+  "359": {
+    "tagDescription": [
+      "136. Call ups and Enlistments under the National Mobilization Act."
+    ],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "636": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["145. New Brunswick Power Company."]
+  },
+  "865": {
+    "tagDescription": ["148. Pamphlets - Miscellaneous."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "296": {
+    "tagDescription": [
+      "134. (b) Gardner, W. Bullard",
+      "134. National Defence (a) Air"
+    ],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "614": {
+    "tagDescription": ["143. Navy, Royal Canadian"],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  }
+}

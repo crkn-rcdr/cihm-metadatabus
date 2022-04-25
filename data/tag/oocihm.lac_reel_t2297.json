@@ -1,1 +1,93 @@
-{"1191":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Brazil. Extradition Treaty"]},"1140":{"tagDescription":["British Ambassadors in China and Japan"],"tagDate":["[1913-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"1327":{"tagDescription":["Missing / Manque"]},"354":{"tagDate":["1913-01-01T00:00:00.000Z"],"tagDescription":["Offer of the Astronomical Society of Mexico of a Medal and Diploma to any Astronomer who discovers a comet"]},"1188":{"tagDescription":["Missing / Manque"]},"1767":{"tagDescription":["Extradition treaty with the United States -Supplementary convention between United States and Canada (desertion of wives and children)"],"tagDate":["[1883-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]},"770":{"tagDate":["[1907-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["Exploration expeditions in the Artic Regions"]},"987":{"tagDate":["[1926-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Artic Regions -Antarctic, Future control of"]},"361":{"tagDescription":["Death Sentence - Capital Cases"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]},"1687":{"tagDescription":["International Convention establishing a time Association. -Standard time for Dominion official purposes"],"tagDate":["[1919-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"]},"358":{"tagDescription":["Missing / Manque"]},"1374":{"tagDescription":["Catalogue of public documents of the United States for the Government of Canada"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"]},"1102":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],"tagDescription":["Honduras. Consular\nappointments"]},"499":{"tagDescription":["Missing / Manque"]},"1764":{"tagDescription":["Missing / Manque"]},"1685":{"tagDescription":["Missing / Manque"]},"1755":{"tagDate":["[1907-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"],"tagDescription":["Colonial Prisoners removal act -Removal of Prisoners and criminal lunatics to Ireland"]},"1138":{"tagDescription":["Missing / Manque"]},"159":{"tagDescription":["Mexican Affairs"],"tagDate":["[1927-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"1097":{"tagDescription":["Missing / Manque"]},"1371":{"tagDescription":["Brazil. Extradition Treaty"]},"487":{"tagDescription":["Missing / Manque"]},"503":{"tagDate":["[1907-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],"tagDescription":["Exploration expeditions in the Artic Regions -Artic Regions -Antarctica control of"]},"1329":{"tagDescription":["Brazil. Extradition Treaty"],"tagDate":["[1913-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]},"1753":{"tagDescription":["Missing / Manque"]},"1594":{"tagDescription":["Japan. Consular appointments"],"tagDate":["[1913-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"490":{"tagDescription":["The estate of Paul Wertz or Wurtz, of the Netherland, who died 1676. -Claims of member of the Wertz Family association to"],"tagDate":["1913-01-01T00:00:00.000Z"]},"1592":{"tagDescription":["Brazil. Extradition Treaty"]},"352":{"tagDescription":["Missing / Manque"]}}
+{
+  "1191": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Brazil. Extradition Treaty"]
+  },
+  "1140": {
+    "tagDescription": ["British Ambassadors in China and Japan"],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "1327": { "tagDescription": ["Missing / Manque"] },
+  "354": {
+    "tagDate": ["1913-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Offer of the Astronomical Society of Mexico of a Medal and Diploma to any Astronomer who discovers a comet"
+    ]
+  },
+  "1188": { "tagDescription": ["Missing / Manque"] },
+  "1767": {
+    "tagDescription": [
+      "Extradition treaty with the United States -Supplementary convention between United States and Canada (desertion of wives and children)"
+    ],
+    "tagDate": ["[1883-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]
+  },
+  "770": {
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Exploration expeditions in the Artic Regions"]
+  },
+  "987": {
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Artic Regions -Antarctic, Future control of"]
+  },
+  "361": {
+    "tagDescription": ["Death Sentence - Capital Cases"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "1687": {
+    "tagDescription": [
+      "International Convention establishing a time Association. -Standard time for Dominion official purposes"
+    ],
+    "tagDate": ["[1919-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"]
+  },
+  "358": { "tagDescription": ["Missing / Manque"] },
+  "1374": {
+    "tagDescription": [
+      "Catalogue of public documents of the United States for the Government of Canada"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"]
+  },
+  "1102": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Honduras. Consular\nappointments"]
+  },
+  "499": { "tagDescription": ["Missing / Manque"] },
+  "1764": { "tagDescription": ["Missing / Manque"] },
+  "1685": { "tagDescription": ["Missing / Manque"] },
+  "1755": {
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Colonial Prisoners removal act -Removal of Prisoners and criminal lunatics to Ireland"
+    ]
+  },
+  "1138": { "tagDescription": ["Missing / Manque"] },
+  "159": {
+    "tagDescription": ["Mexican Affairs"],
+    "tagDate": ["[1927-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "1097": { "tagDescription": ["Missing / Manque"] },
+  "1371": { "tagDescription": ["Brazil. Extradition Treaty"] },
+  "487": { "tagDescription": ["Missing / Manque"] },
+  "503": {
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Exploration expeditions in the Artic Regions -Artic Regions -Antarctica control of"
+    ]
+  },
+  "1329": {
+    "tagDescription": ["Brazil. Extradition Treaty"],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "1753": { "tagDescription": ["Missing / Manque"] },
+  "1594": {
+    "tagDescription": ["Japan. Consular appointments"],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "490": {
+    "tagDescription": [
+      "The estate of Paul Wertz or Wurtz, of the Netherland, who died 1676. -Claims of member of the Wertz Family association to"
+    ],
+    "tagDate": ["1913-01-01T00:00:00.000Z"]
+  },
+  "1592": { "tagDescription": ["Brazil. Extradition Treaty"] },
+  "352": { "tagDescription": ["Missing / Manque"] }
+}

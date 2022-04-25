@@ -1,1 +1,12 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"node":[["fra","c","cproc","01-5",1]],"pubmax":"1872-06-14","type":"cproc","session":["01-5"],"language":["fra"],"label":"Procès-verbaux de la Chambre des communes, 1e Législature, 5e Session : 1-46","callNumber":"J103 H44 1872","pubmin":"1872-04-11"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["fra", "c", "cproc", "01-5", 1]],
+  "pubmax": "1872-06-14",
+  "type": "cproc",
+  "session": ["01-5"],
+  "language": ["fra"],
+  "label": "Procès-verbaux de la Chambre des communes, 1e Législature, 5e Session : 1-46",
+  "callNumber": "J103 H44 1872",
+  "pubmin": "1872-04-11"
+}

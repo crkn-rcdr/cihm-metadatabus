@@ -1,1 +1,11 @@
-{"label":"Documents parlementaires, 1e Législature, 4e Session : vol. 3","pubmin":"1871-02-15","session":["01-4"],"language":["fra"],"node":[["fra","c","sessional","01-4",3]],"pubmax":"1871-04-14","type":"sessional","primeMinisters":"Macdonald, John Alexander","chamber":["c"]}
+{
+  "label": "Documents parlementaires, 1e Législature, 4e Session : vol. 3",
+  "pubmin": "1871-02-15",
+  "session": ["01-4"],
+  "language": ["fra"],
+  "node": [["fra", "c", "sessional", "01-4", 3]],
+  "pubmax": "1871-04-14",
+  "type": "sessional",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

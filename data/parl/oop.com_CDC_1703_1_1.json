@@ -1,1 +1,12 @@
-{"primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"type":"committees","node":[["fra","c","committees","17-3",1]],"pubmax":"1932-05-26","language":["fra"],"session":["17-3"],"pubmin":"1932-02-04","label":"Comités de la Chambre des communes, 17e Législature, 3e Session : Comité permanent des chemins de fer et de la marine marchande possédée, exploitée et contrôlée par l'État, vol. 1","callNumber":"1932 C44 A4"}
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "17-3", 1]],
+  "pubmax": "1932-05-26",
+  "language": ["fra"],
+  "session": ["17-3"],
+  "pubmin": "1932-02-04",
+  "label": "Comités de la Chambre des communes, 17e Législature, 3e Session : Comité permanent des chemins de fer et de la marine marchande possédée, exploitée et contrôlée par l'État, vol. 1",
+  "callNumber": "1932 C44 A4"
+}

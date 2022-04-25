@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Meighen, Arthur","type":"journals","pubmax":"1921-06-04","node":[["eng","c","journals","13-5",2]],"language":["eng"],"session":["13-5"],"pubmin":"1921-02-14","label":"House of Commons Journals, 13th Parliament, 5th Session : Vol. 58 App. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Meighen, Arthur",
+  "type": "journals",
+  "pubmax": "1921-06-04",
+  "node": [["eng", "c", "journals", "13-5", 2]],
+  "language": ["eng"],
+  "session": ["13-5"],
+  "pubmin": "1921-02-14",
+  "label": "House of Commons Journals, 13th Parliament, 5th Session : Vol. 58 App. 1"
+}

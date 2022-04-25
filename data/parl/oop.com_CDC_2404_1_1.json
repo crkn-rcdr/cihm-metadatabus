@@ -1,1 +1,12 @@
-{"primeMinisters":"Diefenbaker, John George","chamber":["c"],"node":[["fra","c","committees","24-4",2]],"pubmax":"1961-09-29","type":"committees","session":["24-4"],"language":["fra"],"label":"Comités de la Chambre des communes, 24e Législature, 4e Session : Comité permanent des affaires extérieures, vol. 1","callNumber":"1960/61 A25 A4","pubmin":"1960-11-17"}
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "24-4", 2]],
+  "pubmax": "1961-09-29",
+  "type": "committees",
+  "session": ["24-4"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 24e Législature, 4e Session : Comité permanent des affaires extérieures, vol. 1",
+  "callNumber": "1960/61 A25 A4",
+  "pubmin": "1960-11-17"
+}

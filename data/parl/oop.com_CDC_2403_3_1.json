@@ -1,1 +1,12 @@
-{"callNumber":"1960 A5 A4","label":"Comités de la Chambre des communes, 24e Législature, 3e Session : Comité permanent des affaires des anciens combattants, vol. 1","pubmin":"1960-01-14","session":["24-3"],"language":["fra"],"pubmax":"1960-08-10","node":[["fra","c","committees","24-3",1]],"type":"committees","chamber":["c"],"primeMinisters":"Diefenbaker, John George"}
+{
+  "callNumber": "1960 A5 A4",
+  "label": "Comités de la Chambre des communes, 24e Législature, 3e Session : Comité permanent des affaires des anciens combattants, vol. 1",
+  "pubmin": "1960-01-14",
+  "session": ["24-3"],
+  "language": ["fra"],
+  "pubmax": "1960-08-10",
+  "node": [["fra", "c", "committees", "24-3", 1]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

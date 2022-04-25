@@ -1,1 +1,15 @@
-{"session":["09-4"],"language":["eng"],"label":"Senate and House of Commons Bills, 9th Parliament, 4th Session : A-N, 2-171","callNumber":"KE72 C36 9-4 no.2-171 no.A-N","pubmin":"1904-03-10","primeMinisters":"Laurier, Wilfrid","chamber":["s","c"],"node":[["eng","s","bills","09-4",1],["eng","c","bills","09-4",1]],"pubmax":"1904-08-10","type":"bills"}
+{
+  "session": ["09-4"],
+  "language": ["eng"],
+  "label": "Senate and House of Commons Bills, 9th Parliament, 4th Session : A-N, 2-171",
+  "callNumber": "KE72 C36 9-4 no.2-171 no.A-N",
+  "pubmin": "1904-03-10",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["s", "c"],
+  "node": [
+    ["eng", "s", "bills", "09-4", 1],
+    ["eng", "c", "bills", "09-4", 1]
+  ],
+  "pubmax": "1904-08-10",
+  "type": "bills"
+}

@@ -1,1 +1,10 @@
-{"type":"debates","node":[["eng","s","debates","13-2",1]],"pubmax":"1919-07-07","chamber":["s"],"pubmin":"1919-02-20","label":"Senate Debates, 13th Parliament, 2nd Session : Vol. 1","language":["eng"],"session":["13-2"]}
+{
+  "type": "debates",
+  "node": [["eng", "s", "debates", "13-2", 1]],
+  "pubmax": "1919-07-07",
+  "chamber": ["s"],
+  "pubmin": "1919-02-20",
+  "label": "Senate Debates, 13th Parliament, 2nd Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["13-2"]
+}

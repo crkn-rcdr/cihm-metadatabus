@@ -1,1 +1,14 @@
-{"session":["32-1"],"language":["eng","fra"],"label":"House of Commons Bills, 32nd Parliament, 1st Session : C68-C93 = Projets de loi de la Chambre des communes, 32e Législature, 1re Session : C68-C93","pubmin":"1980-04-14","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1983-11-30","node":[["eng","c","bills","32-1",7],["fra","c","bills","32-1",7]],"type":"bills"}
+{
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Bills, 32nd Parliament, 1st Session : C68-C93 = Projets de loi de la Chambre des communes, 32e Législature, 1re Session : C68-C93",
+  "pubmin": "1980-04-14",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "bills", "32-1", 7],
+    ["fra", "c", "bills", "32-1", 7]
+  ],
+  "type": "bills"
+}

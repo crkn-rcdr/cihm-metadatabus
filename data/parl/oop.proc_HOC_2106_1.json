@@ -1,1 +1,12 @@
-{"pubmax":"1952-11-20","node":[["eng","c","cproc","21-6",1]],"type":"cproc","chamber":["c"],"primeMinisters":"St-Laurent, Louis Stephen","callNumber":"J103 H41 1952 c.2","label":"House of Commons Votes and Proceedings, 21st Parliament, 6th Session : 1-87","pubmin":"1952-02-28","session":["21-6"],"language":["eng"]}
+{
+  "pubmax": "1952-11-20",
+  "node": [["eng", "c", "cproc", "21-6", 1]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "callNumber": "J103 H41 1952 c.2",
+  "label": "House of Commons Votes and Proceedings, 21st Parliament, 6th Session : 1-87",
+  "pubmin": "1952-02-28",
+  "session": ["21-6"],
+  "language": ["eng"]
+}

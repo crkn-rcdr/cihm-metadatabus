@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["24-4"],"pubmin":"1960-11-17","callNumber":"JL164.4 1961","label":"Temporary and Permanent Standing Orders, 1961 = Articles provisoires et permanents du Règlement, 1961","chamber":["c"],"primeMinisters":"Diefenbaker, John George","type":"orders","pubmax":"1961-09-29","node":[["eng","c","orders",null,6],["fra","c","orders",null,6]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "callNumber": "JL164.4 1961",
+  "label": "Temporary and Permanent Standing Orders, 1961 = Articles provisoires et permanents du Règlement, 1961",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "type": "orders",
+  "pubmax": "1961-09-29",
+  "node": [
+    ["eng", "c", "orders", null, 6],
+    ["fra", "c", "orders", null, 6]
+  ]
+}

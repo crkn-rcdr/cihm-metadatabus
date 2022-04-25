@@ -1,1 +1,36 @@
-{"1456":{"tagDescription":["Civil Service of Canada"],"tagDate":["[1897-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]},"1601":{"tagDescription":["Civil Service of Canada (Rules, Regulation, Acts)"],"tagDate":["[1870-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"]},"1294":{"tagDate":["1912-01-01T00:00:00.000Z"],"tagDescription":["Pelagic sealing - Publications"]},"1453":{"tagDescription":["Missing / Manque"]},"527":{"tagDate":["1893-01-01T00:00:00.000Z"],"tagDescription":["Pelagic sealing - Publications"]},"1045":{"tagDate":["1893-01-01T00:00:00.000Z"],"tagDescription":["Pelagic sealing - Publications"]},"40":{"tagDescription":["Pelagic sealing - Publications"],"tagDate":["1893-01-01T00:00:00.000Z"]},"953":{"tagDate":["1893-01-01T00:00:00.000Z"],"tagDescription":["Pelagic sealing - Publications"]},"665":{"tagDescription":["Pelagic sealing - Publications"],"tagDate":["1893-01-01T00:00:00.000Z"]},"1454":{"tagDescription":["Missing / Manque"]}}
+{
+  "1456": {
+    "tagDescription": ["Civil Service of Canada"],
+    "tagDate": ["[1897-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]
+  },
+  "1601": {
+    "tagDescription": ["Civil Service of Canada (Rules, Regulation, Acts)"],
+    "tagDate": ["[1870-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"]
+  },
+  "1294": {
+    "tagDate": ["1912-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing - Publications"]
+  },
+  "1453": { "tagDescription": ["Missing / Manque"] },
+  "527": {
+    "tagDate": ["1893-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing - Publications"]
+  },
+  "1045": {
+    "tagDate": ["1893-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing - Publications"]
+  },
+  "40": {
+    "tagDescription": ["Pelagic sealing - Publications"],
+    "tagDate": ["1893-01-01T00:00:00.000Z"]
+  },
+  "953": {
+    "tagDate": ["1893-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing - Publications"]
+  },
+  "665": {
+    "tagDescription": ["Pelagic sealing - Publications"],
+    "tagDate": ["1893-01-01T00:00:00.000Z"]
+  },
+  "1454": { "tagDescription": ["Missing / Manque"] }
+}

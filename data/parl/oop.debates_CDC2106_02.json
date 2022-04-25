@@ -1,1 +1,11 @@
-{"type":"debates","node":[["fra","c","debates","21-6",2]],"pubmax":"1952-11-20","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"pubmin":"1952-02-28","label":"Débats de la Chambre des communes, 21e Législature, 6e Session : Vol. 2","language":["fra"],"session":["21-6"]}
+{
+  "type": "debates",
+  "node": [["fra", "c", "debates", "21-6", 2]],
+  "pubmax": "1952-11-20",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "pubmin": "1952-02-28",
+  "label": "Débats de la Chambre des communes, 21e Législature, 6e Session : Vol. 2",
+  "language": ["fra"],
+  "session": ["21-6"]
+}

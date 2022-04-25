@@ -1,1 +1,36 @@
-{"1712":{"tagDate":["[1923-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["Trade relations with the West Indies"]},"112":{"tagDate":["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],"tagDescription":["Trade relations with the West Indies"]},"299":{"tagDescription":["Trade relations with the West Indies"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]},"1884":{"tagDescription":["Trade relations with the West Indies"],"tagDate":["1926-01-01T00:00:00.000Z"]},"484":{"tagDate":["[1913-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],"tagDescription":["Trade relations with the West Indies"]},"1553":{"tagDescription":["Trade relations with the West Indies"],"tagDate":["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"]},"881":{"tagDate":["[1920-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],"tagDescription":["Trade relations with the West Indies. Minutes of West Indies  Canadian Conference"]},"1364":{"tagDescription":["Trade relations with the West Indies"],"tagDate":["1925-01-01T00:00:00.000Z"]}}
+{
+  "1712": {
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Trade relations with the West Indies"]
+  },
+  "112": {
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Trade relations with the West Indies"]
+  },
+  "299": {
+    "tagDescription": ["Trade relations with the West Indies"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "1884": {
+    "tagDescription": ["Trade relations with the West Indies"],
+    "tagDate": ["1926-01-01T00:00:00.000Z"]
+  },
+  "484": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Trade relations with the West Indies"]
+  },
+  "1553": {
+    "tagDescription": ["Trade relations with the West Indies"],
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"]
+  },
+  "881": {
+    "tagDate": ["[1920-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Trade relations with the West Indies. Minutes of West Indies  Canadian Conference"
+    ]
+  },
+  "1364": {
+    "tagDescription": ["Trade relations with the West Indies"],
+    "tagDate": ["1925-01-01T00:00:00.000Z"]
+  }
+}

@@ -1,1 +1,12 @@
-{"label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des élections, des privilèges et de la procédure, Rapport","callNumber":"J103 H7 33-2 E44 A12f","pubmin":"1986-09-30","session":["33-2"],"language":["fra"],"node":[["fra","c","committees","33-2",81]],"pubmax":"1988-10-01","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des élections, des privilèges et de la procédure, Rapport",
+  "callNumber": "J103 H7 33-2 E44 A12f",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "33-2", 81]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

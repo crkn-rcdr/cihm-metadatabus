@@ -1,1 +1,15 @@
-{"session":["29-1"],"language":["eng","fra"],"label":"House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 1 no. 1-39 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, vol. 1 no. 1-39","callNumber":"1973/74 F55 A1 v.1","pubmin":"1973-01-04","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"],"node":[["eng","c","committees","29-1",4],["fra","c","committees","29-1",9]],"pubmax":"1974-02-26","type":"committees"}
+{
+  "session": ["29-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 1 no. 1-39 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, vol. 1 no. 1-39",
+  "callNumber": "1973/74 F55 A1 v.1",
+  "pubmin": "1973-01-04",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "29-1", 4],
+    ["fra", "c", "committees", "29-1", 9]
+  ],
+  "pubmax": "1974-02-26",
+  "type": "committees"
+}

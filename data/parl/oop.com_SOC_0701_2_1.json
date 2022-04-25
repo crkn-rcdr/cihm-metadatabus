@@ -1,1 +1,11 @@
-{"type":"committees","pubmax":"1891-09-30","node":[["eng","s","committees","07-1",2]],"chamber":["s"],"pubmin":"1891-04-29","callNumber":"1891 R47 A12","label":"Senate Committees, 7th Parliament, 1st Session : Select Committee on the Resources of the Great Mackenzie Basin, Report","language":["eng"],"session":["07-1"]}
+{
+  "type": "committees",
+  "pubmax": "1891-09-30",
+  "node": [["eng", "s", "committees", "07-1", 2]],
+  "chamber": ["s"],
+  "pubmin": "1891-04-29",
+  "callNumber": "1891 R47 A12",
+  "label": "Senate Committees, 7th Parliament, 1st Session : Select Committee on the Resources of the Great Mackenzie Basin, Report",
+  "language": ["eng"],
+  "session": ["07-1"]
+}

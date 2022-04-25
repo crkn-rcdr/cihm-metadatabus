@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"type":"committees","node":[["eng","c","committees","34-3",221],["fra","c","committees","34-3",59]],"pubmax":"1993-09-08","language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-305, an Act respecting the award of the Victoria Cross, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Commité législatif sur le projet de loi C-305, Loi concernant l'attribution de la Croix de Victoria, vol. 1 no. 1","callNumber":"34-3 V53 A1 no.1"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 221],
+    ["fra", "c", "committees", "34-3", 59]
+  ],
+  "pubmax": "1993-09-08",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-305, an Act respecting the award of the Victoria Cross, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Commité législatif sur le projet de loi C-305, Loi concernant l'attribution de la Croix de Victoria, vol. 1 no. 1",
+  "callNumber": "34-3 V53 A1 no.1"
+}

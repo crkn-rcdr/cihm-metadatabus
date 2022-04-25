@@ -1,1 +1,12 @@
-{"type":"committees","node":[["fra","c","committees","19-4",1]],"pubmax":"1944-01-26","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"pubmin":"1943-01-28","label":"Comités de la Chambre des communes, 19e Législature, 4e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1","callNumber":"1943/44 A3 A4","language":["fra"],"session":["19-4"]}
+{
+  "type": "committees",
+  "node": [["fra", "c", "committees", "19-4", 1]],
+  "pubmax": "1944-01-26",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1943-01-28",
+  "label": "Comités de la Chambre des communes, 19e Législature, 4e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1",
+  "callNumber": "1943/44 A3 A4",
+  "language": ["fra"],
+  "session": ["19-4"]
+}

@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["33-2"],"pubmin":"1986-09-30","callNumber":"33-2 E554 A1 no.44-49","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Energy, Mines and Resources, vol. 1 no. 44-49 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de l'énergie, des mines et des ressources, vol. 1 no. 44-49","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1988-10-01","node":[["eng","c","committees","33-2",60],["fra","c","committees","33-2",84]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 E554 A1 no.44-49",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Energy, Mines and Resources, vol. 1 no. 44-49 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de l'énergie, des mines et des ressources, vol. 1 no. 44-49",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 60],
+    ["fra", "c", "committees", "33-2", 84]
+  ]
+}

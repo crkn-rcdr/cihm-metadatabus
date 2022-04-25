@@ -1,1 +1,11 @@
-{"pubmin":"1906-11-22","label":"House of Commons Debates, 10th Parliament, 3rd Session : Vol. 4","language":["eng"],"session":["10-3"],"type":"debates","pubmax":"1907-04-27","node":[["eng","c","debates","10-3",4]],"chamber":["c"],"primeMinisters":"Laurier, Wilfrid"}
+{
+  "pubmin": "1906-11-22",
+  "label": "House of Commons Debates, 10th Parliament, 3rd Session : Vol. 4",
+  "language": ["eng"],
+  "session": ["10-3"],
+  "type": "debates",
+  "pubmax": "1907-04-27",
+  "node": [["eng", "c", "debates", "10-3", 4]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

@@ -1,1 +1,10 @@
-{"language":["eng"],"session":["15-1"],"pubmin":"1926-01-07","label":"Senate Debates, 15th Parliament, 1st Session : Vol. 1","chamber":["s"],"type":"debates","node":[["eng","s","debates","15-1",1]],"pubmax":"1926-07-02"}
+{
+  "language": ["eng"],
+  "session": ["15-1"],
+  "pubmin": "1926-01-07",
+  "label": "Senate Debates, 15th Parliament, 1st Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["eng", "s", "debates", "15-1", 1]],
+  "pubmax": "1926-07-02"
+}

@@ -1,1 +1,14 @@
-{"session":["31-1"],"language":["eng","fra"],"label":"House of Commons Bills, 31st Parliament, 1st Session : C15-C250 = Projets de loi de la Chambre des communes, 31e Législature, 1re Session : C15-C250","pubmin":"1979-10-09","primeMinisters":"Clark, Charles Joseph","chamber":["c"],"node":[["eng","c","bills","31-1",2],["fra","c","bills","31-1",2]],"pubmax":"1979-12-14","type":"bills"}
+{
+  "session": ["31-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Bills, 31st Parliament, 1st Session : C15-C250 = Projets de loi de la Chambre des communes, 31e Législature, 1re Session : C15-C250",
+  "pubmin": "1979-10-09",
+  "primeMinisters": "Clark, Charles Joseph",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "bills", "31-1", 2],
+    ["fra", "c", "bills", "31-1", 2]
+  ],
+  "pubmax": "1979-12-14",
+  "type": "bills"
+}

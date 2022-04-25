@@ -1,1 +1,11 @@
-{"pubmax":"1871-04-14","node":[["eng","s","bills","01-4",1]],"type":"bills","chamber":["s"],"callNumber":"KE72 C38 1-4 Bill A-","label":"Senate Bills, 1st Parliament, 4th Session : A-I","pubmin":"1871-02-15","session":["01-4"],"language":["eng"]}
+{
+  "pubmax": "1871-04-14",
+  "node": [["eng", "s", "bills", "01-4", 1]],
+  "type": "bills",
+  "chamber": ["s"],
+  "callNumber": "KE72 C38 1-4 Bill A-",
+  "label": "Senate Bills, 1st Parliament, 4th Session : A-I",
+  "pubmin": "1871-02-15",
+  "session": ["01-4"],
+  "language": ["eng"]
+}

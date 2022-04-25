@@ -1,1 +1,50 @@
-{"1133":{"tagDescription":["King George V  Coronation Medal"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]},"420":{"tagDescription":["Coronation of their Majesties King George V and Queen Mary"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]},"12":{"tagDate":["1910-01-01T00:00:00.000Z"],"tagDescription":["Death of King Edward VII - Addresses of Condolence."]},"1197":{"tagDescription":["Loyal messages; Birthday messages; Poems; Books, etc."],"tagDate":["[1911-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]},"1761":{"tagDescription":["His Majesty the King (George V) Loyal messages; Birthday messages; Poems; Books, etc."],"tagDate":["[1921-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"]},"649":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],"tagDescription":["Coronation of their Majesties King George V and Queen Mary"]},"1570":{"tagDate":["[1916-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],"tagDescription":["Loyal messages; Birthday messages; Poems; Books, etc., forwards to Buckingham Placace for acceptance by His Majesty the King (George V)"]},"886":{"tagDate":["1911-01-01T00:00:00.000Z"],"tagDescription":["Loyal messages, poems, gifts sent on the occasion of the Coronation of King George V and Queen Mary"]},"1368":{"tagDescription":["Loyal messages; Birthday messages; Poems; Books, etc., forwards to Buckingham Placace for acceptance by His Majesty the King (George V)"],"tagDate":["[1916-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]}}
+{
+  "1133": {
+    "tagDescription": ["King George V  Coronation Medal"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  },
+  "420": {
+    "tagDescription": [
+      "Coronation of their Majesties King George V and Queen Mary"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "12": {
+    "tagDate": ["1910-01-01T00:00:00.000Z"],
+    "tagDescription": ["Death of King Edward VII - Addresses of Condolence."]
+  },
+  "1197": {
+    "tagDescription": ["Loyal messages; Birthday messages; Poems; Books, etc."],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]
+  },
+  "1761": {
+    "tagDescription": [
+      "His Majesty the King (George V) Loyal messages; Birthday messages; Poems; Books, etc."
+    ],
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"]
+  },
+  "649": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Coronation of their Majesties King George V and Queen Mary"
+    ]
+  },
+  "1570": {
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Loyal messages; Birthday messages; Poems; Books, etc., forwards to Buckingham Placace for acceptance by His Majesty the King (George V)"
+    ]
+  },
+  "886": {
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Loyal messages, poems, gifts sent on the occasion of the Coronation of King George V and Queen Mary"
+    ]
+  },
+  "1368": {
+    "tagDescription": [
+      "Loyal messages; Birthday messages; Poems; Books, etc., forwards to Buckingham Placace for acceptance by His Majesty the King (George V)"
+    ],
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"]
+  }
+}

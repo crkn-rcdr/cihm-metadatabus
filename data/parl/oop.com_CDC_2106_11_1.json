@@ -1,1 +1,12 @@
-{"primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"type":"committees","node":[["fra","c","committees","21-6",11]],"pubmax":"1952-11-20","language":["fra"],"session":["21-6"],"pubmin":"1952-02-28","label":"Comités de la Chambre des communes, 21e Législature, 6e Session : Comité spécial d'étude sur le fonctionnement de l'Office national du film, vol. 1","callNumber":"1952 O3 A4"}
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "21-6", 11]],
+  "pubmax": "1952-11-20",
+  "language": ["fra"],
+  "session": ["21-6"],
+  "pubmin": "1952-02-28",
+  "label": "Comités de la Chambre des communes, 21e Législature, 6e Session : Comité spécial d'étude sur le fonctionnement de l'Office national du film, vol. 1",
+  "callNumber": "1952 O3 A4"
+}

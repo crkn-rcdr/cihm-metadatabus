@@ -1,1 +1,12 @@
-{"primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"type":"committees","node":[["fra","c","committees","21-1",1]],"pubmax":"1949-12-10","language":["fra"],"session":["21-1"],"pubmin":"1949-09-15","label":"Comités de la Chambre des communes, 21e Législature, 1re Session : Comité permanent des affaires extérieures, vol. 1","callNumber":"1949(2e) A25 A4"}
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "21-1", 1]],
+  "pubmax": "1949-12-10",
+  "language": ["fra"],
+  "session": ["21-1"],
+  "pubmin": "1949-09-15",
+  "label": "Comités de la Chambre des communes, 21e Législature, 1re Session : Comité permanent des affaires extérieures, vol. 1",
+  "callNumber": "1949(2e) A25 A4"
+}

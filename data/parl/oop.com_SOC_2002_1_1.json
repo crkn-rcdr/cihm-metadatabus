@@ -1,1 +1,11 @@
-{"type":"committees","pubmax":"1946-08-31","node":[["eng","s","committees","20-2",1]],"chamber":["s"],"pubmin":"1946-03-14","callNumber":"1946 B35B A1","label":"Senate Committees, 20th Parliament, 2nd Session : Standing Committee on Banking and Commerce, vol. 1","language":["eng"],"session":["20-2"]}
+{
+  "type": "committees",
+  "pubmax": "1946-08-31",
+  "node": [["eng", "s", "committees", "20-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1946-03-14",
+  "callNumber": "1946 B35B A1",
+  "label": "Senate Committees, 20th Parliament, 2nd Session : Standing Committee on Banking and Commerce, vol. 1",
+  "language": ["eng"],
+  "session": ["20-2"]
+}

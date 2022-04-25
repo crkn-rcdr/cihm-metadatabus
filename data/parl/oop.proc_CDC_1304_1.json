@@ -1,1 +1,12 @@
-{"type":"cproc","pubmax":"1920-07-01","node":[["fra","c","cproc","13-4",1]],"chamber":["c"],"primeMinisters":"Borden, Robert Laird","pubmin":"1920-02-26","callNumber":"J103 H44 1920","label":"Procès-verbaux de la Chambre des communes, 13e Législature, 4e Session : 1-86","language":["fra"],"session":["13-4"]}
+{
+  "type": "cproc",
+  "pubmax": "1920-07-01",
+  "node": [["fra", "c", "cproc", "13-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmin": "1920-02-26",
+  "callNumber": "J103 H44 1920",
+  "label": "Procès-verbaux de la Chambre des communes, 13e Législature, 4e Session : 1-86",
+  "language": ["fra"],
+  "session": ["13-4"]
+}

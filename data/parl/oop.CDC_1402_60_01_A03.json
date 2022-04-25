@@ -1,1 +1,11 @@
-{"node":[["fra","c","journals","14-2",4]],"pubmax":"1923-06-30","type":"journals","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"label":"Journaux de la Chambre des communes, 14e Législature, 2e Session : Vol. 60 App. 3","pubmin":"1923-01-31","session":["14-2"],"language":["fra"]}
+{
+  "node": [["fra", "c", "journals", "14-2", 4]],
+  "pubmax": "1923-06-30",
+  "type": "journals",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "label": "Journaux de la Chambre des communes, 14e Législature, 2e Session : Vol. 60 App. 3",
+  "pubmin": "1923-01-31",
+  "session": ["14-2"],
+  "language": ["fra"]
+}

@@ -1,1 +1,11 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"type":"journals","node":[["eng","c","journals","05-1",1]],"pubmax":"1883-05-27","language":["eng"],"session":["05-1"],"pubmin":"1883-02-08","label":"House of Commons Journals, 5th Parliament, 1st Session : Vol. 17"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "05-1", 1]],
+  "pubmax": "1883-05-27",
+  "language": ["eng"],
+  "session": ["05-1"],
+  "pubmin": "1883-02-08",
+  "label": "House of Commons Journals, 5th Parliament, 1st Session : Vol. 17"
+}

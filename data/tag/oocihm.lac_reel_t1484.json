@@ -1,1 +1,91 @@
-{"1437":{"tagDescription":["Missing / Manque"]},"1273":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],"tagDescription":["Alberta and Great Waterways Railway"]},"1438":{"tagDate":["[1861-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["Canadian lighthouses in Newfoundland"]},"1333":{"tagDate":["[1878-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["Honduras. Treaty of Commerce and Navigation between United Kingdom and"]},"324":{"tagDescription":["Relief of distressed British subjects abroad"],"tagDate":["[1869-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"]},"1169":{"tagDescription":["Missing / Manque"]},"197":{"tagDescription":["Financial assistance given by Unites States government, the State governments, and by the cities in which they were held, to certain exhibitions"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]},"1094":{"tagDescription":["Missing / Manque"]},"1424":{"tagDescription":["Missing / Manque"]},"1380":{"tagDescription":["Missing / Manque"]},"1395":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Universities -Congress of representatives of Universities of the Empire -Administration of Laval University as compared with that of McGill College. -Universities Mission from the United Kingdom Creation at the University of Paris of an Institute for English and North American Studies"]},"1698":{"tagDate":["1911-01-01T00:00:00.000Z"],"tagDescription":["Detention at the German Frontier of immigrants returning to Russia, by way of the Uranium steamships line -Expulsion from Rotterdam of R.B. Tinsley, the Uranium Company's agent"]},"1697":{"tagDescription":["Missing / Manque"]},"1170":{"tagDescription":["British Houses of Parliament"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"]},"196":{"tagDescription":["Missing / Manque"]},"955":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],"tagDescription":["Canadians in difficulties outside of Canada. Diplomatic representations made on behalf of"]},"1381":{"tagDescription":["The Trust and Loan Company of Canada. Royal Charter"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]},"206":{"tagDescription":["Treatment of certain firms and individuals by Canadian customs authorities"],"tagDate":["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]},"205":{"tagDescription":["Missing / Manque"]},"1660":{"tagDescription":["International list of causes of death"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]},"323":{"tagDescription":["Missing / Manque"]},"1095":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],"tagDescription":["Secretary of State for the Colonies appointments -Secretary of State for Dominion affairs. Appointments. French translation, etc"]},"794":{"tagDate":["[1910-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"],"tagDescription":["Ibid"]},"1425":{"tagDescription":["Appointment of Honorary Colonels Canadian Regiments (other than member of the Royal Family) -Appointment of Canadian as Honorary Colonel of South African Regiment"],"tagDate":["[1911-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]},"1394":{"tagDescription":["Missing / Manque"]},"1332":{"tagDescription":["Missing / Manque"]},"1272":{"tagDescription":["Missing / Manque"]},"1658":{"tagDescription":["Missing / Manque"]}}
+{
+  "1437": { "tagDescription": ["Missing / Manque"] },
+  "1273": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Alberta and Great Waterways Railway"]
+  },
+  "1438": {
+    "tagDate": ["[1861-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Canadian lighthouses in Newfoundland"]
+  },
+  "1333": {
+    "tagDate": ["[1878-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Honduras. Treaty of Commerce and Navigation between United Kingdom and"
+    ]
+  },
+  "324": {
+    "tagDescription": ["Relief of distressed British subjects abroad"],
+    "tagDate": ["[1869-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"]
+  },
+  "1169": { "tagDescription": ["Missing / Manque"] },
+  "197": {
+    "tagDescription": [
+      "Financial assistance given by Unites States government, the State governments, and by the cities in which they were held, to certain exhibitions"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "1094": { "tagDescription": ["Missing / Manque"] },
+  "1424": { "tagDescription": ["Missing / Manque"] },
+  "1380": { "tagDescription": ["Missing / Manque"] },
+  "1395": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Universities -Congress of representatives of Universities of the Empire -Administration of Laval University as compared with that of McGill College. -Universities Mission from the United Kingdom Creation at the University of Paris of an Institute for English and North American Studies"
+    ]
+  },
+  "1698": {
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Detention at the German Frontier of immigrants returning to Russia, by way of the Uranium steamships line -Expulsion from Rotterdam of R.B. Tinsley, the Uranium Company's agent"
+    ]
+  },
+  "1697": { "tagDescription": ["Missing / Manque"] },
+  "1170": {
+    "tagDescription": ["British Houses of Parliament"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"]
+  },
+  "196": { "tagDescription": ["Missing / Manque"] },
+  "955": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Canadians in difficulties outside of Canada. Diplomatic representations made on behalf of"
+    ]
+  },
+  "1381": {
+    "tagDescription": ["The Trust and Loan Company of Canada. Royal Charter"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "206": {
+    "tagDescription": [
+      "Treatment of certain firms and individuals by Canadian customs authorities"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "205": { "tagDescription": ["Missing / Manque"] },
+  "1660": {
+    "tagDescription": ["International list of causes of death"],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "323": { "tagDescription": ["Missing / Manque"] },
+  "1095": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Secretary of State for the Colonies appointments -Secretary of State for Dominion affairs. Appointments. French translation, etc"
+    ]
+  },
+  "794": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid"]
+  },
+  "1425": {
+    "tagDescription": [
+      "Appointment of Honorary Colonels Canadian Regiments (other than member of the Royal Family) -Appointment of Canadian as Honorary Colonel of South African Regiment"
+    ],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"]
+  },
+  "1394": { "tagDescription": ["Missing / Manque"] },
+  "1332": { "tagDescription": ["Missing / Manque"] },
+  "1272": { "tagDescription": ["Missing / Manque"] },
+  "1658": { "tagDescription": ["Missing / Manque"] }
+}

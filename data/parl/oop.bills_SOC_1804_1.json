@@ -1,1 +1,11 @@
-{"node":[["eng","s","bills","18-4",1]],"pubmax":"1939-06-03","type":"bills","chamber":["s"],"label":"Senate Bills, 18th Parliament, 4th Session : B-N3","callNumber":"KE72 C38 18-4 Bill B-","pubmin":"1939-01-12","session":["18-4"],"language":["eng"]}
+{
+  "node": [["eng", "s", "bills", "18-4", 1]],
+  "pubmax": "1939-06-03",
+  "type": "bills",
+  "chamber": ["s"],
+  "label": "Senate Bills, 18th Parliament, 4th Session : B-N3",
+  "callNumber": "KE72 C38 18-4 Bill B-",
+  "pubmin": "1939-01-12",
+  "session": ["18-4"],
+  "language": ["eng"]
+}

@@ -1,1 +1,11 @@
-{"primeMinisters":"Laurier, Wilfrid","chamber":["c"],"node":[["fra","c","journals","10-4",1]],"pubmax":"1908-07-20","type":"journals","session":["10-4"],"language":["fra"],"label":"Journaux de la Chambre des communes, 10e Législature, 4e Session : Vol. 43","pubmin":"1907-11-28"}
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["fra", "c", "journals", "10-4", 1]],
+  "pubmax": "1908-07-20",
+  "type": "journals",
+  "session": ["10-4"],
+  "language": ["fra"],
+  "label": "Journaux de la Chambre des communes, 10e Législature, 4e Session : Vol. 43",
+  "pubmin": "1907-11-28"
+}

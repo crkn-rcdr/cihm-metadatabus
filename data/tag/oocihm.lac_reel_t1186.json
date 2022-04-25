@@ -1,1 +1,52 @@
-{"986":{"tagDescription":["Extradition cases: -case of Rogers Amero -case of Robinson from Mexico -case of W.F. Ferrelle"],"tagDate":["[1883-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]},"1127":{"tagDescription":["Extradition cases: -case of William Layton -case of Leda Lamontagne -case of George Pyke"],"tagDate":["[1886-01-01T00:00:00.000Z TO 1893-12-31T23:59:59.999Z]"]},"1743":{"tagDescription":["Extradition cases; (Jan 1911  Sept 1911)"],"tagDate":["1911-01-01T00:00:00.000Z"]},"687":{"tagDate":["[1877-01-01T00:00:00.000Z TO 1881-12-31T23:59:59.999Z]"],"tagDescription":["Cases of extradition of prisoners under treaty between Great Britain and the United States. 1877  Extradition case of Smith N. Howes"]},"1912":{"tagDescription":["Extradition cases; (April 1912  Dec. 1913)"],"tagDate":["1912-01-01T00:00:00.000Z"]},"479":{"tagDate":["1876-01-01T00:00:00.000Z"],"tagDescription":["Extradition of prisoners under Treaty between Great Britain and the United States"]},"123":{"tagDescription":["Extradition of prisoners under Treaty between Great Britain and the United States"],"tagDate":["1876-01-01T00:00:00.000Z"]},"285":{"tagDescription":["Ibid"],"tagDate":["1876-01-01T00:00:00.000Z"]},"1580":{"tagDate":["1911-01-01T00:00:00.000Z"],"tagDescription":["Extradition cases (Oct. 1911  April 1912)"]},"1331":{"tagDate":["1910-01-01T00:00:00.000Z"],"tagDescription":["Extradition cases"]}}
+{
+  "986": {
+    "tagDescription": [
+      "Extradition cases: -case of Rogers Amero -case of Robinson from Mexico -case of W.F. Ferrelle"
+    ],
+    "tagDate": ["[1883-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]
+  },
+  "1127": {
+    "tagDescription": [
+      "Extradition cases: -case of William Layton -case of Leda Lamontagne -case of George Pyke"
+    ],
+    "tagDate": ["[1886-01-01T00:00:00.000Z TO 1893-12-31T23:59:59.999Z]"]
+  },
+  "1743": {
+    "tagDescription": ["Extradition cases; (Jan 1911  Sept 1911)"],
+    "tagDate": ["1911-01-01T00:00:00.000Z"]
+  },
+  "687": {
+    "tagDate": ["[1877-01-01T00:00:00.000Z TO 1881-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Cases of extradition of prisoners under treaty between Great Britain and the United States. 1877  Extradition case of Smith N. Howes"
+    ]
+  },
+  "1912": {
+    "tagDescription": ["Extradition cases; (April 1912  Dec. 1913)"],
+    "tagDate": ["1912-01-01T00:00:00.000Z"]
+  },
+  "479": {
+    "tagDate": ["1876-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Extradition of prisoners under Treaty between Great Britain and the United States"
+    ]
+  },
+  "123": {
+    "tagDescription": [
+      "Extradition of prisoners under Treaty between Great Britain and the United States"
+    ],
+    "tagDate": ["1876-01-01T00:00:00.000Z"]
+  },
+  "285": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["1876-01-01T00:00:00.000Z"]
+  },
+  "1580": {
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagDescription": ["Extradition cases (Oct. 1911  April 1912)"]
+  },
+  "1331": {
+    "tagDate": ["1910-01-01T00:00:00.000Z"],
+    "tagDescription": ["Extradition cases"]
+  }
+}

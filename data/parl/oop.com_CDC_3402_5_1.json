@@ -1,1 +1,12 @@
-{"label":"Comités de la Chambre des communes, 34e Législature, 2e Session : Le Forum parlementaire sur les changements climatiques dans le monde - Comités permanents de l'agriculture; de l'énergie, des mines et des ressources; de l'environnement; des forêts et des pêches; de la santé et du bien-être social, des affaires sociales, du troisième âge et de la condition féminine; de l'industrie, de la science et de la technologie et du développement régional et du Nord; du travail, de l'emploi et de l'immigration, des transports, vol. 1","callNumber":"34-2 A3 A13","pubmin":"1989-04-03","session":["34-2"],"language":["fra"],"node":[["fra","c","committees","34-2",22]],"pubmax":"1991-05-12","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "label": "Comités de la Chambre des communes, 34e Législature, 2e Session : Le Forum parlementaire sur les changements climatiques dans le monde - Comités permanents de l'agriculture; de l'énergie, des mines et des ressources; de l'environnement; des forêts et des pêches; de la santé et du bien-être social, des affaires sociales, du troisième âge et de la condition féminine; de l'industrie, de la science et de la technologie et du développement régional et du Nord; du travail, de l'emploi et de l'immigration, des transports, vol. 1",
+  "callNumber": "34-2 A3 A13",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["fra"],
+  "node": [["fra", "c", "committees", "34-2", 22]],
+  "pubmax": "1991-05-12",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

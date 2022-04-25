@@ -1,1 +1,11 @@
-{"pubmax":"1896-04-23","node":[["fra","c","sessional","07-6",9]],"type":"sessional","chamber":["c"],"primeMinisters":"Bowell, Mackenzie","label":"Documents parlementaires, 7e Législature, 6e Session : vol. 9","pubmin":"1896-01-02","session":["07-6"],"language":["fra"]}
+{
+  "pubmax": "1896-04-23",
+  "node": [["fra", "c", "sessional", "07-6", 9]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Bowell, Mackenzie",
+  "label": "Documents parlementaires, 7e Législature, 6e Session : vol. 9",
+  "pubmin": "1896-01-02",
+  "session": ["07-6"],
+  "language": ["fra"]
+}

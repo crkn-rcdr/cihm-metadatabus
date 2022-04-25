@@ -1,1 +1,15 @@
-{"pubmin":"1991-05-13","label":"House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-101, an Act to amend the Canada Labour Code and the Public Service Staff Relations Act, vol. 1 no. 1-8 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-101, Loi modifiant le Code canadien du travail et la Loi sur les relations de travail dans la fonction publique, vol. 1 no. 1-8","callNumber":"34-3 C252 A1 no.1-8","language":["eng","fra"],"session":["34-3"],"type":"committees","node":[["eng","c","committees","34-3",21],["fra","c","committees","34-3",31]],"pubmax":"1993-09-08","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-101, an Act to amend the Canada Labour Code and the Public Service Staff Relations Act, vol. 1 no. 1-8 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-101, Loi modifiant le Code canadien du travail et la Loi sur les relations de travail dans la fonction publique, vol. 1 no. 1-8",
+  "callNumber": "34-3 C252 A1 no.1-8",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 21],
+    ["fra", "c", "committees", "34-3", 31]
+  ],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

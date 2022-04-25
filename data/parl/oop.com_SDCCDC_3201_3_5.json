@@ -1,1 +1,14 @@
-{"session":["32-1"],"language":["fra"],"label":"Comités du Sénat et de la Chambre des communes, 32e Législature, 1re Session : Comités mixtes, 32e Législature, 1re Session : Comité mixte permanent des Règlements et autres textes réglementaires, Rapport","pubmin":"1980-04-14","primeMinisters":"Trudeau, Pierre Elliott","chamber":["s","c"],"node":[["fra","c","committees","32-1",138.1],["fra","s","committees","32-1",46.1]],"pubmax":"1983-11-30","type":"committees"}
+{
+  "session": ["32-1"],
+  "language": ["fra"],
+  "label": "Comités du Sénat et de la Chambre des communes, 32e Législature, 1re Session : Comités mixtes, 32e Législature, 1re Session : Comité mixte permanent des Règlements et autres textes réglementaires, Rapport",
+  "pubmin": "1980-04-14",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["s", "c"],
+  "node": [
+    ["fra", "c", "committees", "32-1", 138.1],
+    ["fra", "s", "committees", "32-1", 46.1]
+  ],
+  "pubmax": "1983-11-30",
+  "type": "committees"
+}

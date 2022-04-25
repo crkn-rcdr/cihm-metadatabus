@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Diefenbaker, John George","pubmax":"1962-04-19","node":[["eng","c","journals","24-5",1]],"type":"journals","session":["24-5"],"language":["eng"],"label":"House of Commons Journals, 24th Parliament, 5th Session : Vol. 108","pubmin":"1962-01-18"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmax": "1962-04-19",
+  "node": [["eng", "c", "journals", "24-5", 1]],
+  "type": "journals",
+  "session": ["24-5"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 24th Parliament, 5th Session : Vol. 108",
+  "pubmin": "1962-01-18"
+}

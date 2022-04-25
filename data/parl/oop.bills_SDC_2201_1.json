@@ -1,1 +1,11 @@
-{"session":["22-1"],"language":["fra"],"callNumber":"KE72 C381 22-1 v.1","label":"Projets de loi du Sénat, 22e Législature, 1re Session : B-Z7","pubmin":"1953-11-12","chamber":["s"],"pubmax":"1954-06-26","node":[["fra","s","bills","22-1",1]],"type":"bills"}
+{
+  "session": ["22-1"],
+  "language": ["fra"],
+  "callNumber": "KE72 C381 22-1 v.1",
+  "label": "Projets de loi du Sénat, 22e Législature, 1re Session : B-Z7",
+  "pubmin": "1953-11-12",
+  "chamber": ["s"],
+  "pubmax": "1954-06-26",
+  "node": [["fra", "s", "bills", "22-1", 1]],
+  "type": "bills"
+}

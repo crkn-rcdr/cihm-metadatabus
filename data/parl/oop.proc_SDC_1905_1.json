@@ -1,1 +1,11 @@
-{"node":[["fra","s","sproc","19-5",1]],"pubmax":"1945-01-31","type":"sproc","chamber":["s"],"label":"Procès-verbaux du Sénat, 19e Législature, 5e Session : 1-62","callNumber":"J103 H43 1944","pubmin":"1944-01-27","session":["19-5"],"language":["fra"]}
+{
+  "node": [["fra", "s", "sproc", "19-5", 1]],
+  "pubmax": "1945-01-31",
+  "type": "sproc",
+  "chamber": ["s"],
+  "label": "Procès-verbaux du Sénat, 19e Législature, 5e Session : 1-62",
+  "callNumber": "J103 H43 1944",
+  "pubmin": "1944-01-27",
+  "session": ["19-5"],
+  "language": ["fra"]
+}

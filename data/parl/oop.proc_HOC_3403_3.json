@@ -1,1 +1,15 @@
-{"pubmin":"1991-05-13","label":"House of Commons Votes and Proceedings, 34th Parliament, 3rd Session : 153-193A = Procès-verbaux de la Chambre des communes, 34e Législature, 3e Session : 153-193A","callNumber":"J103 H41 34-3 no. 153-193A c.2","language":["eng","fra"],"session":["34-3"],"type":"cproc","node":[["eng","c","cproc","34-3",3],["fra","c","cproc","34-3",3]],"pubmax":"1993-09-08","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Votes and Proceedings, 34th Parliament, 3rd Session : 153-193A = Procès-verbaux de la Chambre des communes, 34e Législature, 3e Session : 153-193A",
+  "callNumber": "J103 H41 34-3 no. 153-193A c.2",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "type": "cproc",
+  "node": [
+    ["eng", "c", "cproc", "34-3", 3],
+    ["fra", "c", "cproc", "34-3", 3]
+  ],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

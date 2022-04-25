@@ -1,1 +1,11 @@
-{"chamber":["s"],"type":"bills","node":[["fra","s","bills","22-3",2]],"pubmax":"1956-08-14","language":["fra"],"session":["22-3"],"pubmin":"1956-01-10","label":"Projets de loi du Sénat, 22e Législature, 3e Session : A5-Z9","callNumber":"KE72 C381 22-3 v.2"}
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["fra", "s", "bills", "22-3", 2]],
+  "pubmax": "1956-08-14",
+  "language": ["fra"],
+  "session": ["22-3"],
+  "pubmin": "1956-01-10",
+  "label": "Projets de loi du Sénat, 22e Législature, 3e Session : A5-Z9",
+  "callNumber": "KE72 C381 22-3 v.2"
+}

@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","type":"bills","pubmax":"1939-09-13","node":[["eng","c","bills","18-5",1]],"language":["eng"],"session":["18-5"],"pubmin":"1939-09-07","callNumber":"KE72 C36 18-5 2-11","label":"House of Commons Bills, 18th Parliament, 5th Session : 2-11"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "bills",
+  "pubmax": "1939-09-13",
+  "node": [["eng", "c", "bills", "18-5", 1]],
+  "language": ["eng"],
+  "session": ["18-5"],
+  "pubmin": "1939-09-07",
+  "callNumber": "KE72 C36 18-5 2-11",
+  "label": "House of Commons Bills, 18th Parliament, 5th Session : 2-11"
+}

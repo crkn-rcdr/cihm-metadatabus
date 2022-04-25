@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","type":"committees","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",79],["fra","c","committees","33-1",70]],"language":["eng","fra"],"session":["33-1"],"pubmin":"1984-11-05","callNumber":"33-1 G69 A1 no.1-2","label":"House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-78, an Act to amend the Governor General's Act, the Governor General's Retiring Annuity Act, the Salaries Act and the Judges Act, vol. 1 no. 1-2 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-78, Loi modifiant la Loi sur le gouverneur général, la Loi sur la pension de retraite du gouverneur général, la Loi sur les traitements et la Loi sur les juges, vol. 1 no. 1-2"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 79],
+    ["fra", "c", "committees", "33-1", 70]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 G69 A1 no.1-2",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-78, an Act to amend the Governor General's Act, the Governor General's Retiring Annuity Act, the Salaries Act and the Judges Act, vol. 1 no. 1-2 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-78, Loi modifiant la Loi sur le gouverneur général, la Loi sur la pension de retraite du gouverneur général, la Loi sur les traitements et la Loi sur les juges, vol. 1 no. 1-2"
+}

@@ -1,1 +1,11 @@
-{"primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["eng","c","debates","22-4",1]],"pubmax":"1957-01-08","type":"debates","session":["22-4"],"language":["eng"],"label":"House of Commons Debates, 22nd Parliament, 4th Session : Vol. 1","pubmin":"1956-11-26"}
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "22-4", 1]],
+  "pubmax": "1957-01-08",
+  "type": "debates",
+  "session": ["22-4"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 22nd Parliament, 4th Session : Vol. 1",
+  "pubmin": "1956-11-26"
+}

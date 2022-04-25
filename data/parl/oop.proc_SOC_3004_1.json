@@ -1,1 +1,14 @@
-{"session":["30-4"],"language":["eng","fra"],"callNumber":"J103 H4 1978/79 no. 1-66 c.2","label":"Senate Minutes of Proceedings, 30th Parliament, 4th Session : 1-66 = Procès-verbaux du Sénat, 30e Législature, 4e Session : 1-66","pubmin":"1978-10-11","chamber":["s"],"pubmax":"1979-03-26","node":[["eng","s","sproc","30-4",1],["fra","s","sproc","30-4",1]],"type":"sproc"}
+{
+  "session": ["30-4"],
+  "language": ["eng", "fra"],
+  "callNumber": "J103 H4 1978/79 no. 1-66 c.2",
+  "label": "Senate Minutes of Proceedings, 30th Parliament, 4th Session : 1-66 = Procès-verbaux du Sénat, 30e Législature, 4e Session : 1-66",
+  "pubmin": "1978-10-11",
+  "chamber": ["s"],
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "s", "sproc", "30-4", 1],
+    ["fra", "s", "sproc", "30-4", 1]
+  ],
+  "type": "sproc"
+}

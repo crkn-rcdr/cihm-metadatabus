@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmax":"1881-03-21","node":[["fra","c","sessional","04-3",5]],"type":"sessional","session":["04-3"],"language":["fra"],"label":"Documents parlementaires, 4e Législature, 3e Session : vol. 5","pubmin":"1880-12-09"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1881-03-21",
+  "node": [["fra", "c", "sessional", "04-3", 5]],
+  "type": "sessional",
+  "session": ["04-3"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 4e Législature, 3e Session : vol. 5",
+  "pubmin": "1880-12-09"
+}

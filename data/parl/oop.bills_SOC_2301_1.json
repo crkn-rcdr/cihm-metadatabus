@@ -1,1 +1,11 @@
-{"pubmax":"1958-02-01","node":[["eng","s","bills","23-1",1]],"type":"bills","chamber":["s"],"callNumber":"KE72 C38 23-1 Bill B-","label":"Senate Bills, 23rd Parliament, 1st Session : B-U7","pubmin":"1957-10-14","session":["23-1"],"language":["eng"]}
+{
+  "pubmax": "1958-02-01",
+  "node": [["eng", "s", "bills", "23-1", 1]],
+  "type": "bills",
+  "chamber": ["s"],
+  "callNumber": "KE72 C38 23-1 Bill B-",
+  "label": "Senate Bills, 23rd Parliament, 1st Session : B-U7",
+  "pubmin": "1957-10-14",
+  "session": ["23-1"],
+  "language": ["eng"]
+}

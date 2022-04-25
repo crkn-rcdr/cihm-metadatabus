@@ -1,1 +1,10 @@
-{"label":"Journaux du Sénat, 26e Législature, 3e Session : Vol. 112 Pt. 2","pubmin":"1965-04-05","session":["26-3"],"language":["fra"],"pubmax":"1965-09-08","node":[["fra","s","journals","26-3",2]],"type":"journals","chamber":["s"]}
+{
+  "label": "Journaux du Sénat, 26e Législature, 3e Session : Vol. 112 Pt. 2",
+  "pubmin": "1965-04-05",
+  "session": ["26-3"],
+  "language": ["fra"],
+  "pubmax": "1965-09-08",
+  "node": [["fra", "s", "journals", "26-3", 2]],
+  "type": "journals",
+  "chamber": ["s"]
+}

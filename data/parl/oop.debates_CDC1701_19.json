@@ -1,1 +1,11 @@
-{"primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"node":[["fra","c","debates","17-1",1]],"pubmax":"1930-09-22","type":"debates","session":["17-1"],"language":["fra"],"label":"Débats de la Chambre des communes, 17e Législature, 1re Session : Speciale","pubmin":"1930-09-08"}
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "17-1", 1]],
+  "pubmax": "1930-09-22",
+  "type": "debates",
+  "session": ["17-1"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 17e Législature, 1re Session : Speciale",
+  "pubmin": "1930-09-08"
+}

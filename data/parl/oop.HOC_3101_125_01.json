@@ -1,1 +1,14 @@
-{"type":"journals","pubmax":"1979-12-14","node":[["eng","c","journals","31-1",1],["fra","c","journals","31-1",1]],"chamber":["c"],"primeMinisters":"Clark, Charles Joseph","pubmin":"1979-10-09","label":"House of Commons Journals, 31st Parliament, 1st Session : Vol. 125 = Journaux de la Chambre des communes, 31e Législature, 1re Session : Vol. 125","language":["eng","fra"],"session":["31-1"]}
+{
+  "type": "journals",
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "c", "journals", "31-1", 1],
+    ["fra", "c", "journals", "31-1", 1]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Clark, Charles Joseph",
+  "pubmin": "1979-10-09",
+  "label": "House of Commons Journals, 31st Parliament, 1st Session : Vol. 125 = Journaux de la Chambre des communes, 31e Législature, 1re Session : Vol. 125",
+  "language": ["eng", "fra"],
+  "session": ["31-1"]
+}

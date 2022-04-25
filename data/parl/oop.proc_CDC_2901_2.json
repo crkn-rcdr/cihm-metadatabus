@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","pubmax":"1974-02-26","node":[["fra","c","cproc","29-1",2]],"type":"cproc","session":["29-1"],"language":["fra"],"callNumber":"J103 H44 1973/74 nos. 94-206 ex.2","label":"Procès-verbaux de la Chambre des communes, 29e Législature, 1re Session : 94-206","pubmin":"1973-01-04"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1974-02-26",
+  "node": [["fra", "c", "cproc", "29-1", 2]],
+  "type": "cproc",
+  "session": ["29-1"],
+  "language": ["fra"],
+  "callNumber": "J103 H44 1973/74 nos. 94-206 ex.2",
+  "label": "Procès-verbaux de la Chambre des communes, 29e Législature, 1re Session : 94-206",
+  "pubmin": "1973-01-04"
+}

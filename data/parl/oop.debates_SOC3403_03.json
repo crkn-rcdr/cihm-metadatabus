@@ -1,1 +1,10 @@
-{"type":"debates","pubmax":"1993-09-08","node":[["eng","s","debates","34-3",3]],"chamber":["s"],"pubmin":"1991-05-13","label":"Senate Debates, 34th Parliament, 3rd Session : Vol. 3","language":["eng"],"session":["34-3"]}
+{
+  "type": "debates",
+  "pubmax": "1993-09-08",
+  "node": [["eng", "s", "debates", "34-3", 3]],
+  "chamber": ["s"],
+  "pubmin": "1991-05-13",
+  "label": "Senate Debates, 34th Parliament, 3rd Session : Vol. 3",
+  "language": ["eng"],
+  "session": ["34-3"]
+}

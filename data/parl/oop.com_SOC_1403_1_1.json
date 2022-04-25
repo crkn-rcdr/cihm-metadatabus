@@ -1,1 +1,11 @@
-{"type":"committees","node":[["eng","s","committees","14-3",1]],"pubmax":"1924-07-19","chamber":["s"],"pubmin":"1924-02-28","label":"Senate Committees, 14th Parliament, 3rd Session : Special Committee on Civil Service, Report","callNumber":"1924 C5 A12","language":["eng"],"session":["14-3"]}
+{
+  "type": "committees",
+  "node": [["eng", "s", "committees", "14-3", 1]],
+  "pubmax": "1924-07-19",
+  "chamber": ["s"],
+  "pubmin": "1924-02-28",
+  "label": "Senate Committees, 14th Parliament, 3rd Session : Special Committee on Civil Service, Report",
+  "callNumber": "1924 C5 A12",
+  "language": ["eng"],
+  "session": ["14-3"]
+}

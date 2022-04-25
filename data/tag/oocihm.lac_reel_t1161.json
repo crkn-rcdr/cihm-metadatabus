@@ -1,1 +1,44 @@
-{"392":{"tagDate":["[1907-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],"tagDescription":["Seal fishing in Uruguayan Territorial Waters -Extent of territorial maritime jurisdiction of Urugauy. -Lobos Island Seal Fisheries -South Atlantic Seal Fishery operation -Seizure of Canadian Sealing Schooner Agnes G. Donahoe by the Uruguayan authoritive -Arrest of four member of crew of Alice Gertrude"]},"736":{"tagDescription":["Pension of NCO,s and men transferred to the Canadian permanent force from the garrisons at Esquimalt and Halifax -Army reservists resident in Canada Pay of  -Civilian pensioners resident in Canada drawing Imperial pensions, Case of Mr William Smith (1888)"],"tagDate":["[1905-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]},"1182":{"tagDescription":["Imperial Pensioners resident in Canada and the United States"],"tagDate":["[1920-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]},"1591":{"tagDate":["[1923-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],"tagDescription":["Imperial Pensioners resident in Canada and the United States"]},"16":{"tagDate":["[1904-01-01T00:00:00.000Z TO 1906-12-31T23:59:59.999Z]"],"tagDescription":["Seal fishing in Uruguayan territorial waters -Seizure of Canadian sealing schooner Agnes G. Donahoe by the Uruguayan authorities -Arrest by Uruguayan authorities of four members of the crew of the Alice Gertrude, Canadian Sealing Vessel."]},"926":{"tagDate":["[1912-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],"tagDescription":["Pensions of Imperial Army and Naval Officers, Non-Commissioned officers and men resident in Canada. Payment if Imperial Pensions to Civilians in Canada"]},"1844":{"tagDescription":["British Ministry of Pension. Acts, Reports etc -Representative at Ottawa -Imperial Pensioners resident in Canada and the United States"],"tagDate":["[1925-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"]}}
+{
+  "392": {
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Seal fishing in Uruguayan Territorial Waters -Extent of territorial maritime jurisdiction of Urugauy. -Lobos Island Seal Fisheries -South Atlantic Seal Fishery operation -Seizure of Canadian Sealing Schooner Agnes G. Donahoe by the Uruguayan authoritive -Arrest of four member of crew of Alice Gertrude"
+    ]
+  },
+  "736": {
+    "tagDescription": [
+      "Pension of NCO,s and men transferred to the Canadian permanent force from the garrisons at Esquimalt and Halifax -Army reservists resident in Canada Pay of  -Civilian pensioners resident in Canada drawing Imperial pensions, Case of Mr William Smith (1888)"
+    ],
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "1182": {
+    "tagDescription": [
+      "Imperial Pensioners resident in Canada and the United States"
+    ],
+    "tagDate": ["[1920-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"]
+  },
+  "1591": {
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Imperial Pensioners resident in Canada and the United States"
+    ]
+  },
+  "16": {
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1906-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Seal fishing in Uruguayan territorial waters -Seizure of Canadian sealing schooner Agnes G. Donahoe by the Uruguayan authorities -Arrest by Uruguayan authorities of four members of the crew of the Alice Gertrude, Canadian Sealing Vessel."
+    ]
+  },
+  "926": {
+    "tagDate": ["[1912-01-01T00:00:00.000Z TO 1919-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Pensions of Imperial Army and Naval Officers, Non-Commissioned officers and men resident in Canada. Payment if Imperial Pensions to Civilians in Canada"
+    ]
+  },
+  "1844": {
+    "tagDescription": [
+      "British Ministry of Pension. Acts, Reports etc -Representative at Ottawa -Imperial Pensioners resident in Canada and the United States"
+    ],
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"]
+  }
+}

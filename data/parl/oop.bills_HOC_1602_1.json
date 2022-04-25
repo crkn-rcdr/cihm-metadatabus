@@ -1,1 +1,12 @@
-{"node":[["eng","c","bills","16-2",1]],"pubmax":"1928-06-11","type":"bills","primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"label":"House of Commons Bills, 16th Parliament, 2nd Session : 2-359","callNumber":"KE72 C36 16-2 2-359","pubmin":"1928-01-26","session":["16-2"],"language":["eng"]}
+{
+  "node": [["eng", "c", "bills", "16-2", 1]],
+  "pubmax": "1928-06-11",
+  "type": "bills",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "label": "House of Commons Bills, 16th Parliament, 2nd Session : 2-359",
+  "callNumber": "KE72 C36 16-2 2-359",
+  "pubmin": "1928-01-26",
+  "session": ["16-2"],
+  "language": ["eng"]
+}

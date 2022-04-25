@@ -1,1 +1,11 @@
-{"session":["24-2"],"language":["eng"],"callNumber":"1959 E98 A1","label":"Senate Committees, 24th Parliament, 2nd Session : Standing Committee on External Relations, vol. 1","pubmin":"1959-01-15","chamber":["s"],"pubmax":"1959-07-18","node":[["eng","s","committees","24-2",2]],"type":"committees"}
+{
+  "session": ["24-2"],
+  "language": ["eng"],
+  "callNumber": "1959 E98 A1",
+  "label": "Senate Committees, 24th Parliament, 2nd Session : Standing Committee on External Relations, vol. 1",
+  "pubmin": "1959-01-15",
+  "chamber": ["s"],
+  "pubmax": "1959-07-18",
+  "node": [["eng", "s", "committees", "24-2", 2]],
+  "type": "committees"
+}

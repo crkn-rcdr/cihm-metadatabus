@@ -1,1 +1,13 @@
-{"type":"committees","pubmax":"1988-10-01","node":[["fra","c","committees","33-2",68]],"chamber":["c"],"primeMinisters":"Mulroney, Martin Brian","pubmin":"1986-09-30","callNumber":"33-2 N278 A12","label":"Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la défense nationale, Premier rapport","reportTitle":["La réserve"],"language":["fra"],"session":["33-2"]}
+{
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [["fra", "c", "committees", "33-2", 68]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 N278 A12",
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la défense nationale, Premier rapport",
+  "reportTitle": ["La réserve"],
+  "language": ["fra"],
+  "session": ["33-2"]
+}

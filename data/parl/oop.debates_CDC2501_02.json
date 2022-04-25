@@ -1,1 +1,11 @@
-{"primeMinisters":"Diefenbaker, John George","chamber":["c"],"type":"debates","node":[["fra","c","debates","25-1",2]],"pubmax":"1963-02-06","language":["fra"],"session":["25-1"],"pubmin":"1962-09-27","label":"Débats de la Chambre des communes, 25e Législature, 1re Session : Vol. 2"}
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "25-1", 2]],
+  "pubmax": "1963-02-06",
+  "language": ["fra"],
+  "session": ["25-1"],
+  "pubmin": "1962-09-27",
+  "label": "Débats de la Chambre des communes, 25e Législature, 1re Session : Vol. 2"
+}

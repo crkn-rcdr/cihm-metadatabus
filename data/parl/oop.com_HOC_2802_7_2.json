@@ -1,1 +1,12 @@
-{"pubmin":"1969-10-23","label":"House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on Health, Welfare and Social Affairs, Report","callNumber":"1969/70 H4 A12","language":["eng"],"session":["28-2"],"type":"committees","node":[["eng","c","committees","28-2",25]],"pubmax":"1970-10-07","primeMinisters":"Trudeau, Pierre Elliott","chamber":["c"]}
+{
+  "pubmin": "1969-10-23",
+  "label": "House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on Health, Welfare and Social Affairs, Report",
+  "callNumber": "1969/70 H4 A12",
+  "language": ["eng"],
+  "session": ["28-2"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "28-2", 25]],
+  "pubmax": "1970-10-07",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

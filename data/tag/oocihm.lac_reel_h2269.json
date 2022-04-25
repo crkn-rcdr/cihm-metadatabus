@@ -1,1 +1,147 @@
-{"1155":{"tagDate":["1936-01-01T00:00:00.000Z"],"tagDescription":["Genealogy - MacIntosh"]},"338":{"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["William Lyon Mackenzie - Queens' Park Memorial - Correspondence"]},"636":{"tagDate":["1923-01-01T00:00:00.000Z"],"tagDescription":["Mount Pleasant Cemetery - Family Monument - Miscellaneous"]},"77":{"tagDescription":["Colonial Advocate Building and Memorial Arch - Dedication at Niagara Falls - Clipping"],"tagDate":["1938-01-01T00:00:00.000Z"]},"669":{"tagDescription":["Mount Pleasant Cemetery - Necropolis - Deeds and conveyances"],"tagDate":["[1858-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]},"253":{"tagDate":["1936-01-01T00:00:00.000Z"],"tagDescription":["William Lyon Mackenzie - Memorial Arch - Niagara Falls - Blueprints, pictures etc."]},"1260":{"tagDate":["[1937-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],"tagDescription":["Genealogy - King - Letters and papers"]},"1356":{"tagDate":["[1925-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["Genealogy - Miscellaneous"]},"1516":{"tagDate":["[1915-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"],"tagDescription":["Genealogy - King [MacDougall]"]},"1166":{"tagDescription":["Genealogy - King - Miscellaneous"],"tagDate":["[1925-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]},"182":{"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["Niagara Falls Memorial Arch - Clippings"]},"1452":{"tagDescription":["Genealogy - King [MacDougall] - Charts, Documents, etc."]},"824":{"tagDate":["[1929-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"],"tagDescription":["Mount Pleasant Cemetery - King Plot - Correspondence"]},"750":{"tagDate":["[1899-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],"tagDescription":["Mount Pleasant Cemetery - King Plot - Correspondence"]},"233":{"tagDate":["[1918-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],"tagDescription":["William Lyon Mackenzie Home - Queenston - St. Andrews Church Wall Panel - Navy Hall Memorial Arch - Pictures"]},"987":{"tagDescription":["Genealogy - Mackenzie - Letters"],"tagDate":["[1939-01-01T00:00:00.000Z TO 1943-12-31T23:59:59.999Z]"]},"1334":{"tagDate":["[1923-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],"tagDescription":["Genealogy - Mackenzie extracts from publication"]},"954":{"tagDescription":["Genealogy - Mackenzie - Letters"],"tagDate":["[1935-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"]},"660":{"tagDate":["1930-01-01T00:00:00.000Z"],"tagDescription":["Mount Pleasant Cemetery - Mackenzie Plot - Toronto Necropolis - Correspondence"]},"683":{"tagDescription":["Mount Pleasant Cemetery - Necropolis - Blueprints"],"tagDate":["[1916-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]},"419":{"tagDescription":["William Lyon Mackenzie - Queens' Park Memorial - Correspondence"],"tagDate":["[1939-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]},"23":{"tagDate":["1938-06-01T00:00:00.000Z"],"tagDescription":["Colonial Advocate Building and Memorial Arch - Dedication at Niagara Falls - Clippings"]},"1091":{"tagDescription":["Genealogy - Mrs. Buchanan Mackenzie - King Genealogy - Royal Archives - Florida"],"tagDate":["[1937-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]},"211":{"tagDate":["1938-01-01T00:00:00.000Z"],"tagDescription":["William Lyon Mackenzie Home - Queenston - Clippings - June 18, 1938 ceremony"]},"256":{"tagDescription":["William Lyon Mackenzie - Queens' Park Memorial - Correspondence"],"tagDate":["[1936-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]},"1315":{"tagDate":["[1916-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],"tagDescription":["Genealogy - King - Miscellaneous"]},"484":{"tagDate":["[1915-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"],"tagDescription":["Mount Pleasant Cemetery - Family Monument - Correspondence"]},"940":{"tagDescription":["Mount Pleasant Cemetery - Family Correspondence - Monuments"],"tagDate":["[1915-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"]},"1062":{"tagDescription":["Genealogy - Mackenzie - Letters"],"tagDate":["[1947-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]}}
+{
+  "1155": {
+    "tagDate": ["1936-01-01T00:00:00.000Z"],
+    "tagDescription": ["Genealogy - MacIntosh"]
+  },
+  "338": {
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "William Lyon Mackenzie - Queens' Park Memorial - Correspondence"
+    ]
+  },
+  "636": {
+    "tagDate": ["1923-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Mount Pleasant Cemetery - Family Monument - Miscellaneous"
+    ]
+  },
+  "77": {
+    "tagDescription": [
+      "Colonial Advocate Building and Memorial Arch - Dedication at Niagara Falls - Clipping"
+    ],
+    "tagDate": ["1938-01-01T00:00:00.000Z"]
+  },
+  "669": {
+    "tagDescription": [
+      "Mount Pleasant Cemetery - Necropolis - Deeds and conveyances"
+    ],
+    "tagDate": ["[1858-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]
+  },
+  "253": {
+    "tagDate": ["1936-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "William Lyon Mackenzie - Memorial Arch - Niagara Falls - Blueprints, pictures etc."
+    ]
+  },
+  "1260": {
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Genealogy - King - Letters and papers"]
+  },
+  "1356": {
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Genealogy - Miscellaneous"]
+  },
+  "1516": {
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Genealogy - King [MacDougall]"]
+  },
+  "1166": {
+    "tagDescription": ["Genealogy - King - Miscellaneous"],
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]
+  },
+  "182": {
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": ["Niagara Falls Memorial Arch - Clippings"]
+  },
+  "1452": {
+    "tagDescription": [
+      "Genealogy - King [MacDougall] - Charts, Documents, etc."
+    ]
+  },
+  "824": {
+    "tagDate": ["[1929-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mount Pleasant Cemetery - King Plot - Correspondence"]
+  },
+  "750": {
+    "tagDate": ["[1899-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mount Pleasant Cemetery - King Plot - Correspondence"]
+  },
+  "233": {
+    "tagDate": ["[1918-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "William Lyon Mackenzie Home - Queenston - St. Andrews Church Wall Panel - Navy Hall Memorial Arch - Pictures"
+    ]
+  },
+  "987": {
+    "tagDescription": ["Genealogy - Mackenzie - Letters"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1943-12-31T23:59:59.999Z]"]
+  },
+  "1334": {
+    "tagDate": ["[1923-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Genealogy - Mackenzie extracts from publication"]
+  },
+  "954": {
+    "tagDescription": ["Genealogy - Mackenzie - Letters"],
+    "tagDate": ["[1935-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"]
+  },
+  "660": {
+    "tagDate": ["1930-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Mount Pleasant Cemetery - Mackenzie Plot - Toronto Necropolis - Correspondence"
+    ]
+  },
+  "683": {
+    "tagDescription": ["Mount Pleasant Cemetery - Necropolis - Blueprints"],
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]
+  },
+  "419": {
+    "tagDescription": [
+      "William Lyon Mackenzie - Queens' Park Memorial - Correspondence"
+    ],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]
+  },
+  "23": {
+    "tagDate": ["1938-06-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Colonial Advocate Building and Memorial Arch - Dedication at Niagara Falls - Clippings"
+    ]
+  },
+  "1091": {
+    "tagDescription": [
+      "Genealogy - Mrs. Buchanan Mackenzie - King Genealogy - Royal Archives - Florida"
+    ],
+    "tagDate": ["[1937-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]
+  },
+  "211": {
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "William Lyon Mackenzie Home - Queenston - Clippings - June 18, 1938 ceremony"
+    ]
+  },
+  "256": {
+    "tagDescription": [
+      "William Lyon Mackenzie - Queens' Park Memorial - Correspondence"
+    ],
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "1315": {
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Genealogy - King - Miscellaneous"]
+  },
+  "484": {
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Mount Pleasant Cemetery - Family Monument - Correspondence"
+    ]
+  },
+  "940": {
+    "tagDescription": [
+      "Mount Pleasant Cemetery - Family Correspondence - Monuments"
+    ],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"]
+  },
+  "1062": {
+    "tagDescription": ["Genealogy - Mackenzie - Letters"],
+    "tagDate": ["[1947-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]
+  }
+}

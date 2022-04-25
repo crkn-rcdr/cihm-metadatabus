@@ -1,1 +1,11 @@
-{"type":"committees","pubmax":"1917-09-20","node":[["fra","s","committees","12-7",1]],"chamber":["s"],"pubmin":"1917-01-18","callNumber":"1917 R48 A42","label":"Comités du Sénat, 12e Législature, 7e Session : Comité spécial pour le développement des ressources agricoles, industrielles et commerciales, Rapport","language":["fra"],"session":["12-7"]}
+{
+  "type": "committees",
+  "pubmax": "1917-09-20",
+  "node": [["fra", "s", "committees", "12-7", 1]],
+  "chamber": ["s"],
+  "pubmin": "1917-01-18",
+  "callNumber": "1917 R48 A42",
+  "label": "Comités du Sénat, 12e Législature, 7e Session : Comité spécial pour le développement des ressources agricoles, industrielles et commerciales, Rapport",
+  "language": ["fra"],
+  "session": ["12-7"]
+}

@@ -1,1 +1,11 @@
-{"pubmax":"1972-02-16","node":[["eng","c","journals","28-3",1]],"type":"journals","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","label":"House of Commons Journals, 28th Parliament, 3rd Session : Vol. 117","pubmin":"1970-10-08","session":["28-3"],"language":["eng"]}
+{
+  "pubmax": "1972-02-16",
+  "node": [["eng", "c", "journals", "28-3", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "label": "House of Commons Journals, 28th Parliament, 3rd Session : Vol. 117",
+  "pubmin": "1970-10-08",
+  "session": ["28-3"],
+  "language": ["eng"]
+}

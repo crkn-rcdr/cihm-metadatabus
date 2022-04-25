@@ -1,1 +1,18 @@
-{"chamber":["c","s"],"primeMinisters":"Mulroney, Martin Brian","pubmax":"1986-08-28","node":[["eng","c","committees","33-1",17],["eng","s","committees","33-1",13]],"type":"committees","session":["33-1"],"reportTitle":["Bilateral Trade with the United States and Canada's Participation in Research on the Strategic Defense Initiative"],"language":["eng"],"callNumber":"33-1 C32 A122","label":"Joint Committees, 33rd Parliament, 1st Session : Special Joint Committee on Canada's International Relations, Interim Report","pubmin":"1984-11-05"}
+{
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 17],
+    ["eng", "s", "committees", "33-1", 13]
+  ],
+  "type": "committees",
+  "session": ["33-1"],
+  "reportTitle": [
+    "Bilateral Trade with the United States and Canada's Participation in Research on the Strategic Defense Initiative"
+  ],
+  "language": ["eng"],
+  "callNumber": "33-1 C32 A122",
+  "label": "Joint Committees, 33rd Parliament, 1st Session : Special Joint Committee on Canada's International Relations, Interim Report",
+  "pubmin": "1984-11-05"
+}

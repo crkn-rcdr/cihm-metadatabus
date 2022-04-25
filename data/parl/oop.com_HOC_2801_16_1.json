@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1969-10-22","node":[["eng","c","committees","28-1",28]],"language":["eng"],"session":["28-1"],"pubmin":"1968-09-12","callNumber":"1968/69 R4 A1","label":"House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Regional Development, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1969-10-22",
+  "node": [["eng", "c", "committees", "28-1", 28]],
+  "language": ["eng"],
+  "session": ["28-1"],
+  "pubmin": "1968-09-12",
+  "callNumber": "1968/69 R4 A1",
+  "label": "House of Commons Committees, 28th Parliament, 1st Session : Standing Committee on Regional Development, vol. 1"
+}

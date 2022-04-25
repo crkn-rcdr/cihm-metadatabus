@@ -1,1 +1,13 @@
-{"session":["34-2"],"reportTitle":["Court Challenges Program"],"language":["eng"],"label":"House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Human Rights and the Status of Disabled Persons, First Report","callNumber":"34-2 H792 A12","pubmin":"1989-04-03","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","34-2",106]],"pubmax":"1991-05-12","type":"committees"}
+{
+  "session": ["34-2"],
+  "reportTitle": ["Court Challenges Program"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Human Rights and the Status of Disabled Persons, First Report",
+  "callNumber": "34-2 H792 A12",
+  "pubmin": "1989-04-03",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "34-2", 106]],
+  "pubmax": "1991-05-12",
+  "type": "committees"
+}

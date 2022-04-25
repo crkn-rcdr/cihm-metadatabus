@@ -1,1 +1,11 @@
-{"session":["08-1"],"language":["eng"],"callNumber":"J103 H4 1896 2d. Sess.","label":"Senate Minutes of Proceedings, 8th Parliament, 1st Session : 1-28","pubmin":"1896-08-19","chamber":["s"],"pubmax":"1896-10-05","node":[["eng","s","sproc","08-1",1]],"type":"sproc"}
+{
+  "session": ["08-1"],
+  "language": ["eng"],
+  "callNumber": "J103 H4 1896 2d. Sess.",
+  "label": "Senate Minutes of Proceedings, 8th Parliament, 1st Session : 1-28",
+  "pubmin": "1896-08-19",
+  "chamber": ["s"],
+  "pubmax": "1896-10-05",
+  "node": [["eng", "s", "sproc", "08-1", 1]],
+  "type": "sproc"
+}

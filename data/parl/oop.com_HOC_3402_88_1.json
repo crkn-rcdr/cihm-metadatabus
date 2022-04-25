@@ -1,1 +1,15 @@
-{"label":"House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-5, an Act to amend the Railway Act, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-5, Loi modifiant la Loi sur les chemins de fer, vol. 1 no. 1-2","callNumber":"34-2 R24 A1 no.1-2","pubmin":"1989-04-03","session":["34-2"],"language":["eng","fra"],"node":[["eng","c","committees","34-2",159],["fra","c","committees","34-2",39]],"pubmax":"1991-05-12","type":"committees","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-5, an Act to amend the Railway Act, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-5, Loi modifiant la Loi sur les chemins de fer, vol. 1 no. 1-2",
+  "callNumber": "34-2 R24 A1 no.1-2",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "34-2", 159],
+    ["fra", "c", "committees", "34-2", 39]
+  ],
+  "pubmax": "1991-05-12",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

@@ -1,1 +1,13 @@
-{"pubmin":"1984-11-05","label":"Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'environnement et des forêts, Rapport","callNumber":"33-1 E58 A12","reportTitle":["Ressources et industries forestières de l'est du Canada"],"language":["fra"],"session":["33-1"],"type":"committees","node":[["fra","c","committees","33-1",45]],"pubmax":"1986-08-28","primeMinisters":"Mulroney, Martin Brian","chamber":["c"]}
+{
+  "pubmin": "1984-11-05",
+  "label": "Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent de l'environnement et des forêts, Rapport",
+  "callNumber": "33-1 E58 A12",
+  "reportTitle": ["Ressources et industries forestières de l'est du Canada"],
+  "language": ["fra"],
+  "session": ["33-1"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "33-1", 45]],
+  "pubmax": "1986-08-28",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

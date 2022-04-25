@@ -1,1 +1,12 @@
-{"session":["13-2"],"language":["eng"],"label":"House of Commons Committees, 13th Parliament, 2nd Session : Special Committee on Working of the Staffs of the Inside Civil Service, vol. 1","callNumber":"1919 C5 A1","pubmin":"1919-02-20","primeMinisters":"Borden, Robert Laird","chamber":["c"],"node":[["eng","c","committees","13-2",2]],"pubmax":"1919-07-07","type":"committees"}
+{
+  "session": ["13-2"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 13th Parliament, 2nd Session : Special Committee on Working of the Staffs of the Inside Civil Service, vol. 1",
+  "callNumber": "1919 C5 A1",
+  "pubmin": "1919-02-20",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "13-2", 2]],
+  "pubmax": "1919-07-07",
+  "type": "committees"
+}

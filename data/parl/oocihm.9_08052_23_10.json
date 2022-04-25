@@ -1,1 +1,11 @@
-{"chamber":["c"],"primeMinisters":"Macdonald, John Alexander","pubmax":"1890-05-16","node":[["eng","c","sessional","06-4",10]],"type":"sessional","session":["06-4"],"language":["eng"],"label":"Sessional Papers, 6th Parliament, 4th Session : vol. 10","pubmin":"1890-01-16"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1890-05-16",
+  "node": [["eng", "c", "sessional", "06-4", 10]],
+  "type": "sessional",
+  "session": ["06-4"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 6th Parliament, 4th Session : vol. 10",
+  "pubmin": "1890-01-16"
+}

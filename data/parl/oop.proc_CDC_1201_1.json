@@ -1,1 +1,12 @@
-{"callNumber":"J103 H44 1911-12","label":"Procès-verbaux de la Chambre des communes, 12e Législature, 1re Session : 1-75","pubmin":"1911-11-15","session":["12-1"],"language":["fra"],"pubmax":"1912-04-01","node":[["fra","c","cproc","12-1",1]],"type":"cproc","chamber":["c"],"primeMinisters":"Borden, Robert Laird"}
+{
+  "callNumber": "J103 H44 1911-12",
+  "label": "Procès-verbaux de la Chambre des communes, 12e Législature, 1re Session : 1-75",
+  "pubmin": "1911-11-15",
+  "session": ["12-1"],
+  "language": ["fra"],
+  "pubmax": "1912-04-01",
+  "node": [["fra", "c", "cproc", "12-1", 1]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird"
+}

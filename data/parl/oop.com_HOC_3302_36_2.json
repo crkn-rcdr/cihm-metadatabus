@@ -1,1 +1,15 @@
-{"session":["33-2"],"language":["eng","fra"],"label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Elections, Privileges and Procedure, vol. 2 no. 25 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des élections, des privilèges et de la procédure, vol. 2 no. 25","callNumber":"33-2 E44 A1 no.25","pubmin":"1986-09-30","primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","33-2",54],["fra","c","committees","33-2",80]],"pubmax":"1988-10-01","type":"committees"}
+{
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Elections, Privileges and Procedure, vol. 2 no. 25 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des élections, des privilèges et de la procédure, vol. 2 no. 25",
+  "callNumber": "33-2 E44 A1 no.25",
+  "pubmin": "1986-09-30",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-2", 54],
+    ["fra", "c", "committees", "33-2", 80]
+  ],
+  "pubmax": "1988-10-01",
+  "type": "committees"
+}

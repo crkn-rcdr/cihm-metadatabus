@@ -1,1 +1,11 @@
-{"language":["fra"],"session":["27-1"],"pubmin":"1966-01-18","label":"Débats de la Chambre des communes, 27e Législature, 1re Session : Vol. 8","primeMinisters":"Pearson, Lester Bowles","chamber":["c"],"type":"debates","node":[["fra","c","debates","27-1",8]],"pubmax":"1967-05-08"}
+{
+  "language": ["fra"],
+  "session": ["27-1"],
+  "pubmin": "1966-01-18",
+  "label": "Débats de la Chambre des communes, 27e Législature, 1re Session : Vol. 8",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "27-1", 8]],
+  "pubmax": "1967-05-08"
+}

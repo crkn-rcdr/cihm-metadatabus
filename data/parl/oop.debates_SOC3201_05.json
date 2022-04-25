@@ -1,1 +1,10 @@
-{"label":"Senate Debates, 32nd Parliament, 1st Session : Vol. 5","pubmin":"1980-04-14","session":["32-1"],"language":["eng"],"node":[["eng","s","debates","32-1",5]],"pubmax":"1983-11-30","type":"debates","chamber":["s"]}
+{
+  "label": "Senate Debates, 32nd Parliament, 1st Session : Vol. 5",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng"],
+  "node": [["eng", "s", "debates", "32-1", 5]],
+  "pubmax": "1983-11-30",
+  "type": "debates",
+  "chamber": ["s"]
+}

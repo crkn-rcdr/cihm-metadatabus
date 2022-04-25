@@ -1,1 +1,14 @@
-{"type":"bills","pubmax":"1996-02-02","node":[["eng","c","bills","35-1",3],["fra","c","bills","35-1",3]],"chamber":["c"],"primeMinisters":"Chrétien, Joseph Jacques Jean","pubmin":"1994-01-17","label":"House of Commons Bills, 35th Parliament, 1st Session : C41-C56 = Projets de loi de la Chambre des communes, 35e Législature, 1re Session : C41-C56","language":["eng","fra"],"session":["35-1"]}
+{
+  "type": "bills",
+  "pubmax": "1996-02-02",
+  "node": [
+    ["eng", "c", "bills", "35-1", 3],
+    ["fra", "c", "bills", "35-1", 3]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Chrétien, Joseph Jacques Jean",
+  "pubmin": "1994-01-17",
+  "label": "House of Commons Bills, 35th Parliament, 1st Session : C41-C56 = Projets de loi de la Chambre des communes, 35e Législature, 1re Session : C41-C56",
+  "language": ["eng", "fra"],
+  "session": ["35-1"]
+}

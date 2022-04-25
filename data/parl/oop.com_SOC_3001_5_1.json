@@ -1,1 +1,11 @@
-{"language":["eng"],"session":["30-1"],"pubmin":"1974-09-30","label":"Senate Committees, 30th Parliament, 1st Session : Standing Committee on Health, Welfare and Science, vol. 1","callNumber":"1974/76 H42 A1","chamber":["s"],"type":"committees","node":[["eng","s","committees","30-1",12]],"pubmax":"1976-10-12"}
+{
+  "language": ["eng"],
+  "session": ["30-1"],
+  "pubmin": "1974-09-30",
+  "label": "Senate Committees, 30th Parliament, 1st Session : Standing Committee on Health, Welfare and Science, vol. 1",
+  "callNumber": "1974/76 H42 A1",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "30-1", 12]],
+  "pubmax": "1976-10-12"
+}

@@ -1,1 +1,15 @@
-{"language":["eng","fra"],"session":["31-1"],"pubmin":"1979-10-09","callNumber":"1979 B7 A1 no.1-4","label":"House of Commons Committees, 31st Parliament, 1st Session : Standing Committee on Broadcasting, Films and Assistance to the Arts, vol. 1 no. 1-4 = Comités de la Chambre des communes, 31e Législature, 1re Session : Comité permanent de la radiodiffusion, des films et de l'assistance aux arts, vol. 1 no. 1-4","chamber":["c"],"primeMinisters":"Clark, Charles Joseph","type":"committees","pubmax":"1979-12-14","node":[["eng","c","committees","31-1",2],["fra","c","committees","31-1",15]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["31-1"],
+  "pubmin": "1979-10-09",
+  "callNumber": "1979 B7 A1 no.1-4",
+  "label": "House of Commons Committees, 31st Parliament, 1st Session : Standing Committee on Broadcasting, Films and Assistance to the Arts, vol. 1 no. 1-4 = Comités de la Chambre des communes, 31e Législature, 1re Session : Comité permanent de la radiodiffusion, des films et de l'assistance aux arts, vol. 1 no. 1-4",
+  "chamber": ["c"],
+  "primeMinisters": "Clark, Charles Joseph",
+  "type": "committees",
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "c", "committees", "31-1", 2],
+    ["fra", "c", "committees", "31-1", 15]
+  ]
+}

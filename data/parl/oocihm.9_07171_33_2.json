@@ -1,1 +1,11 @@
-{"label":"House of Commons Journals, 8th Parliament, 3rd Session : Vol. 33 App.","pubmin":"1898-02-03","session":["08-3"],"language":["eng"],"pubmax":"1898-06-13","node":[["eng","c","journals","08-3",2]],"type":"journals","chamber":["c"],"primeMinisters":"Laurier, Wilfrid"}
+{
+  "label": "House of Commons Journals, 8th Parliament, 3rd Session : Vol. 33 App.",
+  "pubmin": "1898-02-03",
+  "session": ["08-3"],
+  "language": ["eng"],
+  "pubmax": "1898-06-13",
+  "node": [["eng", "c", "journals", "08-3", 2]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["eng","c","committees","18-3",5]],"pubmax":"1938-07-01","type":"committees","session":["18-3"],"language":["eng"],"label":"House of Commons Committees, 18th Parliament, 3rd Session : Special Committee on the Operation of the Civil Service Act, vol. 2","callNumber":"JL105 A3 1938 pt.2","pubmin":"1938-01-27"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "18-3", 5]],
+  "pubmax": "1938-07-01",
+  "type": "committees",
+  "session": ["18-3"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 18th Parliament, 3rd Session : Special Committee on the Operation of the Civil Service Act, vol. 2",
+  "callNumber": "JL105 A3 1938 pt.2",
+  "pubmin": "1938-01-27"
+}

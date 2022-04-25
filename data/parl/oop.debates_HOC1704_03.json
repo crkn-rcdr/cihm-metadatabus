@@ -1,1 +1,11 @@
-{"primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"type":"debates","node":[["eng","c","debates","17-4",3]],"pubmax":"1933-05-27","language":["eng"],"session":["17-4"],"pubmin":"1932-10-06","label":"House of Commons Debates, 17th Parliament, 4th Session : Vol. 3"}
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "17-4", 3]],
+  "pubmax": "1933-05-27",
+  "language": ["eng"],
+  "session": ["17-4"],
+  "pubmin": "1932-10-06",
+  "label": "House of Commons Debates, 17th Parliament, 4th Session : Vol. 3"
+}

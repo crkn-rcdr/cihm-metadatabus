@@ -1,1 +1,11 @@
-{"primeMinisters":"Macdonald, John Alexander","chamber":["c"],"node":[["fra","c","sessional","04-1",9]],"pubmax":"1879-05-15","type":"sessional","session":["04-1"],"language":["fra"],"label":"Documents parlementaires, 4e Législature, 1re Session : vol. 9","pubmin":"1879-02-13"}
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["fra", "c", "sessional", "04-1", 9]],
+  "pubmax": "1879-05-15",
+  "type": "sessional",
+  "session": ["04-1"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 4e Législature, 1re Session : vol. 9",
+  "pubmin": "1879-02-13"
+}

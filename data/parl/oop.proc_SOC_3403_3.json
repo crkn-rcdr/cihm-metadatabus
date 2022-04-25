@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"sproc","pubmax":"1993-09-08","node":[["eng","s","sproc","34-3",3],["fra","s","sproc","34-3",3]],"language":["eng","fra"],"session":["34-3"],"pubmin":"1991-05-13","callNumber":"J103 H4 34-3 no. 81-113 c.2","label":"Senate Minutes of Proceedings, 34th Parliament, 3rd Session : 81-113 = Procès-verbaux du Sénat, 34e Législature, 3e Session : 81-113"}
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "s", "sproc", "34-3", 3],
+    ["fra", "s", "sproc", "34-3", 3]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "J103 H4 34-3 no. 81-113 c.2",
+  "label": "Senate Minutes of Proceedings, 34th Parliament, 3rd Session : 81-113 = Procès-verbaux du Sénat, 34e Législature, 3e Session : 81-113"
+}

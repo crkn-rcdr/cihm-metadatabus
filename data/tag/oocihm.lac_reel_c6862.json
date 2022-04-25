@@ -1,1 +1,15 @@
-{"1154":{"tagDate":["[1827-01-01T00:00:00.000Z TO 1827-02-28T23:59:59.999Z]"],"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"]},"856":{"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"],"tagDescription":["Case of Captain John Matthew (1820-1827)"],"tagDate":["[1820-01-01T00:00:00.000Z TO 1827-12-31T23:59:59.999Z]"]},"6":{"tagNotebook":["RG 5, A 1: UPPER CANADA SUNDRIES"],"tagDate":["1826-11-01T00:00:00.000Z"]}}
+{
+  "1154": {
+    "tagDate": ["[1827-01-01T00:00:00.000Z TO 1827-02-28T23:59:59.999Z]"],
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"]
+  },
+  "856": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDescription": ["Case of Captain John Matthew (1820-1827)"],
+    "tagDate": ["[1820-01-01T00:00:00.000Z TO 1827-12-31T23:59:59.999Z]"]
+  },
+  "6": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["1826-11-01T00:00:00.000Z"]
+  }
+}

@@ -1,1 +1,11 @@
-{"pubmin":"1926-12-09","label":"Procès-verbaux du Sénat, 16e Législature, 1re Session : 1-34","callNumber":"J103 H43 1926-27","language":["fra"],"session":["16-1"],"type":"sproc","node":[["fra","s","sproc","16-1",1]],"pubmax":"1927-04-14","chamber":["s"]}
+{
+  "pubmin": "1926-12-09",
+  "label": "Procès-verbaux du Sénat, 16e Législature, 1re Session : 1-34",
+  "callNumber": "J103 H43 1926-27",
+  "language": ["fra"],
+  "session": ["16-1"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "16-1", 1]],
+  "pubmax": "1927-04-14",
+  "chamber": ["s"]
+}

@@ -1,1 +1,14 @@
-{"pubmin":"1983-12-07","callNumber":"1983/84 B3 A1","label":"Senate Committees, 32nd Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, vol. 1 = Comités du Sénat, 32e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 1","language":["eng","fra"],"session":["32-2"],"type":"committees","pubmax":"1984-07-09","node":[["eng","s","committees","32-2",4],["fra","s","committees","32-2",8]],"chamber":["s"]}
+{
+  "pubmin": "1983-12-07",
+  "callNumber": "1983/84 B3 A1",
+  "label": "Senate Committees, 32nd Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, vol. 1 = Comités du Sénat, 32e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["32-2"],
+  "type": "committees",
+  "pubmax": "1984-07-09",
+  "node": [
+    ["eng", "s", "committees", "32-2", 4],
+    ["fra", "s", "committees", "32-2", 8]
+  ],
+  "chamber": ["s"]
+}

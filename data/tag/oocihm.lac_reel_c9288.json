@@ -1,1 +1,50 @@
-{"737":{"tagDate":["[1944-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagDescription":["Literature Correspondence"],"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"]},"333":{"tagDate":["[1950-01-01T00:00:00.000Z TO 1953-12-31T23:59:59.999Z]"],"tagDescription":["Farm Committee"],"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"]},"1121":{"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"],"tagDate":["[1944-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagDescription":["Literature (Pamphlets","etc.)"]},"721":{"tagNotebook":["Provincial Files"],"tagPlace":["Ontario"],"tagDescription":["Government"],"tagDate":["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]},"717":{"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"],"tagDescription":["Ginger Group"],"tagDate":["1950-01-01T00:00:00.000Z"]},"312":{"tagDate":["[1938-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"],"tagDescription":["Elections (Municipal)"],"tagNotebook":["Provincial Files"],"tagPlace":["Ontario"]},"679":{"tagDate":["1945-01-01T00:00:00.000Z"],"tagDescription":["Ontario Gestapo"],"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"]},"364":{"tagDate":["[1936-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"],"tagDescription":["Finance and Dues"],"tagPlace":["Ontario"],"tagNotebook":["Provincial Files"]}}
+{
+  "737": {
+    "tagDate": ["[1944-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Literature Correspondence"],
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "333": {
+    "tagDate": ["[1950-01-01T00:00:00.000Z TO 1953-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Farm Committee"],
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "1121": {
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1944-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Literature (Pamphlets", "etc.)"]
+  },
+  "721": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"],
+    "tagDescription": ["Government"],
+    "tagDate": ["[1949-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]
+  },
+  "717": {
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDescription": ["Ginger Group"],
+    "tagDate": ["1950-01-01T00:00:00.000Z"]
+  },
+  "312": {
+    "tagDate": ["[1938-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Elections (Municipal)"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"]
+  },
+  "679": {
+    "tagDate": ["1945-01-01T00:00:00.000Z"],
+    "tagDescription": ["Ontario Gestapo"],
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "364": {
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Finance and Dues"],
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"]
+  }
+}

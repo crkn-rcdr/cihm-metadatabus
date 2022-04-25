@@ -1,1 +1,11 @@
-{"pubmin":"1905-01-11","label":"House of Commons Journals, 10th Parliament, 1st Session : Vol. 40 App. 1","language":["eng"],"session":["10-1"],"type":"journals","pubmax":"1905-07-20","node":[["eng","c","journals","10-1",2]],"chamber":["c"],"primeMinisters":"Laurier, Wilfrid"}
+{
+  "pubmin": "1905-01-11",
+  "label": "House of Commons Journals, 10th Parliament, 1st Session : Vol. 40 App. 1",
+  "language": ["eng"],
+  "session": ["10-1"],
+  "type": "journals",
+  "pubmax": "1905-07-20",
+  "node": [["eng", "c", "journals", "10-1", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

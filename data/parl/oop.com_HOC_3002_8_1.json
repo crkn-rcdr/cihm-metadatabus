@@ -1,1 +1,15 @@
-{"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","type":"committees","pubmax":"1977-10-17","node":[["eng","c","committees","30-2",16],["fra","c","committees","30-2",10]],"language":["eng","fra"],"session":["30-2"],"pubmin":"1976-10-12","callNumber":"1976/77 I55 A1","label":"House of Commons Committees, 30th Parliament, 2nd Session : Sub-Committee on International Development, vol. 1 = Comités de la Chambre des communes, 30e Législature, 2e Session : Sous-comité sur le développement international, vol. 1"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "c", "committees", "30-2", 16],
+    ["fra", "c", "committees", "30-2", 10]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["30-2"],
+  "pubmin": "1976-10-12",
+  "callNumber": "1976/77 I55 A1",
+  "label": "House of Commons Committees, 30th Parliament, 2nd Session : Sub-Committee on International Development, vol. 1 = Comités de la Chambre des communes, 30e Législature, 2e Session : Sous-comité sur le développement international, vol. 1"
+}

@@ -1,1 +1,14 @@
-{"pubmax":"1986-08-28","node":[["eng","s","committees","33-1",4],["fra","s","committees","33-1",12]],"type":"committees","chamber":["s"],"callNumber":"33-1 B3 A1 no.27-53","label":"Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, vol. 2 no. 27-53 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 2 no. 27-53","pubmin":"1984-11-05","session":["33-1"],"language":["eng","fra"]}
+{
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "s", "committees", "33-1", 4],
+    ["fra", "s", "committees", "33-1", 12]
+  ],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "33-1 B3 A1 no.27-53",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, vol. 2 no. 27-53 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 2 no. 27-53",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"]
+}

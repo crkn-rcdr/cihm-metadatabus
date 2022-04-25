@@ -1,1 +1,12 @@
-{"primeMinisters":"King, William Lyon Mackenzie","chamber":["c"],"node":[["fra","c","committees","18-3",4]],"pubmax":"1938-07-01","type":"committees","session":["18-3"],"language":["fra"],"label":"Comités de la Chambre des communes, 18e Législature, 3e Session : Comité permanent de la radiodiffusion, vol. 1","callNumber":"1938 R33 A4","pubmin":"1938-01-27"}
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "18-3", 4]],
+  "pubmax": "1938-07-01",
+  "type": "committees",
+  "session": ["18-3"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 18e Législature, 3e Session : Comité permanent de la radiodiffusion, vol. 1",
+  "callNumber": "1938 R33 A4",
+  "pubmin": "1938-01-27"
+}

@@ -1,1 +1,10 @@
-{"chamber":["s"],"pubmax":"1962-04-19","node":[["fra","s","journals","24-5",1]],"type":"journals","session":["24-5"],"language":["fra"],"label":"Journaux du Sénat, 24e Législature, 5e Session : Vol. 108","pubmin":"1962-01-18"}
+{
+  "chamber": ["s"],
+  "pubmax": "1962-04-19",
+  "node": [["fra", "s", "journals", "24-5", 1]],
+  "type": "journals",
+  "session": ["24-5"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 24e Législature, 5e Session : Vol. 108",
+  "pubmin": "1962-01-18"
+}

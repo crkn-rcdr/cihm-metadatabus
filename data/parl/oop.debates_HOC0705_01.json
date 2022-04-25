@@ -1,1 +1,11 @@
-{"type":"debates","node":[["eng","c","debates","07-5",1]],"pubmax":"1895-07-22","primeMinisters":"Bowell, Mackenzie","chamber":["c"],"pubmin":"1895-04-18","label":"House of Commons Debates, 7th Parliament, 5th Session : Vol. 1","language":["eng"],"session":["07-5"]}
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "07-5", 1]],
+  "pubmax": "1895-07-22",
+  "primeMinisters": "Bowell, Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1895-04-18",
+  "label": "House of Commons Debates, 7th Parliament, 5th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["07-5"]
+}

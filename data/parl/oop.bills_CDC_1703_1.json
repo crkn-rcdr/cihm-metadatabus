@@ -1,1 +1,12 @@
-{"primeMinisters":"Bennett, Richard Bedford","chamber":["c"],"type":"bills","node":[["fra","c","bills","17-3",1]],"pubmax":"1932-05-26","language":["fra"],"session":["17-3"],"pubmin":"1932-02-04","label":"Projets de loi de la Chambre des communes, 17e Législature, 3e Session : 2-40","callNumber":"KE72 C361 17-3 2-40"}
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "17-3", 1]],
+  "pubmax": "1932-05-26",
+  "language": ["fra"],
+  "session": ["17-3"],
+  "pubmin": "1932-02-04",
+  "label": "Projets de loi de la Chambre des communes, 17e Législature, 3e Session : 2-40",
+  "callNumber": "KE72 C361 17-3 2-40"
+}

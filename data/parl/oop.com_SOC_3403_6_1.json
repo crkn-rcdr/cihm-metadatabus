@@ -1,1 +1,14 @@
-{"pubmin":"1991-05-13","label":"Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Foreign Affairs, vol. 1 no. 1-19 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent des affaires étrangères, vol. 1 no. 1-19","callNumber":"34-3 F6 A1 no.1-19","language":["eng","fra"],"session":["34-3"],"type":"committees","node":[["eng","s","committees","34-3",17],["fra","s","committees","34-3",3]],"pubmax":"1993-09-08","chamber":["s"]}
+{
+  "pubmin": "1991-05-13",
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Foreign Affairs, vol. 1 no. 1-19 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent des affaires étrangères, vol. 1 no. 1-19",
+  "callNumber": "34-3 F6 A1 no.1-19",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "34-3", 17],
+    ["fra", "s", "committees", "34-3", 3]
+  ],
+  "pubmax": "1993-09-08",
+  "chamber": ["s"]
+}

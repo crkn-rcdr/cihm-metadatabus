@@ -1,1 +1,116 @@
-{"232":{"tagNotebook":["National Council and Executive Miscellaneous Documents"],"tagDate":["1956-01-01T00:00:00.000Z"],"tagDescription":["National Council and Executive, Address by M.J. Coldwell"]},"1017":{"tagDescription":["Woodsworth House Fund"],"tagDate":["1946-01-01T00:00:00.000Z"],"tagNotebook":["Woodsworth House"]},"347":{"tagNotebook":["Financial Statements, Etc."],"tagDate":["[1932-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],"tagDescription":["Financial Statements"]},"14":{"tagDescription":["Convention Resolutions, Regina - 2. Draft Resolution, re: Discrimination Against Employees (2)","Convention Resolutions, Regina - 1. Final Copy (2)"],"tagDate":["[1933-07-19T00:00:00.000Z TO 1933-07-21T23:59:59.999Z]"],"tagNotebook":["National Council and Executive Miscellaneous Documents"]},"255":{"tagDate":["[1957-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagDescription":["National Council, Executive and Table Officers Minutes, \"for distributions\""],"tagNotebook":["National Council and Executive Miscellaneous Documents"]},"505":{"tagNotebook":["Financial Statements, Etc."],"tagDescription":["Financial Statements, Rough Drafts"],"tagDate":["[1947-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"]},"193":{"tagNotebook":["National Council and Executive Miscellaneous Documents"],"tagDescription":["National Council Meeting, Rough Notes"],"tagDate":["1956-01-01T00:00:00.000Z"]},"178":{"tagDescription":["National Council and Executive, Election Material"],"tagDate":["1945-01-01T00:00:00.000Z"],"tagNotebook":["National Council and Executive Miscellaneous Documents"]},"1095":{"tagDate":["1947-01-01T00:00:00.000Z"],"tagDescription":["Woodsworth House Fund"],"tagNotebook":["Woodsworth House"]},"106":{"tagNotebook":["National Council and Executive Miscellaneous Documents"],"tagDate":["1941-01-01T00:00:00.000Z"],"tagDescription":["Report of the National Secretary"]},"121":{"tagNotebook":["National Council and Executive Miscellaneous Documents"],"tagDate":["[1936-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],"tagDescription":["National Council Reports and Memoranda"]},"1004":{"tagDescription":["Instructions for David Lewis, re: Staff Salaries, etc."],"tagDate":["[1947-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],"tagNotebook":["Financial Statements, Etc."]},"182":{"tagNotebook":["National Council and Executive Miscellaneous Documents"],"tagDescription":["National Executive Meeting, Agenda and Notes"],"tagDate":["1954-08-25T00:00:00.000Z"]},"799":{"tagDescription":["Financing the CCF Program, by Stuart Jamieson"],"tagDate":["1945-01-01T00:00:00.000Z"],"tagNotebook":["Financial Statements, Etc."]},"100":{"tagDescription":["Report of the National Secretary"],"tagDate":["1935-01-01T00:00:00.000Z"],"tagNotebook":["National Council and Executive Miscellaneous Documents"]},"694":{"tagDescription":["Financial Statements"],"tagDate":["[1957-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],"tagNotebook":["Financial Statements, Etc."]},"563":{"tagDate":["[1951-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"],"tagDescription":["Financial Statements"],"tagNotebook":["Financial Statements, Etc."]},"1410":{"tagNotebook":["Woodsworth House"],"tagDescription":["Woodsworth House, Name Contest"],"tagDate":["[1947-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]},"351":{"tagDate":["[1947-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],"tagDescription":["Financial Statements"],"tagNotebook":["Financial Statements, Etc."]},"31":{"tagNotebook":["National Council and Executive Miscellaneous Documents"],"tagDate":["[1933-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],"tagDescription":["National Council Constitutions, Drafts and Proposals"]},"1373":{"tagNotebook":["Woodsworth House"],"tagDescription":["Woodsworth House, Receipts Returned"],"tagDate":["1947-01-01T00:00:00.000Z"]}}
+{
+  "232": {
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"],
+    "tagDate": ["1956-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "National Council and Executive, Address by M.J. Coldwell"
+    ]
+  },
+  "1017": {
+    "tagDescription": ["Woodsworth House Fund"],
+    "tagDate": ["1946-01-01T00:00:00.000Z"],
+    "tagNotebook": ["Woodsworth House"]
+  },
+  "347": {
+    "tagNotebook": ["Financial Statements, Etc."],
+    "tagDate": ["[1932-01-01T00:00:00.000Z TO 1933-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Financial Statements"]
+  },
+  "14": {
+    "tagDescription": [
+      "Convention Resolutions, Regina - 2. Draft Resolution, re: Discrimination Against Employees (2)",
+      "Convention Resolutions, Regina - 1. Final Copy (2)"
+    ],
+    "tagDate": ["[1933-07-19T00:00:00.000Z TO 1933-07-21T23:59:59.999Z]"],
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"]
+  },
+  "255": {
+    "tagDate": ["[1957-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "National Council, Executive and Table Officers Minutes, \"for distributions\""
+    ],
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"]
+  },
+  "505": {
+    "tagNotebook": ["Financial Statements, Etc."],
+    "tagDescription": ["Financial Statements, Rough Drafts"],
+    "tagDate": ["[1947-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"]
+  },
+  "193": {
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"],
+    "tagDescription": ["National Council Meeting, Rough Notes"],
+    "tagDate": ["1956-01-01T00:00:00.000Z"]
+  },
+  "178": {
+    "tagDescription": ["National Council and Executive, Election Material"],
+    "tagDate": ["1945-01-01T00:00:00.000Z"],
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"]
+  },
+  "1095": {
+    "tagDate": ["1947-01-01T00:00:00.000Z"],
+    "tagDescription": ["Woodsworth House Fund"],
+    "tagNotebook": ["Woodsworth House"]
+  },
+  "106": {
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"],
+    "tagDate": ["1941-01-01T00:00:00.000Z"],
+    "tagDescription": ["Report of the National Secretary"]
+  },
+  "121": {
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"],
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"],
+    "tagDescription": ["National Council Reports and Memoranda"]
+  },
+  "1004": {
+    "tagDescription": [
+      "Instructions for David Lewis, re: Staff Salaries, etc."
+    ],
+    "tagDate": ["[1947-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Financial Statements, Etc."]
+  },
+  "182": {
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"],
+    "tagDescription": ["National Executive Meeting, Agenda and Notes"],
+    "tagDate": ["1954-08-25T00:00:00.000Z"]
+  },
+  "799": {
+    "tagDescription": ["Financing the CCF Program, by Stuart Jamieson"],
+    "tagDate": ["1945-01-01T00:00:00.000Z"],
+    "tagNotebook": ["Financial Statements, Etc."]
+  },
+  "100": {
+    "tagDescription": ["Report of the National Secretary"],
+    "tagDate": ["1935-01-01T00:00:00.000Z"],
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"]
+  },
+  "694": {
+    "tagDescription": ["Financial Statements"],
+    "tagDate": ["[1957-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Financial Statements, Etc."]
+  },
+  "563": {
+    "tagDate": ["[1951-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Financial Statements"],
+    "tagNotebook": ["Financial Statements, Etc."]
+  },
+  "1410": {
+    "tagNotebook": ["Woodsworth House"],
+    "tagDescription": ["Woodsworth House, Name Contest"],
+    "tagDate": ["[1947-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]
+  },
+  "351": {
+    "tagDate": ["[1947-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Financial Statements"],
+    "tagNotebook": ["Financial Statements, Etc."]
+  },
+  "31": {
+    "tagNotebook": ["National Council and Executive Miscellaneous Documents"],
+    "tagDate": ["[1933-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],
+    "tagDescription": ["National Council Constitutions, Drafts and Proposals"]
+  },
+  "1373": {
+    "tagNotebook": ["Woodsworth House"],
+    "tagDescription": ["Woodsworth House, Receipts Returned"],
+    "tagDate": ["1947-01-01T00:00:00.000Z"]
+  }
+}

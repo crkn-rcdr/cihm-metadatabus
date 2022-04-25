@@ -1,1 +1,13 @@
-{"callNumber":"33-2 J83 A122","label":"House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Justice and Sollicitor General, Sixth Report","pubmin":"1986-09-30","session":["33-2"],"reportTitle":["Taking Responsibility"],"language":["eng"],"pubmax":"1988-10-01","node":[["eng","c","committees","33-2",117]],"type":"committees","chamber":["c"],"primeMinisters":"Mulroney, Martin Brian"}
+{
+  "callNumber": "33-2 J83 A122",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Justice and Sollicitor General, Sixth Report",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "reportTitle": ["Taking Responsibility"],
+  "language": ["eng"],
+  "pubmax": "1988-10-01",
+  "node": [["eng", "c", "committees", "33-2", 117]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

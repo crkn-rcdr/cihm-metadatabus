@@ -1,1 +1,11 @@
-{"label":"House of Commons Journals, 7th Parliament, 4th Session : Vol. 28","pubmin":"1894-03-15","session":["07-4"],"language":["eng"],"node":[["eng","c","journals","07-4",1]],"pubmax":"1894-07-23","type":"journals","primeMinisters":"Thompson, John Sparrow David","chamber":["c"]}
+{
+  "label": "House of Commons Journals, 7th Parliament, 4th Session : Vol. 28",
+  "pubmin": "1894-03-15",
+  "session": ["07-4"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "07-4", 1]],
+  "pubmax": "1894-07-23",
+  "type": "journals",
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"]
+}

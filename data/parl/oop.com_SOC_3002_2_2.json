@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","30-2",4],["fra","s","committees","30-2",6]],"pubmax":"1977-10-17","language":["eng","fra"],"session":["30-2"],"pubmin":"1976-10-12","label":"Senate Committees, 30th Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, vol. 2 = Comités du Sénat, 30e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 2","callNumber":"1976/77 B3 A1 v.2"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "30-2", 4],
+    ["fra", "s", "committees", "30-2", 6]
+  ],
+  "pubmax": "1977-10-17",
+  "language": ["eng", "fra"],
+  "session": ["30-2"],
+  "pubmin": "1976-10-12",
+  "label": "Senate Committees, 30th Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, vol. 2 = Comités du Sénat, 30e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 2",
+  "callNumber": "1976/77 B3 A1 v.2"
+}

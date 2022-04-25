@@ -1,1 +1,11 @@
-{"label":"House of Commons Debates, 32nd Parliament, 2nd Session : Vol. 3","pubmin":"1983-12-07","session":["32-2"],"language":["eng"],"node":[["eng","c","debates","32-2",3]],"pubmax":"1984-07-09","type":"debates","primeMinisters":"Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)","chamber":["c"]}
+{
+  "label": "House of Commons Debates, 32nd Parliament, 2nd Session : Vol. 3",
+  "pubmin": "1983-12-07",
+  "session": ["32-2"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "32-2", 3]],
+  "pubmax": "1984-07-09",
+  "type": "debates",
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "chamber": ["c"]
+}

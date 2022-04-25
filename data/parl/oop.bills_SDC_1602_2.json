@@ -1,1 +1,11 @@
-{"label":"Projets de loi du Sénat, 16e Législature, 2e Session : K6-S10","callNumber":"KE72 C381 16-2 v.2","pubmin":"1928-01-26","session":["16-2"],"language":["fra"],"node":[["fra","s","bills","16-2",2]],"pubmax":"1928-06-11","type":"bills","chamber":["s"]}
+{
+  "label": "Projets de loi du Sénat, 16e Législature, 2e Session : K6-S10",
+  "callNumber": "KE72 C381 16-2 v.2",
+  "pubmin": "1928-01-26",
+  "session": ["16-2"],
+  "language": ["fra"],
+  "node": [["fra", "s", "bills", "16-2", 2]],
+  "pubmax": "1928-06-11",
+  "type": "bills",
+  "chamber": ["s"]
+}

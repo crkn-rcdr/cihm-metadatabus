@@ -1,1 +1,12 @@
-{"primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"type":"bills","node":[["eng","c","bills","22-2",1]],"pubmax":"1955-07-28","language":["eng"],"session":["22-2"],"pubmin":"1955-01-07","label":"House of Commons Bills, 22nd Parliament, 2nd Session : 2-510","callNumber":"KE72 C36 22-2 2-510"}
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["eng", "c", "bills", "22-2", 1]],
+  "pubmax": "1955-07-28",
+  "language": ["eng"],
+  "session": ["22-2"],
+  "pubmin": "1955-01-07",
+  "label": "House of Commons Bills, 22nd Parliament, 2nd Session : 2-510",
+  "callNumber": "KE72 C36 22-2 2-510"
+}

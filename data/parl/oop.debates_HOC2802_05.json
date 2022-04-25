@@ -1,1 +1,11 @@
-{"pubmin":"1969-10-23","label":"House of Commons Debates, 28th Parliament, 2nd Session : Vol. 5","language":["eng"],"session":["28-2"],"type":"debates","pubmax":"1970-10-07","node":[["eng","c","debates","28-2",5]],"chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott"}
+{
+  "pubmin": "1969-10-23",
+  "label": "House of Commons Debates, 28th Parliament, 2nd Session : Vol. 5",
+  "language": ["eng"],
+  "session": ["28-2"],
+  "type": "debates",
+  "pubmax": "1970-10-07",
+  "node": [["eng", "c", "debates", "28-2", 5]],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

@@ -1,1 +1,154 @@
-{"1090":{"tagDescription":["165. Questions."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"353":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["152. Personal Washington Trip."]},"1063":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["164. Public Works."]},"969":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["160. Progressive Conservatism and the Public Welfare."]},"342":{"tagDescription":["151. Peres Benedictins."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"1174":{"tagDescription":["167. Railways and Shipping Committees."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"1325":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["171. Remarks on Speech delivered in House by R. B. Hanson, Feb. 2. 1944."]},"1321":{"tagDescription":["170. Redistribution."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"619":{"tagDescription":["158. Press Clippings, releases, etc. "],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"1331":{"tagDescription":["172. Requests."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"808":{"tagDescription":["159. P.E.I. Transportation Problems"],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"1312":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["169. Reconstruction Planning."]},"1038":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["163. Public Opinion."]},"432":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["155. Post Office Department"]},"399":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["154. Positions."]},"69":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["149. Pensions."]},"178":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["150. Pensions."]},"1029":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["162. Public Health."]},"1179":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["168. Committee on Railways and Shipping."]},"614":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["157. Power; Hon. C. L. "]},"982":{"tagDescription":["161. Public Accounts Committee."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"370":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["153. Phillips, R. L. Fredericton, N. B."]},"1345":{"tagDescription":["173. Resignation as House Leader."],"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"]},"556":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["156. Post War Reconstruction."]},"1162":{"tagNotebook":["MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"],"tagDescription":["166. Questions for the order of the Day."]}}
+{
+  "1090": {
+    "tagDescription": ["165. Questions."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "353": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["152. Personal Washington Trip."]
+  },
+  "1063": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["164. Public Works."]
+  },
+  "969": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["160. Progressive Conservatism and the Public Welfare."]
+  },
+  "342": {
+    "tagDescription": ["151. Peres Benedictins."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "1174": {
+    "tagDescription": ["167. Railways and Shipping Committees."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "1325": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": [
+      "171. Remarks on Speech delivered in House by R. B. Hanson, Feb. 2. 1944."
+    ]
+  },
+  "1321": {
+    "tagDescription": ["170. Redistribution."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "619": {
+    "tagDescription": ["158. Press Clippings, releases, etc. "],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "1331": {
+    "tagDescription": ["172. Requests."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "808": {
+    "tagDescription": ["159. P.E.I. Transportation Problems"],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "1312": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["169. Reconstruction Planning."]
+  },
+  "1038": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["163. Public Opinion."]
+  },
+  "432": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["155. Post Office Department"]
+  },
+  "399": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["154. Positions."]
+  },
+  "69": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["149. Pensions."]
+  },
+  "178": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["150. Pensions."]
+  },
+  "1029": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["162. Public Health."]
+  },
+  "1179": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["168. Committee on Railways and Shipping."]
+  },
+  "614": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["157. Power; Hon. C. L. "]
+  },
+  "982": {
+    "tagDescription": ["161. Public Accounts Committee."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "370": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["153. Phillips, R. L. Fredericton, N. B."]
+  },
+  "1345": {
+    "tagDescription": ["173. Resignation as House Leader."],
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ]
+  },
+  "556": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["156. Post War Reconstruction."]
+  },
+  "1162": {
+    "tagNotebook": [
+      "MEMBERS OF PARLIAMENT SUBJECT FILES - 1943 TO 1945. VOLS. 86 TO 103"
+    ],
+    "tagDescription": ["166. Questions for the order of the Day."]
+  }
+}

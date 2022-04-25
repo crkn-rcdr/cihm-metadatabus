@@ -1,1 +1,14 @@
-{"chamber":["s"],"type":"committees","node":[["eng","s","committees","34-2",39],["fra","s","committees","34-2",42]],"pubmax":"1991-05-12","language":["eng","fra"],"session":["34-2"],"pubmin":"1989-04-03","label":"Senate Committees, 34th Parliament, 2nd Session : Special Committee on Terrorism and Public Safety, vol. 1 no. 1-2 = Comités du Sénat, 34e Législature, 2e Session : Comité spécial sur le terrorisme et la sécurité publique, vol. 1 no. 1-2","callNumber":"34-2 T472 A1 no.1-2"}
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "34-2", 39],
+    ["fra", "s", "committees", "34-2", 42]
+  ],
+  "pubmax": "1991-05-12",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Special Committee on Terrorism and Public Safety, vol. 1 no. 1-2 = Comités du Sénat, 34e Législature, 2e Session : Comité spécial sur le terrorisme et la sécurité publique, vol. 1 no. 1-2",
+  "callNumber": "34-2 T472 A1 no.1-2"
+}

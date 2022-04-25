@@ -1,1 +1,15 @@
-{"primeMinisters":"Mulroney, Martin Brian","chamber":["c"],"node":[["eng","c","committees","33-1",87],["fra","c","committees","33-1",14]],"pubmax":"1986-08-28","type":"committees","session":["33-1"],"language":["eng","fra"],"label":"House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Indian Affairs and Northern Development, vol. 2 no. 25-43 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des affaires indiennes et du développement du Nord canadien, vol. 2 no. 25-43","callNumber":"33-1 I5 A1 no.25-43","pubmin":"1984-11-05"}
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-1", 87],
+    ["fra", "c", "committees", "33-1", 14]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Indian Affairs and Northern Development, vol. 2 no. 25-43 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des affaires indiennes et du développement du Nord canadien, vol. 2 no. 25-43",
+  "callNumber": "33-1 I5 A1 no.25-43",
+  "pubmin": "1984-11-05"
+}

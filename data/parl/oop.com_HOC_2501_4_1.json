@@ -1,1 +1,12 @@
-{"callNumber":"1962/63 R34 A1","label":"House of Commons Committees, 25th Parliament, 1st Session : Sessional Committee on Railways, Air Lines and Shipping Owned and Controlled by the Government, vol. 1","pubmin":"1962-09-27","session":["25-1"],"language":["eng"],"pubmax":"1963-02-06","node":[["eng","c","committees","25-1",4]],"type":"committees","chamber":["c"],"primeMinisters":"Diefenbaker, John George"}
+{
+  "callNumber": "1962/63 R34 A1",
+  "label": "House of Commons Committees, 25th Parliament, 1st Session : Sessional Committee on Railways, Air Lines and Shipping Owned and Controlled by the Government, vol. 1",
+  "pubmin": "1962-09-27",
+  "session": ["25-1"],
+  "language": ["eng"],
+  "pubmax": "1963-02-06",
+  "node": [["eng", "c", "committees", "25-1", 4]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

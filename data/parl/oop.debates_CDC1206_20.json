@@ -1,1 +1,11 @@
-{"label":"Débats de la Chambre des communes, 12e Législature, 6e Session : Index","pubmin":"1916-01-12","session":["12-6"],"language":["fra"],"node":[["fra","c","debates","12-6",5]],"pubmax":"1916-05-18","type":"debates","primeMinisters":"Borden, Robert Laird","chamber":["c"]}
+{
+  "label": "Débats de la Chambre des communes, 12e Législature, 6e Session : Index",
+  "pubmin": "1916-01-12",
+  "session": ["12-6"],
+  "language": ["fra"],
+  "node": [["fra", "c", "debates", "12-6", 5]],
+  "pubmax": "1916-05-18",
+  "type": "debates",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

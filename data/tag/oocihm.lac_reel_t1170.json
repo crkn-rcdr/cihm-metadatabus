@@ -1,1 +1,62 @@
-{"388":{"tagDate":["[1908-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"],"tagDescription":["Postage rates -Postal notes and money orders -International Postal Union Congress -Regulation and Instruction controlling postal service in Canada -Parcel Post"]},"1407":{"tagDate":["1905-01-01T00:00:00.000Z"],"tagDescription":["Newspaper clipping  Postal issues"]},"132":{"tagDescription":["Imperial Penny Postage Scheme -Canadian Postage Charges -Postage rates for newspapers and magazines"],"tagDate":["[1897-01-01T00:00:00.000Z TO 1905-12-31T23:59:59.999Z]"]},"974":{"tagDescription":["Universal Postal convention -Parcel post. Penny Postage -C.O.D. parcel post system -Special postal concessions for H.M. Forces -Abolition of Foreign Post offices in China - Postal and money order business -Settlement of Pre-War postal account -Souvenir book of Canadian views for member of preparatory commission of Postal Congress, Cairo"],"tagDate":["[1915-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]},"1558":{"tagDate":["[1902-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Statutes and regulation under Nobel foundation -Nomination of candidates for Nobel Peace Prize"]},"1522":{"tagDate":["[1905-01-01T00:00:00.000Z TO 1906-12-31T23:59:59.999Z]"],"tagDescription":["Seizure of Antiope by Japanese authorities (spelling ? Pg106)"]},"1633":{"tagDate":["[1905-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],"tagDescription":["Commercial travellers samples and trade catalogues and price lists. Customs clearances of  -Issue of identity cards to commercial travellers -Tax on commercial travellers in Provinces of Quebec and British Colimbia"]},"654":{"tagDate":["[1906-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"],"tagDescription":["Ibid"]},"1919":{"tagDescription":["Operations of C. Brunning in connection with Printers Strikes, Winnipeg -False representations to induce or prevent Emigration"],"tagDate":["[1904-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"]},"15":{"tagDate":["[1874-01-01T00:00:00.000Z TO 1876-12-31T23:59:59.999Z]"],"tagDescription":["International Postal Union -General Postage Question"]},"1744":{"tagDescription":["White slave traffic -Traffic in women and children -Convention for suppression"],"tagDate":["[1905-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]}}
+{
+  "388": {
+    "tagDate": ["[1908-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Postage rates -Postal notes and money orders -International Postal Union Congress -Regulation and Instruction controlling postal service in Canada -Parcel Post"
+    ]
+  },
+  "1407": {
+    "tagDate": ["1905-01-01T00:00:00.000Z"],
+    "tagDescription": ["Newspaper clipping  Postal issues"]
+  },
+  "132": {
+    "tagDescription": [
+      "Imperial Penny Postage Scheme -Canadian Postage Charges -Postage rates for newspapers and magazines"
+    ],
+    "tagDate": ["[1897-01-01T00:00:00.000Z TO 1905-12-31T23:59:59.999Z]"]
+  },
+  "974": {
+    "tagDescription": [
+      "Universal Postal convention -Parcel post. Penny Postage -C.O.D. parcel post system -Special postal concessions for H.M. Forces -Abolition of Foreign Post offices in China - Postal and money order business -Settlement of Pre-War postal account -Souvenir book of Canadian views for member of preparatory commission of Postal Congress, Cairo"
+    ],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"]
+  },
+  "1558": {
+    "tagDate": ["[1902-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Statutes and regulation under Nobel foundation -Nomination of candidates for Nobel Peace Prize"
+    ]
+  },
+  "1522": {
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1906-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Seizure of Antiope by Japanese authorities (spelling ? Pg106)"
+    ]
+  },
+  "1633": {
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Commercial travellers samples and trade catalogues and price lists. Customs clearances of  -Issue of identity cards to commercial travellers -Tax on commercial travellers in Provinces of Quebec and British Colimbia"
+    ]
+  },
+  "654": {
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid"]
+  },
+  "1919": {
+    "tagDescription": [
+      "Operations of C. Brunning in connection with Printers Strikes, Winnipeg -False representations to induce or prevent Emigration"
+    ],
+    "tagDate": ["[1904-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"]
+  },
+  "15": {
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1876-12-31T23:59:59.999Z]"],
+    "tagDescription": ["International Postal Union -General Postage Question"]
+  },
+  "1744": {
+    "tagDescription": [
+      "White slave traffic -Traffic in women and children -Convention for suppression"
+    ],
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  }
+}

@@ -1,1 +1,14 @@
-{"type":"committees","node":[["eng","s","committees","33-1",26],["fra","s","committees","33-1",6]],"pubmax":"1986-08-28","chamber":["s"],"pubmin":"1984-11-05","label":"Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, vol. 3 no. 42-61 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent des affaires juridiques et constitutionnelles, vol. 3 no. 42-61","callNumber":"33-1 L4 A1 no.42-61","language":["eng","fra"],"session":["33-1"]}
+{
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "33-1", 26],
+    ["fra", "s", "committees", "33-1", 6]
+  ],
+  "pubmax": "1986-08-28",
+  "chamber": ["s"],
+  "pubmin": "1984-11-05",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, vol. 3 no. 42-61 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent des affaires juridiques et constitutionnelles, vol. 3 no. 42-61",
+  "callNumber": "33-1 L4 A1 no.42-61",
+  "language": ["eng", "fra"],
+  "session": ["33-1"]
+}

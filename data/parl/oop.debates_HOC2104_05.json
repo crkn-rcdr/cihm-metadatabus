@@ -1,1 +1,11 @@
-{"session":["21-4"],"language":["eng"],"label":"House of Commons Debates, 21st Parliament, 4th Session : Vol. 5","pubmin":"1951-01-30","primeMinisters":"St-Laurent, Louis Stephen","chamber":["c"],"node":[["eng","c","debates","21-4",5]],"pubmax":"1951-10-09","type":"debates"}
+{
+  "session": ["21-4"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 21st Parliament, 4th Session : Vol. 5",
+  "pubmin": "1951-01-30",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "21-4", 5]],
+  "pubmax": "1951-10-09",
+  "type": "debates"
+}

@@ -1,1 +1,12 @@
-{"label":"House of Commons Committees, 15th Parliament, 1st Session : Select Standing Committee on Industrial and International Relations, vol. 1","callNumber":"1926I5 A1","pubmin":"1926-01-07","session":["15-1"],"language":["eng"],"node":[["eng","c","committees","15-1",6]],"pubmax":"1926-07-02","type":"committees","primeMinisters":"King, William Lyon Mackenzie (1926-01-07 - 1926-06-28), Meighen, Arthur (1926-06-29 - 1926-07-02)","chamber":["c"]}
+{
+  "label": "House of Commons Committees, 15th Parliament, 1st Session : Select Standing Committee on Industrial and International Relations, vol. 1",
+  "callNumber": "1926I5 A1",
+  "pubmin": "1926-01-07",
+  "session": ["15-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "committees", "15-1", 6]],
+  "pubmax": "1926-07-02",
+  "type": "committees",
+  "primeMinisters": "King, William Lyon Mackenzie (1926-01-07 - 1926-06-28), Meighen, Arthur (1926-06-29 - 1926-07-02)",
+  "chamber": ["c"]
+}

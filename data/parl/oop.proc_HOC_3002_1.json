@@ -1,1 +1,15 @@
-{"pubmax":"1977-10-17","node":[["eng","c","cproc","30-2",1],["fra","c","cproc","30-2",1]],"type":"cproc","chamber":["c"],"primeMinisters":"Trudeau, Pierre Elliott","callNumber":"J103 H41 1976/77 no. 1-99 c.2","label":"House of Commons Votes and Proceedings, 30th Parliament, 2nd Session : 1-99 = Procès-verbaux de la Chambre des communes, 30e Législature, 2e Session : 1-99","pubmin":"1976-10-12","session":["30-2"],"language":["eng","fra"]}
+{
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "c", "cproc", "30-2", 1],
+    ["fra", "c", "cproc", "30-2", 1]
+  ],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "callNumber": "J103 H41 1976/77 no. 1-99 c.2",
+  "label": "House of Commons Votes and Proceedings, 30th Parliament, 2nd Session : 1-99 = Procès-verbaux de la Chambre des communes, 30e Législature, 2e Session : 1-99",
+  "pubmin": "1976-10-12",
+  "session": ["30-2"],
+  "language": ["eng", "fra"]
+}

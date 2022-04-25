@@ -1,1 +1,12 @@
-{"node":[["eng","s","committees","33-2",12]],"pubmax":"1988-10-01","type":"committees","chamber":["s"],"label":"Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on Energy and Natural Resources, Report","callNumber":"33-2 E56 A12","pubmin":"1986-09-30","session":["33-2"],"reportTitle":["Natural Gas Deregulation and Marketing"],"language":["eng"]}
+{
+  "node": [["eng", "s", "committees", "33-2", 12]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on Energy and Natural Resources, Report",
+  "callNumber": "33-2 E56 A12",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "reportTitle": ["Natural Gas Deregulation and Marketing"],
+  "language": ["eng"]
+}

@@ -1,1 +1,15 @@
-{"callNumber":"KE72 C36 no.2-175 no.A-U","label":"Senate and House of Commons Bills, 7th Parliament, 1st Session : A-U, 2-175","pubmin":"1891-04-29","session":["07-1"],"language":["eng"],"pubmax":"1891-09-30","node":[["eng","s","bills","07-1",1],["eng","c","bills","07-1",1]],"type":"bills","chamber":["s","c"],"primeMinisters":"Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)"}
+{
+  "callNumber": "KE72 C36 no.2-175 no.A-U",
+  "label": "Senate and House of Commons Bills, 7th Parliament, 1st Session : A-U, 2-175",
+  "pubmin": "1891-04-29",
+  "session": ["07-1"],
+  "language": ["eng"],
+  "pubmax": "1891-09-30",
+  "node": [
+    ["eng", "s", "bills", "07-1", 1],
+    ["eng", "c", "bills", "07-1", 1]
+  ],
+  "type": "bills",
+  "chamber": ["s", "c"],
+  "primeMinisters": "Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)"
+}

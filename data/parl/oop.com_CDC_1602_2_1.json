@@ -1,1 +1,12 @@
-{"chamber":["c"],"primeMinisters":"King, William Lyon Mackenzie","pubmax":"1928-06-11","node":[["fra","c","committees","16-2",3]],"type":"committees","session":["16-2"],"language":["fra"],"callNumber":"1928 A5P A4","label":"Comités de la Chambre des communes, 16e Législature, 2e Session : Comité spécial des pensions et problèmes des anciens combattants, vol. 1","pubmin":"1928-01-26"}
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1928-06-11",
+  "node": [["fra", "c", "committees", "16-2", 3]],
+  "type": "committees",
+  "session": ["16-2"],
+  "language": ["fra"],
+  "callNumber": "1928 A5P A4",
+  "label": "Comités de la Chambre des communes, 16e Législature, 2e Session : Comité spécial des pensions et problèmes des anciens combattants, vol. 1",
+  "pubmin": "1928-01-26"
+}

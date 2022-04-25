@@ -1,1 +1,14 @@
-{"language":["eng","fra"],"session":["28-1"],"pubmin":"1968-09-12","callNumber":"JL158.3 1969 May","label":"Rules of the Senate of Canada, May 1969 = Règlement du Sénat du Canada, mai 1969","chamber":["s"],"type":"rules","pubmax":"1969-10-22","node":[["eng","s","rules",null,15],["fra","s","rules",null,15]]}
+{
+  "language": ["eng", "fra"],
+  "session": ["28-1"],
+  "pubmin": "1968-09-12",
+  "callNumber": "JL158.3 1969 May",
+  "label": "Rules of the Senate of Canada, May 1969 = Règlement du Sénat du Canada, mai 1969",
+  "chamber": ["s"],
+  "type": "rules",
+  "pubmax": "1969-10-22",
+  "node": [
+    ["eng", "s", "rules", null, 15],
+    ["fra", "s", "rules", null, 15]
+  ]
+}

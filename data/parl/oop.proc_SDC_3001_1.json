@@ -1,1 +1,11 @@
-{"type":"sproc","node":[["fra","s","sproc","30-1",1]],"pubmax":"1976-10-12","chamber":["s"],"pubmin":"1974-09-30","label":"Procès-verbaux du Sénat, 30e Législature, 1re Session : 1-117","callNumber":"J103 H43 1974/76 no 1-117","language":["fra"],"session":["30-1"]}
+{
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "30-1", 1]],
+  "pubmax": "1976-10-12",
+  "chamber": ["s"],
+  "pubmin": "1974-09-30",
+  "label": "Procès-verbaux du Sénat, 30e Législature, 1re Session : 1-117",
+  "callNumber": "J103 H43 1974/76 no 1-117",
+  "language": ["fra"],
+  "session": ["30-1"]
+}

@@ -1,1 +1,11 @@
-{"pubmax":"1868-05-22","node":[["fra","c","journals","01-1",1]],"type":"journals","chamber":["c"],"primeMinisters":"Macdonald, John Alexander","label":"Journaux de la Chambre des communes, 1e Législature, 1re Session : Vol. 1","pubmin":"1867-11-06","session":["01-1"],"language":["fra"]}
+{
+  "pubmax": "1868-05-22",
+  "node": [["fra", "c", "journals", "01-1", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "label": "Journaux de la Chambre des communes, 1e Législature, 1re Session : Vol. 1",
+  "pubmin": "1867-11-06",
+  "session": ["01-1"],
+  "language": ["fra"]
+}
