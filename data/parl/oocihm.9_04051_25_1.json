@@ -1,0 +1,11 @@
+{
+  "label": "Documents parlementaires, 7e Législature, 2e Session : vol. 1",
+  "pubmin": "1892-02-25",
+  "session": ["07-2"],
+  "language": ["fra"],
+  "node": [["fra", "c", "sessional", "07-2", 1]],
+  "pubmax": "1892-07-09",
+  "type": "sessional",
+  "primeMinisters": "Abbott, John Joseph Caldwell",
+  "chamber": ["c"]
+}

@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["21-4"],
+  "pubmin": "1951-01-30",
+  "callNumber": "1951 I55 A1",
+  "label": "Senate Committees, 21st Parliament, 4th Session : Standing Committee on Immigration and Labour, vol. 1",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1951-10-09",
+  "node": [["eng", "s", "committees", "21-4", 3]]
+}

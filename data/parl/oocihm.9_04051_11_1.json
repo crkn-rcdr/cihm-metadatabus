@@ -1,0 +1,11 @@
+{
+  "session": ["03-5"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 3e Législature, 5e Session : vol. 1",
+  "pubmin": "1878-02-07",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "pubmax": "1878-05-10",
+  "node": [["fra", "c", "sessional", "03-5", 1]],
+  "type": "sessional"
+}

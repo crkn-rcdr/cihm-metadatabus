@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "11-2", 1]],
+  "pubmax": "1910-05-04",
+  "language": ["fra"],
+  "session": ["11-2"],
+  "pubmin": "1909-11-11",
+  "label": "Débats du Sénat, 11e Législature, 2e Session : Vol. 1"
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["30-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 30th Parliament, 1st Session : Vol. 10",
+  "pubmin": "1974-09-30",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1976-10-12",
+  "node": [["eng", "c", "debates", "30-1", 10]],
+  "type": "debates"
+}

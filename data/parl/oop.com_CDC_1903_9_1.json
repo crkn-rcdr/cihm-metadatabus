@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "19-3", 9]],
+  "pubmax": "1943-01-27",
+  "type": "committees",
+  "session": ["19-3"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 19e Législature, 3e Session : Comité spécial de la restauration et du rétablissement, vol. 1",
+  "callNumber": "1942/43 R48 A4",
+  "pubmin": "1942-01-22"
+}

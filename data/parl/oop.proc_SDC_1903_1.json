@@ -1,0 +1,11 @@
+{
+  "session": ["19-3"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1942",
+  "label": "Procès-verbaux du Sénat, 19e Législature, 3e Session : 1-38",
+  "pubmin": "1942-01-22",
+  "chamber": ["s"],
+  "pubmax": "1943-01-27",
+  "node": [["fra", "s", "sproc", "19-3", 1]],
+  "type": "sproc"
+}

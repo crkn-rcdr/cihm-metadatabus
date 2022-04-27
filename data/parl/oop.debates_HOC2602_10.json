@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "26-2", 10]],
+  "pubmax": "1965-04-03",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "pubmin": "1964-02-18",
+  "label": "House of Commons Debates, 26th Parliament, 2nd Session : Vol. 10",
+  "language": ["eng"],
+  "session": ["26-2"]
+}

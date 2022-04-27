@@ -1,0 +1,14 @@
+{
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 S6 A1",
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on Social Affairs, Science and Technology, vol. 1 = Comités du Sénat, 33e Législature, 2e Session : Comité permanent des affaires sociales, des sciences et de la technologie, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "s", "committees", "33-2", 43],
+    ["fra", "s", "committees", "33-2", 9]
+  ],
+  "chamber": ["s"]
+}

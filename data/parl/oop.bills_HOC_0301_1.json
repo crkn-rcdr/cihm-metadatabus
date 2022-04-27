@@ -1,0 +1,12 @@
+{
+  "pubmax": "1874-05-26",
+  "node": [["eng", "c", "bills", "03-1", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "callNumber": "KE72 C36 3-1 no.2-162",
+  "label": "House of Commons Bills, 3rd Parliament, 1st Session : 2-162",
+  "pubmin": "1874-03-26",
+  "session": ["03-1"],
+  "language": ["eng"]
+}

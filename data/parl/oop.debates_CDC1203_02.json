@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1914-06-12",
+  "node": [["fra", "c", "debates", "12-3", 2]],
+  "type": "debates",
+  "session": ["12-3"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 12e Législature, 3e Session : Vol. 2",
+  "pubmin": "1914-01-15"
+}

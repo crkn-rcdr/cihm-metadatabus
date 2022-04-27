@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["fra", "c", "committees", "22-1", 9],
+    ["fra", "s", "committees", "22-1", 3]
+  ],
+  "pubmax": "1954-06-26",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c", "s"],
+  "pubmin": "1953-11-12",
+  "label": "Comités mixtes, 22e Législature, 1re Session : Comité mixte sur la peine capitale, les punitions corporelles et les loteries, vol. 1",
+  "callNumber": "1953/54 C31 A44",
+  "language": ["fra"],
+  "session": ["22-1"]
+}

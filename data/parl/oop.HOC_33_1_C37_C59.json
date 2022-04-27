@@ -1,0 +1,14 @@
+{
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Bills, 33rd Parliament, 1st Session : C37-C59 = Projets de loi de la Chambre des communes, 33e Législature, 1re Session : C37-C59",
+  "pubmin": "1984-11-05",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "bills", "33-1", 4],
+    ["fra", "c", "bills", "33-1", 4]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "bills"
+}

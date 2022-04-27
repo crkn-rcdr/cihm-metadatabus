@@ -1,0 +1,11 @@
+{
+  "pubmax": "1879-05-15",
+  "node": [["eng", "s", "bills", "04-1", 1]],
+  "type": "bills",
+  "chamber": ["s"],
+  "callNumber": "KE72 C38 4-1 Bill A-",
+  "label": "Senate Bills, 4th Parliament, 1st Session : A-O",
+  "pubmin": "1879-02-13",
+  "session": ["04-1"],
+  "language": ["eng"]
+}

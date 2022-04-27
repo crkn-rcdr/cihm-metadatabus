@@ -1,0 +1,14 @@
+{
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "s", "committees", "33-2", 40],
+    ["fra", "s", "committees", "33-2", 47]
+  ],
+  "chamber": ["s"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 P63 A1 no.1-2",
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Special Committee on Preventive Health Care, vol. 1 no. 1-2 = Comités du Sénat, 33e Législature, 2e Session : Comité spécial sur les soins de santé préventifs, vol. 1 no. 1-2",
+  "language": ["eng", "fra"],
+  "session": ["33-2"]
+}

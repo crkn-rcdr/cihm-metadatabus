@@ -1,0 +1,14 @@
+{
+  "node": [
+    ["eng", "s", "committees", "32-2", 6],
+    ["fra", "s", "committees", "32-2", 11]
+  ],
+  "pubmax": "1984-07-09",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Senate Committees, 32nd Parliament, 2nd Session : Standing Committee on Energy and Natural Resources, vol. 2 no. 10-16 = Comités du Sénat, 32e Législature, 2e Session : Comité permanent de l'énergie et des ressources naturelles, vol. 2 no. 10-16",
+  "callNumber": "1983/84 E56 A1 no.10-16",
+  "pubmin": "1983-12-07",
+  "session": ["32-2"],
+  "language": ["eng", "fra"]
+}

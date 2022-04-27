@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["22-1"],
+  "pubmin": "1953-11-12",
+  "label": "Comités du Sénat, 22e Législature, 1re Session : Comité permanent des banques et du commerce, vol. 2",
+  "callNumber": "1953/54 B3 A42 v.2",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "22-1", 2]],
+  "pubmax": "1954-06-26"
+}

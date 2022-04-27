@@ -1,0 +1,11 @@
+{
+  "callNumber": "1923 F8 A12",
+  "label": "Senate Committees, 14th Parliament, 2nd Session : Special Committee on Fuel Supply of Canada, Report",
+  "pubmin": "1923-01-31",
+  "session": ["14-2"],
+  "language": ["eng"],
+  "pubmax": "1923-06-30",
+  "node": [["eng", "s", "committees", "14-2", 1]],
+  "type": "committees",
+  "chamber": ["s"]
+}

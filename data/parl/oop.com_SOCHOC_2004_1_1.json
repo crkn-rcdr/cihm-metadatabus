@@ -1,0 +1,15 @@
+{
+  "label": "Joint Committees, 20th Parliament, 4th Session : Special Joint Committee on Human Rights and Fundamental Freedoms, vol. 1",
+  "callNumber": "1947/48 H83 A1",
+  "pubmin": "1947-12-05",
+  "session": ["20-4"],
+  "language": ["eng"],
+  "node": [
+    ["eng", "c", "committees", "20-4", 4],
+    ["eng", "s", "committees", "20-4", 1]
+  ],
+  "pubmax": "1948-06-30",
+  "type": "committees",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c", "s"]
+}

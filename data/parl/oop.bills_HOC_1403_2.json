@@ -1,0 +1,12 @@
+{
+  "pubmin": "1924-02-28",
+  "callNumber": "KE72 C36 14-3 50-266",
+  "label": "House of Commons Bills, 14th Parliament, 3rd Session : 50-266",
+  "language": ["eng"],
+  "session": ["14-3"],
+  "type": "bills",
+  "pubmax": "1924-07-19",
+  "node": [["eng", "c", "bills", "14-3", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

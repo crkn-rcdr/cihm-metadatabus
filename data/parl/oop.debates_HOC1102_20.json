@@ -1,0 +1,11 @@
+{
+  "pubmax": "1910-05-04",
+  "node": [["eng", "c", "debates", "11-2", 6]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "label": "House of Commons Debates, 11th Parliament, 2nd Session : Index",
+  "pubmin": "1909-11-11",
+  "session": ["11-2"],
+  "language": ["eng"]
+}

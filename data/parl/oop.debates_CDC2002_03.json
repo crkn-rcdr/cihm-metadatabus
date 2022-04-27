@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "20-2", 3]],
+  "pubmax": "1946-08-31",
+  "language": ["fra"],
+  "session": ["20-2"],
+  "pubmin": "1946-03-14",
+  "label": "Débats de la Chambre des communes, 20e Législature, 2e Session : Vol. 3"
+}

@@ -1,0 +1,14 @@
+{
+  "label": "Senate Committees, 30th Parliament, 3rd Session : Standing Committee on Transport and Communications, vol. 1 = Comités du Sénat, 30e Législature, 3e Session : Comité permanent des transports et des communications, vol. 1",
+  "callNumber": "1977/78 T73 A1",
+  "pubmin": "1977-10-18",
+  "session": ["30-3"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "s", "committees", "30-3", 17],
+    ["fra", "s", "committees", "30-3", 17]
+  ],
+  "pubmax": "1978-10-10",
+  "type": "committees",
+  "chamber": ["s"]
+}

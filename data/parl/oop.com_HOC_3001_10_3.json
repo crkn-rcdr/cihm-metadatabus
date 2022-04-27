@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1976-10-12",
+  "node": [
+    ["eng", "c", "committees", "30-1", 31],
+    ["fra", "c", "committees", "30-1", 29]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1974-09-30",
+  "callNumber": "1974/76 J8 A1 v.3",
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Justice and Legal Affairs, vol. 3 no. 49-56 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent de la justice et des questions juridiques, vol. 3 no. 49-56",
+  "language": ["eng", "fra"],
+  "session": ["30-1"]
+}

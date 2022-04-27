@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1969-10-22",
+  "node": [["eng", "c", "debates", "28-1", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1968-09-12",
+  "label": "House of Commons Debates, 28th Parliament, 1st Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["28-1"]
+}

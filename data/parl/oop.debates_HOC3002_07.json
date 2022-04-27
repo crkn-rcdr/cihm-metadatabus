@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "30-2", 7]],
+  "pubmax": "1977-10-17",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1976-10-12",
+  "label": "House of Commons Debates, 30th Parliament, 2nd Session : Vol. 7",
+  "language": ["eng"],
+  "session": ["30-2"]
+}

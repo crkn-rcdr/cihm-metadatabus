@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["19-1"],
+  "pubmin": "1940-05-16",
+  "callNumber": "1940 R3 A1",
+  "label": "House of Commons Committees, 19th Parliament, 1st Session : Standing Committee on Railways and Shipping Owned, Operated and Controlled by the Government, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "committees",
+  "pubmax": "1940-11-05",
+  "node": [["eng", "c", "committees", "19-1", 2]]
+}

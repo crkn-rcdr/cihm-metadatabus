@@ -1,0 +1,15 @@
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 223],
+    ["fra", "c", "committees", "34-3", 188]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 W38 A1 no.1-6",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee B on Bill C-51, an Act respecting water resources in the Northwest Territories and Bill C-52, an Act respecting water resources in the Yukon Territory, vol. 1 no. 1-6 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif B sur les projets de loi C-51, Loi concernant les ressources en eau des Territoires du Nord-Ouest et Projet de loi C-52, Loi concernant les ressources en eau du Yukon, vol. 1 no. 1-6",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

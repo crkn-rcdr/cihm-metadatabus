@@ -1,0 +1,11 @@
+{
+  "pubmin": "1888-02-23",
+  "label": "Débats de la Chambre des communes, 6e Législature, 2e Session : Vol. 2",
+  "language": ["fra"],
+  "session": ["06-2"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "06-2", 2]],
+  "pubmax": "1888-05-22",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

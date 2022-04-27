@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["30-4"],
+  "pubmin": "1978-10-11",
+  "callNumber": "1978/79 M55 A1",
+  "label": "House of Commons Committees, 30th Parliament, 4th Session : Standing Committee on Miscellaneous Private Bills and Standing Orders, vol. 1 = Comités de la Chambre des communes, 30e Législature, 4e Session : Comité permanent des bills privés en général et du Règlement, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "c", "committees", "30-4", 14],
+    ["fra", "c", "committees", "30-4", 5]
+  ]
+}

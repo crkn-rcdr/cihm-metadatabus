@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 C324 A1 no.1-7",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-79, an Act respecting the provision of compensation to depositors of Canadian Commercial Bank, CCB Mortgage Investment Corporation and Northland Bank in respect of uninsured deposits, vol. 1 no. 1-7 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-79, Loi prévoyant une indemnité aux déposants de la Banque commerciale du Canada, de la Compagnie de Placements Hypothécaires CCB et de Norbanque relativement aux dépôts non assurés, vol. 1 no. 1-7",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 31],
+    ["fra", "c", "committees", "33-1", 23]
+  ]
+}

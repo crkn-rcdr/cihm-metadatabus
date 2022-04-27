@@ -1,0 +1,12 @@
+{
+  "pubmin": "1936-02-06",
+  "callNumber": "1936 P7 A4",
+  "label": "Comités de la Chambre des communes, 18e Législature, 1re Session : Comité permanent des privilèges et élections, vol. 1",
+  "language": ["fra"],
+  "session": ["18-1"],
+  "type": "committees",
+  "pubmax": "1936-06-23",
+  "node": [["fra", "c", "committees", "18-1", 6]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

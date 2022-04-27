@@ -1,0 +1,11 @@
+{
+  "type": "committees",
+  "pubmax": "1888-05-22",
+  "node": [["fra", "s", "committees", "06-2", 1]],
+  "chamber": ["s"],
+  "pubmin": "1888-02-23",
+  "callNumber": "1888 M3 A42",
+  "label": "Comités du Sénat, 6e Législature, 2e Session : Comité spécial sur les ressources du grand bassin du Mackenzie, Rapport",
+  "language": ["fra"],
+  "session": ["06-2"]
+}

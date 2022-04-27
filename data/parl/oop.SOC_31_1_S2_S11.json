@@ -1,0 +1,13 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "s", "bills", "31-1", 1],
+    ["fra", "s", "bills", "31-1", 1]
+  ],
+  "type": "bills",
+  "session": ["31-1"],
+  "language": ["eng", "fra"],
+  "label": "Senate Bills, 31st Parliament, 1st Session : S2-S11 = Projets de loi du Sénat, 31e Législature, 1re Session : S2-S11",
+  "pubmin": "1979-10-09"
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["09-3"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 9e Législature, 3e Session : Vol. 1",
+  "pubmin": "1903-03-12",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "pubmax": "1903-10-24",
+  "node": [["fra", "c", "debates", "09-3", 1]],
+  "type": "debates"
+}

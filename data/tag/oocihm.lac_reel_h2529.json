@@ -1,0 +1,37 @@
+{
+  "227": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Caissie"],
+    "tagDescription": ["Caissie - Coindet"]
+  },
+  "1948": {
+    "tagName": ["Farel"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagDescription": ["Farel - Giraud"]
+  },
+  "7": {
+    "tagName": ["Bourgeois"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagDescription": ["Bourgeois - Cain"]
+  },
+  "1728": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Deveau"],
+    "tagDescription": ["Deveau - Farel"]
+  },
+  "1302": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["St. Français"],
+    "tagDescription": ["St-Français - De Tegare"]
+  },
+  "980": {
+    "tagName": ["Coupar"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagDescription": ["Coupar - St-Jacques"]
+  },
+  "643": {
+    "tagDescription": ["Coindo - Coum"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Coindo"]
+  }
+}

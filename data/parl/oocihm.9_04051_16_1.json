@@ -1,0 +1,11 @@
+{
+  "pubmin": "1883-02-08",
+  "label": "Documents parlementaires, 5e Législature, 1re Session : vol. 1",
+  "language": ["fra"],
+  "session": ["05-1"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "05-1", 1]],
+  "pubmax": "1883-05-27",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

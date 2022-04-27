@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1868-05-22",
+  "node": [["fra", "c", "cproc", "01-1", 1]],
+  "type": "cproc",
+  "session": ["01-1"],
+  "language": ["fra"],
+  "callNumber": "J103 H44 1867-68",
+  "label": "Procès-verbaux de la Chambre des communes, 1e Législature, 1re Session : 1-83",
+  "pubmin": "1867-11-06"
+}

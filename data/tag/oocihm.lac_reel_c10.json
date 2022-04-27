@@ -1,0 +1,96 @@
+{
+  "207": {
+    "tagDate": ["[1818-04-30T00:00:00.000Z TO 1818-04-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "William S.Simpson's shorthand account of the proceedings in connection with the trial of Arch.McLellan and Charles de Reinhart,for the murder of Owen Keveney. (Book A.)"
+    ],
+    "tagPlace": ["Quebec"],
+    "tagName": ["Simpson, William S."]
+  },
+  "503": {
+    "tagDate": ["1818-10-27T00:00:00.000Z"],
+    "tagDescription": [
+      "Trials continued.Question of delagation of authority from Power to Upper Canada,Under Great Seal instruments. Evidence of Nolin,Coltman and others."
+    ]
+  },
+  "421": {
+    "tagPlace": ["York, U.C."],
+    "tagDescription": [
+      "Continuation of evidence in the trials.Examination of various witnesses."
+    ],
+    "tagDate": ["1818-10-01T00:00:00.000Z"]
+  },
+  "543": {
+    "tagDate": ["1818-10-27T00:00:00.000Z"],
+    "tagDescription": [
+      "Chief Justice Powell's charge to the Jury.Nature of indictment.Jurisdiction of Court,etc. Verdict of \"Not Guilty\", in case of Paul,Brown and Francois Bouche.Other charges against them.Court adjourned until next day."
+    ]
+  },
+  "337": {
+    "tagDate": ["1818-10-26T00:00:00.000Z"],
+    "tagDescription": [
+      "Trial of George Campbell,et al for shooting at Miles McDonell."
+    ]
+  },
+  "109": {
+    "tagDate": ["1819-09-23T00:00:00.000Z"],
+    "tagDescription": ["Parisien's Narrative for the Sketch of the Fur Trade."],
+    "tagPlace": ["Paris"]
+  },
+  "34": {
+    "tagDescription": ["Notes on Lord Selkirk's manuscript on the fur trade."],
+    "tagDate": ["1820-01-01T00:00:00.000Z"],
+    "tagPlace": ["Pau, France"]
+  },
+  "55": {
+    "tagDescription": [
+      "Memoranda of sudry passages in the manuscript of Lord Selkirk's Sketch of the Fur Trade.Largely an account of the North West Company Disputes and aggressions;trading methods."
+    ],
+    "tagDate": ["1820-01-01T00:00:00.000Z"]
+  },
+  "627": {
+    "tagName": ["Simpson, W. S."],
+    "tagPlace": ["Quebec"],
+    "tagDescription": [
+      "W.S.Simpson's shorthand account of the trial of Charles de Reinhart and other for the murder of Owen Keveney,11 September 1816.Adresses of the Attorney-General,Solicitor-General. Remarks of Chief Justice.Evidence and examination of witnesses.(Book B.No.1.)"
+    ],
+    "tagDate": ["1818-01-01T00:00:00.000Z"]
+  },
+  "770": {
+    "tagName": ["Simpson, W. S."],
+    "tagDescription": [
+      "Continuation of trial. Examination of prisoner. Question of going into evidence of general state of country; of restraint of prisoner as affecting his confession.Examination of witnesses as to death of Keveney. Question as to conduct of Prosecutor's(Lord Selkirk) Agents. As to jurisdiction of Magistrate(Lord Selkirk)who received confession.As to surrender of Fort William. Two points of defense:(1) confession not voluntary; (2) Forcible seizure of Fort William. Charges against Captain d'Orsennens. Importance of length of time Fort William was in Lord Selkirk's possession.Effects of forcible seizure. Question as to nature and validity of prisoner's confession.As to voluntary or compulsary presence of witness to same (Mr.Dease). As to competence of Magistrate (Lord Selkirk), and illegal duress of prisoner.As to admissibility of Mr.McNab's letter to Captain Matthey. As to presence of Lord Selkirk as witness. Addresses of Council, judicial opinions,etc.:(Book B.No.3.)"
+    ]
+  },
+  "289": {
+    "tagPlace": ["Quebec"],
+    "tagDescription": [
+      "Trial of Cuthbert Grant and others for the murder of Governor R.Semple."
+    ],
+    "tagDate": ["[1818-04-30T00:00:00.000Z TO 1818-04-31T23:59:59.999Z]"]
+  },
+  "471": {
+    "tagDescription": [
+      "Transcript of narrative of the proceedings at York, U.C. on prosecution for crimes in Indian Territories, by W.G.Simpson.(Book B.)"
+    ],
+    "tagDate": ["1818-10-01T00:00:00.000Z"],
+    "tagPlace": ["York, U.C."]
+  },
+  "33": {
+    "tagName": ["Hardwick, Lord"],
+    "tagPlace": ["Tunbridge"],
+    "tagDescription": [
+      "Additional corrections to the Sketch of the Fur Trade.",
+      "to J.Halkett. Returning Lord Selkirk's papers."
+    ],
+    "tagDate": ["1819-10-06T00:00:00.000Z"]
+  },
+  "3": {
+    "tagDescription": [
+      "to J.Halkett.Forwards Parisien's narrative corrected from T.Campbell's translation respecting the fur trade. Enclosures:-"
+    ],
+    "tagDate": ["1819-09-23T00:00:00.000Z"],
+    "tagName": ["Selkirk"],
+    "tagPlace": ["Paris"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "08-4", 1]],
+  "pubmax": "1899-08-11",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "pubmin": "1899-03-16",
+  "label": "House of Commons Votes and Proceedings, 8th Parliament, 4th Session : 1-102",
+  "callNumber": "J103 H41 1899 c.2",
+  "language": ["eng"],
+  "session": ["08-4"]
+}

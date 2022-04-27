@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 40],
+    ["fra", "c", "committees", "34-3", 77]
+  ],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill S-17, an Act to amend the Copyright Act, the Industrial Design Act, the Integrated Circuit Topography Act, the Patent Act, the Trade-marks Act and other Acts in consequence thereof, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi S-17, Loi modifiant la Loi sur le droit d'auteur, la Loi sur les dessins industriels, la Loi sur les topographies de circuits intégrés, la Loi sur les brevets, la Loi sur les marques de commerce et d'autres lois en conséquence, vol. 1 no. 1",
+  "callNumber": "34-3 C673 A1 no.1",
+  "language": ["eng", "fra"],
+  "session": ["34-3"]
+}

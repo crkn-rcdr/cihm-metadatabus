@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "28-2", 15],
+    ["fra", "c", "committees", "28-2", 19]
+  ],
+  "pubmax": "1970-10-07",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1969-10-23",
+  "label": "House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 5 no. 51-57 = Comités de la Chambre des communes, 28e Législature, 2e Session : Comité permanent des finances, du commerce et des questions économiques, vol. 5 no. 51-57",
+  "callNumber": "1969/70 F55 A1 v.5",
+  "language": ["eng", "fra"],
+  "session": ["28-2"]
+}

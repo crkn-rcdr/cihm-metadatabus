@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Journals, 3rd Parliament, 5th Session : Vol. 12",
+  "pubmin": "1878-02-07",
+  "session": ["03-5"],
+  "language": ["eng"],
+  "pubmax": "1878-05-10",
+  "node": [["eng", "c", "journals", "03-5", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander"
+}

@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-2", 191],
+    ["fra", "c", "committees", "33-2", 191]
+  ],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-10, an Act to revive Yellowknife Electric Ltd. and to provide for its continuance under the Canada Business Corporations Act, vol. 1 no. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi S-10, Loi reconstituant la société Yellowknife Electric Ltm. et prévoyant sa prorogation sous le régime de la Loi sur les sociétés commerciales canadiennes, vol. 1 no. 1",
+  "callNumber": "33-2 Y45 A1 no.1",
+  "pubmin": "1986-09-30"
+}

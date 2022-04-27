@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "12-2", 1]],
+  "pubmax": "1913-06-06",
+  "type": "journals",
+  "session": ["12-2"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 12e Législature, 2e Session : Vol. 48",
+  "pubmin": "1912-11-21"
+}

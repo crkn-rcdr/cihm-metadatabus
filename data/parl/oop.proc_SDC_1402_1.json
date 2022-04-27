@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1923-06-30",
+  "node": [["fra", "s", "sproc", "14-2", 1]],
+  "type": "sproc",
+  "session": ["14-2"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1923",
+  "label": "Procès-verbaux du Sénat, 14e Législature, 2e Session : 1-63",
+  "pubmin": "1923-01-31"
+}

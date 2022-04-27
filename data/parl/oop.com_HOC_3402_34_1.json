@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 56],
+    ["fra", "c", "committees", "34-2", 86]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 E442 A1 no.1-22",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Elections, Privileges, Procedure and Private Members' Business, vol. 1 no. 1-22 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des élections, des privilères, de la procédure et des affaires émanant des députés, vol. 1 no. 1-22"
+}

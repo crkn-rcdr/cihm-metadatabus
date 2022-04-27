@@ -1,0 +1,15 @@
+{
+  "type": "orders",
+  "node": [
+    ["eng", "c", "orders", null, 11],
+    ["fra", "c", "orders", null, 11]
+  ],
+  "pubmax": "1969-10-22",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1968-09-12",
+  "label": "Standing Orders, January 1969 = Règlement, janvier 1969",
+  "callNumber": "JL164.4 1969 Jan.",
+  "language": ["eng", "fra"],
+  "session": ["28-1"]
+}

@@ -1,0 +1,14 @@
+{
+  "callNumber": "J103 H4 1980/83 no. 267-301 c.2",
+  "label": "Senate Minutes of Proceedings, 32nd Parliament, 1st Session : 267-301 = Procès-verbaux du Sénat, 32e Législature, 1re Session : 267-301",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "s", "sproc", "32-1", 9],
+    ["fra", "s", "sproc", "32-1", 9]
+  ],
+  "type": "sproc",
+  "chamber": ["s"]
+}

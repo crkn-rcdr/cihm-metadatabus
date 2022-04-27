@@ -1,0 +1,10 @@
+{
+  "node": [["eng", "s", "debates", "13-4", 1]],
+  "pubmax": "1920-07-01",
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Senate Debates, 13th Parliament, 4th Session : Vol. 1",
+  "pubmin": "1920-02-26",
+  "session": ["13-4"],
+  "language": ["eng"]
+}

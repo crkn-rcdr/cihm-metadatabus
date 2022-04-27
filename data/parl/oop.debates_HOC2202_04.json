@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "22-2", 4]],
+  "pubmax": "1955-07-28",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "pubmin": "1955-01-07",
+  "label": "House of Commons Debates, 22nd Parliament, 2nd Session : Vol. 4",
+  "language": ["eng"],
+  "session": ["22-2"]
+}

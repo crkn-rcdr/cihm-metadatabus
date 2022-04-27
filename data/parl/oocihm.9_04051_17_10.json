@@ -1,0 +1,11 @@
+{
+  "label": "Documents parlementaires, 5e Législature, 2e Session : vol. 9",
+  "pubmin": "1884-01-17",
+  "session": ["05-2"],
+  "language": ["fra"],
+  "pubmax": "1884-04-19",
+  "node": [["fra", "c", "sessional", "05-2", 9]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

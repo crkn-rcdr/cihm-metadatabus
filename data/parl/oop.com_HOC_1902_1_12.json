@@ -1,0 +1,15 @@
+{
+  "callNumber": "1941/42 D4 A1 No. 11",
+  "label": "House of Commons Committees, 19th Parliament, 2nd and 3rd Sessions : Special Committee on Defence of Canada Regulations, no.11",
+  "pubmin": "1940-11-07",
+  "session": ["19-2", "19-3"],
+  "language": ["eng"],
+  "pubmax": "1943-01-27",
+  "node": [
+    ["eng", "c", "committees", "19-3", 15],
+    ["eng", "c", "committees", "19-2", 12]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

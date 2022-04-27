@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["eng", "s", "debates", "24-4", 1]],
+  "pubmax": "1961-09-29",
+  "language": ["eng"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "label": "Senate Debates, 24th Parliament, 4th Session : Vol. 1"
+}

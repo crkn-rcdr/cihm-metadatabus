@@ -1,0 +1,29 @@
+{
+  "1352": {
+    "tagDescription": [
+      "Requests for photographs of King George VI and Queen Elizabeth"
+    ],
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1938-12-31T23:59:59.999Z]"]
+  },
+  "1650": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1940-12-31T23:59:59.999Z]"]
+  },
+  "951": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Photographs of King George V and Queen Mary -Photographs of King Edward VIII -Requests for"
+    ]
+  },
+  "713": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Printed material United States commercial relations"]
+  },
+  "57": {
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "United States  Canadian Trade regulation etc, Unite States Tariff Policy"
+    ]
+  },
+  "949": { "tagDescription": ["Missing / Manque"] }
+}

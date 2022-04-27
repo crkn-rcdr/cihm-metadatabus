@@ -1,0 +1,32 @@
+{
+  "13": {
+    "tagDescription": ["Farel - Giraud"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Farel"]
+  },
+  "895": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Hen"],
+    "tagDescription": ["Hen - Landry"]
+  },
+  "193": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Girouard"],
+    "tagDescription": ["Girouard - Grosvalet"]
+  },
+  "512": {
+    "tagName": ["Guary"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagDescription": ["Guary - Hen"]
+  },
+  "1721": {
+    "tagDescription": ["Lap - Martin"],
+    "tagName": ["Lap"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"]
+  },
+  "1654": {
+    "tagName": ["Lanory"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagDescription": ["Lanory - Lanoüe"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "13-5", 1]],
+  "pubmax": "1921-06-04",
+  "chamber": ["s"],
+  "pubmin": "1921-02-14",
+  "label": "Procès-verbaux du Sénat, 13e Législature, 5e Session : 1-55",
+  "callNumber": "J103 H43 1921",
+  "language": ["fra"],
+  "session": ["13-5"]
+}

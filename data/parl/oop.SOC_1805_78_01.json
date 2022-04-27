@@ -1,0 +1,10 @@
+{
+  "language": ["eng"],
+  "session": ["18-5"],
+  "pubmin": "1939-09-07",
+  "label": "Senate Journals, 18th Parliament, 5th Session : Vol. 78",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1939-09-13",
+  "node": [["eng", "s", "journals", "18-5", 1]]
+}

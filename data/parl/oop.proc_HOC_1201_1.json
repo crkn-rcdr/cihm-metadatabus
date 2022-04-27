@@ -1,0 +1,12 @@
+{
+  "label": "House of Commons Votes and Proceedings, 12th Parliament, 1st Session : 1-75",
+  "callNumber": "J103 H41 (no call)",
+  "pubmin": "1911-11-15",
+  "session": ["12-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "cproc", "12-1", 1]],
+  "pubmax": "1912-04-01",
+  "type": "cproc",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

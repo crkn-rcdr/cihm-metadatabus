@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["04-2"],
+  "pubmin": "1880-02-12",
+  "label": "Journaux de la Chambre des communes, 4e Législature, 2e Session : Vol. 14",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "journals",
+  "pubmax": "1880-05-07",
+  "node": [["fra", "c", "journals", "04-2", 1]]
+}

@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["30-2"],
+  "pubmin": "1976-10-12",
+  "callNumber": "1976/77 F55 A1 v.2",
+  "label": "House of Commons Committees, 30th Parliament, 2nd Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 2 no. 26-50 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité permanent des finances, du commerce et des questions économiques, vol. 2 no. 26-50",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "c", "committees", "30-2", 5],
+    ["fra", "c", "committees", "30-2", 14]
+  ]
+}

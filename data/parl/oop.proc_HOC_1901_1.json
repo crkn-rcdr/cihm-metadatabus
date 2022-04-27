@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "19-1", 1]],
+  "pubmax": "1940-11-05",
+  "language": ["eng"],
+  "session": ["19-1"],
+  "pubmin": "1940-05-16",
+  "label": "House of Commons Votes and Proceedings, 19th Parliament, 1st Session : 1-61",
+  "callNumber": "J103 H41 1940 (2d. Sess.) c.2"
+}

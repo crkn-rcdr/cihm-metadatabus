@@ -1,0 +1,12 @@
+{
+  "label": "House of Commons Votes and Proceedings, 4th Parliament, 3rd Session : 1-65",
+  "callNumber": "J103 H41 1880/81 c.2",
+  "pubmin": "1880-12-09",
+  "session": ["04-3"],
+  "language": ["eng"],
+  "node": [["eng", "c", "cproc", "04-3", 1]],
+  "pubmax": "1881-03-21",
+  "type": "cproc",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

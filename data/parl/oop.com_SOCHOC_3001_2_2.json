@@ -1,0 +1,17 @@
+{
+  "node": [
+    ["eng", "c", "committees", "30-1", 23],
+    ["fra", "c", "committees", "30-1", 24],
+    ["eng", "s", "committees", "30-1", 14],
+    ["fra", "s", "committees", "30-1", 13]
+  ],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c", "s"],
+  "label": "Joint Committees, 30th Parliament, 1st Session : Special Joint Committee on Immigration Policy, vol. 2 = Comités mixtes, 30e Législature, 1re Session : Comité spécial mixte sur la politique de l'immigration, vol. 2",
+  "callNumber": "1974/76 I4 A1 v.2",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng", "fra"]
+}

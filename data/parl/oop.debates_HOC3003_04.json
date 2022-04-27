@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1978-10-10",
+  "node": [["eng", "c", "debates", "30-3", 4]],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1977-10-18",
+  "label": "House of Commons Debates, 30th Parliament, 3rd Session : Vol. 4",
+  "language": ["eng"],
+  "session": ["30-3"]
+}

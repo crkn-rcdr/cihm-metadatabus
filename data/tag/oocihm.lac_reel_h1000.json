@@ -1,0 +1,493 @@
+{
+  "488": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": ["Correspondence Concerning a visit to the front."],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagPerson": ["Aitken, Maxwell"]
+  },
+  "863": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "Letter Concerning The British Empire Trust Company Limited."
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Davidson, J. "]
+  },
+  "1182": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagPerson": ["Phippen, F. H. ", "Philip, A. E. "],
+    "tagDescription": ["Telegrams", "General Correspondence."]
+  },
+  "911": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "Correspondence Concerning The Granville Mining Company."
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Orr, Ewing, H. "]
+  },
+  "670": {
+    "tagDescription": ["Correspondence Concerning Alberta coal lands."],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagPerson": ["Stirling, John"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagPlace": ["Alberta"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "1047": {
+    "tagPerson": ["Simpson, Louis"],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Correspondence Concerning the Commission of Conservation."
+    ],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "290": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "General Correspondence.",
+      "Correspondence Concerning affairs in Brandon.",
+      "Personal Letter."
+    ],
+    "tagPerson": ["Parrish, W. L. ", "Philp, A. E. ", "Phippen, F. H. "],
+    "tagDate": ["1915-01-01T00:00:00.000Z"]
+  },
+  "1007": {
+    "tagDescription": [
+      "Correspondence Concerning The Chehalis Lumber Company.",
+      "Copy of a Letter.",
+      "General Correspondence Concerning investments."
+    ],
+    "tagPerson": ["Sifton, Arthur", "Sifton, Victor", "Sifton, J. W. "],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "204": {
+    "tagDescription": ["Telegrams"],
+    "tagPerson": ["Gartshore, John"],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "884": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "Letter Concerning the Military Service Act.",
+      "General Letter."
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Innes", "Jarvis, Aemilius"]
+  },
+  "889": {
+    "tagDescription": [
+      "Correspondence Concerning the Canadian Patriotic Fund. Enclosed also are minutes and financial statements."
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Morris, Philip"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "786": {
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Coste, Eugene"],
+    "tagDescription": [
+      "Correspondence Concerning Western Gas Co., The British Empire Trust Company Limited and the Dominion Assets Company."
+    ],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "703": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagPlace": ["Russia", "United States", "France"],
+    "tagDescription": [
+      "Correspondence Concerning the sale of munitions by the United States to France and Russia."
+    ],
+    "tagPerson": ["White, Percival"],
+    "tagDate": ["1916-01-01T00:00:00.000Z"]
+  },
+  "470": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": ["Correspondence Concerning the Shell Committee."],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagPerson": ["Weller, H. L. M. "]
+  },
+  "328": {
+    "tagDescription": [
+      "Correspondence Concerning the leasing of Yukon lands by The Western Natural Gas Co.for exploratory drilling."
+    ],
+    "tagPerson": ["Rowatt, H. H. "],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "286": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": ["Copy of a Sifton Telegram.", "Telegram"],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagPerson": ["Nesbitt, Wallace", "Orr, Ewing, H. "]
+  },
+  "557": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "Correspondence Concerning The British Empire Trust Company Limited's interest in Canadian utilities."
+    ],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagPerson": ["Davidson, J. "]
+  },
+  "321": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagPerson": ["Reid, J. B. "],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagDescription": ["Correspondence Concerning the export of horses."]
+  },
+  "866": {
+    "tagDescription": [
+      "General Correspondence.",
+      "Correspondence Concerning investments."
+    ],
+    "tagPerson": ["Fraser, W. P. ", "Housser, Harold"],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "107": {
+    "tagDescription": [
+      "General Correspondence.",
+      "Correspondence Concerning with Sifton Concerning The Western natural Gas Co.",
+      "Correspondence Concerning The Western natural Gas Co.",
+      "Correspondence with Clifford and J.W.Sifton Concerning The Western Natural Gas Co.and its investments and franchises."
+    ],
+    "tagDate": ["1920-01-01T00:00:00.000Z"],
+    "tagPerson": ["Coste, Eugene", "Chambers, Ernest"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "334": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "Correspondence Concerning Alberta municipal gas franchises and other investments."
+    ],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagPerson": ["Sifton, Albert"]
+  },
+  "981": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "General Correspondence.",
+      "Letters Concerning the war.",
+      "Correspondence Concerning The Chehalis Lumber Company."
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Phippin, J. H. ", "Preston, W. T. R. ", "Piper, C. B. "]
+  },
+  "1053": {
+    "tagDescription": [
+      "General Letters.",
+      "Copy of a Letter.",
+      "Correspondence Concerning a Vancouver property.",
+      "Correspondence Concerning the Union Government"
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Vincent, J. U. ",
+      "Wade, F. C. ",
+      "Weller, H. L. M. ",
+      "Walsh, John"
+    ],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "1003": {
+    "tagDescription": [
+      "Copy of a Letter Concerning British Columbia gas wells."
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Rutherford, J. G. "],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "505": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagPerson": ["Borden, Robert, Sir"],
+    "tagDescription": [
+      "Correspondence Concerning various wartime issues, notably Samuel Hughe's behaviour at the front."
+    ]
+  },
+  "261": {
+    "tagDescription": ["Personal Correspondence."],
+    "tagPerson": ["Jarvis, Aemilius"],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "208": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "Correspondence with Sifton Concerning franchise difficulties of the Western Natural Gas Company.",
+      "Copy of a General Letter.",
+      "General Correspondence."
+    ],
+    "tagPerson": [
+      "Harnett, S. A. ",
+      "Horne - Payne, R. M. ",
+      "Hicks, DeForest",
+      "Harris, Lloyd",
+      "Hampson, Harold"
+    ],
+    "tagDate": ["1915-01-01T00:00:00.000Z"]
+  },
+  "960": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Philp, A. E. ", "Parker, W. R. "],
+    "tagDescription": [
+      "General Letter",
+      "Correspondence Concerning Liberal politics."
+    ]
+  },
+  "655": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagPerson": ["Sifton, Arthur", "Sifton, Victor"],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagDescription": ["General Correspondence.", "General Letter."]
+  },
+  "459": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagPerson": ["Skead, E. S. "],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagDescription": ["Correspondence Concerning the export of horses"]
+  },
+  "768": {
+    "tagPerson": ["Burrows, T. A. ", "Boyle, James", "Buell, W. S. "],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Correspondence Concerning The Chehalis Lumber Company.",
+      "Correspondence Concerning The Union Government.",
+      "Letters Concerning an Alberta investment."
+    ],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "246": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagPerson": ["Housser, H. B. "],
+    "tagDescription": ["Correspondence Concerning The Western Natural Gas Co."]
+  },
+  "306": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "Correspondence Concerning The Chehalis Lumber Company."
+    ],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagPerson": ["Piper, C. B. "]
+  },
+  "590": {
+    "tagPerson": ["Piper, C. B. ", "Philp, A. E. "],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Correspondence Concerning homesteaders in Manitoba.",
+      "Correspondence Concerning The Chehalis Lumber Company."
+    ],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagPlace": ["Manitoba"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "201": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagPerson": ["Foster, George"],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Correspondence with Foster, Minister of Trade and Commerce, Concerning a conference on city planning."
+    ]
+  },
+  "268": {
+    "tagPerson": ["Kilt, J. G. "],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Correspondence Concerning the export of horses to the United States."
+    ],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagPlace": ["United States"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "578": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagPerson": ["Horne - Payne, R. M. ", "Housser, Harold"],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Correspondence Concerning hydro - power development in Edmonton.",
+      "Letters to Sifton suggesting that The Western Natural Gas Co. make its shares available to consumers."
+    ]
+  },
+  "98": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "General Letter.",
+      "Correspondence Concerning wheat transportation.",
+      "Correspondence Concerning the Commission of Conversation"
+    ],
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagPerson": ["Boudreau, J. ", "Borden, Robert, Sir"]
+  },
+  "1142": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagPerson": ["Edwards, W. C. ", "Denison, Henry"],
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Copy of a Letter.",
+      "Correspondence Concerning British Columbia hydraulic power"
+    ]
+  },
+  "1160": {
+    "tagPerson": ["Hurdman, R. A", "Jarvis, Aemilius", "Morris, Philip"],
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Letter Concerning the Victory Bonds.",
+      "Letters Concerning the Canadian Patriotic Fund.",
+      "Letters Concerning the Canadian Patriotic Fund. Includes minutes and financial statements."
+    ],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "516": {
+    "tagDescription": [
+      "General Letter.",
+      "Correspondence Concerning Quebec railways."
+    ],
+    "tagPerson": ["Chambers, Ernest", "Chandler, P. M. ", "Coleman, J. G. "],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagPlace": ["Quebec"]
+  },
+  "1141": {
+    "tagPerson": ["Galloway, S. D. "],
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": ["General Letter."],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "1190": {
+    "tagDescription": [
+      "Correspondence Concerning Peace River oil.",
+      "Correspondence Concerning horse breeding."
+    ],
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagPerson": ["Rutledge, J. J. ", "Ryan, J. F. "],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "717": {
+    "tagDescription": [
+      "Correspondence Concerning both The Chehalis Lumber Company and the Military Service Act.",
+      "Correspondence Concerning The Chehalis Lumber Company.",
+      "Correspondence Concerning the Commission of Conservation and various political matters."
+    ],
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagPerson": ["Borden, Robert, Sir", "Bell, Wilson", "Bain, John"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "465": {
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagDescription": [
+      "General Correspondence.",
+      "Personal Correspondence with J. W. Sifton."
+    ],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagPerson": ["Wey, H. F. G. ", "Vincent, J. G. "]
+  },
+  "90": {
+    "tagDate": ["1914-01-01T00:00:00.000Z"],
+    "tagPerson": ["Wiley, L. F. "],
+    "tagDescription": ["General Correspondence."],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "42": {
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagPerson": ["Sifton, J. W. "],
+    "tagDate": ["1914-01-01T00:00:00.000Z"],
+    "tagDescription": ["Correspondence Concerning The Bell Filtration Company."]
+  },
+  "347": {
+    "tagDescription": ["Correspondence Concerning General investments."],
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagPerson": ["Sifton, J. W. "],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "273": {
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagPerson": ["MacInnes, M. V. "],
+    "tagDescription": ["Correspondence Concerning munitions plants."],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "620": {
+    "tagDescription": [
+      "Correspondence with Ribot, French Minister of Finances, Concerning both American public opinion on the war and the best financial arrangements by which to purchase further American munitions."
+    ],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagPerson": ["Ribot"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "609": {
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagPerson": ["Preston, W. T. R. "],
+    "tagDescription": [
+      "Correspondence with Clifford and Winfield Sifton Concerning investments in pulp and paper companies."
+    ],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"],
+    "tagName": ["Correspondence, 1900 - 1929"]
+  },
+  "1076": {
+    "tagDescription": [
+      "Letter from Ames, M. P. for Montreal - St. Antoine, Concerning The Canadian Patriotic Fund.",
+      "Correspondence with Ballantyne, Minister of Marine and Fisheries Concerning was risk insurance"
+    ],
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagPerson": ["Ballantyne, Charles", "Ames, Herbert"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  },
+  "526": {
+    "tagDescription": ["Correspondence Concerning The Edmonton Gas Company."],
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagPerson": ["Coste, Eugene"],
+    "tagName": ["Correspondence, 1900 - 1929"],
+    "tagNotebook": ["INVESTMENT PAPERS, 1891 - 1932"]
+  }
+}

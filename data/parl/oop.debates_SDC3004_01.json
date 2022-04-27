@@ -1,0 +1,10 @@
+{
+  "pubmax": "1979-03-26",
+  "node": [["fra", "s", "debates", "30-4", 1]],
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Débats du Sénat, 30e Législature, 4e Session : Vol. 1",
+  "pubmin": "1978-10-11",
+  "session": ["30-4"],
+  "language": ["fra"]
+}

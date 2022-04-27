@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["13-1"],
+  "pubmin": "1918-03-18",
+  "label": "House of Commons Committees, 13th Parliament, 1st Session : Special Committee on Soldiers' Pension Regulations, vol. 1",
+  "callNumber": "1918 S6 A1",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "13-1", 2]],
+  "pubmax": "1918-05-24"
+}

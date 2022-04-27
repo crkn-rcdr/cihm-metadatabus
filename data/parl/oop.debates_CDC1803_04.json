@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "debates",
+  "pubmax": "1938-07-01",
+  "node": [["fra", "c", "debates", "18-3", 4]],
+  "language": ["fra"],
+  "session": ["18-3"],
+  "pubmin": "1938-01-27",
+  "label": "Débats de la Chambre des communes, 18e Législature, 3e Session : Vol. 4"
+}

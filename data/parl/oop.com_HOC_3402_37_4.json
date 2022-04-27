@@ -1,0 +1,15 @@
+{
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-2 E582 A1 no.40-53",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Environment, vol. 4 no. 40-53 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de l'environnement, vol. 4 no. 40-53",
+  "pubmin": "1989-04-03",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 63],
+    ["fra", "c", "committees", "34-2", 93]
+  ],
+  "type": "committees"
+}

@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "16-4", 3]],
+  "pubmax": "1930-05-30",
+  "language": ["eng"],
+  "session": ["16-4"],
+  "pubmin": "1930-02-20",
+  "label": "House of Commons Debates, 16th Parliament, 4th Session : Vol. 3"
+}

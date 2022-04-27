@@ -1,0 +1,11 @@
+{
+  "node": [["eng", "s", "bills", "12-5", 1]],
+  "pubmax": "1915-04-15",
+  "type": "bills",
+  "chamber": ["s"],
+  "label": "Senate Bills, 12th Parliament, 5th Session : A-F1",
+  "callNumber": "KE72 C38 12-5 Bill A-",
+  "pubmin": "1915-02-04",
+  "session": ["12-5"],
+  "language": ["eng"]
+}

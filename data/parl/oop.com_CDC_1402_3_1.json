@@ -1,0 +1,12 @@
+{
+  "session": ["14-2"],
+  "language": ["fra"],
+  "callNumber": "1923 M5 A4",
+  "label": "Comités de la Chambre des communes, 14e Législature, 2e Session : Comité permanent des mines et minéraux, vol. 1",
+  "pubmin": "1923-01-31",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1923-06-30",
+  "node": [["fra", "c", "committees", "14-2", 4]],
+  "type": "committees"
+}

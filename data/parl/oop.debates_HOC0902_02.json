@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "09-2", 2]],
+  "pubmax": "1902-05-15",
+  "type": "debates",
+  "session": ["09-2"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 9th Parliament, 2nd Session : Vol. 2",
+  "pubmin": "1902-02-13"
+}

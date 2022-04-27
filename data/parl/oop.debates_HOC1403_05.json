@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1924-07-19",
+  "node": [["eng", "c", "debates", "14-3", 5]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmin": "1924-02-28",
+  "label": "House of Commons Debates, 14th Parliament, 3rd Session : Vol. 5",
+  "language": ["eng"],
+  "session": ["14-3"]
+}

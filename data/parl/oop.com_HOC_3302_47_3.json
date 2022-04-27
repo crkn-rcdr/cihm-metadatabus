@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 94],
+    ["fra", "c", "committees", "33-2", 3]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-130, an Act to implement the Free Trade Agreement between Canada and the United States of America, vol. 3 no. 17-23 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-130, Loi de mise en oeuvre de l'Accord de libre-échange entre le Canada et les États-Unis d'Amérique, vol. 3 no. 17-23",
+  "callNumber": "33-2 F74 A1 no.17-23",
+  "language": ["eng", "fra"],
+  "session": ["33-2"]
+}

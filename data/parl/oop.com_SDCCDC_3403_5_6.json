@@ -1,0 +1,15 @@
+{
+  "language": ["fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial sur le renouvellement du Canada, Rapport",
+  "callNumber": "34-3 R485 A12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["fra", "c", "committees", "34-3", 186],
+    ["fra", "s", "committees", "34-3", 48]
+  ],
+  "pubmax": "1993-09-08"
+}

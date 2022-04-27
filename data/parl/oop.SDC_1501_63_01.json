@@ -1,0 +1,10 @@
+{
+  "language": ["fra"],
+  "session": ["15-1"],
+  "pubmin": "1926-01-07",
+  "label": "Journaux du Sénat, 15e Législature, 1re Session : Vol. 63",
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["fra", "s", "journals", "15-1", 1]],
+  "pubmax": "1926-07-02"
+}

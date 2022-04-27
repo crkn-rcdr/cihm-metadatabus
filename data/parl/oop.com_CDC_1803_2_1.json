@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["18-3"],
+  "pubmin": "1938-01-27",
+  "label": "Comités de la Chambre des communes, 18e Législature, 3e Session : Comité permanent des chemins de fer, canaux et télégraphes, vol. 1",
+  "callNumber": "1938 C43 A4",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "18-3", 2]],
+  "pubmax": "1938-07-01"
+}

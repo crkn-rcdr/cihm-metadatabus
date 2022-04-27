@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["22-3"],
+  "pubmin": "1956-01-10",
+  "label": "House of Commons Debates, 22nd Parliament, 3rd Session : Vol. 5",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "22-3", 5]],
+  "pubmax": "1956-08-14"
+}

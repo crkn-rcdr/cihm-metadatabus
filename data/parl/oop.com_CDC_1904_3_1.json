@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "19-4", 3]],
+  "pubmax": "1944-01-26",
+  "type": "committees",
+  "session": ["19-4"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 19e Législature, 4e Session : Comité permanent des comptes publics, vol. 1",
+  "callNumber": "1943/44 C6 A4",
+  "pubmin": "1943-01-28"
+}

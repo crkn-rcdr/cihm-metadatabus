@@ -1,0 +1,15 @@
+{
+  "pubmin": "1970-10-08",
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Indian Affairs and Northern Development, vol. 2 no. 27-37 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent des affaires indiennes et du développement du Nord canadien, vol. 2 no. 27-37",
+  "callNumber": "1970/72 I5 A1 v.2",
+  "language": ["eng", "fra"],
+  "session": ["28-3"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "28-3", 25],
+    ["fra", "c", "committees", "28-3", 5]
+  ],
+  "pubmax": "1972-02-16",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

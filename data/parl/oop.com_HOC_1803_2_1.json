@@ -1,0 +1,12 @@
+{
+  "session": ["18-3"],
+  "language": ["eng"],
+  "callNumber": "JL105 A3 1938 pt.1",
+  "label": "House of Commons Committees, 18th Parliament, 3rd Session : Special Committee on the Operation of the Civil Service Act, vol. 1",
+  "pubmin": "1938-01-27",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1938-07-01",
+  "node": [["eng", "c", "committees", "18-3", 4]],
+  "type": "committees"
+}

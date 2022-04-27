@@ -1,0 +1,11 @@
+{
+  "pubmin": "1957-10-14",
+  "label": "House of Commons Debates, 23rd Parliament, 1st Session : Index",
+  "language": ["eng"],
+  "session": ["23-1"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "23-1", 5]],
+  "pubmax": "1958-02-01",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"]
+}

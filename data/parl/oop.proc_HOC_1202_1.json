@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "cproc",
+  "pubmax": "1913-06-06",
+  "node": [["eng", "c", "cproc", "12-2", 1]],
+  "language": ["eng"],
+  "session": ["12-2"],
+  "pubmin": "1912-11-21",
+  "callNumber": "J103 H41 1912/13",
+  "label": "House of Commons Votes and Proceedings, 12th Parliament, 2nd Session : 1-111"
+}

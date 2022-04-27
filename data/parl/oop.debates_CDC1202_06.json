@@ -1,0 +1,11 @@
+{
+  "session": ["12-2"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 12e Législature, 2e Session : Vol. 6",
+  "pubmin": "1912-11-21",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "12-2", 6]],
+  "pubmax": "1913-06-06",
+  "type": "debates"
+}

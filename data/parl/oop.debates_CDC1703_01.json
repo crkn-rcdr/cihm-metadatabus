@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 17e Législature, 3e Session : Vol. 1",
+  "pubmin": "1932-02-04",
+  "session": ["17-3"],
+  "language": ["fra"],
+  "node": [["fra", "c", "debates", "17-3", 1]],
+  "pubmax": "1932-05-26",
+  "type": "debates",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"]
+}

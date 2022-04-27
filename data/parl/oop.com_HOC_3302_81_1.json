@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-3 S42 A1 no.1-16",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Secretary of State, vol. 1 no. 1-16 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent du Secrétariat d'État, vol. 1 no. 1-16",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 165],
+    ["fra", "c", "committees", "33-2", 164]
+  ]
+}

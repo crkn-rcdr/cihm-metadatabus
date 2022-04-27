@@ -1,0 +1,26 @@
+{
+  "446": {
+    "tagDate": ["1897-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing"]
+  },
+  "1720": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["[1903-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"]
+  },
+  "198": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["1897-01-01T00:00:00.000Z"]
+  },
+  "607": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["[1898-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]
+  },
+  "1017": {
+    "tagDate": ["[1900-01-01T00:00:00.000Z TO 1902-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Pelagic sealing"]
+  },
+  "1327": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["[1903-01-01T00:00:00.000Z TO 1904-12-31T23:59:59.999Z]"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 139],
+    ["fra", "c", "committees", "33-2", 89],
+    ["eng", "s", "committees", "33-2", 38],
+    ["fra", "s", "committees", "33-2", 24]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 C653 A1 no.9-17",
+  "label": "Joint Committees, 33rd Parliament, 2nd Session : Special Joint Committee on the 1987 Constitutional Accord, vol. 2 = Comités mixtes, 33e Législature, 2e Session : Comité mixte spécial sur l'entente constitutionnelle de 1987, vol. 2"
+}

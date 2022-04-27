@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1958-09-06",
+  "node": [["fra", "s", "bills", "24-1", 3]],
+  "language": ["fra"],
+  "session": ["24-1"],
+  "pubmin": "1958-05-12",
+  "callNumber": "KE72 C381 24-1 SD151-SD319",
+  "label": "Projets de loi du Sénat, 24e Législature, 1re Session : SD151-SD319"
+}

@@ -1,0 +1,12 @@
+{
+  "pubmin": "1925-02-05",
+  "callNumber": "KE72 C36 14-4 2-113",
+  "label": "House of Commons Bills, 14th Parliament, 4th Session : 2-113",
+  "language": ["eng"],
+  "session": ["14-4"],
+  "type": "bills",
+  "pubmax": "1925-06-27",
+  "node": [["eng", "c", "bills", "14-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

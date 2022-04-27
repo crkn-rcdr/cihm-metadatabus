@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1954-06-26",
+  "node": [["fra", "c", "debates", "22-1", 5]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmin": "1953-11-12",
+  "label": "Débats de la Chambre des communes, 22e Législature, 1re Session : Vol. 5",
+  "language": ["fra"],
+  "session": ["22-1"]
+}

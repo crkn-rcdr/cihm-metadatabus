@@ -1,0 +1,11 @@
+{
+  "callNumber": "KE72 C381 15-1 Bill A-",
+  "label": "Projets de loi du Sénat, 15e Législature, 1re Session : A-Y7",
+  "pubmin": "1926-01-07",
+  "session": ["15-1"],
+  "language": ["fra"],
+  "pubmax": "1926-07-02",
+  "node": [["fra", "s", "bills", "15-1", 1]],
+  "type": "bills",
+  "chamber": ["s"]
+}

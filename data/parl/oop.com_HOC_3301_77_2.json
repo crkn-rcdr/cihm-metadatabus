@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 142],
+    ["fra", "c", "committees", "33-1", 139]
+  ],
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-1 T7 A1 no.23-39",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Transport, vol. 2 no. 23-39 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des transports, vol. 2 no. 23-39",
+  "pubmin": "1984-11-05"
+}

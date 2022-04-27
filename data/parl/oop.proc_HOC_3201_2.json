@@ -1,0 +1,15 @@
+{
+  "callNumber": "J103 H41 1980/83 no. 40-103 c.2",
+  "label": "House of Commons Votes and Proceedings, 32nd Parliament, 1st Session : 40-103 = Procès-verbaux de la Chambre des communes, 32e Législature, 1re Session : 40-103",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "cproc", "32-1", 2],
+    ["fra", "c", "cproc", "32-1", 2]
+  ],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

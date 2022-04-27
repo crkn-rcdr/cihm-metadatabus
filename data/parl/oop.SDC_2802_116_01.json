@@ -1,0 +1,10 @@
+{
+  "pubmin": "1969-10-23",
+  "label": "Journaux du Sénat, 28e Législature, 2e Session : Vol. 116",
+  "language": ["fra"],
+  "session": ["28-2"],
+  "type": "journals",
+  "pubmax": "1970-10-07",
+  "node": [["fra", "s", "journals", "28-2", 1]],
+  "chamber": ["s"]
+}

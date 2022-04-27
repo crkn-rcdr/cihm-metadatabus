@@ -1,0 +1,11 @@
+{
+  "type": "bills",
+  "pubmax": "1929-06-14",
+  "node": [["fra", "s", "bills", "16-3", 1]],
+  "chamber": ["s"],
+  "pubmin": "1929-02-07",
+  "callNumber": "KE72 C381 16-3 v.1",
+  "label": "Projets de loi du Sénat, 16e Législature, 3e Session : A-V3",
+  "language": ["fra"],
+  "session": ["16-3"]
+}

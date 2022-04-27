@@ -1,0 +1,12 @@
+{
+  "type": "cproc",
+  "pubmax": "1870-05-12",
+  "node": [["eng", "c", "cproc", "01-3", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmin": "1870-02-15",
+  "callNumber": "J103 H41 1870 c.2",
+  "label": "House of Commons Votes and Proceedings, 1st Parliament, 3rd Session : 1-62",
+  "language": ["eng"],
+  "session": ["01-3"]
+}

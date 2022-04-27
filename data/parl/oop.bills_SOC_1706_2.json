@@ -1,0 +1,11 @@
+{
+  "callNumber": "KE72 C38 17-6 Bill A- (small bk)",
+  "label": "Senate Bills, 17th Parliament, 6th Session : A-U2, Index",
+  "pubmin": "1935-01-17",
+  "session": ["17-6"],
+  "language": ["eng"],
+  "pubmax": "1935-07-05",
+  "node": [["eng", "s", "bills", "17-6", 1]],
+  "type": "bills",
+  "chamber": ["s"]
+}

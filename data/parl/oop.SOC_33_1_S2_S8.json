@@ -1,0 +1,13 @@
+{
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "Senate Bills, 33rd Parliament, 1st Session : S2-S8 = Projets de loi du Sénat, 33e Législature, 1re Session : S2-S8",
+  "pubmin": "1984-11-05",
+  "chamber": ["s"],
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "s", "bills", "33-1", 1],
+    ["fra", "s", "bills", "33-1", 1]
+  ],
+  "type": "bills"
+}

@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-28, an Act to amend the Income Tax Act, the Federal-Provincial Fiscal Arrangements and Federal Post-Secondary Education and Health Contributions Act, the Old Age Security Act, the Public Unities Income Tax Transfer Act, the War Veterans Allowance Act and a related Act, vol. 1 no. 1-4 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-28, Loi modifiant la Loi de l'impôt sur le revenu, la Loi sur les arrangements fiscaux entre le gouvernement fédéral et les provinces et sur les contributions fédérales en matière d'enseignement postsecondaire et de santé, la Loi sur la sécurité de la vieillesse, la Loi sur le transfert de l'impôt sur le revenu des entreprises d'utilité publique, la Loi sur les allocations aux anciens combattants et une loi connexe, vol. 1 no. 1-4",
+  "callNumber": "34-2 I487 A1 no.1-4",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 111],
+    ["fra", "c", "committees", "34-2", 122]
+  ],
+  "pubmax": "1991-05-12"
+}

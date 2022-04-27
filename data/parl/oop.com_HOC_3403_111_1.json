@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 222],
+    ["fra", "c", "committees", "34-3", 224]
+  ],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on Violence on Television, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité sur la violence à la télévision, vol. 1 no. 1",
+  "callNumber": "34-3 V56 A1 no.1",
+  "language": ["eng", "fra"],
+  "session": ["34-3"]
+}

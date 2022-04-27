@@ -1,0 +1,10 @@
+{
+  "node": [["eng", "s", "debates", "11-1", 1]],
+  "pubmax": "1909-05-19",
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Senate Debates, 11th Parliament, 1st Session : Vol. 1",
+  "pubmin": "1909-01-20",
+  "session": ["11-1"],
+  "language": ["eng"]
+}

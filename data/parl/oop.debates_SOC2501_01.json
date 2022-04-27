@@ -1,0 +1,10 @@
+{
+  "label": "Senate Debates, 25th Parliament, 1st Session : Vol. 1",
+  "pubmin": "1962-09-27",
+  "session": ["25-1"],
+  "language": ["eng"],
+  "node": [["eng", "s", "debates", "25-1", 1]],
+  "pubmax": "1963-02-06",
+  "type": "debates",
+  "chamber": ["s"]
+}

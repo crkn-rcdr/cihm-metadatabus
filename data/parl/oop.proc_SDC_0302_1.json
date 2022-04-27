@@ -1,0 +1,11 @@
+{
+  "session": ["03-2"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1875",
+  "label": "Procès-verbaux du Sénat, 3e Législature, 2e Session : 1-47",
+  "pubmin": "1875-02-04",
+  "chamber": ["s"],
+  "pubmax": "1875-04-08",
+  "node": [["fra", "s", "sproc", "03-2", 1]],
+  "type": "sproc"
+}

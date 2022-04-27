@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["22-5"],
+  "pubmin": "1957-01-08",
+  "label": "Débats de la Chambre des communes, 22e Législature, 5e Session : Index",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "22-5", 4]],
+  "pubmax": "1957-04-12"
+}

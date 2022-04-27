@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "25-1", 1]],
+  "pubmax": "1963-02-06",
+  "type": "debates",
+  "session": ["25-1"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 25e Législature, 1re Session : Vol. 1",
+  "pubmin": "1962-09-27"
+}

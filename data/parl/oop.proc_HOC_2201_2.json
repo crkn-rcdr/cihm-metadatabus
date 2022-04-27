@@ -1,0 +1,12 @@
+{
+  "session": ["22-1"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 1953/54 v.2 c.2",
+  "label": "House of Commons Votes and Proceedings, 22nd Parliament, 1st Session : 70-139",
+  "pubmin": "1953-11-12",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1954-06-26",
+  "node": [["eng", "c", "cproc", "22-1", 2]],
+  "type": "cproc"
+}

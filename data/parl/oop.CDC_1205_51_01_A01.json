@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1915-04-15",
+  "node": [["fra", "c", "journals", "12-5", 2]],
+  "type": "journals",
+  "session": ["12-5"],
+  "language": ["fra"],
+  "label": "Journaux de la Chambre des communes, 12e Législature, 5e Session : Vol. 51 App. 2",
+  "pubmin": "1915-02-04"
+}

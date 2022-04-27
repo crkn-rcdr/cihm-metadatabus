@@ -1,0 +1,11 @@
+{
+  "pubmin": "1920-02-26",
+  "callNumber": "1920 H8 A12",
+  "label": "Senate Committees, 13th Parliament, 4th Session : Special Committee on the Navigability and Fishery Resources of Hudson Bay and Strait, Report",
+  "language": ["eng"],
+  "session": ["13-4"],
+  "type": "committees",
+  "pubmax": "1920-07-01",
+  "node": [["eng", "s", "committees", "13-4", 1]],
+  "chamber": ["s"]
+}

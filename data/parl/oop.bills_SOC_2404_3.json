@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "bills", "24-4", 3]],
+  "pubmax": "1961-09-29",
+  "type": "bills",
+  "session": ["24-4"],
+  "language": ["eng"],
+  "label": "Senate Bills, 24th Parliament, 4th Session : SD171-SD356",
+  "callNumber": "KE72 C38 24-4 SD171-SD356",
+  "pubmin": "1960-11-17"
+}

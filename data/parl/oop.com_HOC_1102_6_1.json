@@ -1,0 +1,12 @@
+{
+  "callNumber": "1909-10 R3 A1",
+  "label": "House of Commons Committees, 11th Parliament, 2nd Session : Special Committee on Race Track Gambling, vol. 1",
+  "pubmin": "1909-11-11",
+  "session": ["11-2"],
+  "language": ["eng"],
+  "pubmax": "1910-05-04",
+  "node": [["eng", "c", "committees", "11-2", 6]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

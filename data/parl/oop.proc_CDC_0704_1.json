@@ -1,0 +1,12 @@
+{
+  "pubmin": "1894-03-15",
+  "label": "Procès-verbaux de la Chambre des communes, 7e Législature, 4e Session : 1-87",
+  "callNumber": "J103 H44 1894",
+  "language": ["fra"],
+  "session": ["07-4"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "07-4", 1]],
+  "pubmax": "1894-07-23",
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"]
+}

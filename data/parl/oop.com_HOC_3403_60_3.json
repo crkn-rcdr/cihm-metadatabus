@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 132],
+    ["fra", "c", "committees", "34-3", 42]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 I556 A1 no.29-40",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on International Trade, vol. 3 no. 29-40 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité du commerce extérieur, vol. 3 no. 29-40"
+}

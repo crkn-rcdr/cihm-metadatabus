@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["16-3"],
+  "pubmin": "1929-02-07",
+  "callNumber": "J103 H41 1929 c.2",
+  "label": "House of Commons Votes and Proceedings, 16th Parliament, 3rd Session : 1-83",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "cproc",
+  "pubmax": "1929-06-14",
+  "node": [["eng", "c", "cproc", "16-3", 1]]
+}

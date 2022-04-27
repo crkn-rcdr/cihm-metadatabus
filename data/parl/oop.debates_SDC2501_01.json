@@ -1,0 +1,10 @@
+{
+  "session": ["25-1"],
+  "language": ["fra"],
+  "label": "Débats du Sénat, 25e Législature, 1re Session : Vol. 1",
+  "pubmin": "1962-09-27",
+  "chamber": ["s"],
+  "node": [["fra", "s", "debates", "25-1", 1]],
+  "pubmax": "1963-02-06",
+  "type": "debates"
+}

@@ -1,0 +1,13 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "33-2", 111]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "session": ["33-2"],
+  "language": ["fra"],
+  "reportTitle": ["Des obligations partagées"],
+  "label": "Comités de la Chambre des communes, 33e Législature, 2e Session : Comité spécial sur la garde des enfants, Rapport",
+  "callNumber": "33-2 C44 A12",
+  "pubmin": "1986-09-30"
+}

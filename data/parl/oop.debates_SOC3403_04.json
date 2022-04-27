@@ -1,0 +1,10 @@
+{
+  "label": "Senate Debates, 34th Parliament, 3rd Session : Vol. 4",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng"],
+  "node": [["eng", "s", "debates", "34-3", 4]],
+  "pubmax": "1993-09-08",
+  "type": "debates",
+  "chamber": ["s"]
+}

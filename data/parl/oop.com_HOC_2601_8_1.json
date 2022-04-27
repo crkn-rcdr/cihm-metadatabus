@@ -1,0 +1,12 @@
+{
+  "session": ["26-1"],
+  "language": ["eng"],
+  "callNumber": "1963 P7 A1",
+  "label": "House of Commons Committees, 26th Parliament, 1st Session : Standing Committee on Privileges and Elections, vol. 1",
+  "pubmin": "1963-05-16",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "pubmax": "1963-12-21",
+  "node": [["eng", "c", "committees", "26-1", 9]],
+  "type": "committees"
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["04-2"],
+  "language": ["eng"],
+  "label": "Senate Bills, 4th Parliament, 2nd Session : A-M",
+  "callNumber": "KE72 C38 4-2 Bill A-",
+  "pubmin": "1880-02-12",
+  "chamber": ["s"],
+  "node": [["eng", "s", "bills", "04-2", 1]],
+  "pubmax": "1880-05-07",
+  "type": "bills"
+}

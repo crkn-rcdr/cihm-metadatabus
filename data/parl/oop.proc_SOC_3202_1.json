@@ -1,0 +1,14 @@
+{
+  "pubmax": "1984-07-09",
+  "node": [
+    ["eng", "s", "sproc", "32-2", 1],
+    ["fra", "s", "sproc", "32-2", 1]
+  ],
+  "type": "sproc",
+  "chamber": ["s"],
+  "callNumber": "J103 H4 1983/84 no. 1-54 c.2",
+  "label": "Senate Minutes of Proceedings, 32nd Parliament, 2nd Session : 1-54 = Procès-verbaux du Sénat, 32e Législature, 2e Session : 1-54",
+  "pubmin": "1983-12-07",
+  "session": ["32-2"],
+  "language": ["eng", "fra"]
+}

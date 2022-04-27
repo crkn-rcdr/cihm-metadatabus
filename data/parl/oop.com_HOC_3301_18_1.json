@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-1", 36],
+    ["fra", "c", "committees", "33-1", 34]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-111, an Act to amend the Customs Tariff and to amend an Act to amend the Customs Tariff, vol. 1 no. 1-2 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-111, Loi modifiant le Tarif des douanes et la Loi modifiant le Tarif des douanes, vol. 1 no. 1-2",
+  "callNumber": "33-1 C982 A1 no.1-2",
+  "pubmin": "1984-11-05"
+}

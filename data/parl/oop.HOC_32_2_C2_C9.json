@@ -1,0 +1,14 @@
+{
+  "pubmax": "1984-07-09",
+  "node": [
+    ["eng", "c", "bills", "32-2", 1],
+    ["fra", "c", "bills", "32-2", 1]
+  ],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "label": "House of Commons Bills, 32nd Parliament, 2nd Session : C2-C9 = Projets de loi de la Chambre des communes, 32e Législature, 2e Session : C2-C9",
+  "pubmin": "1983-12-07",
+  "session": ["32-2"],
+  "language": ["eng", "fra"]
+}

@@ -1,0 +1,14 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "s", "committees", "32-1", 16],
+    ["fra", "s", "committees", "32-1", 17]
+  ],
+  "type": "committees",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "1980/83 E88 A1",
+  "label": "Senate Committees, 32nd Parliament, 1st Session : Subcommittee on Estimates, vol. 1 = Comités du Sénat, 32e Législature, 1re Session : Sous-comité sur le budget des dépenses, vol. 1",
+  "pubmin": "1980-04-14"
+}

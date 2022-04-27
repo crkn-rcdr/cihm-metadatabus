@@ -1,0 +1,13 @@
+{
+  "session": ["30-4"],
+  "language": ["eng", "fra"],
+  "label": "Senate Bills, 30th Parliament, 4th Session : S2-S6 = Projets de loi du Sénat, 30e Législature, 4e Session : S2-S6",
+  "pubmin": "1978-10-11",
+  "chamber": ["s"],
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "s", "bills", "30-4", 1],
+    ["fra", "s", "bills", "30-4", 1]
+  ],
+  "type": "bills"
+}

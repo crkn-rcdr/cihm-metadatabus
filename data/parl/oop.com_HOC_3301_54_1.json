@@ -1,0 +1,15 @@
+{
+  "pubmin": "1984-11-05",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-67, an Act to amend the Parole Act and the Penitentiary Act and Bill C-68, an Act to amend the Parole Act, the Penitentiary Act, the Prisons and Reformatories Act and the Criminal Code, vol. 1 no. 1-15 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-67, Loi modifiant la Loi sur la libération conditionnelle de détenus et la Loi sur les pénitenciers et Projet de loi C-68, Loi modifiant la Loi sur la libération conditionnelle de détenus, la Loi sur les pénitenciers, la Loi sur les prisons et les maisons de correction et le Code criminel, vol. 1 no. 1-15",
+  "callNumber": "33-1 P275 A1 no.1-15",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-1", 109],
+    ["fra", "c", "committees", "33-1", 81]
+  ],
+  "pubmax": "1986-08-28",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

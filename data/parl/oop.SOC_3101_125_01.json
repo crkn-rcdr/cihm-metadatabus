@@ -1,0 +1,13 @@
+{
+  "type": "journals",
+  "node": [
+    ["eng", "s", "journals", "31-1", 1],
+    ["fra", "s", "journals", "31-1", 1]
+  ],
+  "pubmax": "1979-12-14",
+  "chamber": ["s"],
+  "pubmin": "1979-10-09",
+  "label": "Senate Journals, 31st Parliament, 1st Session : Vol. 125 = Journaux du Sénat, 31e Législature, 1re Session : Vol. 125",
+  "language": ["eng", "fra"],
+  "session": ["31-1"]
+}

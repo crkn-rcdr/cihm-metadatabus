@@ -1,0 +1,15 @@
+{
+  "callNumber": "1947 I6 A44 v.1",
+  "label": "Comités mixtes, 20e Législature, 3e Session : Comité spécial mixte sur la Loi des Indiens, vol. 1",
+  "pubmin": "1947-01-30",
+  "session": ["20-3"],
+  "language": ["fra"],
+  "pubmax": "1947-07-17",
+  "node": [
+    ["fra", "c", "committees", "20-3", 8],
+    ["fra", "s", "committees", "20-3", 3]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

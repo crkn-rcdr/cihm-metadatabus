@@ -1,0 +1,15 @@
+{
+  "callNumber": "1980/83 F55 A1 no.145-160",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 7 no. 145-160 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, vol. 7 no. 145-160",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 65],
+    ["fra", "c", "committees", "32-1", 61]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

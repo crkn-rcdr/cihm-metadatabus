@@ -1,0 +1,11 @@
+{
+  "node": [["eng", "c", "debates", "04-1", 2]],
+  "pubmax": "1879-05-15",
+  "type": "debates",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "label": "House of Commons Debates, 4th Parliament, 1st Session : Vol. 2",
+  "pubmin": "1879-02-13",
+  "session": ["04-1"],
+  "language": ["eng"]
+}

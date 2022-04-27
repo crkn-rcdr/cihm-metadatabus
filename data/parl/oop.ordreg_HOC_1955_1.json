@@ -1,0 +1,15 @@
+{
+  "type": "orders",
+  "pubmax": "1955-07-28",
+  "node": [
+    ["eng", "c", "orders", null, 5],
+    ["fra", "c", "orders", null, 5]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmin": "1955-01-07",
+  "callNumber": "JL164.4 1955",
+  "label": "Standing Orders of the House of Commons, 1955 = Règlement de la Chambre des communes du Canada, 1955",
+  "language": ["eng", "fra"],
+  "session": ["22-2"]
+}

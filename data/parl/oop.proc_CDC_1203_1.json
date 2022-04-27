@@ -1,0 +1,12 @@
+{
+  "pubmin": "1914-01-15",
+  "label": "Procès-verbaux de la Chambre des communes, 12e Législature, 3e Session : 1-103",
+  "callNumber": "J103 H44 1914 ptie 1",
+  "language": ["fra"],
+  "session": ["12-3"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "12-3", 1]],
+  "pubmax": "1914-06-12",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

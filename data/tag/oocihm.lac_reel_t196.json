@@ -1,0 +1,22 @@
+{
+  "864": {
+    "tagDate": ["1874-01-01T00:00:00.000Z"],
+    "tagDescription": ["North Atlantic Fishery Question"]
+  },
+  "504": {
+    "tagDescription": ["North Atlantic Fishery Question"],
+    "tagDate": ["1874-01-01T00:00:00.000Z"]
+  },
+  "1307": {
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1876-12-31T23:59:59.999Z]"],
+    "tagDescription": ["North Atlantic Fishery Question"]
+  },
+  "159": {
+    "tagDescription": ["North Atlantic Fishery Question"],
+    "tagDate": ["1873-01-01T00:00:00.000Z"]
+  },
+  "1742": {
+    "tagDescription": ["North Atlantic Fishery Question"],
+    "tagDate": ["[1877-01-01T00:00:00.000Z TO 1878-12-31T23:59:59.999Z]"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["20-5"],
+  "language": ["fra"],
+  "callNumber": "1949 B3 A42",
+  "label": "Comités du Sénat, 20e Législature, 5e Session : Comité permanent des banques et du commerce, vol. 1",
+  "pubmin": "1949-01-26",
+  "chamber": ["s"],
+  "pubmax": "1949-04-30",
+  "node": [["fra", "s", "committees", "20-5", 1]],
+  "type": "committees"
+}

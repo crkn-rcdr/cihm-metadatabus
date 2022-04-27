@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "12-2", 1]],
+  "pubmax": "1913-06-06",
+  "language": ["eng"],
+  "session": ["12-2"],
+  "pubmin": "1912-11-21",
+  "label": "House of Commons Journals, 12th Parliament, 2nd Session : Vol. 48"
+}

@@ -1,0 +1,13 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "33-1", 142]],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "session": ["33-1"],
+  "reportTitle": ["Aller sans entraves : quelle voie prendre"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des transports, Rapport",
+  "callNumber": "33-1 T7 A12",
+  "pubmin": "1984-11-05"
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Journaux de la Chambre des communes, 10e Législature, 2e Session : Vol. 41 App. 2",
+  "pubmin": "1906-03-08",
+  "session": ["10-2"],
+  "language": ["fra"],
+  "node": [["fra", "c", "journals", "10-2", 3]],
+  "pubmax": "1906-07-13",
+  "type": "journals",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

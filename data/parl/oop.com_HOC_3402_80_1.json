@@ -1,0 +1,15 @@
+{
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 143],
+    ["fra", "c", "committees", "34-2", 159]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-2 P546 A1 no.1-10",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-15, an Act respecting plant breeders' rights, vol. 1 no. 1-10 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-15, Loi concernant la protection des obtentions végétales, vol. 1 no. 1-10",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"]
+}

@@ -1,0 +1,12 @@
+{
+  "session": ["18-4"],
+  "language": ["fra"],
+  "callNumber": "1939 B3 A4",
+  "label": "Comités de la Chambre des communes, 18e Législature, 4e Session : Comité permanent de la banque et du commerce, vol. 1",
+  "pubmin": "1939-01-12",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1939-06-03",
+  "node": [["fra", "c", "committees", "18-4", 1]],
+  "type": "committees"
+}

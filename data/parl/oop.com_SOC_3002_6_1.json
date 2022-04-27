@@ -1,0 +1,14 @@
+{
+  "type": "committees",
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "s", "committees", "30-2", 8],
+    ["fra", "s", "committees", "30-2", 15]
+  ],
+  "chamber": ["s"],
+  "pubmin": "1976-10-12",
+  "callNumber": "1976/77 H42 A1",
+  "label": "Senate Committees, 30th Parliament, 2nd Session : Standing Committee on Health, Welfare and Science, vol. 1 = Comités du Sénat, 30e Législature, 2e Session : Comité permanent de la santé, du bien-être et des sciences, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["30-2"]
+}

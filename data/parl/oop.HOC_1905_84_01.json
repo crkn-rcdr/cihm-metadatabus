@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Journals, 19th Parliament, 5th Session : Vol. 84",
+  "pubmin": "1944-01-27",
+  "session": ["19-5"],
+  "language": ["eng"],
+  "pubmax": "1945-01-31",
+  "node": [["eng", "c", "journals", "19-5", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

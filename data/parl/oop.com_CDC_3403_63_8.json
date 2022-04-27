@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "committees", "34-3", 145]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1991-05-13",
+  "callNumber": "J103 H7 34-3 J83 A123f",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la justice et Solliciteur général, Dix-septième rapport",
+  "reportTitle": [
+    "Examen de quatre ans des dispositions du Code criminel et de la Loi sur la preuve au Canada sur l'exploitation sexuelle des enfants (anciennement projet de loi C-15)"
+  ],
+  "language": ["fra"],
+  "session": ["34-3"]
+}

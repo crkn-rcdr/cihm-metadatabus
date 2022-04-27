@@ -1,0 +1,15 @@
+{
+  "callNumber": "33-1 C24 A1 no.1-6",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-66, Act respecting the reorganization of the Canada Development Corporation, vol. 1 no. 1-6 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-66, Loi concernant la réorganisation de la Corporation de développement du Canada, vol. 1 no. 1-6",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 10],
+    ["fra", "c", "committees", "33-1", 31]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

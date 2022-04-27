@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 16th Parliament, 1st Session : Vol. 2",
+  "pubmin": "1926-12-09",
+  "session": ["16-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "16-1", 2]],
+  "pubmax": "1927-04-14",
+  "type": "debates",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["19-3"],
+  "pubmin": "1942-01-22",
+  "label": "Débats de la Chambre des communes, 19e Législature, 3e Session : Vol. 2",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "19-3", 2]],
+  "pubmax": "1943-01-27"
+}

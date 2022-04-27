@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "03-5", 1]],
+  "pubmax": "1878-05-10",
+  "language": ["fra"],
+  "session": ["03-5"],
+  "pubmin": "1878-02-07",
+  "label": "Débats de la Chambre des communes, 3e Législature, 5e Session : Vol. 1"
+}

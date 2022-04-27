@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1972-02-16",
+  "node": [
+    ["eng", "c", "committees", "28-3", 29],
+    ["fra", "c", "committees", "28-3", 39]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1970-10-08",
+  "callNumber": "1970/72 L2 A1 v.2",
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Labour, Manpower and Immigration, vol. 2 no. 14-32 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent du travail, de la main-d'oeuvre et de l'immigration, vol. 2 no. 14-32",
+  "language": ["eng", "fra"],
+  "session": ["28-3"]
+}

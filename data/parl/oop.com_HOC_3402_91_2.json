@@ -1,0 +1,15 @@
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 R52 A1 no.26-37",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Special Committee on the Review of the CSIS Act and the Security Offences Act, vol. 2 no. 26-37 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité spécial d'examen de la Loi constituant le SCRS et de la Loi sur les infractions en matière de sécurité, vol. 2 no. 26-37",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 164],
+    ["fra", "c", "committees", "34-2", 170]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

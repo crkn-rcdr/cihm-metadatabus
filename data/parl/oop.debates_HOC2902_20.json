@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 29th Parliament, 2nd Session : Index",
+  "pubmin": "1974-02-27",
+  "session": ["29-2"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "29-2", 3]],
+  "pubmax": "1974-05-09",
+  "type": "debates",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

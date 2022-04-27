@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "type": "journals",
+  "pubmax": "1905-07-20",
+  "node": [["fra", "c", "journals", "10-1", 2]],
+  "language": ["fra"],
+  "session": ["10-1"],
+  "pubmin": "1905-01-11",
+  "label": "Journaux de la Chambre des communes, 10e Législature, 1re Session : Vol. 40 App. 3"
+}

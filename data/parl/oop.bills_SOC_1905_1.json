@@ -1,0 +1,11 @@
+{
+  "pubmax": "1945-01-31",
+  "node": [["eng", "s", "bills", "19-5", 1]],
+  "type": "bills",
+  "chamber": ["s"],
+  "callNumber": "KE72 C38 19-5 Bill B-",
+  "label": "Senate Bills, 19th Parliament, 5th Session : B-S5",
+  "pubmin": "1944-01-27",
+  "session": ["19-5"],
+  "language": ["eng"]
+}

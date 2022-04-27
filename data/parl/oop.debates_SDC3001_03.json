@@ -1,0 +1,10 @@
+{
+  "language": ["fra"],
+  "session": ["30-1"],
+  "pubmin": "1974-09-30",
+  "label": "Débats du Sénat, 30e Législature, 1re Session : Vol. 3",
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "30-1", 3]],
+  "pubmax": "1976-10-12"
+}

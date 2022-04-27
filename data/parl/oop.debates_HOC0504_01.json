@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "05-4", 1]],
+  "pubmax": "1886-06-02",
+  "language": ["eng"],
+  "session": ["05-4"],
+  "pubmin": "1886-02-25",
+  "label": "House of Commons Debates, 5th Parliament, 4th Session : Vol. 1"
+}

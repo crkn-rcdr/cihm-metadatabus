@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1929-06-14",
+  "node": [["eng", "s", "debates", "16-3", 1]],
+  "type": "debates",
+  "session": ["16-3"],
+  "language": ["eng"],
+  "label": "Senate Debates, 16th Parliament, 3rd Session : Vol. 1",
+  "pubmin": "1929-02-07"
+}

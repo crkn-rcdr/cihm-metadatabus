@@ -1,0 +1,32 @@
+{
+  "1088": { "tagDescription": ["Missing / Manque"] },
+  "1090": {
+    "tagDescription": ["United States Immigration -General Question"],
+    "tagDate": ["1924-01-01T00:00:00.000Z"]
+  },
+  "1714": {
+    "tagDescription": ["United States Immigration -General Question"],
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"]
+  },
+  "1087": { "tagDescription": ["Missing / Manque"] },
+  "1391": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"],
+    "tagDescription": ["United States Immigration -General Question"]
+  },
+  "718": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Visits of Canadian Regiment to the United States."]
+  },
+  "937": {
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Visits of Canadian Regiments to the United States. -Visits of Canadian Bands to the United States -Visits of RCMP Units to the United States -Visits of army personnel in uniform to the United States"
+    ]
+  },
+  "449": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Visits of Canadian Regiment to the United States. -Visits of Royal Canadian Mounted Police Units to the United States (Dec 1913  Aug 1923)"
+    ]
+  }
+}

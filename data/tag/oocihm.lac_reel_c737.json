@@ -1,0 +1,1750 @@
+{
+  "780": {
+    "tagName": ["Beausoleil, C."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Richelieu Co. politics"],
+    "tagDate": ["1889-08-11T00:00:00.000Z"]
+  },
+  "763": {
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Ontario politics"],
+    "tagDate": ["1889-07-30T00:00:00.000Z"]
+  },
+  "534": {
+    "tagName": ["Mercier, Honore"],
+    "tagDescription": ["Northwest Rebellion Amnesty (Encl.)"],
+    "tagDate": ["1888-03-26T00:00:00.000Z"]
+  },
+  "572": {
+    "tagName": ["Williamson, J. S."],
+    "tagDate": ["1888-07-19T00:00:00.000Z"],
+    "tagDescription": ["Ontario politics"]
+  },
+  "942": {
+    "tagDate": ["1890-01-21T00:00:00.000Z"],
+    "tagDescription": ["Claims to railway lands"],
+    "tagName": ["Nanaimo Squatters "]
+  },
+  "474": {
+    "tagDescription": ["Liberal policies By-election?"],
+    "tagDate": ["1888-01-05T00:00:00.000Z"],
+    "tagName": ["Mallory, A. E. Dr"]
+  },
+  "769": {
+    "tagName": ["McMullen, James Hon."],
+    "tagDescription": ["Wedding invitation"],
+    "tagDate": ["1889-08-07T00:00:00.000Z"]
+  },
+  "588": {
+    "tagDate": ["1888-10-08T00:00:00.000Z"],
+    "tagDescription": ["Legal case"],
+    "tagName": ["Hall, J.R."]
+  },
+  "581": {
+    "tagDate": ["1888-09-07T00:00:00.000Z"],
+    "tagDescription": ["Liberal policies"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"]
+  },
+  "883": {
+    "tagName": ["Mills, David"],
+    "tagDescription": ["Federal politics"],
+    "tagDate": ["1889-12-28T00:00:00.000Z"]
+  },
+  "470": {
+    "tagDate": ["1887-12-17T00:00:00.000Z"],
+    "tagDescription": ["Liberal party policy; Commercial union"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Charlton, John"]
+  },
+  "709": {
+    "tagDescription": ["Federal politics Ontario"],
+    "tagDate": ["1889-06-17T00:00:00.000Z"],
+    "tagName": ["Thomson, E.W."]
+  },
+  "804": {
+    "tagName": ["Thomson, E.W."],
+    "tagDate": ["1889-08-26T00:00:00.000Z"],
+    "tagDescription": ["Federal politics"]
+  },
+  "286": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."],
+    "tagDate": ["1886-11-29T00:00:00.000Z"],
+    "tagDescription": ["N.W. Rebellion"]
+  },
+  "238": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."],
+    "tagDate": ["1886-01-02T00:00:00.000Z"],
+    "tagDescription": ["Conservative party"]
+  },
+  "121": {
+    "tagName": ["Miall, Edward"],
+    "tagDate": ["1884-01-02T00:00:00.000Z"],
+    "tagDescription": ["Salary"]
+  },
+  "703": {
+    "tagDescription": ["Liberal policies"],
+    "tagDate": ["1889-06-17T00:00:00.000Z"],
+    "tagName": ["Williamson, J. S."]
+  },
+  "209": {
+    "tagDescription": ["Liberal Party"],
+    "tagDate": ["1885-10-23T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "640": {
+    "tagDescription": ["Reciprocity"],
+    "tagDate": ["1889-01-15T00:00:00.000Z"],
+    "tagName": ["Weldon, C. W."]
+  },
+  "344": {
+    "tagName": ["Mackay, A.S."],
+    "tagDate": ["1887-07-04T00:00:00.000Z"],
+    "tagDescription": ["Federal election (Encl.)"]
+  },
+  "89": {
+    "tagDate": ["1880-02-02T00:00:00.000Z"],
+    "tagDescription": ["Clerical interference"],
+    "tagName": ["Pacaud, P.N."]
+  },
+  "691": {
+    "tagDate": ["1889-05-12T00:00:00.000Z"],
+    "tagDescription": ["Liberal policies; reciprocity"],
+    "tagName": ["Thomson, E.W."]
+  },
+  "961": {
+    "tagDescription": ["Old Settler's claims, Manitoba (Encl.)"],
+    "tagDate": ["1890-02-07T00:00:00.000Z"],
+    "tagName": ["Taylor, James"]
+  },
+  "351": {
+    "tagDate": ["1887-07-08T00:00:00.000Z"],
+    "tagDescription": ["Liberal leadership"],
+    "tagName": ["Hewson, M.B."]
+  },
+  "765": {
+    "tagName": ["Willison, J. S."],
+    "tagDescription": ["Ontario politics"],
+    "tagDate": ["1889-07-31T00:00:00.000Z"]
+  },
+  "939": {
+    "tagName": ["Ellis, John V."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Provincial election, N. B."],
+    "tagDate": ["1890-01-08T00:00:00.000Z"]
+  },
+  "658": {
+    "tagDate": ["1889-04-01T00:00:00.000Z"],
+    "tagDescription": ["Liberal policies"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Campbell, R. P."]
+  },
+  "421": {
+    "tagName": ["Garnot, P.H."],
+    "tagDate": ["1887-09-27T00:00:00.000Z"],
+    "tagDescription": ["North West Rebellion"]
+  },
+  "85": {
+    "tagName": ["Ryland, G.H."],
+    "tagDate": ["1897-07-30T00:00:00.000Z"],
+    "tagDescription": ["Colonial Office (Encl.)"]
+  },
+  "358": {
+    "tagName": ["MacMillan, J.P."],
+    "tagDescription": ["E. Wiman Election campaign"],
+    "tagDate": ["1887-07-18T00:00:00.000Z"]
+  },
+  "675": {
+    "tagName": ["Broderick, J. Sidney"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Compton Co. politics"],
+    "tagDate": ["1889-04-29T00:00:00.000Z"]
+  },
+  "340": {
+    "tagDate": ["1887-06-29T00:00:00.000Z"],
+    "tagDescription": ["Liberal leadership"],
+    "tagName": ["Robillard, Joseph C."]
+  },
+  "698": {
+    "tagName": ["Klotz, O.C.I."],
+    "tagDescription": ["Honorary degree"],
+    "tagDate": ["1889-05-19T00:00:00.000Z"]
+  },
+  "722": {
+    "tagDescription": ["Toronto politics"],
+    "tagDate": ["1889-06-17T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "885": {
+    "tagDescription": ["Maritime railways (Encl.)"],
+    "tagDate": ["1889-12-28T00:00:00.000Z"],
+    "tagName": ["Davy, J. Adams"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "362": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Brick, J.G. Rev."],
+    "tagDate": ["1887-07-29T00:00:00.000Z"],
+    "tagDescription": ["Liberal party"]
+  },
+  "772": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["The Mail & Reciprocity"],
+    "tagDate": ["1880-08-08T00:00:00.000Z"]
+  },
+  "236": {
+    "tagDate": ["1886-01-01T00:00:00.000Z"],
+    "tagDescription": ["Quebec election"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fiset, M. Dr."]
+  },
+  "569": {
+    "tagDescription": ["Invitation"],
+    "tagDate": ["1888-07-18T00:00:00.000Z"],
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "234": {
+    "tagDescription": ["Drummond Co. politics"],
+    "tagDate": ["1885-12-30T00:00:00.000Z"],
+    "tagName": ["Miller, James"]
+  },
+  "99": {
+    "tagName": ["Carrier, L. N."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Financial matter"],
+    "tagDate": ["1881-03-19T00:00:00.000Z"]
+  },
+  "120": {
+    "tagName": ["Goodhue, George O."],
+    "tagDate": ["1909-12-29T00:00:00.000Z"]
+  },
+  "1028": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cochin, L. Rev."],
+    "tagDate": ["1890-06-16T00:00:00.000Z"],
+    "tagDescription": ["Indian mission, Battleford"]
+  },
+  "736": {
+    "tagName": ["Mills, David"],
+    "tagDate": ["1889-07-03T00:00:00.000Z"],
+    "tagDescription": ["Liberal policies"]
+  },
+  "580": {
+    "tagDescription": ["Liberal party"],
+    "tagDate": ["1888-09-03T00:00:00.000Z"],
+    "tagName": ["Evanturel, Alfred"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "272": {
+    "tagName": ["Munro, Thos. B."],
+    "tagDate": ["1886-10-24T00:00:00.000Z"],
+    "tagDescription": ["Local candidate Compton Co. politics"]
+  },
+  "7": {
+    "tagDescription": ["U.S.-Canada boundary (Encls.)"],
+    "tagDate": ["1854-12-23T00:00:00.000Z"],
+    "tagName": ["Fisher, Martin"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "861": {
+    "tagName": ["Preston, W.T.R."],
+    "tagDescription": ["Election campaign J.C. Rykert (Encl.)"],
+    "tagDate": ["1889-12-23T00:00:00.000Z"]
+  },
+  "839": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["House of Commons business"],
+    "tagDate": ["1889-12-06T00:00:00.000Z"]
+  },
+  "288": {
+    "tagName": ["Morisset, G. O."],
+    "tagDate": ["1887-01-01T00:00:00.000Z"],
+    "tagDescription": ["Personal Finances"]
+  },
+  "734": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Toronto politics"],
+    "tagDate": ["1889-07-03T00:00:00.000Z"]
+  },
+  "647": {
+    "tagName": ["Miller, James"],
+    "tagDate": ["1889-03-15T00:00:00.000Z"],
+    "tagDescription": ["Liberal policies"]
+  },
+  "455": {
+    "tagName": ["Godbout, J."],
+    "tagDate": ["1887-11-10T00:00:00.000Z"]
+  },
+  "112": {
+    "tagDate": ["1883-10-27T00:00:00.000Z"],
+    "tagDescription": ["Federal Politics"],
+    "tagName": ["Pacaud, Ernest"]
+  },
+  "625": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Hon. R. Cartwright"],
+    "tagDate": ["1889-01-01T00:00:00.000Z"]
+  },
+  "1032": {
+    "tagName": ["Turriff, J. G."],
+    "tagDescription": ["Federal election"],
+    "tagDate": ["1891-03-18T00:00:00.000Z"]
+  },
+  "325": {
+    "tagDescription": ["Retirement (Encl.)"],
+    "tagDate": ["1887-03-28T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "1030": {
+    "tagDescription": ["Liberal Party Organization in Quebec"],
+    "tagDate": ["1890-06-19T00:00:00.000Z"],
+    "tagName": ["Tarte, J. I."]
+  },
+  "478": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dugas, F.O."],
+    "tagDate": ["1888-01-06T00:00:00.000Z"],
+    "tagDescription": ["Election campaign"]
+  },
+  "662": {
+    "tagDescription": ["Commercial treaties"],
+    "tagDate": ["1889-04-18T00:00:00.000Z"],
+    "tagName": ["Farrer, Edward"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "538": {
+    "tagDescription": ["Penitentiaries"],
+    "tagDate": ["1888-03-31T00:00:00.000Z"],
+    "tagName": ["Bellerose, Jos.H."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "193": {
+    "tagDate": ["1885-10-05T00:00:00.000Z"],
+    "tagDescription": ["Riel affair & health of Blake"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edgar, J. D."]
+  },
+  "230": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Northwest Rebellion"],
+    "tagDate": ["1885-12-23T00:00:00.000Z"]
+  },
+  "453": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Haldimand election"],
+    "tagDate": ["1887-11-14T00:00:00.000Z"]
+  },
+  "412": {
+    "tagDate": ["1887-09-07T00:00:00.000Z"],
+    "tagDescription": ["By-elections in Ont."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."]
+  },
+  "565": {
+    "tagName": ["Mowat, Oliver"],
+    "tagDate": ["1888-07-01T00:00:00.000Z"],
+    "tagDescription": ["Ontario election"]
+  },
+  "694": {
+    "tagName": ["Savoie, F.T."],
+    "tagDate": ["1889-05-15T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics - Plessisville"]
+  },
+  "629": {
+    "tagDescription": ["Liberal policies", "Attendance in Ottawa"],
+    "tagDate": ["1889-01-05T00:00:00.000Z"],
+    "tagName": ["Bourassa, F.", "Beausoleil, C."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "459": {
+    "tagDate": ["1887-11-12T00:00:00.000Z"],
+    "tagDescription": ["West Canada"],
+    "tagName": ["Garnot, P.H."]
+  },
+  "835": {
+    "tagDate": ["1889-11-10T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity", "Ontario politics"],
+    "tagName": ["Platt, J.M.", "Wiman, Erastus"]
+  },
+  "650": {
+    "tagDescription": ["Jesuit Estates Act"],
+    "tagDate": ["1889-03-24T00:00:00.000Z"],
+    "tagName": ["Thomson, E.W."]
+  },
+  "787": {
+    "tagName": ["Preston, W.T.R."],
+    "tagDate": ["1889-08-20T00:00:00.000Z"],
+    "tagDescription": ["Ontario political campaign"]
+  },
+  "900": {
+    "tagDescription": ["House of Commons Parliamentary business"],
+    "tagDate": ["1899-12-30T00:00:00.000Z"],
+    "tagName": ["Jones, A. G."]
+  },
+  "356": {
+    "tagDescription": ["Election: Renfrew"],
+    "tagDate": ["1887-07-15T00:00:00.000Z"],
+    "tagName": ["Preston, W.T.R."]
+  },
+  "424": {
+    "tagName": ["Richard, J.H.N."],
+    "tagDate": ["1887-09-27T00:00:00.000Z"],
+    "tagDescription": ["Appointment"]
+  },
+  "537": {
+    "tagName": ["Thompson, J.S.D."],
+    "tagDate": ["1888-03-30T00:00:00.000Z"]
+  },
+  "329": {
+    "tagDescription": ["Liberal leadership"],
+    "tagDate": ["1887-06-24T00:00:00.000Z"],
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "426": {
+    "tagDescription": ["Commercial Union"],
+    "tagDate": ["1887-10-05T00:00:00.000Z"],
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "641": {
+    "tagName": ["Armstrong, J. (M.P.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Opening of Parliament"],
+    "tagDate": ["1889-01-18T00:00:00.000Z"]
+  },
+  "396": {
+    "tagName": ["Girouard, J.E."],
+    "tagDate": ["1887-08-23T00:00:00.000Z"],
+    "tagDescription": ["Election campaign"]
+  },
+  "1016": {
+    "tagDate": ["1890-05-05T00:00:00.000Z"],
+    "tagDescription": ["The Globe"],
+    "tagName": ["Willison, J. S."]
+  },
+  "323": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagDate": ["1887-03-16T00:00:00.000Z"],
+    "tagDescription": ["Liberal leadership"]
+  },
+  "394": {
+    "tagDate": ["1887-08-23T00:00:00.000Z"],
+    "tagDescription": ["Federal politics"],
+    "tagName": ["Work, David"]
+  },
+  "785": {
+    "tagDescription": ["Laurier's visit to Toronto"],
+    "tagDate": ["1889-08-19T00:00:00.000Z"],
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "649": {
+    "tagDescription": ["Pacific Cable?"],
+    "tagDate": ["1896-11-06T00:00:00.000Z"],
+    "tagName": ["Fleming, Sandford Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "440": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagDate": ["1887-10-29T00:00:00.000Z"],
+    "tagDescription": ["Commercial union"]
+  },
+  "792": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Barthe, Ulrich"],
+    "tagDate": ["1889-08-21T00:00:00.000Z"],
+    "tagDescription": ["Newspaper articles"]
+  },
+  "930": {
+    "tagName": ["Willison, J. S."],
+    "tagDate": ["1890-01-05T00:00:00.000Z"],
+    "tagDescription": ["E. Wiman Reciprocity"]
+  },
+  "458": {
+    "tagDescription": ["Contested elections Federal election"],
+    "tagDate": ["1887-11-07T00:00:00.000Z"],
+    "tagName": ["Broderick, J. Sidney"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "628": {
+    "tagName": ["Lovitt, John"],
+    "tagDate": ["1889-01-03T00:00:00.000Z"],
+    "tagDescription": ["Unrestricted reciprocity"]
+  },
+  "97": {
+    "tagDescription": ["House of Commons business (R. Only)"],
+    "tagDate": ["1880-12-11T00:00:00.000Z"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "321": {
+    "tagDate": ["1887-03-10T00:00:00.000Z"],
+    "tagDescription": ["Liberal leadership; Conservative Party split"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"]
+  },
+  "816": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Invitation"],
+    "tagDate": ["1889-09-13T00:00:00.000Z"]
+  },
+  "621": {
+    "tagNotebook": [
+      "MORGAN, HENRY JAMES MG 29, D 61 BIOGRAPHICAL FILES, 1866-1913"
+    ],
+    "tagName": ["Croyon, Margaret, (Mrs. D.E. Blake)"]
+  },
+  "343": {
+    "tagName": ["Jones, Alfred G."],
+    "tagDate": ["1887-07-01T00:00:00.000Z"],
+    "tagDescription": ["Election campaign"]
+  },
+  "814": {
+    "tagName": ["Thomson, E.W."],
+    "tagDescription": ["Toronto politics"],
+    "tagDate": ["1889-09-06T00:00:00.000Z"]
+  },
+  "213": {
+    "tagName": ["Pelletier, C.A.P Sir"],
+    "tagDescription": ["L'Electeur"],
+    "tagDate": ["1885-11-11T00:00:00.000Z"]
+  },
+  "444": {
+    "tagName": ["Blake, E. Hon.", "Godbout, J."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Appts., etc.", "Federal election"],
+    "tagDate": ["1887-11-19T00:00:00.000Z"]
+  },
+  "349": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Commercial union"],
+    "tagDate": ["1887-07-08T00:00:00.000Z"]
+  },
+  "219": {
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Conservative party split in Quebec"],
+    "tagDate": ["1885-11-18T00:00:00.000Z"]
+  },
+  "1012": {
+    "tagDate": ["1890-04-17T00:00:00.000Z"],
+    "tagDescription": ["J. Charlton (Encl.)"],
+    "tagName": ["Willison, J. S."]
+  },
+  "457": {
+    "tagDate": ["1887-11-04T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics"],
+    "tagName": ["Lizotte, T."]
+  },
+  "789": {
+    "tagDate": ["1889-08-20T00:00:00.000Z"],
+    "tagDescription": ["Ontario politics"],
+    "tagName": ["Willison, J. S."]
+  },
+  "140": {
+    "tagDescription": ["Liberal policy"],
+    "tagDate": ["1844-07-01T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "809": {
+    "tagDate": ["1889-09-01T00:00:00.000Z"],
+    "tagDescription": ["Toronto politics"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edgar, J. D."]
+  },
+  "760": {
+    "tagName": ["Willison, J. S."],
+    "tagDate": ["1889-07-26T00:00:00.000Z"],
+    "tagDescription": ["Ontario politics"]
+  },
+  "289": {
+    "tagName": ["Preston, W.T.R."],
+    "tagDate": ["1887-01-01T00:00:00.000Z"],
+    "tagDescription": ["Hon. David Mills & Jesuit Estates Act"]
+  },
+  "838": {
+    "tagName": ["Wiman, Erastus"],
+    "tagDate": ["1889-12-03T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity"]
+  },
+  "700": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Jesuit Estates Act"],
+    "tagDate": ["1889-05-31T00:00:00.000Z"]
+  },
+  "144": {
+    "tagDescription": ["House of Lords"],
+    "tagDate": ["1884-09-01T00:00:00.000Z"],
+    "tagName": ["Smith, Goldwin"]
+  },
+  "766": {
+    "tagDescription": ["Laurier's Ontario campaign"],
+    "tagDate": ["1889-08-01T00:00:00.000Z"],
+    "tagName": ["Preston, W.T.R."]
+  },
+  "497": {
+    "tagDescription": ["Liberal leadership"],
+    "tagDate": ["1888-03-06T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "479": {
+    "tagDate": ["1888-01-16T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Frechette, Louis"]
+  },
+  "374": {
+    "tagDescription": ["Dorchester election; Commercial union"],
+    "tagDate": ["1887-08-05T00:00:00.000Z"],
+    "tagName": ["Amyot, George E."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "670": {
+    "tagDescription": ["Liberal policies"],
+    "tagDate": ["1889-04-26T00:00:00.000Z"],
+    "tagName": ["Williamson, J. S."]
+  },
+  "327": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Laurier's leadership"],
+    "tagDate": ["1887-06-20T00:00:00.000Z"]
+  },
+  "215": {
+    "tagDescription": ["Northwest Rebellion"],
+    "tagDate": ["1885-11-13T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "332": {
+    "tagDate": ["1887-06-25T00:00:00.000Z"],
+    "tagDescription": ["Liberal leadership"],
+    "tagName": ["Pope, Sir Joseph"]
+  },
+  "508": {
+    "tagDate": ["1888-03-14T00:00:00.000Z"],
+    "tagDescription": ["North West Territories"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fisher, Alex P."]
+  },
+  "561": {
+    "tagDescription": ["Election campaign"],
+    "tagDate": ["1888-06-12T00:00:00.000Z"],
+    "tagName": ["Preston, W.T.R."]
+  },
+  "264": {
+    "tagName": ["Weldon, C. W."],
+    "tagDate": ["1886-07-31T00:00:00.000Z"],
+    "tagDescription": ["Chambly by-election"]
+  },
+  "399": {
+    "tagDescription": ["S. Renfew election"],
+    "tagDate": ["1887-08-23T00:00:00.000Z"],
+    "tagName": ["McIntyre, A.F."]
+  },
+  "494": {
+    "tagDescription": ["N.W. Territories"],
+    "tagDate": ["1888-02-22T00:00:00.000Z"],
+    "tagName": ["Lepine, Maxime"]
+  },
+  "903": {
+    "tagName": ["Wiman, Erastus"],
+    "tagDate": ["1890-01-02T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity (Encls.)"]
+  },
+  "986": {
+    "tagName": ["Bruchesi, Paul Rt. Rev."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Laval University"],
+    "tagDate": ["1890-03-06T00:00:00.000Z"]
+  },
+  "74": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Ashton, R.S."],
+    "tagDate": ["1877-04-01T00:00:00.000Z"],
+    "tagDescription": ["Imperial relations"]
+  },
+  "612": {
+    "tagName": ["Amyot, George E."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Liberal policies"],
+    "tagDate": ["1888-12-29T00:00:00.000Z"]
+  },
+  "393": {
+    "tagName": ["Lovitt, John"],
+    "tagDate": ["1887-08-22T00:00:00.000Z"],
+    "tagDescription": ["Yarmouth Co. politics"]
+  },
+  "267": {
+    "tagDate": ["1886-08-12T00:00:00.000Z"],
+    "tagDescription": ["Annexation, U.S."],
+    "tagName": ["Glen,Francis W."]
+  },
+  "818": {
+    "tagName": ["Jones, Alfred G."],
+    "tagDate": ["1889-09-17T00:00:00.000Z"],
+    "tagDescription": ["Federal politics"]
+  },
+  "938": {
+    "tagDescription": [
+      "McGreevy scandal",
+      "Liberal party, Ontario & Quebec",
+      "Canadian literature - Poem enclosed",
+      "Trade in spirits (Encl.)"
+    ],
+    "tagDate": ["1890-03-29T00:00:00.000Z"],
+    "tagName": [
+      "Mercier, Honore",
+      "Massey, George",
+      "Langelier, Francois",
+      "Machar, Agnes M."
+    ]
+  },
+  "450": {
+    "tagName": ["Preston, W.T.R."],
+    "tagDescription": ["Haldimand election"],
+    "tagDate": ["1887-11-15T00:00:00.000Z"]
+  },
+  "620": {
+    "tagDate": ["1899-01-01T00:00:00.000Z"],
+    "tagDescription": ["Trade relations with U.S."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edwards, William C."]
+  },
+  "102": {
+    "tagDescription": ["Subscription"],
+    "tagDate": ["1882-05-20T00:00:00.000Z"],
+    "tagName": ["Concorde, La"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "626": {
+    "tagDate": ["1889-01-02T00:00:00.000Z"],
+    "tagDescription": ["U.S. Trade"],
+    "tagName": ["Meigs, D. B."]
+  },
+  "162": {
+    "tagName": ["Privy Council Office"],
+    "tagDescription": [
+      "Qu'Appelle, Long Lake and Saskatchewan Railway and Steamboat Co."
+    ],
+    "tagDate": ["1884-12-30T00:00:00.000Z"]
+  },
+  "811": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["(R. Only)"],
+    "tagDate": ["1889-09-03T00:00:00.000Z"]
+  },
+  "699": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Clark, S. C."],
+    "tagDate": ["1889-05-24T00:00:00.000Z"],
+    "tagDescription": ["Naming a schooner Laurier"]
+  },
+  "677": {
+    "tagDate": ["1889-04-30T00:00:00.000Z"],
+    "tagDescription": ["Steamship subsidy"],
+    "tagName": ["Quebec Board of Trade"]
+  },
+  "312": {
+    "tagDescription": ["Hon. Edw. Blake"],
+    "tagDate": ["1887-03-06T00:00:00.000Z"],
+    "tagName": ["Fisher, Sydney A."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "150": {
+    "tagDate": ["1844-11-03T00:00:00.000Z"],
+    "tagDescription": ["Conservative party"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."]
+  },
+  "560": {
+    "tagDescription": ["Invitaion to speak"],
+    "tagDate": ["1888-06-12T00:00:00.000Z"],
+    "tagName": ["Rowand, J."]
+  },
+  "583": {
+    "tagDate": ["1888-09-18T00:00:00.000Z"],
+    "tagDescription": ["H. Mercier's unpopularity"],
+    "tagName": ["Gibsons, W.C."]
+  },
+  "506": {
+    "tagName": ["Lepine, Maxime"],
+    "tagDate": ["1888-03-12T00:00:00.000Z"],
+    "tagDescription": ["N.W. Territories"]
+  },
+  "123": {
+    "tagName": ["Tupper, Chas. Sir"],
+    "tagDate": ["1884-04-10T00:00:00.000Z"],
+    "tagDescription": ["Transcontinental Ry. (Encl.)"]
+  },
+  "378": {
+    "tagName": ["Fisher, Sydney A."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Election campaign"],
+    "tagDate": ["1887-08-11T00:00:00.000Z"]
+  },
+  "830": {
+    "tagDescription": ["Liberal policies"],
+    "tagDate": ["1889-10-28T00:00:00.000Z"],
+    "tagName": ["Congdon, F. T."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "196": {
+    "tagDate": ["1855-10-15T00:00:00.000Z"],
+    "tagDescription": ["NEw Brunswick geography (Encl.)"],
+    "tagName": ["Tolderoy, J. B. Dr."]
+  },
+  "148": {
+    "tagDescription": ["Contested election Quebec politics"],
+    "tagDate": ["1884-09-24T00:00:00.000Z"],
+    "tagName": ["Mercier, Honore"]
+  },
+  "233": {
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Liberal party"],
+    "tagDate": ["1885-12-23T00:00:00.000Z"]
+  },
+  "739": {
+    "tagDate": ["1889-07-16T00:00:00.000Z"],
+    "tagDescription": ["Toronto politics"],
+    "tagName": ["Williamson, J. S."]
+  },
+  "916": {
+    "tagName": ["Trenholme, N.W."],
+    "tagDescription": ["Quebec Liberals"],
+    "tagDate": ["1884-05-21T00:00:00.000Z"]
+  },
+  "190": {
+    "tagName": ["Shehyn, Hon. Joseph"],
+    "tagDate": ["1885-08-29T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics"]
+  },
+  "682": {
+    "tagName": ["Savoie, F.T."],
+    "tagDescription": ["Quebec matters (Encl.)"],
+    "tagDate": ["1889-05-07T00:00:00.000Z"]
+  },
+  "156": {
+    "tagDescription": ["Liberal policy"],
+    "tagDate": ["1844-11-10T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "564": {
+    "tagName": ["Lansdowne, Lord"],
+    "tagDate": ["1888-06-21T00:00:00.000Z"],
+    "tagDescription": ["Honours"]
+  },
+  "261": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Riel question in next election"],
+    "tagDate": ["1886-07-23T00:00:00.000Z"]
+  },
+  "777": {
+    "tagName": ["Thomson, E.W."],
+    "tagDate": ["1889-08-09T00:00:00.000Z"],
+    "tagDescription": ["Jesuit Estates Act"]
+  },
+  "848": {
+    "tagName": ["Clark, W. J."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Ontario politics (Encl.)"],
+    "tagDate": ["1889-12-18T00:00:00.000Z"]
+  },
+  "894": {
+    "tagDescription": ["Reciprocity"],
+    "tagDate": ["1889-12-29T00:00:00.000Z"],
+    "tagName": ["Wiman, Erastus"]
+  },
+  "130": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Liberal policy"],
+    "tagDate": ["1884-05-04T00:00:00.000Z"]
+  },
+  "896": {
+    "tagDescription": ["House of Commons business"],
+    "tagDate": ["1889-12-30T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "793": {
+    "tagDate": ["1889-08-23T00:00:00.000Z"],
+    "tagDescription": ["Ontario politics"],
+    "tagName": ["Willison, J. S."]
+  },
+  "71": {
+    "tagDescription": ["Attitude of Hon. J. Pope - Liberal party"],
+    "tagDate": ["1876-12-16T00:00:00.000Z"],
+    "tagName": ["Mackenzie, Alexander Hon."]
+  },
+  "724": {
+    "tagDescription": ["Laurier's speech"],
+    "tagDate": ["1889-06-27T00:00:00.000Z"],
+    "tagName": ["Casgrain, J.P.B."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "117": {
+    "tagDescription": ["Local election. Hon. J.A. Chapleau"],
+    "tagDate": ["1883-12-01T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "642": {
+    "tagName": ["Thomson, E.W."],
+    "tagDate": ["1889-02-10T00:00:00.000Z"],
+    "tagDescription": ["Manitoba schools; The Globe activities"]
+  },
+  "212": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagDate": ["1885-11-03T00:00:00.000Z"],
+    "tagDescription": ["Hon. A. W. Mclelan"]
+  },
+  "342": {
+    "tagDescription": ["Election campaign"],
+    "tagDate": ["1887-07-01T00:00:00.000Z"],
+    "tagName": ["Burrill, Charles"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "1011": {
+    "tagName": ["Panet, A. Col."],
+    "tagDescription": ["Cardinal Alexandre Taschereau funeral"],
+    "tagDate": ["1890-04-13T00:00:00.000Z"]
+  },
+  "973": {
+    "tagDate": ["1890-02-24T00:00:00.000Z"],
+    "tagDescription": ["North West Territories"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."]
+  },
+  "259": {
+    "tagDescription": ["Election campaign preparations"],
+    "tagDate": ["1886-06-26T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "278": {
+    "tagName": ["Joly de Lotbiniere, H.G."],
+    "tagDate": ["1886-11-15T00:00:00.000Z"],
+    "tagDescription": ["Nationalist movement in Quebec"]
+  },
+  "417": {
+    "tagDate": ["1887-09-10T00:00:00.000Z"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."]
+  },
+  "481": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Davies, Louis H."],
+    "tagDate": ["1888-01-30T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity, Commercial union"]
+  },
+  "282": {
+    "tagDate": ["1886-11-16T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics"],
+    "tagName": ["Noyes, J.N.O."]
+  },
+  "847": {
+    "tagDescription": ["Reciprocity"],
+    "tagDate": ["1889-12-17T00:00:00.000Z"],
+    "tagName": ["Wiman, Erastus"]
+  },
+  "368": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Renfrew bye-election"],
+    "tagDate": ["1887-08-03T00:00:00.000Z"]
+  },
+  "782": {
+    "tagDate": ["1889-08-19T00:00:00.000Z"],
+    "tagDescription": ["Hon. E. Blake"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"]
+  },
+  "608": {
+    "tagDate": ["1888-12-16T00:00:00.000Z"],
+    "tagDescription": ["Unrestricted reciprocity"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edgar, J. D."]
+  },
+  "47": {
+    "tagDate": ["1874-01-16T00:00:00.000Z"],
+    "tagDescription": ["Liberal Party"],
+    "tagName": ["Vail, W. B."]
+  },
+  "1018": {
+    "tagDescription": ["McGreevy scandal"],
+    "tagDate": ["1890-05-25T00:00:00.000Z"],
+    "tagName": ["Tarte, J. I."]
+  },
+  "434": {
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": [
+      "Edw. Blake Cartwright & Commercial Union Manitoba politics"
+    ],
+    "tagDate": ["1887-10-14T00:00:00.000Z"]
+  },
+  "308": {
+    "tagName": ["Graham, J.H."],
+    "tagDescription": ["Sir John A. Macdonald (Encl.)"],
+    "tagDate": ["1887-02-28T00:00:00.000Z"]
+  },
+  "436": {
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Commercial union"],
+    "tagDate": ["1887-10-15T00:00:00.000Z"]
+  },
+  "951": {
+    "tagDescription": ["Political situation, N.W.T."],
+    "tagDate": ["1890-01-31T00:00:00.000Z"],
+    "tagName": ["Bulyea, George H.V."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "488": {
+    "tagName": ["Frechette, Louis"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDate": ["1888-02-01T00:00:00.000Z"]
+  },
+  "472": {
+    "tagName": ["King, W. F."],
+    "tagDate": ["1888-01-02T00:00:00.000Z"],
+    "tagDescription": ["Queens Co. politics"]
+  },
+  "187": {
+    "tagName": ["Pelletier, C.A.P Sir"],
+    "tagDate": ["1885-01-23T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics "]
+  },
+  "385": {
+    "tagName": ["Mulock, Wm."],
+    "tagDate": ["1887-08-20T00:00:00.000Z"],
+    "tagDescription": ["Election campaign"]
+  },
+  "902": {
+    "tagName": ["Weldon, C. W."],
+    "tagDate": ["1890-01-01T00:00:00.000Z"],
+    "tagDescription": ["Liberal Party, N.B."]
+  },
+  "138": {
+    "tagDescription": ["Invitation"],
+    "tagDate": ["1884-05-24T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "1015": {
+    "tagDate": ["1890-05-01T00:00:00.000Z"],
+    "tagDescription": ["Railways in B.C. and Yukon"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bostock, Hewitt"]
+  },
+  "422": {
+    "tagDescription": ["M.C. Cameron Commercial Union"],
+    "tagDate": ["1887-09-27T00:00:00.000Z"],
+    "tagName": ["McMullen, James Hon."]
+  },
+  "524": {
+    "tagDate": ["1888-03-20T00:00:00.000Z"],
+    "tagDescription": ["North West Territories"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fisher, Alex P."]
+  },
+  "925": {
+    "tagDescription": ["Liberal party; House of Commons session"],
+    "tagDate": ["1890-01-04T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "405": {
+    "tagName": ["Toursignant, P.L."],
+    "tagDescription": ["F. Beaunchesne"],
+    "tagDate": ["1887-08-31T00:00:00.000Z"]
+  },
+  "410": {
+    "tagDescription": ["Federal election expenses"],
+    "tagDate": ["1887-09-03T00:00:00.000Z"],
+    "tagName": ["Larochelle, L. N."]
+  },
+  "465": {
+    "tagName": ["Frechette, Louis"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Appointment"],
+    "tagDate": ["1887-12-24T00:00:00.000Z"]
+  },
+  "553": {
+    "tagDescription": ["F.H. Hale, M.P."],
+    "tagDate": ["1888-05-25T00:00:00.000Z"],
+    "tagName": ["Appleby, Stephen B."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "851": {
+    "tagDate": ["1889-12-19T00:00:00.000Z"],
+    "tagDescription": ["Hon. J.C. Rykert"],
+    "tagName": ["Preston, W.T.R."]
+  },
+  "228": {
+    "tagDate": ["1885-12-15T00:00:00.000Z"],
+    "tagDescription": ["Invitation"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Donald, R., Jr."]
+  },
+  "352": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Campbell, Archibald"],
+    "tagDate": ["1887-07-11T00:00:00.000Z"],
+    "tagDescription": ["Commercial union (R. only)"]
+  },
+  "243": {
+    "tagName": ["Fisher, Sydney A."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Trade policy"],
+    "tagDate": ["1886-02-02T00:00:00.000Z"]
+  },
+  "749": {
+    "tagName": ["Jones, Alfred G."],
+    "tagDate": ["1889-07-24T00:00:00.000Z"],
+    "tagDescription": ["Rum for Bourassa"]
+  },
+  "994": {
+    "tagDate": ["1890-03-13T00:00:00.000Z"],
+    "tagDescription": ["McGreevy scandal"],
+    "tagName": ["Tarte, J. I."]
+  },
+  "578": {
+    "tagDate": ["1888-08-31T00:00:00.000Z"],
+    "tagDescription": ["Ontario politics"],
+    "tagName": ["Gorman, Thos. P"]
+  },
+  "403": {
+    "tagDate": ["1887-08-29T00:00:00.000Z"],
+    "tagDescription": ["Federal politics"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fisher, Sydney A."]
+  },
+  "110": {
+    "tagDate": ["1883-10-24T00:00:00.000Z"],
+    "tagDescription": ["Liberal Party"],
+    "tagName": ["Trenholme, N.W."]
+  },
+  "105": {
+    "tagDate": ["1883-03-21T00:00:00.000Z"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dorion, Achille "]
+  },
+  "996": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagDate": ["1890-03-18T00:00:00.000Z"],
+    "tagDescription": ["Liberal party leadership (R.)"]
+  },
+  "270": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Begg, W.M."],
+    "tagDate": ["1886-10-17T00:00:00.000Z"],
+    "tagDescription": ["Young liberals of London - London, Ont. Politics"]
+  },
+  "438": {
+    "tagDate": ["1887-10-16T00:00:00.000Z"],
+    "tagDescription": ["H. Mercier; Quebec politics"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fisher, Sydney A."]
+  },
+  "360": {
+    "tagDescription": ["Renfrew election"],
+    "tagDate": ["1887-07-19T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "306": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Federal election"],
+    "tagDate": ["1887-02-28T00:00:00.000Z"]
+  },
+  "383": {
+    "tagDescription": ["Commercial union Party funds"],
+    "tagDate": ["1887-08-18T00:00:00.000Z"],
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "245": {
+    "tagDescription": ["Causes of N.W. Rebellion"],
+    "tagDate": ["1886-02-17T00:00:00.000Z"],
+    "tagName": ["Jackson, T. E."]
+  },
+  "366": {
+    "tagName": ["Wills, J. V."],
+    "tagDate": ["1887-08-02T00:00:00.000Z"],
+    "tagDescription": ["Commercial Union"]
+  },
+  "431": {
+    "tagDate": ["1887-10-05T00:00:00.000Z"],
+    "tagDescription": ["Haldimand election Commercial Union"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edgar, J. D."]
+  },
+  "774": {
+    "tagName": ["Mills, David"],
+    "tagDescription": ["Ontario politics"],
+    "tagDate": ["1889-08-09T00:00:00.000Z"]
+  },
+  "364": {
+    "tagDate": ["1887-08-01T00:00:00.000Z"],
+    "tagDescription": ["Liberal leadership"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Connolly, M.C."]
+  },
+  "745": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagDate": ["1889-07-18T00:00:00.000Z"],
+    "tagDescription": ["Ontario politics"]
+  },
+  "555": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edgar, J. D."],
+    "tagDate": ["1888-06-04T00:00:00.000Z"],
+    "tagDescription": ["Free trade Party funds"]
+  },
+  "941": {
+    "tagDescription": ["Globe & Dr. McCarthy's policy"],
+    "tagDate": ["1890-01-08T00:00:00.000Z"],
+    "tagName": ["Thomson, E.W."]
+  },
+  "274": {
+    "tagName": ["Casgrain, J.P.B."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Conservative Party defection over Riel"],
+    "tagDate": ["1886-10-26T00:00:00.000Z"]
+  },
+  "372": {
+    "tagName": ["Lovell, H."],
+    "tagDescription": ["Appointment"],
+    "tagDate": ["1887-08-04T00:00:00.000Z"]
+  },
+  "1019": {
+    "tagDate": ["1890-06-02T00:00:00.000Z"],
+    "tagDescription": ["Liberal Party leadership"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."]
+  },
+  "433": {
+    "tagName": ["Jones, Alfred G."],
+    "tagDescription": ["Federal election- Shelburne Co."],
+    "tagDate": ["1887-10-07T00:00:00.000Z"]
+  },
+  "617": {
+    "tagDescription": ["Liberal Party"],
+    "tagDate": ["1888-12-31T00:00:00.000Z"],
+    "tagName": ["Godbout, J."]
+  },
+  "461": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Liberal party"],
+    "tagDate": ["1887-12-22T00:00:00.000Z"]
+  },
+  "3": {
+    "tagName": ["Tilley, S.L. Sir.", "Rainville, L."],
+    "tagDescription": [
+      "New Brunswick boundary",
+      "LAURIER PAPERS AUTHOR INDEX Z",
+      "Legal certificate"
+    ],
+    "tagDate": ["1854-11-10T00:00:00.000Z"]
+  },
+  "408": {
+    "tagDescription": ["Federal Election expenses"],
+    "tagDate": ["1887-09-03T00:00:00.000Z"],
+    "tagName": ["Pelletier, C.A.P Sir"]
+  },
+  "630": {
+    "tagDate": ["1889-01-06T00:00:00.000Z"],
+    "tagDescription": ["Unrestricted reciprocity"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edgar, J. D."]
+  },
+  "334": {
+    "tagName": ["Weir, W. A."],
+    "tagDescription": ["Liberal leadership"],
+    "tagDate": ["1887-06-25T00:00:00.000Z"]
+  },
+  "107": {
+    "tagDescription": ["Manitoba schools; Liberal Convention"],
+    "tagDate": ["1883-08-15T00:00:00.000Z"],
+    "tagName": ["Fisher, Sydney A."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "76": {
+    "tagDescription": [
+      "Cabinet changes Liberal party and religion (Encl.)",
+      "The Mail"
+    ],
+    "tagDate": ["1877-06-01T00:00:00.000Z"],
+    "tagName": ["Mackenzie, Alexander Hon."]
+  },
+  "636": {
+    "tagName": ["Casey, George E."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Poliitical career"],
+    "tagDate": ["1889-01-10T00:00:00.000Z"]
+  },
+  "725": {
+    "tagDescription": ["Toronto politics"],
+    "tagDate": ["1889-06-30T00:00:00.000Z"],
+    "tagName": ["Thomson, E.W."]
+  },
+  "747": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagDate": ["1889-07-21T00:00:00.000Z"],
+    "tagDescription": ["Ontario politics"]
+  },
+  "401": {
+    "tagName": ["Toursignant, P.L."],
+    "tagDate": ["1887-08-26T00:00:00.000Z"],
+    "tagDescription": ["Federal politics"]
+  },
+  "634": {
+    "tagDate": ["1889-01-08T00:00:00.000Z"],
+    "tagDescription": ["Commercial relations with U.S. trade"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dessaint, A."]
+  },
+  "330": {
+    "tagName": ["McLaren, J.J."],
+    "tagDescription": ["Prohibition"],
+    "tagDate": ["1887-06-25T00:00:00.000Z"]
+  },
+  "468": {
+    "tagDate": ["1887-12-13T00:00:00.000Z"],
+    "tagDescription": ["Rights of Metis"],
+    "tagName": ["Lepine, Maxime"]
+  },
+  "381": {
+    "tagName": ["Chouinard, B."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Quebec politics "],
+    "tagDate": ["1887-08-17T00:00:00.000Z"]
+  },
+  "672": {
+    "tagDate": ["1889-04-27T00:00:00.000Z"],
+    "tagDescription": ["Liberal candidate - Compton Co. politics"],
+    "tagName": ["Provand, T.B."]
+  },
+  "225": {
+    "tagName": ["Mercier, Honore"],
+    "tagDate": ["1885-12-14T00:00:00.000Z"],
+    "tagDescription": ["Meeting at Berthier quebec politics"]
+  },
+  "812": {
+    "tagDescription": ["Hon. E. Blake"],
+    "tagDate": ["1889-09-03T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "551": {
+    "tagName": ["Scriver, Julius"],
+    "tagDescription": ["Liberal leadership (R. only)"],
+    "tagDate": ["1888-05-01T00:00:00.000Z"]
+  },
+  "407": {
+    "tagDate": ["1887-09-03T00:00:00.000Z"],
+    "tagDescription": ["Commission to amend code of procedure"],
+    "tagName": ["Gibsons, W.C."]
+  },
+  "927": {
+    "tagName": ["Davies, Louis H."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Reciprocity; provincial election in P.E.I."],
+    "tagDate": ["1890-01-05T00:00:00.000Z"]
+  },
+  "108": {
+    "tagName": ["Montcalm Assn."],
+    "tagDescription": ["Le Travailleur"],
+    "tagDate": ["1883-10-05T00:00:00.000Z"]
+  },
+  "790": {
+    "tagName": ["Miller, James"],
+    "tagDate": ["1889-08-21T00:00:00.000Z"],
+    "tagDescription": ["Death of his wife"]
+  },
+  "820": {
+    "tagDate": ["1889-09-18T00:00:00.000Z"],
+    "tagDescription": ["Liberal politics"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"]
+  },
+  "598": {
+    "tagName": ["Cameron, John", "Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Reciprocity", "The Globe policy"],
+    "tagDate": ["1888-11-28T00:00:00.000Z"]
+  },
+  "756": {
+    "tagDate": ["1889-07-25T00:00:00.000Z"],
+    "tagDescription": ["Ontario politics"],
+    "tagName": ["Williamson, J. S."]
+  },
+  "618": {
+    "tagDate": ["1888-12-31T00:00:00.000Z"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Choquette, P. A."]
+  },
+  "81": {
+    "tagDate": ["1877-10-24T00:00:00.000Z"],
+    "tagName": ["Buckingham, Wm."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "223": {
+    "tagName": ["Pelletier, C.A.P Sir"],
+    "tagDate": ["1885-11-23T00:00:00.000Z"],
+    "tagDescription": ["Conservative party division in Quebec"]
+  },
+  "824": {
+    "tagDescription": ["Federal politics Manitoba schools, Jesuit bill, etc."],
+    "tagDate": ["1889-10-04T00:00:00.000Z"],
+    "tagName": ["Jones, Alfred G."]
+  },
+  "248": {
+    "tagDate": ["1886-03-17T00:00:00.000Z"],
+    "tagDescription": ["Route of Transcontinental Railway and Quebec Bridge"],
+    "tagName": ["O'Sullivan,Henry"]
+  },
+  "318": {
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Hon. E. Blake's resignation (Encl.)"],
+    "tagDate": ["1887-03-09T00:00:00.000Z"]
+  },
+  "687": {
+    "tagName": ["Robidoux, J. E."],
+    "tagDescription": ["Quebec politics"],
+    "tagDate": ["1889-05-09T00:00:00.000Z"]
+  },
+  "796": {
+    "tagDescription": ["Principle of government"],
+    "tagDate": ["1889-08-25T00:00:00.000Z"],
+    "tagName": ["Tremblay, Ernest"]
+  },
+  "44": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Archambault, O."],
+    "tagDate": ["1871-07-23T00:00:00.000Z"],
+    "tagDescription": ["Election of Laurier to Parliament (R. only)"]
+  },
+  "558": {
+    "tagName": ["Jones, Alfred G."],
+    "tagDescription": ["Nova Scotia politics "],
+    "tagDate": ["1888-06-11T00:00:00.000Z"]
+  },
+  "380": {
+    "tagDescription": ["Commercial union"],
+    "tagDate": ["1887-08-13T00:00:00.000Z"],
+    "tagName": ["Barron, Hon. John A."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "297": {
+    "tagDate": ["1887-02-02T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics"],
+    "tagName": ["Goring, Ransom", "Mercier, F. A."]
+  },
+  "119": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dubeau, E.J."],
+    "tagDate": ["1883-12-22T00:00:00.000Z"],
+    "tagDescription": ["Bankruptcy Law"]
+  },
+  "603": {
+    "tagDescription": ["Reciprocity"],
+    "tagDate": ["1888-12-10T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "827": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."],
+    "tagDate": ["1889-10-08T00:00:00.000Z"],
+    "tagDescription": ["Legislation re. courts"]
+  },
+  "638": {
+    "tagDescription": ["Customs regulations"],
+    "tagDate": ["1889-01-11T00:00:00.000Z"],
+    "tagName": ["Holton, E."]
+  },
+  "562": {
+    "tagDate": ["1888-06-14T00:00:00.000Z"],
+    "tagDescription": ["General election"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bracken, Henry"]
+  },
+  "113": {
+    "tagDate": ["1883-10-29T00:00:00.000Z"],
+    "tagDescription": ["Liberal Party"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Casgrain, (M?)"]
+  },
+  "406": {
+    "tagDate": ["1887-09-01T00:00:00.000Z"],
+    "tagDescription": ["Liberal Party funds"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edgar, J. D."]
+  },
+  "91": {
+    "tagDescription": ["Musketry school (Encls.)"],
+    "tagDate": ["1880-02-05T00:00:00.000Z"],
+    "tagName": ["McGreevy, T."]
+  },
+  "185": {
+    "tagName": ["Langelier, Chas."],
+    "tagDate": ["1885-01-16T00:00:00.000Z"],
+    "tagDescription": ["L'Electeur"]
+  },
+  "502": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fisher, Alex P."],
+    "tagDate": ["1888-03-07T00:00:00.000Z"],
+    "tagDescription": ["North West Territories (Encl.)"]
+  },
+  "257": {
+    "tagDate": ["1886-06-15T00:00:00.000Z"],
+    "tagDescription": ["Invitation"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blanchard, E. Rev.", "Malone, N.Y."]
+  },
+  "631": {
+    "tagDate": ["1889-01-07T00:00:00.000Z"],
+    "tagDescription": ["Canada-U.S. Trade relations"],
+    "tagName": ["Jones, Alfred G."]
+  },
+  "1022": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Liberal Party leadership"],
+    "tagDate": ["1890-06-02T00:00:00.000Z"]
+  },
+  "489": {
+    "tagName": ["Saskatchewan Metis"],
+    "tagDescription": ["North West Territories"],
+    "tagDate": ["1888-02-16T00:00:00.000Z"]
+  },
+  "663": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bï¿½langer, L.C."],
+    "tagDate": ["1889-04-20T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics"]
+  },
+  "680": {
+    "tagDescription": ["Quebec politics Compton Co."],
+    "tagDate": ["1889-05-02T00:00:00.000Z"],
+    "tagName": ["Bï¿½langer, L.C."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "303": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Jesuits Estates - Politics"],
+    "tagDate": ["1887-02-02T00:00:00.000Z"]
+  },
+  "452": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Edgar, J. D."],
+    "tagDate": ["1887-11-14T00:00:00.000Z"],
+    "tagDescription": ["Haldinand election Winnipeg matter"]
+  },
+  "115": {
+    "tagName": ["Mark, Davis"],
+    "tagDescription": ["Liberal Party"],
+    "tagDate": ["1883-11-30T00:00:00.000Z"]
+  },
+  "622": {
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Quebec matter"],
+    "tagDate": ["1889-01-01T00:00:00.000Z"]
+  },
+  "100": {
+    "tagDate": ["1882-05-19T00:00:00.000Z"],
+    "tagDescription": ["Federal election Richelieu (R. Only)"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "49": {
+    "tagDate": ["1875-10-06T00:00:00.000Z"],
+    "tagDescription": ["Canada Supreme Court (Encls.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Carnarvon, Lord"]
+  },
+  "275": {
+    "tagDate": ["1886-10-30T00:00:00.000Z"],
+    "tagDescription": ["Liberal candidate in Quebec-politics"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blake, E. Hon."]
+  },
+  "556": {
+    "tagDate": ["1888-06-09T00:00:00.000Z"],
+    "tagDescription": ["Jesuit Estates", "Jesuit Estates Quebec politics"],
+    "tagName": ["Jetter, Louis Amable Sir"]
+  },
+  "419": {
+    "tagDate": ["1887-09-22T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity"],
+    "tagName": ["McDougall, Wm."]
+  },
+  "751": {
+    "tagDate": ["1889-07-25T00:00:00.000Z"],
+    "tagDescription": ["Liberal party"],
+    "tagName": ["Thomson, E.W."]
+  },
+  "1031": {
+    "tagName": ["Turcotte, Joseph P."],
+    "tagDate": ["1890-06-23T00:00:00.000Z"],
+    "tagDescription": ["Montmorency Co. politics"]
+  },
+  "244": {
+    "tagName": ["Langelier, Francois"],
+    "tagDate": ["1886-02-12T00:00:00.000Z"],
+    "tagDescription": ["Signature of document"]
+  },
+  "843": {
+    "tagDescription": ["Canada - U.S. relations"],
+    "tagDate": ["1889-12-08T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "610": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fisher, Sydney A."],
+    "tagDate": ["1888-12-27T00:00:00.000Z"],
+    "tagDescription": ["Liberal party"]
+  },
+  "605": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagDate": ["1888-12-13T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity"]
+  },
+  "775": {
+    "tagDescription": ["Manitoba schools"],
+    "tagDate": ["1889-08-09T00:00:00.000Z"],
+    "tagName": ["Cartwright, Richard John Sir"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "828": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Davies, Louis H."],
+    "tagDate": ["1889-10-14T00:00:00.000Z"],
+    "tagDescription": ["Unrestricted reciprocity"]
+  },
+  "316": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Laurier's musket speech"],
+    "tagDate": ["1887-03-09T00:00:00.000Z"]
+  },
+  "590": {
+    "tagDescription": ["L'Isle Verte seigniory (Encl.)"],
+    "tagDate": ["1888-10-30T00:00:00.000Z"],
+    "tagName": ["Gauvreau, Charles A."]
+  },
+  "596": {
+    "tagDescription": ["Quebec politics"],
+    "tagDate": ["1888-11-09T00:00:00.000Z"],
+    "tagName": ["Whyte, John"]
+  },
+  "310": {
+    "tagDate": ["1887-03-05T00:00:00.000Z"],
+    "tagDescription": ["Quebec politics"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Blondin, J.A."]
+  },
+  "614": {
+    "tagDate": ["1888-12-31T00:00:00.000Z"],
+    "tagDescription": ["Unrestricted reciprocity"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fiset, R."]
+  },
+  "291": {
+    "tagDate": ["1887-01-01T00:00:00.000Z"],
+    "tagDescription": ["Liberal Party(Encl.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cameron, John"]
+  },
+  "616": {
+    "tagName": ["Bain, Thomas"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["House of Commons business"],
+    "tagDate": ["1888-12-31T00:00:00.000Z"]
+  },
+  "189": {
+    "tagDescription": ["E. Blake's Riel speech"],
+    "tagDate": ["1885-07-20T00:00:00.000Z"],
+    "tagName": ["Davies, Louis H."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "492": {
+    "tagDescription": ["Liberal policies"],
+    "tagDate": ["1888-02-17T00:00:00.000Z"],
+    "tagName": ["Mulock, Wm."]
+  },
+  "665": {
+    "tagDescription": ["Manitoba Schools"],
+    "tagDate": ["1889-04-26T00:00:00.000Z"],
+    "tagName": ["Blake, E. Hon."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "104": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["British Union"],
+    "tagDate": ["1883-01-01T00:00:00.000Z"],
+    "tagDescription": ["Membership"]
+  },
+  "550": {
+    "tagDate": ["1888-04-13T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity"],
+    "tagName": ["Wiman, Erastus"]
+  },
+  "337": {
+    "tagDescription": ["Electoral funds"],
+    "tagDate": ["1887-06-27T00:00:00.000Z"],
+    "tagName": ["Edgar, J. D."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "529": {
+    "tagDate": ["1888-03-23T00:00:00.000Z"],
+    "tagDescription": ["North West Territories (Encls.)"],
+    "tagName": ["Gautier, Fred E."]
+  },
+  "183": {
+    "tagDescription": ["Liberal candidate"],
+    "tagDate": ["1885-01-02T00:00:00.000Z"],
+    "tagName": ["Langelier, Chas."]
+  },
+  "485": {
+    "tagDate": ["1888-01-31T00:00:00.000Z"],
+    "tagDescription": ["Liberal policies"],
+    "tagName": ["Platt, J.M."]
+  }
+}

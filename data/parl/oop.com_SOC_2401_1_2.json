@@ -1,0 +1,11 @@
+{
+  "pubmin": "1958-05-12",
+  "callNumber": "1958 B35i A1",
+  "label": "Senate Committees, 24th Parliament, 1st Session : Standing Committee on Banking and Commerce, vol. 2",
+  "language": ["eng"],
+  "session": ["24-1"],
+  "type": "committees",
+  "pubmax": "1958-09-06",
+  "node": [["eng", "s", "committees", "24-1", 2]],
+  "chamber": ["s"]
+}

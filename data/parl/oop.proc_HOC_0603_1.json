@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "cproc",
+  "pubmax": "1889-05-02",
+  "node": [["eng", "c", "cproc", "06-3", 1]],
+  "language": ["eng"],
+  "session": ["06-3"],
+  "pubmin": "1889-01-31",
+  "callNumber": "J103 H41 1889 c.2",
+  "label": "House of Commons Votes and Proceedings, 6th Parliament, 3rd Session : 1-65"
+}

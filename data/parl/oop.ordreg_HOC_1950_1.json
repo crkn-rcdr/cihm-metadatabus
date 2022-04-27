@@ -1,0 +1,15 @@
+{
+  "pubmax": "1951-01-29",
+  "node": [
+    ["eng", "c", "orders", null, 3],
+    ["fra", "c", "orders", null, 3]
+  ],
+  "type": "orders",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "callNumber": "JL164.4 1950",
+  "label": "Standing Orders of the House of Commons, 1950 = Règlement de la Chambre des communes du Canada, 1950",
+  "pubmin": "1950-02-16",
+  "session": ["21-2", "21-3"],
+  "language": ["eng", "fra"]
+}

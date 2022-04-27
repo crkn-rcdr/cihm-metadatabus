@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["31-1"],
+  "pubmin": "1979-10-09",
+  "label": "House of Commons Bills, 31st Parliament, 1st Session : C2-C14 = Projets de loi de la Chambre des communes, 31e Législature, 1re Session : C2-C14",
+  "primeMinisters": "Clark, Charles Joseph",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "31-1", 1],
+    ["fra", "c", "bills", "31-1", 1]
+  ],
+  "pubmax": "1979-12-14"
+}

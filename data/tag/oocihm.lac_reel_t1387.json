@@ -1,0 +1,39 @@
+{
+  "1200": { "tagDescription": ["Missing / Manque"] },
+  "2003": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid "]
+  },
+  "898": {
+    "tagDate": ["1887-01-01T00:00:00.000Z"],
+    "tagDescription": ["Hurons of Lorette Claim to Seigniory of Sillery"]
+  },
+  "1202": {
+    "tagDescription": ["Judgments of Judicial Committee of Privy Council"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"]
+  },
+  "1199": {
+    "tagDate": ["[1875-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Publications (Duplicates of 2001 1)"]
+  },
+  "1031": {
+    "tagDescription": ["Publications"],
+    "tagDate": ["[1875-01-01T00:00:00.000Z TO 1879-12-31T23:59:59.999Z]"]
+  },
+  "145": {
+    "tagDescription": ["Indians  North American"],
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1923-12-31T23:59:59.999Z]"]
+  },
+  "1440": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Judgments of Judicial Committee of Privy Council"]
+  },
+  "1661": {
+    "tagDescription": ["Ibid "],
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]
+  },
+  "578": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]
+  }
+}

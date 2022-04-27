@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "sessional", "06-2", 2]],
+  "pubmax": "1888-05-22",
+  "type": "sessional",
+  "session": ["06-2"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 6th Parliament, 2nd Session : vol. 2",
+  "pubmin": "1888-02-23"
+}

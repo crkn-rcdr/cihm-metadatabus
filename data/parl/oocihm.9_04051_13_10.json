@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["04-2"],
+  "pubmin": "1880-02-12",
+  "label": "Documents parlementaires, 4e Législature, 2e Session : vol. 10",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "sessional",
+  "pubmax": "1880-05-07",
+  "node": [["fra", "c", "sessional", "04-2", 10]]
+}

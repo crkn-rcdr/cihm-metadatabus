@@ -1,0 +1,10 @@
+{
+  "language": ["fra"],
+  "session": ["09-2"],
+  "pubmin": "1902-02-13",
+  "label": "Débats du Sénat, 9e Législature, 2e Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1902-05-15",
+  "node": [["fra", "s", "debates", "09-2", 1]]
+}

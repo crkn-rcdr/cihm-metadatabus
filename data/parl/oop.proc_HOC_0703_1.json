@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "07-3", 1]],
+  "pubmax": "1893-04-01",
+  "type": "cproc",
+  "session": ["07-3"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 7th Parliament, 3rd Session : 1-47",
+  "callNumber": "J103 H41 1893 c.2",
+  "pubmin": "1893-01-26"
+}

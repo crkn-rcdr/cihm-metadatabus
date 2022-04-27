@@ -1,0 +1,12 @@
+{
+  "session": ["21-4"],
+  "language": ["eng"],
+  "callNumber": "1951 R34 A1",
+  "label": "House of Commons Committees, 21st Parliament, 4th Session : Standing Committee on Railways, Canal and Telegraph lines, vol. 1",
+  "pubmin": "1951-01-30",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1951-10-09",
+  "node": [["eng", "c", "committees", "21-4", 7]],
+  "type": "committees"
+}

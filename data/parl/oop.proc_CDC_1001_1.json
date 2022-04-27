@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "pubmax": "1905-07-20",
+  "node": [["fra", "c", "cproc", "10-1", 1]],
+  "type": "cproc",
+  "session": ["10-1"],
+  "language": ["fra"],
+  "callNumber": "J103 H44 1905",
+  "label": "Procès-verbaux de la Chambre des communes, 10e Législature, 1re Session : 1-129",
+  "pubmin": "1905-01-11"
+}

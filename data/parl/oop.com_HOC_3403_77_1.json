@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 160],
+    ["fra", "c", "committees", "34-3", 1]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 N59 A1 no.1-9",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-115, an Act to implement the North American Free Trade Agreement, vol. 1 no. 1-9 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-115, Loi portant mise en oeuvre de l'Accord de libre-échange nord-américain, vol. 1 no. 1-9"
+}

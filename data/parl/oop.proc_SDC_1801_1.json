@@ -1,0 +1,11 @@
+{
+  "label": "Procès-verbaux du Sénat, 18e Législature, 1re Session : 1-49",
+  "callNumber": "J103 H43 1936",
+  "pubmin": "1936-02-06",
+  "session": ["18-1"],
+  "language": ["fra"],
+  "node": [["fra", "s", "sproc", "18-1", 1]],
+  "pubmax": "1936-06-23",
+  "type": "sproc",
+  "chamber": ["s"]
+}

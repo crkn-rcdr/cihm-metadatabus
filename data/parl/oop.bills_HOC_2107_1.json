@@ -1,0 +1,12 @@
+{
+  "type": "bills",
+  "node": [["eng", "c", "bills", "21-7", 1]],
+  "pubmax": "1953-05-14",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "pubmin": "1952-11-20",
+  "label": "House of Commons Bills, 21st Parliament, 7th Session : 2-368",
+  "callNumber": "KE72 C36 21-7 2-368",
+  "language": ["eng"],
+  "session": ["21-7"]
+}

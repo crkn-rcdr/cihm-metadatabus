@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["20-5"],
+  "pubmin": "1949-01-26",
+  "label": "Comités de la Chambre des communes, 20e Législature, 5e Session : Comité permanent des comptes publics, vol. 1",
+  "callNumber": "1949 C6 A4",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "20-5", 2]],
+  "pubmax": "1949-04-30"
+}

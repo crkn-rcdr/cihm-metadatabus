@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["11-1"],
+  "pubmin": "1909-01-20",
+  "callNumber": "J103 H44 1909",
+  "label": "Procès-verbaux de la Chambre des communes, 11e Législature, 1re Session : 1-84",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "type": "cproc",
+  "pubmax": "1909-05-19",
+  "node": [["fra", "c", "cproc", "11-1", 1]]
+}

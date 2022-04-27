@@ -1,0 +1,14 @@
+{
+  "label": "Rules of the Senate of Canada, 1980 (rev.) = Règlement du Sénat du Canada, 1980 (rev.)",
+  "callNumber": "JL158.3 1980 rev.",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "s", "rules", null, 21],
+    ["fra", "s", "rules", null, 21]
+  ],
+  "pubmax": "1983-11-30",
+  "type": "rules",
+  "chamber": ["s"]
+}

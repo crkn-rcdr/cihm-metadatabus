@@ -1,0 +1,11 @@
+{
+  "pubmin": "1874-03-26",
+  "label": "Senate Bills, 3rd Parliament, 1st Session : A-V",
+  "callNumber": "KE72 C38 3-1 Bill A-",
+  "language": ["eng"],
+  "session": ["03-1"],
+  "type": "bills",
+  "node": [["eng", "s", "bills", "03-1", 1]],
+  "pubmax": "1874-05-26",
+  "chamber": ["s"]
+}

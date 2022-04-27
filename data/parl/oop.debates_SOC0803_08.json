@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["eng", "s", "debates", "08-3", 1]],
+  "pubmax": "1898-06-13",
+  "language": ["eng"],
+  "session": ["08-3"],
+  "pubmin": "1898-02-03",
+  "label": "Senate Debates, 8th Parliament, 3rd Session : Vol. 1"
+}

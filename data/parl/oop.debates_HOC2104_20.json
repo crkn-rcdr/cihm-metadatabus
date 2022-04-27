@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 21st Parliament, 4th Session : Index",
+  "pubmin": "1951-01-30",
+  "session": ["21-4"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "21-4", 6]],
+  "pubmax": "1951-10-09",
+  "type": "debates",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

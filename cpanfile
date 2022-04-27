@@ -7,6 +7,7 @@ requires 'DateTime';
 requires 'Date::Manip';
 requires 'Date::Parse';
 requires 'JSON';
+requires 'JSON::Parse';
 requires 'Types::Standard';
 requires 'Role::REST::Client';
 requires 'Crypt::JWT';

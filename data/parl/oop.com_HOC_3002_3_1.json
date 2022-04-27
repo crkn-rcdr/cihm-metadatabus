@@ -1,0 +1,15 @@
+{
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "c", "committees", "30-2", 3],
+    ["fra", "c", "committees", "30-2", 2]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "callNumber": "1976/77 E9 A1",
+  "label": "House of Commons Committees, 30th Parliament, 2nd Session : Standing Committee on External Affairs and National Defence, vol. 1 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité permanent des affaires extérieures et de la défense nationale, vol. 1",
+  "pubmin": "1976-10-12",
+  "session": ["30-2"],
+  "language": ["eng", "fra"]
+}

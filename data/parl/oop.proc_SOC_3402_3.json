@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "J103 H4 34-2 no. 92-122 c.2",
+  "label": "Senate Minutes of Proceedings, 34th Parliament, 2nd Session : 92-122 = Procès-verbaux du Sénat, 34e Législature, 2e Session : 92-122",
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "s", "sproc", "34-2", 3],
+    ["fra", "s", "sproc", "34-2", 3]
+  ]
+}

@@ -1,0 +1,4281 @@
+{
+  "407": {
+    "tagPlace": ["Charlottenburgh"],
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1804-03-22T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "McGill, John",
+      "Shaver, Nicholas",
+      "McKay, Hugh"
+    ]
+  },
+  "139": {
+    "tagPlace": ["United Counties of Peterborough and Victoria"],
+    "tagDate": ["1856-03-18T00:00:00.000Z"]
+  },
+  "256": {
+    "tagDate": ["1804-05-20T00:00:00.000Z"],
+    "tagPerson": ["Fisher, Alex", "Ross, William"],
+    "tagPlace": ["Kingston", "Adolphustown"]
+  },
+  "290": {
+    "tagPerson": ["Chewett, William"],
+    "tagDate": ["[1803-11-18T00:00:00.000Z TO 1803-12-12T23:59:59.999Z]"]
+  },
+  "546": {
+    "tagDate": ["[1794-01-07T23:59:59.999Z TO 1798-12-15T00:00:00.000Z]"],
+    "tagPerson": [
+      "Henderson, Mary",
+      "Russell, Peter",
+      "McKenty, Ensign",
+      "Smith, D, W",
+      "Farrand, I"
+    ],
+    "tagPlace": [
+      "Township of Matilda",
+      "Cornwall",
+      "Osnabruck",
+      "Upper Canada",
+      "Township of Lancaster",
+      "Charlottenburg"
+    ]
+  },
+  "618": {
+    "tagPlace": [
+      "Ernest Town",
+      "Ameliasburgh",
+      "Township of Kingston",
+      "Sidney",
+      "Cataraqui"
+    ],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Mosure, John",
+      "McDonell, Archibald",
+      "Spencer, Hazleton",
+      "Atkinson, William",
+      "Covell, Simson",
+      "Cumming, John",
+      "Purdy, Micajah",
+      "Knight, Mahlon",
+      "Herchmer, Laurence",
+      "Smith, Peter",
+      "Fairfield, William, Senior",
+      "Cartwright, Richard",
+      "Ransier, William",
+      "Rocheleau, Francis, Javier",
+      "Vanalstine, Peter",
+      "Anderson, Joseph",
+      "Rainey, Seth"
+    ]
+  },
+  "223": {
+    "tagDate": ["1805-03-29T00:00:00.000Z"],
+    "tagPerson": ["C, Phillip", "Swayze, Isaac"],
+    "tagPlace": ["Township of Stamford", "Niagara"]
+  },
+  "81": {
+    "tagPlace": ["Charlottenburg", "County of Glengarry"],
+    "tagPerson": [
+      "Cameron, W",
+      "McPherson, Don",
+      "McDonell, Alexr",
+      "Boulton, James",
+      "McLean, A"
+    ],
+    "tagDate": ["[1721-06-06T23:59:59.999Z TO 1822-09-04T00:00:00.000Z]"]
+  },
+  "611": {
+    "tagDate": ["1797-09-14T00:00:00.000Z"],
+    "tagPerson": [
+      "Ward, William",
+      "Briscoe, Isaac",
+      "Clarke, Robert",
+      "Vanalstine, Peter",
+      "Peters, Charles, J",
+      "Day, Barnabas",
+      "Hanes, Gilbert",
+      "Booth, Joshua",
+      "McDonell, Archibald",
+      "Seymoure, Benjamin",
+      "Spencer, Hazleton",
+      "Atkinson, William",
+      "Ward, Samuel",
+      "Fisher, Alexander"
+    ],
+    "tagPlace": [
+      "Township of Loughborough",
+      "Township of Kingston",
+      "Fredericksburgh",
+      "Ernest Town"
+    ]
+  },
+  "93": {
+    "tagPlace": ["County of York", "Township of Etobicoke"],
+    "tagPerson": [
+      "Meighan, Michael",
+      "Montgomery, Thomas",
+      "Jackson",
+      "Meighan, Robert"
+    ],
+    "tagDate": ["1828-12-20T00:00:00.000Z"]
+  },
+  "318": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1803-07-22T00:00:00.000Z]"],
+    "tagPlace": ["Midland", "Sophiasburgh"]
+  },
+  "467": {
+    "tagPerson": [
+      "Allcock, H",
+      "McKindlay, John",
+      "McGill, John",
+      "Smale, John"
+    ],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1804-01-01T00:00:00.000Z]"],
+    "tagPlace": ["York", "Southborough", "Montreal"]
+  },
+  "579": {
+    "tagPerson": ["Hunter, Peter", "Ridout, Chevett, V"],
+    "tagDate": ["[1799-01-01T00:00:00.000Z TO 1800-05-06T23:59:59.999Z]"],
+    "tagPlace": ["Province of Upper Canada", "Eastern District"]
+  },
+  "88": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Campbell, S"]
+  },
+  "142": {
+    "tagDate": ["1831-03-05T00:00:00.000Z"],
+    "tagPerson": ["Harns, Josiah", "Harns, Jane", "Thomas, John"],
+    "tagPlace": [
+      "County of Northumberland",
+      "Township of Haldimand",
+      "Province of Upper Canada",
+      "New Castle District"
+    ]
+  },
+  "388": {
+    "tagPlace": ["York", "Midland"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1804-02-24T00:00:00.000Z]"],
+    "tagPerson": ["Casey, Willet", "McGill, Jno", "Allcock, H", "Small, J"]
+  },
+  "135": {
+    "tagPlace": [
+      "Province of Canada",
+      "Village of Harwood",
+      "County of Peterborough",
+      "County of Northumberland"
+    ],
+    "tagDate": ["1858-06-29T00:00:00.000Z"],
+    "tagPerson": ["Roger, Robert, David", "Menzies, Thomas"]
+  },
+  "262": {
+    "tagPlace": ["Northumberland", "County of Hasting", "Cramahe"],
+    "tagDate": ["1804-05-20T00:00:00.000Z"],
+    "tagPerson": ["Travis, Wm", "Playton, George, Captain", "Green, Colonel"]
+  },
+  "439": {
+    "tagPlace": ["York"],
+    "tagDate": ["1804-06-29T00:00:00.000Z"],
+    "tagPerson": [
+      "Fitch, Ann",
+      "Arnolds, Benedick",
+      "McGill, John",
+      "Allcock, H",
+      "Arnold, Magaret",
+      "Fitch, Sarah"
+    ]
+  },
+  "107": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Willson, Thomas", "Jarvis, S", "Hamberstone, Thomas"],
+    "tagDate": ["1820-04-14T00:00:00.000Z"]
+  },
+  "70": {
+    "tagPerson": ["Berer, Jacques, Senior", "Berer, Jacques, Junior"],
+    "tagDate": ["[1800-10-29T00:00:00.000Z TO 1800-10-31T23:59:59.999Z]"],
+    "tagPlace": ["County of Essex"]
+  },
+  "167": {
+    "tagPerson": ["Smith, Peter"],
+    "tagDate": ["1798-01-01T00:00:00.000Z"]
+  },
+  "37": {
+    "tagPlace": ["Township of Whitchurch"],
+    "tagPerson": ["Ferguson, Jacob", "Ferguson, Richard"],
+    "tagDate": ["1803-07-16T00:00:00.000Z"]
+  },
+  "202": {
+    "tagPerson": [
+      "Hendrickson, Peter",
+      "Millross, Andrew",
+      "Burk, Donald",
+      "Horn, Frederick",
+      "Smith, Donald",
+      "Ferguson, Peter",
+      "Wilkinson, W, B",
+      "McDonell, Donald",
+      "McGill, John",
+      "Munro, Alexander",
+      "Darcy, Thomas"
+    ],
+    "tagDate": ["1805-02-28T00:00:00.000Z"],
+    "tagPlace": ["Hawkesbury", "Boxborough", "Kenyon", "Charlottenburg", "York"]
+  },
+  "725": {
+    "tagDate": ["[1802-07-27T00:00:00.000Z TO 1802-09-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "French, J",
+      "Ridout, Chewett",
+      "Paterson, Allan",
+      "Elmsley, J",
+      "Farrand, J",
+      "Powell, Wm, Dummer",
+      "Hunter, Peter, Lieutenant Governor"
+    ],
+    "tagPlace": ["Province of Upper Canada", "Province of Lower Canada"]
+  },
+  "381": {
+    "tagPerson": [
+      "McGilles, Archibald",
+      "Allcock, H",
+      "B, John",
+      "Small, John"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-02-10T00:00:00.000Z]"],
+    "tagPlace": ["Lancaster", "York"]
+  },
+  "247": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 0000-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Forsyth, Joseph"],
+    "tagPlace": ["Leeds", "Kingston", "Grenville"]
+  },
+  "100": {
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1823-01-01T00:00:00.000Z]"],
+    "tagPerson": ["R, Thomas", "Robinson, John, B"],
+    "tagPlace": ["Toronto"]
+  },
+  "251": {
+    "tagPlace": ["Matilda"],
+    "tagDate": ["1804-05-22T00:00:00.000Z"],
+    "tagPerson": ["Munro, Corneluis"]
+  },
+  "554": {
+    "tagPlace": [
+      "York",
+      "Township of Camber",
+      "Township of Plantagenet",
+      "Township of Cumberland",
+      "Eastern District",
+      "Grand River",
+      "Township of Alfred"
+    ],
+    "tagDate": ["1799-08-29T00:00:00.000Z"],
+    "tagPerson": [
+      "Zoone, John",
+      "Hawfield, Thomas",
+      "Geduke, Henry, George",
+      "Lee, Thomas",
+      "Connell",
+      "Jackson, Robert",
+      "Handfield, Thomas",
+      "Kindlay, John, M",
+      "Thompson, Elizabeth",
+      "Kayson, Michael",
+      "Thompson, Thomas",
+      "Graham, Thomas",
+      "Drew, Thomas",
+      "Powell, William, Dummer"
+    ]
+  },
+  "413": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Allcock, H", "Seelye, Patrick", "McGill, John"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-03-31T00:00:00.000Z]"]
+  },
+  "164": {
+    "tagDate": ["1792-06-01T00:00:00.000Z"],
+    "tagPerson": ["McKiernan, John"]
+  },
+  "605": {
+    "tagPerson": [
+      "Scott, Francis",
+      "McNeil, John",
+      "McGill, Andrew",
+      "Scott, John, Junior",
+      "Nettleton, Stephen",
+      "Smith, Benoni",
+      "Pearson, Samuel",
+      "Philips, Jonathan",
+      "Fraser, Wm",
+      "Kies, Asahel",
+      "B, John",
+      "Burrit, Stephen",
+      "Vancury, Benjamin",
+      "Allcock, H",
+      "Nettleton, Daniel",
+      "Sherwood, Justus",
+      "Barton, Joseph",
+      "McGill, James",
+      "Sherwood, Samuel",
+      "Livingston, John",
+      "Sherwood, Livius, P",
+      "Jones, Eph",
+      "Tompkins, Israel"
+    ],
+    "tagDate": ["1801-05-12T00:00:00.000Z"],
+    "tagPlace": [
+      "Township of Lansdowne",
+      "Township of Augusta",
+      "Township of Yonge"
+    ]
+  },
+  "32": {
+    "tagPerson": ["Rice, Reuben", "Cutter, Abraham"],
+    "tagDate": ["1804-01-03T00:00:00.000Z"]
+  },
+  "316": {
+    "tagPlace": ["Fredericksburgh", "Midland"],
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1801-01-01T00:00:00.000Z TO 1803-07-22T23:59:59.999Z]"]
+  },
+  "365": { "tagPlace": ["Midland"], "tagDate": ["1803-01-01T00:00:00.000Z"] },
+  "62": {
+    "tagPerson": [
+      "Grant, Duncan",
+      "Sherwood, Justus",
+      " S, Louis, Medard",
+      "Campbell, James",
+      "Starkwathes, Ada",
+      "Jones, E"
+    ],
+    "tagDate": ["1788-07-26T00:00:00.000Z"]
+  },
+  "240": {
+    "tagPerson": [
+      "Misener, Jacob",
+      "Small, John",
+      "Selby, P",
+      "Schroder, Christian"
+    ],
+    "tagDate": ["[1796-12-31T23:59:59.999Z TO 1811-05-02T00:00:00.000Z]"],
+    "tagPlace": ["Markham"]
+  },
+  "305": {
+    "tagDate": ["1803-09-26T00:00:00.000Z"],
+    "tagPlace": ["Grand River Cataraqui", "Midland"]
+  },
+  "665": {
+    "tagPlace": [
+      "Township of Hallowell",
+      "Sidney",
+      "Camden",
+      "Ernest Town",
+      "Cataraqui",
+      "Town of Kingston",
+      "Pittsburgh",
+      "Sophiasburgh",
+      "Ameliasburgh"
+    ],
+    "tagPerson": [
+      "Elmsley, J",
+      "Cartwright, Richard",
+      "Couger, Peter, Designa",
+      "Rose, Mathias",
+      "Way, Samuel",
+      "Couger, David",
+      "Lezier, Nicholas",
+      "Robertson, Elizabeth",
+      "Spencer, Hazleton",
+      "McLeod, John Alley, Elias",
+      "Couger, Stephen",
+      "Ferguson, Magdalene",
+      "Wilkins, Robert",
+      "Brewer, Aaron",
+      "West, Henry",
+      "Baillie, John",
+      "Lester, Robert",
+      "Huff, Paul",
+      "Ferguson, John",
+      "Couger, Wilson"
+    ],
+    "tagDate": ["1799-08-13T00:00:00.000Z"]
+  },
+  "616": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Pember, Philip",
+      "Lake, James",
+      "Hogle, Bostian",
+      "Johnson, William",
+      "Leake, John",
+      "Fisher, Alexander",
+      "Swartz, Simon",
+      "Anderson, Alexander",
+      "Peterson, Nicholas",
+      "Caldwell, John",
+      "McMasters, James",
+      "Darly, John"
+    ],
+    "tagPlace": [
+      "Adolphustown",
+      "Ameliasburgh",
+      "Thurlow",
+      "Fredericksburgh",
+      "Ernest Town",
+      "Camden",
+      "Township of Kingston",
+      "Township of Loughborough"
+    ]
+  },
+  "492": {
+    "tagPlace": ["York", "Yonge", "Elizabethtown", "Lansdowne"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-12T00:00:00.000Z]"],
+    "tagPerson": [
+      "McGill, John",
+      "Kilborn, Oliver",
+      "Russell, Abigail",
+      "M, Thomas",
+      "Andrews, William",
+      "Q, Ruth",
+      "Smale, John",
+      "Webster, Asa",
+      "Allcock, H"
+    ]
+  },
+  "183": {
+    "tagPlace": ["Township of Ancaster", "York"],
+    "tagDate": ["1804-12-17T00:00:00.000Z"],
+    "tagPerson": ["Chrysler, Henry", "Detlor, John", "Clinton, William"]
+  },
+  "258": {
+    "tagPlace": ["Marysburg", "Kingston", "County of Prince Edward"],
+    "tagDate": ["1804-05-19T00:00:00.000Z"],
+    "tagPerson": ["Ross, William", "McDonell, A"]
+  },
+  "369": {
+    "tagDate": ["[1803-12-28T23:59:59.999Z TO 1804-01-06T00:00:00.000Z]"],
+    "tagPerson": ["Richardson, Thos"],
+    "tagPlace": ["Midland"]
+  },
+  "273": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"]
+  },
+  "464": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-14T00:00:00.000Z]"],
+    "tagPerson": ["Miller, Andrew", "Rogers, William", "Bush, Henry"],
+    "tagPlace": ["York", "Ernesttown"]
+  },
+  "400": {
+    "tagPlace": ["Niagara", "Township of Stamford", "York"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-15T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H", "Aker, Lambert", "Small, John"]
+  },
+  "113": {
+    "tagDate": ["[1843-12-31T23:59:59.999Z TO 1845-01-21T00:00:00.000Z]"],
+    "tagPerson": ["Gordon, James", "Dolsen, John"]
+  },
+  "460": {
+    "tagPerson": ["Rogers, James", "M, Thomas", "Chewett, William"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-14T00:00:00.000Z]"],
+    "tagPlace": ["Whitchurch", "Vaughan", "Town of York", "York"]
+  },
+  "483": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-06T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "McKindlay, John",
+      "Coucher, Christian",
+      "M, Donald",
+      "Smale, John",
+      "McGill, John"
+    ],
+    "tagPlace": ["Cumberland", "York", "Cornwall"]
+  },
+  "669": {
+    "tagDate": ["[1800-03-26T00:00:00.000Z TO 1800-08-24T23:59:59.999Z]"],
+    "tagPerson": [
+      "Lester, Robert",
+      "N, John",
+      "Cougor, Peter, Designa",
+      "Baillie, John",
+      "Cougor, Stephen",
+      "Wist, Henry",
+      "Ferguson, Magdalen",
+      "B, Aaron",
+      "Huff, Paul",
+      "Richard, John",
+      "Hunter, Peter",
+      "McLean, Allan",
+      "Alley, Elias",
+      "Owen",
+      "Wilkins, Robert",
+      "Howard, John",
+      "Cougor, Wilson",
+      "Wist, John",
+      "McGrath",
+      "Ansley, Amos",
+      "Johnson, Margaret",
+      "L, Lewis",
+      "Rose, Mathias",
+      "Ransier, William",
+      "Green, John",
+      "Ansley, Rebeca",
+      "S, David",
+      "Ferguson, John",
+      "Johnson, George",
+      "ONeil, Elizabeth",
+      "Richard, Owen",
+      "McLean, Neil",
+      "McLeod, John",
+      "Mosh, John",
+      "N, Andrew",
+      "Spencer, John",
+      "Way, Samuel",
+      "Robertson, Elizabeth",
+      "Coon, Simon",
+      "Crawford, Capt",
+      "Wells, William",
+      "Cougor, David",
+      "Smith, D, W",
+      "Baker, John, Junior"
+    ],
+    "tagPlace": ["Province of Upper Canada", "Midland District"]
+  },
+  "404": {
+    "tagPlace": ["York", "District of London"],
+    "tagPerson": ["McGill, John", "Smith, Elias", "Allcock, H"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-19T00:00:00.000Z]"]
+  },
+  "192": {
+    "tagPlace": ["Township of Yonge", "York"],
+    "tagPerson": ["McGill, John", "Griffin, Samuel", "Shipman, Samuel"],
+    "tagDate": ["[1804-08-30T00:00:00.000Z TO 1804-10-27T23:59:59.999Z]"]
+  },
+  "56": {
+    "tagDate": ["[1798-01-01T00:00:00.000Z TO 1808-05-08T23:59:59.999Z]"],
+    "tagPerson": [
+      "V, John",
+      "F, Christopher",
+      "Robinson, Christopher",
+      "Powell, Wm, D"
+    ],
+    "tagPlace": ["Upper Canada", "Kingston"]
+  },
+  "386": {
+    "tagPlace": ["York", "Township of Cornwall"],
+    "tagPerson": ["Allcock, H", "B, John", "Brownell, Joseph", "Small, John"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-02-23T00:00:00.000Z]"]
+  },
+  "417": {
+    "tagPlace": ["Midland", "Township of Adolphustown", "York"],
+    "tagPerson": ["Allcock, H", "Canniff, John", "McGill"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-04-05T00:00:00.000Z]"]
+  },
+  "608": {
+    "tagPlace": [
+      "Ernest Town",
+      "Township of Loughborough",
+      "Cataraqui",
+      "Western",
+      "Township of Kingston",
+      "Pittsburg"
+    ],
+    "tagPerson": [
+      "Atkinson, William",
+      "Fairfield, William, Senior",
+      "Fisher, Alexander",
+      "Cartwright, Richard",
+      "Darly, John",
+      "McDonell, Archibald",
+      "Booth, Joshua",
+      "Spencer, Hazleton",
+      "Grant, John",
+      "Campbell, Hugh",
+      "Vanalstine, Peter",
+      "McLead, John"
+    ],
+    "tagDate": ["1797-01-01T00:00:00.000Z"]
+  },
+  "86": {
+    "tagPlace": ["Charlottenburg"],
+    "tagDate": ["[1815-01-01T00:00:00.000Z TO 1823-09-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Powell, Jn",
+      "Boulton, James",
+      "Campbell, M",
+      "McPherson, Donato, Capt",
+      "McKenzie, Ann",
+      "McKenzie, Alexr",
+      "Johnson, John"
+    ]
+  },
+  "532": {
+    "tagPlace": [
+      "Township of Plantagenet",
+      "York Zuere",
+      "South Side Grand River Eastern District",
+      "Township Edwardsburg",
+      "Township of Leeds",
+      "Ottawa River",
+      "Kingston"
+    ],
+    "tagDate": ["1797-09-27T00:00:00.000Z"],
+    "tagPerson": ["Macauley, Robert", "McKindlay, John", "Farrand, I"]
+  },
+  "601": {
+    "tagPlace": [
+      "Williamsburg",
+      "York",
+      "Township of Lancaster",
+      "Township of Osnabruck",
+      "Eastern District",
+      "Township of Cornwall",
+      "Township of Matilda"
+    ],
+    "tagPerson": [
+      "Farrand, Jacob",
+      "Munro, John",
+      "Fraser, Thomas",
+      "Carman, George",
+      "Nutt, John",
+      "LaRue, Anthony",
+      "Nichola, Michael",
+      "Empey, John",
+      "Foster, John",
+      "Putman, E",
+      "Grant, Lewis",
+      "Fraser, William",
+      "Woolery, Henry",
+      "Lukin, Peter",
+      "Paterson, Allan",
+      "Ashburn, John",
+      "OBrian, Timothy",
+      "Allcock, H"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1800-08-23T00:00:00.000Z]"]
+  },
+  "80": {
+    "tagPlace": [
+      "Province of Upper Canada",
+      "Cornwall",
+      "Charlottenburg",
+      "County of Glengarry",
+      "Great Britain",
+      "London",
+      "Kingston"
+    ],
+    "tagPerson": [
+      "MacPherson, Donato",
+      "McLean, Archibald",
+      "MacDonell, Alexander"
+    ],
+    "tagDate": ["[1817-05-03T23:59:59.999Z TO 1819-05-20T00:00:00.000Z]"]
+  },
+  "361": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["[1803-01-01T00:00:00.000Z TO 1803-12-23T23:59:59.999Z]"]
+  },
+  "436": {
+    "tagPerson": [
+      "Pingel, Anna, Magaretha",
+      "Chewett, William",
+      "McDonell, Alexander",
+      "McDonell, Angus"
+    ],
+    "tagDate": ["1804-06-25T00:00:00.000Z"],
+    "tagPlace": ["York"]
+  },
+  "255": {
+    "tagPerson": ["Fraser, William"],
+    "tagDate": ["1804-05-21T00:00:00.000Z"],
+    "tagPlace": ["Johnstown"]
+  },
+  "472": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-31T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "Rogers, David, McGregor",
+      "Hare, William",
+      "McGill, John"
+    ],
+    "tagPlace": ["District of Newcastle", "York"]
+  },
+  "187": {
+    "tagPerson": ["Pound, Daniel", "McGill, John"],
+    "tagDate": ["1804-12-29T00:00:00.000Z"],
+    "tagPlace": ["York"]
+  },
+  "78": {
+    "tagDate": ["[1820-04-04T23:59:59.999Z TO 1827-07-07T00:00:00.000Z]"],
+    "tagPerson": ["Everson, John", "Everson, James", "Ridout, John"],
+    "tagPlace": ["Township of York", "Yonge Street", "County of York"]
+  },
+  "224": {
+    "tagDate": ["1805-04-01T00:00:00.000Z"],
+    "tagPerson": ["McNeal, Henry", "Swayze, Isaac"],
+    "tagPlace": ["Township of Bertie", "Niagara"]
+  },
+  "34": {
+    "tagPerson": ["Dolsen, Matthew", "Ritchie, John"],
+    "tagDate": ["1789-01-01T00:00:00.000Z"]
+  },
+  "726": {
+    "tagDate": ["1801-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Forsyth, James",
+      "McCarthy, Duncan",
+      "Collins, W",
+      "McMartin, Malcolm",
+      "Hamilton, Governor",
+      "Rofs, John",
+      "Gray, Philip",
+      "Grant, Duncan",
+      "Clarke, Thomas",
+      "Grant, James",
+      "McDonell, Ronald",
+      "McDonell, Duncan",
+      "Larraway, John",
+      "McDonell, John, Roy",
+      "McDonell, Malcolm",
+      "Chisholm, Duncan",
+      "Kenyon",
+      "McKindlay, John",
+      "McDonell, Roderick",
+      "Sutherland, Jane",
+      "McDonell, Angus",
+      "Cameron, William"
+    ],
+    "tagPlace": ["Montreal", "Cornwall", "Charlottenburgh"]
+  },
+  "277": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"]
+  },
+  "117": {
+    "tagDate": ["1834-09-24T00:00:00.000Z"],
+    "tagPerson": ["Dolsen, John", "Martell, Jean, Baptiste", "Grow, Robert"]
+  },
+  "71": {
+    "tagPerson": ["Berer, Jacques, Junior", "Berer, Jacques, Senior"],
+    "tagDate": ["[1800-10-29T00:00:00.000Z TO 1800-10-31T23:59:59.999Z]"],
+    "tagPlace": ["County of Essex"]
+  },
+  "487": {
+    "tagPlace": ["York", "Fredericksburgh", "Ernest Town"],
+    "tagPerson": [
+      "Bell, Thomas",
+      "Fraser, Jane",
+      "F, John",
+      "McNabb, Mary Ann",
+      "McPherson, John",
+      "Keller, Frederick",
+      "Robins, James",
+      "Fraser, Margaret",
+      "A, James"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-11T00:00:00.000Z]"]
+  },
+  "172": {
+    "tagPlace": ["Town of York"],
+    "tagDate": ["1803-06-01T00:00:00.000Z"],
+    "tagPerson": ["Ferguson, Richard", "Cameron, J"]
+  },
+  "212": {
+    "tagPerson": ["Chryster, John"],
+    "tagDate": ["1805-01-01T00:00:00.000Z"]
+  },
+  "528": {
+    "tagPlace": [
+      "Eastern District of the Province of Upper Canada",
+      "South Side Grand River Eastern District",
+      "Montreal",
+      "Township Allred"
+    ],
+    "tagPerson": [
+      "Jones, Ephraim",
+      "Elmsley, John",
+      "Fraser, William",
+      "McKindlay, John"
+    ],
+    "tagDate": ["1797-09-27T00:00:00.000Z"]
+  },
+  "64": {
+    "tagPerson": ["Grant, Duncan", "Sherwood, Justus"],
+    "tagDate": ["[1786-07-26T23:59:59.999Z TO 1788-01-01T00:00:00.000Z]"]
+  },
+  "259": {
+    "tagPlace": ["Lenox"],
+    "tagDate": ["1804-05-19T00:00:00.000Z"],
+    "tagPerson": ["McDonell, Archibald"]
+  },
+  "220": {
+    "tagDate": ["1805-03-02T00:00:00.000Z"],
+    "tagPerson": ["Elliott, M", "V, Joseph", "McGill, John"],
+    "tagPlace": ["York", "Township of Raleigh"]
+  },
+  "23": {
+    "tagDate": ["1791-06-04T00:00:00.000Z"],
+    "tagPerson": [
+      "Fulton, Jonathan",
+      "Hailford, Abel",
+      "Cole, Adam",
+      "Chase, Jonas"
+    ],
+    "tagPlace": ["Elizabethtown"]
+  },
+  "578": {
+    "tagPlace": [
+      "Yonge",
+      "Elizabethtown",
+      "Township of Oxford",
+      "Township of Hawkesbury",
+      "Township of Cornwall",
+      "Eastern District",
+      "Grand River"
+    ],
+    "tagDate": ["1800-01-28T00:00:00.000Z"],
+    "tagPerson": [
+      "Mattice, John",
+      "Sillick, James",
+      "Jelfen, John",
+      "Tuttle, Jonathan",
+      "Powell, Wm, Dummer",
+      "Lovelap, William",
+      "Lovelap, Archibald",
+      "Fraser, Wm",
+      "Peet, David",
+      "Sweetland, Henry",
+      "Fraser, Thos"
+    ]
+  },
+  "403": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Walton, Jonathan", "Allcock, H", "McGill, John"],
+    "tagDate": ["[1804-03-13T23:59:59.999Z TO 1804-03-19T00:00:00.000Z]"]
+  },
+  "389": {
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1804-02-24T00:00:00.000Z]"],
+    "tagPerson": ["Small, J", "McGill, Jno", "Allcock, H", "Casey, Willet"],
+    "tagPlace": ["Township of Hallowell", "York", "Midland"]
+  },
+  "484": {
+    "tagPerson": [
+      "Dolson, Isaac",
+      "Allcock, H",
+      "Morran, M",
+      "P, Julian",
+      "Smale, John",
+      "McGill, John"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-11T00:00:00.000Z]"],
+    "tagPlace": ["York", "Dover", "Sandwich", "Lassomption"]
+  },
+  "270": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"],
+    "tagPlace": ["Midland"]
+  },
+  "122": {
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1823-12-08T00:00:00.000Z]"],
+    "tagPerson": ["Robinson, John, Beverly"],
+    "tagPlace": ["Township of Niagara"]
+  },
+  "666": {
+    "tagDate": ["1798-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Nappan, David",
+      "Aitkins, Alexander",
+      "Taylor, James",
+      "Carson, William",
+      "Newald, Frederick",
+      "Storm, Jeremiah",
+      "Bowerman, Jonathan",
+      "Clarke, Henry",
+      "Newilling, Ernest",
+      "Ferguson, Farrington",
+      "Demprey, Thomas",
+      "Killer, Philip",
+      "Benson, Mathew",
+      "Nicholson, Alexander",
+      "Inook, Martin",
+      "Prindle, William",
+      "Nappan, John",
+      "Cook, John",
+      "Johnson, Henry",
+      "Fairman, John",
+      "Vanduser, Conrad",
+      "Scharmahorn, Elizabeth",
+      "Fairfield, William",
+      "D, Andrew",
+      "Smith, Richard",
+      "Bell, William",
+      "Allen, Joseph",
+      "James, Daniel",
+      "Ellenbee, Emanuel",
+      "Gilbert, Stephen",
+      "Powley, Jacob",
+      "Bongard, Conrad",
+      "Swartz, Wm, Eve",
+      "Mathew, Thomas, Elms",
+      "Benson, Garret",
+      "Englehart, B",
+      "Fitzgerald, John",
+      "Bowerman, Schabod",
+      "Palmer, Silas",
+      "Howard, John",
+      "Clarke, Edward",
+      "C, Ernest",
+      "Barkeley, James",
+      "Sibley, Sarah",
+      "Darly, John",
+      "McCabe, Michael",
+      "Hawley, Jeptha",
+      "Huff, Bruin",
+      "Kerr, Robert",
+      "Ansley, Amos",
+      "Taylor, John",
+      "Church, Oliver",
+      "Comer, Thomas",
+      "Philips, Peter",
+      "Rush, Elizabeth",
+      "Finks, Joseph",
+      "Miller, Conrad",
+      "Fulden, William",
+      "T, Paul",
+      "Foster, Moses",
+      "Deane, Samuel",
+      "Ryckman, Tobias",
+      "Johnson, Andrew",
+      "Christie",
+      "Bell, Duncan",
+      "Casey, Willet",
+      "Duggen, William",
+      "Dorland, Philip",
+      "Hawley, Davis",
+      "Ferguson, Israel"
+    ]
+  },
+  "438": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-06-29T00:00:00.000Z]"],
+    "tagPerson": ["McGill, John", "Allcock, H", "Better, Sarah"],
+    "tagPlace": ["York", "District of London"]
+  },
+  "431": {
+    "tagPlace": ["Midland", "Fredericksburgh", "York"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-06-19T00:00:00.000Z]"],
+    "tagPerson": ["McGill, John", "Allcock, H"]
+  },
+  "315": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1803-07-22T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"]
+  },
+  "227": {
+    "tagPerson": ["Mallory, Eliska", "Howard, Peter", "McGill, John"],
+    "tagDate": ["1805-06-04T00:00:00.000Z"],
+    "tagPlace": ["York", "Township of Elizabethtown"]
+  },
+  "606": {
+    "tagDate": ["[1800-01-01T00:00:00.000Z TO 1801-08-08T23:59:59.999Z]"],
+    "tagPerson": ["Hunter, Peter", "Smith, D, W"],
+    "tagPlace": [
+      "Lower Canada",
+      "District of Johnstown",
+      "Province of Upper Canada"
+    ]
+  },
+  "732": {
+    "tagPlace": [
+      "Quebec",
+      "Cornwall",
+      "Lower Canada",
+      "Lachine",
+      "Montreal",
+      "Hawkesbury",
+      "Lancaster"
+    ],
+    "tagDate": ["1801-03-28T00:00:00.000Z"],
+    "tagPerson": [
+      "Sutherland, Walter",
+      "Cameron, Sarah",
+      "Buttersworth, James",
+      "Hiller, Nathaniel",
+      "Grant, John",
+      "K, Nathaniel",
+      "Farrand, Jacob",
+      "Ferguson, Peter",
+      "Fountain, Richard",
+      "Collins",
+      "Miller, Justus",
+      "Graham, Thomas",
+      "McIntosh, Peter",
+      "Mitchell, John",
+      "McDonell, John, Roy",
+      "Campbell, Allan",
+      "Snyder, Jacob, Junr",
+      "Scott, John",
+      "Snyder, William",
+      "McKindlay, John"
+    ]
+  },
+  "114": {
+    "tagPlace": [
+      "Township of Dover",
+      "County of Kent",
+      "Province of Upper Canada"
+    ],
+    "tagPerson": ["Martell, Jean, Baptiste", "Grow, Robert"],
+    "tagDate": ["1834-09-18T00:00:00.000Z"]
+  },
+  "480": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-09-06T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "L, Nicholas",
+      "H, Andrew",
+      "Baker, Edward",
+      "McGill, John",
+      "Smale, John",
+      "Allen, Joseph"
+    ],
+    "tagPlace": [
+      "Green Point",
+      "York",
+      "Fredericksburgh",
+      "Hallowell",
+      "Sophiasburgh"
+    ]
+  },
+  "385": {
+    "tagPerson": ["Small, John", "Washburn, Ebenezer", "B, John", "Allcock, H"],
+    "tagDate": ["1804-02-22T00:00:00.000Z"],
+    "tagPlace": ["York", "Huntingdon", "Midland"]
+  },
+  "69": {
+    "tagPerson": [
+      "Berer, Jacques, Senior",
+      "M, William",
+      "Berer, Jacques, Junior",
+      "Smith, W"
+    ],
+    "tagDate": ["1800-10-29T00:00:00.000Z"]
+  },
+  "138": {
+    "tagPlace": [
+      "Colborne District",
+      "Township of Verulam",
+      "Town of Peterborough",
+      "City of Madran",
+      "Province of Canada"
+    ],
+    "tagDate": ["1855-10-01T00:00:00.000Z"],
+    "tagPerson": ["Smart, William, George", "Orde, George, Frederick"]
+  },
+  "422": {
+    "tagPlace": ["York", "Lansdowne"],
+    "tagPerson": ["McGill, John", "Covell, James", "Allcock, H"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-04-13T00:00:00.000Z]"]
+  },
+  "51": {
+    "tagPerson": ["Petit, Nichola"],
+    "tagDate": ["1788-04-22T00:00:00.000Z"],
+    "tagPlace": ["Detroit"]
+  },
+  "410": {
+    "tagPlace": ["York", "Township of Hawkesbury"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-31T00:00:00.000Z]"],
+    "tagPerson": ["McGill, John", "Grant, John", "Allcock, H"]
+  },
+  "103": {
+    "tagPlace": [
+      "County of York",
+      "Village of Rochester",
+      "County of Monroe",
+      "Province of Upper Canada",
+      "State of New York"
+    ],
+    "tagDate": ["1825-06-06T00:00:00.000Z"],
+    "tagPerson": ["Crooks, Charles"]
+  },
+  "163": {
+    "tagDate": ["1798-06-01T00:00:00.000Z"],
+    "tagPerson": ["Ward, John", "Hall, Isaiah", "McKiernan, John"]
+  },
+  "319": {
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1803-07-14T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"],
+    "tagPlace": ["Midland District", "Fredericksburgh"]
+  },
+  "414": {
+    "tagPlace": ["District of London ", "York"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-04-04T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "Lownsberry, Robert",
+      "McGill, John",
+      "Dowdle, Thomas"
+    ]
+  },
+  "39": {
+    "tagDate": ["[1797-11-17T23:59:59.999Z TO 1801-09-15T00:00:00.000Z]"],
+    "tagPerson": ["Bennet, James"],
+    "tagPlace": ["York"]
+  },
+  "685": {
+    "tagDate": ["[1800-08-28T00:00:00.000Z TO 1801-08-08T23:59:59.999Z]"],
+    "tagPerson": [
+      "Nurduff, James",
+      "N, James",
+      "Georgen, Phoebe",
+      "Smith, Daniel",
+      "Demorest, David",
+      "Hunter, Peter, Liuet General",
+      "Fraser, Kenneth",
+      "Beedle, Reuben",
+      "Clapp, Joseph",
+      "Booth, Joshua",
+      "Duncan, John",
+      "Smith, D, W",
+      "Allen, Joseph",
+      "Cartwright, Richard",
+      "Donovan, Florence",
+      "Bower, Peter",
+      "Bower, Adam",
+      "Hartman, Philip",
+      "Fisher, Alexr",
+      "Paterson, Nicholas",
+      "McLean, Allan",
+      "Johnson, James",
+      "McDonell, Archibald",
+      "McBane, John",
+      "Brewer, Aaron",
+      "Allcock, Henry"
+    ],
+    "tagPlace": [
+      "Marysburgh",
+      "Township of Fredericksburgh",
+      "Midland District",
+      "Township of Richmond",
+      "Adolphustown",
+      "Ameliasburgh",
+      "Lower Canada",
+      "Township of Kingston",
+      "Province of Upper Canada",
+      "Ernest Town",
+      "Township of Pittsburgh"
+    ]
+  },
+  "352": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["1803-12-29T00:00:00.000Z"],
+    "tagPerson": ["Small, John", "Mosure, John"]
+  },
+  "204": {
+    "tagPlace": ["Township of Elizabethtown", "York"],
+    "tagDate": ["1805-02-05T00:00:00.000Z"],
+    "tagPerson": [
+      "Wolf, Lodowick",
+      "Lehy, William",
+      "McGill, John",
+      "Howard, Peter"
+    ]
+  },
+  "283": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1803-10-14T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "260": {
+    "tagPlace": ["County of Frontenac", "Kingston"],
+    "tagDate": ["1804-05-18T00:00:00.000Z"],
+    "tagPerson": ["Coffin, Wm", "Ross, William"]
+  },
+  "140": {
+    "tagPerson": ["Quinton, John", "Fothergill, Charles"],
+    "tagDate": ["[1832-04-09T00:00:00.000Z TO 1832-12-31T23:59:59.999Z]"],
+    "tagPlace": ["District of Upper Canada", "Township of Pickering"]
+  },
+  "676": {
+    "tagPlace": [
+      "Fredericksburgh",
+      "Town of Kingston",
+      "Marysburgh",
+      "Richmond",
+      "Adolphustown",
+      "Camden",
+      "Sophiasburgh"
+    ],
+    "tagDate": ["1801-03-24T00:00:00.000Z"],
+    "tagPerson": [
+      "V, Conrad",
+      "Vollup, John",
+      "Powell, Wm, Dummer",
+      "Simpson, Israel",
+      "Rattan, William",
+      "Williams, Albert",
+      "Turner, Cornelius",
+      "Nevelin, Ernest",
+      "Wilkie, William",
+      "Davis, Henry",
+      "Winny, Benjamin",
+      "Cartwright, Richard",
+      "Etsell, Gasper",
+      "Sharpe, Gilbert",
+      "Rainey, James",
+      "Young, Henry, Senior",
+      "German, John",
+      "Hufman",
+      "Diamond, Jacob, Junior",
+      "McGrimon, Donald",
+      "Purdy, Samuel",
+      "Cragh, John",
+      "Wilson, James",
+      "Georgen, Christopher",
+      "Smith, Philip"
+    ]
+  },
+  "376": { "tagDate": ["1799-01-01T00:00:00.000Z"] },
+  "533": {
+    "tagPlace": [
+      "Pittsburg",
+      "Cumberland",
+      "Township Cornwall",
+      "Zuere",
+      "Gloucester",
+      "Plantagenet",
+      "York",
+      "Province of Upper Canada",
+      "Township of Charlottenburg",
+      "Leeds",
+      "Ottawa River",
+      "Township Kingston"
+    ],
+    "tagDate": ["1798-01-15T00:00:00.000Z"],
+    "tagPerson": [
+      "Smith, D, W",
+      "Mustard, John",
+      "Cameron, John",
+      "Elmsley, John",
+      "Griffin, John",
+      "McIntire, John",
+      "Culbert, Donald",
+      "Macauley, Robert",
+      "McKindlay, John"
+    ]
+  },
+  "715": {
+    "tagPlace": [
+      "City of Montreal",
+      "Quebec",
+      "Province of Upper Canada",
+      "Boston",
+      "District Cornwall",
+      "Township of Lancaster",
+      "Province of Lower Canada"
+    ],
+    "tagDate": ["[1799-01-01T00:00:00.000Z TO 1801-09-11T23:59:59.999Z]"],
+    "tagPerson": [
+      "Page, Thomas, Otway",
+      "McDonell, Roy",
+      "Walker, Jacob",
+      "Thern, David",
+      "Hunter, Peter",
+      "McDonell, Archibald",
+      "Addison, Robert, Revd",
+      "Swan, Thomas",
+      "French, Jeremiah",
+      "Ferguson, Peter",
+      "Smith, D, W",
+      "Paterson, Allan",
+      "Elmsley, J",
+      "Bradton, John, Lieut",
+      "Dummer, Judge",
+      "Notrum, Conrade",
+      "Etherton, P, Captain",
+      "Dickson, Thomas",
+      "McKindlay, John",
+      "McDonell, Roderick",
+      "Powell, William"
+    ]
+  },
+  "144": {
+    "tagPerson": ["Thomas, John", "Hearns, Jane"],
+    "tagDate": ["1831-03-03T00:00:00.000Z"]
+  },
+  "345": { "tagDate": ["1803-12-28T00:00:00.000Z"], "tagPlace": ["Midland"] },
+  "151": {
+    "tagDate": ["1831-03-03T00:00:00.000Z"],
+    "tagPerson": ["Trotetter, Samuel", "Tompkins, Samuel", "Thomas, John"]
+  },
+  "200": {
+    "tagPlace": ["Yonge", "York", "Elizabeth Town"],
+    "tagPerson": ["McGill, John", "Brown, Jonah", "Shipman, Saml"],
+    "tagDate": ["[1804-08-29T23:59:59.999Z TO 1804-10-06T00:00:00.000Z]"]
+  },
+  "473": {
+    "tagPerson": [
+      "Matteo, C",
+      "Hunter, P",
+      "McGill, John",
+      "Smale, John",
+      "Allcock, Catherine, Hannah",
+      "Russell, Peter"
+    ],
+    "tagDate": ["[1797-12-23T23:59:59.999Z TO 1804-09-01T00:00:00.000Z]"],
+    "tagPlace": ["York"]
+  },
+  "440": {
+    "tagPlace": ["York", "Augusta", "Johnstown"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-07-12T00:00:00.000Z]"],
+    "tagPerson": ["McGill, John", "Sherwood, Sarah", "Allcock, H"]
+  },
+  "458": {
+    "tagPlace": ["Murray", "New Castle", "York"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-14T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H", "Smale, John", "McGill, John", "G, Matthew"]
+  },
+  "54": {
+    "tagDate": ["1785-01-01T00:00:00.000Z"],
+    "tagPerson": ["Petit, Nichol"],
+    "tagPlace": ["Detroit River"]
+  },
+  "173": {
+    "tagPlace": ["River Thames", "Township of Raleigh", "New York"],
+    "tagDate": ["1796-06-01T00:00:00.000Z"],
+    "tagPerson": ["Dolsen, Matthew", "Dolsen, John", "Porton, Nicolas"]
+  },
+  "328": {
+    "tagPlace": ["Yonge", "Johnstown"],
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPerson": ["Allcock, H"]
+  },
+  "213": {
+    "tagDate": ["1805-02-26T00:00:00.000Z"],
+    "tagPerson": [
+      "Parks, James",
+      "Sliker, Lawrence",
+      "McGill, John",
+      "Kilman, Philip",
+      "Bessie, Jacob",
+      "McGaw, Patrick",
+      "Page, Benjamin",
+      "Near, Henry",
+      "Hainer, Hendrick",
+      "Flack, Richard",
+      "Buck, Michael",
+      "Swayze, Isaac"
+    ],
+    "tagPlace": [
+      "Stamford",
+      "South",
+      "Scarborough",
+      "York",
+      "Thorold",
+      "Beverly",
+      "Ancaster",
+      "Bertie",
+      "Gainsborough"
+    ]
+  },
+  "451": {
+    "tagPerson": ["Vanduser, Jasper", "Allcock, H", "F, Joseph", "Smith, M"],
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1804-07-26T00:00:00.000Z]"],
+    "tagPlace": ["Kingstown", "York", "Ernest Town", "Adolphustown", "Camden"]
+  },
+  "82": {
+    "tagPerson": [
+      "McPowell",
+      "McDonell, Alen, Rev",
+      "McLean, Esq",
+      "Cameron, W",
+      "McPherson, Don"
+    ],
+    "tagDate": ["[1821-06-06T00:00:00.000Z TO 1823-09-19T23:59:59.999Z]"],
+    "tagPlace": ["County of Glengarry", "Charlottenburg"]
+  },
+  "79": {
+    "tagPlace": [
+      "Charlottenburg",
+      "Province of Upper Canada",
+      "Cornwall",
+      "Kingston",
+      "London",
+      "Great Britain",
+      "County of Glengarry"
+    ],
+    "tagPerson": [
+      "MacPherson, Donato",
+      "McLean, Archibald",
+      "MacDonell, Alexander"
+    ],
+    "tagDate": ["[1817-05-03T23:59:59.999Z TO 1819-05-20T00:00:00.000Z]"]
+  },
+  "197": {
+    "tagDate": ["1804-01-01T00:00:00.000Z"],
+    "tagPerson": ["Leech, Catharine", "Shipman, Samuel"],
+    "tagPlace": ["Yonge"]
+  },
+  "444": {
+    "tagPlace": [
+      "Edwardsburgh",
+      "York",
+      "Elizabethtown",
+      "Johnstown",
+      "Augusta"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-07-14T00:00:00.000Z]"],
+    "tagPerson": [
+      "Lawrence, John",
+      "D, Joseph",
+      "Smith, Irene",
+      "Burret, Sarah",
+      "Whitney, E",
+      "Main, Ramos",
+      "Grant, Duncan",
+      "Saley, Matilda"
+    ]
+  },
+  "395": {
+    "tagPlace": ["District of London", "Townsend", "Buford", "York", "Walpole"],
+    "tagPerson": [
+      "Lane, Thomas",
+      "Davis, John",
+      "Neller, William",
+      "Springston, S",
+      "H, John",
+      "Dougherty, Elizabeth",
+      "Davis, Mary",
+      "Berner, John",
+      "Dougherty, Margaret",
+      "Neller, Abraham",
+      "Thomas, Peter",
+      "Dougherty, Martha",
+      "Keefer, George",
+      "Campbell, Robert"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-01T00:00:00.000Z]"]
+  },
+  "68": {
+    "tagPlace": ["Sandwich", "County of Essex", "Province of Upper Canada"],
+    "tagPerson": ["Berer, Jacques, Senior", "Berer, Jacques, Junior"],
+    "tagDate": ["1800-10-29T00:00:00.000Z"]
+  },
+  "447": {
+    "tagPerson": ["M, John", "Allcock, H", "McGill, John"],
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1804-07-14T00:00:00.000Z]"],
+    "tagPlace": ["York"]
+  },
+  "378": {
+    "tagPlace": ["York", "Richmond", "Midland"],
+    "tagPerson": ["Allcock, H", "Harris, Gilbert"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-02-14T00:00:00.000Z]"]
+  },
+  "589": {
+    "tagDate": ["1790-08-27T00:00:00.000Z"],
+    "tagPerson": [
+      "Beikie, John",
+      "Honeywell, Rice",
+      "Cameron, Duncan",
+      "Parker, Robert",
+      "Starrs, Geo",
+      "Howard, Mathew",
+      "Lewis, Frederick",
+      "McIlmoil, Thomas",
+      "Jones, Ephraim",
+      "Mott, Rueben",
+      "Wright, James",
+      "Topher, Sarah",
+      "Munro, Hugh",
+      "Brown, Nathl",
+      "Myers, John",
+      "Haldimand, General",
+      "Richards, Wacker",
+      "Stevens, Roger",
+      "Loremcie, Verncuil",
+      "Doyle, Charles",
+      "Lampson, William",
+      "Tunson, Thomas, Fraser",
+      "Beikie, Penelope",
+      "Chewette, W",
+      "Wasfle, Richard",
+      "Van Sicklen, Sarah",
+      "S, Samuel",
+      "Fenter, Christian",
+      "Fraser, Thomas",
+      "Hall, Chrisn, Chrisal",
+      "Odber, Treadway, Thos",
+      "Wickoff, John",
+      "Collins, W",
+      "Thompson, John",
+      "Wolfe, Ludowick",
+      "Galbreath, John",
+      "Ridout, Chewett",
+      "Sherwood, Justus",
+      "Starrs, George",
+      "Fenden, Christn",
+      "Richards, Watkin"
+    ],
+    "tagPlace": ["Edwardsburg", "Elizabethtown", "Quebec"]
+  },
+  "194": {
+    "tagPlace": ["Township of Yonge", "York"],
+    "tagPerson": ["McGill, John", "Shipman, Samuel", "McNish, Hannah"],
+    "tagDate": ["[1804-08-30T00:00:00.000Z TO 1804-10-06T23:59:59.999Z]"]
+  },
+  "87": {
+    "tagPerson": ["F, Henry", "Small, A"],
+    "tagDate": ["1829-12-17T00:00:00.000Z"],
+    "tagPlace": ["York", "Trafalgar"]
+  },
+  "671": {
+    "tagDate": ["1799-09-02T00:00:00.000Z"],
+    "tagPerson": [
+      "Howell, John",
+      "Deborah",
+      "Dick, Corporal",
+      "Atkinson, William",
+      "Harris, Solomon",
+      "Luenetia",
+      "Woodcock, Nicholas",
+      "Young, Peter",
+      "Nowell, Widow",
+      "Philip, Peter",
+      "Dyer, William",
+      "Wait, Benjamin",
+      "Spencer, Hazleton, Lieutenant",
+      "Loyd, Thomas",
+      "Andrew, William",
+      "Bird, Henry",
+      "Gilbert, Stephen",
+      "Ross, Walter",
+      "Hawley, Daniel",
+      "Gilbert, Samuel, B",
+      "Lucas",
+      "Campbell, Richard",
+      "Myers, John, Walden",
+      "Powell, W, D",
+      "Thomson, Robert",
+      "Petit, Daniel",
+      "Grant, Donald",
+      "Navalstine, Peter",
+      "Casey, William",
+      "Vandeshyden, David",
+      "Church, Oliver",
+      "Ansley, Amos",
+      "Kitchison, William",
+      "Spencer, Augustus",
+      "Frederick, Conrad",
+      "Cartwright, Richard",
+      "Grant, James",
+      "Loft, David",
+      "Booth, Joshua",
+      "Ridner, Henry, Junior",
+      "Elsworth, Henry",
+      "Striker, Sampson"
+    ],
+    "tagPlace": [
+      "Province Kingston",
+      "Sidney",
+      "Ameliasburgh",
+      "Sophiasburgh",
+      "Hallowell",
+      "Midland District",
+      "Fredericksburgh",
+      "Thurlow",
+      "Marysburgh"
+    ]
+  },
+  "371": {
+    "tagPlace": ["Sophiasburgh", "Midland", "York"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-01-13T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"]
+  },
+  "708": {
+    "tagPerson": [
+      "M, William",
+      "Ferguson, John",
+      "Howard, Dyer",
+      "Douglass, Thomas",
+      "Fraser, Thomas",
+      "Lipscombe",
+      "Jones, Ephraim",
+      "Trimmer, Michael",
+      "McNeil, John",
+      "Ilyes, Arnel",
+      "Buell, William",
+      "Jones, Daniel",
+      "Jerry, Paul",
+      "Campbell, Alexander",
+      "Farrow, Joseph",
+      "Billings, Elkana",
+      "Buck, Sarah",
+      "Rose, David",
+      "Collins",
+      "Crowder, Anthony",
+      "Samuel",
+      "McIntire, Nathaniel"
+    ],
+    "tagDate": ["1795-05-05T00:00:00.000Z"],
+    "tagPlace": [
+      "Cornwall",
+      "Edwardsburgh",
+      "Lansdowne",
+      "Elizabethtown",
+      "Augusta"
+    ]
+  },
+  "190": {
+    "tagPlace": ["Township of Grimsby"],
+    "tagPerson": ["McGill, John", "Field, Eleanor", "Crysler, John"],
+    "tagDate": ["[1804-11-02T00:00:00.000Z TO 1804-11-07T23:59:59.999Z]"]
+  },
+  "239": {
+    "tagPerson": ["Selby, P ", "B, John, Henry"],
+    "tagDate": ["[1809-10-21T00:00:00.000Z TO 1809-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Markham"]
+  },
+  "462": {
+    "tagPerson": [
+      "Turner, Asa",
+      "McGrimmon, Donald",
+      "Rogers, James",
+      "McLead, Archibald, Norman"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-14T00:00:00.000Z]"],
+    "tagPlace": [
+      "Peterborough",
+      "Township of Hallowell",
+      "Fredericksburgh",
+      "York",
+      "Marysburgh"
+    ]
+  },
+  "38": {
+    "tagPerson": ["Ferguson, Jacob", "Ferguson, Richard"],
+    "tagDate": ["1803-01-01T00:00:00.000Z"]
+  },
+  "399": {
+    "tagPerson": ["Walton, Nathan", "Allcock, H", "Small, John"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-12T00:00:00.000Z]"],
+    "tagPlace": ["York", "New Castle"]
+  },
+  "147": {
+    "tagPerson": ["Cole, James", "Burley, Jane"],
+    "tagDate": ["1831-03-05T00:00:00.000Z"]
+  },
+  "653": {
+    "tagPerson": [
+      "Haldimand",
+      "Ridden, Francis",
+      "Bradshaw, David",
+      "Briscoe, Jonathan",
+      "Thompson, Arch",
+      "Horning, John",
+      "Cartwright, Richard",
+      "Booth, Joshua",
+      "Noover, Melison",
+      "McMaster, James",
+      "Smith, D",
+      "McKindley, John",
+      "Aitkins, W",
+      "McGaalay, Robert",
+      "Johnson, William",
+      "Cartwright, W",
+      "Markland, Thomas",
+      "Peters, Bemsley",
+      "Fairfax, Christian",
+      "Day, Barnabas",
+      "Genl",
+      "Parrot, Lt",
+      "Cunes, Jacob",
+      "Simpson, Alex",
+      "Howe, Mathew",
+      "Donovan, Florence",
+      "Daderich, Michael",
+      "Miller, Jacob",
+      "Marsh, Mathias",
+      "Darley, John",
+      "Wartman, Barnabas, Gen",
+      "Tingleton, Geo, Capt",
+      "Chisholm, Allan"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 0000-12-31T23:59:59.999Z]"],
+    "tagPlace": [
+      "Ernest Town",
+      "Kingston",
+      "Camden",
+      "Sidney",
+      "Richmond",
+      "Loughborough",
+      "Ameliasburgh",
+      "Fredericksburgh",
+      "Thurlow"
+    ]
+  },
+  "423": {
+    "tagPerson": [
+      "Walter, John",
+      "Sherwood, Louis",
+      "Scott, William",
+      "Scott, Francis",
+      "Fall, Fredwick",
+      "Farran, Charles, C",
+      "Fell, David",
+      "Correll, John, K",
+      "Kingwell, R"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-05-02T00:00:00.000Z]"],
+    "tagPlace": ["York"]
+  },
+  "74": {
+    "tagPlace": [
+      "Township of York",
+      "Province of Upper Canada",
+      "Yonge Street"
+    ],
+    "tagDate": ["1820-01-01T00:00:00.000Z"],
+    "tagPerson": ["Everson, John", "Everson, James", "Humberstone, Thomas"]
+  },
+  "267": {
+    "tagPerson": ["Allcock, H", "Wilkinson, Walter, Buller"],
+    "tagDate": ["1803-07-13T00:00:00.000Z"],
+    "tagPlace": ["Eastern District"]
+  },
+  "102": {
+    "tagPerson": ["L, George", "Rogers, William", "G, Joseph", "S, Samuel"],
+    "tagDate": ["1824-11-24T00:00:00.000Z"],
+    "tagPlace": ["Township of Flamborough", "York"]
+  },
+  "31": {
+    "tagDate": ["1804-01-03T00:00:00.000Z"],
+    "tagPerson": [
+      "Anderson, J",
+      "Macdonell, John",
+      "Cutter, Abraham",
+      "Rice, Reuben"
+    ],
+    "tagPlace": ["Upper Canada"]
+  },
+  "59": {
+    "tagPerson": ["Duggan, Thomas", "Shaw, William", "Smith, John", "A, John"],
+    "tagDate": ["1794-10-04T00:00:00.000Z"],
+    "tagPlace": ["Detroit"]
+  },
+  "162": {
+    "tagDate": ["1891-01-01T00:00:00.000Z"],
+    "tagPerson": ["Harris, John", "M, Jno"]
+  },
+  "456": {
+    "tagPerson": ["Allcock, H", "Smith, John", "Lewis, John"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-06T00:00:00.000Z]"],
+    "tagPlace": ["Grimsby", "York"]
+  },
+  "61": {
+    "tagPlace": [
+      "Province of Quebec",
+      "Augusta",
+      "District of Montreal",
+      "Elizabethtown"
+    ],
+    "tagDate": ["1789-01-01T00:00:00.000Z"],
+    "tagPerson": ["Grant, Duncan", "S, Louis, Medard", "Sherwood, Justus"]
+  },
+  "207": {
+    "tagPlace": ["Township of Elizabethtown", "York"],
+    "tagDate": ["[1805-02-05T00:00:00.000Z TO 1805-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "McGill, John",
+      "Howard, Deyer",
+      "Howard, Peter",
+      "Trimer, Michael"
+    ]
+  },
+  "699": {
+    "tagPlace": [
+      "Lower Canada",
+      "Township of Augusta",
+      "County of Grenville",
+      "Johnstown",
+      "County of Leeds",
+      "Township of Elizabethtown",
+      "Township of Edwardsburgh",
+      "Township of Bastard",
+      "Williamsburgh"
+    ],
+    "tagDate": ["[1790-09-16T00:00:00.000Z TO 1795-03-18T23:59:59.999Z]"],
+    "tagPerson": [
+      "M, Hosea",
+      "Nettleton, Daniel",
+      "Wheeler, Ephraim",
+      "Rood, William",
+      "Bass, Joseph",
+      "Haskins, Nicholas",
+      "Stone, Joel",
+      "Jones, Richard",
+      "Chewett, W",
+      "Jessup, Joseph, Capt",
+      "Nettleton, David",
+      "Brown, Jesse",
+      "Fell, Philip",
+      "Robertson, P",
+      "Robertson, Patrick",
+      "Munro, John",
+      "Curtis, James",
+      "Honeywell, Rice",
+      "Jackson, Henry",
+      "Lamb, Daniel",
+      "Grant, Duncan",
+      "Lake, Thomas",
+      "Heck, Samuel",
+      "Robertson, J",
+      "Jessup, Edward",
+      "Peoples, Charles",
+      "Smith, Cornelius",
+      "Bonker, Bethuel",
+      "Brown, Nathan",
+      "McIlmoyle, Thomas",
+      "Haskins, Abial",
+      "Watson, Major"
+    ]
+  },
+  "490": {
+    "tagDate": ["1804-09-12T00:00:00.000Z"],
+    "tagPerson": [
+      "Campbell, John",
+      "McGill, John",
+      "Smale, John",
+      "Allcock, H"
+    ],
+    "tagPlace": ["York", "Markham"]
+  },
+  "353": {
+    "tagPlace": ["Niagara", "York"],
+    "tagPerson": ["Allcock, H", "Small, John"],
+    "tagDate": ["[1803-12-06T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "242": {
+    "tagDate": ["[1796-07-31T23:59:59.999Z TO 1815-11-03T00:00:00.000Z]"],
+    "tagPerson": ["W, John, George", "Small, John"],
+    "tagPlace": ["Markham"]
+  },
+  "398": {
+    "tagPerson": ["Baby, Jean, Baptiste", "Allcock, H", "McGill, Jno"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-08T00:00:00.000Z]"],
+    "tagPlace": ["York", "Township of Sandwich"]
+  },
+  "214": {
+    "tagPerson": ["Swayze, Isaac"],
+    "tagDate": ["[1805-02-26T00:00:00.000Z TO 1805-12-31T23:59:59.999Z]"]
+  },
+  "691": {
+    "tagPlace": [
+      "Midland District",
+      "Camden",
+      "Portland",
+      "Ernest Town",
+      "Kingston",
+      "Loughborough"
+    ],
+    "tagPerson": [
+      "Kirby, John, Junior",
+      "Smith, Jonas",
+      "Goode, Mary Ann",
+      "Norton, Alexr",
+      "Vanduser, Conrad",
+      "Miller, Hamton",
+      "McCaulay, Robert",
+      "Smith, D, W",
+      "Goode, William",
+      "Hicks, Elizabeth",
+      "Pearce, William",
+      "Stuart, Alexr",
+      "Giles, Thomas",
+      "Carperter, Jacob",
+      "Rose, Mathias",
+      "Clapp, Elias",
+      "Clapp, Joseph",
+      "Goode, Elizabeth",
+      "Fraser, Elizabeth",
+      "Harris, James",
+      "Carpenter, Benjamin"
+    ],
+    "tagDate": ["[1801-01-01T00:00:00.000Z TO 1802-12-31T23:59:59.999Z]"]
+  },
+  "89": {
+    "tagPerson": ["Parker, W", "Smith, Jacob"],
+    "tagDate": ["1807-08-29T00:00:00.000Z"],
+    "tagPlace": ["Etobicoke"]
+  },
+  "346": {
+    "tagDate": ["1803-12-29T00:00:00.000Z"],
+    "tagPerson": ["Allcock, H", "McGill, S", "Small, John"],
+    "tagPlace": ["York"]
+  },
+  "174": {
+    "tagDate": ["1796-06-01T00:00:00.000Z"],
+    "tagPerson": ["Porton, Nicolas"]
+  },
+  "127": {
+    "tagPlace": ["County of Halton", "Upper Canada", "Township of Flamborough"],
+    "tagDate": ["1823-12-08T00:00:00.000Z"],
+    "tagPerson": [
+      "Crooks, James",
+      "Taylor, Thos",
+      "Smith, David, William",
+      "Thomas, James"
+    ]
+  },
+  "443": {
+    "tagPlace": ["York"],
+    "tagDate": ["[1802-12-31T23:59:59.999Z TO 1804-07-14T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H", "McGill, John", "Eligh, Joseph"]
+  },
+  "72": {
+    "tagPerson": [
+      "Everson, James",
+      "Ridout, John",
+      "Everson, Dorothy",
+      "Fay, John"
+    ],
+    "tagDate": ["[1819-04-13T23:59:59.999Z TO 1827-07-19T00:00:00.000Z]"],
+    "tagPlace": ["County of York", "Yonge Street", "Township of York"]
+  },
+  "222": {
+    "tagPerson": ["Wilkinson, WB"],
+    "tagDate": ["1805-01-01T00:00:00.000Z"]
+  },
+  "737": {
+    "tagPlace": [
+      "Lancaster",
+      "Hawkesbury",
+      "Montreal",
+      "Matilda",
+      "Osnabruck",
+      "Cornwall",
+      "Williamsburg",
+      "Augusta",
+      "Charlottenburg",
+      "Quebec"
+    ],
+    "tagPerson": [
+      "Gay, Edward",
+      "Davis, Richard",
+      "Grant, Archibald",
+      "Ridout, Chewett",
+      "Baker, Abraham",
+      "Smith, Hugh",
+      "Warff, Richard",
+      "Collins",
+      "Wade, Barney",
+      "B, John",
+      "Gay, Edmond",
+      "Dillibough, Peter",
+      "Marsellis, Leverus",
+      "Hamilton, Govr",
+      "McDonald, Henry",
+      "Jones, Ephraim",
+      "McDonell, Farquhar",
+      "Piller, John",
+      "Tuley, John"
+    ],
+    "tagDate": ["1802-09-19T00:00:00.000Z"]
+  },
+  "698": {
+    "tagDate": ["1796-05-16T00:00:00.000Z"],
+    "tagPerson": [
+      "Jessup, Edward",
+      "Hunter, David",
+      "Clauson, Caleb",
+      "Haldimand, Frederick",
+      "Livingston, John",
+      "S, Joel",
+      "Frrand, W",
+      "S, Abraham",
+      "Graham, William",
+      "Mallory, Enoch",
+      "Orton, William",
+      "Heck, Samuel",
+      "Fidler, Andrew",
+      "Davison, John",
+      "S, Gasper",
+      "Miller, James",
+      "Cluney, James",
+      "Arnold, Richard",
+      "Hess, Mary",
+      "Campbell, James, Capt",
+      "Quin, Christopher",
+      "Miller, Buell",
+      "Hussman, Daniel",
+      "Whitney, John",
+      "Knight, Benjamin",
+      "Loop, John",
+      "Doake, William",
+      "Smyth, Terence",
+      "Campbell, Alexr",
+      "Billings, E",
+      "Purvis, Peter",
+      "Doyle, Thomas",
+      "Shipman, Samuel"
+    ],
+    "tagPlace": [
+      "Lansdowne",
+      "Edwardsburgh",
+      "Township of Yonge",
+      "Midland District",
+      "Township of Marysburgh",
+      "Township of Elizabethtown",
+      "Township of Wolford",
+      "County of Leeds",
+      "Province of Upper Canada",
+      "County of Grenville",
+      "Township of Augusta"
+    ]
+  },
+  "210": {
+    "tagPerson": ["Howard, Peter", "Frederick, Barnhard"],
+    "tagDate": ["1805-01-01T00:00:00.000Z"]
+  },
+  "170": {
+    "tagPlace": ["Town of York"],
+    "tagDate": ["1803-06-01T00:00:00.000Z"],
+    "tagPerson": ["Ferguson, Richard", "Cameron, J"]
+  },
+  "391": {
+    "tagPerson": ["Casey, Willet", "McGill, Jno", "Allcock, H", "Small, J"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-02-25T00:00:00.000Z]"],
+    "tagPlace": ["Midland", "York", "Village of Adolphustown"]
+  },
+  "427": {
+    "tagPlace": ["York", "Township of Bertie"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-05-14T00:00:00.000Z]"],
+    "tagPerson": ["Stuart, Robert", "Allcock, H", "McGill, John"]
+  },
+  "231": {
+    "tagPerson": ["Crysler, John"],
+    "tagDate": ["[1806-07-26T00:00:00.000Z TO 1806-12-31T23:59:59.999Z]"]
+  },
+  "143": {
+    "tagPerson": ["Hearns, Jane", "Martin, John"],
+    "tagDate": ["1831-03-05T00:00:00.000Z"]
+  },
+  "379": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-02-15T00:00:00.000Z]"],
+    "tagPerson": [
+      "Small, John",
+      "B, John",
+      "Z, Joseph",
+      "E, Matthew",
+      "Allcock, H"
+    ],
+    "tagPlace": ["Gosfield", "York"]
+  },
+  "280": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"]
+  },
+  "474": {
+    "tagPerson": ["Allcock, H", "McGill, John", "Smale, John", "Baker, John"],
+    "tagDate": ["[1804-09-04T00:00:00.000Z TO 1804-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Markham", "York"]
+  },
+  "284": {
+    "tagDate": ["1803-10-20T00:00:00.000Z"],
+    "tagPerson": ["Allcock, H"]
+  },
+  "470": {
+    "tagPlace": ["Maidstone", "York", "Chatham", "Colchester"],
+    "tagPerson": [
+      "M, James",
+      "Askin, John",
+      "Smale, John",
+      "McGill, John",
+      "Wright, William",
+      "Brush, John",
+      "Allcock, H"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-31T00:00:00.000Z]"]
+  },
+  "709": {
+    "tagDate": ["1795-05-05T00:00:00.000Z"],
+    "tagPerson": [
+      "McIntire, Nathaniel",
+      "Samuel",
+      "Crowder, Anthony",
+      "Collins",
+      "Rose, David",
+      "Buck, Sarah",
+      "Billings, Elkana",
+      "Farrow, Joseph",
+      "Campbell, Alexander",
+      "Jerry, Paul",
+      "Jones, Daniel",
+      "Buell, William",
+      "McNeil, John",
+      "Ilyes, Arnel",
+      "Trimmer, Michael",
+      "Fraser, Thomas",
+      "Lipscombe",
+      "Jones, Ephraim",
+      "Douglass, Thomas",
+      "Howard, Dyer",
+      "Ferguson, John",
+      "M, William"
+    ],
+    "tagPlace": [
+      "Cornwall",
+      "Edwardsburgh",
+      "Augusta",
+      "Lansdowne",
+      "Elizabethtown"
+    ]
+  },
+  "238": {
+    "tagDate": ["[1796-01-06T23:59:59.999Z TO 1805-08-25T00:00:00.000Z]"],
+    "tagPerson": ["Russell, Peter", "Hubner, Henry"],
+    "tagPlace": ["Markham"]
+  },
+  "57": { "tagPerson": ["V, John"], "tagDate": ["1803-01-01T00:00:00.000Z"] },
+  "357": {
+    "tagPlace": ["Midland", "Richmond"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Ridout, Chewett, J",
+      "Hund, Jabez",
+      "Zurich, Philip",
+      "Small, John"
+    ]
+  },
+  "155": {
+    "tagPerson": ["Mow, Elam"],
+    "tagDate": ["1831-06-22T00:00:00.000Z"]
+  },
+  "412": {
+    "tagPlace": ["York"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-31T00:00:00.000Z]"],
+    "tagPerson": ["McGill, John", "Shaver, Nicholas", "Allcock, H"]
+  },
+  "696": {
+    "tagPlace": [
+      "Township of Yonge",
+      "Edwardsburgh",
+      "Township of Lansdowne",
+      "Township of Augusta",
+      "County of Grenville",
+      "District of Johnstown",
+      "County of Leeds",
+      "Township of Elizabethtown"
+    ],
+    "tagPerson": [
+      "McNeil, John",
+      "Kyes, Asahel",
+      "Emrick, Barnhart",
+      "Hagerdom, Peter",
+      "Breakenridge, Francis",
+      "McKindley, William",
+      "Pennock, Samuel",
+      "Jessup, Edward, Junior",
+      "McIlmoyl, Archibald",
+      "Leonard, John",
+      "Watson, Major",
+      "Kilmore, Nicholas",
+      "Church, William",
+      "Sherwood, Justus",
+      "Sherwood, Sarah",
+      "Powell, William, Dummer",
+      "Biupalow, Tesse",
+      "Glazier, Ezekiel",
+      "Warren, William",
+      "Fraser, William",
+      "Parish, Mary",
+      "Jones, Ephraim",
+      "Nettleton, David",
+      "Wacker, James",
+      "Breakenridge, David",
+      "Hamblin, Silas",
+      "Hynes, Godfrey",
+      "Holibert, Moses",
+      "Martin, William",
+      "Teely, Justus",
+      "Beech, Serjeant",
+      "Jessuo, Edward",
+      "Barnard, Alexander",
+      "Taylor, John"
+    ],
+    "tagDate": ["1801-09-05T00:00:00.000Z"]
+  },
+  "287": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1803-10-31T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "711": {
+    "tagDate": ["1802-01-05T00:00:00.000Z"],
+    "tagPerson": [
+      "Purvis, Peter",
+      "Miller, James",
+      "Jessup, Jos, Capt",
+      "Munro, John",
+      "Davison, John",
+      "Robertson, Patrick",
+      "Buell, William",
+      "Chewett, W",
+      "Hunter, David",
+      "Whitney, John",
+      "Cain, Isaiah",
+      "Church, William",
+      "Jessup, Joseph",
+      "Robertson, James",
+      "Harrington, Rufus",
+      "Smith, D, W",
+      "Allan, Admirl",
+      "Cain, John",
+      "Nuett, Jacob"
+    ],
+    "tagPlace": ["Yonge", "Montreal"]
+  },
+  "354": {
+    "tagDate": ["[1802-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Niagara"]
+  },
+  "650": {
+    "tagPlace": ["Ernest Town", "Kingston", "Camden", "Sophiasburgh"],
+    "tagPerson": [
+      "Crouck, Abraham",
+      "Fralic, Martin",
+      "Smith, D, W",
+      "Forsyth, Joseph"
+    ],
+    "tagDate": ["1798-11-24T00:00:00.000Z"]
+  },
+  "420": {
+    "tagPerson": ["McGill, John", "Tramblen, Joseph", "Allcock, H"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-04-07T00:00:00.000Z]"],
+    "tagPlace": ["Kenyon", "York"]
+  },
+  "459": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-14T00:00:00.000Z]"],
+    "tagPerson": ["McGill, John", "Smale, John", "G, Matthew", "Allcock, H"],
+    "tagPlace": ["York", "New Castle", "Murray"]
+  },
+  "329": { "tagDate": ["1803-07-20T00:00:00.000Z"] },
+  "654": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["1798-01-11T00:00:00.000Z"]
+  },
+  "350": { "tagPlace": ["Midland"], "tagDate": ["1803-01-01T00:00:00.000Z"] },
+  "493": {
+    "tagPlace": ["Montreal", "York", "Roxborough"],
+    "tagPerson": [
+      "McGill, John",
+      "Smale, John",
+      "McKindlay, John",
+      "Allcock, H"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-17T00:00:00.000Z]"]
+  },
+  "84": {
+    "tagDate": ["1815-04-19T00:00:00.000Z"],
+    "tagPerson": ["MacDonell, D"],
+    "tagPlace": ["Province of Upper Canada", "County of Glengarry"]
+  },
+  "182": {
+    "tagPerson": ["Chrysler, Henry", "Clinton, Wm", "McGill, John"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPlace": ["Ancaster"]
+  },
+  "477": {
+    "tagPlace": ["Elizabethtown", "Johnstown", "York"],
+    "tagPerson": ["Smale, John", "McGill, John", "E, Bernard", "Allcock, H"],
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1804-09-06T00:00:00.000Z]"]
+  },
+  "120": {
+    "tagDate": ["[1836-09-30T23:59:59.999Z TO 1845-04-24T00:00:00.000Z]"],
+    "tagPerson": ["Murray, Alex", "Hunter, R, R"],
+    "tagPlace": ["Zorra", "Oxford"]
+  },
+  "272": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"],
+    "tagPlace": ["Midland"]
+  },
+  "112": {
+    "tagPerson": ["Crow, Robert", "Gordon, William"],
+    "tagDate": ["1845-01-04T00:00:00.000Z"]
+  },
+  "455": {
+    "tagPlace": ["Clinton", "Town of Niagara"],
+    "tagPerson": ["G, John", "Allcock", "Wallace, William", "Smale, John"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-07-30T00:00:00.000Z]"]
+  },
+  "177": {
+    "tagDate": ["1796-05-20T00:00:00.000Z"],
+    "tagPerson": ["Dolsen, Matthew", "Dolsen, John", "Fulk, William"]
+  },
+  "482": {
+    "tagPlace": ["York", "Pittsburgh", "Adolphustown"],
+    "tagPerson": [
+      "Allcock, H",
+      "D, Thomas",
+      "H, Nicholas",
+      "Markland, Thomas",
+      "Smale, John",
+      "McGill, John"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-06T00:00:00.000Z]"]
+  },
+  "77": {
+    "tagPerson": ["Everson, James", "Humberstone, Thomas"],
+    "tagDate": ["[1820-04-03T23:59:59.999Z TO 1827-07-07T00:00:00.000Z]"]
+  },
+  "95": {
+    "tagPerson": [
+      "Montgomery, Thos",
+      "Daniele, S",
+      "Campbell, S",
+      "Meighan, R"
+    ],
+    "tagDate": ["[1829-10-22T00:00:00.000Z TO 1829-12-31T23:59:59.999Z]"]
+  },
+  "60": {
+    "tagPerson": ["Shaw, William", "Duggan, Thomas"],
+    "tagDate": ["1794-01-01T00:00:00.000Z"],
+    "tagPlace": ["River Thames", "Upper Canada", "Detroit"]
+  },
+  "730": {
+    "tagDate": ["1791-03-27T00:00:00.000Z"],
+    "tagPerson": [
+      "Shaffer, Conradt",
+      "Delancey, Peter",
+      "Cattam, William",
+      "Collins",
+      "Conolly, John",
+      "Mitchell, George",
+      "Kelmer, John, P",
+      "E, Philip",
+      "Shaffer, Cornelius",
+      "Vandusen, Jacob",
+      "Hamilton, Govr",
+      "Milross, Andrew",
+      "Sheek, David",
+      "Mattice, John",
+      "Johnson, Timothy",
+      "Barnhart, George"
+    ],
+    "tagPlace": ["Boxborough", "Cornwall"]
+  },
+  "325": {
+    "tagDate": ["1803-08-02T00:00:00.000Z"],
+    "tagPlace": ["District of Johnstown"]
+  },
+  "217": {
+    "tagPerson": [
+      "McLean, Allan",
+      "Cotter, Ephraim",
+      "Cotter, Mary",
+      "James",
+      "McGill, John",
+      "Yurese, John",
+      "Cushiny"
+    ],
+    "tagDate": ["1805-03-02T00:00:00.000Z"],
+    "tagPlace": ["Ameliasburg", "Thurlow", "York", "Marysburg", "Kingston"]
+  },
+  "193": {
+    "tagDate": ["1804-01-01T00:00:00.000Z"],
+    "tagPerson": ["Shipman, Samuel", "Griffin, Samuel"],
+    "tagPlace": ["Yonge"]
+  },
+  "124": {
+    "tagDate": ["1823-12-08T00:00:00.000Z"],
+    "tagPerson": ["Thomas, James", "Smith, David, William", "Crooks, James"],
+    "tagPlace": ["County of Halton", "Upper Canada", "Township of Flamborough"]
+  },
+  "254": {
+    "tagPerson": ["Ross, William", "Fraser, Wm"],
+    "tagDate": ["1804-05-21T00:00:00.000Z"],
+    "tagPlace": ["Johnstown", "Kingston"]
+  },
+  "161": {
+    "tagPlace": ["Upper Canada"],
+    "tagDate": ["[1798-01-01T00:00:00.000Z TO 1815-12-31T23:59:59.999Z]"]
+  },
+  "241": {
+    "tagPlace": ["York", "Markham"],
+    "tagPerson": ["Selby, P", "Geister, John"],
+    "tagDate": ["[1796-12-31T23:59:59.999Z TO 1812-11-18T00:00:00.000Z]"]
+  },
+  "133": {
+    "tagDate": ["1857-09-04T00:00:00.000Z"],
+    "tagPerson": ["C, James, B", "Orde, George, Frederick"],
+    "tagPlace": [
+      "Province of Canada",
+      "United States of America",
+      "Town of Peterborough",
+      "State of Wisconsin",
+      "City of Milwaukee"
+    ]
+  },
+  "387": {
+    "tagPlace": ["Midland", "York", "Township of Marysburgh"],
+    "tagPerson": ["Casey, Willet", "McGill, Jno", "Allcock, H", "Small, J"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-02-24T00:00:00.000Z]"]
+  },
+  "687": {
+    "tagPlace": ["Township of Ernest Town", "Township of Kingston"],
+    "tagPerson": [
+      "Fralic, Martin",
+      "Simmons, Lieut",
+      "Knight, Mahlon",
+      "Whitenell, Nicholas",
+      "Herchmer, Nicholas",
+      "Burnet, Mathew",
+      "Burnet, Thomas",
+      "Sharp, Lieut",
+      "Anderson, Jane",
+      "Snyder, Abraham",
+      "McDonell, Archibald",
+      "Wartman, Peter",
+      "Burnet, John",
+      "Bowen, William",
+      "Snyder, Peter",
+      "Cartwright, Richard",
+      "Fisher, Alexander",
+      "Herchmer, Jost, Capt",
+      "Markland, Catherine",
+      "O, Gilbert",
+      "Powell, W, D",
+      "Clark, Robert",
+      "Booth, Joshua"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1801-08-28T00:00:00.000Z]"]
+  },
+  "248": {
+    "tagPlace": ["County of Lincoln", "District of Niagara"],
+    "tagPerson": ["Merritt, Thos"],
+    "tagDate": ["1804-05-16T00:00:00.000Z"]
+  },
+  "44": {
+    "tagDate": ["1791-05-03T00:00:00.000Z"],
+    "tagPerson": [
+      "Patterson, William",
+      "Dalton, Walter",
+      "Jones, Thomas",
+      "Kelly, Jim"
+    ]
+  },
+  "168": {
+    "tagPlace": ["York Township", "Upper Canada"],
+    "tagDate": ["1802-11-14T00:00:00.000Z"],
+    "tagPerson": ["Trout, Henry", "Evans, Spencer", "Purvis, George"]
+  },
+  "229": {
+    "tagPlace": ["Ameliasburg", "Sophiasburg", "York", "Ernest Town", "Camden"],
+    "tagPerson": [
+      "Valleau, Peter",
+      "McGill, John",
+      "Holcomb, John",
+      "Althouse, Nicholas",
+      "Warty, Thomas",
+      "Haggerman, Nicholas",
+      "Mabec, Abraham"
+    ],
+    "tagDate": ["[1805-07-04T00:00:00.000Z TO 1805-12-31T23:59:59.999Z]"]
+  },
+  "101": {
+    "tagPlace": ["County of York"],
+    "tagPerson": ["Rogers, William"],
+    "tagDate": ["[1811-04-04T00:00:00.000Z TO 1811-12-27T23:59:59.999Z]"]
+  },
+  "250": {
+    "tagPerson": ["Munro, C", "Ross, William"],
+    "tagDate": ["1804-05-22T00:00:00.000Z"],
+    "tagPlace": ["Matilda", "Kingston", "Eastern District"]
+  },
+  "372": {
+    "tagPlace": ["Midland", "York"],
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1804-01-13T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"]
+  },
+  "20": {
+    "tagPerson": ["Chrysler, Henry"],
+    "tagDate": ["[1802-01-16T23:59:59.999Z TO 1804-10-31T00:00:00.000Z]"],
+    "tagPlace": ["York"]
+  },
+  "408": {
+    "tagPerson": ["Allcock, H", "Washburn, Ebenezer", "McGill, John"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1804-03-26T00:00:00.000Z]"],
+    "tagPlace": ["York", "Township of Sidney", "Midland"]
+  },
+  "468": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-10T00:00:00.000Z]"],
+    "tagPerson": [
+      "Letteridge, John",
+      "Allcock, H",
+      "McGill, John",
+      "Smale, John",
+      "Chambers, John"
+    ],
+    "tagPlace": ["York", "Niagara", "Lake Erie", "Bartow"]
+  },
+  "401": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-15T00:00:00.000Z]"],
+    "tagPerson": ["Peters, Mary Ann", "Gregor, David, M"],
+    "tagPlace": ["York", "Midland"]
+  },
+  "26": {
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Cooper, William",
+      "Willcooks, Charles",
+      "Ridout, Thos",
+      "D, William"
+    ]
+  },
+  "317": {
+    "tagPerson": ["Allcock, H", "Farrington, Stephen"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-07-22T00:00:00.000Z]"],
+    "tagPlace": ["Marysburgh", "Midland"]
+  },
+  "702": {
+    "tagPlace": [
+      "Upper Canada",
+      "Bank of the River St Lawrence",
+      "Province of Quebec",
+      "County of Leeds",
+      "Township of Elizabethtown",
+      "District of Lunenburgh",
+      "District of Montreal"
+    ],
+    "tagDate": ["[1795-05-06T23:59:59.999Z TO 1797-05-25T00:00:00.000Z]"],
+    "tagPerson": ["Herrick, Wm", "Jones, Daniel", "Buell, William"]
+  },
+  "225": {
+    "tagPlace": ["Township of Bertie", "Niagara"],
+    "tagPerson": ["Buck, Michael", "Swayze, Isaac"],
+    "tagDate": ["1805-04-01T00:00:00.000Z"]
+  },
+  "452": {
+    "tagPlace": ["Fredericksburgh", "York", "Sophiasburgh ", "Marysburg"],
+    "tagPerson": [
+      "Allcock, H",
+      "Cadman, William",
+      "Wilson, James",
+      "Hicks, Joseph"
+    ],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-07-26T00:00:00.000Z]"]
+  },
+  "166": {
+    "tagPerson": ["Markland, Thomas", "Hackmer, M", "Smith, Peter"],
+    "tagDate": ["[1790-01-01T00:00:00.000Z TO 1798-09-14T23:59:59.999Z]"],
+    "tagPlace": ["Quebec"]
+  },
+  "275": {
+    "tagDate": ["[1802-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"],
+    "tagPlace": ["Johnstown"]
+  },
+  "298": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-10-06T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"]
+  },
+  "314": {
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"],
+    "tagPlace": ["Midland"]
+  },
+  "419": {
+    "tagPlace": ["York", "Township of Sandwich"],
+    "tagPerson": ["Allcock, H", "Baby, Susanne", "McGill, John"],
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1804-04-07T00:00:00.000Z]"]
+  },
+  "614": {
+    "tagPerson": [
+      "Hernes, Josiah",
+      "Atkinson, William",
+      "Amy, Nicholas",
+      "Spencer, Hazleton",
+      "Segar, John",
+      "Hufman, Conrad",
+      "McDonell, Archibald",
+      "Forsyth, Joseph",
+      "Hawley, Davis",
+      "Vanalstine, Peter",
+      "Segar, Sarah",
+      "Cartwright, Richard",
+      "Fisher, Alexander",
+      "Segar, Adam",
+      "Smith, John",
+      "Amy, Jonas"
+    ],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPlace": [
+      "Township of Thurlow",
+      "Fredericksburgh",
+      "Pittsburgh",
+      "Ameliasburgh",
+      "Ernest Town",
+      "Township of Richmond"
+    ]
+  },
+  "291": {
+    "tagPerson": ["Howard"],
+    "tagDate": ["[1803-11-18T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "189": {
+    "tagPlace": ["York", "Township of Grimsby"],
+    "tagDate": ["1804-08-30T00:00:00.000Z"],
+    "tagPerson": ["Field, Eleanor", "McGill, John"]
+  },
+  "322": {
+    "tagPlace": ["Township of Haldimand"],
+    "tagPerson": ["Hull, Luther", "Allcock, H"],
+    "tagDate": ["1803-07-13T00:00:00.000Z"]
+  },
+  "485": {
+    "tagPlace": ["Town of Kingston", "York"],
+    "tagDate": ["[1802-12-31T23:59:59.999Z TO 1804-09-11T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "Herchmer, Lawrence",
+      "McGill, John",
+      "Smale, John"
+    ]
+  },
+  "106": {
+    "tagPlace": ["County of York", "Province of Upper Canada"],
+    "tagDate": ["1820-04-19T00:00:00.000Z"],
+    "tagPerson": ["Willson, Thomas", "B, John", "Hamberstone, Thomas"]
+  },
+  "279": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"]
+  },
+  "684": {
+    "tagDate": ["1801-04-20T00:00:00.000Z"],
+    "tagPerson": [
+      "Thomson, Archd",
+      "Myers, John, Walden",
+      "Gilbert, Saml, B",
+      "Longwell, John",
+      "Kitchison, William",
+      "Kelly, Wm",
+      "Frederick, Conrad",
+      "Casey, Willet",
+      "Smith, D, W",
+      "Gilbert, Stephen",
+      "Wood, John",
+      "Richardson, John",
+      "Forsyth, Joseph",
+      "Clapp, Benj",
+      "Forsyth, John",
+      "Vanderhyden, David",
+      "Harris, Solomon",
+      "Forsyth, Thomas",
+      "Vanderhyden",
+      "Elms, John",
+      "Baker, Fred"
+    ],
+    "tagPlace": ["Thurlow", "Sydney"]
+  },
+  "380": {
+    "tagPerson": [
+      "Allcock, H",
+      "L, Isaac",
+      "B, John",
+      "Lutz, John",
+      "Small, John"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-02-10T00:00:00.000Z]"],
+    "tagPlace": ["York", "Niagara"]
+  },
+  "119": {
+    "tagPlace": [
+      "District of London",
+      "Province of Upper Canada",
+      "Township of Glenford",
+      "Township of Zorra"
+    ],
+    "tagDate": ["1836-09-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Chamber, H, Bash",
+      "Clarke, William, C",
+      "Murray, Alexander",
+      "Hunter, Roger, R"
+    ]
+  },
+  "19": {
+    "tagPerson": ["M, James", "Chisholm, Alex"],
+    "tagDate": ["1787-01-01T00:00:00.000Z"]
+  },
+  "152": {
+    "tagPerson": ["Trotetter, Samuel", "Thomas, John", "Tompkins, Samuel"],
+    "tagDate": ["1831-03-03T00:00:00.000Z"]
+  },
+  "415": {
+    "tagPerson": ["McGill, John", "Robins, James", "Allcock, H"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-04-04T00:00:00.000Z]"],
+    "tagPlace": ["York", "District of Newcastle"]
+  },
+  "466": {
+    "tagPerson": [
+      "Allcock, H",
+      "Brimley, Edward",
+      "McGill, John",
+      "Smale, John"
+    ],
+    "tagDate": ["[1802-12-31T23:59:59.999Z TO 1804-08-15T00:00:00.000Z]"],
+    "tagPlace": ["Niagara", "Saltfleet", "York"]
+  },
+  "185": {
+    "tagDate": ["1804-10-07T00:00:00.000Z"],
+    "tagPerson": ["Crysler, John", "McGill, John"],
+    "tagPlace": ["York", "Newark Township"]
+  },
+  "406": {
+    "tagPerson": [
+      "McIntork, Benjamin",
+      "McGill, John",
+      "McDowell, Angus",
+      "G, John",
+      "Allcock, H"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-03-22T00:00:00.000Z]"],
+    "tagPlace": ["Township of Charlottenburgh", "York"]
+  },
+  "91": {
+    "tagDate": ["1818-09-11T00:00:00.000Z"],
+    "tagPerson": ["Smith, Jacob", "Jacobson, Henry"]
+  },
+  "83": {
+    "tagPlace": [
+      "Province of Upper Canada",
+      "Township of Charlottenburg",
+      "Montreal",
+      "County of Glengarry"
+    ],
+    "tagDate": ["1815-02-04T00:00:00.000Z"],
+    "tagPerson": [
+      "McKinzie, Ann",
+      "McKinzie, Alexander",
+      "McPherson, Donato, Captain",
+      "Campbell, M",
+      "Johnson, John"
+    ]
+  },
+  "257": {
+    "tagPlace": ["Adolphustown"],
+    "tagPerson": ["Fraher, Alexander"],
+    "tagDate": ["1804-05-20T00:00:00.000Z"]
+  },
+  "489": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-12T00:00:00.000Z]"],
+    "tagPerson": [
+      "Smale, John",
+      "McGill, John",
+      "Allcock, H",
+      "McAuley, Donald"
+    ],
+    "tagPlace": ["Cornwall", "York"]
+  },
+  "303": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-10-25T00:00:00.000Z]"],
+    "tagPlace": ["Midland", "Prince Edward's Bay"]
+  },
+  "53": {
+    "tagPerson": ["D, Pearsan", "Nicholas, L", "Peck, John"],
+    "tagDate": ["1785-11-26T00:00:00.000Z"],
+    "tagPlace": ["Detroit River"]
+  },
+  "278": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["[1802-12-31T23:59:59.999Z TO 1803-11-21T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"]
+  },
+  "481": {
+    "tagPlace": ["Town of Johnstown", "York", "Augusta", "Leeds"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-06T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "Smale, John",
+      "Peters, Thomas",
+      "Ritchard, Azariah",
+      "M, Benjamin, Ruggles",
+      "McDonell, Angus",
+      "Plumby, Daniel",
+      "Y, Sarah",
+      "McGill, John",
+      "Church, Mary"
+    ]
+  },
+  "430": {
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1804-06-16T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H", "H, Joseph", "McGill, John"],
+    "tagPlace": ["Midland", "Township of Fredericksburgh", "York"]
+  },
+  "434": {
+    "tagDate": ["1804-06-25T00:00:00.000Z"],
+    "tagPerson": [
+      "V, Peter",
+      "Clement, Joseph",
+      "Price, Joseph",
+      "M, John",
+      "Palte, Christian",
+      "Warren, John"
+    ],
+    "tagPlace": ["Niagara", "York"]
+  },
+  "339": { "tagDate": ["1803-09-23T00:00:00.000Z"], "tagPlace": ["Midland"] },
+  "28": {
+    "tagPerson": [
+      "Macdonell, A",
+      "Rice, Reubien",
+      "Cutter, Abraham",
+      "Ridout, S"
+    ],
+    "tagDate": ["1804-04-11T00:00:00.000Z"],
+    "tagPlace": [
+      "Township of Markham",
+      "Home District",
+      "Upper Canada",
+      "County of York"
+    ]
+  },
+  "111": {
+    "tagDate": ["1820-08-20T00:00:00.000Z"],
+    "tagPerson": ["Martell, Jean, Baptiste", "Crow, Robert"],
+    "tagPlace": ["Township of Dover", "County of Kent"]
+  },
+  "271": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"]
+  },
+  "226": {
+    "tagPerson": ["Pingel, J", "Russell, Peter"],
+    "tagDate": ["[1794-12-31T23:59:59.999Z TO 1805-05-14T00:00:00.000Z]"]
+  },
+  "17": {
+    "tagPerson": ["McCulloch", "Massay, Phelips", "Burton"],
+    "tagDate": ["1801-06-10T00:00:00.000Z"]
+  },
+  "130": {
+    "tagPerson": ["Beikie, John"],
+    "tagDate": ["1831-05-03T00:00:00.000Z"]
+  },
+  "21": {
+    "tagPerson": ["Chrysler, Henry"],
+    "tagDate": ["1804-10-31T00:00:00.000Z"]
+  },
+  "418": {
+    "tagPerson": ["Kolibert, Moses", "Allcock, H", "Burrilt, Danice"],
+    "tagDate": ["[1804-04-07T00:00:00.000Z TO 1807-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Johnstown", "York"]
+  },
+  "188": {
+    "tagPlace": ["Township of Bertie"],
+    "tagDate": ["1804-01-01T00:00:00.000Z"],
+    "tagPerson": ["Pound, Daniel"]
+  },
+  "253": {
+    "tagPlace": ["Cornwall"],
+    "tagPerson": ["Anderson, James"],
+    "tagDate": ["1804-05-22T00:00:00.000Z"]
+  },
+  "411": {
+    "tagPerson": ["Allcock, H", "McGill, John", "Empey, John"],
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1804-03-31T00:00:00.000Z]"],
+    "tagPlace": ["York"]
+  },
+  "712": {
+    "tagDate": ["[1795-05-06T23:59:59.999Z TO 1796-05-16T00:00:00.000Z]"],
+    "tagPerson": [
+      "Buell, William",
+      "Shipman, Samuel",
+      "Hent, Gasper",
+      "Jones, Daniel",
+      "Livingston, John",
+      "Campbell, James, Captain",
+      "Merrick, William",
+      "Jessup, Edward",
+      "Smades, Joel",
+      "Haldimand, Frederick",
+      "Knight, Benjamin"
+    ],
+    "tagPlace": [
+      "District of Montreal",
+      "Elizabethtown",
+      "District of Lunenburgh",
+      "County of Leeds",
+      "Augusta",
+      "Province of Quebec",
+      "Province of Upper Canada",
+      "Township Lamont",
+      "Bank of the River St Lawrence"
+    ]
+  },
+  "105": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Jarvis, S"],
+    "tagDate": ["1825-09-20T00:00:00.000Z"]
+  },
+  "486": {
+    "tagPlace": ["York", "Pittsburgh"],
+    "tagPerson": ["Allcock, H", "Gras, Michael", "Smale, John", "McGill, John"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-11T00:00:00.000Z]"]
+  },
+  "600": {
+    "tagPlace": [
+      "Cornwall",
+      "Charlottenburg",
+      "Matilda",
+      "Township of Lancaster",
+      "Eastern District"
+    ],
+    "tagDate": ["1800-08-18T00:00:00.000Z"],
+    "tagPerson": [
+      "Dixon, John, Junior",
+      "McDonell, John, Roy",
+      "Allcock, Henry",
+      "Theffields, William",
+      "Wilkinson, Richard, Captain",
+      "Patterson, Allan",
+      "Munro, John",
+      "Noble, William",
+      "McDonell, Angus",
+      "Wilkinson, Richard"
+    ]
+  },
+  "409": {
+    "tagPlace": ["York", "Midland", "Township of Sidney"],
+    "tagPerson": ["Allcock, H", "McGill, John", "Washburn, Ebenezer"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1804-03-26T00:00:00.000Z]"]
+  },
+  "383": {
+    "tagPerson": [
+      "Campbell, Alexander",
+      "Boyle, Joseph",
+      "Hick, Samuel",
+      "C, John",
+      "Day, Joseph"
+    ],
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1804-01-01T00:00:00.000Z]"],
+    "tagPlace": ["York", "Augusta", "St Lawrence Yonge", "Johnstown"]
+  },
+  "232": {
+    "tagPerson": [
+      "Steward, Enoch",
+      "Arskin, Abraham",
+      "Stevens, John",
+      "Speck, Simon",
+      "McGill, John",
+      "Clark, Ralfe"
+    ],
+    "tagDate": ["1806-02-26T00:00:00.000Z"],
+    "tagPlace": ["Humberstone", "York", "Delaware", "Windham", "Rainham"]
+  },
+  "300": {
+    "tagPlace": ["Gloucester", "Eastern District", "Alfred"],
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1802-07-22T00:00:00.000Z]"]
+  },
+  "604": {
+    "tagDate": ["[1800-08-22T00:00:00.000Z TO 1800-08-25T23:59:59.999Z]"],
+    "tagPerson": [
+      "Knapp, Joseph",
+      "Fraser, William",
+      "Williams, John",
+      "Scott, William",
+      "Allen, Ebenezer",
+      "Bates, George",
+      "Allcock, Henry",
+      "Jones, Ephraim",
+      "Allen, George"
+    ],
+    "tagPlace": [
+      "Elizabethtown",
+      "Augusta",
+      "District of Johnstown",
+      "Township of Yonge"
+    ]
+  },
+  "364": {
+    "tagPlace": ["Grand River Cataraqui", "Kingston", "Midland"],
+    "tagPerson": [
+      "Edgar, John",
+      "Sampson, Alexr",
+      "Connolly, John",
+      "Day, Barnabas",
+      "Harpell, George",
+      "Mcfarlane, John"
+    ],
+    "tagDate": ["1803-01-01T00:00:00.000Z"]
+  },
+  "469": {
+    "tagPlace": ["Bartow", "York", "District of Niagara"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-31T00:00:00.000Z]"],
+    "tagPerson": [
+      "Carscallion, John",
+      "McNabb, Colin",
+      "Allcock, H",
+      "Hillier, Nathaniel",
+      "McGill, John",
+      "Thomson, Timothy"
+    ]
+  },
+  "276": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-09-26T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"],
+    "tagPlace": ["Fredericksburgh", "Midland"]
+  },
+  "165": {
+    "tagPerson": [
+      "Weston, Saml",
+      "Boyle, John",
+      "Viznan, Elizabeth",
+      "Viznan, Louis"
+    ],
+    "tagDate": ["1800-03-03T00:00:00.000Z"]
+  },
+  "116": {
+    "tagPerson": ["Martell, Jean, Baptiste", "Grow, Robert", "Dolsen, John"],
+    "tagDate": ["1834-09-24T00:00:00.000Z"]
+  },
+  "593": {
+    "tagPerson": [
+      "McDonell, R",
+      "Johnson, John",
+      "Collison, John",
+      "Ridout, Chewett, V",
+      "Shaver, Hannes",
+      "Carman, Michael, Gen",
+      "Wallaser, Anthony",
+      "Jones, Lucy",
+      "Dorne, Peter",
+      "McAitkin",
+      "Clarke, Donald",
+      "McManners, John",
+      "Harman, Hanah",
+      "Davis, Richard",
+      "Forster, Ed",
+      "McCarthy, Florence",
+      "Servis, John",
+      "Stone, Joel",
+      "Russell, William",
+      "Russell, Michael",
+      "Noel, James",
+      "Teefile, John",
+      "Jones, Ephraim",
+      "Fraser, Thomas",
+      "Cook, Michael",
+      "Sheppherd, John",
+      "McMolan, Neil",
+      "Avery, Joseph",
+      "Mann, John",
+      "McCollins"
+    ],
+    "tagDate": ["1799-03-14T00:00:00.000Z"],
+    "tagPlace": ["Quebec"]
+  },
+  "221": {
+    "tagDate": ["1805-03-04T00:00:00.000Z"],
+    "tagPerson": [
+      "McLennan, Keneth",
+      "McInlice, Duncan",
+      "Sore, John, M",
+      "Jacocks, Margarett",
+      "Phillips, John",
+      "McDonell, Mary",
+      "Pulman, Nathan",
+      "Wilkinson, W, B",
+      "Caldes",
+      "Bender, Lawrence",
+      "McGill, John"
+    ],
+    "tagPlace": ["Lancaster", "Osnabruck", "York", "Charlottenburg"]
+  },
+  "392": {
+    "tagPlace": ["Midland", "Fredericksburgh"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-02-28T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "Small, J",
+      "Thompson, Eliza",
+      "Nevill, Anthony"
+    ]
+  },
+  "405": {
+    "tagPerson": ["Hamilton, Robert", "McGill, John", "Allcock, H"],
+    "tagDate": ["1804-03-21T00:00:00.000Z"],
+    "tagPlace": ["London", "York"]
+  },
+  "186": {
+    "tagDate": ["1804-11-07T00:00:00.000Z"],
+    "tagPerson": ["Crysler, John"],
+    "tagPlace": ["Township of Newark"]
+  },
+  "96": {
+    "tagPerson": [
+      "Meighan, R",
+      "Campbell, S",
+      "Daniele, S",
+      "Montgomery, Thos"
+    ],
+    "tagDate": ["[1829-10-22T00:00:00.000Z TO 1829-12-31T23:59:59.999Z]"]
+  },
+  "35": {
+    "tagPlace": ["Detroit"],
+    "tagPerson": ["Close, F", "Dolsen, Matthew"],
+    "tagDate": ["1789-09-15T00:00:00.000Z"]
+  },
+  "416": {
+    "tagPlace": ["York"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-04-04T00:00:00.000Z]"],
+    "tagPerson": [
+      "Stuart, George, O'Neill",
+      "Allcock, H",
+      "C, George",
+      "McGill, John",
+      "Isaac, Robert",
+      "Robinson, Peter"
+    ]
+  },
+  "90": {
+    "tagDate": ["1830-04-17T00:00:00.000Z"],
+    "tagPerson": ["Campbell, S"]
+  },
+  "249": {
+    "tagDate": ["1804-05-17T00:00:00.000Z"],
+    "tagPerson": ["Stean, Joseph", "Nelles, Aln"]
+  },
+  "42": {
+    "tagDate": ["1801-01-01T00:00:00.000Z"],
+    "tagPerson": ["Fordy, Joseph", "Bennet, James"]
+  },
+  "169": {
+    "tagDate": ["1802-11-14T00:00:00.000Z"],
+    "tagPerson": ["Capt, Fortess"]
+  },
+  "228": {
+    "tagPerson": [
+      "Holcomb, John",
+      "Althouse, Nicholas",
+      "Warty, Thomas",
+      "McGill, John",
+      "Valleau, Peter",
+      "Mabec, Abraham",
+      "Hagerman, Nicholas"
+    ],
+    "tagDate": ["[1805-07-04T00:00:00.000Z TO 1805-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Ernest Town", "Camden", "Ameliasburg", "Sophiasburg", "York"]
+  },
+  "520": {
+    "tagPlace": [
+      "Home District",
+      "District of Johnstown",
+      "Midland District",
+      "Township of Lancaster"
+    ],
+    "tagDate": ["[1797-09-27T00:00:00.000Z TO 1801-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Galloway, George",
+      "G, Ezekiel",
+      "German, Christopher",
+      "Grant, Catherine, Crawford",
+      "Gerbiz, William",
+      "Gilchrist, Archibald",
+      "Gibbons, Mar",
+      "Graham, Oliver",
+      "Goodes, Alec",
+      "Grass, Captain",
+      "Georgen, Christopher",
+      "Gibbon, Mary Ann",
+      "German, John, Junior",
+      "Gilbert, Stephen",
+      "Glasford, Little",
+      "Gardiner, John",
+      "Grant, Duncan",
+      "Georgen, Jacob",
+      "Graham, William",
+      "German, John",
+      "Grass, Michael",
+      "Grant, Alexander",
+      "Glazier, Mezekiah",
+      "Glasford, John",
+      "Grant, Donald",
+      "Gerbiz, Christian",
+      "Goodes, Elizabeth",
+      "Gilbert, Sam, B",
+      "Gallagher, Hugh",
+      "Galloway, Leiutenant",
+      "Goodes, Hannah",
+      "Giles, Thomas",
+      "Grant, James",
+      "Goodes, William"
+    ]
+  },
+  "457": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-08-14T00:00:00.000Z]"],
+    "tagPerson": ["Smale, John", "Allen, Joseph", "Allcock, H"],
+    "tagPlace": ["Township of Marysburgh", "York"]
+  },
+  "206": {
+    "tagPlace": ["Township of Elizabethtown", "York"],
+    "tagPerson": [
+      "Howard, Peter",
+      "Howard, Deyer",
+      "McGill, John",
+      "Trimer, Michael"
+    ],
+    "tagDate": ["[1805-02-05T00:00:00.000Z TO 1805-12-31T23:59:59.999Z]"]
+  },
+  "33": {
+    "tagPlace": ["Detroit"],
+    "tagDate": ["1789-09-15T00:00:00.000Z"],
+    "tagPerson": ["Dugan, William", "Dolsen, Matthew", "Ritchie, John"]
+  },
+  "289": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["1803-11-19T00:00:00.000Z"],
+    "tagPlace": ["Howard", "Rochester"]
+  },
+  "191": {
+    "tagPerson": ["McGill, John", "Crysler, John", "Field, Eleanor"],
+    "tagDate": ["[1804-11-02T00:00:00.000Z TO 1804-11-07T23:59:59.999Z]"],
+    "tagPlace": ["Township of Grimsby", "York"]
+  },
+  "370": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-01-13T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H"],
+    "tagPlace": ["York", "Midland"]
+  },
+  "63": {
+    "tagPerson": [
+      "Grant, Duncan",
+      " S, Louis, Medard",
+      "Sherwood, Justus",
+      "Campbell, James",
+      "Jones, E",
+      "Starkwathes, Ada"
+    ],
+    "tagDate": ["1788-07-26T00:00:00.000Z"]
+  },
+  "198": {
+    "tagPerson": ["Shipman, Samuel", "Barnet, Alexander", "McGill, John"],
+    "tagDate": ["1804-09-01T00:00:00.000Z"],
+    "tagPlace": ["York", "Township of Elizabeth Town"]
+  },
+  "670": {
+    "tagPlace": [
+      "Leeds",
+      "Ernest Town",
+      "Camden",
+      "Township of Kingston",
+      "Hallowell",
+      "Loughborough",
+      "Adolphustown",
+      "Fredericksburgh",
+      "Lake Ontario",
+      "Marysburgh",
+      "Pittsburgh",
+      "Midland District"
+    ],
+    "tagPerson": [
+      "Johnson, Andrew",
+      "Smith, D, W",
+      "Dorlan, Philip, Lt",
+      "Casey, Willet",
+      "Bougart, Conrad",
+      "Casey, Wm",
+      "Scharmahorn, Eliz",
+      "Fielden, Wm",
+      "Quakenbush, Isaac",
+      "Lezier, Nicholas",
+      "Couger, David",
+      "Demorest, James",
+      "England, Poole",
+      "McLeod, John",
+      "Mathews, Thomas, Elms",
+      "Johnson, Henry",
+      "Cartwright, W",
+      "Anderson, Thos",
+      "Spencer, Carey",
+      "Farrington, Stephen",
+      "Moore, John",
+      "Parrot",
+      "Comer, Thos",
+      "Stuart, W",
+      "Ferguson, Farrington",
+      "Fykes, Peter",
+      "Vanduser, Gasper",
+      "Darly, John",
+      "Moore, Wm",
+      "Bougart, Abraham",
+      "Booth, Joshua",
+      "Cook, Christiana",
+      "Clarke, James",
+      "Peterson, Nicholas",
+      "Dyer, Barret",
+      "Aitkin, Alexr",
+      "Blackley, James",
+      "Embury, David",
+      "Tyler, Gerrard",
+      "Quakenbush, Peter",
+      "Clarke, Robt",
+      "Roblin, Owen",
+      "Peters, Bernslee, Senior",
+      "Cassedy, Henry",
+      "Y, William",
+      "Sibley, Sarah",
+      "Baker, John"
+    ],
+    "tagDate": ["[1796-03-22T00:00:00.000Z TO 1800-08-24T23:59:59.999Z]"]
+  },
+  "146": {
+    "tagPerson": ["Thomas, John", "Burley, F", "Burley, Jane"],
+    "tagDate": ["1831-03-05T00:00:00.000Z"],
+    "tagPlace": [
+      "Township of Crane",
+      "County of Northumberland",
+      "Province of Upper Canada"
+    ]
+  },
+  "479": {
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1804-09-06T00:00:00.000Z]"],
+    "tagPerson": ["Murdoff, James", "McGill, John", "Allcock, H"],
+    "tagPlace": ["York", "Township of Richmond"]
+  },
+  "266": {
+    "tagDate": ["[1803-01-01T00:00:00.000Z TO 1804-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Upper Canada"]
+  },
+  "327": {
+    "tagPlace": ["Yonge", "Johnstown"],
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["1803-01-01T00:00:00.000Z"]
+  },
+  "215": {
+    "tagPlace": ["Ernest Town", "Camden", "York", "Thurlow", "Fredericksburg"],
+    "tagDate": ["1805-02-26T00:00:00.000Z"],
+    "tagPerson": [
+      "Fykes, Peter",
+      "Frolick, Jacob",
+      "Dorland, Thos",
+      "McKim, James",
+      "Fraser, Elizabeth",
+      "Prindle, Joseph",
+      "Comber, Thomas",
+      "Frost, Edward",
+      "Smith, Cathauni",
+      "Huff, James",
+      "McGill, John"
+    ]
+  },
+  "175": {
+    "tagPlace": ["River Thames", "New York", "Township of Raleigh"],
+    "tagPerson": ["Dolsen, John", "Dolsen, Matthew", "D, Antoine"],
+    "tagDate": ["1796-06-02T00:00:00.000Z"]
+  },
+  "491": {
+    "tagPlace": [
+      "Yonge",
+      "York",
+      "Gower",
+      "Elizabethtown",
+      "Johnstown",
+      "Augusta"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-12T00:00:00.000Z]"],
+    "tagPerson": [
+      "Smale, John",
+      "Sherwood, Sarah",
+      "Allcock, H",
+      "McGill, John",
+      "Spencer, P",
+      "Kilborn, David",
+      "S, Daniel",
+      "M, Jacob",
+      "France, Thomas"
+    ]
+  },
+  "157": {
+    "tagPerson": [
+      "Sicklesteel, David",
+      "Blackburn, Isaac",
+      "Blackburn, Leonard",
+      "Arnold, Lewis",
+      "Arnold, John",
+      "V, Daniel",
+      "McGregor, Duncan",
+      "Fraxler, Michael",
+      "Blackburn, Joseph",
+      "Blackburn, Robert",
+      "French, Peter",
+      "Fraxler, Peter",
+      "Blackburn, John"
+    ],
+    "tagDate": ["[1831-03-28T00:00:00.000Z TO 1831-05-28T23:59:59.999Z]"]
+  },
+  "97": {
+    "tagPerson": ["Robinson, John, Beverly"],
+    "tagDate": ["1823-01-01T00:00:00.000Z"],
+    "tagPlace": [
+      "County of York",
+      "Town of York",
+      "Province of Upper Canada",
+      "Township of Etobicoke"
+    ]
+  },
+  "29": {
+    "tagPerson": ["Cutter, Abraham"],
+    "tagDate": ["1804-01-01T00:00:00.000Z"]
+  },
+  "475": {
+    "tagPerson": [
+      "Smale, John",
+      "McGill, John",
+      "Westherhead, Magdalen",
+      "Allcock, H"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-09-05T00:00:00.000Z]"],
+    "tagPlace": ["Augusta", "York"]
+  },
+  "252": {
+    "tagDate": ["1804-05-22T00:00:00.000Z"],
+    "tagPerson": ["Anderson, Samuel", "Anderson, J", "Ross, William"],
+    "tagPlace": [
+      "County of Clermont",
+      "Eastern District",
+      "Kingston",
+      "Cornwall"
+    ]
+  },
+  "446": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1804-07-14T00:00:00.000Z]"],
+    "tagPerson": ["McGill, John", "Allcock, H", "McDonell, Hugh"],
+    "tagPlace": ["York", "Cornwall"]
+  },
+  "535": {
+    "tagPlace": [
+      "Township of Charlottenburg",
+      "Township of Cornwall",
+      "Township of Osnabruck",
+      "Township of Lancaster",
+      "Province of Upper Canada"
+    ],
+    "tagPerson": [
+      "Elmsley, John",
+      "Robins, William",
+      "Day, Thomas",
+      "Hunter, Peter",
+      "Stoneburner, Leonard",
+      "Farrand, I",
+      "Wasaline, George",
+      "Whalin, Michael",
+      "Dodge, Thomas",
+      "Ridout, Chewett",
+      "Bangle, Adam",
+      "Bangle, William"
+    ],
+    "tagDate": ["[1799-10-25T00:00:00.000Z TO 1800-04-22T23:59:59.999Z]"]
+  },
+  "713": {
+    "tagDate": ["[1797-06-02T00:00:00.000Z TO 1802-01-05T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, David",
+      "Robertson, P, HJ",
+      "Buell, William",
+      "Ashell, W",
+      "Smith, D, W",
+      "Chewett, W",
+      "Jessup, Edward",
+      "Munro, John",
+      "Merrick, William"
+    ],
+    "tagPlace": [
+      "Elizabethtown",
+      "County of Leeds",
+      "Johnstown",
+      "Williamsburgh",
+      "Province of Upper Canada",
+      "Bank of the River St Lawrence"
+    ]
+  },
+  "219": {
+    "tagPerson": ["V, Joseph", "Elliott, M"],
+    "tagDate": ["1805-01-01T00:00:00.000Z"],
+    "tagPlace": ["Raleigh"]
+  },
+  "498": {
+    "tagPlace": ["Upper Canada"],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1802-12-31T23:59:59.999Z]"]
+  },
+  "150": {
+    "tagDate": ["1831-03-03T00:00:00.000Z"],
+    "tagPerson": ["Thomas, John", "Tomkins, Samuel"],
+    "tagPlace": [
+      "Township of Haldimand",
+      "County of Northumberland",
+      "New Castle District",
+      "Province of Upper Canada"
+    ]
+  },
+  "201": {
+    "tagPlace": ["York", "Yonge", "Elizabethtown"],
+    "tagPerson": ["McGill, John", "Shipman, Samuel", "Brown, Jonah"],
+    "tagDate": ["[1804-01-01T00:00:00.000Z TO 1804-08-29T23:59:59.999Z]"]
+  },
+  "129": {
+    "tagDate": ["[1823-01-11T00:00:00.000Z TO 1823-12-08T23:59:59.999Z]"],
+    "tagPerson": ["L, John", "Crooks, James"],
+    "tagPlace": ["Niagara"]
+  },
+  "268": {
+    "tagPerson": ["Wilkinson, Walter, B"],
+    "tagDate": ["1802-01-01T00:00:00.000Z"],
+    "tagPlace": ["Osnaburg"]
+  },
+  "196": {
+    "tagPerson": ["Leech, Catharine", "McGill, John", "Shipman, Samuel"],
+    "tagDate": ["[1804-08-31T00:00:00.000Z TO 1804-10-27T23:59:59.999Z]"],
+    "tagPlace": ["Township of Yonge", "York"]
+  },
+  "425": {
+    "tagPlace": ["Town of Johnstown", "Edwardsburgh"],
+    "tagPerson": [
+      "Livingston, James",
+      "Landon, Oliver",
+      "McLean, Alexander",
+      "McGill, John",
+      "M, William",
+      "Joseph, Susannah",
+      "Cain, David",
+      "Chisholm, M",
+      "Allcock, H",
+      "M, John",
+      "Horton, Nathaniel"
+    ],
+    "tagDate": ["1803-05-02T00:00:00.000Z"]
+  },
+  "148": {
+    "tagPerson": ["Burley, Jane", "Cole, James", "Thomas, John"],
+    "tagDate": ["1831-03-05T00:00:00.000Z"]
+  },
+  "382": {
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1804-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "C, John",
+      "Boyle, Joseph",
+      "Hick, Samuel",
+      "Campbell, Alexander",
+      "Day, Joseph"
+    ],
+    "tagPlace": ["York", "Augusta", "St Lawrence Yonge", "Johnstown"]
+  },
+  "40": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bennet, James", "Fordy, Joseph"],
+    "tagPlace": ["Quebec", "Kingston"]
+  },
+  "233": {
+    "tagDate": ["[1806-02-26T00:00:00.000Z TO 1806-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Clark, Ralfe"]
+  },
+  "355": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["Allcock, H", "Small, John"],
+    "tagDate": ["1803-12-19T00:00:00.000Z"]
+  },
+  "141": {
+    "tagPerson": ["Whitchurch, M, F", "M, George, M"],
+    "tagDate": ["1827-01-09T00:00:00.000Z"]
+  },
+  "92": {
+    "tagDate": ["1830-04-17T00:00:00.000Z"],
+    "tagPerson": ["Campbell, S"]
+  },
+  "154": {
+    "tagPlace": ["Township of Chatham"],
+    "tagPerson": ["Mow, Elam", "Robinson, P"],
+    "tagDate": ["1821-06-22T00:00:00.000Z"]
+  },
+  "261": {
+    "tagDate": ["1804-05-18T00:00:00.000Z"],
+    "tagPerson": ["Coffin, William"],
+    "tagPlace": ["Kingston"]
+  },
+  "208": {
+    "tagPerson": ["McGill, John", "Frederick, Barnhard", "Howard, Peter"],
+    "tagDate": ["1805-02-21T00:00:00.000Z"],
+    "tagPlace": ["York", "Township of Matilda"]
+  },
+  "448": {
+    "tagPerson": [
+      "McGill, John",
+      "Bermingil, Philip",
+      "Ball, Peter",
+      "Allcock, H"
+    ],
+    "tagDate": ["1804-07-26T00:00:00.000Z"],
+    "tagPlace": ["London", "York"]
+  },
+  "16": {
+    "tagDate": ["1802-10-07T00:00:00.000Z"],
+    "tagPerson": ["McCormick, Wm", "Powell, Wm", "Nickel, Robert"]
+  },
+  "377": {
+    "tagPlace": ["Midland", "Fredericksburgh", "Prince Edwards Bay", "York"],
+    "tagPerson": ["Allcock, H", "McGill, John"],
+    "tagDate": ["[1804-01-13T00:00:00.000Z TO 1804-01-14T23:59:59.999Z]"]
+  },
+  "125": {
+    "tagDate": ["1823-12-08T00:00:00.000Z"],
+    "tagPerson": [
+      "Crooks, James",
+      "Taylor, Thos",
+      "Thomas, James",
+      "Smith, David, William"
+    ],
+    "tagPlace": ["County of Halton", "Township of Flamborough", "Upper Canada"]
+  },
+  "393": {
+    "tagPlace": ["Augusta", "Niagara"],
+    "tagPerson": ["Small, J", "Allcock, H"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-02-29T00:00:00.000Z]"]
+  },
+  "450": {
+    "tagPlace": ["Township of Sandwich"],
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1804-07-26T00:00:00.000Z]"],
+    "tagPerson": ["McGill, John", "Park, William", "Allcock, H"]
+  },
+  "24": {
+    "tagPlace": ["Elizabethtown"],
+    "tagDate": ["1791-06-08T00:00:00.000Z"],
+    "tagPerson": ["Chase, Jonas", "Cole, Adam", "Bulter, James"]
+  },
+  "429": {
+    "tagPlace": ["London", "Township of Charlotte"],
+    "tagPerson": ["Allcock, H", "McGill, John"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-06-14T00:00:00.000Z]"]
+  },
+  "359": {
+    "tagPlace": ["York", "Midland"],
+    "tagDate": ["1803-12-23T00:00:00.000Z"]
+  },
+  "320": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1803-07-13T00:00:00.000Z]"],
+    "tagPlace": ["Midland"]
+  },
+  "454": {
+    "tagPerson": ["G, John", "Small, John", "Wallace, William", "Allcock"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-07-30T00:00:00.000Z]"],
+    "tagPlace": ["Clinton", "York", "Town of Niagara"]
+  },
+  "441": {
+    "tagPlace": ["York", "Elizabethtown", "Augusta"],
+    "tagPerson": [
+      "Grant, Allan",
+      "Buck, Sarah",
+      "Aldrick, Mary",
+      "G, Benjamin"
+    ],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-07-10T00:00:00.000Z]"]
+  },
+  "449": {
+    "tagDate": ["[1804-07-26T00:00:00.000Z TO 1804-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "McGill, John",
+      "Allcock, H",
+      "Walker, William",
+      "McDonell, Angus",
+      "Millers, Peter",
+      "Vogel, Charles, H"
+    ],
+    "tagPlace": ["York"]
+  },
+  "176": {
+    "tagDate": ["1796-06-02T00:00:00.000Z"],
+    "tagPerson": ["D, Antoine"]
+  },
+  "22": {
+    "tagPlace": ["Elizabethtown"],
+    "tagDate": ["1791-06-04T00:00:00.000Z"],
+    "tagPerson": [
+      "Cole, Adam",
+      "Hailford, Abel",
+      "Fulton, Jonathan",
+      "Chase, Jonas"
+    ]
+  },
+  "216": {
+    "tagPerson": ["Dorland, Thomas"],
+    "tagDate": ["[1805-02-26T00:00:00.000Z TO 1805-12-31T23:59:59.999Z]"]
+  },
+  "714": {
+    "tagDate": ["[1799-10-14T00:00:00.000Z TO 1800-09-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "Elmsley, J",
+      "Petry, Joseph",
+      "Murray, Duncan, Lieutenant",
+      "Addison, Robert, Revd",
+      "Pilkington, Robert",
+      "Allcock, Henry",
+      "Hamilton, Robert",
+      "Walker, Jacob",
+      "Page, Thomas, Page",
+      "Bradt, John",
+      "Letch, Thomas",
+      "Kerr, David",
+      "Dickson, Thomas"
+    ],
+    "tagPlace": [
+      "Township of Bertie",
+      "Province of Upper Canada",
+      "Township of Barton",
+      "Quebec",
+      "Town of Newark",
+      "Niagara",
+      "County of Lincoln"
+    ]
+  },
+  "145": {
+    "tagDate": ["1831-03-03T00:00:00.000Z"],
+    "tagPerson": ["Hearns, Jane", "Thomas, John"]
+  },
+  "351": {
+    "tagPlace": ["York", "Midland"],
+    "tagPerson": [
+      "M, John",
+      "Mosure, John",
+      "Allcock, H",
+      "Small, John",
+      "McGill, John"
+    ],
+    "tagDate": ["[1802-12-30T23:59:59.999Z TO 1803-12-29T00:00:00.000Z]"]
+  },
+  "428": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1804-05-21T00:00:00.000Z TO 1804-05-31T23:59:59.999Z]"]
+  },
+  "658": {
+    "tagPlace": [
+      "Pittsburgh",
+      "Fredericksburgh",
+      "Township of Hallowell",
+      "Kingston",
+      "Adolphustown",
+      "Ernest Town"
+    ],
+    "tagPerson": [
+      "Q, Peter, Isaac",
+      "McDonell, Donald",
+      "Fairfield, Wm",
+      "McDonell, Archd",
+      "Smith, Michael",
+      "Chishoilm, Alexander",
+      "Smith, D, W",
+      "Casey, Willet",
+      "Peterson, Nicholas",
+      "Cartwright, R",
+      "Booth, Joshua"
+    ],
+    "tagDate": ["1798-09-17T00:00:00.000Z"]
+  },
+  "237": {
+    "tagPerson": [
+      "Small",
+      "Russells, Peter",
+      "Temple, Sophia",
+      "Lindeman, Peter",
+      "Russell, Peter"
+    ],
+    "tagDate": ["[1794-12-31T23:59:59.999Z TO 1804-04-11T00:00:00.000Z]"],
+    "tagPlace": ["Markham"]
+  },
+  "710": {
+    "tagPerson": [
+      "McDonald, Patrick",
+      "Cain, John",
+      "Grant, W",
+      "Church, William",
+      "Stegmann, Lieut",
+      "Dicken, Benjamin",
+      "Smith, Terence",
+      "Marsh, Abraham",
+      "Parish, Mary",
+      "A, Richard",
+      "Black, Jonathan",
+      "Jones, Daniel",
+      "Fraser, Thomas",
+      "Burrit, Daniel, Junior",
+      "Huett, Jacob",
+      "Moore, Thomas",
+      "Shaver, Philip",
+      "Smades, Samuel",
+      "Honeywell, Rice"
+    ],
+    "tagDate": ["[1797-08-25T23:59:59.999Z TO 1800-09-09T00:00:00.000Z]"],
+    "tagPlace": [
+      "Edwardsburgh",
+      "Yonge",
+      "Wolford",
+      "Marlborough",
+      "Augusta",
+      "County of Leeds",
+      "Elizabethtown"
+    ]
+  },
+  "651": {
+    "tagPlace": [
+      "York",
+      "Pittsburgh",
+      "Midland District",
+      "Loughborough",
+      "Kingston"
+    ],
+    "tagDate": ["[1797-02-11T23:59:59.999Z TO 1799-05-14T00:00:00.000Z]"],
+    "tagPerson": [
+      "Aitkins, W",
+      "Everitt, Capt",
+      "Knight, Mahlon",
+      "Atkinson, Wm",
+      "Holmes, Charles",
+      "B, John",
+      "Campbell, Hugh",
+      "Cartwright, W",
+      "Collins, W",
+      "McLeod, John",
+      "Darly, John"
+    ]
+  },
+  "421": {
+    "tagPlace": ["Markham", "York"],
+    "tagPerson": ["Allcock, H", "Berczy, William", "McGill, John"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-04-13T00:00:00.000Z]"]
+  },
+  "358": { "tagDate": ["1803-01-01T00:00:00.000Z"], "tagPlace": ["Midland"] },
+  "205": {
+    "tagDate": ["1805-02-05T00:00:00.000Z"],
+    "tagPerson": [
+      "Lehy, William",
+      "Wolf, Lodowick",
+      "Howard, Peter",
+      "McGill, John"
+    ],
+    "tagPlace": ["York", "Township of Elizabethtown"]
+  },
+  "128": {
+    "tagPerson": ["Crooks, James", "Taylor, Thomas"],
+    "tagDate": ["1823-12-08T00:00:00.000Z"],
+    "tagPlace": ["District of Gore", "Hamilton"]
+  },
+  "269": {
+    "tagDate": ["1803-07-14T00:00:00.000Z"],
+    "tagPerson": ["Burnet, Thomas", "Burnet, John", "Allcock, H"],
+    "tagPlace": ["Midland District"]
+  },
+  "373": {
+    "tagDate": ["[1804-01-13T00:00:00.000Z TO 1804-01-14T23:59:59.999Z]"],
+    "tagPerson": [
+      "Allcock, H",
+      "McGill, John",
+      "Askin, John",
+      "Robertson, William"
+    ],
+    "tagPlace": ["York", "River Thames"]
+  },
+  "432": {
+    "tagPlace": ["York"],
+    "tagDate": ["1804-06-22T00:00:00.000Z"],
+    "tagPerson": ["Catharine", "Grant, William", "Valentine"]
+  },
+  "397": {
+    "tagDate": ["[1802-12-31T23:59:59.999Z TO 1804-03-02T00:00:00.000Z]"],
+    "tagPerson": [
+      "Jessup, Joseph, Captian",
+      "Allcock, H",
+      "McGill, Jno",
+      "Jessup, Susanah",
+      "Small, J"
+    ],
+    "tagPlace": ["Elizabethtown", "Johnstown", "York"]
+  },
+  "476": {
+    "tagPlace": ["Yonge", "York", "Johnstown"],
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1804-09-06T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allcock, C, J Lt",
+      "McGill, John",
+      "Smale, John",
+      "Bates, George"
+    ]
+  },
+  "149": {
+    "tagDate": ["1831-03-05T00:00:00.000Z"],
+    "tagPerson": ["Cole, James", "Thomas, John", "Burley, Jane"]
+  },
+  "731": {
+    "tagDate": ["[1798-01-05T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Deacon, Joseph",
+      "Cryderman, Catherine",
+      "Brannan, William",
+      "Armstrong, Jesse",
+      "Grant, John",
+      "McDonell, Donald",
+      "Algire, Martin",
+      "Hamilton, Govr",
+      "Vandusen, Jacob",
+      "Maxwell, John",
+      "Sheets, William",
+      "Emprey, Ann",
+      "Miller, Justus",
+      "Collins",
+      "Maxwell, James",
+      "Tolfer, John",
+      "McDonell, Allan",
+      "Scott, John",
+      "Marsh, Abraham"
+    ],
+    "tagPlace": [
+      "Kingston",
+      "Montreal",
+      "Lachine",
+      "Lower Canada",
+      "Cornwall",
+      "Quebec"
+    ]
+  },
+  "697": {
+    "tagDate": ["1795-12-05T00:00:00.000Z"],
+    "tagPerson": [
+      "Glasford, Little",
+      "McArther, John",
+      "Rudebank, John",
+      "Forryea, Christopher",
+      "Buck, Sarah",
+      "Harington, Rufus",
+      "Decker, Banjamin",
+      "Farris, Peter",
+      "Fell, David",
+      "Allan, Admer",
+      "McDonald, Patrick",
+      "S, Abraham",
+      "Jessup, Joseph",
+      "Everts, Rosewell",
+      "Douglass, Thomas",
+      "Everts, Oliver",
+      "Nicholson, A",
+      "Sherwood, Abel",
+      "S, Samuel",
+      "Sherwood, Samuel, Serjt",
+      "Bolton, Abraham",
+      "Botton, Richard",
+      "Grant, Alexander",
+      "Jones, Daniel",
+      "Jones, Ephraim"
+    ],
+    "tagPlace": [
+      "County of Grenville",
+      "Township of Augusta",
+      "County of Frontenac",
+      "Township of Edwardsburgh",
+      "Township of Elizabethtown",
+      "County of Leeds",
+      "Township of Yonge",
+      "Midland District",
+      "Province of Lower Canada"
+    ]
+  },
+  "286": {
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["1803-10-20T00:00:00.000Z"]
+  },
+  "703": {
+    "tagDate": ["[1797-06-02T00:00:00.000Z TO 1801-11-10T23:59:59.999Z]"],
+    "tagPerson": [
+      "Fraser, Thomas",
+      "Laurence, John",
+      "Jessup, Joseph",
+      "Wicol, John",
+      "Cain, Isaiah",
+      "Powell, Wm, Dummer",
+      "L, Wm",
+      "Jones, Ephm",
+      "Weatherby, Michael",
+      "Dopp, Peter",
+      "McNiel, William",
+      "Rose, David",
+      "Fraser, Wm",
+      "Jessup, Edward",
+      "Huett, Jacob"
+    ],
+    "tagPlace": [
+      "County of Leeds",
+      "Township of Edwardsburgh",
+      "Township of Augusta",
+      "Township of Nepean",
+      "County of Grenville",
+      "Township of Yonge",
+      "District of Johnstown"
+    ]
+  },
+  "209": {
+    "tagPerson": ["Frederick, Barnhard", "Howard, Peter"],
+    "tagDate": ["1805-01-01T00:00:00.000Z"]
+  },
+  "121": {
+    "tagPlace": ["County of Oxford", "Zorra", "London"],
+    "tagDate": ["1836-09-01T00:00:00.000Z"],
+    "tagPerson": ["Hunter, R, R", "Murray, Alex"]
+  },
+  "211": {
+    "tagPerson": [
+      "Courtney, Dennis",
+      "Phillips, William",
+      "Pressley, John",
+      "Foster, Edward",
+      "Goose, Hannah",
+      "Brownhill, Joseph",
+      "Loucks, Peter",
+      "Castleman, Adam",
+      "Wert, John",
+      "Goose, Elizabeth",
+      "Ruport, John",
+      "Sheek, C",
+      "Crysler, John",
+      "Nicholas, Phagmire",
+      "Bowers, Adam",
+      "McGill, John",
+      "Wait, James",
+      "Moore, John",
+      "Palmer, John",
+      "Sheaffer, Geo"
+    ],
+    "tagDate": ["1805-02-26T00:00:00.000Z"],
+    "tagPlace": [
+      "Oxford",
+      "Matilda",
+      "Yong",
+      "Osnabruck",
+      "York",
+      "Cornwall",
+      "Williamsburg"
+    ]
+  },
+  "390": {
+    "tagPlace": ["Midland", "York", "Township of Marysburgh"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1804-02-25T00:00:00.000Z]"],
+    "tagPerson": ["Allcock, H", "McGill, Jno", "Small, J", "Casey, Willet"]
+  },
+  "171": {
+    "tagDate": ["1803-06-01T00:00:00.000Z"],
+    "tagPerson": ["Ferguson, Richard", "Cameron, J"],
+    "tagPlace": ["Town of York"]
+  },
+  "356": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Small, John", "Zurich, Philip", "Hund, Jabez"],
+    "tagPlace": ["Richmond", "Midland"]
+  },
+  "18": {
+    "tagPlace": ["District of Montreal", "Province of Quebec"],
+    "tagPerson": [
+      "Woods, James",
+      "Ferguson, Richard",
+      "Chisholm, Alexander",
+      "M, James"
+    ],
+    "tagDate": ["1787-07-20T00:00:00.000Z"]
+  },
+  "41": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1797-12-06T00:00:00.000Z]"],
+    "tagPerson": ["Macdonell, John", "Bennet, James"]
+  },
+  "426": {
+    "tagPlace": ["Johnstown"],
+    "tagDate": ["[1803-05-02T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "195": {
+    "tagPlace": ["Yonge"],
+    "tagDate": ["1804-01-01T00:00:00.000Z"],
+    "tagPerson": ["McNish, Hannah", "Shipman, Samuel"]
+  },
+  "178": {
+    "tagPerson": ["Fulk, William"],
+    "tagDate": ["1796-05-20T00:00:00.000Z"],
+    "tagPlace": ["New York", "Township of Raleigh", "River Thames"]
+  },
+  "323": {
+    "tagDate": ["[1803-10-31T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Allcock, H"],
+    "tagPlace": ["Niagara", "Township of Thorold"]
+  },
+  "690": {
+    "tagDate": ["1801-11-10T00:00:00.000Z"],
+    "tagPerson": [
+      "Crawford, Catherine",
+      "G, John",
+      "Christie, Abijah",
+      "Smith, Jonas",
+      "Fairfield, Archibald",
+      "Purdy, Micajah",
+      "A, Daniel",
+      "Laraway, Isaac",
+      "Mariner, Barnabas",
+      "Carpenter, Jacob",
+      "Powell, Wm",
+      "Fills, Melcior",
+      "Swartz, Simon",
+      "McKindlay, John",
+      "Harris, James",
+      "Gardiner, John",
+      "Dummer",
+      "Frost, Edward",
+      "Hicks, Elizabeth",
+      "Hankorn, Cornelius",
+      "Cartwright, Richard",
+      "Williams, David"
+    ],
+    "tagPlace": [
+      "Township of Kingston",
+      "Township of Ernest Town",
+      "Township of Thurlow",
+      "Township of Sophiasburgh",
+      "Township of Fredericksburg",
+      "Camden",
+      "Township of Adolphustown",
+      "State of New York",
+      "Township of Sydney",
+      "Township of Richmond",
+      "Richmond",
+      "Montreal"
+    ]
+  },
+  "394": {
+    "tagPlace": ["York", "Township of Gosfield", "Colchester"],
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1804-03-01T00:00:00.000Z]"],
+    "tagPerson": ["Fox, Philip", "Allcock, H", "Small, J"]
+  },
+  "218": {
+    "tagDate": ["1805-01-01T00:00:00.000Z"],
+    "tagPerson": ["McLean, Allan"]
+  },
+  "99": {
+    "tagPlace": ["Toronto"],
+    "tagPerson": ["R, Thomas", "Robinson, John, B"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1823-01-01T00:00:00.000Z]"]
+  },
+  "602": {
+    "tagPlace": [
+      "Province of Upper Canada",
+      "Lower Canada",
+      "Eastern District"
+    ],
+    "tagPerson": ["Hunter, Peter", "Smith, D, W"],
+    "tagDate": ["[1801-05-12T00:00:00.000Z TO 1801-08-08T23:59:59.999Z]"]
+  },
+  "471": {
+    "tagPlace": ["York", "Sandwich"],
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1804-08-31T00:00:00.000Z]"],
+    "tagPerson": [
+      "C, Aaron",
+      "McGill, John",
+      "Askin, John",
+      "Allcock, H",
+      "Smith, Thomas"
+    ]
+  },
+  "153": {
+    "tagPlace": ["Town of York"],
+    "tagDate": ["[1820-12-30T00:00:00.000Z TO 1831-05-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "R, John, Beverley",
+      "D, William",
+      "B, John",
+      "Ridout, George"
+    ]
+  },
+  "288": {
+    "tagPlace": ["Rochester"],
+    "tagPerson": ["Allcock, H"],
+    "tagDate": ["[1803-11-18T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "281": {
+    "tagPerson": ["Thaver, Mary", "Allcock, H"],
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1803-10-14T00:00:00.000Z]"]
+  },
+  "199": {
+    "tagPerson": ["Barnet, Alexander", "Shipman, Samuel"],
+    "tagDate": ["1804-01-01T00:00:00.000Z"],
+    "tagPlace": ["Elizabeth Town"]
+  },
+  "478": {
+    "tagPerson": ["Allcock, H", "Bradshaw, David", "McGill, John"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1804-09-06T00:00:00.000Z]"],
+    "tagPlace": ["York", "Ameliasburgh"]
+  },
+  "347": {
+    "tagDate": ["1803-12-29T00:00:00.000Z"],
+    "tagPlace": ["Midland District"]
+  },
+  "538": {
+    "tagPlace": [
+      "Township of Lancaster",
+      "Charlottenburg",
+      "Township of Williamsburg",
+      "Township of Matilda",
+      "Township of Elizabethtown",
+      "Cornwall",
+      "Township of Lansdowne",
+      "Township of Osnabruck"
+    ],
+    "tagDate": ["1798-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Wood, Thomas",
+      "Ashburn, John",
+      "Paterson, Allan",
+      "Ross, Thomas",
+      "Farrand, Jacob",
+      "Adams, Joel",
+      "Herks, Edward",
+      "Bulson, Cornelius",
+      "Losee, Joshua",
+      "Thaver, Jacob",
+      "Bowen, Adam",
+      "Johnson, George",
+      "Elliott, Jacob",
+      "Fisher, Henry",
+      "Woollery, Henry"
+    ]
+  },
+  "27": {
+    "tagPerson": ["Willcooks, Chad", "Cooper, Wm"],
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPlace": ["York"]
+  },
+  "126": {
+    "tagPlace": ["Upper Canada", "Township of Flamborough", "County of Halton"],
+    "tagPerson": ["Smith, David, William", "Thomas, James", "Crooks, James"],
+    "tagDate": ["1823-12-08T00:00:00.000Z"]
+  },
+  "230": {
+    "tagPlace": ["Oxford", "York", "Yonge", "Osnaburg"],
+    "tagDate": ["1806-02-26T00:00:00.000Z"],
+    "tagPerson": [
+      "Crysler, John",
+      "McGregor, Robert",
+      "Davis, John",
+      "McGill, John",
+      "Evighouse, Elizabeth"
+    ]
+  },
+  "302": {
+    "tagPerson": ["Roblin, Owen", "Allcock, H", "Steel, Mathew"],
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1803-10-25T00:00:00.000Z]"],
+    "tagPlace": ["Township of Adolphustown", "Midland District"]
+  }
+}

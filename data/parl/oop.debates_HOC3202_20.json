@@ -1,0 +1,11 @@
+{
+  "pubmin": "1983-12-07",
+  "label": "House of Commons Debates, 32nd Parliament, 2nd Session : Index",
+  "language": ["eng"],
+  "session": ["32-2"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "32-2", 5]],
+  "pubmax": "1984-07-09",
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "chamber": ["c"]
+}

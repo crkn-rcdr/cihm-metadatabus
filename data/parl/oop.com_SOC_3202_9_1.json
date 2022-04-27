@@ -1,0 +1,14 @@
+{
+  "node": [
+    ["eng", "s", "committees", "32-2", 19],
+    ["fra", "s", "committees", "32-2", 14]
+  ],
+  "pubmax": "1984-07-09",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Senate Committees, 32nd Parliament, 2nd Session : Special Committee on Youth, vol. 1 = Comités du Sénat, 32e Législature, 2e Session : Comité spécial sur la jeunesse, vol. 1",
+  "callNumber": "1983/84 Y69 A1",
+  "pubmin": "1983-12-07",
+  "session": ["32-2"],
+  "language": ["eng", "fra"]
+}

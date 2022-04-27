@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["14-2"],
+  "pubmin": "1923-01-31",
+  "label": "Projets de loi de la Chambre des communes, 14e Législature, 2e Session : 83-252",
+  "callNumber": "KE72 C361 14-2 83-252",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "14-2", 2]],
+  "pubmax": "1923-06-30"
+}

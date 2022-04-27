@@ -1,0 +1,11 @@
+{
+  "pubmin": "1956-01-10",
+  "label": "Débats de la Chambre des communes, 22e Législature, 3e Session : Vol. 7",
+  "language": ["fra"],
+  "session": ["22-3"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "22-3", 7]],
+  "pubmax": "1956-08-14",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

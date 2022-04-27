@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "34-2", 54],
+    ["fra", "c", "committees", "34-2", 75]
+  ],
+  "pubmax": "1991-05-12",
+  "type": "committees",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-61, an Act to amend the Divorce Act (barriers to religious remarriage), vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-61, Loi modifiant la Loi sur le divorce (obstacles au remariage religieux), vol. 1 no. 1",
+  "callNumber": "34-2 D58 A1 no.1",
+  "pubmin": "1989-04-03"
+}

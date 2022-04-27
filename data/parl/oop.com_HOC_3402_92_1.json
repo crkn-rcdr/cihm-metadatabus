@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 166],
+    ["fra", "c", "committees", "34-2", 168]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 S24 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill S-5, an Act to authorize The Safeguard Life Assurance Company to be continued as a corporation under the laws of the Province of Quebec, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi S-5, Loi autorisant la continuation de La Sauvegarde Compagnie d'assurance sur la vie sous forme de Corporation régie par les lois de la province de Québec, vol. 1 no. 1"
+}

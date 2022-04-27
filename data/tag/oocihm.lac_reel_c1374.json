@@ -1,0 +1,1456 @@
+{
+  "402": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "Frederic Gray: Informs of partnership with S.T. Morse under the name of Gray & Morse."
+    ],
+    "tagDate": ["1844-07-30T00:00:00.000Z"]
+  },
+  "504": {
+    "tagDescription": ["R.W. Weston: Profit on last voyage to China."],
+    "tagDate": ["1844-10-01T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "583": {
+    "tagPlace": ["Lockport, Ill."],
+    "tagDescription": [
+      "Wm. Gooding to Hon. J. Davis - re charges against him and the Boston Committee, by Chas. Oakley, &c."
+    ],
+    "tagDate": ["1844-12-02T00:00:00.000Z"]
+  },
+  "881": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1845-06-12T00:00:00.000Z"],
+    "tagDescription": [
+      "Jos. Hamm: Sentiments in Texas on political future. Encloses newspaper extract on the subject."
+    ]
+  },
+  "922": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "D. Webster to J. Bates - Facts relating to the Chesapeake & Ohio Canal - Also letter marked Private re agent in England for negotiating Bonds - memo signed T.B. re Webster's letter - Also pamphlet - Special Report of President and Directors of Chesapeake & Ohio Canal Co. 29 April 1845.- transferred to Printed Documents under date 30 July 1845"
+    ],
+    "tagDate": ["1845-07-30T00:00:00.000Z"]
+  },
+  "830": {
+    "tagPlace": ["Paris"],
+    "tagDate": ["1845-05-05T00:00:00.000Z"],
+    "tagDescription": [
+      "Wm. S. Perce to John Davis: Illinois Canal loan, Press Copy."
+    ]
+  },
+  "196": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1844-04-01T00:00:00.000Z"],
+    "tagDescription": [
+      "T.W. Ward to Baring Bros. & Co., Magniac, Jardine & Co. Covering letters from Governor Davis and Jacob Fry on Illinois Canal affairs."
+    ]
+  },
+  "194": {
+    "tagDescription": [
+      "Benjamin Balch: Seeks to arrange meeting with Messrs. N.M. Rothschild & Son, Messrs. Maginac, Smith & Co. and Hon. Michael Ryan to help stabilize the Massachusetts State Stocks."
+    ],
+    "tagDate": ["1844-03-30T00:00:00.000Z"],
+    "tagPlace": ["Worcester, Mass."]
+  },
+  "382": {
+    "tagPlace": ["New Orleans"],
+    "tagDescription": [
+      "Agreement entered into by Baring Bros. & Co. acting for themselves as well as for the Bondholders with the Union Bank of Louisiana."
+    ],
+    "tagDate": ["1844-07-26T00:00:00.000Z"]
+  },
+  "40": {
+    "tagPlace": ["Newcastle/Tyne"],
+    "tagDescription": [
+      "George Althusen: Relates his business misfortunes. Offers his services."
+    ],
+    "tagDate": ["1843-10-26T00:00:00.000Z"]
+  },
+  "141": {
+    "tagDate": ["1844-02-26T00:00:00.000Z"],
+    "tagDescription": [
+      "Statement of the Mechanics & Traders Bank of New Orleans."
+    ],
+    "tagPlace": ["New Orleans"]
+  },
+  "761": {
+    "tagDescription": [
+      "Hon. J. Davis to Thomas Baring - Gives an account of the class of people he and Mr. Leavitt encountered on their Mission and their attitude towards the maintenance of the public faith of Illinois."
+    ],
+    "tagDate": ["1845-03-29T00:00:00.000Z"],
+    "tagPlace": ["Worcester"]
+  },
+  "8": {
+    "tagPlace": ["Liverpool"],
+    "tagDate": ["1843-09-30T00:00:00.000Z"],
+    "tagDescription": [
+      "Abbott Lawrence to Joshua Bates - Economic conditions in Great Britain and United States compared."
+    ]
+  },
+  "190": {
+    "tagDate": ["1844-03-26T00:00:00.000Z"],
+    "tagDescription": ["R.W. Weston: Refers to business in China."],
+    "tagPlace": ["Canton"]
+  },
+  "566": {
+    "tagPlace": ["Albany"],
+    "tagDescription": [
+      "Erastus Corning: Forwards letter of R.W. Sherman of Albany City Bank relating to negotiations of E.C. Delavan for a loan."
+    ],
+    "tagDate": ["1844-11-23T00:00:00.000Z"]
+  },
+  "154": {
+    "tagDate": ["1844-02-28T00:00:00.000Z"],
+    "tagDescription": [
+      "John Hare Powell to Thomas Baring - re Pennsylvania affairs - Revenue Bill - Charter of the Borough of West Philadelphia &c."
+    ],
+    "tagPlace": ["Philadelphia"]
+  },
+  "500": {
+    "tagDescription": [
+      "E.J. & H.S. Lawford to Baring Bros. & Co. Opinion as to the interest due on the Union Bank of Louisiana Bonds in reply to enquiry by them."
+    ],
+    "tagDate": ["1844-10-01T00:00:00.000Z"],
+    "tagPlace": ["London"]
+  },
+  "462": {
+    "tagPlace": ["New York"],
+    "tagDescription": [
+      "Chas. Oakley to Baring Bros. & Co. Concerning Illinois affairs."
+    ],
+    "tagDate": ["1844-09-14T00:00:00.000Z"]
+  },
+  "767": {
+    "tagDate": ["1845-03-31T00:00:00.000Z"],
+    "tagDescription": [
+      "T.W. Ward to Baring Bros. & Co. & Magniac, Jardine & Co. Enclosing copy of Memo of Governor Davis re contract between the Governor of Illinois and the subscribers to the Canal Loan. Press Copy."
+    ],
+    "tagPlace": ["Boston"]
+  },
+  "377": {
+    "tagPlace": ["Dublin"],
+    "tagDate": ["1844-07-22T00:00:00.000Z"],
+    "tagDescription": [
+      "J. Davis, Governor of Illinois: Need of clear and explicit contract to avoid ambiguities."
+    ]
+  },
+  "147": {
+    "tagPlace": ["Baltimore"],
+    "tagDate": ["1844-02-27T00:00:00.000Z"],
+    "tagDescription": ["Louis McLane: Railroad matters."]
+  },
+  "267": {
+    "tagDescription": [
+      "No. 6 Maryland - An Act in aid of the Susquehanna Canal Company and of the Tide Water Canal Co. Enclosed in 27 April 1844."
+    ],
+    "tagDate": ["1844-03-18T00:00:00.000Z"],
+    "tagPlace": ["Annapolis"]
+  },
+  "693": {
+    "tagDate": ["1845-02-20T00:00:00.000Z"],
+    "tagDescription": [
+      "Wm. S. Wait to John Davis: Illinois tax to pay on public debt."
+    ],
+    "tagPlace": ["Grenville, Ill."]
+  },
+  "162": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "The Boston Committee (Sturgis, Lawrence & Ward) to Baring Bros. & Co. & Magniac, Jardine & Co. Commenting on the Report of Governor Davis & Capt. Swift and discussing Illinois affairs generally."
+    ],
+    "tagDate": ["1844-02-28T00:00:00.000Z"]
+  },
+  "513": {
+    "tagPlace": ["New Orleans"],
+    "tagDate": ["1844-10-12T00:00:00.000Z"],
+    "tagDescription": [
+      "Burke, Watt & Co. to Baring Bros. & Co. Enclosing New Orleans Price Current, Commercial Intelligencer & Merchants' Transcript."
+    ]
+  },
+  "454": {
+    "tagDate": ["1844-08-31T00:00:00.000Z"],
+    "tagDescription": [
+      "Comparative Statement of the 6 New Orleans Specie Paying Banks from the returns made to the Board of Currency at different epochs."
+    ],
+    "tagPlace": ["New Orleans"]
+  },
+  "677": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1845-01-27T00:00:00.000Z"],
+    "tagDescription": [
+      "Boston Committee to Baring Bros. & Co. and Magniac, Jardine & Co. Arrangements re Illinois Loan - Copy of letter of instructions to Governor Davis who proceeds to Illinois with Mr. Leavitt and Col. Oakley."
+    ]
+  },
+  "353": {
+    "tagDate": ["1844-07-12T00:00:00.000Z"],
+    "tagDescription": [
+      "A. Henry & Co.: Refers to the China trade of R.P. Dana on behalf of Messrs. Howland & Aspinwall."
+    ],
+    "tagPlace": ["Manchester"]
+  },
+  "312": {
+    "tagDescription": [
+      "Lewis H. Haslewood's Circular relative to Denison's United States Bank Bond."
+    ],
+    "tagDate": ["1844-05-22T00:00:00.000Z"],
+    "tagPlace": ["London"]
+  },
+  "886": {
+    "tagDescription": [
+      "Samuel A. Goddard to Joshua Bates - re the American Tariff - recommends the introduction of Indian corn &c."
+    ],
+    "tagDate": ["1845-06-17T00:00:00.000Z"],
+    "tagPlace": ["Boine?"]
+  },
+  "884": {
+    "tagDescription": [
+      "R.B. Forbes: Will sail with Col. Perkins in Massachusetts for Liverpool."
+    ],
+    "tagDate": ["1845-06-14T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "158": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "Abbott Lawrence to Joshua Bates - re Illinois Canal Report - Eulogy of Governor Davis."
+    ],
+    "tagDate": ["1844-02-28T00:00:00.000Z"]
+  },
+  "283": {
+    "tagDescription": [
+      "H. Gray Jr. to J. Bates - Affairs on \"Arroyo\" Estate, Cuba. See also 26 September 1844."
+    ],
+    "tagDate": ["1844-05-03T00:00:00.000Z"],
+    "tagPlace": ["New Orleans"]
+  },
+  "33": {
+    "tagDescription": [
+      "Fred Frey to Baring Bros. & Co. Re affairs of Union Bank of Louisiana, New Orleans."
+    ],
+    "tagDate": ["1843-10-20T00:00:00.000Z"],
+    "tagPlace": ["New Orleans"]
+  },
+  "809": {
+    "tagDate": ["1845-04-18T00:00:00.000Z"],
+    "tagDescription": [
+      "J.C. & H. Freshfield, to Magniac, Jardine & Co. Their opinion re Illinois Loan."
+    ]
+  },
+  "918": {
+    "tagPlace": ["Charleston"],
+    "tagDate": ["1845-07-26T00:00:00.000Z"],
+    "tagDescription": ["J. Hamilton: Cotton crop."]
+  },
+  "838": {
+    "tagDate": ["1845-05-10T00:00:00.000Z"],
+    "tagDescription": [
+      "W.W. Bonnin: Asks for introduction to merchants in Scotland and Ireland."
+    ],
+    "tagPlace": ["New Orleans"]
+  },
+  "674": {
+    "tagDescription": ["D. Leavitt: Illinois and Michigan Canal."],
+    "tagDate": ["1845-01-01T00:00:00.000Z"],
+    "tagPlace": ["London"]
+  },
+  "987": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1845-08-30T00:00:00.000Z"],
+    "tagDescription": [
+      "D. Leavitt: Charges of the loan of $1,600,000 against the State of Illinois."
+    ]
+  },
+  "670": {
+    "tagDescription": [
+      "Memo: Arrangement with the Union Bank of Louisiana in respect to State bonds."
+    ],
+    "tagDate": ["1844-01-01T00:00:00.000Z"],
+    "tagPlace": ["New Orleans"]
+  },
+  "497": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1844-09-30T00:00:00.000Z"],
+    "tagDescription": ["Frederic Gray: Business in Calcutta."]
+  },
+  "345": {
+    "tagPlace": ["New Orleans"],
+    "tagDescription": [
+      "Statement of the Affairs of the Union Bank of Louisiana."
+    ],
+    "tagDate": ["1844-06-29T00:00:00.000Z"]
+  },
+  "264": {
+    "tagDescription": [
+      "No. 5 Maryland - An additional supplement to an Act entitled \"An Act to Regulate Sales by Public Auction Passed in December Session Ch. III\". Enclosed in 27 April 1844."
+    ],
+    "tagDate": ["1844-03-18T00:00:00.000Z"],
+    "tagPlace": ["Annapolis"]
+  },
+  "473": {
+    "tagDate": ["1844-09-14T00:00:00.000Z"],
+    "tagDescription": [
+      "R.W. Weston: Refers to his China business and departure from Canton."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "292": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "T.W. Ward to Baring Bros. & Co. And Magniac, Jardine & Co. Enclosing account of disbursements for Illinois Canal."
+    ],
+    "tagDate": ["1844-05-15T00:00:00.000Z"]
+  },
+  "75": {
+    "tagDescription": [
+      "Wm. Debuys, Treasurer State Louisiana, to Hon. Chas. Derbigny - Submitting the Annual Statement of the receipts and expenditures of the State to 31 December 1843, with comments and explanations."
+    ],
+    "tagDate": ["1843-12-31T00:00:00.000Z"]
+  },
+  "805": {
+    "tagDate": ["1845-03-31T00:00:00.000Z"],
+    "tagDescription": [
+      "D. Claude, Treasury, Annapolis to J.H.B. Latrobe, Baltimore: Charges for interest submitted to the House of Delegates."
+    ],
+    "tagPlace": ["Annapolis"]
+  },
+  "816": {
+    "tagDescription": [
+      "Wm. Ropes to J. Bates - Gives full details of his business - Comments upon relations between United States & Great Britain."
+    ],
+    "tagDate": ["1845-04-23T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "173": {
+    "tagDate": ["1844-03-01T00:00:00.000Z"],
+    "tagDescription": [
+      "F.H. Story (for T.W.W.) to Baring Bros. & Co. and Magniac Jardine & Co. Illinois Canal - Advising them of Reports, Maps &c. which have been forwarded to the Liverpool House. Press copy."
+    ],
+    "tagPlace": ["Boston"]
+  },
+  "865": {
+    "tagPlace": ["Springfield"],
+    "tagDescription": ["John Davis: Memo on the Illinois Canal loan."],
+    "tagDate": ["1845-05-29T00:00:00.000Z"]
+  },
+  "213": {
+    "tagDescription": ["Wm. B. Reid: Press copy (faded)."],
+    "tagDate": ["1844-04-17T00:00:00.000Z"],
+    "tagPlace": ["Harrisburg"]
+  },
+  "507": {
+    "tagDate": ["1844-10-02T00:00:00.000Z"],
+    "tagDescription": [
+      "John Tappan: Mineral deposits, mining, iron market in St. Louis. Exploitation of Iron Mountain - iron ore deposits."
+    ],
+    "tagPlace": ["Liverpool"]
+  },
+  "349": {
+    "tagDate": ["1844-07-06T00:00:00.000Z"],
+    "tagDescription": ["Cassius Boyer: Prince Napoleon."],
+    "tagPlace": ["London"]
+  },
+  "972": {
+    "tagPlace": ["New York"],
+    "tagDescription": [
+      "D. Leavitt to Baring Bros. & Co. &c. Prospects of the Illinois & Michigan Canal Co."
+    ],
+    "tagDate": ["1845-08-13T00:00:00.000Z"]
+  },
+  "752": {
+    "tagPlace": ["London"],
+    "tagDescription": ["R.H. Gould: Wants to cash draft on Co. Webb."],
+    "tagDate": ["1845-03-22T00:00:00.000Z"]
+  },
+  "341": {
+    "tagDescription": ["E.C. Delavan: Refund of loan from Mr. Goddard."],
+    "tagDate": ["1844-06-27T00:00:00.000Z"],
+    "tagPlace": ["Albany"]
+  },
+  "171": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1844-02-29T00:00:00.000Z"],
+    "tagDescription": [
+      "Michael Ryan to Messrs. Sturgis, Lawrence & Ward: Relative to report of Governor Davis of Illinois."
+    ]
+  },
+  "650": {
+    "tagDescription": [
+      "Jno. Brough, Auditor of the State of Ohio. Reference to a Map of Ohio."
+    ],
+    "tagDate": ["1844-01-01T00:00:00.000Z"],
+    "tagPlace": ["Ohio"]
+  },
+  "915": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1845-07-26T00:00:00.000Z"],
+    "tagDescription": [
+      "Aug. Heard to T.W. Ward: Requests letter of credit for his business in Canton."
+    ]
+  },
+  "983": {
+    "tagDate": ["1845-08-16T00:00:00.000Z"],
+    "tagDescription": ["Nathan Hale to T.W. Ward: News about Mexican affairs."],
+    "tagPlace": ["Boston"]
+  },
+  "906": {
+    "tagDate": ["1845-07-08T00:00:00.000Z"],
+    "tagDescription": [
+      "T.P. Corbin to Mr. Bates - re Pennsylvania financial affairs - recommends the appointment of two capable citizens of the State of Harrisburg to look after the interests of the public creditor - and suggests Mr. W.B. Reed and Mr. H.D. Gilpin for the appointment."
+    ],
+    "tagPlace": ["Paris"]
+  },
+  "522": {
+    "tagDescription": ["Enoch Train: Asks $38,000 for ship Joshua Bates."],
+    "tagDate": ["1844-10-15T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "493": {
+    "tagDescription": [
+      "C.A. Davis: Believes Santa Anna to re-attack Texas. Texas annexation movement."
+    ],
+    "tagDate": ["1844-09-30T00:00:00.000Z"],
+    "tagPlace": ["New York"]
+  },
+  "718": {
+    "tagDescription": [
+      "Gray & Morse: Requests Wm. Crawshay for consignment of Iron."
+    ],
+    "tagDate": ["1845-02-28T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "323": {
+    "tagDate": ["1844-06-17T00:00:00.000Z"],
+    "tagDescription": [
+      "Jas. Freshfield, Jr.: Proposed Illinois Canal Loan.",
+      "Baring Bros. & Co. to Matthias Purton - Draft Power of Attorney to effect an arrangement with the Union Bank of Louisiana."
+    ]
+  },
+  "690": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1845-02-17T00:00:00.000Z"],
+    "tagDescription": [
+      "J. Watson Webb to Baring Bros. & Co. Re charges made against the House of Baring by George Griswold in 1840."
+    ]
+  },
+  "2": {
+    "tagDate": ["1843-09-15T00:00:00.000Z"],
+    "tagDescription": [
+      "Jacob Little & Co.: Introduction for James S. Armstrong."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "569": {
+    "tagDescription": [
+      "John H.B. Latrobe to Baring Bros. & Co. Outlook in Maryland following the Presidential Election."
+    ],
+    "tagDate": ["1844-11-28T00:00:00.000Z"],
+    "tagPlace": ["Baltimore"]
+  },
+  "602": {
+    "tagDescription": [
+      "Conditions attached to the Bill of Sale by which one half of the Ship \"Joshua Bates\" and appurtenances is transferred by Enoch Train to T.W. Ward."
+    ],
+    "tagDate": ["1844-12-18T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "833": {
+    "tagDescription": [
+      "R.M. Gibbes to J. Bates - Discusses Oregon and Texas questions and British relations generally."
+    ],
+    "tagDate": ["1845-05-09T00:00:00.000Z"],
+    "tagPlace": ["Paris"]
+  },
+  "288": {
+    "tagPlace": ["New Orleans"],
+    "tagDescription": [
+      "Peschier & Forstall to Baring Bros. & Co. Affairs of the New Orleans Banks - enclosing New Orleans Price - Current, Commercial Intelligencer and Merchants' Transcript."
+    ],
+    "tagDate": ["1844-05-04T00:00:00.000Z"]
+  },
+  "30": {
+    "tagPlace": ["New York"],
+    "tagDescription": ["Arch. Gracie: Prospects of good cotton crop."],
+    "tagDate": ["1843-10-19T00:00:00.000Z"]
+  },
+  "95": {
+    "tagDate": ["1843-01-03T00:00:00.000Z"],
+    "tagDescription": [
+      "Copy of Letter from Mr. Stokes to T.W. Ward on the subject of Indiana finances."
+    ]
+  },
+  "478": {
+    "tagDate": ["1844-09-19T00:00:00.000Z"],
+    "tagDescription": [
+      "Chas. Oakley to John A. Smith, London: Illinois affairs."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "347": {
+    "tagPlace": ["Manchester"],
+    "tagDate": ["1844-07-06T00:00:00.000Z"],
+    "tagDescription": [
+      "R.P. Dana: Refers to an arrangement with Messrs. Henry & Co."
+    ]
+  },
+  "538": {
+    "tagPlace": ["New York"],
+    "tagDescription": [
+      "Michael Ryan & Chas. Oakley to J.A. Smith - Illinois affairs."
+    ],
+    "tagDate": ["1844-10-31T00:00:00.000Z"]
+  },
+  "985": {
+    "tagPlace": ["London"],
+    "tagDescription": [
+      "J.E. Sheffield: New York and New Havan Railway Company."
+    ],
+    "tagDate": ["1845-08-24T00:00:00.000Z"]
+  },
+  "214": {
+    "tagPlace": ["New Orleans"],
+    "tagDescription": [
+      "J.P. Benjamin: Authority of the Union Bank of Louisiana in respect to bondholders."
+    ],
+    "tagDate": ["1844-04-17T00:00:00.000Z"]
+  },
+  "511": {
+    "tagPlace": ["Louisiana"],
+    "tagDescription": [
+      "Charles A. Jacobs, Union Bank of Louisiana, New Orleans: Contractual obligation to market state bonds."
+    ],
+    "tagDate": ["1844-10-04T00:00:00.000Z"]
+  },
+  "176": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "Benjamin Balch to J. Bates - Enclosing sketch of a proposed Act of Congress with a plan of National Free Banking &c. See also 30 March 1844."
+    ],
+    "tagDate": ["1844-03-06T00:00:00.000Z"]
+  },
+  "216": {
+    "tagPlace": ["New Orleans"],
+    "tagDate": ["1844-04-19T00:00:00.000Z"],
+    "tagDescription": [
+      "Fred. Frey, Cashier Union Bank of Louisiana, to Baring Bros. & Co. Transmitting Resolutions adopted by the Stock-holders of this Bank at their meeting on the 16th Instant."
+    ]
+  },
+  "587": {
+    "tagDescription": [
+      "J.G. Mason, U.S. Navy Department: Clauses of the Act of Congress in reference to contractors of the Naval services."
+    ],
+    "tagDate": ["1844-12-05T00:00:00.000Z"],
+    "tagPlace": ["Washington"]
+  },
+  "127": {
+    "tagPlace": ["New York"],
+    "tagDescription": [
+      "J.H. Hicks: British Government to shift purchases of hemp from Russia to the United States. Speculations in cotton."
+    ],
+    "tagDate": ["1844-01-15T00:00:00.000Z"]
+  },
+  "961": {
+    "tagDescription": [
+      "W.H. Swift to Baring Bros. & Co. and Magniac, Jardine & Co. Describes in detail the proceedings with regard to the Illinois & Michigan Canal Co."
+    ],
+    "tagDate": ["1845-08-09T00:00:00.000Z"],
+    "tagPlace": ["Washington"]
+  },
+  "351": {
+    "tagPlace": ["Manchester"],
+    "tagDescription": [
+      "R.P. Dana: Remits 30,000 pounds and comments on Baring's business system."
+    ],
+    "tagDate": ["1844-07-10T00:00:00.000Z"]
+  },
+  "132": {
+    "tagPlace": ["Philadelphia"],
+    "tagDate": ["1844-02-01T00:00:00.000Z"],
+    "tagDescription": ["Elihu Chauncey: Press copy (faded)."]
+  },
+  "375": {
+    "tagPlace": ["London"],
+    "tagDescription": [
+      "J. Davis, Governor of Illinois: Plans to visit Scotland and Ireland."
+    ],
+    "tagDate": ["1844-07-20T00:00:00.000Z"]
+  },
+  "710": {
+    "tagDescription": [
+      "T.W. Ward (for the Committee) to Baring Bros. & Co. & Magniac, Jardine & Co. Enclosing letter from Governor Davis and Mr. Leavitt - also Governor Davis to T.W. Ward on Illinois affairs."
+    ],
+    "tagDate": ["1845-02-27T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "85": {
+    "tagDate": ["1843-01-01T00:00:00.000Z"],
+    "tagDescription": ["Memo American Whale Fishery."]
+  },
+  "892": {
+    "tagPlace": ["Chicago"],
+    "tagDescription": [
+      "Chas. Oakley to Gabriel Shaw - concerning the affairs of the Illinois & Michigan Canal Co. and his connection with them."
+    ],
+    "tagDate": ["1845-06-20T00:00:00.000Z"]
+  },
+  "968": {
+    "tagPlace": ["London"],
+    "tagDate": ["1845-08-11T00:00:00.000Z"],
+    "tagDescription": [
+      "Joseph Sheffield to Baring Bros. & Co. Respecting the projected New York and New Haven Railroad Company."
+    ]
+  },
+  "644": {
+    "tagPlace": ["Illinois"],
+    "tagDate": ["1844-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Terms of Subscription to the Illinois Canal Loan 1844, raised under the authority of an Act of the Legislature of the State of Illinois passed in 1843."
+    ]
+  },
+  "391": {
+    "tagDate": ["1844-07-27T00:00:00.000Z"],
+    "tagDescription": [
+      "John H.B. Latrobe to T.W. Ward - Ohio affairs discussed in detail."
+    ],
+    "tagPlace": ["Baltimore"]
+  },
+  "373": {
+    "tagPlace": ["London"],
+    "tagDescription": [
+      "W.H. Ogden to John A. Smith: Will attend the meeting of the Illinois Committee."
+    ],
+    "tagDate": ["1844-07-20T00:00:00.000Z"]
+  },
+  "536": {
+    "tagPlace": ["Philadelphia"],
+    "tagDescription": [
+      "J. Curwen: Cotton crop to reach 2,500,000 bales with inferior quality and lower prices."
+    ],
+    "tagDate": ["1844-10-30T00:00:00.000Z"]
+  },
+  "427": {
+    "tagDate": ["1844-08-20T00:00:00.000Z"],
+    "tagDescription": [
+      "Certificates of Deposits in the Bank of Louisiana by the Union Bank."
+    ],
+    "tagPlace": ["New Orleans"]
+  },
+  "143": {
+    "tagDate": ["1844-02-26T00:00:00.000Z"],
+    "tagDescription": [
+      "John Cryder: Resigned the Presidency of the Reading Railroad Co. Political and financial news."
+    ],
+    "tagPlace": ["Philadelphia"]
+  },
+  "866": {
+    "tagDate": ["1845-05-31T00:00:00.000Z"],
+    "tagDescription": [
+      "Unsigned and unfinished memo on the State of the Island of Cuba."
+    ],
+    "tagPlace": ["Havana"]
+  },
+  "476": {
+    "tagDate": ["1844-09-14T00:00:00.000Z"],
+    "tagDescription": [
+      "DeForest & Co.: Rumours that Brazil would take possession of the Banda Oriental thus affecting the affairs at Montevideo."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "731": {
+    "tagDescription": [
+      "Boston Committee to Baring Bros. & Co. and Magniac Jardine & Co. Report of Mission of Governor Davis & Mr. Leavitt to Springfield in the interests of the Canal Loan and Illinois finances generally."
+    ],
+    "tagDate": ["1845-03-22T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "581": {
+    "tagPlace": ["London"],
+    "tagDescription": [
+      "James G. Murdoch: Desires to export Madeira wine to America."
+    ],
+    "tagDate": ["1844-11-29T00:00:00.000Z"]
+  },
+  "806": {
+    "tagPlace": ["Boston"],
+    "tagDescription": ["Wm. Gray: Remittances of Horace Gray's funds."],
+    "tagDate": ["1845-03-31T00:00:00.000Z"]
+  },
+  "697": {
+    "tagDate": ["1845-02-22T00:00:00.000Z"],
+    "tagDescription": [
+      "Thomas Ford to Governor Davis & D. Leavitt- The Illinois and Michigan Canal Loan and the Public Debt of Illinois treated in detail."
+    ],
+    "tagPlace": ["Springfield, Ill."]
+  },
+  "860": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1845-05-26T00:00:00.000Z"],
+    "tagDescription": [
+      "Boston Committee to Baring Bros. & Co. & Magniac, Jardine & Co. Enclosing copy of the draft of the Trust Deed as received from Governor Davis."
+    ]
+  },
+  "203": {
+    "tagDate": ["1844-04-03T00:00:00.000Z"],
+    "tagDescription": [
+      "J.P. Benjamin and C. Roselins,-Their opinion re Acts affecting Property Banks."
+    ],
+    "tagPlace": ["New Orleans"]
+  },
+  "517": {
+    "tagDescription": ["R.W. Weston: Cargo of goods for China."],
+    "tagDate": ["1844-10-14T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "889": {
+    "tagDate": ["1845-06-17T00:00:00.000Z"],
+    "tagDescription": [
+      "George Peabody to Baring Bros. & Co. Dissolution of the firm of Peabody, Riggs & Co. of New York & Baltimore to be succeeded by Riggs, Jenkins & Co. (S. Riggs, H.T. Jenkins & Mr. Babcock)."
+    ],
+    "tagPlace": ["London"]
+  },
+  "357": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1844-07-15T00:00:00.000Z"],
+    "tagDescription": [
+      "J.J. Dixwell to Baring Bros. & Co. Changes in the firm of Messrs. Augustine Heard & Co. of Canton."
+    ]
+  },
+  "849": {
+    "tagPlace": ["Albany"],
+    "tagDescription": [
+      "E.C. Delavan: Wants to open a credit account in London."
+    ],
+    "tagDate": ["1845-05-21T00:00:00.000Z"]
+  },
+  "452": {
+    "tagPlace": ["New Orleans"],
+    "tagDescription": ["E.J. & H.L. Lawford: Louisiana Loan."],
+    "tagDate": ["1844-08-27T00:00:00.000Z"]
+  },
+  "100": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "T.W. Ward to Mr. Perit - Plan to influence the public sentiment of the country with regard to the Debts of the States through religious and secular publications. Press Copy. See second letter 4 January 1844. N.B. For dates of other papers on this subject see list marked Pennsylvania Correspondence 1844."
+    ],
+    "tagDate": ["1844-01-04T00:00:00.000Z"]
+  },
+  "98": {
+    "tagDate": ["1844-01-04T00:00:00.000Z"],
+    "tagDescription": [
+      "T.W. Ward to Daniel Lord - Concerning the Pennsylvania Debt."
+    ],
+    "tagPlace": ["Boston"]
+  },
+  "413": {
+    "tagPlace": ["Liverpool"],
+    "tagDescription": [
+      "J. Watson Webb to Baring Bros. & Co. Proposal re Barrellville Mining Co. N.B. Enclosed are several papers among them the press copy of Mr. Bates' reply."
+    ],
+    "tagDate": ["1844-08-11T00:00:00.000Z"]
+  },
+  "275": {
+    "tagPlace": ["Annapolis"],
+    "tagDescription": [
+      "No. 7 Maryland - An Act entitled \"A Supplement to an Act to facilitate the collection of a portion of the tax levied in pursuance of the Acts passed at March Session 1841, Ch. 23\" - Enclosed in 27 April 1844."
+    ],
+    "tagDate": ["1844-03-19T00:00:00.000Z"]
+  },
+  "314": {
+    "tagDescription": ["Memo re Illinois Canal Bonds."],
+    "tagDate": ["1844-06-05T00:00:00.000Z"],
+    "tagPlace": ["London"]
+  },
+  "590": {
+    "tagPlace": ["Columbia, Tenn."],
+    "tagDescription": [
+      "Wm. Austin: Reviews former business activities and asks for loan of money against future consignments of cotton."
+    ],
+    "tagDate": ["1844-12-11T00:00:00.000Z"]
+  },
+  "316": {
+    "tagPlace": ["London"],
+    "tagDescription": [
+      "Hon. John Davis to T. Baring: Enclosing Memo re Illinois & Michigan Canal Loan."
+    ],
+    "tagDate": ["1844-06-11T00:00:00.000Z"]
+  },
+  "365": {
+    "tagDescription": [
+      "R.J. Harvey: Skeptical about the promises of the American States to English creditors."
+    ],
+    "tagDate": ["1844-07-18T00:00:00.000Z"]
+  },
+  "828": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1845-04-30T00:00:00.000Z"],
+    "tagDescription": [
+      "H.R. Kendall: Asks for agency of Wright, Portland and Co., and Robert Barbour and Brothers, Manchester: wool business."
+    ]
+  },
+  "821": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1845-04-28T00:00:00.000Z"],
+    "tagDescription": [
+      "Lemuel Shaw: Letter of introduction for Rev. Joseph B. Felt."
+    ]
+  },
+  "62": {
+    "tagDate": ["1843-11-18T00:00:00.000Z"],
+    "tagDescription": ["Arch. Gracie: Good weather for picking cotton."],
+    "tagPlace": ["Augusta"]
+  },
+  "665": {
+    "tagDescription": [
+      "1st Section of an Act amendatory of the Charter of the New Orleans Canal & Banking Co."
+    ],
+    "tagDate": ["1844-01-01T00:00:00.000Z"],
+    "tagPlace": ["New Orleans"]
+  },
+  "594": {
+    "tagDescription": [
+      "J. Davis: Refers to the conduct of Michael Ryan against himself in the Illinois affairs."
+    ],
+    "tagDate": ["1844-12-14T00:00:00.000Z"],
+    "tagPlace": ["Worcester, Mass."]
+  },
+  "337": {
+    "tagPlace": ["Illinois"],
+    "tagDate": ["1844-06-23T00:00:00.000Z"],
+    "tagDescription": [
+      "J. Davis, Governor of Illinois: State tax to pay interest on public debt."
+    ]
+  },
+  "529": {
+    "tagDescription": [
+      "J. Rodney Croskey: Wm. Hales asks for Lloyds Agency for Boston."
+    ],
+    "tagDate": ["1844-10-16T00:00:00.000Z"],
+    "tagPlace": ["Cowes"]
+  },
+  "912": {
+    "tagDate": ["1845-07-09T00:00:00.000Z"],
+    "tagDescription": [
+      "Isaac N. Coffin: Offer to recover debt from the U.S. Government. Also Power of Attorney."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "684": {
+    "tagPlace": ["New York"],
+    "tagDescription": [
+      "Jno. A. Stevens, President Bank of Commerce, N.Y. to J. Bates - Re question of a \"Free Bank\" - that is a Bank organized under the General Banking Law of the State to draw Bills of Exchange on a blank credit."
+    ],
+    "tagDate": ["1845-01-29T00:00:00.000Z"]
+  },
+  "562": {
+    "tagDate": ["1844-11-09T00:00:00.000Z"],
+    "tagDescription": [
+      "C.A. Davis to J. Bates - Presidential election - Mr. Polk's success."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "466": {
+    "tagDescription": [
+      "A. Gracie to J. Bates: Enclosing circular - cotton crop of the United States 1843-4."
+    ],
+    "tagDate": ["1844-09-14T00:00:00.000Z"],
+    "tagPlace": ["New York"]
+  },
+  "460": {
+    "tagPlace": ["London"],
+    "tagDate": ["1844-08-31T00:00:00.000Z"],
+    "tagDescription": ["Wm. Thompson: Illinois Affairs."]
+  },
+  "870": {
+    "tagDescription": [
+      "Joshua Hamm: Transfer of Texas to the United States. Payment for it to be used to liquidate the Mexican National Debt."
+    ],
+    "tagDate": ["1845-05-31T00:00:00.000Z"],
+    "tagPlace": ["New York"]
+  },
+  "91": {
+    "tagDescription": [
+      "Memo re Pennsylvania Debt held in Great Britain. List of Foreign holders of Pennsylvania Loan having $50000 and upwards (20 April 1843.)"
+    ],
+    "tagDate": ["1843-01-01T00:00:00.000Z"]
+  },
+  "309": {
+    "tagPlace": ["St. Petersburg"],
+    "tagDescription": [
+      "A. Van Sassen & Co.: Encloses statement of Profit and Loss."
+    ],
+    "tagDate": ["1844-05-19T00:00:00.000Z"]
+  },
+  "489": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1844-09-30T00:00:00.000Z"],
+    "tagDescription": ["Wm. Bard to John A. Smith - Illinois affairs."]
+  },
+  "56": {
+    "tagDescription": ["George Peabody: Comments on J.J. Speed of Baltimore."],
+    "tagDate": ["1843-11-02T00:00:00.000Z"],
+    "tagPlace": ["London"]
+  },
+  "15": {
+    "tagDescription": ["Arch. Gracie: Expects good cotton crop."],
+    "tagDate": ["1843-09-30T00:00:00.000Z"],
+    "tagPlace": ["New York"]
+  },
+  "757": {
+    "tagPlace": ["Columbus O."],
+    "tagDescription": [
+      "Alfred Kelley to Joshua Bates - Enclosing Annual Report of the Board of Public Works &c."
+    ],
+    "tagDate": ["1845-03-25T00:00:00.000Z"]
+  },
+  "547": {
+    "tagPlace": ["Cincinnati, O."],
+    "tagDescription": [
+      "C. Stetson to J. Bates - financial standing &c. of Ohio. Encloses letter of 30 October 1844."
+    ],
+    "tagDate": ["1844-11-01T00:00:00.000Z"]
+  },
+  "525": {
+    "tagDate": ["1844-10-15T00:00:00.000Z"],
+    "tagDescription": [
+      "C.A. Davis: Political news in the United States; Presidential election. Texas Question."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "139": {
+    "tagDescription": [
+      "Statement of the affairs of the City Bank of New Orleans."
+    ],
+    "tagDate": ["1844-02-24T00:00:00.000Z"],
+    "tagPlace": ["New Orleans"]
+  },
+  "812": {
+    "tagDate": ["1845-04-23T00:00:00.000Z"],
+    "tagDescription": [
+      "R.M. Gibbes to J. Bates. Relations with Great Britain - Oregon question."
+    ],
+    "tagPlace": ["Paris"]
+  },
+  "241": {
+    "tagDate": ["1844-04-27T00:00:00.000Z"],
+    "tagDescription": [
+      "John H.B. Latrobe to T.W. Ward - Enclosing Maryland Acts."
+    ],
+    "tagPlace": ["Baltimore"]
+  },
+  "598": {
+    "tagPlace": ["Paris"],
+    "tagDate": ["1844-12-15T00:00:00.000Z"],
+    "tagDescription": ["A. DeLaValetta: Investment in American securities."]
+  },
+  "859": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "T.W. Ward to J.M. Coale. Concerning the Chesapeake & Ohio Canal Co."
+    ],
+    "tagDate": ["1845-05-26T00:00:00.000Z"]
+  },
+  "824": {
+    "tagPlace": ["New York"],
+    "tagDescription": [
+      "J. Hamm to Baring Bros. & Co. His opinion of the Texas case - Recommends the purchase of the Mexican National Debt, held in London."
+    ],
+    "tagDate": ["1845-04-30T00:00:00.000Z"]
+  },
+  "223": {
+    "tagPlace": ["Frederick, Md."],
+    "tagDate": ["1844-04-20T00:00:00.000Z"],
+    "tagDescription": [
+      "J.M. Coale, Chesapeake & Ohio Canal Co.: Refers to arrangement which was passed by the Board of directors."
+    ]
+  },
+  "296": {
+    "tagDescription": [
+      "D.B. Holbrook to Hon. John Davis - Information concerning Illinois affairs in view of his mission to England."
+    ],
+    "tagDate": ["1844-05-16T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "611": {
+    "tagPlace": ["Illinois"],
+    "tagDescription": [
+      "Illinois and Michigan Canal - Memo of Papers, copies of letters &c. relating to the claim of Mr. Leavitt for $40,000. Press copies."
+    ],
+    "tagDate": ["1844-01-01T00:00:00.000Z"]
+  },
+  "248": {
+    "tagDate": ["1844-03-20T00:00:00.000Z"],
+    "tagDescription": [
+      "No. 1 Maryland - A further Supplement to the Act entitled An Act for the general valuation and assessment of property in this State and to provide a Tax to pay the debts of the State passed at March Session, 1841, Ch. 23 - Enclosed in 27 April 1844."
+    ],
+    "tagPlace": ["Annapolis"]
+  },
+  "44": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1843-10-29T00:00:00.000Z"],
+    "tagDescription": [
+      "R.W. Weston: Goes to China as agent of Messrs. Gray & Co. and Messrs. Goodhue & Co."
+    ]
+  },
+  "877": {
+    "tagPlace": ["Havana"],
+    "tagDate": ["1845-06-10T00:00:00.000Z"],
+    "tagDescription": ["A. Guillemin: Prospects for sugar crop."]
+  },
+  "748": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1845-03-22T00:00:00.000Z"],
+    "tagDescription": [
+      "J. Horsley Palmer to Joshua Bates - Re European subscribers to the Illinois & Michigan Canal Loan &c."
+    ]
+  },
+  "579": {
+    "tagDate": ["1844-11-28T00:00:00.000Z"],
+    "tagDescription": [
+      "E.C. Delavan: Asks for credit of 10,000 to 15,000 pounds."
+    ],
+    "tagPlace": ["Albany"]
+  },
+  "88": {
+    "tagPlace": ["Michigan"],
+    "tagDescription": ["Memo re Bonds of the State of Michigan."],
+    "tagDate": ["1843-01-01T00:00:00.000Z"]
+  },
+  "20": {
+    "tagPlace": ["Baltimore"],
+    "tagDate": ["1843-10-13T00:00:00.000Z"],
+    "tagDescription": [
+      "Louis McLane: Relative to the financing of the Chesapeake & Ohio Canal Co. with enclosure."
+    ]
+  },
+  "67": {
+    "tagDescription": [
+      "A.&S. Henry & Co.: Hudson's Bay Co. orders for blankets. Encloses list of the Directors of the H.B. Co."
+    ],
+    "tagDate": ["1843-12-12T00:00:00.000Z"],
+    "tagPlace": ["Manchester"]
+  },
+  "262": {
+    "tagDate": ["1844-03-19T00:00:00.000Z"],
+    "tagDescription": [
+      "No. 4 Maryland - An Act relating to the collection of State Taxes. Enclosed in 27 April 1844."
+    ],
+    "tagPlace": ["Annapolis"]
+  },
+  "107": {
+    "tagDescription": [
+      "Gov. John Davis to Lawrence & Sturgis: Press copies of correspondence (badly faded)."
+    ],
+    "tagDate": ["1844-01-14T00:00:00.000Z"],
+    "tagPlace": ["Lockport"]
+  },
+  "334": {
+    "tagDescription": [
+      "J. Watson Webb: Encloses paper pertaining to his business (missing),"
+    ],
+    "tagDate": ["1844-06-22T00:00:00.000Z"],
+    "tagPlace": ["Liverpool"]
+  },
+  "855": {
+    "tagDate": ["1845-05-23T00:00:00.000Z"],
+    "tagDescription": [
+      "Boston Committee to Baring Bros. & Co. & Magniac, Jardine & Co. Enclosing correspondence in relation to Illinois matters."
+    ],
+    "tagPlace": ["Boston"]
+  },
+  "928": {
+    "tagDescription": [
+      "George Peabody to C.C. Tiffany, Baltimore: Maryland credit."
+    ],
+    "tagDate": ["1845-08-04T00:00:00.000Z"],
+    "tagPlace": ["London"]
+  },
+  "6": {
+    "tagDate": ["1843-09-18T00:00:00.000Z"],
+    "tagDescription": [
+      "A.&M. Heine to Baring Bros. & Co. Enclosing printed Circular - Annual Statement of the New Orleans Price Current, Commercial Intelligencer and Merchant's Transcript."
+    ],
+    "tagPlace": ["New Orleans"]
+  },
+  "37": {
+    "tagPlace": ["Baltimore"],
+    "tagDescription": [
+      "J.H.B. Latrobe to T.W. Ward: Press copies including letter to J.M. Coale, Chesapeake & Ohio Canal Co. of 21 October 1843:"
+    ],
+    "tagDate": ["1843-10-21T00:00:00.000Z"]
+  },
+  "557": {
+    "tagPlace": ["Liverpool"],
+    "tagDate": ["1844-11-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Duncan & R. Radcliffe: Bonds of the Richmond and Petersburg Railroad Co., and the Richmond, Fredericksburg and Potomac Railroad.Co."
+    ]
+  },
+  "381": {
+    "tagDescription": [
+      "W. Thompson to John A. Smith: His partner is out of town and cannot decide on Illinois matters."
+    ],
+    "tagDate": ["1844-07-23T00:00:00.000Z"],
+    "tagPlace": ["London"]
+  },
+  "672": {
+    "tagDate": ["1845-01-01T00:00:00.000Z"],
+    "tagDescription": ["Chas. Stetson: Ohio State securities."],
+    "tagPlace": ["Cincinnati, O."]
+  },
+  "26": {
+    "tagDate": ["1843-10-14T00:00:00.000Z"],
+    "tagDescription": ["Arch. Gracie: Prospects of cotton crop."],
+    "tagPlace": ["New York"]
+  },
+  "688": {
+    "tagPlace": ["New York"],
+    "tagDescription": [
+      "R.B. Forbes: Ship Paul Jones ready to take on cargo for China."
+    ],
+    "tagDate": ["1845-02-15T00:00:00.000Z"]
+  },
+  "105": {
+    "tagDescription": [
+      "Statement of the Affairs of the Union Bank of Louisiana."
+    ],
+    "tagDate": ["1844-01-09T00:00:00.000Z"],
+    "tagPlace": ["New Orleans"]
+  },
+  "486": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "T.W. Ward to Baring Bros. & Co. - and Magniac, Jardine & Co. Enclosing account of disbursements made for Illinois Canal."
+    ],
+    "tagDate": ["1844-09-30T00:00:00.000Z"]
+  },
+  "484": {
+    "tagDate": ["1844-09-26T00:00:00.000Z"],
+    "tagDescription": ["Horace Gray, Jr.: Arroyo Estate, Cuba."],
+    "tagPlace": ["London"]
+  },
+  "409": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1844-08-08T00:00:00.000Z"],
+    "tagDescription": [
+      "P. Perit: Refers to the contents of medicinal extracts."
+    ]
+  },
+  "950": {
+    "tagDescription": [
+      "Wm. C. Johnson to Baring Bros. & Co. On the subject of the present condition of Maryland - its public credit &c."
+    ],
+    "tagDate": ["1845-08-01T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "604": {
+    "tagDescription": ["J. Davis: Illinois affairs."],
+    "tagDate": ["1844-12-31T00:00:00.000Z"],
+    "tagPlace": ["Worcester, Mass."]
+  },
+  "58": {
+    "tagDescription": [
+      "F.H. Elmore, President Bank of the State of S. Carolina to Baring Bros. & Co. Re possibility that the affairs of the Bank may be wound up by the Legislature and the funds applied to pay off the public debt."
+    ],
+    "tagDate": ["1843-11-11T00:00:00.000Z"],
+    "tagPlace": ["Charleston"]
+  },
+  "873": {
+    "tagPlace": ["Oswiechee, Alabama"],
+    "tagDate": ["1845-06-08T00:00:00.000Z"],
+    "tagDescription": ["J. Hamilton: Cotton Crop."]
+  },
+  "902": {
+    "tagPlace": ["Chicago"],
+    "tagDate": ["1845-06-27T00:00:00.000Z"],
+    "tagDescription": ["W.H. Swift: Illinois and Michigan Canal."]
+  },
+  "138": {
+    "tagPlace": ["New Orleans"],
+    "tagDate": ["1844-02-20T00:00:00.000Z"],
+    "tagDescription": [
+      "New Orleans Canal Bank: Statement of assets and liabilities."
+    ]
+  },
+  "51": {
+    "tagPlace": ["New York"],
+    "tagDescription": ["Arch. Gracie: Frost did not damage the crop severely."],
+    "tagDate": ["1843-10-31T00:00:00.000Z"]
+  },
+  "184": {
+    "tagPlace": ["London"],
+    "tagDescription": [
+      "Enoch Train: Plans to establish a ship line from Boston to Liverpool."
+    ],
+    "tagDate": ["1844-03-19T00:00:00.000Z"]
+  },
+  "405": {
+    "tagPlace": ["New Orleans"],
+    "tagDate": ["1844-08-01T00:00:00.000Z"],
+    "tagDescription": ["Union Bank of Louisiana Bond form."]
+  },
+  "103": {
+    "tagPlace": ["New Orleans"],
+    "tagDescription": [
+      "R.D. Shepherd to T.W. Ward: Refers to the Governor's message, which he encloses."
+    ],
+    "tagDate": ["1844-01-04T00:00:00.000Z"]
+  },
+  "728": {
+    "tagDate": ["1845-03-20T00:00:00.000Z"],
+    "tagDescription": [
+      "D. Leavitt to Thomas Ford, Governor of Illinois: Illinois & Michigan Canal."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "90": {
+    "tagDate": ["1843-01-01T00:00:00.000Z"],
+    "tagDescription": ["Denison's United States Bank Debentures."]
+  },
+  "851": {
+    "tagDescription": [
+      "J.M. Coale, President Chesapeake & Ohio Canal Co. to T.W. Ward - Re a Loan for the completion of the Canal."
+    ],
+    "tagDate": ["1845-05-22T00:00:00.000Z"],
+    "tagPlace": ["FrederickMd."]
+  },
+  "169": {
+    "tagDescription": ["R.B. Forbes: Shipment of goods."],
+    "tagDate": ["1844-02-29T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "844": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1845-05-15T00:00:00.000Z"],
+    "tagDescription": [
+      "F.H. Delano: Sends pamphlets \"Old World and the New\" and \"Fanny\"."
+    ]
+  },
+  "559": {
+    "tagDescription": ["Horace Gray, Jr.: Question of salary and expenses."],
+    "tagDate": ["1844-11-02T00:00:00.000Z"],
+    "tagPlace": ["London"]
+  },
+  "131": {
+    "tagDescription": [
+      "Comparative Situation of the Consolidated Association."
+    ],
+    "tagDate": ["1844-01-30T00:00:00.000Z"],
+    "tagPlace": ["New Orleans"]
+  },
+  "53": {
+    "tagPlace": ["Havana"],
+    "tagDate": ["1843-11-02T00:00:00.000Z"],
+    "tagDescription": [
+      "DeConinck Spalding & Co.; Urged Messrs. George Knight & Co. to transfer the Arroyo Estate."
+    ]
+  },
+  "991": {
+    "tagDate": ["1845-08-01T00:00:00.000Z"],
+    "tagDescription": ["List of new correspondents with numbers attached."]
+  },
+  "940": {
+    "tagPlace": ["Boston"],
+    "tagDescription": [
+      "J.M. Coale, President Chesapeake & Ohio Canal Co. to Baring Bros. & Co. Re Loan for Chesapeake & Ohio Canal Co."
+    ],
+    "tagDate": ["1845-07-31T00:00:00.000Z"]
+  },
+  "282": {
+    "tagPlace": ["Annapolis"],
+    "tagDate": ["1844-04-29T00:00:00.000Z"],
+    "tagDescription": [
+      "D. Claude, Treasurer, Annapolis, Maryland: Relating to payments of interest on public debt."
+    ]
+  },
+  "639": {
+    "tagDate": ["1844-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "J.H.B. Latrobe to ______ Carey - Maryland financial affair."
+    ],
+    "tagPlace": ["Maryland"]
+  },
+  "301": {
+    "tagDescription": [
+      "Jas. Freshfield, Jr. to John A. Smith M.P. Enclosing opinion of Mr. Roundell Palmer with regard to the proposed contract and Trust Deed, prepared by Governor Ford, for the Illinois & Michigan Canal Loan."
+    ],
+    "tagDate": ["1844-05-17T00:00:00.000Z"]
+  },
+  "847": {
+    "tagDate": ["1845-05-19T00:00:00.000Z"],
+    "tagDescription": ["J.L. Prevost: Agrees to take up 18 debentures."],
+    "tagPlace": ["London"]
+  },
+  "608": {
+    "tagDescription": ["R.M. Gibbes: Illinois State bonds."],
+    "tagDate": ["1844-12-31T00:00:00.000Z"],
+    "tagPlace": ["Paris"]
+  },
+  "47": {
+    "tagDescription": [
+      "Chas. Augustus Davis to J .Bates. Re aid from General Government to defaulting States."
+    ],
+    "tagDate": ["1843-10-31T00:00:00.000Z"],
+    "tagPlace": ["New York"]
+  },
+  "661": {
+    "tagDescription": [
+      "Report of the Committee on Finance of the State of Louisiana."
+    ],
+    "tagDate": ["1844-01-01T00:00:00.000Z"],
+    "tagPlace": ["Louisiana"]
+  },
+  "532": {
+    "tagPlace": ["London"],
+    "tagDate": ["1844-10-23T00:00:00.000Z"],
+    "tagDescription": [
+      "Baring Bros. & Co. to Edmund Forstall - Re Bonds of the Union Bank of Louisiana."
+    ]
+  },
+  "975": {
+    "tagPlace": ["London"],
+    "tagDate": ["1845-08-13T00:00:00.000Z"],
+    "tagDescription": [
+      "C.A. Davis: Refers to law suit and other business matters."
+    ]
+  },
+  "361": {
+    "tagDate": ["1844-07-17T00:00:00.000Z"],
+    "tagDescription": [
+      "H. Wheaton: Senate rejected his commercial treaty with the Lollverein; Question of Tariff."
+    ],
+    "tagPlace": ["Berlin"]
+  },
+  "28": {
+    "tagPlace": ["New Orleans"],
+    "tagDescription": [
+      "Statement of the affairs of the Union Bank of Louisiana."
+    ],
+    "tagDate": ["1843-10-16T00:00:00.000Z"]
+  },
+  "4": {
+    "tagDescription": [
+      "Clark & Carpenter to T.W. Ward - Re negotiation between the House of Baring and the Republic of New Grenada, re building a Canal across the Isthmus at Panama."
+    ],
+    "tagDate": ["1843-09-17T00:00:00.000Z"],
+    "tagPlace": ["Schenectady"]
+  },
+  "255": {
+    "tagDate": ["1844-03-19T00:00:00.000Z"],
+    "tagDescription": [
+      "No. 2 Maryland. A supplement to the Act entitled An Act to raise additional revenue to aid in paying the debts of the State by laying a tax on Salaries, Incomes, Emoluments and Profits, passed at December Session 1841 Ch. 325 - Enclosed in 27 April 1844."
+    ],
+    "tagPlace": ["Annapolis"]
+  },
+  "17": {
+    "tagPlace": ["Liverpool"],
+    "tagDate": ["1843-10-05T00:00:00.000Z"],
+    "tagDescription": [
+      "Baring Brothers to Fred Frey, Union Bank of Louisiana: Action against ship Royal Albert."
+    ]
+  },
+  "226": {
+    "tagPlace": ["Boston"],
+    "tagDate": ["1844-04-26T00:00:00.000Z"],
+    "tagDescription": [
+      "T.W. Ward (for the Committee) to Baring Bros & Co. & Magniac, Jardine & Co. Covering several letters relating to Illinois matters."
+    ]
+  },
+  "957": {
+    "tagPlace": ["London"],
+    "tagDate": ["1845-08-04T00:00:00.000Z"],
+    "tagDescription": [
+      "Geo. Peabody to H.W. Evans. Re Maryland credit. Press Copy."
+    ]
+  },
+  "367": {
+    "tagPlace": ["New Orleans"],
+    "tagDescription": [
+      "Frederick Frey, Cashier Union Bank, Louisiana, to Baring Bros. & Co. Enclosing Report of the Committee to whom was referred the letter of E.J. Forstall, Agent of Baring Bros. & Co. Proposing a settlement for the 1750000 of State Bonds in favour of the Union Bank of Louisiana, due in November."
+    ],
+    "tagDate": ["1844-07-20T00:00:00.000Z"]
+  },
+  "896": {
+    "tagPlace": ["Chicago"],
+    "tagDescription": [
+      "W.H. Swift to Boston Committee - Illinois & Michigan Canal Co. Subscriptions to Loan &c."
+    ],
+    "tagDate": ["1845-06-22T00:00:00.000Z"]
+  },
+  "181": {
+    "tagDescription": [
+      "Jacob Little & Co.: Mr. Gabriel Mead. Bank of Liverpool may have received forged bank notes."
+    ],
+    "tagDate": ["1844-03-18T00:00:00.000Z"],
+    "tagPlace": ["New York"]
+  },
+  "71": {
+    "tagPlace": ["Lockport, Ill."],
+    "tagDescription": [
+      "W.H Swift to Wm. Sturgis - The Illinois & Michigan Canal."
+    ],
+    "tagDate": ["1843-12-16T00:00:00.000Z"]
+  },
+  "979": {
+    "tagDate": ["1845-08-15T00:00:00.000Z"],
+    "tagDescription": [
+      "O.A. Norris: Sends drawings of eight-wheel locomotive (missing). Encloses letter from Mr. Masui to Wm. Norris pertaining to the subject."
+    ],
+    "tagPlace": ["Vienna"]
+  },
+  "188": {
+    "tagDescription": [
+      "T.W. Ward (for Boston Committee) to Baring Bros. & Co. and Magniac, Jardine & Co. Covering a letter from Mr. Arthur Bronson on the subject of the Illinois Canal and Trustees."
+    ],
+    "tagDate": ["1844-03-21T00:00:00.000Z"],
+    "tagPlace": ["Boston"]
+  },
+  "212": {
+    "tagPlace": ["New Orleans"],
+    "tagDate": ["1844-04-15T00:00:00.000Z"],
+    "tagDescription": [
+      "Sam J. Peters, Union Bank of Louisiana: Resolution relating to payment of bonds."
+    ]
+  },
+  "720": {
+    "tagDate": ["1845-03-20T00:00:00.000Z"],
+    "tagDescription": [
+      "Hon. John Davis & D. Leavitt to Magniac Jardine & Baring Bros. & Co. The Public Debt of Illinois and the attitude of the people discussed confidentially."
+    ],
+    "tagPlace": ["Springfield, Ill."]
+  },
+  "136": {
+    "tagDate": ["1844-02-17T00:00:00.000Z"],
+    "tagDescription": [
+      "Statement and valuation of the Assets of the New Orleans Canal and Banking Co. Press copy."
+    ],
+    "tagPlace": ["New Orleans"]
+  },
+  "841": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1845-05-15T00:00:00.000Z"],
+    "tagDescription": [
+      "Joshua Hamm: Demand for the Mexican National Debentures. Recommends purchase."
+    ]
+  },
+  "64": {
+    "tagDate": ["1843-12-11T00:00:00.000Z"],
+    "tagDescription": [
+      "Extract from the New York Herald re American State Stocks and the Money-dealers."
+    ],
+    "tagPlace": ["New York"]
+  },
+  "259": {
+    "tagDate": ["1844-03-19T00:00:00.000Z"],
+    "tagDescription": [
+      "No. 3 Maryland - An Act to tax the commissions of certain officers of this State. Enclosed in 27 April 1844."
+    ],
+    "tagPlace": ["Annapolis"]
+  },
+  "134": {
+    "tagDate": ["1844-02-10T00:00:00.000Z"],
+    "tagDescription": [
+      "Thomas Ford to T.W. Ward: No expenses can be paid until authorized by the Legislature."
+    ],
+    "tagPlace": ["Springfield, Ill."]
+  }
+}

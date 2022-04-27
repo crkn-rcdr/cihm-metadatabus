@@ -1,0 +1,11 @@
+{
+  "pubmin": "1960-01-14",
+  "callNumber": "1960 L3 A1",
+  "label": "Senate Committees, 24th Parliament, 3rd Session : Special Committee on Land Use in Canada, vol. 1",
+  "language": ["eng"],
+  "session": ["24-3"],
+  "type": "committees",
+  "pubmax": "1960-08-10",
+  "node": [["eng", "s", "committees", "24-3", 5]],
+  "chamber": ["s"]
+}

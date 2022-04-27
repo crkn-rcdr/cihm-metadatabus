@@ -1,0 +1,63 @@
+{
+  "293": {
+    "tagDescription": ["Estate Papers. Insurance - Receipts"],
+    "tagDate": ["[1851-01-01T00:00:00.000Z TO 1860-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "375": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Estate Papers. Land. Grants and Sales"],
+    "tagDate": ["[1898-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"]
+  },
+  "382": {
+    "tagDescription": ["Estate Papers. Land. Receipts"],
+    "tagDate": ["[1837-01-01T00:00:00.000Z TO 1848-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "455": {
+    "tagDate": ["1838-01-01T00:00:00.000Z"],
+    "tagDescription": ["Estate Papers. Land. Procès Verbal"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "267": {
+    "tagDescription": ["Estate Papers. Statement; Stocks"],
+    "tagDate": ["1830-01-01T00:00:00.000Z"],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "301": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDate": ["1868-01-01T00:00:00.000Z"],
+    "tagDescription": ["Estate Papers. Insurance - Receipts"]
+  },
+  "7": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Invitations"]
+  },
+  "326": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Estate Papers. Land. Grants and Sales"],
+    "tagDate": ["[1830-01-01T00:00:00.000Z TO 1860-12-31T23:59:59.999Z]"]
+  },
+  "371": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Estate Papers. Land. Grants and Sales"],
+    "tagDate": ["1874-01-01T00:00:00.000Z"]
+  },
+  "173": {
+    "tagDate": ["[1853-01-01T00:00:00.000Z TO 1860-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Estate Papers; Household Accounts - Estimates, Statements, Receipts"
+    ],
+    "tagNotebook": ["Correspondence. n.d."]
+  },
+  "303": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Estate Papers. Land. Grant with Seal"],
+    "tagDate": ["1803-01-01T00:00:00.000Z"]
+  },
+  "515": {
+    "tagNotebook": ["Correspondence. n.d."],
+    "tagDescription": ["Estate Papers. Land. Sales, Rents, Taxes."],
+    "tagDate": ["[1820-01-01T00:00:00.000Z TO 1856-12-31T23:59:59.999Z]"]
+  }
+}

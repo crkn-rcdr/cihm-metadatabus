@@ -1,0 +1,11 @@
+{
+  "callNumber": "1968/69 S3 A1 v.8",
+  "label": "Senate Committees, 28th Parliament, 1st Session : Special Committee on Science Policy, vol. 8",
+  "pubmin": "1968-09-12",
+  "session": ["28-1"],
+  "language": ["eng"],
+  "pubmax": "1969-10-22",
+  "node": [["eng", "s", "committees", "28-1", 16]],
+  "type": "committees",
+  "chamber": ["s"]
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["27-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 27th Parliament, 1st Session : Vol. 14",
+  "pubmin": "1966-01-18",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "27-1", 14]],
+  "pubmax": "1967-05-08",
+  "type": "debates"
+}

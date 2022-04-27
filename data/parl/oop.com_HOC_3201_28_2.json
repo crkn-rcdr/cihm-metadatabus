@@ -1,0 +1,15 @@
+{
+  "pubmin": "1980-04-14",
+  "callNumber": "1980/83 M53 A1 no.26-41",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Miscellaneous Estimates, vol. 2 no. 26-41 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité permanent des prévisions budgétaires en général, vol. 2 no. 26-41",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 110],
+    ["fra", "c", "committees", "32-1", 112]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

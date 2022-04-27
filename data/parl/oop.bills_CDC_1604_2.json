@@ -1,0 +1,12 @@
+{
+  "callNumber": "KE72 C361 16-4 46-347",
+  "label": "Projets de loi de la Chambre des communes, 16e Législature, 4e Session : 46-347",
+  "pubmin": "1930-02-20",
+  "session": ["16-4"],
+  "language": ["fra"],
+  "pubmax": "1930-05-30",
+  "node": [["fra", "c", "bills", "16-4", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

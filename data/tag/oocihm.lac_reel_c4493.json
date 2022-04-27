@@ -1,0 +1,16 @@
+{
+  "16": { "tagDescription": ["VI History Historical Items"] },
+  "263": { "tagDescription": ["VI History Old pamphlet"] },
+  "236": { "tagDescription": ["VI History Symbol - Double-Barred Cross"] },
+  "227": {
+    "tagDate": ["1946-01-01T00:00:00.000Z"],
+    "tagDescription": ["VI History List of Valuable Files for 1946"]
+  },
+  "230": {
+    "tagDate": ["1957-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "VI History Statistics - Early Statistics, Compiled 1957"
+    ]
+  },
+  "96": { "tagDescription": ["VI History History - General"] }
+}

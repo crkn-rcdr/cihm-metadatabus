@@ -1,0 +1,11 @@
+{
+  "pubmin": "1879-02-13",
+  "label": "Documents parlementaires, 4e Législature, 1re Session : vol. 3",
+  "language": ["fra"],
+  "session": ["04-1"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "04-1", 3]],
+  "pubmax": "1879-05-15",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

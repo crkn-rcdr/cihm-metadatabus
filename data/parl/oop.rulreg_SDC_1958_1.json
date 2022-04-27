@@ -1,0 +1,11 @@
+{
+  "pubmin": "1957-10-14",
+  "label": "Règlement du Sénat du Canada, 1958",
+  "callNumber": "JL158.3 1958f",
+  "language": ["fra"],
+  "session": ["23-1", "24-1"],
+  "type": "rules",
+  "node": [["fra", "s", "rules", null, 13]],
+  "pubmax": "1958-09-06",
+  "chamber": ["s"]
+}

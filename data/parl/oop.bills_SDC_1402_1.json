@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1923-06-30",
+  "node": [["fra", "s", "bills", "14-2", 1]],
+  "type": "bills",
+  "session": ["14-2"],
+  "language": ["fra"],
+  "callNumber": "KE72 C381 14-2 Bill A-",
+  "label": "Projets de loi du Sénat, 14e Législature, 2e Session : A-F6",
+  "pubmin": "1923-01-31"
+}

@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-1", 32],
+    ["fra", "c", "committees", "33-1", 146]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-91, an Act to Establish the Competition Tribunal and to Amend the Combines Investigation Act and the Bank Act and Other Acts in Consequence Thereof, vol. 1 no. 1-11 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-91, Loi constituant le Tribunal de la concurrence et modifiant la Loi relative aux enquêtes sur les coalitions et la Loi sur la banques et apportant des modifications corrélatives à d'autres lois, vol. 1 no. 1-11",
+  "callNumber": "33-1 C478 A1 no.1-11",
+  "pubmin": "1984-11-05"
+}

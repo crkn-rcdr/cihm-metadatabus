@@ -1,0 +1,5569 @@
+{
+  "691": { "tagDate": ["1850-07-14T00:00:00.000Z"] },
+  "127": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1841-08-02T00:00:00.000Z]"],
+    "tagPerson": ["Hayer, Richard", "Parke, Thomas"]
+  },
+  "72": {
+    "tagPlace": ["District of Newcastle", "Township of Haldimand", "Halowell"],
+    "tagDate": ["1803-03-14T00:00:00.000Z"],
+    "tagPerson": ["Rogers, D, MG Esquire", "Baker, George"]
+  },
+  "443": { "tagDate": ["1849-04-18T00:00:00.000Z"] },
+  "716": {
+    "tagPerson": [
+      "Burke, James",
+      "Jones, H, J",
+      "Burke, Oliver",
+      "Kemp, Simon"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-08-12T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "Town of Amherstburgh",
+      "Toronto",
+      "County of Essex",
+      "Montreal"
+    ]
+  },
+  "765": { "tagDate": ["1850-10-03T00:00:00.000Z"] },
+  "675": { "tagDate": ["1850-05-18T00:00:00.000Z"] },
+  "210": {
+    "tagPlace": ["Kingston", "Township of Brooke", "Township of Bathurst"],
+    "tagPerson": ["Red, James", "Parke, Thomas", "Red, William"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-01-03T23:59:59.999Z]"]
+  },
+  "698": {
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "County of Lanark",
+      "Township of Drummond"
+    ],
+    "tagDate": ["[1837-01-01T00:00:00.000Z TO 1850-07-31T23:59:59.999Z]"],
+    "tagPerson": ["Poole, Mary", "Poole, John", "Jones, H, J"]
+  },
+  "170": {
+    "tagPerson": ["Parke, Thomas", "Morris, Alexander", "Elliott, A"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Township of Plympton", "Township of Brockville", "Kingston"]
+  },
+  "646": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-03-11T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Crowhurst, William",
+      "Adam, William",
+      "Crowhurst, Janet"
+    ],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Montreal",
+      "Township of Gloucester"
+    ]
+  },
+  "427": { "tagDate": ["1849-03-22T00:00:00.000Z"] },
+  "657": { "tagDate": ["1850-04-03T00:00:00.000Z"] },
+  "143": {
+    "tagPlace": ["Township of Pakenham", "Township of Fitzroy"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-26T23:59:59.999Z]"],
+    "tagPerson": ["Steen, William", "Steen, James", "Parke, Thomas"]
+  },
+  "231": {
+    "tagDate": ["[1842-07-14T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": [
+      "Kelly, Francis",
+      "Parke, Thomas",
+      "Kelly, Wm",
+      "Kelly, John"
+    ],
+    "tagPlace": ["Kingston", "Township of Eldon"]
+  },
+  "534": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-11-27T23:59:59.999Z]"],
+    "tagPerson": [
+      "Davids, Clement, Richard",
+      "Jones, Henry, Jno",
+      "Clement, Joseph",
+      "Clement, James, Dufelt"
+    ],
+    "tagPlace": [
+      "Western District",
+      "Montreal",
+      "Enniskillen",
+      "Village of SE",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "263": {
+    "tagPlace": ["Township of Williamsburgh", "Kingston"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Shell, Daniell",
+      "Shell, David",
+      "Shell, Benjamin"
+    ],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1841-09-14T23:59:59.999Z]"]
+  },
+  "769": { "tagDate": ["1850-10-16T00:00:00.000Z"] },
+  "588": {
+    "tagPerson": ["Greer, Patrick", "Jones, Henry, Jno", "Greer, Mathew"],
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "West Gwillimbury",
+      "County of Simcoe",
+      "Montreal"
+    ]
+  },
+  "470": {
+    "tagPerson": [
+      "Smith, Thomas",
+      "Jones, Henry, Jno",
+      "Smith, Charles, Arthur"
+    ],
+    "tagDate": ["[1804-07-06T00:00:00.000Z TO 1849-05-31T23:59:59.999Z]"],
+    "tagPlace": ["Montreal", "Bathurst", "Upper Canada", "Town of Amherstburgh"]
+  },
+  "284": {
+    "tagPlace": ["Kingston", "Township of Adelaide"],
+    "tagPerson": ["Mahan, John", "Mahan, Adolphus", "Parke, Thomas"],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"]
+  },
+  "806": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-11-21T23:59:59.999Z]"],
+    "tagPerson": ["Jones, H, J", "Lesslie, Henry", "L, Colonel", "Miles, John"],
+    "tagPlace": [
+      "Toronto",
+      "Township of Mosa",
+      "Upper Canada",
+      "Montreal",
+      "County of Middlesex"
+    ]
+  },
+  "581": { "tagDate": ["1850-01-16T00:00:00.000Z"] },
+  "679": { "tagDate": ["1850-06-19T00:00:00.000Z"] },
+  "238": {
+    "tagPlace": ["Kingston", "Township of Secumseh"],
+    "tagPerson": ["Ramsay, George, G", "Ramsay, William", "Parke, Thomas"],
+    "tagDate": ["[1842-03-14T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"]
+  },
+  "155": {
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-26T23:59:59.999Z]"],
+    "tagPerson": ["Thomas, John, G", "Thomas, William", "Parke, Thomas"],
+    "tagPlace": ["Township of Verulam", "City of Toronto", "Kingston"]
+  },
+  "341": { "tagDate": ["1848-07-11T00:00:00.000Z"] },
+  "52": {
+    "tagPlace": ["Township of Cramahe"],
+    "tagPerson": [
+      "Male, John",
+      "Donell, Alexander",
+      "McKeys, Barnabas",
+      "Greeley, Aaron"
+    ],
+    "tagDate": ["[1799-06-18T23:59:59.999Z TO 1803-05-06T00:00:00.000Z]"]
+  },
+  "516": {
+    "tagPlace": [
+      "Upper Canada",
+      "Township Cumberland",
+      "District of Ottawa",
+      "Montreal"
+    ],
+    "tagPerson": ["Jones, Henry, Jno", "Buckley, John", "Mara, Malachi, O"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-09-10T23:59:59.999Z]"]
+  },
+  "354": {
+    "tagPerson": [
+      "Thornton, James",
+      "Jones, Henry, Jno",
+      "Hogan, John",
+      "Ryan, Patrick",
+      "Graham, John"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-08-10T23:59:59.999Z]"],
+    "tagPlace": ["Montreal", "Upper Canada", "Halton Street", "Town of Perth"]
+  },
+  "650": {
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Ekfried",
+      "Toronto",
+      "Montreal",
+      "County of Middlesex"
+    ],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Talbot, Colonel",
+      "Provost, William",
+      "Provost, Joseph"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-03-19T23:59:59.999Z]"]
+  },
+  "420": {
+    "tagDate": ["[1836-01-01T00:00:00.000Z TO 1849-03-17T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Morrill, Simeon",
+      "Talbot, Colonel",
+      "FenBroeck, John"
+    ],
+    "tagPlace": [
+      "York",
+      "Upper Canada",
+      "Montreal",
+      "District of London",
+      "Town of London"
+    ]
+  },
+  "459": { "tagDate": ["1849-05-23T00:00:00.000Z"] },
+  "629": { "tagDate": ["1850-02-26T00:00:00.000Z"] },
+  "396": {
+    "tagPlace": [
+      "District of Wellington",
+      "Township of Eramosa",
+      "Montreal",
+      "Upper Canada"
+    ],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1849-01-22T23:59:59.999Z]"],
+    "tagPerson": [
+      "McCormick, Abigail",
+      "Folton, John",
+      "McKenley, William",
+      "McCormick, Phoebe",
+      "McCormick, Robert",
+      "McCormick, Mary, Black",
+      "Day, Rhoda",
+      "McKenley, Eliza Ann",
+      "Day, David",
+      "Folton, Jane",
+      "Jones, Henry, Jno"
+    ]
+  },
+  "477": { "tagDate": ["1849-06-01T00:00:00.000Z"] },
+  "182": {
+    "tagDate": ["1825-12-14T00:00:00.000Z"],
+    "tagPerson": ["Pringle, James", "Gillespie, Thomas"],
+    "tagPlace": ["Ireland", "Tyrone", "Cornwall", "Eastern District"]
+  },
+  "348": {
+    "tagPerson": ["Dedrick, Charles", "Jones, Henry, John"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-08-30T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "Walsingham",
+      "District of London",
+      "Bayham",
+      "Upper Canada"
+    ]
+  },
+  "569": { "tagDate": ["1850-01-01T00:00:00.000Z"] },
+  "120": {
+    "tagPlace": ["Kingston", "Township of Charlottenburgh", "Toronto"],
+    "tagDate": ["1841-07-28T00:00:00.000Z"],
+    "tagPerson": [
+      "McFarlane, Angus",
+      "Parke, Thomas",
+      "McFarlane, Margaret",
+      "Barnheart, George",
+      "McFarlane, Marry"
+    ]
+  },
+  "788": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-07T23:59:59.999Z]"],
+    "tagPerson": ["Jones, H, J", "Teed, Andrew", "Teed, Henry"],
+    "tagPlace": [
+      "County of Leeds",
+      "Montreal",
+      "Toronto",
+      "Township of Yonge",
+      "Upper Canada "
+    ]
+  },
+  "833": { "tagDate": ["1850-12-18T00:00:00.000Z"] },
+  "159": {
+    "tagPlace": ["Township of Kingston", "Township of Summer"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "M, Mary Ann",
+      "Mayler, James",
+      "M, Michael"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-15T23:59:59.999Z]"]
+  },
+  "66": {
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPerson": ["Lawson, Abraham"],
+    "tagPlace": [
+      "Township of Murray",
+      "District of Newcastle",
+      "Carrying Place",
+      "Murray"
+    ]
+  },
+  "625": { "tagDate": ["1850-02-26T00:00:00.000Z"] },
+  "455": { "tagDate": ["1849-04-25T00:00:00.000Z"] },
+  "30": {
+    "tagPerson": ["Adkin, Daniel", "Forsyth, Joseph"],
+    "tagDate": ["1803-03-18T00:00:00.000Z"],
+    "tagPlace": ["Township of Clark", "District of Newcastle"]
+  },
+  "734": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-04T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hepburn, Peter",
+      "Hughes, Charlotte, Catharine",
+      "Hughes, William, Johnston",
+      "Hepburn, Frances, Maria",
+      "Jones, H, J"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "City of Toronto",
+      "County of Peterborough",
+      "Upper Canada"
+    ]
+  },
+  "482": {
+    "tagPlace": [
+      "District of Simcoe",
+      "Township of Peel",
+      "Upper Canada",
+      "Montreal",
+      "Township of Adjala",
+      "District of Wellington"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-06-05T23:59:59.999Z]"],
+    "tagPerson": ["Martin, James", "Jones, Henry, Jno"]
+  },
+  "177": {
+    "tagPerson": [
+      "Eager, James",
+      "Hall, Robert",
+      "Hall, William",
+      "Parke, Thomas"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-11-23T23:59:59.999Z]"],
+    "tagPlace": ["Township of South Gower", "Kingston"]
+  },
+  "77": {
+    "tagPlace": ["Newcastle"],
+    "tagPerson": ["Rogers, D, MG", "Richardson, Benjamin"],
+    "tagDate": ["[1803-05-07T00:00:00.000Z TO 1803-06-02T23:59:59.999Z]"]
+  },
+  "217": {
+    "tagPerson": ["Demanchelle, R", "Parke, Thomas", "Demanchelle, Pierre"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-02-22T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "District of Montreal", "Township of Sandwich"]
+  },
+  "781": { "tagDate": ["1850-10-16T00:00:00.000Z"] },
+  "568": {
+    "tagPlace": [
+      "County of Simcoe",
+      "Toronto",
+      "Upper Canada",
+      "Montreal",
+      "Township of Adjala"
+    ],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1850-01-07T23:59:59.999Z]"],
+    "tagPerson": ["Jones", "McCabe, Paul", "McCabe, Peter", "Henry, Jno"]
+  },
+  "789": { "tagDate": ["1850-11-13T00:00:00.000Z"] },
+  "158": {
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["M, Mary Ann"]
+  },
+  "283": {
+    "tagPerson": [
+      "Parke, Thomas",
+      "Holden, John",
+      "Thomas, William",
+      "Holden, Jane"
+    ],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPlace": ["City of Toronto", "Kingston", "Township of Verulam"]
+  },
+  "706": {
+    "tagPlace": [
+      "County of Carleton",
+      "Montreal",
+      "Upper Canada",
+      "Toronto",
+      "Township of Osgoode"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-08-31T23:59:59.999Z]"],
+    "tagPerson": ["McNaughton, Alexander, Wainwright", "Jones, Hy, Jno"]
+  },
+  "376": {
+    "tagPlace": [
+      "District of Dalhousie",
+      "Upper Canada",
+      "Montreal",
+      "Township of Gloucester"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-10-20T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Henry, John", "Heney, John", "Heney, Robert"]
+  },
+  "144": {
+    "tagPerson": ["Highland, Mary"],
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "533": { "tagDate": ["1849-11-28T00:00:00.000Z"] },
+  "497": { "tagDate": ["1849-08-29T00:00:00.000Z"] },
+  "332": {
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1848-06-22T23:59:59.999Z]"],
+    "tagPerson": [
+      "Baillie, Agnes",
+      "Baillie, Charlie",
+      "Baillie, Gavin",
+      "Jones, Henry, John"
+    ],
+    "tagPlace": [
+      "District of Bathurst",
+      "Montreal",
+      "Township of Dalhousie",
+      "Upper Canada"
+    ]
+  },
+  "200": {
+    "tagPlace": ["Kingston", "Township of Rawdon", "Township of Hungerford"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Harlow, Samuel", "Harlow, Hezeriah"]
+  },
+  "345": { "tagDate": ["0000-01-01T00:00:00.000Z"] },
+  "151": {
+    "tagPerson": [
+      "Putman, Henry",
+      "Anguish, Jacob, Junr",
+      "S, Peter",
+      "S, Elizabeth",
+      "Putman, Hannah",
+      "H, Barbara",
+      "Anguish, Henry",
+      "H, Peter",
+      "Anguish, Lewis"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-25T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Township of Rainham"]
+  },
+  "561": { "tagDate": ["1849-12-31T00:00:00.000Z"] },
+  "264": {
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-10-19T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Mahon, Lambert, Joseph", "Mahon, John"],
+    "tagPlace": ["Kingston", "Township of Adelaide"]
+  },
+  "785": { "tagDate": ["1850-10-17T00:00:00.000Z"] },
+  "628": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-02-25T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Harris, Frederick",
+      "Harris, George, William"
+    ],
+    "tagPlace": ["Township of Metcalfe", "Upper Canada", "Toronto", "Montreal"]
+  },
+  "458": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-05-22T23:59:59.999Z]"],
+    "tagPerson": [
+      "Scott, Charles",
+      "Harkness, Esther",
+      "McGahan, Henry",
+      "Harkness, Jane",
+      "Hodges, Benjamin",
+      "Harkness, Polly",
+      "Jones, Henry, Jno",
+      "Watson, Hazard"
+    ],
+    "tagPlace": ["Upper Canada", "Montreal", "Whity"]
+  },
+  "816": {
+    "tagPlace": [
+      "Township of Lancaster",
+      "Upper Canada",
+      "Montreal",
+      "County of Glengarry"
+    ],
+    "tagPerson": ["McDonald, Roderick", "McDonald, Angus", "Jones, H, J"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-11-27T23:59:59.999Z]"]
+  },
+  "82": {
+    "tagDate": ["[1803-04-27T00:00:00.000Z TO 1803-06-02T23:59:59.999Z]"],
+    "tagPerson": ["Peck, Lewis", "Rogers, D, MG", "Kelvey, Edward"],
+    "tagPlace": ["Newcastle"]
+  },
+  "621": { "tagDate": ["1850-02-18T00:00:00.000Z"] },
+  "451": { "tagDate": ["1849-04-23T00:00:00.000Z"] },
+  "79": {
+    "tagDate": ["[1803-06-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Rogers, D, MG",
+      "Silver, Timothy",
+      "Allen, Ebenezer",
+      "Giles, Stone"
+    ],
+    "tagPlace": ["Newcastle"]
+  },
+  "197": {
+    "tagPerson": ["Walbridge, Elijah"],
+    "tagDate": ["1841-12-15T00:00:00.000Z"]
+  },
+  "349": { "tagDate": ["1848-08-03T00:00:00.000Z"] },
+  "752": {
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Chatham",
+      "Montreal",
+      "Township of Toronto",
+      "County of Kent"
+    ],
+    "tagPerson": [
+      "Grant, Simon, Peter",
+      "Barnhart, Sarah",
+      "Jones, H, J",
+      "Barnhart, John",
+      "Barnhart, Jacob",
+      "Grant, John"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-16T23:59:59.999Z]"]
+  },
+  "444": {
+    "tagPlace": [
+      "Trafalgar",
+      "Montreal",
+      "Upper Canada",
+      "District of Gore",
+      "South of Dundas",
+      "Township of Trafalgar"
+    ],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Chisholm, Robert, K",
+      "Summer, William, J",
+      "Chisholm, John, A",
+      "Leahey, Andrew",
+      "Chisholm, William",
+      "Chisholm, George, K"
+    ],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1849-04-19T23:59:59.999Z]"]
+  },
+  "68": {
+    "tagDate": ["1803-06-01T00:00:00.000Z"],
+    "tagPerson": ["Lawson, Abraham"],
+    "tagPlace": ["York", "Newcastle"]
+  },
+  "506": {
+    "tagPlace": [
+      "District of Victoria",
+      "Township of Hungerford",
+      "Upper Canada"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-08-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "McNabb, Leo",
+      "Clement, Joseph",
+      "Jones, Henry, Jno",
+      "McNabb, Margaret"
+    ]
+  },
+  "768": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-14T23:59:59.999Z]"],
+    "tagPerson": ["Hector, Thos", "Thornton, John", "Baldwin, Robert"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Township of Emily",
+      "County of Peterborough",
+      "Montreal"
+    ]
+  },
+  "589": {
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1850-07-22T00:00:00.000Z]"]
+  },
+  "87": {
+    "tagPlace": ["York", "Newcastle"],
+    "tagPerson": ["Rogers, David, M", "Rogers, D, MG", "Nicholas"],
+    "tagDate": ["[1777-12-31T23:59:59.999Z TO 1803-05-04T00:00:00.000Z]"]
+  },
+  "671": { "tagDate": ["1850-05-02T00:00:00.000Z"] },
+  "678": {
+    "tagPlace": ["Toronto", "Upper Canada", "Town of London"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-06-18T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Moore, John",
+      "Talbot, Colonel",
+      "Anderson, Alexander"
+    ]
+  },
+  "834": {
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Township of Malden",
+      "County of Essex",
+      "Montreal"
+    ],
+    "tagDate": ["[1843-01-01T00:00:00.000Z TO 1850-12-21T23:59:59.999Z]"],
+    "tagPerson": [
+      "Lunds, Crown",
+      "Jones, H, J",
+      "Brisebois, Genvieve",
+      "Brisebois, Jean, Baptiste"
+    ]
+  },
+  "761": { "tagDate": ["1850-09-28T00:00:00.000Z"] },
+  "190": {
+    "tagPlace": ["Kingston", "Township of Grant Widow"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Key, Elizabeth", "Key, William"]
+  },
+  "733": { "tagDate": ["1850-08-31T00:00:00.000Z"] },
+  "239": {
+    "tagDate": ["[1842-07-29T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": ["Harrison, William", "Golliher, Thomas"],
+    "tagPlace": ["Township of Esquesing", "Township of Garafraxa", "Kingston"]
+  },
+  "462": {
+    "tagPlace": ["Township of Albion", "Upper Canada", "Montreal"],
+    "tagDate": ["[1824-01-31T23:59:59.999Z TO 1848-01-01T00:00:00.000Z]"],
+    "tagPerson": ["Jones, Henry, John", "Wilson, James", "Wilson, Charles"]
+  },
+  "695": { "tagDate": ["1850-07-22T00:00:00.000Z"] },
+  "585": { "tagDate": ["1850-01-19T00:00:00.000Z"] },
+  "31": {
+    "tagPlace": ["Newcastle"],
+    "tagDate": ["1803-06-02T00:00:00.000Z"],
+    "tagPerson": ["Rogers, D, MG"]
+  },
+  "162": {
+    "tagPerson": ["Wallance, Jane, Johnson"],
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "59": {
+    "tagPerson": ["Merriam, Johnson", "Merriam, John"],
+    "tagDate": ["1803-04-22T00:00:00.000Z"],
+    "tagPlace": ["District of Newcastle"]
+  },
+  "552": {
+    "tagPlace": [
+      "Montreal",
+      "Township of Hamilton",
+      "District of Newcastle",
+      "Upper Canada",
+      "Township of Seymour"
+    ],
+    "tagPerson": ["Shea, Francis", "Shea, William", "Jones, Henry, Jno"],
+    "tagDate": ["1849-01-01T00:00:00.000Z"]
+  },
+  "699": { "tagDate": ["1850-07-31T00:00:00.000Z"] },
+  "490": {
+    "tagPlace": [
+      "Upper Canada",
+      "Township of London",
+      "District of London",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Talbot, Colonel",
+      "Smyth, Patrick",
+      "Jones, Henry, Jno",
+      "Kent, David",
+      "Shoff, Michael"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-03-08T23:59:59.999Z]"]
+  },
+  "353": { "tagDate": ["1848-08-08T00:00:00.000Z"] },
+  "235": {
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-12-20T23:59:59.999Z]"],
+    "tagPerson": ["Morey, Elizabeth", "Parke, Thomas", "Morey, John"],
+    "tagPlace": ["Kingston", "Township of Brantford"]
+  },
+  "242": {
+    "tagDate": ["[1841-12-14T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": ["Neilly, Thomas", "Neilly, Catherine", "Parke, Thomas"],
+    "tagPlace": ["City of Toronto", "Township of Amaranth", "Kingston"]
+  },
+  "633": { "tagDate": ["1850-02-26T00:00:00.000Z"] },
+  "795": { "tagDate": ["1850-11-19T00:00:00.000Z"] },
+  "301": {
+    "tagDate": ["[1840-12-31T23:59:59.999Z TO 1841-01-28T00:00:00.000Z]"],
+    "tagPerson": ["Parke, Thomas", "Steel, John", "Griggs, Abraham"],
+    "tagPlace": [
+      "Lower Canada",
+      "Township of Caldwells Manor",
+      "Kingston",
+      "Township of Ross"
+    ]
+  },
+  "825": { "tagDate": ["1850-12-06T00:00:00.000Z"] },
+  "778": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-14T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hector, Thos",
+      "Baldwin, Robert",
+      "McCort, Andrew",
+      "McCort, Patrick"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "County of York",
+      "Township of Albian",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "661": { "tagDate": ["1850-04-08T00:00:00.000Z"] },
+  "668": {
+    "tagPerson": [
+      "Donovan, Richard",
+      "Donovan, John",
+      "Miller, Stephen",
+      "Donovan, Mary"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-04-25T23:59:59.999Z]"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Town of Cornwall",
+      "County of Stormont"
+    ]
+  },
+  "436": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-03-31T23:59:59.999Z]"],
+    "tagPerson": ["Doyle, John", "Jones, Henry, Jno", "Tracey, Thomas"],
+    "tagPlace": [
+      "Montreal",
+      "Township of Tyendinaga",
+      "District of Victoria",
+      "Upper Canada"
+    ]
+  },
+  "771": { "tagDate": ["1850-10-07T00:00:00.000Z"] },
+  "308": {
+    "tagDate": ["[1825-12-31T23:59:59.999Z TO 1842-01-01T00:00:00.000Z]"]
+  },
+  "187": {
+    "tagPlace": ["Township of Kenya", "Township of South Gower", "Kingston"],
+    "tagPerson": ["Grant, Peter", "Grant, James", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "472": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-05-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Turk, John",
+      "McCormick, Arthur, Montgomerie",
+      "Jones, Henry, Jno",
+      "Sarah Ann",
+      "McCormick, William",
+      "William",
+      "Peregrine",
+      "Elizabeth, Lucinda",
+      "Cornwall, Thomas",
+      "Mary",
+      "David, John",
+      "Alexander"
+    ],
+    "tagPlace": ["Montreal", "Upper Canada", "Town of Amherstburgh"]
+  },
+  "78": {
+    "tagDate": ["[1803-04-30T23:59:59.999Z TO 1803-05-05T00:00:00.000Z]"],
+    "tagPerson": [
+      "Dunn, John",
+      "Silver, Timothy",
+      "Allen, Ebinezer",
+      "Giles, Stone"
+    ],
+    "tagPlace": [
+      "Township of Piercy",
+      "District of Newcastle",
+      "Township of Haldimand"
+    ]
+  },
+  "799": { "tagDate": ["1850-11-20T00:00:00.000Z"] },
+  "293": {
+    "tagPlace": ["Kingston", "Township of Eramosa"],
+    "tagPerson": ["Oliphant, Sophia", "Parke, Thomas", "Oliphant, David"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-09-19T23:59:59.999Z]"]
+  },
+  "521": { "tagDate": ["1849-09-26T00:00:00.000Z"] },
+  "224": {
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-01-10T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Pawell, Mary", "Pawell, James"],
+    "tagPlace": ["Township of Marmora", "Township of Kingston"]
+  },
+  "829": { "tagDate": ["1850-12-17T00:00:00.000Z"] },
+  "487": { "tagDate": ["1849-06-15T00:00:00.000Z"] },
+  "212": {
+    "tagPlace": ["Township of Plantagenet", "Kingston"],
+    "tagPerson": ["MacIntyre, Benjamin", "MacIntyre, Wm", "Parke, Thomas"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-01-14T23:59:59.999Z]"]
+  },
+  "136": {
+    "tagPlace": ["Township of York", "Kingston"],
+    "tagPerson": ["Vogan, George", "Parke, Thomas", "Vogan, Joshua"],
+    "tagDate": ["[1841-01-28T23:59:59.999Z TO 1841-08-30T00:00:00.000Z]"]
+  },
+  "528": {
+    "tagPlace": [
+      "Township of Percy",
+      "City of Kingston",
+      "Upper Canada",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Cassady, Newey",
+      "Jones, Henry, Jno",
+      "Cassady, Henry, James"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-10-31T23:59:59.999Z]"]
+  },
+  "23": {
+    "tagPlace": [
+      "York",
+      "Township of Cramahe",
+      "Newcastle",
+      "District of Newcastle"
+    ],
+    "tagPerson": [
+      "Perrin, Frederick",
+      "Rogers, D, MG",
+      "Donling, John",
+      "Olcott, Timothy"
+    ],
+    "tagDate": ["[1802-04-04T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "403": { "tagDate": ["1849-02-10T00:00:00.000Z"] },
+  "578": {
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Smith, Abraham",
+      "Jones, Henry, Jno",
+      "Smith, William",
+      "Lhadwick, Thomas"
+    ],
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "County of Waterloo",
+      "Township of Erin",
+      "Montreal"
+    ]
+  },
+  "122": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": ["Parke, Thomas", "Herchmer, Lawrence"],
+    "tagDate": ["[1840-12-31T23:59:59.999Z TO 1841-07-29T00:00:00.000Z]"]
+  },
+  "595": { "tagDate": ["1850-01-30T00:00:00.000Z"] },
+  "366": {
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Stalker, John",
+      "Livingston, Archibald",
+      "Livingston, John"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-01-16T23:59:59.999Z]"],
+    "tagPlace": ["Upper Canada", "Township of Esquesing", "Montreal"]
+  },
+  "315": {
+    "tagDate": ["1825-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Ronalds, Henry",
+      "Edwards, Thomas, Reverend",
+      "Ronalds, Elizabeth, Lucy",
+      "Rowe, Thomas, Berry",
+      "Montgomery, James",
+      "Robertson, Elizabeth, Lucy"
+    ],
+    "tagPlace": [
+      "County of Middlesex",
+      "County Palatine",
+      "Old Brentford",
+      "Township of Dover",
+      "Chester",
+      "Kingdom of Great Britain",
+      "Aldford"
+    ]
+  },
+  "58": {
+    "tagPerson": ["Merriam, John", "Merriam, John, G", "Thompson, W"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1799-01-01T00:00:00.000Z]"],
+    "tagPlace": ["District of Newcastle"]
+  },
+  "606": {
+    "tagDate": ["[1830-09-17T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Hebert, Aman",
+      "Meloche, Simon",
+      "Hebert, Jean, Baptiste",
+      "Beausoleil, Augustin",
+      "Jones, Henry, Jno",
+      "Hebert, Francois",
+      "Hebert, Gregoire"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "County of Essex",
+      "Upper Canada",
+      "Toronto",
+      "Sandwich"
+    ]
+  },
+  "114": {
+    "tagDate": ["[1828-10-04T00:00:00.000Z TO 1841-07-20T23:59:59.999Z]"],
+    "tagPerson": ["Purves, John", "McDermid, Donald", "McDermid, Angus"],
+    "tagPlace": ["Township of Russell", "District of Manav"]
+  },
+  "274": {
+    "tagPerson": ["Parke, Thomas", "House, Henry", "House, Mary"],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPlace": ["Township of Trafalgar", "Kingston", "Township of Vespra"]
+  },
+  "571": { "tagDate": ["1850-01-11T00:00:00.000Z"] },
+  "480": {
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1849-06-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Hester, Rachel",
+      "Nellis, Catharine",
+      "Smith, John",
+      "Hester, George",
+      "Maxson, Catharine"
+    ],
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Darlington",
+      "Montreal",
+      "District of New Castle"
+    ]
+  },
+  "689": { "tagDate": ["1850-07-19T00:00:00.000Z"] },
+  "69": {
+    "tagPlace": ["Newcastle", "District of Newcastle", "Township of Haldimand"],
+    "tagDate": ["[1803-04-24T00:00:00.000Z TO 1803-06-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Kenney, Moses",
+      "Brown, Allan",
+      "Chisholm, A",
+      "Rogers, David, M"
+    ]
+  },
+  "652": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-03-21T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Henry, Jno", "Kidd, George", "Kidd, William"],
+    "tagPlace": [
+      "Montreal",
+      "Township of Beckwith",
+      "County of Lanark",
+      "Upper Canada"
+    ]
+  },
+  "422": {
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Rutley, John, B",
+      "Baker, Stephen",
+      "Summers, Andrew",
+      "Baker, Margaret, Ann"
+    ],
+    "tagDate": ["[1824-01-31T00:00:00.000Z TO 1849-03-17T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "Town of Cornwall",
+      "Upper Canada",
+      "Charlottenburgh"
+    ]
+  },
+  "599": { "tagDate": ["1850-01-30T00:00:00.000Z"] },
+  "721": {
+    "tagPlace": ["Township of York", "Toronto", "Montreal"],
+    "tagPerson": [
+      "Mathers, William",
+      "B, Mary Anna",
+      "Dennis, Joseph",
+      "Dennis, John, Stoughton",
+      "Dennis, Henry",
+      "Dennis, Joseph, Browne",
+      "Jones, Hy, Jno"
+    ],
+    "tagDate": ["[1850-06-15T00:00:00.000Z TO 1850-07-06T23:59:59.999Z]"]
+  },
+  "103": {
+    "tagDate": ["1821-07-20T00:00:00.000Z"],
+    "tagPerson": ["MacRae, Duncan"]
+  },
+  "180": {
+    "tagPlace": ["Eastern District"],
+    "tagDate": ["1841-11-23T00:00:00.000Z"],
+    "tagPerson": ["Gillespie, Thomas"]
+  },
+  "728": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-08-27T23:59:59.999Z]"],
+    "tagPerson": ["Leith, James", "Fraser, Ronald", "Jones, Hy, John"],
+    "tagPlace": ["Upper Canada", "Montreal", "Township of Thorah"]
+  },
+  "319": {
+    "tagPlace": ["Canada", "London", "Dover", "Thames Street"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1842-12-13T23:59:59.999Z]"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Robertson, William",
+      "Ronalds, Elizabeth, Lucy"
+    ]
+  },
+  "414": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-03-03T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Caton, Sarah",
+      "Caton, William, Kitcheson"
+    ],
+    "tagPlace": [
+      "District of Victoria",
+      "Upper Canada",
+      "Montreal",
+      "Ernest Town"
+    ]
+  },
+  "685": { "tagDate": ["1850-07-03T00:00:00.000Z"] },
+  "256": {
+    "tagPlace": ["Township of Cornwall", "Kingston"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-09-17T23:59:59.999Z]"],
+    "tagPerson": ["Annable, John", "Parke, Thomas"]
+  },
+  "575": { "tagDate": ["1850-01-15T00:00:00.000Z"] },
+  "311": { "tagDate": ["1825-01-01T00:00:00.000Z"] },
+  "598": {
+    "tagPlace": [
+      "County of Middlesex",
+      "Montreal",
+      "Township of Adelaide",
+      "Toronto",
+      "Upper Canada"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-01-25T23:59:59.999Z]"],
+    "tagPerson": ["Kelley, James"]
+  },
+  "546": {
+    "tagPlace": [
+      "Montreal",
+      "District of Simcoe",
+      "Township of Essa",
+      "Upper Canada",
+      "Toronto"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-12-05T23:59:59.999Z]"],
+    "tagPerson": ["Blackstock, Thomas", "Blackstock, John", "Jones, Henry, Jno"]
+  },
+  "223": {
+    "tagPlace": ["Kingston", "Township of Sandwich"],
+    "tagPerson": [
+      "McDonell, James",
+      "Parke, Thomas",
+      "Aruald, Frederick",
+      "McDonell, Elizabeth",
+      "Selby, P",
+      "Howard, Daniel"
+    ],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1842-02-22T23:59:59.999Z]"]
+  },
+  "729": { "tagDate": ["1850-08-28T00:00:00.000Z"] },
+  "750": {
+    "tagPlace": [
+      "County of Kent",
+      "Montreal",
+      "Township of Toronto",
+      "Upper Canada",
+      "Township of Chatham"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-16T23:59:59.999Z]"],
+    "tagPerson": [
+      "Barnhart, Sarah",
+      "Barnhart, John",
+      "Barnhart, Jacob",
+      "Grant, Simon, P",
+      "Grant, John",
+      "Jones, H, J"
+    ]
+  },
+  "93": {
+    "tagPerson": ["Duncan"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1840-06-15T23:59:59.999Z]"],
+    "tagPlace": ["Bathurst District"]
+  },
+  "318": {
+    "tagPlace": [
+      "Aldford",
+      "Kingdom of Great Britain",
+      "Chester",
+      "County Palatine",
+      "County of Middlesex",
+      "Old Brentford"
+    ],
+    "tagPerson": [
+      "Montgomery, James",
+      "Rowe, Thomas, Berry",
+      "Ronalds, Elizabeth, Lucy",
+      "Robertson, Elizabeth, Lucy",
+      "Ronalds, Henry",
+      "Edwards, Thomas, Reverend"
+    ],
+    "tagDate": ["1825-01-01T00:00:00.000Z"]
+  },
+  "591": { "tagDate": ["1850-01-29T00:00:00.000Z"] },
+  "467": { "tagDate": ["1849-05-29T00:00:00.000Z"] },
+  "579": { "tagDate": ["1850-01-16T00:00:00.000Z"] },
+  "681": { "tagDate": ["1850-07-02T00:00:00.000Z"] },
+  "88": {
+    "tagDate": ["[1803-05-04T00:00:00.000Z TO 1803-05-07T23:59:59.999Z]"],
+    "tagPerson": ["Rogers, David", "John, B", "Lake, Richard"],
+    "tagPlace": [
+      "Township of Clark",
+      "Newcastle",
+      "District of Newcastle",
+      "Township of Sydney",
+      "Township of Cramahe",
+      "County of Hastings"
+    ]
+  },
+  "67": {
+    "tagPerson": [
+      "Lawson, Abraham",
+      "Chisholm",
+      "Walton, Jonathan",
+      "Walton",
+      "Johnson, Isaac",
+      "Atkin"
+    ],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1803-06-01T00:00:00.000Z]"],
+    "tagPlace": [
+      "Carrying Place",
+      "District of Newcastle",
+      "North West side of Carrying Place",
+      "Township of Murray"
+    ]
+  },
+  "167": {
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Green, Philip, H"]
+  },
+  "76": {
+    "tagPlace": ["District of Newcastle", "Piercy", "Township of Piercy"],
+    "tagDate": ["1803-05-07T00:00:00.000Z"],
+    "tagPerson": ["Richardson, Benjamin, Esq", "Silver, Abner"]
+  },
+  "330": {
+    "tagPerson": ["Peters, Eli"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-06-21T23:59:59.999Z]"],
+    "tagPlace": ["Ernest Town", "Camden", "Montreal", "Upper Canada"]
+  },
+  "634": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-02-28T23:59:59.999Z]"],
+    "tagPerson": ["Thomas, James, L", "Jones, David"],
+    "tagPlace": [
+      "County of Kent",
+      "Montreal",
+      "Toronto",
+      "Upper Canada",
+      "Town of Chatham"
+    ]
+  },
+  "557": { "tagDate": ["1849-12-31T00:00:00.000Z"] },
+  "202": {
+    "tagPlace": [
+      "Kingston",
+      "Township of Lochiel",
+      "Township of Charlottenburgh"
+    ],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1841-12-29T23:59:59.999Z]"],
+    "tagPerson": [
+      "Chisholm, Alexander",
+      "Chisholm, Archibald",
+      "Parke, Thomas",
+      "Chisholm, John"
+    ]
+  },
+  "688": {
+    "tagPlace": ["Montreal", "Township of West Zorra", "Upper Canada"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-07-18T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Hy, John",
+      "McKay, George",
+      "McKay, Hector",
+      "McKay, Angus",
+      "McKay, Donald"
+    ]
+  },
+  "247": {
+    "tagPlace": ["Township of Rawdon", "Kingston"],
+    "tagPerson": [
+      "Green, Lewis",
+      "Green, Joseph",
+      "Green, Ebenezer",
+      "Green, William",
+      "Green, Ira",
+      "Parke, Thomas",
+      "Green, Samuel",
+      "Green, Silas"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1842-04-19T23:59:59.999Z]"]
+  },
+  "798": {
+    "tagPerson": ["Garnett, Christopher", "Jones, H, J", "Armstead, William"],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1850-11-12T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "County of Middlesex",
+      "Township of London",
+      "Upper Canada ",
+      "Toronto"
+    ]
+  },
+  "413": { "tagDate": ["1849-03-01T00:00:00.000Z"] },
+  "746": {
+    "tagDate": ["1850-09-12T00:00:00.000Z"],
+    "tagPerson": [
+      "Jones, H, J",
+      "Shibley, Schuyler",
+      "Mcloche, Jean, Baptiste",
+      "Mcloche, Gilbert"
+    ],
+    "tagPlace": [
+      "County of Essex",
+      "Toronto",
+      "Upper Canada",
+      "Portland",
+      "Township of Sandwich",
+      "Montreal"
+    ]
+  },
+  "828": {
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Mosa",
+      "Toronto",
+      "County of Middlesex",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Waterworth, James",
+      "Waterworth, Joseph",
+      "Baldwin, Robert",
+      "Carpenter, John",
+      "Arwald, Frederick",
+      "Wilcocks, Justine",
+      "McGregor, Duncan",
+      "Waterworth, William",
+      "Duplice, Jacquie",
+      "McLyenan, John",
+      "Waterworth, Benjamin",
+      "McPherson, John",
+      "Waterworth, Shu",
+      "Waterworth, David",
+      "Arwald, Christopher",
+      "Hector, Thos"
+    ],
+    "tagDate": ["[1849-12-31T23:59:59.999Z TO 1850-12-16T00:00:00.000Z]"]
+  },
+  "775": { "tagDate": ["1850-10-16T00:00:00.000Z"] },
+  "62": {
+    "tagPlace": ["Newcastle", "Township of Haldimand", "District of Newcastle"],
+    "tagDate": ["[1803-04-23T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Winters, Christopher",
+      "Shafford, Solomon",
+      "Curtis, Thomas",
+      "Rogers, D, MG"
+    ]
+  },
+  "821": { "tagDate": ["1850-11-29T00:00:00.000Z"] },
+  "45": {
+    "tagDate": ["[1803-04-21T00:00:00.000Z TO 1803-06-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Rogers, D, MG",
+      "Purdey, Joseph, Senior",
+      "Cunningham, William",
+      "Walton, Reuben",
+      "Everton, Tho"
+    ],
+    "tagPlace": [
+      "Township of Hallowell",
+      "Township of Murray",
+      "Township of Hamilton",
+      "Cramahe",
+      "Newcastle",
+      "District of Newcastle",
+      "Midland"
+    ]
+  },
+  "240": {
+    "tagPlace": [
+      "Township of Grenville",
+      "Township of Plantagenet",
+      "Kingston"
+    ],
+    "tagPerson": ["Fairburn, Archibald", "Fairburn, John"],
+    "tagDate": ["[1842-07-29T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"]
+  },
+  "665": { "tagDate": ["1850-04-12T00:00:00.000Z"] },
+  "492": {
+    "tagPlace": ["Upper Canada", "Town of Niagara", "Montreal"],
+    "tagPerson": [
+      "Powell, Captain",
+      "Jones, Henry, Jno",
+      "Whitten, James",
+      "Whitten, John"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-08-03T23:59:59.999Z]"]
+  },
+  "616": {
+    "tagPlace": [
+      "Montreal",
+      "County of Middlesex",
+      "Toronto",
+      "Upper Canada",
+      "Township of London"
+    ],
+    "tagPerson": [
+      "Morrell, William, Henry",
+      "Morrell, John, Hamilton",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-02-06T23:59:59.999Z]"]
+  },
+  "529": { "tagDate": ["1849-10-02T00:00:00.000Z"] },
+  "337": { "tagDate": ["1848-06-30T00:00:00.000Z"] },
+  "550": {
+    "tagPerson": ["Munro, George", "Maddison, John", "Jones, Henry, Jno"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-12-13T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "District of Newcastle",
+      "City of Toronto",
+      "Montreal"
+    ]
+  },
+  "104": {
+    "tagPlace": ["Township of Thorah", "County of Simcoe"],
+    "tagDate": ["[1826-03-08T00:00:00.000Z TO 1841-08-26T23:59:59.999Z]"],
+    "tagPerson": ["Rideout, Thos", "MacRae, Duncan"]
+  },
+  "160": {
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Claridge, Thomas"]
+  },
+  "791": { "tagDate": ["1850-11-13T00:00:00.000Z"] },
+  "273": {
+    "tagPerson": ["Hanagan, Thomas", "Parke, Thomas"],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPlace": ["Township of Essa", "City of Toronto", "Kingston"]
+  },
+  "779": { "tagDate": ["1850-10-16T00:00:00.000Z"] },
+  "113": {
+    "tagPlace": ["Township of Vaughan"],
+    "tagPerson": ["Mercer, Samuel", "Mercer, Thomas"],
+    "tagDate": ["[1841-06-28T00:00:00.000Z TO 1841-07-20T23:59:59.999Z]"]
+  },
+  "460": {
+    "tagPerson": [
+      "Hodges, Benjamin",
+      "Scott, Charles",
+      "Jones, Henry, John",
+      "Watson, Hassard",
+      "Chatterson, Thomas",
+      "McGahan, Henry"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-05-22T23:59:59.999Z]"],
+    "tagPlace": ["Township of Whitby", "Montreal", "Upper Canada"]
+  },
+  "669": { "tagDate": ["1850-04-25T00:00:00.000Z"] },
+  "309": {
+    "tagPlace": [
+      "County Palatine",
+      "County of Middlesex",
+      "Township of Dover",
+      "Old Brentford",
+      "Kingdom of Great Britain",
+      "Aldford",
+      "Chester"
+    ],
+    "tagDate": ["1825-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Edwards, Thomas, Reverend",
+      "Ronalds, Henry",
+      "Robertson, Elizabeth, Lucy",
+      "Montgomery, James",
+      "Rowe, Thomas, Berry",
+      "Ronalds, Elizabeth, Lucy"
+    ]
+  },
+  "404": {
+    "tagDate": ["[1848-12-31T23:59:59.999Z TO 1849-02-02T00:00:00.000Z]"],
+    "tagPerson": ["Black, Duncan", "Jones, Henry, John", "Black, Donald"],
+    "tagPlace": ["Upper Canada", "London District", "Monreal", "Yarmouth"]
+  },
+  "192": {
+    "tagPerson": ["Finlay, James", "Parke, Thomas", "Finlay, William"],
+    "tagDate": ["[1840-12-31T23:59:59.999Z TO 1841-01-28T00:00:00.000Z]"],
+    "tagPlace": ["Township of Elizabethtown", "Kingston", "Township of Fitzroy"]
+  },
+  "386": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-12-07T23:59:59.999Z]"],
+    "tagPerson": [
+      "Francis",
+      "Oconnor, Thomas",
+      "O'Shaunessy, Katy",
+      "O'Shaunessy",
+      "Jones, Henry, Jno"
+    ],
+    "tagPlace": [
+      "Township of Adelaide",
+      "Upper Canada",
+      "Montreal",
+      "Amherstburgh",
+      "District of London"
+    ]
+  },
+  "15": {
+    "tagPerson": [
+      "Cunningham, W",
+      "Purdey, Joseph, Sr",
+      "Burnham, Asa",
+      "Merriam, Johnson",
+      "Goodyear, Edward",
+      "Dowling, John",
+      "Phillips, Joseph",
+      "McDonell, Alex",
+      "Noolittle, Moses",
+      "Hull, Luther",
+      "Jones, Elias",
+      "Marsh, Benjamin",
+      "Forsyth, Joseph",
+      "Blair, John",
+      "Winters, James",
+      "Curtis, Thomas",
+      "Hagerman, Nicholas",
+      "Perrin, Frederick"
+    ],
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPlace": ["District of Newcastle"]
+  },
+  "525": { "tagDate": ["1449-09-26T00:00:00.000Z"] },
+  "640": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-03-06T23:59:59.999Z]"],
+    "tagPerson": [
+      "Stoneburner, Leonard",
+      "Stoneburber, Jacob, William",
+      "Roblin, David",
+      "Jones, Henry, Jno"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "County of Prescott",
+      "Township of Alfred",
+      "Toronto",
+      "Upper Canada",
+      "Village of Napanee"
+    ]
+  },
+  "344": {
+    "tagPlace": [
+      "Midland District",
+      "District of Victoria",
+      "Township of Marmora",
+      "Upper Canada",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Campbell, William",
+      "Campbell, Anne, Elizabeth",
+      "Jones, Henry, John",
+      "Horne, James"
+    ],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1848-08-03T23:59:59.999Z]"]
+  },
+  "176": {
+    "tagPlace": ["Kingston", "Township of Raleigh", "Township of Dover East"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Peck, William",
+      "Parke, Thomas",
+      "Peck, John",
+      "Peck, Nancy",
+      "Peck, Joseph"
+    ]
+  },
+  "22": {
+    "tagPlace": ["District of Newcastle"],
+    "tagDate": ["[1797-07-03T23:59:59.999Z TO 1802-06-22T00:00:00.000Z]"],
+    "tagPerson": ["Ridout, Sam", "Smith, D", "Olcott, Timothy"]
+  },
+  "449": { "tagDate": ["1849-04-23T00:00:00.000Z"] },
+  "216": {
+    "tagPlace": ["Kingston", "Township of Caledon"],
+    "tagPerson": ["Parke, Thomas", "McNaught, Peter", "McNaught, Archibald"],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1842-02-17T23:59:59.999Z]"]
+  },
+  "265": {
+    "tagPerson": ["Parke, Thomas", "Ireland, James", "Ireland, John"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-10-19T23:59:59.999Z]"],
+    "tagPlace": ["Township of Nelson", "Township of Dover", "Kingston"]
+  },
+  "351": { "tagDate": ["0000-01-01T00:00:00.000Z"] },
+  "145": {
+    "tagPlace": ["City of Toronto", "Township of Amaranth", "Kingston"],
+    "tagDate": ["[1841-01-28T23:59:59.999Z TO 1841-10-25T00:00:00.000Z]"],
+    "tagPerson": ["Highland, Mary", "Highland, Paul", "Parke, Thomas"]
+  },
+  "132": {
+    "tagDate": ["1825-03-05T00:00:00.000Z"],
+    "tagPerson": [
+      "Boswell, Walter",
+      "Jones, Elias",
+      "Boswell, Edward",
+      "Hinery, R",
+      "McCallison, Zachare",
+      "Parke, Thomas"
+    ],
+    "tagPlace": ["Hamilton", "Scottland"]
+  },
+  "710": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-08-08T23:59:59.999Z]"],
+    "tagPerson": [
+      "Keeler, Frederick",
+      "Keeler, Isaac",
+      "Jones, Henry, Jno",
+      "Beverly, David"
+    ],
+    "tagPlace": [
+      "County of Dundas",
+      "Montreal",
+      "Township of Matilda",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "358": {
+    "tagPlace": ["Montreal", "Township of York", "Upper Canada"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-08-24T23:59:59.999Z]"],
+    "tagPerson": ["Irvin, James", "Jones, Henry, John", "Irvin, David"]
+  },
+  "269": {
+    "tagPlace": ["Township of Hawkesbury", "Kingston"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Starr, Hiram",
+      "Fortune, Joseph",
+      "Carpenter, Peter",
+      "Gale, Abraham",
+      "Starr, George"
+    ],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"]
+  },
+  "763": { "tagDate": ["1850-10-03T00:00:00.000Z"] },
+  "445": { "tagDate": ["1849-04-20T00:00:00.000Z"] },
+  "432": {
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1849-03-28T23:59:59.999Z]"],
+    "tagPerson": [
+      "Field, Charles",
+      "Ronalds, Henry",
+      "Beozelle, J, B",
+      "Ronalds, John",
+      "Dolsen, Matthew",
+      "Robertson, Elizabeth, Lucy",
+      "Robertson, William",
+      "Rowe, Thomas, Berry",
+      "Jones, Henry, Jno",
+      "Edwards, George, Robertson"
+    ],
+    "tagPlace": [
+      "Upper Canada",
+      "New Brentford",
+      "Coventry England",
+      "Nottingham",
+      "Township of Dover East",
+      "County Palatine of Chester",
+      "Aldford",
+      "Old Brentford",
+      "County of Middlesex England",
+      "Montreal"
+    ]
+  },
+  "397": { "tagDate": ["1849-01-24T00:00:00.000Z"] },
+  "731": { "tagDate": ["1850-08-28T00:00:00.000Z"] },
+  "800": {
+    "tagPlace": [
+      "Montreal",
+      "Upper Canada",
+      "Toronto",
+      "County of Peterboro",
+      "Township of Ops"
+    ],
+    "tagPerson": [
+      "Dempsey, Denis",
+      "Jones, H, J",
+      "Ferris, John",
+      "Ferris, Catharine"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-12T23:59:59.999Z]"]
+  },
+  "149": {
+    "tagPerson": ["Campbell, John", "Parke, Thomas", "Williams, Ann"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-26T23:59:59.999Z]"],
+    "tagPlace": ["Township of Collingwood", "Township of Pittsburgh"]
+  },
+  "476": {
+    "tagPerson": ["Thompson, James", "Jones, Henry, Jno", "Thompson, John"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1849-05-31T23:59:59.999Z]"],
+    "tagPlace": [
+      "District of Talbot",
+      "Upper Canada",
+      "Township of Townsend",
+      "Stamford",
+      "Montreal"
+    ]
+  },
+  "738": {
+    "tagPerson": ["Tuck, Edward", "Tuck, Isaac", "Jones, H, J"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-07T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Adelaida",
+      "Montreal",
+      "County of Middlesex",
+      "Carradoc",
+      "Toronto",
+      "Upper Canada"
+    ]
+  },
+  "517": { "tagDate": ["1849-09-11T00:00:00.000Z"] },
+  "784": {
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "Township of Nottawasaga",
+      "Township of York",
+      "County of Simcoe",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Leonard, Joseph, Heliner",
+      "Hector, Thos",
+      "Leonard, Nathaniel",
+      "Baldwin, Robert"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-16T23:59:59.999Z]"]
+  },
+  "673": { "tagDate": ["1850-05-04T00:00:00.000Z"] },
+  "807": { "tagDate": ["1850-11-23T00:00:00.000Z"] },
+  "623": { "tagDate": ["1850-02-26T00:00:00.000Z"] },
+  "453": { "tagDate": ["1849-04-23T00:00:00.000Z"] },
+  "694": {
+    "tagPlace": [
+      "District of Johnstown",
+      "Edwardsburgh",
+      "Upper Canada",
+      "Toronto",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Curry, Ephraim",
+      "Jones, Henry, Jno",
+      "Smyder, David",
+      "Sherwood, Adiel, Sheriff",
+      "Smyder, Andrew",
+      "Mair, Thomas"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-07-16T23:59:59.999Z]"]
+  },
+  "390": {
+    "tagPerson": ["Galarns, Peter", "Jones, Henry, John", "Galarns, Lewis"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-01-08T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "Town of Amherstburgh",
+      "Apsley Street",
+      "Moore",
+      "Montreal"
+    ]
+  },
+  "835": { "tagDate": ["1850-12-27T00:00:00.000Z"] },
+  "41": {
+    "tagPerson": ["Everton, Thomas", "Grosby, W", "Blair, W"],
+    "tagDate": ["1797-11-02T00:00:00.000Z"]
+  },
+  "426": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-03-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dunlop, William",
+      "Dunlop, Jane",
+      "Jones, Henry, Jno",
+      "Ferguson, Duncan"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "District of Bathurst",
+      "Township of North Sherbrooke",
+      "Upper Canada"
+    ]
+  },
+  "656": {
+    "tagPerson": ["Ryan, Daniel", "Jones, Henry, Jno"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-04-02T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Drummer",
+      "Upper Canada",
+      "Toronto",
+      "County of Petersborough",
+      "Montreal"
+    ]
+  },
+  "510": {
+    "tagPlace": ["Township Emily", "Upper Canada", "Montreal"],
+    "tagPerson": [
+      "Robinson, Peter",
+      "Hennejoy, John",
+      "Hennejoy, Thomas",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-09-03T23:59:59.999Z]"]
+  },
+  "362": {
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Colvin, William",
+      "Colvin, John",
+      "Colvin, James"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-09-09T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Beckwith",
+      "District of Bathurst",
+      "Ramsay",
+      "Montreal"
+    ]
+  },
+  "602": {
+    "tagPlace": [
+      "Montreal",
+      "County of Norfolk",
+      "Township of Townsend",
+      "Upper Canada",
+      "Toronto"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1860-01-25T23:59:59.999Z]"],
+    "tagPerson": ["Wooley, Peter", "Jones, Henry, Jno", "Wooley, Joseph"]
+  },
+  "531": { "tagDate": ["1849-11-28T00:00:00.000Z"] },
+  "234": {
+    "tagPlace": ["Kingston", "Township of Innisfil", "City of Toronto"],
+    "tagPerson": ["Parke, Thomas", "Arthurs, John", "Arthurs, Allen"],
+    "tagDate": ["[1842-04-30T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"]
+  },
+  "563": { "tagDate": ["1849-01-01T00:00:00.000Z"] },
+  "288": {
+    "tagPerson": [
+      "Duggan, George",
+      "Parke, Thomas",
+      "Duggan, Cuffe",
+      "Duggan, Thomas",
+      "Duggan, John"
+    ],
+    "tagDate": ["[1842-09-19T23:59:59.999Z TO 1842-12-13T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "City of Toronto", "Township of Chatham"]
+  },
+  "153": {
+    "tagPerson": ["Cameron, Isabella", "G, Donald", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-25T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Township of Eldver"]
+  },
+  "281": {
+    "tagPlace": ["Township of Cumberland", "Kingston"],
+    "tagDate": ["[1842-10-12T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPerson": ["Parke, Thomas", "McMillan, Duncan", "Cameron, John"]
+  },
+  "584": {
+    "tagPlace": [
+      "Township of Emily",
+      "Ireland",
+      "Upper Canada",
+      "Parish of Ballyagran",
+      "County of Limerick",
+      "County of Peterborough",
+      "Montreal",
+      "Toronto"
+    ],
+    "tagPerson": ["Jones, Henry, Jno", "Madigan, Michael", "Robinson, Peter"],
+    "tagDate": ["1849-01-01T00:00:00.000Z"]
+  },
+  "538": {
+    "tagPlace": [
+      "Montreal",
+      "Township of Fay",
+      "West Gwillimbury",
+      "Upper Canada"
+    ],
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1835-01-01T00:00:00.000Z]"],
+    "tagPerson": ["Jones, Henry, Jno", "Reid, John", "Playton, George"]
+  },
+  "126": {
+    "tagPerson": [
+      "Lawrence, John",
+      "Parke, Thomas",
+      "Shipman, John",
+      "Shipman, Nelson",
+      "Shipman, Samuel"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-07-30T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Township of Yonge", "Toronto"]
+  },
+  "27": {
+    "tagPerson": [
+      "Phillips",
+      "Jones, Elias",
+      "McAlpine, George",
+      "Burnham",
+      "Doolittle",
+      "Rogers, D, MG"
+    ],
+    "tagDate": ["[1803-04-12T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Newcastle"]
+  },
+  "717": { "tagDate": ["1850-08-16T00:00:00.000Z"] },
+  "783": { "tagDate": ["1850-10-16T00:00:00.000Z"] },
+  "289": {
+    "tagPerson": ["Grace, Oliver", "Parke, Thomas", "Grace, Maria"],
+    "tagDate": ["[1842-12-09T23:59:59.999Z TO 1842-12-13T00:00:00.000Z]"],
+    "tagPlace": ["City of Dublin Ireland", "Kingston", "Township of Lobo"]
+  },
+  "674": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-05-16T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Henry, Jno", "Howe, Eve", "Howe, John"],
+    "tagPlace": [
+      "Peru",
+      "County of Huron",
+      "State of Ohio",
+      "Toronto",
+      "Upper Canada",
+      "Township of Kingston",
+      "County of Frontenac"
+    ]
+  },
+  "370": {
+    "tagPlace": [
+      "Township of Sunnidale",
+      "Edwardsburgh",
+      "District of Simcoe",
+      "Upper Canada",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Fraser, Thomas",
+      "Fraser, Richard, Duncan",
+      "Jones, Henry, John"
+    ],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1848-09-16T23:59:59.999Z]"]
+  },
+  "700": {
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "Willoughby",
+      "Montreal",
+      "Township of Smith",
+      "County of Peterborough"
+    ],
+    "tagPerson": ["Coggens, Michael", "Jones, H, J"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-08-31T23:59:59.999Z]"]
+  },
+  "63": {
+    "tagPerson": ["Zadock, Hurd", "Chisholm, A"],
+    "tagDate": ["1801-05-25T00:00:00.000Z"],
+    "tagPlace": ["Cramahe"]
+  },
+  "831": { "tagDate": ["1850-12-18T00:00:00.000Z"] },
+  "764": {
+    "tagPlace": [
+      "County of Middlesex",
+      "Montreal",
+      "Town of London",
+      "Township of Adelaide",
+      "Upper Canada",
+      "Toronto"
+    ],
+    "tagPerson": ["Rowes, Patrick", "Little, Robert"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-02T23:59:59.999Z]"]
+  },
+  "327": {
+    "tagPlace": ["Upper Canada"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1854-12-31T23:59:59.999Z]"]
+  },
+  "539": { "tagDate": ["1849-12-05T00:00:00.000Z"] },
+  "285": {
+    "tagPlace": ["Township of Cornwall", "Kingston"],
+    "tagDate": ["[1842-09-08T23:59:59.999Z TO 1842-12-13T00:00:00.000Z]"],
+    "tagPerson": ["McDonald, Augus", "McDonell, Jane", "Parke, Thomas"]
+  },
+  "810": {
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1850-11-22T23:59:59.999Z]"],
+    "tagPerson": ["Jones, H, J", "Kelly, John", "Kelly, Julia"],
+    "tagPlace": [
+      "County of Peterborough",
+      "Montreal",
+      "Upper Canada",
+      "Toronto",
+      "Township of Eldon"
+    ]
+  },
+  "29": {
+    "tagDate": ["1803-04-12T00:00:00.000Z"],
+    "tagPerson": ["Copp, John", "Marsh, Benjamin"],
+    "tagPlace": ["Township of Hope", "District of Newcastle"]
+  },
+  "343": { "tagDate": ["1848-07-25T00:00:00.000Z"] },
+  "507": { "tagDate": ["1849-08-31T00:00:00.000Z"] },
+  "252": {
+    "tagPlace": ["Kingston", "Township of Brock"],
+    "tagPerson": ["Wixson, Randal", "Parke, Thomas", "Shier, Samuel"],
+    "tagDate": ["[1841-01-28T23:59:59.999Z TO 1842-08-30T00:00:00.000Z]"]
+  },
+  "535": { "tagDate": ["1849-11-03T00:00:00.000Z"] },
+  "542": {
+    "tagPlace": [
+      "District of Simcoe",
+      "Township of Essa",
+      "Upper Canada",
+      "Toronto",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Blackstock, Hugh",
+      "Blackstock, John",
+      "Blackstock, Thomas"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-12-05T23:59:59.999Z]"]
+  },
+  "817": { "tagDate": ["1850-11-27T00:00:00.000Z"] },
+  "268": {
+    "tagPerson": [
+      "Parke, Thomas",
+      "Johnson, Chauncey",
+      "Gale, Abraham",
+      "Carpenter, Peter",
+      "Fortune, Joseph"
+    ],
+    "tagDate": ["[1808-02-08T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPlace": ["Township of Hawkesbury", "Kingston"]
+  },
+  "583": { "tagDate": ["1850-01-19T00:00:00.000Z"] },
+  "196": {
+    "tagPlace": ["District of Newcastle"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1841-12-13T00:00:00.000Z]"],
+    "tagPerson": ["Parke, Thomas", "Rogers, M", "Moore, James"]
+  },
+  "148": {
+    "tagDate": ["1841-11-23T00:00:00.000Z"],
+    "tagPerson": ["Campbell, John"]
+  },
+  "382": {
+    "tagPerson": ["Jones, Henry, John", "Fair, William", "Akins, John"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-10-28T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "District of Simcoe",
+      "Township of Adjala",
+      "Montreal"
+    ]
+  },
+  "40": {
+    "tagDate": ["1803-06-02T00:00:00.000Z"],
+    "tagPerson": ["Everton, Thomas", "Grosby, W", "Murray", "Doolittle, Moses"],
+    "tagPlace": ["District of Newcastle", "Township of Haldimand", "Cramahe"]
+  },
+  "141": {
+    "tagDate": ["[1841-01-28T23:59:59.999Z TO 1841-10-25T00:00:00.000Z]"],
+    "tagPerson": [
+      "Davis, Eliza",
+      "Davis, Benjamin",
+      "Parke, Thomas",
+      "McPherson, Anre, Emiline"
+    ],
+    "tagPlace": ["Township of Leeds", "Kingston", "Township of Western Mister"]
+  },
+  "355": { "tagDate": ["1848-08-10T00:00:00.000Z"] },
+  "739": { "tagDate": ["1850-09-09T00:00:00.000Z"] },
+  "233": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["[1842-07-14T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": [
+      "Armstrong, Thomas",
+      "Parke, Thomas",
+      "Armstrong, William, Junior"
+    ]
+  },
+  "92": {
+    "tagPerson": ["Duncan, John", "Duncan, Jannet"],
+    "tagDate": ["1840-04-06T00:00:00.000Z"],
+    "tagPlace": [
+      "Township of Horton",
+      "Township of Dalhousie",
+      "Toronto",
+      "Bathurst District"
+    ]
+  },
+  "500": {
+    "tagPlace": ["Malden", "Montreal", "Upper Canada"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Meloche, Florence",
+      "Meloche, Etienne",
+      "Meloche, Israel",
+      "Meloche, Joseph",
+      "Meloche, Xavier"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-08-20T23:59:59.999Z]"]
+  },
+  "154": {
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Thomas, Wm"]
+  },
+  "261": {
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-10-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Fairfield, S",
+      "Johnston, Daniel",
+      "Parke, Thomas",
+      "Johnston, Andrew, J"
+    ],
+    "tagPlace": ["Kingston", "Township of Ernest Town"]
+  },
+  "564": {
+    "tagPlace": ["Upper Canada", "Montreal"],
+    "tagDate": ["1849-01-04T00:00:00.000Z"]
+  },
+  "448": {
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1832-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Cassin, Denis",
+      "Jones, Henry, John",
+      "Redmond, John",
+      "Redmond, William"
+    ],
+    "tagPlace": [
+      "Upper Canada",
+      "District of Simcoe",
+      "East of Hurontario",
+      "Township of Mons",
+      "Montreal"
+    ]
+  },
+  "377": { "tagDate": ["1848-10-20T00:00:00.000Z"] },
+  "496": {
+    "tagDate": ["[1818-01-01T00:00:00.000Z TO 1849-08-27T23:59:59.999Z]"],
+    "tagPerson": ["McDonald, John", "Jones, Henry, Jno", "McDonald, Randal"],
+    "tagPlace": ["Upper Canada", "Montreal", "Township of Whitchurch", "Howard"]
+  },
+  "612": {
+    "tagPlace": [
+      "Montreal",
+      "County of Lincoln",
+      "Toronto",
+      "Upper Canada",
+      "Caistor"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-02-05T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Bartlett, Benjamin",
+      "May, Peter",
+      "May, William, Henry"
+    ]
+  },
+  "693": { "tagDate": ["1850-07-19T00:00:00.000Z"] },
+  "359": { "tagDate": ["1848-08-24T00:00:00.000Z"] },
+  "735": { "tagDate": ["1850-09-06T00:00:00.000Z"] },
+  "624": {
+    "tagPerson": [
+      "Fox, Philip",
+      "Forrest, Mary Anne, S",
+      "Forrest, James, F",
+      "Murphy, Eleanor",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1850-02-23T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Sandwich",
+      "Montreal",
+      "Upper Canada",
+      "Toronto",
+      "County of Essex"
+    ]
+  },
+  "320": { "tagDate": ["1825-01-01T00:00:00.000Z"] },
+  "454": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-04-24T23:59:59.999Z]"],
+    "tagPerson": [
+      "Graham, Joseph",
+      "Jones, Robert",
+      "Jones, Henry, Jno",
+      "Jones, Jane"
+    ],
+    "tagPlace": [
+      "South Monaghan",
+      "Upper Canada",
+      "Township of Cavan",
+      "District of Newcastle",
+      "Montreal"
+    ]
+  },
+  "742": {
+    "tagPlace": [
+      "County of Oxford",
+      "Toronto",
+      "Upper Canada",
+      "Township of Denchan",
+      "Montreal"
+    ],
+    "tagPerson": ["Dean, Isa", "Dean, William", "Jones, H, J"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-07T23:59:59.999Z]"]
+  },
+  "707": { "tagDate": ["1850-08-02T00:00:00.000Z"] },
+  "441": { "tagDate": ["1849-04-18T00:00:00.000Z"] },
+  "53": {
+    "tagPerson": ["Keeler, M", "Macdonald, Alexander", "Chisholm, Alexander"],
+    "tagDate": ["1797-11-17T00:00:00.000Z"],
+    "tagPlace": ["Cramahe", "York", "Township of Cramahe", "Midland District"]
+  },
+  "278": {
+    "tagPlace": ["Kingston", "Township of Osnabruck", "Township of Mariposa"],
+    "tagPerson": ["Fike, Francis", "Fike, Daniel", "Parke, Thomas"],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"]
+  },
+  "802": {
+    "tagPlace": ["Montreal", "Toronto", "Township of Mulmur", "Upper Canada"],
+    "tagPerson": ["Jeffy, John", "Jones, H, J", "Jeffy, Matthew"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1850-11-20T23:59:59.999Z]"]
+  },
+  "118": {
+    "tagPlace": ["Kingston", "Township of Hamilton"],
+    "tagPerson": [
+      "Gaughan, John",
+      "Beads, Sarah",
+      "Parke, Thomas",
+      "Gaughan, Susannah",
+      "Beads, Stephen"
+    ],
+    "tagDate": ["1841-07-29T00:00:00.000Z"]
+  },
+  "639": { "tagDate": ["1850-03-05T00:00:00.000Z"] },
+  "430": {
+    "tagDate": ["[1832-01-01T00:00:00.000Z TO 1849-03-23T23:59:59.999Z]"],
+    "tagPerson": ["Campbell, Robert", "Campbell, John", "Jones, Henry, Jno"],
+    "tagPlace": [
+      "Township of York",
+      "Upper Canada",
+      "Montreal",
+      "Township of Caledon"
+    ]
+  },
+  "295": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["[1741-02-28T00:00:00.000Z TO 1842-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Isaac, Chambers", "Parke, Thomas", "Chambers, Robert"]
+  },
+  "28": {
+    "tagDate": ["[1803-04-12T00:00:00.000Z TO 1803-06-02T23:59:59.999Z]"],
+    "tagPerson": ["Nugen, John", "Jones, Elias", "Marsh, Benjamin"],
+    "tagPlace": ["District of Newcastle", "Township of Hamilton"]
+  },
+  "111": {
+    "tagPlace": ["Toronto", "Township of Ernest Town"],
+    "tagDate": ["[1841-02-06T00:00:00.000Z TO 1841-07-20T23:59:59.999Z]"],
+    "tagPerson": ["Hough, John"]
+  },
+  "271": {
+    "tagPlace": ["Kingston", "Township of Ernest Town"],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPerson": ["Booth, Benjamin", "Booth, Mary", "Parke, Thomas"]
+  },
+  "574": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-01-15T23:59:59.999Z]"],
+    "tagPerson": [
+      "Smith, Joseph",
+      "Lhadwick, Thomas",
+      "Jones, Henry, Jno",
+      "Smith, Abraham"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "Toronto",
+      "Upper Canada",
+      "County of Waterloo",
+      "Township of Erin"
+    ]
+  },
+  "367": { "tagDate": ["1848-01-16T00:00:00.000Z"] },
+  "823": { "tagDate": ["1850-12-06T00:00:00.000Z"] },
+  "607": { "tagDate": ["1850-01-30T00:00:00.000Z"] },
+  "130": {
+    "tagDate": ["1841-08-20T00:00:00.000Z"],
+    "tagPerson": ["McCallison, T"]
+  },
+  "418": {
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "McCarthy, Jeremiah",
+      "McCarthy, Thomas"
+    ],
+    "tagDate": ["[1849-03-13T00:00:00.000Z TO 1849-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Upper Canada", "Township of Smith", "Montreal"]
+  },
+  "793": { "tagDate": ["1850-11-13T00:00:00.000Z"] },
+  "299": {
+    "tagPerson": ["Stephens, Jas, D"],
+    "tagDate": ["[1842-12-31T23:59:59.999Z TO 1843-07-11T00:00:00.000Z]"]
+  },
+  "642": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-03-06T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Detler, William, V",
+      "Cochrane, John, CT",
+      "Harwood, George"
+    ],
+    "tagPlace": [
+      "Township of Mono",
+      "Montreal",
+      "County of York",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "724": {
+    "tagPlace": ["City of Toronto", "Township of York"],
+    "tagDate": ["[1832-02-28T00:00:00.000Z TO 1850-06-15T23:59:59.999Z]"],
+    "tagPerson": ["Dennis, Joseph", "Mathers, William"]
+  },
+  "635": { "tagDate": ["1850-03-04T00:00:00.000Z"] },
+  "411": { "tagDate": ["1849-03-01T00:00:00.000Z"] },
+  "712": {
+    "tagPerson": [
+      "McDonald, E",
+      "McDonald, Lachlan",
+      "Jones, H, J",
+      "McDonald, John"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-08-13T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "County of Glengarry",
+      "Township of Lancaster",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "105": {
+    "tagPlace": ["County of Simcoe", "Township of Thorah"],
+    "tagPerson": ["Rideout, Thos", "MacRae, Duncan"],
+    "tagDate": ["[1826-03-08T00:00:00.000Z TO 1841-08-26T23:59:59.999Z]"]
+  },
+  "486": {
+    "tagPlace": ["Township of Lancaster"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-06-13T23:59:59.999Z]"],
+    "tagPerson": [
+      "Grant, John",
+      "Campbell, Alexander",
+      "Fountain, Richard",
+      "Jones, Henry, Jno"
+    ]
+  },
+  "73": {
+    "tagDate": ["[1803-05-04T23:59:59.999Z TO 1803-06-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Robins, James",
+      "Squire, Ichabod",
+      "Rogers, D, MG",
+      "Greeley, Aaron",
+      "Goslee, Matthew",
+      "Fuller, Salmon"
+    ],
+    "tagPlace": ["Newcastle", "York"]
+  },
+  "600": {
+    "tagPlace": [
+      "Upper Canada",
+      "Adelaide",
+      "Toronto",
+      "Township of Essa",
+      "County of Simcoe",
+      "Montreal"
+    ],
+    "tagPerson": ["Stanley, Michael", "Stanley, John"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-01-25T23:59:59.999Z]"]
+  },
+  "304": {
+    "tagPlace": [
+      "Township of Saint Johns",
+      "New Brunswick",
+      "Kingston",
+      "Township of Adjala"
+    ],
+    "tagPerson": ["Collins, James", "Parke, Thomas"],
+    "tagDate": ["[1830-01-01T00:00:00.000Z TO 1841-01-28T23:59:59.999Z]"]
+  },
+  "137": {
+    "tagPerson": ["Parke, Thomas", "Vogan, Joshua", "Vogan, George"],
+    "tagDate": ["[1841-01-28T23:59:59.999Z TO 1841-08-30T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "Township of York"]
+  },
+  "409": { "tagDate": ["1849-02-28T00:00:00.000Z"] },
+  "664": {
+    "tagPerson": ["McLean, Archibald", "Jones, Henry, Jno", "McLean, Duncan"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-04-12T23:59:59.999Z]"],
+    "tagPlace": ["Upper Canada", "Montreal", "County of Lambton"]
+  },
+  "360": {
+    "tagPlace": [
+      "Upper Canada",
+      "District of Lincoln",
+      "Township of Flos",
+      "Fergus",
+      "Penetanguishine Road",
+      "District of Wellington",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Lepard, Thomas",
+      "Tribe, Mary Ann",
+      "Jones, Henry, John",
+      "Tribe, Benjamin"
+    ],
+    "tagDate": ["[1819-01-05T23:59:59.999Z TO 1848-01-01T00:00:00.000Z]"]
+  },
+  "774": {
+    "tagPerson": [
+      "Simon, Louis",
+      "Hector, Thos",
+      "Baldwin, Robt",
+      "Simon, Charles",
+      "Vradenburg, Ichabod"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-14T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "County of York",
+      "Montreal",
+      "Township of Scarborough"
+    ]
+  },
+  "683": { "tagDate": ["1850-07-02T00:00:00.000Z"] },
+  "593": { "tagDate": ["1850-07-30T00:00:00.000Z"] },
+  "221": {
+    "tagPlace": ["Kingston", "Township of Cornwall"],
+    "tagPerson": ["Parke, Thomas", "McDonell, Alexander", "McDonell, Augus"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-02-06T23:59:59.999Z]"]
+  },
+  "524": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-09-24T23:59:59.999Z]"],
+    "tagPerson": ["Choat, Nathan", "Choat, Charlotte", "Bedfor, Jonathan"],
+    "tagPlace": [
+      "District of Colborne",
+      "Township of Mariposa",
+      "Montreal",
+      "Upper Canada"
+    ]
+  },
+  "437": { "tagDate": ["1849-03-31T00:00:00.000Z"] },
+  "392": {
+    "tagPlace": [
+      "Township of March",
+      "Montreal",
+      "South Quay Street",
+      "Village of Cortes Paradise",
+      "Upper Canada",
+      "Township of Flamborough"
+    ],
+    "tagPerson": [
+      "Leesming, Ralph, Reverend",
+      "Hatt, Richard",
+      "Hamilton, James"
+    ],
+    "tagDate": ["[1831-01-01T00:00:00.000Z TO 1849-01-13T23:59:59.999Z]"]
+  },
+  "405": { "tagDate": ["1849-02-20T00:00:00.000Z"] },
+  "96": {
+    "tagDate": ["[1840-05-22T23:59:59.999Z TO 1841-07-17T00:00:00.000Z]"],
+    "tagPerson": ["Allan", "Parke, Thomas", "Duncan, John", "Duncan"],
+    "tagPlace": ["Kingston", "Township of Dalhousie"]
+  },
+  "35": {
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPerson": ["Merriam, J", "Woodworth, S"],
+    "tagPlace": ["Newcastle"]
+  },
+  "186": {
+    "tagPerson": ["Scott, John", "Sully, James", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Township of Portland"]
+  },
+  "512": {
+    "tagPerson": [
+      "Burns, Arthur",
+      "Cross, William",
+      "Jackson, Robert",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-09-04T23:59:59.999Z]"],
+    "tagPlace": ["Warwick", "Montreal", "Western District"]
+  },
+  "228": {
+    "tagPlace": ["Township of Dalhousie", "Kingston", "Township of Kitley"],
+    "tagDate": ["[1842-03-23T23:59:59.999Z TO 1842-03-24T00:00:00.000Z]"],
+    "tagPerson": ["McManagle, Anthony", "McManagle, John", "Parke, Thomas"]
+  },
+  "313": {
+    "tagPerson": [
+      "Robertson, William",
+      "Parke, Thomas",
+      "La Pointe, Gabriel, Senior",
+      "Ronalds, Elizabeth, Lucy"
+    ],
+    "tagDate": ["1842-12-13T00:00:00.000Z"],
+    "tagPlace": ["Kingston", "Township of Dover", "Thames Street London"]
+  },
+  "812": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-26T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, H, J",
+      "Empey, Cyrus",
+      "Empey, Jacob, P",
+      "Robbin, David"
+    ],
+    "tagPlace": [
+      "County of Hastings",
+      "Toronto",
+      "Township of Madoe",
+      "Upper Canada"
+    ]
+  },
+  "756": {
+    "tagPlace": [
+      "Oxford",
+      "Montreal",
+      "Township of Essa",
+      "County of Simcoe",
+      "Upper Canada",
+      "Toronto"
+    ],
+    "tagPerson": ["Romey, John", "Romey, Patrick", "Jones, H, J"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-16T23:59:59.999Z]"]
+  },
+  "387": { "tagDate": ["1848-12-07T00:00:00.000Z"] },
+  "824": {
+    "tagPerson": ["Minaker, Frederick", "Jones, H, J"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-12-05T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "Township of Marysburgh",
+      "Toronto",
+      "Upper Canada",
+      "County of Prince Edward"
+    ]
+  },
+  "540": {
+    "tagPlace": [
+      "Montreal",
+      "Township of Trafalgar",
+      "Toronto",
+      "Upper Canada"
+    ],
+    "tagPerson": [
+      "Marrow, John",
+      "Boyd, Robert",
+      "Boyd, James",
+      "Boyd, David",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["1848-01-01T00:00:00.000Z"]
+  },
+  "229": {
+    "tagDate": ["[1842-03-23T23:59:59.999Z TO 1842-03-24T00:00:00.000Z]"],
+    "tagPerson": ["Grant, John", "Grant, Robert", "Parke, Thomas"],
+    "tagPlace": ["Kingston", "Township of Ramsay", "Township of Fitzroy"]
+  },
+  "44": {
+    "tagPerson": [
+      "Goodyear, Edward",
+      "Walton, Reuben",
+      "Olcott, Timothy",
+      "Purdey, Joseph",
+      "Fleming, Thomas",
+      "Rogers, D, MG",
+      "Cunningham, W"
+    ],
+    "tagDate": ["[1803-04-15T00:00:00.000Z TO 1803-06-30T23:59:59.999Z]"],
+    "tagPlace": [
+      "York",
+      "Midland District",
+      "Township of Cramahe",
+      "Newcastle",
+      "Cramahe"
+    ]
+  },
+  "250": {
+    "tagPerson": ["Dunbar, Edwward", "Davison, Samuel"],
+    "tagDate": ["[1842-08-09T23:59:59.999Z TO 1842-08-22T00:00:00.000Z]"],
+    "tagPlace": ["Township of Emily", "Township of Mariposa", "Kingston"]
+  },
+  "101": {
+    "tagPerson": ["Foggesty, Richard"],
+    "tagDate": ["1821-07-20T00:00:00.000Z"]
+  },
+  "794": {
+    "tagPlace": [
+      "County of Waterloo",
+      "Upper Canada",
+      "Toronto",
+      "Township of Eramosa",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Safferty, Thomas",
+      "Hector, Thos",
+      "Baldwin, Thos",
+      "Farrell, John",
+      "Jackson, John"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-05T23:59:59.999Z]"]
+  },
+  "372": {
+    "tagPlace": [
+      "Township of Trafalgar",
+      "Upper Canada",
+      "District of Gore",
+      "Montreal",
+      "Dundas Street"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-10-09T23:59:59.999Z]"],
+    "tagPerson": ["Tobin, Patrick", "Gilliland, William", "Jones, Henry, John"]
+  },
+  "617": { "tagDate": ["1850-02-07T00:00:00.000Z"] },
+  "408": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-02-28T23:59:59.999Z]"],
+    "tagPerson": ["Merrill, Joseph", "Merrill, Abel", "Jones, Henry, John"],
+    "tagPlace": ["Upper Canada", "Township of Houghton", "Montreal"]
+  },
+  "573": { "tagDate": ["1850-01-11T00:00:00.000Z"] },
+  "336": {
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1848-06-30T23:59:59.999Z]"],
+    "tagPerson": [
+      "Main, Henry",
+      "Wright, Elizabeth",
+      "Wright, John",
+      "Jones, Henry, John"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "Kingston",
+      "Ernest Town",
+      "Colborne District",
+      "Upper Canada"
+    ]
+  },
+  "14": {
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPlace": ["District of Newcastle"]
+  },
+  "401": { "tagDate": ["1849-02-02T00:00:00.000Z"] },
+  "747": { "tagDate": ["1850-09-13T00:00:00.000Z"] },
+  "26": {
+    "tagPlace": [
+      "Township of Haldimand",
+      "District of Newcastle",
+      "Township of Hamilton"
+    ],
+    "tagPerson": [
+      "Phillips, Joseph",
+      "Doolitlle, Moses",
+      "McAlpine, George",
+      "Burnham, Asa"
+    ],
+    "tagDate": ["1803-04-12T00:00:00.000Z"]
+  },
+  "702": {
+    "tagPlace": [
+      "United States of America",
+      "Upper Canada",
+      "Township of Malahide",
+      "Toronto",
+      "County of Middlesex",
+      "Montreal",
+      "State of Michigan"
+    ],
+    "tagPerson": [
+      "Smetts, Solomon",
+      "Smetts, Isaac, Crandel",
+      "Talloz, Colonel",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1845-01-01T00:00:00.000Z TO 1850-08-07T23:59:59.999Z]"]
+  },
+  "225": {
+    "tagPlace": ["Kingston", "Township of Cavan", "Township of Darlington"],
+    "tagDate": ["[1838-01-01T00:00:00.000Z TO 1842-03-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Mary, John",
+      "Chaplin, Elizabeth",
+      "Chaplin, John",
+      "Parke, Thomas"
+    ]
+  },
+  "115": {
+    "tagPlace": ["Township of Russell", "District of Manav"],
+    "tagDate": ["[1828-10-04T00:00:00.000Z TO 1841-07-20T23:59:59.999Z]"],
+    "tagPerson": ["Purves, John", "McDermid, Donald", "McDermid, Angus"]
+  },
+  "166": {
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Schieffelin",
+      "Parke, Thomas",
+      "Spragge, Joseph, B",
+      "Jonathan"
+    ],
+    "tagPlace": ["City of Toronto", "Township of Blenheim", "Kingston"]
+  },
+  "556": {
+    "tagDate": ["[1796-12-31T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Dunn, Bartholomew",
+      "Weirs, Mary",
+      "Wiers, Willis",
+      "Jones, Henry, Jno"
+    ],
+    "tagPlace": [
+      "District of Niagara",
+      "Toronto",
+      "Upper Canada",
+      "Warnflech",
+      "Montreal"
+    ]
+  },
+  "275": {
+    "tagPlace": [
+      "Township of Smith",
+      "Kingston",
+      "Township of Etobicoke Copper"
+    ],
+    "tagPerson": [
+      "Daly, John",
+      "Daly, Henry",
+      "Robinson, Peter",
+      "Parke, Thomas"
+    ],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"]
+  },
+  "314": { "tagDate": ["1825-01-01T00:00:00.000Z"] },
+  "610": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-02-04T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Redpath, Robert, Vernon",
+      "Redpath, Robert"
+    ],
+    "tagPlace": [
+      "District of Newcastle",
+      "Township of Otonabee",
+      "Montreal",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "298": {
+    "tagPlace": ["Township of Sophiasburgh", "Township of Tiny", "Kingston"],
+    "tagPerson": [
+      "Howell, Richard",
+      "Howell, James, I",
+      "Howell, John",
+      "Parke, Thomas"
+    ],
+    "tagDate": ["[1842-09-28T23:59:59.999Z TO 1843-01-01T00:00:00.000Z]"]
+  },
+  "419": { "tagDate": ["1849-03-15T00:00:00.000Z"] },
+  "246": {
+    "tagDate": ["1842-07-30T00:00:00.000Z"],
+    "tagPerson": ["Green, Joseph"]
+  },
+  "523": { "tagDate": ["1849-09-26T00:00:00.000Z"] },
+  "594": {
+    "tagDate": ["1849-01-01T00:00:00.000Z"],
+    "tagPerson": ["James, William", "Jones, Henry, Jno"],
+    "tagPlace": [
+      "Township of Adelaide",
+      "Township of London",
+      "Upper Canada",
+      "Toronto",
+      "Montreal"
+    ]
+  },
+  "291": {
+    "tagPlace": [
+      "City of Toronto",
+      "County of Galway",
+      "Kingston",
+      "Penetanguishene",
+      "Ireland",
+      "Township of Niagara"
+    ],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-10-17T23:59:59.999Z]"],
+    "tagPerson": [
+      "Thompson, Jhannet, H",
+      "Parke, Thomas",
+      "Ussher, Mary Jane",
+      "Ussher, Samuel",
+      "Ussher, John",
+      "Thompson, Margaret",
+      "Mitchell, George",
+      "Mitchell, Harriet"
+    ]
+  },
+  "740": {
+    "tagPerson": ["McGinn, Thomas", "Maguire, Christopher", "Jones, H, J"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-07T23:59:59.999Z]"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "County of Middlesex",
+      "Montreal",
+      "Township of Adelaida"
+    ]
+  },
+  "322": {
+    "tagPlace": ["Canada", "London", "Thames Street"],
+    "tagPerson": ["Parke, Thomas", "Delisle, Alexis", "Robertson, William"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1842-12-13T23:59:59.999Z]"]
+  },
+  "279": {
+    "tagPlace": ["Kingston", "Township of Blenheim", "Township of Brantford"],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPerson": ["Irwin, William", "Vanderlip, James", "Parke, Thomas"]
+  },
+  "773": { "tagDate": ["1850-10-16T00:00:00.000Z"] },
+  "380": {
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1848-10-28T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Henry, John", "McQueen, Duncan", "McQueen, Angus"],
+    "tagPlace": [
+      "Montreal",
+      "Township of Trafalgar",
+      "District of Gore",
+      "Upper Canada"
+    ]
+  },
+  "684": {
+    "tagPlace": ["Upper Canada", "Toronto", "County of Northumberland"],
+    "tagPerson": [
+      "Preston, Benjamin",
+      "Preston, J",
+      "Preston, Isaac",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1850-07-02T23:59:59.999Z]"]
+  },
+  "119": {
+    "tagPlace": ["Township of Charlottenburgh", "Toronto", "Kingston"],
+    "tagDate": ["1841-07-28T00:00:00.000Z"],
+    "tagPerson": [
+      "Barnheart, George",
+      "McFarlane, Marry",
+      "McFarlane, Angus",
+      "McFarlane, Margaret",
+      "Parke, Thomas"
+    ]
+  },
+  "638": {
+    "tagDate": ["[1796-12-31T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Burke, Joseph",
+      "Burke, James",
+      "Jones, Henry, Jno",
+      "Van Camp, Jesse"
+    ],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "County of Durham",
+      "Township of Darlington",
+      "Montreal"
+    ]
+  },
+  "415": { "tagDate": ["1849-03-10T00:00:00.000Z"] },
+  "466": {
+    "tagDate": ["[1849-05-22T23:59:59.999Z TO 1849-05-28T00:00:00.000Z]"],
+    "tagPerson": ["Jones, Henry, Jno", "Hall, Francis", "Hall, James"],
+    "tagPlace": [
+      "Upper Canada",
+      "West Side of George Street",
+      "District of Niagara",
+      "District of Bathurst",
+      "Town of Lanark",
+      "Montreal",
+      "St Catharine"
+    ]
+  },
+  "83": {
+    "tagPerson": ["Brewer, Asa", "Walton, Nathan"],
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1803-01-01T00:00:00.000Z]"]
+  },
+  "631": { "tagDate": ["1850-02-26T00:00:00.000Z"] },
+  "257": {
+    "tagPlace": ["Township of Adelaide", "Township of York", "Kingston"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-09-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dickson, Ronaldson",
+      "Parke, Thomas",
+      "Dickson, David, Somerville"
+    ]
+  },
+  "502": {
+    "tagPlace": ["Upper Canada", "Township Westminster", "Montreal"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-08-29T23:59:59.999Z]"],
+    "tagPerson": ["Little, James", "Talbot, Rand", "Jones, Henry, Jno"]
+  },
+  "663": { "tagDate": ["1850-04-19T00:00:00.000Z"] },
+  "303": {
+    "tagPlace": ["Kingston", "Township of Bathurst"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1842-12-28T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dunbar, Joel",
+      "Adams, Joshua",
+      "Parke, Thomas",
+      "Stone, John"
+    ]
+  },
+  "547": { "tagDate": ["1849-01-01T00:00:00.000Z"] },
+  "511": { "tagDate": ["1849-09-03T00:00:00.000Z"] },
+  "214": {
+    "tagPerson": ["Parke, Thomas", "Rose, Mary", "Rose, Charles", "Bush, Mary"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-02-24T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Township of Osnabruck", "Township of Montagnes"]
+  },
+  "398": {
+    "tagPlace": [
+      "Township of Warwick",
+      "Egremont Road",
+      "Montreal",
+      "Lincoln",
+      "Upper Canada",
+      "Malahide"
+    ],
+    "tagPerson": ["Moore, Solomon", "Jones, Henry, Jno"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-01-31T23:59:59.999Z]"]
+  },
+  "346": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-08-03T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Kingsbury, Edward, P",
+      "Kingsbury, Mary",
+      "McDonell, Alexander"
+    ],
+    "tagPlace": [
+      "District of Bathurst",
+      "Montreal",
+      "Upper Canada",
+      "Township of Westmeath"
+    ]
+  },
+  "819": { "tagDate": ["1850-11-28T00:00:00.000Z"] },
+  "375": { "tagDate": ["1848-10-16T00:00:00.000Z"] },
+  "705": { "tagDate": ["1850-08-02T00:00:00.000Z"] },
+  "222": {
+    "tagPlace": ["City of New York", "Kingston", "Township of Cornwall"],
+    "tagPerson": ["McDonell, Augus", "Parke, Thomas", "McDonell, Donald"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-02-06T23:59:59.999Z]"]
+  },
+  "737": { "tagDate": ["1850-09-06T00:00:00.000Z"] },
+  "518": {
+    "tagPlace": [
+      "Victoria District",
+      "Upper Canada",
+      "Montreal",
+      "Township of Tyendinaga"
+    ],
+    "tagPerson": ["Navin, Dennis", "Welch, James", "Jones, Henry, Jno"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-09-22T23:59:59.999Z]"]
+  },
+  "391": { "tagDate": ["1848-01-12T00:00:00.000Z"] },
+  "379": { "tagDate": ["1848-01-01T00:00:00.000Z"] },
+  "474": {
+    "tagPlace": [
+      "Montreal",
+      "Harwich",
+      "Bathurst",
+      "Upper Canada",
+      "Town of Amherstburgh"
+    ],
+    "tagPerson": ["McKindley, Samuel", "Arnold, James", "Jones, Henry, Jno"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-05-31T23:59:59.999Z]"]
+  },
+  "280": {
+    "tagPerson": ["Grisdale, James", "Parke, Thomas", "McIntosh, John"],
+    "tagDate": ["[1842-10-13T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "Township of Otonabee"]
+  },
+  "815": { "tagDate": ["1850-11-27T00:00:00.000Z"] },
+  "203": { "tagDate": ["1832-01-01T00:00:00.000Z"] },
+  "709": { "tagDate": ["1850-08-07T00:00:00.000Z"] },
+  "43": {
+    "tagPlace": ["Cramahe "],
+    "tagPerson": ["Everton, Thomas", "Rogers, D, MG"],
+    "tagDate": ["[1803-03-21T00:00:00.000Z TO 1807-03-21T23:59:59.999Z]"]
+  },
+  "786": {
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Township of Chinguacousy",
+      "Montreal",
+      "County of York"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-25T23:59:59.999Z]"],
+    "tagPerson": [
+      "Baldwin, Thos",
+      "Young, Thomas",
+      "McCulloch, James",
+      "Hector, Thos"
+    ]
+  },
+  "530": {
+    "tagPlace": ["Montreal", "Town of Niagara", "Upper Canada"],
+    "tagDate": ["[1835-01-01T00:00:00.000Z TO 1849-11-27T23:59:59.999Z]"],
+    "tagPerson": [
+      "Crooks, Catharine, McGill",
+      "Crooks, Mary, Ricthie",
+      "Crooks, Augusta, Ann",
+      "Crorks, Margaret, Ramsay",
+      "Crooks, Susannah, Leeming",
+      "Munro",
+      "Crooks, John",
+      "Jones, Henry, Jno"
+    ]
+  },
+  "357": { "tagDate": ["1848-01-01T00:00:00.000Z"] },
+  "696": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-07-16T23:59:59.999Z]"],
+    "tagPerson": [
+      "Defields, Peter",
+      "Jones, Hy, John",
+      "Talbot, Colonel",
+      "Cranes, Isaac"
+    ],
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "County of Middlesex",
+      "Township of Bayham"
+    ]
+  },
+  "412": {
+    "tagPerson": [
+      "Holmes, James",
+      "Holmes, Benjamin",
+      "Holmes, Andrew, F",
+      "McDonell, John",
+      "Wilkes, Susannah",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-02-28T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Colchest",
+      "Upper Canada",
+      "City of Montreal",
+      "Southside of the Malden Road"
+    ]
+  },
+  "648": {
+    "tagPerson": [
+      "McDonald, Major",
+      "Smith, Alexander",
+      "Jones, Henry, Jno",
+      "Smith, John, M"
+    ],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1850-03-09T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "Township of Tyendinaga",
+      "Upper Canada",
+      "Toronto",
+      "County of Hastings"
+    ]
+  },
+  "287": {
+    "tagDate": ["[1842-10-20T23:59:59.999Z TO 1842-12-13T00:00:00.000Z]"],
+    "tagPerson": [
+      "Crawford, James",
+      "Parke, Thomas",
+      "Crawford, Robert",
+      "Dick, James"
+    ],
+    "tagPlace": ["Township of Lanark", "Kingston"]
+  },
+  "711": { "tagDate": ["1850-08-09T00:00:00.000Z"] },
+  "329": { "tagDate": ["1848-06-10T00:00:00.000Z"] },
+  "537": { "tagDate": ["1849-11-30T00:00:00.000Z"] },
+  "350": {
+    "tagPerson": [
+      "Sheehan, James, Muirhead",
+      "Jones, Henry, John",
+      "Sheehan, Henry, James"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-08-03T23:59:59.999Z]"],
+    "tagPlace": ["Montreal", "Dunn", "Township of Enniskillen", "Upper Canada"]
+  },
+  "654": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-04-02T23:59:59.999Z]"],
+    "tagPerson": ["Charles, Edward", "Charles, Joseph"],
+    "tagPlace": [
+      "County of Prescott",
+      "Montreal",
+      "Plantagenet",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "424": {
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Lochead, William",
+      "Frew, Alexander",
+      "Lochead, Robert"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-03-19T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Dalhousie",
+      "Montreal",
+      "District of Bathurst",
+      "Upper Canada"
+    ]
+  },
+  "493": { "tagDate": ["1849-08-06T00:00:00.000Z"] },
+  "718": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-08-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, H, J",
+      "Reneau, Joseph",
+      "Reneau, Charles",
+      "B, Laurent",
+      "Reneau, Pierre",
+      "Reneau, Jean",
+      "Reneau, Antonia",
+      "Reneau, Dominique",
+      "Reneau, Etienne",
+      "Sommandra, Antonia"
+    ],
+    "tagPlace": ["Sandwich", "Upper Canada", "Toronto", "Montreal"]
+  },
+  "505": { "tagDate": ["1849-08-31T00:00:00.000Z"] },
+  "641": { "tagDate": ["1850-03-07T00:00:00.000Z"] },
+  "236": {
+    "tagPerson": ["Caugh, John", "Parke, Thomas", "Cook, Michael"],
+    "tagDate": ["[1841-09-18T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "Township of Williamsburg"]
+  },
+  "808": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-22T23:59:59.999Z]"],
+    "tagPerson": ["Cornwall, John", "Cochrane, John, CT", "Jones, H, J"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "County of Essex",
+      "Township of Colchester",
+      "Montreal"
+    ]
+  },
+  "272": {
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPerson": ["Wood, H", "Wood, Enoch", "Parke, Thomas"],
+    "tagPlace": [
+      "Township of Nottawasaga",
+      "St Lawrence County",
+      "Morris Town",
+      "New York",
+      "Kingston"
+    ]
+  },
+  "112": {
+    "tagPlace": ["Township of Bathurst"],
+    "tagDate": ["[1841-07-20T23:59:59.999Z TO 1841-07-28T00:00:00.000Z]"],
+    "tagPerson": ["Rogers, William", "Armstrong, James"]
+  },
+  "95": {
+    "tagDate": ["[1841-01-07T23:59:59.999Z TO 1841-07-17T00:00:00.000Z]"],
+    "tagPerson": ["Parke, Thomas", "Duncan"],
+    "tagPlace": ["Township of Horton", "Kingston", "Dalhousie"]
+  },
+  "60": {
+    "tagPerson": [
+      "Merriam, Johnson",
+      "Everton, Thomas",
+      "Greely, Ar",
+      "Jones, Elias",
+      "Rogers, D, MG"
+    ],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1803-04-22T00:00:00.000Z]"],
+    "tagPlace": ["Newcastle"]
+  },
+  "730": {
+    "tagPerson": ["Jones, H, J", "Fraser, Ronald", "Fraser, William"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-08-27T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Thorah",
+      "Montreal",
+      "County of York"
+    ]
+  },
+  "586": {
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "County of Waterloo",
+      "Township of Erin",
+      "Montreal",
+      "Gauafrasa"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-01-17T23:59:59.999Z]"],
+    "tagPerson": ["Connor, Walter", "Jones, Henry, Jno", "Connor, James"]
+  },
+  "801": { "tagDate": ["1850-11-20T00:00:00.000Z"] },
+  "193": {
+    "tagDate": ["[1841-12-15T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Cauerly, Peter"]
+  },
+  "509": { "tagDate": ["1819-09-01T00:00:00.000Z"] },
+  "124": {
+    "tagPlace": [
+      "Kingston",
+      "Township of Mutton",
+      "Toronto",
+      "Township of Wainfleet"
+    ],
+    "tagDate": ["1841-07-29T00:00:00.000Z"],
+    "tagPerson": ["Parke, Thomas", "Humphrey, Hiram", "Humphrey, Ezekiel"]
+  },
+  "501": { "tagDate": ["1849-08-31T00:00:00.000Z"] },
+  "204": {
+    "tagPlace": ["City of Montreal", "Kingston", "Township of Bastard"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-01-06T23:59:59.999Z]"],
+    "tagPerson": [
+      "Day, William",
+      "Parke, Thomas",
+      "Laing, James",
+      "Doyle, Thomas"
+    ]
+  },
+  "645": { "tagDate": ["1850-03-07T00:00:00.000Z"] },
+  "632": {
+    "tagPlace": [
+      "County of Haldimand",
+      "Upper Canada",
+      "Toronto",
+      "Town of Coburg",
+      "Township of Dunn",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Johnson, John",
+      "Johnson, William, Arthur"
+    ],
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"]
+  },
+  "260": {
+    "tagPerson": ["Peltier, Richard", "Peltier, Andrew", "Parke, Thomas"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-10-19T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Township of Sandwich"]
+  },
+  "140": {
+    "tagPerson": ["McPherson, Anre, Emiline", "Davis, Eliza"],
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "809": { "tagDate": ["1850-11-23T00:00:00.000Z"] },
+  "676": {
+    "tagPlace": [
+      "Town of Masaba",
+      "County of Prescott",
+      "Toronto",
+      "Upper Canada",
+      "North of Plantagenet"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-05-16T23:59:59.999Z]"],
+    "tagPerson": ["Campbell, Edward, Clarke", "Jones, Henry, Jno"]
+  },
+  "766": {
+    "tagPerson": ["Thompson, William", "Hector, Thos", "Thompson, Frederick"],
+    "tagDate": ["[1833-01-01T00:00:00.000Z TO 1850-10-08T23:59:59.999Z]"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Township of Mono",
+      "Montreal",
+      "Township of Toronto",
+      "County of York"
+    ]
+  },
+  "715": { "tagDate": ["1850-08-14T00:00:00.000Z"] },
+  "473": { "tagDate": ["1849-05-31T00:00:00.000Z"] },
+  "508": {
+    "tagPlace": ["Western District", "Town of Amherstburgh", "Upper Canada"],
+    "tagPerson": [
+      "Graveline, Joseph",
+      "Williams, Mary",
+      "Williams, William",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-09-08T23:59:59.999Z]"]
+  },
+  "292": {
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-09-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Hamilton, Edward",
+      "Smith, James",
+      "Allan, Letitia",
+      "Smith, Margaret",
+      "Hamilton, George"
+    ],
+    "tagPlace": ["Kingston", "Township of South Dorchester", "City of Toronto"]
+  },
+  "440": {
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Howard",
+      "Talbot Road West",
+      "Montreal"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-04-17T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Shuburg, Francis",
+      "Allen, Maria",
+      "Poulan, Leon",
+      "Allen, John",
+      "Talbot, Colonel",
+      "Poulan, Elenor",
+      "Shuburg, Jane"
+    ]
+  },
+  "25": {
+    "tagPerson": ["Ridout, Chewett, V", "Ridout, Sam", "McAlpine, George"],
+    "tagDate": ["[1797-11-18T23:59:59.999Z TO 1803-04-27T00:00:00.000Z]"],
+    "tagPlace": [
+      "Township of Hamilton",
+      "Township of Haldimand",
+      "District of Newcastle",
+      "Ben Lake Ontario",
+      "York"
+    ]
+  },
+  "321": {
+    "tagPlace": [
+      "Township of Dover",
+      "Old Brentford",
+      "County Palatine",
+      "County of Middlesex",
+      "Aldford",
+      "Kingdom of Great Britain",
+      "Chester"
+    ],
+    "tagDate": ["1825-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Ronalds, Elizabeth, Lucy",
+      "Rowe, Thomas, Berry",
+      "Montgomery, James",
+      "Ronalds, Henry",
+      "Edwards, Thomas, Reverend"
+    ]
+  },
+  "805": { "tagDate": ["1850-11-23T00:00:00.000Z"] },
+  "54": {
+    "tagPlace": ["Township of Cramahe", "Cramahe "],
+    "tagDate": ["[1800-07-31T23:59:59.999Z TO 1803-05-06T00:00:00.000Z]"],
+    "tagPerson": ["McDonell, Alexander, W", "Jones, W, A"]
+  },
+  "328": {
+    "tagPlace": ["Upper Canada", "Colborne", "Montreal", "Newcastle District"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-06-10T23:59:59.999Z]"],
+    "tagPerson": [
+      "Foley, Daniel",
+      "Mahony, James",
+      "Jones, Henry, John",
+      "Robinson, Peter",
+      "Sidey, David"
+    ]
+  },
+  "213": {
+    "tagPlace": ["Kingston", "Township of Ernest Town"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Scouten, Dave, McLean",
+      "Scouten, Barbara",
+      "Smith, Michael"
+    ],
+    "tagDate": ["[1842-01-27T23:59:59.999Z TO 1842-01-29T00:00:00.000Z]"]
+  },
+  "719": { "tagDate": ["1850-08-16T00:00:00.000Z"] },
+  "402": {
+    "tagPerson": ["Dundas, John", "Dundas, Francis", "Jones, Henry, Jno"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-02-08T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "District of Colborne",
+      "Township of Fenelon",
+      "Montreal"
+    ]
+  },
+  "395": { "tagDate": ["1849-01-24T00:00:00.000Z"] },
+  "701": { "tagDate": ["1850-08-01T00:00:00.000Z"] },
+  "830": {
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1850-12-17T23:59:59.999Z]"],
+    "tagPerson": [
+      "Bastable, Thomas, Baldwin",
+      "Jones, H, J",
+      "Bastable, Arthur",
+      "Buchanan, Stewart"
+    ],
+    "tagPlace": [
+      "County of Lambton",
+      "Township of Warwick",
+      "Kingston",
+      "Montreal",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "447": { "tagDate": ["1849-04-20T00:00:00.000Z"] },
+  "378": {
+    "tagPlace": ["Montreal", "Township of Howard", "Upper Canada"],
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Talbot, Colonel",
+      "Whealan, John",
+      "Whealan, Agnes"
+    ],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1848-10-25T23:59:59.999Z]"]
+  },
+  "123": {
+    "tagDate": ["1841-07-29T00:00:00.000Z"],
+    "tagPerson": ["Parke, Thomas", "Humphrey, Hiram", "Humphrey, Ezekiel"],
+    "tagPlace": [
+      "Township of Wainfleet",
+      "Toronto",
+      "Township of Mutton",
+      "Kingston"
+    ]
+  },
+  "194": {
+    "tagPlace": ["Kingston", "Township of Sidney", "Township of Orillia"],
+    "tagPerson": ["Cauerly, Peter", "Cauerly, Stephen", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "371": { "tagDate": ["0000-01-01T00:00:00.000Z"] },
+  "708": {
+    "tagPlace": [
+      "County of Leeds",
+      "Montreal",
+      "Upper Canada",
+      "Toronto",
+      "Township of Yonge"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-08-05T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Hy, John",
+      "Weeks, Henry, B",
+      "Tuttle, Nathan",
+      "Tuttle, Joseph",
+      "Young, William",
+      "Weeks, Willard",
+      "Carns, Jacob"
+    ]
+  },
+  "515": { "tagDate": ["1849-09-11T00:00:00.000Z"] },
+  "156": {
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Lawrence, Joseph"]
+  },
+  "38": {
+    "tagPlace": [" "],
+    "tagDate": ["1803-06-02T00:00:00.000Z"],
+    "tagPerson": ["Danforth, Ara"]
+  },
+  "494": {
+    "tagPlace": [
+      "District of Bathurst",
+      "Montreal",
+      "Upper Canada",
+      "Township of Pakenham"
+    ],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1849-08-03T23:59:59.999Z]"],
+    "tagPerson": ["Clancey, John", "Jones, Henry, Jno", "Blake, Michael"]
+  },
+  "399": { "tagDate": ["1849-02-02T00:00:00.000Z"] },
+  "147": {
+    "tagPerson": [
+      "Shalker, James",
+      "Reid, Samuel",
+      "Shalker, John",
+      "Parke, Thomas"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-21T23:59:59.999Z]"],
+    "tagPlace": ["Township of Thurlow", "Kingston"]
+  },
+  "74": {
+    "tagDate": ["[1803-05-04T23:59:59.999Z TO 1803-05-07T00:00:00.000Z]"],
+    "tagPerson": [
+      "Fuller, Salmon",
+      "Goslee, Matthew",
+      "Merchant",
+      "Robins, James",
+      "Squire, Ichabod"
+    ],
+    "tagPlace": [
+      "District of Newcastle",
+      "Township of Murray",
+      "Northwest Side of the Carrying Place",
+      "Town of Kingston",
+      "Township of Hope",
+      "Midland District"
+    ]
+  },
+  "423": { "tagDate": ["0000-01-01T00:00:00.000Z"] },
+  "653": { "tagDate": ["1850-03-22T00:00:00.000Z"] },
+  "818": {
+    "tagPerson": ["Jones, H, J", "Howe, Jacob", "Doherty, John"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-27T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "County of York",
+      "Montreal",
+      "Township of Caledon"
+    ]
+  },
+  "267": {
+    "tagPlace": ["Township of Ernest Town", "Kingston"],
+    "tagDate": ["[1842-07-18T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Johnston, Daniel",
+      "Sharp, Lucas",
+      "S, Fairfield"
+    ]
+  },
+  "102": {
+    "tagPerson": ["Foggesty, Richard", "Pringle, James"],
+    "tagDate": ["[1821-02-23T23:59:59.999Z TO 1881-07-15T00:00:00.000Z]"],
+    "tagPlace": ["Cornwall", "Upper Canada", "Kingston"]
+  },
+  "456": {
+    "tagPlace": [
+      "Montreal",
+      "Upper Canada",
+      "Thurlow",
+      "Town of Belleville",
+      "District of Victoria"
+    ],
+    "tagPerson": ["Jones, Henry, Jno", "McCready, John", "McCready, William"],
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1847-01-01T00:00:00.000Z]"]
+  },
+  "626": {
+    "tagPerson": ["Jones, Henry, Jno", "Dunlop, John", "Dunlop, William"],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1850-02-25T23:59:59.999Z]"],
+    "tagPlace": ["Upper Canada", "Toronto", "County of Kent", "Montreal"]
+  },
+  "61": {
+    "tagPlace": ["Township of Piercy", "Newcastle"],
+    "tagPerson": ["Rogers, D, MG", "Curtis, Thomas", "Winters, Christopher"],
+    "tagDate": ["[1803-01-03T23:59:59.999Z TO 1803-04-23T00:00:00.000Z]"]
+  },
+  "811": { "tagDate": ["1850-11-23T00:00:00.000Z"] },
+  "519": { "tagDate": ["1849-09-26T00:00:00.000Z"] },
+  "417": { "tagDate": ["1849-03-10T00:00:00.000Z"] },
+  "282": {
+    "tagPerson": [
+      "Field, Charles",
+      "Parke, Thomas",
+      "Field, Robert",
+      "Field, James",
+      "Cain, Anne"
+    ],
+    "tagDate": ["[1842-10-18T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "Township of Niagara", "Township of Townsend"]
+  },
+  "368": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-09-16T23:59:59.999Z]"],
+    "tagPerson": [
+      "Johnston, William, John",
+      "Johnston, Oliver",
+      "Jones, Henry, John"
+    ],
+    "tagPlace": ["Montreal", "Township of Caledon", "Upper Canada"]
+  },
+  "608": {
+    "tagPlace": [
+      "Warwick",
+      "Upper Canada",
+      "Metcalfe",
+      "Toronto",
+      "Adelaide",
+      "Montreal",
+      "County of Middlesex"
+    ],
+    "tagPerson": ["Jones, Henry, Jno", "Butcher, William", "Butcher, James"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-01-31T23:59:59.999Z]"]
+  },
+  "532": {
+    "tagPlace": ["Montreal", "Chinguacousy", "Toronto", "Township of London"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Lawler, Fenton",
+      "Talbot, Colonel",
+      "Gowan, Samuel"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-11-27T23:59:59.999Z]"]
+  },
+  "601": { "tagDate": ["1850-01-30T00:00:00.000Z"] },
+  "80": {
+    "tagPlace": ["York", "Township of Hope", "District of Newcastle"],
+    "tagDate": ["[1797-07-03T23:59:59.999Z TO 1803-05-16T00:00:00.000Z]"],
+    "tagPerson": ["Ridout, Chewett, V", "Peck, Lewis", "Ridout, Sam"]
+  },
+  "545": { "tagDate": ["1849-12-13T00:00:00.000Z"] },
+  "361": { "tagDate": ["1848-08-29T00:00:00.000Z"] },
+  "576": {
+    "tagPlace": [
+      "Montreal",
+      "Upper Canada",
+      "Toronto",
+      "Township of Erin",
+      "County of Waterloo"
+    ],
+    "tagPerson": [
+      "Smith, George",
+      "Henry, Jno",
+      "Baldwin, Rob",
+      "Jones",
+      "Simmerman, Philip",
+      "Smith, Abraham"
+    ],
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"]
+  },
+  "255": {
+    "tagPlace": ["Township of Mountain", "Township of Cornwall", "Kingston"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-09-17T23:59:59.999Z]"],
+    "tagPerson": ["Brownnell, Stephen", "Parke, Thomas", "Brownnell, Elizabeth"]
+  },
+  "333": { "tagDate": ["1848-01-01T00:00:00.000Z"] },
+  "726": {
+    "tagPlace": ["Township of York"],
+    "tagDate": ["[1832-02-28T00:00:00.000Z TO 1850-06-15T23:59:59.999Z]"],
+    "tagPerson": ["Dennis, Joseph"]
+  },
+  "277": {
+    "tagPlace": ["Kingston", "Township of Mariposa", "Township of Osnabruck"],
+    "tagPerson": ["Parke, Thomas", "Fike, Daniel", "Fike, Francis"],
+    "tagDate": ["[1842-10-17T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"]
+  },
+  "117": {
+    "tagPlace": ["Upper Canada", "Township of Russell", "Cornwall"],
+    "tagPerson": ["McDermid, Angus", "Pringle, James", "McDermid, D"],
+    "tagDate": ["[1825-12-20T23:59:59.999Z TO 1841-07-09T00:00:00.000Z]"]
+  },
+  "71": {
+    "tagPerson": ["Baker, George", "Rogers, D, MG"],
+    "tagDate": ["[1803-04-29T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Newcastle"]
+  },
+  "549": { "tagDate": ["1849-12-14T00:00:00.000Z"] },
+  "259": {
+    "tagPerson": ["Parke, Thomas", "Davidson, Robert"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-08-26T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Township of Innisfil", "Township of Toronto"]
+  },
+  "64": {
+    "tagDate": ["1803-04-23T00:00:00.000Z"],
+    "tagPerson": ["Zadock, Hurd"],
+    "tagPlace": ["Township of Cramahe", "District of Newcastle"]
+  },
+  "220": {
+    "tagPerson": ["Parke, Thomas", "Boismier, Charles"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-02-22T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Township of Sandwich"]
+  },
+  "110": {
+    "tagPlace": ["Toronto", "Township of Ernest Town"],
+    "tagDate": ["[1841-02-06T00:00:00.000Z TO 1841-07-20T23:59:59.999Z]"],
+    "tagPerson": ["Hough, John"]
+  },
+  "389": { "tagDate": ["1848-12-16T00:00:00.000Z"] },
+  "270": {
+    "tagPlace": [
+      "Township of Edwardsburg",
+      "Kingston",
+      "Township of Westmeath"
+    ],
+    "tagDate": ["[1842-10-12T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPerson": ["Rose, Silas", "Parke, Thomas", "Rose, Aaron"]
+  },
+  "484": {
+    "tagPlace": [
+      "Township of Scarborough",
+      "Montreal",
+      "Upper Canada",
+      "District of Simcoe"
+    ],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1849-06-08T23:59:59.999Z]"],
+    "tagPerson": ["Park, Ann", "Jones, Henry, John", "Parkin, Patrick"]
+  },
+  "615": { "tagDate": ["1850-02-06T00:00:00.000Z"] },
+  "666": {
+    "tagPerson": [
+      "Durrand, George",
+      "Jones, Henry, Jno",
+      "Matthews, Edward",
+      "Manning, Joseph, J"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-04-24T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Westminster",
+      "Upper Canada",
+      "Toronto",
+      "County of Middlesex",
+      "Montreal",
+      "Town of London"
+    ]
+  },
+  "306": {
+    "tagPerson": [
+      "Ronalds, Elizabeth, Lucy",
+      "Rowe, Thomas, Berry",
+      "Montgomery, James",
+      "Robertson, Elizabeth, Lucy",
+      "Ronalds, Henry",
+      "Edwards, Thomas, Reverend"
+    ],
+    "tagDate": ["1825-01-01T00:00:00.000Z"],
+    "tagPlace": [
+      "Aldford",
+      "Kingdom of Great Britain",
+      "Chester",
+      "Township of Dover",
+      "Old Brentford",
+      "County Palatine",
+      "County of Middlesex"
+    ]
+  },
+  "438": {
+    "tagPlace": [
+      "Township of Wainfleet",
+      "Stamford",
+      "District of Niagara",
+      "Upper Canada",
+      "Montreal"
+    ],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1849-04-13T23:59:59.999Z]"],
+    "tagPerson": ["Clark, Thomas", "Jones, Henry, Jno"]
+  },
+  "776": {
+    "tagPerson": [
+      "Hector, Thos",
+      "McCort, Patrick",
+      "Baldwin, Thos",
+      "McCort, Hugh"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-14T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Albian",
+      "Upper Canada",
+      "Toronto",
+      "County of York",
+      "Montreal"
+    ]
+  },
+  "431": { "tagDate": ["1849-03-27T00:00:00.000Z"] },
+  "227": {
+    "tagDate": ["[1842-03-21T00:00:00.000Z TO 1842-03-22T23:59:59.999Z]"],
+    "tagPerson": ["Wellwood, Lancelot", "Hall, William", "Parke, Thomas"],
+    "tagPlace": ["Kingston", "Township of Emily"]
+  },
+  "732": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-08-30T23:59:59.999Z]"],
+    "tagPerson": [
+      "Tupper, Richard, LaTouche",
+      "Jones, H, J",
+      "Tupper, Thomas, V"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "Wolfe Street",
+      "Town of Peterborough",
+      "Toronto",
+      "Upper Canada",
+      "George Street",
+      "Cobourg"
+    ]
+  },
+  "745": { "tagDate": ["1850-09-13T00:00:00.000Z"] },
+  "463": { "tagDate": ["1849-05-23T00:00:00.000Z"] },
+  "526": {
+    "tagPlace": [
+      "Western District",
+      "Montreal",
+      "Township of Chatham",
+      "Upper Canada"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-09-24T23:59:59.999Z]"],
+    "tagPerson": [
+      "Landers, Franklin",
+      "Roblin, David",
+      "Jones, Henry, Jno",
+      "Landers, Margaret",
+      "Morden, Richard"
+    ]
+  },
+  "138": {
+    "tagPerson": ["Hendricks, Jacob", "Hendricks, James", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T23:59:59.999Z TO 1841-11-23T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "Township of Murray"]
+  },
+  "385": { "tagDate": ["1848-11-07T00:00:00.000Z"] },
+  "51": {
+    "tagPlace": ["Township of Cramahe", "York"],
+    "tagDate": ["1797-12-14T00:00:00.000Z"],
+    "tagPerson": [
+      "Chisholm, Ale",
+      "Macdonald, Alexander",
+      "Keeler, M",
+      "Greeley, Aaron",
+      "McKeys, Barnabas"
+    ]
+  },
+  "184": {
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Mallory, Jeremiah", "Mallory, Elisha"],
+    "tagPlace": ["Township of Mange", "Kingston"]
+  },
+  "410": {
+    "tagPerson": ["Moore, William", "Moore, Edward", "Jones, Henry, John"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-02-28T23:59:59.999Z]"],
+    "tagPlace": [
+      "District of Simcoe",
+      "Upper Canada",
+      "Township of Vespra",
+      "Montreal"
+    ]
+  },
+  "619": { "tagDate": ["1850-02-07T00:00:00.000Z"] },
+  "163": {
+    "tagPlace": [
+      "Kingston",
+      "Township of Penetanguishene",
+      "Township of York",
+      "Township of Flas"
+    ],
+    "tagPerson": ["Parke, Thomas", "Wallance, Jane, Johnson", "Michell, John"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-18T23:59:59.999Z]"]
+  },
+  "553": { "tagDate": ["1849-12-14T00:00:00.000Z"] },
+  "39": {
+    "tagPlace": ["Township of Haldimand", "District of Newcastle "],
+    "tagDate": ["1803-04-14T00:00:00.000Z"],
+    "tagPerson": ["Blair, John", "Adams, Daniel", "Danforth, Ara"]
+  },
+  "131": {
+    "tagPerson": [
+      "Jones, Elias",
+      "Boswell, Walter",
+      "Parke, Thomas",
+      "Boswell, Edward",
+      "McCallison, Zachare",
+      "Hinery, R"
+    ],
+    "tagDate": ["1825-03-05T00:00:00.000Z"],
+    "tagPlace": ["Scottland", "Hamilton"]
+  },
+  "243": {
+    "tagPerson": [
+      "Rop, Sarah",
+      "Lancaster, William",
+      "Rop, Thomas",
+      "Polly, John"
+    ],
+    "tagDate": ["[1842-07-29T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPlace": [
+      "Kingston",
+      "Township of Caledon",
+      "Township of King",
+      "Township of Toronto"
+    ]
+  },
+  "352": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-08-08T23:59:59.999Z]"],
+    "tagPerson": [
+      "La Liberte, Jean, Baptiste",
+      "Talbot, Colonel",
+      "Jones, Henry, John",
+      "Amelin",
+      "Louis"
+    ],
+    "tagPlace": [
+      "Town of Amherstburgh",
+      "Upper Canada",
+      "Township of Mersea",
+      "Talbot Road",
+      "Montreal"
+    ]
+  },
+  "407": { "tagDate": ["1849-02-20T00:00:00.000Z"] },
+  "741": { "tagDate": ["1850-09-09T00:00:00.000Z"] },
+  "139": {
+    "tagPlace": ["Township of Murray", "Kingston"],
+    "tagPerson": ["Hendricks, James", "Hendricks, Jacob", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T23:59:59.999Z TO 1841-11-23T00:00:00.000Z]"]
+  },
+  "442": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-04-17T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Henry, Jno", "Bowers, James", "Hamilton, David"],
+    "tagPlace": ["Montreal", "District of Bathurst", "Drummond", "Upper Canada"]
+  },
+  "754": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-16T23:59:59.999Z]"],
+    "tagPerson": ["Balfowr, James", "Jones, H, J", "Balfowr, Jemima"],
+    "tagPlace": [
+      "Upper Canada",
+      "County of Simcoe",
+      "Township of Tecumseth",
+      "Montreal",
+      "City of Toronto"
+    ]
+  },
+  "435": { "tagDate": ["1849-03-29T00:00:00.000Z"] },
+  "618": {
+    "tagPerson": ["Bailey, William", "Jones, Henry, John", "Bailey, Adam"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-02-06T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Nissouri",
+      "County of Oxford",
+      "Upper Canada",
+      "Toronto",
+      "Montreal"
+    ]
+  },
+  "290": {
+    "tagPerson": ["McAfee, Augus, Jas", "Parke, Thomas"],
+    "tagDate": ["[1842-09-19T23:59:59.999Z TO 1842-12-13T00:00:00.000Z]"],
+    "tagPlace": ["Township of Hamilton", "Township of Tay", "Kingston"]
+  },
+  "611": { "tagDate": ["1850-02-06T00:00:00.000Z"] },
+  "81": {
+    "tagPerson": ["Peck, Lewis", "Kelvey, Edward, W"],
+    "tagDate": ["[1803-04-27T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Township of Hope "]
+  },
+  "826": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-12-14T23:59:59.999Z]"],
+    "tagPerson": [
+      "Vosburgh, John, L",
+      "Jones, H, J",
+      "Kennedy, Angus",
+      "Kennedy, Allen"
+    ],
+    "tagPlace": [
+      "Upper Canada",
+      "Toronto",
+      "Township of Pakenham",
+      "County of Renfrew",
+      "Montreal",
+      "Portland"
+    ]
+  },
+  "796": {
+    "tagPlace": [
+      "Montreal",
+      "County of Middlesex",
+      "Township of London",
+      "Upper Canada ",
+      "Toronto"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "McCarthy, Dennis",
+      "Jones, H, J",
+      "McCarthy, Daniel",
+      "Talbot, Colonel",
+      "McCarthy, John"
+    ]
+  },
+  "748": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-20T23:59:59.999Z]"],
+    "tagPerson": ["Greig, John", "Jones, H, J"],
+    "tagPlace": [
+      "Township of Adelaida",
+      "County of Middlesex",
+      "Montreal",
+      "Upper Canada",
+      "Toronto",
+      "Township of London"
+    ]
+  },
+  "142": {
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Steen, James"]
+  },
+  "135": {
+    "tagDate": ["[1840-10-19T00:00:00.000Z TO 1841-08-23T23:59:59.999Z]"],
+    "tagPerson": ["S, George, D"],
+    "tagPlace": ["Toronto", "Township of Sidney"]
+  },
+  "388": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-12-16T23:59:59.999Z]"],
+    "tagPerson": [
+      "Talbot, Colonel",
+      "Supple, Mary Anne",
+      "Supple, Robert",
+      "Jones, Henry, Jno",
+      "Supple, Eliza Jane"
+    ],
+    "tagPlace": ["Upper Canada", "Township of Mardstone", "Montreal"]
+  },
+  "262": {
+    "tagPlace": ["Township of Adelaide", "Kingston"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-10-19T23:59:59.999Z]"],
+    "tagPerson": ["Mahan, Darcy", "Parke, Thomas", "Mahan, John"]
+  },
+  "107": {
+    "tagDate": ["[1840-04-24T00:00:00.000Z TO 1841-07-20T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Elias", "Henry, R", "Nelson, David"]
+  },
+  "439": { "tagDate": ["1849-04-14T00:00:00.000Z"] },
+  "630": {
+    "tagPerson": [
+      "Allen, Richard",
+      "McDonell, Donald",
+      "Jones, Henry, Jno",
+      "Allen, Horatio, N"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-02-25T23:59:59.999Z]"],
+    "tagPlace": [
+      "Town of Cornwall",
+      "Montreal",
+      "County of Stormont",
+      "Toronto",
+      "Upper Canada"
+    ]
+  },
+  "334": {
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1848-06-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "Doan, Anastatia",
+      "Doyle, Margaret",
+      "Jones, Henry, John",
+      "Hickey, Ellen",
+      "Doyle, Richard"
+    ],
+    "tagPlace": [
+      "Upper Canada",
+      "Horton",
+      "Kingston",
+      "District of Bathurst",
+      "Montreal"
+    ]
+  },
+  "70": {
+    "tagPlace": [
+      "Newcastle",
+      "Township of Haldimand",
+      "District of Newcastle",
+      "York"
+    ],
+    "tagPerson": [
+      "Moses, Kenny",
+      "Rogers, James, Major",
+      "Rogers, David, MacGregor",
+      "Brown, Allan",
+      "Rogers, D, MG"
+    ],
+    "tagDate": ["[1803-08-16T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "37": {
+    "tagPlace": ["Newcastle"],
+    "tagDate": ["[1803-04-14T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Rogers, D, MG", "Blair, John"]
+  },
+  "381": { "tagDate": ["0000-01-01T00:00:00.000Z"] },
+  "554": {
+    "tagPerson": ["Jones, Henry, Jno", "Hamilton, William"],
+    "tagDate": ["1849-01-01T00:00:00.000Z"],
+    "tagPlace": [
+      "Montreal",
+      "Township of Eldon",
+      "Toronto",
+      "Shire of Sutherland",
+      "Rossall",
+      "Township of Regiment",
+      "District of Colborne",
+      "Parish of Pergans",
+      "Upper Canada",
+      "Scottland"
+    ]
+  },
+  "251": {
+    "tagPlace": ["Township of Dumfries", "Kingston", "Township of Dawn"],
+    "tagPerson": ["Hale, Thomas", "Parke, Thomas", "Phillips, Conrad"],
+    "tagDate": ["[1842-08-25T23:59:59.999Z TO 1842-08-30T00:00:00.000Z]"]
+  },
+  "637": { "tagDate": ["1850-03-04T00:00:00.000Z"] },
+  "164": {
+    "tagPerson": ["Young, Geo"],
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "605": { "tagDate": ["1850-01-30T00:00:00.000Z"] },
+  "244": {
+    "tagDate": ["[1841-11-27T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": [
+      "LaBute, Charles",
+      "LaBute, Julian",
+      "McNiff",
+      "Parke, Thomas"
+    ],
+    "tagPlace": ["Township of Sandwich", "Kingston"]
+  },
+  "541": { "tagDate": ["1849-12-13T00:00:00.000Z"] },
+  "32": {
+    "tagPlace": ["Township of Murray", "District of Newcastle"],
+    "tagPerson": ["Rogers, D, MG", "Forsyth, Joseph", "Bennet, James"],
+    "tagDate": ["[1803-03-18T00:00:00.000Z TO 1803-06-02T23:59:59.999Z]"]
+  },
+  "316": {
+    "tagPerson": [
+      "Robertson, William",
+      "Parke, Thomas",
+      "Ronalds, Elizabeth, Lucy",
+      "Howden, James"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1842-12-13T23:59:59.999Z]"],
+    "tagPlace": ["Thames Street", "London", "Canada"]
+  },
+  "365": { "tagDate": ["1848-09-16T00:00:00.000Z"] },
+  "596": {
+    "tagDate": ["1849-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Court, Jane",
+      "Donaldson, Caroline",
+      "Court, Mary Ann",
+      "Court, James",
+      "Court, Sarah",
+      "Donaldson, John",
+      "Court, John",
+      "Jones, Henry, Jno"
+    ],
+    "tagPlace": [
+      "Township of Adelaide",
+      "Upper Canada",
+      "Toronto",
+      "Montreal",
+      "County of Middlesex"
+    ]
+  },
+  "548": {
+    "tagPlace": [
+      "Montreal",
+      "Township of Adjala",
+      "Etobicoke",
+      "District of Simcoe",
+      "Upper Canada",
+      "Toronto"
+    ],
+    "tagPerson": ["Ward, Bernard", "Ward, William"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-12-05T23:59:59.999Z]"]
+  },
+  "258": {
+    "tagPlace": ["Kingston", "Township of Tyendinaga"],
+    "tagPerson": ["Parke, Thomas", "Jackson, Francis, John"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-09-19T23:59:59.999Z]"]
+  },
+  "183": {
+    "tagPlace": ["Tyrone", "Cornwall", "Ireland", "Eastern District"],
+    "tagPerson": ["Gillespie, Thomas", "Pringle, James"],
+    "tagDate": ["1825-12-14T00:00:00.000Z"]
+  },
+  "297": {
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-09-28T23:59:59.999Z]"],
+    "tagPerson": ["Howell, Richard", "Howell, James", "Parke, Thomas"],
+    "tagPlace": ["Township of Sophiasburgh", "Township of Tiny", "Kingston"]
+  },
+  "832": {
+    "tagPerson": ["Astrander, Loyal", "House, James", "Jones, H, J"],
+    "tagDate": ["[1831-01-01T00:00:00.000Z TO 1850-12-18T23:59:59.999Z]"],
+    "tagPlace": [
+      "County of York",
+      "Montreal",
+      "Township of Chinguacousy",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "50": {
+    "tagDate": ["[1797-09-01T00:00:00.000Z TO 1803-04-21T23:59:59.999Z]"],
+    "tagPerson": ["Greeley, Aaron", "McKeys, Barnabas"],
+    "tagPlace": ["Cramahe"]
+  },
+  "686": {
+    "tagPerson": ["Wilson, Robert", "Jones, Henry, Jno", "Wilson, John"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-07-04T23:59:59.999Z]"],
+    "tagPlace": [
+      "County of Halton",
+      "Toronto",
+      "Upper Canada",
+      "Trafalgar",
+      "Nassagaweya"
+    ]
+  },
+  "369": { "tagDate": ["1848-09-16T00:00:00.000Z"] },
+  "464": {
+    "tagPlace": [
+      "Upper Canada",
+      "Militia",
+      "Township of London",
+      "Murray",
+      "Montreal"
+    ],
+    "tagPerson": [
+      "Lyons, Lawrence",
+      "Lyons, Thomas",
+      "Lyons, Walter",
+      "Jones, Henry, Jno"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-05-26T23:59:59.999Z]"]
+  },
+  "400": {
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1849-02-28T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dunn, Bernard",
+      "Elliott, George",
+      "Jones, Henry, Jno",
+      "Boulton, George, Strange",
+      "Graham, Joseph"
+    ],
+    "tagPlace": [
+      "Town of Peterborough",
+      "Upper Canada",
+      "Township of Monaghan",
+      "Montreal",
+      "District of Colborne",
+      "Brock Street",
+      "Town of Cobing"
+    ]
+  },
+  "609": { "tagDate": ["1850-02-01T00:00:00.000Z"] },
+  "483": { "tagDate": ["1849-06-05T00:00:00.000Z"] },
+  "813": { "tagDate": ["1850-11-27T00:00:00.000Z"] },
+  "587": { "tagDate": ["1850-01-19T00:00:00.000Z"] },
+  "714": {
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1850-08-13T23:59:59.999Z]"],
+    "tagPerson": [
+      "McDonald, Ronald",
+      "Jones, Henry, J",
+      "McInnes, Nancy",
+      "McInnes, Donald"
+    ],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Charlottenburgh",
+      "New York",
+      "Montreal"
+    ]
+  },
+  "428": {
+    "tagPerson": ["Campbell, Donald", "Campbell, John", "Jones, Henry, Jno"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-03-22T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "Township of North Elmsley",
+      "District of Bathurst",
+      "Upper Canada"
+    ]
+  },
+  "658": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-04-06T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Henry, Jno", "Gordon, John", "Gordon, William"],
+    "tagPlace": [
+      "Montreal",
+      "County of Waterloo",
+      "Toronto",
+      "Upper Canada",
+      "Township of Puslinch"
+    ]
+  },
+  "237": {
+    "tagDate": ["[1842-05-17T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": [
+      "Maitland, Wm",
+      "Chisholm, John",
+      "A, Alexr",
+      "Vandusen, Robert",
+      "Parke, Thomas",
+      "McDonald, Donald",
+      "McDonald, Wm",
+      "Bleakley, William"
+    ],
+    "tagPlace": ["Township of Huntingdon", "Kingston"]
+  },
+  "421": { "tagDate": ["0000-01-01T00:00:00.000Z"] },
+  "85": {
+    "tagPlace": ["Township of Hope", "District of Newcastle"],
+    "tagDate": ["1803-05-02T00:00:00.000Z"],
+    "tagPerson": ["Brewer, Asa", "Walton, Nathan"]
+  },
+  "722": {
+    "tagDate": ["1850-06-15T00:00:00.000Z"],
+    "tagPerson": ["Dennis, John", "Dennis, Joseph"],
+    "tagPlace": ["Township of York"]
+  },
+  "205": {
+    "tagPlace": ["Township of Esquesing", "Kingston"],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1841-07-06T23:59:59.999Z]"],
+    "tagPerson": [
+      "Stephens, James, Dowson",
+      "Stephens, William",
+      "Stephens, Thomas"
+    ]
+  },
+  "340": {
+    "tagPerson": [
+      "McMullen, Beecham",
+      "Donovan, John",
+      "McMullen, John",
+      "Jones, Henry, John",
+      "McMullen, Duncan"
+    ],
+    "tagDate": ["[1804-12-31T23:59:59.999Z TO 1848-01-01T00:00:00.000Z]"],
+    "tagPlace": ["Montreal", "Upper Canada", "Lochiel"]
+  },
+  "644": {
+    "tagPlace": [
+      "Montreal",
+      "Township of Tecumseth",
+      "Toronto",
+      "Upper Canada",
+      "County of Simcoe"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-03-06T23:59:59.999Z]"],
+    "tagPerson": ["Stewart, Daniel", "Jones, Henry, Jno", "Stewart, Charles"]
+  },
+  "373": { "tagDate": ["1848-10-09T00:00:00.000Z"] },
+  "128": {
+    "tagPerson": ["Parke, Thomas", "Hayer, Richard"],
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1841-08-02T00:00:00.000Z]"],
+    "tagPlace": ["Kingston"]
+  },
+  "536": {
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Mersia",
+      "Montreal",
+      "Western District",
+      "Town of Sandwich"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-11-30T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "McClatchey, Robert",
+      "Laughton, John, B",
+      "Talbot, Colonel"
+    ]
+  },
+  "780": {
+    "tagPlace": [
+      "Montreal",
+      "County of York",
+      "Upper Canada",
+      "Township of Albion",
+      "Toronto"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-14T23:59:59.999Z]"],
+    "tagPerson": [
+      "Baldwin, Robert",
+      "McCort, Patrick",
+      "Hector, Thos",
+      "McCort, James"
+    ]
+  },
+  "572": {
+    "tagPlace": [
+      "Township of London",
+      "Upper Canada",
+      "Toronto",
+      "Montreal",
+      "County of Middlesex",
+      "Westminster"
+    ],
+    "tagDate": ["1850-01-11T00:00:00.000Z"],
+    "tagPerson": [
+      "Burgess, Amy",
+      "Talbot, Colonel",
+      "Burgess, William",
+      "McKarlie, William",
+      "Jones, Henry, Jno"
+    ]
+  },
+  "697": { "tagDate": ["1850-07-26T00:00:00.000Z"] },
+  "804": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-11-21T23:59:59.999Z]"],
+    "tagPerson": ["Jones, H, J", "Miles, John", "Lesslie, Henry", "L, Colonel"],
+    "tagPlace": ["Montreal", "County of Lambton", "Upper Canada", "Toronto"]
+  },
+  "286": {
+    "tagPlace": ["Matilda", "Township of Cornwall", "Kingston"],
+    "tagDate": ["[1842-11-11T23:59:59.999Z TO 1842-12-13T00:00:00.000Z]"],
+    "tagPerson": [
+      "Fraser, Wm",
+      "Parke, Thomas",
+      "Woolery, Henry",
+      "Fraser, Catherine"
+    ]
+  },
+  "94": {
+    "tagDate": ["[1840-12-31T23:59:59.999Z TO 1841-07-05T00:00:00.000Z]"],
+    "tagPerson": ["Radenhurst, Tho", "Duncan, James", "Lee, H"]
+  },
+  "703": { "tagDate": ["1850-08-02T00:00:00.000Z"] },
+  "121": {
+    "tagPerson": ["Herchmer, Lawrence"],
+    "tagDate": ["1841-07-29T00:00:00.000Z"]
+  },
+  "211": {
+    "tagPerson": ["Will, Mary", "Will, John", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T23:59:59.999Z TO 1842-01-01T00:00:00.000Z]"],
+    "tagPlace": ["Township of London", "Kingston"]
+  },
+  "514": {
+    "tagPlace": [
+      "Township Ramsay",
+      "Montreal",
+      "District of Bathurst",
+      "Upper Canada"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-09-10T23:59:59.999Z]"],
+    "tagPerson": ["Pollock, William", "Jones, Henry, Jno"]
+  },
+  "171": {
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Colls, George",
+      "Parke, Thomas",
+      "Macklem, James",
+      "Colls, Edward"
+    ],
+    "tagPlace": ["Township of Nottawasaga", "Chippewa Mercland", "Kingston"]
+  },
+  "18": {
+    "tagPlace": [
+      "Township of Hamilton",
+      "District of Newcastle",
+      "Township of Haldimand"
+    ],
+    "tagPerson": [
+      "Winters, James",
+      "Ebenezer, Allen",
+      "Hull, Luther",
+      "Wallace, Cornelius"
+    ],
+    "tagDate": ["1803-03-25T00:00:00.000Z"]
+  },
+  "356": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-08-24T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Clark, Peter",
+      "Clark, James",
+      "Clark, John"
+    ],
+    "tagPlace": [
+      "Puslinch",
+      "Upper Canada",
+      "Beverley",
+      "District of Wellington",
+      "Montreal"
+    ]
+  },
+  "787": { "tagDate": ["1850-10-26T00:00:00.000Z"] },
+  "522": {
+    "tagPerson": ["Jones, Henry, Jno", "Smith, Robina"],
+    "tagDate": ["[1848-09-24T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"],
+    "tagPlace": [
+      "Township Gloucester",
+      "Upper Canada",
+      "District of Dalhousie",
+      "Montreal",
+      "Baytown Sprinter"
+    ]
+  },
+  "195": {
+    "tagDate": ["1841-12-11T00:00:00.000Z"],
+    "tagPerson": ["Moore, James"],
+    "tagPlace": ["Newcastle District"]
+  },
+  "323": { "tagDate": ["1825-01-01T00:00:00.000Z"] },
+  "178": {
+    "tagPlace": ["Township of South Gower", "Kingston"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hall, Robert",
+      "Eager, James",
+      "Hall, William",
+      "Parke, Thomas"
+    ]
+  },
+  "499": { "tagDate": ["1849-08-31T00:00:00.000Z"] },
+  "218": {
+    "tagPlace": ["Township of Sandwich", "Kingston"],
+    "tagPerson": [
+      "Belleperche, Jacques",
+      "Belleperche, Pierre",
+      "Parke, Thomas"
+    ],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-02-22T23:59:59.999Z]"]
+  },
+  "690": {
+    "tagPlace": ["Upper Canada", "Montreal", "Chinguacousy"],
+    "tagPerson": ["Jones, Henry, Jno", "Hamilton, James", "McConnell, William"],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1850-07-18T23:59:59.999Z]"]
+  },
+  "394": {
+    "tagPlace": [
+      "District of Bathurst",
+      "Montreal",
+      "Upper Canada",
+      "Village of Lanark"
+    ],
+    "tagPerson": ["Wright, James", "Jones, Henry, Jno"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-01-22T23:59:59.999Z]"]
+  },
+  "471": { "tagDate": ["1849-05-31T00:00:00.000Z"] },
+  "580": {
+    "tagPlace": [
+      "Montreal",
+      "County of Simcoe",
+      "Toronto",
+      "Upper Canada",
+      "Adjala"
+    ],
+    "tagPerson": ["Mack, Hugh", "Mack, William"],
+    "tagDate": ["[1824-01-31T23:59:59.999Z TO 1847-01-01T00:00:00.000Z]"]
+  },
+  "736": {
+    "tagPerson": ["Wall, James", "Jones, H, J", "Wall, Arthur, Francis"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-09-04T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "Smith's Falls",
+      "County of Lanark",
+      "Town of Perth",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "199": {
+    "tagDate": ["[1841-12-15T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Harlow, Hezeriah"]
+  },
+  "478": {
+    "tagDate": ["[1796-07-09T00:00:00.000Z TO 1849-06-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Smith, John",
+      "Nellis, Catharine",
+      "Jones, Henry, Jno",
+      "Maxson, Abram",
+      "Maxson, Catharine"
+    ],
+    "tagPlace": [
+      "District of New Castle",
+      "Montreal",
+      "Township of Darlington",
+      "Upper Canada"
+    ]
+  },
+  "503": { "tagDate": ["1849-08-31T00:00:00.000Z"] },
+  "347": { "tagDate": ["1848-08-03T00:00:00.000Z"] },
+  "662": {
+    "tagPlace": [
+      "New York",
+      "City of Kingston",
+      "Upper Canada",
+      "Spinster",
+      "County of Carleton",
+      "City of Toronto",
+      "Township of Marlborough"
+    ],
+    "tagPerson": [
+      "Grant, Henry, Clarke",
+      "Jones, Hy, John",
+      "Grant, John",
+      "McDonell, Hugh, Captain",
+      "Grant, Harriet"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-04-12T23:59:59.999Z]"]
+  },
+  "495": { "tagDate": ["1849-08-25T00:00:00.000Z"] },
+  "230": {
+    "tagPlace": ["Township of Maidstone", "Kingston"],
+    "tagDate": ["[1842-07-14T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": ["Johnson, George", "Parke, Thomas", "Johnson, John"]
+  },
+  "302": {
+    "tagPerson": [
+      "Farley, Hannah",
+      "Farley, Jas",
+      "Parke, Thomas",
+      "Hine, Daniel",
+      "Facey, Elizabeth"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1842-12-20T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Oxford", "Township of London"]
+  },
+  "457": { "tagDate": ["1849-05-08T00:00:00.000Z"] },
+  "627": { "tagDate": ["1850-02-26T00:00:00.000Z"] },
+  "803": { "tagDate": ["1850-11-21T00:00:00.000Z"] },
+  "704": {
+    "tagPlace": [
+      "Montreal",
+      "County of Northumberland",
+      "Toronto",
+      "Upper Canada",
+      "Township of Murray"
+    ],
+    "tagPerson": ["Blaney, John", "Jones, H, J", "Taylor, Samuel"],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1850-08-31T23:59:59.999Z]"]
+  },
+  "33": {
+    "tagPlace": ["Newcastle", "Township of Piercy"],
+    "tagDate": ["[1803-01-01T00:00:00.000Z TO 1803-04-14T23:59:59.999Z]"],
+    "tagPerson": [
+      "Merriam, James, Johnson",
+      "Forsyth, Joseph",
+      "Rogers, D, MG",
+      "Solomon"
+    ]
+  },
+  "191": {
+    "tagPlace": ["Kingston", "Township of Mono", "Township of Niagara"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Monagham, James", "Monagham, William", "Parke, Thomas"]
+  },
+  "760": {
+    "tagPlace": [
+      "Township of Ernest Town",
+      "Upper Canada",
+      "Montreal",
+      "Township of Alnwick",
+      "County of Addington",
+      "County of Northumberland"
+    ],
+    "tagPerson": [
+      "Dunyes, Martin, Senior",
+      "Hector, Thos",
+      "Baldwin, R",
+      "Dunyes, John"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-28T23:59:59.999Z]"]
+  },
+  "198": {
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Walbridge, Elijah", "Walbridge, A"],
+    "tagPlace": ["Township of Murray", "Kingston", "Township of Belmar"]
+  },
+  "374": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-10-16T23:59:59.999Z]"],
+    "tagPerson": [
+      "Cubitt, Frederick",
+      "Jones, Henry, John",
+      "Cubitt, Richard, John Churchill",
+      "Cubitt, Woolmer, Richard",
+      "Cubitt, Fleetwood"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "District of Newcastle",
+      "Township of Darlington",
+      "Upper Canada"
+    ]
+  },
+  "670": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-05-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Huff, Elizabeth",
+      "Jones, Henry, Jno",
+      "Vandewater, William",
+      "Huff, Paul",
+      "Vandewater, Mary"
+    ],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Fredericksburgh",
+      "Montreal",
+      "Township of Brooke",
+      "County of Lambton"
+    ]
+  },
+  "479": { "tagDate": ["1849-06-04T00:00:00.000Z"] },
+  "146": {
+    "tagPerson": ["Reid, Samuel"],
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "266": {
+    "tagDate": ["[1842-10-12T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"],
+    "tagPerson": ["Edwards, Asahel", "Parke, Thomas", "Edwards, Mary"],
+    "tagPlace": ["Kingston", "Township of Vespra", "Township of King"]
+  },
+  "215": {
+    "tagPerson": ["Bush, Hewey", "Parke, Thomas", "Bush, Rachel"],
+    "tagDate": ["[1842-02-24T23:59:59.999Z TO 1842-02-28T00:00:00.000Z]"],
+    "tagPlace": ["Township of Osnabruck", "Kingston"]
+  },
+  "175": {
+    "tagPlace": ["Township of Trafalgar", "Kingston"],
+    "tagPerson": ["King, James", "Parke, Thomas", "King, George"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-27T23:59:59.999Z]"]
+  },
+  "491": { "tagDate": ["1849-08-01T00:00:00.000Z"] },
+  "822": {
+    "tagPerson": ["Foster, James, Louis", "Jones, H, J"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-12-02T23:59:59.999Z]"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Township of Walsingham",
+      "Montreal",
+      "County of Norfolk"
+    ]
+  },
+  "792": {
+    "tagPlace": [
+      "Montreal",
+      "Township of Otonabee",
+      "County of Peterborough",
+      "Upper Canada",
+      "Toronto"
+    ],
+    "tagPerson": [
+      "Stephenson, Godfrey",
+      "Mallory, Caleb",
+      "Blezard, John",
+      "Jones, H, J"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-09T23:59:59.999Z]"]
+  },
+  "157": {
+    "tagPlace": ["Township of Blandford", "Township of Burford", "Kingston"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-21T23:59:59.999Z]"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Fowler, Nathan, Jones",
+      "Lawrence, Joseph",
+      "Lawrence, Levi"
+    ]
+  },
+  "643": { "tagDate": ["1850-03-07T00:00:00.000Z"] },
+  "75": {
+    "tagPlace": ["District of Newcastle", "York", "Township of Percy"],
+    "tagDate": ["[1799-07-31T23:59:59.999Z TO 1803-05-16T00:00:00.000Z]"],
+    "tagPerson": ["Silver, Abner", "Ridout, Sam", "Ridout, Chewett, V"]
+  },
+  "475": { "tagDate": ["1849-05-31T00:00:00.000Z"] },
+  "814": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-11-27T23:59:59.999Z]"],
+    "tagPerson": ["McDonald, Angus", "Jones, H, J", "McDonald, Ronald"],
+    "tagPlace": [
+      "County of Glengarry",
+      "Toronto",
+      "Township of Lancaster",
+      "Upper Canada"
+    ]
+  },
+  "446": {
+    "tagPlace": [
+      "Montreal",
+      "District of Simcoe",
+      "West Gwillimbury",
+      "Township of West Gwillimbury",
+      "Upper Canada"
+    ],
+    "tagPerson": ["Jones, Henry, John", "Thorpe, John", "Thorpe, Jacob"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1849-04-19T23:59:59.999Z]"]
+  },
+  "179": {
+    "tagPlace": ["Kingston", "Township of Augusta", "Township of Seeds"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Rowe, Lydia", "Rowe, Michael", "Parke, Thomas"]
+  },
+  "219": {
+    "tagPlace": ["Township of Sandwich", "Kingston"],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1842-02-22T23:59:59.999Z]"],
+    "tagPerson": [
+      "H, Pierre",
+      "Reaume, Jacques",
+      "Parke, Thomas",
+      "Janipe, Nicholas",
+      "Barron, Pierre",
+      "Langlois, Joseph"
+    ]
+  },
+  "713": { "tagDate": ["1850-08-14T00:00:00.000Z"] },
+  "498": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-08-30T23:59:59.999Z]"],
+    "tagPerson": ["Morrison, William", "Morrison, Thomas", "Jones, Henry, Jno"],
+    "tagPlace": [
+      "Township of Eldon",
+      "Upper Canada",
+      "Montreal",
+      "Township of Nelson",
+      "District of Colborne"
+    ]
+  },
+  "504": {
+    "tagPerson": ["Colbert, William", "Jones, Henry, Jno", "Colbert, John"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-08-30T23:59:59.999Z]"],
+    "tagPlace": ["Montreal", "Township of Goulbourn", "Upper Canada"]
+  },
+  "201": {
+    "tagDate": ["[1828-01-01T00:00:00.000Z TO 1841-12-20T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Jones, Richard"],
+    "tagPlace": [
+      "Township of Bathurst",
+      "Township of Yonge",
+      "Kingston",
+      "Township of Perth"
+    ]
+  },
+  "150": {
+    "tagPerson": ["Auguish, Lewis"],
+    "tagDate": ["[1841-11-23T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "129": {
+    "tagPerson": [
+      "Parke, Thomas",
+      "Dunham, Lewis",
+      "Campbell, Daniel, B",
+      "Hartnell, Joseph, K",
+      "Campbell, Duncan",
+      "Campbell, Archibald",
+      "Hartnell, Arm",
+      "Dunham, Abigail"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1841-08-13T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "Toronto"]
+  },
+  "560": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-12-21T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Henry, Jno", "Tobin, Patrick", "Tobin, Catharine"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "Town of Chatham",
+      "District of Newcastle",
+      "Township of Smith",
+      "Montreal"
+    ]
+  },
+  "425": { "tagDate": ["1849-03-22T00:00:00.000Z"] },
+  "655": { "tagDate": ["1850-04-03T00:00:00.000Z"] },
+  "682": {
+    "tagPlace": [
+      "Township of Camden",
+      "Township of Chatham",
+      "Upper Canada",
+      "Township of Enniskillen",
+      "Montreal",
+      "County of Kent",
+      "County of Lambton"
+    ],
+    "tagDate": ["[1839-01-01T00:00:00.000Z TO 1850-07-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Messmore, John",
+      "Messmore, Jane",
+      "Abbott, Joseph",
+      "Jones, Hy, John"
+    ]
+  },
+  "592": {
+    "tagPlace": [
+      "Montreal",
+      "County opf Middlesex",
+      "Upper Canada",
+      "Adelaide",
+      "Metcalfe",
+      "Toronto"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-01-25T23:59:59.999Z]"],
+    "tagPerson": ["Johnston, Robert", "Jones, Henry, Jno", "Sullivan, Paul"]
+  },
+  "16": {
+    "tagPerson": [
+      "Richardson, Benjamin",
+      "Robins, James",
+      "Stone, Giles",
+      "Rogers, David, MacGregor",
+      "Winters, Christopher",
+      "Kenney, Moses",
+      "Goslee, Matthew",
+      "Baker, George",
+      "Lake, Richard",
+      "Wallon, Nathan",
+      "Rogers, David, M",
+      "McKelvey, Edward",
+      "Allen, Ebenezer",
+      "Lawson, Abraham",
+      "Hurd, Zadock"
+    ],
+    "tagDate": ["1803-01-01T00:00:00.000Z"]
+  },
+  "767": { "tagDate": ["1850-10-09T00:00:00.000Z"] },
+  "125": {
+    "tagPlace": ["Toronto", "Kingston", "Township of Cavan"],
+    "tagPerson": ["Parke, Thomas", "Hyland, John"],
+    "tagDate": ["[1841-07-27T00:00:00.000Z TO 1841-07-30T23:59:59.999Z]"]
+  },
+  "393": { "tagDate": ["1849-01-15T00:00:00.000Z"] },
+  "620": {
+    "tagPlace": [
+      "Smith",
+      "Montreal",
+      "Upper Canada",
+      "Toronto",
+      "County of Petersborough"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-02-16T23:59:59.999Z]"],
+    "tagPerson": ["Wilson, Walton", "Wilson, William", "Jones, Henry, Jno"]
+  },
+  "450": {
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-04-20T23:59:59.999Z]"],
+    "tagPerson": ["Day, Joseph", "Day, Robert", "Jones, Henry, Jno"],
+    "tagPlace": ["Upper Canada", "Township of Albion", "Montreal", "Bastard"]
+  },
+  "429": { "tagDate": ["0000-01-01T00:00:00.000Z"] },
+  "659": { "tagDate": ["1850-04-08T00:00:00.000Z"] },
+  "24": {
+    "tagPerson": ["Rogers, D, MG", "Donling, John"],
+    "tagDate": ["[1803-04-04T00:00:00.000Z TO 1803-06-02T23:59:59.999Z]"],
+    "tagPlace": ["Newcastle"]
+  },
+  "513": { "tagDate": ["1849-09-05T00:00:00.000Z"] },
+  "677": { "tagDate": ["1850-05-18T00:00:00.000Z"] },
+  "312": {
+    "tagDate": ["1825-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Robertson, Elizabeth, Lucy",
+      "Montgomery, James",
+      "Ronalds, Elizabeth, Lucy",
+      "Rowe, Thomas, Berry",
+      "Ronalds, Henry",
+      "Edwards, Thomas, Reverend"
+    ],
+    "tagPlace": [
+      "County Palatine",
+      "County of Middlesex",
+      "Township of Dover",
+      "Old Brentford",
+      "Kingdom of Great Britain",
+      "Aldford",
+      "Chester"
+    ]
+  },
+  "570": {
+    "tagPlace": [
+      "Montreal",
+      "Township of York",
+      "County of Oxford",
+      "Upper Canada",
+      "Toronto"
+    ],
+    "tagPerson": ["Ward, William", "Marsh, Robert"],
+    "tagDate": ["[1796-07-09T23:59:59.999Z TO 1835-01-01T00:00:00.000Z]"]
+  },
+  "481": { "tagDate": ["1849-06-04T00:00:00.000Z"] },
+  "47": {
+    "tagPlace": ["York", "Township of Cramahe"],
+    "tagPerson": ["Macdonald, Alexander", "McKeys, Barnabas"],
+    "tagDate": ["1797-11-20T00:00:00.000Z"]
+  },
+  "782": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-14T23:59:59.999Z]"],
+    "tagPerson": [
+      "Phillips, Elisha",
+      "Phillips, Catherine, Anne",
+      "Hector, Thos",
+      "Phillips, James, S",
+      "Phillips, William",
+      "Baldwin, Robert",
+      "Phillips, Matilda"
+    ],
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Reach",
+      "Toronto",
+      "Montreal",
+      "County of York"
+    ]
+  },
+  "434": {
+    "tagPerson": [
+      "Jones, Henry, J",
+      "Miller, Francis",
+      "Edwards, Robertson",
+      "Robertson, Elizabeth, Lucy",
+      "Dolsen, Matthew",
+      "Robertson, William",
+      "Rowe, Thomas, Berry",
+      "Field, Charles",
+      "Ronalds, Henry",
+      "Ronalds, John"
+    ],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1849-03-28T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "Montreal",
+      "New Brentford England",
+      "County of Middlesex England",
+      "Old Brentford",
+      "Aldford",
+      "County Palatine of Chester",
+      "Nottingham",
+      "Coventry England",
+      "Township of Raleigh"
+    ]
+  },
+  "527": { "tagDate": ["1849-09-26T00:00:00.000Z"] },
+  "339": { "tagDate": ["1848-07-11T00:00:00.000Z"] },
+  "488": {
+    "tagPerson": [
+      "Sutherland, John",
+      "Jones, Henry, Jno",
+      "Sutherland, Donald"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-06-25T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Eldon",
+      "Upper Canada",
+      "Montreal",
+      "District of Colborne"
+    ]
+  },
+  "226": {
+    "tagPlace": ["Township of Sandwich", "Kingston"],
+    "tagPerson": [
+      "Deqiumare, Francois",
+      "Belleperche, Pierre",
+      "Parke, Thomas"
+    ],
+    "tagDate": ["[1842-03-19T23:59:59.999Z TO 1842-03-21T00:00:00.000Z]"]
+  },
+  "17": {
+    "tagPerson": ["Winters, James", "Rogers, D, MG"],
+    "tagDate": ["[1803-01-10T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Newcastle"]
+  },
+  "777": { "tagDate": ["1850-10-16T00:00:00.000Z"] },
+  "21": {
+    "tagPlace": ["Township of Hamilton", "District of Newcastle"],
+    "tagPerson": ["Hagerman, Nicholas", "Maybe, Peter"],
+    "tagDate": ["1803-03-12T00:00:00.000Z"]
+  },
+  "181": {
+    "tagDate": ["1825-12-14T00:00:00.000Z"],
+    "tagPerson": ["Gillespie, Thomas"],
+    "tagPlace": ["Eastern District", "Ireland", "Cornwall", "Tyrone"]
+  },
+  "188": {
+    "tagPlace": ["Kingston", "Township of Charlottenburgh"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Grant, Alexander", "Grant, Finlay"]
+  },
+  "253": {
+    "tagPlace": ["Town of Niagara", "City of Cork Ireland"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-09-22T23:59:59.999Z]"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Fitzgerald, James",
+      "McAuliffe, Mary",
+      "Fitzgerald, Patrick",
+      "McAuliffe, John",
+      "Fitzgerald, Catharine"
+    ]
+  },
+  "342": {
+    "tagPerson": ["McDonell, William", "Graham, George", "Jones, Henry, John"],
+    "tagDate": ["[1835-01-01T00:00:00.000Z TO 1848-07-25T23:59:59.999Z]"],
+    "tagPlace": ["Upper Canada", "Montreal", "Township of Toronto"]
+  },
+  "720": {
+    "tagDate": ["[1850-06-15T00:00:00.000Z TO 1850-07-06T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Dennis, Joseph, Browne",
+      "Dennis, Henry",
+      "Dennis, John, Stoughton",
+      "Dennis, Joseph",
+      "B, Mary Anna"
+    ],
+    "tagPlace": ["Montreal", "Yonge Street", "Township of York", "Toronto"]
+  },
+  "667": { "tagDate": ["1850-04-25T00:00:00.000Z"] },
+  "134": {
+    "tagDate": ["[1840-10-19T00:00:00.000Z TO 1841-08-23T23:59:59.999Z]"],
+    "tagPerson": ["S, George, D"],
+    "tagPlace": ["Toronto", "Township of Sidney"]
+  },
+  "543": { "tagDate": ["1849-12-13T00:00:00.000Z"] },
+  "307": {
+    "tagPlace": ["Canada", "Kingston", "London", "Thames Street"],
+    "tagPerson": [
+      "Parke, Thomas",
+      "Robertson, William",
+      "Delisle, Joseph",
+      "Ronalds, Elizabeth, Lucy"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1842-12-13T23:59:59.999Z]"]
+  },
+  "582": {
+    "tagPlace": [
+      "Fort in the Parish of in Ballygreen",
+      "County of Limerick",
+      "Township of Emily",
+      "Toronto",
+      "Upper Canada",
+      "Montreal",
+      "County of Peterborough"
+    ],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-01-17T23:59:59.999Z]"],
+    "tagPerson": ["Madigan, Michael", "Jones, Henry, Jno", "Robinson, Peter"]
+  },
+  "383": { "tagDate": ["1848-10-28T00:00:00.000Z"] },
+  "770": {
+    "tagPlace": [
+      "County of Peterborough",
+      "Montreal",
+      "Township of Emily",
+      "Toronto",
+      "Upper Canada"
+    ],
+    "tagPerson": [
+      "Thornton, John, Senior",
+      "Hector, Thos",
+      "Thornton, William",
+      "Baldwin, Robt"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-16T23:59:59.999Z]"]
+  },
+  "232": {
+    "tagPlace": ["Township of York", "Township of Mulmur", "Kingston"],
+    "tagPerson": ["Boner, William", "Parke, Thomas"],
+    "tagDate": ["[1842-07-20T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"]
+  },
+  "604": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1850-01-25T23:59:59.999Z]"],
+    "tagPerson": [
+      "Maginn, Esther",
+      "Maginn, Lesslie",
+      "Jones, Henry, Jno",
+      "Leary, William"
+    ],
+    "tagPlace": ["Upper Canada", "Toronto", "Township of Adelaide", "Montreal"]
+  },
+  "300": {
+    "tagPlace": ["Kingston", "Township of Esquesing"],
+    "tagDate": ["[1832-12-19T23:59:59.999Z TO 1841-01-01T00:00:00.000Z]"],
+    "tagPerson": ["Stephens, Jas, Dawson", "Stephens, Thomas", "Parke, Thomas"]
+  },
+  "245": {
+    "tagDate": ["[1842-05-16T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": ["Sammon, Wm", "Jessup, Edward", "Parke, Thomas"],
+    "tagPlace": ["Township of Edwardsburg", "Kingston"]
+  },
+  "660": {
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-04-06T23:59:59.999Z]"],
+    "tagPerson": ["Jones, Henry, Jno", "Archer, Thomas", "Archer, John"],
+    "tagPlace": [
+      "Town of Westminster",
+      "Toronto",
+      "Upper Canada",
+      "Montreal",
+      "County of Middlesex"
+    ]
+  },
+  "364": {
+    "tagPlace": ["Upper Canada", "Montreal", "Township of Pickering"],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-09-16T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Stephenson, Thomas",
+      "Matthews, John",
+      "Matthews, Mary"
+    ]
+  },
+  "469": { "tagDate": ["1849-05-29T00:00:00.000Z"] },
+  "276": {
+    "tagPlace": ["Township of Kingston", "Township of Dummer"],
+    "tagPerson": ["Demien, Jermain", "Parke, Thomas"],
+    "tagDate": ["[1842-10-14T23:59:59.999Z TO 1842-10-19T00:00:00.000Z]"]
+  },
+  "555": { "tagDate": ["1849-12-14T00:00:00.000Z"] },
+  "727": {
+    "tagDate": ["1850-06-15T00:00:00.000Z"],
+    "tagPerson": ["Dennis, Joseph"],
+    "tagPlace": ["Township of York"]
+  },
+  "165": {
+    "tagPlace": ["Kingston", "Township of Thurlow"],
+    "tagPerson": ["Bidwell, David", "Young, George", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-18T23:59:59.999Z]"]
+  },
+  "116": {
+    "tagPlace": ["Cornwall", "Township of Russell", "Upper Canada"],
+    "tagDate": ["[1825-12-20T23:59:59.999Z TO 1841-07-09T00:00:00.000Z]"],
+    "tagPerson": ["McDermid, Angus", "Pringle, James", "McDermid, D"]
+  },
+  "613": { "tagDate": ["1850-02-06T00:00:00.000Z"] },
+  "577": { "tagDate": ["1850-01-16T00:00:00.000Z"] },
+  "465": { "tagDate": ["1849-06-28T00:00:00.000Z"] },
+  "692": {
+    "tagPerson": ["Klock, James", "Klock, Robert", "Donaghue, James"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1850-07-16T23:59:59.999Z]"],
+    "tagPlace": [
+      "County of Carleton",
+      "Township of McNab",
+      "Upper Canada",
+      "Toronto",
+      "Township of Hull"
+    ]
+  },
+  "416": {
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Woolmer, William",
+      "McKee, John",
+      "Woolmer, Isaac"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-03-09T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "Township of Garrafraxa",
+      "District of Wellington",
+      "Upper Canada"
+    ]
+  },
+  "65": {
+    "tagDate": ["[1803-04-23T00:00:00.000Z TO 1803-06-02T23:59:59.999Z]"],
+    "tagPerson": ["O'Brien, N", "Zadock, Hurd", "Rogers, D, MG"],
+    "tagPlace": ["Newcastle"]
+  },
+  "42": {
+    "tagPerson": ["Carnan, W", "Everton, Thomas"],
+    "tagDate": ["1803-03-21T00:00:00.000Z"],
+    "tagPlace": ["Township of Cramahe", "District of Newcastle"]
+  },
+  "743": { "tagDate": ["1850-09-09T00:00:00.000Z"] },
+  "249": {
+    "tagPlace": ["Township of Mosa", "Kingston"],
+    "tagDate": ["[1842-08-11T23:59:59.999Z TO 1842-08-22T00:00:00.000Z]"],
+    "tagPerson": ["Parke, Thomas", "Ward, John", "Ward, James"]
+  },
+  "169": {
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Rose, Samuel", "Parke, Thomas", "Rose, William"],
+    "tagPlace": ["Township of Williamsburgh", "Township of Warwick", "Kingston"]
+  },
+  "559": { "tagDate": ["1849-12-31T00:00:00.000Z"] },
+  "520": {
+    "tagPlace": [
+      "Upper Canada",
+      "Township of London",
+      "Colclough Gowan",
+      "Montreal"
+    ],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1849-09-24T23:59:59.999Z]"],
+    "tagPerson": ["Talbot, Colonel", "Cowan, Thomas", "Jones, Henry, Jno"]
+  },
+  "254": {
+    "tagPlace": ["Kingston", "Township of Otonabee"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1842-09-24T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Kent, George"]
+  },
+  "551": { "tagDate": ["1849-12-14T00:00:00.000Z"] },
+  "790": {
+    "tagPlace": [
+      "County of Leeds",
+      "Montreal",
+      "Toronto",
+      "Upper Canada ",
+      "Township of Yonge"
+    ],
+    "tagPerson": ["Jones, H, J", "Teed, Henry, Bevel", "Teed, Andrew"],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-11-07T23:59:59.999Z]"]
+  },
+  "161": {
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-18T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Claridge, Thomas", "Claridge, William"],
+    "tagPlace": [
+      "Township of St Catherine",
+      "Kingston",
+      "Township of Summerdale"
+    ]
+  },
+  "133": {
+    "tagPlace": [
+      "Kingston",
+      "Township of Mussmer",
+      "Township of Charlottenburgh"
+    ],
+    "tagPerson": ["McDonald, Donald", "Parke, Thomas"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-08-31T23:59:59.999Z]"]
+  },
+  "241": {
+    "tagDate": ["[1842-07-29T23:59:59.999Z TO 1842-07-30T00:00:00.000Z]"],
+    "tagPerson": ["Adams, Walter", "Galden, Thomas", "Adams, Freelove"],
+    "tagPlace": ["Township of Yonge", "Kingston"]
+  },
+  "544": {
+    "tagPlace": [
+      "Township of Essa",
+      "District of Simcoe",
+      "Upper Canada",
+      "Toronto",
+      "Montreal"
+    ],
+    "tagPerson": ["Blackstock, John", "Jones, Henry, Jno"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-12-05T23:59:59.999Z]"]
+  },
+  "820": {
+    "tagPerson": [
+      "Baldwin, Thomas",
+      "Buchanan, John, Stewart",
+      "Jones, H, J",
+      "Bastable, Arthur"
+    ],
+    "tagDate": ["[1840-01-01T00:00:00.000Z TO 1850-11-27T23:59:59.999Z]"],
+    "tagPlace": [
+      "County of Middlesex",
+      "Montreal",
+      "Kingston",
+      "Township of Adelaide",
+      "Upper Canada"
+    ]
+  },
+  "296": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["[1741-02-28T00:00:00.000Z TO 1842-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Chambers, Robert", "Isaac, Chambers", "Parke, Thomas"]
+  },
+  "687": { "tagDate": ["1850-07-05T00:00:00.000Z"] },
+  "248": {
+    "tagPlace": ["Kingston", "Township of Otonabee"],
+    "tagDate": ["[1842-08-12T23:59:59.999Z TO 1842-08-22T00:00:00.000Z]"],
+    "tagPerson": ["Reed, Richard", "Parke, Thomas", "Reed, Edward"]
+  },
+  "168": {
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-10-18T23:59:59.999Z]"],
+    "tagPerson": ["Parke, Thomas", "Green, Philip, H", "Green, Catharine"],
+    "tagPlace": ["Township of Garmouth", "Kingston", "Township of Dawn"]
+  },
+  "558": {
+    "tagPlace": ["Township of London", "Toronto", "Upper Canada", "Montreal"],
+    "tagDate": ["[1849-01-01T00:00:00.000Z TO 1849-12-26T23:59:59.999Z]"],
+    "tagPerson": [
+      "Talbot, Colonel",
+      "Donaldson, Duncan",
+      "Jones, Henry, Jno",
+      "Donaldson, Peter"
+    ]
+  },
+  "597": { "tagDate": ["1850-01-30T00:00:00.000Z"] },
+  "762": {
+    "tagPlace": [
+      "Montreal",
+      "Upper Canada",
+      "Township of Marysburgh",
+      "Toronto",
+      "County of Prince Edward",
+      "Township of Tiny",
+      "County of Simcoe"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-10-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Baldwin, Robt",
+      "Hector, Thos",
+      "Kerr, James",
+      "Kerr, Andrew"
+    ]
+  },
+  "433": { "tagDate": ["1849-03-29T00:00:00.000Z"] },
+  "20": {
+    "tagDate": ["1803-03-12T00:00:00.000Z"],
+    "tagPerson": ["Plangert, Conrad", "Hagerman, Nicholas", "Bangert, Conrad"],
+    "tagPlace": ["District of Newcastle", "Township of Hamilton"]
+  },
+  "461": { "tagDate": ["1849-05-23T00:00:00.000Z"] },
+  "636": {
+    "tagPerson": ["McLeod, Alexander", "Jones, Henry, Jno", "McLeod, William"],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1850-03-02T23:59:59.999Z]"],
+    "tagPlace": [
+      "Montreal",
+      "County of Prescott",
+      "Toronto",
+      "Upper Canada",
+      "Township of Caledonia",
+      "Kenyon"
+    ]
+  },
+  "468": {
+    "tagPlace": [
+      "Montreal",
+      "District of Talbot",
+      "Township of Rainham",
+      "Upper Canada"
+    ],
+    "tagDate": ["[1841-01-01T00:00:00.000Z TO 1849-05-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "Anguish, Henry",
+      "Putnam, Henry",
+      "Jones, Henry, John",
+      "Anguish, Lewis",
+      "Elizabeth",
+      "Anguish, Jacob",
+      "Hoyerbrecht, Peter",
+      "Hannah",
+      "L, Peter"
+    ]
+  },
+  "672": {
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Lawrence, John",
+      "Lawrence, Peter, Rezean"
+    ],
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1850-05-03T23:59:59.999Z]"],
+    "tagPlace": [
+      "Toronto",
+      "Upper Canada",
+      "County of Simcoe",
+      "Township of York",
+      "Township of Innisfil",
+      "Montreal"
+    ]
+  },
+  "317": { "tagDate": ["1825-01-01T00:00:00.000Z"] },
+  "744": {
+    "tagPlace": [
+      "Montreal",
+      "Portland",
+      "Toronto",
+      "Upper Canada",
+      "Township of Groefield",
+      "County of Essex"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Jones, H, J",
+      "Shibley, Schuyler",
+      "Arner, Jacob",
+      "Arner, John"
+    ]
+  },
+  "622": {
+    "tagDate": ["[1846-01-01T00:00:00.000Z TO 1850-02-22T23:59:59.999Z]"],
+    "tagPerson": [
+      "McCutcheon, Charles",
+      "Jones, Henry, Jno",
+      "McCutcheon, Samuel"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "Township of Mono",
+      "County of Simcoe",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "452": {
+    "tagPlace": [
+      "Township of Mons",
+      "Montreal",
+      "Upper Canada",
+      "District of Simcoe",
+      "East of Hurontario"
+    ],
+    "tagPerson": ["Redmond, John", "Jones, Henry, Jno", "Redmond, William"],
+    "tagDate": ["[1832-01-01T00:00:00.000Z TO 1849-04-20T23:59:59.999Z]"]
+  },
+  "49": {
+    "tagPlace": ["Township of Cramahe", "District of Newcastle"],
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPerson": ["Rogers, D, MG", "McKeys, Barnabas"]
+  },
+  "590": {
+    "tagPerson": ["Jones, Henry, Jno", "Kidd, Richard", "Kidd, Johnson"],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1850-01-24T23:59:59.999Z]"],
+    "tagPlace": [
+      "Crown Land",
+      "Montreal",
+      "County of York",
+      "Township of Etobicoke",
+      "Toronto",
+      "Upper Canada"
+    ]
+  },
+  "310": {
+    "tagPlace": [
+      "Thames Street London",
+      "Canada",
+      "Township of Dover",
+      "Kingston"
+    ],
+    "tagPerson": [
+      "Ronalds, Elizabeth, Lucy",
+      "Parke, Thomas",
+      "Robertson, William",
+      "Moreton, Francoise, Senior"
+    ],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1842-12-13T23:59:59.999Z]"]
+  },
+  "614": {
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1850-02-06T23:59:59.999Z]"],
+    "tagPerson": ["Hodges, Benjamin", "Jones, Henry, Jno", "Smith, Daniel"],
+    "tagPlace": [
+      "Montreal",
+      "Township of Whitby",
+      "County of York",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "189": {
+    "tagPlace": ["Township of Willoughby", "Kingston"],
+    "tagPerson": ["Parke, Thomas", "Seman, John", "Seman, Jacob"],
+    "tagDate": ["[1841-01-28T00:00:00.000Z TO 1841-12-31T23:59:59.999Z]"]
+  },
+  "758": {
+    "tagPerson": [
+      "Hector, Thos",
+      "McCallum, Archibald",
+      "Graham, John",
+      "Douglas, Robert"
+    ],
+    "tagDate": ["[1850-01-01T00:00:00.000Z TO 1850-09-16T23:59:59.999Z]"],
+    "tagPlace": [
+      "Upper Canada",
+      "Township of Caledon",
+      "County of York",
+      "Montreal"
+    ]
+  },
+  "485": { "tagDate": ["1849-06-09T00:00:00.000Z"] },
+  "106": {
+    "tagDate": ["[1821-07-20T00:00:00.000Z TO 1841-05-25T23:59:59.999Z]"],
+    "tagPerson": ["Harris, Mary"]
+  },
+  "363": { "tagDate": ["1848-09-09T00:00:00.000Z"] },
+  "603": { "tagDate": ["1850-01-30T00:00:00.000Z"] },
+  "827": { "tagDate": ["1850-12-17T00:00:00.000Z"] },
+  "797": { "tagDate": ["1850-11-19T00:00:00.000Z"] },
+  "19": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Peter, Maybe", "Hagerman, Nicholas", "Rogers, D, MG"],
+    "tagDate": ["[1803-01-02T00:00:00.000Z TO 1803-03-24T23:59:59.999Z]"]
+  },
+  "562": {
+    "tagPerson": ["Jones, Henry, John", "Williams, Moses"],
+    "tagDate": ["[1804-07-06T23:59:59.999Z TO 1849-01-01T00:00:00.000Z]"],
+    "tagPlace": ["Township of Lancaster"]
+  },
+  "152": {
+    "tagPerson": ["Cameron, Isabella"],
+    "tagDate": ["[1840-12-31T23:59:59.999Z TO 1841-11-23T00:00:00.000Z]"]
+  },
+  "331": {
+    "tagDate": ["1848-06-21T00:00:00.000Z"],
+    "tagPerson": ["Peters, Eli"]
+  },
+  "185": {
+    "tagPlace": ["Township of York", "Township of Brock", "Kingston"],
+    "tagPerson": ["Johnson, William", "Parke, Thomas", "Scadding, John"],
+    "tagDate": ["[1824-12-31T23:59:59.999Z TO 1841-01-28T00:00:00.000Z]"]
+  },
+  "338": {
+    "tagPlace": ["Township of Lochiel", "Montreal", "Upper Canada"],
+    "tagPerson": [
+      "Donovan, John",
+      "McMullen, John",
+      "Jones, Henry, John",
+      "McMullen, Duncan"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-07-11T23:59:59.999Z]"]
+  },
+  "406": {
+    "tagPlace": [
+      "Midland District",
+      "Upper Canada",
+      "Montreal",
+      "Township of Richmond"
+    ],
+    "tagPerson": [
+      "Jones, Henry, John",
+      "Sager, Staats, Adam",
+      "Sager, Frederick, A"
+    ],
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1849-02-19T23:59:59.999Z]"]
+  },
+  "384": {
+    "tagDate": ["[1848-01-01T00:00:00.000Z TO 1848-11-07T23:59:59.999Z]"],
+    "tagPerson": [
+      "Robinson, Peter",
+      "Oconnor, Timothy",
+      "Jones, Henry, John",
+      "Oconnor, William"
+    ],
+    "tagPlace": [
+      "Montreal",
+      "Ramsay",
+      "District of Bathurst",
+      "Charlotteville",
+      "Upper Canada"
+    ]
+  },
+  "680": {
+    "tagPerson": [
+      "Jones, Henry, Jno",
+      "Abbott, Joseph",
+      "Fields, Ann",
+      "Fields, William"
+    ],
+    "tagDate": ["[1839-01-01T00:00:00.000Z TO 1850-07-02T23:59:59.999Z]"],
+    "tagPlace": [
+      "Harwich",
+      "County of Lambton",
+      "Enniskillen",
+      "Upper Canada",
+      "Toronto"
+    ]
+  },
+  "489": { "tagDate": ["1849-06-25T00:00:00.000Z"] }
+}

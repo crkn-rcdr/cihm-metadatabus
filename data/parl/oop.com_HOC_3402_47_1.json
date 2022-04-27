@@ -1,0 +1,15 @@
+{
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 90],
+    ["fra", "c", "committees", "34-2", 147]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-2 F57 A1 no.1-5",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-74, an Act to amend the Fisheries Act and to amend the Criminal Code in consequence thereof, vol. 1 no. 1-5 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-74, Loi modifiant la Loi sur les pêches et le Code criminel en conséquence, vol. 1 no. 1-5",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"]
+}

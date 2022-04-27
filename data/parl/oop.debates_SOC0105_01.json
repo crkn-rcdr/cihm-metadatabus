@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["eng", "s", "debates", "01-5", 1]],
+  "pubmax": "1872-06-14",
+  "language": ["eng"],
+  "session": ["01-5"],
+  "pubmin": "1872-04-11",
+  "label": "Senate Debates, 1st Parliament, 5th Session : Vol. 1"
+}

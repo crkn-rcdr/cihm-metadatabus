@@ -1,0 +1,15 @@
+{
+  "pubmin": "1974-02-27",
+  "callNumber": "1974 M55 A1",
+  "label": "House of Commons Committees, 29th Parliament, 2nd Session : Standing Committee on Miscellaneous Private Bills and Standing Orders, vol. 1 = Comités de la Chambre des communes, 29e Législature, 2e Session : Comité permanent des bills privés en général et du Règlement, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["29-2"],
+  "type": "committees",
+  "pubmax": "1974-05-09",
+  "node": [
+    ["eng", "c", "committees", "29-2", 11],
+    ["fra", "c", "committees", "29-2", 5]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

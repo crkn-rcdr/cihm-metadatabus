@@ -1,0 +1,15 @@
+{
+  "pubmax": "1969-10-22",
+  "node": [
+    ["eng", "c", "bills", "28-1", 3],
+    ["fra", "c", "bills", "28-1", 3]
+  ],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "callNumber": "KE72 C36 28-1 C174-C213",
+  "label": "House of Commons Bills, 28th Parliament, 1st Session : C174-C213 = Projets de loi de la Chambre des communes, 28e Législature, 1re Session : C174-C213",
+  "pubmin": "1968-09-12",
+  "session": ["28-1"],
+  "language": ["eng", "fra"]
+}

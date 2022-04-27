@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1974-02-26",
+  "node": [
+    ["eng", "c", "committees", "29-1", 24],
+    ["fra", "c", "committees", "29-1", 22]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["29-1"],
+  "pubmin": "1973-01-04",
+  "callNumber": "1973/74 T8 A1 v.2",
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Special Committee on Trends in Food Prices, vol. 2 no. 15-35 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité spécial sur les tendances des prix de l'alimentation, vol. 2 no. 15-35"
+}

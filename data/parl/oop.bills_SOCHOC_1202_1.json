@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["s", "c"],
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "12-2", 1],
+    ["eng", "c", "bills", "12-2", 1]
+  ],
+  "pubmax": "1913-06-06",
+  "language": ["eng"],
+  "session": ["12-2"],
+  "pubmin": "1912-11-21",
+  "label": "Senate and House of Commons Bills, 12th Parliament, 2nd Session : A-M4, 2-248",
+  "callNumber": "KE72 C36 12-2 no.2-248 no.A-M4"
+}

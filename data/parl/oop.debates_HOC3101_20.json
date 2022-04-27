@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 31st Parliament, 1st Session : Index",
+  "pubmin": "1979-10-09",
+  "session": ["31-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "31-1", 3]],
+  "pubmax": "1979-12-14",
+  "type": "debates",
+  "primeMinisters": "Clark, Charles Joseph",
+  "chamber": ["c"]
+}

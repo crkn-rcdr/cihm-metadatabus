@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "journals",
+  "pubmax": "1925-06-27",
+  "node": [["fra", "c", "journals", "14-4", 1]],
+  "language": ["fra"],
+  "session": ["14-4"],
+  "pubmin": "1925-02-05",
+  "label": "Journaux de la Chambre des communes, 14e Législature, 4e Session : Vol. 62"
+}

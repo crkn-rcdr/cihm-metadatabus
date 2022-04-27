@@ -1,0 +1,11 @@
+{
+  "pubmin": "1896-01-02",
+  "label": "Procès-verbaux du Sénat, 7e Législature, 6e Session : 1-55",
+  "callNumber": "J103 H43 1896",
+  "language": ["fra"],
+  "session": ["07-6"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "07-6", 1]],
+  "pubmax": "1896-04-23",
+  "chamber": ["s"]
+}

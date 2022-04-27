@@ -1,0 +1,15 @@
+{
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 98],
+    ["fra", "c", "committees", "34-2", 174]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-2 G687 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-49, an Act to provide for the resumption of certain government services, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-49, Loi prévoyant la reprise de certains services gouvernementaux, vol. 1 no. 1",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"]
+}

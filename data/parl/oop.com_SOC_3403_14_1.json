@@ -1,0 +1,14 @@
+{
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Transport and Communications, vol. 1 no. 1-9 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent des transports et des communications, vol. 1 no. 1-9",
+  "callNumber": "34-3 T73 A1 no.1-9",
+  "pubmin": "1991-05-13",
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "committees", "34-3", 49],
+    ["fra", "s", "committees", "34-3", 51]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees"
+}

@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["20-2"],
+  "pubmin": "1946-03-14",
+  "label": "Projets de loi de la Chambre des communes, 20e Législature, 2e Session : 2-393",
+  "callNumber": "KE72 C361 20-2 2-393",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "20-2", 1]],
+  "pubmax": "1946-08-31"
+}

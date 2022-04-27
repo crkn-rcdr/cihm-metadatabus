@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "pubmax": "1874-05-26",
+  "node": [["fra", "c", "sessional", "03-1", 4]],
+  "type": "sessional",
+  "session": ["03-1"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 3e Législature, 1re Session : vol. 4",
+  "pubmin": "1874-03-26"
+}

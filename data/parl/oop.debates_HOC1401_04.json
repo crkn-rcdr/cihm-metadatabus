@@ -1,0 +1,11 @@
+{
+  "pubmin": "1922-03-08",
+  "label": "House of Commons Debates, 14th Parliament, 1st Session : Vol. 4",
+  "language": ["eng"],
+  "session": ["14-1"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "14-1", 4]],
+  "pubmax": "1922-06-28",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

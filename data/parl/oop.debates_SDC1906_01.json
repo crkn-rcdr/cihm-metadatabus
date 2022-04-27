@@ -1,0 +1,10 @@
+{
+  "label": "Débats du Sénat, 19e Législature, 6e Session : Vol. 1",
+  "pubmin": "1945-03-19",
+  "session": ["19-6"],
+  "language": ["fra"],
+  "node": [["fra", "s", "debates", "19-6", 1]],
+  "pubmax": "1945-04-16",
+  "type": "debates",
+  "chamber": ["s"]
+}

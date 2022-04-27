@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1977-10-17",
+  "node": [["fra", "c", "committees", "30-2", 18]],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1976-10-12",
+  "callNumber": "1976/77 F55 A12",
+  "label": "Comités de la Chambre des communes, 30e Législature, 2e Session : Comité permanent des finances, du commerce et des questions économiques, Rapport",
+  "reportTitle": [
+    "Rapport sur la deuxième étape de la politique de concurrence"
+  ],
+  "language": ["fra"],
+  "session": ["30-2"]
+}

@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 35],
+    ["fra", "c", "committees", "34-2", 34]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 C37 A1 no.1",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-258, an Act respecting the establishment of the Centennial Flame Research Award to publicize the contributions to Canadian public life of persons with disabilities, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-258, Loi créant la bourse de recherches de la flamme du centenaire destinée à faire connaître la participation des personnes handicapées aux affaires publiques canadiennes, vol. 1 no. 1"
+}

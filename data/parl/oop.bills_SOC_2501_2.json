@@ -1,0 +1,11 @@
+{
+  "session": ["25-1"],
+  "language": ["eng"],
+  "callNumber": "KE72 C38 25-1 SD1-SD247",
+  "label": "Senate Bills, 25th Parliament, 1st Session : SD1-SD247",
+  "pubmin": "1962-09-27",
+  "chamber": ["s"],
+  "pubmax": "1963-02-06",
+  "node": [["eng", "s", "bills", "25-1", 2]],
+  "type": "bills"
+}

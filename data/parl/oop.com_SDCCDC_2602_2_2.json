@@ -1,0 +1,15 @@
+{
+  "callNumber": "1964/65 P4 A44 v.2",
+  "label": "Comités mixtes, 26e Législature, 2e Session : Comité spécial mixte sur le régime de pensions de vieillesse, vol. 2",
+  "pubmin": "1964-02-18",
+  "session": ["26-2"],
+  "language": ["fra"],
+  "pubmax": "1965-04-03",
+  "node": [
+    ["fra", "c", "committees", "26-2", 22],
+    ["fra", "s", "committees", "26-2", 8]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Pearson, Lester Bowles"
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 27e Législature, 1re Session : Vol. 9",
+  "pubmin": "1966-01-18",
+  "session": ["27-1"],
+  "language": ["fra"],
+  "node": [["fra", "c", "debates", "27-1", 9]],
+  "pubmax": "1967-05-08",
+  "type": "debates",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"]
+}

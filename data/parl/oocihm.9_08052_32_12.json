@@ -1,0 +1,11 @@
+{
+  "session": ["08-3"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 8th Parliament, 3rd Session : vol. 12",
+  "pubmin": "1898-02-03",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["eng", "c", "sessional", "08-3", 12]],
+  "pubmax": "1898-06-13",
+  "type": "sessional"
+}

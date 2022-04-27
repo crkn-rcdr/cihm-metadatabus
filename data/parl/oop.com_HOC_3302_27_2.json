@@ -1,0 +1,15 @@
+{
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Consumer and Corporate Affairs, vol. 2 no. 28-36 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de la consommation et des corporations, vol. 2 no. 28-36",
+  "callNumber": "33-2 C66 A1 no.28-36",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 41],
+    ["fra", "c", "committees", "33-2", 61]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

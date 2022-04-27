@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1947-07-17",
+  "node": [["fra", "c", "bills", "20-3", 1]],
+  "type": "bills",
+  "session": ["20-3"],
+  "language": ["fra"],
+  "callNumber": "KE72 C361 20-3 2-254",
+  "label": "Projets de loi de la Chambre des communes, 20e Législature, 3e Session : 2-254",
+  "pubmin": "1947-01-30"
+}

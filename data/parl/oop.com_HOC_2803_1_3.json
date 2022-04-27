@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "28-3", 3],
+    ["fra", "c", "committees", "28-3", 8]
+  ],
+  "pubmax": "1972-02-16",
+  "language": ["eng", "fra"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Agriculture, vol. 3 no. 30-39 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent de l'agriculture, vol. 3 no. 30-39",
+  "callNumber": "1970/72 A3 A1 v.3"
+}

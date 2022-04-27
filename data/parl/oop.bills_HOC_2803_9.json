@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "28-3", 9],
+    ["fra", "c", "bills", "28-3", 9]
+  ],
+  "pubmax": "1972-02-16",
+  "language": ["eng", "fra"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "label": "House of Commons Bills, 28th Parliament, 3rd Session : Index = Projets de loi de la Chambre des communes, 28e Législature, 3e Session : Index",
+  "callNumber": "KE72 C36 28-3 Index"
+}

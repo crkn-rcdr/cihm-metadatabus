@@ -1,0 +1,10 @@
+{
+  "label": "Senate Debates, 7th Parliament, 5th Session : Vol. 1",
+  "pubmin": "1895-04-18",
+  "session": ["07-5"],
+  "language": ["eng"],
+  "node": [["eng", "s", "debates", "07-5", 1]],
+  "pubmax": "1895-07-22",
+  "type": "debates",
+  "chamber": ["s"]
+}

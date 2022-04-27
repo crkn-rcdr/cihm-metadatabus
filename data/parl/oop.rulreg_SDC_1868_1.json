@@ -1,0 +1,11 @@
+{
+  "pubmin": "1867-11-06",
+  "callNumber": "JL158.3 1868f",
+  "label": "Constitutions, règles et règlements du Sénat du Canada, 1868",
+  "language": ["fra"],
+  "session": ["01-1"],
+  "type": "rules",
+  "pubmax": "1868-05-22",
+  "node": [["fra", "s", "rules", null, 1]],
+  "chamber": ["s"]
+}

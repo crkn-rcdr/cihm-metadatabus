@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [["eng", "c", "journals", "28-4", 1]],
+  "pubmax": "1972-09-01",
+  "type": "journals",
+  "session": ["28-4"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 28th Parliament, 4th Session : Vol. 118",
+  "pubmin": "1972-02-17"
+}

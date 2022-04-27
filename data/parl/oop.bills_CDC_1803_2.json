@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "bills", "18-3", 2]],
+  "pubmax": "1938-07-01",
+  "type": "bills",
+  "session": ["18-3"],
+  "language": ["fra"],
+  "label": "Projets de loi de la Chambre des communes, 18e Législature, 3e Session : 91-176",
+  "callNumber": "KE72 C361 18-3 91-176",
+  "pubmin": "1938-01-27"
+}

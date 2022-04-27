@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Debates, 34th Parliament, 3rd Session : Vol. 15",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "34-3", 15]],
+  "pubmax": "1993-09-08"
+}

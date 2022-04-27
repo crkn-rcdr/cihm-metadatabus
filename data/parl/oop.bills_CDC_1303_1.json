@@ -1,0 +1,12 @@
+{
+  "session": ["13-3"],
+  "language": ["fra"],
+  "label": "Projets de loi de la Chambre des communes, 13e Législature, 3e Session : 2-44",
+  "callNumber": "KE72 C361 13-3 2-44",
+  "pubmin": "1919-09-01",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "node": [["fra", "c", "bills", "13-3", 1]],
+  "pubmax": "1919-11-10",
+  "type": "bills"
+}

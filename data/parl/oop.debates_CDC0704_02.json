@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 7e Législature, 4e Session : Vol. 2",
+  "pubmin": "1894-03-15",
+  "session": ["07-4"],
+  "language": ["fra"],
+  "node": [["fra", "c", "debates", "07-4", 2]],
+  "pubmax": "1894-07-23",
+  "type": "debates",
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"]
+}

@@ -1,0 +1,58 @@
+{
+  "273": {
+    "tagDescription": ["Enseignement. Francais en Ontario"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "906": {
+    "tagDescription": [
+      "Enseignement. Commission re systeme scolaire rapport de la Commission, journaux et brochures"
+    ],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "17": {
+    "tagDescription": ["Electricite et pouvoirs de'eau, brochures et memoires"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "409": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": [
+      "Enseignement. Commission speciale d'education, 1924-1925 (L. Gouin, president) Memoires et proces-verbaux des seances"
+    ],
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"]
+  },
+  "230": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Enseignement. Ecoles techniques et polytechniques"]
+  },
+  "165": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Enseignement en general et ecoles primaires"]
+  },
+  "915": {
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Enseignement. Commission sur Ecoles Catholiques a Montreal, 1926-1927 (L. Gouin, president) Memoires, proces-verbaux, journaux"
+    ],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "348": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Enseignement. College de Levis (alma mater)"]
+  }
+}

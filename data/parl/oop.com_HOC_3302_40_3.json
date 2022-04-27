@@ -1,0 +1,13 @@
+{
+  "type": "committees",
+  "node": [["eng", "c", "committees", "33-2", 65]],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Environment and Forestry, Report",
+  "callNumber": "33-2 E58 A12",
+  "language": ["eng"],
+  "reportTitle": ["High-Level Radioactive Waste in Canada: The Eleventh Hour"],
+  "session": ["33-2"]
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["19-2"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 19th Parliament, 2nd Session : Vol. 81",
+  "pubmin": "1940-11-07",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1942-01-21",
+  "node": [["eng", "c", "journals", "19-2", 1]],
+  "type": "journals"
+}

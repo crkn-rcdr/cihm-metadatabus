@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1916-05-18",
+  "node": [["eng", "s", "bills", "12-6", 1]],
+  "type": "bills",
+  "session": ["12-6"],
+  "language": ["eng"],
+  "callNumber": "KE72 C38 12-6 Bill A-",
+  "label": "Senate Bills, 12th Parliament, 6th Session : A-N2",
+  "pubmin": "1916-01-12"
+}

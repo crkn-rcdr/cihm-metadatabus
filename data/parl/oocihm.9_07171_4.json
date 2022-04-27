@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "01-4", 1]],
+  "pubmax": "1871-04-14",
+  "language": ["eng"],
+  "session": ["01-4"],
+  "pubmin": "1871-02-15",
+  "label": "House of Commons Journals, 1st Parliament, 4th Session : Vol. 4"
+}

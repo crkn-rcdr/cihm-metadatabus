@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "sproc", "26-1", 1]],
+  "pubmax": "1963-12-21",
+  "type": "sproc",
+  "session": ["26-1"],
+  "language": ["fra"],
+  "label": "Procès-verbaux du Sénat, 26e Législature, 1re Session : 1-78",
+  "callNumber": "J103 H43 1963",
+  "pubmin": "1963-05-16"
+}

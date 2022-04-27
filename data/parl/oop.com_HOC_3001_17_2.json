@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1976-10-12",
+  "node": [
+    ["eng", "c", "committees", "30-1", 43],
+    ["fra", "c", "committees", "30-1", 50]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["30-1"],
+  "pubmin": "1974-09-30",
+  "callNumber": "1974/76 N35 A1 v.2",
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on National Resources and Public Works, vol. 2 no. 33-74 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent des ressources nationales et des travaux publics, vol. 2 no. 33-74"
+}

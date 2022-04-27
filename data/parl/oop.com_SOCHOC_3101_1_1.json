@@ -1,0 +1,17 @@
+{
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "c", "committees", "31-1", 18],
+    ["fra", "c", "committees", "31-1", 16],
+    ["eng", "s", "committees", "31-1", 7],
+    ["fra", "s", "committees", "31-1", 7]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Clark, Charles Joseph",
+  "callNumber": "1979 R48 A1",
+  "label": "Joint Committees, 31st Parliament, 1st Session : Standing Joint Committee on Regulations and other Statutory Instruments, vol. 1 = Comités mixtes, 31e Législature, 1re Session : Comité mixte permanent des règlements et autres textes réglementaires, vol. 1",
+  "pubmin": "1979-10-09",
+  "session": ["31-1"],
+  "language": ["eng", "fra"]
+}

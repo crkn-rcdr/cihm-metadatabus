@@ -1,0 +1,12 @@
+{
+  "session": ["03-4"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 1877 c.2",
+  "label": "House of Commons Votes and Proceedings, 3rd Parliament, 4th Session : 1-69",
+  "pubmin": "1877-02-08",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "pubmax": "1877-04-28",
+  "node": [["eng", "c", "cproc", "03-4", 1]],
+  "type": "cproc"
+}

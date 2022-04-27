@@ -1,0 +1,15 @@
+{
+  "session": ["28-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Bills, 28th Parliament, 3rd Session : C2-C100 = Projets de loi de la Chambre des communes, 28e Législature, 3e Session : C2-C100",
+  "callNumber": "KE72 C36 28-3 C2-C100",
+  "pubmin": "1970-10-08",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "bills", "28-3", 1],
+    ["fra", "c", "bills", "28-3", 1]
+  ],
+  "pubmax": "1972-02-16",
+  "type": "bills"
+}

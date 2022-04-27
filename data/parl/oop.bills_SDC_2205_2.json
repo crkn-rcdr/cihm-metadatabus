@@ -1,0 +1,11 @@
+{
+  "pubmin": "1957-01-08",
+  "callNumber": "KE72 C381 22-5 v.2",
+  "label": "Projets de loi du Sénat, 22e Législature, 5e Session : A6-I14",
+  "language": ["fra"],
+  "session": ["22-5"],
+  "type": "bills",
+  "pubmax": "1957-04-12",
+  "node": [["fra", "s", "bills", "22-5", 2]],
+  "chamber": ["s"]
+}

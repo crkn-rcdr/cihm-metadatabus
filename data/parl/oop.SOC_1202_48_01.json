@@ -1,0 +1,10 @@
+{
+  "session": ["12-2"],
+  "language": ["eng"],
+  "label": "Senate Journals, 12th Parliament, 2nd Session : Vol. 48",
+  "pubmin": "1912-11-21",
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "12-2", 1]],
+  "pubmax": "1913-06-06",
+  "type": "journals"
+}

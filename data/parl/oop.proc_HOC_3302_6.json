@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Votes and Proceedings, 33rd Parliament, 2nd Session : 187-3B = Procès-verbaux de la Chambre des communes, 33e Législature, 2e Session : 187-3B",
+  "callNumber": "J103 H41 33-2 no. 187:3B c.2",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [
+    ["eng", "c", "cproc", "33-2", 6],
+    ["fra", "c", "cproc", "33-2", 6]
+  ],
+  "pubmax": "1988-10-01"
+}

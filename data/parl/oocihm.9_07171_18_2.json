@@ -1,0 +1,11 @@
+{
+  "session": ["05-2"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 5th Parliament, 2nd Session : Vol. 18 App.",
+  "pubmin": "1884-01-17",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "journals", "05-2", 2]],
+  "pubmax": "1884-04-19",
+  "type": "journals"
+}

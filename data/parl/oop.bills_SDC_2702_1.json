@@ -1,0 +1,11 @@
+{
+  "session": ["27-2"],
+  "language": ["fra"],
+  "label": "Projets de loi du Sénat, 27e Législature, 2e Session : S2-S34",
+  "callNumber": "KE72 C381 27-2 S2-S34",
+  "pubmin": "1967-05-08",
+  "chamber": ["s"],
+  "node": [["fra", "s", "bills", "27-2", 1]],
+  "pubmax": "1968-04-23",
+  "type": "bills"
+}

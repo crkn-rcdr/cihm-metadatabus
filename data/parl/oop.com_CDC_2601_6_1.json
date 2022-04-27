@@ -1,0 +1,12 @@
+{
+  "pubmin": "1963-05-16",
+  "callNumber": "1963 C4 A4",
+  "label": "Comités de la Chambre des communes, 26e Législature, 1re Session : Comité permanent des chemins de fer, canaux et lignes télégraphiques, vol. 1",
+  "language": ["fra"],
+  "session": ["26-1"],
+  "type": "committees",
+  "pubmax": "1963-12-21",
+  "node": [["fra", "c", "committees", "26-1", 6]],
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles"
+}

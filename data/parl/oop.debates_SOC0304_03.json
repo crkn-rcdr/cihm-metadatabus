@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1877-04-28",
+  "node": [["eng", "s", "debates", "03-4", 1]],
+  "language": ["eng"],
+  "session": ["03-4"],
+  "pubmin": "1877-02-08",
+  "label": "Senate Debates, 3rd Parliament, 4th Session : Vol. 1"
+}

@@ -1,0 +1,15 @@
+{
+  "language": ["fra"],
+  "session": ["21-5"],
+  "pubmin": "1951-10-09",
+  "label": "Comités mixtes, 21e Législature, 5e Session : Comité mixte sur la législation relative aux coalitions, vol. 1",
+  "callNumber": "1951(2e) C6 A44",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["fra", "c", "committees", "21-5", 2],
+    ["fra", "s", "committees", "21-5", 1]
+  ],
+  "pubmax": "1951-12-29"
+}

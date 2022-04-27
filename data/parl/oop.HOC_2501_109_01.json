@@ -1,0 +1,11 @@
+{
+  "session": ["25-1"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 25th Parliament, 1st Session : Vol. 109",
+  "pubmin": "1962-09-27",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmax": "1963-02-06",
+  "node": [["eng", "c", "journals", "25-1", 1]],
+  "type": "journals"
+}

@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "24-2", 6]],
+  "pubmax": "1959-07-18",
+  "type": "debates",
+  "session": ["24-2"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 24th Parliament, 2nd Session : Index",
+  "pubmin": "1959-01-15"
+}

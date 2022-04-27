@@ -1,0 +1,38 @@
+{
+  "1080": {
+    "tagDate": ["1943-01-01T00:00:00.000Z"],
+    "tagDescription": ["Cartier By-Election"],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "938": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"],
+    "tagDescription": ["Elections (Federal and General)"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1956-12-31T23:59:59.999Z]"]
+  },
+  "349": {
+    "tagDate": ["[1938-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Miscellaneous Correspondence"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Quebec"]
+  },
+  "714": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Constitutions and Resolutions"]
+  },
+  "1067": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["1938-01-01T00:00:00.000Z"],
+    "tagDescription": ["Cartier By-Election"]
+  },
+  "883": {
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Education"],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["Provincial Files"]
+  }
+}

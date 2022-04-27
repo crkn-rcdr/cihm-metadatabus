@@ -1,0 +1,15 @@
+{
+  "pubmin": "1972-02-17",
+  "label": "House of Commons Bills, 28th Parliament, 4th Session : Index = Projets de loi de la Chambre des communes, 28e Législature, 4e Session : Index",
+  "callNumber": "KE72 C36 28-4 Index",
+  "language": ["eng", "fra"],
+  "session": ["28-4"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "28-4", 5],
+    ["fra", "c", "bills", "28-4", 5]
+  ],
+  "pubmax": "1972-09-01",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

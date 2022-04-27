@@ -1,0 +1,14 @@
+{
+  "type": "bills",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "bills", "34-3", 22],
+    ["fra", "c", "bills", "34-3", 22]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Bills, 34th Parliament, 3rd Session : C397-C462 = Projets de loi de la Chambre des communes, 34e Législature, 3e Session : C397-C462",
+  "language": ["eng", "fra"],
+  "session": ["34-3"]
+}

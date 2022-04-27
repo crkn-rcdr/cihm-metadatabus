@@ -1,0 +1,15 @@
+{
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-3 T36 A1 no.1-3",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-112, an Act to amend the Excise Tax Act, the Access to Information Act, the Canada Pension Plan, the Customs Act, the Federal Court Act, the Income Tax Act, the Tax Court of Canada Act, the Tax Rebate Discounting Act, the Unemployment Insurance Act and a related Act, vol. 1 no. 1-3 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-112, Loi modifiant la Loi sur la taxe d'accise, la Loi sur l'accès à l'information, le Régime de pensions du Canada, la Loi sur les douanes, la Loi sur la Cour fédérale, la Loi de l'impôt sur le revenu, la Loi sur la Cour canadienne de l'impôt, la Loi sur la cession du droit au remboursement en matière d'impôt, la Loi sur l'assurance-chômage et une loi connexe, vol. 1 no. 1-3",
+  "pubmin": "1991-05-13",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 209],
+    ["fra", "c", "committees", "34-3", 210]
+  ],
+  "type": "committees"
+}

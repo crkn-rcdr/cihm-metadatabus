@@ -1,0 +1,15 @@
+{
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Communications and Culture, vol. 6 no. 74-79 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent des communications et de la culture, vol. 6 no. 74-79",
+  "callNumber": "33-2 B7 A1 no.74-79",
+  "pubmin": "1986-09-30",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-2", 37],
+    ["fra", "c", "committees", "33-2", 52]
+  ],
+  "pubmax": "1988-10-01",
+  "type": "committees"
+}

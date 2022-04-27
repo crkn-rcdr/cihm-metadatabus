@@ -1,0 +1,13 @@
+{
+  "session": ["32-1"],
+  "language": ["fra"],
+  "reportTitle": ["Du travail pour demain"],
+  "callNumber": "J103 H7 1980/83 E5 A12f",
+  "label": "Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial sur les perspectives d'emploi pour les années 80, Rapport",
+  "pubmin": "1980-04-14",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1983-11-30",
+  "node": [["fra", "c", "committees", "32-1", 104]],
+  "type": "committees"
+}

@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "19-2", 1]],
+  "pubmax": "1942-01-21",
+  "type": "journals",
+  "session": ["19-2"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 19e Législature, 2e Session : Vol. 81",
+  "pubmin": "1940-11-07"
+}

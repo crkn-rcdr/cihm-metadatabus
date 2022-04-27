@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1954-06-26",
+  "node": [["eng", "c", "debates", "22-1", 5]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmin": "1953-11-12",
+  "label": "House of Commons Debates, 22nd Parliament, 1st Session : Vol. 5",
+  "language": ["eng"],
+  "session": ["22-1"]
+}

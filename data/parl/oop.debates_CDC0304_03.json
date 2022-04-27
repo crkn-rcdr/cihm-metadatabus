@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "node": [["fra", "c", "debates", "03-4", 1]],
+  "pubmax": "1877-04-28",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"],
+  "pubmin": "1877-02-08",
+  "label": "Débats de la Chambre des communes, 3e Législature, 4e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["03-4"]
+}

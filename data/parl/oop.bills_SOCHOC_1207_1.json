@@ -1,0 +1,15 @@
+{
+  "session": ["12-7"],
+  "language": ["eng"],
+  "label": "Senate and House of Commons Bills, 12th Parliament, 7th Session : A-V2, 2-134",
+  "callNumber": "KE72 C36 12-7 no.2-134 no.A-V2",
+  "pubmin": "1917-01-18",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["s", "c"],
+  "node": [
+    ["eng", "s", "bills", "12-7", 1],
+    ["eng", "c", "bills", "12-7", 1]
+  ],
+  "pubmax": "1917-09-20",
+  "type": "bills"
+}

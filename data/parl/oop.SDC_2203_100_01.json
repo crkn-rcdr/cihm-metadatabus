@@ -1,0 +1,10 @@
+{
+  "session": ["22-3"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 22e Législature, 3e Session : Vol. 100",
+  "pubmin": "1956-01-10",
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "22-3", 1]],
+  "pubmax": "1956-08-14",
+  "type": "journals"
+}

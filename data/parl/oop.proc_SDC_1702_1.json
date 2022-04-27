@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "17-2", 1]],
+  "pubmax": "1931-08-03",
+  "language": ["fra"],
+  "session": ["17-2"],
+  "pubmin": "1931-03-12",
+  "label": "Procès-verbaux du Sénat, 17e Législature, 2e Session : 1-50",
+  "callNumber": "J103 H43 1931"
+}

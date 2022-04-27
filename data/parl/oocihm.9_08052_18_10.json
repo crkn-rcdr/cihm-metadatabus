@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "sessional", "05-3", 10]],
+  "pubmax": "1885-07-20",
+  "type": "sessional",
+  "session": ["05-3"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 5th Parliament, 3rd Session : vol. 10",
+  "pubmin": "1885-01-29"
+}

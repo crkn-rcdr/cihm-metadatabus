@@ -1,0 +1,10 @@
+{
+  "pubmin": "1934-01-25",
+  "label": "Débats du Sénat, 17e Législature, 5e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["17-5"],
+  "type": "debates",
+  "pubmax": "1934-07-03",
+  "node": [["fra", "s", "debates", "17-5", 1]],
+  "chamber": ["s"]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "17-2", 1]],
+  "pubmax": "1931-08-03",
+  "chamber": ["s"],
+  "pubmin": "1931-03-12",
+  "label": "Senate Minutes of Proceedings, 17th Parliament, 2nd Session : 1-50",
+  "callNumber": "J103 H4 1931",
+  "language": ["eng"],
+  "session": ["17-2"]
+}

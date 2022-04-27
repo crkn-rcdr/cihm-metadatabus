@@ -1,0 +1,13 @@
+{
+  "label": "Senate Bills, 35th Parliament, 1st Session : S2-S15 = Projets de loi du Sénat, 35e Législature, 1re Session : S2-S15",
+  "pubmin": "1994-01-17",
+  "session": ["35-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "s", "bills", "35-1", 1],
+    ["fra", "s", "bills", "35-1", 1]
+  ],
+  "pubmax": "1996-02-02",
+  "type": "bills",
+  "chamber": ["s"]
+}

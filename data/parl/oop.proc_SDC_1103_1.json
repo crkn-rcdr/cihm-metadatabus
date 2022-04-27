@@ -1,0 +1,11 @@
+{
+  "session": ["11-3"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1910-11",
+  "label": "Procès-verbaux du Sénat, 11e Législature, 3e Session : 1-70",
+  "pubmin": "1910-11-17",
+  "chamber": ["s"],
+  "pubmax": "1911-07-29",
+  "node": [["fra", "s", "sproc", "11-3", 1]],
+  "type": "sproc"
+}

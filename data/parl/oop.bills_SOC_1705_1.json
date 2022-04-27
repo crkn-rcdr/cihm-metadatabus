@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["17-5"],
+  "pubmin": "1934-01-25",
+  "label": "Senate Bills, 17th Parliament, 5th Session : A-V2",
+  "callNumber": "KE72 C38 17-5 Bill A-",
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["eng", "s", "bills", "17-5", 1]],
+  "pubmax": "1934-07-03"
+}
