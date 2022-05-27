@@ -25,7 +25,6 @@ Tooks:
 * hammer2 - Sources data from the `access` and other databases to create the cache files that will be used by Solr search and presentation (Currently CAP).
 * importocr - Temporary: imports OCR data from preservation storage (AIP format) to store in the access platform.
 * ocrtask - Handles OCR related tasks -- exporting Canvas images to filesystem used for OCR, and importing results (ALTO XML, PDF) into Access storage for Canvases.
-* presentation-diff - Temporary: compares the old and new `copresentation` databases to find differences between the old and new, part of the migration.
 * press2 - Temporary: Other half of `hammer2` functionality that [will be merged](https://github.com/crkn-rcdr/cihm-metadatabus/issues/23). The old metadatabus had this split as staff used tools which managed fields in the internalmeta database. This is no longer the case with the new tools.
 * reposync - reads data from `tdrepo` database about added/replicated AIPs, and updates `wipmeta` (packaging tools) and `dipstaging` ("Import into Access" web interface to smelter)
 * smelter - Microservice responsible for "Import into Access", copying data from presertavion storage (AIP files, METS data) to Access storage (manifests and canvases)
