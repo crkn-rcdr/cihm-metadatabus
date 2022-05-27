@@ -5,20 +5,16 @@ use Carp;
 use Config::General;
 use Log::Log4perl;
 
-use CIHM::TDR::REST::tdrepo;
-use CIHM::Swift::Client;
-use CIHM::Meta::REST::wipmeta;
-use CIHM::Meta::REST::internalmeta;
-use CIHM::Meta::REST::dipstaging;
-use CIHM::Meta::REST::repoanalysis;
 use JSON;
 use Date::Parse;
 use DateTime;
 
+# use Data::Dumper;
+
 =head1 NAME
 
 CIHM::Meta::RepoSync - Synchronize specific data between 
-"tdrepo" and "internalmeta", "wipmeta" and "dipstaging" databases
+"tdrepo" and "wipmeta" / "dipstaging" databases
 
 =head1 SYNOPSIS
 
@@ -28,6 +24,14 @@ CIHM::Meta::RepoSync - Synchronize specific data between
       $args->{configpath} is as used by Config::General
 
 =cut
+
+{
+
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
 
 sub new {
     my ( $class, $args ) = @_;
@@ -41,103 +45,51 @@ sub new {
     Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
     $self->{logger} = Log::Log4perl::get_logger("CIHM::TDR");
 
-    my %confighash =
-      new Config::General( -ConfigFile => $args->{configpath}, )->getall;
+    # TDREPO
+    $self->{tdrepo} = restclient->new(
+        server      => $args->{couchdb_tdrepo},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->tdrepo->set_persistent_header( 'Accept' => 'application/json' );
 
-    # Undefined if no <tdrepo> config block
-    if ( exists $confighash{tdrepo} ) {
-        $self->{tdrepo} = new CIHM::TDR::REST::tdrepo(
-            server   => $confighash{tdrepo}{server},
-            database => $confighash{tdrepo}{database},
-            repository => "",                 # Blank repository needs to be set
-            type       => 'application/json',
-            conf       => $self->configpath,
-            clientattrs => { timeout => 3600 },
-        );
-    }
-    else {
-        croak "Missing <tdrepo> configuration block in config\n";
+    my $test = $self->tdrepo->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to tdrepo Couchdb database: "
+          . $args->{couchdb_tdrepo}
+          . " Check configuration\n";
     }
 
-    # Undefined if no <internalmeta> config block
-    if ( exists $confighash{internalmeta} ) {
-        $self->{internalmeta} = new CIHM::Meta::REST::internalmeta(
-            server      => $confighash{internalmeta}{server},
-            database    => $confighash{internalmeta}{database},
-            type        => 'application/json',
-            conf        => $self->configpath,
-            clientattrs => { timeout => 3600 },
-        );
+    # WIPMETA
+    $self->{wipmeta} = restclient->new(
+        server      => $args->{couchdb_wipmeta},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->wipmeta->set_persistent_header( 'Accept' => 'application/json' );
+
+    $test = $self->wipmeta->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to wipmeta Couchdb database: "
+          . $args->{couchdb_wipmeta}
+          . " Check configuration\n";
     }
 
-    # Undefined if no <wipmeta> config block
-    if ( exists $confighash{wipmeta} ) {
-        $self->{wipmeta} = new CIHM::Meta::REST::wipmeta(
-            server      => $confighash{wipmeta}{server},
-            database    => $confighash{wipmeta}{database},
-            type        => 'application/json',
-            conf        => $self->configpath,
-            clientattrs => { timeout => 3600 },
-        );
+    # DIPSTAGING
+    $self->{dipstaging} = restclient->new(
+        server      => $args->{couchdb_dipstaging},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->dipstaging->set_persistent_header( 'Accept' => 'application/json' );
+
+    $test = $self->dipstaging->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to dipstaging Couchdb database: "
+          . $args->{couchdb_dipstaging}
+          . " Check configuration\n";
     }
 
-    # Undefined if no <dipstaging> config block
-    if ( exists $confighash{dipstaging} ) {
-        $self->{dipstaging} = new CIHM::Meta::REST::dipstaging(
-            server      => $confighash{dipstaging}{server},
-            database    => $confighash{dipstaging}{database},
-            type        => 'application/json',
-            conf        => $self->configpath,
-            clientattrs => { timeout => 3600 },
-        );
-    }
-
-    # Undefined if no <repoanalysis> config block
-    if ( exists $confighash{repoanalysis} ) {
-        $self->{repoanalysis} = new CIHM::Meta::REST::repoanalysis(
-            server      => $confighash{repoanalysis}{server},
-            database    => $confighash{repoanalysis}{database},
-            type        => 'application/json',
-            conf        => $self->configpath,
-            clientattrs => { timeout => 3600 },
-        );
-    }
-    $self->{dbs}     = [];
-    $self->{dbnames} = [];
-    if ( $self->dipstaging ) {
-        push @{ $self->dbs },     $self->dipstaging;
-        push @{ $self->dbnames }, "dipstaging";
-    }
-    if ( $self->internalmeta ) {
-        push @{ $self->dbs },     $self->internalmeta;
-        push @{ $self->dbnames }, "internalmeta";
-    }
-    if ( $self->wipmeta ) {
-        push @{ $self->dbs },     $self->wipmeta;
-        push @{ $self->dbnames }, "wipmeta";
-    }
-    if ( $self->repoanalysis ) {
-        push @{ $self->dbs },     $self->repoanalysis;
-        push @{ $self->dbnames }, "repoanalysis";
-    }
-    if ( !@{ $self->dbs } ) {
-        croak "No output databases defined\n";
-    }
-
-    # Undefined if no <swift> config block
-    if ( exists $confighash{swift} ) {
-        my %swiftopt = ( furl_options => { timeout => 120 } );
-        foreach ( "server", "user", "password", "account", "furl_options" ) {
-            if ( exists $confighash{swift}{$_} ) {
-                $swiftopt{$_} = $confighash{swift}{$_};
-            }
-        }
-        $self->{swift}       = CIHM::Swift::Client->new(%swiftopt);
-        $self->{swiftconfig} = $confighash{swift};
-    }
-    else {
-        croak "No <swift> configuration block in " . $self->configpath . "\n";
-    }
     return $self;
 }
 
@@ -145,11 +97,6 @@ sub new {
 sub args {
     my $self = shift;
     return $self->{args};
-}
-
-sub configpath {
-    my $self = shift;
-    return $self->{args}->{configpath};
 }
 
 sub log {
@@ -162,11 +109,6 @@ sub tdrepo {
     return $self->{tdrepo};
 }
 
-sub internalmeta {
-    my $self = shift;
-    return $self->{internalmeta};
-}
-
 sub wipmeta {
     my $self = shift;
     return $self->{wipmeta};
@@ -177,58 +119,24 @@ sub dipstaging {
     return $self->{dipstaging};
 }
 
-sub repoanalysis {
-    my $self = shift;
-    return $self->{repoanalysis};
-}
-
-sub swift {
-    my $self = shift;
-    return $self->{swift};
-}
-
-sub swiftconfig {
-    my $self = shift;
-    return $self->{swiftconfig};
-}
-
-sub repository {
-    my $self = shift;
-    return $self->swiftconfig->{repository};
-}
-
-sub container {
-    my $self = shift;
-    return $self->swiftconfig->{container};
-}
-
-sub dbs {
-    my $self = shift;
-    return $self->{dbs};
-}
-
-sub dbnames {
-    my $self = shift;
-    return $self->{dbnames};
-}
-
 sub since {
     my $self = shift;
-    return $self->{args}->{since};
+    return $self->args->{since};
 }
 
 sub localdocument {
     my $self = shift;
-    return $self->{args}->{localdocument};
+    return $self->args->{localdocument};
 }
 
 sub reposync {
     my ($self) = @_;
 
-    $self->log->info( "Synchronizing \"tdrepo\" data to: " . join ',',
-        @{ $self->dbnames } );
+    $self->log->info("Synchronizing");
 
-    my $newestaips = $self->tdrepo->get_newestaip(
+    #print Dumper ( $self->args );
+
+    my $newestaips = $self->get_newestaip(
         {
             date          => $self->since,
             localdocument => $self->localdocument
@@ -246,65 +154,180 @@ sub reposync {
         my $aip          = $thisaip->{key};
         my $manifestdate = $thisaip->{value}[0];
         my @repos        = @{ $thisaip->{value}[1] };
-        my %repo         = map { $_ => 1 } @repos;
 
-        my $updatedoc = {
-            "repos"        => encode_json( \@repos ),
-            "manifestdate" => $manifestdate
-        };
-        foreach my $db ( @{ $self->dbs } ) {
-            my $r = $db->update_basic_full( $aip, $updatedoc );
-            if ( $repo{'swift'} && exists $r->{METSmatch} && !$r->{METSmatch} )
+=pod
+        print Dumper (
+            { aip => $aip, manifest => $manifestdate, repos => \@repos } );
+=cut
+
+
+        # This encoding makes $updatedoc variables available as form data
+        $self->wipmeta->type("application/x-www-form-urlencoded");
+        my $url = "/_design/tdr/_update/basic/" . $aip;
+
+        my $res = $self->wipmeta->post(
+            $url,
             {
-                my $mets = $self->getMETS( $aip, $manifestdate );
-                if ($mets) {
-                    $updatedoc->{METS} = encode_json($mets);
-                    $db->update_basic_full( $aip, $updatedoc );
-                }
-            }
+                "repos"        => encode_json( \@repos ),
+                "manifestdate" => $manifestdate
+            },
+            { deserializer => 'application/json' }
+        );
+
+        if ( $res->code != 201 && $res->code != 200 ) {
+            warn "WIPMETA/$url POST return code: " . $res->code . "\n";
+        }
+
+        #  Post directly as JSON data (Different from other couch databases)
+        $self->dipstaging->type("application/json");
+        $url = "/_design/sync/_update/basic/" . $aip;
+        $res = $self->dipstaging->post(
+            $url,
+            {
+                "repos"        => \@repos,
+                "manifestdate" => $manifestdate
+            },
+            { deserializer => 'application/json' }
+        );
+
+        if ( $res->code != 201 && $res->code != 200 ) {
+            warn "DIPSTAGING/$url POST return code: " . $res->code . "\n";
         }
     }
 }
 
-sub getMETS {
-    my ( $self, $aip, $manifestdate ) = @_;
+sub get_newestaip {
+    my ( $self, $params ) = @_;
+    my ( $res, $code );
+    my $restq = {};
 
-    my @mets;
-
-    my $file = $aip . "/manifest-md5.txt";
-    my $r = $self->swift->object_get( $self->container, $file );
-    if ( $r->code == 200 ) {
-        my $swiftmanifestdate = $r->object_meta_header('File-Modified');
-        if ( $swiftmanifestdate eq $manifestdate ) {
-            my @metadata = grep {
-/\sdata\/(sip\/data|revisions\/[^\/\.]*\/data|revisions\/[^\/]*\.partial)\/metadata\.xml$/
-            } split( /\n/gm, $r->content );
-            my @mets;
-            my %metshash;
-            foreach my $md (@metadata) {
-                my ( $md5, $path ) = split( ' ', $md );
-                $metshash{$path} = $md5;
-            }
-            foreach my $path ( sort keys %metshash ) {
-                push @mets, { md5 => $metshash{$path}, path => $path };
-            }
-            $self->log->info(
-                "Retrieved " . scalar(@mets) . " manifests for $aip" );
-            return \@mets;
+    if (   ( !$params->{date} || $params->{date} ne 'all' )
+        && ( $params->{date} || $params->{localdocument} ) )
+    {
+        my $recentuids = $self->get_recent_adddate_keys($params);
+        if ( $recentuids && scalar(@$recentuids) ) {
+            $restq->{keys} = $recentuids;
         }
         else {
-            $self->log->error("$swiftmanifestdate from Swift != $manifestdate");
+            # We asked for items since a date and got none, so do nothing else
             return;
         }
     }
-    elsif ( $r->code == 404 ) {
-        $self->log->info("Not yet found: $file");
-        return;
+
+    # TODO: lists won't work in future versions of CouchDB
+    $self->tdrepo->type("application/json");
+    my $url = "/_design/tdr/_list/newtome/tdr/newestaip?group=true";
+    $res = $self->tdrepo->post( $url, $restq,
+        { deserializer => 'application/json' } );
+    if ( $res->code == 200 ) {
+        if ( defined $res->data->{rows} ) {
+            return $res->data->{rows};
+        }
+        else {
+            return [];
+        }
     }
     else {
-        $self->log->error( "Accessing Swift object $file returned: "
-              . $r->code . " : "
-              . $r->message );
+        warn $self->tdrepo->server
+          . "$url GET return code: "
+          . $res->code . "\n";
+        return;
+    }
+}
+
+sub get_recent_adddate_keys {
+    my ( $self, $params ) = @_;
+    my ( $res, $code, $data, $recentdate, $docrev );
+
+    my $startkey      = "[]";
+    my $date          = $params->{date};
+    my $localdocument = $params->{localdocument};
+
+    # If we have a local document, grab the previous values
+    if ($localdocument) {
+        $self->tdrepo->type("application/json");
+        $res = $self->tdrepo->get( "/_local/" . $localdocument,
+            {}, { deserializer => 'application/json' } );
+        if ( $res->code == 200 ) {
+            $docrev   = $res->data->{"_rev"};
+            $startkey = to_json( $res->data->{"latestkey"} );
+        }
+    }
+
+    # A $data parameter will override the $startkey from a local document
+    if ($date) {
+        if ( $date =~ /(\d\d\d\d)(\-\d\d|)(\-\d\d|)(T\d\d|)/ ) {
+
+            # Accepts an rfc3339 style date, and grabs the yyyy-mm-ddThh part
+            # The month, day, and hour are optional.
+            my $year  = $1;
+            my $month = substr( $2 || "000", 1 );
+            my $day   = substr( $3 || "000", 1 );
+            my $hour  = substr( $4 || "000", 1 );
+            $startkey = sprintf( "[\"%04d\",\"%02d\",\"%02d\",\"%02d\"]",
+                $year, $month, $day, $hour );
+        }
+        elsif ( $date =~ /(\d+)\s*hours/ ) {
+
+            # Accepts a number of hours to be subtracted from current GMT time
+            my $dt = DateTime->now()->subtract( hours => $1 );
+            $startkey = sprintf( "[\"%04d\",\"%02d\",\"%02d\",\"%02d\"]",
+                $dt->year(), $dt->month(), $dt->day(), $dt->hour() );
+        }
+        else {
+            warn "get_recent_adddate_keys() - invalid {date}=$date\n";
+
+            # Didn't provide valid date, so return null
+            return;
+        }
+    }
+
+    # If we have a local document, grab the currently highest date key,
+    # and store for next run.
+    if ($localdocument) {
+        $res = $self->tdrepo->get(
+            "/_design/tdr/_view/adddate",
+            { reduce => 'false', descending => 'true', limit => '1' },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code == 200 ) {
+            if ( $res->data->{rows} && $res->data->{rows}[0]->{key} ) {
+                my $latestkey = $res->data->{rows}[0]->{key};
+                pop(@$latestkey);    # pop off the (alphabetically sorted) AIP
+
+                my $newdoc = { latestkey => $latestkey };
+                if ($docrev) {
+                    $newdoc->{"_rev"} = $docrev;
+                }
+
+                $self->tdrepo->type("application/json");
+                $res =
+                  $self->tdrepo->put( "/_local/" . $localdocument, $newdoc );
+                if ( $res->code != 201 && $res->code != 200 ) {
+                    warn "_local/$localdocument PUT return code: "
+                      . $res->code . "\n";
+                }
+            }
+        }
+    }
+
+    # TODO: lists won't work in future versions of CouchDB
+    my $url = "/_design/tdr/_list/itemdatekey/tdr/adddate";
+    $res = $self->tdrepo->get(
+        $url,
+        { reduce => 'false', startkey => $startkey, endkey => '[{}]' },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code == 200 ) {
+
+        # If the same AIP is modified multiple times within the time given,
+        # it would otherwise show up multiple times..
+        use List::MoreUtils qw(uniq);
+        my @uniqaip = uniq( @{ $res->data } );
+        return ( \@uniqaip );
+    }
+    else {
+        warn "$url GET return code: " . $res->code . "\n";
         return;
     }
 }
