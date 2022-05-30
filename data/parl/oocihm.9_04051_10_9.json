@@ -1,0 +1,11 @@
+{
+  "session": ["03-4"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 3e Législature, 4e Session : vol. 9",
+  "pubmin": "1877-02-08",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"],
+  "node": [["fra", "c", "sessional", "03-4", 9]],
+  "pubmax": "1877-04-28",
+  "type": "sessional"
+}

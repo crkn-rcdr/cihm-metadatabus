@@ -1,0 +1,11 @@
+{
+  "session": ["17-4"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 17th Parliament, 4th Session : Vol. 71",
+  "pubmin": "1932-10-06",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "pubmax": "1933-05-27",
+  "node": [["eng", "c", "journals", "17-4", 1]],
+  "type": "journals"
+}

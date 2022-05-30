@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["01-3"],
+  "pubmin": "1870-02-15",
+  "label": "Documents parlementaires, 1e Législature, 3e Session : vol. 3",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "01-3", 3]],
+  "pubmax": "1870-05-12"
+}

@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 T7 A1 no.17-35",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Transport, vol. 2 no. 17-35 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des transports, vol. 2 no. 17-35",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 178],
+    ["fra", "c", "committees", "34-2", 181]
+  ]
+}

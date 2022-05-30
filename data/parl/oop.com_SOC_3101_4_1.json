@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["31-1"],
+  "pubmin": "1979-10-09",
+  "callNumber": "1979 G32 A1",
+  "label": "Senate Committees, 31st Parliament, 1st Session : Special Committee on the Northern Pipeline, vol. 1 = Comités du Sénat, 31e Législature, 1re Session : Comité spécial sur le pipe-line du Nord, vol. 1",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "s", "committees", "31-1", 6],
+    ["fra", "s", "committees", "31-1", 6]
+  ]
+}

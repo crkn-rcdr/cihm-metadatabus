@@ -1,0 +1,11 @@
+{
+  "session": ["07-5"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 7e Législature, 5e Session : vol. 9",
+  "pubmin": "1895-04-18",
+  "primeMinisters": "Bowell, Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "sessional", "07-5", 9]],
+  "pubmax": "1895-07-22",
+  "type": "sessional"
+}

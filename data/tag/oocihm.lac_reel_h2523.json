@@ -1,0 +1,42 @@
+{
+  "1535": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Landry, P."],
+    "tagDescription": ["Landry, P. - Lavac"]
+  },
+  "1135": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Landry, L."],
+    "tagDescription": ["Landry, L. - Landry, P."]
+  },
+  "1915": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Laval"],
+    "tagDescription": ["Laval - Leblanc, A."]
+  },
+  "2207": {
+    "tagDescription": ["Leblanc, B. - Leblanc, F."],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Leblanc, B."]
+  },
+  "413": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Laborde, C."],
+    "tagDescription": ["Laborde, C. - Landrie, D."]
+  },
+  "558": {
+    "tagName": ["Landrie, E."],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagDescription": ["Landrie, E. - Landry, L."]
+  },
+  "123": {
+    "tagDescription": ["Herbert, V. - Laborde, C."],
+    "tagName": ["Herbert, V."],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"]
+  },
+  "13": {
+    "tagDescription": ["Herbert, Marie - Herbert, U."],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Herbert, Marie"]
+  }
+}

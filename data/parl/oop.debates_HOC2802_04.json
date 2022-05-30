@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 28th Parliament, 2nd Session : Vol. 4",
+  "pubmin": "1969-10-23",
+  "session": ["28-2"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "28-2", 4]],
+  "pubmax": "1970-10-07",
+  "type": "debates",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

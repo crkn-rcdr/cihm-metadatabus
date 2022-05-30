@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["06-4"],
+  "pubmin": "1890-01-16",
+  "label": "Journaux de la Chambre des communes, 6e Législature, 4e Session : Vol. 24",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["fra", "c", "journals", "06-4", 1]],
+  "pubmax": "1890-05-16"
+}

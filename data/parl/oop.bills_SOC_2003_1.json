@@ -1,0 +1,11 @@
+{
+  "session": ["20-3"],
+  "language": ["eng"],
+  "callNumber": "KE72 C38 20-3 Bill B-",
+  "label": "Senate Bills, 20th Parliament, 3rd Session : B-C13",
+  "pubmin": "1947-01-30",
+  "chamber": ["s"],
+  "pubmax": "1947-07-17",
+  "node": [["eng", "s", "bills", "20-3", 1]],
+  "type": "bills"
+}

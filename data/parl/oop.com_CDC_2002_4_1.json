@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "20-2", 6]],
+  "pubmax": "1946-08-31",
+  "language": ["fra"],
+  "session": ["20-2"],
+  "pubmin": "1946-03-14",
+  "label": "Comités de la Chambre des communes, 20e Législature, 2e Session : Comité permanent des chemins de fer, canaux et télégraphes, vol. 1",
+  "callNumber": "1946 C4 A4"
+}

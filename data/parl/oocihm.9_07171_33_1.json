@@ -1,0 +1,11 @@
+{
+  "pubmin": "1898-02-03",
+  "label": "House of Commons Journals, 8th Parliament, 3rd Session : Vol. 33",
+  "language": ["eng"],
+  "session": ["08-3"],
+  "type": "journals",
+  "pubmax": "1898-06-13",
+  "node": [["eng", "c", "journals", "08-3", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

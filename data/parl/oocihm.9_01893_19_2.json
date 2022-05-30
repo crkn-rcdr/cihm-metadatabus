@@ -1,0 +1,10 @@
+{
+  "session": ["05-3"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 5e Législature, 3e Session : Vol. 19 App.",
+  "pubmin": "1885-01-29",
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "05-3", 2]],
+  "pubmax": "1885-07-20",
+  "type": "journals"
+}

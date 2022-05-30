@@ -1,0 +1,15 @@
+{
+  "session": ["28-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 28th Parliament, 2nd Session : Standing Committee on Justice and Legal Affairs, vol. 1 no. 1-15 = Comités de la Chambre des communes, 28e Législature, 2e Session : Comité permanent de la justice et des questions juridiques, vol. 1 no. 1-15",
+  "callNumber": "1969/70 J8 A1 v.1",
+  "pubmin": "1969-10-23",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "28-2", 28],
+    ["fra", "c", "committees", "28-2", 27]
+  ],
+  "pubmax": "1970-10-07",
+  "type": "committees"
+}

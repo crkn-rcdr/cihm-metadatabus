@@ -1,0 +1,14 @@
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "s", "sproc", "32-1", 1],
+    ["fra", "s", "sproc", "32-1", 1]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "callNumber": "J103 H4 1980/83 no. 1-40 c.2",
+  "label": "Senate Minutes of Proceedings, 32nd Parliament, 1st Session : 1-40 = Procès-verbaux du Sénat, 32e Législature, 1re Session : 1-40"
+}

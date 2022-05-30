@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1949-12-10",
+  "node": [["fra", "s", "journals", "21-1", 1]],
+  "type": "journals",
+  "session": ["21-1"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 21e Législature, 1re Session : Vol. 91",
+  "pubmin": "1949-09-15"
+}

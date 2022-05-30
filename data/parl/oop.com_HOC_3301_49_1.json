@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-1", 103],
+    ["fra", "c", "committees", "33-1", 101]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Miscellaneous Private Bills and Standing Orders, vol. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des projets de loi privés en général et du Règlement, vol. 1",
+  "callNumber": "33-1 M55 A1",
+  "pubmin": "1984-11-05"
+}

@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Journals, 8th Parliament, 1st Session : Vol. 31",
+  "pubmin": "1896-08-19",
+  "session": ["08-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "08-1", 1]],
+  "pubmax": "1896-10-05",
+  "type": "journals",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

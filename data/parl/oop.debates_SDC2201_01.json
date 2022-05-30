@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1954-06-26",
+  "node": [["fra", "s", "debates", "22-1", 1]],
+  "type": "debates",
+  "session": ["22-1"],
+  "language": ["fra"],
+  "label": "Débats du Sénat, 22e Législature, 1re Session : Vol. 1",
+  "pubmin": "1953-11-12"
+}

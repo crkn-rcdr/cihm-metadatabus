@@ -1,0 +1,12 @@
+{
+  "session": ["16-4"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 16th Parliament, 4th Session : Select Standing Committee on Banking and Commerce, vol. 1",
+  "callNumber": "1930 B3 A1",
+  "pubmin": "1930-02-20",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "16-4", 2]],
+  "pubmax": "1930-05-30",
+  "type": "committees"
+}

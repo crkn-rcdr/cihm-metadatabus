@@ -1,0 +1,12 @@
+{
+  "pubmin": "1892-02-25",
+  "callNumber": "J103 H44 1892",
+  "label": "Procès-verbaux de la Chambre des communes, 7e Législature, 2e Session : 1-86",
+  "language": ["fra"],
+  "session": ["07-2"],
+  "type": "cproc",
+  "pubmax": "1892-07-09",
+  "node": [["fra", "c", "cproc", "07-2", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Abbott, John Joseph Caldwell"
+}

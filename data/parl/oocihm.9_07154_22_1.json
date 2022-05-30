@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "06-2", 1]],
+  "pubmax": "1888-05-22",
+  "type": "journals",
+  "session": ["06-2"],
+  "language": ["eng"],
+  "label": "Senate Journals, 6th Parliament, 2nd Session : Vol. 22",
+  "pubmin": "1888-02-23"
+}

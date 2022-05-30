@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 35th Parliament, 1st Session : House of Commons Debates, 35th Parliament, 1st Session, vol. 10",
+  "pubmin": "1994-01-17",
+  "session": ["35-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "35-1", 10]],
+  "pubmax": "1996-02-02",
+  "type": "debates",
+  "primeMinisters": "Chrétien, Joseph Jacques Jean",
+  "chamber": ["c"]
+}

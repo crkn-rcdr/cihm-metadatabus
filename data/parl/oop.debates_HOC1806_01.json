@@ -1,0 +1,14 @@
+{
+  "pubmin": "1940-01-25",
+  "label": "House of Commons Debates, 18th Parliament, 6th Session, 19th Parliament, 1st Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["18-6", "19-1"],
+  "type": "debates",
+  "node": [
+    ["eng", "c", "debates", "18-6", 1],
+    ["eng", "c", "debates", "19-1", 1]
+  ],
+  "pubmax": "1940-11-05",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

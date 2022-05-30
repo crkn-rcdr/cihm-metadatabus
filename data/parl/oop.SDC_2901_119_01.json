@@ -1,0 +1,10 @@
+{
+  "language": ["fra"],
+  "session": ["29-1"],
+  "pubmin": "1973-01-04",
+  "label": "Journaux du Sénat, 29e Législature, 1re Session : Vol. 119",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1974-02-26",
+  "node": [["fra", "s", "journals", "29-1", 1]]
+}

@@ -1,0 +1,14 @@
+{
+  "1317": {
+    "tagDate": ["[1837-05-01T00:00:00.000Z TO 1837-06-28T23:59:59.999Z]"],
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"]
+  },
+  "399": {
+    "tagDate": ["[1837-03-01T00:00:00.000Z TO 1837-04-28T23:59:59.999Z]"],
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"]
+  },
+  "10": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["[1837-01-01T00:00:00.000Z TO 1837-02-28T23:59:59.999Z]"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee B on Bill C-39, an Act to amend the Canada Pension Plan, the Family Allowances Act and the Old Age Security Act, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif B sur le projet de loi C-39, Loi modifiant le Régime de pensions du Canada, la Loi sur les allocations familiales et la Loi sur la sécurité de la vieillesse, vol. 1 no. 1",
+  "callNumber": "34-3 C253 A1 no.1",
+  "pubmin": "1991-05-13",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "34-3", 22],
+    ["fra", "c", "committees", "34-3", 178]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees"
+}

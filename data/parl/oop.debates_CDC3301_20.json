@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "33-1", 11]],
+  "pubmax": "1986-08-28",
+  "type": "debates",
+  "session": ["33-1"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 33e Législature, 1re Session : Index",
+  "pubmin": "1984-11-05"
+}

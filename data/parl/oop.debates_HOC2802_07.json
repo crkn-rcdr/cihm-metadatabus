@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "28-2", 7]],
+  "pubmax": "1970-10-07",
+  "language": ["eng"],
+  "session": ["28-2"],
+  "pubmin": "1969-10-23",
+  "label": "House of Commons Debates, 28th Parliament, 2nd Session : Vol. 7"
+}

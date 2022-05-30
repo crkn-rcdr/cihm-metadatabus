@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["29-2"],
+  "pubmin": "1974-02-27",
+  "label": "House of Commons Votes and Proceedings, 29th Parliament, 2nd Session : 1-50",
+  "callNumber": "J103 H41 1974 c.2",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["eng", "c", "cproc", "29-2", 1]],
+  "pubmax": "1974-05-09"
+}

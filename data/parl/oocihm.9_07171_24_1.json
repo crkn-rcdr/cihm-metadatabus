@@ -1,0 +1,11 @@
+{
+  "session": ["06-4"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 6th Parliament, 4th Session : Vol. 24",
+  "pubmin": "1890-01-16",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "journals", "06-4", 1]],
+  "pubmax": "1890-05-16",
+  "type": "journals"
+}

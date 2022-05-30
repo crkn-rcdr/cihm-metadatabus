@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 139],
+    ["fra", "c", "committees", "34-3", 143]
+  ],
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-3 J83 A1 no.70-89",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Justice and Solicitor General, vol. 4 no. 70-89 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de la justice et Solliciteur général, vol. 4 no. 70-89",
+  "pubmin": "1991-05-13"
+}

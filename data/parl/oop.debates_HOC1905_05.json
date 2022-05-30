@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "19-5", 5]],
+  "pubmax": "1945-01-31",
+  "type": "debates",
+  "session": ["19-5"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 19th Parliament, 5th Session : Vol. 5",
+  "pubmin": "1944-01-27"
+}

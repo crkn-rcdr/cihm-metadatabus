@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "21-2", 2]],
+  "pubmax": "1950-06-30",
+  "type": "debates",
+  "session": ["21-2"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 21e Législature, 2e Session : Vol. 2",
+  "pubmin": "1950-02-16"
+}

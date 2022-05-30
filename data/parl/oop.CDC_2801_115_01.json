@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "journals",
+  "pubmax": "1969-10-22",
+  "node": [["fra", "c", "journals", "28-1", 1]],
+  "language": ["fra"],
+  "session": ["28-1"],
+  "pubmin": "1968-09-12",
+  "label": "Journaux de la Chambre des communes, 28e Législature, 1re Session : Vol. 115"
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["28-2"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 28e Législature, 2e Session : Vol. 1",
+  "pubmin": "1969-10-23",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "28-2", 1]],
+  "pubmax": "1970-10-07",
+  "type": "debates"
+}

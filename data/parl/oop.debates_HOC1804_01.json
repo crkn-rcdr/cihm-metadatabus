@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1939-06-03",
+  "node": [["eng", "c", "debates", "18-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmin": "1939-01-12",
+  "label": "House of Commons Debates, 18th Parliament, 4th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["18-4"]
+}

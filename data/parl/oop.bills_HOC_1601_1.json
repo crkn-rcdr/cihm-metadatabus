@@ -1,0 +1,12 @@
+{
+  "session": ["16-1"],
+  "language": ["eng"],
+  "label": "House of Commons Bills, 16th Parliament, 1st Session : 2-145",
+  "callNumber": "KE72 C36 16-1 2-145",
+  "pubmin": "1926-12-09",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "bills", "16-1", 1]],
+  "pubmax": "1927-04-14",
+  "type": "bills"
+}

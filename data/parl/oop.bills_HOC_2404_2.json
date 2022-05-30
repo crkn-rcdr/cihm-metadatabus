@@ -1,0 +1,12 @@
+{
+  "type": "bills",
+  "pubmax": "1961-09-29",
+  "node": [["eng", "c", "bills", "24-4", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmin": "1960-11-17",
+  "callNumber": "KE72 C36 24-4 C86-C132",
+  "label": "House of Commons Bills, 24th Parliament, 4th Session : C86-C132",
+  "language": ["eng"],
+  "session": ["24-4"]
+}

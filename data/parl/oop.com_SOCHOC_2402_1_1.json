@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1959-07-18",
+  "node": [
+    ["eng", "c", "committees", "24-2", 5],
+    ["eng", "s", "committees", "24-2", 4]
+  ],
+  "chamber": ["c", "s"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmin": "1959-01-15",
+  "callNumber": "1959 I53 A1",
+  "label": "Joint Committees, 24th Parliament, 2nd Session : Joint Committee on Indian Affairs, vol. 1",
+  "language": ["eng"],
+  "session": ["24-2"]
+}

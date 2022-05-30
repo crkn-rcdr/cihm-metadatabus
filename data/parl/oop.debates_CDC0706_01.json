@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1896-04-23",
+  "node": [["fra", "c", "debates", "07-6", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Bowell, Mackenzie",
+  "pubmin": "1896-01-02",
+  "label": "Débats de la Chambre des communes, 7e Législature, 6e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["07-6"]
+}

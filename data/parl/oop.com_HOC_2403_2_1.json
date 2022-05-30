@@ -1,0 +1,12 @@
+{
+  "callNumber": "1960 B3 A1",
+  "label": "House of Commons Committees, 24th Parliament, 3rd Session : Standing Committee on Banking and Commerce, vol. 1",
+  "pubmin": "1960-01-14",
+  "session": ["24-3"],
+  "language": ["eng"],
+  "pubmax": "1960-08-10",
+  "node": [["eng", "c", "committees", "24-3", 2]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

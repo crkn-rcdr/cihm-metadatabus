@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1948-06-30",
+  "node": [["fra", "s", "journals", "20-4", 1]],
+  "language": ["fra"],
+  "session": ["20-4"],
+  "pubmin": "1947-12-05",
+  "label": "Journaux du Sénat, 20e Législature, 4e Session : Vol. 89"
+}

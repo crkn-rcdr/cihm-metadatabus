@@ -1,0 +1,13 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "33-2", 75]],
+  "pubmax": "1988-10-01",
+  "type": "committees",
+  "session": ["33-2"],
+  "language": ["eng"],
+  "reportTitle": ["The Canada-United States Free Trade Agreement"],
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on External Affairs and International Trade, Fourth Report",
+  "callNumber": "33-2 E93 A122",
+  "pubmin": "1986-09-30"
+}

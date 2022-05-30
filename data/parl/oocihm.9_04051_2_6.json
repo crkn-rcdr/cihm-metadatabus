@@ -1,0 +1,11 @@
+{
+  "label": "Documents parlementaires, 1e Législature, 2e Session : vol. 6",
+  "pubmin": "1869-04-15",
+  "session": ["01-2"],
+  "language": ["fra"],
+  "pubmax": "1869-06-22",
+  "node": [["fra", "c", "sessional", "01-2", 6]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

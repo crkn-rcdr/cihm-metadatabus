@@ -1,0 +1,14 @@
+{
+  "pubmin": "1966-01-18",
+  "callNumber": "1966/67 G4 A12 Z5 A35 1974f",
+  "label": "Comités du Sénat, 27e Législature, 1re Session : Comité spécial d'enquête sur la gérontologie, Rapport",
+  "language": ["fra"],
+  "reportTitle": [
+    "Rapport sur les suites données aux recommendations du comité spécial du Sénat de la gérontologie, 1966"
+  ],
+  "session": ["27-1"],
+  "type": "committees",
+  "pubmax": "1967-05-08",
+  "node": [["fra", "s", "committees", "27-1", 10]],
+  "chamber": ["s"]
+}

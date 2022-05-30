@@ -1,0 +1,46 @@
+{
+  "1033": {
+    "tagDescription": ["Acts, Bills etc"],
+    "tagDate": ["1913-01-01T00:00:00.000Z"]
+  },
+  "1357": {
+    "tagDate": ["1914-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Acts, Bills etc -Parliamentary papers to and from Colonial Office"
+    ]
+  },
+  "688": {
+    "tagDate": ["1912-01-01T00:00:00.000Z"],
+    "tagDescription": ["Ibid"]
+  },
+  "274": {
+    "tagDescription": ["Acts, Bills, Statutes etc."],
+    "tagDate": ["1911-01-01T00:00:00.000Z"]
+  },
+  "271": { "tagDescription": ["Missing / Manque"] },
+  "509": {
+    "tagDescription": ["Acts, Bills, Statutes etc."],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1911-12-31T23:59:59.999Z]"]
+  },
+  "1908": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["1915-01-01T00:00:00.000Z"]
+  },
+  "1745": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["1914-01-01T00:00:00.000Z"]
+  },
+  "150": {
+    "tagDescription": [
+      "Printed returns",
+      "Returns of Most favoured Nations Clauses in existing Treaties of Commerce and Navigation between Great Britain and Foreign Powers"
+    ],
+    "tagDate": ["[1908-12-31T23:59:59.999Z TO 1910-01-01T00:00:00.000Z]"]
+  },
+  "269": { "tagDescription": ["Missing / Manque"] },
+  "268": { "tagDescription": ["Missing / Manque"] },
+  "1578": {
+    "tagDescription": ["Acts, Bills, Statutes etc,"],
+    "tagDate": ["1914-01-01T00:00:00.000Z"]
+  }
+}

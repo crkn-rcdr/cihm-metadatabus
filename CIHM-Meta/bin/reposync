@@ -1,0 +1,61 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Sys::Hostname;
+use Getopt::Long;
+use CIHM::Meta::RepoSync;
+use Fcntl qw(:DEFAULT :flock);
+
+my $lockfile = '/var/lock/tdr/reposync';
+$lockfile = $ENV{reposync_lockfile} if ( exists $ENV{reposync_lockfile} );
+
+my $since;
+$since = $ENV{reposync_since} if ( exists $ENV{reposync_since} );
+
+my $localdocument = "reposync." . hostname;
+$localdocument = $ENV{reposync_localdocument}
+  if ( exists $ENV{reposync_localdocument} );
+
+my $couchdb_tdrepo;
+$couchdb_tdrepo = $ENV{COUCHDB_TDREPO}
+  if ( exists $ENV{COUCHDB_TDREPO} );
+
+my $couchdb_dipstaging;
+$couchdb_dipstaging = $ENV{COUCHDB_DIPSTAGING}
+  if ( exists $ENV{COUCHDB_DIPSTAGING} );
+
+my $couchdb_wipmeta;
+$couchdb_wipmeta = $ENV{COUCHDB_WIPMETA}
+  if ( exists $ENV{COUCHDB_WIPMETA} );
+
+#  Since can also take date format like "48hours" and "2016-01-01
+GetOptions(
+    'lockfile:s'           => \$lockfile,
+    'since:s'              => \$since,
+    'localdocument:s'      => \$localdocument,
+    'couchdb_tdrepo:s'     => \$couchdb_tdrepo,
+    'couchdb_dipstaging:s' => \$couchdb_dipstaging,
+    'couchdb_wipmeta:s'    => \$couchdb_wipmeta,
+);
+
+# Only allow one instance to run at a time..
+sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
+  or die "can't open lockfile=$lockfile: $!\n";
+flock( FH, LOCK_EX | LOCK_NB )
+  or exit 0;
+
+CIHM::Meta::RepoSync->new(
+    {
+        since              => $since,
+        localdocument      => $localdocument,
+        couchdb_tdrepo     => $couchdb_tdrepo,
+        couchdb_dipstaging => $couchdb_dipstaging,
+        couchdb_wipmeta    => $couchdb_wipmeta,
+    }
+)->reposync;
+
+1;
+__END__

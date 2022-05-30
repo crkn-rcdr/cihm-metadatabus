@@ -1,0 +1,1562 @@
+{
+  "31": {
+    "tagDescription": ["Immigration"],
+    "tagDate": ["1881-10-21T00:00:00.000Z"],
+    "tagPerson": ["Hill, Wardrop M."]
+  },
+  "659": {
+    "tagDate": ["1886-10-05T00:00:00.000Z"],
+    "tagPerson": ["Robertson, W. P."]
+  },
+  "267": {
+    "tagDate": ["1882-11-20T00:00:00.000Z"],
+    "tagPerson": ["Blackadder, Annie L. M."],
+    "tagDescription": ["Presbyterian church - missions"]
+  },
+  "326": {
+    "tagDate": ["1883-03-09T00:00:00.000Z"],
+    "tagPerson": ["McLeod, Colin"],
+    "tagDescription": ["Queen's University entrance"]
+  },
+  "1128": {
+    "tagPerson": ["Stuart, W. T."],
+    "tagDate": ["1889-06-25T00:00:00.000Z"],
+    "tagDescription": ["Ontario universities"]
+  },
+  "496": {
+    "tagDate": ["1884-10-05T00:00:00.000Z"],
+    "tagPerson": ["Lansdowne, Lord"],
+    "tagDescription": ["Re. Chinese"]
+  },
+  "147": {
+    "tagDescription": ["Ireland - education Personal"],
+    "tagDate": ["1882-03-13T00:00:00.000Z"],
+    "tagPerson": ["Everett, J. D."]
+  },
+  "1083": {
+    "tagDescription": ["Mansfield College"],
+    "tagDate": ["1894-04-01T00:00:00.000Z"],
+    "tagPerson": ["Fairbairn, A. M. Dr."]
+  },
+  "903": {
+    "tagPerson": ["Dupuis, N. F."],
+    "tagDate": ["1888-05-10T00:00:00.000Z"],
+    "tagDescription": ["Queen's University"]
+  },
+  "592": {
+    "tagDate": ["1885-11-08T00:00:00.000Z"],
+    "tagPerson": ["Monro, A."],
+    "tagDescription": ["Personal"]
+  },
+  "235": {
+    "tagDescription": ["Queen's University - appointments"],
+    "tagDate": ["1882-09-13T00:00:00.000Z"],
+    "tagPerson": ["Bruce, A. B."]
+  },
+  "1013": {
+    "tagDescription": ["Queen's University - subscription"],
+    "tagDate": ["1888-12-23T00:00:00.000Z"],
+    "tagPerson": ["Rathbun, E. W."]
+  },
+  "353": {
+    "tagDescription": ["Medical college for women"],
+    "tagPerson": ["Trout, Jenny K."],
+    "tagDate": ["1883-05-12T00:00:00.000Z"]
+  },
+  "1094": {
+    "tagDate": ["1889-04-17T00:00:00.000Z"],
+    "tagPerson": ["Proudfoot, John J. A."],
+    "tagDescription": ["Personal"]
+  },
+  "1132": {
+    "tagDescription": [
+      "Re. editorials in the Toronto Mail and the Toronto World"
+    ],
+    "tagPerson": ["Smith, Goldwin"],
+    "tagDate": ["1889-07-03T00:00:00.000Z"]
+  },
+  "552": {
+    "tagDescription": ["College confederation"],
+    "tagDate": ["1885-02-07T00:00:00.000Z"],
+    "tagPerson": ["Platt, J. M."]
+  },
+  "742": {
+    "tagDescription": ["Canadian Institute"],
+    "tagPerson": ["Suisson, W. H. van der"],
+    "tagDate": ["1887-02-18T00:00:00.000Z"]
+  },
+  "207": {
+    "tagPerson": ["MacGregor, J. G."],
+    "tagDate": ["1882-06-22T00:00:00.000Z"],
+    "tagDescription": ["Queen's University"]
+  },
+  "811": {
+    "tagPerson": ["Ross, George W. Hon."],
+    "tagDate": ["1887-08-17T00:00:00.000Z"],
+    "tagDescription": ["Ontario schools"]
+  },
+  "735": {
+    "tagDescription": ["Teacher qualifications"],
+    "tagPerson": ["Educations Dept. Ontario"],
+    "tagDate": ["1887-01-27T00:00:00.000Z"]
+  },
+  "905": {
+    "tagPerson": ["Gordon, Dr."],
+    "tagDate": ["1888-07-11T00:00:00.000Z"],
+    "tagDescription": ["Personal"]
+  },
+  "671": {
+    "tagDate": ["1886-10-22T00:00:00.000Z"],
+    "tagPerson": ["Robertson, W. P."]
+  },
+  "768": {
+    "tagPerson": ["Lloyd, Arthur"],
+    "tagDate": ["1887-04-28T00:00:00.000Z"],
+    "tagDescription": ["Presbyterian church - missions"]
+  },
+  "378": {
+    "tagPerson": ["Smith, Thomas G."],
+    "tagDate": ["1883-06-06T00:00:00.000Z"],
+    "tagDescription": ["Presbyterian church - St. John N.B."]
+  },
+  "1087": {
+    "tagDescription": ["Jesuit Estates"],
+    "tagDate": ["1889-04-03T00:00:00.000Z"],
+    "tagPerson": ["Grant, G. M."]
+  },
+  "560": {
+    "tagDescription": ["College confederation"],
+    "tagPerson": ["Wood, John F."],
+    "tagDate": ["1885-02-09T00:00:00.000Z"]
+  },
+  "395": {
+    "tagDescription": ["Queen's University entrance"],
+    "tagPerson": ["McKenzie, Daniel D."],
+    "tagDate": ["1883-08-14T00:00:00.000Z"]
+  },
+  "68": {
+    "tagPerson": ["Pollok, Allan"],
+    "tagDate": ["1882-01-09T00:00:00.000Z"],
+    "tagDescription": ["Queen's University"]
+  },
+  "1042": {
+    "tagDescription": ["Imperial Federation League"],
+    "tagDate": ["1889-02-19T00:00:00.000Z"],
+    "tagPerson": ["Nash, Edward"]
+  },
+  "38": {
+    "tagDescription": ["Queen's University entrance"],
+    "tagPerson": ["Dow, James"],
+    "tagDate": ["1881-11-16T00:00:00.000Z"]
+  },
+  "515": {
+    "tagDescription": ["College confederation"],
+    "tagPerson": ["Crombie, John"],
+    "tagDate": ["1885-02-04T00:00:00.000Z"]
+  },
+  "1017": {
+    "tagPerson": ["Burwash, N."],
+    "tagDate": ["1888-12-28T00:00:00.000Z"],
+    "tagDescription": ["Ontario universities"]
+  },
+  "761": {
+    "tagDate": ["1887-04-13T00:00:00.000Z"],
+    "tagPerson": ["Eby, C. S."],
+    "tagDescription": ["Presbyterian church - missions"]
+  },
+  "233": {
+    "tagDate": ["1882-08-14T00:00:00.000Z"],
+    "tagPerson": ["Waters, John F."],
+    "tagDescription": ["University appointment"]
+  },
+  "355": {
+    "tagDescription": ["Medical college for women"],
+    "tagPerson": ["Trout, Jenny K."],
+    "tagDate": ["1883-05-17T00:00:00.000Z"]
+  },
+  "916": {
+    "tagDate": ["1888-07-12T00:00:00.000Z"],
+    "tagPerson": ["Wallace, James"]
+  },
+  "678": {
+    "tagDescription": ["Queen's University"],
+    "tagPerson": ["Mowat, Oliver Hon."],
+    "tagDate": ["1886-11-05T00:00:00.000Z"]
+  },
+  "643": {
+    "tagDescription": ["Indian missions"],
+    "tagPerson": ["Duncan, w."],
+    "tagDate": ["1886-04-16T00:00:00.000Z"]
+  },
+  "54": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1881-12-29T00:00:00.000Z"],
+    "tagPerson": ["Pollok, Allan"]
+  },
+  "805": {
+    "tagDate": ["1887-05-02T00:00:00.000Z"],
+    "tagPerson": ["Stefaun, G. W."]
+  },
+  "157": {
+    "tagDate": ["1882-03-20T00:00:00.000Z"],
+    "tagPerson": ["Laing, John"],
+    "tagDescription": ["Presbyterian church"]
+  },
+  "285": {
+    "tagPerson": ["Smith, Gordon"],
+    "tagDate": ["1883-01-01T00:00:00.000Z"],
+    "tagDescription": ["Re. editorial pertaining to religious colleges"]
+  },
+  "567": {
+    "tagPerson": ["Murray, Robert"],
+    "tagDate": ["1885-02-27T00:00:00.000Z"],
+    "tagDescription": ["Dalhousie U. and King's College"]
+  },
+  "930": {
+    "tagPerson": ["Smith, Cecil Sir", "Jervois, Wm. T. D."],
+    "tagDate": ["1888-07-14T00:00:00.000Z"],
+    "tagDescription": [
+      "Introduces Grant to Smith. The latter to give any information re. Strait Settlements"
+    ]
+  },
+  "1003": {
+    "tagPerson": ["Body, C. W. E. Rev."],
+    "tagDate": ["1888-12-19T00:00:00.000Z"],
+    "tagDescription": ["Ontario universities"]
+  },
+  "981": {
+    "tagDate": ["1888-09-18T00:00:00.000Z"],
+    "tagPerson": ["Ungher, J. & Co."],
+    "tagDescription": ["Queensland Post and Telegraph Reports"]
+  },
+  "491": {
+    "tagDescription": ["University matters"],
+    "tagDate": ["1884-08-09T00:00:00.000Z"],
+    "tagPerson": ["Mowat, Oliver Hon."]
+  },
+  "972": {
+    "tagDescription": ["Queen's University - subscription"],
+    "tagPerson": ["Grant., B. I."],
+    "tagDate": ["1888-09-11T00:00:00.000Z"]
+  },
+  "498": {
+    "tagDate": ["1884-10-17T00:00:00.000Z"],
+    "tagPerson": ["Gilmour, Allan"],
+    "tagDescription": ["Personal"]
+  },
+  "535": {
+    "tagDescription": ["College confederation"],
+    "tagPerson": ["Macdonald, D. Rev."],
+    "tagDate": ["1885-02-06T00:00:00.000Z"]
+  },
+  "179": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1882-05-12T00:00:00.000Z"],
+    "tagPerson": ["Grant, G. M."]
+  },
+  "1063": {
+    "tagDate": ["1889-03-06T00:00:00.000Z"],
+    "tagPerson": ["Miller, John"],
+    "tagDescription": ["Princeton University"]
+  },
+  "79": {
+    "tagDescription": ["Appointment"],
+    "tagDate": ["1882-01-13T00:00:00.000Z"],
+    "tagPerson": ["Waters, John F."]
+  },
+  "252": {
+    "tagDescription": ["Picturesque Canada"],
+    "tagDate": ["1882-10-24T00:00:00.000Z"],
+    "tagPerson": ["Darcy, P. J."]
+  },
+  "507": {
+    "tagPerson": ["Ferrier, A. D."],
+    "tagDate": ["1885-02-02T00:00:00.000Z"],
+    "tagDescription": ["Confederation of Ontario Colleges"]
+  },
+  "82": {
+    "tagDescription": ["Queen's University"],
+    "tagPerson": ["Cook, John"],
+    "tagDate": ["1882-01-14T00:00:00.000Z"]
+  },
+  "936": {
+    "tagDate": ["1888-07-25T00:00:00.000Z"],
+    "tagPerson": ["McClymont, J. A. Rev."],
+    "tagDescription": ["Personal"]
+  },
+  "9": {
+    "tagDate": ["1881-07-25T00:00:00.000Z"],
+    "tagPerson": ["Angus, W. B."],
+    "tagDescription": [
+      "Railway passes Queen's University contribution Personal"
+    ]
+  },
+  "173": {
+    "tagDescription": ["Common schools"],
+    "tagPerson": ["McKay, A. H."],
+    "tagDate": ["1882-04-12T00:00:00.000Z"]
+  },
+  "328": {
+    "tagDescription": ["Queen's University entrance"],
+    "tagPerson": ["Alleyn, Arthur W."],
+    "tagDate": ["1883-03-12T00:00:00.000Z"]
+  },
+  "816": {
+    "tagPerson": ["Moore, J. H."],
+    "tagDate": ["1887-10-31T00:00:00.000Z"],
+    "tagDescription": ["Queen's University"]
+  },
+  "706": {
+    "tagDescription": ["Indian affairs"],
+    "tagDate": ["1886-12-03T00:00:00.000Z"],
+    "tagPerson": ["Macdonald, W. J."]
+  },
+  "676": {
+    "tagPerson": ["Mowat, Oliver Hon."],
+    "tagDate": ["1886-10-25T00:00:00.000Z"],
+    "tagDescription": [
+      "Has not had time to give further consideration to Queen's University matter"
+    ]
+  },
+  "918": {
+    "tagName": ["Roberts, Charles G. D."],
+    "tagDate": ["1888-07-13T00:00:00.000Z"],
+    "tagPerson": ["Machar, Agnes M."],
+    "tagDescription": ["Charles G. D. Roberts"]
+  },
+  "809": {
+    "tagDescription": ["Queen's College - subscriptions"],
+    "tagPerson": ["Carruthers, John"],
+    "tagDate": ["1887-08-10T00:00:00.000Z"]
+  },
+  "1114": {
+    "tagDescription": ["Matriculation"],
+    "tagPerson": ["Smith, Goldwin"],
+    "tagDate": ["1889-06-01T00:00:00.000Z"]
+  },
+  "789": {
+    "tagDate": ["1887-05-15T00:00:00.000Z"],
+    "tagPerson": ["Randuis, S. T."]
+  },
+  "627": {
+    "tagDate": ["1886-02-08T00:00:00.000Z"],
+    "tagPerson": ["James, A."],
+    "tagDescription": ["Micmac Dictionary"]
+  },
+  "457": {
+    "tagDate": ["1883-11-12T00:00:00.000Z"],
+    "tagPerson": ["Grant, Chas. M."],
+    "tagDescription": ["Personal Presbyterian church"]
+  },
+  "501": {
+    "tagPerson": ["Cleary, James V. Rt. Rev."],
+    "tagDate": ["1884-12-25T00:00:00.000Z"],
+    "tagDescription": ["Theology"]
+  },
+  "561": {
+    "tagPerson": ["Day, L. E."],
+    "tagDate": ["1885-02-09T00:00:00.000Z"],
+    "tagDescription": ["College confederation"]
+  },
+  "539": {
+    "tagDescription": ["College confederation"],
+    "tagDate": ["1885-02-07T00:00:00.000Z"],
+    "tagPerson": ["Davidson, Charles"]
+  },
+  "151": {
+    "tagDate": ["1882-03-18T00:00:00.000Z"],
+    "tagPerson": ["Maclennan, James"],
+    "tagDescription": ["Queen's University - charter"]
+  },
+  "200": {
+    "tagName": ["Ross, Stephen"],
+    "tagDate": ["1882-06-03T00:00:00.000Z"],
+    "tagPerson": ["Stephens, Ronald H."],
+    "tagDescription": ["Stephen Ross lectures - Queen's University"]
+  },
+  "332": {
+    "tagDescription": ["Rev. W. E. D'Argent"],
+    "tagPerson": ["Irwin, John"],
+    "tagDate": ["1883-03-24T00:00:00.000Z"],
+    "tagName": ["D'Argent, W. E. Rev."]
+  },
+  "1047": {
+    "tagDescription": ["Ontario universities"],
+    "tagPerson": ["Milligan, G. M."],
+    "tagDate": ["1889-02-22T00:00:00.000Z"]
+  },
+  "479": {
+    "tagDate": ["1884-05-01T00:00:00.000Z"],
+    "tagPerson": ["Gillmore, Edward J."]
+  },
+  "764": {
+    "tagDate": ["1887-04-26T00:00:00.000Z"],
+    "tagPerson": ["Cleary, James V. Rt. Rev."],
+    "tagDescription": ["Queen's University"]
+  },
+  "533": {
+    "tagDate": ["1885-02-06T00:00:00.000Z"],
+    "tagPerson": ["MacDonald, Herbert "],
+    "tagDescription": ["College confederation"]
+  },
+  "715": {
+    "tagDescription": [
+      "Royal Society of Canada; Sir John A. Macdonald; Herbert"
+    ],
+    "tagDate": ["1886-12-09T00:00:00.000Z"],
+    "tagPerson": ["Primon, (?) Howard"]
+  },
+  "831": {
+    "tagDescription": ["Queen's University - entrance"],
+    "tagPerson": ["Johnson, F. W."],
+    "tagDate": ["1888-01-09T00:00:00.000Z"]
+  },
+  "1076": {
+    "tagDescription": ["Jesuits' Act"],
+    "tagDate": ["1889-03-12T00:00:00.000Z"],
+    "tagPerson": ["Gowan, James Robert"]
+  },
+  "580": {
+    "tagPerson": ["Herron, W. P."],
+    "tagDate": ["1885-06-06T00:00:00.000Z"]
+  },
+  "808": {
+    "tagPerson": ["Meighen, Arthur & Bros."],
+    "tagDate": ["1887-08-04T00:00:00.000Z"]
+  },
+  "66": {
+    "tagDescription": ["Queen's University"],
+    "tagPerson": ["Pollok, Allan"],
+    "tagDate": ["1882-01-06T00:00:00.000Z"]
+  },
+  "563": {
+    "tagPerson": ["Donald, Alexander"],
+    "tagDate": ["1885-02-11T00:00:00.000Z"],
+    "tagDescription": ["College confederation"]
+  },
+  "833": {
+    "tagDescription": ["Attacks made on the C.P.R. Co."],
+    "tagDate": ["1888-02-11T00:00:00.000Z"],
+    "tagPerson": ["Stephen, George"]
+  },
+  "531": {
+    "tagDate": ["1885-02-06T00:00:00.000Z"],
+    "tagPerson": ["Beatty, Wm."],
+    "tagDescription": ["College confederation"]
+  },
+  "1028": {
+    "tagPerson": ["Morris, Alexander Hon."],
+    "tagDate": ["1889-01-19T00:00:00.000Z"],
+    "tagDescription": ["Ontario universities"]
+  },
+  "569": {
+    "tagDescription": ["Queen's University - honorary degree"],
+    "tagDate": ["1885-03-18T00:00:00.000Z"],
+    "tagPerson": ["Stewart, George"]
+  },
+  "985": {
+    "tagPerson": ["Burwash, N."],
+    "tagDate": ["1888-10-15T00:00:00.000Z"],
+    "tagDescription": ["Ontario universities"]
+  },
+  "124": {
+    "tagDescription": ["Rev. Daniel S. Gregory - honorary degree"],
+    "tagDate": ["1882-02-07T00:00:00.000Z"],
+    "tagPerson": ["Ross, Donald"],
+    "tagName": ["Gregory, Daniel S. Rev."]
+  },
+  "230": {
+    "tagPerson": ["MacGregor, J. G."],
+    "tagDate": ["1882-08-10T00:00:00.000Z"],
+    "tagDescription": ["University appointments"]
+  },
+  "509": {
+    "tagDescription": ["Confederation of colleges"],
+    "tagPerson": ["McCulloch, A."],
+    "tagDate": ["1885-02-02T00:00:00.000Z"]
+  },
+  "36": {
+    "tagDescription": ["Picturesque Canada New Brunswick"],
+    "tagDate": ["1881-10-29T00:00:00.000Z"],
+    "tagPerson": ["Roberts, Charles G. D."]
+  },
+  "1134": {
+    "tagDescription": ["Re. Schultz's gift of land to College, Field's loan"],
+    "tagPerson": ["Morice, Jas. D."],
+    "tagDate": ["1889-09-18T00:00:00.000Z"]
+  },
+  "482": {
+    "tagPerson": ["Campbell, John Fraser"],
+    "tagDate": ["1884-08-06T00:00:00.000Z"],
+    "tagDescription": ["Personal Presbyterian church"]
+  },
+  "650": {
+    "tagPerson": ["Caull, George"],
+    "tagDate": ["1886-09-30T00:00:00.000Z"]
+  },
+  "565": {
+    "tagDescription": ["College confederation"],
+    "tagPerson": ["Macnab, P. P."],
+    "tagDate": ["1885-02-17T00:00:00.000Z"]
+  },
+  "390": {
+    "tagPerson": ["Nicholson, John A."],
+    "tagDate": ["1883-08-14T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - entrance"]
+  },
+  "648": {
+    "tagPerson": ["Foster, E. E."],
+    "tagDate": ["1886-08-13T00:00:00.000Z"],
+    "tagDescription": ["U.S. fishing vessels"]
+  },
+  "623": {
+    "tagPerson": ["James, A."],
+    "tagDate": ["1886-02-04T00:00:00.000Z"],
+    "tagDescription": ["Indian affairs Church matters"]
+  },
+  "514": {
+    "tagDescription": ["College confederation"],
+    "tagPerson": ["Malloch, E. G.", "others"],
+    "tagDate": ["1885-02-04T00:00:00.000Z"]
+  },
+  "211": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1882-07-06T00:00:00.000Z"],
+    "tagPerson": ["MacGregor, J. G."]
+  },
+  "218": {
+    "tagPerson": ["MacGregor, J. G."],
+    "tagDate": ["1882-07-19T00:00:00.000Z"],
+    "tagDescription": ["University appointments"]
+  },
+  "1100": {
+    "tagDescription": ["Sir David Macpherson prize money"],
+    "tagPerson": ["Hague, John"],
+    "tagDate": ["1889-05-06T00:00:00.000Z"],
+    "tagName": ["Macpherson, David Sir "]
+  },
+  "510": {
+    "tagPerson": ["Douglas, Robert"],
+    "tagDate": ["1885-02-03T00:00:00.000Z"],
+    "tagDescription": ["Confederation of colleges"]
+  },
+  "1102": {
+    "tagPerson": ["Roose, Robson"],
+    "tagDate": ["1889-05-13T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - honorary degree"]
+  },
+  "1117": {
+    "tagDescription": ["Toronto University"],
+    "tagDate": ["1889-06-15T00:00:00.000Z"],
+    "tagPerson": ["Ashley, W. J."]
+  },
+  "718": {
+    "tagDescription": ["Indian affairs"],
+    "tagDate": ["1886-12-27T00:00:00.000Z"],
+    "tagPerson": ["Macdonald, W. J."]
+  },
+  "424": {
+    "tagDescription": ["Halifax real estate"],
+    "tagDate": ["1883-10-22T00:00:00.000Z"],
+    "tagPerson": ["Mitchell, George"]
+  },
+  "350": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1883-05-04T00:00:00.000Z"],
+    "tagPerson": ["Fleming, Sandford Sir"]
+  },
+  "983": {
+    "tagDescription": ["Personal"],
+    "tagDate": ["1888-09-20T00:00:00.000Z"],
+    "tagPerson": ["Parker, Annie"]
+  },
+  "537": {
+    "tagDescription": ["College confederation"],
+    "tagDate": ["1885-02-06T00:00:00.000Z"],
+    "tagPerson": ["Ferguson, John"]
+  },
+  "41": {
+    "tagDate": ["1881-11-17T00:00:00.000Z"],
+    "tagPerson": ["Cameron, James"],
+    "tagDescription": [
+      "Presbyterian church Universities and teaching of religion"
+    ]
+  },
+  "815": {
+    "tagDescription": ["Financial matter"],
+    "tagPerson": ["Morice & Allen"],
+    "tagDate": ["1887-10-17T00:00:00.000Z"]
+  },
+  "866": {
+    "tagDescription": ["Ontario universities"],
+    "tagPerson": ["Burwash, N."],
+    "tagDate": ["1888-03-01T00:00:00.000Z"]
+  },
+  "1136": {
+    "tagPerson": ["Gowan, James Robert"],
+    "tagDate": ["1889-09-22T00:00:00.000Z"],
+    "tagDescription": ["Donation to Queen's University; Jesuits Estates"]
+  },
+  "572": {
+    "tagDate": ["1885-04-08T00:00:00.000Z"],
+    "tagPerson": ["Morice, Jas. D."],
+    "tagDescription": ["Personal finance"]
+  },
+  "1097": {
+    "tagPerson": ["Roose, Robson"],
+    "tagDate": ["1889-04-30T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - honorary degree"]
+  },
+  "474": {
+    "tagDate": ["1884-04-29T00:00:00.000Z"],
+    "tagPerson": ["Knight, A. P."],
+    "tagDescription": ["Toronto University"]
+  },
+  "397": {
+    "tagDescription": ["Presbyterian church"],
+    "tagPerson": ["Ingram, J."],
+    "tagDate": ["1883-09-12T00:00:00.000Z"]
+  },
+  "432": {
+    "tagDescription": ["Universal Clock"],
+    "tagPerson": ["Schuetz, F."],
+    "tagDate": ["1883-11-01T00:00:00.000Z"]
+  },
+  "143": {
+    "tagPerson": ["O'Brien, L. R."],
+    "tagDate": ["1882-03-07T00:00:00.000Z"]
+  },
+  "1053": {
+    "tagDescription": ["Ontario universities"],
+    "tagDate": ["1889-02-23T00:00:00.000Z"],
+    "tagPerson": ["Morris, Alexander Hon."]
+  },
+  "427": {
+    "tagDate": ["1883-10-23T00:00:00.000Z"],
+    "tagPerson": ["Jessop, John"]
+  },
+  "121": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1882-02-03T00:00:00.000Z"],
+    "tagPerson": ["Spencer, J. W."]
+  },
+  "357": {
+    "tagDescription": ["Theological study at universities"],
+    "tagDate": ["1883-05-18T00:00:00.000Z"],
+    "tagPerson": ["Ross, David"]
+  },
+  "530": {
+    "tagDate": ["1885-02-06T00:00:00.000Z"],
+    "tagPerson": ["Rathbun, E. W."],
+    "tagDescription": ["College confederation"]
+  },
+  "786": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1887-05-02T00:00:00.000Z"],
+    "tagPerson": ["Marquis, M. H."]
+  },
+  "784": {
+    "tagPerson": ["Morice, Jas. D."],
+    "tagDate": ["1887-04-25T00:00:00.000Z"],
+    "tagDescription": ["Re. Hughes' property"]
+  },
+  "517": {
+    "tagDescription": ["College confederation"],
+    "tagPerson": ["Dinmoodie, Robert"],
+    "tagDate": ["1885-02-04T00:00:00.000Z"]
+  },
+  "679": {
+    "tagDate": ["1886-11-16T00:00:00.000Z"],
+    "tagPerson": ["Malloch, A. E."],
+    "tagDescription": ["Queen's University library"]
+  },
+  "883": {
+    "tagDate": ["1888-04-01T00:00:00.000Z"],
+    "tagPerson": ["Cheadle, W. B."],
+    "tagDescription": ["Invitation"]
+  },
+  "1074": {
+    "tagDescription": ["Ontario universities"],
+    "tagDate": ["1889-03-09T00:00:00.000Z"],
+    "tagPerson": ["Morris, Alexander Hon."]
+  },
+  "939": {
+    "tagDate": ["1888-07-25T00:00:00.000Z"],
+    "tagPerson": ["Jenkins, John"],
+    "tagDescription": ["Presbyterian church"]
+  },
+  "375": {
+    "tagDate": ["1883-06-04T00:00:00.000Z"],
+    "tagPerson": ["Hague, George"],
+    "tagDescription": ["Queen's University - subscription"]
+  },
+  "1057": {
+    "tagDescription": ["Jesuits' Act"],
+    "tagPerson": ["Dawson, Samuel E."],
+    "tagDate": ["1889-02-26T00:00:00.000Z"]
+  },
+  "428": {
+    "tagPerson": ["Macgillivray, Alex"],
+    "tagDate": ["1883-10-31T00:00:00.000Z"],
+    "tagDescription": ["Personal"]
+  },
+  "127": {
+    "tagName": ["Gregory, Daniel S. Dr."],
+    "tagDescription": ["Dr. Daniel S. Gregory - honorary degree"],
+    "tagDate": ["1882-02-17T00:00:00.000Z"],
+    "tagPerson": ["Ross, Donald"]
+  },
+  "1033": {
+    "tagPerson": ["Wilton, Chas. H."],
+    "tagDate": ["1889-02-14T00:00:00.000Z"],
+    "tagDescription": ["Charity case"]
+  },
+  "145": {
+    "tagDescription": ["Presbyterian church"],
+    "tagDate": ["1882-03-07T00:00:00.000Z"],
+    "tagPerson": ["Allan, Hugh"]
+  },
+  "1156": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1889-10-17T00:00:00.000Z"],
+    "tagPerson": ["Corkill, E. J."]
+  },
+  "1006": {
+    "tagPerson": ["Wallace, G."],
+    "tagDate": ["1888-12-20T00:00:00.000Z"],
+    "tagDescription": ["Toronto University - law society"]
+  },
+  "511": {
+    "tagDescription": ["College confederation"],
+    "tagPerson": ["Maclean, M. W."],
+    "tagDate": ["1885-02-03T00:00:00.000Z"]
+  },
+  "813": {
+    "tagDate": ["1887-09-10T00:00:00.000Z"],
+    "tagPerson": ["Hopkins, Castell J."],
+    "tagDescription": ["Canada and the Empire"]
+  },
+  "885": {
+    "tagPerson": ["Allison, W. J."],
+    "tagDate": ["1888-04-01T00:00:00.000Z"],
+    "tagDescription": ["Personal"]
+  },
+  "518": {
+    "tagDate": ["1885-02-04T00:00:00.000Z"],
+    "tagPerson": ["Fraser, J. F. Rev."],
+    "tagDescription": ["College confederation"]
+  },
+  "646": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1886-04-21T00:00:00.000Z"],
+    "tagPerson": ["McCortney, Wm."]
+  },
+  "737": {
+    "tagDate": ["1887-01-28T00:00:00.000Z"],
+    "tagPerson": ["Macdonnell, G. M."]
+  },
+  "1167": {
+    "tagPerson": ["Burns, Wm."],
+    "tagDate": ["1889-05-24T00:00:00.000Z"],
+    "tagDescription": ["Queen's University"]
+  },
+  "421": {
+    "tagDate": ["1883-10-20T00:00:00.000Z"],
+    "tagPerson": ["Laurie, J. W."],
+    "tagDescription": ["Personal"]
+  },
+  "466": {
+    "tagDescription": ["Contemporary Review article for"],
+    "tagDate": ["1884-04-04T00:00:00.000Z"],
+    "tagPerson": ["Patin, J.S."]
+  },
+  "331": {
+    "tagName": ["D'Argent, W. E. Rev."],
+    "tagPerson": ["Irwin, John"],
+    "tagDate": ["1883-03-15T00:00:00.000Z"],
+    "tagDescription": ["Rev. W. E. D'Argent"]
+  },
+  "876": {
+    "tagPerson": ["Ross, George W. Hon."],
+    "tagDate": ["1888-03-08T00:00:00.000Z"],
+    "tagDescription": ["Ontario universities"]
+  },
+  "369": {
+    "tagDescription": ["Trinity Medical School"],
+    "tagDate": ["1883-06-02T00:00:00.000Z"],
+    "tagPerson": ["Maclennan, J."]
+  },
+  "845": {
+    "tagPerson": ["Stephen, George"],
+    "tagDate": ["1888-02-20T00:00:00.000Z"],
+    "tagDescription": ["Attacks made on the C.P.R. Co."]
+  },
+  "686": {
+    "tagDate": ["1886-11-26T00:00:00.000Z"],
+    "tagPerson": ["Mowat, Oliver Hon."],
+    "tagDescription": ["Re. politics"]
+  },
+  "1038": {
+    "tagDate": ["1889-02-16T00:00:00.000Z"],
+    "tagPerson": ["Hodgins, George J."],
+    "tagDescription": ["Canadian education"]
+  },
+  "827": {
+    "tagDescription": ["Queen's University"],
+    "tagPerson": ["Fleming, Sandford Sir"],
+    "tagDate": ["1888-01-01T00:00:00.000Z"]
+  },
+  "363": {
+    "tagDescription": ["Will not support the Church"],
+    "tagPerson": ["Dawes, M. C."],
+    "tagDate": ["1883-05-18T00:00:00.000Z"]
+  },
+  "999": {
+    "tagDate": ["1888-11-20T00:00:00.000Z"],
+    "tagPerson": ["Wilson, J."]
+  },
+  "757": {
+    "tagName": ["Robertson, James Rev."],
+    "tagPerson": ["Hart, Thomas"],
+    "tagDate": ["1887-04-02T00:00:00.000Z"],
+    "tagDescription": ["Rev. James Robertson"]
+  },
+  "547": {
+    "tagPerson": ["Wilkinson, Wm. H."],
+    "tagDate": ["1885-02-07T00:00:00.000Z"],
+    "tagDescription": ["College confederation"]
+  },
+  "977": {
+    "tagPerson": ["Miller, Wm."],
+    "tagDate": ["1888-09-14T00:00:00.000Z"],
+    "tagDescription": ["Personal"]
+  },
+  "1159": {
+    "tagDate": ["1889-11-09T00:00:00.000Z"],
+    "tagPerson": ["Ross, George W. Hon."],
+    "tagDescription": ["Queen's University"]
+  },
+  "303": {
+    "tagDescription": ["Marriage laws"],
+    "tagPerson": ["McKnight, A."],
+    "tagDate": ["1883-02-20T00:00:00.000Z"]
+  },
+  "1009": {
+    "tagDescription": ["Queen's University"],
+    "tagPerson": ["Morris,"],
+    "tagDate": ["1888-12-21T00:00:00.000Z"]
+  },
+  "384": {
+    "tagDescription": ["University College; Education - taxation"],
+    "tagDate": ["1883-06-11T00:00:00.000Z"],
+    "tagPerson": ["Nelles, S. S."]
+  },
+  "1020": {
+    "tagDate": ["1888-12-31T00:00:00.000Z"],
+    "tagPerson": ["Burwash, N."],
+    "tagDescription": ["Ontario universities"]
+  },
+  "309": {
+    "tagPerson": ["Bengers, J. E."],
+    "tagDate": ["1883-03-02T00:00:00.000Z"],
+    "tagDescription": ["University honors"]
+  },
+  "1022": {
+    "tagDate": ["1888-12-31T00:00:00.000Z"],
+    "tagPerson": ["Pollok, Allan"],
+    "tagDescription": ["Personal"]
+  },
+  "406": {
+    "tagDescription": ["Presbyterian church Personal"],
+    "tagPerson": ["Campbell, John Fraser"],
+    "tagDate": ["1883-10-13T00:00:00.000Z"]
+  },
+  "91": {
+    "tagDate": ["1882-01-22T00:00:00.000Z"],
+    "tagPerson": ["Monro, A."],
+    "tagDescription": ["Financial transaction"]
+  },
+  "338": {
+    "tagDescription": ["Queen's University"],
+    "tagPerson": ["Fleming, Sandford Sir"],
+    "tagDate": ["1883-04-27T00:00:00.000Z"]
+  },
+  "460": {
+    "tagName": ["Snodgrass, Dr."],
+    "tagDescription": ["Dr. Snodgrass - portrait"],
+    "tagPerson": ["Horsburgh, J."],
+    "tagDate": ["1883-11-22T00:00:00.000Z"]
+  },
+  "365": {
+    "tagDescription": ["Personal"],
+    "tagDate": ["1883-05-28T00:00:00.000Z"],
+    "tagPerson": ["Marshall, D. H."]
+  },
+  "590": {
+    "tagPerson": ["Morgans, J."],
+    "tagDate": ["1885-10-31T00:00:00.000Z"]
+  },
+  "1031": {
+    "tagDate": ["1889-01-31T00:00:00.000Z"],
+    "tagPerson": ["Gemmill, J. A."],
+    "tagDescription": ["Divorce legislation"]
+  },
+  "541": {
+    "tagPerson": ["Macune, P. C."],
+    "tagDate": ["1885-02-07T00:00:00.000Z"],
+    "tagDescription": ["College confederation"]
+  },
+  "314": {
+    "tagDate": ["1883-03-07T00:00:00.000Z"],
+    "tagPerson": ["Ingram, John S."],
+    "tagDescription": ["Church matters"]
+  },
+  "746": {
+    "tagDescription": ["Kingston school of Applied Science"],
+    "tagDate": ["1887-02-21T00:00:00.000Z"],
+    "tagPerson": ["Houston, Wm."]
+  },
+  "556": {
+    "tagDescription": ["College confederation"],
+    "tagDate": ["1885-02-09T00:00:00.000Z"],
+    "tagPerson": ["Gillies, James"]
+  },
+  "98": {
+    "tagDate": ["1882-01-24T00:00:00.000Z"],
+    "tagPerson": ["Waters, John F."]
+  },
+  "1091": {
+    "tagDescription": ["Donation to Queen's University"],
+    "tagDate": ["1889-04-09T00:00:00.000Z"],
+    "tagPerson": ["Gowan, James Robert"]
+  },
+  "100": {
+    "tagPerson": ["Campbell, John Rev."],
+    "tagDate": ["1882-01-30T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - entrance"]
+  },
+  "554": {
+    "tagDescription": ["College Confederation"],
+    "tagPerson": ["Craig, R. J."],
+    "tagDate": ["1885-02-09T00:00:00.000Z"]
+  },
+  "258": {
+    "tagDescription": ["Queen's University - appointment"],
+    "tagDate": ["1882-11-17T00:00:00.000Z"],
+    "tagPerson": ["McIven, J. B."]
+  },
+  "160": {
+    "tagDescription": ["Missionaries for Australia"],
+    "tagPerson": ["Fraser, John"],
+    "tagDate": ["1882-03-22T00:00:00.000Z"]
+  },
+  "740": {
+    "tagPerson": ["Gordon, Daniel M."],
+    "tagDate": ["1887-02-14T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - honorary degree"]
+  },
+  "550": {
+    "tagDate": ["1885-02-07T00:00:00.000Z"],
+    "tagPerson": ["Robertson, Alex."],
+    "tagDescription": ["College confederation"]
+  },
+  "594": {
+    "tagPerson": ["Monro, Margaret"],
+    "tagDate": ["1885-11-14T00:00:00.000Z"],
+    "tagDescription": ["Personal"]
+  },
+  "291": {
+    "tagDescription": ["Finances"],
+    "tagPerson": ["Monro, A."],
+    "tagDate": ["1883-01-03T00:00:00.000Z"]
+  },
+  "978": {
+    "tagDescription": ["Invitation"],
+    "tagPerson": ["Innes, Long J. E."],
+    "tagDate": ["1888-09-15T00:00:00.000Z"]
+  },
+  "1139": {
+    "tagDate": ["1889-10-12T00:00:00.000Z"],
+    "tagPerson": ["Ross, George W. Hon."],
+    "tagDescription": ["Queen's University"]
+  },
+  "62": {
+    "tagDate": ["1882-01-01T00:00:00.000Z"],
+    "tagPerson": ["Davidson, A. R. Prof."],
+    "tagDescription": ["University appointment"]
+  },
+  "523": {
+    "tagDescription": ["College confederation"],
+    "tagDate": ["1885-02-05T00:00:00.000Z"],
+    "tagPerson": ["Macpherson, H."]
+  },
+  "439": {
+    "tagDescription": ["Grant - Minister of Education"],
+    "tagDate": ["1883-11-07T00:00:00.000Z"],
+    "tagPerson": ["Mowat, Oliver Hon."]
+  },
+  "262": {
+    "tagDate": ["1882-11-20T00:00:00.000Z"],
+    "tagPerson": ["Fraser, Joshua"]
+  },
+  "871": {
+    "tagDescription": ["Ontario universities"],
+    "tagDate": ["1888-03-08T00:00:00.000Z"],
+    "tagPerson": ["Burwash, N."]
+  },
+  "20": {
+    "tagDate": ["1881-09-06T00:00:00.000Z"],
+    "tagPerson": ["Fraser, John"],
+    "tagDescription": ["Presbyterian church - missions"]
+  },
+  "142": {
+    "tagDate": ["1882-02-27T00:00:00.000Z"],
+    "tagPerson": ["Dakin, T. B."],
+    "tagDescription": ["Publication"]
+  },
+  "617": {
+    "tagDescription": ["Indian affairs"],
+    "tagDate": ["1886-02-01T00:00:00.000Z"],
+    "tagPerson": ["Gordon, D. W."]
+  },
+  "681": {
+    "tagPerson": ["Cran, James"],
+    "tagDate": ["1886-11-22T00:00:00.000Z"],
+    "tagDescription": ["Indian affairs"]
+  },
+  "372": {
+    "tagName": ["Sweet, Wallace G. Rev."],
+    "tagDescription": ["Rev. Wallace G. Sweet"],
+    "tagDate": ["1883-06-02T00:00:00.000Z"],
+    "tagPerson": ["Smith, James"]
+  },
+  "381": {
+    "tagDate": ["1883-06-07T00:00:00.000Z"],
+    "tagPerson": ["Bell, Robert"],
+    "tagDescription": [
+      "Re. collections of the marine invertebrates of the Atlantic coast"
+    ]
+  },
+  "1055": {
+    "tagDate": ["1889-02-23T00:00:00.000Z"],
+    "tagPerson": ["Nash, Edward"],
+    "tagDescription": ["Imperial Federation League"]
+  },
+  "1089": {
+    "tagPerson": ["Gowan, James Robert"],
+    "tagDate": ["1889-04-05T00:00:00.000Z"],
+    "tagDescription": ["Donation, Queen's University"]
+  },
+  "1105": {
+    "tagDate": ["1889-05-28T00:00:00.000Z"],
+    "tagPerson": ["Jordan, W. G."],
+    "tagDescription": ["Queen's University"]
+  },
+  "202": {
+    "tagDate": ["1882-06-12T00:00:00.000Z"],
+    "tagPerson": ["Schultz, Agnes"],
+    "tagDescription": ["Personal"]
+  },
+  "725": {
+    "tagPerson": ["Mackechnie, D. L."],
+    "tagDate": ["1887-01-18T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - entrance"]
+  },
+  "878": {
+    "tagDescription": ["Australia matters"],
+    "tagDate": ["1888-03-23T00:00:00.000Z"],
+    "tagPerson": ["Drummond, A. T."]
+  },
+  "557": {
+    "tagDescription": ["College confederation"],
+    "tagDate": ["1885-02-09T00:00:00.000Z"],
+    "tagPerson": ["Smallfield, A."]
+  },
+  "6": {
+    "tagPerson": ["Casperline, John"],
+    "tagDate": ["1881-07-19T00:00:00.000Z"],
+    "tagDescription": ["'Picturesque Canada''"]
+  },
+  "636": {
+    "tagDescription": ["Personal"],
+    "tagDate": ["1886-03-01T00:00:00.000Z"],
+    "tagPerson": ["Fraser, John"]
+  },
+  "387": {
+    "tagDescription": ["Portrait of himself"],
+    "tagPerson": ["Snodgrass, W. Dr."],
+    "tagDate": ["1883-06-19T00:00:00.000Z"]
+  },
+  "756": {
+    "tagDate": ["1887-03-18T00:00:00.000Z"],
+    "tagPerson": ["McArthur, James"]
+  },
+  "546": {
+    "tagDescription": ["College confederation"],
+    "tagDate": ["1885-02-07T00:00:00.000Z"],
+    "tagPerson": ["Reynolds, James"]
+  },
+  "820": {
+    "tagDate": ["1887-11-04T00:00:00.000Z"],
+    "tagPerson": ["Gibson, W. J."],
+    "tagDescription": ["Queen's University"]
+  },
+  "945": {
+    "tagDescription": ["Australian affairs"],
+    "tagPerson": ["Way, Samuel J. Rt. Hon."],
+    "tagDate": ["1888-08-22T00:00:00.000Z"]
+  },
+  "932": {
+    "tagPerson": ["Watson, John"],
+    "tagDate": ["1888-07-17T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - appointments"]
+  },
+  "790": {
+    "tagDescription": [
+      "Re. the printing of Grant's sermon given at St. Andrews"
+    ],
+    "tagDate": ["1887-06-22T00:00:00.000Z"],
+    "tagPerson": ["Haythorne, R. P."]
+  },
+  "139": {
+    "tagDescription": ["Presbyterian church"],
+    "tagPerson": ["Campbell, Robert"],
+    "tagDate": ["1882-02-25T00:00:00.000Z"]
+  },
+  "796": {
+    "tagDate": ["1887-08-01T00:00:00.000Z"],
+    "tagPerson": ["McGregor, P. C."],
+    "tagDescription": ["Universities and education in Canada"]
+  },
+  "250": {
+    "tagDate": ["1882-10-14T00:00:00.000Z"],
+    "tagPerson": ["Ireland, Chas."],
+    "tagDescription": ["Queen's University"]
+  },
+  "723": {
+    "tagDate": ["1887-01-08T00:00:00.000Z"],
+    "tagPerson": ["Caven, Wm."]
+  },
+  "591": {
+    "tagPerson": ["Romanis, G. J."],
+    "tagDate": ["1885-11-11T00:00:00.000Z"],
+    "tagDescription": ["Lord Roseberry"]
+  },
+  "826": {
+    "tagDescription": ["American Literary Illustration Bureau"],
+    "tagDate": ["1887-12-10T00:00:00.000Z"],
+    "tagPerson": ["Moore, Arthur W."]
+  },
+  "93": {
+    "tagDescription": ["Queen's University"],
+    "tagDate": ["1882-01-23T00:00:00.000Z"],
+    "tagPerson": ["Gordon, Daniel M."]
+  },
+  "296": {
+    "tagPerson": ["Mitchell, George"],
+    "tagDate": ["1883-02-08T00:00:00.000Z"],
+    "tagDescription": ["Personal"]
+  },
+  "970": {
+    "tagDescription": ["Queen's University - subscription"],
+    "tagPerson": ["Grant., B. I."],
+    "tagDate": ["1888-09-07T00:00:00.000Z"]
+  },
+  "611": {
+    "tagDescription": ["Indian affairs"],
+    "tagPerson": ["Pitblado, C. B."],
+    "tagDate": ["1886-01-13T00:00:00.000Z"]
+  },
+  "1079": {
+    "tagDescription": ["Jesuits' Act"],
+    "tagPerson": ["Dawson, Samuel E."],
+    "tagDate": ["1889-03-14T00:00:00.000Z"]
+  },
+  "721": {
+    "tagPerson": ["Mackechnie, D. L."],
+    "tagDate": ["1887-01-04T00:00:00.000Z"],
+    "tagDescription": ["Queen's University"]
+  },
+  "599": {
+    "tagDescription": ["Stellarton Relief Fund"],
+    "tagPerson": ["Macdonnell, G. M."],
+    "tagDate": ["1885-12-02T00:00:00.000Z"]
+  },
+  "577": {
+    "tagDescription": ["Presbyterian church matters"],
+    "tagDate": ["1885-05-15T00:00:00.000Z"],
+    "tagPerson": ["Campbell, Robert"]
+  },
+  "437": {
+    "tagDate": ["1883-11-02T00:00:00.000Z"],
+    "tagPerson": ["Kemp, A"],
+    "tagDescription": ["Personal"]
+  },
+  "1001": {
+    "tagDescription": ["Invitation"],
+    "tagPerson": ["Schultz, John Hon."],
+    "tagDate": ["1888-12-06T00:00:00.000Z"]
+  },
+  "51": {
+    "tagDate": ["1881-10-28T00:00:00.000Z"],
+    "tagPerson": ["Steel, Robert"],
+    "tagDescription": ["Queen's University - honorary degree"]
+  },
+  "652": {
+    "tagPerson": ["Herald, C. L."],
+    "tagDate": ["1886-09-30T00:00:00.000Z"],
+    "tagDescription": ["Personal"]
+  },
+  "524": {
+    "tagDate": ["1885-02-05T00:00:00.000Z"],
+    "tagPerson": ["Marshall, Edward"],
+    "tagDescription": ["College confederation"]
+  },
+  "221": {
+    "tagDescription": ["University appointments"],
+    "tagDate": ["1882-07-27T00:00:00.000Z"],
+    "tagPerson": ["MacGregor, J. G."]
+  },
+  "526": {
+    "tagPerson": ["Maclennan, J."],
+    "tagDate": ["1885-02-05T00:00:00.000Z"],
+    "tagDescription": ["College confederation"]
+  },
+  "520": {
+    "tagPerson": ["Stewart, Samuel", "others"],
+    "tagDate": ["1885-02-04T00:00:00.000Z"],
+    "tagDescription": ["College confederation"]
+  },
+  "1041": {
+    "tagPerson": ["Cameron, D. R."],
+    "tagDate": ["1889-02-18T00:00:00.000Z"]
+  },
+  "898": {
+    "tagPerson": ["Fleming, Sandford Sir"],
+    "tagDate": ["1888-04-23T00:00:00.000Z"],
+    "tagDescription": ["Imperial Federation League"]
+  },
+  "1059": {
+    "tagDescription": ["Ontario universities"],
+    "tagPerson": ["Morris, Alexander Hon."],
+    "tagDate": ["1889-02-27T00:00:00.000Z"]
+  },
+  "131": {
+    "tagDate": ["1882-02-21T00:00:00.000Z"],
+    "tagPerson": ["Low, George J."],
+    "tagDescription": ["Theology Presbyterian church"]
+  },
+  "559": {
+    "tagDate": ["1885-02-09T00:00:00.000Z"],
+    "tagPerson": ["Gillies, John"],
+    "tagDescription": ["College confederation"]
+  },
+  "1061": {
+    "tagDescription": ["Queen's University - subscription"],
+    "tagPerson": ["Trout, Jenny K."],
+    "tagDate": ["1889-02-28T00:00:00.000Z"]
+  },
+  "512": {
+    "tagDescription": ["Confederation of colleges"],
+    "tagDate": ["1885-02-03T00:00:00.000Z"],
+    "tagPerson": ["Malloch, George W."]
+  },
+  "249": {
+    "tagDate": ["1882-09-19T00:00:00.000Z"],
+    "tagPerson": ["Smith, R. A."]
+  },
+  "65": {
+    "tagDescription": ["Life of Dr. Geddie"],
+    "tagPerson": ["Patterson, George"],
+    "tagDate": ["1882-01-05T00:00:00.000Z"]
+  },
+  "163": {
+    "tagDescription": ["Presbyterian church Queen's University"],
+    "tagDate": ["1882-03-27T00:00:00.000Z"],
+    "tagPerson": ["Maclennan, J."]
+  },
+  "73": {
+    "tagPerson": ["Macdonald, C."],
+    "tagDate": ["1882-01-10T00:00:00.000Z"],
+    "tagDescription": ["Pine Hill College Personal"]
+  },
+  "304": {
+    "tagDate": ["1883-02-20T00:00:00.000Z"],
+    "tagPerson": ["McLean, John Mrs."],
+    "tagDescription": ["Emigration to U.S."]
+  },
+  "582": {
+    "tagPerson": ["Morice, Jas. D."],
+    "tagDate": ["1885-06-16T00:00:00.000Z"]
+  },
+  "270": {
+    "tagDate": ["1882-12-09T00:00:00.000Z"],
+    "tagPerson": ["Cleary, James V. Rt. Rev."],
+    "tagDescription": ["Ontario education"]
+  },
+  "389": {
+    "tagDate": ["1883-07-12T00:00:00.000Z"],
+    "tagPerson": ["McLeod, John"],
+    "tagDescription": ["Accounts"]
+  },
+  "948": {
+    "tagDate": ["1888-08-23T00:00:00.000Z"],
+    "tagPerson": ["Ballarat, Samuel"],
+    "tagDescription": ["Invitation"]
+  },
+  "403": {
+    "tagPerson": ["Douglas, Allan P."],
+    "tagDate": ["1883-09-13T00:00:00.000Z"],
+    "tagDescription": ["Queen's University entrance"]
+  },
+  "23": {
+    "tagDescription": ["Presbyterian church missions"],
+    "tagPerson": ["Campbell, John Fraser"],
+    "tagDate": ["1881-10-04T00:00:00.000Z"]
+  },
+  "689": {
+    "tagPerson": ["Macdonald, W. J."],
+    "tagDate": ["1886-11-30T00:00:00.000Z"],
+    "tagDescription": ["Indian affairs - Metlakathla Reserve"]
+  },
+  "480": {
+    "tagPerson": ["Morice & Allen"],
+    "tagDate": ["1884-05-30T00:00:00.000Z"],
+    "tagDescription": ["Accounts"]
+  },
+  "727": {
+    "tagDescription": ["University matters"],
+    "tagPerson": ["McGowan, George"],
+    "tagDate": ["1887-01-19T00:00:00.000Z"]
+  },
+  "732": {
+    "tagDescription": ["Publication of a magazine"],
+    "tagDate": ["1887-01-19T00:00:00.000Z"],
+    "tagPerson": ["Bazinet, J. E."]
+  },
+  "990": {
+    "tagDescription": ["Australian matters"],
+    "tagPerson": ["Griffith, S. W."],
+    "tagDate": ["1888-10-16T00:00:00.000Z"]
+  },
+  "12": {
+    "tagDescription": ["Presbyterian church Queen's University"],
+    "tagPerson": ["Pollok, Allan"],
+    "tagDate": ["1881-09-02T00:00:00.000Z"]
+  },
+  "469": {
+    "tagPerson": ["Patin, J.S."],
+    "tagDate": ["1884-04-07T00:00:00.000Z"],
+    "tagDescription": ["Contemporary Review article for"]
+  },
+  "300": {
+    "tagDate": ["1883-02-12T00:00:00.000Z"],
+    "tagPerson": ["Cameron, John"],
+    "tagDescription": ["The Mail's criticism of Grant's article in The Globe"]
+  },
+  "431": {
+    "tagPerson": ["Hay, F. Wm."],
+    "tagDate": ["1883-10-31T00:00:00.000Z"],
+    "tagDescription": ["Personal"]
+  },
+  "1026": {
+    "tagDate": ["1889-01-09T00:00:00.000Z"],
+    "tagPerson": ["Jones, Prof."],
+    "tagDescription": ["Trinity University - memo re M.D. degree"]
+  },
+  "117": {
+    "tagPerson": ["Fitzgerald, L."],
+    "tagDate": ["1882-02-01T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - entrance"]
+  },
+  "829": {
+    "tagDate": ["1888-01-02T00:00:00.000Z"],
+    "tagPerson": ["Pollok, Allan"],
+    "tagDescription": ["Personal"]
+  },
+  "181": {
+    "tagDate": ["1882-05-23T00:00:00.000Z"],
+    "tagPerson": ["McGregor, P. C."],
+    "tagDescription": ["Personal"]
+  },
+  "130": {
+    "tagPerson": ["Lyon, J. W."],
+    "tagDate": ["1882-02-20T00:00:00.000Z"],
+    "tagDescription": ["Publication"]
+  },
+  "896": {
+    "tagDate": ["1888-04-23T00:00:00.000Z"],
+    "tagPerson": ["Matheson, P. E."],
+    "tagDescription": ["Oxford University"]
+  },
+  "521": {
+    "tagPerson": ["Millar, L. F."],
+    "tagDate": ["1885-02-05T00:00:00.000Z"],
+    "tagDescription": ["Co11ege confederation"]
+  },
+  "224": {
+    "tagDescription": ["University appointments"],
+    "tagPerson": ["MacGregor, J. G."],
+    "tagDate": ["1882-08-03T00:00:00.000Z"]
+  },
+  "823": {
+    "tagPerson": ["Chambers, Jim Rev."],
+    "tagDate": ["1887-11-11T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - honorary degree"]
+  },
+  "848": {
+    "tagPerson": ["Ross, George W. Hon."],
+    "tagDate": ["1888-02-27T00:00:00.000Z"],
+    "tagDescription": ["Ontario universities"]
+  },
+  "293": {
+    "tagDate": ["1883-01-23T00:00:00.000Z"],
+    "tagPerson": ["Cameron, John"],
+    "tagDescription": [
+      "That Grant write a weekly article for The Globe; Encloses a newspaper clipping on the type of article wanted"
+    ]
+  },
+  "1081": {
+    "tagDate": ["1889-03-15T00:00:00.000Z"],
+    "tagPerson": ["Haultain, Arnold T."],
+    "tagDescription": ["Matriculation examinations"]
+  },
+  "753": {
+    "tagDescription": ["Election procedure"],
+    "tagDate": ["1887-03-03T00:00:00.000Z"],
+    "tagPerson": ["McArthur, James"]
+  },
+  "543": {
+    "tagDate": ["1885-02-07T00:00:00.000Z"],
+    "tagPerson": ["McEwen, J."],
+    "tagDescription": ["College confederation"]
+  },
+  "841": {
+    "tagDate": ["1888-02-15T00:00:00.000Z"],
+    "tagPerson": ["Stephen, George"],
+    "tagDescription": ["Attacks made on the C.P.R. Co."]
+  },
+  "1011": {
+    "tagDescription": ["Divorce legislation"],
+    "tagPerson": ["Gowan, James Robert"],
+    "tagDate": ["1888-12-21T00:00:00.000Z"]
+  },
+  "528": {
+    "tagDescription": ["College confederation"],
+    "tagDate": ["1885-02-06T00:00:00.000Z"],
+    "tagPerson": ["Mark, Robert Dr."]
+  },
+  "890": {
+    "tagDate": ["1888-04-21T00:00:00.000Z"],
+    "tagPerson": ["Archibald, Sarah"],
+    "tagDescription": ["Invitation"]
+  },
+  "342": {
+    "tagPerson": ["Murray, Robert"],
+    "tagDate": ["1883-05-01T00:00:00.000Z"],
+    "tagDescription": ["University matters"]
+  },
+  "997": {
+    "tagDate": ["1888-11-14T00:00:00.000Z"],
+    "tagPerson": ["MacDonald, Herbert "],
+    "tagDescription": ["Liquor prohibition"]
+  },
+  "759": {
+    "tagDate": ["1887-04-08T00:00:00.000Z"],
+    "tagPerson": ["Gilmour, Allan"],
+    "tagDescription": ["Queen's University - subscription"]
+  },
+  "661": {
+    "tagDate": ["1886-10-11T00:00:00.000Z"],
+    "tagPerson": ["Waters, John F."]
+  },
+  "608": {
+    "tagPerson": ["Romanis, G. J."],
+    "tagDate": ["1886-01-11T00:00:00.000Z"],
+    "tagDescription": ["Theology"]
+  },
+  "1071": {
+    "tagDescription": ["Jesuits' Act"],
+    "tagPerson": ["Dawson, Samuel E."],
+    "tagDate": ["1889-03-07T00:00:00.000Z"]
+  },
+  "368": {
+    "tagDate": ["1883-05-28T00:00:00.000Z"],
+    "tagPerson": ["Williamson, A."],
+    "tagDescription": ["Queen's University"]
+  },
+  "639": {
+    "tagDescription": ["Queen's University - honorary degree"],
+    "tagPerson": ["Fraser, John"],
+    "tagDate": ["1886-04-07T00:00:00.000Z"]
+  },
+  "795": {
+    "tagDescription": ["Grant's trip across Canada"],
+    "tagPerson": ["Van Horne, Wm. C."],
+    "tagDate": ["1887-07-12T00:00:00.000Z"]
+  },
+  "472": {
+    "tagDescription": ["Copyright question"],
+    "tagDate": ["1884-04-09T00:00:00.000Z"],
+    "tagPerson": ["Chauveau, P. O."]
+  },
+  "944": {
+    "tagDate": ["1888-08-21T00:00:00.000Z"],
+    "tagPerson": ["Australasian Association for Advancement of Science"],
+    "tagDescription": ["Invitation"]
+  },
+  "187": {
+    "tagDate": ["1882-06-03T00:00:00.000Z"],
+    "tagPerson": ["Hemming, Henry"],
+    "tagDescription": ["Federal politics"]
+  },
+  "574": {
+    "tagDescription": ["Transatlantic club"],
+    "tagPerson": ["Anglin, W. G."],
+    "tagDate": ["1885-05-19T00:00:00.000Z"]
+  },
+  "333": {
+    "tagDate": ["1883-04-04T00:00:00.000Z"],
+    "tagPerson": ["Monro, Margaret"],
+    "tagDescription": ["Personal"]
+  },
+  "111": {
+    "tagDescription": ["Personal"],
+    "tagDate": ["1882-02-01T00:00:00.000Z"],
+    "tagPerson": ["Cowper, Mary C."]
+  },
+  "255": {
+    "tagPerson": ["Rothwell, Annie"],
+    "tagDate": ["1882-10-19T00:00:00.000Z"]
+  },
+  "488": {
+    "tagPerson": ["Grant, Chas. M."],
+    "tagDate": ["1884-08-07T00:00:00.000Z"],
+    "tagDescription": ["Presbyterian church"]
+  },
+  "951": {
+    "tagDescription": ["Australian matters"],
+    "tagDate": ["1888-09-01T00:00:00.000Z"],
+    "tagPerson": ["Way, Samuel J. Rt. Hon."]
+  },
+  "545": {
+    "tagDescription": ["College confederation"],
+    "tagPerson": ["Davis, B."],
+    "tagDate": ["1885-02-07T00:00:00.000Z"]
+  },
+  "975": {
+    "tagPerson": ["Grant, William"],
+    "tagDate": ["1888-09-12T00:00:00.000Z"],
+    "tagDescription": ["Queen's University - bursary"]
+  },
+  "601": {
+    "tagDate": ["1885-12-15T00:00:00.000Z"],
+    "tagPerson": ["Strange, T. B."],
+    "tagDescription": ["Northwest Rebellion"]
+  },
+  "532": {
+    "tagDate": ["1885-02-06T00:00:00.000Z"],
+    "tagPerson": ["Fralick, E. H."],
+    "tagDescription": ["College confederation"]
+  }
+}

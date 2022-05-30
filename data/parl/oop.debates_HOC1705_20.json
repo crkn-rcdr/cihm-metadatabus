@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["17-5"],
+  "pubmin": "1934-01-25",
+  "label": "House of Commons Debates, 17th Parliament, 5th Session : Index",
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "17-5", 5]],
+  "pubmax": "1934-07-03"
+}

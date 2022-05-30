@@ -1,0 +1,12 @@
+{
+  "pubmin": "1955-01-07",
+  "callNumber": "1955 R33 A4",
+  "label": "Comités de la Chambre des communes, 22e Législature, 2e Session : Comité spécial de la radiodiffusion, vol. 1",
+  "language": ["fra"],
+  "session": ["22-2"],
+  "type": "committees",
+  "pubmax": "1955-07-28",
+  "node": [["fra", "c", "committees", "22-2", 12]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

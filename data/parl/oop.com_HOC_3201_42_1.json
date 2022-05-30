@@ -1,0 +1,15 @@
+{
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Sub-committee on Sexually Abusive Broadcasting, vol. 1 = Comités de la Chambre des communes, 32e Législature, 1re Session : Sous-comité sur les émissions à tendance sexuelles abusives, vol. 1",
+  "callNumber": "1980/83 S5 A1",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "32-1", 162],
+    ["fra", "c", "committees", "32-1", 45]
+  ],
+  "pubmax": "1983-11-30",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

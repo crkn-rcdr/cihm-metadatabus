@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 122],
+    ["fra", "c", "committees", "34-2", 134]
+  ],
+  "pubmax": "1991-05-12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Justice and the Solicitor General, vol. 2 no. 32-61 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de la justice et du Solliciteur général, vol. 2 no. 32-61",
+  "callNumber": "34-2 J83 A1 no.32-61",
+  "language": ["eng", "fra"],
+  "session": ["34-2"]
+}

@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 27],
+    ["fra", "c", "committees", "34-3", 37]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 C472 A1 no.51-66",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Communications and Culture, vol. 4 no. 51-66 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des communications et de la culture, vol. 4 no. 51-66"
+}

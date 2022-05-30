@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "21-7", 1]],
+  "pubmax": "1953-05-14",
+  "type": "committees",
+  "session": ["21-7"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 21st Parliament, 7th Session : Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1952/53 A3 A1",
+  "pubmin": "1952-11-20"
+}

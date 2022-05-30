@@ -1,0 +1,15 @@
+{
+  "node": [
+    ["eng", "c", "committees", "30-1", 56],
+    ["fra", "c", "committees", "30-1", 1]
+  ],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Veterans Affairs, vol. 1 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent des affaires des anciens combattants, vol. 1",
+  "callNumber": "1974/76 V4 A1",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng", "fra"]
+}

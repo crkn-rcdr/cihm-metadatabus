@@ -1,0 +1,15 @@
+{
+  "callNumber": "1980/83 M54 A1 no.17-27",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on Participation of Visible Minorities in Canadian Society, vol. 2 no. 17-27 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial sur la participation des minorités visibles à la Société canadienne, vol. 2 no. 17-27",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 133],
+    ["fra", "c", "committees", "32-1", 89]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

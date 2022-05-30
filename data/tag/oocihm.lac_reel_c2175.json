@@ -1,0 +1,119 @@
+{
+  "355": {
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagName": ["First Series, 1880 - 1924"],
+    "tagDate": ["[1895-01-01T00:00:00.000Z TO 1896-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Indian Affairs, Peigan Reserve - memoranda Concerning the Peigan Reserve of the North West Territories."
+    ]
+  },
+  "300": {
+    "tagDate": ["[1880-01-01T00:00:00.000Z TO 1897-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Indian Affairs - report on Setting Bull's arrival to Canada, ca. 1880, and a report on Department if Indian Affairs officials in the North West Territories , 1897."
+    ],
+    "tagPlace": ["Canada"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagName": ["First Series, 1880 - 1924"]
+  },
+  "951": {
+    "tagPlace": ["Canada"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagName": ["First Series, 1880 - 1924"],
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Shipbuilding - memorial to federal government to aid ship building in Canada."
+    ]
+  },
+  "238": {
+    "tagDate": ["1897-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Hudson's Bay Company - memorandum Concerning the grants of land to the Company by the Order - in - Council of 5 July 1869."
+    ],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagName": ["First Series, 1880 - 1924"]
+  },
+  "723": {
+    "tagDate": ["1898-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Manitoba - memoranda Concerning a land investment in Dauphin and Concerning the Manitoba School Question."
+    ],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagPlace": ["Manitoba"],
+    "tagName": ["First Series, 1880 - 1924"]
+  },
+  "110": {
+    "tagDate": ["1908-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Elections - clippings from the Winnipeg Daily Tribune and reports from an informant identified as #138 Concerning the state of public during the 1908 General election."
+    ],
+    "tagPlace": ["Winnipeg"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagName": ["First Series, 1880 - 1924"]
+  },
+  "763": {
+    "tagDescription": ["North West Mounted Police - personnel file."],
+    "tagDate": ["1898-01-01T00:00:00.000Z"],
+    "tagName": ["First Series, 1880 - 1924"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"]
+  },
+  "957": {
+    "tagName": ["First Series, 1880 - 1924"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagDescription": ["Sifton, Clifford - Personal accounts."],
+    "tagDate": ["1900-01-01T00:00:00.000Z"]
+  },
+  "780": {
+    "tagDate": ["[1897-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Patronage List - list of recipients in Manitoba and the North West Territories."
+    ],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagPlace": ["Manitoba"],
+    "tagName": ["First Series, 1880 - 1924"]
+  },
+  "772": {
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagName": ["First Series, 1880 - 1924"],
+    "tagDate": ["1897-01-01T00:00:00.000Z"],
+    "tagDescription": ["North West Territories - General services account."]
+  },
+  "216": {
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagPlace": ["Manitoba"],
+    "tagName": ["First Series, 1880 - 1924"],
+    "tagDate": ["1898-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Grain trade - memorandum on the Act to regulate the grain trade in Manitoba and the North West Territories."
+    ]
+  },
+  "974": {
+    "tagDate": ["1897-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Stoney Mountain Penitentiary - investigation of conditions."
+    ],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagName": ["First Series, 1880 - 1924"]
+  },
+  "818": {
+    "tagDescription": [
+      "Railways - memoranda regarding forest fires in railway right - of - ways.",
+      "Railways - memoranda regarding railway incorporations."
+    ],
+    "tagDate": ["1896-01-01T00:00:00.000Z"],
+    "tagName": ["First Series, 1880 - 1924"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"]
+  },
+  "900": {
+    "tagDescription": ["Reciprocity - speeches and memoranda."],
+    "tagDate": ["1911-01-01T00:00:00.000Z"],
+    "tagName": ["First Series, 1880 - 1924"],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"]
+  },
+  "815": {
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": ["Peace Treaty - memorandum."],
+    "tagNotebook": ["SUBJECT FILES, 1880 - 1929"],
+    "tagName": ["First Series, 1880 - 1924"]
+  }
+}

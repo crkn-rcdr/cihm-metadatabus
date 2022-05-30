@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["eng", "c", "sessional", "08-2", 3]],
+  "pubmax": "1897-06-29",
+  "language": ["eng"],
+  "session": ["08-2"],
+  "pubmin": "1897-03-25",
+  "label": "Sessional Papers, 8th Parliament, 2nd Session : vol. 3"
+}

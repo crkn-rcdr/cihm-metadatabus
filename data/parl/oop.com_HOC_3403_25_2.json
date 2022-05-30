@@ -1,0 +1,15 @@
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 48],
+    ["fra", "c", "committees", "34-3", 67]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 D49 A1 no.24-43",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Sub-Committee on Development and Human Rights, vol. 2 no. 24-43 = Comités de la Chambre des communes, 34e Législature, 3e Session : Sous-comité du développement et des droits de la personne, vol. 2 no. 24-43",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

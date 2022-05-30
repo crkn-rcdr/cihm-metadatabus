@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "08-5", 1]],
+  "pubmax": "1900-07-18",
+  "type": "debates",
+  "session": ["08-5"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 8e Législature, 5e Session : Vol. 1",
+  "pubmin": "1900-02-01"
+}

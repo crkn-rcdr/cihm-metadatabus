@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "17-5", 7]],
+  "pubmax": "1934-07-03",
+  "type": "committees",
+  "session": ["17-5"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 17th Parliament, 5th Session : Special Committee on Price Spreads and Mass Buying, vol. 3",
+  "callNumber": "1934 P75 A1 v.3",
+  "pubmin": "1934-01-25"
+}

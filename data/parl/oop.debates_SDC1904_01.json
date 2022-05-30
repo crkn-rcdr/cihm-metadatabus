@@ -1,0 +1,10 @@
+{
+  "pubmin": "1943-01-28",
+  "label": "Débats du Sénat, 19e Législature, 4e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["19-4"],
+  "type": "debates",
+  "pubmax": "1944-01-26",
+  "node": [["fra", "s", "debates", "19-4", 1]],
+  "chamber": ["s"]
+}

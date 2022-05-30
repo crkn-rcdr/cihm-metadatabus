@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 133],
+    ["fra", "c", "committees", "33-1", 127]
+  ],
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-1 R53 A1 no.21-27",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on the Revision of Copyright, vol. 2 no. 21-27 = Comités de la Chambre des communes, 33e Législature, 1re Session : Sous-comité sur la révision du droit d'auteur, vol. 2 no. 21-27",
+  "pubmin": "1984-11-05"
+}

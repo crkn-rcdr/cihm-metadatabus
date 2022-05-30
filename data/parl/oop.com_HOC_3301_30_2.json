@@ -1,0 +1,15 @@
+{
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 2 no. 18-35 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des finances, du commerce et des questions économiques, vol. 2 no. 18-35",
+  "callNumber": "33-1 F55 A1 no.18-35",
+  "pubmin": "1984-11-05",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-1", 62],
+    ["fra", "c", "committees", "33-1", 54]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees"
+}

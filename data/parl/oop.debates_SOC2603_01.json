@@ -1,0 +1,10 @@
+{
+  "label": "Senate Debates, 26th Parliament, 3rd Session : Vol. 1",
+  "pubmin": "1965-04-05",
+  "session": ["26-3"],
+  "language": ["eng"],
+  "node": [["eng", "s", "debates", "26-3", 1]],
+  "pubmax": "1965-09-08",
+  "type": "debates",
+  "chamber": ["s"]
+}

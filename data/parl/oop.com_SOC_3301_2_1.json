@@ -1,0 +1,11 @@
+{
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 A32 A12",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Fisheries, Second Report",
+  "language": ["eng"],
+  "session": ["33-1"],
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [["eng", "s", "committees", "33-1", 19]],
+  "chamber": ["s"]
+}

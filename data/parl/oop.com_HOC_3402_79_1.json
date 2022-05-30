@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 142],
+    ["fra", "c", "committees", "34-2", 151]
+  ],
+  "type": "committees",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-2 P535 A1 no.1-9",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-84, an Act respecting the privatization of the national petroleum company of Canada, vol. 1 no. 1-9 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-84, Loi concernant la privatisation de la société nationale des pétroles du Canada, vol. 1 no. 1-9",
+  "pubmin": "1989-04-03"
+}

@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["26-3"],
+  "pubmin": "1965-04-05",
+  "callNumber": "J103 H41 1965 v.1 c.2",
+  "label": "House of Commons Votes and Proceedings, 26th Parliament, 3rd Session : 1-53",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "type": "cproc",
+  "pubmax": "1965-09-08",
+  "node": [["eng", "c", "cproc", "26-3", 1]]
+}

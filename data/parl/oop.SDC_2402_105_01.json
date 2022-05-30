@@ -1,0 +1,10 @@
+{
+  "session": ["24-2"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 24e Législature, 2e Session : Vol. 105",
+  "pubmin": "1959-01-15",
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "24-2", 1]],
+  "pubmax": "1959-07-18",
+  "type": "journals"
+}

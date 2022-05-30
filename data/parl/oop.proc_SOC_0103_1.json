@@ -1,0 +1,11 @@
+{
+  "callNumber": "J103 H4 1870",
+  "label": "Senate Minutes of Proceedings, 1st Parliament, 3rd Session : 1-57",
+  "pubmin": "1870-02-15",
+  "session": ["01-3"],
+  "language": ["eng"],
+  "pubmax": "1870-05-12",
+  "node": [["eng", "s", "sproc", "01-3", 1]],
+  "type": "sproc",
+  "chamber": ["s"]
+}

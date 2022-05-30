@@ -1,0 +1,10 @@
+{
+  "label": "Senate Journals, 28th Parliament, 1st Session : Vol. 115 Pt. 2",
+  "pubmin": "1968-09-12",
+  "session": ["28-1"],
+  "language": ["eng"],
+  "node": [["eng", "s", "journals", "28-1", 2]],
+  "pubmax": "1969-10-22",
+  "type": "journals",
+  "chamber": ["s"]
+}

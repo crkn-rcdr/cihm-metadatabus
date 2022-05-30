@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 18e Législature, 4e Session : Vol. 4",
+  "pubmin": "1939-01-12",
+  "session": ["18-4"],
+  "language": ["fra"],
+  "pubmax": "1939-06-03",
+  "node": [["fra", "c", "debates", "18-4", 4]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

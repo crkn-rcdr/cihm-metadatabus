@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 A246 A1 no.1-2",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-36, an Act to amend the Advance Payments for Crops Act and the Prairie Grain Advance Payments Act, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-36, Loi modifiant la Loi sur le paiement anticipé des récoltes et la Loi sur les paiements anticipés pour le grain des Prairies, vol. 1 no. 1-2",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 13],
+    ["fra", "c", "committees", "34-2", 144]
+  ]
+}

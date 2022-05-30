@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1892-07-09",
+  "node": [["fra", "s", "sproc", "07-2", 1]],
+  "type": "sproc",
+  "session": ["07-2"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1892",
+  "label": "Procès-verbaux du Sénat, 7e Législature, 2e Session : 1-66",
+  "pubmin": "1892-02-25"
+}

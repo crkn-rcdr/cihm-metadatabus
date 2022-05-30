@@ -1,0 +1,10 @@
+{
+  "language": ["eng"],
+  "session": ["16-2"],
+  "pubmin": "1928-01-26",
+  "label": "Senate Journals, 16th Parliament, 2nd Session : Vol. 65",
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "16-2", 1]],
+  "pubmax": "1928-06-11"
+}

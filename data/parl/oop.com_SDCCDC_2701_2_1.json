@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["fra", "c", "committees", "27-1", 18],
+    ["fra", "s", "committees", "27-1", 6]
+  ],
+  "pubmax": "1967-05-08",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c", "s"],
+  "pubmin": "1966-01-18",
+  "label": "Comités mixtes, 27e Législature, 1re Session : Comité spécial mixte sur le divorce, vol. 1",
+  "callNumber": "1966/67 D5 A1 v.1",
+  "language": ["fra"],
+  "session": ["27-1"]
+}

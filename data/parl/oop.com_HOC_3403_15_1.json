@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "34-3", 33],
+    ["fra", "c", "committees", "34-3", 51]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Consumer and Corporate Affairs and Government Operations, vol. 1 no. 1-21 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des consommateurs et sociétés et administration gouvernementale, vol. 1 no. 1-21",
+  "callNumber": "34-3 C662 A1 no.1-21",
+  "pubmin": "1991-05-13"
+}

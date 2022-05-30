@@ -1,0 +1,12 @@
+{
+  "pubmin": "1886-02-25",
+  "callNumber": "J103 H41 1886 c.2",
+  "label": "House of Commons Votes and Proceedings, 5th Parliament, 4th Session : 1-65",
+  "language": ["eng"],
+  "session": ["05-4"],
+  "type": "cproc",
+  "pubmax": "1886-06-02",
+  "node": [["eng", "c", "cproc", "05-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

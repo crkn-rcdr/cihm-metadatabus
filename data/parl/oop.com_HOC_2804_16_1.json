@@ -1,0 +1,15 @@
+{
+  "node": [
+    ["eng", "c", "committees", "28-4", 19],
+    ["fra", "c", "committees", "28-4", 18]
+  ],
+  "pubmax": "1972-09-01",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Transport and Communications, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent des transports et des communications, vol. 1",
+  "callNumber": "1972 T7 A1",
+  "pubmin": "1972-02-17",
+  "session": ["28-4"],
+  "language": ["eng", "fra"]
+}

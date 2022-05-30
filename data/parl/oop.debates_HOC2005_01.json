@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "debates",
+  "pubmax": "1949-04-30",
+  "node": [["eng", "c", "debates", "20-5", 1]],
+  "language": ["eng"],
+  "session": ["20-5"],
+  "pubmin": "1949-01-26",
+  "label": "House of Commons Debates, 20th Parliament, 5th Session : Vol. 1"
+}

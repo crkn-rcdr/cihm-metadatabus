@@ -1,0 +1,52 @@
+{
+  "333": {
+    "tagNotebook": ["SCRAPBOOKS"],
+    "tagDate": ["[1936-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Scrapbook"]
+  },
+  "1073": {
+    "tagNotebook": ["PAMPHLETS AND CLIPPINGS"],
+    "tagDate": ["[1938-12-31T23:59:59.999Z TO 1942-01-01T00:00:00.000Z]"],
+    "tagDescription": ["Pamphlets and clippings. Book reviews."]
+  },
+  "306": {
+    "tagNotebook": ["SCRAPBOOKS"],
+    "tagDescription": ["Scrapbook"],
+    "tagDate": ["[1934-07-01T00:00:00.000Z TO 1935-11-28T23:59:59.999Z]"]
+  },
+  "18": {
+    "tagNotebook": ["SCRAPBOOKS"],
+    "tagDescription": ["Scrapbook"],
+    "tagDate": ["[1930-02-01T00:00:00.000Z TO 1930-05-28T23:59:59.999Z]"]
+  },
+  "939": {
+    "tagDate": ["[1954-01-01T00:00:00.000Z TO 1959-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Scrapbook, Part 1"],
+    "tagNotebook": ["SCRAPBOOKS"]
+  },
+  "568": {
+    "tagNotebook": ["SCRAPBOOKS"],
+    "tagDate": ["[1940-01-01T00:00:00.000Z TO 1954-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Scrapbook"]
+  },
+  "1015": {
+    "tagNotebook": ["SCRAPBOOKS"],
+    "tagDescription": ["Scrapbook, Part 2"],
+    "tagDate": ["[1930-01-01T00:00:00.000Z TO 1960-12-31T23:59:59.999Z]"]
+  },
+  "120": {
+    "tagDescription": ["Scrapbook"],
+    "tagDate": ["[1930-05-01T00:00:00.000Z TO 1930-08-28T23:59:59.999Z]"],
+    "tagNotebook": ["SCRAPBOOKS"]
+  },
+  "188": {
+    "tagNotebook": ["SCRAPBOOKS"],
+    "tagDescription": ["Scrapbook"],
+    "tagDate": ["[1930-07-01T00:00:00.000Z TO 1934-05-28T23:59:59.999Z]"]
+  },
+  "836": {
+    "tagNotebook": ["SCRAPBOOKS"],
+    "tagDate": ["[1931-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Scrapbook - Refugees"]
+  }
+}

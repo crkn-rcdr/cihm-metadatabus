@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "29-1", 2]],
+  "pubmax": "1974-02-26",
+  "type": "debates",
+  "session": ["29-1"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 29e Législature, 1re Session : Vol. 2",
+  "pubmin": "1973-01-04"
+}

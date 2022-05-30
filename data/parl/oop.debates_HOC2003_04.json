@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["20-3"],
+  "pubmin": "1947-01-30",
+  "label": "House of Commons Debates, 20th Parliament, 3rd Session : Vol. 4",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "20-3", 4]],
+  "pubmax": "1947-07-17"
+}

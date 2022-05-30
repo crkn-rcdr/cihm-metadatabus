@@ -1,0 +1,17 @@
+{
+  "session": ["28-3"],
+  "language": ["eng", "fra"],
+  "label": "Joint Committees, 28th Parliament, 3rd Session : Special Joint Committee on the Constitution of Canada, vol. 5 = Comités mixtes, 28e Législature, 3e Session : Comité spécial mixte sur la Constitution du Canada, vol. 5",
+  "callNumber": "1970/72 C6 A1 v.5",
+  "pubmin": "1970-10-08",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c", "s"],
+  "node": [
+    ["eng", "c", "committees", "28-3", 11],
+    ["fra", "c", "committees", "28-3", 18],
+    ["eng", "s", "committees", "28-3", 9],
+    ["fra", "s", "committees", "28-3", 12]
+  ],
+  "pubmax": "1972-02-16",
+  "type": "committees"
+}

@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Finance, vol. 4 no. 60-72 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des finances, vol. 4 no. 60-72",
+  "callNumber": "34-3 F553 A1 no.60-72",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 81],
+    ["fra", "c", "committees", "34-3", 114]
+  ],
+  "pubmax": "1993-09-08"
+}

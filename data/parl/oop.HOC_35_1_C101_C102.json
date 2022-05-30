@@ -1,0 +1,14 @@
+{
+  "label": "House of Commons Bills, 35th Parliament, 1st Session : C101-C102 = Projets de loi de la Chambre des communes, 35e Législature, 1re Session : C101-C102",
+  "pubmin": "1994-01-17",
+  "session": ["35-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "bills", "35-1", 8],
+    ["fra", "c", "bills", "35-1", 8]
+  ],
+  "pubmax": "1996-02-02",
+  "type": "bills",
+  "primeMinisters": "Chrétien, Joseph Jacques Jean",
+  "chamber": ["c"]
+}

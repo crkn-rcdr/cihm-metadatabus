@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "committees", "34-3", 218]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 T7 A124",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des transports, Quatrième rapport",
+  "language": ["fra"],
+  "reportTitle": [
+    "L'avenir de la voie maritime du Saint-Laurent et des Grands Lacs"
+  ],
+  "session": ["34-3"]
+}

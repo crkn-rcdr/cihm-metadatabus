@@ -1,0 +1,11 @@
+{
+  "type": "bills",
+  "pubmax": "1951-10-09",
+  "node": [["fra", "s", "bills", "21-4", 2]],
+  "chamber": ["s"],
+  "pubmin": "1951-01-30",
+  "callNumber": "KE72 C381 21-4 v.2",
+  "label": "Projets de loi du Sénat, 21e Législature, 4e Session : A4-Z7",
+  "language": ["fra"],
+  "session": ["21-4"]
+}

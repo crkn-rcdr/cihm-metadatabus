@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander (1873-10-23 - 1873-11-05), Mackenzie, Alexander (1873-11-07 - 1873-11-07)",
+  "chamber": ["c"],
+  "node": [["fra", "c", "journals", "02-2", 1]],
+  "pubmax": "1873-11-07",
+  "type": "journals",
+  "session": ["02-2"],
+  "language": ["fra"],
+  "label": "Journaux de la Chambre des communes, 2e Législature, 2e Session : Vol. 7",
+  "pubmin": "1873-10-23"
+}

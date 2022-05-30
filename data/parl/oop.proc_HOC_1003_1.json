@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "10-3", 1]],
+  "pubmax": "1907-04-27",
+  "type": "cproc",
+  "session": ["10-3"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 10th Parliament, 3rd Session : 1-95",
+  "callNumber": "J103 H41 1906/07 c.2",
+  "pubmin": "1906-11-22"
+}

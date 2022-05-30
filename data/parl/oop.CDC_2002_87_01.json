@@ -1,0 +1,11 @@
+{
+  "pubmax": "1946-08-31",
+  "node": [["fra", "c", "journals", "20-2", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "label": "Journaux de la Chambre des communes, 20e Législature, 2e Session : Vol. 87",
+  "pubmin": "1946-03-14",
+  "session": ["20-2"],
+  "language": ["fra"]
+}

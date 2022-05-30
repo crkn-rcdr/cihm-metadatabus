@@ -1,0 +1,15 @@
+{
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 C73 A1 no.1-10",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-61, an Act to amend the Criminal Code, the Food and Drugs Act and the Narcotic Act, vol. 1 no. 1-10 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-61, Loi modifiant le Code criminel, la Loi des aliments et drogues et la Loi sur les stupéfiants, vol. 1 no. 1-10",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 47],
+    ["fra", "c", "committees", "33-2", 44]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

@@ -4,6 +4,7 @@ use 5.014;
 use strict;
 use Try::Tiny;
 use JSON;
+use JSON::Parse 'read_json';
 use DateTime;
 
 =head1 NAME
@@ -17,6 +18,8 @@ CIHM::Meta::Press2
       where $args is a hash of arguments.
 
 =cut
+
+use constant DATAPATH => '/home/tdr/data';
 
 sub new {
     my ( $class, $args ) = @_;
@@ -32,9 +35,6 @@ sub new {
     }
     if ( !$self->internalmeta2 ) {
         die "internalmeta2 object parameter is mandatory\n";
-    }
-    if ( !$self->extrameta ) {
-        die "extrameta object parameter is mandatory\n";
     }
     if ( !$self->cosearch2 ) {
         die "cosearch2 object parameter is mandatory\n";
@@ -89,11 +89,6 @@ sub log {
 sub internalmeta2 {
     my $self = shift;
     return $self->args->{internalmeta2};
-}
-
-sub extrameta {
-    my $self = shift;
-    return $self->args->{extrameta};
 }
 
 sub cosearch2 {
@@ -170,16 +165,6 @@ sub adddocument {
     # Grab the data for the CouchDB document
     my $aipdata = $self->aipdata;
 
-    my $extradata = {};
-
-    # Get the Extrameta data, if it exists..
-    $self->extrameta->type("application/json");
-    my $res = $self->extrameta->get( "/" . $self->aip,
-        {}, { deserializer => 'application/json' } );
-    if ( $res->code == 200 ) {
-        $extradata = $res->data;
-    }
-
     # Every AIP in the queue must have an attachment from Hammer.
     # (Test is part of the queue map)
     $self->process_hammer();
@@ -204,8 +189,8 @@ sub adddocument {
           $aipdata->{'collections'};
     }
 
-   # If a parl.json attachment exists, process it. (parl-terms.json is obsolete)
-    if ( exists $extradata->{'_attachments'}->{'parl.json'} ) {
+    # If a parl/${id}.json file exists, process it.
+    if ( -e DATAPATH . "/parl/" . $self->aip . ".json" ) {
         $self->process_parl();
     }
 
@@ -241,10 +226,10 @@ sub adddocument {
         $self->process_components();
     }
 
-    # If an externalmetaHP.json attachment exists, process it.
+    # If a tag json file exists, process it.
     # - Needs to be processed after process_components() as
     #   process_externalmetaHP() sets a flag within component field.
-    if ( exists $extradata->{'_attachments'}->{'externalmetaHP.json'} ) {
+    if ( -e DATAPATH . "/tag/" . $self->aip . ".json" ) {
         $self->process_externalmetaHP();
     }
 
@@ -257,7 +242,6 @@ sub adddocument {
           . " searchdoc and "
           . scalar( keys %{ $self->presentdoc } )
           . " presentdoc\n";
-        print $self->aip . " had doc count discrepancy\n";
     }
 
     $self->update_couch( $self->cosearch2,       $self->searchdoc );
@@ -560,8 +544,6 @@ sub process_hammer {
         if ( keys %docfields ) {
             warn "Unused Hammer fields in $key: "
               . join( ",", keys %docfields ) . "\n";
-            print "Unused Hammer fields in $key: "
-              . join( ",", keys %docfields ) . "\n";
         }
     }
 }
@@ -569,13 +551,8 @@ sub process_hammer {
 sub process_parl {
     my ($self) = @_;
 
-    $self->extrameta->type("application/json");
-    my $res = $self->extrameta->get( "/" . $self->aip . "/parl.json",
-        {}, { deserializer => 'application/json' } );
-    if ( $res->code != 200 ) {
-        die "get of parl.json return code: " . $res->code . "\n";
-    }
-    my $parl = $res->data;
+    my $filename = DATAPATH . "/parl/" . $self->aip . ".json";
+    my $parl     = read_json($filename);
 
     my %term_map = (
         language       => "lang",
@@ -631,15 +608,8 @@ sub mergemulti {
 sub process_externalmetaHP {
     my ($self) = @_;
 
-    # Grab the data for the CouchDB document
-
-    $self->extrameta->type("application/json");
-    my $res = $self->extrameta->get( "/" . $self->aip . "/externalmetaHP.json",
-        {}, { deserializer => 'application/json' } );
-    if ( $res->code != 200 ) {
-        die "get of externalmetaHP.json eturn code: " . $res->code . "\n";
-    }
-    my $emHP = $res->data;
+    my $filename = DATAPATH . "/tag/" . $self->aip . ".json";
+    my $emHP = read_json($filename);
 
     foreach my $seq ( keys %{$emHP} ) {
         my $pageid = $self->aip . "." . $seq;

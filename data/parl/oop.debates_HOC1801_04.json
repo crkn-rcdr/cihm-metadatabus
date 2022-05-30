@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "18-1", 4]],
+  "pubmax": "1936-06-23",
+  "language": ["eng"],
+  "session": ["18-1"],
+  "pubmin": "1936-02-06",
+  "label": "House of Commons Debates, 18th Parliament, 1st Session : Vol. 4"
+}

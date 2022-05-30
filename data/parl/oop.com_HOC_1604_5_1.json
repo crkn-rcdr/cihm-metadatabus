@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["16-4"],
+  "pubmin": "1930-02-20",
+  "callNumber": "1930 R3 A1",
+  "label": "House of Commons Committees, 16th Parliament, 4th Session : Select Standing Committee on Railways and Shipping, Owned, Operated and Controlled by the Government, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "committees",
+  "pubmax": "1930-05-30",
+  "node": [["eng", "c", "committees", "16-4", 5]]
+}

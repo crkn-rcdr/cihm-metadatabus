@@ -1,0 +1,12 @@
+{
+  "pubmin": "1950-02-16",
+  "callNumber": "1950 P8 A1",
+  "label": "House of Commons Committees, 21st Parliament, 2nd Session : Standing Committee on Public Accounts, vol. 1",
+  "language": ["eng"],
+  "session": ["21-2"],
+  "type": "committees",
+  "pubmax": "1950-06-30",
+  "node": [["eng", "c", "committees", "21-2", 10]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

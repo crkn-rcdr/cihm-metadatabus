@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["fra", "c", "bills", "21-6", 1]],
+  "pubmax": "1952-11-20",
+  "type": "bills",
+  "session": ["21-6"],
+  "language": ["fra"],
+  "label": "Projets de loi de la Chambre des communes, 21e Législature, 6e Session : 2-394",
+  "callNumber": "KE72 C361 21-6 2-394",
+  "pubmin": "1952-02-28"
+}

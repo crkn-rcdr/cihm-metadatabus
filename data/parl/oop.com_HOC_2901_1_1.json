@@ -1,0 +1,15 @@
+{
+  "pubmax": "1974-02-26",
+  "node": [
+    ["eng", "c", "committees", "29-1", 1],
+    ["fra", "c", "committees", "29-1", 5]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "callNumber": "1973/74 A3 A1",
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Agriculture, vol. 1 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent de l'agriculture, vol. 1",
+  "pubmin": "1973-01-04",
+  "session": ["29-1"],
+  "language": ["eng", "fra"]
+}

@@ -1,0 +1,15 @@
+{
+  "pubmin": "1980-04-14",
+  "callNumber": "1980/82 A2 A1",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Subcommittee on Acid Rain, vol. 1 = Comités de la Chambre des communes, 32e Législature, 1re Session : Sous-comité sur les pluies acides, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 1],
+    ["fra", "c", "committees", "32-1", 106]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

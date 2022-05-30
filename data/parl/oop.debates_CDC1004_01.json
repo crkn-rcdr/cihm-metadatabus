@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "10-4", 1]],
+  "pubmax": "1908-07-20",
+  "type": "debates",
+  "session": ["10-4"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 10e Législature, 4e Session : Vol. 1",
+  "pubmin": "1907-11-28"
+}

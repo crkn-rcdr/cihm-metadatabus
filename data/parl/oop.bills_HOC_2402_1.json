@@ -1,0 +1,12 @@
+{
+  "node": [["eng", "c", "bills", "24-2", 1]],
+  "pubmax": "1959-07-18",
+  "type": "bills",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "label": "House of Commons Bills, 24th Parliament, 2nd Session : C2-C73",
+  "callNumber": "KE72 C36 24-2 C2-C73",
+  "pubmin": "1959-01-15",
+  "session": ["24-2"],
+  "language": ["eng"]
+}

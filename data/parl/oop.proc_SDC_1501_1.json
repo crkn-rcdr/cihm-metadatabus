@@ -1,0 +1,11 @@
+{
+  "pubmin": "1926-01-07",
+  "label": "Procès-verbaux du Sénat, 15e Législature, 1re Session : 1-42",
+  "callNumber": "J103 H43 1926",
+  "language": ["fra"],
+  "session": ["15-1"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "15-1", 1]],
+  "pubmax": "1926-07-02",
+  "chamber": ["s"]
+}

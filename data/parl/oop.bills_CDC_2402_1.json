@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["24-2"],
+  "pubmin": "1959-01-15",
+  "label": "Projets de loi de la Chambre des communes, 24e Législature, 2e Session : C2-C73",
+  "callNumber": "KE72 C361 24-2 C2-C73",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "24-2", 1]],
+  "pubmax": "1959-07-18"
+}

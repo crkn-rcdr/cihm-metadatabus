@@ -1,0 +1,12 @@
+{
+  "session": ["22-1"],
+  "language": ["eng"],
+  "callNumber": "1953/54 V4 A1",
+  "label": "House of Commons Committees, 22nd Parliament, 1st Session : Special Committee on Veterans Affairs, vol. 1",
+  "pubmin": "1953-11-12",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmax": "1954-06-26",
+  "node": [["eng", "c", "committees", "22-1", 10]],
+  "type": "committees"
+}

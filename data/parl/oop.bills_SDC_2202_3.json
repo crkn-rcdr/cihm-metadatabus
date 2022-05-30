@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["22-2"],
+  "pubmin": "1955-01-07",
+  "callNumber": "KE72 C381 22-2 v.3",
+  "label": "Projets de loi du Sénat, 22e Législature, 2e Session : A10-Z13",
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1955-07-28",
+  "node": [["fra", "s", "bills", "22-2", 3]]
+}

@@ -1,0 +1,12 @@
+{
+  "pubmin": "1909-11-11",
+  "label": "House of Commons Committees, 11th Parliament, 2nd Session : Select Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1909-10 A3 A12",
+  "language": ["eng"],
+  "session": ["11-2"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "11-2", 1]],
+  "pubmax": "1910-05-04",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

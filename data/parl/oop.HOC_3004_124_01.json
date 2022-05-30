@@ -1,0 +1,14 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [
+    ["eng", "c", "journals", "30-4", 1],
+    ["fra", "c", "journals", "30-4", 1]
+  ],
+  "pubmax": "1979-03-26",
+  "language": ["eng", "fra"],
+  "session": ["30-4"],
+  "pubmin": "1978-10-11",
+  "label": "House of Commons Journals, 30th Parliament, 4th Session : Vol. 124 = Journaux de la Chambre des communes, 30e Législature, 4e Session : Vol. 124"
+}

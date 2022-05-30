@@ -1,0 +1,11 @@
+{
+  "pubmax": "1911-07-29",
+  "node": [["fra", "c", "debates", "11-3", 4]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "label": "Débats de la Chambre des communes, 11e Législature, 3e Session : Vol. 4",
+  "pubmin": "1910-11-17",
+  "session": ["11-3"],
+  "language": ["fra"]
+}

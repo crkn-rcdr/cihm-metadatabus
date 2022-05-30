@@ -1,0 +1,10 @@
+{
+  "node": [["eng", "s", "debates", "30-1", 2]],
+  "pubmax": "1976-10-12",
+  "type": "debates",
+  "chamber": ["s"],
+  "label": "Senate Debates, 30th Parliament, 1st Session : Vol. 2",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng"]
+}

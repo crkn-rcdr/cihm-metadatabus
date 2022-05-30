@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1900-07-18",
+  "node": [["eng", "s", "sproc", "08-5", 1]],
+  "type": "sproc",
+  "session": ["08-5"],
+  "language": ["eng"],
+  "callNumber": "J103 H4 1900",
+  "label": "Senate Minutes of Proceedings, 8th Parliament, 5th Session : 1-77",
+  "pubmin": "1900-02-01"
+}

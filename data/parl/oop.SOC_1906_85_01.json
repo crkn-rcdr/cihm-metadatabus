@@ -1,0 +1,10 @@
+{
+  "language": ["eng"],
+  "session": ["19-6"],
+  "pubmin": "1945-03-19",
+  "label": "Senate Journals, 19th Parliament, 6th Session : Vol. 85",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1945-04-16",
+  "node": [["eng", "s", "journals", "19-6", 1]]
+}

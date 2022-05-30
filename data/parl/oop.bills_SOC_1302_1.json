@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["eng", "s", "bills", "13-2", 1]],
+  "pubmax": "1919-07-07",
+  "language": ["eng"],
+  "session": ["13-2"],
+  "pubmin": "1919-02-20",
+  "label": "Senate Bills, 13th Parliament, 2nd Session : A-Z3",
+  "callNumber": "KE72 C38 13-2 Bill A-"
+}

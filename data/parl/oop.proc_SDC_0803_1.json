@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1898-06-13",
+  "node": [["fra", "s", "sproc", "08-3", 1]],
+  "language": ["fra"],
+  "session": ["08-3"],
+  "pubmin": "1898-02-03",
+  "callNumber": "J103 H43 1898",
+  "label": "Procès-verbaux du Sénat, 8e Législature, 3e Session : 1-68"
+}

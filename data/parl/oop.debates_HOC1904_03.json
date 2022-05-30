@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1944-01-26",
+  "node": [["eng", "c", "debates", "19-4", 3]],
+  "type": "debates",
+  "session": ["19-4"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 19th Parliament, 4th Session : Vol. 3",
+  "pubmin": "1943-01-28"
+}

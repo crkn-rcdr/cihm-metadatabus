@@ -1,0 +1,11 @@
+{
+  "callNumber": "J103 H4 1919 (2d. Sess. c.2)",
+  "label": "Senate Minutes of Proceedings, 13th Parliament, 3rd Session : 1-32",
+  "pubmin": "1919-09-01",
+  "session": ["13-3"],
+  "language": ["eng"],
+  "pubmax": "1919-11-10",
+  "node": [["eng", "s", "sproc", "13-3", 1]],
+  "type": "sproc",
+  "chamber": ["s"]
+}

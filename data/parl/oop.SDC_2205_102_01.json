@@ -1,0 +1,10 @@
+{
+  "pubmax": "1957-04-12",
+  "node": [["fra", "s", "journals", "22-5", 1]],
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Journaux du Sénat, 22e Législature, 5e Session : Vol. 102",
+  "pubmin": "1957-01-08",
+  "session": ["22-5"],
+  "language": ["fra"]
+}

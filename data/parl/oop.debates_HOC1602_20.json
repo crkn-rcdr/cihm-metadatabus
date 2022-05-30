@@ -1,0 +1,11 @@
+{
+  "pubmin": "1928-01-26",
+  "label": "House of Commons Debates, 16th Parliament, 2nd Session : Index",
+  "language": ["eng"],
+  "session": ["16-2"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "16-2", 4]],
+  "pubmax": "1928-06-11",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

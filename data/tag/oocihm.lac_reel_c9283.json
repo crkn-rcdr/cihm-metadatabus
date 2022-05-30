@@ -1,0 +1,26 @@
+{
+  "12": {
+    "tagDate": ["[1934-01-01T00:00:00.000Z TO 1945-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Correspondence with Provincial Secretary"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"]
+  },
+  "839": {
+    "tagDescription": ["Miscellaneous Correspondence"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1942-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Ontario"]
+  },
+  "438": {
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDescription": ["Correspondence with Provincial Secretary"],
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"]
+  },
+  "1216": {
+    "tagDescription": ["Constitutions and Resolutions"],
+    "tagDate": ["[1934-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Ontario"],
+    "tagNotebook": ["Provincial Files"]
+  }
+}

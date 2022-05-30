@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "callNumber": "KE72 C381 24-4 S2-S30",
+  "label": "Projets de loi du Sénat, 24e Législature, 4e Session : S2-S30",
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1961-09-29",
+  "node": [["fra", "s", "bills", "24-4", 1]]
+}

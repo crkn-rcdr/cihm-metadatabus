@@ -1,0 +1,3295 @@
+{
+  "145": {
+    "tagPlace": ["Elizabethtown"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Testimonial by Daniel Jones and Henry Arnold, justices of the peace, for Andrew Smith, storekeeper."
+    ],
+    "tagDate": ["1809-09-21T00:00:00.000Z"]
+  },
+  "714": {
+    "tagDescription": ["Memo seeking permission to carry on certain affairs."],
+    "tagDate": ["1810-04-28T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Gore"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "428": {
+    "tagDate": ["1810-01-20T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDescription": ["Orders new survey of road from York to Ashbridges."],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "176": {
+    "tagDescription": [
+      "John Small to the same. Requests information on regulations for fees to be paid by Thomas Hubbard and fellow settlers."
+    ],
+    "tagPerson": ["Small, John"],
+    "tagDate": ["1809-10-12T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Executive Council Office"]
+  },
+  "22": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagDescription": [
+      "Authorizes survey and division of tract between Houghton and Yarmouth."
+    ],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDate": ["1809-08-06T00:00:00.000Z"]
+  },
+  "449": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Woodhouse"],
+    "tagPerson": ["Trustees of London district school"],
+    "tagDate": ["1810-01-30T00:00:00.000Z"],
+    "tagDescription": [
+      "Trustees of London district school to same. Explain their decision to establish a school at Charlotteville in preference to Dover."
+    ]
+  },
+  "1014": {
+    "tagDescription": ["Informing him of deeds engrossed in the office."],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDate": ["1810-12-17T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Secretary's Office"]
+  },
+  "265": {
+    "tagDescription": [
+      "Chewett and Ridout to the same. Suggest new division be opened in Scott township."
+    ],
+    "tagDate": ["1809-11-09T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "722": {
+    "tagDescription": [
+      "The North West Co. request grants of land near lakes Simcoe and Huron."
+    ],
+    "tagDate": ["1810-05-01T00:00:00.000Z"],
+    "tagPerson": ["Gore", "McGillivray, W."],
+    "tagPlace": ["Montreal"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "205": {
+    "tagDescription": [
+      "Transmits list of 15 persons for town lots in Amherstburgh."
+    ],
+    "tagPerson": ["Halton", "Taylor, Geo., Major 100th Regt."],
+    "tagDate": ["1809-10-19T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Secretary's Office"]
+  },
+  "340": {
+    "tagPerson": ["Chewett", "Ridout"],
+    "tagDate": ["1809-12-07T00:00:00.000Z"],
+    "tagDescription": [
+      "Chewett and Ridout to the same. Instructions to Mahlon Burwell for a survey of Wainfleet."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "651": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": ["Report on road laying out in London district."],
+    "tagPerson": ["Chewett", "Ridout", "Gore"],
+    "tagDate": ["1810-04-07T00:00:00.000Z"]
+  },
+  "710": {
+    "tagDescription": ["Estimate for work at the post office at York."],
+    "tagDate": ["1810-04-28T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "892": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Whitehall"],
+    "tagDescription": [
+      "Directions for addressing the Privy Council for Trade at Whitehall."
+    ],
+    "tagPerson": ["Chetwynd", "Gore"],
+    "tagDate": ["1810-08-31T00:00:00.000Z"]
+  },
+  "901": {
+    "tagDate": ["1810-09-04T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDescription": ["Requesting a report on Lot No. 38, Cornwall."],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "572": {
+    "tagDescription": [
+      "Instructions from Burwell to survey part of London reserve."
+    ],
+    "tagDate": ["1810-03-13T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "397": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Quebec"],
+    "tagPerson": ["Thornton", "Gore"],
+    "tagDate": ["1809-12-31T00:00:00.000Z"],
+    "tagDescription": ["Regarding Lt.-Col. St. George's duties."]
+  },
+  "149": {
+    "tagDate": ["1809-09-23T00:00:00.000Z"],
+    "tagPerson": ["Hirschfeldt, Frederick", "Halton"],
+    "tagDescription": [
+      "Requests return of discharge papers of Frederick Fisher, petitioner for additional land."
+    ],
+    "tagPlace": ["Kingston"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "731": {
+    "tagName": ["Hamilton, John"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": ["John Hamilton, stating his grievances."],
+    "tagDate": ["1810-05-02T00:00:00.000Z"]
+  },
+  "536": {
+    "tagDate": ["1810-02-23T00:00:00.000Z"],
+    "tagDescription": [
+      "Detailed statement of licenses of occupation granted by Gore."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "780": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Secretary's office"],
+    "tagDescription": [
+      "Informing him that no list has been made for the counties of Stormont and Russell relative to the election."
+    ],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDate": ["1810-06-06T00:00:00.000Z"]
+  },
+  "763": {
+    "tagDate": ["1810-05-25T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Welch, Thomas"],
+    "tagDescription": [
+      "No commissioners, who act, in the London district, to administer certain oaths."
+    ],
+    "tagPlace": ["Charlotteville"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "432": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Niagara"],
+    "tagDescription": ["Regarding the disposal of road money."],
+    "tagPerson": ["Edwards, Joseph", "Halton"],
+    "tagDate": ["1810-01-24T00:00:00.000Z"]
+  },
+  "445": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": [
+      "Applying for a mill site in the Township of Etobicoke for David Holly, a settler from Pennsylvania."
+    ],
+    "tagPerson": ["Halton", "Radelmuller, J. P."],
+    "tagDate": ["1810-01-29T00:00:00.000Z"]
+  },
+  "673": {
+    "tagPlace": ["Hamilton"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-04-14T00:00:00.000Z"],
+    "tagPerson": ["Cockrell, Richard", "Powell, W. D."],
+    "tagDescription": [
+      "Applies for appointment as judge of the district court of Newcastle."
+    ]
+  },
+  "94": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-08-26T00:00:00.000Z"],
+    "tagDescription": [
+      "Protest from Neil Robertson against a survey by Jeremiah McCarthy, on behalf of David Munro and Thomas McLeod, of lands in Cornwall township. Transmits return of family lands and plan of same."
+    ]
+  },
+  "784": {
+    "tagDescription": [
+      "Transmits five documents relating to the Essex militia. (Documents not at this place.)"
+    ],
+    "tagPerson": ["McGill, John", "Halton"],
+    "tagDate": ["1810-06-07T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "121": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Charlotteville"],
+    "tagDescription": [
+      "Wm. Hutchison to the same. Requests form of a conviction for running stills contrary to law."
+    ],
+    "tagPerson": ["Hutchinson, Wm."],
+    "tagDate": ["1809-09-12T00:00:00.000Z"]
+  },
+  "703": {
+    "tagDescription": ["Will send a barrel of tar to the. Attorney General."],
+    "tagDate": ["1810-04-23T00:00:00.000Z"],
+    "tagPerson": ["Halton", "McGill, John"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "738": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-05-02T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDescription": ["Approving Simon Z. Watson as surveyor."]
+  },
+  "804": {
+    "tagDescription": [
+      "Expressing his and others, whose names are signed to the letter, disapproval of Mr. Dease, clerk of the Peace for the District Court."
+    ],
+    "tagPerson": ["Halton", "Welch, Thomas"],
+    "tagDate": ["1810-06-22T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Charlotteville"]
+  },
+  "286": {
+    "tagDescription": [
+      "Application for payment as acting paymaster. Essex militia."
+    ],
+    "tagDate": ["1809-11-14T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Fitzgerald, Augustine, Lieut."],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "915": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Lt. Gov.'rs Office"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDate": ["1810-09-21T00:00:00.000Z"],
+    "tagDescription": ["Authority for resurvey of Binbrook Township."]
+  },
+  "807": {
+    "tagDescription": ["Enclosing papers concerning the conduct of Mr. Dease."],
+    "tagPerson": ["Nichol, Robert", "Halton"],
+    "tagDate": ["1810-06-22T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Dover Mills, Woodhouse"]
+  },
+  "694": {
+    "tagDate": ["1810-04-21T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Boulton, D'Arcy"],
+    "tagDescription": [
+      "Transmits extract from the case of John Entick vs. Nathan Carrington, relative to a libel."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "390": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Enclosed: (3) Testimony of John Fercis and George Harper, that survey of 1787 left certain lots outside the boundary."
+    ],
+    "tagDate": ["1809-12-27T00:00:00.000Z"]
+  },
+  "510": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": ["Report on the petition of Archibald McNeal."],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-02-08T00:00:00.000Z"]
+  },
+  "1016": {
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDate": ["1810-12-18T00:00:00.000Z"],
+    "tagDescription": [
+      "Request authority to make a charge incurred by his office for £1.7.6."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "178": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": ["Acknowledges letter with packet from Gore."],
+    "tagDate": ["1809-10-12T00:00:00.000Z"],
+    "tagPerson": ["Thornton", "Auldjo, A."]
+  },
+  "867": {
+    "tagPlace": ["War Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDescription": ["Enclosed: The Circular. (Printed.)"],
+    "tagDate": ["1810-08-20T00:00:00.000Z"]
+  },
+  "522": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["McGill, John", "Halton"],
+    "tagDate": ["1810-02-12T00:00:00.000Z"],
+    "tagDescription": ["Has no invoice for prices of articles mentioned."]
+  },
+  "195": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-10-19T00:00:00.000Z"],
+    "tagPerson": ["Staton", "Jarvis, Wm."],
+    "tagDescription": ["Expects the pardon for Roger Conat immediately."]
+  },
+  "426": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Cornwall"],
+    "tagDescription": [
+      "Joseph Anderson to same. Offering to resign his appointment in the eastern district."
+    ],
+    "tagPerson": ["Anderson, Joseph"],
+    "tagDate": ["1810-01-20T00:00:00.000Z"]
+  },
+  "471": {
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagDescription": [
+      "Same to the same. Report on a lot of land in Pelham township."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Surveyor General's Office"]
+  },
+  "736": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagDescription": [
+      "Instructing him to prepare a pardon for Charles Norton and others convicted for conspiracy."
+    ],
+    "tagPerson": ["Halton", "Firth, Wm."],
+    "tagDate": ["1810-05-02T00:00:00.000Z"]
+  },
+  "839": {
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1810-07-30T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosing sketch of the river St. Lawrence from Kingston to Montreal. (Sketch not at this place.)"
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "288": {
+    "tagDescription": ["Request for artificers to repair the barracks."],
+    "tagPerson": ["McGill, John", "Lawe, George"],
+    "tagDate": ["1809-11-14T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "952": {
+    "tagDescription": ["Will immediately execute the lease for Elmsley House."],
+    "tagPerson": ["Selby, P.", "Gore"],
+    "tagDate": ["1810-10-16T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "48": {
+    "tagDescription": ["Report on land for Conrad Countryman, at Etobicoke."],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1809-08-10T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "99": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagDate": ["1809-08-26T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: (1) Plan."]
+  },
+  "602": {
+    "tagDate": ["1810-03-21T00:00:00.000Z"],
+    "tagPerson": ["Peters, John", "Halton"],
+    "tagDescription": [
+      "Resigning his commission as sheriff of the Niagara district."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "662": {
+    "tagDescription": [
+      "Lots Nos. 7 and 8 in the 2nd concession of Nelson are reserves."
+    ],
+    "tagDate": ["1810-04-10T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "538": {
+    "tagDate": ["1810-02-23T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Lawe, George, overseer of works"],
+    "tagDescription": [
+      "Requesting the loan of 700 ft. of plank on account of Capt. Martin of 100th Regt."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "985": {
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-11-28T00:00:00.000Z"],
+    "tagDescription": [
+      "Report on nearest crown reserve to Kingston on which wood could be cut for the Marine Dept."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "199": {
+    "tagDescription": [
+      "Enclosed: October 11. Recommendation by Samuel Street, Thos. Dickson and Amos Chapman, for Joseph and Lewis Willson, Quakers."
+    ],
+    "tagDate": ["1809-10-19T00:00:00.000Z"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "347": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Same to the same. Report on a tract in Etobicoke petitioned for by Samuel Smith."
+    ],
+    "tagDate": ["1809-12-08T00:00:00.000Z"]
+  },
+  "918": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-09-26T00:00:00.000Z"],
+    "tagDescription": [
+      "Transmits letter from Robert Stanton regarding pay due."
+    ]
+  },
+  "191": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Lt. Governor's Office"],
+    "tagPerson": ["Stanton", "Firth"],
+    "tagDate": ["1809-10-19T00:00:00.000Z"],
+    "tagDescription": [
+      "Requests his opinion on the petition of church wardens at Cornwall, for a protestant church, parsonage, schoolhouse, and cemetery."
+    ]
+  },
+  "627": {
+    "tagDescription": ["Enclosed: Nov. 9, 1809, Quebec Requisition."],
+    "tagDate": ["1810-03-27T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Amherstburg"]
+  },
+  "1010": {
+    "tagPerson": ["Gore", "Scott, Thomas, chief justice"],
+    "tagDate": ["1810-12-13T00:00:00.000Z"],
+    "tagDescription": ["Report of the Executive Council on the salt spring."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "215": {
+    "tagPlace": ["Thurlow"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-10-27T00:00:00.000Z"],
+    "tagPerson": ["Halton", "McNabb, James"],
+    "tagDescription": ["Survey of Fredericksburg by John Rider authorized."]
+  },
+  "863": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Council Office"],
+    "tagDescription": [
+      "Benjamin Gerrow's petition for a ferry from Ameliasburgh to Thurlow and Sidney is not to be granted for a time."
+    ],
+    "tagPerson": ["Small, John", "Halton"],
+    "tagDate": ["1810-08-16T00:00:00.000Z"]
+  },
+  "479": {
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDescription": [
+      "Stating that three members of the House of Assembly were sworn in."
+    ],
+    "tagPlace": ["Secretary's Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "911": {
+    "tagDescription": [
+      "Informing him that Abraham Marsh has been elected for counties of Stormont and Russell."
+    ],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDate": ["1810-09-18T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Secretary's Office"]
+  },
+  "792": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt. Gov.'s Office"],
+    "tagDescription": [
+      "Order for fitting up Surveyor General's office. Amount paid ?12.19.0."
+    ],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1810-06-11T00:00:00.000Z"]
+  },
+  "75": {
+    "tagDate": ["1809-08-17T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDescription": ["Report on Lot No. 9 in Township of Toronto."],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "643": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Halton", "Welch, Thomas"],
+    "tagDate": ["1810-04-02T00:00:00.000Z"],
+    "tagDescription": [
+      "Acknowledges receipt of his note. Has been registrar of Norfolk county since 1796. Resigns in favour of his son."
+    ]
+  },
+  "498": {
+    "tagPerson": ["Jarvis, Wm."],
+    "tagDate": ["1810-02-06T00:00:00.000Z"],
+    "tagDescription": [
+      "Wm. Jarvis to same. Regarding a new commission of the peace for the western district."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Secretary's Office"]
+  },
+  "219": {
+    "tagPerson": ["Anderson, S.", "Halton"],
+    "tagDate": ["1809-10-30T00:00:00.000Z"],
+    "tagDescription": [
+      "Recommends his son for appointment as clerk of the Eastern District Court."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Cornwall"]
+  },
+  "934": {
+    "tagPlace": ["Scot's Hall London"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-10-06T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: (2) Circular, signed by 52 governors of Scot's Hall, London."
+    ]
+  },
+  "814": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Dover Mills, Woodhouse"],
+    "tagPerson": ["Halton", "Welch, Thomas"],
+    "tagDate": ["1810-06-22T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: (2) Charlotteville, 25 June 1810, regarding Mr. Dease and Mr. Mitchell."
+    ]
+  },
+  "343": {
+    "tagDescription": [
+      "The same to the same. Recommends the passing of Mahlon Burwell's accounts."
+    ],
+    "tagDate": ["1809-12-07T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "268": {
+    "tagDate": ["1809-11-09T00:00:00.000Z"],
+    "tagPerson": ["Cummings, Thomas", "Ryerson, Joseph"],
+    "tagDescription": ["Refuses payment of bill."],
+    "tagPlace": ["Chippawa"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "583": {
+    "tagPlace": ["Woodhouse"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-03-17T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Williams, Jonathan"],
+    "tagDescription": [
+      "Offers to resign his office as coroner as he is on half-pay."
+    ]
+  },
+  "937": {
+    "tagDate": ["1810-10-11T00:00:00.000Z"],
+    "tagPerson": ["Stanton", "Chewett", "Ridout"],
+    "tagDescription": ["Report on lots in township of Townshend."],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "500": {
+    "tagPlace": ["Kingston"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-02-06T00:00:00.000Z"],
+    "tagPerson": ["McGill, J.", "Halton"],
+    "tagDescription": ["Seeking information regarding Patten's memorial."]
+  },
+  "1002": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagName": ["Small, John"],
+    "tagDate": ["1810-12-11T00:00:00.000Z"],
+    "tagDescription": [
+      "Extract from the proceedings of Council regarding the Humber saw mill."
+    ]
+  },
+  "208": {
+    "tagPlace": ["Amherstburgh"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-10-23T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: Return of men who have applied for lots to build on in Amherstburgh."
+    ]
+  },
+  "261": {
+    "tagPlace": ["Amherstburgh"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": ["Enclosed: The list."],
+    "tagDate": ["1809-11-07T00:00:00.000Z"]
+  },
+  "355": {
+    "tagDescription": [
+      "Authority to issue fiat for convening parliament, 1 February, 1810."
+    ],
+    "tagDate": ["1809-12-09T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Firth, Wm."],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "141": {
+    "tagPerson": ["Gore", "McGill, John, Capt. Can. Regt."],
+    "tagDate": ["1809-09-19T00:00:00.000Z"],
+    "tagDescription": [
+      "Requests passage to Kingston for himself and party, in order to rejoin the regiment."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "92": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Hope"],
+    "tagPerson": ["Halton", "Ward, T."],
+    "tagDate": ["1809-08-26T00:00:00.000Z"],
+    "tagDescription": [
+      "Regarding his commission as registrar for Northumberland and Durham counties."
+    ]
+  },
+  "682": {
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDate": ["1810-04-18T00:00:00.000Z"],
+    "tagDescription": [
+      "Report on settlers in Toronto and Nelson who have not performed the settlement duty."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "393": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Enclosed: (4) John Ryder's plan of survey of Kingston township, 22 May, 1809."
+    ],
+    "tagDate": ["1809-12-27T00:00:00.000Z"]
+  },
+  "909": {
+    "tagDescription": [
+      "James Martin Cawdell, Lord of the Manor of Cawdell, appoints Lt. John Johnson to be captain of the Roseharp and member of the upper committee of the Manor."
+    ],
+    "tagDate": ["1810-09-15T00:00:00.000Z"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "659": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1810-04-09T00:00:00.000Z"],
+    "tagDescription": ["Peter Coon, office attendant."]
+  },
+  "24": {
+    "tagPlace": ["Amherstburgh"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-08-06T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Grant, Col."],
+    "tagDescription": [
+      "Transmits list of twelve persons to receive lots in Amherstburgh. "
+    ]
+  },
+  "324": {
+    "tagDescription": [
+      "Acknowledges letter stating appointment of Prideaux Selby as receiver general of U.C. Duncan Cameron to succeed Selby as assistant secretary of Indian affairs."
+    ],
+    "tagDate": ["1809-11-28T00:00:00.000Z"],
+    "tagPerson": ["Thornton", "Gore"],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "377": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Orders preparation of a proclamation against depredations on Crown lands."
+    ],
+    "tagDate": ["1809-12-28T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Firth, Wm."]
+  },
+  "612": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Report on land in township of Yarmouth."],
+    "tagDate": ["1810-03-22T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"]
+  },
+  "10": {
+    "tagDate": ["1809-08-02T00:00:00.000Z"],
+    "tagDescription": [
+      "Memo by Wm. Chewett. Requests division of townships of Houghton and Yarmouth; and to survey them with the remaining parts of Dorchester and Dereham. 692 lots in all."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "887": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Ridout", "Chewett", "Small, John"],
+    "tagDate": ["1810-08-30T00:00:00.000Z"],
+    "tagDescription": ["Respecting an error made in the name of Bryer Bull."]
+  },
+  "454": {
+    "tagDescription": [
+      "Report of locations made in the surveyor general's office."
+    ],
+    "tagDate": ["1810-01-31T00:00:00.000Z"],
+    "tagPlace": ["Surveyor General's Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "430": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagDescription": [
+      "Same to Wm. Firth. Orders preparation of agreement between receiver general P. Selby, for the Crown, Messrs. John Cummings and Niles MacDonell for delivery of timber cut on crown and clergy reserves."
+    ],
+    "tagPerson": ["Firth, Wm."],
+    "tagDate": ["1810-01-23T00:00:00.000Z"]
+  },
+  "639": {
+    "tagDescription": ["Notice that the election will be held on 19 April."],
+    "tagDate": ["1810-03-30T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Jarvis, Wm."],
+    "tagPlace": ["Secretary's office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "782": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Sandwich"],
+    "tagPerson": ["Allan, James", "Halton"],
+    "tagDate": ["1810-06-06T00:00:00.000Z"],
+    "tagDescription": [
+      "Magistrates in western district doubtful if they can act under new writ."
+    ]
+  },
+  "991": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-12-06T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Ryder, John, deputy surveyor"],
+    "tagDescription": ["(Enclosure not at this place."]
+  },
+  "570": {
+    "tagPlace": ["Hawkesbury"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-03-12T00:00:00.000Z"],
+    "tagPerson": ["Mears, Thomas", "Halton"],
+    "tagDescription": [
+      "Informing him that persons recommended as magistrates are unfit, viz: Jeremiah Marston, John McIntire, David Warren, and Simeon Clarke."
+    ]
+  },
+  "481": {
+    "tagDescription": [
+      "Directing him to issue a fiat for a new commission of the peace, western district."
+    ],
+    "tagPerson": ["Halton", "Attorney General"],
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt.-Gov.'s Office"]
+  },
+  "488": {
+    "tagDescription": [
+      "Regarding the remaining five blocks in Binbrook township."
+    ],
+    "tagDate": ["1810-02-03T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "862": {
+    "tagDescription": [
+      "Enclosed: (2) Letter regarding the lot in York appropriated for Count de Puisaye 19 November 1798."
+    ],
+    "tagPerson": ["Jarvis, Wm. "],
+    "tagDate": ["1810-08-14T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "574": {
+    "tagDescription": ["Authority to survey part of London reserve."],
+    "tagDate": ["1810-03-13T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "527": {
+    "tagPerson": ["Street, Samuel, Speaker, House of Assembly", "Halton"],
+    "tagDate": ["1810-02-15T00:00:00.000Z"],
+    "tagDescription": [
+      "Requesting 50 copies of the Acts passed in 1808 and 1809, for the use of the House."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "755": {
+    "tagDate": ["1810-05-18T00:00:00.000Z"],
+    "tagPerson": ["Bond, Wm.", "Ridout", "Chewett"],
+    "tagDescription": [
+      "Reports land on north branch of river Thames unfit for cultivation of hemp."
+    ],
+    "tagPlace": ["Delaware"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "28": {
+    "tagPerson": ["Radelmuller, J. P.", "Halton"],
+    "tagDate": ["1809-08-07T00:00:00.000Z"],
+    "tagDescription": [
+      "States his services to the Royal family and the Duke of Kent's promise to reward him by a grant of land."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Vaughan"]
+  },
+  "367": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Niagara"],
+    "tagPerson": ["Powell, John"],
+    "tagDate": ["1809-12-14T00:00:00.000Z"],
+    "tagDescription": [
+      "John Powell to the same. Acknowledges order to summon parliament for 1 February, 1810."
+    ]
+  },
+  "777": {
+    "tagDate": ["1810-06-03T00:00:00.000Z"],
+    "tagPerson": ["Macpherson, Donald, Major", "Shaw, Col."],
+    "tagDescription": [
+      "Requesting Kingston. a plan to show the military reserves at that place."
+    ],
+    "tagPlace": ["Kingston"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "894": {
+    "tagDescription": [
+      "Report five lots in Trafalgar township ready to grant."
+    ],
+    "tagDate": ["1810-09-01T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Stanton"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "17": {
+    "tagDate": ["1809-08-02T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: Invoice of naval stores."],
+    "tagPlace": ["Kingston"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "130": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Report that the lot on the Humber River, where the Toronto was built, is reserved."
+    ],
+    "tagDate": ["1809-09-16T00:00:00.000Z"],
+    "tagPerson": ["Staton", "Ridout", "Chewett"]
+  },
+  "890": {
+    "tagPerson": ["Macdonell, J.", "Halton"],
+    "tagDate": ["1810-08-30T00:00:00.000Z"],
+    "tagDescription": [
+      "Requesting loan of a document from the Council office for use in a case brought by constant King against Isreal Munro."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "712": {
+    "tagDescription": ["Transmits annual accounts for 1809."],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDate": ["1810-04-28T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "307": {
+    "tagDate": ["1809-11-24T00:00:00.000Z"],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDescription": [
+      "States that a deed has been issued to Mary Guernsey, not to Mary Gansay."
+    ],
+    "tagPlace": ["Secretary's Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "543": {
+    "tagDescription": ["Desiring him to issue fiats for commissions."],
+    "tagPerson": ["Halton", "Firth, Wm."],
+    "tagDate": ["1810-03-01T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt. Governor's Office"]
+  },
+  "720": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagDescription": [
+      "Permission to survey two concessions in township of Westminster for Simon Z. Watson."
+    ],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-04-30T00:00:00.000Z"]
+  },
+  "253": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Cornwall"],
+    "tagDescription": [
+      "J. Anderson to the same. Requests permission to resign appointments interfering with his half-pay."
+    ],
+    "tagPerson": ["Anderson, J."],
+    "tagDate": ["1809-11-04T00:00:00.000Z"]
+  },
+  "188": {
+    "tagDate": ["1809-10-18T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Scott, Thomas, chief justice"],
+    "tagDescription": [
+      "Recommends Roger Conat. convicted of perjury, to his mercy."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "759": {
+    "tagDescription": [
+      "Thomas Merritt. Certificate that John Peters, sheriff of Newcastle District, and his two deputies attended to the lumber business in his district."
+    ],
+    "tagDate": ["1810-05-23T00:00:00.000Z"],
+    "tagName": ["Merritt, Thomas"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "600": {
+    "tagDescription": [
+      "Regarding Charles Norton and others confined to jail on charge of conspiracy."
+    ],
+    "tagDate": ["1810-03-21T00:00:00.000Z"],
+    "tagPerson": ["Powell, Wm.D.", "Halton"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "304": {
+    "tagDate": ["1809-11-24T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Smith, Thomas, surveyor"],
+    "tagDescription": [
+      "At the request of Lord Selkirk has surveyed islands and channels of the St. Clair River. All islands fall on the British side according to agreement of 1783."
+    ],
+    "tagPlace": ["Sandwich"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "770": {
+    "tagDescription": ["Enclosing plan of the Brant family locations."],
+    "tagDate": ["1810-06-02T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "929": {
+    "tagPlace": ["Scot's Hall London"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-10-06T00:00:00.000Z"],
+    "tagPerson": ["Dobie, James", "Gore"],
+    "tagDescription": [
+      "Transmits documents in support of an appeal for assistance to establish a school for Scottish children in London and Westminster."
+    ]
+  },
+  "948": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-10-13T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Smythe, Thomas"],
+    "tagDescription": ["Petitions for a mill site in Township of Elmsley."]
+  },
+  "996": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDescription": ["Memo on survey of East York."],
+    "tagDate": ["1810-12-10T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Gore"]
+  },
+  "727": {
+    "tagDescription": ["Asks his opinion on security required by sheriffs."],
+    "tagDate": ["1810-05-01T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Firth, Wm., Attorney General"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "276": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Kingston"],
+    "tagDate": ["1809-11-10T00:00:00.000Z"],
+    "tagDescription": [
+      "Same to the same. Regarding money paid to the receiver general. Difficulty in executing instructions for timber cut on Wolfe Island."
+    ]
+  },
+  "873": {
+    "tagDescription": ["Report on Thomas Condon"],
+    "tagPerson": ["Chewett", "Halton", "Jarvis"],
+    "tagDate": ["1810-08-22T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "941": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-10-11T00:00:00.000Z"],
+    "tagPerson": ["McGill, John", "Gore"],
+    "tagDescription": [
+      "Authority to countersign a warrant to repay 162.7.6 to Mr. Selby, auditor general of patents."
+    ]
+  },
+  "165": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Ridout", "Chewett", "Staton"],
+    "tagDate": ["1809-10-03T00:00:00.000Z"],
+    "tagDescription": [
+      "Report on Elijah Ketchum's information that sundry persons are cutting timber on the Crown reserves."
+    ]
+  },
+  "604": {
+    "tagDescription": [
+      "Requesting to be appointed as sheriff of Newcastle district."
+    ],
+    "tagPerson": ["Halton", "Spencer, Jno."],
+    "tagDate": ["1810-03-21T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "954": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-10-16T00:00:00.000Z"],
+    "tagPerson": ["Pollard, R., Rev.", "Gore"],
+    "tagDescription": ["Memorial for land."]
+  },
+  "897": {
+    "tagDescription": [
+      "(Circular.) Announcing his appointment as secretary of legation to the United States."
+    ],
+    "tagDate": ["1810-09-02T00:00:00.000Z"],
+    "tagPerson": ["Morier, J. P.", "Craig"],
+    "tagPlace": ["New York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "186": {
+    "tagPerson": ["Firth, Wm.", "Stanton"],
+    "tagDate": ["1809-10-17T00:00:00.000Z"],
+    "tagDescription": [
+      "Directing that necessary steps be taken for a free pardon for Roger Conat."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "593": {
+    "tagDescription": [
+      "Enclosing petition from sundry persons of township of Loughborough for a magistrate."
+    ],
+    "tagPerson": ["McLean, Allan", "Halton"],
+    "tagDate": ["1810-03-21T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "524": {
+    "tagDate": ["1810-02-12T00:00:00.000Z"],
+    "tagPerson": ["Mitchell, James", "Halton"],
+    "tagDescription": ["Regarding his school in the London district."],
+    "tagPlace": ["Charlotteville"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "221": {
+    "tagPlace": ["Council Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Stating that lot 16, on Walsingham Bay, may be granted on application."
+    ],
+    "tagDate": ["1809-10-31T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Scott, Thomas"]
+  },
+  "520": {
+    "tagPlace": ["Yonge St."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Introducing Richard Finemore as deserving a grant of land."
+    ],
+    "tagDate": ["1810-02-10T00:00:00.000Z"],
+    "tagPerson": ["Graham, Wm.", "Gore"]
+  },
+  "90": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Niagara"],
+    "tagDescription": [
+      "Magistrates Robert Kerr and James Muirhead testify that Lewis Bradley, shopkeeper, has resided in Niagara for the last year."
+    ],
+    "tagDate": ["1809-08-24T00:00:00.000Z"]
+  },
+  "692": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Fort St. Joseph"],
+    "tagPerson": ["Gore", "Sherrard, Thomas Ormsby, Capt."],
+    "tagDate": ["1810-04-20T00:00:00.000Z"],
+    "tagDescription": ["Application for expenses."]
+  },
+  "465": {
+    "tagDescription": [
+      "Order of the House to acquaint the Lt.-Gov. that John Brownell is dead and a request for the election of a new member is made."
+    ],
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "743": {
+    "tagPlace": ["Chippawa"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-05-10T00:00:00.000Z"],
+    "tagPerson": ["Muirhead, John", "Halton"],
+    "tagDescription": [
+      "Has received the commissions appointing him Inspector of pot and pearl ash."
+    ]
+  },
+  "42": {
+    "tagPerson": ["Halton"],
+    "tagDate": ["1809-08-07T00:00:00.000Z"],
+    "tagDescription": ["Same to Halton. Requests an appointment for his son."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "1023": {
+    "tagPerson": ["Halton", "Ridout, Thomas"],
+    "tagDate": ["1810-12-30T00:00:00.000Z"],
+    "tagDescription": ["Asking authority to charge 5/ for sweeping chimnies."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "859": {
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDate": ["1810-08-14T00:00:00.000Z"],
+    "tagDescription": ["Transmit plan of lot on Front Street in town of York."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "133": {
+    "tagDate": ["1809-09-18T00:00:00.000Z"],
+    "tagPerson": ["Mitchell, James, school teacher, London district", "Halton"],
+    "tagDescription": [
+      "Regarding history of the school and disputes as to which district it belongs to."
+    ],
+    "tagPlace": ["Charlotteville"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "387": {
+    "tagDescription": [
+      "Enclosed: (2) Acknowledges petition returned with directions."
+    ],
+    "tagDate": ["1809-12-27T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Yourex, John"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "945": {
+    "tagPerson": ["Stanton", "Chewett", "Ridout"],
+    "tagDate": ["1810-10-13T00:00:00.000Z"],
+    "tagDescription": [
+      "Report on Lot No. 5 in Township of Townsend for Abraham Beamer."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "932": {
+    "tagDate": ["1810-07-16T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDescription": [
+      "Enclosing schedule of persons who have not completed settlement duties in townships of Toronto, Trafalgar and Nelson."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "790": {
+    "tagDescription": [
+      "Asking his opinion on report of a committee on the petition of Robert Comfort for land in township of Gainsborough."
+    ],
+    "tagPerson": ["Firth, Wm.", "Halton"],
+    "tagDate": ["1810-06-09T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt. Gov.'s Office"]
+  },
+  "108": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1809-09-02T00:00:00.000Z"],
+    "tagDescription": ["Report that certain lots in Wainfleet are vacent."]
+  },
+  "250": {
+    "tagPlace": ["Surveyor General's Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-11-03T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDescription": [
+      "Report on Lot No. 32 in Hope township for Edward McKelvey."
+    ]
+  },
+  "101": {
+    "tagDescription": [
+      "Enclosed: (2) Cornwall, 24 July, 1809, Explains exchange of land."
+    ],
+    "tagPerson": ["Robertson, Neil", "McIntosh, Peter"],
+    "tagDate": ["1809-08-26T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "168": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagDescription": ["Petitions for a license as a surveyor"],
+    "tagPerson": ["Graves, Wm.", "Gore"],
+    "tagDate": ["1809-10-04T00:00:00.000Z"]
+  },
+  "44": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagDescription": [
+      "Memo by Wm. Chewett. Regarding a requisition from Lieut. Gray for certain plans to be copied for the use of the Quartermaster General's Dept."
+    ],
+    "tagDate": ["1809-08-08T00:00:00.000Z"]
+  },
+  "794": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-06-11T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Gore"],
+    "tagDescription": [
+      "Seek permission to carry on their office in Gore's absence."
+    ]
+  },
+  "558": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Complains of malicious representation to the Lt.-Gov. against himself."
+    ],
+    "tagDate": ["1810-03-10T00:00:00.000Z"],
+    "tagPerson": ["McNabb, James", "Halton"]
+  },
+  "296": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagDate": ["1809-11-17T00:00:00.000Z"],
+    "tagDescription": [
+      "Memo by Chewett and Ridout, on application of Richard Cockrell."
+    ]
+  },
+  "540": {
+    "tagPlace": ["Woodhouse"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-02-24T00:00:00.000Z"],
+    "tagPerson": ["Scott, Thomas, chief justice", "Ryersee, Samuel"],
+    "tagDescription": [
+      "Giving information respecting persons in the London District."
+    ]
+  },
+  "824": {
+    "tagDescription": [
+      "Lt.-Governor's orders 6 August 1809 and 2 May 1810, for examination of the settlement duties in Toronto, Trafalgar, and Nelson."
+    ],
+    "tagDate": ["1810-06-30T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "248": {
+    "tagDescription": ["Requests a grant of land near the schoolhouse."],
+    "tagDate": ["1809-11-03T00:00:00.000Z"],
+    "tagPerson": ["Cockrell, Richard, schoolmaster", "Gore"],
+    "tagPlace": ["Hamilton"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "687": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Applying for A. MacLean's position in the governor's office."
+    ],
+    "tagDate": ["1810-04-20T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Jarvis, S."]
+  },
+  "408": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPerson": ["Gore, Francis", "Moore. Solomon"],
+    "tagDate": ["1810-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Copy of Moore's petition relative to the Salt Springs lot no. 8, 7th concession south. Represents distressed condition as result of fall in price of salt and extortions practised by Rev. Robert Addison. Request title to lands under lease."
+    ]
+  },
+  "855": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Surveyor General's Office"],
+    "tagPerson": ["Chewett", "Ridout", "Gore"],
+    "tagDate": ["1810-08-06T00:00:00.000Z"],
+    "tagDescription": ["Memo relating to payment of account for S.Z. Watson."]
+  },
+  "372": {
+    "tagDescription": [
+      "Regarding Carscallon's claim for land. A deed was issued to him in 1798."
+    ],
+    "tagDate": ["1809-12-16T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Scott. Thomas"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "26": {
+    "tagDescription": ["Enclosed: The list."],
+    "tagDate": ["1809-08-06T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Amherstburgh"]
+  },
+  "225": {
+    "tagPlace": ["Haldimand"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-10-31T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Peters, John, sheriff, Newcastle district"],
+    "tagDescription": ["Acknowledges receipt of free pardon for Roger Conat."]
+  },
+  "6": {
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["[1809-08-01T00:00:00.000Z TO 1809-12-28T23:59:59.999Z]"],
+    "tagDescription": [
+      "Introducing Peter Losing and Peter DeLong, Americans, recommended as settlers by Thomas Dorland, 21 July, 1809."
+    ],
+    "tagNotebook": [
+      "RG 5, A 1: UPPER CANADA SUNDRIES",
+      "UPPER CANADA SUNDRIES July to December 1809"
+    ],
+    "tagPlace": ["York"]
+  },
+  "636": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Macdonell, Miles", "Halton"],
+    "tagDate": ["1810-03-29T00:00:00.000Z"],
+    "tagDescription": [
+      "Application for mill site in township of Seymour on River Trent. Mentions disorderly conduct of Truman Napping in selling liquor."
+    ]
+  },
+  "921": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDescription": [
+      "Enclosed: Robert Stanton requesting arrears of salary, 25 Sept. 1810."
+    ],
+    "tagDate": ["1810-09-26T00:00:00.000Z"]
+  },
+  "747": {
+    "tagDate": ["1810-05-10T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: (1) Two certificates in favor of Samuel Cone, ferryman."
+    ],
+    "tagPlace": ["Brownville"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "14": {
+    "tagDescription": ["Attached: Plan of these townships."],
+    "tagDate": ["1809-08-02T00:00:00.000Z"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "610": {
+    "tagPerson": ["Halton", "Boulton, D'Arcy"],
+    "tagDate": ["1810-03-22T00:00:00.000Z"],
+    "tagDescription": [
+      "In favour of John Spencer as sheriff in Newcastle District."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "971": {
+    "tagDescription": [
+      "Requesting lands intended for Col. Vesey be thrown open for locations."
+    ],
+    "tagDate": ["1810-11-12T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Chewett", "Ridout"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "843": {
+    "tagDescription": [
+      "Transmitting letter from S.Z. Watson requesting payment for survey work."
+    ],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDate": ["1810-08-03T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "751": {
+    "tagDescription": ["Submit memo on expense of moving their office."],
+    "tagPerson": ["Ridout", "Chewett", "Gore"],
+    "tagDate": ["1810-05-11T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "298": {
+    "tagPerson": ["Halton", "Ryerse, Samuel, captian, New Jersey Volunteers"],
+    "tagDate": ["1809-11-20T00:00:00.000Z"],
+    "tagDescription": [
+      "Stating he will resign all his offices if his half-pay is stopped."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Woodhouse"]
+  },
+  "246": {
+    "tagDescription": [
+      "States that no fees have been demanded in the pardon of John Silverthorne."
+    ],
+    "tagDate": ["1809-11-02T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Merritt, Thomas"],
+    "tagPlace": ["Niagara"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "590": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": ["Report on petition of Robert Young."],
+    "tagPerson": ["Chewett", "Ridout", "Gore"],
+    "tagDate": ["1810-03-20T00:00:00.000Z"]
+  },
+  "115": {
+    "tagDescription": ["Report on land applied for by Thomas Clark."],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1809-09-06T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "622": {
+    "tagPlace": ["Secretary's office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-03-27T00:00:00.000Z"],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDescription": [
+      "Has received writs for election for Prince Edward, Lennox and Addington counties."
+    ]
+  },
+  "556": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Acquainting him that the House has nothing before them."
+    ],
+    "tagPerson": ["Street, Samuel", "Halton"],
+    "tagDate": ["1810-03-10T00:00:00.000Z"]
+  },
+  "322": {
+    "tagPlace": ["Ancaster"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Requests permission to cut pine on town plot at the mouth of the Lynn River."
+    ],
+    "tagDate": ["1809-11-28T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Nichols, Robert"]
+  },
+  "485": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagName": ["Ogden, Joseph"],
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagDescription": [
+      "Joseph Ogden's petition for a lease of the government saw mill on the River Humber, for himself and Charles Cameron."
+    ]
+  },
+  "614": {
+    "tagDate": ["1810-03-23T00:00:00.000Z"],
+    "tagDescription": [
+      "James Drennan, 100th. Regt. Account of rations issued during Mr. Askin's suspension."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagName": ["Drennan, James"]
+  },
+  "19": {
+    "tagDate": ["1809-08-04T00:00:00.000Z"],
+    "tagDescription": [
+      "List of lots in the townships of Toronto and Trafalgar presumed grantable."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Surveyor General's Office"]
+  },
+  "331": {
+    "tagDate": ["1809-12-04T00:00:00.000Z"],
+    "tagDescription": [
+      "Same to the same. Regarding irregular accounts of Commissary Crookshank."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Quebec"]
+  },
+  "415": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Chewett and Ridout to same. Returns papers relating to Michael Grass. (Documents not at this place.)"
+    ],
+    "tagDate": ["1810-01-09T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout"]
+  },
+  "363": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-12-10T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: Memo by Col. Talbot, 7 December, 1809."]
+  },
+  "279": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Executive Council Office"],
+    "tagPerson": ["Small, John"],
+    "tagDate": ["1809-11-11T00:00:00.000Z"],
+    "tagDescription": [
+      "John Small to the same. Explains his taking fees on petitions for leases."
+    ]
+  },
+  "773": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Enclosed: The plan, dated 23 December, 1808."],
+    "tagDate": ["1810-06-02T00:00:00.000Z"]
+  },
+  "827": {
+    "tagDescription": [
+      "Enclosing Mahlon Burwell's report on the London survey, dated 21 June 1810."
+    ],
+    "tagDate": ["[1810-07-07T00:00:00.000Z TO 1810-12-28T23:59:59.999Z]"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagPlace": ["York"],
+    "tagNotebook": [
+      "RG 5, A 1: UPPER CANADA SUNDRIES",
+      "UPPER CANADA SUNDRIES July to December 1810"
+    ]
+  },
+  "119": {
+    "tagPerson": ["Ryerson, J."],
+    "tagDate": ["1809-09-08T00:00:00.000Z"],
+    "tagDescription": [
+      "J. Ryerson to same. Introducing Valentine Harden, of New Brunswick, who wishes to settle in U.C."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Charlotteville"]
+  },
+  "547": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-03-06T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Chewett", "Ridout"],
+    "tagDescription": [
+      "Report on petition of Philip Sovereign on behalf of Eunice Beemer."
+    ]
+  },
+  "999": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDescription": ["Report on Lots Nos. 17 and 18 in Grimsby."],
+    "tagDate": ["1810-12-11T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"]
+  },
+  "406": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Applying for the situation of Clerk in the Lt. Governor's Office (Rec.. April 18, 1810)."
+    ],
+    "tagPerson": ["Baynes, J.", "Halton, Wm."],
+    "tagDate": ["1810-01-01T00:00:00.000Z"]
+  },
+  "338": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-12-06T00:00:00.000Z"],
+    "tagPerson": ["Halton", "McLean, Donald, clerk of Assembly"],
+    "tagDescription": [
+      "Acknowledges order to summon parliament for 1 February, 1810."
+    ]
+  },
+  "257": {
+    "tagDescription": ["Enclosed: Statement."],
+    "tagDate": ["1809-11-07T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Sandwich"]
+  },
+  "502": {
+    "tagDate": ["1810-02-07T00:00:00.000Z"],
+    "tagPerson": ["Craig, James, Sir", "Gore"],
+    "tagDescription": [
+      "Transmits memorial from Richard Pollard, of Sandwich, seeking remuneration for his services to the garrison of Amherstburg."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "631": {
+    "tagDescription": [
+      "Seeking relief for Hall and Loyal Davis, sons of Thaddeus Davis, Loyalist."
+    ],
+    "tagPerson": ["Halton", "Willson, Crowell"],
+    "tagDate": ["1810-03-28T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Willoughby"]
+  },
+  "926": {
+    "tagDate": ["1810-10-06T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Gore"],
+    "tagDescription": [
+      "Memo regarding military reservations in the town of Kingston."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "72": {
+    "tagPlace": ["Elizabethtown"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-08-17T00:00:00.000Z"],
+    "tagDescription": ["Recommendation for Wm. Graves, surveyor."]
+  },
+  "819": {
+    "tagDescription": [
+      "Enclosed: (4) Copy of magistrate's memorial regarding Dease, Court House, London District. June 1810."
+    ],
+    "tagDate": ["1810-06-22T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Dover Mills, Woodhouse"]
+  },
+  "127": {
+    "tagDate": ["1809-09-14T00:00:00.000Z"],
+    "tagPerson": ["Thornton", "Gore"],
+    "tagDescription": [
+      "Advises him that despatches were forwarded to England on the Blossom."
+    ],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "375": {
+    "tagDate": ["1809-12-19T00:00:00.000Z"],
+    "tagPerson": ["Firth, Wm."],
+    "tagDescription": [
+      "Requests authority to issue fiat proroguing parliament to 1 February, 1810."
+    ],
+    "tagPlace": ["Attorney General's Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "716": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Secretary's office"],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDate": ["1810-04-30T00:00:00.000Z"],
+    "tagDescription": [
+      "Notifies him of the election of John Stinson, member for county of Prince Edward."
+    ]
+  },
+  "1006": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-12-13T00:00:00.000Z"],
+    "tagDescription": ["Request information on lots near York."]
+  },
+  "852": {
+    "tagDescription": [
+      "In answer to Stanton's letter re reasons why patents for waste lands of the Crown have not been engrossed."
+    ],
+    "tagDate": ["1810-08-06T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Jarvis, Wm."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "174": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-10-09T00:00:00.000Z"],
+    "tagPerson": ["Thompson, C.", "Halton"],
+    "tagDescription": [
+      "Requests early interview. Desires to proceed to Niagara."
+    ]
+  },
+  "210": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Quebec"],
+    "tagDescription": [
+      "Issue of rations authorized for lighthouse keeper at York."
+    ],
+    "tagPerson": ["Thornton", "Gore"],
+    "tagDate": ["1809-10-25T00:00:00.000Z"]
+  },
+  "698": {
+    "tagDescription": [
+      "Informing him of desertions among the men of the 100th foot."
+    ],
+    "tagDate": ["1810-04-21T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Dawson, Thomas Capt."],
+    "tagPlace": ["St. Josephs"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "518": {
+    "tagPerson": ["Barclay, Thomas", "Gore"],
+    "tagDate": ["1810-02-10T00:00:00.000Z"],
+    "tagDescription": [
+      "Recommending sundry persons from the State of New Jersey as settlers in Canada."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["New York"]
+  },
+  "885": {
+    "tagDescription": ["Report on schedule on patents for land."],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDate": ["1810-08-27T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Secretary's Office"]
+  },
+  "170": {
+    "tagDate": ["1809-10-05T00:00:00.000Z"],
+    "tagPerson": ["Clough, Wm."],
+    "tagDescription": [
+      "Wm. Clough to the same. Requests information for obtaining a license as surveyor."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "705": {
+    "tagDescription": [
+      "Estimate of expense of building addition to officers' quarters at York."
+    ],
+    "tagDate": ["1810-04-24T00:00:00.000Z"],
+    "tagName": ["Vigoreux, Henry, Capt."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "474": {
+    "tagDescription": ["Same to the same. Report on James Neville's land."],
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "379": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagDescription": [
+      "Same to the same. Orders revision of draft of the proclamation as recommended by the Executive Council."
+    ],
+    "tagDate": ["1809-12-27T00:00:00.000Z"]
+  },
+  "263": {
+    "tagPlace": ["Augusta"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": ["Stating he will be absent for several months."],
+    "tagDate": ["1809-11-08T00:00:00.000Z"],
+    "tagPerson": [
+      "Jessup, Edward, commissioner for half-pay affidavits",
+      "Halton"
+    ]
+  },
+  "935": {
+    "tagPlace": ["New York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDescription": [
+      "Forwarding pamphlets from the foreign office. (Pamphlets not at this places.)"
+    ],
+    "tagDate": ["1810-10-10T00:00:00.000Z"],
+    "tagPerson": ["Barclay, Thomas", "Gore"]
+  },
+  "907": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Melbourne"],
+    "tagName": ["Bainard, Wm."],
+    "tagDate": ["1810-09-11T00:00:00.000Z"],
+    "tagDescription": [
+      "Wm. Bainard, Commissioner. Certificate for Isreal Gilman, blacksmith."
+    ]
+  },
+  "143": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagDescription": [
+      "Requests leave to attend Niagara assizes as a witness."
+    ],
+    "tagPerson": ["Halton", "Laws, George"],
+    "tagDate": ["1809-09-20T00:00:00.000Z"]
+  },
+  "657": {
+    "tagPerson": ["Ridout", "Chewett", "Gore"],
+    "tagDate": ["1810-04-07T00:00:00.000Z"],
+    "tagDescription": [
+      "Memo submitted for removal of surveyor general's office to house of chief Justice Elmsley."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "57": {
+    "tagDescription": [
+      "Regarding despatch to H.M. Gov't. relative to the President's proclamation."
+    ],
+    "tagDate": ["1809-08-11T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Erskine"],
+    "tagPlace": ["Washington"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "238": {
+    "tagDate": ["1809-11-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Petition of Benoni Wheeler, for an improved lot in Wainfleet."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Wainfleet"]
+  },
+  "967": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPerson": ["Chewett, Wm.", "Halton"],
+    "tagDate": ["1810-11-10T00:00:00.000Z"],
+    "tagDescription": ["Order of survey of concession lines in Halowell."]
+  },
+  "357": {
+    "tagPlace": ["London"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-12-10T00:00:00.000Z"],
+    "tagDescription": [
+      "Memorial from the London committee of the Lords of Trade, regarding export of fish from B.N.A. and other matters."
+    ]
+  },
+  "786": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Halton", "Stanton, Wm."],
+    "tagDate": ["1810-06-07T00:00:00.000Z"],
+    "tagDescription": [
+      "Statement of money paid on account of the Essex militia."
+    ]
+  },
+  "581": {
+    "tagPerson": ["Halton", "Attorney General"],
+    "tagDate": ["1810-03-16T00:00:00.000Z"],
+    "tagDescription": [
+      "Desiring him to prepare a writ for election of a member for the county of Prince Edward."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "284": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Quebec"],
+    "tagDescription": [
+      "Enclosed: Extract Washington, 21 October, 1809, Regarding matters in the U.S. No decision as yet on the Chesapeake affair."
+    ],
+    "tagPerson": ["Jackson, J. J.", "Gore"],
+    "tagDate": ["1809-11-13T00:00:00.000Z"]
+  },
+  "203": {
+    "tagDescription": [
+      "Wm. Jarvis to the same. Requests authority to make charge for patents to Messrs. Silverthorne and Conat."
+    ],
+    "tagDate": ["1809-10-19T00:00:00.000Z"],
+    "tagPerson": ["Jarvis, Wm."],
+    "tagPlace": ["Secretary's Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "629": {
+    "tagDescription": [
+      "Elias Jones certifies there is no settler known as William Farris in the Township of Hamilton."
+    ],
+    "tagDate": ["1810-03-28T00:00:00.000Z"],
+    "tagName": ["Jones, Elias"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Hamilton"]
+  },
+  "420": {
+    "tagPerson": ["Ridout, Thomas, clerk of the peace"],
+    "tagDate": ["1810-01-17T00:00:00.000Z"],
+    "tagDescription": [
+      "Requests new survey of the road to Ashbridge's, now condemned."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "696": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-04-21T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: St. James, October 11, 1762. Extract."]
+  },
+  "412": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Charlotteville"],
+    "tagDescription": ["Enquiring about a letter. "],
+    "tagPerson": ["Halton", "Welch, Thomas"],
+    "tagDate": ["1810-01-07T00:00:00.000Z"]
+  },
+  "565": {
+    "tagDescription": ["Recommends Henry Markle as commissioner of roads."],
+    "tagDate": ["1810-03-12T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Fraser, Thomas, Capt."],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "516": {
+    "tagPlace": ["Cramahe"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Asks for a return of the reserved lands."],
+    "tagDate": ["1810-02-10T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Peters, John, sheriff of Newcastle District"]
+  },
+  "505": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-02-07T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: Jan. 10, 1810. The memorial."]
+  },
+  "84": {
+    "tagPlace": ["Philadelphia"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Transmits President's proclamation regarding the Non-Intercourse Law. [Proclamation not at this place.]"
+    ],
+    "tagDate": ["1809-08-19T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Bond, P."]
+  },
+  "641": {
+    "tagDescription": [
+      "Instructs him to issue fiat for new commission of the Peace in District of London, with additional names."
+    ],
+    "tagDate": ["1810-04-02T00:00:00.000Z"],
+    "tagPerson": ["Firth, Wm.", "Halton"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "1004": {
+    "tagPlace": ["Niagara"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-12-12T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Powell, Jonathan, clerk of Legislative Council"],
+    "tagDescription": [
+      "Acknowledges letters of 6 and 10 inst. and will summon members."
+    ]
+  },
+  "477": {
+    "tagDescription": [
+      "Attached: Magistrates' testimonial of residence, character, etc. of James Neville."
+    ],
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "182": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Edwardsburgh"],
+    "tagPerson": ["Gansey, Mrs. widow"],
+    "tagDate": ["1809-10-15T00:00:00.000Z"],
+    "tagDescription": [
+      "Mrs. Gansey, widow, to the same. Complains of delay in receiving her land deed."
+    ]
+  },
+  "350": {
+    "tagPerson": ["Halton", "Powell, Wm. Dummer"],
+    "tagDate": ["1809-12-08T00:00:00.000Z"],
+    "tagDescription": [
+      "Regarding depredations in cutting timber on Trent River."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "960": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": [
+      "Report on Mr. Wilmot's difficulty in hiring men at price allowed."
+    ],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDate": ["1810-10-20T00:00:00.000Z"]
+  },
+  "424": {
+    "tagDate": ["1810-01-20T00:00:00.000Z"],
+    "tagPerson": ["Small, John", "Halton"],
+    "tagDescription": [
+      "Transmits list of applications for land grants from women. other than daughters of U.E. loyalist. (List not at this place.)"
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "654": {
+    "tagDescription": ["Report on land for Naomi Millard at Crowland."],
+    "tagDate": ["1810-04-07T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "329": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Approves sanctions reported in letters of 14 and 15 November."
+    ],
+    "tagDate": ["1809-11-30T00:00:00.000Z"],
+    "tagPerson": ["gore", "Thornton"]
+  },
+  "718": {
+    "tagDescription": [
+      "Recommending George Docker who wishes to settle in Canada."
+    ],
+    "tagDate": ["1810-04-30T00:00:00.000Z"],
+    "tagPerson": ["Barclay, Thomas", "Gore"],
+    "tagPlace": ["New York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "904": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-09-04T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDescription": ["Description of Lot No. 38 in Cornwall."]
+  },
+  "272": {
+    "tagDescription": [
+      "Authority for the survey of a new township near Whitby."
+    ],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDate": ["1809-11-09T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "861": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": ["Enclosed: (1) The plan."],
+    "tagDate": ["1810-08-14T00:00:00.000Z"]
+  },
+  "66": {
+    "tagDate": ["1809-08-14T00:00:00.000Z"],
+    "tagDescription": ["Memo by Wm. Chewett. Regarding pay for a surveyor."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "734": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-05-02T00:00:00.000Z"],
+    "tagDescription": [
+      "Memo regarding an order for Mr. Wilmot to examine the townships of Toronto, Trafalgar and Nelson."
+    ]
+  },
+  "625": {
+    "tagDescription": ["Encloses copy of requisition for supplies."],
+    "tagPerson": ["Halton", "Mills, Wm."],
+    "tagDate": ["1810-03-27T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Amherstburg"]
+  },
+  "112": {
+    "tagDescription": [
+      "Regarding U.S. government's promise for redress in murder of Isaac Underhill."
+    ],
+    "tagDate": ["1809-09-05T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Erskine"],
+    "tagPlace": ["Washington"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "236": {
+    "tagPlace": ["Wainfleet"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-11-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: Testimonial of sundry inhabitants of Wainfleet for Benoni Wheeler."
+    ]
+  },
+  "913": {
+    "tagPlace": ["Dublin Ireland"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-09-20T00:00:00.000Z"],
+    "tagPerson": ["Bart", "Gore", "Languishe, Hercules, Rt. Hon. Sir"],
+    "tagDescription": ["Recommends Charles Read who will reside in Canada."]
+  },
+  "788": {
+    "tagDescription": [
+      "Informing him that Willet Casey is returned for counties of Lennox and Addington."
+    ],
+    "tagDate": ["1810-06-07T00:00:00.000Z"],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagPlace": ["Secretary's office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "193": {
+    "tagDescription": [
+      "The same to the same. Directing a free pardon for Roger Conat."
+    ],
+    "tagDate": ["1809-10-19T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Lt. Governor's Office"]
+  },
+  "77": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Charlotteville"],
+    "tagPerson": ["Ryerson, J."],
+    "tagDate": ["1809-08-18T00:00:00.000Z"],
+    "tagDescription": [
+      "J. Ryerson to the same. Resigns as inspector and collector if it interferes with his half-pay."
+    ]
+  },
+  "217": {
+    "tagDate": ["1809-10-28T00:00:00.000Z"],
+    "tagPerson": ["Firth, Wm.", "Halton"],
+    "tagDescription": [
+      "Directing him to furnish Wm. Hutchison with various drafts."
+    ],
+    "tagPlace": ["Lt. Governor's Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "586": {
+    "tagDescription": ["Report on petition of James Young."],
+    "tagDate": ["1810-03-17T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Gore"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "60": {
+    "tagDescription": [
+      "Despatches to Castlereagh and Harrison were forwarded by H.M.S. Foxhound."
+    ],
+    "tagPerson": ["Gore", "Thornton"],
+    "tagDate": ["1809-08-11T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Quebec"]
+  },
+  "801": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-06-15T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDescription": [
+      "Report on land for Thomas Condon in Township of Binbrook."
+    ]
+  },
+  "676": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagPerson": ["Halton", "Jarvis, Wm."],
+    "tagDate": ["1810-04-16T00:00:00.000Z"],
+    "tagDescription": [
+      "Order to furnish the Attorney General with a copy of the Act passed for regulating the practice of the Court of King's Bench."
+    ]
+  },
+  "568": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Recommends John McIntosh as coroner for county of Hastings."
+    ],
+    "tagDate": ["1810-03-13T00:00:00.000Z"],
+    "tagPerson": ["McNabb, Jas.", "Halton"]
+  },
+  "645": {
+    "tagDescription": ["Regarding persons cutting staves, etc."],
+    "tagPerson": ["Halton", "Ferguson, John"],
+    "tagDate": ["1810-04-05T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Kingston"]
+  },
+  "158": {
+    "tagDescription": [
+      "Petition from magistrates and inhabitants of Niagara district recommending clemency for John Silverthorne."
+    ],
+    "tagDate": ["1809-09-29T00:00:00.000Z"],
+    "tagPlace": ["Niagara"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "200": {
+    "tagPerson": ["Ridout", "Chewett", "Staton"],
+    "tagDate": ["1809-10-19T00:00:00.000Z"],
+    "tagDescription": [
+      "Regarding the transfer of George Havens land to James Henry."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "151": {
+    "tagPlace": ["Halton"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Requests leave to resign all his appointments in the Newcastle district interfering with his half-pay."
+    ],
+    "tagDate": ["1809-09-25T00:00:00.000Z"],
+    "tagPerson": ["Thompson, Timothy"]
+  },
+  "561": {
+    "tagDescription": [
+      "Schedule of Acts passed in second session of Provincial Parliament."
+    ],
+    "tagDate": ["1810-03-12T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Jarvis, Wm."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "533": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1810-02-22T00:00:00.000Z"],
+    "tagDescription": [
+      "Report on Lots Nos. 11 and 14 in Ameliasburgh asked for by Anna Haight and Sarah Dorland."
+    ]
+  },
+  "987": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": [
+      "Reply to letter from Major Fuller for supply of wood to Marine Dept. from Wolfe Island."
+    ],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDate": ["1810-11-28T00:00:00.000Z"]
+  },
+  "766": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Niagara"],
+    "tagPerson": ["Roch, Samuel Odell", "Gore"],
+    "tagDate": ["1810-05-26T00:00:00.000Z"],
+    "tagDescription": [
+      "Application to live in the government house at head of lake and accommodate travelers."
+    ]
+  },
+  "497": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-02-06T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Stanton, Wm."],
+    "tagDescription": ["Stating that he has paid the Essex militia."]
+  },
+  "869": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": ["Report on lots for S. Jarvis."],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-08-21T00:00:00.000Z"]
+  },
+  "458": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Jarvis, Wm.", "Halton"],
+    "tagDate": ["1810-02-01T00:00:00.000Z"],
+    "tagDescription": [
+      "States that no deed has been issued to George Harkimer in Binbrook township."
+    ]
+  },
+  "54": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagDescription": ["Respecting a lot in Maidstone for Edward Turner."],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1809-08-11T00:00:00.000Z"]
+  },
+  "917": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Fort George"],
+    "tagDate": ["1810-09-24T00:00:00.000Z"],
+    "tagDescription": ["General account of goods received."]
+  },
+  "292": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDate": ["1809-11-16T00:00:00.000Z"],
+    "tagDescription": [
+      "Report on change of situation for Crown, clergy and masting reserves in rear of Toronto township."
+    ]
+  },
+  "649": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Report on Lot No. 21 in Hamilton."],
+    "tagDate": ["1810-04-06T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"]
+  },
+  "440": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Amherstburg"],
+    "tagDescription": ["Petition for 1000 acres of land."],
+    "tagPerson": ["Barwiss, Lieut Marine service", "Halton"],
+    "tagDate": ["1810-01-28T00:00:00.000Z"]
+  },
+  "197": {
+    "tagDescription": [
+      "Transmits certificate recommending Joseph and Lewis Willson."
+    ],
+    "tagPerson": ["Staton", "Chewett"],
+    "tagDate": ["1809-10-19T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "865": {
+    "tagPerson": [
+      "Officer commanding the forces at Upper Canada",
+      "Palmerston"
+    ],
+    "tagDate": ["1810-08-20T00:00:00.000Z"],
+    "tagDescription": ["(Circular). Respecting chaplains in the army."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["War Office"]
+  },
+  "816": {
+    "tagDescription": [
+      "Enclosed: (3) Charlotteville, 27 June 1810. Justifying his conduct in connection with Mr. Dease."
+    ],
+    "tagPerson": ["Mitchell, James", "Halton"],
+    "tagDate": ["1810-06-22T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Dover Mills, Woodhouse"]
+  },
+  "82": {
+    "tagDescription": [
+      "James Mitchell to the same. Applies for appointment as registrar, London district."
+    ],
+    "tagDate": ["1809-08-18T00:00:00.000Z"],
+    "tagName": ["Mitchell, James"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Charlotteville"]
+  },
+  "213": {
+    "tagDescription": [
+      "Col. James Kempt to the same. Construction of a covette at Amherstburgh authorized."
+    ],
+    "tagPerson": ["Kempt, James, Col."],
+    "tagDate": ["1809-10-26T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Quebec"]
+  },
+  "768": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Introducing W. McDonell."],
+    "tagPerson": ["Halton", "McGill, John"],
+    "tagDate": ["1810-05-28T00:00:00.000Z"]
+  },
+  "123": {
+    "tagDate": ["1809-09-13T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett"],
+    "tagDescription": [
+      "Chewett and Ridout to the same. Report on the claims of Neil Robertson, Cornwall township."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "87": {
+    "tagDescription": [
+      "Report on various locations made by Wm. Smith; and depredations committed by him on Indian lands at Twelve Mile Creek."
+    ],
+    "tagPerson": ["Halton", "Ridout", "Chewett"],
+    "tagDate": ["1809-08-22T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "671": {
+    "tagDescription": [
+      "Authority to survey the remaining part of Durham and Dorchester townships."
+    ],
+    "tagDate": ["1810-04-13T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "589": {
+    "tagDate": ["1810-03-17T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: Extract from Minutes of Council, 27 June, 1796, referring to James Young."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "402": {
+    "tagDate": ["[1810-01-01T00:00:00.000Z TO 1810-06-28T23:59:59.999Z]"],
+    "tagDescription": [
+      "Certificate of Noah Dean that there is no clearing done on lot no. 21 in the 2nd concession in Hamilton."
+    ],
+    "tagNotebook": [
+      "RG 5, A 1: UPPER CANADA SUNDRIES",
+      "UPPER CANADA SUNDRIES January to June 1810"
+    ]
+  },
+  "922": {
+    "tagDescription": [
+      "Introducing Mr. Mangin who goes to Montreal to report on proposed canal."
+    ],
+    "tagPerson": ["Barclay, Thomas", "Craig"],
+    "tagDate": ["1810-09-29T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["New York"]
+  },
+  "506": {
+    "tagDescription": [
+      "Regarding stoppage of half pay to officers accepting civil appointments."
+    ],
+    "tagDate": ["1810-02-08T00:00:00.000Z"],
+    "tagPerson": ["Anderson, Joseph", "Gore"],
+    "tagPlace": ["Cornwall"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "395": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagDescription": ["Order to prepare draft of proclamation."],
+    "tagPerson": ["Halton", "Firth, Wm."],
+    "tagDate": ["1809-12-30T00:00:00.000Z"]
+  },
+  "881": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagName": ["Chewett", "Ridout"],
+    "tagDate": ["1810-08-23T00:00:00.000Z"],
+    "tagDescription": [
+      "Chewett and Ridout Requisition for stationery. Approved by Gore."
+    ]
+  },
+  "239": {
+    "tagDescription": ["Transmits statement of his salary and emoluments."],
+    "tagDate": ["1809-11-01T00:00:00.000Z"],
+    "tagPerson": ["Stuart, John, Rev.", "Halton"],
+    "tagPlace": ["Kingston"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "38": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-08-07T00:00:00.000Z"],
+    "tagDescription": [
+      "Memo by Wm. D. Powell on the cause of Jackman and Turner."
+    ]
+  },
+  "462": {
+    "tagPlace": ["Niagara"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-02-01T00:00:00.000Z"],
+    "tagPerson": ["Edwards, Joseph"],
+    "tagDescription": [
+      "Joseph Edwards to same. Transmits copy of a letter received from Richard Hatt."
+    ]
+  },
+  "834": {
+    "tagDate": ["1810-07-16T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: Schedule of names, dated 11 July, 1810."],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "678": {
+    "tagDate": ["1810-04-17T00:00:00.000Z"],
+    "tagPerson": ["Edwards, Joseph", "Halton"],
+    "tagDescription": [
+      "Representing the distressed condition of certain prisoners in jail there - proposed bridge across the Grand River approved."
+    ],
+    "tagPlace": ["Niagara"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "708": {
+    "tagDescription": ["A guard is required at the gaol while under repair."],
+    "tagPerson": ["Ridout, Thomas, clerk of the Peace", "Halton"],
+    "tagDate": ["1810-04-26T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "761": {
+    "tagPlace": ["Charlotteville"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Requests his commission Registrar of the Surrogate Court, London district."
+    ],
+    "tagDate": ["1810-05-25T00:00:00.000Z"],
+    "tagPerson": ["Walsh, Francis Legh", "Halton"]
+  },
+  "326": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Report on wages in Johnstown district. Recommends postponement of proposed survey in Augusta, Elizabethtown, Yonge, and other districts, on account of high wages."
+    ],
+    "tagDate": ["1809-11-30T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Chewett", "Ridout"]
+  },
+  "399": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPerson": ["Gore", "Bunting, Thomas, inspector"],
+    "tagDate": ["1809-01-01T00:00:00.000Z"],
+    "tagDescription": ["Return of pork inspected at Niagara for 1808-1809."]
+  },
+  "494": {
+    "tagDate": ["1810-02-05T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: The petition."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "147": {
+    "tagDate": ["1809-09-22T00:00:00.000Z"],
+    "tagPerson": ["Craig", "Gore"],
+    "tagDescription": ["Regarding provisions for the troops."],
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "490": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagPerson": ["Halton", "Attorney General"],
+    "tagDate": ["1810-02-03T00:00:00.000Z"],
+    "tagDescription": [
+      "Authority to issue a writ for the election of a member of take the place of the late John Brownell."
+    ]
+  },
+  "242": {
+    "tagDescription": ["Enclosed: Statement."],
+    "tagDate": ["1809-11-01T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Kingston"]
+  },
+  "980": {
+    "tagDescription": ["Petition for land."],
+    "tagDate": ["1810-11-21T00:00:00.000Z"],
+    "tagPerson": ["Wrong, John", "Gore"],
+    "tagPlace": ["Grimsby"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "963": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagDate": ["1810-11-08T00:00:00.000Z"],
+    "tagDescription": [
+      "The same to the same. Report on settlement made in Thurlow without authority on lands reserved for an Indian burying ground."
+    ]
+  },
+  "353": {
+    "tagPlace": ["Niagara"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-12-09T00:00:00.000Z"],
+    "tagPerson": ["Merritt, Thomas", "Halton"],
+    "tagDescription": [
+      "Reports on timber cut at the head of the Lake by Martin."
+    ]
+  },
+  "456": {
+    "tagName": ["Selby, P."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": [
+      "P. Selby's memo that no grant to Lieut. George Harkimer can be found."
+    ],
+    "tagDate": ["1810-02-01T00:00:00.000Z"]
+  },
+  "931": {
+    "tagPlace": ["Scot's Hall London"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-10-06T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: (1) Printed statement of the Scottish hospital in London."
+    ]
+  },
+  "552": {
+    "tagPlace": ["Dundas Street"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-03-06T00:00:00.000Z"],
+    "tagPerson": ["Hatt, Richard", "Gore"],
+    "tagDescription": ["Recommending George W. Hepburn be appointed sheriff."]
+  },
+  "811": {
+    "tagPlace": ["Dover Mills, Woodhouse"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-06-22T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Cummings, Thomas"],
+    "tagDescription": [
+      "Enclosed: (1) Woodhouse, 22 June 1810, representing Mr. Deases' conduct."
+    ]
+  },
+  "958": {
+    "tagDescription": [
+      "Explains difficulty in hiring survey party at 1/6 per day."
+    ],
+    "tagPerson": ["Wilmot, Samuel S.", "Chewett", "Ridout"],
+    "tagDate": ["1810-10-20T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "301": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Audit Office"],
+    "tagPerson": ["Coffin, L. A.", "Maller, J. L."],
+    "tagDate": ["1809-11-22T00:00:00.000Z"],
+    "tagDescription": ["Enquires about Taylor's expenditures as paymaster."]
+  },
+  "608": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-03-22T00:00:00.000Z"],
+    "tagPerson": ["Thornton, Wm.", "Brock, Brig.-General"],
+    "tagDescription": ["Relative to allowances of forage money claimed."]
+  },
+  "417": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Report on lot in Oxford for John McNames."],
+    "tagDate": ["1810-01-11T00:00:00.000Z"],
+    "tagPerson": ["Gore", "Chewett", "Ridout"]
+  },
+  "633": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-03-29T00:00:00.000Z"],
+    "tagDescription": [
+      "Report on mill site applied for by Miles McDonell in the township of Seymour."
+    ]
+  },
+  "282": {
+    "tagPlace": ["Quebec"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-11-13T00:00:00.000Z"],
+    "tagPerson": ["Craig", "Gore"],
+    "tagDescription": ["Transmits extract of despatch from Jackson."]
+  },
+  "255": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Sandwich"],
+    "tagDescription": ["Transmits statement of his work as curate at Sandwich"],
+    "tagPerson": ["Gore", "Pollard, R., Rev."],
+    "tagDate": ["1809-11-07T00:00:00.000Z"]
+  },
+  "576": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Kingston"],
+    "tagPerson": ["Halton", "Stuart, Charles, sheriff"],
+    "tagDate": ["1810-03-13T00:00:00.000Z"],
+    "tagDescription": [
+      "Transmitting a statement of the duties and emoluments of office. (Enclosure not at this place.)"
+    ]
+  },
+  "1018": {
+    "tagDescription": [
+      "Resigning several appointments he held, previous to his being made surveyor general."
+    ],
+    "tagPerson": ["Ridout, Thomas", "Gore"],
+    "tagDate": ["1810-12-20T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "80": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Charlotteville"],
+    "tagPerson": ["Welch, Thomas"],
+    "tagDate": ["1809-08-18T00:00:00.000Z"],
+    "tagDescription": [
+      "Thomas Welch to the same. Resigns as registrar of the Surrogate Court, suggesting James Mitchell as his successor."
+    ]
+  },
+  "545": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagName": ["Gore"],
+    "tagDate": ["1810-03-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Gore's orders. Duncan Cameron to be agent for Indian Affairs during Mr. Givins' absence."
+    ]
+  },
+  "532": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagDate": ["1810-02-16T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: Jan. 20, 1810. Abstract."]
+  },
+  "668": {
+    "tagDescription": [
+      "Requests order for taking off the reserve in township of Toronto."
+    ],
+    "tagPerson": ["Halton", "Chewett", "Ridout"],
+    "tagDate": ["1810-04-13T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "951": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Smythe, Thomas", "Chewett", "Ridout"],
+    "tagDate": ["1810-10-13T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: Memo 12 October, on Lots Nos. 1 and 2 in Elmsley."
+    ]
+  },
+  "436": {
+    "tagPlace": ["Charlottenburgh"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Petitions for land."],
+    "tagDate": ["1810-01-24T00:00:00.000Z"],
+    "tagPerson": ["Gore", "McDonell, Archibald"]
+  },
+  "361": {
+    "tagPerson": ["Gore", "Ridout", "Chewett"],
+    "tagDate": ["1809-12-10T00:00:00.000Z"],
+    "tagDescription": [
+      "Report on Col. Talbot's land and his request for a road through Southwold, Yarmouth, etc."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "829": {
+    "tagDescription": ["Enclosed: Port Talbot, 21 June, 1810, The report."],
+    "tagDate": ["1810-07-07T00:00:00.000Z"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "799": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagDescription": ["Requests leave of absence."],
+    "tagPerson": ["Halton", "McLean, Donald, clerk of Assembly"],
+    "tagDate": ["1810-06-14T00:00:00.000Z"]
+  },
+  "848": {
+    "tagDescription": ["Report on the petition of Daniel McLeod for land."],
+    "tagDate": ["1810-08-04T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "64": {
+    "tagDescription": [
+      "Transmits report on garrison repairs. [Report not at this place.]"
+    ],
+    "tagPerson": ["Halton", "Darenzy, Capt."],
+    "tagDate": ["1809-08-14T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["St. Joseph's"]
+  },
+  "841": {
+    "tagPerson": ["Ridout", "Chewett", "Gore"],
+    "tagDate": ["1810-08-01T00:00:00.000Z"],
+    "tagDescription": ["Respecting military reserves in the town of Kingston."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "172": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Quebec"],
+    "tagDescription": [
+      "Statement of stationery shipped on the Sea Nymph for the posts and stations in the Canadas."
+    ],
+    "tagDate": ["1809-10-06T00:00:00.000Z"]
+  },
+  "549": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Ancaster"],
+    "tagPerson": ["Hatt, Samuel", "Gore"],
+    "tagDate": ["1810-03-06T00:00:00.000Z"],
+    "tagDescription": [
+      "Recommending that Geo. W. Hepburn be appointed sheriff."
+    ]
+  },
+  "438": {
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-01-26T00:00:00.000Z"],
+    "tagPerson": ["Firth", "Halton"],
+    "tagDescription": [
+      "Has submitted draft of indenture between Messrs. Selby, Cumming, and MacDonell."
+    ]
+  },
+  "595": {
+    "tagDate": ["1810-03-21T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: Petition."],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "578": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Walsingham"],
+    "tagDescription": [
+      "Offers to resign as magistrate on account of being on half-pay."
+    ],
+    "tagPerson": ["Halton", "Hutchinson, Wm."],
+    "tagDate": ["1810-03-15T00:00:00.000Z"]
+  },
+  "857": {
+    "tagPlace": ["Niagara"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDescription": [
+      "Applying for money as commissioner for the purchase of hemp. The price for two or three tons required."
+    ],
+    "tagDate": ["1810-08-09T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Edwards, Joseph"]
+  },
+  "110": {
+    "tagDescription": [
+      "Petition of Matthias Sanders for permission to build a vessel on the Humber River."
+    ],
+    "tagDate": ["1809-09-04T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"]
+  },
+  "270": {
+    "tagPlace": ["Fort George"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-11-09T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Hamilton, Major"],
+    "tagDescription": [
+      "Reports a man named Martin cutting white pine on Crown reserve."
+    ]
+  },
+  "745": {
+    "tagPlace": ["Brownville"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagName": ["Skinner, Benjamin"],
+    "tagDate": ["1810-05-10T00:00:00.000Z"],
+    "tagDescription": [
+      "Benjamin Skinner regarding an Act passed establishing a ferry."
+    ]
+  },
+  "463": {
+    "tagDescription": [
+      "Enclosed: Dundas Street, 16 January 1810, Concerning money spent on roads."
+    ],
+    "tagPerson": ["Hall, Richard", "Edwards, J."],
+    "tagDate": ["1810-02-01T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Niagara"]
+  },
+  "689": {
+    "tagDate": ["1810-04-20T00:00:00.000Z"],
+    "tagDescription": [
+      "Lewis Davis, J.P. Information on Denis Dogherty regarding a plot of desertion."
+    ],
+    "tagPlace": ["St. Josephs"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagName": ["Davis, Lewis, J.P."]
+  },
+  "274": {
+    "tagDate": ["1809-11-10T00:00:00.000Z"],
+    "tagPerson": ["Stuart, Charles", "Halton"],
+    "tagDescription": ["Regarding his income."],
+    "tagPlace": ["Kingston"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "227": {
+    "tagPlace": ["Wainfleet"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-11-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Petition of Benoni Wheeler, for an improved lot in Wainfleet."
+    ]
+  },
+  "315": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Kingston"],
+    "tagPerson": ["Ferguson, John"],
+    "tagDate": ["1809-11-27T00:00:00.000Z"],
+    "tagDescription": [
+      "John Ferguson to the same. States that he will exert himself in preventing timber being cut on sundry islands, Midland district."
+    ]
+  },
+  "606": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Duplicate of above."],
+    "tagDate": ["1810-03-22T00:00:00.000Z"]
+  },
+  "879": {
+    "tagDescription": ["Requesting leave of absence."],
+    "tagPerson": ["Boulton, D'Arcy", "Halton"],
+    "tagDate": ["1810-08-23T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "619": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Charlotteville"],
+    "tagPerson": ["Halton", "Mitchell, James"],
+    "tagDate": ["1810-03-26T00:00:00.000Z"],
+    "tagDescription": ["Apologizing for his letter of 12 Feb. 1810."]
+  },
+  "103": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Elizabethtown"],
+    "tagDescription": ["Regarding current wages."],
+    "tagPerson": ["Sherwood, Reuben", "Chewett", "Ridout"],
+    "tagDate": ["1809-08-29T00:00:00.000Z"]
+  },
+  "69": {
+    "tagPerson": ["Gore", "Duncan, Richard"],
+    "tagDate": ["1809-08-16T00:00:00.000Z"],
+    "tagDescription": [
+      "Hopes for an appointment on his return to the province."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Hermitage"]
+  },
+  "385": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["York"],
+    "tagDate": ["1809-12-27T00:00:00.000Z"],
+    "tagDescription": ["Enclosed: (1) The Petition, Kingston, 1 May 1809."]
+  },
+  "51": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Washington"],
+    "tagPerson": ["Erskine", "Canning"],
+    "tagDate": ["1809-08-10T00:00:00.000Z"],
+    "tagDescription": [
+      "Regarding the president's proclamation on Non-Intercourse Law again in operation."
+    ]
+  },
+  "422": {
+    "tagDate": ["1810-01-19T00:00:00.000Z"],
+    "tagPerson": ["Hanes, Michael", "Gore"],
+    "tagDescription": ["Denies having made use of disrespectful language."],
+    "tagPlace": ["Williamsburgh"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "846": {
+    "tagDate": ["1810-08-03T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: 2 Aug, 1810. S.Z. Watson requesting payment of £80.3.9 due for survey of the township of Westminster."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "685": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Transmits papers and memorials of Quartermaster Ahern. (Documents not at this place.)"
+    ],
+    "tagDate": ["1810-04-19T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Gore"]
+  },
+  "962": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-10-22T00:00:00.000Z"],
+    "tagDescription": [
+      "The same to the same. Regarding pay Mr. Wilmot's survey party."
+    ]
+  },
+  "749": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Brownville"],
+    "tagDescription": [
+      "Enclosed: (2) Copy of an act passed in the state of New York for a ferry."
+    ],
+    "tagDate": ["1810-05-10T00:00:00.000Z"]
+  },
+  "163": {
+    "tagDescription": [
+      "Announcing that F.J. Jackson succeeds him as envoy to the U.S."
+    ],
+    "tagDate": ["1809-10-02T00:00:00.000Z"],
+    "tagPerson": ["Erskine", "Gore"],
+    "tagPlace": ["Washington"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "180": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Quebec"],
+    "tagPerson": ["Gore", "Thornton"],
+    "tagDate": ["1809-10-15T00:00:00.000Z"],
+    "tagDescription": [
+      "Informs him that his despatches to Lord Castlereagh left by the La Bonne Citoyenne. Other letters forwarded on the Cumberland."
+    ]
+  },
+  "319": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-11-28T00:00:00.000Z"],
+    "tagDescription": [
+      "Schedule of letters received from the Under Secretary of State, the Treasury, and the War Office, previous to Gore's administration."
+    ]
+  },
+  "442": {
+    "tagDescription": ["Report on land for Asa and Zacheus Burnham."],
+    "tagPerson": ["Ridout", "Chewett", "Gore"],
+    "tagDate": ["1810-01-29T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "311": {
+    "tagDescription": [
+      "Instructions for a survey of a township in the rear of Whitby."
+    ],
+    "tagDate": ["1809-11-25T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "974": {
+    "tagDescription": ["Memo regarding fees of the Surveyor General's office."],
+    "tagPerson": ["Gore", "Chewett, Wm."],
+    "tagDate": ["1810-11-12T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "598": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": ["Report on petition of Mrs. Catherine Grant."],
+    "tagDate": ["1810-03-21T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Gore"]
+  },
+  "290": {
+    "tagDate": ["1809-11-15T00:00:00.000Z"],
+    "tagPerson": ["McGill, J.", "Stuart, Charles"],
+    "tagDescription": ["Regarding staves sold at Wolfe Island."],
+    "tagPlace": ["Kingston"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "741": {
+    "tagDate": ["1810-05-03T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Jarvis, Wm."],
+    "tagDescription": ["Requesting leave of absence."],
+    "tagPlace": ["Secretary's office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "796": {
+    "tagDescription": [
+      "Any declaration of new limits between the provinces must be made by Imperial government."
+    ],
+    "tagPerson": ["Gore", "Craig, James, Sir"],
+    "tagDate": ["1810-06-11T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"]
+  },
+  "467": {
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagDescription": [
+      "Report respecting the claims of sundry persons for land in the name of their relatives killed during the American war."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "223": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Cornwall"],
+    "tagPerson": ["French, Jeremiah", "McLean, Neil"],
+    "tagDate": ["1809-10-31T00:00:00.000Z"],
+    "tagDescription": [
+      "Jeremiah French and Neil McLean to the same. Recommending George Anderson for clerkship in the Eastern District Court."
+    ]
+  },
+  "729": {
+    "tagDescription": ["Thomas Merritt. Certificate issued to John Peters."],
+    "tagDate": ["1810-05-02T00:00:00.000Z"],
+    "tagName": ["Merritt, Thomas"],
+    "tagPlace": ["New Castle"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "943": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Ex. Council Office"],
+    "tagDescription": [
+      "Transmits a box containing copy of proceedings of Council from 1 Jan. 1809 to 30 June, 1810."
+    ],
+    "tagPerson": ["Halton", "Small, John"],
+    "tagDate": ["1810-10-12T00:00:00.000Z"]
+  },
+  "334": {
+    "tagPlace": ["Baldoon"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-12-04T00:00:00.000Z"],
+    "tagPerson": ["Gore", "McDonell, Alex."],
+    "tagDescription": [
+      "Settlements made on the St. Clair River under Indian titles."
+    ]
+  },
+  "107": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Johnstown District"],
+    "tagDescription": ["Magistrates' certificate on current price of labour."],
+    "tagDate": ["1809-08-30T00:00:00.000Z"]
+  },
+  "381": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Transmits petition from the inhabitants of Kingston, regarding certain lots."
+    ],
+    "tagDate": ["1809-12-27T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Gore"]
+  },
+  "725": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDate": ["1810-05-01T00:00:00.000Z"],
+    "tagPerson": ["Halton", "Powell, Wm. D."],
+    "tagDescription": ["Convicts at Niagara for forging foreign bank notes."]
+  },
+  "32": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Copy of the Report of the Council, 7 August 1809, on the petition of Wm. Jarvis, secretary of the province."
+    ],
+    "tagDate": ["1809-08-07T00:00:00.000Z"]
+  },
+  "244": {
+    "tagDate": ["1809-11-02T00:00:00.000Z"],
+    "tagPerson": ["Willson, Crowell", "Gore"],
+    "tagDescription": ["Recommends Thomas Wiggins for a land grant."],
+    "tagPlace": ["Willoughby"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "365": {
+    "tagPerson": ["Halton", "Peters, John, sheriff"],
+    "tagDate": ["1809-12-14T00:00:00.000Z"],
+    "tagDescription": ["Regarding timber being cut without permission."],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Hope"]
+  },
+  "775": {
+    "tagDescription": [
+      "Referring to Mr. Bond's report of 18 May on land unfit for hemp cultivation."
+    ],
+    "tagDate": ["1810-06-02T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Chewett", "Halton"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "554": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Barton"],
+    "tagPerson": ["Beasley, Richard", "Gore"],
+    "tagDate": ["1810-03-06T00:00:00.000Z"],
+    "tagDescription": ["Recommending Geo. W. Hepburn as sheriff."]
+  },
+  "104": {
+    "tagDate": ["1809-08-29T00:00:00.000Z"],
+    "tagDescription": [
+      "Report of Board of Survey upon several cases of bottles for Lt.-Gov. Gore."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Point Frederick"]
+  },
+  "529": {
+    "tagDate": ["1810-02-16T00:00:00.000Z"],
+    "tagPerson": ["Street, Samuel", "Halton"],
+    "tagDescription": [
+      "Transmits abstract of disbursements for work on road from Chippawa to Fort Erie."
+    ],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "183": {
+    "tagPlace": ["Charlotteville"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDate": ["1809-10-16T00:00:00.000Z"],
+    "tagPerson": ["Dease, R. W., clerk of the peace", "Halton"],
+    "tagDescription": ["Requests instructions on seizure of stills."]
+  },
+  "258": {
+    "tagDate": ["1809-11-07T00:00:00.000Z"],
+    "tagPerson": ["Taylor, George, Major", "Halton"],
+    "tagDescription": [
+      "Transmits list of men eligible for lots and land in Amherstburgh."
+    ],
+    "tagPlace": ["Amherstburgh"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "982": {
+    "tagDescription": ["Memo on sundry lots in York."],
+    "tagDate": ["1810-11-24T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Gore"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "821": {
+    "tagPerson": ["Welch, Col.", "Mitchell, James"],
+    "tagDate": ["1810-06-22T00:00:00.000Z"],
+    "tagDescription": [
+      "Enclosed: (5) Public School, 2 June 1810, regarding Dease."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Dover Mills, Woodhouse"]
+  },
+  "62": {
+    "tagDescription": ["Regarding his militia affairs."],
+    "tagPerson": ["David, Moses", "Selby, P."],
+    "tagDate": ["1809-08-11T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagPlace": ["Sandwich"]
+  },
+  "492": {
+    "tagDate": ["1810-02-05T00:00:00.000Z"],
+    "tagPerson": ["Core", "Hatt, Richard"],
+    "tagDescription": [
+      "Transmits a petition from sundry inhabitants of Dundas Street on road money."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "616": {
+    "tagDescription": [
+      "Memo for lands granted to Frederick and Rebecca Markle and others."
+    ],
+    "tagPerson": ["Gore", "Ridout", "Chewett"],
+    "tagDate": ["1810-03-24T00:00:00.000Z"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "665": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["York"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagDate": ["1810-04-11T00:00:00.000Z"],
+    "tagDescription": [
+      "Col. Talbot requests the new road may be continued through the township of Middleton."
+    ]
+  },
+  "369": {
+    "tagDescription": [
+      "Transmits petitions from Frederick and John Fox, Daniel and Isaac Fuller. [Petitions not at this place]"
+    ],
+    "tagDate": ["1809-01-01T00:00:00.000Z"],
+    "tagPerson": ["Claus, Wm.", "Lawe, George"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"]
+  },
+  "876": {
+    "tagDescription": ["Enquiring as to payment of rent."],
+    "tagDate": ["1810-08-23T00:00:00.000Z"],
+    "tagPerson": ["Chewett", "Ridout", "Halton"],
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"]
+  },
+  "977": {
+    "tagPerson": ["McGill, John", "Halton"],
+    "tagDate": ["1810-11-16T00:00:00.000Z"],
+    "tagDescription": [
+      "Represents unnecessary expense to Government on United Empire loyalists grants of land, issued free of expense to them."
+    ],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["York"]
+  },
+  "15": {
+    "tagPlace": ["Kingston"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": ["Naval stores have been shipped. "],
+    "tagDate": ["1809-08-02T00:00:00.000Z"],
+    "tagPerson": ["Ross, Will", "Halton"]
+  },
+  "483": {
+    "tagPlace": ["Hallowell"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagDescription": [
+      "Seeking a contract for timber, cut down in the Newcastle and Midland districts."
+    ],
+    "tagDate": ["1810-02-02T00:00:00.000Z"],
+    "tagPerson": ["Washburn, Ebenezer", "Gore"]
+  },
+  "460": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"],
+    "tagPlace": ["Cornwall"],
+    "tagDescription": [
+      "Joshua Y. Cozens to same. Announcing the death of John Brownell, late member of Parliament for Stormont and Russell counties."
+    ],
+    "tagPerson": ["Cozens, Joshua Y."],
+    "tagDate": ["1810-02-01T00:00:00.000Z"]
+  },
+  "924": {
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagPlace": ["Rawdon"],
+    "tagPerson": ["Gore", "McDonell, Alex."],
+    "tagDate": ["1810-10-05T00:00:00.000Z"],
+    "tagDescription": [
+      "Transmits Smith's plan of survey of islands in Lake St. Clair. (Plan not at this place.)"
+    ]
+  },
+  "1020": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDate": ["1810-12-28T00:00:00.000Z"],
+    "tagPerson": ["Ridout", "Halton"],
+    "tagDescription": ["Respecting a reserve being moved in Bayham."]
+  },
+  "404": {
+    "tagDescription": [
+      "Resigns as Coroner of the Newcastle District. (Rec. April, 1810)."
+    ],
+    "tagDate": ["1810-01-01T00:00:00.000Z"],
+    "tagPerson": ["Halton, Wm.", "Porter, Timothy"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES January to June 1810"]
+  },
+  "993": {
+    "tagPlace": ["York"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1810"],
+    "tagDescription": [
+      "Acknowledges letter setting date for meeting of Parliament."
+    ],
+    "tagDate": ["1810-12-08T00:00:00.000Z"],
+    "tagPerson": ["Halton", "MacLean, Donald"]
+  },
+  "309": {
+    "tagPlace": ["Lt.-Gov.'s Office"],
+    "tagNotebook": ["UPPER CANADA SUNDRIES July to December 1809"],
+    "tagDescription": [
+      "Authorizes proclamation appointing Joseph Edwards, Niagara, as commissioner for purchase of hemp."
+    ],
+    "tagDate": ["1809-11-24T00:00:00.000Z"],
+    "tagPerson": ["Firth, Wm.", "Halton"]
+  }
+}

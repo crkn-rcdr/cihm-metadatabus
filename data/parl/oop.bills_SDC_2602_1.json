@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["26-2"],
+  "pubmin": "1964-02-18",
+  "callNumber": "KE72 C381 26-2 S2-S24",
+  "label": "Projets de loi du Sénat, 26e Législature, 2e Session : S2-S24",
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1965-04-03",
+  "node": [["fra", "s", "bills", "26-2", 1]]
+}

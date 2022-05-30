@@ -1,0 +1,17 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 30],
+    ["fra", "c", "committees", "34-3", 48],
+    ["eng", "s", "committees", "34-3", 9],
+    ["fra", "s", "committees", "34-3", 19]
+  ],
+  "pubmax": "1993-09-08",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "Joint Committees, 34th Parliament, 3rd Session : Special Joint Committee on Bill C-116, Conflit of Interests, vol. 1 = Comités mixtes, 34e Législature, 3e Session : Comité mixte spécial relatif au projet de loi C-116, Conflits d'intérêts, vol. 1",
+  "callNumber": "34-3 B56 A1 no.1-5"
+}

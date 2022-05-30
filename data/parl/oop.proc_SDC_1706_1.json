@@ -1,0 +1,11 @@
+{
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "17-6", 1]],
+  "pubmax": "1935-07-05",
+  "chamber": ["s"],
+  "pubmin": "1935-01-17",
+  "label": "Procès-verbaux du Sénat, 17e Législature, 6e Session : 1-57",
+  "callNumber": "J103 H43 1935",
+  "language": ["fra"],
+  "session": ["17-6"]
+}

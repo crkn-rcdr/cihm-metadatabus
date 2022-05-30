@@ -1,0 +1,15 @@
+{
+  "pubmax": "1984-07-09",
+  "node": [
+    ["eng", "c", "cproc", "32-2", 1],
+    ["fra", "c", "cproc", "32-2", 1]
+  ],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "callNumber": "J103 H41 1983/84 no. 1-41 c.2",
+  "label": "House of Commons Votes and Proceedings, 32nd Parliament, 2nd Session : 1-41 = Procès-verbaux de la Chambre des communes, 32e Législature, 2e Session : 1-41",
+  "pubmin": "1983-12-07",
+  "session": ["32-2"],
+  "language": ["eng", "fra"]
+}

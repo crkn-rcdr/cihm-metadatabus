@@ -1,0 +1,11 @@
+{
+  "session": ["03-3"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 3rd Parliament, 3rd Session : Vol. 10",
+  "pubmin": "1876-02-10",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander",
+  "pubmax": "1876-04-12",
+  "node": [["eng", "c", "journals", "03-3", 1]],
+  "type": "journals"
+}

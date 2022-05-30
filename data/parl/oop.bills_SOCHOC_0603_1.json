@@ -1,0 +1,15 @@
+{
+  "language": ["eng"],
+  "session": ["06-3"],
+  "pubmin": "1889-01-31",
+  "callNumber": "KE72 C36 6-3 no.2-150 no.A-X",
+  "label": "Senate and House of Commons Bills, 6th Parliament, 3rd Session : CA-X, 2-150",
+  "chamber": ["s", "c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "bills",
+  "pubmax": "1889-05-02",
+  "node": [
+    ["eng", "s", "bills", "06-3", 1],
+    ["eng", "c", "bills", "06-3", 1]
+  ]
+}

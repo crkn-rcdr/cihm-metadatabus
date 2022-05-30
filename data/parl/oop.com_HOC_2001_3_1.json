@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "20-1", 5]],
+  "pubmax": "1945-12-18",
+  "type": "committees",
+  "session": ["20-1"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 20th Parliament, 1st Session : Special Committee on Veterans Affairs, vol. 1",
+  "callNumber": "1945 V4 A1",
+  "pubmin": "1945-09-06"
+}

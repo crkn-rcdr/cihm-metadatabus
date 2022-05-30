@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "32-1", 38],
+    ["fra", "c", "committees", "32-1", 100]
+  ],
+  "pubmax": "1983-11-30",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on Employment Opportunities for the '80s, Sub-Committee B, vol. 2 no. 8-14 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial sur les perspectives d'emploi pour les années 80, Sous-comité B, vol. 2 no. 8-14",
+  "callNumber": "1980/83 E512 A1 no.8-14"
+}

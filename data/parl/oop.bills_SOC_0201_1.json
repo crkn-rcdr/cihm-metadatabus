@@ -1,0 +1,11 @@
+{
+  "pubmin": "1873-03-05",
+  "callNumber": "KE72 C38 2-1 Bill A-",
+  "label": "Senate Bills, 2nd Parliament, 1st Session : A-T",
+  "language": ["eng"],
+  "session": ["02-1"],
+  "type": "bills",
+  "pubmax": "1873-08-13",
+  "node": [["eng", "s", "bills", "02-1", 1]],
+  "chamber": ["s"]
+}

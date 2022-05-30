@@ -1,0 +1,12 @@
+{
+  "callNumber": "33-2 T69 A12",
+  "label": "Comités du Sénat, 33e Législature, 2e Session : Sous-comité de la formation et de l'emploi, Rapport",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "reportTitle": ["En formation, il n'y a que le travail qui vaille"],
+  "language": ["fra"],
+  "pubmax": "1988-10-01",
+  "node": [["fra", "s", "committees", "33-2", 32]],
+  "type": "committees",
+  "chamber": ["s"]
+}

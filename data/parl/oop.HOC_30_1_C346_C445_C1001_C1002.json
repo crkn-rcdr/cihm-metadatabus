@@ -1,0 +1,14 @@
+{
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "30-1", 9],
+    ["fra", "c", "bills", "30-1", 9]
+  ],
+  "pubmax": "1976-10-12",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1974-09-30",
+  "label": "House of Commons Bills, 30th Parliament, 1st Session : C346-C445 / C1001-C1002 = Projets de loi de la Chambre des communes, 30e Législature, 1re Session : C346-C445 / C1001-C1002",
+  "language": ["eng", "fra"],
+  "session": ["30-1"]
+}

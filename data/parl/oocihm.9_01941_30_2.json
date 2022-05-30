@@ -1,0 +1,11 @@
+{
+  "pubmin": "1896-01-02",
+  "label": "Journaux de la Chambre des communes, 7e Législature, 6e Session : Vol. 30 App.",
+  "language": ["fra"],
+  "session": ["07-6"],
+  "type": "journals",
+  "node": [["fra", "c", "journals", "07-6", 2]],
+  "pubmax": "1896-04-23",
+  "primeMinisters": "Bowell, Mackenzie",
+  "chamber": ["c"]
+}

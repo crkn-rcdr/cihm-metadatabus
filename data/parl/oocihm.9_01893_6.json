@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "02-1", 1]],
+  "pubmax": "1873-08-13",
+  "type": "journals",
+  "session": ["02-1"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 2e Législature, 1re Session : Vol. 6",
+  "pubmin": "1873-03-05"
+}

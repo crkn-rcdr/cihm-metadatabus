@@ -1,0 +1,11 @@
+{
+  "label": "Documents parlementaires, 3e Législature, 2e Session : vol. 8",
+  "pubmin": "1875-02-04",
+  "session": ["03-2"],
+  "language": ["fra"],
+  "pubmax": "1875-04-08",
+  "node": [["fra", "c", "sessional", "03-2", 8]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander"
+}

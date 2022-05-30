@@ -1,0 +1,12 @@
+{
+  "session": ["16-2"],
+  "language": ["fra"],
+  "callNumber": "1928 R44 A4",
+  "label": "Comités de la Chambre des communes, 16e Législature, 2e Session : Comité permanent des relations industrielles, vol. 1",
+  "pubmin": "1928-01-26",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1928-06-11",
+  "node": [["fra", "c", "committees", "16-2", 5]],
+  "type": "committees"
+}

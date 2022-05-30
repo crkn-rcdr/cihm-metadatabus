@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Journals, 26th Parliament, 1st Session : Vol. 110",
+  "pubmin": "1963-05-16",
+  "session": ["26-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "26-1", 1]],
+  "pubmax": "1963-12-21",
+  "type": "journals",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"]
+}

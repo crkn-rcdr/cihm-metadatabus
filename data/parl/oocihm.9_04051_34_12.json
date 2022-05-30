@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["08-5"],
+  "pubmin": "1900-02-01",
+  "label": "Documents parlementaires, 8e Législature, 5e Session : vol. 13",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "type": "sessional",
+  "pubmax": "1900-07-18",
+  "node": [["fra", "c", "sessional", "08-5", 13]]
+}

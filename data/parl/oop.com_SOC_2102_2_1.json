@@ -1,0 +1,11 @@
+{
+  "type": "committees",
+  "node": [["eng", "s", "committees", "21-2", 2]],
+  "pubmax": "1950-06-30",
+  "chamber": ["s"],
+  "pubmin": "1950-02-16",
+  "label": "Senate Committees, 21st Parliament, 2nd Session : Special Committee on Human Rights and Fundamental Freedoms, vol. 1",
+  "callNumber": "1950 H83 A1",
+  "language": ["eng"],
+  "session": ["21-2"]
+}

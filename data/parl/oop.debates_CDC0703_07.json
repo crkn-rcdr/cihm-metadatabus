@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Thompson, John Sparrow David",
+  "type": "debates",
+  "pubmax": "1893-04-01",
+  "node": [["fra", "c", "debates", "07-3", 1]],
+  "language": ["fra"],
+  "session": ["07-3"],
+  "pubmin": "1893-01-26",
+  "label": "Débats de la Chambre des communes, 7e Législature, 3e Session : Vol. 1"
+}

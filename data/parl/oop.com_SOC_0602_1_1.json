@@ -1,0 +1,11 @@
+{
+  "pubmin": "1888-02-23",
+  "label": "Senate Committees, 6th Parliament, 2nd Session : Select Committee on Resources of the Great Mackenzie Basin, vol. 1",
+  "callNumber": "J103 H7 1888 M25 A12",
+  "language": ["eng"],
+  "session": ["06-2"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "06-2", 1]],
+  "pubmax": "1888-05-22",
+  "chamber": ["s"]
+}

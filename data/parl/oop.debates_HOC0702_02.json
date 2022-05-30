@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Abbott, John Joseph Caldwell",
+  "type": "debates",
+  "pubmax": "1892-07-09",
+  "node": [["eng", "c", "debates", "07-2", 2]],
+  "language": ["eng"],
+  "session": ["07-2"],
+  "pubmin": "1892-02-25",
+  "label": "House of Commons Debates, 7th Parliament, 2nd Session : Vol. 2"
+}

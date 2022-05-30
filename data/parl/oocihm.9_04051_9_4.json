@@ -1,0 +1,11 @@
+{
+  "label": "Documents parlementaires, 3e Législature, 3e Session : vol. 4",
+  "pubmin": "1876-02-10",
+  "session": ["03-3"],
+  "language": ["fra"],
+  "node": [["fra", "c", "sessional", "03-3", 4]],
+  "pubmax": "1876-04-12",
+  "type": "sessional",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"]
+}

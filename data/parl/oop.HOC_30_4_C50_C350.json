@@ -1,0 +1,14 @@
+{
+  "label": "House of Commons Bills, 30th Parliament, 4th Session : C50-C350 = Projets de loi de la Chambre des communes, 30e Législature, 4e Session : C50-C350",
+  "pubmin": "1978-10-11",
+  "session": ["30-4"],
+  "language": ["eng", "fra"],
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "c", "bills", "30-4", 3],
+    ["fra", "c", "bills", "30-4", 3]
+  ],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

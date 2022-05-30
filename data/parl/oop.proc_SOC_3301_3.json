@@ -1,0 +1,14 @@
+{
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "sproc", "33-1", 3],
+    ["fra", "s", "sproc", "33-1", 3]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "sproc",
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "Senate Minutes of Proceedings, 33rd Parliament, 1st Session : 116-159 = Procès-verbaux du Sénat, 33e Législature, 1re Session : 116-159",
+  "callNumber": "J103 H4 33-1 no. 116-159 c.2",
+  "pubmin": "1984-11-05"
+}

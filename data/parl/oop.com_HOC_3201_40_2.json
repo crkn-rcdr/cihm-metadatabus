@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 148],
+    ["fra", "c", "committees", "32-1", 52]
+  ],
+  "type": "committees",
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "1980/83 R4 A1 no.15-32",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Regional Development, vol. 2 no. 15-32 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité permanent de l'expansion économique régionale, vol. 2 no. 15-32",
+  "pubmin": "1980-04-14"
+}

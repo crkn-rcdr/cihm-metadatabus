@@ -1,0 +1,15 @@
+{
+  "label": "Comités mixtes, 22e Législature, 3e Session : Comité mixte chargé d'enquêter sur la peine capitale, les punitions corporelles et les loteries, vol. 1",
+  "callNumber": "1956 C31 A44",
+  "pubmin": "1956-01-10",
+  "session": ["22-3"],
+  "language": ["fra"],
+  "node": [
+    ["fra", "c", "committees", "22-3", 7],
+    ["fra", "s", "committees", "22-3", 2]
+  ],
+  "pubmax": "1956-08-14",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c", "s"]
+}

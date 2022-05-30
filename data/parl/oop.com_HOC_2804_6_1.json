@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "28-4", 8],
+    ["fra", "c", "committees", "28-4", 17]
+  ],
+  "pubmax": "1972-09-01",
+  "type": "committees",
+  "session": ["28-4"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Health, Welfare and Social Affairs, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent de la santé, du bien-être social et des affaires sociales, vol. 1",
+  "callNumber": "1972 H4 A1",
+  "pubmin": "1972-02-17"
+}

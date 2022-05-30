@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "03-2", 1]],
+  "pubmax": "1875-04-08",
+  "type": "journals",
+  "session": ["03-2"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 3e Législature, 2e Session : Vol. 9",
+  "pubmin": "1875-02-04"
+}

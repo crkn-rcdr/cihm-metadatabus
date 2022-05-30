@@ -1,0 +1,14 @@
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 B3 A1 no.58-65",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, vol. 4 no. 58-65 = Comités du Sénat, 34e Législature, 2e Session : Comité permanent des banques et du commerce, vol. 4 no. 58-65",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "s", "committees", "34-2", 7],
+    ["fra", "s", "committees", "34-2", 18]
+  ],
+  "chamber": ["s"]
+}

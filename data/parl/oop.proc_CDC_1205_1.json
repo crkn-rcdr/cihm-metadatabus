@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "cproc",
+  "pubmax": "1915-04-15",
+  "node": [["fra", "c", "cproc", "12-5", 1]],
+  "language": ["fra"],
+  "session": ["12-5"],
+  "pubmin": "1915-02-04",
+  "callNumber": "J103 H44 1915",
+  "label": "Procès-verbaux de la Chambre des communes, 12e Législature, 5e Session : 1-51"
+}

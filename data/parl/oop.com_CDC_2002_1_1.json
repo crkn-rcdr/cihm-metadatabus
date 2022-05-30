@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "20-2", 3]],
+  "pubmax": "1946-08-31",
+  "type": "committees",
+  "session": ["20-2"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 20e Législature, 2e Session : Comité permanent des affaires extérieures, vol. 1",
+  "callNumber": "1946 A25 A1",
+  "pubmin": "1946-03-14"
+}

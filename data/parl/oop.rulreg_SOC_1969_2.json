@@ -1,0 +1,14 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1970-10-07",
+  "node": [
+    ["eng", "s", "rules", null, 16],
+    ["fra", "s", "rules", null, 16]
+  ],
+  "type": "rules",
+  "session": ["28-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "JL158.3 1969 Dec",
+  "label": "Rules of the Senate of Canada, December 1969 = Règlement du Sénat du Canada, décembre 1969",
+  "pubmin": "1969-10-23"
+}

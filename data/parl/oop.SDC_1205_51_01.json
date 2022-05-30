@@ -1,0 +1,10 @@
+{
+  "label": "Journaux du Sénat, 12e Législature, 5e Session : Vol. 51",
+  "pubmin": "1915-02-04",
+  "session": ["12-5"],
+  "language": ["fra"],
+  "pubmax": "1915-04-15",
+  "node": [["fra", "s", "journals", "12-5", 1]],
+  "type": "journals",
+  "chamber": ["s"]
+}

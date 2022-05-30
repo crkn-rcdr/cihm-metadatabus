@@ -1,0 +1,14 @@
+{
+  "session": ["32-1"],
+  "language": ["eng", "fra"],
+  "label": "Senate Minutes of Proceedings, 32nd Parliament, 1st Session : 78-101 = Procès-verbaux du Sénat, 32e Législature, 1re Session : 78-101",
+  "callNumber": "J103 H4 1980/83 no. 78-101 c.2",
+  "pubmin": "1980-04-14",
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "sproc", "32-1", 3],
+    ["fra", "s", "sproc", "32-1", 3]
+  ],
+  "pubmax": "1983-11-30",
+  "type": "sproc"
+}

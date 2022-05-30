@@ -1,0 +1,10 @@
+{
+  "session": ["33-1"],
+  "language": ["eng"],
+  "label": "Senate Debates, 33rd Parliament, 1st Session : Vol. 2",
+  "pubmin": "1984-11-05",
+  "chamber": ["s"],
+  "pubmax": "1986-08-28",
+  "node": [["eng", "s", "debates", "33-1", 2]],
+  "type": "debates"
+}

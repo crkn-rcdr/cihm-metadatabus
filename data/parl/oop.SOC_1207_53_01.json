@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "12-7", 1]],
+  "pubmax": "1917-09-20",
+  "language": ["eng"],
+  "session": ["12-7"],
+  "pubmin": "1917-01-18",
+  "label": "Senate Journals, 12th Parliament, 7th Session : Vol. 53"
+}

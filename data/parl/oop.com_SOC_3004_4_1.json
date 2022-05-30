@@ -1,0 +1,14 @@
+{
+  "session": ["30-4"],
+  "language": ["eng", "fra"],
+  "callNumber": "1978/79 C65 A1",
+  "label": "Senate Committees, 30th Parliament, 4th Session : Special Committee on the Constitution, vol. 1 = Comités du Sénat, 30e Législature, 4e Session : Comité spécial sur la Constitution, vol. 1",
+  "pubmin": "1978-10-11",
+  "chamber": ["s"],
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "s", "committees", "30-4", 5],
+    ["fra", "s", "committees", "30-4", 7]
+  ],
+  "type": "committees"
+}

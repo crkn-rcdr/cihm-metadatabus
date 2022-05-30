@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["fra", "c", "journals", "12-7", 1]],
+  "pubmax": "1917-09-20",
+  "language": ["fra"],
+  "session": ["12-7"],
+  "pubmin": "1917-01-18",
+  "label": "Journaux de la Chambre des communes, 12e Législature, 7e Session : Vol. 53"
+}

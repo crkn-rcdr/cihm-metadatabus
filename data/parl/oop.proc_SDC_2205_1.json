@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["22-5"],
+  "pubmin": "1957-01-08",
+  "label": "Procès-verbaux du Sénat, 22e Législature, 5e Session : 1-46",
+  "callNumber": "J103 H43 1957",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "22-5", 1]],
+  "pubmax": "1957-04-12"
+}

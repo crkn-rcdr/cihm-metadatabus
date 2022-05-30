@@ -1,0 +1,14 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "journals",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "journals", "33-2", 3],
+    ["fra", "c", "journals", "33-2", 3]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Journals, 33rd Parliament, 2nd Session : Vol. 129 Pt. 3 = Journaux de la Chambre des communes, 33e Législature, 2e Session : Vol. 129 Pt. 3"
+}

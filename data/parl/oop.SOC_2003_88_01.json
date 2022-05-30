@@ -1,0 +1,10 @@
+{
+  "label": "Senate Journals, 20th Parliament, 3rd Session : Vol. 88",
+  "pubmin": "1947-01-30",
+  "session": ["20-3"],
+  "language": ["eng"],
+  "node": [["eng", "s", "journals", "20-3", 1]],
+  "pubmax": "1947-07-17",
+  "type": "journals",
+  "chamber": ["s"]
+}

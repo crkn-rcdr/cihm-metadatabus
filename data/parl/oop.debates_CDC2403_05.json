@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["24-3"],
+  "pubmin": "1960-01-14",
+  "label": "Débats de la Chambre des communes, 24e Législature, 3e Session : Vol. 5",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "type": "debates",
+  "pubmax": "1960-08-10",
+  "node": [["fra", "c", "debates", "24-3", 5]]
+}

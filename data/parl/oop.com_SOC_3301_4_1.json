@@ -1,0 +1,14 @@
+{
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-1 E56 A1 no.1-16",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Energy and Natural Resources, vol. 1 no. 1-16 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent de l'énergie et des ressources naturelles, vol. 1 no. 1-16",
+  "pubmin": "1984-11-05",
+  "chamber": ["s"],
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "s", "committees", "33-1", 15],
+    ["fra", "s", "committees", "33-1", 18]
+  ],
+  "type": "committees"
+}

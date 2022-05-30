@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1963-12-21",
+  "node": [["eng", "c", "debates", "26-1", 7]],
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "pubmin": "1963-05-16",
+  "label": "House of Commons Debates, 26th Parliament, 1st Session : Index",
+  "language": ["eng"],
+  "session": ["26-1"]
+}

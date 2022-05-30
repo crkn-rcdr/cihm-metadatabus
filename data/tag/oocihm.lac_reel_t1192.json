@@ -1,0 +1,56 @@
+{
+  "492": {
+    "tagDescription": [
+      "Commercial relations with Portugal -Anglo-Portuguese Commercial Treaty"
+    ],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "1547": {
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"],
+    "tagDescription": ["United States Consular Appointments"]
+  },
+  "675": { "tagDescription": ["Missing / Manque"] },
+  "253": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Mexico - Consular Appointment"]
+  },
+  "679": { "tagDescription": ["Missing / Manque"] },
+  "678": { "tagDescription": ["Missing / Manque"] },
+  "487": { "tagDescription": ["Missing / Manque"] },
+  "673": { "tagDescription": ["Missing / Manque"] },
+  "250": { "tagDescription": ["Missing / Manque"] },
+  "1343": {
+    "tagDate": ["[1869-01-01T00:00:00.000Z TO 1870-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "United States Consular appointments in the British North American Provinces"
+    ]
+  },
+  "677": { "tagDescription": ["Missing / Manque"] },
+  "488": { "tagDescription": ["Missing / Manque"] },
+  "486": { "tagDescription": ["Missing / Manque"] },
+  "22": {
+    "tagDate": ["1912-01-01T00:00:00.000Z"],
+    "tagDescription": ["Parliamentary papers"]
+  },
+  "681": {
+    "tagDate": ["[1861-01-01T00:00:00.000Z TO 1868-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "United States Consular appointments in the British North American Provinces"
+    ]
+  },
+  "251": { "tagDescription": ["Missing / Manque"] },
+  "674": { "tagDescription": ["Missing / Manque"] },
+  "676": { "tagDescription": ["Missing / Manque"] },
+  "1187": {
+    "tagDate": ["[1870-01-01T00:00:00.000Z TO 1872-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "United States Consular appointments in the British North American Provinces"
+    ]
+  },
+  "241": {
+    "tagDate": ["1910-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Allowance to be paid by Colonial Officers as members of Messes of units of Imperial Forces"
+    ]
+  }
+}

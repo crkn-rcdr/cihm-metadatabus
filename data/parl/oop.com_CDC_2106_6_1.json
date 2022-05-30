@@ -1,0 +1,12 @@
+{
+  "session": ["21-6"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 21e Législature, 6e Session : Comité sessionnel des chemins de fer et de la marine marchande que l'État possède, exploite et contrôle, vol. 1",
+  "callNumber": "1952 C44 A4",
+  "pubmin": "1952-02-28",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "21-6", 6]],
+  "pubmax": "1952-11-20",
+  "type": "committees"
+}

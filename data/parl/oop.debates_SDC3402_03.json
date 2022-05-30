@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "34-2", 3]],
+  "pubmax": "1991-05-12",
+  "language": ["fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "Débats du Sénat, 34e Législature, 2e Session : Vol. 3"
+}

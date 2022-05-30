@@ -1,0 +1,70 @@
+{
+  "684": { "tagDescription": ["Missing / Manque"] },
+  "686": { "tagDescription": ["Missing / Manque"] },
+  "7": {
+    "tagDescription": ["Flag treaty between Spain and United States"],
+    "tagDate": ["[1883-01-01T00:00:00.000Z TO 1885-12-31T23:59:59.999Z]"]
+  },
+  "408": {
+    "tagDescription": [
+      "Canadian Tariff on Woollen Goods. New Canadian Customs Tariff 1879"
+    ],
+    "tagDate": ["[1879-01-01T00:00:00.000Z TO 1880-12-31T23:59:59.999Z]"]
+  },
+  "1800": {
+    "tagDescription": [
+      "Case of Atalaya owned by J.H. Bogart, United States citizen. Detained at Quebec of suspected of carrying arms and ammunition to Cuban insurgents contrary to terms of Foreign Enlistment Act"
+    ],
+    "tagDate": ["[1880-01-01T00:00:00.000Z TO 1881-12-31T23:59:59.999Z]"]
+  },
+  "336": {
+    "tagDate": ["[1859-01-01T00:00:00.000Z TO 1861-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Reciprocity of trade between the North American Provinces"
+    ]
+  },
+  "382": {
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1875-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Canadian Zouave Military Uniform"]
+  },
+  "668": {
+    "tagDate": ["1874-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Appointment of General Sir Selby Smyth to command the Canadian Militia"
+    ]
+  },
+  "739": {
+    "tagDescription": ["Mr. Sandford Flemings projected Pacific cable"],
+    "tagDate": ["[1880-01-01T00:00:00.000Z TO 1882-12-31T23:59:59.999Z]"],
+    "tagName": ["Fleming's, Sandford Mr."]
+  },
+  "814": {
+    "tagDate": ["1880-01-01T00:00:00.000Z"],
+    "tagDescription": ["Irish Relief Fund"]
+  },
+  "1374": {
+    "tagDate": ["1880-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Case of Atalaya Seized at Quebec suspected of carrying arms and ammunition to Cuban Insurgents"
+    ]
+  },
+  "685": { "tagDescription": ["Missing / Manque"] },
+  "688": {
+    "tagDescription": [
+      "Allowance to Naval and Military Officers in Lieu of remission of customs duties"
+    ],
+    "tagDate": ["[1874-01-01T00:00:00.000Z TO 1886-12-31T23:59:59.999Z]"]
+  },
+  "131": {
+    "tagDate": ["[1862-01-01T00:00:00.000Z TO 1880-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Correspondence with Colonial Office Sir A. Galts Mission, etc Canadian a built ships to France"
+    ]
+  },
+  "863": {
+    "tagDescription": [
+      "Case of Atalaya Seized at Quebec suspected of carrying arms and ammunition to Cuban Insurgents"
+    ],
+    "tagDate": ["[1880-01-01T00:00:00.000Z TO 1883-12-31T23:59:59.999Z]"]
+  }
+}

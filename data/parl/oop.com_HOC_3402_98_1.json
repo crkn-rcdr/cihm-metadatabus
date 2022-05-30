@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 174],
+    ["fra", "c", "committees", "34-2", 24]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 S82 A1",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Special Committee on Subject Matter of Bill C-80 (Firearms), vol. 1 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité spécial sur l'objet du projet de loi C-80 (armes à feu), vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["34-2"]
+}

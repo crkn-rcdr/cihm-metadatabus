@@ -1,0 +1,11 @@
+{
+  "pubmin": "1911-11-15",
+  "label": "House of Commons Journals, 12th Parliament, 1st Session : Vol. 47 App. 1",
+  "language": ["eng"],
+  "session": ["12-1"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "12-1", 2]],
+  "pubmax": "1912-04-01",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

@@ -1,0 +1,12 @@
+{
+  "callNumber": "1980/83 G32 A122",
+  "label": "Comités du Sénat, 32e Législature, 1re Session : Comité spécial sur le pipe-line du Nord, Troisième rapport",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "reportTitle": ["La récupération améliorée du pétrole au Canada"],
+  "language": ["fra"],
+  "pubmax": "1983-11-30",
+  "node": [["fra", "s", "committees", "32-1", 39]],
+  "type": "committees",
+  "chamber": ["s"]
+}

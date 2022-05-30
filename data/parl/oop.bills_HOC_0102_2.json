@@ -1,0 +1,12 @@
+{
+  "node": [["eng", "c", "bills", "01-2", 2]],
+  "pubmax": "1869-06-22",
+  "type": "bills",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "label": "House of Commons Bills, 1st Parliament, 2nd Session : 17-117",
+  "callNumber": "KE72 C36 1-2 no.17-117",
+  "pubmin": "1869-04-15",
+  "session": ["01-2"],
+  "language": ["eng"]
+}

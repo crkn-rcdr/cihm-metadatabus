@@ -1,0 +1,11 @@
+{
+  "pubmin": "1991-05-13",
+  "label": "Débats de la Chambre des communes, 34e Législature, 3e Session : Vol. 10",
+  "language": ["fra"],
+  "session": ["34-3"],
+  "type": "debates",
+  "pubmax": "1993-09-08",
+  "node": [["fra", "c", "debates", "34-3", 10]],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

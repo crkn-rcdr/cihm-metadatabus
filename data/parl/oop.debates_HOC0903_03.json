@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1903-10-24",
+  "node": [["eng", "c", "debates", "09-3", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "pubmin": "1903-03-12",
+  "label": "House of Commons Debates, 9th Parliament, 3rd Session : Vol. 3",
+  "language": ["eng"],
+  "session": ["09-3"]
+}

@@ -1,0 +1,12 @@
+{
+  "pubmin": "1909-01-20",
+  "callNumber": "1909 M3 A1",
+  "label": "House of Commons Committees, 11th Parliament, 1st Session : Select Standing Committee on Marine and Fisheries, vol. 1",
+  "language": ["eng"],
+  "session": ["11-1"],
+  "type": "committees",
+  "pubmax": "1909-05-19",
+  "node": [["eng", "c", "committees", "11-1", 4]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["26-2"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 26e Législature, 2e Session : Vol. 4",
+  "pubmin": "1964-02-18",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "pubmax": "1965-04-03",
+  "node": [["fra", "c", "debates", "26-2", 4]],
+  "type": "debates"
+}

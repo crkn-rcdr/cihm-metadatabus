@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "cproc",
+  "node": [["fra", "c", "cproc", "19-6", 1]],
+  "pubmax": "1945-04-16",
+  "language": ["fra"],
+  "session": ["19-6"],
+  "pubmin": "1945-03-19",
+  "label": "Procès-verbaux de la Chambre des communes, 19e Législature, 6e Session : 1-19",
+  "callNumber": "J103 H44 1945"
+}

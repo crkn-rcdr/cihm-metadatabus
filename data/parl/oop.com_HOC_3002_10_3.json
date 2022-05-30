@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["30-2"],
+  "pubmin": "1976-10-12",
+  "label": "House of Commons Committees, 30th Parliament, 2nd Session : Standing Committee on Labour, Manpower and Immigration, vol. 3 no. 35-52 = Comités de la Chambre des communes, 30e Législature, 2e Session : Comité permanent du travail, de la main-d'oeuvre et de l'immigration, vol. 3 no. 35-52",
+  "callNumber": "1976/77 L2 A1 v.3",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "30-2", 21],
+    ["fra", "c", "committees", "30-2", 40]
+  ],
+  "pubmax": "1977-10-17"
+}

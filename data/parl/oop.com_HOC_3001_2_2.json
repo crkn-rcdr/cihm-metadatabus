@@ -1,0 +1,15 @@
+{
+  "node": [
+    ["eng", "c", "committees", "30-1", 5],
+    ["fra", "c", "committees", "30-1", 40]
+  ],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Standing Committee on Broadcasting, Films and Assistance to the Arts, vol. 2 no. 34-56 = Comités de la Chambre des communes, 30e Législature, 1re Session : Comité permanent de la radiodiffusion, des films et de l'assistance aux arts, vol. 2 no. 34-56",
+  "callNumber": "1974/76 B7 A1 v.2",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["eng", "fra"]
+}

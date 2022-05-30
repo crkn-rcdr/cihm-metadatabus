@@ -1,0 +1,1763 @@
+{
+  "7": {
+    "tagDate": ["1910-03-05T00:00:00.000Z"],
+    "tagDescription": ["Austria Hungary Consulate (R.)"],
+    "tagName": ["Hann, A. de"]
+  },
+  "919": {
+    "tagDate": ["1910-03-27T00:00:00.000Z"],
+    "tagDescription": ["Public Works"],
+    "tagName": ["St. Genevieve Liberals"]
+  },
+  "236": {
+    "tagDate": ["1910-03-10T00:00:00.000Z"],
+    "tagDescription": ["(R.)"],
+    "tagName": ["Moore, W. H."]
+  },
+  "913": {
+    "tagDate": ["1910-03-27T00:00:00.000Z"],
+    "tagDescription": ["Canada - U.S. relations (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bryce, James"]
+  },
+  "531": {
+    "tagName": ["Martineau, P.G."],
+    "tagDate": ["1910-03-17T00:00:00.000Z"]
+  },
+  "159": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Barsalou, M."],
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Increase in salary (R.)"]
+  },
+  "788": {
+    "tagName": ["Pugsley, William"],
+    "tagDescription": ["Steamship subsidy (Encl.) (R.)"],
+    "tagDate": ["1910-03-23T00:00:00.000Z"]
+  },
+  "495": {
+    "tagName": ["Gibbons, George C. Sir"],
+    "tagDescription": ["International Waterways Commission (R.)"],
+    "tagDate": ["1910-03-16T00:00:00.000Z"]
+  },
+  "781": {
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["Customs House, Quebec"],
+    "tagName": ["Limieux, Rodolphe"]
+  },
+  "124": {
+    "tagName": ["Simard, G.A."],
+    "tagDescription": ["Laprairie road (R.)"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"]
+  },
+  "36": {
+    "tagDescription": ["Senatorship (R.)"],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagName": ["Alexander, J.L. Rev."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "95": {
+    "tagName": ["Dupuis, Auguste"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Appointment - Marine bill (R.)"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"]
+  },
+  "347": {
+    "tagName": ["Fitzpatrick, Charles"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDate": ["1910-03-12T00:00:00.000Z"]
+  },
+  "217": {
+    "tagName": ["McCraney, George E."],
+    "tagDate": ["1910-03-10T00:00:00.000Z"],
+    "tagDescription": ["Judgeship"]
+  },
+  "60": {
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagDescription": ["Flood relief"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Austin, C."]
+  },
+  "503": {
+    "tagName": ["Lavergne, L."],
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagDescription": ["Railway subsidies (R.)"]
+  },
+  "801": {
+    "tagName": ["Stuart, D.W."],
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["New Brunswick politics (Encl.) (R.)"]
+  },
+  "1021": {
+    "tagName": ["Maiorana, F."],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagDescription": ["(R.)"]
+  },
+  "459": {
+    "tagDescription": ["Canada and Gulf Terminal Railway (Encls.)"],
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagName": ["O'Brien, M.J."]
+  },
+  "1173": {
+    "tagDescription": ["Trades Union bill (R.)", "Trades union bill (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagName": [
+      "United Brotherhood of Carpenters",
+      "Joiners of America",
+      "Brotherhood of Carpenters"
+    ],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "842": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Boyd, T.H. Rev."],
+    "tagDate": ["1910-03-24T00:00:00.000Z"],
+    "tagDescription": ["Tuberculosis (Encl.) (R.)"]
+  },
+  "1187": {
+    "tagDescription": ["Welland Canal (R.)"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagName": ["Field, H."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "354": {
+    "tagName": ["Boyle, Wm."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Canadian Navy Trade relations with U.S. (R.)"],
+    "tagDate": ["1910-03-12T00:00:00.000Z"]
+  },
+  "787": {
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["Trade with Germany", "Code telegram"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bryce, James"]
+  },
+  "356": {
+    "tagName": ["Reford, Robert"],
+    "tagDate": ["1910-03-12T00:00:00.000Z"],
+    "tagDescription": ["Bristol college initiation (R.)"]
+  },
+  "18": {
+    "tagName": ["Farmer, S.J. Rev."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Gambling (R.)"],
+    "tagDate": ["1910-03-06T00:00:00.000Z"]
+  },
+  "1142": {
+    "tagName": ["Newnham, H."],
+    "tagDescription": ["Tariff on cut stone (Encl.) (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "1064": {
+    "tagDescription": ["Gift"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagName": ["Seguin, P.A."]
+  },
+  "211": {
+    "tagName": ["Carpet Weavers Assn. of Peterborough. Ont."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Trades Union bill (R.)"],
+    "tagDate": ["1910-03-10T00:00:00.000Z"]
+  },
+  "171": {
+    "tagDescription": ["Introduction to Cardinal Merry del Val"],
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagName": ["Harding, R.J."]
+  },
+  "565": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Campbell, Archibald"],
+    "tagDate": ["1910-03-18T00:00:00.000Z"],
+    "tagDescription": ["Central Railway Co."]
+  },
+  "694": {
+    "tagName": ["McDougall, John Rev."],
+    "tagDescription": ["Pioneers of Rupert's Land Claim (Encls.)"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"]
+  },
+  "84": {
+    "tagName": ["Paré, M."],
+    "tagDescription": ["Naval policy (R.)"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"]
+  },
+  "641": {
+    "tagDescription": ["Judicial Appointment"],
+    "tagDate": ["1910-03-20T00:00:00.000Z"],
+    "tagName": ["Turgeon, Adelard"]
+  },
+  "1209": {
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagDescription": ["Judgeship (R.)"],
+    "tagName": ["Poulin, Claude Rev."]
+  },
+  "1016": {
+    "tagName": ["Tailors' Union of America, Journeymen"],
+    "tagDescription": ["Trades union bill (R.)"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"]
+  },
+  "348": {
+    "tagDate": ["1910-03-12T00:00:00.000Z"],
+    "tagDescription": ["Japanese in B.C."],
+    "tagName": ["Japan, Consul-General of"]
+  },
+  "867": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fallon, M. P. Rt. Rev. Bishop of London"],
+    "tagDate": ["1910-03-25T00:00:00.000Z"],
+    "tagDescription": ["Invitation to consecration"]
+  },
+  "477": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dougall, J.R."],
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": ["Battlefields Commision (R.)"]
+  },
+  "960": {
+    "tagName": ["Taylor, L.D."],
+    "tagDescription": ["Graft in Post Office contract, Vancouver"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"]
+  },
+  "424": {
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Naval policy (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Coupal, M."]
+  },
+  "1129": {
+    "tagName": ["United Brotherhood of Carpenters", "Joiners of America"],
+    "tagDescription": ["Trades Union bill (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "537": {
+    "tagDescription": ["Veterans land grants (R.)"],
+    "tagDate": ["1910-03-17T00:00:00.000Z"],
+    "tagName": ["Davidson, J."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "1117": {
+    "tagName": ["Twin City Trades & Labour Council"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagDescription": ["Trades Union bill (R.)"]
+  },
+  "718": {
+    "tagName": ["Nesbitt, E.W."],
+    "tagDate": ["1910-03-22T00:00:00.000Z"],
+    "tagDescription": ["Duty on coal"]
+  },
+  "426": {
+    "tagName": ["Laurier, Raoul"],
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": ["Marriage, money"]
+  },
+  "280": {
+    "tagName": ["Marine & Fisheries Dept."],
+    "tagDescription": ["Lightkeepers' pensions (Encls.)"],
+    "tagDate": ["1910-03-11T00:00:00.000Z"]
+  },
+  "474": {
+    "tagName": ["Lawler, J."],
+    "tagDescription": ["Canadian Forestry Assn.- Resolutions (Encl.) (R.)"],
+    "tagDate": ["1910-03-15T00:00:00.000Z"]
+  },
+  "1223": {
+    "tagDescription": ["Trades Union bill (R.)"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagName": ["United Mine Workers of America"]
+  },
+  "800": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["Female admirer"]
+  },
+  "866": {
+    "tagDate": ["1910-03-25T00:00:00.000Z"],
+    "tagName": ["Gear, William I."]
+  },
+  "907": {
+    "tagDate": ["1910-03-27T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Ford, G."]
+  },
+  "128": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Brown, J.F."],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["Judgeship (R.)"]
+  },
+  "445": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fraser, C.G."],
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": ["Appt. Tech. Education (Encls.) (R.)"]
+  },
+  "1163": {
+    "tagName": ["Piano Organ and Musical Instrument Workers"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagDescription": ["Trades union bill (R.)"]
+  },
+  "238": {
+    "tagDate": ["1910-03-10T00:00:00.000Z"],
+    "tagDescription": ["Government accomodation London (R.)"],
+    "tagName": ["Perks, Robert W. Sir"]
+  },
+  "967": {
+    "tagName": ["Keenleyside, T.C."],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Canada-U.S. relations (Encl.)"]
+  },
+  "209": {
+    "tagDescription": ["Anti-trust legislation (R.)"],
+    "tagDate": ["1910-03-10T00:00:00.000Z"],
+    "tagName": ["Caron, E."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "806": {
+    "tagDescription": ["Medical Act (R.)"],
+    "tagDate": ["1910-03-02T00:00:00.000Z"],
+    "tagName": ["Roddick, T. G. Dr."]
+  },
+  "470": {
+    "tagName": ["McCarthy, Leighton G."],
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": ["Long Sault Rapids water power (Encl.) (R.)"]
+  },
+  "714": {
+    "tagName": ["Garneau, J. Georges"],
+    "tagDescription": ["National Battlefields"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"]
+  },
+  "961": {
+    "tagDescription": ["St. John Ambulance Assn. (Encl.) (R.)"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagName": ["Cook, Fred"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "819": {
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["Australia steamship service (Encl.)"],
+    "tagName": ["O'Hara, F.C.T."]
+  },
+  "145": {
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Judgeship (R.)"],
+    "tagName": ["Goulet, A."]
+  },
+  "428": {
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": [
+      "Reply to interview of Lay Laurier re titles and votes for women (Encl.)"
+    ],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "716": {
+    "tagDescription": ["International Waterways Commission (R.)"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagName": ["Gibbons, George C. Sir"]
+  },
+  "1112": {
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagDescription": ["Trades Union bill (R.)"],
+    "tagName": ["Trades & Labour congress"]
+  },
+  "214": {
+    "tagDate": ["1910-03-10T00:00:00.000Z"],
+    "tagDescription": ["Manitoba Boundary (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dafoe, J.W."]
+  },
+  "587": {
+    "tagName": ["Latulippe, E. A."],
+    "tagDate": ["1910-03-18T00:00:00.000Z"],
+    "tagDescription": ["Senatorship, a French-Canadian Judgeship (R.)"]
+  },
+  "89": {
+    "tagDescription": ["Dismissal by Times"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagName": ["Cook, Fred"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "644": {
+    "tagName": ["Limieux, Rodolphe"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Mail service, Magdalene Islands"]
+  },
+  "13": {
+    "tagDescription": ["Phoenix Insurance Co. bill"],
+    "tagDate": ["1910-03-05T00:00:00.000Z"],
+    "tagName": ["Macdonald, E.M."]
+  },
+  "1046": {
+    "tagDescription": ["(R.)"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagName": ["Fiset, Eugene Col."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "646": {
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Promotion of judges (Encl.) (R.)"],
+    "tagName": ["White, S."]
+  },
+  "1182": {
+    "tagName": ["Matte, A.", "others"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagDescription": ["Judgeship (R.)"]
+  },
+  "651": {
+    "tagName": ["Halifax Board of Trade"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Newfoundland regulations (R.)"]
+  },
+  "1167": {
+    "tagName": ["Moose Jaw Trades & Labour Council"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagDescription": ["Trades union bill (R.)"]
+  },
+  "358": {
+    "tagName": ["Ridell, W. R."],
+    "tagDescription": ["Canada-U.S. relations"],
+    "tagDate": ["1910-03-12T00:00:00.000Z"]
+  },
+  "909": {
+    "tagName": ["Todd, W. W."],
+    "tagDate": ["1910-03-27T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity (Encls.) (R.)"]
+  },
+  "1176": {
+    "tagName": ["Others", "Parent, Charles A."],
+    "tagDescription": ["Judgeship (R.)"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"]
+  },
+  "102": {
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["North Atlantic coast fisheries arbitration"],
+    "tagName": ["Pope, Sir Joseph"]
+  },
+  "377": {
+    "tagName": ["Pope, R.H."],
+    "tagDescription": ["Grazing lease and coal lands in Alberta"],
+    "tagDate": ["1910-03-14T00:00:00.000Z"]
+  },
+  "1077": {
+    "tagName": ["O'Hara, F.C.T."],
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagDescription": ["Steamship subsidy (Encl.)"]
+  },
+  "903": {
+    "tagName": ["Halifax Trades and Labour Council"],
+    "tagDescription": ["International Trades union officers (R.)"],
+    "tagDate": ["1910-03-26T00:00:00.000Z"]
+  },
+  "592": {
+    "tagName": ["Chauret, J. A."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Quebec politics & public works (Encl.) (R.)"],
+    "tagDate": ["1910-03-18T00:00:00.000Z"]
+  },
+  "55": {
+    "tagName": ["Forest, Z."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Caisse populaire (Encl.)(R.)"],
+    "tagDate": ["1910-03-07T00:00:00.000Z"]
+  },
+  "1128": {
+    "tagName": ["Girard, Jos."],
+    "tagDescription": ["Public Works (Encl.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "1094": {
+    "tagName": ["Whitney, J. P."],
+    "tagDescription": ["Railways (R.) (Encl.)"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"]
+  },
+  "242": {
+    "tagName": ["Major, C. B."],
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagDescription": ["Labelle Co. politics"]
+  },
+  "1190": {
+    "tagDescription": ["Judgeship (R.)"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagName": ["Others", "Deguire, J.C.W."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "353": {
+    "tagDescription": ["To Chicago- Business of Ry. Dept."],
+    "tagDate": ["1910-03-12T00:00:00.000Z"],
+    "tagName": ["Graham, G.P."]
+  },
+  "1013": {
+    "tagDescription": ["Trades union bill (R.)"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagName": [
+      "Brotherhood of Painters, Decorators and Paperhangers of America"
+    ],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "519": {
+    "tagName": ["Laliberté, Napoleon"],
+    "tagDate": ["1910-03-17T00:00:00.000Z"],
+    "tagDescription": ["Yukon appointment"]
+  },
+  "931": {
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Judgeship (Encl.) (R.)"],
+    "tagName": ["Labrosse, L.P."]
+  },
+  "552": {
+    "tagName": ["Mulock, Wm."],
+    "tagDate": ["1910-03-18T00:00:00.000Z"],
+    "tagDescription": ["Newmarket Canal"]
+  },
+  "811": {
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["Legal case (Encl.) (R.)"],
+    "tagName": ["Girard, Jos."]
+  },
+  "513": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagDescription": ["Naval policy"]
+  },
+  "1073": {
+    "tagDescription": ["Trades union bill (R.)"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagName": ["Kingston Barbers' of Trade"]
+  },
+  "830": {
+    "tagDescription": ["Hudson's Bay (Encl.) (R.)"],
+    "tagDate": ["1910-03-24T00:00:00.000Z"],
+    "tagName": ["Harvey, C.T."]
+  },
+  "655": {
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Annuities (Encl.) (R.)"],
+    "tagName": ["Government Annuities Branch"]
+  },
+  "905": {
+    "tagName": ["Bruyere, J."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Supreme Court judgeship (R.)"],
+    "tagDate": ["1910-03-27T00:00:00.000Z"]
+  },
+  "671": {
+    "tagDescription": ["Terrebonne Co."],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagName": ["Terrebonne, Liberal assn."]
+  },
+  "589": {
+    "tagName": ["Humberstone Board of Trade"],
+    "tagDate": ["1910-03-18T00:00:00.000Z"],
+    "tagDescription": ["Canal tolls (Encl.) (R.)"]
+  },
+  "402": {
+    "tagName": ["Letourneau, L."],
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Patronage"]
+  },
+  "922": {
+    "tagDescription": ["Maps of Canada"],
+    "tagDate": ["1910-03-27T00:00:00.000Z"],
+    "tagName": ["Pelletier, Pantaleon Hon. Dr."]
+  },
+  "1062": {
+    "tagDescription": ["Judgeship (R.)"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagName": ["George, W. K."]
+  },
+  "881": {
+    "tagDate": ["1910-03-26T00:00:00.000Z"],
+    "tagDescription": [
+      "International Congress for School Hygiene (Encls.) (R.)"
+    ],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Chapman, W. F."]
+  },
+  "1150": {
+    "tagDescription": ["Trades Union bill (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagName": ["United Garment Workers America"]
+  },
+  "888": {
+    "tagDescription": ["Judgeships (R.)"],
+    "tagDate": ["1910-03-26T00:00:00.000Z"],
+    "tagName": ["Longtin, Napoleon"]
+  },
+  "154": {
+    "tagName": ["McCullagh, G.F. Rev."],
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Race track gambling (R.)"]
+  },
+  "515": {
+    "tagDescription": ["Shawinigan and Winchester Club fees (R.)"],
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagName": ["Boyer, L.A."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "733": {
+    "tagDate": ["1910-03-22T00:00:00.000Z"],
+    "tagDescription": ["Tariffs - agricultural implements"],
+    "tagName": ["Harmer, R."]
+  },
+  "1002": {
+    "tagDescription": ["Judgeship (R.)"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagName": ["Racine, D."]
+  },
+  "1152": {
+    "tagName": ["Oliver, Frank"],
+    "tagDescription": ["Immigation (R. only)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "38": {
+    "tagDescription": ["(R.)"],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagName": ["Belgium, Consul-General"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "156": {
+    "tagName": ["Bradley, J."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Free transhipment at grain terminals (R.)"],
+    "tagDate": ["1910-03-09T00:00:00.000Z"]
+  },
+  "233": {
+    "tagName": ["Government Annuities Branch"],
+    "tagDescription": ["Annuities (Encl.) (R.)"],
+    "tagDate": ["1910-03-10T00:00:00.000Z"]
+  },
+  "40": {
+    "tagDescription": ["Old Age Pension (R.)"],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagName": ["Sobey, S."]
+  },
+  "92": {
+    "tagDescription": ["Invitation (R.)"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagName": ["British Empire Association of Illinois"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "682": {
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Canada - U.S. relations (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dusseau, L.V."]
+  },
+  "371": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bryce, George Dr."],
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Manitoba politics (R.)"]
+  },
+  "792": {
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["St. Lawrence Power Co. (R.)"],
+    "tagName": ["Whitney, G. M. Rev."]
+  },
+  "75": {
+    "tagDescription": ["International Waterways Commission"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagName": ["Montreal Board of Trade"]
+  },
+  "321": {
+    "tagName": ["Martineau, J.E."],
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagDescription": ["Purchase of rope by government (Encl.) (R.)"]
+  },
+  "785": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fleming, H.W."],
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["Lake Simcoe Canal (Encls.)"]
+  },
+  "822": {
+    "tagDescription": ["St. Lawrence River development (R.)"],
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagName": ["Canadian Manufacturers Assn."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "1153": {
+    "tagName": ["Suzor-Cote, M. Aurele"],
+    "tagDescription": ["Letter of introduction (Encl.) (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "837": {
+    "tagDate": ["1910-03-24T00:00:00.000Z"],
+    "tagDescription": ["Senatorship (R.)"],
+    "tagName": ["Shaughnessy, Thomas G. Sir"]
+  },
+  "444": {
+    "tagName": ["Fortier, Edmond"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Railway policy"],
+    "tagDate": ["1910-03-15T00:00:00.000Z"]
+  },
+  "349": {
+    "tagDate": ["1910-03-12T00:00:00.000Z"],
+    "tagName": ["Gouin, Lomer"]
+  },
+  "535": {
+    "tagDate": ["1910-03-17T00:00:00.000Z"],
+    "tagDescription": ["(R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Belgium, Consul-General"]
+  },
+  "173": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dominion Marine Association"],
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Canada - U.S. Relations (Encl.) (R.)"]
+  },
+  "451": {
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": ["Alberta coal mines (Encl.)"],
+    "tagName": ["Interior Dept."]
+  },
+  "507": {
+    "tagName": ["Heyer, A.E."],
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagDescription": ["Immigration (R.)"]
+  },
+  "9": {
+    "tagName": ["Montreal Chamber of Commerce"],
+    "tagDescription": ["Georgian Bay Canal (R.)"],
+    "tagDate": ["1910-03-05T00:00:00.000Z"]
+  },
+  "676": {
+    "tagName": ["Toronto Board of Trade"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Tariffs (Encls.) (R.)"]
+  },
+  "140": {
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": [
+      "Appointment of French Canadians to judgeships and senatorships (Encl.) (R.)"
+    ],
+    "tagName": ["Seguin, C.A."]
+  },
+  "809": {
+    "tagName": ["Shaw, W. H."],
+    "tagDescription": ["judgeship (R.)"],
+    "tagDate": ["1910-03-23T00:00:00.000Z"]
+  },
+  "760": {
+    "tagDescription": ["St. Lawrence River power development (Encls.) (R.)"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"],
+    "tagName": ["Macphail, Andrew Dr."]
+  },
+  "1007": {
+    "tagName": ["Winnipeg Conservative Club"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagDescription": ["Manitoba boundaries (Encl.) (R.)"]
+  },
+  "1157": {
+    "tagDescription": ["(R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagName": ["Regina North Side Liberal Club"]
+  },
+  "568": {
+    "tagName": ["Limieux, Rodolphe"],
+    "tagDescription": ["Museum in Montreal (Encls.) (R.)"],
+    "tagDate": ["1910-03-18T00:00:00.000Z"]
+  },
+  "632": {
+    "tagName": ["McBride, Richard Hon."],
+    "tagDescription": ["Dominion - Provincial conference (R.)"],
+    "tagDate": ["1910-03-19T00:00:00.000Z"]
+  },
+  "1106": {
+    "tagName": ["Boyer, L.A."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Winchester and Shawinigan Clubs (R.)"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"]
+  },
+  "501": {
+    "tagDescription": ["Frenc-Canadian appointments in Ontario (R.)"],
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagName": ["Lorrain, N.Z. Rev."]
+  },
+  "206": {
+    "tagName": ["Government Annuities Branch"],
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Appointment (R.)"]
+  },
+  "539": {
+    "tagName": ["Dods, A."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Free trade - reciprocity (R.)"],
+    "tagDate": ["1910-03-17T00:00:00.000Z"]
+  },
+  "345": {
+    "tagDescription": ["Interview (Encl.)"],
+    "tagDate": ["1910-03-12T00:00:00.000Z"],
+    "tagName": ["Turcotte, G.A."]
+  },
+  "332": {
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagDescription": ["Appointment"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Allan, Andrew A."]
+  },
+  "1184": {
+    "tagName": ["Lussier, Alfred E.", "others"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagDescription": ["judgeship (R.)"]
+  },
+  "1082": {
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagDescription": ["(R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["David, L.O."]
+  },
+  "715": {
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Navy Trade (R. only)"],
+    "tagName": ["Macphail, Andrew Dr."]
+  },
+  "376": {
+    "tagName": ["Letourneau, L."],
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["St. Charles River dredging"]
+  },
+  "1125": {
+    "tagDescription": ["Duty on leather (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagName": ["Galibert, P."]
+  },
+  "374": {
+    "tagName": ["Gibbons, George C. Sir"],
+    "tagDescription": ["International Waterways Commission"],
+    "tagDate": ["1910-03-14T00:00:00.000Z"]
+  },
+  "599": {
+    "tagName": ["Gibbons, George C. Sir"],
+    "tagDescription": ["International Waterways Commission (R.)"],
+    "tagDate": ["1910-03-18T00:00:00.000Z"]
+  },
+  "1198": {
+    "tagName": ["Wilder, J. H. (Stone Cutters' Union)"],
+    "tagDescription": ["Duty on cut stone (R.)"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"]
+  },
+  "619": {
+    "tagDescription": ["Voters Lists (R.)"],
+    "tagDate": ["1910-03-19T00:00:00.000Z"],
+    "tagName": ["Victoria Liberal Assn."]
+  },
+  "721": {
+    "tagName": ["Dore, A.C."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Naval policy (Encl.) (R.)"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"]
+  },
+  "1169": {
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagDescription": ["Trades Union bill (R.)"],
+    "tagName": ["United Mine Workers of America"]
+  },
+  "891": {
+    "tagDescription": ["International Fisheries (R.)"],
+    "tagDate": ["1910-03-26T00:00:00.000Z"],
+    "tagName": ["Prince, E.E. Prof."]
+  },
+  "840": {
+    "tagDate": ["1910-03-24T00:00:00.000Z"],
+    "tagDescription": ["Imperial Defence (R.)"],
+    "tagName": ["Taylor, Clement J."]
+  },
+  "1138": {
+    "tagName": ["Lamothe, Georges L."],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagDescription": ["(R.)"]
+  },
+  "422": {
+    "tagName": ["Bulyea, George H.V."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Alberta judicial commission"],
+    "tagDate": ["1910-03-14T00:00:00.000Z"]
+  },
+  "524": {
+    "tagDate": ["1910-03-17T00:00:00.000Z"],
+    "tagDescription": ["Delegation Newmarket Canal (Encl.) (R.)"],
+    "tagName": ["Mulock, Wm."]
+  },
+  "685": {
+    "tagName": ["Sabliere, C.R. de la"],
+    "tagDescription": ["U.S. tariffs (R.)"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"]
+  },
+  "1200": {
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagDescription": ["Judgeship"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Danis, D."]
+  },
+  "898": {
+    "tagDescription": ["Interviews"],
+    "tagDate": ["1910-03-26T00:00:00.000Z"],
+    "tagName": ["Begy, George, A."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "1109": {
+    "tagName": ["Moore, W. H."],
+    "tagDescription": ["Shipbuilding (Encl.) (R.)"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"]
+  },
+  "131": {
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["Reciprocity"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Canadian Manufacturers Assn."]
+  },
+  "163": {
+    "tagDescription": ["Naval policy (R.)"],
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagName": ["Henderson, Thomas E."]
+  },
+  "1217": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagDescription": ["Railway Mail Clerks"]
+  },
+  "465": {
+    "tagDescription": ["New mining regulations (R.)"],
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagName": ["Lindsey, G.G.S."]
+  },
+  "414": {
+    "tagDescription": ["Dispute over a will"],
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagName": ["Austin, E.F."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "1120": {
+    "tagName": ["Hughes, Sam."],
+    "tagDescription": ["R.N.W.M.P. (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "249": {
+    "tagName": ["Levasseur, T."],
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagDescription": ["Appointment, Quebec harbour Commission"]
+  },
+  "1122": {
+    "tagDescription": ["Personal insurance (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagName": ["Garneau, C.R."]
+  },
+  "42": {
+    "tagName": ["Robertson, J. E."],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagDescription": ["Petition for fishing licenses (R.)"]
+  },
+  "666": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Clark, J.M."],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Naval question"]
+  },
+  "1131": {
+    "tagDescription": ["Trades Union bill (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagName": ["Victoria Trades & Labour Council"]
+  },
+  "73": {
+    "tagDescription": ["Andre Siegfried"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagName": ["Fabre, Hector (Canadian Commissioner in France)"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "664": {
+    "tagName": ["Quebec Harbour Commission"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Public works"]
+  },
+  "360": {
+    "tagDescription": ["Manitoba politics"],
+    "tagDate": ["1910-03-13T00:00:00.000Z"],
+    "tagName": ["Thorton, Robert S."]
+  },
+  "306": {
+    "tagDescription": ["Naval policy (Encl.)"],
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagName": ["Templeman, Wm."]
+  },
+  "486": {
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagDescription": ["English speaking Union (Encls.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Crowe, Harry J."]
+  },
+  "389": {
+    "tagName": ["Warburton, A. B."],
+    "tagDescription": ["St. Peters Island lighthouse (Encl.) (R.)"],
+    "tagDate": ["1910-03-14T00:00:00.000Z"]
+  },
+  "276": {
+    "tagDescription": ["Militia matter (Encl.) (R.)"],
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagName": ["Borden, Hon. F.W."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "732": {
+    "tagDescription": ["Anti-gambling law"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"],
+    "tagName": ["Hall, H.A."]
+  },
+  "990": {
+    "tagName": ["Gogo, G. I."],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Ontario judiciary (Encl.) (R.)"]
+  },
+  "941": {
+    "tagName": ["Stone Cutter's Association"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Tariff on cut stone (Encl.) (R.)"]
+  },
+  "165": {
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Halifax Graving Dock (Encl.) (R.)"],
+    "tagName": ["Strathcona, Lord (Smith, Sir Donald A.)"]
+  },
+  "274": {
+    "tagDescription": ["Gambling"],
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagName": ["Fitzgerald, William M. Ontario Orange Grand Lodge"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "873": {
+    "tagName": ["Glass Bottle Blowers' Assn.)"],
+    "tagDescription": ["Trades union bill (R.)"],
+    "tagDate": ["1910-03-26T00:00:00.000Z"]
+  },
+  "1048": {
+    "tagName": ["Toronto Board of Trade"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagDescription": ["St. Lawrence River dam (Encl.) (R.)"]
+  },
+  "227": {
+    "tagDescription": ["Alberta politics"],
+    "tagDate": ["1910-03-10T00:00:00.000Z"],
+    "tagName": ["Bulyea, George H.V."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "366": {
+    "tagDescription": ["Mail censorship (R.)"],
+    "tagDate": ["1910-03-13T00:00:00.000Z"],
+    "tagName": ["McQuarry, J.H."]
+  },
+  "1068": {
+    "tagName": ["Turgeon, Onesiphore"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagDescription": ["Quebec steamship service (R.)"]
+  },
+  "58": {
+    "tagDescription": ["Caisse Populaire (R.)"],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagName": ["Saint Pierre, J.O."]
+  },
+  "897": {
+    "tagDescription": ["Easter greetings"],
+    "tagDate": ["1910-03-26T00:00:00.000Z"],
+    "tagName": ["Sears, Edward"]
+  },
+  "1075": {
+    "tagName": ["Rattenbury, N."],
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagDescription": ["Lt.-Governorship- P.E.I. (R.)"]
+  },
+  "418": {
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Visit of Sir Ernest Shackleton (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Ely, R. E."]
+  },
+  "726": {
+    "tagDate": ["1903-03-22T00:00:00.000Z"],
+    "tagDescription": ["Visit (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Casey, George E."]
+  },
+  "635": {
+    "tagName": ["Levis Trades", "Labour Council", "Quebec"],
+    "tagDescription": ["Trades Union Bill (R.)"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"]
+  },
+  "724": {
+    "tagName": ["Thompson, A.T."],
+    "tagDescription": ["Standard Chemical Co. (Encl.)"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"]
+  },
+  "957": {
+    "tagName": ["MacGregor, D."],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Tariff on cut stone (Encl.) (R.)"]
+  },
+  "34": {
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagDescription": ["Tariff on shingles"],
+    "tagName": ["Stetson, Cutler & Co."]
+  },
+  "607": {
+    "tagName": ["Quebec, Mayor of-"],
+    "tagDescription": ["Quebec Harbour (R.)"],
+    "tagDate": ["1910-03-19T00:00:00.000Z"]
+  },
+  "521": {
+    "tagDescription": ["Naval policy (Encl.) (R.)"],
+    "tagDate": ["1910-03-17T00:00:00.000Z"],
+    "tagName": ["Haney, C.N."]
+  },
+  "136": {
+    "tagDescription": ["Combines, trusts & mergers (R.)"],
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagName": ["Miner, S.H.C."]
+  },
+  "1005": {
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagDescription": ["Duty on steel"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cameron, A. K."]
+  },
+  "712": {
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Canadian - American trade (Encl.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Dewart, H.H."]
+  },
+  "220": {
+    "tagName": ["Pedley, Frank"],
+    "tagDescription": ["Indian Affairs (Encl.) (R.)"],
+    "tagDate": ["1910-03-10T00:00:00.000Z"]
+  },
+  "1011": {
+    "tagName": ["Joiners of America", "United Brotherhood of Carpenters"],
+    "tagDescription": ["Trades Union bill (R.)"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"]
+  },
+  "64": {
+    "tagName": ["Sifton, Clifford Hon."],
+    "tagDescription": ["Natural resources (Encl.) (R.)"],
+    "tagDate": ["1910-03-07T00:00:00.000Z"]
+  },
+  "753": {
+    "tagName": ["Rousselle, J."],
+    "tagDate": ["1910-03-22T00:00:00.000Z"],
+    "tagDescription": ["Superior Court judgeship (R.)"]
+  },
+  "259": {
+    "tagName": ["Others (Int'l. Waterways Commission)", "Ernst, Brig. O.H."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["St. Lawrence River (Encl.)"],
+    "tagDate": ["1910-03-11T00:00:00.000Z"]
+  },
+  "134": {
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["Dept. of External Affairs"],
+    "tagName": ["Grey, Edward"]
+  },
+  "720": {
+    "tagName": ["Drummond. T.J."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["U.S. - Canadian relations"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"]
+  },
+  "997": {
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Trades union bill (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Brussel Carpet Weavers' Union"]
+  },
+  "549": {
+    "tagDate": ["1910-03-18T00:00:00.000Z"],
+    "tagDescription": ["Tariffs U. S.-Canada (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cumberland, Barlow"]
+  },
+  "979": {
+    "tagDescription": ["Medical service to Alberta Indians (Encl.) (R.)"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagName": ["Edwards, O.C."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "188": {
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Co-operative movement among Sask. farmers (Encl.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fisher, Sydney A."]
+  },
+  "1071": {
+    "tagName": ["Graham, G.P."],
+    "tagDescription": ["Grand Trunk Pacific Ry. (Encl.)"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"]
+  },
+  "847": {
+    "tagName": ["McIntosh, W.C."],
+    "tagDate": ["1910-03-24T00:00:00.000Z"],
+    "tagDescription": ["Trade relations with U.S. (R.)"]
+  },
+  "368": {
+    "tagName": ["Stone Cutter's Association"],
+    "tagDescription": ["Tariffs (Encl.) (R.)"],
+    "tagDate": ["1910-03-13T00:00:00.000Z"]
+  },
+  "639": {
+    "tagName": ["Kelly, H. J."],
+    "tagDescription": ["Judgeship (R.)"],
+    "tagDate": ["1910-03-20T00:00:00.000Z"]
+  },
+  "782": {
+    "tagName": ["Rider, T. B."],
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagDescription": ["Appointment; tariff policy towards U.S. (R.)"]
+  },
+  "86": {
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["Introduction"],
+    "tagName": ["Wilson, H. F."]
+  },
+  "661": {
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Quebec wharf"],
+    "tagName": ["Pugsley, William"]
+  },
+  "295": {
+    "tagName": ["Willson, Becklee"],
+    "tagDate": ["1910-03-12T00:00:00.000Z"],
+    "tagDescription": ["Wolfe Memorial (R.)"]
+  },
+  "53": {
+    "tagName": ["Lyster, N.C."],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagDescription": ["Free Grain Terminal Transhipment (R.)"]
+  },
+  "481": {
+    "tagDescription": ["U.S. trade (R.)"],
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagName": ["Wright, A. A."]
+  },
+  "118": {
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["National Battlefields Commission (R.)"],
+    "tagName": ["Garneau, J. Georges"]
+  },
+  "111": {
+    "tagDescription": ["Argentine consul (Encl.) (R.)"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagName": ["Argentine Consul General (Mayer, H.)"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "862": {
+    "tagName": ["Seton, Ernest Thompson"],
+    "tagDescription": ["Alaska Boundary (Encl.) (R.)"],
+    "tagDate": ["1910-03-25T00:00:00.000Z"]
+  },
+  "1195": {
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagDescription": ["Canal tolls (Encl.) (R.)"],
+    "tagName": ["St. Catherine Board of Trade"]
+  },
+  "339": {
+    "tagDate": ["1910-03-12T00:00:00.000Z"],
+    "tagDescription": ["Public works (Encl.)"],
+    "tagName": ["Quebec Harbour Commission"]
+  },
+  "755": {
+    "tagName": ["Gaboury, V.H."],
+    "tagDescription": ["Superior Court judgeship (R.)"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"]
+  },
+  "1018": {
+    "tagDescription": ["Trades union bill (R.)"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagName": ["Amalgamated Society of Carpenters and Joiners"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "975": {
+    "tagDescription": ["Trade union bill (R.)"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagName": ["St. John's Trade & Labour Council"]
+  },
+  "668": {
+    "tagDescription": ["Naval policy (R.)"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagName": ["Forbes, D. E."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "532": {
+    "tagDate": ["1910-03-17T00:00:00.000Z"],
+    "tagDescription": ["Naval policy (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Barton, J.L."]
+  },
+  "1179": {
+    "tagName": ["Campbell, J. L. M. Rev.", "Others"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Judgeship (R.)"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"]
+  },
+  "28": {
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagDescription": ["Oakville harbour (R.)"],
+    "tagName": ["Gregory, W.D."]
+  },
+  "1135": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cranbrook Typographical Union"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagDescription": ["Trades union bill (R.)"]
+  },
+  "308": {
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagDescription": ["Naval bill"],
+    "tagName": ["Middlebro, W.S."]
+  },
+  "779": {
+    "tagName": ["Clouston, Edward S."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Mexican matter (R.)"],
+    "tagDate": ["1910-03-23T00:00:00.000Z"]
+  },
+  "797": {
+    "tagName": ["Lighthall, W.D."],
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagDescription": ["St. Lawrence Power Co."]
+  },
+  "273": {
+    "tagName": ["Pilon, H."],
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagDescription": ["Pilon, H."]
+  },
+  "1221": {
+    "tagName": ["Major, C. B."],
+    "tagDescription": ["Colonization, Province of Quebec (R.)"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"]
+  },
+  "876": {
+    "tagDescription": ["Judgeship (R.)"],
+    "tagDate": ["1910-03-26T00:00:00.000Z"],
+    "tagName": ["Sudre, C. Rev."]
+  },
+  "400": {
+    "tagName": ["Pelletier, J.F"],
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Naval policy (R.)"]
+  },
+  "415": {
+    "tagName": ["Harding, R.J."],
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Introduction (Encl.) (R. only)"]
+  },
+  "1115": {
+    "tagDescription": ["Trades union bill (R.)"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagName": ["Barbers Union, Journeymen"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "297": {
+    "tagDescription": ["Imperial defence (R.)"],
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagName": ["Gordon, Chas. W. Rev."]
+  },
+  "1051": {
+    "tagName": ["Belcourt, Hon. N.A."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Judgeship (Encl.)"],
+    "tagDate": ["1910-03-29T00:00:00.000Z"]
+  },
+  "50": {
+    "tagName": ["Huntley, E.A."],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagDescription": ["Nationalization of nickel (R.)"]
+  },
+  "603": {
+    "tagDescription": ["Storage space for books"],
+    "tagDate": ["1910-03-18T00:00:00.000Z"],
+    "tagName": ["Griffin, Martin J. (Library of Parliament)"]
+  },
+  "663": {
+    "tagName": ["New Westminster"],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Conguitlam Lake Dam (R.)"]
+  },
+  "680": {
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Judgeship"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Beaudry, A.", "Others"]
+  },
+  "1161": {
+    "tagName": ["Borden, Hon. F.W."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Honours"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "999": {
+    "tagDescription": ["Trade union bill (R.)"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagName": ["Windsor Trades & Labour Council"]
+  },
+  "757": {
+    "tagDate": ["1910-03-22T00:00:00.000Z"],
+    "tagDescription": ["Customs Dept. (R.)"],
+    "tagName": ["Montreal Board of Trade"]
+  },
+  "977": {
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Naval policy (R.)"],
+    "tagName": ["St. Denis, J.A."]
+  },
+  "386": {
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Tariffs (R.)"],
+    "tagName": ["Stone Cutter's Association"]
+  },
+  "1159": {
+    "tagName": ["Tower, F."],
+    "tagDescription": ["Superior Court judgeship (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "483": {
+    "tagDate": ["1910-03-16T00:00:00.000Z"],
+    "tagDescription": ["(R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bruchesi, Paul Most Rev."]
+  },
+  "406": {
+    "tagName": ["Thompson, Robert M."],
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Commander C.D. Roper"]
+  },
+  "669": {
+    "tagName": ["Langelier, Francois"],
+    "tagDescription": ["Judicial changes Quebec (R. only)"],
+    "tagDate": ["1910-03-14T00:00:00.000Z"]
+  },
+  "870": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fielding, W.S."],
+    "tagDate": ["1910-03-25T00:00:00.000Z"],
+    "tagDescription": ["U.S. trade"]
+  },
+  "924": {
+    "tagDate": ["1896-12-01T00:00:00.000Z"],
+    "tagDescription": ["Hon. R.R. Dobell"],
+    "tagName": ["Quebec Liberal Club"]
+  },
+  "1020": {
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagDescription": ["Appointment"],
+    "tagName": ["Paterson, Wm. Hon."]
+  },
+  "926": {
+    "tagName": ["Labour Council", "Sydney Trades"],
+    "tagDescription": ["Trade union bill (R.)"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"]
+  },
+  "32": {
+    "tagName": ["Smith, Robert C."],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagDescription": ["Oka Indians (R.)"]
+  },
+  "541": {
+    "tagDescription": ["Japanese immigration (Encls.) (R.)"],
+    "tagDate": ["1910-03-17T00:00:00.000Z"],
+    "tagName": ["Japan, Consul-General of"]
+  },
+  "244": {
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagDescription": ["Grand Trunk Pacific Railway (Encl.) (R.)"],
+    "tagName": ["Schreiber, Collingwood"]
+  },
+  "98": {
+    "tagName": ["Langlois, Godfroy"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["Resignation (R.)"]
+  },
+  "622": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Forget, J.U. Rev.", "Others"],
+    "tagDate": ["1910-03-19T00:00:00.000Z"],
+    "tagDescription": ["Judgeship (R.)"]
+  },
+  "100": {
+    "tagDescription": ["Rudolph Bach (R.)"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagName": ["Austria-Hungary Consul General Schwegel, J. Dr."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "849": {
+    "tagName": ["Girouard, J.E."],
+    "tagDate": ["1910-03-24T00:00:00.000Z"],
+    "tagDescription": ["Liberal candidate-Arthabaska (R.)"]
+  },
+  "1091": {
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagDescription": [
+      "Motor road - Lake Superior to Hudson's Bay (Encl.) (R.)"
+    ],
+    "tagName": ["Harvey, C.T."]
+  },
+  "106": {
+    "tagName": ["Shannon, Harry"],
+    "tagDescription": ["Terminal elevators (R.)"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"]
+  },
+  "1148": {
+    "tagName": ["Payne, J.D."],
+    "tagDescription": ["Free transhipment grain terminals (R.)"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"]
+  },
+  "614": {
+    "tagName": ["Tanton, B. W."],
+    "tagDescription": ["Naval policy (Encl.) (R.)"],
+    "tagDate": ["1910-03-19T00:00:00.000Z"]
+  },
+  "62": {
+    "tagDescription": ["(R.)"],
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagName": ["Fitzpatrick, Charles"],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "871": {
+    "tagDate": ["1910-03-26T00:00:00.000Z"],
+    "tagDescription": ["Judgeship (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bilodeau, F.X."]
+  },
+  "67": {
+    "tagDate": ["1910-03-07T00:00:00.000Z"],
+    "tagDescription": ["International Waterways Commission"],
+    "tagName": ["Sifton, Clifford Hon."]
+  },
+  "70": {
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["Manitoba boundary (R.)"],
+    "tagName": ["Turriff, J. G."]
+  },
+  "855": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bruneau, A.A. Hon."],
+    "tagDate": ["1910-03-24T00:00:00.000Z"],
+    "tagDescription": ["Promotion, Judgeship (R.)"]
+  },
+  "928": {
+    "tagName": ["Joiners of America", "United Brotherhood of Carpenters"],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Trades Union bill (R.)"]
+  },
+  "439": {
+    "tagName": ["Lecours, J."],
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": [
+      "Candidates of National Assn. of Marine Engineers rejected (R.)"
+    ]
+  },
+  "681": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bourinot, E.W."],
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Suing, Hon. S. Parent Railways and bridges"]
+  },
+  "88": {
+    "tagName": ["Limieux, Rodolphe"],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["Quebec Harbour Commission"]
+  },
+  "1214": {
+    "tagDescription": ["Dr. Andrew MacPhail (Encl.)"],
+    "tagDate": ["1910-04-01T00:00:00.000Z"],
+    "tagName": ["Thomson, E. W."]
+  },
+  "1145": {
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagDescription": ["Vegetable duties (Encl.) (R.)"],
+    "tagName": ["Henderson, S.R."]
+  },
+  "949": {
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Judgeship"],
+    "tagName": ["Raymond, L. C."]
+  },
+  "1165": {
+    "tagName": ["Joiners of America", "United Brotherhood of Carpenters"],
+    "tagDate": ["1910-03-31T00:00:00.000Z"],
+    "tagDescription": ["Trades Union bill (R.)"]
+  },
+  "20": {
+    "tagName": ["Wade, F. C."],
+    "tagDescription": ["Politics in B.C. (R.)"],
+    "tagDate": ["1910-03-06T00:00:00.000Z"]
+  },
+  "433": {
+    "tagName": ["Barron, Hon. John A."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Navy League (R.)"],
+    "tagDate": ["1910-03-15T00:00:00.000Z"]
+  },
+  "617": {
+    "tagDescription": ["Naval policy (R.)"],
+    "tagDate": ["1910-03-19T00:00:00.000Z"],
+    "tagName": ["Lunn. C."]
+  },
+  "1089": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Carpet Weavers of Toronto"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagDescription": ["Trades Union bill (R.)"]
+  },
+  "225": {
+    "tagDate": ["1910-03-10T00:00:00.000Z"],
+    "tagDescription": ["Senatorship (R.)"],
+    "tagName": ["Reed, James"]
+  },
+  "317": {
+    "tagDate": ["1910-03-11T00:00:00.000Z"],
+    "tagDescription": ["Grand Trunk Railway"],
+    "tagName": ["Hays, Chas. M."]
+  },
+  "202": {
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Alberta politics (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bulyea, George H.V."]
+  },
+  "747": {
+    "tagName": ["Cantwell, Wm. J."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Montreal immigrant cemetery (R.) (Encl.)"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"]
+  },
+  "634": {
+    "tagName": ["Gibbons, George C. Sir"],
+    "tagDate": ["1910-03-19T00:00:00.000Z"],
+    "tagDescription": ["International Waterways Commission (R.)"]
+  },
+  "468": {
+    "tagDescription": ["Quebec Southern Railway and Standard Trust appeal"],
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagName": ["Beique, Hon. F.L."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "435": {
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": ["(R.)"],
+    "tagName": ["Smith, R.R. Dr."]
+  },
+  "1023": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Cane, H. S."],
+    "tagDate": ["1910-03-29T00:00:00.000Z"],
+    "tagDescription": ["Extension of Tresnt Valley Canal (Encl.)"]
+  },
+  "859": {
+    "tagName": ["King, William Lyon Mackenzie Hon."],
+    "tagDescription": ["Naturalization"],
+    "tagDate": ["1910-03-25T00:00:00.000Z"]
+  },
+  "442": {
+    "tagDate": ["1910-03-15T00:00:00.000Z"],
+    "tagDescription": ["Pilon, J.W.A."],
+    "tagName": ["Pilon, J.W.A."]
+  },
+  "551": {
+    "tagDescription": ["Trip to France"],
+    "tagDate": ["1910-03-18T00:00:00.000Z"],
+    "tagName": ["DeCelles. A.D."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "741": {
+    "tagName": ["Britnell, Albert"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Books on North West Company (Encl.) (R.)"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"]
+  },
+  "407": {
+    "tagName": ["Thompson, Robert M."],
+    "tagDate": ["1910-03-14T00:00:00.000Z"],
+    "tagDescription": ["Middle East-"]
+  },
+  "161": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Baker, F.S."],
+    "tagDate": ["1910-03-09T00:00:00.000Z"],
+    "tagDescription": ["Naval policy (R.)"]
+  },
+  "945": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Daer, T."],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["Ontario floods (Encls.) (R.)"]
+  },
+  "108": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Fowler, W.H."],
+    "tagDate": ["1910-03-08T00:00:00.000Z"],
+    "tagDescription": ["Mercy killing (R.)"]
+  },
+  "229": {
+    "tagDescription": ["Judgeship (R.)"],
+    "tagDate": ["1910-03-10T00:00:00.000Z"],
+    "tagName": ["Stratton, J.R"]
+  },
+  "899": {
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Congdon, F.T."],
+    "tagDate": ["1910-03-26T00:00:00.000Z"],
+    "tagDescription": ["Dept. of Labour (R.)"]
+  },
+  "794": {
+    "tagDescription": ["Confederation with Newfounded (R.)"],
+    "tagDate": ["1910-03-23T00:00:00.000Z"],
+    "tagName": ["Prowse, D.W. Hon."]
+  },
+  "558": {
+    "tagName": ["Bengough, T."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["International Waterways Commission (Encl.) (R.)"],
+    "tagDate": ["1910-03-18T00:00:00.000Z"]
+  },
+  "467": {
+    "tagName": ["Ewart, J. S."],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagDescription": ["Senatorship Naval policy (R. only)"],
+    "tagDate": ["1910-03-15T00:00:00.000Z"]
+  },
+  "750": {
+    "tagDescription": ["Appointment to Railway Commission (Encl.) (R.)"],
+    "tagDate": ["1910-03-22T00:00:00.000Z"],
+    "tagName": ["Ringrose, M."]
+  },
+  "611": {
+    "tagName": ["Murphy, Charles"],
+    "tagDate": ["1910-03-19T00:00:00.000Z"],
+    "tagDescription": ["Conductor Reynold's presentation (Encl.)"]
+  },
+  "970": {
+    "tagName": ["Mackinnon, David Alex. Hon."],
+    "tagDate": ["1910-03-28T00:00:00.000Z"],
+    "tagDescription": ["P.E.I. - Lt.-Governorship (Encl.)"]
+  },
+  "729": {
+    "tagDate": ["1910-03-22T00:00:00.000Z"],
+    "tagDescription": ["S.S.Minto to Magdalene Islands (Encls.)"],
+    "tagName": ["Limieux, Rodolphe"]
+  },
+  "824": {
+    "tagName": ["Quebec City Council"],
+    "tagDescription": ["Repairs , Quebec citadel (Encl.) (R.)"],
+    "tagDate": ["1910-03-24T00:00:00.000Z"]
+  },
+  "1079": {
+    "tagDescription": ["Invitation to Oakville fair (R.)"],
+    "tagDate": ["1910-03-30T00:00:00.000Z"],
+    "tagName": ["Forster, A.S."],
+    "tagNotebook": ["LAURIER PAPERS"]
+  },
+  "687": {
+    "tagDate": ["1910-03-21T00:00:00.000Z"],
+    "tagDescription": ["Hon. R. Lemieux (Encl.) (R.)"],
+    "tagNotebook": ["LAURIER PAPERS"],
+    "tagName": ["Bamburry, W.H."]
+  }
+}

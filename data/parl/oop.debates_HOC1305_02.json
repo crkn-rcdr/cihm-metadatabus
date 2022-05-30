@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Meighen, Arthur",
+  "pubmax": "1921-06-04",
+  "node": [["eng", "c", "debates", "13-5", 2]],
+  "type": "debates",
+  "session": ["13-5"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 13th Parliament, 5th Session : Vol. 2",
+  "pubmin": "1921-02-14"
+}

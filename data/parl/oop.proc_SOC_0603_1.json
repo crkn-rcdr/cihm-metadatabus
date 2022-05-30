@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1889-05-02",
+  "node": [["eng", "s", "sproc", "06-3", 1]],
+  "language": ["eng"],
+  "session": ["06-3"],
+  "pubmin": "1889-01-31",
+  "callNumber": "J103 H4 1889",
+  "label": "Senate Minutes of Proceedings, 6th Parliament, 3rd Session : 1-53"
+}

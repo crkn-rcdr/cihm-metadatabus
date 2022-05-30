@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Sub-Committee on the Canadian National Railways' Pension System, Report",
+  "callNumber": "33-1 C33 A12",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "33-1", 21]],
+  "pubmax": "1986-08-28"
+}

@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 78],
+    ["fra", "c", "committees", "34-2", 67]
+  ],
+  "pubmax": "1991-05-12",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-38, an Act to amend the Federal Court Act, the Crown Liability Act, the Supreme Court Act and other Acts in consequence thereof, vol. 1 no. 1-8 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-38, Loi modifiant la Loi sur la Cour fédérale, la Loi sur la responsabilité de l'État, la Loi sur la Cour suprême et d'autres lois en conséquence, vol. 1 no. 1-8",
+  "callNumber": "34-2 F39 A1 no.1-8"
+}

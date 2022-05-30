@@ -1,0 +1,14 @@
+{
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "s", "committees", "32-1", 42],
+    ["fra", "s", "committees", "32-1", 38]
+  ],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "1980/83 G32 A1 no.36-38",
+  "label": "Senate Committees, 32nd Parliament, 1st Session : Special Committee on the Northern Pipeline, vol. 4 no. 36-38 = Comités du Sénat, 32e Législature, 1re Session : Comité spécial sur le pipe-line du Nord, vol. 4 no. 36-38",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"]
+}

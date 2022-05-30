@@ -1,0 +1,6605 @@
+{
+  "606": {
+    "tagDate": ["1785-09-21T00:00:00.000Z"],
+    "tagPerson": ["Bogart, Gilbert", "D, Peter"],
+    "tagPlace": ["Township of Newark", "Midland"]
+  },
+  "776": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": [
+      "Stuart, John",
+      "Aitken, Wm",
+      "Cartwright, Rick",
+      "Connor, Eliza"
+    ],
+    "tagDate": ["1791-12-28T00:00:00.000Z"]
+  },
+  "431": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Mickalls, James"],
+    "tagPlace": ["Kingston", "Midland District"]
+  },
+  "366": {
+    "tagPlace": [
+      "Sophiasburgh",
+      "Township of Fredericksburg Yeoman",
+      "Kingston",
+      "Province of Upper Canada",
+      "Midland District"
+    ],
+    "tagDate": ["1822-05-27T00:00:00.000Z"],
+    "tagPerson": ["Marsh, Joseph", "Marsh, Benjamin"]
+  },
+  "315": {
+    "tagPlace": ["York", "Township of Hungerford", "Midland District"],
+    "tagDate": ["1812-07-16T00:00:00.000Z"],
+    "tagPerson": ["Aitken, Alexander", "Huyck, Lieut"]
+  },
+  "227": {
+    "tagDate": ["1798-11-22T00:00:00.000Z"],
+    "tagPlace": ["Midland District"]
+  },
+  "274": {
+    "tagDate": ["[1819-07-16T00:00:00.000Z TO 1819-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "B, John",
+      "Fraser, Isaac",
+      "Hartman, Philip",
+      "Stephen",
+      "Hartman, Lewis"
+    ]
+  },
+  "480": {
+    "tagPlace": ["Midland District", "Town of Kingston"],
+    "tagPerson": ["Mickalls, John"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1835-07-01T00:00:00.000Z]"]
+  },
+  "463": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["Wanamaker, Hermanus", "MacLean, Allan", "B, John"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1817-07-10T23:59:59.999Z]"]
+  },
+  "689": {
+    "tagPlace": ["Bay of Quinty", "Province of Quebec"],
+    "tagPerson": ["Bell, Thomas", "Collins, John"],
+    "tagDate": ["1787-10-02T00:00:00.000Z"]
+  },
+  "732": {
+    "tagDate": ["1785-09-24T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Hamilton, Henry", "Collin, Peter"],
+    "tagPlace": ["Cataraqui", "Province of Quebec"]
+  },
+  "745": {
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1789-08-25T23:59:59.999Z]"],
+    "tagPerson": [
+      "Cartwright, Richard",
+      "Stuart, John",
+      "Porter, Richard",
+      "McLean, Neil",
+      "Young, George"
+    ],
+    "tagPlace": [
+      "District of Mecklenburgh",
+      "Province of Quebec",
+      "Township of Kingston"
+    ]
+  },
+  "114": {
+    "tagPerson": [
+      "Hutchinson, Jane",
+      "Booth, Joshua",
+      "Smith, John",
+      "Miller, Jacob",
+      "Robinson, Peter",
+      "Babcock, Benjamin",
+      "Johns, David",
+      "Cannon, John",
+      "C, Thomas",
+      "Rattan, Peter"
+    ],
+    "tagDate": ["1795-01-15T00:00:00.000Z"],
+    "tagPlace": [
+      "Yeoman",
+      "Thurlow",
+      "Marysburgh",
+      "Town of Kingston",
+      "Hallowell",
+      "Adolphustown",
+      "Town of York",
+      "Augusta",
+      "Ernest Town"
+    ]
+  },
+  "389": {
+    "tagDate": ["1819-07-08T00:00:00.000Z"],
+    "tagPerson": ["Stevens, Seth", "Ridout, V"],
+    "tagPlace": ["York", "Quebec"]
+  },
+  "270": {
+    "tagPerson": ["Embury, Andrew", "B, John"],
+    "tagDate": ["[1818-07-06T00:00:00.000Z TO 1818-07-16T23:59:59.999Z]"],
+    "tagPlace": ["Midland District", "Kingston"]
+  },
+  "484": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["Norden, Jarvis", "B, John"],
+    "tagDate": ["1819-07-17T00:00:00.000Z"]
+  },
+  "110": {
+    "tagPlace": [
+      "Portland",
+      "Murray",
+      "Richmond",
+      "Kingston",
+      "Yeoman",
+      "Fredericksburg"
+    ],
+    "tagPerson": [
+      "McCaulay, Ann",
+      "Young, Peter",
+      "Cartwright, Richard",
+      "McCaulay, Robert",
+      "Kirby, John",
+      "Smith, Peter, T  Lieut",
+      "Crowder, Isaac ",
+      "Pearce, William",
+      "Ryder, Samuel",
+      "Smith, John",
+      "Williams, William",
+      "Huff, Shadrack",
+      "Day, Lewis",
+      "Ferrier, John",
+      "Sole, William"
+    ],
+    "tagDate": ["[1797-07-31T23:59:59.999Z TO 1799-01-13T00:00:00.000Z]"]
+  },
+  "578": {
+    "tagDate": ["1787-10-20T00:00:00.000Z"],
+    "tagPerson": ["Anesley, Rebecah", "Collins, John"],
+    "tagPlace": ["Kingston", "Province of Quebec"]
+  },
+  "595": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["Barrier, John"],
+    "tagDate": ["[1784-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "306": {
+    "tagDate": ["[1810-01-01T00:00:00.000Z TO 1810-06-09T23:59:59.999Z]"],
+    "tagPerson": ["McLean, Allan", "B, John", "Howard, John"],
+    "tagPlace": ["Midland District"]
+  },
+  "438": {
+    "tagPlace": [
+      "County of Frontenac",
+      "Township of Kingston",
+      "Yeoman",
+      "Midland District"
+    ],
+    "tagDate": ["1818-09-21T00:00:00.000Z"],
+    "tagPerson": ["Marderi, Jeremiah"]
+  },
+  "615": {
+    "tagPlace": [
+      "Adolphustown",
+      "Marysburgh",
+      "Midland District",
+      "Township of Thurlow"
+    ],
+    "tagPerson": ["Battey, William", "H, Fred", "Bininger, John", "Alstine, W"],
+    "tagDate": ["[1794-07-18T00:00:00.000Z TO 1795-12-31T23:59:59.999Z]"]
+  },
+  "122": {
+    "tagDate": ["1794-01-01T00:00:00.000Z"],
+    "tagPlace": ["Midland District"]
+  },
+  "666": {
+    "tagPlace": ["Midland District", "Loughborough", "Kingston"],
+    "tagPerson": ["Aitken, Alex", "Burton, John"],
+    "tagDate": ["[1792-12-31T23:59:59.999Z TO 1795-03-02T00:00:00.000Z]"]
+  },
+  "319": {
+    "tagPerson": ["B, John", "Huyck, John", "Setler, John"],
+    "tagDate": ["[1812-06-24T23:59:59.999Z TO 1812-07-15T00:00:00.000Z]"],
+    "tagPlace": ["Midland District", "Kingston"]
+  },
+  "553": {
+    "tagPerson": ["Walton, Jonathan", "Sanzante, John", "Smith, Elias"],
+    "tagDate": ["1800-10-10T00:00:00.000Z"],
+    "tagPlace": ["York"]
+  },
+  "414": {
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1817-07-09T00:00:00.000Z]"],
+    "tagPerson": ["Redner, Henry", "B, John", "Macaulay, Robert"],
+    "tagPlace": ["Midland District"]
+  },
+  "180": { "tagDate": ["1799-05-14T00:00:00.000Z"] },
+  "163": {
+    "tagDate": ["[1790-01-01T00:00:00.000Z TO 1792-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Slaubar, John",
+      "Schrader, Magness",
+      "Soper, Samuel",
+      "Stoven, John",
+      "Soper, Leonard",
+      "Secord, Isaac",
+      "Soper, Seth",
+      "Navelin, H",
+      "Segar, John",
+      "Andrew",
+      "Seout, John",
+      "Stinson, Nancy",
+      "A, Nicholas",
+      "T, John",
+      "Snyder, Christian",
+      "James",
+      "Marsh, Wm",
+      "Sager, Catherine",
+      "Stevens, Seth",
+      "Snyder, Rachel",
+      "Williams, William",
+      "A, Jonas",
+      "Shutler",
+      "Steel, Daniel",
+      "William, Junr",
+      "Sager, David",
+      "Smith, Henry",
+      "Snyder, Mary",
+      "Storm, Henry",
+      "Snyder, Elizabeth",
+      "Stalker, John",
+      "S, Martin",
+      "Steel, John, Henry",
+      "Hicks, Lewis",
+      "Richards, John",
+      "Soper, John",
+      "Spencer, Margaret",
+      "Wies, John",
+      "Soper, Mary",
+      "Slover, J",
+      "Santec, John",
+      "Sheppard, Joseph",
+      "Snyder, Zachariah"
+    ],
+    "tagPlace": ["Vermont", "Richmond", "Fredericksburg", "England", "New York"]
+  },
+  "131": {
+    "tagPerson": [
+      "Cole, Daniel",
+      "Conger, David",
+      "Carr, Daniel",
+      "Covert, Jeremiah",
+      "Crawford, Mary",
+      "Comber, Jacob",
+      "Corbman, Jean",
+      "R, Cap",
+      "Clarke, Robert",
+      "Conkright, William",
+      "Clarke, M",
+      "C, Michael",
+      "C, John",
+      "Conkright, Abraham",
+      "Crawford, Katherine",
+      "Conner, Owen",
+      "Chard, Barce",
+      "Crawford, Wm",
+      "Croale, Conrad",
+      "Crawford, Lewis",
+      "Conklin, Joseph",
+      "Cronkhite, Jean",
+      "Fox, Fredrick",
+      "Cronkhite, William",
+      "Conkright, John",
+      "Conkright, Hercules",
+      "Cole, Katherine",
+      "Charters, George",
+      "Conger, Peter",
+      "Jones, William",
+      "Cronkhite, Abraham"
+    ],
+    "tagDate": ["[1794-01-01T00:00:00.000Z TO 1798-12-31T23:59:59.999Z]"]
+  },
+  "243": {
+    "tagPlace": ["Midland Dist"],
+    "tagPerson": ["Elmsley, J"],
+    "tagDate": ["1800-08-23T00:00:00.000Z"]
+  },
+  "352": {
+    "tagPlace": ["Augusta", "Midland District"],
+    "tagPerson": ["MacLean, Allan"],
+    "tagDate": ["[1822-05-22T00:00:00.000Z TO 1822-06-26T23:59:59.999Z]"]
+  },
+  "685": {
+    "tagDate": ["1785-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bird, Henry"]
+  },
+  "422": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["B, John", "Rose, Jacob"],
+    "tagDate": ["[1818-07-05T00:00:00.000Z TO 1818-07-11T23:59:59.999Z]"]
+  },
+  "652": {
+    "tagPerson": ["Bowen, C", "Bell, Thos"],
+    "tagDate": ["1785-01-01T00:00:00.000Z"]
+  },
+  "51": {
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Dorland, Philip, Lieut",
+      "Whitley, John",
+      "Waramaker, Hermanus",
+      "Koeller, Charles, D",
+      "Ribbons, Adam",
+      "Valleau, Peter",
+      "Dulmage, Jacob",
+      "Dear, Samuel, Lieut",
+      "Lewis, Barnet",
+      "Waramaker, Andrew",
+      "Rattan, Peter",
+      "Trumpout, Paul, Lt",
+      "Trompoar, Paul, Lieut"
+    ],
+    "tagPlace": [
+      "Yeoman",
+      "Quebec",
+      "Midland District",
+      "Adolphustown",
+      "New Hallowell",
+      "Ameliasburgh",
+      "Sophiasburgh"
+    ]
+  },
+  "138": {
+    "tagPerson": [
+      "Finkle, Henry",
+      "Fraser, Elizabeth",
+      "Fraser, Kenneth",
+      "F, James",
+      "Cole, Daniel",
+      "Fairfield, William",
+      "Ferris, John",
+      "Franklin, Mary",
+      "Fairman, William",
+      "Ferguson, Jonathan",
+      "Fraser, Kenny",
+      "Ferguson, Elizabeth",
+      "G, John",
+      "E, Jonathan",
+      "F, Peter",
+      "Ferguson, Arra",
+      "Fredericks, John",
+      "Fralic, Christopher",
+      "McKinzie, C",
+      "Fraser, Daniel",
+      "L, Jacob",
+      "Young, Henry"
+    ],
+    "tagDate": ["[1789-01-01T00:00:00.000Z TO 1790-12-31T23:59:59.999Z]"],
+    "tagPlace": ["N York"]
+  },
+  "69": {
+    "tagPlace": [
+      "Yeoman",
+      "Sidney",
+      "Town of Kingston",
+      "Sophiasburgh",
+      "Adolphustown"
+    ],
+    "tagDate": ["1797-11-13T00:00:00.000Z"],
+    "tagPerson": [
+      "S, Gasper",
+      "Knight, Mahlon",
+      "Purdy, Gilbert",
+      "McLaughlin, John",
+      "Turner, Asa",
+      "Wright, Alexander",
+      "Crawford, William",
+      "Cook, John",
+      "Walker, Joseph",
+      "Baker, William",
+      "Most, John",
+      "Morden, Richard",
+      "Crawford, Wm, Redford",
+      "Casey, Willet",
+      "Johnson, Judah",
+      "Ransier, William"
+    ]
+  },
+  "385": {
+    "tagPerson": ["Snider, Simon", "Ridout, Chewett, J"],
+    "tagDate": ["1810-03-17T00:00:00.000Z"],
+    "tagPlace": ["Ernest Town", "Quebec", "York"]
+  },
+  "410": {
+    "tagPlace": [
+      "Midland",
+      "Bay of Quinte",
+      "Fredericksburg",
+      "Quebec",
+      "York"
+    ],
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1820-07-07T00:00:00.000Z]"],
+    "tagPerson": ["Aitken", "Ramsay, Adam", "Ridout, Tho", "Weager"]
+  },
+  "721": {
+    "tagPerson": ["Benson, Garret", "Benson, Matthew"],
+    "tagDate": ["1784-01-01T00:00:00.000Z"]
+  },
+  "619": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagDate": ["1785-09-20T00:00:00.000Z"],
+    "tagPerson": [
+      "P, Joel",
+      "Comfort, Smith",
+      "Collins, John",
+      "Hamilton, Amy",
+      "Bradshaw, David"
+    ]
+  },
+  "103": {
+    "tagPerson": [
+      "Cotter, Richd, Serj",
+      "Johnsons, John",
+      "Lyons, Lawrence",
+      "Woodcock, Nicholas",
+      "Ross, Esther",
+      "McNutt, James",
+      "Green, Benjamin",
+      "R, James",
+      "Woodcock, John",
+      "Lyons, Thomas",
+      "Smith, William",
+      "Clunes, John",
+      "Crawford, Bryan",
+      "Philip, P, Lieut",
+      "Shorts, Augustus",
+      "Thomson, Samuel",
+      "Forsyth, Joseph",
+      "Thompson, Timothy, Lieut",
+      "McKay, Serjt",
+      "Russell, James"
+    ],
+    "tagDate": ["[1783-01-01T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"],
+    "tagPlace": [
+      "Camden",
+      "Sophiasburgh",
+      "Townsend",
+      "Fredericksburg",
+      "Yeoman",
+      "Town of Kingston"
+    ]
+  },
+  "599": {
+    "tagPlace": ["Township of Fredericksburg"],
+    "tagPerson": ["Benn, John"],
+    "tagDate": ["[1789-02-17T23:59:59.999Z TO 1790-04-20T00:00:00.000Z]"]
+  },
+  "436": {
+    "tagPerson": ["Thompson, Tim", "Fraser, William", "Sills, George"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPlace": ["Fredericksburg"]
+  },
+  "361": {
+    "tagPlace": ["Fredericksburg"],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1804-11-17T23:59:59.999Z]"],
+    "tagPerson": [
+      "Thomson, Eliza",
+      "Detlor, Peter",
+      "Thomas, York",
+      "Ridout, Thos",
+      "McNabb, Mary Ann",
+      "Nevill, Anthony",
+      "Dafoe, George",
+      "Nicholson, Alex",
+      "Fraser, William"
+    ]
+  },
+  "771": {
+    "tagDate": ["[1709-03-16T00:00:00.000Z TO 1786-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Aitken, Alex", "Cole, Peter"],
+    "tagPlace": ["District of Mecklenburg", "Adolphustown", "Kingston"]
+  },
+  "308": {
+    "tagPerson": ["Howard, John"],
+    "tagDate": ["1809-01-30T00:00:00.000Z"],
+    "tagPlace": [
+      "Township of Amherst Island of Yeoman",
+      "Kingston",
+      "Township of Hallowell",
+      "Province of Upper Canada",
+      "Midland District",
+      "County of Prince Edward"
+    ]
+  },
+  "532": {
+    "tagPerson": [
+      "Pownall, George",
+      "Finlay, Hugh",
+      "Smith, William",
+      "Brisco, Isaac",
+      "Dunn, Thos",
+      "Baby, Francois",
+      "Brisco, Nathan",
+      "Caldwell, Henry",
+      "Dupre, Le Cte",
+      "Grant, William",
+      "DeLanaudiere, C",
+      "Harrison, Edwd",
+      "Delery, J, GC",
+      "Collins, John",
+      "Mabane, Adam"
+    ],
+    "tagDate": ["[1783-12-31T23:59:59.999Z TO 1789-11-09T00:00:00.000Z]"],
+    "tagPlace": ["District of Mecklenburg", "Quebec"]
+  },
+  "601": {
+    "tagPerson": ["Brown, Peter"],
+    "tagDate": ["1791-01-26T00:00:00.000Z"]
+  },
+  "80": {
+    "tagPlace": [
+      "Ernest Town",
+      "Portland",
+      "Town of Kingston",
+      "Pittsburgh",
+      "Rawdon"
+    ],
+    "tagDate": ["[1797-07-14T00:00:00.000Z TO 1799-02-16T23:59:59.999Z]"],
+    "tagPerson": [
+      "McLeod, John",
+      "Rosebush, Lewis",
+      "McLean, Neil",
+      "Cartwright",
+      "Kerlin, John",
+      "Rosebush, Joseph",
+      "McDougall, Allan",
+      "Shibley, John",
+      "McDonell, Jane",
+      "Machler, Jane",
+      "Miracle, Jacob",
+      "Williams, Robert",
+      "McLeod, Archibald, Norman",
+      "Pember, Philip"
+    ]
+  },
+  "545": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["1789-11-09T00:00:00.000Z"],
+    "tagPerson": [
+      "Alstine, P, V",
+      "Fisher, Alex",
+      "Williams, Samuel",
+      "Williams, David"
+    ]
+  },
+  "78": {
+    "tagPlace": [
+      "Yeoman",
+      "Sidney",
+      "Pittsburgh",
+      "Marysburgh",
+      "Town of Kingston"
+    ],
+    "tagPerson": [
+      "McDonell, William",
+      "Grant, Archibald, Lieut",
+      "Cartwright, Richard",
+      "Grant, James",
+      "Grant, William, Alex",
+      "McLean, Neil",
+      "Crisdel, John",
+      "Croisdell, John",
+      "Goddard, James, Stanley",
+      "Wattman, John",
+      "Croisell, John",
+      "Wartman, Barnabas",
+      "McDonald, Walland"
+    ],
+    "tagDate": ["1797-01-01T00:00:00.000Z"]
+  },
+  "576": {
+    "tagPlace": ["District of Mecklenburg", "Kingston"],
+    "tagDate": ["1789-03-05T00:00:00.000Z"],
+    "tagPerson": ["Aitkin, Alex", "Amold, Isaac"]
+  },
+  "255": {
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1835-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Woodcock, John",
+      "Herchner, Nicholas",
+      "Ward, William",
+      "Hover, Henry",
+      "Young, George",
+      "Worden, Jarvis",
+      "Anderson, Jane",
+      "Zurick, Philip",
+      "Wright, John"
+    ]
+  },
+  "333": {
+    "tagPlace": ["Town of Kingston", "York"],
+    "tagDate": ["1817-07-09T00:00:00.000Z"],
+    "tagPerson": [
+      "Loney, Louis",
+      "Loney, John",
+      "Harrison, F",
+      "Ridout, Thos",
+      "Aitkins"
+    ]
+  },
+  "282": {
+    "tagPerson": ["I, James, E", "Hartman, Philip", "Boulton, Justin"],
+    "tagDate": ["[1820-06-22T23:59:59.999Z TO 1820-07-06T00:00:00.000Z]"]
+  },
+  "417": {
+    "tagDate": ["1816-02-01T00:00:00.000Z"],
+    "tagPerson": ["MacLean, Allan"],
+    "tagPlace": ["Midland District"]
+  },
+  "633": {
+    "tagDate": ["[1790-01-08T00:00:00.000Z TO 1800-05-20T23:59:59.999Z]"],
+    "tagPerson": [
+      "Beddell, Ruben",
+      "Fisher, Alex",
+      "Smith, Henry",
+      "Casey, Willet",
+      "Canniff, James",
+      "Van Atter, John"
+    ],
+    "tagPlace": ["Adolphustown"]
+  },
+  "661": {
+    "tagPlace": [
+      "Quebec",
+      "Township of Midland District",
+      "Township of Adolphus"
+    ],
+    "tagPerson": ["Alstine, P, V", "Fisher, Alex", "Smith, D", "Baker, John"],
+    "tagDate": ["[1789-11-09T00:00:00.000Z TO 1794-02-25T23:59:59.999Z]"]
+  },
+  "301": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[1811-03-14T23:59:59.999Z TO 1811-03-16T00:00:00.000Z]"],
+    "tagPerson": [
+      "Herchmer, Lawrence",
+      "MacLean, Allan",
+      "B, John",
+      "Markland, Thomas"
+    ]
+  },
+  "825": {
+    "tagPerson": [
+      "Cronkhite, John",
+      "Vasty, Thomas",
+      "Cronkhite, Anne",
+      "C, Willm",
+      "Vasty, Christopher",
+      "Paterson, Willm",
+      "Cronkhite, M"
+    ],
+    "tagDate": ["[1789-09-22T00:00:00.000Z TO 1795-12-31T23:59:59.999Z]"]
+  },
+  "368": {
+    "tagPlace": ["Sophiasburgh", "Midland District"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1822-07-05T00:00:00.000Z]"],
+    "tagPerson": ["B, John", "Marsh, Benjamin", "MacLean, Allan"]
+  },
+  "778": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagDate": ["1785-09-24T00:00:00.000Z"],
+    "tagPerson": [
+      "Collins, John",
+      "Loyd, Henry",
+      "Calder, Christian",
+      "Hamilton, Henry"
+    ]
+  },
+  "549": {
+    "tagPerson": ["Collins, John", "Longwell, James"],
+    "tagDate": ["1787-10-20T00:00:00.000Z"],
+    "tagPlace": ["Kingston", "Province of Quebec"]
+  },
+  "172": {
+    "tagPlace": ["New York"],
+    "tagPerson": [
+      "Rogers, William",
+      "David",
+      "Wood, Jean",
+      "Walker, Daniel",
+      "Wartman, John",
+      "Wright",
+      "Weist, Catherine",
+      "Waite, Benjamin",
+      "Williams, David",
+      "Whiteman, David",
+      "Wartman, Abraham",
+      "Williams, Armstrong",
+      "Whitsell, Nicholas",
+      "Williams, Elijah",
+      "Wemp, Barnabas",
+      "Wells, Williams",
+      "Weish, John, Junr",
+      "Welsh, Peter",
+      "Westly, Joseph",
+      "Williams, William",
+      "Woodcock, Nicholas",
+      "Williams, William, Junr",
+      "White, Aaron",
+      "Winny, Peter",
+      "L, John",
+      "Williams, Samuel",
+      "Weist, John",
+      "Warner, John",
+      "Wright, Augustus",
+      "Washburn, Ebenezar",
+      "Williams, John"
+    ],
+    "tagDate": ["1776-01-01T00:00:00.000Z"]
+  },
+  "487": {
+    "tagDate": ["1789-11-26T00:00:00.000Z"],
+    "tagPerson": ["Wright, John", "Collins, John"],
+    "tagPlace": ["Lake Township"]
+  },
+  "259": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["1800-07-24T00:00:00.000Z"],
+    "tagPerson": ["Cartwright, Richard"]
+  },
+  "64": {
+    "tagPlace": ["Yeoman", "Quebec", "Fredericksburg", "Adolphustown"],
+    "tagPerson": [
+      "Wager, William",
+      "Fraser, Isabella",
+      "Clapp, Joseph",
+      "Bedell, Reuben",
+      "Brooks, George",
+      "Spencer, Lieut",
+      "Peterson, Nicholas",
+      "Fraser, Angus",
+      "Anderson, Thos",
+      "Church, Lieut",
+      "Smith, William",
+      "Garrison, Maroel",
+      "Durham, Darius",
+      "McArthur, John",
+      "McArthur, Charles",
+      "Cotter, Richd, Serj",
+      "Cotter, James"
+    ],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1798-12-31T23:59:59.999Z]"]
+  },
+  "753": {
+    "tagPlace": ["Province of Quebec"],
+    "tagPerson": ["Hamilton, Henry", "Collins, John"],
+    "tagDate": ["1785-09-20T00:00:00.000Z"]
+  },
+  "841": {
+    "tagDate": ["1798-10-06T00:00:00.000Z"],
+    "tagPerson": ["McBride, James", "Crysler, Wm"]
+  },
+  "220": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["1798-07-11T00:00:00.000Z"]
+  },
+  "224": {
+    "tagPlace": ["Camden", "Richmond", "Adolphustown"],
+    "tagPerson": ["Peterson, Paul", "McMaster, James", "Smith, D"],
+    "tagDate": ["1798-11-22T00:00:00.000Z"]
+  },
+  "799": {
+    "tagPlace": ["Kingston", "Township of Camden", "Midland District"],
+    "tagPerson": [
+      "Conklin, Joseph",
+      "Anderson, T, G",
+      "Markland, Thomas",
+      "Hayerman, N",
+      "Soles, Benjamin",
+      "Conklin, John"
+    ],
+    "tagDate": ["1797-10-12T00:00:00.000Z"]
+  },
+  "293": {
+    "tagDate": ["1809-03-11T00:00:00.000Z"],
+    "tagPerson": ["Ridout, Chewett, V", "Wooding, John"],
+    "tagPlace": ["Portland", "Loughborough", "York"]
+  },
+  "829": {
+    "tagDate": ["1790-04-07T00:00:00.000Z"],
+    "tagPerson": [
+      "Cartwright, Richd",
+      "B, Joseph",
+      "Knight, M",
+      "G, Britain",
+      "Stuart, W",
+      "Conlon, Micha"
+    ],
+    "tagPlace": ["Kingston"]
+  },
+  "117": { "tagPlace": ["Midland"], "tagDate": ["1803-01-01T00:00:00.000Z"] },
+  "71": {
+    "tagPlace": ["Town of Kingston", "Yeoman"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1801-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Graham, Robert",
+      "Beek, John, Gerbrand",
+      "Burnet, John",
+      "Burnet, Thomas",
+      "Galloway, George",
+      "Graham, Richard, Serjt",
+      "Atkinson, William",
+      "Hall, Richard",
+      "P, Philip"
+    ]
+  },
+  "726": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["[1787-01-01T00:00:00.000Z TO 1797-08-24T23:59:59.999Z]"],
+    "tagPerson": [
+      "Barron, William",
+      "Christie, Peter",
+      "D, John",
+      "M, David",
+      "Poefent, W",
+      "Rolp, Samuel",
+      "Clark, Hugh"
+    ]
+  },
+  "277": {
+    "tagPlace": ["Township of Ernest Town"],
+    "tagDate": ["1819-05-19T00:00:00.000Z"],
+    "tagPerson": [
+      "Hartman, Lewis",
+      "Fraser, Isaac",
+      "Hartman, David",
+      "Daly, Peter"
+    ]
+  },
+  "665": {
+    "tagDate": ["[1792-05-14T00:00:00.000Z TO 1797-04-29T23:59:59.999Z]"],
+    "tagPerson": ["Burton, John", "Notz, Jenny"],
+    "tagPlace": ["Midland District", "Kingston", "London"]
+  },
+  "492": {
+    "tagPlace": ["District of Victoria Yeoman", "Township of Thurlow"],
+    "tagPerson": ["Bidwell, David", "G, George"],
+    "tagDate": ["1841-02-06T00:00:00.000Z"]
+  },
+  "548": {
+    "tagPerson": ["Benjamin, M", "H, Nicholas"],
+    "tagDate": ["[1785-01-01T00:00:00.000Z TO 1798-10-22T23:59:59.999Z]"]
+  },
+  "616": {
+    "tagPlace": ["Province of Quebec", "Bay Quinte"],
+    "tagPerson": ["Haldimand, Fred", "Allen, Joseph, Capt", "Collins, John"],
+    "tagDate": ["1784-09-14T00:00:00.000Z"]
+  },
+  "821": {
+    "tagDate": ["1782-09-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Collins, John",
+      "Caldon, Frederick",
+      "Caldon, Willm"
+    ],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "62": {
+    "tagPlace": [
+      "Ct of Addington",
+      "County of Lenox",
+      "Sidney",
+      "Town of Kingston",
+      "Yeoman",
+      "Fredericksburg"
+    ],
+    "tagPerson": [
+      "Bouker, John",
+      "Fraleigh, Christopher",
+      "Crawford, Wm, Redford",
+      "Fraleigh, Lacharius",
+      "Scrambling, David, Serjt",
+      "Park, Cyrenus",
+      "Ruyter, Henry",
+      "Frelick",
+      "Forsyth, Joseph",
+      "Jones, Martin",
+      "Wright, Simeon",
+      "Dafoe, Abraham",
+      "Hoffman",
+      "Jones, Daniel",
+      "Harnes, Josiah",
+      "Markland, Thomas",
+      "Crawford, William",
+      "Smith, Henry",
+      "F, Peter",
+      "Turner, Asa, Serjt",
+      "Smith, George"
+    ],
+    "tagDate": ["1799-01-01T00:00:00.000Z"]
+  },
+  "45": {
+    "tagPerson": ["Alluck"],
+    "tagDate": ["[1803-11-10T00:00:00.000Z TO 1803-11-19T23:59:59.999Z]"]
+  },
+  "305": {
+    "tagPerson": ["Howard, John", "B, John", "McLean, Allan"],
+    "tagDate": ["[1810-03-15T23:59:59.999Z TO 1810-06-09T00:00:00.000Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "240": {
+    "tagPlace": ["Midland Dist"],
+    "tagDate": ["1800-09-23T00:00:00.000Z"],
+    "tagPerson": ["Elmsley, J"]
+  },
+  "160": {
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Rose, Arra",
+      "Richards, Diana",
+      "Richardson, Thos",
+      "Williamson, John",
+      "Riddnes, Henry",
+      "Rofs, Catherine",
+      "Murdoff, James",
+      "Snyder, Simon",
+      "Ryckman, Tobias",
+      "Moon, William",
+      "Robinson, Daniel",
+      "Rop, George",
+      "Read, Samuel",
+      "Rosebush, Samuel",
+      "Rupell, Lucy",
+      "Ripson, Conrade",
+      "Rupell, James",
+      "Rosebush, Joseph",
+      "Reynolds, Daniel",
+      "Ryder, William",
+      "Rattan, G",
+      "Moore, William",
+      "Rosebush, Solomon",
+      "Ruttan, Jacob",
+      "Rimpler, John, Henry",
+      "Robbin, Mary",
+      "Randall, David",
+      "Rosieronec, Joseph",
+      "Richardson, Ann, Elvira",
+      "Reddin, Elizabeth",
+      "Ryan, David"
+    ],
+    "tagPlace": ["New Jersey", "Germany", "Thurlow", "New York"]
+  },
+  "791": {
+    "tagPerson": ["Andrew", "Kimmerly", "Church, Oliver"],
+    "tagDate": ["1786-07-09T00:00:00.000Z"]
+  },
+  "258": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["McLean, Allan", "Butterworth, James", "Cartwright, Richard"],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1800-12-31T23:59:59.999Z]"]
+  },
+  "337": {
+    "tagPlace": ["Fredericksburg", "York"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1819-07-19T00:00:00.000Z]"],
+    "tagPerson": [
+      "Loucks, George",
+      "Loucks, Jacob",
+      "Ridout, Thos",
+      "Haldimand, Gov"
+    ]
+  },
+  "550": {
+    "tagPerson": [
+      "Harrison, Edwd",
+      "DeLanaudiere, Charles",
+      "Grant, William",
+      "Delery, J, GC",
+      "Dupre, Le Cte",
+      "Caldwell, Henry",
+      "Mabane, Adam",
+      "Collins, John",
+      "Finlay, Hugh",
+      "Pownall, George",
+      "Smith, William, Chief Justice",
+      "Baby, Francois",
+      "Dunn, Thos"
+    ],
+    "tagDate": ["[1783-12-31T23:59:59.999Z TO 1789-11-09T00:00:00.000Z]"],
+    "tagPlace": ["Quebec"]
+  },
+  "104": {
+    "tagPerson": [
+      "Seymour, Benjamin",
+      "Robertson, Neil",
+      "Stinson, Nancy",
+      "Armstrong, James, Rogers",
+      "Hamilton, Governor",
+      "Conger, Jean",
+      "Spencer, Hazleton",
+      "Church, Oliver, Lieut",
+      "S, John",
+      "Robertson, Peter",
+      "Kemp, James",
+      "Sherwood, Samuel, Lieut",
+      "Johnsons, John"
+    ],
+    "tagDate": ["1795-06-19T00:00:00.000Z"],
+    "tagPlace": ["Hallowell", "Fredericksburg", "Town of Kingston"]
+  },
+  "746": {
+    "tagPlace": ["Bay of Quinty", "Province of Quebec"],
+    "tagDate": ["1787-09-06T00:00:00.000Z"],
+    "tagPerson": ["Congers, David", "Collins, John"]
+  },
+  "164": {
+    "tagPlace": ["New York"],
+    "tagPerson": [
+      "Simpson, James",
+      "Sickler, John",
+      "Shork, Katherine",
+      "Sherman, Margaret",
+      "Sharp, Gilbert, Lieut",
+      "Sharp, Peter",
+      "Steel, Elizabeth",
+      "Snider, Jacob",
+      "Switzer, Philip",
+      "Sharp, Richard",
+      "Scout, John",
+      "Simon",
+      "Slote",
+      "Shirtliff, Samuel",
+      "Simmons, H",
+      "Sooless, John",
+      "Henry",
+      "Rachel",
+      "Scott, S",
+      "Simmons, Henry, Lieut",
+      "Benson, Mathew",
+      "Slover, Valentine",
+      "Hunt, John",
+      "Pickle, John",
+      "Shriver, Katherine",
+      "Simson, William",
+      "Fisher, John",
+      "Stalker, Margaret",
+      "Shibley, John",
+      "Barchley, Isaiah",
+      "Smith, Henry",
+      "Simpson, Alexander",
+      "Snook, Martin",
+      "Sharp, Gilbert",
+      "Swarts, Simon",
+      "Shork, John",
+      "Scott, John",
+      "Skinkle, John",
+      "Shuts, Peter"
+    ],
+    "tagDate": ["[1792-06-13T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"]
+  },
+  "798": {
+    "tagPlace": [
+      "Adolphustown",
+      "Kingston",
+      "Township of Ernest Town",
+      "Midland District",
+      "Quebec",
+      "Township of Camden"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1795-01-06T23:59:59.999Z]"],
+    "tagPerson": [
+      "Alstine, P, V",
+      "Aitken, Alexander",
+      "Fisher, Alex",
+      "Conklin, Joseph"
+    ]
+  },
+  "413": {
+    "tagPlace": [
+      "County of Prince Edward",
+      "Township of Ameliasburgh",
+      "Province of Upper Canada",
+      "Midland District"
+    ],
+    "tagDate": ["[1817-04-18T00:00:00.000Z TO 1817-05-12T23:59:59.999Z]"],
+    "tagPerson": ["Rednes, Henry"]
+  },
+  "637": {
+    "tagPerson": [
+      "Bartley, Michael",
+      "Ambury, Andrew",
+      "Clark, Alex",
+      "Embury, John"
+    ],
+    "tagDate": ["1797-05-20T00:00:00.000Z"],
+    "tagPlace": ["Richmond", "Midland", "Fredericksburg"]
+  },
+  "365": {
+    "tagPlace": ["Township of Sophiasburgh", "Quebec", "York"],
+    "tagDate": ["1822-07-05T00:00:00.000Z"],
+    "tagPerson": ["Ridout, Thos", "Marsh, James"]
+  },
+  "828": {
+    "tagPerson": [
+      "Cartwright, Richd",
+      "Knight, M",
+      "B, Joseph",
+      "G, Britain",
+      "Conlon, Micha",
+      "Stuart, W"
+    ],
+    "tagDate": ["1790-04-07T00:00:00.000Z"],
+    "tagPlace": ["Kingston"]
+  },
+  "775": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": [
+      "Stuart, John",
+      "Aitken, Wm",
+      "Cartwright, Rick",
+      "Connor, Eliza"
+    ],
+    "tagDate": ["1791-12-28T00:00:00.000Z"]
+  },
+  "605": {
+    "tagDate": ["1790-03-10T00:00:00.000Z"],
+    "tagPerson": ["D, Peter", "Stuart, M", "McLean, Neil"]
+  },
+  "244": {
+    "tagDate": ["1799-01-01T00:00:00.000Z"],
+    "tagPlace": ["Midland District"]
+  },
+  "541": {
+    "tagPlace": ["Province of Quebec", "Bay De Quinte"],
+    "tagDate": ["1787-09-06T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Singleton, Geo, Capt"]
+  },
+  "309": {
+    "tagPerson": [
+      "MacLean, Allan",
+      "Davis, Mary",
+      "Davis, Henry",
+      "Huffnail, Andrew",
+      "Huffnail, Joseph"
+    ],
+    "tagDate": ["1810-06-05T00:00:00.000Z"],
+    "tagPlace": ["Township of Adolphustown"]
+  },
+  "460": {
+    "tagPlace": ["Ameliasburgh"],
+    "tagDate": ["[1813-12-31T23:59:59.999Z TO 1823-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Koeller, Charles, D",
+      "Ribbons, Adam",
+      "Wanamaker, Hermanus",
+      "Ridnor, John",
+      "Ridout, Thos",
+      "Wanamaker, Andrew"
+    ]
+  },
+  "669": {
+    "tagPerson": [
+      "Collins, John",
+      "Betty, Neill",
+      "Haldimand, Fred",
+      "Baddarly, Michael"
+    ],
+    "tagDate": ["1782-09-22T00:00:00.000Z"],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "483": {
+    "tagPerson": [
+      "Norden, Jarvis",
+      "Galloway, John",
+      "L, William",
+      "Fairfield, Benjamin"
+    ],
+    "tagDate": ["[1818-08-24T00:00:00.000Z TO 1819-06-28T23:59:59.999Z]"],
+    "tagPlace": ["Kingston Yeoman", "Midland District"]
+  },
+  "386": {
+    "tagPerson": ["N, James"],
+    "tagDate": ["1809-01-13T00:00:00.000Z"],
+    "tagPlace": [
+      "Kingston",
+      "Province of Upper Canada",
+      "Midland District",
+      "Township of Adolphustown Yeoman",
+      "Township of Ernest Town"
+    ]
+  },
+  "15": {
+    "tagPerson": [
+      "Ferguson, John",
+      "Woodcock, John",
+      "Spencer, Hamilton",
+      "P, Philip, Lieutenant",
+      "Drummond, Powell, W",
+      "Booth, Joshua",
+      "Cartwright, Richard",
+      "Fisher, Alexander",
+      "McDonele, Arch",
+      "Small, John",
+      "Johnsons, John"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1803-09-01T00:00:00.000Z]"],
+    "tagPlace": [
+      "York",
+      "Township of Fredericksburg",
+      "Province of Upper Canada",
+      "Midland District Yeoman"
+    ]
+  },
+  "757": {
+    "tagPlace": ["Adolphustown", "Kingston"],
+    "tagDate": ["[1789-12-28T23:59:59.999Z TO 1790-05-19T00:00:00.000Z]"],
+    "tagPerson": [
+      "Huff, John",
+      "Casey, Willet",
+      "Prise, John",
+      "Hofter, William",
+      "Stuart, M",
+      "McLean, Neil",
+      "Woodcock, John",
+      "Casey, William",
+      "Huff, Paul",
+      "L, Nicholas",
+      "Spencer, Andrew",
+      "Spencer, John",
+      "Hover, Henry",
+      "Huff, Solomon",
+      "Foster, William"
+    ]
+  },
+  "832": {
+    "tagPlace": ["Kingston", "Province of Quebec"],
+    "tagDate": ["1787-10-01T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Clark, Jams"]
+  },
+  "50": {
+    "tagDate": ["[1803-01-01T00:00:00.000Z TO 1803-11-11T23:59:59.999Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "686": {
+    "tagPlace": [
+      "District of Mecklenburgh",
+      "Kingston",
+      "Province of Quebec",
+      "Township of Ernest Town"
+    ],
+    "tagPerson": [
+      "Stuart, M",
+      "McLean",
+      "Aitken, Alexander",
+      "C, Richard",
+      "Ball, Solomon"
+    ],
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1792-03-20T23:59:59.999Z]"]
+  },
+  "297": {
+    "tagPlace": [
+      "Township of Marysburgh",
+      "County of Prince Edward",
+      "Province of Upper Canada",
+      "Midland District",
+      "Kingston"
+    ],
+    "tagPerson": [
+      "Fairfield, Benjamin",
+      "Henderson, Edward, I",
+      "Henderson, John"
+    ],
+    "tagDate": ["[1818-05-27T00:00:00.000Z TO 1818-07-06T23:59:59.999Z]"]
+  },
+  "400": {
+    "tagPlace": ["Township of Ernest Town", "Thurlow Yeoman", "Kingston"],
+    "tagPerson": ["Pitman, Thomas", "Pitman, Rafael"],
+    "tagDate": ["1820-05-10T00:00:00.000Z"]
+  },
+  "609": {
+    "tagPlace": ["Province of Quebec", "Bay De Quinty"],
+    "tagDate": ["1787-10-02T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Bower, Casper"]
+  },
+  "113": {
+    "tagPlace": [
+      "Ameliasburgh",
+      "Sophiasburgh",
+      "Township of Richmond",
+      "Midland",
+      "Yeoman",
+      "Quebec",
+      "Thurlow"
+    ],
+    "tagPerson": [
+      "Purcells, John",
+      "Batty, William",
+      "Hurd, Jabez",
+      "Aitken",
+      "Brumer, Peter",
+      "Barry, David",
+      "Wilson, James",
+      "Turick, Philip",
+      "V, Martinus",
+      "Taylor, Nathaniel",
+      "Viele, William",
+      "Brunner, Peter",
+      "Peterson, Nicholas",
+      "Dafoe, John",
+      "Benniger, John",
+      "Swick, Philip"
+    ],
+    "tagDate": ["[1789-06-16T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"]
+  },
+  "369": {
+    "tagPerson": ["Moore, Lieut", "Ridout, Thos"],
+    "tagDate": ["1819-07-15T00:00:00.000Z"],
+    "tagPlace": ["York", "Township of Kingston", "Quebec"]
+  },
+  "273": {
+    "tagPlace": [
+      "Kingston",
+      "Township",
+      "Township of Ernest Town Yeoman",
+      "Midland District",
+      "Province of Upper Canada",
+      "Township of Sydney",
+      "County of Hastings"
+    ],
+    "tagDate": ["[1819-01-07T23:59:59.999Z TO 1819-02-22T00:00:00.000Z]"],
+    "tagPerson": [
+      "Fairfield, Benjamin",
+      "Hartman, Lewis",
+      "Hartman, Philip",
+      "Hartman, David"
+    ]
+  },
+  "779": {
+    "tagPerson": ["Canniff, John", "Loyd, Henry", "Pasey, John"],
+    "tagDate": ["1790-11-19T00:00:00.000Z"]
+  },
+  "464": {
+    "tagPerson": ["B, John", "MacLean, Allan", "Wanamaker, Hermanus"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1817-07-10T00:00:00.000Z]"],
+    "tagPlace": ["Midland"]
+  },
+  "93": {
+    "tagPlace": ["Province of Upper Canada", "Lower Canada"],
+    "tagPerson": ["Ridout, Chewett, V", "Hunter, Peter, Lieutenant Governor"],
+    "tagDate": ["1803-12-15T00:00:00.000Z"]
+  },
+  "318": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagDate": ["[1812-06-24T00:00:00.000Z TO 1812-07-16T23:59:59.999Z]"],
+    "tagPerson": ["B, John", "Huyck, John", "Setler, John", "Washburn, L"]
+  },
+  "294": {
+    "tagPlace": [
+      "Town of Sandwich",
+      "York",
+      "Midland District",
+      "Township of Portland",
+      "Township of Loughborough"
+    ],
+    "tagDate": ["1808-11-25T00:00:00.000Z"],
+    "tagPerson": ["Wooding, John", "Hombrow, John", "Hombrow, Margaret"]
+  },
+  "591": {
+    "tagPerson": [
+      "Fainfield, Wm",
+      "Amy, Jonas",
+      "Collins, John",
+      "Hamilton, Amy"
+    ],
+    "tagDate": ["1772-01-01T00:00:00.000Z"]
+  },
+  "611": {
+    "tagDate": ["1788-03-24T00:00:00.000Z"],
+    "tagPerson": [
+      "Fairchild, Eleazer",
+      "Elizabeth",
+      "Booth, Abner",
+      "Booth, John, Senior"
+    ]
+  },
+  "81": {
+    "tagPerson": [
+      "Schermahorn, John",
+      "Chamberlain, Jacob, Bailey",
+      "Peterson, Nicholas",
+      "Dies, Mathew",
+      "Anderson, Nicholas",
+      "Harris, Gilbert",
+      "Bowen, Peter",
+      "Smith, Jacob"
+    ],
+    "tagDate": ["1797-07-12T00:00:00.000Z"],
+    "tagPlace": [
+      "Richmond",
+      "Yeoman",
+      "Midland District",
+      "Fredericksburg",
+      "Rawdon"
+    ]
+  },
+  "467": {
+    "tagPerson": ["Witkins, Robert, Charles", "Jones, John"],
+    "tagDate": ["1810-04-02T00:00:00.000Z"],
+    "tagPlace": [
+      "Kingston",
+      "County of Hastings",
+      "Province of Upper Canada",
+      "Midland District",
+      "Township of Sydney",
+      "Township of Ameliasburgh"
+    ]
+  },
+  "748": {
+    "tagDate": ["1787-10-01T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Cook, John"],
+    "tagPlace": ["Cataraqui", "Province of Quebec", "Kingstown"]
+  },
+  "796": {
+    "tagPlace": ["Province of Quebec", "Cataraqui"],
+    "tagDate": ["1785-10-02T00:00:00.000Z"],
+    "tagPerson": ["Hamilton, Henry", "C, Abraham", "Collins, John"]
+  },
+  "256": {
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1814-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "575": {
+    "tagPerson": ["C, Alex", "Anderson, Thomas"],
+    "tagDate": ["1788-07-02T00:00:00.000Z"]
+  },
+  "407": {
+    "tagPlace": [
+      "Ernestown",
+      "Township of Kingston Yeoman",
+      "Midland District",
+      "Township of Thurlow",
+      "Province of Upper Canada Yeoman"
+    ],
+    "tagPerson": ["Pitman, Thomas", "Powly, Francis", "Powly, Jacob"],
+    "tagDate": ["[1802-08-23T23:59:59.999Z TO 1819-05-31T00:00:00.000Z]"]
+  },
+  "618": {
+    "tagPerson": [
+      "Benson, J",
+      "Clapp, Joseph",
+      "Allen, Joseph",
+      "Canniff, James"
+    ],
+    "tagDate": ["1784-09-14T00:00:00.000Z"],
+    "tagPlace": ["Midland"]
+  },
+  "546": {
+    "tagPerson": ["Cartwight, R"],
+    "tagDate": ["[1709-12-04T00:00:00.000Z TO 1802-06-09T23:59:59.999Z]"]
+  },
+  "290": {
+    "tagDate": ["1824-03-24T00:00:00.000Z"],
+    "tagPerson": ["Hartman, David", "Hartman, Philip"],
+    "tagPlace": [
+      "Province of Upper Canada",
+      "Midland District",
+      "Township of Ernest Town Yeoman",
+      "Kingston"
+    ]
+  },
+  "311": {
+    "tagPerson": [
+      "Smith, Wm",
+      "Huffnagle, Joseph",
+      "Ridout, Chewett, J",
+      "White, W"
+    ],
+    "tagDate": ["1810-03-15T00:00:00.000Z"],
+    "tagPlace": ["Adolphustown", "York"]
+  },
+  "442": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": [
+      "Tubbs, W",
+      "Mickalls, James",
+      "Phinars",
+      "B, John",
+      "Spencer, John, Barnabas"
+    ],
+    "tagDate": ["[1824-07-08T00:00:00.000Z TO 1824-07-09T23:59:59.999Z]"]
+  },
+  "754": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": ["Hamilton, Henry", "Crawford, Captain", "Collins, John"],
+    "tagDate": ["1785-09-20T00:00:00.000Z"]
+  },
+  "598": {
+    "tagPlace": [
+      "Midland District",
+      "Quebec",
+      "Township of Camden",
+      "Township of Fredericksburg"
+    ],
+    "tagDate": ["1789-02-17T00:00:00.000Z"],
+    "tagPerson": ["Aitkin, Alex", "Benn, John", "Alstine, P, V", "Fisher, Alex"]
+  },
+  "435": {
+    "tagPerson": [
+      "Sills, Conrad",
+      "Simpson, Thomas",
+      "Sills, Robert",
+      "McDuff, Charles",
+      "Simpson, Israel"
+    ],
+    "tagDate": ["[1819-07-05T00:00:00.000Z TO 1819-07-19T23:59:59.999Z]"],
+    "tagPlace": ["Fredericksburg", "Midland District Upper Canada", "Marysburg"]
+  },
+  "634": {
+    "tagPerson": ["Beddell, Ruben", "Casey, Willet"],
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1791-11-25T23:59:59.999Z]"],
+    "tagPlace": ["Midland", "Sidney"]
+  },
+  "557": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[1784-01-01T00:00:00.000Z TO 1807-12-31T23:59:59.999Z]"]
+  },
+  "202": { "tagDate": ["1798-01-01T00:00:00.000Z"], "tagPlace": ["York"] },
+  "725": {
+    "tagPerson": [
+      "Christie, Peter ",
+      "Barron, William",
+      "D, John",
+      "Peofent, W",
+      "M, David",
+      "Clark, Hugh",
+      "Rolp, Samuel"
+    ],
+    "tagDate": ["[1787-12-31T23:59:59.999Z TO 1797-08-24T00:00:00.000Z]"],
+    "tagPlace": ["Midland"]
+  },
+  "688": {
+    "tagPlace": ["Fredericksburg", "Township of Redmond"],
+    "tagDate": ["1800-08-18T00:00:00.000Z"],
+    "tagPerson": ["Bower, Peter", "Madoff, James", "Clash, Alex"]
+  },
+  "247": {
+    "tagPlace": ["Midland District", "County of Prince Edward", " Marysburgh"],
+    "tagPerson": [
+      "Miller, Richard",
+      "Gallagher, Hugh",
+      "Hartman, Matthew",
+      "McDonnell, John",
+      "Miller, John",
+      "Ellison, Benj",
+      "G, John",
+      "W, Nathan",
+      "McDuff, Chad",
+      "M, Dan",
+      "M, Robert",
+      "McGovern, Thos",
+      "Carson, Wm",
+      "Abraham, Samuel",
+      "Doris, Henry",
+      "Middleton, Robert",
+      "Henley, John",
+      "Powell, Justus",
+      "McGowan, Thomas",
+      "Hoffman, D",
+      "Ellis, C",
+      "Collin, Peter",
+      "V, Peter",
+      "Harrison, Thomas",
+      "McIntosh, Donald",
+      "Stains, Jose",
+      "A, John",
+      "C, Ed",
+      "Fearman, John",
+      "Craipher, John",
+      "I, Henry",
+      "Abrahams, Danise",
+      "P, John",
+      "B, Henry",
+      "Molley, William",
+      "McDimmer, John",
+      "Willikey, William",
+      "Preston, Isaac",
+      "Fisher, F",
+      "Simpson, Inoch",
+      "Simpson, Israel",
+      "M, John",
+      "Wright, James",
+      "Casey, Willis",
+      "Harrison, George",
+      "M, Barth",
+      "Allan, I",
+      "Hester, Michael",
+      "Kellar, John",
+      "Marksman, Mathew",
+      "Vogley, John",
+      "P, Stephen",
+      "Pazer, John",
+      "H, John",
+      "Davis, Henry",
+      "McDonnell, Don",
+      "Kellar, Phillip",
+      "R, William",
+      "B, John",
+      "Downey, Cornelea",
+      "B, Cowan",
+      "Gantz, Christopher",
+      "Roberts, Thomas",
+      "Billy, B",
+      "Collier, Peter"
+    ],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1803-01-01T00:00:00.000Z]"]
+  },
+  "381": {
+    "tagDate": ["1826-01-01T00:00:00.000Z"],
+    "tagPerson": ["Marsh, William", "Welch, William", "Morse, Moses"],
+    "tagPlace": ["Sidney"]
+  },
+  "142": {
+    "tagDate": ["[1790-01-01T00:00:00.000Z TO 1791-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Losier, J",
+      "Haze, Stephen",
+      "P, Timothy",
+      "H, David",
+      "Jackson, James",
+      "Howard, Nancy",
+      "Howard, Jane",
+      "Howland, Samuel, Junr",
+      "Huffman, Joseph",
+      "Hogle, Elizabeth",
+      "Howland, Samuel, Senr",
+      "Hawley, Mary",
+      "Huyek, Burghes",
+      "Hartman, Ludovich",
+      "Fairfield, William",
+      "Hogan, Hugh",
+      "Ferguson, Richd",
+      "Harrison, Wm",
+      "Hagerman, Anne",
+      "Henry, Christian",
+      "Hawley, Mercy",
+      "Cameron, M",
+      "Hawley, Amy",
+      "Howell, Mathew",
+      "Henesy, Richard",
+      "Herns, Catherine",
+      "Howard, John",
+      "Hicks, Deborah",
+      "Hogle, A",
+      "Case, Josiah",
+      "Harris, Mary",
+      "Howland, Thomas",
+      "Hart, Hicks, Elizabeth",
+      "Holmes, Abraham",
+      "Hogle, John",
+      "Hogan, William",
+      "Hagerman, Abraham",
+      "Hough, Mary",
+      "Hicks, Elizabeth",
+      "Walker, Daniel",
+      "Simmons, H",
+      "Hesse, Catherine",
+      "Hover, Milleson",
+      "Ham, John",
+      "Howard, Mary",
+      "Hawley, Andrew",
+      "Rogers, W"
+    ],
+    "tagPlace": ["New York"]
+  },
+  "388": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["Walker, Edward", "B, John", "N, James", "MacLean, Allan"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1810-03-16T23:59:59.999Z]"]
+  },
+  "579": {
+    "tagDate": ["1789-02-17T00:00:00.000Z"],
+    "tagPerson": ["Fisher, Alex", "Adams, James"],
+    "tagPlace": ["Midland District"]
+  },
+  "88": {
+    "tagPlace": ["Midland", "Yeoman", "Town of Kingston"],
+    "tagDate": ["[1797-11-14T00:00:00.000Z TO 1798-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Knight, Marklon",
+      "Knight, Lahlon",
+      "McCaulay, Robert",
+      "McCaulay, William",
+      "Miller, Justus",
+      "Lionnay, John",
+      "Bellard, Toupaint",
+      "McCaulay, John",
+      "Baker, Henry",
+      "Merrit, Mary"
+    ]
+  },
+  "681": {
+    "tagDate": ["1785-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bronner, Peter"]
+  },
+  "439": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagDate": ["[1818-09-21T00:00:00.000Z TO 1819-07-17T23:59:59.999Z]"],
+    "tagPerson": ["Fairfield, Benjamin", "Smith, Humphrey", "B, John"]
+  },
+  "630": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1791-03-10T23:59:59.999Z]"],
+    "tagPerson": [
+      "Stuart, Jn",
+      "Grooms, Elijah",
+      "Cartwright, Richard",
+      "Markland, Thomas",
+      "Porter, Richard",
+      "McLean, Neil",
+      "Macaulay, Robert",
+      "H, Smith"
+    ]
+  },
+  "70": {
+    "tagPlace": [
+      "Great River Cataraqui",
+      "Yeoman",
+      "Town of Kingston",
+      "Lake Ontario",
+      "Midland Dist"
+    ],
+    "tagPerson": [
+      "Rochleau, Francis, Xavier",
+      "Herchmer, Nicholas",
+      "Brown, James",
+      "Brown, John",
+      "Wartman, Barnabas",
+      "Purdy, Micaijah",
+      "Grant, Archibald, Lieut",
+      "Grooms, Elijah",
+      "Cartwright, Richard",
+      "Ellecbec, Emanuel",
+      "Bestado, Jacob",
+      "McLean, Neil",
+      "Grant, William, Alex",
+      "Most, John"
+    ],
+    "tagDate": ["1797-01-01T00:00:00.000Z"]
+  },
+  "334": {
+    "tagDate": ["1817-05-03T00:00:00.000Z"],
+    "tagPerson": ["Loney, John", "Loney, Louis", "Macaulay, Robert"],
+    "tagPlace": [
+      "Province of Lower Canada",
+      "County of Frontenac",
+      "Upper Canada",
+      "Town of Kingston",
+      "Midland District",
+      "City of Montreal"
+    ]
+  },
+  "67": {
+    "tagPerson": [
+      "Armstrong, Edmond, Westroop",
+      "Peters, Mary Ann",
+      "Rogers, James, Major",
+      "Armstrong, John",
+      "Rogers, James"
+    ],
+    "tagDate": ["1795-06-19T00:00:00.000Z"],
+    "tagPlace": ["Cramahe", "Township of Hallowell"]
+  },
+  "262": {
+    "tagDate": ["1817-12-02T00:00:00.000Z"],
+    "tagPerson": ["Lighthall, Sarah", "Conner, Aaron"],
+    "tagPlace": [
+      "Kingston",
+      "Province of Upper Canada",
+      "Township of Marysburgh",
+      "County of Prince Edward"
+    ]
+  },
+  "493": {
+    "tagPlace": ["Township of Thurlow"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1841-07-05T23:59:59.999Z]"],
+    "tagPerson": ["G, George", "M, Edmund", "Bidwell, David"]
+  },
+  "329": {
+    "tagPerson": ["Ridout, Thos", "Loft, David"],
+    "tagDate": ["1817-07-16T00:00:00.000Z"],
+    "tagPlace": ["Township of Richmond", "York"]
+  },
+  "537": {
+    "tagDate": ["1792-02-05T00:00:00.000Z"],
+    "tagPerson": ["Aitkinson, W", "McLewis, Neil", "Harris, David"],
+    "tagPlace": ["Kingston"]
+  },
+  "350": {
+    "tagPlace": ["Marysburgh", "Midland District", "Kingston"],
+    "tagPerson": [
+      "Washburn",
+      "Fairfield, Benjamin",
+      "Lighthall, Sarah",
+      "B, John",
+      "McBean, John"
+    ],
+    "tagDate": ["[1819-07-09T23:59:59.999Z TO 1819-07-17T00:00:00.000Z]"]
+  },
+  "424": {
+    "tagPlace": [
+      "County of Lenox",
+      "County of Addington",
+      "Midland District",
+      "Kings Bench",
+      "Township of Fredericksburg",
+      "Province of Upper Canada Yeoman"
+    ],
+    "tagPerson": ["Dimond, John", "F, John"],
+    "tagDate": ["1831-01-01T00:00:00.000Z"]
+  },
+  "654": {
+    "tagPerson": [
+      "Hawley, Marlen",
+      "Hawley, Deniel",
+      "Bell, Thomas",
+      "Clock, Adam",
+      "Simpson, Mary"
+    ],
+    "tagDate": ["1798-07-18T00:00:00.000Z"],
+    "tagPlace": ["Fredericksburg"]
+  },
+  "477": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["Fairfield, Benjamin", "B, John", "Witkins, Robert, C"],
+    "tagDate": ["1818-07-06T00:00:00.000Z"]
+  },
+  "182": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1799-05-14T23:59:59.999Z]"]
+  },
+  "348": {
+    "tagPlace": ["Township of Marysburgh Yeoman", "Kingston"],
+    "tagDate": ["1819-04-10T00:00:00.000Z"],
+    "tagPerson": ["McBean, John", "McDonell, Archibald"]
+  },
+  "396": {
+    "tagDate": ["[1818-06-30T23:59:59.999Z TO 1818-07-23T00:00:00.000Z]"],
+    "tagPerson": ["Fairfield, Benjamin", "Orser, Solomon", "B, John"],
+    "tagPlace": ["Kingston", "Midland District"]
+  },
+  "505": {
+    "tagPlace": ["Midland"],
+    "tagPerson": [
+      "Purdy, Micajah",
+      "Thompson, Samuel",
+      "Hamilton, Mary",
+      "Albeston, William"
+    ],
+    "tagDate": ["[1802-08-21T00:00:00.000Z TO 1802-08-25T23:59:59.999Z]"]
+  },
+  "84": {
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1797-07-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hendrich, James",
+      "Clock, Adam",
+      "Schermahorn, William",
+      "Frair, John",
+      "Dyer, Barret",
+      "V, Peter, Lieut",
+      "German, John",
+      "Steel, Mathew",
+      "Frair, Samuel",
+      "Rattan, William",
+      "Smith, Peter, T Lt",
+      "Van Harcum, Peter",
+      "Cronk, Enoch"
+    ],
+    "tagPlace": ["Hallowell", "Murray", "Sophiasburgh"]
+  },
+  "641": {
+    "tagDate": ["1785-09-20T00:00:00.000Z"],
+    "tagPerson": [
+      "Dingman, Garrett",
+      "Ball, Thomas",
+      "Clark, S",
+      "Collins, John",
+      "Hamilton, Amy"
+    ],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "516": {
+    "tagDate": ["1802-01-01T00:00:00.000Z"],
+    "tagPerson": ["Harple, George", "Stuart, John", "Holmes, John"],
+    "tagPlace": ["Midland"]
+  },
+  "648": {
+    "tagPerson": ["Bartley, Michas", "Donovan, Florence"],
+    "tagDate": ["1784-01-01T00:00:00.000Z"],
+    "tagPlace": ["Fredericksburg"]
+  },
+  "565": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": ["L, Hugh, Allan", "Collins, John", "Haldimand, Fred"],
+    "tagDate": ["1786-09-28T00:00:00.000Z"]
+  },
+  "696": { "tagDate": ["1785-01-01T00:00:00.000Z"] },
+  "412": {
+    "tagPlace": ["W Mercer", "Midland"],
+    "tagPerson": ["Pringle, Joseph", "B, John"],
+    "tagDate": ["[1820-07-03T00:00:00.000Z TO 1820-07-06T23:59:59.999Z]"]
+  },
+  "341": {
+    "tagPlace": ["Fredericksburg", "York"],
+    "tagPerson": [
+      "Loucks, George",
+      "Ridout, Thos",
+      "Haldimand, Gov",
+      "Loucks, Jacob"
+    ],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1819-07-19T00:00:00.000Z]"]
+  },
+  "155": {
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1793-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Nappin, Andrew",
+      "Nicholson, Archibald",
+      "North, Reeds",
+      "Nehr, John",
+      "Nevelle, Anthony",
+      "Nicholl, Robert",
+      "Nebling, Ernest",
+      "Newald, Frederick",
+      "Napp, Nathan"
+    ],
+    "tagPlace": ["New York"]
+  },
+  "354": {
+    "tagPlace": ["Town of Kingston", "Midland"],
+    "tagPerson": ["B, John", "McDonald, Alexander"],
+    "tagDate": ["[1822-07-10T00:00:00.000Z TO 1822-07-11T23:59:59.999Z]"]
+  },
+  "420": {
+    "tagPlace": ["Thurlow", "York", "Sidney", "Midland"],
+    "tagDate": ["[1798-01-01T00:00:00.000Z TO 1801-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Rose, Jacob",
+      "Simmons, Rose",
+      "Ridout, Thos",
+      "Simmons, Nicholas"
+    ]
+  },
+  "650": {
+    "tagDate": ["1785-09-24T00:00:00.000Z"],
+    "tagPerson": ["Brown, C", "Hamilton, Amy", "Collins, John", "Ball, Thomas"],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "711": {
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Ladman, William",
+      "Collins, John",
+      "Berry, William",
+      "Haldimand, Fred"
+    ],
+    "tagPlace": ["Cataraqui", "Province of Quebec", "New York"]
+  },
+  "459": {
+    "tagPerson": [
+      "Wanamaker, Hermanus",
+      "Koeller, Charles",
+      "Wanamaker, Andrew"
+    ],
+    "tagDate": ["[1803-01-01T00:00:00.000Z TO 1817-07-10T23:59:59.999Z]"]
+  },
+  "629": {
+    "tagDate": ["1785-09-02T00:00:00.000Z"],
+    "tagPerson": [
+      "Hamilton, Thomas",
+      "Brewer, Aron",
+      "Moore, Thomas",
+      "Grooms, Elijah"
+    ],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "801": {
+    "tagDate": ["1796-04-04T00:00:00.000Z"],
+    "tagPerson": ["Cadman, William", "Washburn, Ebenezer", "D, William"],
+    "tagPlace": ["Province of Upper Canada", "Fredericksburg"]
+  },
+  "586": {
+    "tagPerson": ["Alstine, P, V", "Fisher, Alex", "Arnoldi, Daniel"],
+    "tagDate": ["1789-02-17T00:00:00.000Z"],
+    "tagPlace": ["Kingston", "Midland District", "Quebec"]
+  },
+  "325": {
+    "tagPerson": [
+      "Loucks, George",
+      "Ridout, Thos",
+      "Loucks, Jacob",
+      "Haldimand, General"
+    ],
+    "tagDate": ["[1801-12-31T23:59:59.999Z TO 1818-07-13T00:00:00.000Z]"],
+    "tagPlace": ["Township of Fredericksburg", "York"]
+  },
+  "482": {
+    "tagPerson": [
+      "Caldwell, William",
+      "Gallay, John",
+      "Smith, Humphry",
+      "Ridout, Thos"
+    ],
+    "tagDate": ["[1817-09-26T23:59:59.999Z TO 1819-07-08T00:00:00.000Z]"],
+    "tagPlace": ["Township of Kingston", "York", "Quebec"]
+  },
+  "77": {
+    "tagPerson": [
+      "Grant, James",
+      "Campbell, Richard",
+      "Casey, Willet",
+      "McCaulay, Robert",
+      "Inglehart, Bernard",
+      "Keller, Philip",
+      "McIntosh, Donald",
+      "Wright, Daniel",
+      "Wright, John",
+      "Hicks, Joseph",
+      "Miniker, Frederick",
+      "Simpson, Israel, Serj",
+      "Edward, Paines",
+      "Steel, Daniel",
+      "Kesler, Michael",
+      "Miller, Elisha",
+      "Newald, Frederick"
+    ],
+    "tagDate": ["1798-01-01T00:00:00.000Z"],
+    "tagPlace": ["Adolphustown", "Hallowell", "Town of Kingston", "Marysburgh"]
+  },
+  "509": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["Pembes, Philip", "Cook, Thomas", "Markland, Thomas"],
+    "tagDate": ["[1802-08-26T00:00:00.000Z TO 1802-08-30T23:59:59.999Z]"]
+  },
+  "781": {
+    "tagDate": ["1784-09-22T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Gloenig, John",
+      "Claprodt, Ernest",
+      "Collins, John"
+    ],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "193": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Smith, T"],
+    "tagDate": ["1798-01-09T00:00:00.000Z"]
+  },
+  "788": {
+    "tagPlace": [
+      "Township of Leeds",
+      "Midland District",
+      "Township of Fredericksburg",
+      "Township of Sydney",
+      "Quebec",
+      "Kingston",
+      "N York"
+    ],
+    "tagDate": ["[1789-11-09T00:00:00.000Z TO 1794-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Alstine, P, V",
+      "Crawford, Katherine",
+      "Crawford, Wm, R",
+      "Aitken, Alex",
+      "Fisher, Alen"
+    ]
+  },
+  "833": {
+    "tagPerson": ["Clark, Jams", "Jessup, Edward"],
+    "tagDate": ["1801-02-10T00:00:00.000Z"]
+  },
+  "569": {
+    "tagPlace": ["Province of Quebec"],
+    "tagDate": ["1787-10-23T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Aitkin, Alex"]
+  },
+  "455": {
+    "tagPlace": [
+      "York",
+      "Midland District",
+      "Province of Upper Canada Yeoman",
+      "Township of Fredericksburg",
+      "Kingston"
+    ],
+    "tagPerson": ["Wagore, Thomas"],
+    "tagDate": ["[1819-05-26T00:00:00.000Z TO 1819-05-31T23:59:59.999Z]"]
+  },
+  "734": {
+    "tagDate": ["1785-09-20T00:00:00.000Z"],
+    "tagPerson": [
+      "Clock, Adam",
+      "Hamilton, Henry",
+      "Toner, Samuel",
+      "Collins, John"
+    ],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "66": {
+    "tagPerson": [
+      "Crawford, William",
+      "Rogers, David, McGregor",
+      "Staples, Ebenezer",
+      "Allen, Joseph",
+      "Ferguson, Jonathan",
+      "Crawford, Wm, Redford",
+      "Rogers, Margaret",
+      "Ferguson, Jacob",
+      "Vandewert, Michael",
+      "Rattan, Peter, Captain",
+      "Demorest, William",
+      "White, Nathaniel",
+      "Peterson, Christian",
+      "Rogers, James, Major"
+    ],
+    "tagDate": ["[1788-10-22T23:59:59.999Z TO 1802-05-18T00:00:00.000Z]"],
+    "tagPlace": [
+      "Sophiasburgh",
+      "Cramahe",
+      "Hallowell",
+      "Yeoman",
+      "Marysburgh",
+      "Town of Kingston"
+    ]
+  },
+  "808": {
+    "tagDate": ["1794-02-24T00:00:00.000Z"],
+    "tagPerson": [
+      "Johnston, James",
+      "Redford, Thos",
+      "Robins, James",
+      "Booth, Joshua",
+      "MacDonell, Donato",
+      "Watt, Geo",
+      "Collard, Abraham"
+    ],
+    "tagPlace": ["Kingston", "Ernest Town"]
+  },
+  "272": {
+    "tagPerson": ["Hartman, David", "Ridout, Thos"],
+    "tagDate": ["1819-07-16T00:00:00.000Z"],
+    "tagPlace": ["York"]
+  },
+  "675": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagDate": ["1784-09-28T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Burnett, John",
+      "Burnett, J",
+      "Collins, John"
+    ]
+  },
+  "705": {
+    "tagPlace": ["Midland"],
+    "tagPerson": [
+      "Baker, John",
+      "Baker, Frederick",
+      "Lole, Joseph",
+      "Hofman, J",
+      "Longwill, John"
+    ],
+    "tagDate": ["[1789-12-31T23:59:59.999Z TO 1792-02-11T00:00:00.000Z]"]
+  },
+  "222": {
+    "tagDate": ["[1798-07-11T00:00:00.000Z TO 1798-07-13T23:59:59.999Z]"],
+    "tagPerson": ["P, R"]
+  },
+  "646": {
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Barclay, Michl",
+      "Collins, John",
+      "Donavan, Florence"
+    ],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "518": {
+    "tagPerson": [
+      "Hennissy, George",
+      "Bull, Boyer",
+      "Earl, Hugh",
+      "Anderson, Alexander"
+    ],
+    "tagDate": ["1802-01-01T00:00:00.000Z"],
+    "tagPlace": ["Midland"]
+  },
+  "391": {
+    "tagPerson": ["B, John", "Orser, Solomon", "Fairchild, Banjamin"],
+    "tagDate": ["[1809-06-30T00:00:00.000Z TO 1819-07-04T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Midland District"]
+  },
+  "698": {
+    "tagDate": ["[1787-10-18T00:00:00.000Z TO 1792-03-06T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hamilton, Henry",
+      "Martin, Amos",
+      "Ball, Jacob",
+      "Ball, T",
+      "Collins, John",
+      "J, Peter",
+      "Ball, Solomon",
+      "Jackson, Jethro"
+    ]
+  },
+  "346": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["[1817-06-18T00:00:00.000Z TO 1817-07-14T23:59:59.999Z]"],
+    "tagPerson": ["B, John", "Connor, Anna", "Connor, Aaron", "Loyd, Hannah"]
+  },
+  "89": {
+    "tagPlace": ["Adolphustown"],
+    "tagDate": ["[1799-07-12T23:59:59.999Z TO 1803-08-17T00:00:00.000Z]"],
+    "tagPerson": [
+      "Huff, Paul",
+      "Huyck, John",
+      "Vandazen, Conrad, L",
+      "Dorland, Thomas",
+      "Trumpour, Paul",
+      "Hagerman, Nicholas",
+      "Smith, Richard",
+      "V, Peter",
+      "Ridout, Chewett, V",
+      "Robins, Wm",
+      "Lewis, Bernard",
+      "Peterson, C"
+    ]
+  },
+  "691": {
+    "tagPlace": ["Province of Quebec"],
+    "tagDate": ["1787-10-02T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Bestado, Jacob"]
+  },
+  "511": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["1802-08-30T00:00:00.000Z"],
+    "tagPerson": [
+      "Cook, Thomas",
+      "Kirby, John",
+      "McCanley, Robert",
+      "Forsyth, Joseph"
+    ]
+  },
+  "398": {
+    "tagPerson": ["Palmer, Ebenezer", "Parry, William"],
+    "tagDate": ["[1800-08-13T00:00:00.000Z TO 1801-05-16T23:59:59.999Z]"],
+    "tagPlace": ["County of Addington Yeoman", "Kingston", "Hallowell"]
+  },
+  "716": {
+    "tagDate": ["[1797-02-15T00:00:00.000Z TO 1797-02-16T23:59:59.999Z]"],
+    "tagPerson": ["Bell, W", "Bell, Duncan"],
+    "tagPlace": ["Fredericksburg"]
+  },
+  "375": {
+    "tagDate": ["[1810-01-29T00:00:00.000Z TO 1810-03-17T23:59:59.999Z]"],
+    "tagPerson": [
+      "Monsell, William",
+      "Chewett, William",
+      "B, John",
+      "MacLean, Allan"
+    ],
+    "tagPlace": ["Midland District"]
+  },
+  "765": {
+    "tagPlace": ["New York", "Province of Quebec", "Cataraqui"],
+    "tagDate": ["1782-09-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Corbinan, Jacob",
+      "Mehr, John",
+      "Haldimand, Fred",
+      "Collins, John"
+    ]
+  },
+  "819": {
+    "tagPlace": ["Fredericksburg"],
+    "tagDate": ["1790-04-10T00:00:00.000Z"],
+    "tagPerson": ["R, John", "Carscallen, John", "Carscallen, Luke"]
+  },
+  "127": {
+    "tagDate": ["[1792-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Babcock, Jesse",
+      "Bissell, Alexander",
+      "Blakley, James",
+      "Brady, James",
+      "Babcock, Samuel",
+      "Bevis, Andrew",
+      "Brewer, Aaron",
+      "Booth, Jesse",
+      "Buis, Stephen",
+      "Burnet, Thomas",
+      "Brown, William",
+      "Burnet, Mathew",
+      "Buck, George",
+      "Brass, David",
+      "Burton, Zedekiah",
+      "Baker, John",
+      "Brown, James",
+      "Babcock, Huldah",
+      "Brooks, George",
+      "Bowman, I",
+      "Booth, Joshua",
+      "Blount, Cornelius",
+      "Beatske, Henry",
+      "Briscoe, Isaac",
+      "Burnet, John",
+      "Bonn, Margaret",
+      "Bestido, Jacob"
+    ]
+  },
+  "443": {
+    "tagDate": ["1809-12-01T00:00:00.000Z"],
+    "tagPerson": ["Crane, Elisha", "Storms, Mary", "Storms, Jeremiah"],
+    "tagPlace": [
+      "Province of Upper Canada",
+      "Midland District",
+      "Township of Marysburgh",
+      "Kingston"
+    ]
+  },
+  "72": {
+    "tagPlace": [
+      "Loughborough",
+      "Portland",
+      "Marysburgh",
+      "Town of Kingston",
+      "Yeoman"
+    ],
+    "tagDate": ["[1794-05-24T00:00:00.000Z TO 1801-03-17T23:59:59.999Z]"],
+    "tagPerson": [
+      "Pember, Philip",
+      "Knowlton, Jonathan",
+      "Herlin, John",
+      "Purdy, Micaijah",
+      "Cumming, John",
+      "Loyd, Wm",
+      "Harrison, William",
+      "Norman, Archibald",
+      "McLeod, John",
+      "Hancock, John",
+      "McLeon, Neil",
+      "Kertlin, John",
+      "Howe, William",
+      "Phio, Hugh, M",
+      "Loyd, John",
+      "Harrison, John",
+      "Smith, Peter"
+    ]
+  },
+  "203": {
+    "tagPlace": ["Sidney", "Marysburgh", "Camden", "Sophiasburgh"],
+    "tagPerson": [
+      "McDonell, Donald",
+      "Ferguson, John",
+      "Knight, Mahlon",
+      "Forsyth, Jos",
+      "F, Chris",
+      "Gilbert, Sam, B",
+      "McDonell, S",
+      "V, Peter",
+      "Gilbert, Caleb"
+    ],
+    "tagDate": ["1798-01-29T00:00:00.000Z"]
+  },
+  "709": {
+    "tagPlace": [
+      "District of Mecklenburgh",
+      "Kingston",
+      "Township of Sydney",
+      "Province of Quebec",
+      "Township of Ernest Town"
+    ],
+    "tagDate": ["[1787-06-02T23:59:59.999Z TO 1792-03-07T00:00:00.000Z]"],
+    "tagPerson": [
+      "Stuart, John",
+      "Buis, Elizabeth",
+      "Aitken, Alex",
+      "Porter, Richard",
+      "McLean, Neil",
+      "G, R"
+    ]
+  },
+  "470": {
+    "tagPerson": ["Jones, John", "Ridout, C"],
+    "tagDate": ["1810-06-09T00:00:00.000Z"],
+    "tagPlace": ["Township of Sidney", "York", "Quebec"]
+  },
+  "806": {
+    "tagPlace": ["Township of Richmond", "County of Lenox", "Midland District"],
+    "tagPerson": [
+      "Commer, Bryan",
+      "Crawford, Bryan",
+      "Bower, Jasper",
+      "Aurlbut, Thomas"
+    ],
+    "tagDate": ["1797-09-26T00:00:00.000Z"]
+  },
+  "581": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": ["Collins, John", "Hamilton, Amy", "Amold, James"],
+    "tagDate": ["1785-09-02T00:00:00.000Z"]
+  },
+  "284": {
+    "tagPerson": ["MacLean, Allan", "B, John", "Hartman, Philip"],
+    "tagDate": ["[1820-05-01T00:00:00.000Z TO 1820-07-06T23:59:59.999Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "786": {
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1790-03-10T23:59:59.999Z]"],
+    "tagPerson": [
+      "Cartwright, Richard",
+      "Carpenter, Jacob",
+      "Stuart, M",
+      "McLean, Neil",
+      "Aitken, Alexander"
+    ],
+    "tagPlace": [
+      "Province of Quebec",
+      "Township of Richmond",
+      "Kingston",
+      "District of Mecklenburgh"
+    ]
+  },
+  "357": {
+    "tagPlace": [
+      "Township of Kingston",
+      "Township of Ernest Town",
+      "Province of Upper Canada",
+      "Midtown District"
+    ],
+    "tagPerson": [
+      "MacLean, Allan",
+      "Fairfield, Banjamin",
+      "Fairfield, William"
+    ],
+    "tagDate": ["1826-02-01T00:00:00.000Z"]
+  },
+  "427": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1831-07-08T23:59:59.999Z]"],
+    "tagPerson": ["Casey, W", "B, John", "Rofs, Wright", "Mikalls, James"],
+    "tagPlace": ["Midland District", "Kingston"]
+  },
+  "657": {
+    "tagPerson": [
+      "Bronner, Peter",
+      "Trumpour, Paul",
+      "Trumpour, Joseph",
+      "Parsals, John",
+      "Trumpbouer, John"
+    ],
+    "tagDate": ["[1784-12-31T23:59:59.999Z TO 1793-01-01T00:00:00.000Z]"]
+  },
+  "143": {
+    "tagPlace": ["New York"],
+    "tagDate": ["1794-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Horning, John",
+      "Hawley, Jehiel",
+      "Hillyer, Nathaniel",
+      "Hawley, Jeptha",
+      "Huffman, Jacob",
+      "Hess, Jacob",
+      "Hall, Richard",
+      "Hagerman, Christopher",
+      "Harkimer, Jost",
+      "Huff, James",
+      "Hawley, Davis",
+      "Huff, Barnabas",
+      "Hough, John",
+      "Hawley, Zadoc",
+      "Hawley, Martin",
+      "Howe, William",
+      "Hough, Asa",
+      "Holmes, John",
+      "Hogle, James",
+      "Huffman, David",
+      "Hartman, David",
+      "Hicks, Louis",
+      "Huggman, Coontooth",
+      "Hawley, Ichabod",
+      "Huffman, Josiah",
+      "Hogle, Sebastian",
+      "Hawley, Sheldon",
+      "Havens, Abigail",
+      "Harley, James",
+      "Harper, George",
+      "Huffman, Joseph"
+    ]
+  },
+  "231": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1798-12-27T23:59:59.999Z]"],
+    "tagPerson": ["I, John", "Smith, D"]
+  },
+  "534": {
+    "tagPlace": ["Kingston", "District of Mecklenburg"],
+    "tagPerson": ["A, Alex"],
+    "tagDate": ["1789-11-05T00:00:00.000Z"]
+  },
+  "815": {
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Carucallin, James",
+      "Collins, James",
+      "McDonell, Allin"
+    ],
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPlace": ["Cataraqui", "Province of Quebec"]
+  },
+  "263": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[1818-06-29T23:59:59.999Z TO 1818-07-07T00:00:00.000Z]"],
+    "tagPerson": ["Lighthall, Sarah", "B, John", "Conner, Aaron"]
+  },
+  "379": {
+    "tagPlace": ["Midland District", "Kingston"],
+    "tagPerson": ["Morse, Moses", "B, John", "MacLean, Allan"],
+    "tagDate": ["[1829-04-10T00:00:00.000Z TO 1829-07-16T23:59:59.999Z]"]
+  },
+  "769": {
+    "tagPerson": [
+      "Cornell, Winckey",
+      "Bogert, Abraham",
+      "Cornell, John",
+      "Cornell, Albert",
+      "Bogert, Mary"
+    ],
+    "tagDate": ["1796-07-07T00:00:00.000Z"]
+  },
+  "474": {
+    "tagDate": ["1818-07-06T00:00:00.000Z"],
+    "tagPerson": ["Ridout, Thos", "Jones, John"],
+    "tagPlace": ["Midland", "Quebec", "Sidney", "York"]
+  },
+  "280": {
+    "tagPerson": [
+      "MacLean, Allan",
+      "Hartman, Lewis",
+      "Fraser, Isaac",
+      "B, John",
+      "Hartman, Philip"
+    ],
+    "tagDate": ["[1819-05-11T23:59:59.999Z TO 1819-06-29T00:00:00.000Z]"],
+    "tagPlace": ["Midland District", "Sydney", "Kingston"]
+  },
+  "371": {
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1819-06-30T00:00:00.000Z]"],
+    "tagPerson": [
+      "Fairchild, Banjamin",
+      "Forsyth, Joseph",
+      "B, John",
+      "Stewart, Alexander"
+    ],
+    "tagPlace": ["Midland District", "Kingston"]
+  },
+  "761": {
+    "tagPerson": [
+      "Dorland, Tho",
+      "Woodcock, I",
+      "Woodcock, John",
+      "Casey, Willet",
+      "Casey, William",
+      "Coon, Simon"
+    ],
+    "tagDate": ["[1787-06-16T00:00:00.000Z TO 1788-10-14T23:59:59.999Z]"]
+  },
+  "708": {
+    "tagDate": ["[1783-12-31T23:59:59.999Z TO 1789-11-09T00:00:00.000Z]"],
+    "tagPerson": [
+      "Grant, William",
+      "Delery, J, GC",
+      "Caldwell, Henry",
+      "H, Edwn",
+      "Finlay, Hugh",
+      "Buis, Elizabeth",
+      "DelaNaudiere, Chas",
+      "Baby, Francois",
+      "C, John",
+      "Dupre, Le Cte",
+      "Hartman, David",
+      "Smith, William",
+      "Pownall, George",
+      "Williams, J",
+      "M, Adam",
+      "Dunn, Thos"
+    ],
+    "tagPlace": [
+      "District of Mecklenburgh",
+      "Township of Ernest Town",
+      "Quebec"
+    ]
+  },
+  "678": {
+    "tagPerson": ["Van Veghten, Herman", "Deuren, Alex", "Bronner, Peter"],
+    "tagDate": ["1803-04-14T00:00:00.000Z"]
+  },
+  "834": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPerson": ["Bradshaw, D", "Haldimand, Fred", "Collins, John", "Lucas, A"]
+  },
+  "462": {
+    "tagPerson": [
+      "Wanamaker, Hermanus",
+      "Koeller, Charles",
+      "Wanamaker, Andrew"
+    ],
+    "tagDate": ["1816-01-01T00:00:00.000Z"],
+    "tagPlace": ["Ameliasburgh", "Kingston", "Midland District"]
+  },
+  "156": {
+    "tagPlace": ["New York"],
+    "tagPerson": [
+      "Orser, Sarah",
+      "Ogden, Walley",
+      "Oshum, R",
+      "Dyer, Benneth",
+      "Oliver, Mary",
+      "Orser, Isaac",
+      "Osburn, Nathaniel",
+      "Osburn, James",
+      "Orser, Solomon",
+      "Orser, Arthur",
+      "Osburn, Richard",
+      "V, Garret",
+      "Orser, Gilbert",
+      "Orser",
+      "Wright, June",
+      "OReilly, Dennis"
+    ],
+    "tagDate": ["[1788-07-19T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"]
+  },
+  "695": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": [
+      "Allen, Joseph",
+      "Poster, Richard",
+      "Cryderman, Michael",
+      "McLean, Neil",
+      "Cannon, John",
+      "A, John"
+    ],
+    "tagDate": ["1795-07-22T00:00:00.000Z"]
+  },
+  "566": {
+    "tagDate": ["[1784-12-31T23:59:59.999Z TO 1786-05-07T00:00:00.000Z]"],
+    "tagPerson": ["Gale, Jame", "H, Dan"],
+    "tagPlace": ["Midland", "Cataraqui"]
+  },
+  "515": {
+    "tagPlace": ["Township of Kingston", "Midland District", "Loughborough"],
+    "tagDate": ["1802-09-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Stuart, John, Revd",
+      "Sherwood, Samuel",
+      "Holmes, John",
+      "Rogie, John",
+      "Ken, Robert",
+      "Harple, George"
+    ]
+  },
+  "239": { "tagPlace": ["Midland"], "tagDate": ["1799-01-01T00:00:00.000Z"] },
+  "395": {
+    "tagDate": ["[1818-06-30T23:59:59.999Z TO 1818-07-23T00:00:00.000Z]"],
+    "tagPerson": ["Orser, Solomon", "B, John", "Fairfield, Benjamin"],
+    "tagPlace": ["Midland District", "Kingston"]
+  },
+  "506": {
+    "tagPlace": ["Midland District", "District of Johnstown"],
+    "tagDate": ["1802-08-25T00:00:00.000Z"],
+    "tagPerson": [
+      "Smith, Daniel",
+      "Stuart, Charles",
+      "Bedell, Ruben",
+      "Cartwright, Richard",
+      "Casey, Willet",
+      "Roses, Daniels"
+    ]
+  },
+  "68": {
+    "tagPerson": [
+      "Richards, Owen",
+      "McCaulay, William",
+      "Tufalt, Henry",
+      "Wemple, Barnabas",
+      "Bowerman, Jonathan",
+      "Cronkhite, Jacob",
+      "Miller, Johannes",
+      "Cunningham, William",
+      "Striker, Sampson",
+      "Blair, Robert",
+      "Vandewert, Michael, Lt",
+      "Howard, John, Lt",
+      "Blair, James",
+      "Peters, John",
+      "Armstrong, James, Rogers",
+      "Miller, Jonathan",
+      "Hovenden, Moore, Lieut"
+    ],
+    "tagDate": ["1795-06-19T00:00:00.000Z"],
+    "tagPlace": ["Hallowell", "Cramahe", "Amherst Island", "Town of Kingston"]
+  },
+  "402": {
+    "tagPlace": ["Midland District", "Kingston"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1820-07-11T23:59:59.999Z]"],
+    "tagPerson": ["Pitman, Thos", "MacLean, Allan", "B, John"]
+  },
+  "194": {
+    "tagDate": ["1798-01-01T00:00:00.000Z"],
+    "tagPlace": ["York", "Midland District"]
+  },
+  "589": {
+    "tagPerson": [
+      "Collins, John",
+      "Antson, Solomon",
+      "Haldimond, Fred",
+      "Antson, Gilbert"
+    ],
+    "tagDate": ["1784-09-28T00:00:00.000Z"],
+    "tagPlace": ["Cataraqui", "Province of Quebec"]
+  },
+  "87": {
+    "tagPlace": ["Quebec", "Grand River Cataraqui", "Town of Kingston"],
+    "tagPerson": [
+      "Cain, Francis",
+      "Stauber, John",
+      "Earl, Hugh",
+      "Grooms, Elijah",
+      "McLean, Allan",
+      "Clark, James",
+      "Haldimand, Genl",
+      "McDonell, Donald",
+      "Bernsley, Peter",
+      "Baker, Henry",
+      "Monsell, William",
+      "McCollins",
+      "Younge, George",
+      "Cumming, John"
+    ],
+    "tagDate": ["[1784-10-08T00:00:00.000Z TO 1797-12-31T23:59:59.999Z]"]
+  },
+  "671": {
+    "tagPerson": [
+      "McLean, Neil",
+      "Allan, Joseph, Captain",
+      "Hay, Geofrey",
+      "Cartwright, Richard"
+    ],
+    "tagDate": ["1791-01-26T00:00:00.000Z"],
+    "tagPlace": ["Kingston"]
+  },
+  "447": {
+    "tagPlace": ["Upper Canada", "Midland District", "Township of Hallowell"],
+    "tagDate": ["1833-05-20T00:00:00.000Z"],
+    "tagPerson": ["Trumpour, John, P", "Trumpour, Paul", "Markburn, Simon"]
+  },
+  "701": {
+    "tagPlace": ["Province of Quebec", "Cataraqui"],
+    "tagDate": ["1785-09-20T00:00:00.000Z"],
+    "tagPerson": [
+      "Bebec, Peter",
+      "Hamilton, Henry",
+      "Collins, John",
+      "Bower, Peter"
+    ]
+  },
+  "830": {
+    "tagPlace": ["Province of Quebec", "Cataraqui"],
+    "tagDate": ["1785-08-21T00:00:00.000Z"],
+    "tagPerson": ["Ruttan, Captain", "Cole, Dante", "Hamilton, Amy"]
+  },
+  "378": {
+    "tagPlace": ["Township of Sidney Yeoman", "Midland District"],
+    "tagDate": ["1829-04-06T00:00:00.000Z"],
+    "tagPerson": ["Marsh, William", "Morse, Moses", "Welch, William"]
+  },
+  "768": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": [
+      "Jones, William",
+      "Collins, John",
+      "Cornell, Albert",
+      "Hamilton, Henry"
+    ],
+    "tagDate": ["1785-09-24T00:00:00.000Z"]
+  },
+  "123": {
+    "tagPlace": ["State of New York"],
+    "tagPerson": [
+      "Allan, Joseph",
+      "Alverson, William",
+      "Althouse, Nicholas",
+      "Akerman, Margaret",
+      "Ashly, Margaret",
+      "Ashly, Elias",
+      "Armstrong, Thomas",
+      "Allan, John",
+      "Anderson, Jane",
+      "Atkinson, William",
+      "Alexander, Reynolds",
+      "A, James",
+      "A, Christian",
+      "Alley, Elias",
+      "Arkland, Dedrich",
+      "Bush, George",
+      "Allen, Hugh",
+      "Ansley, Amos",
+      "A, John",
+      "Abbot, William",
+      "Abrahams, Christian",
+      "Amey, Jonas",
+      "Arnoldi, Daniel",
+      "Arnold, James",
+      "Amey, Nicholas",
+      "M, Abram, Capt",
+      "A, Peter"
+    ],
+    "tagDate": ["[1793-12-31T23:59:59.999Z TO 1794-01-01T00:00:00.000Z]"]
+  },
+  "61": {
+    "tagPerson": [
+      "Powley, Jacob",
+      "Thompson, Eliza",
+      "Palmer, David",
+      "Bradshaw, Lucas",
+      "Daily, Peter",
+      "Geber, John",
+      "Hartman, Jacob",
+      "Hecks, Dalton",
+      "Finkle, George",
+      "Bower, Gasper",
+      "Gordineer, Henry",
+      "Neville, Anthony",
+      "Hess, Jacob",
+      "DelCot, Serjeant",
+      "Lucas, Amos",
+      "Dafoe, George",
+      "Redford, Thomas",
+      "Heck, Paul",
+      "Bradshaw, David",
+      "Caswell, Stephen",
+      "Bells, Thomas",
+      "Wager, Thomas",
+      "Pickle, John",
+      "Markland, Thomas",
+      "Detlor, Peter",
+      "Rogers, Major"
+    ],
+    "tagDate": ["1797-11-18T00:00:00.000Z"],
+    "tagPlace": [
+      "Ernest Town",
+      "Thurlow",
+      "Town of Kingston",
+      "Quebec",
+      "Yeoman",
+      "Fredericksburg",
+      "Midland District"
+    ]
+  },
+  "811": {
+    "tagPerson": ["Conklin, Phebe", "Conklin, John", "S, Robert"],
+    "tagDate": ["1795-03-29T00:00:00.000Z"]
+  },
+  "552": {
+    "tagPerson": ["Stuwart, John", "McGean, Neil", "Aitkinson, W, Alexander"],
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1791-04-20T23:59:59.999Z]"],
+    "tagPlace": ["District of Mecklenburg", "Kingston", "Province of Quebec"]
+  },
+  "456": {
+    "tagPerson": ["B, John", "N, Thomas", "Mickalls, James"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1820-07-11T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Midland District"]
+  },
+  "519": {
+    "tagDate": ["1802-09-03T00:00:00.000Z"],
+    "tagPerson": [
+      "Oscar, Solomon",
+      "Murdoff, John",
+      "Wastman, Barnabas",
+      "McNabb, James"
+    ],
+    "tagPlace": ["Township of Kingston", "Midland District"]
+  },
+  "353": {
+    "tagPlace": ["Town of Kingston", "Midland"],
+    "tagDate": ["[1822-05-22T00:00:00.000Z TO 1822-07-11T23:59:59.999Z]"],
+    "tagPerson": ["McDonald, Alexander", "B, John"]
+  },
+  "699": {
+    "tagDate": ["1785-09-20T00:00:00.000Z"],
+    "tagPerson": [
+      "Collins, John",
+      "Hamilton, Henry",
+      "Smith, William",
+      "Bogart, Francis"
+    ],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "490": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["Rorke, William", "Wright, John", "B, John"],
+    "tagDate": ["1835-07-13T00:00:00.000Z"]
+  },
+  "147": {
+    "tagDate": ["[1790-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Keller, Philip",
+      "Keaf, Francis",
+      "Kekoe, John",
+      "Kalier, Peter",
+      "Kerr, Robert",
+      "Kernel, Joseph",
+      "Kemp, James",
+      "Knap, Ephraim",
+      "Kelly, David",
+      "Kimmerly, Andrew",
+      "Kraigel, John",
+      "Kemp, John, Senr",
+      "Kesler, Michael",
+      "K, Michael",
+      "Kerr, John",
+      "Kennedy, David",
+      "Krukel, Nicholas",
+      "Keller, Charles",
+      "Knight, Mahlor",
+      "Kelly, Patrick",
+      "Kemp, R",
+      "Koening, John"
+    ],
+    "tagPlace": ["N York", "New Jersey"]
+  },
+  "653": {
+    "tagPerson": [
+      "Hamilton, Henry",
+      "Bibby, Peter",
+      "Collins, John",
+      "Redding, Francis"
+    ],
+    "tagDate": ["1783-09-21T00:00:00.000Z"],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "423": {
+    "tagPerson": ["B, John", "Rose, Jacob"],
+    "tagDate": ["[1818-07-05T00:00:00.000Z TO 1818-07-11T23:59:59.999Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "74": {
+    "tagPlace": ["Marysburgh", "Hallowell"],
+    "tagPerson": [
+      "Larson, William",
+      "M, Jacob",
+      "Simmerman, Henry",
+      "Keeler",
+      "Viele, Chirk",
+      "Englehart, Barnhart",
+      "McDonell, William",
+      "McDonell, Henry",
+      "Abrahams, Christian",
+      "North, Reeds",
+      "Abrahams, Daniel",
+      "Cummings, John",
+      "Biby, Richard",
+      "Mitch, Jacob",
+      "Margeson, Thomas",
+      "Merkle, John",
+      "North, James",
+      "McDonell, John",
+      "Collier, Peter"
+    ],
+    "tagDate": ["1797-01-01T00:00:00.000Z"]
+  },
+  "494": {
+    "tagPerson": [
+      "Zarick, Philip",
+      "Williams, Nathan",
+      "Burly, John",
+      "Naw, William"
+    ],
+    "tagDate": ["[1798-09-19T00:00:00.000Z TO 1800-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Midland", "Kingston"]
+  },
+  "399": {
+    "tagPlace": ["York", "Ernest Town"],
+    "tagPerson": [
+      "Pitman, Rafael",
+      "Hawley, Jeptha",
+      "Ridout, Thos",
+      "Schrawder, Magnus",
+      "Snider, John"
+    ],
+    "tagDate": ["1820-07-06T00:00:00.000Z"]
+  },
+  "102": {
+    "tagPlace": [
+      "Midland District",
+      "Fredericksburg",
+      "Quebec",
+      "Yeoman",
+      "Sidney"
+    ],
+    "tagDate": ["1797-11-18T00:00:00.000Z"],
+    "tagPerson": [
+      "Barnheart, Charles",
+      "Green, Roger",
+      "Thompson, Samuel",
+      "Thomson, William",
+      "Fisher, Alexander",
+      "Dies, Mathew",
+      "Ferguson, Alexander",
+      "Fraser, William",
+      "Fraser, Jane",
+      "Rote, George",
+      "Fitchett, Richard",
+      "Campbell, Archd",
+      "Keler, Frederick",
+      "Vanderhyden, David",
+      "Kitcheson, William",
+      "McNabb, Mary Ann",
+      "Grant, John",
+      "Fraser, Margaret"
+    ]
+  },
+  "326": {
+    "tagPlace": [
+      "Kingston",
+      "Province of Upper Canada Yeoman",
+      "Township of Fredericksburg",
+      "Midland District"
+    ],
+    "tagDate": ["1818-02-02T00:00:00.000Z"],
+    "tagPerson": [
+      "Loucks, Jacob",
+      "Kemp, John",
+      "Loucks, George",
+      "Loucks, Abraham"
+    ]
+  },
+  "818": {
+    "tagPlace": ["Province of Quebec", "Cataraqui", "New York"],
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Carscallen, Luke",
+      "Collins, John",
+      "Carscallen, John"
+    ]
+  },
+  "267": {
+    "tagPlace": ["Thurlow", "York"],
+    "tagDate": ["1818-07-13T00:00:00.000Z"],
+    "tagPerson": ["Aitken", "Ridout, Thos", "Embury, Andrew"]
+  },
+  "766": {
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1790-06-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Chartres, Hannah",
+      "Stuart, M",
+      "Aitken, Alexander",
+      "C, Rick",
+      "B, Joseph"
+    ],
+    "tagPlace": [
+      "Kingston",
+      "District of Mecklenburgh",
+      "Township of Sydney",
+      "Province of Quebec",
+      "Township of Ernest Town"
+    ]
+  },
+  "376": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": [
+      "B, John",
+      "Monsell, William",
+      "Chewett, William",
+      "MacLean, Allan"
+    ],
+    "tagDate": ["[1810-01-29T23:59:59.999Z TO 1810-03-17T00:00:00.000Z]"]
+  },
+  "533": {
+    "tagDate": ["1789-02-17T00:00:00.000Z"],
+    "tagPerson": ["Brisco, Nathan", "Stuart, John", "McLean, Neil"],
+    "tagPlace": ["District of Mecklenburg"]
+  },
+  "715": {
+    "tagPerson": [
+      "Collins, John",
+      "Bell, William",
+      "Haldimand, Fred",
+      "Bell, Duncan"
+    ],
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "264": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[1818-06-29T23:59:59.999Z TO 1818-07-06T00:00:00.000Z]"],
+    "tagPerson": ["B, John", "Lighthall, Sarah", "Conner, Aaron"]
+  },
+  "508": {
+    "tagPerson": [
+      "Giles, Thomas",
+      "Pembes, Philip",
+      "Cook, Thomas",
+      "McFarlane, John",
+      "Markland, Thomas",
+      "Franklin, Joseph",
+      "Greensmith, J, T"
+    ],
+    "tagDate": ["[1802-08-26T00:00:00.000Z TO 1802-08-30T23:59:59.999Z]"],
+    "tagPlace": [
+      "Town of Kingston",
+      "Township of Portland",
+      "Camden Midland District",
+      "Township of Newton Midland District",
+      "Loughborough"
+    ]
+  },
+  "332": {
+    "tagPerson": ["Lotf, John", "McNabb, James", "B, John", "Macaulay, Robert"],
+    "tagDate": ["[1817-07-14T00:00:00.000Z TO 1817-07-19T23:59:59.999Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "200": {
+    "tagPlace": [
+      "Loughborough",
+      "Fredericksburg",
+      "Ameliasburg",
+      "Marysburgh",
+      "Thurlow"
+    ],
+    "tagPerson": [
+      "Washburn, E",
+      "Richardson, James",
+      "Foster, John",
+      "Taylor, John",
+      "McDonell, D",
+      "McPherson, Daniel",
+      "Meyers, John, W",
+      "Pringle, Jos",
+      "Brooks, Geo",
+      "Borman, L",
+      "Spencer, K",
+      "Vanalstyne, Peter",
+      "Stenley, Tobias",
+      "Aitkins, Wm",
+      "P, Fred, K",
+      "McDonell, Archd",
+      "McLoyd, M, Wm",
+      "McCollins",
+      "Miller, Andrew",
+      "Williams, Albert",
+      "McCaulay, A",
+      "Zearman",
+      "Hamilton"
+    ],
+    "tagDate": ["[1790-12-29T23:59:59.999Z TO 1797-03-21T00:00:00.000Z]"]
+  },
+  "345": {
+    "tagPerson": [
+      "Loyd, Anna",
+      "Loyd, Thomas",
+      "Connor, Anna",
+      "Thompson, Robert",
+      "Loyd, Hannah",
+      "Macaulay, Robert"
+    ],
+    "tagDate": ["[1817-04-01T00:00:00.000Z TO 1817-05-18T23:59:59.999Z]"],
+    "tagPlace": [
+      "Pines Edwards Bay",
+      "Midland District",
+      "Township of Marysburgh",
+      "County of Prince Edward",
+      "Kingston"
+    ]
+  },
+  "151": {
+    "tagPerson": [
+      "McGinn, George",
+      "McPherson, Kenneth",
+      "McDonnell, Isabella",
+      "McMahon, John",
+      "McDonell, Ronald",
+      "McNull, James",
+      "Dellor, Valentine",
+      "McKay, Samuel",
+      "McColloch, Charles",
+      "McMullen, Catherine",
+      "McMullan, Hugh",
+      "McKenny, John",
+      "McCarthy, Christopher",
+      "McLean, Mary",
+      "McDonell, Alexander",
+      "McMullon, Alexander",
+      "McLeod, Norman, Arch",
+      "McKinzie, Barbara",
+      "McFarlin, John",
+      "McNutt, Sarah",
+      "McMullon, Angus",
+      "McGreen, William",
+      "McDonell, Hugh",
+      "McGreen, Josephine",
+      "Woodcock, Owen",
+      "McDonell, Jean",
+      "Woodcock, John",
+      "McCulloch, Charles",
+      "Johnson, C",
+      "McNutt, James",
+      "McManlen, Mary",
+      "McMullon, Patrick",
+      "McGuin, Daniel",
+      "McNeal, Thomas",
+      "Maricle, Jacob",
+      "Peterson, Nick"
+    ],
+    "tagDate": ["[1793-12-31T23:59:59.999Z TO 1794-01-01T00:00:00.000Z]"],
+    "tagPlace": ["Scotland", "New York", "Kingston"]
+  },
+  "789": {
+    "tagPlace": ["Province of Quebec", "Cataraqui"],
+    "tagPerson": ["Church, Oliver", "Collins, John"],
+    "tagDate": ["1785-10-10T00:00:00.000Z"]
+  },
+  "283": {
+    "tagDate": ["1820-05-01T00:00:00.000Z"],
+    "tagPerson": ["Hartman, Lewis", "Hartman, Philip", "Hartman, David"],
+    "tagPlace": [
+      "Kingston",
+      "Township of Ernest Town Yeoman",
+      "Province of Upper Canada",
+      "Midland District",
+      "Sydney",
+      "County of Hastings"
+    ]
+  },
+  "260": {
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1878-07-06T00:00:00.000Z]"],
+    "tagPerson": ["Grant, John", "Ridout, Thos", "McDonell, Archibald"],
+    "tagPlace": ["Marysburgh", "York"]
+  },
+  "632": {
+    "tagPlace": ["Township of Sydney", "District of Mecklenburgh"],
+    "tagPerson": ["Beddell, Ruben", "Aitken, Alex"],
+    "tagDate": ["1791-11-25T00:00:00.000Z"]
+  },
+  "568": {
+    "tagPlace": ["Province of Quebec", "Cataraqui"],
+    "tagDate": ["1784-09-28T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Cannon, John",
+      "Anesley, Amos",
+      "Collins, John"
+    ]
+  },
+  "706": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["[1789-01-01T00:00:00.000Z TO 1792-02-11T23:59:59.999Z]"],
+    "tagPerson": [
+      "Lole, Joseph",
+      "Baker, Frederick",
+      "Baker, John",
+      "Longwill, John",
+      "Hofman, J"
+    ]
+  },
+  "809": {
+    "tagPerson": [
+      "Aitken, Alex",
+      "Stevenson",
+      "M, James",
+      "Cartwright, Richard",
+      "Conklin, Joseph",
+      "Stuart, John"
+    ],
+    "tagDate": ["[1787-12-31T23:59:59.999Z TO 1790-12-01T00:00:00.000Z]"],
+    "tagPlace": ["District of Mecklenburgh"]
+  },
+  "676": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": ["Collins, John", "Hamilton, Henry", "Bronner, Peter"],
+    "tagDate": ["1783-09-24T00:00:00.000Z"]
+  },
+  "719": {
+    "tagDate": ["1784-09-14T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Benson, Matthew",
+      "Collins, John",
+      "Benson, Garret"
+    ],
+    "tagPlace": ["Province of Quebec", "Bay Quinte"]
+  },
+  "82": {
+    "tagPlace": ["Ernest Town", "Kingston", "Thurlow", "Sidney", "Yeoman"],
+    "tagPerson": [
+      "Charters, Hannah",
+      "Ferris, Daniel",
+      "Sager, John",
+      "Gilbert, Stephen",
+      "Charters, George",
+      "Rosebush, Joseph",
+      "Gilbert, Samuel, B",
+      "Crawford, William",
+      "Crawford, Wm, Redford",
+      "Lott, John"
+    ],
+    "tagDate": ["[1789-06-18T23:59:59.999Z TO 1810-07-07T00:00:00.000Z]"]
+  },
+  "621": {
+    "tagPerson": [
+      "Smith, Comfort",
+      "P, Joel",
+      "Blaker, John",
+      "Hough, Barnabas",
+      "Bradshaw, David",
+      "Burght, A"
+    ],
+    "tagDate": ["1795-06-10T00:00:00.000Z"],
+    "tagPlace": ["Midland"]
+  },
+  "816": {
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1794-03-17T23:59:59.999Z]"],
+    "tagPerson": ["Aitkin, Alex", "Campbell, William", "Fisher, Alex"],
+    "tagPlace": [
+      "Midland District",
+      "Township of Thurlow",
+      "Township of Ameliasburg",
+      "Province of Upper Canada",
+      "Adolphustown",
+      "Kingston",
+      "District of Mecklenburg"
+    ]
+  },
+  "328": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagPerson": ["B, John", "Fairfield, Benjamin", "Kemp, John"],
+    "tagDate": ["[1818-07-11T00:00:00.000Z TO 1818-07-16T23:59:59.999Z]"]
+  },
+  "349": {
+    "tagPerson": [
+      "Lighthall, Sarah",
+      "B, John",
+      "McBean, John",
+      "Fairfield, Banjamin",
+      "Washburn"
+    ],
+    "tagDate": ["[1784-12-31T23:59:59.999Z TO 1819-07-09T00:00:00.000Z]"],
+    "tagPlace": ["Midland District", "Marysburgh", "Kingston"]
+  },
+  "752": {
+    "tagPlace": ["Adolphustown"],
+    "tagPerson": ["A, Thomas", "Alstine, P, V"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1790-09-15T23:59:59.999Z]"]
+  },
+  "444": {
+    "tagPerson": ["Storms, Mary", "B, John", "MacLean, Allan"],
+    "tagDate": ["1810-06-09T00:00:00.000Z"],
+    "tagPlace": ["Midland"]
+  },
+  "79": {
+    "tagDate": ["1785-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Jordan, Christopher",
+      "Markland, Thomas",
+      "Greaves, Adam, Capt",
+      "McLeon, Allan",
+      "Graves, Adam",
+      "Haslop, Mary",
+      "McLean, Neil",
+      "Grass, Michael",
+      "McCollins",
+      "McLeod, Archibald, Norman",
+      "Georgen, Christopher"
+    ],
+    "tagPlace": ["Town of Kingston", "Pittsburgh", "Yeoman", "Quebec"]
+  },
+  "197": {
+    "tagPerson": [
+      "Dasley, John",
+      "Hoover, M",
+      "Ridden, Francis",
+      "Fairfax, Christian",
+      "Kindley, John",
+      "Markland, Thomas",
+      "Johnson, Tom",
+      "Howe, Mathew",
+      "Day, Barnabas",
+      "Bradshaw, David",
+      "M",
+      "Cartwright, Richard",
+      "Miller, Jacob",
+      "McGrant",
+      "James",
+      "Armstrong",
+      "Thompson, Alexander"
+    ],
+    "tagDate": ["[1789-04-15T23:59:59.999Z TO 1796-05-27T00:00:00.000Z]"],
+    "tagPlace": [
+      "Camden",
+      "Ernest Town",
+      "Kingston",
+      "Midland District",
+      "Thurlow",
+      "Ameliasburgh",
+      "Loughborough",
+      "Richmond"
+    ]
+  },
+  "837": {
+    "tagPlace": ["Province of Quebec", "Kingston"],
+    "tagDate": ["1797-08-05T00:00:00.000Z"],
+    "tagPerson": ["Clunis, John", "Collins, John"]
+  },
+  "440": {
+    "tagPlace": ["Midland District", "Kingston"],
+    "tagDate": ["[1818-09-21T00:00:00.000Z TO 1819-07-17T23:59:59.999Z]"],
+    "tagPerson": ["B, John", "Fairfield, Benjamin", "Smith, Humphrey"]
+  },
+  "649": {
+    "tagPerson": [
+      "Porter, Richard",
+      "McLean, Neil",
+      "Bradford, John",
+      "Aitken, Alexander",
+      "Cartwright, Rich",
+      "Stuart, John",
+      "McDonell, James"
+    ],
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1791-08-16T23:59:59.999Z]"],
+    "tagPlace": [
+      "District of Mecklenburgh",
+      "Kingston",
+      "Province of Quebec",
+      "Township of Pittsburg"
+    ]
+  },
+  "292": {
+    "tagPerson": [
+      "MacLean, Allan",
+      "B, Jonh",
+      "Hartman, Philip",
+      "Washburn, W"
+    ],
+    "tagDate": ["[1824-03-24T00:00:00.000Z TO 1824-07-19T23:59:59.999Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "321": {
+    "tagPerson": ["Johns, Solomon", "Johns, David"],
+    "tagDate": ["1810-07-01T00:00:00.000Z"],
+    "tagPlace": [
+      "Midland District",
+      "Province of Upper Canada",
+      "Township of Fredericksburg",
+      "Township of Elizabethtown Yeoman",
+      "Kingston"
+    ]
+  },
+  "805": {
+    "tagPerson": [
+      "Crawford, Bryan",
+      "Aulthouse, Nicholas",
+      "Aurlbut, Thomas",
+      "Fisher, Alex",
+      "Diamond, Jacob",
+      "Gommer, Phebe"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1795-06-15T00:00:00.000Z]"],
+    "tagPlace": [
+      "Quebec",
+      "County of Lenox",
+      "Ernest Town",
+      "Midland",
+      "Township of Richmond",
+      "County of Addington"
+    ]
+  },
+  "628": {
+    "tagPlace": [
+      "Kingston",
+      "District of Mecklenburgh",
+      "Province of Quebec",
+      "Township of Ernest Town"
+    ],
+    "tagPerson": [
+      "Aitken, Alexander",
+      "Porter, Richard",
+      "McLean, Neil",
+      "Ball, Frederick",
+      "Stuart, Jn",
+      "Cartwright, Richard"
+    ],
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1792-03-10T23:59:59.999Z]"]
+  },
+  "364": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": [
+      "McNabb, Mary Ann",
+      "B, John",
+      "McNabb, James",
+      "Macaulay, Robert"
+    ],
+    "tagDate": ["[1817-07-14T00:00:00.000Z TO 1817-07-19T23:59:59.999Z]"]
+  },
+  "660": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": ["Haldimand, Fred", "Bradshaw, James", "Collins, John"],
+    "tagDate": ["1784-09-23T00:00:00.000Z"]
+  },
+  "774": {
+    "tagPlace": [
+      "District of Montreal",
+      "Sophiasburgh",
+      "Kingston",
+      "District of Mecklenburgh",
+      "Province of Quebec"
+    ],
+    "tagDate": ["[1790-06-02T00:00:00.000Z TO 1791-12-11T23:59:59.999Z]"],
+    "tagPerson": [
+      "Connor, Elizabeth",
+      "Stuart, M",
+      "Connor, I",
+      "Connor, Eliza",
+      "M, Mary",
+      "Richard",
+      "Connor, James",
+      "B, Joseph",
+      "Armstrong, Tho",
+      "C",
+      "Aitken, Alex",
+      "Way, James"
+    ]
+  },
+  "469": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["B, John", "Witkins, Robert", "MacLean, Allan"],
+    "tagDate": ["[1810-04-02T00:00:00.000Z TO 1810-06-09T23:59:59.999Z]"]
+  },
+  "683": {
+    "tagPerson": [
+      "Wright, Joseph",
+      "Bird, Henry",
+      "McBean, Thos",
+      "McMulling, Daniel",
+      "M, Thomas"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1786-10-06T23:59:59.999Z]"],
+    "tagPlace": ["Fredericksburg", "Kingston", "District of Mecklenburg"]
+  },
+  "232": { "tagPerson": ["I, W"], "tagDate": ["1798-12-27T00:00:00.000Z"] },
+  "604": {
+    "tagDate": ["1785-09-24T00:00:00.000Z"],
+    "tagPerson": ["Bogart, Gilbert", "D, Peter", "Hamilton, H"],
+    "tagPlace": ["Cataraqui", "Province of Quebec"]
+  },
+  "300": {
+    "tagPlace": [
+      "County of Frontenac",
+      "Town of Kingston",
+      "Province of Upper Canada",
+      "Midland District"
+    ],
+    "tagPerson": ["Markland, Thomas", "Herchmer, Lawrence", "Herchmer, H"],
+    "tagDate": ["1810-12-20T00:00:00.000Z"]
+  },
+  "116": {
+    "tagPlace": [
+      "Yeoman",
+      "Village of Adolphustown",
+      "Marysburgh",
+      "York",
+      "Township of Kingston"
+    ],
+    "tagPerson": [
+      "Vanalstine, Peter",
+      "Hagerman, Nicholas",
+      "McLean, Harriet",
+      "Robins, William",
+      "Ridout, Chewett, V",
+      "McLean, Neil",
+      "Small, John",
+      "Allen, Joseph"
+    ],
+    "tagDate": ["[1799-04-09T23:59:59.999Z TO 1803-12-15T00:00:00.000Z]"]
+  },
+  "276": {
+    "tagPlace": [
+      "Midland District",
+      "Township of Ernest Town",
+      "Township of Sydney"
+    ],
+    "tagPerson": ["Hartman, David", "Hartman, Lewis", "Ray"],
+    "tagDate": ["1819-05-19T00:00:00.000Z"]
+  },
+  "582": {
+    "tagPerson": ["Hamilton, Amy", "Collins, John", "Ainslic, Amos"],
+    "tagDate": ["1785-09-02T00:00:00.000Z"],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "105": {
+    "tagDate": ["[1797-07-08T23:59:59.999Z TO 1803-07-21T00:00:00.000Z]"],
+    "tagPerson": [
+      "Waters, Humphrey",
+      "Brant, Mary",
+      "Ferguson, Magdalen",
+      "Conolly, John, Lt",
+      "Day, Barnabas",
+      "Washburn, Ebenezer",
+      "Harpel, George",
+      "Herchmer, Jacob",
+      "Fournyea, Christopher",
+      "Huffman, Conrad",
+      "Rattan, William",
+      "Ashley, William",
+      "McCaulay, Ann",
+      "Cain, Josiah",
+      "Roushorn, Christopher"
+    ],
+    "tagPlace": [
+      "Town of Kingston",
+      "Huntingdon",
+      "Town of York",
+      "Adolphustown",
+      "Ernest Town",
+      "Hallowell"
+    ]
+  },
+  "486": {
+    "tagPlace": ["Bay Side Marysburgh"],
+    "tagPerson": ["Wright, John", "Wright, James"],
+    "tagDate": ["1827-01-01T00:00:00.000Z"]
+  },
+  "383": {
+    "tagPerson": ["Mercer, W", "B, John", "Morse, Moses", "MacLean, Allan"],
+    "tagDate": ["[1826-05-27T00:00:00.000Z TO 1826-07-08T23:59:59.999Z]"],
+    "tagPlace": ["Midland", "Kingston", "Sidney"]
+  },
+  "664": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["Baker, John"],
+    "tagDate": ["1789-01-01T00:00:00.000Z"]
+  },
+  "360": {
+    "tagDate": ["[1797-11-18T23:59:59.999Z TO 1817-07-17T00:00:00.000Z]"],
+    "tagPerson": [
+      "Master, V",
+      "Lloyd, Henry",
+      "Fraser, William, Adjutant",
+      "Crawford, William",
+      "Thomson, Eliza",
+      "Fraser, Jane",
+      "McNabb, Mary Ann",
+      "Fraser, Margaret"
+    ],
+    "tagPlace": ["Mohawk Bay", "Fredericksburg", "York"]
+  },
+  "73": {
+    "tagPlace": ["Yeoman", "Marysburgh"],
+    "tagDate": ["1798-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "North, James",
+      "Claus, Casper",
+      "Smith, Henry",
+      "Lancett, William",
+      "Hoenig, John",
+      "Hailman, Peter",
+      "Harrison, Thomas",
+      "Fisher, Frederick",
+      "Bird, Henry",
+      "Paeston, Isaac",
+      "McIntork, Donald",
+      "Starts, Jacob",
+      "Ellis, Andrew",
+      "North, Reeds",
+      "Ellison, Benjamin",
+      "Smith, Barnhart",
+      "McGowen, Thomas"
+    ]
+  },
+  "600": {
+    "tagPlace": ["Province of Quebec", "District of Mecklenburgh"],
+    "tagPerson": ["Bower, Peter", "Gean, Neilson"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1789-02-17T00:00:00.000Z]"]
+  },
+  "304": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["Howard, John", "B, John", "MacLean, Allan", "McLean, Allan"],
+    "tagDate": ["[1810-03-15T23:59:59.999Z TO 1810-06-09T00:00:00.000Z]"]
+  },
+  "137": {
+    "tagDate": ["1790-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Ellis, Andrew",
+      "Etsell, Gasper",
+      "Edgar, John",
+      "Englehart, Barnhart",
+      "Erheart, Adam",
+      "E, Emanuel",
+      "Ellise, Henry",
+      "Everet, John",
+      "Eldam, Laurence",
+      "Richardson, Asa",
+      "Edwards, James",
+      "Elms, John",
+      "Ellison, Joseph",
+      "Earhart, Unice",
+      "Embury, John"
+    ],
+    "tagPlace": ["New York"]
+  },
+  "409": {
+    "tagPlace": ["Midland District", "Kingston"],
+    "tagDate": ["[1819-07-12T23:59:59.999Z TO 1819-07-15T00:00:00.000Z]"],
+    "tagPerson": ["B, John", "Mickalls, James", "Pitman, Thomas"]
+  },
+  "743": {
+    "tagPlace": ["Fredericksburg"],
+    "tagDate": ["1791-07-18T00:00:00.000Z"],
+    "tagPerson": [
+      "Clock, Adam",
+      "Bell, Thomas",
+      "Simpson, Alex",
+      "Hawley, Marlen",
+      "Hawley, T"
+    ]
+  },
+  "65": {
+    "tagPerson": [
+      "McCabe, Michael",
+      "Miller, Gilbert",
+      "McConnell, Hugh",
+      "Weiger, Thomas",
+      "Foster, John",
+      "Church, Oliver",
+      "Dyckman, Mathew",
+      "Haldimand, Genl",
+      "Ansley, Samuel",
+      "Thompson, Elijah",
+      "Prindel, William",
+      "McMullen, Daniel",
+      "Ogden, John",
+      "Ansley, Samuel, Serjeant",
+      "Garrison, William",
+      "Gold, Seth, Butt",
+      "Larraway, Abraham",
+      "Smith, Wm",
+      "Garret, Isaac",
+      "Goldsmith, Thomas"
+    ],
+    "tagDate": ["[1797-11-18T23:59:59.999Z TO 1802-12-07T00:00:00.000Z]"],
+    "tagPlace": ["Cramahe", "Hallowell", "Fredericksburg", "Town of Kingston"]
+  },
+  "512": {
+    "tagPlace": [
+      "Township of Richmond",
+      "Town of Kingston",
+      "Midland District",
+      "Township of Thurlow"
+    ],
+    "tagPerson": [
+      "M, Saron",
+      "Forsyth, Joseph",
+      "Peterson, Nicholas",
+      "Garrcia, L, Witham",
+      "McMastan, James"
+    ],
+    "tagDate": ["1802-08-30T00:00:00.000Z"]
+  },
+  "465": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1833-06-29T23:59:59.999Z]"],
+    "tagPerson": ["Mickalls, James", "Way, Reuben"],
+    "tagPlace": ["Midland District", "Kingston"]
+  },
+  "692": {
+    "tagDate": ["1797-10-18T00:00:00.000Z"],
+    "tagPerson": ["Bestado, Jacob", "Neceles, Peter, G"],
+    "tagPlace": [
+      "County of Albany",
+      "Province of Upper Canada",
+      "State of New York",
+      "Township of Schenectady"
+    ]
+  },
+  "416": {
+    "tagPlace": ["Ameliasburgh", "York"],
+    "tagPerson": [
+      "Hurd",
+      "Young, Peter",
+      "Phillips, Peter",
+      "Thos, Ridout",
+      "Howell",
+      "Radnor, Henry"
+    ],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1817-07-09T00:00:00.000Z]"]
+  },
+  "313": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagDate": ["[1807-05-30T00:00:00.000Z TO 1810-06-09T23:59:59.999Z]"],
+    "tagPerson": ["B, John", "Huffnail, Andrew", "McLean, Allan"]
+  },
+  "559": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Firth, William", "Collins, John"],
+    "tagDate": ["1807-01-12T00:00:00.000Z"]
+  },
+  "520": {
+    "tagDate": ["1802-01-01T00:00:00.000Z"],
+    "tagPerson": ["McNabb, James", "Wastman, Barnabas"],
+    "tagPlace": ["Midland"]
+  },
+  "169": {
+    "tagPlace": ["New York", "Albany"],
+    "tagDate": ["[1789-01-01T00:00:00.000Z TO 1793-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Vanalstine, James",
+      "Vanhern, Cornelius",
+      "VanVolkenburgh, Jacob",
+      "VandeBogart, Francis",
+      "Vanskyver, Peter",
+      "Vanduzer, Conrad",
+      "Velia, Chirk",
+      "VanAlstine, Peter",
+      "VanCliff, Daniel",
+      "Vandowen, Mary",
+      "VanCott, John",
+      "Vanbura, Benjamin",
+      "VanHorn, Andrew",
+      "Shorks, John",
+      "Vallow, Peter",
+      "VanBlaricam, Peter",
+      "Vanalstine, Isaac",
+      "VanderHyder, David",
+      "VandeCarr, Ruloff",
+      "Vent, Adam",
+      "Valleau, Peter, Lieut",
+      "Vardy, Christopher",
+      "VanAlstine, Lambert",
+      "Vosburgh, John, C",
+      "V, John",
+      "Vanskyver, John",
+      "VandeCarr, John",
+      "Vanduzer, Gasper",
+      "Valledes, Peter",
+      "Vanbura, Mathew"
+    ]
+  },
+  "613": {
+    "tagPlace": ["Johnstown"],
+    "tagDate": ["[1803-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Booth, John", "Booth, Abner"]
+  },
+  "437": {
+    "tagPlace": ["York", "Township of Kingston", "Quebec"],
+    "tagDate": ["[1817-09-26T23:59:59.999Z TO 1819-07-08T00:00:00.000Z]"],
+    "tagPerson": [
+      "Ridout, Thos",
+      "Gallag, John",
+      "Worden, I",
+      "Caldwell, William"
+    ]
+  },
+  "840": {
+    "tagPerson": ["McBride, James", "Crysler, William", "Clench, Ralfe"],
+    "tagDate": ["1798-08-16T00:00:00.000Z"],
+    "tagPlace": ["Town of Newark"]
+  },
+  "96": {
+    "tagDate": ["[1777-01-01T00:00:00.000Z TO 1797-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Snyder, Tobias",
+      "F, Martin",
+      "Miller",
+      "Bush, Henry",
+      "Johnson, Jacob",
+      "Hogle, Bortham",
+      "Reddin, Francis",
+      "Johnsons, John",
+      "Sharp, Guisbard, Lieut",
+      "Taylor, David",
+      "Bell, Thomas",
+      "Taylor, John",
+      "Gordiner, Jacob",
+      "Schyonther, Thos",
+      "Schrader, Magnus",
+      "Rogers, William",
+      "Jeptha, Hawley"
+    ],
+    "tagPlace": ["Town of Kingston", "Quebec", "Richmond", "Ernest Town"]
+  },
+  "392": {
+    "tagPlace": ["Midland District", "Kingston"],
+    "tagDate": ["[1809-06-30T00:00:00.000Z TO 1819-07-04T23:59:59.999Z]"],
+    "tagPerson": ["B, John", "Orser, Solomon", "Fairchild, Banjamin"]
+  },
+  "577": {
+    "tagPlace": ["Province of Quebec", "Kingston"],
+    "tagDate": ["1787-10-22T00:00:00.000Z"],
+    "tagPerson": ["Anesley, Amos", "Collins, John"]
+  },
+  "434": {
+    "tagPlace": [
+      "Marysburg",
+      "Midland District Upper Canada",
+      "Fredericksburg"
+    ],
+    "tagDate": ["[1819-07-05T00:00:00.000Z TO 1819-07-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Simpson, Thomas",
+      "Sills, Robert",
+      "Sills, Conrad",
+      "Simpson, Israel",
+      "McDuff, Charles"
+    ]
+  },
+  "755": {
+    "tagPlace": ["Adolphustown"],
+    "tagDate": ["[1791-07-01T00:00:00.000Z TO 1794-01-15T23:59:59.999Z]"],
+    "tagPerson": [
+      "Crawford, Wm",
+      "McLean, Hector",
+      "Way, Samuel",
+      "Crawford, Capt",
+      "L, Nicholas",
+      "Spencer, Andrew",
+      "Way, James",
+      "Foster, Martin"
+    ]
+  },
+  "339": {
+    "tagPerson": [
+      "Loucks, Abraham",
+      "Fairfield, Banjamin",
+      "B, John",
+      "Hamilton, W"
+    ],
+    "tagDate": ["[1818-07-06T23:59:59.999Z TO 1819-07-16T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "Midland District"]
+  },
+  "574": {
+    "tagPlace": ["Kingston", "Province of Quebec"],
+    "tagDate": ["1787-10-12T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Anderson, Thomas"]
+  },
+  "271": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagDate": ["[1818-07-06T23:59:59.999Z TO 1818-07-11T00:00:00.000Z]"],
+    "tagPerson": ["Embury, Andrew", "B, John"]
+  },
+  "488": {
+    "tagDate": ["1835-04-01T00:00:00.000Z"],
+    "tagPerson": ["Wright, James", "Daniel, Wright", "Wright, John"],
+    "tagPlace": ["Township of Hallowell", "Township of Marysburgh Yeoman"]
+  },
+  "570": {
+    "tagDate": ["1780-02-14T00:00:00.000Z"],
+    "tagPerson": ["Ferguson, John", "Aitkin, Alex", "MacLean, Hector"],
+    "tagPlace": ["Kingston"]
+  },
+  "481": {
+    "tagDate": ["[1835-07-06T00:00:00.000Z TO 1835-07-07T23:59:59.999Z]"],
+    "tagPerson": ["Woodcock, John", "B, John", "Robinson, W", "P, Peter"],
+    "tagPlace": ["Midland"]
+  },
+  "278": {
+    "tagPlace": [
+      "Midland District",
+      "Province of Upper Canada",
+      "Township of Sydney",
+      "County of Hastings",
+      "Township of Ernest Town Yeoman"
+    ],
+    "tagDate": ["1819-04-06T00:00:00.000Z"],
+    "tagPerson": ["Hartman, David", "Hartman, Lewis"]
+  },
+  "802": {
+    "tagPerson": [
+      "Mabane, Adam",
+      "Dupre, Le Cte",
+      "Dunn, Thos",
+      "De Lanuadiere, Chas",
+      "Boyce, John",
+      "Williams, J",
+      "Pownall, George",
+      "Harrison",
+      "Collins, John",
+      "Caldwell, Henry",
+      "Harrison, Edwd",
+      "Delery, J, GC",
+      "Grant, William",
+      "Baby, Francois",
+      "Smith, William, Chief Justice",
+      "Commer, Phebe",
+      "Finlay, Hugh"
+    ],
+    "tagDate": ["[1783-12-31T23:59:59.999Z TO 1789-11-09T00:00:00.000Z]"],
+    "tagPlace": [
+      "Quebec",
+      "Township of Matilda",
+      "Township of Richmond",
+      "District of Mecklenburgh",
+      "District of Lunenburgh"
+    ]
+  },
+  "295": {
+    "tagPlace": ["Midland District", "Kingston"],
+    "tagPerson": [
+      "Hombrow, Margaret",
+      "B, John",
+      "Walker, Edward",
+      "McLean, Allan"
+    ],
+    "tagDate": ["[1809-02-15T00:00:00.000Z TO 1809-03-10T23:59:59.999Z]"]
+  },
+  "782": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": [
+      "Collins, John",
+      "Hamilton, Henry",
+      "Calders, Mt",
+      "Shaw, William"
+    ],
+    "tagDate": ["1785-09-20T00:00:00.000Z"]
+  },
+  "639": {
+    "tagPlace": ["Township Grand River"],
+    "tagPerson": ["Barnes, Isaac"],
+    "tagDate": ["1788-01-01T00:00:00.000Z"]
+  },
+  "430": {
+    "tagPlace": [
+      "Township of Toronto",
+      "District of Newcastle",
+      "Kingston",
+      "Township of Huntingdon",
+      "Township of Hope"
+    ],
+    "tagDate": ["1820-07-18T00:00:00.000Z"],
+    "tagPerson": ["Rofs, Lenos", "Rofs, W", "Wittel, Casey"]
+  },
+  "253": {
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1822-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Loucks, George",
+      "Embury, Andrew",
+      "Henderson, Edward, J",
+      "Conner, Aaron",
+      "Cartwright, Richard",
+      "Huffnail, Andrew",
+      "Brock, Samuel",
+      "Hartman, Philip",
+      "Kemp, John",
+      "McDonald, Alex",
+      "Hembrow, Margaret",
+      "Loss, John",
+      "Douglas, Thos, J",
+      "Butterworth, Sarnes",
+      "Huyek, John",
+      "Herchmer, Lawrence",
+      "Loney, Louis",
+      "Loyd, Hannah",
+      "Hemingway, Josiah",
+      "Hartman, Lewis",
+      "Lighthall, Sarah",
+      "Howard, John",
+      "Johns, David",
+      "Conner, Anna",
+      "Loucks, Abraham",
+      "McBean, John"
+    ],
+    "tagPlace": ["Midland District"]
+  },
+  "335": {
+    "tagPlace": ["Midland", "Kingston", "County of Frontenac"],
+    "tagDate": ["[1817-06-07T23:59:59.999Z TO 1817-07-28T00:00:00.000Z]"],
+    "tagPerson": ["Loney, Louis", "B, John"]
+  },
+  "759": {
+    "tagPlace": ["Adolphustown", "Kingston"],
+    "tagPerson": [
+      "Casey, William",
+      "L, Nicholas",
+      "Huff, Paul",
+      "Woodcock, John",
+      "Huff, Solomon",
+      "Foster, William",
+      "Spencer, John",
+      "Spencer, Andrew",
+      "Hover, Henry",
+      "Casey, Willet",
+      "Huff, John",
+      "Prise, John",
+      "Hofter, William",
+      "Stuart, M",
+      "McLean, Neil"
+    ],
+    "tagDate": ["[1789-12-28T23:59:59.999Z TO 1790-05-19T00:00:00.000Z]"]
+  },
+  "342": {
+    "tagPerson": ["Fairfield, Benjamin", "Loucks, George", "Loucks, Jacob"],
+    "tagDate": ["[1816-01-12T00:00:00.000Z TO 1818-07-06T23:59:59.999Z]"],
+    "tagPlace": [
+      "Province of Upper Canada Yeoman",
+      "Township of Camden",
+      "Midland District",
+      "Kingston"
+    ]
+  },
+  "411": {
+    "tagDate": ["[1820-04-26T00:00:00.000Z TO 1820-06-27T23:59:59.999Z]"],
+    "tagPerson": [
+      "Ramsay, Adam",
+      "Brown, May",
+      "Mickalls, James",
+      "Brown, Frederick",
+      "Pringle, Joseph"
+    ],
+    "tagPlace": [
+      "Kingston",
+      "Township of Richmond",
+      "County of Addington",
+      "County of Lenox",
+      "Province of Upper Canada",
+      "Midland District",
+      "Township of Fredericksburg"
+    ]
+  },
+  "720": {
+    "tagDate": ["1795-05-30T00:00:00.000Z"],
+    "tagPerson": [
+      "Dorland, Thos",
+      "Canniff, James",
+      "Canniff, John",
+      "Benson, Albert",
+      "Benson, Garret",
+      "Benson, Matthew",
+      "Dorland, Philip",
+      "T, Paul",
+      "Dorland, Thomas"
+    ]
+  },
+  "134": {
+    "tagPerson": [
+      "Dey, David",
+      "Dingman, John",
+      "H, Job",
+      "Davy, Sophia",
+      "Dallier, Joseph",
+      "Dimond, Catherine",
+      "Daly, Mary",
+      "Dewyer, Michael",
+      "Dafoe, Elizabeth",
+      "Dafoe, Lewis",
+      "Demorest, Guilliam",
+      "Hicks, Susanna",
+      "Deltor, Catherine",
+      "Darling, John",
+      "Dusenberry, John",
+      "Davis, Mary",
+      "Dyer, William",
+      "Davis, Elizabeth",
+      "Hartman, David",
+      "Dallier, Peter",
+      "Dyer, Katherine",
+      "Demore, David",
+      "Dusenbery, Eleanor",
+      "Dugan, William",
+      "Delet, Augustin",
+      "Doliez, Peter",
+      "Prindle, Joel",
+      "Donovan, John",
+      "Dingman, Jacob",
+      "Davis, John",
+      "D, Lydia",
+      "D, Valentine",
+      "D, Rebecca",
+      "Doole, John",
+      "Colter, James"
+    ],
+    "tagDate": ["[1789-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"]
+  },
+  "543": { "tagDate": ["1784-01-01T00:00:00.000Z"] },
+  "712": {
+    "tagPerson": ["Ladman, William", "Berry, William"],
+    "tagDate": ["1784-01-01T00:00:00.000Z"]
+  },
+  "307": {
+    "tagDate": ["[1810-01-01T00:00:00.000Z TO 1810-06-09T23:59:59.999Z]"],
+    "tagPerson": ["McLean, Allan", "B, John", "Howard, John"],
+    "tagPlace": ["Midland District"]
+  },
+  "667": {
+    "tagPerson": ["Aitken, Alex", "Burton, John"],
+    "tagDate": ["[1792-12-31T23:59:59.999Z TO 1795-03-02T00:00:00.000Z]"],
+    "tagPlace": ["Midland District", "Kingston", "Loughborough"]
+  },
+  "823": {
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1789-10-07T23:59:59.999Z]"],
+    "tagPerson": [
+      "Johnson",
+      "Conkwright, Abraham",
+      "Cartwright, Rich",
+      "B, Joseph",
+      "Stuart, T",
+      "Aitken, Alexander"
+    ],
+    "tagPlace": [
+      "Kingston",
+      "District of Mecklenburgh",
+      "Township of Camden",
+      "Province of Quebec",
+      "Township of Ernest Town"
+    ]
+  },
+  "130": {
+    "tagPlace": ["New York", "New Hampshire", "Adolphustown", "Camden"],
+    "tagPerson": [
+      "Crawford, Bryan",
+      "Hicks, Lewis",
+      "Howard, John, Lt",
+      "Collier, William",
+      "Cline, Mary",
+      "Carscallen, Esther",
+      "Connor, James",
+      "Frasier, Daniel",
+      "Collin, Mary",
+      "Connor, John",
+      "Conklin, Phebe",
+      "Carpenter, Jacob",
+      "Connor, Elizabeth",
+      "Clark, Nathan",
+      "Clark, Ann",
+      "Clark, Edward",
+      "Clark, R",
+      "C, Nathan",
+      "Chaslers, Hannah",
+      "Carscallen, Nabby",
+      "Chaslers, George",
+      "Corkery, Thomas",
+      "C, Abraham",
+      "Commer, Deborah",
+      "Chamberlain, Jacob, B",
+      "Boyer, John, Serj",
+      "Cook, Seth",
+      "Casper, Claws, Deborah",
+      "Cook, William",
+      "Comber, Phebe",
+      "Cohoon, Thomas",
+      "H, Barnabas",
+      "Cronk, Mathew"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1790-01-01T00:00:00.000Z]"]
+  },
+  "226": {
+    "tagPlace": ["Camden", "Richmond", "Adolphustown"],
+    "tagPerson": ["Peterson, Paul", "McMaster, James", "Smith, D"],
+    "tagDate": ["1798-11-22T00:00:00.000Z"]
+  },
+  "17": {
+    "tagPlace": [
+      "Fredericksburg",
+      "Midland District Yeoman",
+      "Township of Hallowell",
+      "Township of Marysburgh",
+      "Township of Adolphus"
+    ],
+    "tagDate": ["[1777-01-01T00:00:00.000Z TO 1780-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "McKay",
+      "Gardiner, Jacob",
+      "Margeson, Thomas, MC Serjeant",
+      "Roberti, Thomas",
+      "Mitts, Henry",
+      "Huff, Solomon",
+      "Collier, Peter",
+      "Johnsons, John",
+      "Walders, Daniel",
+      "Mitts, John",
+      "McNutt, James",
+      "Bush, Henry",
+      "Frinkle, Jacob",
+      "Gerolomy, James"
+    ]
+  },
+  "367": {
+    "tagPlace": ["Midland District", "Sophiasburgh"],
+    "tagDate": ["[1822-05-27T00:00:00.000Z TO 1822-07-05T23:59:59.999Z]"],
+    "tagPerson": ["Marsh, Banjamin", "B, John", "MacLean, Allan"]
+  },
+  "777": {
+    "tagPlace": ["New York", "Province of Quebec", "Cataraqui"],
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Collins, John",
+      "Caghal, John",
+      "Haldimand, Fred",
+      "Hills, John"
+    ]
+  },
+  "642": {
+    "tagPlace": ["Fredericksburg"],
+    "tagPerson": ["Clark, Alexander", "M, James", "Dingman, Garrett"],
+    "tagDate": ["1789-01-21T00:00:00.000Z"]
+  },
+  "724": {
+    "tagPlace": ["Province of Quebec", "Kingston"],
+    "tagDate": ["1787-10-24T00:00:00.000Z"],
+    "tagPerson": ["Christie, Peter", "Barron, William", "Collins, John"]
+  },
+  "635": {
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1793-04-15T23:59:59.999Z]"],
+    "tagPerson": [
+      "Bartley, Michael",
+      "Aitken, Alex",
+      "Fisher, Alex",
+      "Booth, Joshua",
+      "Alstine, W"
+    ],
+    "tagPlace": [
+      "Kingston",
+      "Province of Upper Canada",
+      "Quebec",
+      "District of Mecklenburgh",
+      "Township of Richmond",
+      "Prince Edward",
+      "Lenox",
+      "Midland District",
+      "Hastings",
+      "Addington"
+    ]
+  },
+  "418": {
+    "tagPlace": [
+      "Kingston",
+      "Midland District",
+      "Township of Ameliasburgh Yeoman"
+    ],
+    "tagDate": ["1816-07-09T00:00:00.000Z"],
+    "tagPerson": ["B, John", "Roblin, Owen, P"]
+  },
+  "793": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagDate": ["1783-09-20T00:00:00.000Z"],
+    "tagPerson": ["Clark, Sergeant", "Collins, John", "Hamilton, Henry"]
+  },
+  "181": { "tagDate": ["1799-05-14T00:00:00.000Z"], "tagPlace": ["York"] },
+  "299": {
+    "tagDate": ["1811-03-15T00:00:00.000Z"],
+    "tagPerson": ["Herchmer, Josh, Capt", "Ridout, Tho"],
+    "tagPlace": ["Quebec", "Midland District", "Township of Quebec", "York"]
+  },
+  "758": {
+    "tagPlace": ["Kingston", "Adolphustown"],
+    "tagDate": ["[1789-12-28T23:59:59.999Z TO 1790-05-19T00:00:00.000Z]"],
+    "tagPerson": [
+      "Woodcock, John",
+      "Casey, William",
+      "L, Nicholas",
+      "Huff, Paul",
+      "Spencer, Andrew",
+      "Spencer, John",
+      "Hover, Henry",
+      "Huff, Solomon",
+      "Foster, William",
+      "Casey, Willet",
+      "Huff, John",
+      "Hofter, William",
+      "Prise, John",
+      "Stuart, M",
+      "McLean, Neil"
+    ]
+  },
+  "291": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1824-03-24T00:00:00.000Z]"],
+    "tagPerson": ["MacLean, Allan"]
+  },
+  "310": {
+    "tagDate": ["[1810-03-15T00:00:00.000Z TO 1810-06-09T23:59:59.999Z]"],
+    "tagPerson": ["Huffnagle, Joseph", "J, Wm"],
+    "tagPlace": ["Adolphustown"]
+  },
+  "614": {
+    "tagPlace": [
+      "Province of Quebec",
+      "Township of Thurlow",
+      "Midland District",
+      "Township of Marysburgh",
+      "District of Mecklenburgh",
+      "Kingston"
+    ],
+    "tagPerson": [
+      "Cartwright, Richard",
+      "Porter, Richard",
+      "Battey, William",
+      "McLean, Neil",
+      "Aitken, Alexander"
+    ],
+    "tagDate": ["[1791-02-07T00:00:00.000Z TO 1795-01-03T23:59:59.999Z]"]
+  },
+  "485": {
+    "tagDate": ["1827-01-01T00:00:00.000Z"],
+    "tagPerson": ["Wright, John"],
+    "tagPlace": ["Midland"]
+  },
+  "106": {
+    "tagPlace": [
+      "Town of Niagara",
+      "Loughborough",
+      "Hallowell",
+      "Marysburgh",
+      "Town of Kingston",
+      "Yeoman"
+    ],
+    "tagPerson": [
+      "McCaulay, John",
+      "Wilders, Daniel",
+      "McFarlane, John",
+      "Edgar, John",
+      "McFarling, John",
+      "Haldimand, General",
+      "Dougherty, Elizabeth",
+      "Thureson, Lawrence",
+      "McKindlay, John",
+      "Stretch, Daniel",
+      "Whitman, David",
+      "McCaulay, Robert",
+      "McKay, John",
+      "Richardson, Thomas",
+      "Walders, Daniel",
+      "Dougherty, Edward",
+      "McDonell, James, Capt",
+      "Gerolomy, James"
+    ],
+    "tagDate": ["1797-01-01T00:00:00.000Z"]
+  },
+  "740": {
+    "tagPerson": [
+      "Camp, James",
+      "Clark, Alex",
+      "Clock, Adam",
+      "M, James",
+      "Bower, Peter"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1797-06-13T23:59:59.999Z]"]
+  },
+  "322": {
+    "tagDate": ["[1810-12-01T00:00:00.000Z TO 1811-03-14T23:59:59.999Z]"],
+    "tagPerson": ["McLean, Allan", "MacLean, Allan", "Johns, David", "B, John"],
+    "tagPlace": ["Midland District"]
+  },
+  "275": {
+    "tagDate": ["1719-07-03T00:00:00.000Z"],
+    "tagPerson": ["Hartman, David", "Ridout, Thos"],
+    "tagPlace": ["Midland District", "Sidney", "York"]
+  },
+  "49": {
+    "tagDate": ["1803-08-17T00:00:00.000Z"],
+    "tagPerson": ["Ridout, Chewett, V", "Hunter, Peter, Lieut"],
+    "tagPlace": ["Province of Upper Canada", "Upper Lower Canada"]
+  },
+  "452": {
+    "tagPerson": ["W, Thomas", "Mashaw, Benjamin", "Crawford, William"],
+    "tagDate": ["1817-02-05T00:00:00.000Z"],
+    "tagPlace": ["Fredericksburg"]
+  },
+  "115": {
+    "tagPerson": [
+      "Xavier, Francis",
+      "Mainville, Louis",
+      "Peters, Charles, J",
+      "Stretch, Daniel",
+      "Adams, James",
+      "Denyke, Andrew",
+      "McDonald, Charles",
+      "McDonell, Charles",
+      "McLean, Neil"
+    ],
+    "tagDate": ["1797-01-01T00:00:00.000Z"],
+    "tagPlace": ["Town of Kingston", "Midland District", "Yeoman", "Mason"]
+  },
+  "246": {
+    "tagDate": ["1801-04-28T00:00:00.000Z"],
+    "tagPerson": ["Elmsley, J"]
+  },
+  "590": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": [
+      "Amy, Jonas",
+      "Fainfield, William",
+      "Collins, John",
+      "Hamilton, Amy"
+    ],
+    "tagDate": ["1783-09-02T00:00:00.000Z"]
+  },
+  "610": {
+    "tagPlace": ["Richmond", "Midland"],
+    "tagDate": ["1787-10-02T00:00:00.000Z"],
+    "tagPerson": ["Bower, Casper"]
+  },
+  "314": {
+    "tagPlace": ["Midland District", "Kingston"],
+    "tagPerson": ["Huffnail, Andrew", "B, John", "McLean, Allan"],
+    "tagDate": ["[1807-05-30T23:59:59.999Z TO 1810-03-14T00:00:00.000Z]"]
+  },
+  "298": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["1818-07-11T00:00:00.000Z"],
+    "tagPerson": ["Henderson, Edwd", "B, John"]
+  },
+  "751": {
+    "tagDate": ["1785-09-30T00:00:00.000Z"],
+    "tagPerson": ["Hamilton, Henry", "Claprode, Ernest", "Collins, John"],
+    "tagPlace": ["Cataraqui", "Province of Quebec"]
+  },
+  "419": {
+    "tagPlace": [
+      "Kingston",
+      "Midland District",
+      "Township of Ameliasburgh Yeoman"
+    ],
+    "tagDate": ["1816-07-09T00:00:00.000Z"],
+    "tagPerson": ["B, John", "Roblin, Owen, P"]
+  },
+  "631": {
+    "tagPerson": ["Brewer, Aron", "Moore, Thos", "Grooms, Elijah"],
+    "tagDate": ["1785-09-02T00:00:00.000Z"],
+    "tagPlace": ["Midland"]
+  },
+  "257": {
+    "tagPlace": ["Midland District", "Kingston", "Sophiasburgh"],
+    "tagDate": ["[1800-07-09T00:00:00.000Z TO 1800-08-27T23:59:59.999Z]"],
+    "tagPerson": [
+      "Brock, William",
+      "Cartwright, Richard",
+      "Brock, Samuel",
+      "Hartman, Mathew",
+      "Butterworth, James",
+      "Downey, Cornelius"
+    ]
+  },
+  "502": {
+    "tagDate": ["[1802-01-01T00:00:00.000Z TO 1802-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "338": {
+    "tagPlace": [
+      "Province of Upper Canada",
+      "Midland District",
+      "Township of Fredericksburg Yeoman",
+      "Kingston"
+    ],
+    "tagPerson": ["Loucks, Abraham", "Loucks, George", "Loucks, Jacob"],
+    "tagDate": ["1818-01-12T00:00:00.000Z"]
+  },
+  "406": {
+    "tagPlace": ["Ernest Town", "Quebec", "York"],
+    "tagDate": ["1819-07-19T00:00:00.000Z"],
+    "tagPerson": ["Pitman, R", "Hawley, Jeptha", "Ridout, Tho"]
+  },
+  "303": {
+    "tagDate": ["1810-04-10T00:00:00.000Z"],
+    "tagPerson": ["Howard, John"],
+    "tagPlace": [
+      "Township of Amherst Island Yeoman",
+      "County of Prince Edward",
+      "District Province of Upper Canada",
+      "Township of Hallowell",
+      "Midland District"
+    ]
+  },
+  "547": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["Cartwight, Rich"],
+    "tagDate": ["1802-06-01T00:00:00.000Z"]
+  },
+  "384": {
+    "tagPerson": ["Morse, Moses", "B, John", "Mercer, W", "MacLean, Allan"],
+    "tagDate": ["[1826-05-27T00:00:00.000Z TO 1826-07-08T23:59:59.999Z]"],
+    "tagPlace": ["Sidney", "Midland", "Kingston"]
+  },
+  "663": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["1797-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Fisher, Alex",
+      "Alstine, P, V",
+      "Martens, James, M",
+      "Baker, John"
+    ]
+  },
+  "489": {
+    "tagPerson": ["Wansfield, D"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1835-07-08T23:59:59.999Z]"],
+    "tagPlace": ["Hallowell"]
+  },
+  "827": {
+    "tagPerson": [
+      "Canlon, Micha",
+      "Collins, John",
+      "G, Britain",
+      "Haldimand, Fred"
+    ],
+    "tagDate": ["1784-09-28T00:00:00.000Z"],
+    "tagPlace": ["Cataraqui", "Province of Quebec"]
+  },
+  "603": {
+    "tagPerson": ["Homing, Jn", "Buck, George"],
+    "tagDate": ["1785-10-27T00:00:00.000Z"],
+    "tagPlace": ["Midland"]
+  },
+  "363": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": [
+      "Macaulay, Robert",
+      "McNabb, James",
+      "McNabb, Mary Ann",
+      "B, John"
+    ],
+    "tagDate": ["[1817-07-14T00:00:00.000Z TO 1817-07-19T23:59:59.999Z]"]
+  },
+  "279": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1819-06-29T23:59:59.999Z]"],
+    "tagPerson": [
+      "MacLean, Allan",
+      "Hartman, Philip",
+      "B, John",
+      "Fraser, Isaac",
+      "Hartman, Lewis"
+    ],
+    "tagPlace": ["Kingston", "Midland District", "Sydney"]
+  },
+  "773": {
+    "tagPerson": [
+      "Harrison, Edwn",
+      "Connor, Elizabeth",
+      "Howard, John",
+      "Grant, William",
+      "Caldwell, Henry",
+      "Dunn, Thos",
+      "Williams, J",
+      "Finlay, Hugh",
+      "Smith, William",
+      "Pownall, George"
+    ],
+    "tagDate": ["[1783-12-31T23:59:59.999Z TO 1789-11-09T00:00:00.000Z]"],
+    "tagPlace": [
+      "Township of Fredericksburg",
+      "Quebec",
+      "Township of Sophiasburg",
+      "District of Mecklenburg"
+    ]
+  },
+  "684": {
+    "tagPerson": [
+      "McMulling, Daniel",
+      "M, Thomas",
+      "Wright, Joseph",
+      "Bird, Henry",
+      "McBean, Thos"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1786-10-06T23:59:59.999Z]"],
+    "tagPlace": ["Fredericksburg", "District of Mecklenburg", "Kingston"]
+  },
+  "380": {
+    "tagDate": ["[1829-04-10T00:00:00.000Z TO 1829-07-16T23:59:59.999Z]"],
+    "tagPerson": ["B, John", "Morse, Moses", "MacLean, Allan"],
+    "tagPlace": ["Kingston", "Midland District"]
+  },
+  "415": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["Macaulay, Robert", "B, John", "Redner, Henry"],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1817-07-09T00:00:00.000Z]"]
+  },
+  "466": {
+    "tagPlace": [
+      "Township of Sophiasburgh",
+      "Midland District Yeoman",
+      "Kingston"
+    ],
+    "tagDate": ["[1822-03-13T00:00:00.000Z TO 1833-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Way, Reuben", "Crank, Reuben, Junior", "Abraham, Crank"]
+  },
+  "331": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[1817-07-14T00:00:00.000Z TO 1817-07-19T23:59:59.999Z]"],
+    "tagPerson": ["Loft, John", "Macaulay, Robert", "McNabb, James", "B, John"]
+  },
+  "797": {
+    "tagPlace": ["Province of Quebec", "District of Mecklenburgh", "Kingston"],
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1789-08-25T23:59:59.999Z]"],
+    "tagPerson": ["Stuart, M", "Cooke, Thomas", "Cartwright, Richard"]
+  },
+  "562": {
+    "tagDate": ["1785-09-02T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Hamilton, Amy", "Alwell, Connad"],
+    "tagPlace": ["Cataraqui", "Province of Quebec"]
+  },
+  "638": {
+    "tagPerson": ["Barnes, Isaac", "Collins, John"],
+    "tagDate": ["1788-11-13T00:00:00.000Z"],
+    "tagPlace": ["Province of Quebec"]
+  },
+  "687": {
+    "tagDate": ["1787-10-02T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Bower, Peter"],
+    "tagPlace": ["Bay De Quinty", "Province of Quebec"]
+  },
+  "248": {
+    "tagDate": ["1803-01-01T00:00:00.000Z"],
+    "tagPlace": [" Marysburgh", "County of Prince Edward", "Midland District"]
+  },
+  "824": {
+    "tagDate": ["1785-09-02T00:00:00.000Z"],
+    "tagPerson": ["Conkwright, Abraham", "Collins, John", "Hamilton, Henry"],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "296": {
+    "tagPerson": [
+      "Hombrow, Margaret",
+      "Walker, Edward",
+      "B, John",
+      "McLean, Allan"
+    ],
+    "tagDate": ["[1809-02-15T23:59:59.999Z TO 1809-03-10T00:00:00.000Z]"],
+    "tagPlace": ["Kingston", "Midland District"]
+  },
+  "558": {
+    "tagPlace": ["Province of Quebec", "Cataraqui"],
+    "tagDate": ["1785-10-10T00:00:00.000Z"],
+    "tagPerson": ["Anesley, Amos", "Collins, John", "Hamilton, Amy"]
+  },
+  "794": {
+    "tagDate": ["[1795-06-24T00:00:00.000Z TO 1800-08-29T23:59:59.999Z]"],
+    "tagPerson": [
+      "Mordoff, Geo",
+      "Cole, Isaac",
+      "Huff, John",
+      "Ryckman, Edward",
+      "Ryckman, Tobias",
+      "Clark, Alexander",
+      "Cole, Peter"
+    ],
+    "tagPlace": ["Sophiasburg"]
+  },
+  "229": { "tagDate": ["1798-11-23T00:00:00.000Z"], "tagPerson": ["Smith, D"] },
+  "168": {
+    "tagPlace": ["Adolphustown", "New York"],
+    "tagPerson": [
+      "Turner, Richard",
+      "Taylor, Nathaniel",
+      "Tindel, Sarah",
+      "Taylor, John",
+      "Tyler, Garid",
+      "Tindal, Robert",
+      "Thompson, Timothy",
+      "Trompour, Paul",
+      "Thompson, William",
+      "Trent, John",
+      "Thiele, John",
+      "Tuddle, John",
+      "Tyler, Genard",
+      "Taylor, Michael",
+      "Thomas, Peter",
+      "E, John",
+      "Turner, Cornelius"
+    ],
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"]
+  },
+  "723": {
+    "tagDate": ["[1791-12-27T00:00:00.000Z TO 1795-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Sharp, S",
+      "Collin, Joseph",
+      "Allen, John",
+      "Dorland, Philip",
+      "Petterson, Christian",
+      "B, John",
+      "Baker, John",
+      "Clapp, Joseph"
+    ],
+    "tagPlace": ["Adolphustown"]
+  },
+  "101": {
+    "tagPlace": [
+      "Quebec",
+      "Yeoman",
+      "Fredericksburg",
+      "Town of Kingston",
+      "Town of Niagara",
+      "Hallowell"
+    ],
+    "tagPerson": [
+      "McDonald, Donald",
+      "Clark, James",
+      "Thomson, Timothy",
+      "Conkrite, John",
+      "Pettingel, Samuel",
+      "Gardiner, John",
+      "Kerr, Robt",
+      "Fosyuer, John",
+      "Pettingel, Jacob, Serjt",
+      "Rogers, James",
+      "Smith, Comfort",
+      "Smith, John",
+      "Kemp, Joseph",
+      "Benn, John",
+      "Johnsons, John",
+      "Markland, Thomas",
+      "Mitts, John",
+      "Quakenbush, Rynard",
+      "McKay, James",
+      "Macaulay, Robert",
+      "Mark, Thomas",
+      "Larroway, Isaac",
+      "Lucas, Daniel, Lt"
+    ],
+    "tagDate": ["1797-01-01T00:00:00.000Z"]
+  },
+  "790": {
+    "tagPerson": [
+      "Williams, W",
+      "Benson, Matthew",
+      "Gold, L",
+      "Kimmerly, Andrew",
+      "Gold, A"
+    ],
+    "tagDate": ["[1790-05-04T23:59:59.999Z TO 1793-11-07T00:00:00.000Z]"]
+  },
+  "108": {
+    "tagPlace": [
+      "Fredericksburg",
+      "Yeoman",
+      "Pittsburgh",
+      "Marysburgh",
+      "Town of Kingston"
+    ],
+    "tagDate": ["1799-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Mouch, Louis",
+      "Betty, William",
+      "McIntosh, Lauchlin",
+      "Christie, Peter",
+      "Hicks, Benjamin",
+      "Anderson, John",
+      "McKay, John",
+      "Christer, Peter",
+      "Henderson, John",
+      "Barron, William",
+      "Badderly, Michael",
+      "Carscallen, James",
+      "McDonell, Donald",
+      "Thomson, Robert",
+      "Lierman, Henry",
+      "Gibson, William",
+      "Harleman, Peter",
+      "Hailman, Peter"
+    ]
+  },
+  "161": {
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Richardson, Ann, Elvira",
+      "Rosebush, Solomon",
+      "Ruttan, Jacob",
+      "Reynolds, Daniel",
+      "Rupell, James",
+      "Rupell, Lucy",
+      "Ripson, Conrade",
+      "Ryckman, Tobias",
+      "Robinson, Daniel",
+      "William",
+      "Thurlow",
+      "Richardson, Thos",
+      "Ryan, David",
+      "Reddin, Elizabeth",
+      "Rosieronec, Joseph",
+      "Robbin, Mary",
+      "Randall, David",
+      "Moore, William",
+      "Rimpler, John, Henry",
+      "Ryder, William",
+      "Rattan, G",
+      "Rosebush, Joseph",
+      "Rop, George",
+      "Read, Samuel",
+      "Rosebush, Samuel",
+      "Snyder, Simon",
+      "Rofs, Catherine",
+      "Murdoff, James",
+      "Williamson, John",
+      "Riddnes, Henry",
+      "Richards, Diana",
+      "Rose, Arra"
+    ],
+    "tagPlace": ["New Jersey", "New York", "Germany"]
+  },
+  "254": {
+    "tagDate": ["[1824-12-31T23:59:59.999Z TO 1826-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Conrad",
+      "Wager, Thomas",
+      "Smith, Humphrey",
+      "Sills, George",
+      "Ross, Wait",
+      "Walker, Weedon",
+      "Ross, Wright",
+      "Redner, Henry",
+      "Powly, Jacob",
+      "McNabb, Mary Ann",
+      "Pringle, Joseph",
+      "Monsell, Wm",
+      "Spencer, J, B",
+      "Orser, Solomon",
+      "Parry, Wm",
+      "Sills, Robert",
+      "Rose, Jacob",
+      "Palmer, Ebenizer",
+      "Wilkins, Robert, C",
+      "McLean, Allan",
+      "Way, Reuben",
+      "Y, Peter",
+      "Mitchell, Wm",
+      "Storms, Mary",
+      "Robbin, Owen, P",
+      "Morse, Moses",
+      "Andrew",
+      "Marsh, Benjamin",
+      "Trumpour, John, P",
+      "Pitman, Thos",
+      "Noven, James",
+      "Wannamaker, Harmonus"
+    ]
+  },
+  "551": {
+    "tagPerson": [
+      "Oliver, Aaron",
+      "McJean, Neil",
+      "Cartwright, Richard",
+      "Oliver, Frederick",
+      "Neilson, S"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1795-03-31T23:59:59.999Z]"],
+    "tagPlace": [
+      "Quebec",
+      "Kingston",
+      "Township of Richmond",
+      "District of Mecklenburg"
+    ]
+  },
+  "812": {
+    "tagDate": ["1789-07-17T00:00:00.000Z"],
+    "tagPerson": ["Aitken, Alex", "Conklin, John"],
+    "tagPlace": ["Kingston", "District of Mecklenburg"]
+  },
+  "756": {
+    "tagPlace": ["Province of Quebec", "Cataraqui"],
+    "tagPerson": ["Coon, Simion", "Collins, John", "Hamilton, Henry"],
+    "tagDate": ["1785-09-20T00:00:00.000Z"]
+  },
+  "387": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1810-03-16T23:59:59.999Z]"],
+    "tagPerson": ["N, James", "MacLean, Allan", "Walker, Edward", "B, John"]
+  },
+  "544": {
+    "tagPlace": ["Haldimand"],
+    "tagDate": ["1801-05-11T00:00:00.000Z"],
+    "tagPerson": ["Williams, David", "Hall, Isaiah", "Williams, Samuel"]
+  },
+  "241": { "tagPlace": ["Kingston"], "tagDate": ["1798-01-01T00:00:00.000Z"] },
+  "14": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["[1803-01-01T00:00:00.000Z TO 1803-11-30T23:59:59.999Z]"]
+  },
+  "468": {
+    "tagDate": ["[1810-04-02T00:00:00.000Z TO 1810-06-09T23:59:59.999Z]"],
+    "tagPerson": ["B, John", "Witkins, Robert", "MacLean, Allan"],
+    "tagPlace": ["Midland District"]
+  },
+  "401": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1820-07-11T23:59:59.999Z]"],
+    "tagPerson": ["Pitman, Thos", "MacLean, Allan", "B, John"]
+  },
+  "747": {
+    "tagDate": ["1810-01-01T00:00:00.000Z"],
+    "tagPerson": ["Congers, David"]
+  },
+  "636": {
+    "tagPerson": [
+      "Ambury, Andrew",
+      "Bartley, Michael",
+      "Embury, John",
+      "Clark, Alex"
+    ],
+    "tagDate": ["1797-05-20T00:00:00.000Z"],
+    "tagPlace": ["Richmond", "Midland", "Fredericksburg"]
+  },
+  "225": {
+    "tagDate": ["1798-11-22T00:00:00.000Z"],
+    "tagPlace": ["Midland District"]
+  },
+  "702": {
+    "tagPerson": [
+      "Bebec, Peter",
+      "George",
+      "E, David",
+      "B",
+      "A",
+      "Howel, John",
+      "Bower, Peter",
+      "Tom"
+    ],
+    "tagDate": ["[1789-04-22T00:00:00.000Z TO 1790-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Fredericksburg"]
+  },
+  "317": {
+    "tagPlace": [
+      "Kingston",
+      "Midland District",
+      "York",
+      "Township of Hungerford"
+    ],
+    "tagDate": ["1812-05-06T00:00:00.000Z"],
+    "tagPerson": ["Huyck, John, Lieut"]
+  },
+  "672": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagDate": ["1785-09-21T00:00:00.000Z"],
+    "tagPerson": ["Bowen, Peter", "Hamilton, Henry", "Collins, John"]
+  },
+  "617": {
+    "tagPlace": ["Marysburg", "Adolphustown"],
+    "tagDate": ["[1795-04-25T00:00:00.000Z TO 1795-05-30T23:59:59.999Z]"],
+    "tagPerson": [
+      "Allen, Joseph",
+      "Benson, Garrett",
+      "Sharpe, Sarah",
+      "Allen, Jonathan",
+      "C, John",
+      "Dorland, Philip",
+      "Allen, John"
+    ]
+  },
+  "597": {
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPerson": ["Benn, Johns", "Haldimand, Fred", "Collins, John"],
+    "tagPlace": ["Cataraqui", "Province of Quebec", "New York"]
+  },
+  "762": {
+    "tagPerson": [
+      "Coon, Simon",
+      "Casey, William",
+      "Woodcock, John",
+      "Casey, Willet",
+      "Dorland, Tho",
+      "Woodcock, I"
+    ],
+    "tagDate": ["[1787-06-16T00:00:00.000Z TO 1788-10-14T23:59:59.999Z]"]
+  },
+  "372": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagPerson": [
+      "Stewart, Alexander",
+      "Fairchild, Banjamin",
+      "B, John",
+      "Forsyth, Joseph"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1819-06-30T00:00:00.000Z]"]
+  },
+  "408": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagPerson": ["Mickalls, James", "Pitman, Thomas", "B, John"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1819-07-15T23:59:59.999Z]"]
+  },
+  "461": {
+    "tagPlace": ["Ameliasburgh", "York"],
+    "tagDate": ["[1813-12-31T23:59:59.999Z TO 1817-07-09T00:00:00.000Z]"],
+    "tagPerson": [
+      "Ridnor, John",
+      "Wanamaker, Andrew",
+      "Ridout, Thos",
+      "Ribbons, Adam",
+      "Koeller, Charles, D",
+      "Wanamaker, Hermanus"
+    ]
+  },
+  "336": {
+    "tagDate": ["1820-07-04T00:00:00.000Z"],
+    "tagPerson": ["Loucks, Jacob", "Loucks, George"],
+    "tagPlace": ["York", "Midland District"]
+  },
+  "195": {
+    "tagPlace": ["Midland District", "York"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1790-01-01T00:00:00.000Z]"]
+  },
+  "426": {
+    "tagPlace": [
+      "County of Durham",
+      "Township of Huntington",
+      "County of Hastings",
+      "Township of Fredericksburg",
+      "Midland District",
+      "Kingston",
+      "District of New Castle"
+    ],
+    "tagPerson": ["Rofs, Zenas", "Rofs, Wright", "J, Isaac", "Finkle, George"],
+    "tagDate": ["[1831-02-23T23:59:59.999Z TO 1831-07-16T00:00:00.000Z]"]
+  },
+  "656": {
+    "tagDate": ["[1784-12-31T23:59:59.999Z TO 1793-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Bronner, Peter",
+      "Trumpour, Paul",
+      "Parsals, John",
+      "Trumpbouer, John",
+      "Trumpour, Joseph"
+    ]
+  },
+  "499": {
+    "tagDate": ["[1798-08-22T23:59:59.999Z TO 1798-09-03T00:00:00.000Z]"],
+    "tagPerson": [
+      "Hoven, Casper",
+      "Hoven, Henry",
+      "Ricsh, John",
+      "Herchmer, G, J",
+      "Naferman, N",
+      "Anderson, Joseph"
+    ],
+    "tagPlace": ["Pittsburg", "Kingston", "Adolphustown"]
+  },
+  "218": { "tagDate": ["1798-06-19T00:00:00.000Z"] },
+  "394": {
+    "tagPerson": ["Orser, Solomon"],
+    "tagDate": ["1818-04-27T00:00:00.000Z"],
+    "tagPlace": [
+      "Town of Kingston",
+      "Midland District Yeoman",
+      "Province of Upper Canada"
+    ]
+  },
+  "323": {
+    "tagPerson": ["McLean, Allan", "MacLean, Allan", "Johns, David", "B, John"],
+    "tagDate": ["[1810-12-31T23:59:59.999Z TO 1811-03-14T00:00:00.000Z]"],
+    "tagPlace": ["Midland District"]
+  },
+  "510": {
+    "tagPlace": [
+      "Township of Sidney",
+      "Midland District",
+      "Town of Kingston",
+      "Township of Maryborough"
+    ],
+    "tagPerson": [
+      "Watson, John",
+      "Cummings, John",
+      "Kirby, John",
+      "Cook, Thomas",
+      "Spanding, John",
+      "Forsyth, Joseph",
+      "McCanley, Robert"
+    ],
+    "tagDate": ["1802-08-30T00:00:00.000Z"]
+  },
+  "390": {
+    "tagPerson": ["Stevens, Seth", "Orser, Solomon"],
+    "tagDate": ["1809-05-31T00:00:00.000Z"],
+    "tagPlace": ["Township of Kingston Yeoman", "County of Hastings"]
+  },
+  "694": {
+    "tagPlace": ["Province of Quebec", "Cataraqui"],
+    "tagDate": ["1786-08-11T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Blinker, William",
+      "Collins, John",
+      "Mifarts, John"
+    ]
+  },
+  "171": {
+    "tagPerson": [
+      "Purdy, Gibb",
+      "Williams, William, Junr",
+      "Wannamaker, Hormonas",
+      "D, David",
+      "Perry, Robert",
+      "Williams, John",
+      "Walters, Humphey",
+      "L, John",
+      "Waghnes, Frederick",
+      "Ward, William",
+      "Wilson, B",
+      "Wannamaker, Mary",
+      "Wright, Margaret",
+      "Wannamaker, Andrew",
+      "David",
+      "O, Joseph",
+      "Williams, William, Senr",
+      "Winn, Abraham",
+      "Wessels, Nicholas",
+      "Wilson, James",
+      "Wanner, John",
+      "C, George",
+      "Wannamaker, Thomas",
+      "Whelpley, Joseph",
+      "John",
+      "Wartman, Hanah",
+      "While, William",
+      "Woodcock, Katherine",
+      "Simmons, Henry",
+      "Peterson, Nicholas",
+      "Wees",
+      "Washman, Rhoda",
+      "Wees, John, Junr",
+      "Williams, Nathan",
+      "Whipple, Elijah",
+      "Williams, Elizabeth",
+      "Warner, Rachel",
+      "Wannamaker, Jacob",
+      "Wees, John",
+      "Williams, A",
+      "Bobcock, John",
+      "Wells, James"
+    ],
+    "tagDate": ["[1790-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"],
+    "tagPlace": ["New Hampshire", "Quebec"]
+  },
+  "514": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["1802-08-30T00:00:00.000Z"],
+    "tagPerson": ["McCaulay, John", "Kirby, John", "Vallier, Joseph"]
+  },
+  "807": {
+    "tagPlace": ["Province of Quebec"],
+    "tagDate": ["1787-10-01T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Collard, Abraham"]
+  },
+  "453": {
+    "tagDate": ["1815-10-02T00:00:00.000Z"],
+    "tagPerson": ["M, Thomas", "Snyder, Luke", "Snyder, Jacob"],
+    "tagPlace": [
+      "County of Lenox",
+      "Adolphus Town",
+      "Province of Upper Canada",
+      "Midland District",
+      "Township of Brunswick",
+      "Township of Fredericksburg",
+      "State of New York"
+    ]
+  },
+  "18": {
+    "tagPerson": [
+      "Hiffy, B",
+      "Corey, Willet",
+      "Stainer, Job",
+      "Haight, Daniel",
+      "Brown, David",
+      "Dafar, John",
+      "Harns, Gilbish",
+      "Richards, John",
+      "Carnahan, Joseph",
+      "M, Henry",
+      "Benninger, John"
+    ],
+    "tagDate": ["[1775-01-01T00:00:00.000Z TO 1784-12-31T23:59:59.999Z]"],
+    "tagPlace": [
+      "Township of Thurlow",
+      "Midland District Yeoman",
+      "Township of Fredericksburg",
+      "Township of Adolphus Town Yeoman",
+      "Township of Adolphus",
+      "Midland District Blacksmith",
+      "Township of Richmond",
+      "Town of Kingston Marina"
+    ]
+  },
+  "356": {
+    "tagPlace": ["York", "Quebec", "Ernest Town"],
+    "tagPerson": ["Ridout, Thos", "Fairfield, William"],
+    "tagDate": ["1826-07-04T00:00:00.000Z"]
+  },
+  "787": {
+    "tagPerson": [
+      "Bell, Thomas",
+      "Clock, Adam",
+      "Harris, James",
+      "Carpenter, Jacob"
+    ],
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1791-08-28T23:59:59.999Z]"]
+  },
+  "478": {
+    "tagDate": ["[1822-07-10T23:59:59.999Z TO 1825-07-07T00:00:00.000Z]"],
+    "tagPlace": ["Toronto"]
+  },
+  "503": {
+    "tagPerson": ["Herchman, Lawrence", "Allison, Joseph", "Heerman, Henry"],
+    "tagDate": ["[1802-08-16T00:00:00.000Z TO 1802-08-17T23:59:59.999Z]"],
+    "tagPlace": ["Midland District", "Town of Kingston"]
+  },
+  "347": {
+    "tagPlace": ["Township of Marysburgh", "York", "Midland"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1819-07-19T00:00:00.000Z]"],
+    "tagPerson": ["Ridout, V", "McDonell, Archibald"]
+  },
+  "199": {
+    "tagPlace": ["Loughborough", "Kingston", "Cataraqui", "Pittsburgh"],
+    "tagPerson": [
+      "McDougal, Allan",
+      "Knight, M",
+      "McDonell, Don",
+      "Holmes, C",
+      "McLeod, John",
+      "Edgar",
+      "Atkinson, Wm",
+      "McCartwright",
+      "McLaughlin, John",
+      "McCollins",
+      "Campbell, Hugh",
+      "Loyd, Wm",
+      "Dasly, John"
+    ],
+    "tagDate": ["1797-02-11T00:00:00.000Z"]
+  },
+  "230": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["1798-11-23T00:00:00.000Z"]
+  },
+  "302": {
+    "tagDate": ["[1811-03-14T23:59:59.999Z TO 1811-03-16T00:00:00.000Z]"],
+    "tagPerson": [
+      "MacLean, Allan",
+      "Herchmer, Lawrence",
+      "B, John",
+      "Markland, Thomas"
+    ],
+    "tagPlace": ["Midland District"]
+  },
+  "717": {
+    "tagPlace": ["Fredericksburg"],
+    "tagPerson": ["Bell, W", "Bell, Duncan"],
+    "tagDate": ["[1797-02-15T00:00:00.000Z TO 1797-02-16T23:59:59.999Z]"]
+  },
+  "662": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["1797-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Baker, John",
+      "Martens, James, M",
+      "Alstine, P, V",
+      "Fisher, Alex"
+    ]
+  },
+  "126": {
+    "tagPerson": [
+      "Bennett, Charles",
+      "Blacker, Catherine",
+      "Benn, Isaac",
+      "Benson, Jacob",
+      "Brass, Hannah",
+      "Brass, Cornelius",
+      "B, Daniel",
+      "Bevay, Philip",
+      "Babcock, Elizabeth",
+      "Baker, John",
+      "Booth, Margaret",
+      "Batty, William",
+      "W, John",
+      "C, Edward",
+      "Baugart, Conrads",
+      "Benson, Oliver",
+      "Davy, Peter",
+      "Bell, Ann",
+      "Babcock, John",
+      "Bond, Thomas",
+      "Bevay, Katherine",
+      "Briscoe, Norris",
+      "Baker, Elizabeth",
+      "Burley, S",
+      "Boyer, Elizabeth",
+      "Baker, Elisabeth",
+      "Bergen, Elizabeth",
+      "Babcock, William",
+      "Bradford, John",
+      "Bastly, Isaiah",
+      "Blair, Robert",
+      "Badgley, Anthony",
+      "Burlingham, Ruben",
+      "Brooker, James",
+      "Andrew, B",
+      "Baker, Badgley, Samuel",
+      "Fraser, Daniel"
+    ],
+    "tagDate": ["[1790-01-01T00:00:00.000Z TO 1792-12-31T23:59:59.999Z]"]
+  },
+  "495": {
+    "tagDate": ["1800-08-12T00:00:00.000Z"],
+    "tagPerson": [
+      "Peton, James",
+      "Williams, Robert",
+      "Zarick, Philip",
+      "Naperman, N",
+      "Williams, Thomas",
+      "MacMichael, John",
+      "Peton, Ely"
+    ],
+    "tagPlace": ["Thurlow"]
+  },
+  "602": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": [
+      "Homing, John",
+      "Collins, John",
+      "Hamilton, Amy",
+      "Buck, George"
+    ],
+    "tagDate": ["1785-10-27T00:00:00.000Z"]
+  },
+  "99": {
+    "tagDate": ["1797-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Huff, Bruin",
+      "Harns, Gilbert",
+      "Fisher, Duncan",
+      "Sharp, Guisbart",
+      "Simmons, Serjt",
+      "Strauber, John",
+      "Garlack",
+      "Philips, Almanza",
+      "Simmons, Henry",
+      "Simmons, Raymond",
+      "Cottier, William",
+      "Philips, Seth",
+      "Richard, John",
+      "Almard, Philips",
+      "Robins, James",
+      "Murdoff, George",
+      "Shipley"
+    ],
+    "tagPlace": ["Ernest Town", "Town of Kingston", "Fredericksburg"]
+  },
+  "531": {
+    "tagDate": ["[1784-01-01T00:00:00.000Z TO 1800-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Deane, Samuel",
+      "Brisco, Nathan",
+      "Glench, Benjamin",
+      "Vanzanh, John",
+      "Williams, Samuel",
+      "McKay, James",
+      "Cartwright, Rich",
+      "Hernes, Janet",
+      "S, John",
+      "Church, Oliver, Capt",
+      "Longwell, James",
+      "Harris, David",
+      "Oliver, Aaron",
+      "Singleton, Geo, Capt",
+      "Stuart, Robert"
+    ],
+    "tagPlace": ["Mecklenburg", "Midland District"]
+  },
+  "772": {
+    "tagPlace": ["Bay of Quinty"],
+    "tagDate": ["1791-05-19T00:00:00.000Z"],
+    "tagPerson": ["Cole, Peter", "T, John"]
+  },
+  "362": {
+    "tagDate": ["1817-05-19T00:00:00.000Z"],
+    "tagPerson": [
+      "Simons, John, Kingsly",
+      "Clute, Jane, E",
+      "Clute, John, E",
+      "McNabb, James",
+      "McNabb, Mary Ann",
+      "Fraser, William, Adjutant",
+      "Simons, Margaret"
+    ],
+    "tagPlace": [
+      "Province of Upper Canada",
+      "Midland District",
+      "Township of Fredericksburg",
+      "Mohawk Bay",
+      "Kingston"
+    ]
+  },
+  "647": {
+    "tagPlace": ["Midland District", "Fredericksburg"],
+    "tagDate": ["[1789-05-05T00:00:00.000Z TO 1793-10-20T23:59:59.999Z]"],
+    "tagPerson": [
+      "Clark, Alex",
+      "Bartley, Mickell",
+      "L, George M",
+      "Thompson, Tim",
+      "Evans, Botton"
+    ]
+  },
+  "288": {
+    "tagDate": ["1824-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hartman, David", "Hartman, Philip"]
+  },
+  "563": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": ["McGean, Neil", "Lanmon, John"],
+    "tagDate": ["1790-05-19T00:00:00.000Z"]
+  },
+  "580": {
+    "tagPerson": ["Adams, James", "Mondoff, James", "Kemp, Joseph"],
+    "tagDate": ["1798-07-18T00:00:00.000Z"]
+  },
+  "358": {
+    "tagPlace": ["Midland District", "Town of Kingston"],
+    "tagDate": ["[1826-01-01T00:00:00.000Z TO 1826-07-12T23:59:59.999Z]"],
+    "tagPerson": ["MacLean, Allan", "Washburn, Simson", "B, John"]
+  },
+  "237": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["1800-09-27T00:00:00.000Z"],
+    "tagPerson": ["Elmsley, J"]
+  },
+  "421": {
+    "tagPlace": [
+      "Sydney",
+      "Thurlow",
+      "Province of Upper Canada",
+      "Midland District"
+    ],
+    "tagDate": ["1878-05-28T00:00:00.000Z"],
+    "tagPerson": [
+      "G, Susannah",
+      "Simmons, Nicholas",
+      "Ridout, Thos",
+      "Rose, Arra",
+      "Simmons, Rose",
+      "Rose, Margaret",
+      "Rose, Jacob"
+    ]
+  },
+  "651": {
+    "tagDate": ["1797-09-28T00:00:00.000Z"],
+    "tagPerson": ["Bell, Thomas", "Bowen, Jasper", "Crawford, Bryan"],
+    "tagPlace": ["Fredericksburg"]
+  },
+  "710": {
+    "tagPlace": ["Midland"],
+    "tagPerson": ["Hartman, L", "Buis, Elizabeth", "John"],
+    "tagDate": ["1789-01-01T00:00:00.000Z"]
+  },
+  "722": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Baker, John",
+      "Collins, John",
+      "Petterson, Christian",
+      "Haldimand, Fred"
+    ],
+    "tagPlace": ["Bay Quinte", "Province of Quebec"]
+  },
+  "340": {
+    "tagDate": ["[1818-07-06T00:00:00.000Z TO 1820-07-04T23:59:59.999Z]"],
+    "tagPerson": [
+      "Loucks, Abraham",
+      "Fairfield, Banjamin",
+      "Hamilton, W",
+      "B, John"
+    ],
+    "tagPlace": ["Kingston", "Midland District"]
+  },
+  "644": {
+    "tagDate": ["1787-10-01T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Bradshaw, James"],
+    "tagPlace": ["Bay of Quinte", "Province of Quebec"]
+  },
+  "216": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["1798-01-05T00:00:00.000Z"]
+  },
+  "265": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1807-11-17T00:00:00.000Z]"],
+    "tagPerson": [
+      "Douglas, Thomas, I",
+      "Powell, J",
+      "Jacobs, N",
+      "Powell, Dummer"
+    ],
+    "tagPlace": ["York", "Adolphus Village"]
+  },
+  "813": {
+    "tagPlace": ["Thurlow"],
+    "tagDate": ["[1790-04-05T00:00:00.000Z TO 1791-06-13T23:59:59.999Z]"],
+    "tagPerson": [
+      "O, Stephen",
+      "Chisholm, John",
+      "Chisholm, Alexander",
+      "Conklin, Joseph",
+      "S, Philip",
+      "Conklin, John",
+      "Palmer, David"
+    ]
+  },
+  "640": {
+    "tagPlace": ["Province of Quebec", "Bay of Quinte"],
+    "tagPerson": ["Bowen, John", "Collins, John", "Bowen, Henry"],
+    "tagDate": ["1787-10-01T00:00:00.000Z"]
+  },
+  "344": {
+    "tagDate": ["[1803-12-31T23:59:59.999Z TO 1817-06-18T00:00:00.000Z]"],
+    "tagPerson": [
+      "Ridout, Thos",
+      "McDonell, Donald",
+      "Thomson, Robert",
+      "Aitken, Alexander",
+      "Allesck, Chief Justice"
+    ],
+    "tagPlace": [
+      "Pines Edwards Bay",
+      "Midland District",
+      "Township of Marysburgh",
+      "York"
+    ]
+  },
+  "449": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": ["Trumpour, John, P", "Mickalls, James"],
+    "tagDate": ["[1833-06-29T00:00:00.000Z TO 1834-07-12T23:59:59.999Z]"]
+  },
+  "428": {
+    "tagPerson": ["Casey, W", "Mikalls, James", "Rofs, Wright", "B, John"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1831-07-08T23:59:59.999Z]"],
+    "tagPlace": ["Midland District", "Kingston"]
+  },
+  "658": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": ["Beaton, Captain", "Hamilton, Henry", "Collins, John"],
+    "tagDate": ["1785-09-02T00:00:00.000Z"]
+  },
+  "351": {
+    "tagDate": ["[1822-06-26T23:59:59.999Z TO 1822-07-11T00:00:00.000Z]"],
+    "tagPerson": ["McLean, Stephen", "Ridout, Thos"],
+    "tagPlace": ["York", "Town of Kingston"]
+  },
+  "804": {
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1795-06-15T00:00:00.000Z]"],
+    "tagPerson": [
+      "Aurlbut, Thomas",
+      "Aulthouse, Nicholas",
+      "Crawford, Bryan",
+      "Gommer, Phebe",
+      "Fisher, Alex",
+      "Diamond, Jacob"
+    ],
+    "tagPlace": [
+      "Quebec",
+      "County of Lenox",
+      "County of Addington",
+      "Midland",
+      "Ernest Town",
+      "Township of Richmond"
+    ]
+  },
+  "286": {
+    "tagPlace": ["York"],
+    "tagDate": ["1817-02-17T00:00:00.000Z"],
+    "tagPerson": ["B, John", "Ridout, Hugh", "Hemingway, Josiah", "W, Conrad"]
+  },
+  "517": {
+    "tagPerson": [
+      "Anderson, Alexander",
+      "Hennissy, James",
+      "Hudson, George",
+      "Earl, Hugh",
+      "Bull, Boyer"
+    ],
+    "tagDate": ["1802-09-01T00:00:00.000Z"],
+    "tagPlace": ["Township of Pittsburgh", "Midland District"]
+  },
+  "738": {
+    "tagPerson": [
+      "Kemp, Joseph",
+      "Miller, Jonathan",
+      "Foyek, Peter",
+      "Kemp, James",
+      "Clark, Alex"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1797-06-15T23:59:59.999Z]"]
+  },
+  "697": {
+    "tagDate": ["1785-11-26T00:00:00.000Z"],
+    "tagPerson": ["Ball, Jacob", "Hamilton, Henry", "Collins, John"],
+    "tagPlace": ["Province of Quebec "]
+  },
+  "703": {
+    "tagPerson": ["Bebec, Peter", "Bower, Peter"],
+    "tagDate": ["1785-01-01T00:00:00.000Z"]
+  },
+  "121": {
+    "tagPlace": ["Midland District", "Upper Canada"],
+    "tagDate": ["[1790-12-31T23:59:59.999Z TO 1797-01-01T00:00:00.000Z]"]
+  },
+  "673": {
+    "tagPerson": [
+      "Clark, Alex",
+      "B, Gaspar",
+      "Clock, Adam",
+      "Bowen, Adam",
+      "Nordolf, James"
+    ],
+    "tagDate": ["1800-08-18T00:00:00.000Z"],
+    "tagPlace": ["Township of Fredericksburg"]
+  },
+  "94": {
+    "tagDate": ["[1798-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Haldimand, General",
+      "Foster, John",
+      "Forster, John",
+      "Katch, Christian",
+      "Haight, Daniel",
+      "Bunbary, Joseph",
+      "Cartwright, Richard",
+      "McCaulay, Robert",
+      "Richardson, Asa",
+      "Simpson, John",
+      "Cunningham, George",
+      "Hamilton, Governor",
+      "McCaulay, Ann",
+      "Johnsons, John",
+      "Katchlow, Christian",
+      "Pickle, John",
+      "Reddick, Philip",
+      "Hartman, John",
+      "Simpson, James"
+    ],
+    "tagPlace": ["Adolphustown", "Ameliasburgh", "Thurlow"]
+  },
+  "445": {
+    "tagDate": ["1810-06-09T00:00:00.000Z"],
+    "tagPerson": ["MacLean, Allan", "Storms, Mary", "B, John"],
+    "tagPlace": ["Midland"]
+  },
+  "432": {
+    "tagPlace": ["Marysburgh", "York"],
+    "tagPerson": [
+      "Simpson, Thomas",
+      "Willekey, William",
+      "Aitkein, Alexander",
+      "Simpson, Israel",
+      "Hamilton, Governor",
+      "Duff, W"
+    ],
+    "tagDate": ["[1799-12-31T23:59:59.999Z TO 1819-07-11T00:00:00.000Z]"]
+  },
+  "269": {
+    "tagDate": ["1877-06-04T00:00:00.000Z"],
+    "tagPerson": ["Embury, Andrew"],
+    "tagPlace": [
+      "Township of Thurlow",
+      "Midland District",
+      "Province of Upper Canada Yeoman",
+      "County of Hastings"
+    ]
+  },
+  "373": {
+    "tagDate": ["1810-03-16T00:00:00.000Z"],
+    "tagPerson": ["Monsell, William", "Ridout, Chewett, J"],
+    "tagPlace": ["Town of Kingston", "York"]
+  },
+  "763": {
+    "tagPerson": [
+      "Cornell, Samuel",
+      "Fred",
+      "Haldimand",
+      "Collins, John",
+      "Brownsworth, Samuel"
+    ],
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPlace": ["Cataraqui", "Province of Quebec"]
+  },
+  "536": {
+    "tagPlace": [
+      "Township of Fredericksburg",
+      "Province of Quebec",
+      "District of Mecklenburgh",
+      "Kingston"
+    ],
+    "tagPerson": ["Aitkinson, W, Alexander", "Harris, David"],
+    "tagDate": ["[1789-02-07T00:00:00.000Z TO 1792-01-13T23:59:59.999Z]"]
+  },
+  "800": {
+    "tagPerson": ["Collins, John", "Cadman, William"],
+    "tagDate": ["1787-09-06T00:00:00.000Z"],
+    "tagPlace": ["Province of Quebec", "Kingstown"]
+  },
+  "731": {
+    "tagPerson": ["Crawford, Capt", "Caldwell, John"],
+    "tagDate": ["[1784-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Midland of District"]
+  },
+  "476": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["B, John", "Witkins, Robert, C", "Fairfield, Benjamin"],
+    "tagDate": ["1818-07-06T00:00:00.000Z"]
+  },
+  "572": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagDate": ["1785-09-30T00:00:00.000Z"],
+    "tagPerson": ["Aplin, James", "Collins, John", "Hamilton, Amy"]
+  },
+  "682": {
+    "tagPerson": [
+      "Tompson, Israel",
+      "Collins, John",
+      "Bird, Henry",
+      "Hamilton, Henry",
+      "Simpson, F",
+      "Aitken, Alex"
+    ],
+    "tagDate": ["[1785-09-30T00:00:00.000Z TO 1797-09-20T23:59:59.999Z]"],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "739": {
+    "tagDate": ["1702-09-23T00:00:00.000Z"],
+    "tagPerson": ["Haldimand, Fred", "Bower", "Clock, Adam", "Collins, John"],
+    "tagPlace": ["Province of Quebec", "Cataraqui", "New York"]
+  },
+  "355": {
+    "tagPerson": [
+      "MacLean, Allan",
+      "Fairfield, Banjamin",
+      "Fairfield, William"
+    ],
+    "tagDate": ["1826-01-01T00:00:00.000Z"],
+    "tagPlace": ["Ernest Town"]
+  },
+  "564": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["1785-01-01T00:00:00.000Z"],
+    "tagPerson": ["Alwell, Connad", "Harley, James", "Cannons, John"]
+  },
+  "500": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["1802-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Stuart, Charles",
+      "Herchmer, Lawrence",
+      "Willes, Casey",
+      "Thompson, Samuel",
+      "Markland, Thomas",
+      "Cartwright, Richard",
+      "Hamilton, Mary",
+      "Louis, Nathaniel",
+      "Purdy, Micajah",
+      "Heerman, Henry",
+      "Allison, Joseph",
+      "Rose, Daniel"
+    ]
+  },
+  "583": {
+    "tagPlace": ["Kingston", "District of Mecklenburg"],
+    "tagDate": ["1789-09-03T00:00:00.000Z"],
+    "tagPerson": ["Anderson, Thos", "Aitkin, Alex"]
+  },
+  "560": {
+    "tagPlace": ["York"],
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1807-01-06T00:00:00.000Z]"],
+    "tagPerson": ["Firth, Wm", "Nappin, John", "Aufes, Gilbert", "Taylor, Wm"]
+  },
+  "504": {
+    "tagDate": ["[1802-08-20T00:00:00.000Z TO 1802-08-25T23:59:59.999Z]"],
+    "tagPerson": ["Hamitton, Mary", "Purdy, Micajah", "Thompson, Samuel"],
+    "tagPlace": ["Township of Hallowell", "Midland District"]
+  },
+  "150": {
+    "tagPerson": [
+      "Miller, Jenny",
+      "Mathews, Mary",
+      "Meyers, Mary, W",
+      "Miller, Jennet",
+      "Moore, Thomas",
+      "Lardenin, Jacob",
+      "Milliback, Eve",
+      "Miller, Conrad",
+      "Murphy, Richard",
+      "V, Peter",
+      "Madden, Charity",
+      "Mathews, Thomas, Elms",
+      "Mitchell, Winard",
+      "Myers, Capt",
+      "Meyers, Leonard, W",
+      "Mosier, John",
+      "Meyers, Nancy, W",
+      "Miller, Jacob",
+      "Maybe, Abraham",
+      "Markland, Catherine",
+      "Jersey, Peter",
+      "Myerr, Alada",
+      "Monier, John",
+      "Morden, Richard",
+      "Miller, Elisha",
+      "Muir, William",
+      "Myers, John, W",
+      "Martin, Amos",
+      "Grass, Michael",
+      "Miller, Andrew",
+      "Dimond, Jacob",
+      "Mercle, James",
+      "Mitts, Jane",
+      "Mordoff, Lores",
+      "Madden, Robert",
+      "Most, John"
+    ],
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"],
+    "tagPlace": ["New York"]
+  },
+  "817": {
+    "tagPerson": [
+      "Clench, Benjamin, Lieut",
+      "Haldimand, Fred",
+      "Collins, John"
+    ],
+    "tagDate": ["1784-09-14T00:00:00.000Z"],
+    "tagPlace": ["Bay Quinta", "Province of Quebec"]
+  },
+  "148": {
+    "tagDate": ["[1790-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Lovit, J",
+      "L, William",
+      "Laraway, Catherine",
+      "Loucks, George",
+      "Huyck, John",
+      "Loucki, Nancy",
+      "R, John",
+      "Low, John",
+      "Loucki, Henry",
+      "Lint, David",
+      "German, Redesells, Serjeant",
+      "Lyst, Elizabeth",
+      "Loft, Leany",
+      "Laraway, Jonas",
+      "Low, Samuel",
+      "Lewis, Anne",
+      "Longwell, Margaret",
+      "Lawson, John, A",
+      "Loft, David",
+      "La Marzhe, Yessane",
+      "Lilly, Charles, Gotthill",
+      "L, George",
+      "Longwell, James",
+      "Lansingh, Philip, P",
+      "Mishkle, Jacob",
+      "Loucks, Henry",
+      "Loucki, George",
+      "Laraway, Isaac",
+      "Dies, M",
+      "Loucks, Jacob",
+      "Lewis, Barnet",
+      "Loucks, Abraham",
+      "Lambert, David"
+    ],
+    "tagPlace": ["New Hampshire"]
+  },
+  "382": {
+    "tagPerson": ["Marsh, William", "Morse, Moses"],
+    "tagDate": ["1826-05-28T00:00:00.000Z"],
+    "tagPlace": ["Township of Sidney Yeoman"]
+  },
+  "655": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Farsals, John",
+      "Collins, John",
+      "Bronner, Peter",
+      "Haldimand, Fred"
+    ],
+    "tagPlace": ["Province of Quebec", "Bay Quinte"]
+  },
+  "425": {
+    "tagPlace": [
+      "Sidney",
+      "York",
+      "Midland District",
+      "Township of Huntingdon"
+    ],
+    "tagDate": ["[1797-07-08T23:59:59.999Z TO 1821-07-05T00:00:00.000Z]"],
+    "tagPerson": ["Aitken, Alexander"]
+  },
+  "359": {
+    "tagPerson": ["B, John", "Washburn, Simson", "MacLean, Allan"],
+    "tagDate": ["[1826-06-28T23:59:59.999Z TO 1826-07-03T00:00:00.000Z]"],
+    "tagPlace": ["Midland District", "Town of Kingston"]
+  },
+  "513": {
+    "tagPlace": ["Town of Kingston", "Midland District"],
+    "tagDate": ["1802-08-30T00:00:00.000Z"],
+    "tagPerson": [
+      "Vallier, Joseph",
+      "Kirby, John",
+      "McIntosh, Donald",
+      "Robinson, Daniel",
+      "Cawford, John",
+      "McCaulay, John"
+    ]
+  },
+  "735": {
+    "tagDate": ["[1603-05-29T23:59:59.999Z TO 1787-10-02T00:00:00.000Z]"],
+    "tagPerson": [
+      "P, John",
+      "Travis, John",
+      "Collins, John",
+      "Bower, Adam",
+      "Klock, Adam",
+      "Alstine, P, V",
+      "Clock, Adam",
+      "L, Joseph"
+    ]
+  },
+  "454": {
+    "tagPlace": ["Quebec", "Fredericksburg"],
+    "tagDate": ["1819-07-19T00:00:00.000Z"],
+    "tagPerson": ["Ridout, Thos", "Snider, Luke", "Snider, Jacob"]
+  },
+  "320": {
+    "tagPlace": ["Fredericksburg", "Quebec", "York"],
+    "tagDate": ["1811-03-15T00:00:00.000Z"],
+    "tagPerson": ["Johns, Solomon, Lieut", "Ridout, Tho"]
+  },
+  "742": {
+    "tagPlace": ["Province of Quebec", "Bay of Quinty"],
+    "tagDate": ["1787-10-01T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Clock, Adam"]
+  },
+  "693": {
+    "tagDate": ["1787-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bestado, Jacob"]
+  },
+  "707": {
+    "tagPlace": ["Midland"],
+    "tagPerson": [
+      "Lole, Joseph",
+      "Baker, Frederick",
+      "Baker, John",
+      "Longwill, John",
+      "Hofman, J"
+    ],
+    "tagDate": ["[1789-12-31T23:59:59.999Z TO 1792-02-11T00:00:00.000Z]"]
+  },
+  "441": {
+    "tagDate": ["1823-11-11T00:00:00.000Z"],
+    "tagPerson": ["MacLean, Allan", "Spencer, John, B", "Spencer, Augustus"],
+    "tagPlace": [
+      "Township of Hallowell County Prince Edward",
+      "Midland District",
+      "Province of Upper Canada",
+      "East Side of the East Lake"
+    ]
+  },
+  "677": {
+    "tagPerson": [
+      "Van Hoskins, Martinus",
+      "Van Alstine, Alexander",
+      "Van Veghten, Herman",
+      "Alstine, P, V",
+      "Bronner, Peter",
+      "Bronner, Adam"
+    ],
+    "tagDate": ["[1796-10-18T00:00:00.000Z TO 1803-04-14T23:59:59.999Z]"]
+  },
+  "496": {
+    "tagPerson": ["Herchmer, Nicholas, Alexander", "Orser, Gilbert"],
+    "tagDate": ["1795-09-03T00:00:00.000Z"],
+    "tagPlace": ["Kingston", "Pittsburg"]
+  },
+  "612": {
+    "tagDate": ["1803-04-30T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Gennal",
+      "Booth, John",
+      "Booth, Abner",
+      "Ridout, Chewett, V",
+      "Ridout, Sam"
+    ],
+    "tagPlace": ["Elizabeth Town", "York", "Quebec", "District of Johnstown"]
+  },
+  "448": {
+    "tagPlace": [
+      "Township of Marysburgh",
+      "York",
+      "Midland District",
+      "Township of Hallowell",
+      "Kingston"
+    ],
+    "tagPerson": ["Trumpour, John, P", "Trumpour, Paul"],
+    "tagDate": ["[1822-05-23T23:59:59.999Z TO 1833-01-01T00:00:00.000Z]"]
+  },
+  "16": {
+    "tagPerson": [
+      "R, Christopher",
+      "Fisher, Duncan",
+      "Phillips, Almanza",
+      "Mordolf, George, Senior",
+      "Harliton, Spencer",
+      "Church, Oliver, Lieutenant",
+      "McCaulay, Ann",
+      "Young, Peter",
+      "Phillips, Seth",
+      "Johnsons, John",
+      "Williams, William"
+    ],
+    "tagDate": ["1776-01-01T00:00:00.000Z"],
+    "tagPlace": [
+      "Township of Rawdon",
+      "Township of Hallowell",
+      "Township of Fredericksburg",
+      "Midland District Yeoman",
+      "Town of Kingston"
+    ]
+  },
+  "377": {
+    "tagDate": ["[1819-07-31T23:59:59.999Z TO 1826-07-11T00:00:00.000Z]"],
+    "tagPerson": [
+      "Morse, Moses",
+      "Ridout, Thos",
+      "Young, James",
+      "Hussey, Frederick",
+      "Marsh, William"
+    ],
+    "tagPlace": ["Sidney", "York"]
+  },
+  "767": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": ["Chartres, Hannah", "Waters, Charles"],
+    "tagDate": ["1790-01-05T00:00:00.000Z"]
+  },
+  "324": {
+    "tagDate": ["1818-07-14T00:00:00.000Z"],
+    "tagPerson": ["Loucks, George", "Loucks, Jacob"],
+    "tagPlace": ["Township of Fredericksburg"]
+  },
+  "620": {
+    "tagPerson": [
+      "P, Joel",
+      "Smith, Comfort",
+      "Hough, Barnabas",
+      "Blaker, John",
+      "Bradshaw, David",
+      "Burght, A"
+    ],
+    "tagDate": ["1795-06-10T00:00:00.000Z"],
+    "tagPlace": ["Midland"]
+  },
+  "659": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": ["Bilton, David", "Herchmer, Jost"],
+    "tagDate": ["1790-03-12T00:00:00.000Z"]
+  },
+  "429": {
+    "tagPlace": ["Toronto"],
+    "tagPerson": ["Macaulay, R"],
+    "tagDate": ["[1821-07-05T23:59:59.999Z TO 1827-07-17T00:00:00.000Z]"]
+  },
+  "393": {
+    "tagPlace": ["Township of Sidney", "Quebec", "Midland District", "York"],
+    "tagDate": ["1818-07-04T00:00:00.000Z"],
+    "tagPerson": ["Stevens, Seth", "Ridout, Thos"]
+  },
+  "670": {
+    "tagDate": ["1804-10-29T00:00:00.000Z"],
+    "tagPerson": ["Haldimand, Fred", "Collins, John", "B, John"],
+    "tagPlace": ["Province of Quebec", "Cataraqui"]
+  },
+  "374": {
+    "tagPerson": ["Monsell, William"],
+    "tagDate": ["1809-12-11T00:00:00.000Z"],
+    "tagPlace": ["Kingston", "City of Camden"]
+  },
+  "479": {
+    "tagPerson": [
+      "Landings, Philip, P",
+      "Woodcock, John",
+      "Woodcock, Abraham",
+      "Mickalls, J"
+    ],
+    "tagDate": ["1825-04-01T00:00:00.000Z"],
+    "tagPlace": ["Township of Hungerford Yeoman", "Fredericksburg"]
+  },
+  "146": {
+    "tagPerson": [
+      "Jackson, James",
+      "J, John",
+      "Engle",
+      "Jones, Robert",
+      "Jinks, Joseph",
+      "Irish, Abraham",
+      "Irish, Peter",
+      "Johnson, James",
+      "Jenks, Joseph",
+      "Johnson, William, Capt",
+      "Johnson, Daniel",
+      "Christopher, Imendal",
+      "J, Barnhart",
+      "Thorrey, David",
+      "Cook, Zeth",
+      "Johnson, Isobiah",
+      "Jackson, Jethro",
+      "Irish, Rebeca",
+      "Jackson, David",
+      "Jackson, Thomas"
+    ],
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1793-12-31T23:59:59.999Z]"]
+  },
+  "198": {
+    "tagPerson": [
+      "K, Chuck",
+      "Fraser, Mary Ann",
+      "B, Joshua",
+      "McConnell, Hugh",
+      "Sills, George",
+      "Wortman, Barnabas",
+      "Tinsen, Jane",
+      "Korning, J",
+      "B, Nathan",
+      "McCollins, Ellenbeck, Lieut",
+      "Lias, Conrad",
+      "Corning, John",
+      "Sills, Lawrence",
+      "Fraser, Margaret"
+    ],
+    "tagDate": ["1797-02-03T00:00:00.000Z"],
+    "tagPlace": [
+      "Fredericksburg",
+      "Ameliasburg",
+      "Pittsburgh",
+      "Kingston",
+      "Ernest Town"
+    ]
+  },
+  "63": {
+    "tagPlace": [
+      "Ernest Town",
+      "Cramahe",
+      "Town of Kingston",
+      "Yeoman",
+      "Fredericksburg"
+    ],
+    "tagDate": ["1788-10-22T00:00:00.000Z"],
+    "tagPerson": [
+      "Rogers, James, Major",
+      "Loyst, Henry",
+      "Church, Oliver",
+      "Crawford, William",
+      "Murdott, George",
+      "Crawford, William, Redford",
+      "Rogers, Margaret",
+      "Jones, John",
+      "Grant, William, Alex",
+      "Kimmerly, Andrew"
+    ]
+  },
+  "831": {
+    "tagPlace": ["Adolphustown", "Midland District"],
+    "tagDate": ["1801-07-12T00:00:00.000Z"],
+    "tagPerson": [
+      "Smith, Wm",
+      "Ridout, Chewett, J",
+      "Cole, Dante",
+      "Ruttan, Capt"
+    ]
+  },
+  "700": {
+    "tagPerson": ["Bogart, Francis"],
+    "tagDate": ["1785-01-01T00:00:00.000Z"]
+  },
+  "266": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["1807-01-01T00:00:00.000Z"],
+    "tagPerson": ["Powell, J", "Douglas, Thos, I"]
+  },
+  "327": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagPerson": ["B, John", "Fairfield, Banjamin", "Kemp, John"],
+    "tagDate": ["[1818-07-06T00:00:00.000Z TO 1818-07-16T23:59:59.999Z]"]
+  },
+  "215": {
+    "tagPlace": ["Kingston"],
+    "tagPerson": [
+      "Stuart, John",
+      "A, Sam",
+      "Smith, D, W",
+      "Cartwright, Rich",
+      "Markland, Tho"
+    ],
+    "tagDate": ["1798-01-15T00:00:00.000Z"]
+  },
+  "457": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1820-07-11T23:59:59.999Z]"],
+    "tagPerson": ["Mickalls, James", "B, John", "N, Thomas"],
+    "tagPlace": ["Midland District", "Kingston"]
+  },
+  "803": {
+    "tagPerson": [
+      "Stuart, John",
+      "Rich, Cartwright",
+      "Commer, Phebe",
+      "Aitken, Alex"
+    ],
+    "tagDate": ["[1787-12-31T23:59:59.999Z TO 1790-12-01T00:00:00.000Z]"],
+    "tagPlace": ["District of Mecklenburgh"]
+  },
+  "191": {
+    "tagPlace": ["Kingston", "Midland District"],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "783": {
+    "tagPerson": ["Clapp, Elias", "Clapp, Joseph", "Aitken, Alex"],
+    "tagDate": ["1789-03-04T00:00:00.000Z"],
+    "tagPlace": ["District of Mecklenburg", "Kingston"]
+  },
+  "289": {
+    "tagDate": ["[1824-01-01T00:00:00.000Z TO 1824-07-19T23:59:59.999Z]"],
+    "tagPerson": ["Hartman, Philip"]
+  },
+  "838": {
+    "tagPerson": ["McDonell, William", "Clunis, John", "McLean, Neil"],
+    "tagDate": ["1789-02-22T00:00:00.000Z"]
+  },
+  "370": {
+    "tagDate": ["1819-04-24T00:00:00.000Z"],
+    "tagPerson": [
+      "Clark, Peter",
+      "Clark, James",
+      "Mitchell, William",
+      "Forsyth, Joseph",
+      "Moore, Thomas"
+    ],
+    "tagPlace": ["Township of Kingston"]
+  },
+  "674": {
+    "tagPlace": ["Province of Quebec", "Bay de Quinte"],
+    "tagDate": ["1787-10-03T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Bell, Thomas"]
+  },
+  "760": {
+    "tagPerson": [
+      "Woodcock, I",
+      "Dorland, Tho",
+      "Woodcock, John",
+      "Casey, Willet",
+      "Coon, Simon",
+      "Casey, William"
+    ],
+    "tagDate": ["[1787-06-16T00:00:00.000Z TO 1788-10-14T23:59:59.999Z]"]
+  },
+  "704": {
+    "tagPlace": [
+      "District of Mecklenburgh",
+      "Kingston",
+      "Province of Quebec",
+      "Township of Sydney",
+      "Township of Ernest Town"
+    ],
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1790-03-10T23:59:59.999Z]"],
+    "tagPerson": [
+      "McLean, Neil",
+      "Aitken, Alexander",
+      "B, Joseph",
+      "G, Richard",
+      "Baker, Frederick"
+    ]
+  },
+  "814": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagDate": ["1784-08-11T00:00:00.000Z"],
+    "tagPerson": ["Collins, John", "Cludy, Henery", "Haldimand, Fred"]
+  },
+  "343": {
+    "tagPlace": ["Midland"],
+    "tagDate": ["[1819-07-16T00:00:00.000Z TO 1819-07-19T23:59:59.999Z]"],
+    "tagPerson": ["W, Hamilton", "B, John", "Loucks, George", "Loucks, Abraham"]
+  },
+  "507": {
+    "tagDate": ["[1802-08-25T00:00:00.000Z TO 1802-08-26T23:59:59.999Z]"],
+    "tagPerson": [
+      "Purdy, Micajah",
+      "Groom, Elijah",
+      "Whitman, David",
+      "Lewis, Nathaniel",
+      "Dancan, John",
+      "Georgen, Christopher"
+    ],
+    "tagPlace": ["Township of Kingston", "Midland District"]
+  },
+  "475": {
+    "tagDate": ["1818-03-12T00:00:00.000Z"],
+    "tagPerson": ["Jones, John", "Witkins, Robert, C"],
+    "tagPlace": ["Sidney"]
+  },
+  "219": {
+    "tagPlace": ["Midland District"],
+    "tagDate": ["1798-06-30T00:00:00.000Z"],
+    "tagPerson": ["Russell, Peter"]
+  },
+  "713": {
+    "tagDate": ["1784-09-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Haldimand, Fred",
+      "Collins, John",
+      "Barclay, Dias",
+      "Young, Peter"
+    ],
+    "tagPlace": ["New York", "Province of Quebec", "Cataraqui"]
+  },
+  "542": {
+    "tagPlace": ["Cataraqui", "Province of Quebec"],
+    "tagPerson": ["Stuart, R", "Haldemand, Olived", "Collins, John"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"]
+  },
+  "446": {
+    "tagPlace": [
+      "Midland District",
+      "Province of Upper Canada",
+      "Township of Marysburgh",
+      "Kingston"
+    ],
+    "tagPerson": ["Crane, Elisha", "Ridout, C"],
+    "tagDate": ["1810-06-09T00:00:00.000Z"]
+  },
+  "179": {
+    "tagPlace": ["Kingston", "Midland"],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1799-05-14T23:59:59.999Z]"],
+    "tagPerson": ["F, Joseph"]
+  },
+  "822": {
+    "tagPerson": [
+      "Grant, Henery",
+      "Bradshaw, Asahel",
+      "Kelor, Willem",
+      "M, Saml",
+      "Bradshaw, James",
+      "Kelor, Frederick",
+      "S, George"
+    ],
+    "tagDate": ["[1789-07-17T00:00:00.000Z TO 1792-06-18T23:59:59.999Z]"]
+  },
+  "491": {
+    "tagPerson": ["Bidwell, David", "Graham, John", "G, George"],
+    "tagDate": ["[1840-08-26T23:59:59.999Z TO 1841-07-09T00:00:00.000Z]"],
+    "tagPlace": ["Township of Thurlow", "Kingston"]
+  },
+  "157": {
+    "tagPlace": ["England"],
+    "tagPerson": [
+      "Pierce, Patrick",
+      "Plummer, Thomas",
+      "Proudfooh, Elizabeth",
+      "S, James",
+      "Prindle, Joseph",
+      "Taylor, John",
+      "Pruyn, Arman",
+      "Piercy, John",
+      "Rogers, William",
+      "Parks, David",
+      "Roberts, Lory, P",
+      "Pruyn, Mathew",
+      "Pruyn, Francis",
+      "C, Edward",
+      "Simmons, Henry",
+      "Peters, Samuel",
+      "Rogers, Major",
+      "Deforest, Simon",
+      "Peterson, Alexander",
+      "Purdy, Samuel",
+      "Peters, Mary Ann",
+      "Powers, Edward",
+      "Porter, Anne",
+      "Park, Elizabeth",
+      "Timothy",
+      "Pritchard, Joseph",
+      "David",
+      "Prindle, Margaret",
+      "Pomeroy, P",
+      "Pruyn, Mary",
+      "Perry, Robert",
+      "Perry, Anne",
+      "Arman",
+      "Perry, Robert, Junr",
+      "Prindle, William",
+      "Perry, William, Junr",
+      "Pomeroy, Daniel",
+      "Papell, John"
+    ],
+    "tagDate": ["[1790-01-01T00:00:00.000Z TO 1794-12-31T23:59:59.999Z]"]
+  },
+  "97": {
+    "tagPlace": ["Midland District", "Yeoman", "Ernest Town"],
+    "tagPerson": [
+      "Smith, Michael",
+      "Snyder, Lacharius",
+      "Hartman, Lodowick",
+      "McPherson, John",
+      "Bartholomew, Peter",
+      "Miller, Andrew",
+      "McDougle, John",
+      "McDougal, John",
+      "Warrack, James",
+      "Shibley, John",
+      "Bower, Adam",
+      "Stauber, John"
+    ],
+    "tagDate": ["1797-01-01T00:00:00.000Z"]
+  },
+  "810": {
+    "tagPlace": ["District of Mecklenburgh", "Ernest Town", "Quebec"],
+    "tagDate": ["[1783-12-31T23:59:59.999Z TO 1789-11-09T00:00:00.000Z]"],
+    "tagPerson": [
+      "Williams, J",
+      "Pownall, George",
+      "Dunn, Thos",
+      "De Lanuadiere, Chas",
+      "Hough, Barnabas",
+      "Dupre, Le Cte",
+      "Conklin, Phebe",
+      "Mabane, Adam",
+      "Finlay, Hugh",
+      "Baby, Francois",
+      "Smith, William, Chief Justice",
+      "Harrison, Edwd",
+      "Delery, J, GC",
+      "Grant, William",
+      "Caldwell, Henry",
+      "Collins, John",
+      "Harrison"
+    ]
+  },
+  "75": {
+    "tagDate": ["1799-01-01T00:00:00.000Z"],
+    "tagPerson": [
+      "Kelly, Patrick",
+      "George, John",
+      "Forner, John",
+      "Viger, Gasper",
+      "McCrimon, Donald",
+      "Abraham, Daniel",
+      "Wright, James",
+      "Turner, Cornelius",
+      "Ludowick, William",
+      "Harrison, Thos",
+      "Powers, Edward",
+      "Keller, John",
+      "Biniker, William",
+      "Dick, William",
+      "Fornignen, John",
+      "Dick, John",
+      "G, Hugh",
+      "Kelly, Michael",
+      "Casey, Willet",
+      "Allen, Joseph",
+      "Sutherland, Daniel"
+    ],
+    "tagPlace": ["Adolphustown", "Marysburgh", "Yeoman"]
+  },
+  "643": {
+    "tagPerson": ["Ball, Thomas", "Dingman, Garrett", "Clark, Sergeant"],
+    "tagDate": ["1785-01-01T00:00:00.000Z"]
+  },
+  "792": {
+    "tagDate": ["1786-07-08T00:00:00.000Z"],
+    "tagPerson": ["Church, Oliver", "Kimmerly, Andrew"]
+  },
+  "567": {
+    "tagPerson": ["Gale, Jame", "H, Dan"],
+    "tagDate": ["[1784-12-31T23:59:59.999Z TO 1786-05-07T00:00:00.000Z]"],
+    "tagPlace": ["Midland", "Cataraqui"]
+  },
+  "285": {
+    "tagPlace": ["Midland District"],
+    "tagPerson": ["Hartman, Philip", "B, John", "MacLean, Allan"],
+    "tagDate": ["[1820-05-31T23:59:59.999Z TO 1820-07-06T00:00:00.000Z]"]
+  }
+}

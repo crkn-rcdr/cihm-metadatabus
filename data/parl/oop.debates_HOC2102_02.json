@@ -1,0 +1,11 @@
+{
+  "pubmin": "1950-02-16",
+  "label": "House of Commons Debates, 21st Parliament, 2nd Session : Vol. 2",
+  "language": ["eng"],
+  "session": ["21-2"],
+  "type": "debates",
+  "pubmax": "1950-06-30",
+  "node": [["eng", "c", "debates", "21-2", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

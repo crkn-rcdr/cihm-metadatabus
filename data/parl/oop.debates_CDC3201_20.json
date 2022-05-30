@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "32-1", 20]],
+  "pubmax": "1983-11-30",
+  "type": "debates",
+  "session": ["32-1"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 32e Législature, 1re Session : Vol. 20",
+  "pubmin": "1980-04-14"
+}

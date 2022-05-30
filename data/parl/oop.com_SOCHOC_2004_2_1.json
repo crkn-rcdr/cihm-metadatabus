@@ -1,0 +1,15 @@
+{
+  "chamber": ["c", "s"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1948-06-30",
+  "node": [
+    ["eng", "c", "committees", "20-4", 5],
+    ["eng", "s", "committees", "20-4", 3]
+  ],
+  "type": "committees",
+  "session": ["20-4"],
+  "language": ["eng"],
+  "callNumber": "1947/48 I53 A1",
+  "label": "Joint Committees, 20th Parliament, 4th Session : Special Joint Committee on Indian Act, vol. 1",
+  "pubmin": "1947-12-05"
+}

@@ -1,0 +1,12 @@
+{
+  "session": ["30-1"],
+  "language": ["fra"],
+  "callNumber": "J103 H44 1974/76 no. 1-182 ex. 2",
+  "label": "Procès-verbaux de la Chambre des communes, 30e Législature, 1re Session : 1-182",
+  "pubmin": "1974-09-30",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1976-10-12",
+  "node": [["fra", "c", "cproc", "30-1", 1]],
+  "type": "cproc"
+}

@@ -1,0 +1,12 @@
+{
+  "callNumber": "KE72 C36 1-1 no.2-34",
+  "label": "House of Commons Bills, 1st Parliament, 1st Session : 2-34",
+  "pubmin": "1867-11-06",
+  "session": ["01-1"],
+  "language": ["eng"],
+  "pubmax": "1868-05-22",
+  "node": [["eng", "c", "bills", "01-1", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

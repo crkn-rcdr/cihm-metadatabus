@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1953-05-14",
+  "node": [["fra", "s", "journals", "21-7", 1]],
+  "type": "journals",
+  "session": ["21-7"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 21e Législature, 7e Session : Vol. 97",
+  "pubmin": "1952-11-20"
+}

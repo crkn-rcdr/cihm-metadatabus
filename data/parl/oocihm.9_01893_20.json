@@ -1,0 +1,10 @@
+{
+  "session": ["05-4"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 5e Législature, 4e Session : Vol. 20",
+  "pubmin": "1886-02-25",
+  "chamber": ["s"],
+  "pubmax": "1886-06-02",
+  "node": [["fra", "s", "journals", "05-4", 1]],
+  "type": "journals"
+}

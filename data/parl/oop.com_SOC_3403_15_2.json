@@ -1,0 +1,14 @@
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "s", "committees", "34-3", 53],
+    ["fra", "s", "committees", "34-3", 2]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 V42 A1 no. 8-11",
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Subcommittee on Veterans Affairs, vol. 2 no. 8-11 = Comités du Sénat, 34e Législature, 3e Session : Sous-comité des affaires des anciens combattants, vol. 2 no. 8-11"
+}

@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "label": "Débats de la Chambre des communes, 24e Législature, 4e Session : Vol. 8",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "24-4", 8]],
+  "pubmax": "1961-09-29"
+}

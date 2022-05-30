@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["16-2"],
+  "pubmin": "1928-01-26",
+  "label": "House of Commons Committees, 16th Parliament, 2nd Session : Select Standing Committee on Industrial and International Relations, vol. 1",
+  "callNumber": "1928 I5C A1",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "16-2", 5]],
+  "pubmax": "1928-06-11"
+}

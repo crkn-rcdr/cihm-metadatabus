@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "30-1", 28],
+    ["fra", "c", "committees", "30-1", 14]
+  ],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "session": ["30-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 30th Parliament, 1st Session : Sub-Committee on International Development, vol. 1 = Comités de la Chambre des communes, 30e Législature, 1re Session : Sous-comité sur le développement international, vol. 1",
+  "callNumber": "1974/76 I55 A1",
+  "pubmin": "1974-09-30"
+}

@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "c", "committees", "30-4", 10],
+    ["fra", "c", "committees", "30-4", 12]
+  ],
+  "type": "committees",
+  "session": ["30-4"],
+  "language": ["eng", "fra"],
+  "callNumber": "1978/79 J8 A1",
+  "label": "House of Commons Committees, 30th Parliament, 4th Session : Standing Committee on Justice and Legal Affairs, vol. 1 = Comités de la Chambre des communes, 30e Législature, 4e Session : Comité permanent de la justice et des questions juridiques, vol. 1",
+  "pubmin": "1978-10-11"
+}

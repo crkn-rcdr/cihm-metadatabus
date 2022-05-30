@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 120],
+    ["fra", "c", "committees", "34-3", 126]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 I472 A1 no.5-9",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-86, an Act to amend the Immigration Act and other Acts in consequence thereof, vol. 2 no. 5-9 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-86, Loi modifiant la Loi sur l'immigration et d'autres lois en conséquence, vol. 2 no. 5-9",
+  "language": ["eng", "fra"],
+  "session": ["34-3"]
+}

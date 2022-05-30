@@ -1,0 +1,14 @@
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 B3 A12",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, Report",
+  "reportTitle": [
+    "Canada 1992: Toward a National Market in Financial Services"
+  ],
+  "language": ["eng"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [["eng", "s", "committees", "34-2", 10]],
+  "chamber": ["s"]
+}

@@ -1,0 +1,14 @@
+{
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "s", "committees", "32-1", 29],
+    ["fra", "s", "committees", "32-1", 6]
+  ],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "1980/83 L4 A1 no.66-76",
+  "label": "Senate Committees, 32nd Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, vol. 3 no. 66-76 = Comités du Sénat, 32e Législature, 1re Session : Comité permanent des affaires juridiques et constitutionnelles, vol. 3 no. 66-76",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"]
+}

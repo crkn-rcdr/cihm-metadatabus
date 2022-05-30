@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 111],
+    ["fra", "c", "committees", "33-2", 123]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-41, an Act to amend the Judges Act, the Federal Court Act and the Tax Court of Canada Act, vol. 1 no. 1 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-41, Loi modifiant la Loi sur les juges, la Loi sur la Cour fédérale et la Loi sur la Cour canadienne de l'impôt, vol. 1 no. 1",
+  "callNumber": "33-2 J753 A1 no.1",
+  "language": ["eng", "fra"],
+  "session": ["33-2"]
+}

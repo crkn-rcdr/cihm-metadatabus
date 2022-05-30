@@ -1,0 +1,15 @@
+{
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-106, an Act to amend the Young Offenders Act, the Criminal Code, the Penitentiary Act and the Prisons and Reformatories Act, vol. 1 no. 1-5 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-106, Loi modifiant la Loi sur les jeunes contrevenants, le Code criminel, la Loi sur les pénitenciers et la Loi sur les prisons et les maisons de correction, vol. 1 no. 1-5",
+  "callNumber": "33-1 Y683 A1 no.1-5",
+  "pubmin": "1984-11-05",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "33-1", 147],
+    ["fra", "c", "committees", "33-1", 74]
+  ],
+  "pubmax": "1986-08-28",
+  "type": "committees"
+}

@@ -1,0 +1,10 @@
+{
+  "pubmin": "1930-02-20",
+  "label": "Senate Debates, 16th Parliament, 4th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["16-4"],
+  "type": "debates",
+  "pubmax": "1930-05-30",
+  "node": [["eng", "s", "debates", "16-4", 1]],
+  "chamber": ["s"]
+}

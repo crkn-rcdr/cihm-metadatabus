@@ -1,0 +1,10 @@
+{
+  "session": ["06-4"],
+  "language": ["eng"],
+  "label": "Senate Debates, 6th Parliament, 4th Session : Vol. 1",
+  "pubmin": "1890-01-16",
+  "chamber": ["s"],
+  "node": [["eng", "s", "debates", "06-4", 1]],
+  "pubmax": "1890-05-16",
+  "type": "debates"
+}

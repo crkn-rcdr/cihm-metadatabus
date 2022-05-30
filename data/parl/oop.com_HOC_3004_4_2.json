@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "c", "committees", "30-4", 5],
+    ["fra", "c", "committees", "30-4", 9]
+  ],
+  "type": "committees",
+  "session": ["30-4"],
+  "language": ["eng", "fra"],
+  "callNumber": "1978/79 F55 A1 v.2",
+  "label": "House of Commons Committees, 30th Parliament, 4th Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 2 no. 17-25 = Comités de la Chambre des communes, 30e Législature, 4e Session : Comité permanent des finances, du commerce et des questions économiques, vol. 2 no. 17-25",
+  "pubmin": "1978-10-11"
+}

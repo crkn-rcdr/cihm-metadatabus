@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["18-3"],
+  "pubmin": "1938-01-27",
+  "label": "Procès-verbaux du Sénat, 18e Législature, 3e Session : 1-61",
+  "callNumber": "J103 H43 1938",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "18-3", 1]],
+  "pubmax": "1938-07-01"
+}

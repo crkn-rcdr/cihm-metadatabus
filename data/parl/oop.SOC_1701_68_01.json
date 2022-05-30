@@ -1,0 +1,10 @@
+{
+  "language": ["eng"],
+  "session": ["17-1"],
+  "pubmin": "1930-09-08",
+  "label": "Senate Journals, 17th Parliament, 1st Session : Vol. 68",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1930-09-22",
+  "node": [["eng", "s", "journals", "17-1", 1]]
+}

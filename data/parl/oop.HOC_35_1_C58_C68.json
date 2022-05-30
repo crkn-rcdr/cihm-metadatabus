@@ -1,0 +1,14 @@
+{
+  "primeMinisters": "Chrétien, Joseph Jacques Jean",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "bills", "35-1", 5],
+    ["fra", "c", "bills", "35-1", 5]
+  ],
+  "pubmax": "1996-02-02",
+  "type": "bills",
+  "session": ["35-1"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Bills, 35th Parliament, 1st Session : C58-C68 = Projets de loi de la Chambre des communes, 35e Législature, 1re Session : C58-C68",
+  "pubmin": "1994-01-17"
+}

@@ -1,0 +1,30 @@
+{
+  "587": {
+    "tagDate": ["1952-01-01T00:00:00.000Z"],
+    "tagDescription": ["Conference - Correspondence and Briefs"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "100": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDescription": ["Agenda, Memoranda, Resolutions, and Delegates Briefs"],
+    "tagDate": ["1947-01-01T00:00:00.000Z"]
+  },
+  "781": {
+    "tagDescription": ["Conference - Correspondence"],
+    "tagDate": ["1956-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "280": {
+    "tagDescription": ["Conference - Correspondence and Reports"],
+    "tagDate": ["1950-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  }
+}

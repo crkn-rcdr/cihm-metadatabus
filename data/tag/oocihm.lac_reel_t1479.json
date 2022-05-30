@@ -1,0 +1,70 @@
+{
+  "688": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "New Zealand -Ocean mail services  Telegraph cables  old age pensions bill  Defence Forces  Native Affairs Committee  Goldfields and Mines Committee  Railways Committee"
+    ]
+  },
+  "15": { "tagDescription": ["Missing / Manque"] },
+  "1585": { "tagDescription": ["Missing / Manque"] },
+  "571": { "tagDescription": ["Missing / Manque"] },
+  "685": { "tagDescription": ["Missing / Manque"] },
+  "1787": { "tagDescription": ["Missing / Manque"] },
+  "804": { "tagDescription": ["Missing / Manque"] },
+  "553": {
+    "tagDescription": [
+      "Wearing of Foreign Uniforms -Restrictions and Regulations"
+    ],
+    "tagDate": ["[1922-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"]
+  },
+  "308": {
+    "tagDescription": [
+      "Foreign Orders and Medals. - Wearing of - - Bestowal upon British Subjects of  - Regulations applicable to persons in service of the crown. - Regulations applicable to persons not in service of the crown."
+    ],
+    "tagDate": ["[1921-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"]
+  },
+  "35": {
+    "tagDate": ["[1872-01-01T00:00:00.000Z TO 1920-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Foreign Orders and Medals. - Wearing of - - Bestowal upon British Subjects of  - Regulations applicable to persons in service of the crown. - Regulations applicable to persons not in service of the crown."
+    ]
+  },
+  "1748": {
+    "tagDescription": ["Chartered Accountant"],
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  },
+  "33": { "tagDescription": ["Missing / Manque"] },
+  "1587": {
+    "tagDescription": [
+      "Netherlands. Commercial relations with  -Defence problems of the Netherlands and the Netherlands East Indies. -Frontier between Sarawak and Dutch Borneo -Netherlands considered at war with Japan"
+    ],
+    "tagDate": ["[1936-12-31T23:59:59.999Z TO 1941-01-01T00:00:00.000Z]"]
+  },
+  "573": {
+    "tagDescription": [
+      "Pharmacopoeial formulas for L195potent drugs. International agreement respecting the unification of  -Pharmacy. International Congress of  -Pharmaceutical societies. Exchange of publications -Registration as chemists and druggists without examination, of persons holding Colonial L196Diplomas. L196-Military medicine and pharmacy. International Congress of -Military medicine. International Association of  -British Pharmaceutical codex. -Medical history.International Congres on -"
+    ],
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"]
+  },
+  "1789": {
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Colonial office. Re-Organization of  -Formation of a Dominion department; Report re  selfgoverning Dominion; Establishment of Dominion office, debate on Dominion and Colonial affairs; Estimate for Colonial Services; Colonial office vote; Colonial administrative service list"
+    ]
+  },
+  "1040": { "tagDescription": ["Missing / Manque"] },
+  "17": {
+    "tagDescription": [
+      "South African Memorial at Toronto in Memory of Canadians who fell in South African War."
+    ],
+    "tagDate": ["1910-01-01T00:00:00.000Z"]
+  },
+  "1042": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Oil - Petroleum"]
+  },
+  "807": {
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Militia List. Army List"]
+  }
+}

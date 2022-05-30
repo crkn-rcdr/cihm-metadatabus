@@ -1,0 +1,15 @@
+{
+  "callNumber": "JL164.4 1936",
+  "label": "Standing Orders of the House of Commons, 1936 = Règlement de la Chambre des communes du Canada, 1936",
+  "pubmin": "1936-02-06",
+  "session": ["18-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1936-06-23",
+  "node": [
+    ["eng", "c", "orders", null, 2],
+    ["fra", "c", "orders", null, 2]
+  ],
+  "type": "orders",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

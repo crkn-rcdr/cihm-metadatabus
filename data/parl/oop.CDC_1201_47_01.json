@@ -1,0 +1,11 @@
+{
+  "node": [["fra", "c", "journals", "12-1", 1]],
+  "pubmax": "1912-04-01",
+  "type": "journals",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "label": "Journaux de la Chambre des communes, 12e Législature, 1re Session : Vol. 47",
+  "pubmin": "1911-11-15",
+  "session": ["12-1"],
+  "language": ["fra"]
+}

@@ -1,0 +1,10 @@
+{
+  "session": ["28-3"],
+  "language": ["eng"],
+  "label": "Senate Debates, 28th Parliament, 3rd Session : Vol. 2",
+  "pubmin": "1970-10-08",
+  "chamber": ["s"],
+  "node": [["eng", "s", "debates", "28-3", 2]],
+  "pubmax": "1972-02-16",
+  "type": "debates"
+}

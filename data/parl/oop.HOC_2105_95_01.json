@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Journals, 21st Parliament, 5th Session : Vol. 95",
+  "pubmin": "1951-10-09",
+  "session": ["21-5"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "21-5", 1]],
+  "pubmax": "1951-12-29",
+  "type": "journals",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

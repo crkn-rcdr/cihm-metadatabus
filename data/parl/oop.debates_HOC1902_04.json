@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1942-01-21",
+  "node": [["eng", "c", "debates", "19-2", 4]],
+  "type": "debates",
+  "session": ["19-2"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 19th Parliament, 2nd Session : Vol. 4",
+  "pubmin": "1940-11-07"
+}

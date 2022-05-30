@@ -1,0 +1,11 @@
+{
+  "type": "bills",
+  "pubmax": "1960-08-10",
+  "node": [["eng", "s", "bills", "24-3", 2]],
+  "chamber": ["s"],
+  "pubmin": "1960-01-14",
+  "callNumber": "KE72 C38 24-3 S2-S36",
+  "label": "Senate Bills, 24th Parliament, 3rd Session : S2-S36",
+  "language": ["eng"],
+  "session": ["24-3"]
+}

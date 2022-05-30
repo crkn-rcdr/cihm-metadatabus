@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "26-2", 6]],
+  "pubmax": "1965-04-03",
+  "type": "committees",
+  "session": ["26-2"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 26e Législature, 2e Session : Comité spécial des aliments et drogues, vol. 1",
+  "callNumber": "1964/65 A4 A4",
+  "pubmin": "1964-02-18"
+}

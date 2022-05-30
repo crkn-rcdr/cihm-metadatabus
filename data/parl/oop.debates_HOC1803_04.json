@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "18-3", 4]],
+  "pubmax": "1938-07-01",
+  "type": "debates",
+  "session": ["18-3"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 18th Parliament, 3rd Session : Vol. 4",
+  "pubmin": "1938-01-27"
+}

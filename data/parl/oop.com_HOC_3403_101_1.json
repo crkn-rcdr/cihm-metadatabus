@@ -1,0 +1,15 @@
+{
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-99, an Act to amend the Small Business Loans Act and another Act in consequence thereof, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-99, Loi modifiant la Loi sur les prêts aux petites entreprises et une autre loi en conséquence, vol. 1 no. 1-2",
+  "callNumber": "34-3 S552 A1 no.1-2",
+  "pubmin": "1991-05-13",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "34-3", 206],
+    ["fra", "c", "committees", "34-3", 165]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees"
+}

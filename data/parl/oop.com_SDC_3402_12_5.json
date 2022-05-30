@@ -1,0 +1,14 @@
+{
+  "callNumber": "34-2 S6 A123",
+  "label": "Comités du Sénat, 34e Législature, 2e Session : Comité permanent des affaires sociales, des sciences et de la technologie, Quinzième rapport",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "reportTitle": [
+    "L'accessibilité des services hospitaliers : Y a-t-il une crise?"
+  ],
+  "language": ["fra"],
+  "pubmax": "1991-05-12",
+  "node": [["fra", "s", "committees", "34-2", 10]],
+  "type": "committees",
+  "chamber": ["s"]
+}

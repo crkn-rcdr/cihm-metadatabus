@@ -1,0 +1,11 @@
+{
+  "node": [["eng", "c", "debates", "28-4", 5]],
+  "pubmax": "1972-09-01",
+  "type": "debates",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "label": "House of Commons Debates, 28th Parliament, 4th Session : Index",
+  "pubmin": "1972-02-17",
+  "session": ["28-4"],
+  "language": ["eng"]
+}

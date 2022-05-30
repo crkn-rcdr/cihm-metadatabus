@@ -1,0 +1,11 @@
+{
+  "session": ["18-4"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 18th Parliament, 4th Session : Vol. 77",
+  "pubmin": "1939-01-12",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1939-06-03",
+  "node": [["eng", "c", "journals", "18-4", 1]],
+  "type": "journals"
+}

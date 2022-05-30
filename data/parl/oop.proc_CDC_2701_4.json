@@ -1,0 +1,12 @@
+{
+  "callNumber": "J103 H44 1966/67 no 186-250",
+  "label": "Procès-verbaux de la Chambre des communes, 27e Législature, 1re Session : 186-250",
+  "pubmin": "1966-01-18",
+  "session": ["27-1"],
+  "language": ["fra"],
+  "pubmax": "1967-05-08",
+  "node": [["fra", "c", "cproc", "27-1", 4]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles"
+}

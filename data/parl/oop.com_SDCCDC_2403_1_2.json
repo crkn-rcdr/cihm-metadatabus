@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1960-08-10",
+  "node": [
+    ["fra", "c", "committees", "24-3", 4],
+    ["fra", "s", "committees", "24-3", 2]
+  ],
+  "chamber": ["c", "s"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmin": "1960-01-14",
+  "callNumber": "1960 I6 A44 v.2",
+  "label": "Comités mixtes, 24e Législature, 3e Session : Comité mixte sur les affaires indiennes, vol. 2",
+  "language": ["fra"],
+  "session": ["24-3"]
+}

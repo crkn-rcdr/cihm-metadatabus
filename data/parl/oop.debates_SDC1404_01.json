@@ -1,0 +1,10 @@
+{
+  "session": ["14-4"],
+  "language": ["fra"],
+  "label": "Débats du Sénat, 14e Législature, 4e Session : Vol. 1",
+  "pubmin": "1925-02-05",
+  "chamber": ["s"],
+  "node": [["fra", "s", "debates", "14-4", 1]],
+  "pubmax": "1925-06-27",
+  "type": "debates"
+}

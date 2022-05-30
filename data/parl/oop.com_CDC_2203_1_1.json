@@ -1,0 +1,12 @@
+{
+  "callNumber": "1956 A25 A4",
+  "label": "Comités de la Chambre des communes, 22e Législature, 3e Session : Comité permanent des affaires extérieures, vol. 1",
+  "pubmin": "1956-01-10",
+  "session": ["22-3"],
+  "language": ["fra"],
+  "pubmax": "1956-08-14",
+  "node": [["fra", "c", "committees", "22-3", 1]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

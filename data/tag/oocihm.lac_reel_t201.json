@@ -1,0 +1,22 @@
+{
+  "13": {
+    "tagDate": ["1890-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing"]
+  },
+  "867": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["1891-01-01T00:00:00.000Z"]
+  },
+  "1608": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["1891-01-01T00:00:00.000Z"]
+  },
+  "1175": {
+    "tagDescription": ["Pelagic sealing"],
+    "tagDate": ["1891-01-01T00:00:00.000Z"]
+  },
+  "1809": {
+    "tagDate": ["1891-01-01T00:00:00.000Z"],
+    "tagDescription": ["Pelagic sealing"]
+  }
+}

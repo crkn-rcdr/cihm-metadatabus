@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1873-08-13",
+  "node": [["fra", "c", "sessional", "02-1", 5]],
+  "type": "sessional",
+  "session": ["02-1"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 2e Législature, 1re Session : vol. 5",
+  "pubmin": "1873-03-05"
+}

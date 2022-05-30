@@ -1,0 +1,11 @@
+{
+  "session": ["19-2"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 19e Législature, 2e Session : Vol. 2",
+  "pubmin": "1940-11-07",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "19-2", 2]],
+  "pubmax": "1942-01-21",
+  "type": "debates"
+}

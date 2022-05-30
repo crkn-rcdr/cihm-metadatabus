@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1950-06-30",
+  "node": [["fra", "s", "sproc", "21-2", 1]],
+  "type": "sproc",
+  "session": ["21-2"],
+  "language": ["fra"],
+  "callNumber": "J103 H43 1950",
+  "label": "Procès-verbaux du Sénat, 21e Législature, 2e Session : 1-65",
+  "pubmin": "1950-02-16"
+}

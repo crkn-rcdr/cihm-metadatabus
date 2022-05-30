@@ -1,0 +1,14 @@
+{
+  "session": ["30-4"],
+  "language": ["eng", "fra"],
+  "label": "Senate Committees, 30th Parliament, 4th Session : Special Committee on Retirement Age Policies, vol. 2 = Comités du Sénat, 30e Législature, 4e Session : Comité spécial sur les politiques relatives à l'âge de la retraite, vol. 2",
+  "callNumber": "1978/79 R5 A1 v.2",
+  "pubmin": "1978-10-11",
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "committees", "30-4", 13],
+    ["fra", "s", "committees", "30-4", 3]
+  ],
+  "pubmax": "1979-03-26",
+  "type": "committees"
+}

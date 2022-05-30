@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "type": "bills",
+  "pubmax": "1919-07-07",
+  "node": [["eng", "c", "bills", "13-2", 1]],
+  "language": ["eng"],
+  "session": ["13-2"],
+  "pubmin": "1919-02-20",
+  "callNumber": "KE72 C36 13-2 2-181",
+  "label": "House of Commons Bills, 13th Parliament, 2nd Session : 2-181"
+}

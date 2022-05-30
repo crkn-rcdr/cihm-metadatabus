@@ -1,0 +1,11 @@
+{
+  "node": [["fra", "c", "journals", "02-1", 1]],
+  "pubmax": "1873-08-13",
+  "type": "journals",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "label": "Journaux de la Chambre des communes, 2e Législature, 1re Session : Vol. 6",
+  "pubmin": "1873-03-05",
+  "session": ["02-1"],
+  "language": ["fra"]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "journals",
+  "node": [["eng", "s", "journals", "20-1", 1]],
+  "pubmax": "1945-12-18",
+  "chamber": ["s"],
+  "pubmin": "1945-09-06",
+  "label": "Senate Journals, 20th Parliament, 1st Session : Vol. 86",
+  "language": ["eng"],
+  "session": ["20-1"]
+}

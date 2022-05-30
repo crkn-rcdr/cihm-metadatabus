@@ -1,0 +1,10 @@
+{
+  "language": ["eng"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "label": "Senate Journals, 24th Parliament, 4th Session : Vol. 107",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1961-09-29",
+  "node": [["eng", "s", "journals", "24-4", 1]]
+}

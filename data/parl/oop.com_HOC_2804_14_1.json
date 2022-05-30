@@ -1,0 +1,15 @@
+{
+  "label": "House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Public Accounts, vol. 1 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent des comptes publics, vol. 1",
+  "callNumber": "1972 P8 A1",
+  "pubmin": "1972-02-17",
+  "session": ["28-4"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "28-4", 17],
+    ["fra", "c", "committees", "28-4", 5]
+  ],
+  "pubmax": "1972-09-01",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

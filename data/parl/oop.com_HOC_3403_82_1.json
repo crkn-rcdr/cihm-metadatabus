@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 166],
+    ["fra", "c", "committees", "34-3", 122]
+  ],
+  "pubmax": "1993-09-08",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-106, an Act to amend certain petroleum-related Acts in respect of Canadian ownership requirements and to confirm the validity of a certain regulation, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-106, Loi modifiant certaines lois concernant les hydrocarbures en ce qui touche les critères de participation canadienne et confirmant la validité d'un règlement, vol. 1 no. 1-2",
+  "callNumber": "34-3 P538 A1 no.1-2"
+}

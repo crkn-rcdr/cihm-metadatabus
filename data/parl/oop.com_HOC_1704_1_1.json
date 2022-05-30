@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "Bennett, Richard Bedford",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "17-4", 1]],
+  "pubmax": "1933-05-27",
+  "type": "committees",
+  "session": ["17-4"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 17th Parliament, 4th Session : Select Standing Committee on Agriculture and Colonization, vol. 1",
+  "callNumber": "1932-33 A3 A1",
+  "pubmin": "1932-10-06"
+}

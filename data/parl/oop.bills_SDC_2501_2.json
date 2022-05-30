@@ -1,0 +1,11 @@
+{
+  "pubmin": "1962-09-27",
+  "label": "Projets de loi du Sénat, 25e Législature, 1re Session : SD1-SD269",
+  "callNumber": "KE72 C381 25-1 SD1-SD269",
+  "language": ["fra"],
+  "session": ["25-1"],
+  "type": "bills",
+  "node": [["fra", "s", "bills", "25-1", 2]],
+  "pubmax": "1963-02-06",
+  "chamber": ["s"]
+}

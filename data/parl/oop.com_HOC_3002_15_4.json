@@ -1,0 +1,15 @@
+{
+  "callNumber": "1976/77 P4 A1 no.32-45",
+  "label": "House of Commons Committees, 30th Parliament, 2nd Session : Sub-Committe on the Penitentiary System in Canada, vol. 4 no. 32-45 = Comités de la Chambre des communes, 30e Législature, 2e Session : Sous-comité sur le régime d'institutions pénitenciaires au Canada, vol. 4 no. 32-45",
+  "pubmin": "1976-10-12",
+  "session": ["30-2"],
+  "language": ["eng", "fra"],
+  "pubmax": "1977-10-17",
+  "node": [
+    ["eng", "c", "committees", "30-2", 29],
+    ["fra", "c", "committees", "30-2", 30]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

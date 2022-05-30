@@ -1,0 +1,29 @@
+{
+  "774": {
+    "tagDate": ["1923-01-01T00:00:00.000Z"],
+    "tagDescription": ["Souscriptions, 1923"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "51": {
+    "tagDescription": ["Saint-Laurent: Melanges Documents sessionnels etc."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "456": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDate": ["[1922-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Societe des Nations, Section Canadienne, 1922-1925"]
+  },
+  "580": {
+    "tagDate": ["1922-01-01T00:00:00.000Z"],
+    "tagDescription": ["Souscriptions, 1922"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  }
+}

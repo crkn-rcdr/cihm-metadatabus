@@ -1,0 +1,11 @@
+{
+  "callNumber": "KE72 C381 14-1 Bill A-",
+  "label": "Projets de loi du Sénat, 14e Législature, 1re Session : A-J5",
+  "pubmin": "1922-03-08",
+  "session": ["14-1"],
+  "language": ["fra"],
+  "pubmax": "1922-06-28",
+  "node": [["fra", "s", "bills", "14-1", 1]],
+  "type": "bills",
+  "chamber": ["s"]
+}

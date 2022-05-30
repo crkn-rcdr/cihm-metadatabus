@@ -1,0 +1,58 @@
+{
+  "1383": {
+    "tagDescription": ["Credit Unions List"],
+    "tagDate": ["1945-01-01T00:00:00.000Z"],
+    "tagPlace": ["Nova Scotia"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "557": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Nova Scotia"],
+    "tagDate": ["[1938-01-01T00:00:00.000Z TO 1941-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Correspondence with Provincial Secretary"]
+  },
+  "1119": {
+    "tagDescription": ["Reports"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Nova Scotia"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "1001": {
+    "tagDescription": [
+      "Constitution: Miscellaneous Documents Pertaining to the Constitution of the Nova Scotia CCF"
+    ],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Nova Scotia"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "783": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Nova Scotia"],
+    "tagDescription": ["Correspondence with Provincial Secretary"],
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1948-12-31T23:59:59.999Z]"]
+  },
+  "1057": {
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1951-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Conventions: Correspondence "],
+    "tagPlace": ["Nova Scotia"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "1316": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Nova Scotia"],
+    "tagDescription": ["Council and Executive Minutes"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"]
+  },
+  "1398": {
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Education: Correspondence and Reports"],
+    "tagPlace": ["Nova Scotia"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "1442": {
+    "tagPlace": ["Nova Scotia"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1941-01-01T00:00:00.000Z TO 1956-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Elections: General Correspondence"]
+  }
+}

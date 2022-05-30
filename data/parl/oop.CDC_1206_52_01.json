@@ -1,0 +1,11 @@
+{
+  "label": "Journaux de la Chambre des communes, 12e Législature, 6e Session : Vol. 52",
+  "pubmin": "1916-01-12",
+  "session": ["12-6"],
+  "language": ["fra"],
+  "node": [["fra", "c", "journals", "12-6", 1]],
+  "pubmax": "1916-05-18",
+  "type": "journals",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

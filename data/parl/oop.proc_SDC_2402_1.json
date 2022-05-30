@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["24-2"],
+  "pubmin": "1959-01-15",
+  "label": "Procès-verbaux du Sénat, 24e Législature, 2e Session : 1-75",
+  "callNumber": "J103 H43 1959",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "24-2", 1]],
+  "pubmax": "1959-07-18"
+}

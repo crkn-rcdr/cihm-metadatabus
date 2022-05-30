@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmax": "1962-04-19",
+  "node": [["eng", "c", "debates", "24-5", 4]],
+  "type": "debates",
+  "session": ["24-5"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 24th Parliament, 5th Session : Index",
+  "pubmin": "1962-01-18"
+}

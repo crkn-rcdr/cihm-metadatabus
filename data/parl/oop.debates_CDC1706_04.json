@@ -1,0 +1,11 @@
+{
+  "pubmin": "1935-01-17",
+  "label": "Débats de la Chambre des communes, 17e Législature, 6e Session : Vol. 4",
+  "language": ["fra"],
+  "session": ["17-6"],
+  "type": "debates",
+  "pubmax": "1935-07-05",
+  "node": [["fra", "c", "debates", "17-6", 4]],
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford"
+}

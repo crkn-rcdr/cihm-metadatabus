@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 26e Législature, 3e Session : Index",
+  "pubmin": "1965-04-05",
+  "session": ["26-3"],
+  "language": ["fra"],
+  "node": [["fra", "c", "debates", "26-3", 4]],
+  "pubmax": "1965-09-08",
+  "type": "debates",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"]
+}

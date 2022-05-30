@@ -1,0 +1,11 @@
+{
+  "session": ["04-4"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 4th Parliament, 4th Session : Vol. 16",
+  "pubmin": "1882-02-09",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1882-05-17",
+  "node": [["eng", "c", "journals", "04-4", 1]],
+  "type": "journals"
+}

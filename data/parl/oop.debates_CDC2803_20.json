@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 28e Législature, 3e Session : Index",
+  "pubmin": "1970-10-08",
+  "session": ["28-3"],
+  "language": ["fra"],
+  "node": [["fra", "c", "debates", "28-3", 11]],
+  "pubmax": "1972-02-16",
+  "type": "debates",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

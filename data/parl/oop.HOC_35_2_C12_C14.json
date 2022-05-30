@@ -1,0 +1,14 @@
+{
+  "session": ["35-2"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Bills, 35th Parliament, 2nd Session : C12-C14 = Projets de loi de la Chambre des communes, 35e Législature, 2e Session : C12-C14",
+  "pubmin": "1996-02-27",
+  "primeMinisters": "Chrétien, Joseph Jacques Jean",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "bills", "35-2", 2],
+    ["fra", "c", "bills", "35-2", 2]
+  ],
+  "pubmax": "1997-04-27",
+  "type": "bills"
+}

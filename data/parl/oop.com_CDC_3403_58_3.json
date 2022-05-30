@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [["fra", "c", "committees", "34-3", 132]],
+  "pubmax": "1993-09-08",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1991-05-13",
+  "label": "Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de l'industrie, de la science et de la technologie et du développement régional et du Nord, Premier rapport",
+  "callNumber": "34-3 I54 A12",
+  "reportTitle": [
+    "PARI : une enquête sur le programme d'aide à la recherche industrielle"
+  ],
+  "language": ["fra"],
+  "session": ["34-3"]
+}

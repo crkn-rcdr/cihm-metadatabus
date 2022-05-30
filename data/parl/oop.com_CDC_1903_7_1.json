@@ -1,0 +1,12 @@
+{
+  "callNumber": "1942/43 F67 A4",
+  "label": "Comités de la Chambre des communes, 19e Législature, 3e Session : Comité spécial de la formation professionnelle, vol. 1",
+  "pubmin": "1942-01-22",
+  "session": ["19-3"],
+  "language": ["fra"],
+  "pubmax": "1943-01-27",
+  "node": [["fra", "c", "committees", "19-3", 7]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

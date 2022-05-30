@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-1", 22],
+    ["fra", "c", "committees", "33-1", 24]
+  ],
+  "pubmax": "1986-08-28",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative Committee on Bill C-73, an Act to validate certain ordinances of the Yukon Territory and the Northwest Territories, vol. 1 no. 1 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-73, Loi portant validation de certaines ordonnances du territoire du Yukon et des territoires du Nord-Ouest, vol. 1 no. 1",
+  "callNumber": "33-1 C49 A1 no.1"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "bills",
+  "node": [["fra", "c", "bills", "14-4", 2]],
+  "pubmax": "1925-06-27",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "pubmin": "1925-02-05",
+  "label": "Projets de loi de la Chambre des communes, 14e Législature, 4e Session : 114-240",
+  "callNumber": "KE72 C361 14-4 114-240",
+  "language": ["fra"],
+  "session": ["14-4"]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "13-2", 1]],
+  "pubmax": "1919-07-07",
+  "chamber": ["s"],
+  "pubmin": "1919-02-20",
+  "label": "Procès-verbaux du Sénat, 13e Législature, 2e Session : 1-62",
+  "callNumber": "J103 H43 1919",
+  "language": ["fra"],
+  "session": ["13-2"]
+}

@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["eng", "c", "bills", "22-3", 1]],
+  "pubmax": "1956-08-14",
+  "language": ["eng"],
+  "session": ["22-3"],
+  "pubmin": "1956-01-10",
+  "label": "House of Commons Bills, 22nd Parliament, 3rd Session : 2-453",
+  "callNumber": "KE72 C36 22-3 2-453"
+}

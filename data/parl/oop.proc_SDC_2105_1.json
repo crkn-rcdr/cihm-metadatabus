@@ -1,0 +1,11 @@
+{
+  "session": ["21-5"],
+  "language": ["fra"],
+  "label": "Procès-verbaux du Sénat, 21e Législature, 5e Session : 1-36",
+  "callNumber": "J103 H43 1951 (2e)",
+  "pubmin": "1951-10-09",
+  "chamber": ["s"],
+  "node": [["fra", "s", "sproc", "21-5", 1]],
+  "pubmax": "1951-12-29",
+  "type": "sproc"
+}

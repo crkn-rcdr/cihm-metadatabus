@@ -1,0 +1,11 @@
+{
+  "type": "bills",
+  "pubmax": "1921-06-04",
+  "node": [["eng", "s", "bills", "13-5", 1]],
+  "chamber": ["s"],
+  "pubmin": "1921-02-14",
+  "callNumber": "KE72 C38 13-5 Bill A-",
+  "label": "Senate Bills, 13th Parliament, 5th Session : A-D6",
+  "language": ["eng"],
+  "session": ["13-5"]
+}

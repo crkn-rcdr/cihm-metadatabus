@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "20-4", 2]],
+  "pubmax": "1948-06-30",
+  "language": ["fra"],
+  "session": ["20-4"],
+  "pubmin": "1947-12-05",
+  "label": "Débats du Sénat, 20e Législature, 4e Session : Index"
+}

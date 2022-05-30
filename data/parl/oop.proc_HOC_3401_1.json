@@ -1,0 +1,15 @@
+{
+  "pubmax": "1989-02-28",
+  "node": [
+    ["eng", "c", "cproc", "34-1", 1],
+    ["fra", "c", "cproc", "34-1", 1]
+  ],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "J103 H41 34-1 no. 1-11 c.2",
+  "label": "House of Commons Votes and Proceedings, 34th Parliament, 1st Session : 1-11 = Procès-verbaux de la Chambre des communes, 34e Législature, 1re Session : 1-11",
+  "pubmin": "1988-12-12",
+  "session": ["34-1"],
+  "language": ["eng", "fra"]
+}

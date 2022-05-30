@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1948-06-30",
+  "node": [["eng", "c", "debates", "20-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmin": "1947-12-05",
+  "label": "House of Commons Debates, 20th Parliament, 4th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["20-4"]
+}

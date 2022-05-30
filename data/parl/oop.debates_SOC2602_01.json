@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1965-04-03",
+  "node": [["eng", "s", "debates", "26-2", 1]],
+  "language": ["eng"],
+  "session": ["26-2"],
+  "pubmin": "1964-02-18",
+  "label": "Senate Debates, 26th Parliament, 2nd Session : Vol. 1"
+}

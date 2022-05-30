@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["20-3"],
+  "pubmin": "1947-01-30",
+  "label": "Débats de la Chambre des communes, 20e Législature, 3e Session : Index",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "debates",
+  "pubmax": "1947-07-17",
+  "node": [["fra", "c", "debates", "20-3", 7]]
+}

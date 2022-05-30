@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "Senate Committees, 34th Parliament, 3rd Session : Standing Committee on Agriculture and Forestry, vol. 1 no. 1-20 = Comités du Sénat, 34e Législature, 3e Session : Comité permanent de l'agriculture et des forêts, vol. 1 no. 1-20",
+  "callNumber": "34-3 A32 A1 no.1-20",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "34-3", 3],
+    ["fra", "s", "committees", "34-3", 13]
+  ],
+  "pubmax": "1993-09-08"
+}

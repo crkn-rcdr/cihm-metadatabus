@@ -1,0 +1,3485 @@
+{
+  "76": {
+    "tagPlace": ["Queenstown", "Township of Oxford"],
+    "tagPerson": [
+      "Dickson, William",
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "Hamilton, Wm, R",
+      "Phillips, Richard"
+    ],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"]
+  },
+  "37": {
+    "tagPerson": ["Carver, Wm"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPlace": ["Oxford"]
+  },
+  "167": {
+    "tagPlace": ["York"],
+    "tagDate": ["1797-06-28T00:00:00.000Z"],
+    "tagPerson": ["Harris, M", "Ridout, Thos", "Holloway, John"]
+  },
+  "202": {
+    "tagPerson": ["Stephens, Shadrach", "Miller, Nicholas"],
+    "tagDate": ["1802-01-01T00:00:00.000Z"]
+  },
+  "330": {
+    "tagDate": ["1800-09-10T00:00:00.000Z"],
+    "tagPerson": ["Mitchell, J", "Small, John"],
+    "tagPlace": ["Province of Upper Canada", "York", "County of Leeds"]
+  },
+  "381": {
+    "tagPerson": ["W, Thos", "Smith, Thomas", "W, John"],
+    "tagDate": ["1794-01-30T00:00:00.000Z"],
+    "tagPlace": ["Detroit", "River La Tranche"]
+  },
+  "247": {
+    "tagDate": ["[1791-08-23T23:59:59.999Z TO 1791-09-23T00:00:00.000Z]"],
+    "tagPerson": ["Cameron, John", "Cornwall, John", "Cornwall, Francis"],
+    "tagPlace": ["Mathewsburgh"]
+  },
+  "388": {
+    "tagPerson": [
+      "Stanton, Eldridge",
+      "McCollen, R",
+      "Hall, Isaiah",
+      "Stevens, Abel"
+    ],
+    "tagDate": ["1800-10-22T00:00:00.000Z"],
+    "tagPlace": ["Bastard", "Cramahe"]
+  },
+  "142": {
+    "tagPlace": ["Townsend"],
+    "tagDate": ["1799-04-12T00:00:00.000Z"],
+    "tagPerson": ["Bowgar, Laban"]
+  },
+  "262": {
+    "tagPlace": ["Township of Haldimand", "Bastard"],
+    "tagDate": ["[1800-12-03T00:00:00.000Z TO 1802-05-13T23:59:59.999Z]"],
+    "tagPerson": ["Day, William", "Isaiah, Hall"]
+  },
+  "67": {
+    "tagPerson": ["Lymburner, Alex", "Lymburner, Math"],
+    "tagDate": ["[1797-12-29T00:00:00.000Z TO 1797-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Oxford"]
+  },
+  "334": {
+    "tagDate": ["[1791-04-15T00:00:00.000Z TO 1793-06-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Nevill, Edwd",
+      "McKillip, Daniel",
+      "Jones, Thomas",
+      "Crane, John",
+      "Ramsay, Henry",
+      "Whittle, Richard",
+      "Butler, Edwd"
+    ]
+  },
+  "70": {
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPerson": ["VanAlstine, Jac"],
+    "tagPlace": ["Oxford"]
+  },
+  "439": {
+    "tagPerson": [
+      "Terry, Panhale",
+      "Stinson, John",
+      "Martin, Peter",
+      "M, James"
+    ],
+    "tagDate": ["[1787-01-01T00:00:00.000Z TO 1799-06-10T23:59:59.999Z]"],
+    "tagPlace": ["Township of Hallowell"]
+  },
+  "107": {
+    "tagPerson": ["Bryan, John", "Hamilton, Robert"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPlace": ["Township of Stamford", "Queenstown", "Pelham"]
+  },
+  "81": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hamilton, Robert", "Segar, Charles"],
+    "tagPlace": ["Home District of Upper Canada", "Queenstown"]
+  },
+  "223": {
+    "tagPlace": ["Township of Hamilton", "Town of Hambleton"],
+    "tagDate": ["[1801-04-18T00:00:00.000Z TO 1803-07-13T23:59:59.999Z]"],
+    "tagPerson": ["Ash, George", "Hall, Isaiah"]
+  },
+  "318": {
+    "tagDate": ["[1791-04-15T00:00:00.000Z TO 1801-07-04T23:59:59.999Z]"],
+    "tagPerson": [
+      "Kelley, William",
+      "Jones, James",
+      "Whittle, Richard",
+      "Chisholm, Alexr"
+    ],
+    "tagPlace": ["Detroit", "Township of Haldimand"]
+  },
+  "467": {
+    "tagDate": ["1801-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hall, Isaiah"],
+    "tagPlace": ["Haldimand", "Cramahe"]
+  },
+  "407": {
+    "tagDate": ["[1792-02-29T00:00:00.000Z TO 1792-11-07T23:59:59.999Z]"],
+    "tagPerson": [
+      "Windall, Joseph",
+      "Williams, Peter",
+      "Topp, John",
+      "OBrien, Edward",
+      "Willcocks, Elijah",
+      "Whittle, Richard"
+    ],
+    "tagPlace": ["Hastings", "New Settlement"]
+  },
+  "139": {
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hewitt, Jno",
+      "Bowgar, Laban",
+      "Boom, Nicholas",
+      "Jongue, Wm",
+      "Boom, John",
+      "Garner, G"
+    ],
+    "tagPlace": ["Townsend"]
+  },
+  "256": {
+    "tagPerson": [
+      "McSpencer",
+      "Irish, Robinson",
+      "Dowling, John",
+      "Phillips, Joseph",
+      "Chisholm, Alexander"
+    ],
+    "tagDate": ["1806-01-14T00:00:00.000Z"],
+    "tagPlace": ["Township of Haldimand"]
+  },
+  "435": {
+    "tagPerson": ["Secord, David", "Secord, Stephen"],
+    "tagDate": ["[1777-01-01T00:00:00.000Z TO 1796-10-12T23:59:59.999Z]"],
+    "tagPlace": ["Province of Upper Canada"]
+  },
+  "311": {
+    "tagPerson": ["Harper, Willm", "H, Henry", "Windall, Joseph", "E, James"],
+    "tagDate": ["[1792-02-23T00:00:00.000Z TO 1800-05-20T23:59:59.999Z]"],
+    "tagPlace": ["Yonge Street"]
+  },
+  "290": {
+    "tagDate": ["1792-10-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Peck, John",
+      "Dolsen, Daniel",
+      "Field, Daniel",
+      "Flinn, John"
+    ],
+    "tagPlace": ["Township South Side River La Tranch"]
+  },
+  "483": {
+    "tagPlace": ["Upper Canada"],
+    "tagDate": ["[1781-01-01T00:00:00.000Z TO 1817-12-31T23:59:59.999Z]"]
+  },
+  "404": {
+    "tagDate": ["[1791-05-25T00:00:00.000Z TO 1819-05-17T23:59:59.999Z]"],
+    "tagPerson": ["Myer, S", "Windall, Joseph", "Tipp, John", "Futton, James"],
+    "tagPlace": ["Markham", "Cedar Creek"]
+  },
+  "309": {
+    "tagPlace": ["Fredericksburgh"],
+    "tagPerson": [
+      "Johnson, Gary, Colonel",
+      "McLain, John",
+      "H, Thomas",
+      "Harper, William"
+    ],
+    "tagDate": ["[1791-03-29T00:00:00.000Z TO 1792-04-02T23:59:59.999Z]"]
+  },
+  "56": {
+    "tagPlace": ["Oxford"],
+    "tagDate": ["1797-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hopkins, R"]
+  },
+  "386": {
+    "tagDate": ["[1801-06-30T23:59:59.999Z TO 1802-06-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Snider, John",
+      "D, Claudius",
+      "Ramsey, Henry",
+      "T, Levi",
+      "Baldwin, Robt",
+      "Dickson, David"
+    ],
+    "tagPlace": ["Town of Kitley"]
+  },
+  "297": {
+    "tagPlace": ["Town of Hamilton", "Hope", "Cramahe"],
+    "tagPerson": [
+      "Gifford, Humphrey",
+      "Keeler, Joseph",
+      "G, David",
+      "Garfield, Nathaniel",
+      "Hall, Isaiah"
+    ],
+    "tagDate": ["[1800-04-18T23:59:59.999Z TO 1803-04-14T00:00:00.000Z]"]
+  },
+  "50": {
+    "tagDate": ["[1797-08-26T00:00:00.000Z TO 1799-04-22T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dickson, William",
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "Howell, John",
+      "Cook, William"
+    ],
+    "tagPlace": ["Home District of Upper Canada", "Oxford"]
+  },
+  "464": {
+    "tagPlace": ["Yonge Street", "Townsend"],
+    "tagDate": ["[1793-12-31T23:59:59.999Z TO 1802-01-01T00:00:00.000Z]"]
+  },
+  "369": {
+    "tagDate": ["1800-12-01T00:00:00.000Z"],
+    "tagPerson": ["Shelden, Samuel"],
+    "tagPlace": ["Bastard"]
+  },
+  "273": {
+    "tagPerson": [
+      "Donaldson, James",
+      "Rice, James",
+      "Hall, Thos",
+      "Welch, John",
+      "Butler, Edwd",
+      "Dolton, John",
+      "Smith, Thomas"
+    ],
+    "tagDate": ["[1792-04-05T00:00:00.000Z TO 1792-10-26T23:59:59.999Z]"],
+    "tagPlace": [
+      "Lake Erie",
+      "New Settlement",
+      "North Side of the River La Tranch"
+    ]
+  },
+  "400": {
+    "tagDate": ["1791-04-15T00:00:00.000Z"],
+    "tagPerson": [
+      "Dugan, William",
+      "Top, John",
+      "M, Thos",
+      "S, Robert",
+      "Cornwall, John"
+    ],
+    "tagPlace": ["Detroit", "Lake Erie", "River La Tranche"]
+  },
+  "240": {
+    "tagDate": ["1801-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bristol, Elisha"]
+  },
+  "305": {
+    "tagPlace": ["River La Tranche", "Detroit", "Township of Oxford"],
+    "tagDate": ["[1793-03-23T23:59:59.999Z TO 1801-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Benjamin, G",
+      "Hale, Thomas, Saml",
+      "Rice, James",
+      "Hamilton, Andrew",
+      "M, Thos",
+      "Loomis, Wm"
+    ]
+  },
+  "62": {
+    "tagPlace": ["Home District of Upper Canada"],
+    "tagDate": ["1797-11-16T00:00:00.000Z"],
+    "tagPerson": [
+      "Hamilton, Robert",
+      "Lymburner, James",
+      "Murray, Rob",
+      "Sam",
+      "Wilkins"
+    ]
+  },
+  "492": {
+    "tagPlace": ["Adolphustown"],
+    "tagPerson": [
+      "Johnston, Andrew",
+      "F, Thomas",
+      "Alstine, P, V ",
+      "M, Charles, Justin",
+      "Johnston, Henry"
+    ],
+    "tagDate": ["[1789-01-01T00:00:00.000Z TO 1789-10-04T23:59:59.999Z]"]
+  },
+  "104": {
+    "tagPlace": ["Pelham"],
+    "tagDate": ["1799-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hubar, David", "Muirhead, J"]
+  },
+  "337": {
+    "tagPlace": ["West Gwillimbury"],
+    "tagDate": ["1835-08-02T00:00:00.000Z"],
+    "tagPerson": ["Neilley, James", "Neilley, Samuel", "George, S, Lieut"]
+  },
+  "258": {
+    "tagPerson": ["Graham, Wm ", "C, Joseph", "Cameron, A", "Clark, John"],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1802-01-11T00:00:00.000Z]"],
+    "tagPlace": ["York"]
+  },
+  "183": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Murray, Rob",
+      "Dickson, Thos",
+      "Hamilton, Robert",
+      "Bowman, Abram"
+    ],
+    "tagPlace": ["County of Lincoln", "Queenstown"]
+  },
+  "160": {
+    "tagPerson": ["Holloway, John", "Miles, Abner", "Walker, Abraham"],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1798-12-31T23:59:59.999Z]"]
+  },
+  "413": {
+    "tagPerson": [
+      "Baldwin, Robt",
+      "Hall, Isaiah",
+      "Wallace, Aaron",
+      "Walton, Jonathan"
+    ],
+    "tagDate": ["[1801-06-30T23:59:59.999Z TO 1803-03-10T00:00:00.000Z]"],
+    "tagPlace": ["Township of Cramahe"]
+  },
+  "100": {
+    "tagPerson": ["Mall, John", "Durham, John", "Smith, D, W"],
+    "tagDate": ["1795-05-23T00:00:00.000Z"],
+    "tagPlace": [
+      "Home District",
+      "Province of Upper Canada",
+      "Township of Pelham",
+      "District of Upper Canada",
+      "Pennsylvania"
+    ]
+  },
+  "251": {
+    "tagDate": ["1806-01-27T00:00:00.000Z"],
+    "tagPerson": [
+      "Samson, Matthew",
+      "Lawson, Matthew",
+      "Goodyear, Edward",
+      "P, Simon",
+      "Bellamy, Gared",
+      "Simson, John",
+      "Chisholm, Alexander",
+      "Weller, Asa"
+    ]
+  },
+  "164": {
+    "tagPlace": ["County of York", "Township of Vaughan", "Yonge"],
+    "tagPerson": [
+      "Ridout, Tho",
+      "Holloway, John",
+      "Harris, M",
+      "Walker, Abraham"
+    ],
+    "tagDate": ["1797-06-28T00:00:00.000Z"]
+  },
+  "244": {
+    "tagDate": ["[1791-06-22T00:00:00.000Z TO 1792-02-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "Whittle, Richard",
+      "Kind, Thomas",
+      "Dolton, J",
+      "Hall, Thomas",
+      "Windall, Joseph",
+      "Weston, Saml",
+      "M, John",
+      "Empson, James",
+      "E, James",
+      "Butler, Edward"
+    ],
+    "tagPlace": ["Lake Erie", "Detroit"]
+  },
+  "365": {
+    "tagPlace": ["River La Tranche"],
+    "tagDate": ["1792-11-25T00:00:00.000Z"],
+    "tagPerson": [
+      "Widdo, Ann, Scott",
+      "W, Thos",
+      "Scott, William",
+      "Emrick, John",
+      "Smith, Thomas",
+      "Malot, W, Peter",
+      "Hamilton, Andrew",
+      "Willcox, H"
+    ]
+  },
+  "316": {
+    "tagPlace": ["Yonge Street", "District of Johnstown"],
+    "tagDate": ["[1799-10-29T23:59:59.999Z TO 1803-03-25T00:00:00.000Z]"],
+    "tagPerson": [
+      "Hubbard, Thomas",
+      "Davidson, Andrew",
+      "Smyth, Thos",
+      "Shaw, Hugh",
+      "Hudson, John"
+    ]
+  },
+  "487": {
+    "tagDate": ["1804-03-11T00:00:00.000Z"],
+    "tagPerson": ["Caldwell, John", "S, Isaac"],
+    "tagPlace": ["York"]
+  },
+  "220": {
+    "tagPlace": ["Town of Haldimand"],
+    "tagPerson": [
+      "Boyle, William",
+      "Hall, Isaiah",
+      "Quant, Jacob",
+      "Amson, Robert"
+    ],
+    "tagDate": ["[1791-03-15T23:59:59.999Z TO 1801-04-20T00:00:00.000Z]"]
+  },
+  "64": {
+    "tagDate": ["1797-11-16T00:00:00.000Z"],
+    "tagPerson": [
+      "Sam",
+      "Lymburner, James",
+      "Hamilton, Robert",
+      "McDonell, Peter",
+      "Murray, Rob"
+    ],
+    "tagPlace": [
+      "Queenstown",
+      "Township of Oxford",
+      "Home District of Upper Canada"
+    ]
+  },
+  "259": {
+    "tagPerson": ["Cook, Ebr", "Ingerfell, Thos "],
+    "tagDate": ["1799-09-18T00:00:00.000Z"],
+    "tagPlace": ["York"]
+  },
+  "34": {
+    "tagPerson": ["Campbell, George"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPlace": ["Oxford"]
+  },
+  "224": {
+    "tagPerson": ["D, Robert", "Ashford, Thos", "Ashworth, Thomas"],
+    "tagDate": ["[1791-12-31T23:59:59.999Z TO 1792-01-25T00:00:00.000Z]"],
+    "tagPlace": ["Detroit"]
+  },
+  "277": {
+    "tagPlace": ["Township of Townsend"],
+    "tagDate": ["1797-05-05T00:00:00.000Z"],
+    "tagPerson": ["C, Luther", "Muirhead, James"]
+  },
+  "71": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1796-08-29T23:59:59.999Z]"],
+    "tagPerson": ["Weaver, Francis", "Weaver, Elizabeth", "Hamilton, Robert"],
+    "tagPlace": ["Queenstown", "Oxford", "Home District of Upper Canada"]
+  },
+  "80": {
+    "tagPerson": ["Hamilton, Robert", "Connor, William"],
+    "tagDate": ["1799-01-01T00:00:00.000Z"],
+    "tagPlace": ["Oxford"]
+  },
+  "308": {
+    "tagPerson": [
+      "T, John",
+      "Wurtbach, Jn, Ct",
+      "Harper, William",
+      "McPherson, James",
+      "McClarins, John",
+      "Schaffer, John",
+      "Windall, Joseph"
+    ],
+    "tagDate": ["[1791-10-23T00:00:00.000Z TO 1791-12-12T23:59:59.999Z]"]
+  },
+  "436": {
+    "tagPlace": ["Township of Hallowell"],
+    "tagPerson": [
+      "Dickson, William",
+      "Stinson, John",
+      "Rice, George",
+      "Richman, Cyrus"
+    ],
+    "tagDate": ["[1796-10-08T23:59:59.999Z TO 1799-05-08T00:00:00.000Z]"]
+  },
+  "361": {
+    "tagPerson": [
+      "Cameron, John",
+      "Cornwall, John",
+      "Rudhart, George, Jacob",
+      "Schneffer, Michael",
+      "W, Wendel"
+    ],
+    "tagDate": ["[1791-06-23T00:00:00.000Z TO 1793-03-29T23:59:59.999Z]"],
+    "tagPlace": ["Mathewsburgh", "Detroit"]
+  },
+  "333": {
+    "tagDate": ["[1800-07-17T23:59:59.999Z TO 1801-02-26T00:00:00.000Z]"],
+    "tagPerson": [
+      "Ramsey, Henry",
+      "Small, J",
+      "Hall, Z, Isaiah",
+      "Monger, William",
+      "Ashworth, Thomas"
+    ],
+    "tagPlace": ["Town of handyman"]
+  },
+  "255": {
+    "tagPlace": ["Haldimand"],
+    "tagDate": ["1805-02-18T00:00:00.000Z"],
+    "tagPerson": [
+      "Irish, John",
+      "Reynolds, John",
+      "Irish, Robinson",
+      "Brown, Jno"
+    ]
+  },
+  "78": {
+    "tagPerson": ["Connor, William", "Hamilton, Robert"],
+    "tagDate": ["1797-08-05T00:00:00.000Z"],
+    "tagPlace": ["Upper Canada", "Queenstown"]
+  },
+  "472": {
+    "tagPlace": ["Township of Markham", "Township Oxford", "Yonge Street"],
+    "tagPerson": ["Willson, John", "Ruggles, James", "I, Thos"],
+    "tagDate": ["[1803-03-28T23:59:59.999Z TO 1803-03-30T00:00:00.000Z]"]
+  },
+  "187": {
+    "tagPerson": ["Young, Henry"],
+    "tagDate": ["1795-01-01T00:00:00.000Z"]
+  },
+  "417": {
+    "tagPlace": ["New Settlement"],
+    "tagDate": ["[1791-05-01T00:00:00.000Z TO 1791-07-20T23:59:59.999Z]"],
+    "tagPerson": [
+      "Cornwall, John",
+      "A, Thomas",
+      "Ramsey, Henry",
+      "Willcocks, M",
+      "Willcocks, Elijah"
+    ]
+  },
+  "282": {
+    "tagPerson": ["Easton, Rufus", "Easton, J", "Parmely, T, T"],
+    "tagDate": ["1799-01-01T00:00:00.000Z"]
+  },
+  "368": {
+    "tagDate": ["1800-10-07T00:00:00.000Z"],
+    "tagPerson": [
+      "Stevens, A",
+      "Shelden, Samuel",
+      "Williams, Peter",
+      "T, Martin",
+      "Scrach, Lenard",
+      "Small, Clark"
+    ],
+    "tagPlace": ["Bastard"]
+  },
+  "301": {
+    "tagPlace": ["Detroit"],
+    "tagPerson": [
+      "Bettler, Edwd",
+      "Harper, William",
+      "Roach, Maurie",
+      "Hall, Thomas",
+      "N, Joseph"
+    ],
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1792-01-11T23:59:59.999Z]"]
+  },
+  "86": {
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPerson": ["Harkaman, D"],
+    "tagPlace": ["Oxford"]
+  },
+  "163": {
+    "tagPlace": [
+      "Home District of Upper Canada",
+      "Town of York",
+      "Township of Rainham"
+    ],
+    "tagPerson": ["Walker, Abraham", "Holloway, John"],
+    "tagDate": ["1797-06-28T00:00:00.000Z"]
+  },
+  "180": {
+    "tagDate": ["[1795-09-14T00:00:00.000Z TO 1795-11-06T23:59:59.999Z]"],
+    "tagPerson": ["John", "McFerron, Wm", "Smith, D, W"],
+    "tagPlace": ["Township of Wainfleet"]
+  },
+  "414": {
+    "tagPlace": ["Yonge", "Detroit River", "York", "New Settlement"],
+    "tagPerson": [
+      "Willcocks, Elijah",
+      "Jones, Thomas",
+      "W, Jonathan",
+      "Cally, Stephen",
+      "Walton, Amos",
+      "Ramsey, Henry",
+      "Whittle, Richard",
+      "Weston, Saml"
+    ],
+    "tagDate": ["[1791-04-22T00:00:00.000Z TO 1797-06-22T23:59:59.999Z]"]
+  },
+  "319": {
+    "tagDate": ["[1801-06-05T00:00:00.000Z TO 1803-11-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Henmin, Moses",
+      "Keeler, Joseph",
+      "Kelly, John",
+      "Rogers, D"
+    ],
+    "tagPlace": ["Haldimand", "York"]
+  },
+  "39": {
+    "tagPlace": ["Home District of Upper Canada", "Oxford"],
+    "tagPerson": [
+      "Murray, Robert",
+      "Dukson, William",
+      "Hamilton, Robert",
+      "Guile, John"
+    ],
+    "tagDate": ["[1797-03-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"]
+  },
+  "243": {
+    "tagPlace": ["Detroit "],
+    "tagDate": ["[1791-09-28T23:59:59.999Z TO 1802-11-09T00:00:00.000Z]"],
+    "tagPerson": [
+      "Hall, Thomas",
+      "Weston, Saml",
+      "Whittle, Richard",
+      "MackClaine, John",
+      "G, Aaron",
+      "Hall, Thos ",
+      "Butler, Edward",
+      "Burnham, Asa",
+      "Roach, Maurie"
+    ]
+  },
+  "131": {
+    "tagDate": ["1799-04-12T00:00:00.000Z"],
+    "tagPerson": [
+      "Oustrander, John",
+      "Hamilton, Robert",
+      "Murray, Rob",
+      "Dickson, William"
+    ],
+    "tagPlace": ["County of Lincoln"]
+  },
+  "69": {
+    "tagPlace": ["Queenstown", "Township of Oxford"],
+    "tagPerson": [
+      "Hamilton, Robert",
+      "Dickson, Thos",
+      "Dickson, William",
+      "Murray, Rob",
+      "VanAlstine, Jacob"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"]
+  },
+  "385": {
+    "tagPlace": ["Yonge"],
+    "tagPerson": ["Losley, James", "Y, John", "Smith, D, W", "Smith, William"],
+    "tagDate": ["1798-01-15T00:00:00.000Z"]
+  },
+  "138": {
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1801-12-31T23:59:59.999Z]"],
+    "tagPlace": [
+      "Wolford Township",
+      "Vaughan Township",
+      "Wainfleet Township",
+      "Upper Canada",
+      "Townsend"
+    ]
+  },
+  "51": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hamilton, Robert", "Haines, Adam"],
+    "tagPlace": ["Home District of Upper Canada", "Oxford"]
+  },
+  "422": {
+    "tagPerson": [
+      "Quant, Jacob",
+      "Williams, Thomas",
+      "Rice, James",
+      "Dolson, D",
+      "Smith, Thomas"
+    ],
+    "tagDate": ["[1791-12-31T23:59:59.999Z TO 1793-01-29T00:00:00.000Z]"],
+    "tagPlace": ["Detroit"]
+  },
+  "184": {
+    "tagPlace": ["Wainfleet"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bowman, Abram"]
+  },
+  "103": {
+    "tagDate": ["[1795-07-20T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Finley, David, Hubar",
+      "Clark, Thomas",
+      "Dickson, William",
+      "Hamilton, Robert",
+      "Muirhead, John"
+    ],
+    "tagPlace": ["Queenstown", "County of Lincoln"]
+  },
+  "410": {
+    "tagDate": ["[1801-05-11T00:00:00.000Z TO 1802-06-15T23:59:59.999Z]"],
+    "tagPerson": [
+      "Rogers, D, M",
+      "Wait, George",
+      "Hall, Isaiah",
+      "Chisholm, A "
+    ],
+    "tagPlace": ["County of Northumberland", "Haldimand", "York"]
+  },
+  "227": {
+    "tagDate": ["1792-01-01T00:00:00.000Z"],
+    "tagPerson": ["Ramsey, Henry", "M, William", "Ashworth, Thomas"]
+  },
+  "315": {
+    "tagPerson": ["Small, John, Major", "Hollingshead"],
+    "tagDate": ["[1800-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "366": {
+    "tagDate": ["[1791-06-28T00:00:00.000Z TO 1791-08-23T23:59:59.999Z]"],
+    "tagPerson": ["Lockhart, William", "Monger, Charles", "Scratch, Lenard"]
+  },
+  "58": {
+    "tagPerson": [
+      "Lampman, Abraham",
+      "Muirhead, John",
+      "Hamilton, Robert",
+      "Murray, Rob",
+      "Dickson, William"
+    ],
+    "tagDate": ["1796-11-20T00:00:00.000Z"],
+    "tagPlace": ["Queenstown", "Township of Oxford", "County of Lincoln"]
+  },
+  "463": {
+    "tagPerson": ["Stevens, Abel"],
+    "tagDate": ["[1801-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPlace": [
+      "Bastard",
+      "Oxford",
+      "Markham",
+      "Hope",
+      "Kingston",
+      "Haldimand",
+      "Hamilton"
+    ]
+  },
+  "274": {
+    "tagDate": ["[1793-06-02T00:00:00.000Z TO 1793-09-05T23:59:59.999Z]"],
+    "tagPerson": [
+      "Donaldson, James",
+      "Field, Daniel",
+      "Welch, John",
+      "James, Rice",
+      "Smith, Thomas"
+    ],
+    "tagPlace": [
+      "County of Kent",
+      "North Side of the River La Tranch",
+      "Detroit"
+    ]
+  },
+  "403": {
+    "tagPlace": ["New Settlement", "Detroit"],
+    "tagDate": ["[1791-10-23T23:59:59.999Z TO 1794-07-25T00:00:00.000Z]"],
+    "tagPerson": [
+      "Windall, Joseph",
+      "Neval, Colin",
+      "Harper, William",
+      "Dollan, John",
+      "Topp, John"
+    ]
+  },
+  "23": {
+    "tagPlace": ["Home District of Upper Canada", "Township of Oxford"],
+    "tagPerson": [
+      "Hamilton, Robert",
+      "Dickson, William",
+      "Murray, Rob",
+      "Muirhead, John",
+      "Bennet, Josiah"
+    ],
+    "tagDate": ["[1796-11-25T00:00:00.000Z TO 1797-04-12T23:59:59.999Z]"]
+  },
+  "110": {
+    "tagPlace": [
+      "Township of Pelham",
+      "Ireland",
+      "Home District",
+      "Province of Upper Canada"
+    ],
+    "tagDate": ["[1795-04-04T00:00:00.000Z TO 1795-05-22T23:59:59.999Z]"],
+    "tagPerson": ["Smith, D, W", "Bryan, John", "Mall, John"]
+  },
+  "484": {
+    "tagDate": ["[1783-01-01T00:00:00.000Z TO 1816-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Beach, Moses",
+      "Johnston, Henry",
+      "Nevill, James",
+      "Cooper, Joseph",
+      "Smith, John",
+      "Anderson, Robert",
+      "Mongrain, Onesime",
+      "Tallmage",
+      "McCarty, Charles, Justin",
+      "N, Jacob",
+      "Johnston, Andrew",
+      "Brown, John",
+      "Tripp, Wm",
+      "Robison, Wm",
+      "Chewt, Mathias",
+      "Elisha",
+      "Stone, Leo",
+      "Dampsy, Thos",
+      "Hyde, James",
+      "Caldwell, John",
+      "Whiting, Leonard",
+      "La Jorge, Vincent",
+      "Smith, Abel",
+      "McEwen, John",
+      "Tulle, Danl",
+      "Hamilton, George",
+      "Peet, David",
+      "Bryant, David",
+      "Johnston, Wm",
+      "Lockwood, Wm",
+      "Fleming, James"
+    ]
+  },
+  "270": {
+    "tagPlace": ["New Settlement", "Detroit"],
+    "tagDate": ["[1791-07-29T00:00:00.000Z TO 1791-09-07T23:59:59.999Z]"],
+    "tagPerson": [
+      "Willcocks, Elisha",
+      "McKillip, Daniel",
+      "Dolton, John",
+      "Windle, Joseph",
+      "Flannary, Patrick"
+    ]
+  },
+  "389": {
+    "tagDate": ["[1802-04-13T00:00:00.000Z TO 1802-06-25T23:59:59.999Z]"],
+    "tagPerson": ["Stevens, Abner", "Hall, Isaiah"],
+    "tagPlace": ["Township of Hamilton"]
+  },
+  "122": {
+    "tagPlace": ["Southwold", "Queenstown", "Upper Canada"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Robinson", "Prince, John", "Hamilton, Robert"]
+  },
+  "438": {
+    "tagPlace": ["Stamford"],
+    "tagPerson": [
+      "Reilly, John",
+      "Millard, T",
+      "Lundy, William",
+      "Burch, John",
+      "Secord, David",
+      "Miller, Jacob"
+    ],
+    "tagDate": ["[1795-08-17T00:00:00.000Z TO 1796-05-16T23:59:59.999Z]"]
+  },
+  "306": {
+    "tagPerson": [
+      "Whittle, Richard",
+      "Smith, Wm",
+      "Smith, Thomas",
+      "Nevill, Edward",
+      "Hamilton, Andrew",
+      "Dugan, Wm",
+      "T, Jno",
+      "Harper, William",
+      "Miller, Hezekiah",
+      "Drake, Jno"
+    ],
+    "tagDate": ["1792-01-24T00:00:00.000Z"],
+    "tagPlace": ["River La Tranche"]
+  },
+  "328": {
+    "tagDate": ["[1792-03-22T00:00:00.000Z TO 1793-04-22T23:59:59.999Z]"],
+    "tagPerson": [
+      "Clearwater, John",
+      "F, Thomas",
+      "C, James",
+      "McKilliss, Daniel"
+    ]
+  },
+  "451": {
+    "tagPlace": ["Fort Erie"],
+    "tagPerson": [
+      "Dennis, O",
+      "Dennis, Julio",
+      "Dennis, Nathaniel",
+      "Dennis, Sarah",
+      "Dennis, Julia",
+      "Warren, John",
+      "Dennis, Catherine",
+      "Dennis, Rachel",
+      "Dennis, Elinor",
+      "Dennis, Hanah",
+      "Dennis, William",
+      "Dennis, Ezekiel"
+    ],
+    "tagDate": ["[1786-12-31T23:59:59.999Z TO 1797-04-30T00:00:00.000Z]"]
+  },
+  "82": {
+    "tagPerson": [
+      "Segar, Charles",
+      "Murray, Rob",
+      "Dickson, William",
+      "Sequint, Charles",
+      "Hamilton, Robert",
+      "Muirhead, John"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPlace": ["Oxford", "County of Lincoln", "Queenstown"]
+  },
+  "213": {
+    "tagDate": ["1789-01-01T00:00:00.000Z"],
+    "tagPerson": ["Edward, T", "Douglas, A", "Reynolds, Caleb"]
+  },
+  "79": {
+    "tagDate": ["1799-04-20T00:00:00.000Z"],
+    "tagPerson": [
+      "Hamilton, Robert",
+      "Connor, William",
+      "Dickson, William",
+      "Hale, Eliphalet"
+    ],
+    "tagPlace": ["York", "Township of Oxford"]
+  },
+  "444": {
+    "tagPerson": [
+      "Terry, Panhale",
+      "H, James",
+      "Harrys, B",
+      "Dorland, Thos",
+      "H, John"
+    ],
+    "tagDate": ["[1796-05-24T00:00:00.000Z TO 1799-05-09T23:59:59.999Z]"],
+    "tagPlace": ["Adolphustown", "Township of Hamilton"]
+  },
+  "349": {
+    "tagPerson": [
+      "Cornwall, Josh",
+      "Lee, Wm",
+      "Nevill, Ed",
+      "Topp, John",
+      "Wright, Terry",
+      "Robertson, James",
+      "Cornwall, John"
+    ],
+    "tagDate": ["[1792-03-24T00:00:00.000Z TO 1792-05-25T23:59:59.999Z]"],
+    "tagPlace": ["Lake Erie"]
+  },
+  "25": {
+    "tagPerson": ["Dapey, John", "Hamilton, Robert"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPlace": ["Home District of Upper Canada"]
+  },
+  "440": {
+    "tagPlace": ["Township of Barton", "County of Lincoln"],
+    "tagPerson": [
+      "Lotridge, William",
+      "Beasley,Richard",
+      "Lotridge, Robert, Captain"
+    ],
+    "tagDate": ["1798-03-02T00:00:00.000Z"]
+  },
+  "458": {
+    "tagPlace": ["Stamford"],
+    "tagPerson": [
+      "S, Isaac",
+      "Boughan, Nathan",
+      "Binder, Philip",
+      "Terry, Panhale",
+      "Pettit, Nath",
+      "Secord, David"
+    ],
+    "tagDate": ["[1788-01-01T00:00:00.000Z TO 1797-03-28T23:59:59.999Z]"]
+  },
+  "321": {
+    "tagPlace": ["Yonge Street"],
+    "tagPerson": [
+      "Levins, John",
+      "Graham, Wm",
+      "Muekle, John",
+      "McClury, James"
+    ],
+    "tagDate": ["[1797-08-22T23:59:59.999Z TO 1800-08-07T00:00:00.000Z]"]
+  },
+  "144": {
+    "tagPlace": ["Queenstown", "Home District of Upper Canada"],
+    "tagPerson": ["Hamilton, Robert", "Boom, John"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"]
+  },
+  "376": {
+    "tagPerson": ["Simpson, John", "Chrisholm, Alexr"],
+    "tagDate": ["1801-12-04T00:00:00.000Z"],
+    "tagPlace": ["Township of Cramahe", "Murray"]
+  },
+  "497": { "tagDate": ["1806-06-30T00:00:00.000Z"] },
+  "345": {
+    "tagDate": ["[1799-05-07T23:59:59.999Z TO 1801-05-30T00:00:00.000Z]"],
+    "tagPerson": [
+      "Richman, Silvester",
+      "Barth, Joshua",
+      "Wilberge, James",
+      "Richmond, J",
+      "Ramsey, Henry",
+      "Chrisholm, Alexr",
+      "Ashworth, Thomas"
+    ],
+    "tagPlace": ["Murray", "Ernest Town", "Township of Cramahe"]
+  },
+  "151": {
+    "tagPlace": ["Queenstown", "County of Lincoln"],
+    "tagPerson": [
+      "Muirhead, John",
+      "Garner, George",
+      "Hamilton, Robert",
+      "Dickson, William",
+      "Murray, Rob",
+      "Hewitt, John"
+    ],
+    "tagDate": ["[1797-02-03T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"]
+  },
+  "200": {
+    "tagPlace": [
+      "County of York",
+      "Township of Week Church",
+      "Province of Upper Canada",
+      "Township of Markham"
+    ],
+    "tagPerson": [
+      "Stephens, Shadrack",
+      "Hollinshead, Anthony",
+      "Miller, Nicholas",
+      "Kemick, Daniel"
+    ],
+    "tagDate": ["1802-11-16T00:00:00.000Z"]
+  },
+  "332": {
+    "tagPerson": [
+      "S, Leonard",
+      "Williams, Peter",
+      "Ashworth, Thomas",
+      "Monger, William",
+      "Ramsey, Henry"
+    ],
+    "tagDate": ["[1792-07-23T23:59:59.999Z TO 1794-01-01T00:00:00.000Z]"]
+  },
+  "508": {
+    "tagPerson": ["Tallmage, Elisha", "Bryant, David", "Burch, John"],
+    "tagDate": ["1796-06-02T00:00:00.000Z"],
+    "tagPlace": ["Fall Mills"]
+  },
+  "473": {
+    "tagPlace": ["Markham"],
+    "tagPerson": ["Willson, John"],
+    "tagDate": ["1803-01-01T00:00:00.000Z"]
+  },
+  "264": {
+    "tagDate": ["[1801-02-15T23:59:59.999Z TO 1801-09-12T00:00:00.000Z]"],
+    "tagPerson": ["Dexter, John", "Dexter, Elisha", "Wilson, John"],
+    "tagPlace": ["Young Street"]
+  },
+  "204": {
+    "tagDate": ["1803-10-01T00:00:00.000Z"],
+    "tagPerson": ["Miller, Nicholas", "Clubine, Andrew"],
+    "tagPlace": ["Yonge Street"]
+  },
+  "501": {
+    "tagPlace": ["Augusta"],
+    "tagPerson": ["Phillips, Ziba"],
+    "tagDate": ["1788-11-14T00:00:00.000Z"]
+  },
+  "260": {
+    "tagPlace": ["York", "Upper Canada", "Township of Oxford", "Dist of Young"],
+    "tagDate": ["[1797-10-28T00:00:00.000Z TO 1801-10-19T23:59:59.999Z]"],
+    "tagPerson": [
+      "Russell, Peter",
+      "Johnson, Lawrence",
+      "Hill, Thomas",
+      "Hollinshead, William",
+      "Small, John",
+      "Johnson, Asa",
+      "Fisher, John",
+      "Ingersoll, Thomas"
+    ]
+  },
+  "283": {
+    "tagPlace": ["County of Leeds"],
+    "tagPerson": ["Easton, Rufus", "Kenridge, J "],
+    "tagDate": ["[1795-01-01T00:00:00.000Z TO 1799-07-15T23:59:59.999Z]"]
+  },
+  "140": {
+    "tagPlace": ["Home District of Upper Canada", "Queenstown"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hamilton, Robert", "Bowgar, Laban"]
+  },
+  "456": {
+    "tagDate": ["1796-10-14T00:00:00.000Z"],
+    "tagPerson": ["Ball, W", "Brandyman, Christian"],
+    "tagPlace": ["Newark"]
+  },
+  "59": {
+    "tagPlace": ["Oxford"],
+    "tagPerson": ["Lampman, Abram"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"]
+  },
+  "162": {
+    "tagPerson": ["Walker, Abraham", "Holloway, John"],
+    "tagDate": ["1797-01-01T00:00:00.000Z"]
+  },
+  "61": {
+    "tagPerson": ["Lymburner, James", "McDonell, Peter"],
+    "tagDate": ["1797-09-19T00:00:00.000Z"],
+    "tagPlace": ["New York"]
+  },
+  "490": {
+    "tagPerson": [
+      "M, Adams",
+      "Hamilton, George",
+      "Anderson, T",
+      "D, Anne",
+      "Brown, Jn ",
+      "Campbell, Robert",
+      "Dittrich, Jacob"
+    ],
+    "tagDate": ["[1795-05-12T00:00:00.000Z TO 1795-12-31T23:59:59.999Z]"]
+  },
+  "242": {
+    "tagPlace": [
+      "County of Norfolk",
+      "Township of Walsingham",
+      "Township of Cramahe",
+      "Haldimand",
+      "Charlottesville",
+      "Province of Upper Canada"
+    ],
+    "tagPerson": [
+      "Brown, Samuel",
+      "Rogers, D, MG",
+      "Hall, Isaiah",
+      "Hazen, Danl",
+      "Barnum, Nathan, B",
+      "Brunson, Wm",
+      "Burnham, Asa"
+    ],
+    "tagDate": ["[1801-09-16T23:59:59.999Z TO 1802-02-13T00:00:00.000Z]"]
+  },
+  "235": {
+    "tagPerson": [
+      "L, Leonard",
+      "Marsh, Samuel",
+      "Watson, Nathan",
+      "Bedford, Paul"
+    ],
+    "tagDate": ["1802-01-01T00:00:00.000Z"]
+  },
+  "399": {
+    "tagPlace": ["Detroit", "River La Tranche"],
+    "tagPerson": ["Dugan, Wm", "Dolson, Matthew"],
+    "tagDate": ["1793-06-21T00:00:00.000Z"]
+  },
+  "494": {
+    "tagDate": ["1781-03-12T00:00:00.000Z"],
+    "tagPerson": ["La Forge, Vincent, Lieut", "Campbell, J"],
+    "tagPlace": ["Montreal"]
+  },
+  "74": {
+    "tagPlace": ["Home District of Upper Canada", "Oxford", "Queenstown"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dickson, William",
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "Muirhead, John",
+      "Campbell, Rob",
+      "Ingersoll, Thomas"
+    ]
+  },
+  "423": {
+    "tagDate": ["[1791-06-22T23:59:59.999Z TO 1791-08-26T00:00:00.000Z]"],
+    "tagPerson": [
+      "Whittle, Richard",
+      "Harper, William",
+      "Topp, John",
+      "Windall, Joseph",
+      "Weston, Saml"
+    ],
+    "tagPlace": ["Detroit"]
+  },
+  "147": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Boom, Nicholas", "Hamilton, Robert"],
+    "tagPlace": [
+      "Home District of Upper Canada",
+      "Township of Townsend",
+      "Queenstown"
+    ]
+  },
+  "267": {
+    "tagPlace": [
+      "Township South Side River La Tranch",
+      "North Side River La Tranch",
+      "Detroit"
+    ],
+    "tagPerson": [
+      "Beck, John",
+      "Rice, James",
+      "Dodemead, John",
+      "Dolson, Isaac",
+      "Smith, Thomas"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1793-09-07T23:59:59.999Z]"]
+  },
+  "326": {
+    "tagDate": ["[1791-05-14T00:00:00.000Z TO 1791-07-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "Nevill, Edwd",
+      "Tuttle, James",
+      "Tracy, Jas",
+      "Ramsey, Henry",
+      "McKilliss, Daniel"
+    ]
+  },
+  "102": {
+    "tagPlace": ["Township of Pelham", "Home District of Upper Canada"],
+    "tagPerson": ["Hubar, David", "Hamilton, Robert"],
+    "tagDate": ["1795-01-01T00:00:00.000Z"]
+  },
+  "371": {
+    "tagPerson": [
+      "E, Richard",
+      "Dugan, William",
+      "Desmond, Timothy",
+      "Shunk, Peter"
+    ],
+    "tagDate": ["[1792-09-28T00:00:00.000Z TO 1793-03-23T23:59:59.999Z]"],
+    "tagPlace": ["River La Tranche", "Detroit"]
+  },
+  "239": {
+    "tagDate": ["[1801-02-26T00:00:00.000Z TO 1801-09-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "K, Joseph",
+      "Bristol, Elisha",
+      "Hall, Isaiah",
+      "Bourmans, Stephen",
+      "Britain, Ebenezer"
+    ],
+    "tagPlace": ["Haldimand", "Township of Cramahe"]
+  },
+  "38": {
+    "tagDate": ["1799-01-01T00:00:00.000Z"],
+    "tagPerson": ["Guile, John", "Murray, John"],
+    "tagPlace": ["Oxford"]
+  },
+  "156": {
+    "tagPlace": ["Townsend"],
+    "tagPerson": ["Jongue, Wm"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1799-04-12T00:00:00.000Z]"]
+  },
+  "402": {
+    "tagDate": ["[1792-01-19T00:00:00.000Z TO 1792-04-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Windall, Joseph",
+      "Stevens, Robert",
+      "Rubb, James",
+      "Lee, William",
+      "Smith, David",
+      "Topp, John"
+    ],
+    "tagPlace": ["Detroit", "New Settlement"]
+  },
+  "395": {
+    "tagDate": ["[1791-09-23T00:00:00.000Z TO 1791-11-18T23:59:59.999Z]"],
+    "tagPerson": [
+      "Smith, Jno",
+      "Wright, William",
+      "R, Pearl",
+      "Wright, Henry",
+      "Stockwell, John"
+    ]
+  },
+  "506": {
+    "tagPerson": ["Tripp, William", "Kerr, Robert"],
+    "tagDate": ["1796-05-24T00:00:00.000Z"],
+    "tagPlace": ["Niagara"]
+  },
+  "68": {
+    "tagPlace": ["Queenstown", "Home District of Upper Canada"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["VanAlstine, Jacob", "Hamilton, Robert"]
+  },
+  "123": {
+    "tagPlace": [
+      "County of Lincoln",
+      "Township of Southwold",
+      "Queenstown",
+      "Thames"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Prince, John",
+      "Robinson",
+      "Dickson, William",
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "Muirhead, John"
+    ]
+  },
+  "378": {
+    "tagPlace": ["Bastard"],
+    "tagPerson": ["Smith"],
+    "tagDate": ["1800-12-26T00:00:00.000Z"]
+  },
+  "447": {
+    "tagPlace": ["Niagara"],
+    "tagPerson": ["Ellice, John", "Kerr, Robert"],
+    "tagDate": ["[1796-05-27T00:00:00.000Z TO 1796-12-31T23:59:59.999Z]"]
+  },
+  "87": {
+    "tagDate": ["[1798-01-17T23:59:59.999Z TO 1799-04-12T00:00:00.000Z]"],
+    "tagPerson": [
+      "Hamilton, Robert",
+      "D, William",
+      "Murray, Rob",
+      "Dickson, William",
+      "Millard, Thomas",
+      "Hamilton, John, R"
+    ],
+    "tagPlace": [
+      "Queenstown",
+      "Stamford",
+      "County of Lincoln",
+      "Home District of Upper Canada"
+    ]
+  },
+  "194": {
+    "tagDate": ["1801-03-18T00:00:00.000Z"],
+    "tagPerson": ["Brown, Nathan", "Lakins, John"],
+    "tagPlace": [
+      "District of Johnstown",
+      "Province of Upper Canada",
+      "Holford",
+      "Township of Gunville"
+    ]
+  },
+  "284": {
+    "tagPlace": ["Lake Erie", "Detroit", "Township of Barton"],
+    "tagDate": ["[1792-07-25T23:59:59.999Z TO 1800-12-02T00:00:00.000Z]"],
+    "tagPerson": [
+      "McKillip, Daniel",
+      "Kind, Thomas",
+      "Whittle, Richard",
+      "Edmund, Joseph",
+      "Neville, Edward",
+      "Butler, Edward",
+      "OBrien, Edward",
+      "Empson, James",
+      "C, John"
+    ]
+  },
+  "470": {
+    "tagPerson": ["Aitken, Alexr", "Cartwright, Richard", "Milland, Noah"],
+    "tagDate": ["1798-10-24T00:00:00.000Z"],
+    "tagPlace": ["Town of Kingston", "Townsend"]
+  },
+  "57": {
+    "tagPerson": ["Hamilton, Robert", "Lampman, Abraham"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPlace": ["Home District of Upper Canada", "Queenstown"]
+  },
+  "238": {
+    "tagPerson": ["Bellomy, J", "Baker, George", "Bowerman, G"],
+    "tagDate": ["1799-01-01T00:00:00.000Z"]
+  },
+  "357": {
+    "tagPlace": [
+      "District of New Castle",
+      "Township of Hamilton",
+      "Township of Cavan"
+    ],
+    "tagPerson": [
+      "Fisher, James",
+      "Reynolds, James",
+      "Burn, John",
+      "Robins, John",
+      "Gruly, Aaron",
+      "Small, John"
+    ],
+    "tagDate": ["[1802-01-01T00:00:00.000Z TO 1818-11-23T23:59:59.999Z]"]
+  },
+  "231": {
+    "tagDate": ["1801-01-07T00:00:00.000Z"],
+    "tagPerson": ["McCall, John", "Averill, Ebenezer", "Averill, Paul"]
+  },
+  "427": {
+    "tagDate": ["1801-07-26T00:00:00.000Z"],
+    "tagPerson": ["Wyatt, Peter"]
+  },
+  "280": {
+    "tagPlace": ["Percy"],
+    "tagPerson": ["Dun, John"],
+    "tagDate": ["1803-01-01T00:00:00.000Z"]
+  },
+  "474": {
+    "tagPlace": ["Yonge Street"],
+    "tagPerson": ["Miller, Nicholas", "Willson, John", "Munshau, Balsar"],
+    "tagDate": ["[1801-02-28T00:00:00.000Z TO 1801-09-15T23:59:59.999Z]"]
+  },
+  "379": {
+    "tagDate": ["1801-06-11T00:00:00.000Z"],
+    "tagPerson": ["Smith, Jacob", "Smith, Lewis"],
+    "tagPlace": ["Glenford"]
+  },
+  "263": {
+    "tagDate": ["[1793-04-12T00:00:00.000Z TO 1793-11-27T23:59:59.999Z]"],
+    "tagPerson": [
+      "McCrae, Thos",
+      "Drake, John",
+      "Boyle, Wm",
+      "Carpenter, John",
+      "Desmon, Timothy",
+      "Dolsen, Matthew",
+      "Dugan, Wm"
+    ],
+    "tagPlace": ["Detroit", "Township South Side River La Tranch"]
+  },
+  "222": {
+    "tagDate": ["[1792-05-18T00:00:00.000Z TO 1801-09-15T23:59:59.999Z]"],
+    "tagPerson": ["Arner, Jacob", "S, John", "Arnold, John", "Willson, John"]
+  },
+  "391": {
+    "tagPlace": ["Markham"],
+    "tagPerson": ["H, Josiah", "Hober, Peter"],
+    "tagDate": ["1803-05-24T00:00:00.000Z"]
+  },
+  "170": {
+    "tagDate": ["1798-03-20T00:00:00.000Z"],
+    "tagPerson": [
+      "Walker, Abraham",
+      "Holloway",
+      "Hammond, Levi",
+      "Miles, Abner",
+      "Hoyett, Thos"
+    ]
+  },
+  "398": {
+    "tagPlace": ["River La Tranche"],
+    "tagDate": ["[1792-09-25T23:59:59.999Z TO 1792-11-26T00:00:00.000Z]"],
+    "tagPerson": [
+      "Peek, M",
+      "King, John",
+      "Peek, John",
+      "S, Robert",
+      "Stockwell, John",
+      "Drew, J"
+    ]
+  },
+  "346": {
+    "tagDate": ["[1792-01-25T23:59:59.999Z TO 1801-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Reynolds, Thomas",
+      "Richmond, Silvester",
+      "Chrisholm, Alexr",
+      "Robertson, James"
+    ],
+    "tagPlace": ["Murray", "Township of Cramahe"]
+  },
+  "443": {
+    "tagPlace": ["Kingston"],
+    "tagDate": ["1802-03-16T00:00:00.000Z"],
+    "tagPerson": ["Cartwright, Richard", "Huntley, Bethuel"]
+  },
+  "72": {
+    "tagPlace": ["County of Lincoln"],
+    "tagPerson": [
+      "Muirhead, John",
+      "Hamilton, Robert",
+      "Murray, Rob",
+      "Dickson, William",
+      "Weaver, Francis",
+      "Weaver, Elizabeth"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"]
+  },
+  "375": {
+    "tagDate": ["1801-12-04T00:00:00.000Z"],
+    "tagPerson": ["Simpson, John"],
+    "tagPlace": ["Cramahe"]
+  },
+  "77": {
+    "tagPerson": ["Murray, R", "Philips, Richard"],
+    "tagDate": ["[1797-02-24T00:00:00.000Z TO 1797-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Oxford"]
+  },
+  "36": {
+    "tagPlace": ["County of Lincoln"],
+    "tagPerson": [
+      "Hamilton, Robert",
+      "Murray, Rob",
+      "Dickson, William",
+      "Carver, William",
+      "Hoff, William"
+    ],
+    "tagDate": ["[1796-10-18T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"]
+  },
+  "95": {
+    "tagPlace": ["Township of Pelham"],
+    "tagDate": ["[1796-01-01T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"]
+  },
+  "177": {
+    "tagPerson": [
+      "McFerron, William",
+      "Hamilton, Robert",
+      "Murray, Rob",
+      "Muirhead, John"
+    ],
+    "tagDate": ["[1796-01-02T23:59:59.999Z TO 1797-01-01T00:00:00.000Z]"],
+    "tagPlace": ["Home District of Upper Canada", "Queenstown"]
+  },
+  "325": {
+    "tagDate": ["[1792-10-31T23:59:59.999Z TO 1794-04-27T00:00:00.000Z]"],
+    "tagPerson": [
+      "A, Thomas",
+      "Clearwater, John",
+      "W, Andrew",
+      "McKilliss, Daniel",
+      "Ramsey, Henry"
+    ]
+  },
+  "60": {
+    "tagPlace": ["Oxford"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPerson": ["Lampman, Abram"]
+  },
+  "124": {
+    "tagPerson": ["Prince, John"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPlace": ["Southwold"]
+  },
+  "236": {
+    "tagPerson": ["Bedford, Paul"],
+    "tagDate": ["1802-01-01T00:00:00.000Z"]
+  },
+  "272": {
+    "tagDate": ["[1792-01-12T23:59:59.999Z TO 1792-08-31T00:00:00.000Z]"],
+    "tagPerson": [
+      "McKillip, Daniel",
+      "Dugan, Wm",
+      "Willcocks, Elisha",
+      "Tardo, John",
+      "Dolton, John",
+      "Willcocks, Elijah"
+    ],
+    "tagPlace": ["Lake Erie", "New Settlement"]
+  },
+  "66": {
+    "tagPlace": ["Home District of Upper Canada", "Queenstown"],
+    "tagPerson": [
+      "Lymburner, Alexander",
+      "Hamilton, Robert",
+      "Hamilton, Wm, K",
+      "Murray, Rob",
+      "Lymburner, Mathew"
+    ],
+    "tagDate": ["1797-12-29T00:00:00.000Z"]
+  },
+  "424": {
+    "tagDate": ["[1791-07-28T00:00:00.000Z TO 1792-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hall, Thomas",
+      "Williams, Peter",
+      "Windall, Joseph",
+      "L, Leonard",
+      "Harper, William",
+      "Topp, John",
+      "Empson, James"
+    ],
+    "tagPlace": ["Detroit"]
+  },
+  "350": {
+    "tagPerson": [
+      "Clearwater, John",
+      "Cornwall, Joshua",
+      "Robertson, Prince",
+      "C, James",
+      "Cornwall, John",
+      "Cornwall, Wheeler",
+      "Robertson, James",
+      "French, John"
+    ],
+    "tagDate": ["[1792-10-22T23:59:59.999Z TO 1793-01-08T00:00:00.000Z]"],
+    "tagPlace": ["Lake Erie", "Detroit"]
+  },
+  "329": {
+    "tagPlace": ["Murray"],
+    "tagDate": ["1801-06-09T00:00:00.000Z"],
+    "tagPerson": ["D, Samuel", "Merriam, John", "Bleujker, John"]
+  },
+  "493": {
+    "tagPlace": ["Queenstown"],
+    "tagPerson": ["Johnston, William", "Phelps, Elijah", "Clark, Thomas"],
+    "tagDate": ["1797-03-06T00:00:00.000Z"]
+  },
+  "84": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Harkaman, David", "Hamilton, Robert"],
+    "tagPlace": ["Queenstown", "Oxford", "Home District of Upper Canada"]
+  },
+  "396": {
+    "tagDate": ["[1791-08-27T23:59:59.999Z TO 1792-02-28T00:00:00.000Z]"],
+    "tagPerson": [
+      "Stockwell, John",
+      "McNiff, P",
+      "M, Daniel",
+      "Clearwater, John"
+    ],
+    "tagPlace": ["Detroit", "Lake Erie"]
+  },
+  "505": {
+    "tagDate": ["1816-07-03T00:00:00.000Z"],
+    "tagPerson": ["Smith, John"]
+  },
+  "348": {
+    "tagPerson": [
+      "Rob, Black",
+      "Clearwater, John",
+      "Willcox, Ellisha",
+      "Willcocks, Elisha",
+      "Dugan, Wm",
+      "Cornwall, Josh",
+      "Ramsey, Henry",
+      "Robertson, James",
+      "Willcocks, Morris"
+    ],
+    "tagDate": ["[1791-11-21T23:59:59.999Z TO 1792-07-26T00:00:00.000Z]"],
+    "tagPlace": ["Lake Erie", "Detroit"]
+  },
+  "477": {
+    "tagPlace": ["York", "Yonge Street"],
+    "tagPerson": ["Bond, William", "Willson, John", "Willso, Will"],
+    "tagDate": ["[1797-04-04T23:59:59.999Z TO 1801-09-14T00:00:00.000Z]"]
+  },
+  "52": {
+    "tagPerson": [
+      "Haines",
+      "Heens, Adam",
+      "W, Adam",
+      "Muirhead, John",
+      "Murray, Rob",
+      "Dickson, William",
+      "Hamilton, Robert"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPlace": ["County of Lincoln"]
+  },
+  "412": {
+    "tagPerson": ["Walker, Isaac", "M, Joseph", "Smith, W"],
+    "tagDate": ["1797-06-02T00:00:00.000Z"],
+    "tagPlace": ["Townsend"]
+  },
+  "155": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Muirhead, John",
+      "Hamilton, Robert",
+      "Jongue, William",
+      "Murray, Rob",
+      "Dickson, William"
+    ],
+    "tagPlace": ["Township of Townsend", "Queenstown"]
+  },
+  "341": {
+    "tagPlace": ["River La Tranche"],
+    "tagPerson": [
+      "Smith, Thomas",
+      "Springfield, Josh",
+      "William, Thomas",
+      "Shaw, William",
+      "Parsons, Thomas",
+      "Peck, John",
+      "Parke, Abiah",
+      "McKingan, David"
+    ],
+    "tagDate": ["1792-08-20T00:00:00.000Z"]
+  },
+  "287": {
+    "tagDate": ["[1800-12-02T00:00:00.000Z TO 1803-02-12T23:59:59.999Z]"],
+    "tagPerson": ["H, Truman", "Farnam, John", "Hall, Isaiah"],
+    "tagPlace": ["Town of Barton", "Township of Haldimand", "Bastard"]
+  },
+  "420": { "tagDate": ["1791-01-01T00:00:00.000Z"] },
+  "401": {
+    "tagPlace": ["Mathews Burg"],
+    "tagDate": ["[1793-12-20T23:59:59.999Z TO 1891-06-18T00:00:00.000Z]"],
+    "tagPerson": [
+      "Simpson, James",
+      "Topp, John",
+      "Corwall, Francis",
+      "W, Joseph",
+      "Gorden, John"
+    ]
+  },
+  "14": {
+    "tagPlace": ["Thames Township", "Upper Canada", "Oxford Township"],
+    "tagDate": ["[1796-01-01T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"]
+  },
+  "468": {
+    "tagPlace": ["Township of Hamilton"],
+    "tagPerson": ["Burnham, Asa", "Hall, Isaiah"],
+    "tagDate": ["[1802-03-12T00:00:00.000Z TO 1802-07-25T23:59:59.999Z]"]
+  },
+  "26": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "R, Robt",
+      "Mark",
+      "Dapey, John"
+    ],
+    "tagPlace": ["Oxford"]
+  },
+  "317": {
+    "tagDate": ["[1801-07-03T00:00:00.000Z TO 1803-09-08T23:59:59.999Z]"],
+    "tagPerson": [
+      "Huffman, Christopher",
+      "Brasley, Richard",
+      "Johnson, Thomas",
+      "Ferguson, R"
+    ],
+    "tagPlace": ["Vaughan", "York", "Yonge"]
+  },
+  "225": {
+    "tagPerson": ["Bedford, Robert", "Ashworth, Thomas", "Ramsey, Henry"],
+    "tagDate": ["1791-08-24T00:00:00.000Z"]
+  },
+  "372": {
+    "tagPlace": ["Yonge"],
+    "tagDate": ["1801-03-11T00:00:00.000Z"],
+    "tagPerson": ["Graham, Wm", "Sillick, Charles"]
+  },
+  "433": {
+    "tagDate": ["[1798-12-31T23:59:59.999Z TO 1799-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Anker, Charles",
+      "Millard, Beulah",
+      "Maskin, Peter",
+      "Huntley, Bethuel",
+      "Alger, Elisha",
+      "Brandywine, Christiau",
+      "Mathews, James",
+      "Lofridge, Wm",
+      "Ellice, John",
+      "Crips, Aaron",
+      "Bowman, Jacob",
+      "Haines, Joseph, Sr",
+      "Lundy, Wm",
+      "Bowman, Geo, Adam",
+      "Millar, Jacob",
+      "Bassey, Robert",
+      "Bradt, Adrian",
+      "Bender, Philip",
+      "Dennis, Ezekiel",
+      "Day, John",
+      "Jarvis, Wm",
+      "Boughner, Mathias",
+      "Harris, Bolters",
+      "Johnston, John",
+      "Dennis, Lou, Robert",
+      "House, James",
+      "Ferguson, Israel, Lt",
+      "Knapp, Banjamin"
+    ]
+  },
+  "336": {
+    "tagPlace": ["Town of Hamilton"],
+    "tagPerson": [
+      "Ramsey, Henry",
+      "Whittle, Rich",
+      "Ashworth, Thomas",
+      "Nevill, Edward",
+      "Hall, Zest, Isaiah",
+      "Smith, D, W",
+      "Harper, Wm"
+    ],
+    "tagDate": ["[1792-01-04T00:00:00.000Z TO 1801-04-18T23:59:59.999Z]"]
+  },
+  "408": {
+    "tagPerson": [
+      "Williams, Peter",
+      "Windall, Joseph",
+      "Empson, James",
+      "Topp, John"
+    ],
+    "tagDate": ["[1792-06-07T23:59:59.999Z TO 1792-11-24T00:00:00.000Z]"],
+    "tagPlace": ["New Settlement"]
+  },
+  "296": {
+    "tagPerson": [
+      "Marsh, Samuel",
+      "Nelly, James",
+      "More, Patrick",
+      "McCool, Joseph",
+      "Overshaull, Jacob",
+      "Quart, Jacob",
+      "Parker, Samuel",
+      "Peck, W, H",
+      "Olis, Elijah",
+      "Nickeson, E",
+      "Michel, Nathan",
+      "Mougoe, Wm",
+      "McKeype, Dau",
+      "Robertson, James",
+      "Mitchell, Jeshiah",
+      "Marsh, Benjamin",
+      "Richmond, Sylvester",
+      "Nelly, Samuel",
+      "Philops, Joseph",
+      "Peck, John",
+      "McCrea, Thomas",
+      "Pratt, Ebenezer",
+      "Palmer, George",
+      "Peke, John",
+      "Richmond, Ichabod",
+      "Ramsay, Henry",
+      "Morris, Matthew",
+      "Parsons, Thomas",
+      "Merriam, John",
+      "Nevill, Edward",
+      "McKillop, Daniel",
+      "Nugent, John"
+    ],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"]
+  },
+  "248": {
+    "tagDate": ["[1791-10-24T00:00:00.000Z TO 1792-10-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "Cornwall, Francis",
+      "Sherman, Lemuel",
+      "Cameron, John",
+      "Cornwall, John",
+      "Robertson, Dorine"
+    ],
+    "tagPlace": ["Mathewsburgh"]
+  },
+  "101": {
+    "tagPerson": ["Durham, John"],
+    "tagDate": ["1795-01-01T00:00:00.000Z"]
+  },
+  "250": {
+    "tagDate": ["1799-05-02T00:00:00.000Z"],
+    "tagPerson": ["Frazer, Daniel", "Carr, David"],
+    "tagPlace": ["Ernest Town"]
+  },
+  "44": {
+    "tagPlace": ["County of Lincoln"],
+    "tagDate": ["[1796-10-18T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hoff, William",
+      "Hamilton, Robert",
+      "Dickson, William",
+      "Murray, Rob"
+    ]
+  },
+  "229": {
+    "tagPerson": [
+      "Ramsey, Henry",
+      "Mungen, William",
+      "Cornwall, John",
+      "Ashworth, Thomas"
+    ],
+    "tagDate": ["[1792-12-31T23:59:59.999Z TO 1793-01-01T00:00:00.000Z]"]
+  },
+  "254": {
+    "tagPerson": [
+      "Chisholm, Alexander",
+      "Phillips, Joseph",
+      "Irish, Robinson",
+      "Dowling, John",
+      "Brown, John",
+      "McSpencer"
+    ],
+    "tagDate": ["1806-01-14T00:00:00.000Z"],
+    "tagPlace": ["Township of Haldimand"]
+  },
+  "161": {
+    "tagPlace": [
+      "Town of York",
+      "Yonge",
+      "Home District of Upper Canada",
+      "Rainham"
+    ],
+    "tagDate": ["1797-06-08T00:00:00.000Z"],
+    "tagPerson": [
+      "Ridout, Tho",
+      "Holloway, John",
+      "Walker, Abraham",
+      "Harris, M"
+    ]
+  },
+  "108": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 0000-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Murray, Rob", "Bryan, John", "Muirhead, John"],
+    "tagPlace": ["Queenstown"]
+  },
+  "241": {
+    "tagPlace": ["Township of Walsingham", "Township of Haldimand", "York"],
+    "tagDate": ["[1802-02-21T23:59:59.999Z TO 1802-05-08T00:00:00.000Z]"],
+    "tagPerson": [
+      "Allan, William",
+      "Brown, Samuel",
+      "Hall, Isaiah",
+      "Lodor, Job",
+      "Brown, John"
+    ]
+  },
+  "133": {
+    "tagPlace": ["Home District"],
+    "tagPerson": ["Smith, D, W", "Oustrander, John"],
+    "tagDate": ["1794-08-14T00:00:00.000Z"]
+  },
+  "387": {
+    "tagPlace": ["Town of Hambleton", "River Trench", "York"],
+    "tagDate": ["[1796-04-10T00:00:00.000Z TO 1801-04-18T23:59:59.999Z]"],
+    "tagPerson": [
+      "Marsh, William",
+      "Stancliff, Stanborough, G",
+      "Smith, D, W",
+      "Hall, Zest, Isaiah",
+      "Springfield, Joseph",
+      "T, Leonard",
+      "Gibson, Matthew",
+      "Williams, Thomas"
+    ]
+  },
+  "406": {
+    "tagDate": ["[1793-02-13T23:59:59.999Z TO 1793-08-26T00:00:00.000Z]"],
+    "tagPerson": [
+      "Whittle, Richard",
+      "Topp, John",
+      "Clearwater, John",
+      "Windall, Jos ",
+      "McLaughlin, Edwd",
+      "Roberts, Prince"
+    ],
+    "tagPlace": ["New Settlement Lake Erie"]
+  },
+  "338": {
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1803-04-12T00:00:00.000Z]"],
+    "tagPerson": [
+      "Smith, D, V",
+      "B, Isaac",
+      "Elijah",
+      "Nugent, John",
+      "Chrisholm, Alex",
+      "C, Thomson"
+    ],
+    "tagPlace": ["Township of Hamilton"]
+  },
+  "185": {
+    "tagPerson": [
+      "McNabb, John",
+      "Young, Henry",
+      "Robert",
+      "Smith, D, W",
+      "Hamilton, R"
+    ],
+    "tagDate": ["[1789-02-17T00:00:00.000Z TO 1795-08-10T23:59:59.999Z]"],
+    "tagPlace": [
+      "Newark",
+      "Quebec",
+      "District of Home in the Province of Upper Canada",
+      "Wainfleet"
+    ]
+  },
+  "502": {
+    "tagDate": ["1789-03-23T00:00:00.000Z"],
+    "tagPerson": ["Harvey, Allex", "Robertson, William"],
+    "tagPlace": ["Barnet", "State of Vermont Orange"]
+  },
+  "489": {
+    "tagDate": ["1796-05-21T00:00:00.000Z"],
+    "tagPerson": ["Kerr, Robert", "Fleming, James"]
+  },
+  "384": {
+    "tagDate": ["[1792-10-27T23:59:59.999Z TO 1794-04-07T00:00:00.000Z]"],
+    "tagPerson": ["Smith, Thomas", "Donaldson, James", "Welch, John"],
+    "tagPlace": ["River La Tranche", "Detroit"]
+  },
+  "303": {
+    "tagDate": ["[1792-05-31T23:59:59.999Z TO 1792-07-23T00:00:00.000Z]"],
+    "tagPerson": [
+      "McKellogh, Daniel",
+      "Jones, Thomas",
+      "Thomas, Hall",
+      "S, John",
+      "Kind, Thomas",
+      "Ashworth, Thomas",
+      "Hall, Thomas",
+      "Windall, Joseph"
+    ]
+  },
+  "363": {
+    "tagPlace": ["Detroit"],
+    "tagDate": ["[1792-06-12T00:00:00.000Z TO 1793-03-25T23:59:59.999Z]"],
+    "tagPerson": [
+      "Smith, John",
+      "W, Wendel",
+      "Lockhart, Wm",
+      "Hugh, James",
+      "Rudhart, George, Jacob",
+      "Nevill, Edwd"
+    ]
+  },
+  "279": {
+    "tagDate": ["[1793-01-24T23:59:59.999Z TO 1793-06-03T00:00:00.000Z]"],
+    "tagPerson": [
+      "Dugan, William",
+      "K, John",
+      "Chisholm, Alex ",
+      "E, Richard",
+      "Dun, John",
+      "Field, Daniel"
+    ],
+    "tagPlace": ["Township South Side of River La Tranch"]
+  },
+  "466": {
+    "tagPlace": ["Cramahe", "Haldimand"],
+    "tagDate": ["1801-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hall, Isaiah"]
+  },
+  "331": {
+    "tagDate": ["[1792-04-27T23:59:59.999Z TO 1793-01-01T00:00:00.000Z]"],
+    "tagPerson": [
+      "Monger, William",
+      "Ashworth, Thomas",
+      "Pardo, John",
+      "Lockhart, William",
+      "Ramsey, Henry",
+      "Johnson, Robert"
+    ]
+  },
+  "152": {
+    "tagPerson": ["Hewitt, Jn", "Garner, G"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1799-04-12T00:00:00.000Z]"]
+  },
+  "415": {
+    "tagDate": ["[1792-11-17T23:59:59.999Z TO 1793-03-22T00:00:00.000Z]"],
+    "tagPerson": ["Wright, Henry", "Willcocks, Elijah", "Cornwall, John"],
+    "tagPlace": ["Detroit", "New Settlement Lake Erie"]
+  },
+  "310": {
+    "tagDate": ["1792-01-01T00:00:00.000Z"],
+    "tagPerson": ["Harper, William", "McLarins, John"]
+  },
+  "189": {
+    "tagPerson": ["Hamilton, Robert", "Murray, Rob", "Donaldson, John"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"]
+  },
+  "322": {
+    "tagDate": ["1800-12-03T00:00:00.000Z"],
+    "tagPerson": [
+      "R, Reuben",
+      "Hiuk, Truman",
+      "McCool, Wm",
+      "McColum, Benedict"
+    ],
+    "tagPlace": ["Bastard"]
+  },
+  "106": {
+    "tagPerson": ["Hubar, David"],
+    "tagDate": ["1795-01-01T00:00:00.000Z"]
+  },
+  "485": {
+    "tagPerson": [
+      "Anderson, Robert",
+      "Merry, Ebenezer, Capt ",
+      "P, Justin",
+      "Beach, Moses",
+      "Leading, John",
+      "Wadsworth, Gad",
+      "Smith, J"
+    ],
+    "tagDate": ["1796-09-16T00:00:00.000Z"],
+    "tagPlace": ["County of Ontario", "Hartford"]
+  },
+  "98": {
+    "tagPerson": ["Durham, John", "Murray, Rob", "Muirhead, John"],
+    "tagDate": ["[1796-11-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPlace": ["Queenstown", "County of Lincoln"]
+  },
+  "115": {
+    "tagPlace": ["Rainham"],
+    "tagDate": ["1796-06-10T00:00:00.000Z"],
+    "tagPerson": ["Stoffle, Henry", "Smith, D, W"]
+  },
+  "49": {
+    "tagPlace": ["Oxford"],
+    "tagDate": ["[1797-08-16T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"],
+    "tagPerson": ["Murray, R", "Howell, John"]
+  },
+  "275": {
+    "tagDate": ["[1794-04-02T23:59:59.999Z TO 1801-01-01T00:00:00.000Z]"],
+    "tagPerson": ["Smith, Thomas", "Donaldson, James"],
+    "tagPlace": ["North Side of the River La Tranch", "County of Kent"]
+  },
+  "419": {
+    "tagDate": ["[1791-04-22T23:59:59.999Z TO 1791-06-22T00:00:00.000Z]"],
+    "tagPerson": [
+      "Ashworth, Thomas",
+      "Wilcox, James",
+      "Willcocks, Elijah, Senior",
+      "B, Robert",
+      "Ramsey, Henry"
+    ],
+    "tagPlace": ["New Settlement", "Detroit River"]
+  },
+  "298": {
+    "tagDate": ["[1801-04-10T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPerson": ["G, David", "Keeler", "Gifford, Nathaniel"]
+  },
+  "314": {
+    "tagDate": ["[1801-09-11T00:00:00.000Z TO 1803-02-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dexter, John",
+      "Hollingshead, William",
+      "Hoyer, Alexander",
+      "Eyer, John"
+    ],
+    "tagPlace": ["Oxford", "Yonge Street"]
+  },
+  "246": {
+    "tagPlace": ["Detroit River"],
+    "tagPerson": [
+      "Mansell, T",
+      "Cameron, John",
+      "Snider, John",
+      "Butler, Edwd"
+    ],
+    "tagDate": ["1791-04-15T00:00:00.000Z"]
+  },
+  "411": {
+    "tagPerson": ["Walker, Hugh", "Wait, Ruben", "Baldwin, Robt"],
+    "tagDate": ["[1801-06-30T00:00:00.000Z TO 1801-11-18T23:59:59.999Z]"],
+    "tagPlace": ["Township of Bastard", "Province of Upper Canada", "Lansdowne"]
+  },
+  "342": {
+    "tagPlace": ["River La Tranche", "Township Hope", "River Thames"],
+    "tagDate": ["[1797-06-21T23:59:59.999Z TO 1972-09-25T00:00:00.000Z]"],
+    "tagPerson": [
+      "Lushell, Robert",
+      "S, Robert",
+      "Peck, Wm, H",
+      "Holmes, Hugh",
+      "Walton, J",
+      "Shaw, William",
+      "Smith, L",
+      "Parke, Abiah",
+      "Walton, Abrm",
+      "Peck, John"
+    ]
+  },
+  "335": {
+    "tagPlace": ["Detroit"],
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1793-08-29T23:59:59.999Z]"],
+    "tagPerson": [
+      "Neville, James",
+      "Neville, George",
+      "Neville, Mary",
+      "OBrien, Edward",
+      "Cornwall, Richard",
+      "Nevill, Edward",
+      "Neville, Catherine"
+    ]
+  },
+  "188": {
+    "tagPlace": [
+      "Stamford",
+      "Queenstown",
+      "Township of Wainfleet",
+      "Home District of Upper Canada"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1796-06-20T23:59:59.999Z]"],
+    "tagPerson": ["Donaldson, John", "Hamilton, Robert"]
+  },
+  "253": {
+    "tagPlace": ["Township of Haldimand"],
+    "tagDate": ["1806-01-14T00:00:00.000Z"],
+    "tagPerson": [
+      "Brown, John",
+      "Phillips, Joseph",
+      "Chisholm, Alexander",
+      "Irish, Robinson",
+      "Dowling, John"
+    ]
+  },
+  "307": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1791-06-02T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dutton, John",
+      "Nevill, Edward",
+      "Flannery, Patrick",
+      "Harper, William",
+      "T, John"
+    ]
+  },
+  "134": {
+    "tagDate": ["1794-01-01T00:00:00.000Z"],
+    "tagPerson": ["Oustrander, John"]
+  },
+  "367": {
+    "tagPerson": [
+      "Crack, Linerth",
+      "Crack, Lenard",
+      "Lockhart, William",
+      "Emrich, John",
+      "Windall, Joseph",
+      "Williams, Peter"
+    ],
+    "tagDate": ["[1792-09-29T00:00:00.000Z TO 1793-03-28T23:59:59.999Z]"]
+  },
+  "226": {
+    "tagDate": ["[1791-06-21T00:00:00.000Z TO 1791-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Ramsey, Henry",
+      "Ashworth, Thomas",
+      "Cornwall, John",
+      "Cameron, John"
+    ],
+    "tagPlace": ["Detroit"]
+  },
+  "130": {
+    "tagDate": ["1795-12-19T00:00:00.000Z"],
+    "tagPerson": [
+      "Muirhead, John",
+      "Hamilton, Robert",
+      "Murray, Rob",
+      "Oustrander, John"
+    ],
+    "tagPlace": ["Queenstown"]
+  },
+  "21": {
+    "tagPlace": ["Oxford"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bennet, James"]
+  },
+  "299": {
+    "tagPlace": [
+      "Township of Haldimand",
+      "Murry",
+      "Township of Hamilton",
+      "Cramahe"
+    ],
+    "tagDate": ["[1801-03-05T23:59:59.999Z TO 1803-10-14T00:00:00.000Z]"],
+    "tagPerson": [
+      "Grout, Ferdinand",
+      "Gifford, Samuel",
+      "Chisholm, Alexr",
+      "Grover, John",
+      "Hall, Isaiah"
+    ]
+  },
+  "181": {
+    "tagPerson": ["McPherson, Wm"],
+    "tagDate": ["1795-01-01T00:00:00.000Z"],
+    "tagPlace": ["Wainfleet"]
+  },
+  "418": {
+    "tagPerson": ["Ramsey, Henry", "Willcocks, Elijah", "Ashworth, Thomas"],
+    "tagDate": ["[1791-07-20T23:59:59.999Z TO 1791-08-23T00:00:00.000Z]"],
+    "tagPlace": ["New Settlement"]
+  },
+  "339": {
+    "tagPerson": [
+      "Ferguson, Jacob",
+      "Palmer, Samuel",
+      "Seacord, Isaac",
+      "Doherty, Matthew",
+      "Palmer, George",
+      "Kuler, Joseph",
+      "Parsons, Thomas",
+      "Dugan, Wm"
+    ],
+    "tagDate": ["[1793-08-02T23:59:59.999Z TO 1803-06-30T00:00:00.000Z]"],
+    "tagPlace": ["Cramahe", "York", "River La Tranche", "Hamilton"]
+  },
+  "434": {
+    "tagDate": ["[1796-01-01T00:00:00.000Z TO 1797-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Slake, James",
+      "Reid, George",
+      "Nevill, James",
+      "Sonich, John",
+      "Tubbs, Fred",
+      "Richman, Cyrus",
+      "Secord, Stephen",
+      "Petril, Joseph",
+      "Weaver, Peter",
+      "Rew, Wm"
+    ]
+  },
+  "28": {
+    "tagPerson": ["Campbell, George", "Murray, Rob", "Hamilton, Robert"],
+    "tagDate": ["1796-10-18T00:00:00.000Z"]
+  },
+  "111": {
+    "tagDate": ["1795-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bryan, John"]
+  },
+  "488": {
+    "tagPerson": [
+      "Casper, Joseph",
+      "Terry, Panhale",
+      "Chewt, Mathias",
+      "Builder, Assa",
+      "Baker, Wm"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1796-05-29T00:00:00.000Z]"],
+    "tagPlace": ["Detroit"]
+  },
+  "271": {
+    "tagPerson": [
+      "Dolson",
+      "Smith",
+      "Willcox, Elisher",
+      "Dolton, John",
+      "Top, John",
+      "M, Peter",
+      "Claine, John, W",
+      "Whittle, Richard"
+    ],
+    "tagDate": ["[1791-09-25T00:00:00.000Z TO 1791-10-23T23:59:59.999Z]"]
+  },
+  "278": { "tagDate": ["1797-01-01T00:00:00.000Z"] },
+  "53": {
+    "tagPerson": ["Haines, Ad"],
+    "tagDate": ["1797-01-01T00:00:00.000Z"],
+    "tagPlace": ["Oxford"]
+  },
+  "295": {
+    "tagPerson": [
+      "Harper, Wm",
+      "Kelly, Wm",
+      "Gefford, Humphrey",
+      "Hollingshead, Wm",
+      "Grover, John",
+      "Huffman, Christopher",
+      "Hall, Samuel",
+      "Herus, Josiah",
+      "Johnson, Thomas",
+      "Gerris, David",
+      "Haverell, Henry",
+      "Lamb, Jesse",
+      "Laughlin, Daniel",
+      "Grout, Ferdinand",
+      "Hinman, Thomas",
+      "Kelly, John",
+      "Kenmin, Moses",
+      "Gafford, Nathaniel",
+      "Gefford, Samuel",
+      "Kerts, Michael",
+      "Jones, James",
+      "Hubbard, Thomas",
+      "Hinman, Theron",
+      "McCool, Wm",
+      "McClary, James",
+      "Hoyes, Alex",
+      "Hall, Thomas",
+      "Hamilton, Andrew",
+      "McCollum, Benedict",
+      "Hudson, John"
+    ],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1803-01-01T00:00:00.000Z]"]
+  },
+  "416": {
+    "tagPlace": ["Detroit River", "New Settlement"],
+    "tagPerson": [
+      "Ashworth, Thomas",
+      "Willcocks, Morres",
+      "Snider, John",
+      "Ramsey, Henry",
+      "Willcocks, Elijah"
+    ],
+    "tagDate": ["[1791-04-15T23:59:59.999Z TO 1791-05-27T00:00:00.000Z]"]
+  },
+  "90": {
+    "tagPlace": ["Oxford"],
+    "tagDate": ["1798-01-17T00:00:00.000Z"],
+    "tagPerson": ["Millard, Thomas", "Murray, R"]
+  },
+  "465": {
+    "tagPlace": ["York", "Township of Bastard", "Town of Haldimand"],
+    "tagPerson": ["Chisholm, Alex", "Hall, Isaiah", "S, Abel"],
+    "tagDate": ["[1801-04-21T23:59:59.999Z TO 1802-06-17T00:00:00.000Z]"]
+  },
+  "249": {
+    "tagPerson": [
+      "Cornwall, John",
+      "Cameron, John",
+      "Curtis, Thomas",
+      "Camoran, Donald"
+    ],
+    "tagDate": ["[1792-07-25T00:00:00.000Z TO 1793-04-28T23:59:59.999Z]"],
+    "tagPlace": ["New Settlement"]
+  },
+  "42": {
+    "tagPerson": ["Clark, Jean", "H, George"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPlace": ["Oxford"]
+  },
+  "65": {
+    "tagDate": ["[1797-11-16T00:00:00.000Z TO 1797-12-31T23:59:59.999Z]"],
+    "tagPerson": ["McDonell, P", "Lymburner, J"],
+    "tagPlace": ["Oxford"]
+  },
+  "169": {
+    "tagPlace": [
+      "York",
+      "Township of Vaughan",
+      "Township of Markham Home District of the Province of Upper Canada"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1798-03-20T00:00:00.000Z]"],
+    "tagPerson": ["Walker, Abraham", "Holloway, John", "Miles, Abner", "Miller"]
+  },
+  "228": {
+    "tagDate": ["[1792-05-29T23:59:59.999Z TO 1794-04-27T00:00:00.000Z]"],
+    "tagPerson": [
+      "M, David",
+      "Ramsey, Henry",
+      "M, William",
+      "Claine, John",
+      "Ashworth, Thomas"
+    ]
+  },
+  "313": {
+    "tagPlace": ["Yonge Street", "Township of Haldimand"],
+    "tagPerson": [
+      "Hall, Isaiah",
+      "Hinman, Thomas",
+      "H, Edward",
+      "H, John",
+      "Shaw, Hugh",
+      "H, Elijah"
+    ],
+    "tagDate": ["[1801-08-21T00:00:00.000Z TO 1801-09-19T23:59:59.999Z]"]
+  },
+  "109": {
+    "tagPlace": ["Pelham"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPerson": ["Bryan, John", "Murray, R"]
+  },
+  "437": {
+    "tagPerson": [
+      "Powell, John",
+      "Nevill, James",
+      "P, Joseph",
+      "T, William",
+      "Reilly, John"
+    ],
+    "tagDate": ["[1795-08-19T00:00:00.000Z TO 1796-05-12T23:59:59.999Z]"],
+    "tagPlace": ["Newark", "Stamford"]
+  },
+  "186": {
+    "tagPlace": ["Newark"],
+    "tagPerson": ["Hamilton, R", "Young, Henry", "Robert", "McNabb, John"],
+    "tagDate": ["[1787-06-02T23:59:59.999Z TO 1789-02-17T00:00:00.000Z]"]
+  },
+  "405": {
+    "tagPlace": ["Cedar Creek"],
+    "tagDate": ["[1793-03-21T23:59:59.999Z TO 1793-05-15T00:00:00.000Z]"],
+    "tagPerson": [
+      "Topp, John",
+      "Clearwater, John",
+      "Rubb, James",
+      "Lee, William",
+      "Windall, Jos "
+    ]
+  },
+  "245": {
+    "tagPerson": [
+      "Butler, Edward",
+      "Empson, James",
+      "Virgina, Louis",
+      "Obrien, Edward",
+      "Dugan, Wm",
+      "Windall, Joseph",
+      "Molot, Peter",
+      "Williams, Peter",
+      "Nevill, Edward",
+      "Whittle, Richard"
+    ],
+    "tagDate": ["[1792-04-03T00:00:00.000Z TO 1792-07-25T23:59:59.999Z]"],
+    "tagPlace": ["New Settlement", "Detroit"]
+  },
+  "300": {
+    "tagPlace": ["Detroit"],
+    "tagPerson": [
+      "Weston, Saml",
+      "Smith, Lieut ",
+      "Harper, Wm",
+      "Windall, Joseph",
+      "Hall, Thomas",
+      "Whittle, Richard"
+    ],
+    "tagDate": ["[1791-06-22T00:00:00.000Z TO 1791-07-24T23:59:59.999Z]"]
+  },
+  "232": {
+    "tagDate": ["1802-02-09T00:00:00.000Z"],
+    "tagPerson": ["Averill, Ebenezer", "McCall, John"]
+  },
+  "469": {
+    "tagPlace": ["Township of Hope", "York", "Township of Hamilton"],
+    "tagDate": ["[1802-03-12T00:00:00.000Z TO 1803-11-12T23:59:59.999Z]"],
+    "tagPerson": ["Hall, Isaiah", "M, Benjn"]
+  },
+  "364": {
+    "tagPlace": ["Yonge", "River La Tranche"],
+    "tagPerson": [
+      "Johnson, Asa",
+      "Scott, William",
+      "Serth, Jonathan",
+      "Johnson, John",
+      "Boyle, William",
+      "Willson, John",
+      "Quant, Jacob",
+      "Small, J"
+    ],
+    "tagDate": ["[1792-09-17T23:59:59.999Z TO 1798-11-15T00:00:00.000Z]"]
+  },
+  "276": {
+    "tagDate": ["1801-02-26T00:00:00.000Z"],
+    "tagPerson": ["Dowling, John", "Hall, Isaiah"],
+    "tagPlace": ["Cramahe"]
+  },
+  "116": {
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPerson": ["Stoffle, Henry"],
+    "tagPlace": ["Rainham", "Norfolk"]
+  },
+  "165": {
+    "tagPerson": ["Walker, Abraham", "Holloway, John"],
+    "tagDate": ["1797-01-01T00:00:00.000Z"],
+    "tagPlace": ["Vaughan"]
+  },
+  "486": {
+    "tagPerson": [
+      "Van Winkle, John",
+      "Jones, Samuel",
+      "Mead, Henry",
+      "Ryerson, George, L",
+      "Reyes, John",
+      "Davis, R",
+      "Brown, John",
+      "D, John",
+      "Day, Philip"
+    ],
+    "tagDate": ["1789-05-08T00:00:00.000Z"],
+    "tagPlace": ["Harris County"]
+  },
+  "105": {
+    "tagDate": ["[1795-07-16T00:00:00.000Z TO 1795-07-20T23:59:59.999Z]"],
+    "tagPerson": ["Smith, D, W", "Hubar, David"],
+    "tagPlace": [
+      "Pennsylvania",
+      "Township of Pelham",
+      "Home District",
+      "Province of Upper Canada"
+    ]
+  },
+  "409": {
+    "tagPlace": ["Haldimand", "Township of Hamilton"],
+    "tagPerson": ["Wait, Isaac", "Wait, Benjamin", "Hall, Isaiah"],
+    "tagDate": ["[1801-05-11T23:59:59.999Z TO 1802-03-13T00:00:00.000Z]"]
+  },
+  "304": {
+    "tagDate": ["[1793-03-21T00:00:00.000Z TO 1794-04-09T23:59:59.999Z]"],
+    "tagPerson": [
+      "Hall, Thomas",
+      "Windall, Joseph",
+      "Roach, Maurie",
+      "Topp, John",
+      "Weina, L",
+      "Willcoks, Esa"
+    ]
+  },
+  "73": {
+    "tagPlace": ["Oxford"],
+    "tagPerson": ["Weaver, F"],
+    "tagDate": ["1799-01-01T00:00:00.000Z"]
+  },
+  "360": {
+    "tagPerson": [
+      "Gorden, John",
+      "Cornwall, Elisha",
+      "Bedford, Robert",
+      "Tracy, James",
+      "Cornwall, Francis",
+      "Rudheart, George, Jacob"
+    ],
+    "tagDate": ["[1791-08-25T23:59:59.999Z TO 1792-04-07T00:00:00.000Z]"],
+    "tagPlace": ["Mathews Burgh"]
+  },
+  "383": {
+    "tagPerson": ["Donaldson, Pats", "Smith, Thomas", "Welch, John"],
+    "tagDate": ["1792-12-24T00:00:00.000Z"],
+    "tagPlace": ["County of Kent", "River La Tranche"]
+  },
+  "475": {
+    "tagPlace": ["Yonge Street"],
+    "tagDate": ["1801-02-28T00:00:00.000Z"],
+    "tagPerson": ["Miller, Nicholas"]
+  },
+  "252": {
+    "tagPerson": [
+      "Simson, John",
+      "Bellamy, Gared",
+      "Goodyear, Edward",
+      "Lawson, Matthew",
+      "Chisholm, Alexander",
+      "Weller, Asa"
+    ],
+    "tagDate": ["1806-01-23T00:00:00.000Z"],
+    "tagPlace": ["Township of Murray"]
+  },
+  "507": {
+    "tagPlace": ["Ernest Town"],
+    "tagDate": ["1788-11-16T00:00:00.000Z"],
+    "tagPerson": ["Simmon, Henry", "Tuttle, Daniel"]
+  },
+  "343": {
+    "tagPlace": [
+      "Kitley",
+      "Detroit",
+      "Cramahe",
+      "Township of Haldimand",
+      "River La Tranche"
+    ],
+    "tagPerson": [
+      "Hall, Isaiah",
+      "P, Joseph",
+      "Pratt, Ebenezer",
+      "F, Daniel",
+      "H, Truman",
+      "Pike, John",
+      "Gibson, Matthew"
+    ],
+    "tagDate": ["[1807-05-13T00:00:00.000Z TO 1807-06-11T23:59:59.999Z]"]
+  },
+  "179": {
+    "tagPerson": ["Murray, R", "McFerron, Wm"],
+    "tagDate": ["[1795-12-31T23:59:59.999Z TO 1799-01-01T00:00:00.000Z]"]
+  },
+  "446": {
+    "tagPerson": ["Ferguson, J"],
+    "tagDate": ["[1791-01-01T00:00:00.000Z TO 1802-09-28T23:59:59.999Z]"],
+    "tagPlace": ["Kingston", "Bay Quinty", "Upper Canada"]
+  },
+  "498": {
+    "tagPerson": ["N, Jacob", "Clark, Thomas"],
+    "tagDate": ["1817-02-27T00:00:00.000Z"],
+    "tagPlace": ["Township of Humberstone", "York"]
+  },
+  "219": {
+    "tagPerson": [
+      "Edmund, Joseph",
+      "Dolson, Isaac",
+      "Dowling, John",
+      "Deen, Erastus",
+      "Cook, Ebenezer",
+      "Eyers, Ephraim",
+      "Darling, John",
+      "Empson, James",
+      "Dexter, John",
+      "Curtis, David",
+      "Cozens, Capt",
+      "Farman, A",
+      "Dexter, Elisha",
+      "Donaldson, James",
+      "Field, Daniel",
+      "Day, Richard",
+      "Farnam, John",
+      "Easton, Joseph",
+      "Erp, Richard",
+      "Flinch, Richard",
+      "Day, Wm",
+      "Farrington, Joseph",
+      "Dolton, John",
+      "Dodemead, John",
+      "Flinn, John",
+      "Desmon, Timothy",
+      "Dolsen, Matthew",
+      "Dun, John",
+      "James, Fisher",
+      "Dudley, Gideon, Wm"
+    ],
+    "tagDate": ["[1799-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"]
+  },
+  "491": {
+    "tagPlace": ["Matilda"],
+    "tagDate": ["[1783-12-31T23:59:59.999Z TO 1789-04-25T00:00:00.000Z]"],
+    "tagPerson": ["M, Mathias"]
+  },
+  "285": {
+    "tagPlace": ["New Settlement", "Lake Erie"],
+    "tagPerson": [
+      "Empson, James",
+      "Top, John",
+      "C, John",
+      "McLaughlin, Edw",
+      "W, Joseph",
+      "McKillip, Daniel",
+      "Little, James",
+      "Nevill, Edward"
+    ],
+    "tagDate": ["[1792-04-22T00:00:00.000Z TO 1792-05-26T23:59:59.999Z]"]
+  },
+  "75": {
+    "tagPerson": ["Ingersoll, Thomas"],
+    "tagDate": ["[1797-08-01T00:00:00.000Z TO 1797-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Oxford"]
+  },
+  "97": {
+    "tagPlace": ["Queenstown", "Home District of Upper Canada"],
+    "tagPerson": ["Durham, John", "Hamilton, Robert"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"]
+  },
+  "146": {
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1799-04-12T00:00:00.000Z]"],
+    "tagPerson": ["Boom, John"],
+    "tagPlace": ["Townsend"]
+  },
+  "479": {
+    "tagPerson": [
+      "Ruggles, James",
+      "Campbell, John",
+      "Boyle, Wm",
+      "Desmond, Timothy"
+    ],
+    "tagDate": ["[1798-03-14T23:59:59.999Z TO 1801-09-15T00:00:00.000Z]"],
+    "tagPlace": ["Yonge Street", "York"]
+  },
+  "374": {
+    "tagDate": ["1801-03-07T00:00:00.000Z"],
+    "tagPerson": ["Sillick, Charles"]
+  },
+  "327": {
+    "tagDate": ["[1791-09-30T00:00:00.000Z TO 1791-11-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "McKilliss, Daniel",
+      "Ramsey, Henry",
+      "Smith",
+      "Willcox, James",
+      "Clearwater, John"
+    ]
+  },
+  "266": {
+    "tagDate": ["1793-12-29T00:00:00.000Z"],
+    "tagPerson": [
+      "W, John",
+      "Dodemead, John",
+      "Smith, Thomas",
+      "William, Thomas",
+      "Peck, John",
+      "Parke, Abiah"
+    ],
+    "tagPlace": ["North Side River La Tranch"]
+  },
+  "175": {
+    "tagPlace": ["Township of Wainfleet"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"]
+  },
+  "457": {
+    "tagPlace": [
+      "Grantham Township",
+      "Lincoln County",
+      "Niagara",
+      "Province of Upper Canada"
+    ],
+    "tagPerson": [
+      "Bowman, George, Adam",
+      "Reilly, John",
+      "Bradt, Adrian",
+      "Bowman, Jacob",
+      "Dickson, William"
+    ],
+    "tagDate": ["[1789-01-01T00:00:00.000Z TO 1795-08-17T23:59:59.999Z]"]
+  },
+  "33": {
+    "tagDate": ["1796-08-08T00:00:00.000Z"],
+    "tagPerson": [
+      "Campbell, George",
+      "Clarke, Thomas",
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "Morney, A"
+    ]
+  },
+  "370": {
+    "tagDate": ["1800-12-23T00:00:00.000Z"],
+    "tagPerson": [
+      "Edmonds, David",
+      "Eaton, J",
+      "Shelden, Gideon",
+      "C, Jarius",
+      "Henry, Abel"
+    ],
+    "tagPlace": ["Township of Bastard", "York"]
+  },
+  "289": {
+    "tagPlace": ["Detroit", "Township South Side River La Tranch"],
+    "tagDate": ["[1793-03-25T00:00:00.000Z TO 1794-04-30T23:59:59.999Z]"],
+    "tagPerson": [
+      "Flinn, John",
+      "O, John",
+      "Forsyth, James",
+      "Park, Richard",
+      "Dolsen, Matthew",
+      "Gibson, Matthew",
+      "Chambers, William",
+      "Hamilton, Andrew",
+      "Field, Daniel"
+    ]
+  },
+  "454": {
+    "tagPerson": ["G, Natt"],
+    "tagDate": ["[1788-01-01T00:00:00.000Z TO 1796-09-25T23:59:59.999Z]"],
+    "tagPlace": ["Upper Canada"]
+  },
+  "320": {
+    "tagPlace": ["Township of Leeds", "Yonge Street"],
+    "tagDate": ["[1801-09-09T00:00:00.000Z TO 1803-06-13T23:59:59.999Z]"],
+    "tagPerson": [
+      "Lippincott, Richd",
+      "K, Michael",
+      "Hollinshead, Wm",
+      "Lamb, Jesse"
+    ]
+  },
+  "359": {
+    "tagDate": ["[1792-01-01T00:00:00.000Z TO 1792-07-23T23:59:59.999Z]"],
+    "tagPerson": ["Rudhart, Geo, Jac", "Smith", "Nevill, Edward", "F, Charles"]
+  },
+  "312": {
+    "tagPerson": [
+      "Hinman, Theron",
+      "Bradshaw, James",
+      "Herns, Josiah",
+      "Markland, Thomas",
+      "Hall, Isaiah",
+      "Brownson, Samuel, Junr"
+    ],
+    "tagDate": ["[1798-10-09T00:00:00.000Z TO 1801-04-21T23:59:59.999Z]"],
+    "tagPlace": ["Midland District", "Haldimand", "Fredericksburgh"]
+  },
+  "441": {
+    "tagPlace": ["Township of Kingston", "Province of Upper Canada"],
+    "tagPerson": [
+      "Kerby, John",
+      "Johnston, John",
+      "Knapp, Benjamin",
+      "Cummings, John",
+      "Lundy, Micajah",
+      "Secord, David"
+    ],
+    "tagDate": ["[1796-01-01T00:00:00.000Z TO 1796-05-13T23:59:59.999Z]"]
+  },
+  "377": {
+    "tagDate": ["1801-05-25T00:00:00.000Z"],
+    "tagPerson": ["Chrisholm, Alexr", "Simpson, Obediah"],
+    "tagPlace": ["Cramahe"]
+  },
+  "448": {
+    "tagPlace": ["Hallowell"],
+    "tagDate": ["[1786-01-01T00:00:00.000Z TO 1796-11-29T23:59:59.999Z]"],
+    "tagPerson": [
+      "S, Isaac",
+      "Nelles, Rob",
+      "Cooper, John, Smith",
+      "S, James",
+      "Tubbs, Daniel",
+      "Tubbs, Fredrick",
+      "Dyre, Barret",
+      "Peters, Jn",
+      "Secord, David"
+    ]
+  },
+  "55": {
+    "tagPerson": [
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "D, William",
+      "Muirhead, John",
+      "Hopkins, Peter"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPlace": ["Township of Oxford"]
+  },
+  "496": {
+    "tagPlace": ["North Britain", "Queenstown"],
+    "tagPerson": [
+      "S, Isaac",
+      "Reilly, John",
+      "Kerr, Robert",
+      "McEwin, John",
+      "Secord, David"
+    ],
+    "tagDate": ["[1786-01-01T00:00:00.000Z TO 1795-08-18T23:59:59.999Z]"]
+  },
+  "393": {
+    "tagDate": ["1791-06-22T00:00:00.000Z"],
+    "tagPerson": ["C, William", "Stockwell, John", "Smith, Wm"]
+  },
+  "24": {
+    "tagPerson": ["Bennet, Josiah"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPlace": ["Oxford"]
+  },
+  "450": {
+    "tagPerson": ["Dinniston, Robert", "Street, Saml", "Phelps, Elijah"],
+    "tagDate": ["[1797-01-01T00:00:00.000Z TO 1797-01-27T23:59:59.999Z]"],
+    "tagPlace": ["Queenstown"]
+  },
+  "324": {
+    "tagPlace": ["Township of Hamilton", "Detroit", "River La Tranche"],
+    "tagPerson": [
+      "Dugan, Wm",
+      "McKilliss, Danl",
+      "Smith, Thomas",
+      "Dolson, Matthew",
+      "McCrae, Thos",
+      "Jones, Elias"
+    ],
+    "tagDate": ["[1792-11-12T00:00:00.000Z TO 1803-08-26T23:59:59.999Z]"]
+  },
+  "233": {
+    "tagPlace": ["Townsend"],
+    "tagPerson": ["B, John", "Barnhart, John", "Barnhart, William"],
+    "tagDate": ["1802-05-14T00:00:00.000Z"]
+  },
+  "355": {
+    "tagPerson": [
+      "Snider, John",
+      "Selliek, Chas",
+      "Stevens, Shadrick",
+      "Stanton, Eldridge",
+      "Robins, John",
+      "Stevens, Abel",
+      "Scott, W",
+      "Simpson, Obediah",
+      "Stockwell, John",
+      "Stober, Peter",
+      "Shelden, Gideon",
+      "Smith, J",
+      "Scott, Jonathan",
+      "Surpless, R",
+      "Smith, Thomas",
+      "Stancliff, Stanboroug, HC",
+      "Rudheart, George, Jacob",
+      "Smith, Wm",
+      "Stevens, Abner",
+      "Simpson, John",
+      "Lopez, Levi",
+      "Smith, Jacob",
+      "Shunk, Peter",
+      "Sayler, Mordecai",
+      "Ruff, James",
+      "Springfield, Joseph",
+      "Lopez, Leonard",
+      "Smith, Lewis",
+      "Scratch, Leonard",
+      "Stevens, Wm",
+      "Shelden, Samuel"
+    ],
+    "tagDate": ["[1800-01-01T00:00:00.000Z TO 1801-12-31T23:59:59.999Z]"]
+  },
+  "141": {
+    "tagPerson": [
+      "Hamilton, Robert",
+      "Murray, Rob",
+      "Dickson, William",
+      "R, John",
+      "Baugor, Labau"
+    ],
+    "tagDate": ["[1797-01-06T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPlace": ["Townsend", "County of Lincoln", "Queenstown"]
+  },
+  "154": {
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPerson": ["Hamilton, Robert", "Jongue, William"],
+    "tagPlace": ["Queenstown", "Home District of Upper Canada"]
+  },
+  "500": {
+    "tagPlace": ["New York", "Town of Stratford"],
+    "tagPerson": [
+      "Foster, D",
+      "Band, Saml",
+      "Smith, Abel",
+      "Landon, Oliver",
+      "Peet, David"
+    ],
+    "tagDate": ["1783-06-02T00:00:00.000Z"]
+  },
+  "261": {
+    "tagPlace": ["Bastard", "Township of Haldimand"],
+    "tagDate": ["[1800-12-26T23:59:59.999Z TO 1802-10-04T00:00:00.000Z]"],
+    "tagPerson": ["Hall, Isaiah", "Day, Richard"]
+  },
+  "268": {
+    "tagPlace": [
+      "Detroit",
+      "Township North Side River La Tranch",
+      "South Side First Township River La Tranch"
+    ],
+    "tagDate": ["[1792-05-25T23:59:59.999Z TO 1792-09-28T00:00:00.000Z]"],
+    "tagPerson": [
+      "Dolsen, Matthew",
+      "Watson, Edward",
+      "Dugan, Wm",
+      "Dolsen, Isaac",
+      "Scott, William",
+      "McCrae, Thos",
+      "Dugan, William"
+    ]
+  },
+  "201": {
+    "tagDate": ["1802-11-16T00:00:00.000Z"],
+    "tagPerson": [
+      "Stephens, Shadrach",
+      "Hollinghead, Anthony",
+      "Miller, Nicholas"
+    ],
+    "tagPlace": ["Halifax"]
+  },
+  "425": {
+    "tagPlace": ["Oxford", "York", "Hastings"],
+    "tagPerson": [
+      "Wright, Jonathan",
+      "Small, John",
+      "M, Peter",
+      "Hall, Tho",
+      "Topp, John",
+      "I, Thos",
+      "Williams, Peter",
+      "Windall, Joseph"
+    ],
+    "tagDate": ["[1792-09-29T00:00:00.000Z TO 1803-07-17T23:59:59.999Z]"]
+  },
+  "382": {
+    "tagPerson": ["Welch, John", "Donaldson, James", "Smith, Thomas"],
+    "tagDate": ["1793-03-25T00:00:00.000Z"],
+    "tagPlace": ["River La Tranche"]
+  },
+  "148": {
+    "tagPlace": ["Queenstown"],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Boom, Nicholas",
+      "Hamilton, Robert",
+      "Murray, Rob",
+      "Dickson, William",
+      "Muirhead, John"
+    ]
+  },
+  "286": {
+    "tagDate": ["[1792-02-23T00:00:00.000Z TO 1793-03-23T23:59:59.999Z]"],
+    "tagPerson": [
+      "Nevill, Edw",
+      "Hamilton, Andrew",
+      "Forsyth, James",
+      "Butler, Edw",
+      "Windale, Joseph",
+      "Top, John",
+      "Empson, James"
+    ],
+    "tagPlace": ["Township North Side River La Tranch"]
+  },
+  "94": {
+    "tagPlace": [
+      "Upper Canada",
+      "Thorold",
+      "Saltfleet",
+      "Rainham",
+      "Southwold",
+      "Pelham"
+    ],
+    "tagDate": ["[1795-01-01T00:00:00.000Z TO 1799-12-31T23:59:59.999Z]"]
+  },
+  "373": {
+    "tagPerson": ["Sillick, Charles", "Willcock, William", "Yarn, William"],
+    "tagDate": ["1801-03-11T00:00:00.000Z"],
+    "tagPlace": ["York"]
+  },
+  "269": {
+    "tagPerson": [
+      "Dalton, John",
+      "McCrae, Thos",
+      "Dugan, Wm",
+      "Little, James",
+      "Dolsen, Matthew"
+    ],
+    "tagDate": ["[1791-03-15T23:59:59.999Z TO 1798-05-24T00:00:00.000Z]"],
+    "tagPlace": ["Township of North Side River La Tranch", "Detroit River"]
+  },
+  "445": {
+    "tagDate": ["[1786-01-01T00:00:00.000Z TO 1795-08-18T23:59:59.999Z]"],
+    "tagPerson": [
+      "Haines, Sarah",
+      "Haines, Mary",
+      "Haines, Peter",
+      "Haines, Joseph",
+      "Haines, N",
+      "Haines, John",
+      "Haines, Zeny",
+      "Haines, Philip",
+      "Haines, Margaret"
+    ],
+    "tagPlace": ["Newark"]
+  },
+  "397": {
+    "tagPerson": [
+      "Smith, Wm",
+      "Clearwater, John",
+      "Tompson, James",
+      "McKillip, Daniel",
+      "Ashworth, Thomas",
+      "Stockwell, John",
+      "Stockfield, John",
+      "Rudhart, George, Jacob"
+    ],
+    "tagDate": ["[1791-07-24T23:59:59.999Z TO 1793-03-24T00:00:00.000Z]"]
+  },
+  "476": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Ruggles, James"],
+    "tagDate": ["1801-06-22T00:00:00.000Z"]
+  },
+  "149": {
+    "tagPerson": ["Boom, Nicholas"],
+    "tagDate": ["[1797-12-31T23:59:59.999Z TO 1799-04-12T00:00:00.000Z]"],
+    "tagPlace": ["Townsend"]
+  },
+  "85": {
+    "tagPlace": ["Queenstown"],
+    "tagPerson": [
+      "Harkaman, David",
+      "Dickson, William",
+      "Hamilton, Robert",
+      "Muirhead, John",
+      "Sanford, Ephraim"
+    ],
+    "tagDate": ["[1796-10-20T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"]
+  },
+  "421": {
+    "tagPerson": ["Willcox, Benjamin", "R, John"],
+    "tagDate": ["1802-08-25T00:00:00.000Z"]
+  },
+  "237": {
+    "tagPlace": ["Haldimand", "York"],
+    "tagDate": ["1802-06-12T00:00:00.000Z"],
+    "tagPerson": ["Chisholm, A "]
+  },
+  "358": {
+    "tagPlace": ["Hamilton"],
+    "tagPerson": ["Robins, John", "Gruly", "Reynolds, James"],
+    "tagDate": ["[1800-01-01T00:00:00.000Z TO 1818-11-23T23:59:59.999Z]"]
+  },
+  "340": {
+    "tagDate": ["[1792-05-26T23:59:59.999Z TO 1792-05-29T00:00:00.000Z]"],
+    "tagPerson": ["Caldwell, Merry, Richard", "Parsons, Thomas", "Dugan, Wm"],
+    "tagPlace": ["Fredericksburgh", "River La Tranche"]
+  },
+  "449": {
+    "tagPlace": ["Town of Adolphus", "Midland District"],
+    "tagDate": ["[1796-10-08T23:59:59.999Z TO 1799-06-11T00:00:00.000Z]"],
+    "tagPerson": [
+      "Dorland, Thos",
+      "Rice, John",
+      "A, Charles",
+      "Dickson, William",
+      "Terry, Panhale",
+      "Bassey, Robert",
+      "Alger, Elisha"
+    ]
+  },
+  "344": {
+    "tagDate": ["[1791-04-15T23:59:59.999Z TO 1793-01-28T00:00:00.000Z]"],
+    "tagPerson": [
+      "Carpenter, John",
+      "Little, James",
+      "Boyle, William",
+      "Quant, Jacob",
+      "William, Thomas",
+      "Ramsey, Henry",
+      "Snider, John",
+      "Barbau, John"
+    ],
+    "tagPlace": ["Detroit", "River La Tranche"]
+  },
+  "265": {
+    "tagDate": ["1801-09-01T00:00:00.000Z"],
+    "tagPerson": ["Dexter, John"]
+  },
+  "132": {
+    "tagPlace": ["Thorold"],
+    "tagDate": ["1796-01-01T00:00:00.000Z"],
+    "tagPerson": ["Oustrander, J", "Murray, R"]
+  },
+  "145": {
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"],
+    "tagPerson": [
+      "Dickson, William",
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "Muirhead, John",
+      "Boom, John"
+    ],
+    "tagPlace": ["Queenstown", "County of Lincoln", "Townsend"]
+  },
+  "428": {
+    "tagPlace": ["Haldimand", "Cramahe"],
+    "tagPerson": ["Hall, Isaiah", "Wyatt, Peter"],
+    "tagDate": ["1801-02-26T00:00:00.000Z"]
+  },
+  "199": {
+    "tagDate": ["[1802-01-01T00:00:00.000Z TO 1803-12-31T23:59:59.999Z]"],
+    "tagPlace": ["Upper Canada"]
+  },
+  "347": {
+    "tagPerson": [
+      "R, George, Jacob",
+      "Robertson, James",
+      "Ramsey, Henry",
+      "Willcocks, Elias",
+      "Tapp, John",
+      "William, Elijah",
+      "Cornwall, Josh"
+    ],
+    "tagDate": ["[0000-12-31T23:59:59.999Z TO 1791-06-24T00:00:00.000Z]"],
+    "tagPlace": ["Detroit"]
+  },
+  "503": {
+    "tagPlace": ["York"],
+    "tagDate": ["1810-07-03T00:00:00.000Z"],
+    "tagPerson": ["Smith, John"]
+  },
+  "478": {
+    "tagDate": ["[1801-01-22T00:00:00.000Z TO 1801-09-15T23:59:59.999Z]"],
+    "tagPerson": ["Ruggles, James"],
+    "tagPlace": ["Yonge Street"]
+  },
+  "495": {
+    "tagDate": ["1789-05-22T00:00:00.000Z"],
+    "tagPerson": ["Lockwood, William", "Booth, John", "Terry, Paul"],
+    "tagPlace": ["Elizabethtown"]
+  },
+  "27": {
+    "tagPerson": ["Dapey, John"],
+    "tagDate": ["1797-01-01T00:00:00.000Z"],
+    "tagPlace": ["Oxford"]
+  },
+  "302": {
+    "tagDate": ["1792-01-25T00:00:00.000Z"],
+    "tagPerson": [
+      "G, Joseph",
+      "T, Thomas",
+      "Bettler, Edward",
+      "Dutton, John",
+      "Hall, Thomas",
+      "Smith, Thomas"
+    ]
+  },
+  "230": {
+    "tagPlace": ["Detroit River"],
+    "tagPerson": ["Ramsey, Henry", "Willcox", "Morris"],
+    "tagDate": ["1791-05-25T00:00:00.000Z"]
+  },
+  "362": {
+    "tagDate": ["[1792-08-03T00:00:00.000Z TO 1793-07-07T23:59:59.999Z]"],
+    "tagPerson": [
+      "Rudhart, George, Jacob",
+      "Ashworth, Thomas",
+      "Askin, John",
+      "Cornwall, John",
+      "W, Wendel"
+    ],
+    "tagPlace": ["Detroit"]
+  },
+  "234": {
+    "tagPerson": ["Barnhart, John"],
+    "tagDate": ["1802-05-30T00:00:00.000Z"]
+  },
+  "99": {
+    "tagDate": ["1796-10-31T00:00:00.000Z"],
+    "tagPerson": ["Durham, John", "Hamilton, R"],
+    "tagPlace": ["Pelham"]
+  },
+  "471": {
+    "tagPlace": ["Yonge Street", "Township of Markham"],
+    "tagPerson": ["Smith, D", "Risch, Philip", "Ruggles, James"],
+    "tagDate": ["[1802-03-22T00:00:00.000Z TO 1803-03-30T23:59:59.999Z]"]
+  },
+  "153": {
+    "tagPerson": ["Jongue, Wm"],
+    "tagDate": ["1797-01-13T00:00:00.000Z"],
+    "tagPlace": ["Townsend"]
+  },
+  "288": {
+    "tagPlace": [
+      "Detroit",
+      "Bastard",
+      "Township South Side of River La Tranch"
+    ],
+    "tagPerson": [
+      "Peck, John",
+      "Dolsen, Daniel",
+      "Field, Daniel",
+      "Dugan, William",
+      "Forsyth, James",
+      "Dolsen, Matthew",
+      "Hering, Abel",
+      "Finch, Richard"
+    ],
+    "tagDate": ["[1792-10-23T23:59:59.999Z TO 1803-02-01T00:00:00.000Z]"]
+  },
+  "41": {
+    "tagPlace": ["County of Lincoln"],
+    "tagPerson": [
+      "M, John",
+      "H, George",
+      "Hamilton, Robert",
+      "H, Jean",
+      "Dickson, William",
+      "Murray, Rob"
+    ],
+    "tagDate": ["[0000-01-01T00:00:00.000Z TO 1799-04-12T23:59:59.999Z]"]
+  },
+  "426": {
+    "tagPlace": ["York", "Haldimand"],
+    "tagDate": ["1800-07-17T00:00:00.000Z"],
+    "tagPerson": ["Wright, David, N", "Danforth, Asa"]
+  },
+  "195": {
+    "tagPerson": ["Lakins, John"],
+    "tagDate": ["1801-01-01T00:00:00.000Z"]
+  },
+  "178": {
+    "tagPlace": ["County of Lincoln", "Township of Wainfleet"],
+    "tagDate": ["1799-04-12T00:00:00.000Z"],
+    "tagPerson": [
+      "Dickson, William",
+      "Murray, Rob",
+      "Hamilton, Robert",
+      "McFerron, William"
+    ]
+  },
+  "323": {
+    "tagPerson": ["Smith, D, W", "Walker, Isaac", "McCool, Joseph"],
+    "tagDate": ["1797-06-02T00:00:00.000Z"]
+  },
+  "218": {
+    "tagDate": ["[1801-01-01T00:00:00.000Z TO 1806-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Bouchart, John",
+      "Ashford, Thos",
+      "Averill, Paul",
+      "Butler, Edward",
+      "Clark, John",
+      "Bowerman, Stephen",
+      "Codely, Joseph",
+      "Baker, George",
+      "Ash, George, Jr",
+      "Ashworth, Thomas",
+      "Brown, Samuel",
+      "Bowerman, Gideon",
+      "Bouchart, William",
+      "Bedford, Paul",
+      "Arner, Jacob",
+      "Carr, David",
+      "Bristol, Elisha",
+      "Arnold, John",
+      "Ash, James",
+      "Bretnall, Asa",
+      "Ash, Samuel",
+      "Ebenezer, Britain",
+      "Cameron, John",
+      "Asa, Burnham",
+      "Brunson, Wm",
+      "Amson, Robert",
+      "Chisholm, Alex",
+      "Brown, John, Jr",
+      "Bellamy, Jacob",
+      "Algier"
+    ]
+  },
+  "499": {
+    "tagPerson": [
+      "Nevill, James",
+      "Hegerty, Stephen",
+      "Pettit, Nath ",
+      "Pettit, John",
+      "N, Jacob",
+      "Hegerty, Hugh"
+    ],
+    "tagDate": ["[1786-03-17T23:59:59.999Z TO 1787-03-16T00:00:00.000Z]"],
+    "tagPlace": ["Humberstone", "Town Hallowell", "Niagara"]
+  },
+  "453": {
+    "tagPlace": ["York"],
+    "tagPerson": ["Day, John", "Bell, Alex", "H, William"],
+    "tagDate": ["1804-09-22T00:00:00.000Z"]
+  },
+  "211": {
+    "tagPerson": ["Reynolds, Caleb", "Hamilton, Robert"],
+    "tagDate": ["0000-01-01T00:00:00.000Z"],
+    "tagPlace": ["Niagara", "New York", "District of Nassau"]
+  },
+  "171": {
+    "tagPlace": ["Vaughan"],
+    "tagDate": ["1798-01-01T00:00:00.000Z"],
+    "tagPerson": ["Miles, Abner", "Walker, Abraham"]
+  },
+  "390": {
+    "tagPerson": ["Stevens, William", "Stevens, Shadrick", "Graham, Wm"],
+    "tagDate": ["[1800-12-31T23:59:59.999Z TO 1801-09-12T00:00:00.000Z]"],
+    "tagPlace": ["Bastard", "Yonge"]
+  },
+  "356": {
+    "tagDate": ["[1793-01-01T00:00:00.000Z TO 1800-12-31T23:59:59.999Z]"],
+    "tagPerson": [
+      "Wyatt, Peter",
+      "Weston, A",
+      "Williams, Thomas",
+      "Willcock, B",
+      "Wail, George",
+      "Wail, Isaac",
+      "Wyatt, Paul, H",
+      "Weston, S",
+      "Wail, Jainks",
+      "Topp, John",
+      "Walton, Jonathan",
+      "Wail, Reuben",
+      "Wail, Benjamin",
+      "Wilcoll, Jonathan",
+      "Wright, Jonathan",
+      "Wilery, Elisha",
+      "Wallace, Aaron",
+      "Wendall, Joseph",
+      "Walker, Isaac",
+      "Walker, Hugh",
+      "Usker, George"
+    ]
+  }
+}

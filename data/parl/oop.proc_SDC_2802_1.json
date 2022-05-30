@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "28-2", 1]],
+  "pubmax": "1970-10-07",
+  "language": ["fra"],
+  "session": ["28-2"],
+  "pubmin": "1969-10-23",
+  "label": "Procès-verbaux du Sénat, 28e Législature, 2e Session : 1-49",
+  "callNumber": "J103 H43 1969/70 no 1-49"
+}

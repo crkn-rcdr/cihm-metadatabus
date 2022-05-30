@@ -1,0 +1,12 @@
+{
+  "label": "House of Commons Committees, 21st Parliament, 4th Session : Standing Committee on Banking and Commerce, vol. 1",
+  "callNumber": "1951 B3 A1",
+  "pubmin": "1951-01-30",
+  "session": ["21-4"],
+  "language": ["eng"],
+  "node": [["eng", "c", "committees", "21-4", 1]],
+  "pubmax": "1951-10-09",
+  "type": "committees",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

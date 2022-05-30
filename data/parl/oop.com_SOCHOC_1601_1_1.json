@@ -1,0 +1,15 @@
+{
+  "chamber": ["c", "s"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "committees",
+  "pubmax": "1927-04-14",
+  "node": [
+    ["eng", "c", "committees", "16-1", 1],
+    ["eng", "s", "committees", "16-1", 1]
+  ],
+  "language": ["eng"],
+  "session": ["16-1"],
+  "pubmin": "1926-12-09",
+  "callNumber": "1926/27 A4 A1",
+  "label": "Joint Committees, 16th Parliament, 1st Session : Special Joint Committee on Claims of Allied Indian Tribes of B.C., vol. 1"
+}

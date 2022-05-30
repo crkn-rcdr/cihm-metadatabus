@@ -1,0 +1,17 @@
+{
+  "pubmin": "1980-04-14",
+  "label": "Joint Committees, 32nd Parliament, 1st Session : Standing Joint Committee on Official Languages Policy and Programs, vol. 3 = Comités mixtes, 32e Législature, 1re Session : Comité mixte permanent de la politique et des programmes de langues officielles, vol. 3",
+  "callNumber": "1980/83 L3 A1 no.36-59",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "32-1", 103],
+    ["fra", "c", "committees", "32-1", 82],
+    ["eng", "s", "committees", "32-1", 25],
+    ["fra", "s", "committees", "32-1", 33]
+  ],
+  "pubmax": "1983-11-30",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c", "s"]
+}

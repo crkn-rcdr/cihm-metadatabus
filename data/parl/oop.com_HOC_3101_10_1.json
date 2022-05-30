@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["31-1"],
+  "pubmin": "1979-10-09",
+  "label": "House of Commons Committees, 31st Parliament, 1st Session : Standing Committee on Justice and Legal Affairs, vol. 1 = Comités de la Chambre des communes, 31e Législature, 1re Session : Comité permanent de la justice et des questions juridiques, vol. 1",
+  "callNumber": "1979 J8 A1",
+  "primeMinisters": "Clark, Charles Joseph",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "31-1", 9],
+    ["fra", "c", "committees", "31-1", 10]
+  ],
+  "pubmax": "1979-12-14"
+}

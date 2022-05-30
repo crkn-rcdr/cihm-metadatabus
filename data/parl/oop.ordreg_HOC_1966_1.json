@@ -1,0 +1,12 @@
+{
+  "pubmax": "1967-05-08",
+  "node": [["eng", "c", "orders", null, 9]],
+  "type": "orders",
+  "chamber": ["c"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "callNumber": "JL164.4 1966",
+  "label": "Provisional Reprint of the Standing Orders for the first session, 27th Parliament, 1966",
+  "pubmin": "1966-01-18",
+  "session": ["27-1"],
+  "language": ["eng"]
+}

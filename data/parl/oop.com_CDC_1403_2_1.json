@@ -1,0 +1,12 @@
+{
+  "callNumber": "1924 A5P A4",
+  "label": "Comités de la Chambre des communes, 14e Législature, 3e Session : Comité spécial sur les pensions, assurances et rétablissement des anciens combattants, vol. 1",
+  "pubmin": "1924-02-28",
+  "session": ["14-3"],
+  "language": ["fra"],
+  "pubmax": "1924-07-19",
+  "node": [["fra", "c", "committees", "14-3", 3]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

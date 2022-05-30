@@ -1,0 +1,36 @@
+{
+  "709": {
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],
+    "tagDescription": ["German Suspects. Indexed -Index; Item 1 to 46"]
+  },
+  "1383": {
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": ["German Suspects. Items 187 to 243"]
+  },
+  "287": {
+    "tagDescription": [
+      "Anglo German War. Application to serve on Canadian contingent  Indexed- Also publication 1914 European War  Despatches between British Government and Ambassadors; Speeches Delivered in Imperial House of Commons"
+    ],
+    "tagDate": ["[1914-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"]
+  },
+  "1107": {
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1916-12-31T23:59:59.999Z]"],
+    "tagDescription": ["German Suspects. Items 91 to 131 ½"]
+  },
+  "1233": {
+    "tagDate": ["1916-01-01T00:00:00.000Z"],
+    "tagDescription": ["German Suspects. Items 132 to 186"]
+  },
+  "900": {
+    "tagDate": ["1915-01-01T00:00:00.000Z"],
+    "tagDescription": ["German Suspects. Items 46 to 90 ½"]
+  },
+  "1516": {
+    "tagDate": ["[1918-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],
+    "tagDescription": ["German Suspects. Items 244 to 287"]
+  },
+  "73": {
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": ["European War, Printed selections Prints 35-38"]
+  }
+}

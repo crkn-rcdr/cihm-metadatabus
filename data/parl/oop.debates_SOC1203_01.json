@@ -1,0 +1,10 @@
+{
+  "language": ["eng"],
+  "session": ["12-3"],
+  "pubmin": "1914-01-15",
+  "label": "Senate Debates, 12th Parliament, 3rd Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["eng", "s", "debates", "12-3", 1]],
+  "pubmax": "1914-06-12"
+}

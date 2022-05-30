@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "18-5", 1]],
+  "pubmax": "1939-09-13",
+  "language": ["fra"],
+  "session": ["18-5"],
+  "pubmin": "1939-09-07",
+  "label": "Procès-verbaux du Sénat, 18e Législature, 5e Session : 1-6",
+  "callNumber": "J103 H43 1939 (session spéciale)"
+}

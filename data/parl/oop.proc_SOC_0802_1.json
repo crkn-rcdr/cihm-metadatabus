@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["08-2"],
+  "pubmin": "1897-03-25",
+  "callNumber": "J103 H4 1897",
+  "label": "Senate Minutes of Proceedings, 8th Parliament, 2nd Session : 1-51",
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1897-06-29",
+  "node": [["eng", "s", "sproc", "08-2", 1]]
+}

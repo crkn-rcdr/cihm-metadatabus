@@ -1,0 +1,14 @@
+{
+  "node": [
+    ["eng", "s", "committees", "34-2", 41],
+    ["fra", "s", "committees", "34-2", 44]
+  ],
+  "pubmax": "1991-05-12",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Transport and Communications, vol. 1 no. 1-14 = Comités du Sénat, 34e Législature, 2e Session : Comité permanent des transports et des communications, vol. 1 no. 1-14",
+  "callNumber": "34-2 T73 A1 no.1-14",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"]
+}

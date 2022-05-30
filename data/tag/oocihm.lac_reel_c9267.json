@@ -1,0 +1,44 @@
+{
+  "321": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDescription": ["Convention - Reports"],
+    "tagDate": ["1946-01-01T00:00:00.000Z"]
+  },
+  "791": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDate": ["1948-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Resolutions"]
+  },
+  "103": {
+    "tagDescription": ["Convention - Draft Minutes"],
+    "tagDate": ["1946-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "995": {
+    "tagDescription": ["Convention - Resolutions (late)"],
+    "tagDate": ["1948-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "577": {
+    "tagDescription": ["Convention - Correspondence"],
+    "tagDate": ["1948-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1071": {
+    "tagDescription": ["Convention - Reports, Addresses, and Miscellaneous"],
+    "tagDate": ["1948-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  }
+}

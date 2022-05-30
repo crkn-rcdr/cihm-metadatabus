@@ -1,0 +1,11 @@
+{
+  "session": ["13-4"],
+  "language": ["fra"],
+  "label": "Journaux de la Chambre des communes, 13e Législature, 4e Session : Vol. 57",
+  "pubmin": "1920-02-26",
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1920-07-01",
+  "node": [["fra", "c", "journals", "13-4", 1]],
+  "type": "journals"
+}

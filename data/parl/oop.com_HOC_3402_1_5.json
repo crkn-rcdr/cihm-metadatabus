@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Aboriginal Affairs, vol. 5 no. 50-59 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent des affaires autochtones, vol. 5 no. 50-59",
+  "callNumber": "34-2 A182 A1 no.50-59",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-2", 5],
+    ["fra", "c", "committees", "34-2", 6]
+  ],
+  "pubmax": "1991-05-12"
+}

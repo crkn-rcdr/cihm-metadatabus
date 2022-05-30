@@ -1,0 +1,14 @@
+{
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "s", "committees", "33-1", 37],
+    ["fra", "s", "committees", "33-1", 1]
+  ],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "33-1 V42 A1",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Sub-Committee on Veterans Affairs, vol. 1 = Comités du Sénat, 33e Législature, 1re Session : Sous-comité des affaires des anciens combattants, vol. 1",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng", "fra"]
+}

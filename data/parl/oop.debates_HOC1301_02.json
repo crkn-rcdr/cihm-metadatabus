@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1918-05-24",
+  "node": [["eng", "c", "debates", "13-1", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmin": "1918-03-18",
+  "label": "House of Commons Debates, 13th Parliament, 1st Session : Vol. 2",
+  "language": ["eng"],
+  "session": ["13-1"]
+}

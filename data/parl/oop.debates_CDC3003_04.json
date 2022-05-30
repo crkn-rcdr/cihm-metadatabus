@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "30-3", 4]],
+  "pubmax": "1978-10-10",
+  "language": ["fra"],
+  "session": ["30-3"],
+  "pubmin": "1977-10-18",
+  "label": "Débats de la Chambre des communes, 30e Législature, 3e Session : Vol. 4"
+}

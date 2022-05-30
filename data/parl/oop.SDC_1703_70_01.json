@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "17-3", 1]],
+  "pubmax": "1932-05-26",
+  "type": "journals",
+  "session": ["17-3"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 17e Législature, 3e Session : Vol. 70",
+  "pubmin": "1932-02-04"
+}

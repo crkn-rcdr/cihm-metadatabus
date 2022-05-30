@@ -1,0 +1,15 @@
+{
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 E93 A1 no.30-50",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on External Affairs and International Trade, vol. 2 no. 30-50 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des affaires étrangères et du commerce extérieur, vol. 2 no. 30-50",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 73],
+    ["fra", "c", "committees", "34-3", 10]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}
