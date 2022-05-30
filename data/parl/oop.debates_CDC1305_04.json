@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Meighen, Arthur",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "13-5", 4]],
+  "pubmax": "1921-06-04",
+  "type": "debates",
+  "session": ["13-5"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 13e Législature, 5e Session : Vol. 4",
+  "pubmin": "1921-02-14"
+}

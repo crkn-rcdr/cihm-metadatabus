@@ -1,0 +1,11 @@
+{
+  "pubmin": "1872-04-11",
+  "label": "Documents parlementaires, 1e Législature, 5e Session : vol. 7",
+  "language": ["fra"],
+  "session": ["01-5"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "01-5", 7]],
+  "pubmax": "1872-06-14",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

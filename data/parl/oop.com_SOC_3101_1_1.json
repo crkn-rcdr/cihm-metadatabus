@@ -1,0 +1,14 @@
+{
+  "type": "committees",
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "s", "committees", "31-1", 1],
+    ["fra", "s", "committees", "31-1", 3]
+  ],
+  "chamber": ["s"],
+  "pubmin": "1979-10-09",
+  "callNumber": "1979 A32 A1",
+  "label": "Senate Committees, 31st Parliament, 1st Session : Standing Committee on Agriculture, vol. 1 = Comités du Sénat, 31e Législature, 1re Session : Comité permanent de l'agriculture, vol. 1",
+  "language": ["eng", "fra"],
+  "session": ["31-1"]
+}

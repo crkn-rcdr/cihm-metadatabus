@@ -1,0 +1,11 @@
+{
+  "label": "Procès-verbaux du Sénat, 6e Législature, 1re Session : 1-37",
+  "callNumber": "J103 H43 1887",
+  "pubmin": "1887-04-13",
+  "session": ["06-1"],
+  "language": ["fra"],
+  "node": [["fra", "s", "sproc", "06-1", 1]],
+  "pubmax": "1887-06-23",
+  "type": "sproc",
+  "chamber": ["s"]
+}

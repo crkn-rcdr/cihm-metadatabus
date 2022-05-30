@@ -1,0 +1,15 @@
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "cproc", "34-3", 4],
+    ["fra", "c", "cproc", "34-3", 4]
+  ],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "J103 H41 34-3 no. 194-269B c.2",
+  "label": "House of Commons Votes and Proceedings, 34th Parliament, 3rd Session : 194-269B = Procès-verbaux de la Chambre des communes, 34e Législature, 3e Session : 194-269B",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

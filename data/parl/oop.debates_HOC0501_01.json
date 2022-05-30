@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 5th Parliament, 1st Session : Vol. 1",
+  "pubmin": "1883-02-08",
+  "session": ["05-1"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "05-1", 1]],
+  "pubmax": "1883-05-27",
+  "type": "debates",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

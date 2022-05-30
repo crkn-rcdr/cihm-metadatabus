@@ -1,0 +1,11 @@
+{
+  "session": ["24-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 24th Parliament, 1st Session : Index",
+  "pubmin": "1958-05-12",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmax": "1958-09-06",
+  "node": [["eng", "c", "debates", "24-1", 5]],
+  "type": "debates"
+}

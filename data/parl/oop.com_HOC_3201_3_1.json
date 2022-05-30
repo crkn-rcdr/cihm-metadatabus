@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 9],
+    ["fra", "c", "committees", "32-1", 46]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1980-04-14",
+  "callNumber": "1980/83 A48 A1 no.1-10",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Special Committee on Alternative Energy and Oil Substitution, vol. 1 no. 1-10 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité spécial de l'énergie de remplacement du pétrole, vol. 1 no. 1-10",
+  "language": ["eng", "fra"],
+  "session": ["32-1"]
+}

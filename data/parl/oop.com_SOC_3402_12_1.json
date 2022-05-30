@@ -1,0 +1,14 @@
+{
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "34-2", 34],
+    ["fra", "s", "committees", "34-2", 7]
+  ],
+  "pubmax": "1991-05-12",
+  "chamber": ["s"],
+  "pubmin": "1989-04-03",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Social Affairs, Science and Technology, vol. 1 no. 1-19 = Comités du Sénat, 34e Législature, 2e Session : Comité permanent des affaires sociales, des sciences et de la technologie, vol. 1 no. 1-19",
+  "callNumber": "34-2 S6 A1 no.1-19",
+  "language": ["eng", "fra"],
+  "session": ["34-2"]
+}

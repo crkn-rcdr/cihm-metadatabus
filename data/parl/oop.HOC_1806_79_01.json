@@ -1,0 +1,14 @@
+{
+  "session": ["18-6", "19-1"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 18th Parliament, 6th Session, 19th Parliament, 1st Session : Vols. 79 and 80",
+  "pubmin": "1940-01-25",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "journals", "18-6", 1],
+    ["eng", "c", "journals", "19-1", 1]
+  ],
+  "pubmax": "1940-11-05",
+  "type": "journals"
+}

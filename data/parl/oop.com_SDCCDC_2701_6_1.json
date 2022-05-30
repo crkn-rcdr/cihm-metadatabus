@@ -1,0 +1,15 @@
+{
+  "language": ["fra"],
+  "session": ["27-1"],
+  "pubmin": "1966-01-18",
+  "callNumber": "1966/67 R42 A1 v.1",
+  "label": "Comités mixtes, 27e Législature, 1re Session : Comité spécial mixte concernant les relations entre employeur et employés dans la fonction publique du Canada, vol. 1",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Pearson, Lester Bowles",
+  "type": "committees",
+  "pubmax": "1967-05-08",
+  "node": [
+    ["fra", "c", "committees", "27-1", 35],
+    ["fra", "s", "committees", "27-1", 15]
+  ]
+}

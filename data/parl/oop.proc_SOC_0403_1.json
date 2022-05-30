@@ -1,0 +1,11 @@
+{
+  "session": ["04-3"],
+  "language": ["eng"],
+  "callNumber": "J103 H4 1880/81",
+  "label": "Senate Minutes of Proceedings, 4th Parliament, 3rd Session : 1-55",
+  "pubmin": "1880-12-09",
+  "chamber": ["s"],
+  "pubmax": "1881-03-21",
+  "node": [["eng", "s", "sproc", "04-3", 1]],
+  "type": "sproc"
+}

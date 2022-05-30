@@ -1,0 +1,11 @@
+{
+  "pubmin": "1919-02-20",
+  "label": "House of Commons Journals, 13th Parliament, 2nd Session : Vol. 55 App. 1",
+  "language": ["eng"],
+  "session": ["13-2"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "13-2", 2]],
+  "pubmax": "1919-07-07",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

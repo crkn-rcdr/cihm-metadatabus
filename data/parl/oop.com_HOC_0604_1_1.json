@@ -1,0 +1,12 @@
+{
+  "type": "committees",
+  "pubmax": "1890-05-16",
+  "node": [["eng", "c", "committees", "06-4", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmin": "1890-01-16",
+  "callNumber": "J103 H7 1890 P7 A12",
+  "label": "House of Commons Committees, 6th Parliament, 4th Session : Select Standing Committee on Privileges and Elections, vol. 1",
+  "language": ["eng"],
+  "session": ["06-4"]
+}

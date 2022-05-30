@@ -1,0 +1,19 @@
+{
+  "1066": {
+    "tagDate": ["[1838-01-01T00:00:00.000Z TO 1838-01-15T23:59:59.999Z]"],
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"]
+  },
+  "166": {
+    "tagDescription": ["Index Upper Canada Club (continued)"],
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"]
+  },
+  "5": {
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"],
+    "tagDate": ["[1837-01-01T00:00:00.000Z TO 1840-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Index to records of the Upper Canada Club"]
+  },
+  "1704": {
+    "tagDate": ["[1838-01-16T00:00:00.000Z TO 1838-01-31T23:59:59.999Z]"],
+    "tagNotebook": ["RG 5, A 1: UPPER CANADA SUNDRIES"]
+  }
+}

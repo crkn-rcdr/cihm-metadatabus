@@ -1,0 +1,11 @@
+{
+  "callNumber": "J103 H43 1967/68 no 1-62",
+  "label": "Procès-verbaux du Sénat, 27e Législature, 2e Session : 1-62",
+  "pubmin": "1967-05-08",
+  "session": ["27-2"],
+  "language": ["fra"],
+  "pubmax": "1968-04-23",
+  "node": [["fra", "s", "sproc", "27-2", 1]],
+  "type": "sproc",
+  "chamber": ["s"]
+}

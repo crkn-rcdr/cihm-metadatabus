@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Bills, 32nd Parliament, 1st Session : C54-C56 = Projets de loi de la Chambre des communes, 32e Législature, 1re Session : C54-C56",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "32-1", 5],
+    ["fra", "c", "bills", "32-1", 5]
+  ],
+  "pubmax": "1983-11-30"
+}

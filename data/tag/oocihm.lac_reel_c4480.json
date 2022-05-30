@@ -1,0 +1,81 @@
+{
+  "7": { "tagDescription": ["I Organization (a) Constitutions and By-Laws"] },
+  "861": {
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "I Organization (c) Reports British Columbia (1909-1912)"
+    ]
+  },
+  "971": {
+    "tagDate": ["[1960-01-01T00:00:00.000Z TO 1962-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "I Organization (c) Reports National Tuberculosis Conference"
+    ]
+  },
+  "825": {
+    "tagDate": ["1957-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "I Organization (b) Meetings Staff Meeting - OTA and CTA (1957)"
+    ]
+  },
+  "1121": {
+    "tagDescription": ["I Organization (c) Reports Quebec (1903-1910)"],
+    "tagDate": ["[1903-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"]
+  },
+  "1007": {
+    "tagDescription": ["I Organization (c) Reports Nova Scotia (1907-1935)"],
+    "tagDate": ["[1907-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "1064": {
+    "tagDescription": ["I Organization (c) Reports Ontario (1910-1937)"],
+    "tagDate": ["[1910-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"]
+  },
+  "147": {
+    "tagDate": ["[1902-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "I Organization (b) Meetings Annual Meetings (1902-1957) (Part I)"
+    ]
+  },
+  "927": {
+    "tagDescription": ["I Organization (c) Reports Manitoba (1906-1935)"],
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1935-12-31T23:59:59.999Z]"]
+  },
+  "255": {
+    "tagDate": ["[1902-01-01T00:00:00.000Z TO 1957-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "I Organization (b) Meetings Annual Meetings (1902-1957) (Part 2)"
+    ]
+  },
+  "695": {
+    "tagDescription": [
+      "I Organization (b) Meetings Organizational Meeting -Minto Correspondence - 1901"
+    ],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  },
+  "416": {
+    "tagDate": ["1947-01-01T00:00:00.000Z"],
+    "tagDescription": ["I Organization (b) Meetings Executive Council (1947)"]
+  },
+  "611": {
+    "tagDate": ["1901-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "I Organization (b) Meetings Organizational Meeting - 1901"
+    ]
+  },
+  "735": {
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "I Organization (b) Meetings Provincial Secretaries Conferences (1946-1958)"
+    ]
+  },
+  "82": {
+    "tagDescription": [
+      "I Organization (b) Meetings Alberta Tuberculosis Association Annual Meetings (1943 1944)"
+    ],
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1944-12-31T23:59:59.999Z]"]
+  },
+  "451": {
+    "tagDescription": ["I Organization (b) Meetings Minutes (1908-1924)"],
+    "tagDate": ["[1908-01-01T00:00:00.000Z TO 1924-12-31T23:59:59.999Z]"]
+  }
+}

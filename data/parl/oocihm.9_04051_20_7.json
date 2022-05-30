@@ -1,0 +1,11 @@
+{
+  "pubmin": "1887-04-13",
+  "label": "Documents parlementaires, 6e Législature, 1re Session : vol. 7",
+  "language": ["fra"],
+  "session": ["06-1"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "06-1", 7]],
+  "pubmax": "1887-06-23",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

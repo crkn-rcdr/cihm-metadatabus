@@ -1,0 +1,15 @@
+{
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-2 M843 A1 no.1-2",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Standing Committee on Multiculturalism and Citizenship, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent du multiculturalisme et de la citoyenneté, vol. 1 no. 1-2",
+  "pubmin": "1989-04-03",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 131],
+    ["fra", "c", "committees", "34-2", 138]
+  ],
+  "type": "committees"
+}

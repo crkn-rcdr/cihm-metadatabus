@@ -1,0 +1,11 @@
+{
+  "type": "sproc",
+  "pubmax": "1873-08-13",
+  "node": [["eng", "s", "sproc", "02-1", 1]],
+  "chamber": ["s"],
+  "pubmin": "1873-03-05",
+  "callNumber": "J103 H4 1873",
+  "label": "Senate Minutes of Proceedings, 2nd Parliament, 1st Session : 1-49",
+  "language": ["eng"],
+  "session": ["02-1"]
+}

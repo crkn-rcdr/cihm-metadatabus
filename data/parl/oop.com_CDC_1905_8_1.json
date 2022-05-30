@@ -1,0 +1,12 @@
+{
+  "callNumber": "1944/45 R48 A4",
+  "label": "Comités de la Chambre des communes, 19e Législature, 5e Session : Comité spécial de la restauration et du rétablissement, vol. 1",
+  "pubmin": "1944-01-27",
+  "session": ["19-5"],
+  "language": ["fra"],
+  "pubmax": "1945-01-31",
+  "node": [["fra", "c", "committees", "19-5", 10]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

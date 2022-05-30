@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "committees",
+  "pubmax": "1972-02-16",
+  "node": [
+    ["eng", "c", "committees", "28-3", 19],
+    ["fra", "c", "committees", "28-3", 24]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["28-3"],
+  "pubmin": "1970-10-08",
+  "callNumber": "1970/72 F55 A1 v.1",
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Finance, Trade and Economic Affairs, vol. 1 no. 1-30 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent des finances, du commerce et des questions économiques, vol. 1 no. 1-30"
+}

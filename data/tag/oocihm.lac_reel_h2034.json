@@ -1,0 +1,426 @@
+{
+  "433": { "tagName": ["Songbooks "], "tag": ["songbook"] },
+  "142": {
+    "tagDate": ["1955-28-01T00:00:00.000Z"],
+    "tagName": [
+      "Mrs J.H. Summerskill ; Mrs J.H. Cline ; Mrs. J.A. Phillips ; Mrs. C. Farlinger ; Mrs J.R. Boyes ; Mrs J.H.O. Armstrong Mrs J.M. Hawkes ; Mrs A.C. Bagg ",
+      "Mrs. Menzie ; Mrs. K. Depner ; Mrs. A.W. Bell ; Mrs. L.T. Allen "
+    ],
+    "tag": ["photograph"]
+  },
+  "896": {
+    "tagName": ["No Man is an Island ; Joan Whitney ; Alex Kramer"],
+    "tag": ["choral music ; sheet music "]
+  },
+  "21": {
+    "tagDate": ["1952-01-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": ["Mrs. J.L. Savage "]
+  },
+  "1103": {
+    "tagName": [
+      "The Study of the Bible in the Student Young Women's Christian Association"
+    ],
+    "tag": ["leaflet"]
+  },
+  "942": {
+    "tagName": ["Little Songs about UN ; Hy Zaret "],
+    "tag": ["United Nations ; music "]
+  },
+  "117": {
+    "tagDate": ["1955-01-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": ["Mrs Christine Gardiner"]
+  },
+  "71": {
+    "tagName": [
+      "Mrs H.L. Gale",
+      "Mrs. Theodore Ryniak",
+      "Mrs G.B. Grant",
+      "Ruth Sones",
+      "Gerry Grubb",
+      "Dr. Olga Jardine",
+      "Mae Brown ",
+      "Mrs R.E. Foster",
+      "June Murdock",
+      "Shirley Main",
+      "Mrs H.J. Sceats"
+    ],
+    "tag": ["photograph"],
+    "tagDate": ["1953-06-01T00:00:00.000Z"]
+  },
+  "75": {
+    "tag": ["photograph"],
+    "tagName": [
+      "Mildred Baily ; Blanche Rose ; Mrs. Mary Smallwood ; Mrs. F.G. Wylie ; Mrs. J Campbell ; Mrs J Boyd ; Mrs Margaret Hood ; Mrs C.C. Pratt ; Beatric Withycombe ; Mary Murray ; Vera Hum ; Mabel Young ; Dorothy Parrott "
+    ],
+    "tagDate": ["1953-06-01T00:00:00.000Z"]
+  },
+  "54": {
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tagName": [
+      "Miss Lea Withycombe ; Miss Beatrice Withy combe ; Miss Mabel Young; Miss Alma Richard ; Miss Jean Johnson ; Mrs H.L. Pottle, Mrs. Mary Smallwood ; Linda Legge ; Mrs C. C. Pratt ; Miss Mary Murray ",
+      "Mrs. Ryrie Smith"
+    ],
+    "tag": ["photograph"]
+  },
+  "921": {
+    "tagName": ["Little Song on Big Subjects"],
+    "tag": ["choral music"]
+  },
+  "29": {
+    "tagDate": ["1953-02-01T00:00:00.000Z", "1952-02-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Neighborhood Worker's Association, general secretary",
+      "Executive director, YWCA",
+      "Resistance worker"
+    ],
+    "tagName": [
+      "Helen Roberts ",
+      "Lillian Thomson",
+      "Madeleine Barot",
+      "Agnes Roy"
+    ],
+    "tag": ["photograph"]
+  },
+  "82": {
+    "tagDate": ["1930-10-01T00:00:00.000Z"],
+    "tagName": ["Miss Eleanor French", "Miss Marion Foster"],
+    "tag": ["photograph"]
+  },
+  "1055": { "tag": ["booklet"], "tagName": ["The Intercollegiate Department"] },
+  "79": { "tagName": ["Mrs. Jadwiga Bennich"], "tag": ["photograph"] },
+  "197": {
+    "tagDate": ["1957-05-01T00:00:00.000Z"],
+    "tagName": ["Mrs A. Rushby ; Mrs. F. Warburton "],
+    "tag": ["photograph"]
+  },
+  "139": {
+    "tagName": [
+      "Miss Margaret Hellig ; Mrs Archie Kerr ; Mrs S.H. Alexander ; Mrs. A.J. Polson"
+    ],
+    "tag": ["photograph"],
+    "tagDate": ["1955-03-01T00:00:00.000Z"]
+  },
+  "214": {
+    "tag": ["photograph"],
+    "tagName": ["Mrs. W.E. Nickle ; Mrs. Ralph Snider ; Mrs N.V. Carey"]
+  },
+  "852": {
+    "tagName": ["Chorals for Easter, Christmas, Mother's Day or General Use"]
+  },
+  "145": {
+    "tagName": [
+      "Mrs Cluny Macpherson ; Mrs J Boyd Baird ; Mrs H Cramm ; Mrs H.L. Pottle ; Mrs M.J. Pratt"
+    ],
+    "tag": ["photograph"],
+    "tagDate": ["1955-04-01T00:00:00.000Z"]
+  },
+  "1023": {
+    "tag": ["booklet"],
+    "tagName": ["The College Young Men's Christian Association "]
+  },
+  "72": {
+    "tagName": ["Ryrie Smith"],
+    "tag": ["photograph"],
+    "tagDate": ["1953-06-01T00:00:00.000Z"]
+  },
+  "47": {
+    "tagDate": ["1953-05-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": ["Mrs. J. Gordon Savage ; Karel Duzek ; Miss Agenes Roy"]
+  },
+  "289": { "tag": ["photograph"], "tagName": ["Mrs. Joseph L Reid"] },
+  "86": {
+    "tag": ["photograph"],
+    "tagName": [
+      "Rev. C. Gray Eakins ; Mayor E. M. Hawkins ; Miss Agnes Roy ; Mrs. James H. Fordham ; Mrs Vuchnick ; Miss Sharpe "
+    ],
+    "tagDate": ["1956-02-01T00:00:00.000Z"]
+  },
+  "939": {
+    "tag": ["United Nations ; music "],
+    "tagName": ["Little Songs about UN"]
+  },
+  "80": { "tag": ["photograph"], "tagName": ["Mrs. Harvey Agnew "] },
+  "229": { "tagName": ["Miss Kate Woodlord "], "tag": ["photograph"] },
+  "205": {
+    "tagName": [
+      "Mrs J Boyd Baird",
+      "Mrs John A Keay",
+      "Mrs F.A. Ford",
+      "Mrs E.I.W. Jardine",
+      "Mrs F Barclay Robinson"
+    ],
+    "tag": ["photograph"]
+  },
+  "175": {
+    "tag": ["photograph"],
+    "tagName": ["Mrs. Frank Applebe"],
+    "tagDate": ["1955-11-01T00:00:00.000Z"]
+  },
+  "1095": { "tagName": ["The Membership Department "], "tag": ["leaflet"] },
+  "862": { "tag": ["choral music "], "tagName": ["When Children Pray"] },
+  "1077": {
+    "tag": ["booklet"],
+    "tagName": [
+      "Detials of Two Remarkable Bible Study Campaigns During the College Yearm 1907-1908"
+    ]
+  },
+  "902": {
+    "tag": ["choral music "],
+    "tagName": [
+      "Songs from the Veld: 14 Songs from South Africa ; Josef Marais"
+    ]
+  },
+  "147": {
+    "tagName": ["Mrs. Ryrie Smith"],
+    "tag": ["photograph"],
+    "tagDate": ["1955-07-01T00:00:00.000Z"]
+  },
+  "602": { "tagName": ["Hymns and Songs"], "tag": ["Lyric book "] },
+  "50": {
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": ["Mrs. Ryrie Smith"]
+  },
+  "119": {
+    "tagDate": ["1955-01-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": ["Mrs. Dwight D. Eisenhower "]
+  },
+  "845": {
+    "tag": ["choral music"],
+    "tagName": ["Chorals for Easter, Christmas, Mother's Day or General Use"]
+  },
+  "19": {
+    "tag": ["photograph"],
+    "tagName": [
+      "Mrs. R.E. Foster",
+      "Mrs. Horace Johnson",
+      "Mrs. M.A. Parker ",
+      "Mrs. H.L. Pottle "
+    ],
+    "tagDate": ["1951-11-01T00:00:00.000Z"],
+    "tagDescription": ["  "]
+  },
+  "112": {
+    "tag": ["photograph"],
+    "tagName": [
+      "Mrs. Sadie M. Loverine ; Mrs C. Redfern ; Mrs. W. P. Roy ; Mrs C. Petillion ; Mrs J.A. Mason "
+    ]
+  },
+  "876": {
+    "tag": ["choral music ; sheet music "],
+    "tagName": ["Devotion in Motion ; Carola Bell Williams "]
+  },
+  "162": {
+    "tagName": ["Linda Kruus", "Margeret Ko", "Inez McTaggart", "Dorritt Bent"],
+    "tag": ["photograph"]
+  },
+  "77": {
+    "tagDate": ["1953-07-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": [
+      "Miss Laura Van Every ",
+      "Ma Hon Lin",
+      "Miss VanSlooten ",
+      "Miss Mary Barker"
+    ]
+  },
+  "42": {
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tagDescription": ["Candid image of Young Women's Christian Association"],
+    "tagName": ["Congres Tenu a Quebec"],
+    "tag": ["photograph"]
+  },
+  "65": {
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tagName": ["Beth Ann Joy ; Dora Christoff "],
+    "tag": ["photograph"]
+  },
+  "60": {
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tagName": [
+      "Francesca Meye",
+      "Lady Walsh",
+      "Mrs. M. Ishibashi",
+      "Senora Soza de Veida ; Senorita Carmen de Velis ",
+      "Mrs. Ahmad Shah",
+      "Jeanne Davidson ",
+      "Beatrice Pelsis ",
+      "Mrs. Daniela Mitescu ",
+      "Marie Vassill"
+    ],
+    "tag": ["photograph"]
+  },
+  "207": {
+    "tag": ["photograph"],
+    "tagName": ["Mrs. Helen Margison", "Mrs. M.N. Nuchnich"]
+  },
+  "1032": {
+    "tag": ["booklet"],
+    "tagName": ["The President of the College Association"]
+  },
+  "193": {
+    "tagDate": ["1957-05-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": [
+      "Miss Dorritt Bent",
+      "Mrs H.M. Estall ; Miss Doreen Somerville ; Miss Susan Corquodale ; Miss Marguerite Savage "
+    ]
+  },
+  "169": {
+    "tag": ["photograph"],
+    "tagName": ["Dr Marion Hilliard "],
+    "tagDate": ["1955-11-01T00:00:00.000Z"]
+  },
+  "243": {
+    "tagName": ["Mrs. Eva Munro ; Mrs. Earl Johnson"],
+    "tag": ["photograph"]
+  },
+  "844": {
+    "tag": ["sheet music "],
+    "tagName": ["Carols : From the Oxford Book of Carols"]
+  },
+  "150": {
+    "tagDate": ["1955-23-01T00:00:00.000Z"],
+    "tagName": ["Muriel Gideon", "Mrs J Harirajan  ", "Evangelina McDowell"],
+    "tag": ["photograph"]
+  },
+  "166": {
+    "tagDate": ["1953-11-01T00:00:00.000Z"],
+    "tagName": ["Isabel Cato"],
+    "tag": ["photograph"]
+  },
+  "52": {
+    "tag": ["photograph"],
+    "tagName": ["Mrs. C.V. Emerson"],
+    "tagDate": ["1953-06-01T00:00:00.000Z"]
+  },
+  "68": {
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": [
+      "Mrs Barbara Tunis ; Miss Jean Wimmer ; Joyce Roberts ; Carolyn Crawford ; Joanna Walier"
+    ]
+  },
+  "1062": {
+    "tagName": ["Bible Study for Personal Spiritual Growth"],
+    "tag": ["booklet"]
+  },
+  "171": {
+    "tag": ["photograph"],
+    "tagName": ["Dr Marion Hilliard ", "Ryrie Smith"],
+    "tagDate": ["1955-11-01T00:00:00.000Z"]
+  },
+  "73": {
+    "tag": ["photograph"],
+    "tagName": ["Miss Beatrice Pelsis "],
+    "tagDate": ["1953-06-01T00:00:00.000Z"]
+  },
+  "1108": {
+    "tagName": [
+      "The Cabinet and Committee Work of the Student Young Women's Christian Association"
+    ],
+    "tag": ["leaflet"]
+  },
+  "1087": {
+    "tagName": [
+      "Student Bible Study Department International Committee of Young Men's Christian Associations 124 East Twenty-Eights St. New York"
+    ],
+    "tag": ["booklet"]
+  },
+  "32": {
+    "tagName": ["Mary Wollanston; Mildred Howard"],
+    "tag": ["photograph"],
+    "tagDate": ["1953-02-01T00:00:00.000Z"]
+  },
+  "137": {
+    "tagDate": ["1955-03-01T00:00:00.000Z"],
+    "tagName": ["Marjorie Flett ; Pearie Burns"],
+    "tag": ["photograph"]
+  },
+  "148": { "tag": ["photograph"], "tagName": ["Florence Christian "] },
+  "40": {
+    "tagName": [
+      "Miss Lea Withycombe ; Miss Beatric Withy combe ; Miss Mabel Young ; Miss Alma Richards ; Miss Jean Johnson ; Mrs. H. L. Pottle, Mrs. Mary Smallwood ; Miss Linda Legge ; Mrs. C. C. Pratt ; Miss Mary Murray "
+    ],
+    "tag": ["photograph"],
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tagDescription": ["Y.W.C.A. Convention  "]
+  },
+  "45": {
+    "tagName": ["Mrs. J. Gordon Savage", "Mrs. Eric Ansely"],
+    "tag": ["photograph"],
+    "tagDate": ["1953-05-01T00:00:00.000Z"]
+  },
+  "62": {
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": [
+      "Martha Brown ; Yda L'Estrange ; Muriel Smith ",
+      "E. E. Brockelbank",
+      "Margaret Kennedy",
+      "Mrs H. ",
+      "Lois McLeod",
+      "Mrs. A. J. Richards",
+      "Mrs. E.A. Kidd",
+      "J Kazmar",
+      "Mrs. M. Gardiner",
+      "Mrs. R. H. Livingston",
+      "Mrs M. Waite",
+      "Betty Lou Birham",
+      "Mrs. D.M. McLean",
+      "Mavis Thurlby",
+      "Mrs. R. Woods",
+      "Isabel Mack",
+      "Mrs. C.W. Farstad",
+      "Mrs. K., G. Murison",
+      "Janet Haney",
+      "Irene Chapman"
+    ]
+  },
+  "956": {
+    "tag": ["pamphlet"],
+    "tagName": [
+      "Dominion Council Young Women's Christian Association ; Lady Falconder ; Miss Una M. Saunders ; Miss Margaret Nairn"
+    ]
+  },
+  "310": {
+    "tag": ["photograph"],
+    "tagName": ["Mrs. Robert Watts", "Mrs. Norman Pentecost "]
+  },
+  "227": { "tag": ["photograph"], "tagName": ["Mrs. Eva Munro"] },
+  "233": {
+    "tagName": ["Mrs. John Munro ; Mrs Eva Munro", "Mrs. Holmes ; Judi Crerar"],
+    "tag": ["photograph"]
+  },
+  "774": {
+    "tag": ["illustrated poem"],
+    "tagName": ["Song of the Chang River ; Yuan Chang-ching ; Wug Ching-po"]
+  },
+  "92": {
+    "tagDate": ["1955-11-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": ["Dr. Marion Hilliard"]
+  },
+  "195": {
+    "tag": ["photograph"],
+    "tagName": ["Miss Dorritt Bent"],
+    "tagDate": ["1957-05-01T00:00:00.000Z"]
+  },
+  "656": { "tagName": ["Song tunes "], "tag": ["songbook ; piano music "] },
+  "58": {
+    "tagDate": ["1953-06-01T00:00:00.000Z"],
+    "tag": ["photograph"],
+    "tagName": ["Mrs. Ryrie Smith"]
+  },
+  "740": { "tagName": ["Sing Along the Way"], "tag": ["songbook"] },
+  "695": { "tagName": ["Y-teens Song book "], "tag": ["songbook"] },
+  "38": {
+    "tag": ["photograph"],
+    "tagName": ["Francesca Meye", "Mrs. Edward Roberts"],
+    "tagDate": ["1953-06-01T00:00:00.000Z"]
+  }
+}

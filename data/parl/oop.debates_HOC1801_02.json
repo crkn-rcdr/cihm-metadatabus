@@ -1,0 +1,11 @@
+{
+  "pubmin": "1936-02-06",
+  "label": "House of Commons Debates, 18th Parliament, 1st Session : Vol. 2",
+  "language": ["eng"],
+  "session": ["18-1"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "18-1", 2]],
+  "pubmax": "1936-06-23",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

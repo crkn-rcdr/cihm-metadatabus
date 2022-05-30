@@ -1,0 +1,10 @@
+{
+  "language": ["eng"],
+  "session": ["08-4"],
+  "pubmin": "1899-03-16",
+  "label": "Senate Journals, 8th Parliament, 4th Session : Vol. 34",
+  "chamber": ["s"],
+  "type": "journals",
+  "pubmax": "1899-08-11",
+  "node": [["eng", "s", "journals", "08-4", 1]]
+}

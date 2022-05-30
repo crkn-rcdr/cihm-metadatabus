@@ -1,0 +1,15 @@
+{
+  "callNumber": "KE72 C36 29-1 C2-C100",
+  "label": "House of Commons Bills, 29th Parliament, 1st Session : C2-C100 = Projets de loi de la Chambre des communes, 29e Législature, 1re Session : C2-C100",
+  "pubmin": "1973-01-04",
+  "session": ["29-1"],
+  "language": ["eng", "fra"],
+  "pubmax": "1974-02-26",
+  "node": [
+    ["eng", "c", "bills", "29-1", 1],
+    ["fra", "c", "bills", "29-1", 1]
+  ],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

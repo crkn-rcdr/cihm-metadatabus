@@ -1,0 +1,15 @@
+{
+  "pubmax": "1977-10-17",
+  "node": [
+    ["fra", "c", "committees", "30-2", 33],
+    ["fra", "s", "committees", "30-2", 14]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "callNumber": "1976/77 R48 A12 no.2",
+  "label": "Comités mixtes, 30e Législature, 2e Session : Comité mixte permanent des règlements et autres textes réglementaires, Rapport",
+  "pubmin": "1976-10-12",
+  "session": ["30-2"],
+  "language": ["fra"]
+}

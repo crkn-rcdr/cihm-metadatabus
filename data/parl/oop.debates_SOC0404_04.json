@@ -1,0 +1,10 @@
+{
+  "pubmin": "1882-02-09",
+  "label": "Senate Debates, 4th Parliament, 4th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["04-4"],
+  "type": "debates",
+  "pubmax": "1882-05-17",
+  "node": [["eng", "s", "debates", "04-4", 1]],
+  "chamber": ["s"]
+}

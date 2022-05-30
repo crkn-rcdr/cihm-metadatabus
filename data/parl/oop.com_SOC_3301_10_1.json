@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Senate Committee on Transport and Communications, vol. 1 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent des transports et des communications, vol. 1",
+  "callNumber": "33-1 T73 A1",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "33-1", 36],
+    ["fra", "s", "committees", "33-1", 40]
+  ],
+  "pubmax": "1986-08-28"
+}

@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Clark, Charles Joseph",
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "c", "committees", "31-1", 20],
+    ["fra", "c", "committees", "31-1", 20]
+  ],
+  "type": "committees",
+  "session": ["31-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "1979 T7 A1 v.2",
+  "label": "House of Commons Committees, 31st Parliament, 1st Session : Standing Committee on Transport and Communications, vol. 2 no. 11-16 = Comités de la Chambre des communes, 31e Législature, 1re Session : Comité permanent des transports et des communications, vol. 2 no. 11-16",
+  "pubmin": "1979-10-09"
+}

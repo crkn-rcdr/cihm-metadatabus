@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "type": "orders",
+  "pubmax": "1978-10-10",
+  "node": [
+    ["eng", "c", "orders", null, 16],
+    ["fra", "c", "orders", null, 16]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["30-3"],
+  "pubmin": "1977-10-18",
+  "callNumber": "JL164.4 1978",
+  "label": "Standing Orders of the House of Commons, 1978 = Règlement de la Chambre des communes, 1978"
+}

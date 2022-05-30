@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "24-3", 11]],
+  "pubmax": "1960-08-10",
+  "type": "committees",
+  "session": ["24-3"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 24e Législature, 3e Session : Comité spécial des dépenses aux fins de la défense, vol. 1",
+  "callNumber": "1960 D4 A4",
+  "pubmin": "1960-01-14"
+}

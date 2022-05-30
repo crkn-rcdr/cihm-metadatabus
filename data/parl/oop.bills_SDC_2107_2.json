@@ -1,0 +1,11 @@
+{
+  "session": ["21-7"],
+  "language": ["fra"],
+  "label": "Projets de loi du Sénat, 21e Législature, 7e Session : A1-Z5",
+  "callNumber": "KE72 C381 21-7 v.2",
+  "pubmin": "1952-11-20",
+  "chamber": ["s"],
+  "node": [["fra", "s", "bills", "21-7", 2]],
+  "pubmax": "1953-05-14",
+  "type": "bills"
+}

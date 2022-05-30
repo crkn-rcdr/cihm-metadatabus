@@ -1,0 +1,10 @@
+{
+  "pubmin": "1966-01-18",
+  "label": "Senate Journals, 27th Parliament, 1st Session : Vol. 113 Pt. 2",
+  "language": ["eng"],
+  "session": ["27-1"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "27-1", 2]],
+  "pubmax": "1967-05-08",
+  "chamber": ["s"]
+}

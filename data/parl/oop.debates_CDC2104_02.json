@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 21e Législature, 4e Session : Vol. 2",
+  "pubmin": "1951-01-30",
+  "session": ["21-4"],
+  "language": ["fra"],
+  "node": [["fra", "c", "debates", "21-4", 2]],
+  "pubmax": "1951-10-09",
+  "type": "debates",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

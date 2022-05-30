@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["08-1"],
+  "pubmin": "1896-08-19",
+  "label": "Journaux de la Chambre des communes, 8e Législature, 1re Session : Vol. 31 App.",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "type": "journals",
+  "pubmax": "1896-10-05",
+  "node": [["fra", "c", "journals", "08-1", 2]]
+}

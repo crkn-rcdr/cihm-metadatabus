@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "24-3", 8],
+    ["eng", "s", "committees", "24-3", 4]
+  ],
+  "pubmax": "1960-08-10",
+  "language": ["eng"],
+  "session": ["24-3"],
+  "pubmin": "1960-01-14",
+  "label": "Joint Committees, 24th Parliament, 3rd Session : Joint Committee on Indian Affairs, vol. 1",
+  "callNumber": "1960 I53 A1"
+}

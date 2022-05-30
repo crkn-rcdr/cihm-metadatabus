@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["s", "c"],
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "07-4", 1],
+    ["eng", "c", "bills", "07-4", 1]
+  ],
+  "pubmax": "1894-07-23",
+  "language": ["eng"],
+  "session": ["07-4"],
+  "pubmin": "1894-03-15",
+  "label": "Senate and House of Commons Bills, 7th Parliament, 4th Session : A-JJ, 2-170",
+  "callNumber": "KE72 C36 7-4 no.2-140 no.A-JJ"
+}

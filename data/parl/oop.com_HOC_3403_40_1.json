@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "callNumber": "34-3 F35 A1 no.1-2",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee on Bill C-95, an Act to continue the Farm Credit Corporation and to repeal certain Acts in consequence thereof, vol. 1 no. 1-2 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif sur le projet de loi C-95, Loi prorogeant la Société de crédit agricole et abrogeant certaines lois en conséquence, vol. 1 no. 1-2",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 77],
+    ["fra", "c", "committees", "34-3", 205]
+  ]
+}

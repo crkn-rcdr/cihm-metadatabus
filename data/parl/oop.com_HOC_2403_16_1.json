@@ -1,0 +1,12 @@
+{
+  "callNumber": "1960 P76 A12",
+  "label": "House of Commons Committees, 24th Parliament, 3rd Session : Special Committee appointed to consider with Mr. Speaker the procedure of the House of Commons, vol. 1",
+  "pubmin": "1960-01-14",
+  "session": ["24-3"],
+  "language": ["eng"],
+  "pubmax": "1960-08-10",
+  "node": [["eng", "c", "committees", "24-3", 11]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

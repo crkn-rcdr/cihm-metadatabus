@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 22e Législature, 5e Session : Vol. 2",
+  "pubmin": "1957-01-08",
+  "session": ["22-5"],
+  "language": ["fra"],
+  "pubmax": "1957-04-12",
+  "node": [["fra", "c", "debates", "22-5", 2]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

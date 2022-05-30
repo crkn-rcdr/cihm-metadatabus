@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "11-1", 1]],
+  "pubmax": "1909-05-19",
+  "type": "journals",
+  "session": ["11-1"],
+  "language": ["eng"],
+  "label": "Senate Journals, 11th Parliament, 1st Session : Vol. 44",
+  "pubmin": "1909-01-20"
+}

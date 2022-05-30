@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1961-09-29",
+  "node": [["eng", "c", "debates", "24-4", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmin": "1960-11-17",
+  "label": "House of Commons Debates, 24th Parliament, 4th Session : Vol. 2",
+  "language": ["eng"],
+  "session": ["24-4"]
+}

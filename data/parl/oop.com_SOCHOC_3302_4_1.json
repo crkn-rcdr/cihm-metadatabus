@@ -1,0 +1,17 @@
+{
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 159],
+    ["fra", "c", "committees", "33-2", 96],
+    ["eng", "s", "committees", "33-2", 42],
+    ["fra", "s", "committees", "33-2", 26]
+  ],
+  "type": "committees",
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-2 R48 A1 no.21-29",
+  "label": "Joint Committees, 33rd Parliament, 2nd Session : Standing Joint Committee on Regulatory Scrutiny (Formerly the Standing Joint Committee on Regulations and other Statutory Instruments, vol. 2 = Comités mixtes, 33e Législature, 2e Session : Comité mixte permanent d'examen réglementaire (Auparavant le Comité mixte permanent des règlements et autres textes réglementaires), vol. 2",
+  "pubmin": "1986-09-30"
+}

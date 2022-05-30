@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1891-09-30",
+  "node": [["eng", "s", "journals", "07-1", 2]],
+  "type": "journals",
+  "session": ["07-1"],
+  "language": ["eng"],
+  "label": "Senate Journals, 7th Parliament, 1st Session : Vol. 25 App.",
+  "pubmin": "1891-04-29"
+}

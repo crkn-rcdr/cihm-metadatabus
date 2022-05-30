@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "05-4", 1]],
+  "pubmax": "1886-06-02",
+  "language": ["fra"],
+  "session": ["05-4"],
+  "pubmin": "1886-02-25",
+  "label": "Débats de la Chambre des communes, 5e Législature, 4e Session : Vol. 1"
+}

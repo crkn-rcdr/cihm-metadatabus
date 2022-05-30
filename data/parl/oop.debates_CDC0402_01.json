@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "node": [["fra", "c", "debates", "04-2", 1]],
+  "pubmax": "1880-05-07",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "pubmin": "1880-02-12",
+  "label": "Débats de la Chambre des communes, 4e Législature, 2e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["04-2"]
+}

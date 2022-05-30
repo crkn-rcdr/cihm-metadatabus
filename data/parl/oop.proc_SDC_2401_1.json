@@ -1,0 +1,11 @@
+{
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "24-1", 1]],
+  "pubmax": "1958-09-06",
+  "chamber": ["s"],
+  "pubmin": "1958-05-12",
+  "label": "Procès-verbaux du Sénat, 24e Législature, 1re Session : 1-59",
+  "callNumber": "J103 H43 1958",
+  "language": ["fra"],
+  "session": ["24-1"]
+}

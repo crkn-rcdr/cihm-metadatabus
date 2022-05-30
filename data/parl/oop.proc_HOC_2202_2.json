@@ -1,0 +1,12 @@
+{
+  "callNumber": "J103 H41 1955 v.2 c.2",
+  "label": "House of Commons Votes and Proceedings, 22nd Parliament, 2nd Session : 66-140",
+  "pubmin": "1955-01-07",
+  "session": ["22-2"],
+  "language": ["eng"],
+  "pubmax": "1955-07-28",
+  "node": [["eng", "c", "cproc", "22-2", 2]],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen"
+}

@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["29-1"],
+  "pubmin": "1973-01-04",
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Indian Affairs and Northern Development, vol. 2 no. 23-33 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent des affaires indiennes et du développement du Nord canadien, vol. 2 no. 23-33",
+  "callNumber": "1973/74 I5 A1 v.2",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "29-1", 9],
+    ["fra", "c", "committees", "29-1", 4]
+  ],
+  "pubmax": "1974-02-26"
+}

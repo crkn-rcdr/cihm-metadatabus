@@ -1,0 +1,15 @@
+{
+  "pubmin": "1972-02-17",
+  "callNumber": "1972 L2 A1 v.1",
+  "label": "House of Commons Committees, 28th Parliament, 4th Session : Standing Committee on Labour, Manpower and Immigration, vol. 1 no. 1-14 = Comités de la Chambre des communes, 28e Législature, 4e Session : Comité permanent du travail, de la main-d'oeuvre et de l'immigration, vol. 1 no. 1-14",
+  "language": ["eng", "fra"],
+  "session": ["28-4"],
+  "type": "committees",
+  "pubmax": "1972-09-01",
+  "node": [
+    ["eng", "c", "committees", "28-4", 11],
+    ["fra", "c", "committees", "28-4", 19]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

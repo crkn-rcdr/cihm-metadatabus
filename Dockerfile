@@ -32,6 +32,7 @@ RUN cpanm -n --installdeps . && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/
 COPY CIHM-Normalise CIHM-Normalise
 COPY CIHM-Meta CIHM-Meta
 COPY CIHM-Swift CIHM-Swift
+COPY data data
 
 ENV PERL5LIB /home/tdr/CIHM-Meta/lib:/home/tdr/CIHM-Normalise/lib:/home/tdr/CIHM-Swift/lib
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/tdr/CIHM-Meta/bin:/home/tdr/CIHM-Swift/bin

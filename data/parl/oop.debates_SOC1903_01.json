@@ -1,0 +1,10 @@
+{
+  "language": ["eng"],
+  "session": ["19-3"],
+  "pubmin": "1942-01-22",
+  "label": "Senate Debates, 19th Parliament, 3rd Session : Vol. 1",
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1943-01-27",
+  "node": [["eng", "s", "debates", "19-3", 1]]
+}

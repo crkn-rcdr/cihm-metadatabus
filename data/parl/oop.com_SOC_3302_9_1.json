@@ -1,0 +1,14 @@
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "s", "committees", "33-2", 28],
+    ["fra", "s", "committees", "33-2", 39]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 M36 A1",
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Senate Task Force on the Meech Lake Constitutional Accord and on the Yukon and the Northwest Territories, vol. 1 = Comités du Sénat, 33e Législature, 2e Session : Groupe de travail du Sénat sur l'Entente constitutionnelle du lac Meech et sur le Yukon et les Territoires du Nord-Ouest, vol. 1"
+}

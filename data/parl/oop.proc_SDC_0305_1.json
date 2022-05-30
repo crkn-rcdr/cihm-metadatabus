@@ -1,0 +1,11 @@
+{
+  "pubmin": "1878-02-07",
+  "callNumber": "J103 H43 1878",
+  "label": "Procès-verbaux du Sénat, 3e Législature, 5e Session : 1-59",
+  "language": ["fra"],
+  "session": ["03-5"],
+  "type": "sproc",
+  "pubmax": "1878-05-10",
+  "node": [["fra", "s", "sproc", "03-5", 1]],
+  "chamber": ["s"]
+}

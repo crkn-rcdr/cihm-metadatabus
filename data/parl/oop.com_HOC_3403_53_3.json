@@ -1,0 +1,15 @@
+{
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Human Rights and the Status of Disabled Persons, vol. 3 no. 25-39 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent des droits de la personne et de la condition des personnes handicapées, vol. 3 no. 25-39",
+  "callNumber": "34-3 H792 A1 no.25-39",
+  "pubmin": "1991-05-13",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [
+    ["eng", "c", "committees", "34-3", 112],
+    ["fra", "c", "committees", "34-3", 80]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees"
+}

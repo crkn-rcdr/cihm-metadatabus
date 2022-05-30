@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "07-1", 1]],
+  "pubmax": "1891-09-30",
+  "language": ["eng"],
+  "session": ["07-1"],
+  "pubmin": "1891-04-29",
+  "label": "Senate Minutes of Proceedings, 7th Parliament, 1st Session : 1-78",
+  "callNumber": "J103 H4 1891"
+}

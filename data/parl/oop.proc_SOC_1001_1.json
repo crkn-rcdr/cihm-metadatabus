@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["10-1"],
+  "pubmin": "1905-01-11",
+  "label": "Senate Minutes of Proceedings, 10th Parliament, 1st Session : 1-68",
+  "callNumber": "J103 H4 1905",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["eng", "s", "sproc", "10-1", 1]],
+  "pubmax": "1905-07-20"
+}

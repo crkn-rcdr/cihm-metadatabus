@@ -1,0 +1,12 @@
+{
+  "node": [["eng", "c", "bills", "18-4", 1]],
+  "pubmax": "1939-06-03",
+  "type": "bills",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "label": "House of Commons Bills, 18th Parliament, 4th Session : 2-146",
+  "callNumber": "KE72 C36 18-4 2-146",
+  "pubmin": "1939-01-12",
+  "session": ["18-4"],
+  "language": ["eng"]
+}

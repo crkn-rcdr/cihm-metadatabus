@@ -1,0 +1,11 @@
+{
+  "session": ["22-2"],
+  "language": ["fra"],
+  "label": "Projets de loi du Sénat, 22e Législature, 2e Session : A5-Z9",
+  "callNumber": "KE72 C381 22-2 v.2",
+  "pubmin": "1955-01-07",
+  "chamber": ["s"],
+  "node": [["fra", "s", "bills", "22-2", 2]],
+  "pubmax": "1955-07-28",
+  "type": "bills"
+}

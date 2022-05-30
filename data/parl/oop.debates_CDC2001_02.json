@@ -1,0 +1,11 @@
+{
+  "pubmin": "1945-09-06",
+  "label": "Débats de la Chambre des communes, 20e Législature, 1re Session : Vol. 2",
+  "language": ["fra"],
+  "session": ["20-1"],
+  "type": "debates",
+  "pubmax": "1945-12-18",
+  "node": [["fra", "c", "debates", "20-1", 2]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

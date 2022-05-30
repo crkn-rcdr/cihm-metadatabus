@@ -1,0 +1,11 @@
+{
+  "callNumber": "1960/61 M3 A1 v.2",
+  "label": "Senate Committees, 24th Parliament, 4th Session : Special Committee on Manpower and Employment, vol. 2",
+  "pubmin": "1960-11-17",
+  "session": ["24-4"],
+  "language": ["eng"],
+  "pubmax": "1961-09-29",
+  "node": [["eng", "s", "committees", "24-4", 7]],
+  "type": "committees",
+  "chamber": ["s"]
+}

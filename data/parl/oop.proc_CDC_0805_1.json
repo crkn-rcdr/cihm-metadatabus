@@ -1,0 +1,12 @@
+{
+  "session": ["08-5"],
+  "language": ["fra"],
+  "callNumber": "J103 H44 1900",
+  "label": "Procès-verbaux de la Chambre des communes, 8e Législature, 5e Session : 1-115",
+  "pubmin": "1900-02-01",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "pubmax": "1900-07-18",
+  "node": [["fra", "c", "cproc", "08-5", 1]],
+  "type": "cproc"
+}

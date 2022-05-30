@@ -1,0 +1,40 @@
+{
+  "759": {
+    "tagDate": ["[1884-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Nile Voyageur Contingent"]
+  },
+  "552": {
+    "tagDescription": ["Nile Voyageur Contingent"],
+    "tagDate": ["[1884-01-01T00:00:00.000Z TO 1887-12-31T23:59:59.999Z]"]
+  },
+  "1803": {
+    "tagDate": ["[1886-01-01T00:00:00.000Z TO 1929-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Nile Voyageur Contingent"]
+  },
+  "325": {
+    "tagDescription": ["Dismissals from the Public Service. Cases"],
+    "tagDate": ["[1896-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"]
+  },
+  "1018": {
+    "tagDescription": [
+      "Nile Voyageur Contingent (Detachment issue sheets. Khedives Bronze Star. Vouchers and correspondence"
+    ],
+    "tagDate": ["1888-01-01T00:00:00.000Z"]
+  },
+  "862": {
+    "tagDescription": [
+      "Nile Voyageur Contingent (Detachment issue sheets. Medals)"
+    ],
+    "tagDate": ["[1886-01-01T00:00:00.000Z TO 1888-12-31T23:59:59.999Z]"]
+  },
+  "1331": {
+    "tagDate": ["1885-01-01T00:00:00.000Z"],
+    "tagDescription": ["Nile Voyageur Contingent"]
+  },
+  "1280": {
+    "tagDescription": [
+      "Nile Voyageur Contingent (Gordon Relief Expedition. Precis of Correspondence  1884 to 1889)"
+    ],
+    "tagDate": ["[1884-01-01T00:00:00.000Z TO 1889-12-31T23:59:59.999Z]"]
+  }
+}

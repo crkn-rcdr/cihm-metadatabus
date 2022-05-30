@@ -1,0 +1,51 @@
+{
+  "1915": {
+    "tagDescription": ["Prints Naval Vessels on the Great lakes (Prints 1-19)"],
+    "tagDate": ["[1892-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"]
+  },
+  "411": {
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1915-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Fisheries in inland waters contiguous to Canada and the United States. Treaty of 1908"
+    ]
+  },
+  "1773": {
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1934-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Boundary between United States and Canada. Treaty of 1925"
+    ]
+  },
+  "1362": {
+    "tagDate": ["[1906-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Demarcation of Boundaries - Treaty of 1908 - Passamaguoddy Bay (Maine Boundary) - Maps - Construction of tramway on Boundary line - Claim of Andrew Benson, 1914"
+    ]
+  },
+  "17": {
+    "tagDate": ["[1898-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Appointment of joint High Commission to adjust outstanding differences between Canada and the United States. "
+    ]
+  },
+  "1064": {
+    "tagDate": ["[1900-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Demarcation of Boundary line between Canada and the United States Restoration of Dilapidated monuments"
+    ]
+  },
+  "1166": {
+    "tagDescription": ["Printed documents re Canada and United States border"],
+    "tagDate": ["[1908-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"]
+  },
+  "995": {
+    "tagDate": ["[1870-01-01T00:00:00.000Z TO 1871-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Boundary line between Detroit River and River St Clair. Case of Hiram Little Maps of the 49th parallel of latitude"
+    ]
+  },
+  "1871": {
+    "tagDescription": [
+      "Treaty for conveyance of Prisoners and relating to wrecking and salvage."
+    ]
+  }
+}

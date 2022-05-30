@@ -1,0 +1,11 @@
+{
+  "pubmin": "1900-02-01",
+  "label": "Journaux de la Chambre des communes, 8e Législature, 5e Session : Vol. 35 App.",
+  "language": ["fra"],
+  "session": ["08-5"],
+  "type": "journals",
+  "node": [["fra", "c", "journals", "08-5", 2]],
+  "pubmax": "1900-07-18",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

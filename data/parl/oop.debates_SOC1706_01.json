@@ -1,0 +1,10 @@
+{
+  "pubmin": "1935-01-17",
+  "label": "Senate Debates, 17th Parliament, 6th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["17-6"],
+  "type": "debates",
+  "pubmax": "1935-07-05",
+  "node": [["eng", "s", "debates", "17-6", 1]],
+  "chamber": ["s"]
+}

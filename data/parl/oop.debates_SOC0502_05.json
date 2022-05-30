@@ -1,0 +1,10 @@
+{
+  "session": ["05-2"],
+  "language": ["eng"],
+  "label": "Senate Debates, 5th Parliament, 2nd Session : Vol. 1",
+  "pubmin": "1884-01-17",
+  "chamber": ["s"],
+  "node": [["eng", "s", "debates", "05-2", 1]],
+  "pubmax": "1884-04-19",
+  "type": "debates"
+}

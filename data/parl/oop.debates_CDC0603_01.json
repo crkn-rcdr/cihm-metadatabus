@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1889-05-02",
+  "node": [["fra", "c", "debates", "06-3", 1]],
+  "type": "debates",
+  "session": ["06-3"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 6e Législature, 3e Session : Vol. 1",
+  "pubmin": "1889-01-31"
+}

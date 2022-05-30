@@ -1,0 +1,11 @@
+{
+  "session": ["01-5"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 1st Parliament, 5th Session : vol. 2",
+  "pubmin": "1872-04-11",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "sessional", "01-5", 2]],
+  "pubmax": "1872-06-14",
+  "type": "sessional"
+}

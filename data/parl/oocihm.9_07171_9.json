@@ -1,0 +1,11 @@
+{
+  "type": "journals",
+  "node": [["eng", "c", "journals", "03-2", 1]],
+  "pubmax": "1875-04-08",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"],
+  "pubmin": "1875-02-04",
+  "label": "House of Commons Journals, 3rd Parliament, 2nd Session : Vol. 9",
+  "language": ["eng"],
+  "session": ["03-2"]
+}

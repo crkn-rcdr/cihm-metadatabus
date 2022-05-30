@@ -1,0 +1,10 @@
+{
+  "pubmin": "1939-01-12",
+  "label": "Senate Journals, 18th Parliament, 4th Session : Vol. 77",
+  "language": ["eng"],
+  "session": ["18-4"],
+  "type": "journals",
+  "node": [["eng", "s", "journals", "18-4", 1]],
+  "pubmax": "1939-06-03",
+  "chamber": ["s"]
+}

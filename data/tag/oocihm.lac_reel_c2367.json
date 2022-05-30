@@ -1,0 +1,37 @@
+{
+  "631": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDate": ["1926-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Succession Honore Mayrand, 1926 (Mayrand etait le beau-frere de Lomer Gouin)"
+    ]
+  },
+  "837": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDescription": ["Tarif en general."]
+  },
+  "867": {
+    "tagDescription": ["Tarif en general."],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  },
+  "566": {
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ],
+    "tagDate": ["[1926-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Souscriptions, 1926-1928"]
+  },
+  "6": {
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Souscriptions, 1924-1925"],
+    "tagNotebook": [
+      "3. Memoires,notes et journaux, 1922-1929 (vols. 40-66) 9 pieds"
+    ]
+  }
+}

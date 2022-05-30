@@ -1,0 +1,10 @@
+{
+  "type": "debates",
+  "pubmax": "1933-05-27",
+  "node": [["eng", "s", "debates", "17-4", 1]],
+  "chamber": ["s"],
+  "pubmin": "1932-10-06",
+  "label": "Senate Debates, 17th Parliament, 4th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["17-4"]
+}

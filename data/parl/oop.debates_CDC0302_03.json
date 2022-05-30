@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["03-2"],
+  "pubmin": "1875-02-04",
+  "label": "Débats de la Chambre des communes, 3e Législature, 2e Session : Vol. 1",
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "03-2", 1]],
+  "pubmax": "1875-04-08"
+}

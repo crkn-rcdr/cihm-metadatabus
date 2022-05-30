@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["05-1"],
+  "pubmin": "1883-02-08",
+  "callNumber": "J103 H4 1883",
+  "label": "Senate Minutes of Proceedings, 5th Parliament, 1st Session : 1-61",
+  "chamber": ["s"],
+  "type": "sproc",
+  "pubmax": "1883-05-27",
+  "node": [["eng", "s", "sproc", "05-1", 1]]
+}

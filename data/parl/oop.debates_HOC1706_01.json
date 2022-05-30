@@ -1,0 +1,11 @@
+{
+  "session": ["17-6"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 17th Parliament, 6th Session : Vol. 1",
+  "pubmin": "1935-01-17",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "pubmax": "1935-07-05",
+  "node": [["eng", "c", "debates", "17-6", 1]],
+  "type": "debates"
+}

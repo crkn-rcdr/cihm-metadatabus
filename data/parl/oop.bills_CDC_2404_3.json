@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "24-4", 3]],
+  "pubmax": "1961-09-29",
+  "language": ["fra"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "label": "Projets de loi de la Chambre des communes, 24e Législature, 4e Session : C115-C132",
+  "callNumber": "KE72 C361 24-4 C115-C132"
+}

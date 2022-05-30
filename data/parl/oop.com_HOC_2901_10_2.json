@@ -1,0 +1,15 @@
+{
+  "label": "House of Commons Committees, 29th Parliament, 1st Session : Standing Committee on Miscellaneous Estimates, vol. 2 no. 35-58 = Comités de la Chambre des communes, 29e Législature, 1re Session : Comité permanent des prévisions budgétaires en général, vol. 2 no. 35-58",
+  "callNumber": "1973/74 M53 A1 v.2",
+  "pubmin": "1973-01-04",
+  "session": ["29-1"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "29-1", 13],
+    ["fra", "c", "committees", "29-1", 14]
+  ],
+  "pubmax": "1974-02-26",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

@@ -1,0 +1,15 @@
+{
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 I554 A1 no.1-8",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Sub-Committee on International Human Rights, vol. 1 no. 1-8 = Comités de la Chambre des communes, 34e Législature, 2e Session : Sous-comité des droits de la personne au niveau international, vol. 1 no. 1-8",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 119],
+    ["fra", "c", "committees", "34-2", 85]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

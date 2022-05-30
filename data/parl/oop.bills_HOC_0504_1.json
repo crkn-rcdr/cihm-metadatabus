@@ -1,0 +1,15 @@
+{
+  "session": ["05-4"],
+  "language": ["eng"],
+  "callNumber": "KE72 C36 5-4 no.2-150",
+  "label": "Senate and House of Commons Bills, 5th Parliament, 4th Session : A-P, 2-150",
+  "pubmin": "1886-02-25",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1886-06-02",
+  "node": [
+    ["eng", "c", "bills", "05-4", 1],
+    ["eng", "s", "bills", "05-4", 1]
+  ],
+  "type": "bills"
+}

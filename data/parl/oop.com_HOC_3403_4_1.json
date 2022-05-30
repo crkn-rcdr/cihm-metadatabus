@@ -1,0 +1,15 @@
+{
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Agriculture, vol. 1 no. 1-23 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de l'agriculture, vol. 1 no. 1-23",
+  "callNumber": "34-3 A3 A1 no.1-23",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "committees", "34-3", 11],
+    ["fra", "c", "committees", "34-3", 15]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

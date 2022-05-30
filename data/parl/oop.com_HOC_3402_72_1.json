@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "committees", "34-2", 133],
+    ["fra", "c", "committees", "34-2", 140]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "callNumber": "34-2 M87 A1 no.1-5",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Legislative Committee on Bill C-12, an Act respecting museums, vol. 1 no. 1-5 = Comités de la Chambre des communes, 34e Législature, 2e Session : Comité législatif sur le projet de loi C-12, Loi concernant les musées, vol. 1 no. 1-5"
+}

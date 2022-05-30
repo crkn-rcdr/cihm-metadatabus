@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "13-2", 2]],
+  "pubmax": "1919-07-07",
+  "type": "debates",
+  "session": ["13-2"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 13e Législature, 2e Session : Vol. 2",
+  "pubmin": "1919-02-20"
+}

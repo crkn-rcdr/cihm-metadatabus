@@ -1,0 +1,12 @@
+{
+  "pubmin": "1942-01-22",
+  "callNumber": "1942/43 V6 A1",
+  "label": "House of Commons Committees, 19th Parliament, 3rd Session : Special Committee on Vocational Training, vol. 1",
+  "language": ["eng"],
+  "session": ["19-3"],
+  "type": "committees",
+  "pubmax": "1943-01-27",
+  "node": [["eng", "c", "committees", "19-3", 20]],
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie"
+}

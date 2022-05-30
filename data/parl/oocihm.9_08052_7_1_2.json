@@ -1,0 +1,11 @@
+{
+  "label": "Sessional Papers, 3rd Parliament, 1st Session : vol. 1",
+  "pubmin": "1874-03-26",
+  "session": ["03-1"],
+  "language": ["eng"],
+  "pubmax": "1874-05-26",
+  "node": [["eng", "c", "sessional", "03-1", 1]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Mackenzie, Alexander"
+}

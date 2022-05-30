@@ -1,0 +1,10 @@
+{
+  "type": "journals",
+  "pubmax": "1874-05-26",
+  "node": [["fra", "s", "journals", "03-1", 1]],
+  "chamber": ["s"],
+  "pubmin": "1874-03-26",
+  "label": "Journaux du Sénat, 3e Législature, 1re Session : Vol. 8",
+  "language": ["fra"],
+  "session": ["03-1"]
+}

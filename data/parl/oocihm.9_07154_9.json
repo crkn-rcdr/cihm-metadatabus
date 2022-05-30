@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1875-04-08",
+  "node": [["eng", "s", "journals", "03-2", 1]],
+  "type": "journals",
+  "session": ["03-2"],
+  "language": ["eng"],
+  "label": "Senate Journals, 3rd Parliament, 2nd Session : Vol. 9",
+  "pubmin": "1875-02-04"
+}

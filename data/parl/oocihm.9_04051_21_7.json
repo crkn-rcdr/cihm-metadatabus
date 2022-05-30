@@ -1,0 +1,11 @@
+{
+  "pubmin": "1888-02-23",
+  "label": "Documents parlementaires, 6e Législature, 2e Session : vol. 7",
+  "language": ["fra"],
+  "session": ["06-2"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "06-2", 7]],
+  "pubmax": "1888-05-22",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

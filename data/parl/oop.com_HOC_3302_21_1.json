@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-110, an Act to establish the Canadian International Trade Tribunal and to amend or repeal other Acts in consequence thereof, vol. 1 no. 1-7 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-110, Loi constituant le Tribunal canadien du commerce extérieur et modifiant ou abrogeant d'autres lois en conséquence, vol. 1 no. 1-7",
+  "callNumber": "33-2 C343 A1 no.1-7",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 27],
+    ["fra", "c", "committees", "33-2", 189]
+  ],
+  "pubmax": "1988-10-01"
+}

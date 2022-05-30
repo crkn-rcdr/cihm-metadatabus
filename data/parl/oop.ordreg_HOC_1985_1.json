@@ -1,0 +1,15 @@
+{
+  "session": ["33-1"],
+  "language": ["eng", "fra"],
+  "callNumber": "JL164.4 1985",
+  "label": "Permanent and Provisional Standing Orders of the House of Commons, 1985 = Règlement de la Chambre des communes : articles permanents et provisoires, 1985",
+  "pubmin": "1984-11-05",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "orders", null, 20],
+    ["fra", "c", "orders", null, 20]
+  ],
+  "type": "orders"
+}

@@ -1,0 +1,12 @@
+{
+  "session": ["17-2"],
+  "language": ["eng"],
+  "callNumber": "J103 H41 1931 c.2",
+  "label": "House of Commons Votes and Proceedings, 17th Parliament, 2nd Session : 2-96",
+  "pubmin": "1931-03-12",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "pubmax": "1931-08-03",
+  "node": [["eng", "c", "cproc", "17-2", 1]],
+  "type": "cproc"
+}

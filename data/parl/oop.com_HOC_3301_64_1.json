@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 P776 A1 no.1-8",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Legislative on Bill C-49, an Act to amend the Criminal Code (prostitution), vol. 1 no. 1-8 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité législatif sur le projet de loi C-49, Loi modifiant le Code criminel (prostitution), vol. 1 no. 1-8",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 118],
+    ["fra", "c", "committees", "33-1", 102]
+  ]
+}

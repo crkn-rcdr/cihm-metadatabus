@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "19-5", 5]],
+  "pubmax": "1945-01-31",
+  "type": "committees",
+  "session": ["19-5"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 19th Parliament, 5th Session : Special Committee on Dominion Elections Act, 1938, vol. 1",
+  "callNumber": "1944/45 E4 A1",
+  "pubmin": "1944-01-27"
+}

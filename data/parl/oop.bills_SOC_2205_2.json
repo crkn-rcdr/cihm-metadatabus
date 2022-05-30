@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["eng", "s", "bills", "22-5", 2]],
+  "pubmax": "1957-04-12",
+  "language": ["eng"],
+  "session": ["22-5"],
+  "pubmin": "1957-01-08",
+  "label": "Senate Bills, 22nd Parliament, 5th Session : Z7-I14",
+  "callNumber": "KE72 C38 22-5 v.2"
+}

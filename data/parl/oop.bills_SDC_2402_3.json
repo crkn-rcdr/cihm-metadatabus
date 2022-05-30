@@ -1,0 +1,11 @@
+{
+  "session": ["24-2"],
+  "language": ["fra"],
+  "label": "Projets de loi du Sénat, 24e Législature, 2e Session : SD176-SD353",
+  "callNumber": "KE72 C381 24-2 SD176-SD353",
+  "pubmin": "1959-01-15",
+  "chamber": ["s"],
+  "node": [["fra", "s", "bills", "24-2", 3]],
+  "pubmax": "1959-07-18",
+  "type": "bills"
+}

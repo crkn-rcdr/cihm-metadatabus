@@ -1,0 +1,12 @@
+{
+  "pubmax": "1936-06-23",
+  "node": [["fra", "c", "bills", "18-1", 2]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "callNumber": "KE72 C361 18-1 68-115",
+  "label": "Projets de loi de la Chambre des communes, 18e Législature, 1re Session : 68-115",
+  "pubmin": "1936-02-06",
+  "session": ["18-1"],
+  "language": ["fra"]
+}

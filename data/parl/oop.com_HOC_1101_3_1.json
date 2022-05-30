@@ -1,0 +1,12 @@
+{
+  "session": ["11-1"],
+  "language": ["eng"],
+  "label": "House of Commons Committees, 11th Parliament, 1st Session : Select Standing Committee on Forest, Waterways and Water-Powers, vol. 1",
+  "callNumber": "1909 F6 A12",
+  "pubmin": "1909-01-20",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "node": [["eng", "c", "committees", "11-1", 3]],
+  "pubmax": "1909-05-19",
+  "type": "committees"
+}

@@ -15,10 +15,6 @@ my $couchdb_internalmeta2;
 $couchdb_internalmeta2 = $ENV{COUCHDB_INTERNALMETA2}
   if ( exists $ENV{COUCHDB_INTERNALMETA2} );
 
-my $couchdb_extrameta;
-$couchdb_extrameta = $ENV{COUCHDB_EXTRAMETA}
-  if ( exists $ENV{COUCHDB_EXTRAMETA} );
-
 my $couchdb_cosearch2;
 $couchdb_cosearch2 = $ENV{COUCHDB_COSEARCH2}
   if ( exists $ENV{COUCHDB_COSEARCH2} );
@@ -36,7 +32,6 @@ GetOptions(
     'descending'                => \$descending,
     'aip:s'                     => \$aip,
     'couchdb_internalmeta2:s'   => \$couchdb_internalmeta2,
-    'couchdb_extrameta:s'       => \$couchdb_extrameta,
     'couchdb_cosearch2:s'       => \$couchdb_cosearch2,
     'couchdb_copresentation2:s' => \$couchdb_copresentation2,
 );
@@ -50,10 +45,6 @@ flock( FH, LOCK_EX | LOCK_NB )
 die "couchdb_internalmeta2 is mandatory (environment or parameter)\n"
   if ( !$couchdb_internalmeta2 );
 $couchdb_internalmeta2 = noEndSlash($couchdb_internalmeta2);
-
-die "couchdb_extrameta is mandatory (environment or parameter)\n"
-  if ( !$couchdb_extrameta );
-$couchdb_extrameta = noEndSlash($couchdb_extrameta);
 
 die "couchdb_cosearch2 is mandatory (environment or parameter)\n"
   if ( !$couchdb_cosearch2 );
@@ -69,7 +60,6 @@ CIHM::Meta::Press2->new(
         descending              => $descending,
         aip                     => $aip,
         couchdb_internalmeta2   => $couchdb_internalmeta2,
-        couchdb_extrameta       => $couchdb_extrameta,
         couchdb_cosearch2       => $couchdb_cosearch2,
         couchdb_copresentation2 => $couchdb_copresentation2,
     }

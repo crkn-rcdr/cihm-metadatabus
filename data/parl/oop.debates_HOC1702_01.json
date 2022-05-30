@@ -1,0 +1,11 @@
+{
+  "pubmin": "1931-03-12",
+  "label": "House of Commons Debates, 17th Parliament, 2nd Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["17-2"],
+  "type": "debates",
+  "pubmax": "1931-08-03",
+  "node": [["eng", "c", "debates", "17-2", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford"
+}

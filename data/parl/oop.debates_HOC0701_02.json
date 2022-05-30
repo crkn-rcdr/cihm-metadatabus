@@ -1,0 +1,11 @@
+{
+  "session": ["07-1"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 7th Parliament, 1st Session : Vol. 2",
+  "pubmin": "1891-04-29",
+  "primeMinisters": "Macdonald, John Alexander (1891-04-29 - 1891-06-06), Abbott, John Joseph Caldwell (1891-06-16 - 1891-09-30)",
+  "chamber": ["c"],
+  "node": [["eng", "c", "debates", "07-1", 2]],
+  "pubmax": "1891-09-30",
+  "type": "debates"
+}

@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1911-07-29",
+  "node": [["fra", "s", "debates", "11-3", 1]],
+  "type": "debates",
+  "session": ["11-3"],
+  "language": ["fra"],
+  "label": "Débats du Sénat, 11e Législature, 3e Session : Vol. 1",
+  "pubmin": "1910-11-17"
+}

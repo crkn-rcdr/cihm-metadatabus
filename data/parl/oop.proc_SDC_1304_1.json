@@ -1,0 +1,11 @@
+{
+  "pubmin": "1920-02-26",
+  "callNumber": "J103 H43 1920",
+  "label": "Procès-verbaux du Sénat, 13e Législature, 4e Session : 1-54",
+  "language": ["fra"],
+  "session": ["13-4"],
+  "type": "sproc",
+  "pubmax": "1920-07-01",
+  "node": [["fra", "s", "sproc", "13-4", 1]],
+  "chamber": ["s"]
+}

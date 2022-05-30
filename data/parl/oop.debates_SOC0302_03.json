@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "debates", "03-2", 1]],
+  "pubmax": "1875-04-08",
+  "type": "debates",
+  "session": ["03-2"],
+  "language": ["eng"],
+  "label": "Senate Debates, 3rd Parliament, 2nd Session : Vol. 1",
+  "pubmin": "1875-02-04"
+}

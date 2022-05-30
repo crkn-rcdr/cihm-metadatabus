@@ -1,0 +1,10 @@
+{
+  "pubmin": "1918-03-18",
+  "label": "Journaux du Sénat, 13e Législature, 1re Session : Vol. 54",
+  "language": ["fra"],
+  "session": ["13-1"],
+  "type": "journals",
+  "node": [["fra", "s", "journals", "13-1", 1]],
+  "pubmax": "1918-05-24",
+  "chamber": ["s"]
+}

@@ -1,0 +1,15 @@
+{
+  "callNumber": "1970/72 P8 A1 v.1",
+  "label": "House of Commons Committees, 28th Parliament, 3rd Session : Standing Committee on Public Accounts, vol. 1 no. 1-28 = Comités de la Chambre des communes, 28e Législature, 3e Session : Comité permanent des comptes publics, vol. 1 no. 1-28",
+  "pubmin": "1970-10-08",
+  "session": ["28-3"],
+  "language": ["eng", "fra"],
+  "pubmax": "1972-02-16",
+  "node": [
+    ["eng", "c", "committees", "28-3", 35],
+    ["fra", "c", "committees", "28-3", 12]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott"
+}

@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["22-5"],
+  "pubmin": "1957-01-08",
+  "label": "Senate Committees, 22nd Parliament, 5th Session : Special Committee on Land Use in Canada, vol. 1",
+  "callNumber": "1957 L3 A1",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "22-5", 1]],
+  "pubmax": "1957-04-12"
+}

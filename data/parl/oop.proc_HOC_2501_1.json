@@ -1,0 +1,12 @@
+{
+  "pubmin": "1962-09-27",
+  "callNumber": "J103 H41 1962/63 c.2",
+  "label": "House of Commons Votes and Proceedings, 25th Parliament, 1st Session : 1-72",
+  "language": ["eng"],
+  "session": ["25-1"],
+  "type": "cproc",
+  "pubmax": "1963-02-06",
+  "node": [["eng", "c", "cproc", "25-1", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

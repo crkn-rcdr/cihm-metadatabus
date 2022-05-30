@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1937-04-10",
+  "node": [["fra", "s", "bills", "18-2", 1]],
+  "language": ["fra"],
+  "session": ["18-2"],
+  "pubmin": "1937-01-14",
+  "callNumber": "KE72 C381 18-2 Bill A-",
+  "label": "Projets de loi du Sénat, 18e Législature, 2e Session : A-G3"
+}

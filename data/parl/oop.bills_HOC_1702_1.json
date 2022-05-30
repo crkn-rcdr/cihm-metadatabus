@@ -1,0 +1,12 @@
+{
+  "pubmax": "1931-08-03",
+  "node": [["eng", "c", "bills", "17-2", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford",
+  "callNumber": "KE72 C36 17-2 2-100",
+  "label": "House of Commons Bills, 17th Parliament, 2nd Session : 2-100",
+  "pubmin": "1931-03-12",
+  "session": ["17-2"],
+  "language": ["eng"]
+}

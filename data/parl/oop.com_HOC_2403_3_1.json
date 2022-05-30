@@ -1,0 +1,12 @@
+{
+  "session": ["24-3"],
+  "language": ["eng"],
+  "callNumber": "1960 D43 A1",
+  "label": "House of Commons Committees, 24th Parliament, 3rd Session : Special Committee on Defence Expenditure, vol. 1",
+  "pubmin": "1960-01-14",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "pubmax": "1960-08-10",
+  "node": [["eng", "c", "committees", "24-3", 4]],
+  "type": "committees"
+}

@@ -1,0 +1,15 @@
+{
+  "session": ["12-5"],
+  "language": ["eng"],
+  "callNumber": "KE72 C36 12-5 no.2-122 no.A-Z",
+  "label": "Senate and House of Commons Bills, 12th Parliament, 5th Session : A-F1, 2-122",
+  "pubmin": "1915-02-04",
+  "chamber": ["s", "c"],
+  "primeMinisters": "Borden, Robert Laird",
+  "pubmax": "1915-04-15",
+  "node": [
+    ["eng", "s", "bills", "12-5", 1],
+    ["eng", "c", "bills", "12-5", 1]
+  ],
+  "type": "bills"
+}

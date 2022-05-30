@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1902-05-15",
+  "node": [["eng", "s", "debates", "09-2", 1]],
+  "language": ["eng"],
+  "session": ["09-2"],
+  "pubmin": "1902-02-13",
+  "label": "Senate Debates, 9th Parliament, 2nd Session : Vol. 1"
+}

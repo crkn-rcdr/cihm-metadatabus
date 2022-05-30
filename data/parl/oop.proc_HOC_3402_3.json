@@ -1,0 +1,15 @@
+{
+  "callNumber": "J103 H41 34-2 no. 219-305A c.2",
+  "label": "House of Commons Votes and Proceedings, 34th Parliament, 2nd Session : 219-305A = Procès-verbaux de la Chambre des communes, 34e Législature, 2e Session : 219-305A",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "pubmax": "1991-05-12",
+  "node": [
+    ["eng", "c", "cproc", "34-2", 3],
+    ["fra", "c", "cproc", "34-2", 3]
+  ],
+  "type": "cproc",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

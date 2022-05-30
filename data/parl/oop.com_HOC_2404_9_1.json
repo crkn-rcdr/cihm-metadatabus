@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["24-4"],
+  "pubmin": "1960-11-17",
+  "label": "House of Commons Committees, 24th Parliament, 4th Session : Special Committee on Research, vol. 1",
+  "callNumber": "1960/61 R4 A1",
+  "primeMinisters": "Diefenbaker, John George",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "24-4", 10]],
+  "pubmax": "1961-09-29"
+}

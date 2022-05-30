@@ -1,0 +1,15 @@
+{
+  "session": ["32-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "1983/84 L2 A1",
+  "label": "House of Commons Committees, 32nd Parliament, 2nd Session : Standing Committee on Labour, Manpower and Immigration, vol. 1 = Comités de la Chambre des communes, 32e Législature, 2e Session : Comité permanent du travail, de la main-d'oeuvre et de l'immigration, vol. 1",
+  "pubmin": "1983-12-07",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "pubmax": "1984-07-09",
+  "node": [
+    ["eng", "c", "committees", "32-2", 15],
+    ["fra", "c", "committees", "32-2", 37]
+  ],
+  "type": "committees"
+}

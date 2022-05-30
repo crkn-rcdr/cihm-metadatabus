@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["04-4"],
+  "pubmin": "1882-02-09",
+  "label": "Documents parlementaires, 4e Législature, 4e Session : vol. 9",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "04-4", 9]],
+  "pubmax": "1882-05-17"
+}

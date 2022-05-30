@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1935-07-05",
+  "node": [["fra", "s", "bills", "17-6", 1]],
+  "language": ["fra"],
+  "session": ["17-6"],
+  "pubmin": "1935-01-17",
+  "callNumber": "KE72 C381 17-6 Bill A-",
+  "label": "Projets de loi du Sénat, 17e Législature, 6e Session : A-U2"
+}

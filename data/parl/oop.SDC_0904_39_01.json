@@ -1,0 +1,10 @@
+{
+  "pubmax": "1904-08-10",
+  "node": [["fra", "s", "journals", "09-4", 1]],
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Journaux du Sénat, 9e Législature, 4e Session : Vol. 39",
+  "pubmin": "1904-03-10",
+  "session": ["09-4"],
+  "language": ["fra"]
+}

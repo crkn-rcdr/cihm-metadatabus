@@ -1,0 +1,14 @@
+{
+  "pubmax": "1988-10-01",
+  "node": [["fra", "s", "committees", "33-2", 29]],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "33-2 N3 A12",
+  "label": "Comités du Sénat, 33e Législature, 2e Session : Comité permanent des finances nationales, Rapport",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["fra"],
+  "reportTitle": [
+    "La politique fédérale en matière d'enseignement postsecondaire"
+  ]
+}

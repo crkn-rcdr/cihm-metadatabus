@@ -1,0 +1,14 @@
+{
+  "callNumber": "33-2 E56 A1 no.18-24",
+  "label": "Senate Committees, 33rd Parliament, 2nd Session : Standing Committee on Energy and Natural Resources, vol. 2 no. 18-24 = Comités du Sénat, 33e Législature, 2e Session : Comité permanent de l'énergie et des ressources naturelles, vol. 2 no. 18-24",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "s", "committees", "33-2", 11],
+    ["fra", "s", "committees", "33-2", 21]
+  ],
+  "type": "committees",
+  "chamber": ["s"]
+}

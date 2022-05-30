@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["18-3"],
+  "pubmin": "1938-01-27",
+  "label": "House of Commons Journals, 18th Parliament, 3rd Session : Vol. 76",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "18-3", 1]],
+  "pubmax": "1938-07-01"
+}

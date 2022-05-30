@@ -1,0 +1,15 @@
+{
+  "language": ["eng"],
+  "session": ["26-2"],
+  "pubmin": "1964-02-18",
+  "label": "Joint Committees, 26th Parliament, 2nd Session : Special Joint Committee on Consumer Credit, vol. 1",
+  "callNumber": "1964/65 C6 A1",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "26-2", 6],
+    ["eng", "s", "committees", "26-2", 8]
+  ],
+  "pubmax": "1965-04-03"
+}

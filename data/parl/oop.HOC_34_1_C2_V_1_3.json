@@ -1,0 +1,14 @@
+{
+  "pubmax": "1989-02-28",
+  "node": [
+    ["eng", "c", "bills", "34-1", 1],
+    ["fra", "c", "bills", "34-1", 1]
+  ],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "label": "House of Commons Bills, 34th Parliament, 1st Session : C2 v.1-3 = Projets de loi de la Chambre des communes, 34e Législature, 1re Session : C2 v.1-3",
+  "pubmin": "1988-12-12",
+  "session": ["34-1"],
+  "language": ["eng", "fra"]
+}

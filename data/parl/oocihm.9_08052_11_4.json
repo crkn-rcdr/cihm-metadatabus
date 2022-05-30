@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Mackenzie, Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["eng", "c", "sessional", "03-5", 4]],
+  "pubmax": "1878-05-10",
+  "language": ["eng"],
+  "session": ["03-5"],
+  "pubmin": "1878-02-07",
+  "label": "Sessional Papers, 3rd Parliament, 5th Session : vol. 4"
+}

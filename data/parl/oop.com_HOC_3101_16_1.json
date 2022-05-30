@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["31-1"],
+  "pubmin": "1979-10-09",
+  "callNumber": "1979 P8 A1",
+  "label": "House of Commons Committees, 31st Parliament, 1st Session : Standing Committee on Public Accounts, vol. 1 = Comités de la Chambre des communes, 31e Législature, 1re Session : Comité permanent des comptes publics, vol. 1",
+  "chamber": ["c"],
+  "primeMinisters": "Clark, Charles Joseph",
+  "type": "committees",
+  "pubmax": "1979-12-14",
+  "node": [
+    ["eng", "c", "committees", "31-1", 16],
+    ["fra", "c", "committees", "31-1", 6]
+  ]
+}

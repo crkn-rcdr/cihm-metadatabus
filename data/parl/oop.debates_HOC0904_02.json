@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["09-4"],
+  "pubmin": "1904-03-10",
+  "label": "House of Commons Debates, 9th Parliament, 4th Session : Vol. 2",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "09-4", 2]],
+  "pubmax": "1904-08-10"
+}

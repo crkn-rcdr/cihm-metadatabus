@@ -1,0 +1,11 @@
+{
+  "pubmin": "1922-03-08",
+  "label": "Journaux de la Chambre des communes, 14e Législature, 1re Session : Vol. 59",
+  "language": ["fra"],
+  "session": ["14-1"],
+  "type": "journals",
+  "node": [["fra", "c", "journals", "14-1", 1]],
+  "pubmax": "1922-06-28",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"]
+}

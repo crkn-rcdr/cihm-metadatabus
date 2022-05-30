@@ -1,0 +1,11 @@
+{
+  "pubmin": "1960-01-14",
+  "label": "Senate Committees, 24th Parliament, 3rd Session : Standing Committee on Transport and Communications, vol. 1",
+  "callNumber": "1960 T73 A1",
+  "language": ["eng"],
+  "session": ["24-3"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "24-3", 6]],
+  "pubmax": "1960-08-10",
+  "chamber": ["s"]
+}

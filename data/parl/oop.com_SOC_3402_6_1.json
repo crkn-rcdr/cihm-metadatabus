@@ -1,0 +1,14 @@
+{
+  "session": ["34-2"],
+  "language": ["eng", "fra"],
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Fisheries, vol. 1 no. 1-20 = Comités du Sénat, 34e Législature, 2e Session : Comité permanent des pêches, vol. 1 no. 1-20",
+  "callNumber": "34-2 F577 A1 no.1-20",
+  "pubmin": "1989-04-03",
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "committees", "34-2", 15],
+    ["fra", "s", "committees", "34-2", 37]
+  ],
+  "pubmax": "1991-05-12",
+  "type": "committees"
+}

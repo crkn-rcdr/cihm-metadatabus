@@ -1,0 +1,15 @@
+{
+  "pubmin": "1947-12-05",
+  "label": "Comités mixtes, 20e Législature, 4e Session : Comité spécial mixte sur les Droits de l'Homme et les Libertés Fondamentales, vol. 1",
+  "callNumber": "1947/48 H83 A4",
+  "language": ["fra"],
+  "session": ["20-4"],
+  "type": "committees",
+  "node": [
+    ["fra", "c", "committees", "20-4", 6],
+    ["fra", "s", "committees", "20-4", 1]
+  ],
+  "pubmax": "1948-06-30",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c", "s"]
+}

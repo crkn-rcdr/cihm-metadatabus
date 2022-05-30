@@ -1,0 +1,10 @@
+{
+  "node": [["fra", "s", "journals", "08-5", 1]],
+  "pubmax": "1900-07-18",
+  "type": "journals",
+  "chamber": ["s"],
+  "label": "Journaux du Sénat, 8e Législature, 5e Session : Vol. 35",
+  "pubmin": "1900-02-01",
+  "session": ["08-5"],
+  "language": ["fra"]
+}

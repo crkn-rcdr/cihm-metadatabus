@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["24-3"],
+  "pubmin": "1960-01-14",
+  "callNumber": "1960 R34 A1 v.1",
+  "label": "House of Commons Committees, 24th Parliament, 3rd Session : Standing Committee on Railways, Canals and Telegraph Lines, vol. 1 no. 1-11",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "type": "committees",
+  "pubmax": "1960-08-10",
+  "node": [["eng", "c", "committees", "24-3", 15]]
+}

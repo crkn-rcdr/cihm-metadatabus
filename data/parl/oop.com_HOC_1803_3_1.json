@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "18-3", 6]],
+  "pubmax": "1938-07-01",
+  "language": ["eng"],
+  "session": ["18-3"],
+  "pubmin": "1938-01-27",
+  "label": "House of Commons Committees, 18th Parliament, 3rd Session : Special Committee on Civil Service Superannuation Act, vol. 1",
+  "callNumber": "1938 C5S A1"
+}

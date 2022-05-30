@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "30-3", 23],
+    ["fra", "c", "committees", "30-3", 8]
+  ],
+  "pubmax": "1978-10-10",
+  "language": ["eng", "fra"],
+  "session": ["30-3"],
+  "pubmin": "1977-10-18",
+  "label": "House of Commons Committees, 30th Parliament, 3rd Session : Standing Committee on Public Accounts, vol. 3 no. 28-30 = Comités de la Chambre des communes, 30e Législature, 3e Session : Comité permanent des comptes publics, vol. 3 no. 28-30",
+  "callNumber": "1977/78 P8 A1 v.3"
+}

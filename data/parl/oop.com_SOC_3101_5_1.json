@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["31-1"],
+  "pubmin": "1979-10-09",
+  "label": "Senate Committees, 31st Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, vol. 1 = Comités du Sénat, 31e Législature, 1re Session : Comité permanent des affaires juridiques et constitutionnelles, vol. 1",
+  "callNumber": "1979 L4 A1",
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "31-1", 4],
+    ["fra", "s", "committees", "31-1", 2]
+  ],
+  "pubmax": "1979-12-14"
+}

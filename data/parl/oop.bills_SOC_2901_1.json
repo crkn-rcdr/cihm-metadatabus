@@ -1,0 +1,14 @@
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1974-02-26",
+  "node": [
+    ["eng", "s", "bills", "29-1", 1],
+    ["fra", "s", "bills", "29-1", 1]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["29-1"],
+  "pubmin": "1973-01-04",
+  "callNumber": "KE72 C38 29-1 S2-S9",
+  "label": "Senate Bills, 29th Parliament, 1st Session : S2-S9 = Projets de loi du Sénat, 29e Législature, 1re Session : S2-S9"
+}

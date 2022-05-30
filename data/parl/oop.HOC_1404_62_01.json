@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "14-4", 1]],
+  "pubmax": "1925-06-27",
+  "language": ["eng"],
+  "session": ["14-4"],
+  "pubmin": "1925-02-05",
+  "label": "House of Commons Journals, 14th Parliament, 4th Session : Vol. 62"
+}

@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["08-5"],
+  "pubmin": "1900-02-01",
+  "label": "Procès-verbaux du Sénat, 8e Législature, 5e Session : 1-77",
+  "callNumber": "J103 H43 1900",
+  "chamber": ["s"],
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "08-5", 1]],
+  "pubmax": "1900-07-18"
+}

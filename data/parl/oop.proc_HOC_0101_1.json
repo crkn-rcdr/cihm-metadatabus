@@ -1,0 +1,12 @@
+{
+  "session": ["01-1"],
+  "language": ["eng"],
+  "label": "House of Commons Votes and Proceedings, 1st Parliament, 1st Session : 1-83",
+  "callNumber": "J103 H41 1867/68",
+  "pubmin": "1867-11-06",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["eng", "c", "cproc", "01-1", 1]],
+  "pubmax": "1868-05-22",
+  "type": "cproc"
+}

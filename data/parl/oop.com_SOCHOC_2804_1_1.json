@@ -1,0 +1,17 @@
+{
+  "session": ["28-4"],
+  "language": ["eng", "fra"],
+  "callNumber": "1972 C6 A1",
+  "label": "Joint Committees, 28th Parliament, 4th Session : Special Joint Committee on the Constitution of Canada, vol. 1 = Comités mixtes, 28e Législature, 4e Session : Comité spécial mixte sur la Constitution du Canada, vol. 1",
+  "pubmin": "1972-02-17",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1972-09-01",
+  "node": [
+    ["eng", "c", "committees", "28-4", 3],
+    ["fra", "c", "committees", "28-4", 6],
+    ["eng", "s", "committees", "28-4", 3],
+    ["fra", "s", "committees", "28-4", 4]
+  ],
+  "type": "committees"
+}

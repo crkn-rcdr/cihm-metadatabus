@@ -1,0 +1,72 @@
+{
+  "12": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDescription": ["Conference "],
+    "tagDate": ["1932-01-01T00:00:00.000Z"]
+  },
+  "277": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDate": ["1936-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Correspondence"]
+  },
+  "261": {
+    "tagDescription": ["Convention"],
+    "tagDate": ["1935-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "18": {
+    "tagDescription": ["Convention - Correspondence"],
+    "tagDate": ["1934-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "476": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDescription": ["Convention - Minutes"],
+    "tagDate": ["1936-01-01T00:00:00.000Z"]
+  },
+  "96": {
+    "tagDate": ["1934-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Resolutions"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "693": {
+    "tagDate": ["1936-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Resolutions", "Convention - Credentials"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1012": {
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Correspondence"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1075": {
+    "tagDescription": ["Convention - Resolutions and Policy"],
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ]
+  },
+  "1329": {
+    "tagNotebook": [
+      "CCF National Conventions and Inter -Provincial Conferences"
+    ],
+    "tagDate": ["1937-01-01T00:00:00.000Z"],
+    "tagDescription": ["Convention - Draft Minutes"]
+  }
+}

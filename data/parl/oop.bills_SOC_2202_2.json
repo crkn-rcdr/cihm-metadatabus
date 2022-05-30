@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1955-07-28",
+  "node": [["eng", "s", "bills", "22-2", 2]],
+  "language": ["eng"],
+  "session": ["22-2"],
+  "pubmin": "1955-01-07",
+  "callNumber": "KE72 C38 22-2 v.2",
+  "label": "Senate Bills, 22nd Parliament, 2nd Session : A9-D17"
+}

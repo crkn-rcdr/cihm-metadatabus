@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1916-05-18",
+  "node": [["eng", "s", "journals", "12-6", 1]],
+  "type": "journals",
+  "session": ["12-6"],
+  "language": ["eng"],
+  "label": "Senate Journals, 12th Parliament, 6th Session : Vol. 52",
+  "pubmin": "1916-01-12"
+}

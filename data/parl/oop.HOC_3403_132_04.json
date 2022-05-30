@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Journals, 34th Parliament, 3rd Session : Vol. 132 Pt. 4 = Journaux de la Chambre des communes, 34e Législature, 3e Session : Vol. 132 Pt. 4",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [
+    ["eng", "c", "journals", "34-3", 4],
+    ["fra", "c", "journals", "34-3", 4]
+  ],
+  "pubmax": "1993-09-08"
+}

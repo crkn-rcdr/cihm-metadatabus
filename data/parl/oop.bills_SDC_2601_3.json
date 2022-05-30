@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["26-1"],
+  "pubmin": "1963-05-16",
+  "callNumber": "KE72 C381 26-1 SD238-SD503",
+  "label": "Projets de loi du Sénat, 26e Législature, 1re Session : SD238-SD503",
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1963-12-21",
+  "node": [["fra", "s", "bills", "26-1", 3]]
+}

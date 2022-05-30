@@ -1,0 +1,10 @@
+{
+  "label": "Senate Debates, 7th Parliament, 4th Session : Vol. 1",
+  "pubmin": "1894-03-15",
+  "session": ["07-4"],
+  "language": ["eng"],
+  "pubmax": "1894-07-23",
+  "node": [["eng", "s", "debates", "07-4", 1]],
+  "type": "debates",
+  "chamber": ["s"]
+}

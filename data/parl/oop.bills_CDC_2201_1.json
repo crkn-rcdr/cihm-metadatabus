@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"],
+  "node": [["fra", "c", "bills", "22-1", 1]],
+  "pubmax": "1954-06-26",
+  "type": "bills",
+  "session": ["22-1"],
+  "language": ["fra"],
+  "label": "Projets de loi de la Chambre des communes, 22e Législature, 1re Session : 2-177",
+  "callNumber": "KE72 C361 22-1 2-177",
+  "pubmin": "1953-11-12"
+}

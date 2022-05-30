@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "12-7", 6]],
+  "pubmax": "1917-09-20",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"],
+  "pubmin": "1917-01-18",
+  "label": "House of Commons Debates, 12th Parliament, 7th Session : Vol. 6",
+  "language": ["eng"],
+  "session": ["12-7"]
+}

@@ -1,0 +1,14 @@
+{
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "s", "committees", "32-1", 54],
+    ["fra", "s", "committees", "32-1", 55]
+  ],
+  "type": "committees",
+  "chamber": ["s"],
+  "callNumber": "1980/83 T 73 A1 no.25-44",
+  "label": "Senate Committees, 32nd Parliament, 1st Session : Standing Committee on Transport and Communications, vol. 2 no. 25-44 = Comités du Sénat, 32e Législature, 1re Session : Comité permanent des transports et des communications, vol. 2 no. 25-44",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["eng", "fra"]
+}

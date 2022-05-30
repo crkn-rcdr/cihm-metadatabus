@@ -1,0 +1,13 @@
+{
+  "session": ["32-2"],
+  "language": ["eng"],
+  "reportTitle": ["Equality Now!"],
+  "callNumber": "1983/84 M54 A12",
+  "label": "House of Commons Committees, 32nd Parliament, 2nd Session : Special Committee on Participation of Visible Minorities in Canadian Society, Report",
+  "pubmin": "1983-12-07",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott (1983-12-07 - 1984-06-29), Turner, John Napier (1984-06-30 - 1984-07-09)",
+  "pubmax": "1984-07-09",
+  "node": [["eng", "c", "committees", "32-2", 22]],
+  "type": "committees"
+}

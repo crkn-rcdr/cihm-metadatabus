@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1939-09-13",
+  "node": [["eng", "c", "journals", "18-5", 1]],
+  "type": "journals",
+  "session": ["18-5"],
+  "language": ["eng"],
+  "label": "House of Commons Journals, 18th Parliament, 5th Session : Vol. 78",
+  "pubmin": "1939-09-07"
+}

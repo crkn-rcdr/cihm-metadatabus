@@ -1,0 +1,10 @@
+{
+  "session": ["24-1"],
+  "language": ["fra"],
+  "label": "Journaux du Sénat, 24e Législature, 1re Session : Vol. 104",
+  "pubmin": "1958-05-12",
+  "chamber": ["s"],
+  "node": [["fra", "s", "journals", "24-1", 1]],
+  "pubmax": "1958-09-06",
+  "type": "journals"
+}

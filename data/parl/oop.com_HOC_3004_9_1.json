@@ -1,0 +1,15 @@
+{
+  "session": ["30-4"],
+  "language": ["eng", "fra"],
+  "callNumber": "1978/79 L2 A1",
+  "label": "House of Commons Committees, 30th Parliament, 4th Session : Standing Committee on Labour, Manpower and Immigration, vol. 1 = Comités de la Chambre des communes, 30e Législature, 4e Session : Comité permanent du travail, de la main-d'oeuvre et de l'immigration, vol. 1",
+  "pubmin": "1978-10-11",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmax": "1979-03-26",
+  "node": [
+    ["eng", "c", "committees", "30-4", 11],
+    ["fra", "c", "committees", "30-4", 21]
+  ],
+  "type": "committees"
+}

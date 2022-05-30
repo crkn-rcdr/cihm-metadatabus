@@ -63,19 +63,6 @@ sub new {
           . " Check configuration\n";
     }
 
-    $self->{extrameta} = restclient->new(
-        server      => $args->{couchdb_extrameta},
-        type        => 'application/json',
-        clientattrs => { timeout => 3600 }
-    );
-    $self->extrameta->set_persistent_header( 'Accept' => 'application/json' );
-    $test = $self->extrameta->head("/");
-    if ( !$test || $test->code != 200 ) {
-        die "Problem connecting to extrameta Couchdb database: "
-          . $args->{couchdb_extrameta}
-          . " Check configuration\n";
-    }
-
     $self->{cosearch2} = restclient->new(
         server      => $args->{couchdb_cosearch2},
         type        => 'application/json',
@@ -138,11 +125,6 @@ sub internalmeta2 {
     return $self->{internalmeta2};
 }
 
-sub extrameta {
-    my $self = shift;
-    return $self->{extrameta};
-}
-
 sub cosearch2 {
     my $self = shift;
     return $self->{cosearch2};
@@ -196,7 +178,6 @@ sub Press {
                     aip             => $aip,
                     log             => $self->log,
                     internalmeta2   => $self->internalmeta2,
-                    extrameta       => $self->extrameta,
                     cosearch2       => $self->cosearch2,
                     copresentation2 => $self->copresentation2,
                 }

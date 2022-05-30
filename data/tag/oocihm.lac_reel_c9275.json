@@ -1,0 +1,80 @@
+{
+  "1100": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Prince Edward Island"],
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Organization"]
+  },
+  "1000": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Prince Edward Island"],
+    "tagDate": ["[1949-01-01T00:00:00.000Z TO 1952-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Finance"]
+  },
+  "962": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Prince Edward Island"],
+    "tagDescription": ["Education"],
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"]
+  },
+  "352": {
+    "tagPlace": ["Nova Scotia"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1938-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Sydney Mines Disaster"]
+  },
+  "1068": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Prince Edward Island"],
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1953-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Membership"]
+  },
+  "964": {
+    "tagDate": ["[1950-01-01T00:00:00.000Z TO 1955-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Elections"],
+    "tagPlace": ["Prince Edward Island"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "459": {
+    "tagDate": ["[1935-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": ["General Correspondence"],
+    "tagPlace": ["Prince Edward Island"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "925": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Prince Edward Island"],
+    "tagDate": ["1947-01-01T00:00:00.000Z"],
+    "tagDescription": ["Constitution and Resolutions"]
+  },
+  "928": {
+    "tagDate": ["[1946-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Conventions"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Prince Edward Island"]
+  },
+  "1198": {
+    "tagDescription": ["Policy , Programme , and Research"],
+    "tagDate": ["[1943-01-01T00:00:00.000Z TO 1950-12-31T23:59:59.999Z]"],
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Prince Edward Island"]
+  },
+  "1244": {
+    "tagDescription": ["General Correspondence"],
+    "tagDate": ["[1939-01-01T00:00:00.000Z TO 1958-12-31T23:59:59.999Z]"],
+    "tagPlace": ["New Brunswick"],
+    "tagNotebook": ["Provincial Files"]
+  },
+  "767": {
+    "tagNotebook": ["Provincial Files"],
+    "tagPlace": ["Prince Edward Island"],
+    "tagDescription": ["Correspondence with the Provincial Secretary"],
+    "tagDate": ["[1942-01-01T00:00:00.000Z TO 1945-12-31T23:59:59.999Z]"]
+  },
+  "1051": {
+    "tagPlace": ["Prince Edward Island"],
+    "tagNotebook": ["Provincial Files"],
+    "tagDate": ["[1945-01-01T00:00:00.000Z TO 1949-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Literature"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "cproc",
+  "pubmax": "1887-06-23",
+  "node": [["eng", "c", "cproc", "06-1", 1]],
+  "language": ["eng"],
+  "session": ["06-1"],
+  "pubmin": "1887-04-13",
+  "callNumber": "J103 H41 (no call)",
+  "label": "House of Commons Votes and Proceedings, 6th Parliament, 1st Session : 1-59"
+}

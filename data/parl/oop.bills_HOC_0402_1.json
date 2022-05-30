@@ -1,0 +1,12 @@
+{
+  "pubmax": "1880-05-07",
+  "node": [["eng", "c", "bills", "04-2", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "callNumber": "KE72 C36 4-2 no.2-126",
+  "label": "House of Commons Bills, 4th Parliament, 2nd Session : 2-126",
+  "pubmin": "1880-02-12",
+  "session": ["04-2"],
+  "language": ["eng"]
+}

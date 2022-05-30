@@ -1,0 +1,57 @@
+{
+  "211": {
+    "tagDescription": ["III Medical Reports - Cures Tuberculosis in Children"]
+  },
+  "452": { "tagDescription": ["IV Finance Federal Grants (Part 1)"] },
+  "917": {
+    "tagDate": ["[1919-01-01T00:00:00.000Z TO 1947-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "V Campaigns Seals - (Christmas Seal Campaigns - 1919-1947)"
+    ]
+  },
+  "802": { "tagDescription": ["V Campaigns Community Chests"] },
+  "694": {
+    "tagDate": ["1946-01-01T00:00:00.000Z"],
+    "tagDescription": ["IV Finance Retirement Plan - CTA Office Staff ( 1946)"]
+  },
+  "423": { "tagDescription": ["IV Finance Bequest (M.I. Mercer)"] },
+  "701": {
+    "tagDate": ["1934-01-01T00:00:00.000Z"],
+    "tagDescription": ["V Campaigns Associated Canadian Travelers (1934)"]
+  },
+  "724": {
+    "tagDescription": [
+      "V Campaigns Bank Collections (Financial Committee- J.M . Courtney- 1901)"
+    ],
+    "tagDate": ["1901-01-01T00:00:00.000Z"]
+  },
+  "875": {
+    "tagDescription": ["V Campaigns Donations (Corporations and Organizations)"]
+  },
+  "361": {
+    "tagDescription": ["IV Finance Auditors Reports 0924-1932)"],
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1932-12-31T23:59:59.999Z]"]
+  },
+  "502": { "tagDescription": ["IV Finance Federal Grants (Part 2)"] },
+  "1102": {
+    "tagDescription": [
+      "V Campaigns Seals - (Christmas Seal Campaigns - Montreal )"
+    ]
+  },
+  "345": {
+    "tagDescription": ["III Medical Reports - Cures Tuberculosis in Childhood"]
+  },
+  "353": {
+    "tagDescription": [
+      "III Medical Reports - Cures Tuberculosis in Humans and Cows"
+    ]
+  },
+  "646": {
+    "tagDescription": ["IV Finance Finance- General (1919-1946)"],
+    "tagDate": ["[1919-01-01T00:00:00.000Z TO 1946-12-31T23:59:59.999Z]"]
+  },
+  "689": {
+    "tagDescription": ["IV Finance Red Cross Donation (1919)"],
+    "tagDate": ["1919-01-01T00:00:00.000Z"]
+  }
+}

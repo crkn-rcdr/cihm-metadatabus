@@ -1,0 +1,10 @@
+{
+  "pubmin": "1938-01-27",
+  "label": "Débats du Sénat, 18e Législature, 3e Session : Vol. 1",
+  "language": ["fra"],
+  "session": ["18-3"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "18-3", 1]],
+  "pubmax": "1938-07-01",
+  "chamber": ["s"]
+}

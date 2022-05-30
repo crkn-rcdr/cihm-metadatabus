@@ -1,0 +1,60 @@
+{
+  "338": {
+    "tagDate": ["[1893-01-01T00:00:00.000Z TO 1898-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Boundary water between Canada and the United States. 1883-1885: Complaints re log boom on the St. John river 1893-1898: Niagara River Detroit River St. Lawrence River Kootenay River"
+    ]
+  },
+  "1381": {
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ],
+    "tagDate": ["[1911-01-01T00:00:00.000Z TO 1912-12-31T23:59:59.999Z]"]
+  },
+  "851": {
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ],
+    "tagDate": ["1908-01-01T00:00:00.000Z"]
+  },
+  "1240": {
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ],
+    "tagDate": ["[1909-01-01T00:00:00.000Z TO 1910-12-31T23:59:59.999Z]"]
+  },
+  "529": {
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ],
+    "tagDate": ["[1902-01-01T00:00:00.000Z TO 1904-12-31T23:59:59.999Z]"]
+  },
+  "1770": {
+    "tagDate": ["[1915-01-01T00:00:00.000Z TO 1917-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ]
+  },
+  "2032": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1914-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ]
+  },
+  "620": {
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1907-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "International Boundary Waters. Unites States and Canada"
+    ]
+  },
+  "15": {
+    "tagDate": ["[1877-01-01T00:00:00.000Z TO 1899-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ibid"]
+  },
+  "225": {
+    "tagDescription": [
+      "Extradition Act. Fugitive offenders Act. Preliminary steps in extradition proceedings Procedure in arrest, etc Certain cases in which irregularities occur."
+    ],
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1930-12-31T23:59:59.999Z]"]
+  }
+}

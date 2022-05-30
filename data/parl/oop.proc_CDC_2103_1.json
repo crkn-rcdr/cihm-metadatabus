@@ -1,0 +1,12 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "cproc",
+  "pubmax": "1951-01-29",
+  "node": [["fra", "c", "cproc", "21-3", 1]],
+  "language": ["fra"],
+  "session": ["21-3"],
+  "pubmin": "1950-08-29",
+  "callNumber": "J103 H44",
+  "label": "Procès-verbaux de la Chambre des communes, 21e Législature, 3e Session : 1-17"
+}

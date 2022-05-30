@@ -1,0 +1,11 @@
+{
+  "label": "Projets de loi du Sénat, 22e Législature, 3e Session : B-Z4",
+  "callNumber": "KE72 C381 22-3 v.1",
+  "pubmin": "1956-01-10",
+  "session": ["22-3"],
+  "language": ["fra"],
+  "node": [["fra", "s", "bills", "22-3", 1]],
+  "pubmax": "1956-08-14",
+  "type": "bills",
+  "chamber": ["s"]
+}

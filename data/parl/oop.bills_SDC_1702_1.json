@@ -1,0 +1,11 @@
+{
+  "label": "Projets de loi du Sénat, 17e Législature, 2e Session : A-B2",
+  "callNumber": "KE72 C381 17-2 Bill A-",
+  "pubmin": "1931-03-12",
+  "session": ["17-2"],
+  "language": ["fra"],
+  "node": [["fra", "s", "bills", "17-2", 1]],
+  "pubmax": "1931-08-03",
+  "type": "bills",
+  "chamber": ["s"]
+}

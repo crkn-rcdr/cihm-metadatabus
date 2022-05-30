@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "sessional",
+  "node": [["eng", "c", "sessional", "01-4", 3]],
+  "pubmax": "1871-04-14",
+  "language": ["eng"],
+  "session": ["01-4"],
+  "pubmin": "1871-02-15",
+  "label": "Sessional Papers, 1st Parliament, 4th Session : vol. 3"
+}

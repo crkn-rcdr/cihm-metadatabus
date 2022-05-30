@@ -1,0 +1,12 @@
+{
+  "label": "House of Commons Votes and Proceedings, 13th Parliament, 2nd Session : 1-93",
+  "callNumber": "J103 H41 1919 c.2",
+  "pubmin": "1919-02-20",
+  "session": ["13-2"],
+  "language": ["eng"],
+  "node": [["eng", "c", "cproc", "13-2", 1]],
+  "pubmax": "1919-07-07",
+  "type": "cproc",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1925-06-27",
+  "node": [["eng", "c", "debates", "14-4", 5]],
+  "type": "debates",
+  "session": ["14-4"],
+  "language": ["eng"],
+  "label": "House of Commons Debates, 14th Parliament, 4th Session : Vol. 5",
+  "pubmin": "1925-02-05"
+}

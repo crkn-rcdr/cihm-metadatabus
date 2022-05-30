@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["eng", "c", "journals", "01-5", 1]],
+  "pubmax": "1872-06-14",
+  "language": ["eng"],
+  "session": ["01-5"],
+  "pubmin": "1872-04-11",
+  "label": "House of Commons Journals, 1st Parliament, 5th Session : Vol. 5"
+}

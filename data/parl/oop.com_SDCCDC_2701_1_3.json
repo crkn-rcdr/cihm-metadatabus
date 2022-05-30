@@ -1,0 +1,15 @@
+{
+  "pubmin": "1966-01-18",
+  "label": "Comités mixtes, 27e Législature, 1re Session : Comité spécial mixte sur le crédit au consommateur, vol. 3",
+  "callNumber": "1966/67 C7 A1 v.3",
+  "language": ["fra"],
+  "session": ["27-1"],
+  "type": "committees",
+  "node": [
+    ["fra", "c", "committees", "27-1", 14],
+    ["fra", "s", "committees", "27-1", 4]
+  ],
+  "pubmax": "1967-05-08",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c", "s"]
+}

@@ -1,0 +1,12 @@
+{
+  "callNumber": "34-2 A3 A13",
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : The Parliamentary Forum Global Climate Change - Standing Committee on Agriculture; Energy, Mines and Resources; Environment; Forestry and Fisheries; Health and Welfare, Social Affairs, Seniors and the Status of Women; Industry, Science and Technology, Regional and Northern Development; Labour, Employment and Immigration; Transport, vol. 1",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng"],
+  "pubmax": "1991-05-12",
+  "node": [["eng", "c", "committees", "34-2", 18]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

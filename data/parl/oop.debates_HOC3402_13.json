@@ -1,0 +1,11 @@
+{
+  "node": [["eng", "c", "debates", "34-2", 13]],
+  "pubmax": "1991-05-12",
+  "type": "debates",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "House of Commons Debates, 34th Parliament, 2nd Session : Vol. 13",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng"]
+}

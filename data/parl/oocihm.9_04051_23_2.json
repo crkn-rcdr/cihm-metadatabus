@@ -1,0 +1,11 @@
+{
+  "pubmin": "1890-01-16",
+  "label": "Documents parlementaires, 6e Législature, 4e Session : vol. 2",
+  "language": ["fra"],
+  "session": ["06-4"],
+  "type": "sessional",
+  "node": [["fra", "c", "sessional", "06-4", 2]],
+  "pubmax": "1890-05-16",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

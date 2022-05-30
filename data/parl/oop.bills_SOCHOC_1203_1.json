@@ -1,0 +1,15 @@
+{
+  "pubmin": "1914-01-15",
+  "label": "Senate and House of Commons Bills, 12th Parliament, 3rd Session : A-U3, 2-229",
+  "callNumber": "KE72 C36 12-3 no.2-229 no.A-U3",
+  "language": ["eng"],
+  "session": ["12-3"],
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "12-3", 1],
+    ["eng", "c", "bills", "12-3", 1]
+  ],
+  "pubmax": "1914-06-12",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["s", "c"]
+}

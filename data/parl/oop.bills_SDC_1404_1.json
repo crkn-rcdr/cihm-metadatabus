@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["14-4"],
+  "pubmin": "1925-02-05",
+  "label": "Projets de loi du Sénat, 14e Législature, 4e Session : A-P6",
+  "callNumber": "KE72 C381 14-4 Bill A-",
+  "chamber": ["s"],
+  "type": "bills",
+  "node": [["fra", "s", "bills", "14-4", 1]],
+  "pubmax": "1925-06-27"
+}

@@ -1,0 +1,15 @@
+{
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-2 S533 A1 no.1-7",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-21, an Act to exempt certain shipping conference practices from the provisions of the Competition Act, to repeal the Shipping Conferences Exemption Act, 1979 and to amend other Acts in consequence thereof, vol. 1 no. 1-7 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-21, Loi soustrayant certaines pratiques des conférences maritimes à l'application de la Loi sur la concurrence, abrogeant la Loi dérogatoire de 1979 sur les conférences maritimes et apportant des modifications corrélatives à d'autres lois, vol. 1 no. 1-7",
+  "pubmin": "1986-09-30",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 170],
+    ["fra", "c", "committees", "33-2", 59]
+  ],
+  "type": "committees"
+}

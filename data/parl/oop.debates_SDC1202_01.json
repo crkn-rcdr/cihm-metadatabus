@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1913-06-06",
+  "node": [["fra", "s", "debates", "12-2", 1]],
+  "language": ["fra"],
+  "session": ["12-2"],
+  "pubmin": "1912-11-21",
+  "label": "Débats du Sénat, 12e Législature, 2e Session : Vol. 1"
+}

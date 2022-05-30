@@ -1,0 +1,11 @@
+{
+  "pubmin": "1884-01-17",
+  "label": "House of Commons Debates, 5th Parliament, 2nd Session : Vol. 2",
+  "language": ["eng"],
+  "session": ["05-2"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "05-2", 2]],
+  "pubmax": "1884-04-19",
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"]
+}

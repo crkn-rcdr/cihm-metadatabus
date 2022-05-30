@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Journals, 8th Parliament, 5th Session : Vol. 35",
+  "pubmin": "1900-02-01",
+  "session": ["08-5"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "08-5", 1]],
+  "pubmax": "1900-07-18",
+  "type": "journals",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"]
+}

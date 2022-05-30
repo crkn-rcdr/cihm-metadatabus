@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1872-06-14",
+  "node": [["eng", "s", "bills", "01-5", 1]],
+  "type": "bills",
+  "session": ["01-5"],
+  "language": ["eng"],
+  "callNumber": "KE72 C38 1-5 Bill A-",
+  "label": "Senate Bills, 1st Parliament, 5th Session : A-G",
+  "pubmin": "1872-04-11"
+}

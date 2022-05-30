@@ -1,0 +1,11 @@
+{
+  "pubmax": "1976-10-12",
+  "node": [["fra", "c", "debates", "30-1", 8]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "label": "Débats de la Chambre des communes, 30e Législature, 1re Session : Vol. 8",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["fra"]
+}

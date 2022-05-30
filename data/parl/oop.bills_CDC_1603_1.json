@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["16-3"],
+  "pubmin": "1929-02-07",
+  "callNumber": "KE72 C361 16-3 2-60",
+  "label": "Projets de loi de la Chambre des communes, 16e Législature, 3e Session : 2-60",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "bills",
+  "pubmax": "1929-06-14",
+  "node": [["fra", "c", "bills", "16-3", 1]]
+}

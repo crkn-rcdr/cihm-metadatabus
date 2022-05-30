@@ -1,0 +1,12 @@
+{
+  "session": ["20-3"],
+  "language": ["fra"],
+  "label": "Comités de la Chambre des communes, 20e Législature, 3e Session : Comité permanent de l'agriculture et de la colonisation, vol. 1",
+  "callNumber": "1947 A3 A4",
+  "pubmin": "1947-01-30",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "20-3", 2]],
+  "pubmax": "1947-07-17",
+  "type": "committees"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "node": [["eng", "c", "debates", "28-3", 3]],
+  "pubmax": "1972-02-16",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "pubmin": "1970-10-08",
+  "label": "House of Commons Debates, 28th Parliament, 3rd Session : Vol. 3",
+  "language": ["eng"],
+  "session": ["28-3"]
+}

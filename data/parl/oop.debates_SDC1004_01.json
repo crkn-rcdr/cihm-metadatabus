@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["fra", "s", "debates", "10-4", 1]],
+  "pubmax": "1908-07-20",
+  "language": ["fra"],
+  "session": ["10-4"],
+  "pubmin": "1907-11-28",
+  "label": "Débats du Sénat, 10e Législature, 4e Session : Vol. 1"
+}

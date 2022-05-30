@@ -1,0 +1,17 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "30-1", 7],
+    ["fra", "c", "committees", "30-1", 47],
+    ["eng", "s", "committees", "30-1", 6],
+    ["fra", "s", "committees", "30-1", 20]
+  ],
+  "pubmax": "1976-10-12",
+  "language": ["eng", "fra"],
+  "session": ["30-1"],
+  "pubmin": "1974-09-30",
+  "label": "Joint Committees, 30th Parliament, 1st Session : Special Joint Committee on Employer-Employee Relations in the Public Service, vol. 1 = Comités mixtes, 30e Législature, 1re Session : Comité spécial mixte des relations employeur-employés dans la Fonction publique, vol. 1",
+  "callNumber": "1974/76 E5 A1 v.1"
+}

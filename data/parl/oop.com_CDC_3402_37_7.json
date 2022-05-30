@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["fra", "c", "committees", "34-2", 97]],
+  "pubmax": "1991-05-12",
+  "reportTitle": [
+    "Transformations de notre astmosphère : partie I Les CFC des émissions mortelles"
+  ],
+  "language": ["fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "Comités de la Chambre des communes, 34e Législature, 2e Session : Comité permanent de l'environnement, Troisième rapport",
+  "callNumber": "34-2 E582 A12"
+}

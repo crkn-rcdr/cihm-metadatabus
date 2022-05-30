@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["s", "c"],
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "07-3", 1],
+    ["eng", "c", "bills", "07-3", 1]
+  ],
+  "pubmax": "1893-04-01",
+  "language": ["eng"],
+  "session": ["07-3"],
+  "pubmin": "1893-01-26",
+  "label": "Senate and House of Commons Bills, 7th Parliament, 3rd Session : A-V, 2-134",
+  "callNumber": "KE72 C36 7-3 no.2-134 no.A-V"
+}

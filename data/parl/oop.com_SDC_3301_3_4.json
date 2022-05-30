@@ -1,0 +1,14 @@
+{
+  "pubmin": "1984-11-05",
+  "label": "Comités du Sénat, 33e Législature, 1re Session : Comité permanent des banques et du commerce, Seizième rapport",
+  "callNumber": "33-1 B3 A122",
+  "language": ["fra"],
+  "reportTitle": [
+    "Vers une plus grande compétitivité dans le secteur financier"
+  ],
+  "session": ["33-1"],
+  "type": "committees",
+  "node": [["fra", "s", "committees", "33-1", 14]],
+  "pubmax": "1986-08-28",
+  "chamber": ["s"]
+}

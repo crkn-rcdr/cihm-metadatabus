@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 62],
+    ["fra", "c", "committees", "34-3", 94]
+  ],
+  "type": "committees",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "callNumber": "34-3 E582 A1 no.51-68",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Environment, vol. 4 no. 51-68 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de l'environnement, vol. 4 no. 51-68",
+  "pubmin": "1991-05-13"
+}

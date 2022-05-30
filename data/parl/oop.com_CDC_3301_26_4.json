@@ -1,0 +1,13 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "node": [["fra", "c", "committees", "33-1", 10]],
+  "pubmax": "1986-08-28",
+  "type": "committees",
+  "session": ["33-1"],
+  "language": ["fra"],
+  "reportTitle": ["NORAD 1986"],
+  "label": "Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des affaires extérieures et de la défense nationale, Rapport",
+  "callNumber": "33-1 E9 A12",
+  "pubmin": "1984-11-05"
+}

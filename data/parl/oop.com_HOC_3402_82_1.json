@@ -1,0 +1,15 @@
+{
+  "node": [
+    ["eng", "c", "committees", "34-2", 145],
+    ["fra", "c", "committees", "34-2", 145]
+  ],
+  "pubmax": "1991-05-12",
+  "type": "committees",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "label": "House of Commons Committees, 34th Parliament, 2nd Session : Sub-Committee on Poverty, vol. 1 no. 1-13 = Comités de la Chambre des communes, 34e Législature, 2e Session : Sous-comité sur la pauvreté, vol. 1 no. 1-13",
+  "callNumber": "34-2 P58 A1 no.1-13",
+  "pubmin": "1989-04-03",
+  "session": ["34-2"],
+  "language": ["eng", "fra"]
+}

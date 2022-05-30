@@ -1,0 +1,30 @@
+{
+  "76": {
+    "tagDate": ["1918-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Lists as sent to Mr. Rowell, MP, re. Order of British Empire"
+    ]
+  },
+  "140": {
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1927-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Honours  Index  1905-1918 Index  835 Pt 2  1922-1926  Index Numbers 322-477 1927  Index Numbers 478 "
+    ]
+  },
+  "329": {
+    "tagDate": ["1917-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Honours Order of the British Empire Aug-Dec 1917 No submission from H.E. Correspondence with Lt. Gov. etc."
+    ]
+  },
+  "432": {
+    "tagDescription": ["Order of British Empire Red Cross List"],
+    "tagDate": ["1917-01-01T00:00:00.000Z"]
+  },
+  "189": {
+    "tagDescription": [
+      "New Order of British Empire Order of the British Empire 1917- 1918 Does not contain submissions by H.E."
+    ],
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1918-12-31T23:59:59.999Z]"]
+  }
+}

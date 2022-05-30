@@ -1,0 +1,13 @@
+{
+  "callNumber": "33-1 H4 A122",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on National Health and Welfare, Fifth Report",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng"],
+  "reportTitle": ["AIDS in Canada"],
+  "pubmax": "1986-08-28",
+  "node": [["eng", "c", "committees", "33-1", 105.1]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

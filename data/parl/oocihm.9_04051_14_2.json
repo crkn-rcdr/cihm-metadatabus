@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["c"],
+  "node": [["fra", "c", "sessional", "04-3", 2]],
+  "pubmax": "1881-03-21",
+  "type": "sessional",
+  "session": ["04-3"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 4e Législature, 3e Session : vol. 2",
+  "pubmin": "1880-12-09"
+}

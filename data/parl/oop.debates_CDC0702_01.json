@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Abbott, John Joseph Caldwell",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "07-2", 1]],
+  "pubmax": "1892-07-09",
+  "language": ["fra"],
+  "session": ["07-2"],
+  "pubmin": "1892-02-25",
+  "label": "Débats de la Chambre des communes, 7e Législature, 2e Session : Vol. 1"
+}

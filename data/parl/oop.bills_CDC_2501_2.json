@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["25-1"],
+  "pubmin": "1962-09-27",
+  "callNumber": "KE72 C361 25-1 C70-C111",
+  "label": "Projets de loi de la Chambre des communes, 25e Législature, 1re Session : C70-C111",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George",
+  "type": "bills",
+  "pubmax": "1963-02-06",
+  "node": [["fra", "c", "bills", "25-1", 2]]
+}

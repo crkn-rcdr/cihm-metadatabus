@@ -1,0 +1,12 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [["eng", "c", "committees", "20-4", 7]],
+  "pubmax": "1948-06-30",
+  "language": ["eng"],
+  "session": ["20-4"],
+  "pubmin": "1947-12-05",
+  "label": "House of Commons Committees, 20th Parliament, 4th Session : Special Committee on Prices, vol. 1 no. 1-18",
+  "callNumber": "1947/48 P75 A1 v.1"
+}

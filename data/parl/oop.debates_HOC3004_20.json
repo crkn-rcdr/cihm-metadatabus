@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["eng", "c", "debates", "30-4", 5]],
+  "pubmax": "1979-03-26",
+  "language": ["eng"],
+  "session": ["30-4"],
+  "pubmin": "1978-10-11",
+  "label": "House of Commons Debates, 30th Parliament, 4th Session : Index"
+}

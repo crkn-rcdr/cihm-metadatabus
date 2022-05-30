@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["10-4"],
+  "pubmin": "1907-11-28",
+  "label": "House of Commons Debates, 10th Parliament, 4th Session : Vol. 4",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "type": "debates",
+  "pubmax": "1908-07-20",
+  "node": [["eng", "c", "debates", "10-4", 4]]
+}

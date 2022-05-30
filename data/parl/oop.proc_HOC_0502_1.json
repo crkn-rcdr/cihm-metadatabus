@@ -1,0 +1,12 @@
+{
+  "language": ["eng"],
+  "session": ["05-2"],
+  "pubmin": "1884-01-17",
+  "callNumber": "J103 H41 1884 c.2",
+  "label": "House of Commons Votes and Proceedings, 5th Parliament, 2nd Session : 1-67",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "type": "cproc",
+  "pubmax": "1884-04-19",
+  "node": [["eng", "c", "cproc", "05-2", 1]]
+}

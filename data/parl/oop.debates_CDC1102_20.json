@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "node": [["fra", "c", "debates", "11-2", 6]],
+  "pubmax": "1910-05-04",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["c"],
+  "pubmin": "1909-11-11",
+  "label": "Débats de la Chambre des communes, 11e Législature, 2e Session : Index",
+  "language": ["fra"],
+  "session": ["11-2"]
+}

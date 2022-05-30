@@ -1,0 +1,17 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c", "s"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "30-1", 52],
+    ["fra", "c", "committees", "30-1", 45],
+    ["eng", "s", "committees", "30-1", 21],
+    ["fra", "s", "committees", "30-1", 18]
+  ],
+  "pubmax": "1976-10-12",
+  "language": ["eng", "fra"],
+  "session": ["30-1"],
+  "pubmin": "1974-09-30",
+  "label": "Joint Committees, 30th Parliament, 1st Session : Standing Joint Committee on Regulations and other Statutory Instruments, vol. 2 = Comités mixtes, 30e Législature, 1re Session : Comité mixte permanent des règlements et autres textes réglementaires, vol. 2",
+  "callNumber": "1974/76 R48 A1 v.2"
+}

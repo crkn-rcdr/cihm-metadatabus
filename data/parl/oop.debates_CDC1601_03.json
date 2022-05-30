@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "node": [["fra", "c", "debates", "16-1", 3]],
+  "pubmax": "1927-04-14",
+  "type": "debates",
+  "session": ["16-1"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 16e Législature, 1re Session : Vol. 3",
+  "pubmin": "1926-12-09"
+}

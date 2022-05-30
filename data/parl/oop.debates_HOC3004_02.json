@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 30th Parliament, 4th Session : Vol. 2",
+  "pubmin": "1978-10-11",
+  "session": ["30-4"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "30-4", 2]],
+  "pubmax": "1979-03-26",
+  "type": "debates",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"]
+}

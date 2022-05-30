@@ -1,0 +1,11 @@
+{
+  "type": "bills",
+  "pubmax": "1952-11-20",
+  "node": [["eng", "s", "bills", "21-6", 1]],
+  "chamber": ["s"],
+  "pubmin": "1952-02-28",
+  "callNumber": "KE72 C38 21-6 v.1",
+  "label": "Senate Bills, 21st Parliament, 6th Session : B-Z7",
+  "language": ["eng"],
+  "session": ["21-6"]
+}

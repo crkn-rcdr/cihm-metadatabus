@@ -1,0 +1,15 @@
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 162],
+    ["fra", "c", "committees", "34-3", 109]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 O54 A1 no.1-4",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee D on Bill C-58, an Act to amend the Oil and Gas Production and Conservation Act and other Acts in consequence thereof, vol. 1 no. 1-4 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif D sur le projet de loi C-58, Loi modifiant la Loi sur la protection et la rationalisation de l'exploitation du pétrole et du gaz et d'autres lois en conséquence, vol. 1 no. 1-4",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

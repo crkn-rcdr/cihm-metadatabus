@@ -1,0 +1,10 @@
+{
+  "label": "Senate Debates, 21st Parliament, 2nd Session : Vol. 1",
+  "pubmin": "1950-02-16",
+  "session": ["21-2"],
+  "language": ["eng"],
+  "node": [["eng", "s", "debates", "21-2", 1]],
+  "pubmax": "1950-06-30",
+  "type": "debates",
+  "chamber": ["s"]
+}

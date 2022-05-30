@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "node": [["eng", "s", "bills", "20-4", 2]],
+  "pubmax": "1948-06-30",
+  "type": "bills",
+  "session": ["20-4"],
+  "language": ["eng"],
+  "label": "Senate Bills, 20th Parliament, 4th Session : A7-Z12",
+  "callNumber": "KE72 C38 20-4 v.2",
+  "pubmin": "1947-12-05"
+}

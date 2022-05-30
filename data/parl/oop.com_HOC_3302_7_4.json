@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 11],
+    ["fra", "c", "committees", "33-2", 26]
+  ],
+  "pubmax": "1988-10-01",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Standing Committee on Agriculture, vol. 4 no. 59-61 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité permanent de l'agriculture, vol. 4 no. 59-61",
+  "callNumber": "33-2 A3 A1 no.59-61",
+  "language": ["eng", "fra"],
+  "session": ["33-2"]
+}

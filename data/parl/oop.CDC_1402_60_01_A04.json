@@ -1,0 +1,11 @@
+{
+  "session": ["14-2"],
+  "language": ["fra"],
+  "label": "Journaux de la Chambre des communes, 14e Législature, 2e Session : Vol. 60 App. 4",
+  "pubmin": "1923-01-31",
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "pubmax": "1923-06-30",
+  "node": [["fra", "c", "journals", "14-2", 5]],
+  "type": "journals"
+}

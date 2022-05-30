@@ -1,0 +1,11 @@
+{
+  "pubmin": "1960-01-14",
+  "label": "House of Commons Debates, 24th Parliament, 3rd Session : Vol. 7",
+  "language": ["eng"],
+  "session": ["24-3"],
+  "type": "debates",
+  "pubmax": "1960-08-10",
+  "node": [["eng", "c", "debates", "24-3", 7]],
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

@@ -1,0 +1,11 @@
+{
+  "session": ["21-6"],
+  "language": ["fra"],
+  "callNumber": "KE72 C381 21-6 v.1",
+  "label": "Projets de loi du Sénat, 21e Législature, 6e Session : B-Z4",
+  "pubmin": "1952-02-28",
+  "chamber": ["s"],
+  "pubmax": "1952-11-20",
+  "node": [["fra", "s", "bills", "21-6", 1]],
+  "type": "bills"
+}

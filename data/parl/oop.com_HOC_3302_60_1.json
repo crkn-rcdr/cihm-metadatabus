@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 127],
+    ["fra", "c", "committees", "33-2", 87]
+  ],
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "33-2 L62 A1 no.1-4",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-82, an Act respecting the registration of lobbyists, vol. 1 no. 1-4 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-82, Loi sur l'enregistrement des lobbyistes, vol. 1 no. 1-4"
+}

@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "28-2", 5],
+    ["fra", "c", "bills", "28-2", 5]
+  ],
+  "pubmax": "1970-10-07",
+  "language": ["eng", "fra"],
+  "session": ["28-2"],
+  "pubmin": "1969-10-23",
+  "label": "House of Commons Bills, 28th Parliament, 2nd Session : C215 = Projets de loi de la Chambre des communes, 28e Législature, 2e Session : C215",
+  "callNumber": "KE72 C36 28-2 C215"
+}

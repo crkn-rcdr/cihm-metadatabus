@@ -1,0 +1,14 @@
+{
+  "chamber": ["s"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "34-2", 26],
+    ["fra", "s", "committees", "34-2", 32]
+  ],
+  "pubmax": "1991-05-12",
+  "language": ["eng", "fra"],
+  "session": ["34-2"],
+  "pubmin": "1989-04-03",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on National Finance, vol. 2 no. 28-43 = Comités du Sénat, 34e Législature, 2e Session : Comité permanent des finances nationales, vol. 2 no. 28-43",
+  "callNumber": "34-2 N3 A1 no.28-43"
+}

@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1972-09-01",
+  "node": [["eng", "s", "journals", "28-4", 1]],
+  "type": "journals",
+  "session": ["28-4"],
+  "language": ["eng"],
+  "label": "Senate Journals, 28th Parliament, 4th Session : Vol. 118",
+  "pubmin": "1972-02-17"
+}

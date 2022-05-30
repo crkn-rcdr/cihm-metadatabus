@@ -1,0 +1,10 @@
+{
+  "label": "Journaux du Sénat, 10e Législature, 4e Session : Vol. 43",
+  "pubmin": "1907-11-28",
+  "session": ["10-4"],
+  "language": ["fra"],
+  "pubmax": "1908-07-20",
+  "node": [["fra", "s", "journals", "10-4", 1]],
+  "type": "journals",
+  "chamber": ["s"]
+}

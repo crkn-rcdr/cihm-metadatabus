@@ -1,0 +1,15 @@
+{
+  "pubmin": "1897-03-25",
+  "label": "Senate and House of Commons Bills, 8th Parliament, 2nd Session : A-N, 2-149",
+  "callNumber": "KE72 C36 8-2 no.2-149 no.A-N",
+  "language": ["eng"],
+  "session": ["08-2"],
+  "type": "bills",
+  "node": [
+    ["eng", "s", "bills", "08-2", 1],
+    ["eng", "c", "bills", "08-2", 1]
+  ],
+  "pubmax": "1897-06-29",
+  "primeMinisters": "Laurier, Wilfrid",
+  "chamber": ["s", "c"]
+}

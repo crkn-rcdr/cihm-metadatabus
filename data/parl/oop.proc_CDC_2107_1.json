@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["21-7"],
+  "pubmin": "1952-11-20",
+  "callNumber": "J103 H44 1952-53",
+  "label": "Procès-verbaux de la Chambre des communes, 21e Législature, 7e Session : 1-108",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "cproc",
+  "pubmax": "1953-05-14",
+  "node": [["fra", "c", "cproc", "21-7", 1]]
+}

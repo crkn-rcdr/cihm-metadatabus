@@ -1,0 +1,16 @@
+{
+  "label": "Comités mixtes, 30e Législature, 1re Session : Comité spécial mixte sur la politique de l'immigration, Rapport",
+  "callNumber": "1974/76 I4 A12",
+  "pubmin": "1974-09-30",
+  "session": ["30-1"],
+  "language": ["fra"],
+  "reportTitle": ["Immigration"],
+  "node": [
+    ["fra", "c", "committees", "30-1", 26],
+    ["fra", "s", "committees", "30-1", 15]
+  ],
+  "pubmax": "1976-10-12",
+  "type": "committees",
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c", "s"]
+}

@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Macdonald, John Alexander",
+  "chamber": ["s", "c"],
+  "node": [
+    ["eng", "s", "bills", "06-2", 1],
+    ["eng", "c", "bills", "06-2", 1]
+  ],
+  "pubmax": "1888-05-22",
+  "type": "bills",
+  "session": ["06-2"],
+  "language": ["eng"],
+  "label": "Senate and House of Commons Bills, 6th Parliament, 2nd Session : A-L, C2-C138",
+  "callNumber": "KE72 C36 6-2 no.2-138 no.A-L",
+  "pubmin": "1888-02-23"
+}

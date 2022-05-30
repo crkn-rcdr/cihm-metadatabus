@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["24-1"],
+  "pubmin": "1958-05-12",
+  "callNumber": "KE72 C38 24-1 S2-S17",
+  "label": "Senate Bills, 24th Parliament, 1st Session : S2-S17",
+  "chamber": ["s"],
+  "type": "bills",
+  "pubmax": "1958-09-06",
+  "node": [["eng", "s", "bills", "24-1", 1]]
+}

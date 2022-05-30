@@ -1,0 +1,49 @@
+{
+  "1152": {
+    "tagDate": ["[1925-01-01T00:00:00.000Z TO 1926-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Messages of Condolence on the occasion of the death of Her Majesty Queen Alexandra"
+    ]
+  },
+  "791": {
+    "tagDescription": ["Imperial Register of Heirs. Investigation of -"],
+    "tagDate": ["1917-01-01T00:00:00.000Z"]
+  },
+  "494": { "tagDescription": ["Missing / Manque"] },
+  "798": { "tagDescription": ["Missing / Manque"] },
+  "593": {
+    "tagDate": ["1921-01-01T00:00:00.000Z"],
+    "tagDescription": [
+      "Parliamentary debates  House of Lords, Vol 48, Nos 1-2-3 -Parliamentary debates  House of Lords, Vol 149, nos. 1-2-3 -Articles of Agreement for a Treaty between Great Britain and Ireland -Correspondence between his Majestys Government and The Prime Minister of Northern Ireland relating to the proposals for an Irish settlement"
+    ]
+  },
+  "780": { "tagDescription": ["Missing / Manque"] },
+  "799": {
+    "tagDate": ["[1917-01-01T00:00:00.000Z TO 1925-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Secretary of State of the United States 1917: Invitation to visit Canada 1920: Dismissal of Mr. Robert Lansing from Post of Secretary of State 1920: Mr. Bainbridge Colby appointed Secretary of State 1925: Retirement of Mr Charles Hughes from the office of Secretary of State"
+    ]
+  },
+  "789": { "tagDescription": ["Missing / Manque"] },
+  "496": {
+    "tagDescription": [
+      "1924: Appointment of Irish Minister to Washington 1926: Appointment of United States Minister to Dublin 1928: Appointment of Irish Minister to Paris and Berlin"
+    ],
+    "tagDate": ["[1924-01-01T00:00:00.000Z TO 1928-12-31T23:59:59.999Z]"]
+  },
+  "827": {
+    "tagDescription": [
+      "Notices of death of Royal personages, heads of States etc, -Orders re Court Mourning, Half-Masting of flags, etc in particular instances - Messages of condolence I some cases"
+    ],
+    "tagDate": ["[1861-01-01T00:00:00.000Z TO 1939-12-31T23:59:59.999Z]"]
+  },
+  "7": {
+    "tagDate": ["[1916-01-01T00:00:00.000Z TO 1937-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Ireland. General file"]
+  },
+  "825": { "tagDescription": ["Missing / Manque"] },
+  "782": {
+    "tagDescription": ["New Zealand. Dependencies"],
+    "tagDate": ["1926-01-01T00:00:00.000Z"]
+  }
+}

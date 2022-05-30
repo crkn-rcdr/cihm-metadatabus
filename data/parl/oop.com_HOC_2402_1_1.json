@@ -1,0 +1,12 @@
+{
+  "callNumber": "1959 A3 A1",
+  "label": "House of Commons Committees, 24th Parliament, 2nd Session : Standing Committee on Agriculture and Colonization, vol. 1",
+  "pubmin": "1959-01-15",
+  "session": ["24-2"],
+  "language": ["eng"],
+  "pubmax": "1959-07-18",
+  "node": [["eng", "c", "committees", "24-2", 1]],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Diefenbaker, John George"
+}

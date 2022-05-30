@@ -1,0 +1,12 @@
+{
+  "callNumber": "KE72 C36",
+  "label": "House of Commons Bills, 5th Parliament, 3rd Session : 2-164",
+  "pubmin": "1885-01-29",
+  "session": ["05-3"],
+  "language": ["eng"],
+  "pubmax": "1885-07-20",
+  "node": [["eng", "c", "bills", "05-3", 1]],
+  "type": "bills",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "bills",
+  "node": [["fra", "c", "bills", "26-2", 2]],
+  "pubmax": "1965-04-03",
+  "primeMinisters": "Pearson, Lester Bowles",
+  "chamber": ["c"],
+  "pubmin": "1964-02-18",
+  "label": "Projets de loi de la Chambre des communes, 26e Législature, 2e Session : C96-C126",
+  "callNumber": "KE72 C361 26-2 C96-C126",
+  "language": ["fra"],
+  "session": ["26-2"]
+}

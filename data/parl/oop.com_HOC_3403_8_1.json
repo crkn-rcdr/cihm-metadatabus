@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "34-3", 19],
+    ["fra", "c", "committees", "34-3", 163]
+  ],
+  "pubmax": "1993-09-08",
+  "language": ["eng", "fra"],
+  "session": ["34-3"],
+  "pubmin": "1991-05-13",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Legislative Committee E on Bill C-61, an Act to provide borrowing authority for the fiscal year commencing on April 1, 1992, vol. 1 no. 1 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité législatif E sur le projet de loi C-61, Loi portant pouvoir d'emprunt pour l'exercice commençant le 1er avril 1992, vol. 1 no. 1",
+  "callNumber": "34-3 B5691 A1 no.1"
+}

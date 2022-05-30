@@ -1,0 +1,11 @@
+{
+  "type": "debates",
+  "pubmax": "1955-07-28",
+  "node": [["fra", "c", "debates", "22-2", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "pubmin": "1955-01-07",
+  "label": "Débats de la Chambre des communes, 22e Législature, 2e Session : Vol. 3",
+  "language": ["fra"],
+  "session": ["22-2"]
+}

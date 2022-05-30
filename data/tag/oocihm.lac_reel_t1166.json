@@ -1,0 +1,39 @@
+{
+  "1578": {
+    "tagDescription": ["Colonial conference, 1907"],
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1909-12-31T23:59:59.999Z]"]
+  },
+  "2054": {
+    "tagDescription": ["Imperial Conference, 1911"],
+    "tagDate": ["1911-01-01T00:00:00.000Z"]
+  },
+  "281": {
+    "tagDescription": ["Case of the Acacia Flag incident at Rochester"],
+    "tagDate": ["[1905-01-01T00:00:00.000Z TO 1906-12-31T23:59:59.999Z]"]
+  },
+  "1179": {
+    "tagDate": ["[1922-01-01T00:00:00.000Z TO 1936-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Import and Export of Livestock"]
+  },
+  "279": { "tagDescription": ["Missing / Manque"] },
+  "328": {
+    "tagDescription": [
+      "Importation of cattle into Great Britain from the United States -Embargo on Importation of Canadian live cattle into the United Kingdom"
+    ],
+    "tagDate": ["[1889-01-01T00:00:00.000Z TO 1896-12-31T23:59:59.999Z]"]
+  },
+  "752": {
+    "tagDate": ["[1913-01-01T00:00:00.000Z TO 1921-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Import and Export of Livestock"]
+  },
+  "1427": {
+    "tagDate": ["[1894-01-01T00:00:00.000Z TO 1922-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Publication: Board of Agriculture Further pagers and correspondence relating to the landing in Great Britain from Canada of Cattle affected with Pleuro-Pneumonia -Proceedings of a conference on the admission of Canadian cattle into Great Britain held in the Colonial office, on the 14, 18 and 20 October 1922"
+    ]
+  },
+  "974": {
+    "tagDescription": ["Ibid"],
+    "tagDate": ["[1901-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  }
+}

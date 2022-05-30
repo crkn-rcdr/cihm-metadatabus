@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "journals",
+  "node": [["fra", "c", "journals", "20-1", 1]],
+  "pubmax": "1945-12-18",
+  "language": ["fra"],
+  "session": ["20-1"],
+  "pubmin": "1945-09-06",
+  "label": "Journaux de la Chambre des communes, 20e Législature, 1re Session : Vol. 86"
+}

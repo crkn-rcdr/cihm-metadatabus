@@ -1,0 +1,15 @@
+{
+  "pubmax": "1910-05-04",
+  "node": [
+    ["eng", "s", "bills", "11-2", 1],
+    ["eng", "c", "bills", "11-2", 1]
+  ],
+  "type": "bills",
+  "chamber": ["s", "c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "callNumber": "KE72 C36 11-2 no.2-233 no.A-O3",
+  "label": "Senate and House of Commons Bills, 11th Parliament, 2nd Session : A-OOO, 2-233",
+  "pubmin": "1909-11-11",
+  "session": ["11-2"],
+  "language": ["eng"]
+}

@@ -1,0 +1,11 @@
+{
+  "pubmin": "1937-01-14",
+  "callNumber": "J103 H43 1937",
+  "label": "Procès-verbaux du Sénat, 18e Législature, 2e Session : 1-37",
+  "language": ["fra"],
+  "session": ["18-2"],
+  "type": "sproc",
+  "pubmax": "1937-04-10",
+  "node": [["fra", "s", "sproc", "18-2", 1]],
+  "chamber": ["s"]
+}

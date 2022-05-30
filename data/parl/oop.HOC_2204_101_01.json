@@ -1,0 +1,11 @@
+{
+  "language": ["eng"],
+  "session": ["22-4"],
+  "pubmin": "1956-11-26",
+  "label": "House of Commons Journals, 22nd Parliament, 4th Session : Vol. 101",
+  "chamber": ["c"],
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "type": "journals",
+  "pubmax": "1957-01-08",
+  "node": [["eng", "c", "journals", "22-4", 1]]
+}

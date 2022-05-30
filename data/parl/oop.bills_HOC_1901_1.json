@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c", "s"],
+  "type": "bills",
+  "node": [
+    ["eng", "c", "bills", "19-1", 1],
+    ["eng", "s", "bills", "19-1", 1]
+  ],
+  "pubmax": "1940-11-05",
+  "language": ["eng"],
+  "session": ["19-1"],
+  "pubmin": "1940-05-16",
+  "label": "Senate and House of Commons Bills, 19th Parliament, 1st Session : B-S3, 2-122",
+  "callNumber": "KE72 C36 19-1 2-120"
+}

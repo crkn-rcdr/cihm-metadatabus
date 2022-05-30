@@ -1,0 +1,16 @@
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 175],
+    ["eng", "s", "committees", "34-3", 29]
+  ],
+  "type": "committees",
+  "chamber": ["c", "s"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 P763 A12",
+  "label": "Joint Committees, 34th Parliament, 3rd Session : Special Joint Committee on Process for amending the Constitution of Canada, Report",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "reportTitle": ["The Processs for Amending the Constitution of Canada"],
+  "language": ["eng"]
+}

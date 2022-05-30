@@ -1,0 +1,43 @@
+{
+  "583": {
+    "tagName": ["Ars"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagDescription": ["Ars - Baso"]
+  },
+  "1572": {
+    "tagDescription": ["Bergeron, P. - Boudreault"],
+    "tagName": ["Bergeron, P."],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"]
+  },
+  "2208": {
+    "tagDescription": ["Bourgeois - Cain"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Bourgeois"]
+  },
+  "531": {
+    "tagDescription": [
+      "Généalogies acadiennes - (Violet P-Z) Fiches acadiennes (AL-ARO)"
+    ],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"]
+  },
+  "1234": {
+    "tagDescription": ["Bast - Bergeron, M."],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Bast"]
+  },
+  "1959": {
+    "tagName": ["Bourdrault"],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagDescription": ["Bourdrault - Bourgeois"]
+  },
+  "13": {
+    "tagDescription": ["Tibodeau, M. - Trahan, M."],
+    "tagName": ["Tibodeau, M."],
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"]
+  },
+  "152": {
+    "tagNotebook": ["NOTES GÉNÉALOGIQUES : FICHES"],
+    "tagName": ["Trahan, M."],
+    "tagDescription": ["Trahan, M. - Violet, M."]
+  }
+}

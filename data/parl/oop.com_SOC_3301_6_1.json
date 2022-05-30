@@ -1,0 +1,14 @@
+{
+  "pubmin": "1984-11-05",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Legal and Constitutional Affairs, vol. 1 no. 1-18 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent des affaires juridiques et constitutionnelles, vol. 1 no. 1-18",
+  "callNumber": "33-1 L4 A1 no.1-18",
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "type": "committees",
+  "node": [
+    ["eng", "s", "committees", "33-1", 24],
+    ["fra", "s", "committees", "33-1", 4]
+  ],
+  "pubmax": "1986-08-28",
+  "chamber": ["s"]
+}

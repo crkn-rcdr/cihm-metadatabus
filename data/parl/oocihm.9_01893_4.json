@@ -1,0 +1,10 @@
+{
+  "type": "journals",
+  "node": [["fra", "s", "journals", "01-4", 1]],
+  "pubmax": "1871-04-14",
+  "chamber": ["s"],
+  "pubmin": "1871-02-15",
+  "label": "Journaux du Sénat, 1e Législature, 4e Session : Vol. 4",
+  "language": ["fra"],
+  "session": ["01-4"]
+}

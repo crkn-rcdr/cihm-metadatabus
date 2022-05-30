@@ -1,0 +1,11 @@
+{
+  "language": ["fra"],
+  "session": ["18-2"],
+  "pubmin": "1937-01-14",
+  "callNumber": "1937 C45C A42",
+  "label": "Comités du Sénat, 18e Législature, 2e Session : Comité permanent des chemins de fer, télégraphes et havres, vol. 2",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1937-04-10",
+  "node": [["fra", "s", "committees", "18-2", 2]]
+}

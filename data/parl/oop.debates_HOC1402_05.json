@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "type": "debates",
+  "pubmax": "1923-06-30",
+  "node": [["eng", "c", "debates", "14-2", 5]],
+  "language": ["eng"],
+  "session": ["14-2"],
+  "pubmin": "1923-01-31",
+  "label": "House of Commons Debates, 14th Parliament, 2nd Session : Vol. 5"
+}

@@ -1,0 +1,11 @@
+{
+  "callNumber": "1932 C6 A12",
+  "label": "Senate Committees, 17th Parliament, 3rd Session : Standing Committee on Commerce and Trade Relations, Report",
+  "pubmin": "1932-02-04",
+  "session": ["17-3"],
+  "language": ["eng"],
+  "pubmax": "1932-05-26",
+  "node": [["eng", "s", "committees", "17-3", 2]],
+  "type": "committees",
+  "chamber": ["s"]
+}

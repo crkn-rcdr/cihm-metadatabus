@@ -1,0 +1,11 @@
+{
+  "session": ["01-1"],
+  "language": ["fra"],
+  "label": "Documents parlementaires, 1e Législature, 1re Session : vol. 6",
+  "pubmin": "1867-11-06",
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1868-05-22",
+  "node": [["fra", "c", "sessional", "01-1", 6]],
+  "type": "sessional"
+}

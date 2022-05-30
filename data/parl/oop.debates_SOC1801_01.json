@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "pubmax": "1936-06-23",
+  "node": [["eng", "s", "debates", "18-1", 1]],
+  "language": ["eng"],
+  "session": ["18-1"],
+  "pubmin": "1936-02-06",
+  "label": "Senate Debates, 18th Parliament, 1st Session : Vol. 1"
+}

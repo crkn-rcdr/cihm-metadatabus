@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "33-2", 26],
+    ["fra", "c", "committees", "33-2", 119]
+  ],
+  "pubmax": "1988-10-01",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-152, an Act to establish the Canadian Heritage Languages Institute, vol. 1 no. 1-2 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-152, Loi constituant l'Institut des langues du patrimoine multiculturel canadien, vol. 1 no. 1-2",
+  "callNumber": "33-2 C327 A1 no.1-2"
+}

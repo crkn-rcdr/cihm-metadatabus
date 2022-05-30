@@ -1,0 +1,10 @@
+{
+  "label": "Journaux du Sénat, 3e Législature, 5e Session : Vol. 12 App.",
+  "pubmin": "1878-02-07",
+  "session": ["03-5"],
+  "language": ["fra"],
+  "pubmax": "1878-05-10",
+  "node": [["fra", "s", "journals", "03-5", 2]],
+  "type": "journals",
+  "chamber": ["s"]
+}

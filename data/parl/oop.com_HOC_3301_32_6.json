@@ -1,0 +1,15 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 F58 A1 no.58-61",
+  "label": "House of Commons Committees, 33rd Parliament, 1st Session : Standing Committee on Fisheries and Forestry, vol. 6 no. 58-61 = Comités de la Chambre des communes, 33e Législature, 1re Session : Comité permanent des pêches et des forêts, vol. 6 no. 58-61",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "c", "committees", "33-1", 76],
+    ["fra", "c", "committees", "33-1", 90]
+  ]
+}

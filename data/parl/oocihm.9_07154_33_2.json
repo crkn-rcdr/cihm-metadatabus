@@ -1,0 +1,10 @@
+{
+  "session": ["08-3"],
+  "language": ["eng"],
+  "label": "Senate Journals, 8th Parliament, 3rd Session : Vol. 33 App.",
+  "pubmin": "1898-02-03",
+  "chamber": ["s"],
+  "node": [["eng", "s", "journals", "08-3", 2]],
+  "pubmax": "1898-06-13",
+  "type": "journals"
+}

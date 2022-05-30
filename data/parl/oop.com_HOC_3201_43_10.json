@@ -1,0 +1,15 @@
+{
+  "type": "committees",
+  "pubmax": "1983-11-30",
+  "node": [
+    ["eng", "c", "committees", "32-1", 175],
+    ["fra", "c", "committees", "32-1", 172]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "pubmin": "1980-04-14",
+  "callNumber": "1980/83 T7 A1 no.112-115",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Standing Committee on Transport, vol. 10 no. 112-115 = Comités de la Chambre des communes, 32e Législature, 1re Session : Comité permanent des transports, vol. 10 no. 112-115",
+  "language": ["eng", "fra"],
+  "session": ["32-1"]
+}

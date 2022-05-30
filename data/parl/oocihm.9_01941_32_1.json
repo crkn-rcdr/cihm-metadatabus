@@ -1,0 +1,11 @@
+{
+  "pubmax": "1897-06-29",
+  "node": [["fra", "c", "journals", "08-2", 1]],
+  "type": "journals",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "label": "Journaux de la Chambre des communes, 8e Législature, 2e Session : Vol. 32",
+  "pubmin": "1897-03-25",
+  "session": ["08-2"],
+  "language": ["fra"]
+}

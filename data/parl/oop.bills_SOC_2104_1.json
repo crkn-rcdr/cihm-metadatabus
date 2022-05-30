@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1951-10-09",
+  "node": [["eng", "s", "bills", "21-4", 1]],
+  "type": "bills",
+  "session": ["21-4"],
+  "language": ["eng"],
+  "callNumber": "KE72 C38 21-4 Bill B-",
+  "label": "Senate Bills, 21st Parliament, 4th Session : B-Z12",
+  "pubmin": "1951-01-30"
+}

@@ -1,0 +1,11 @@
+{
+  "callNumber": "J103 H43 1939",
+  "label": "Procès-verbaux du Sénat, 18e Législature, 4e Session : 1-47",
+  "pubmin": "1939-01-12",
+  "session": ["18-4"],
+  "language": ["fra"],
+  "pubmax": "1939-06-03",
+  "node": [["fra", "s", "sproc", "18-4", 1]],
+  "type": "sproc",
+  "chamber": ["s"]
+}

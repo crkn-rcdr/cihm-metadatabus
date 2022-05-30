@@ -1,0 +1,11 @@
+{
+  "chamber": ["s"],
+  "pubmax": "1951-12-29",
+  "node": [["fra", "s", "bills", "21-5", 1]],
+  "type": "bills",
+  "session": ["21-5"],
+  "language": ["fra"],
+  "callNumber": "KE72 C381 21-5 Bill B-",
+  "label": "Projets de loi du Sénat, 21e Législature, 5e Session : B-F",
+  "pubmin": "1951-10-09"
+}

@@ -1,0 +1,13 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [
+    ["eng", "s", "debates", "01-2", 1],
+    ["fra", "s", "debates", "01-2", 1]
+  ],
+  "pubmax": "1869-06-22",
+  "language": ["eng", "fra"],
+  "session": ["01-2"],
+  "pubmin": "1869-04-15",
+  "label": "Senate Debates, 1st Parliament, 2nd Session : Vol. 1 = Débats du Sénat, 1e Législature, 2e Session : Vol. 1"
+}

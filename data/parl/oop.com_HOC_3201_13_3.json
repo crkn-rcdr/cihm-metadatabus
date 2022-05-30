@@ -1,0 +1,15 @@
+{
+  "primeMinisters": "Trudeau, Pierre Elliott",
+  "chamber": ["c"],
+  "type": "committees",
+  "node": [
+    ["eng", "c", "committees", "32-1", 107],
+    ["fra", "c", "committees", "32-1", 142]
+  ],
+  "pubmax": "1983-11-30",
+  "language": ["eng", "fra"],
+  "session": ["32-1"],
+  "pubmin": "1980-04-14",
+  "label": "House of Commons Committees, 32nd Parliament, 1st Session : Sub-Committee on Canada's Relations with Latin America and the Caribbean, Report = Comités de la Chambre des communes, 32e Législature, 1re Session : Sous-comité chargé d'étudier les relations du Canada avec l'Amérique Latine et les Antilles, Rapport",
+  "callNumber": "1980/83 E92 A123"
+}

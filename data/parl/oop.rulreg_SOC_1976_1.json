@@ -1,0 +1,14 @@
+{
+  "session": ["30-1", "30-2"],
+  "language": ["eng", "fra"],
+  "label": "Rules of the Senate of Canada, 1976 = Règlement du Sénat du Canada, 1976",
+  "callNumber": "JL158.3 1976",
+  "pubmin": "1974-09-30",
+  "chamber": ["s"],
+  "node": [
+    ["eng", "s", "rules", null, 18],
+    ["fra", "s", "rules", null, 18]
+  ],
+  "pubmax": "1977-10-17",
+  "type": "rules"
+}

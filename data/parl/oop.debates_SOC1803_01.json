@@ -1,0 +1,10 @@
+{
+  "chamber": ["s"],
+  "type": "debates",
+  "node": [["eng", "s", "debates", "18-3", 1]],
+  "pubmax": "1938-07-01",
+  "language": ["eng"],
+  "session": ["18-3"],
+  "pubmin": "1938-01-27",
+  "label": "Senate Debates, 18th Parliament, 3rd Session : Vol. 1"
+}

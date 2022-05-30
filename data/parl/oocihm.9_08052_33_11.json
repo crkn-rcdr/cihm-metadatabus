@@ -1,0 +1,11 @@
+{
+  "session": ["08-4"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 8th Parliament, 4th Session : vol. 12",
+  "pubmin": "1899-03-16",
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid",
+  "pubmax": "1899-08-11",
+  "node": [["eng", "c", "sessional", "08-4", 12]],
+  "type": "sessional"
+}

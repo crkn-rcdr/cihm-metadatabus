@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Debates, 21st Parliament, 3rd Session : Vol. 1",
+  "pubmin": "1950-08-29",
+  "session": ["21-3"],
+  "language": ["eng"],
+  "node": [["eng", "c", "debates", "21-3", 1]],
+  "pubmax": "1951-01-29",
+  "type": "debates",
+  "primeMinisters": "St-Laurent, Louis Stephen",
+  "chamber": ["c"]
+}

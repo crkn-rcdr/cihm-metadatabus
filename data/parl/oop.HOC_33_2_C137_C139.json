@@ -1,0 +1,14 @@
+{
+  "pubmin": "1986-09-30",
+  "label": "House of Commons Bills, 33rd Parliament, 2nd Session : C137-C139 = Projets de loi de la Chambre des communes, 33e Législature, 2e Session : C137-C139",
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "type": "bills",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "bills", "33-2", 14],
+    ["fra", "c", "bills", "33-2", 14]
+  ],
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

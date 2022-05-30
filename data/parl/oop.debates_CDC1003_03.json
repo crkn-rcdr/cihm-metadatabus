@@ -1,0 +1,11 @@
+{
+  "pubmin": "1906-11-22",
+  "label": "Débats de la Chambre des communes, 10e Législature, 3e Session : Vol. 3",
+  "language": ["fra"],
+  "session": ["10-3"],
+  "type": "debates",
+  "pubmax": "1907-04-27",
+  "node": [["fra", "c", "debates", "10-3", 3]],
+  "chamber": ["c"],
+  "primeMinisters": "Laurier, Wilfrid"
+}

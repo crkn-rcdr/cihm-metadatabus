@@ -1,0 +1,11 @@
+{
+  "pubmin": "1915-02-04",
+  "label": "House of Commons Debates, 12th Parliament, 5th Session : Vol. 1",
+  "language": ["eng"],
+  "session": ["12-5"],
+  "type": "debates",
+  "pubmax": "1915-04-15",
+  "node": [["eng", "c", "debates", "12-5", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Borden, Robert Laird"
+}

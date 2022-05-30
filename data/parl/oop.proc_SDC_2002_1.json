@@ -1,0 +1,11 @@
+{
+  "type": "sproc",
+  "node": [["fra", "s", "sproc", "20-2", 1]],
+  "pubmax": "1946-08-31",
+  "chamber": ["s"],
+  "pubmin": "1946-03-14",
+  "label": "Procès-verbaux du Sénat, 20e Législature, 2e Session : 1-72",
+  "callNumber": "J103 H43 1946",
+  "language": ["fra"],
+  "session": ["20-2"]
+}

@@ -1,0 +1,14 @@
+{
+  "label": "House of Commons Bills, 34th Parliament, 3rd Session : C116-C131 = Projets de loi de la Chambre des communes, 34e Législature, 3e Session : C116-C131",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"],
+  "node": [
+    ["eng", "c", "bills", "34-3", 18],
+    ["fra", "c", "bills", "34-3", 18]
+  ],
+  "pubmax": "1993-09-08",
+  "type": "bills",
+  "primeMinisters": "Mulroney, Martin Brian",
+  "chamber": ["c"]
+}

@@ -1,0 +1,11 @@
+{
+  "label": "House of Commons Journals, 13th Parliament, 3rd Session : Vol. 56 App. 1",
+  "pubmin": "1919-09-01",
+  "session": ["13-3"],
+  "language": ["eng"],
+  "node": [["eng", "c", "journals", "13-3", 2]],
+  "pubmax": "1919-11-10",
+  "type": "journals",
+  "primeMinisters": "Borden, Robert Laird",
+  "chamber": ["c"]
+}

@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-2"],
+  "pubmin": "1986-09-30",
+  "callNumber": "JL158.3 1988 March",
+  "label": "Rules of the Senate of Canada, 1988 = Règlement du Sénat du Canada, 1988",
+  "chamber": ["s"],
+  "type": "rules",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "s", "rules", null, 25],
+    ["fra", "s", "rules", null, 25]
+  ]
+}

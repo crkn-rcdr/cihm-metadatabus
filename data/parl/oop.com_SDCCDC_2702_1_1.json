@@ -1,0 +1,15 @@
+{
+  "node": [
+    ["fra", "c", "committees", "27-2", 6],
+    ["fra", "s", "committees", "27-2", 4]
+  ],
+  "pubmax": "1968-04-23",
+  "type": "committees",
+  "primeMinisters": "Pearson, Lester Bowles (1967-05-08 - 1968-04-19), Trudeau, Pierre Elliott (1968-04-20 - 1968-04-23)",
+  "chamber": ["c", "s"],
+  "label": "Comités mixtes, 27e Législature, 2e Session : Comité spécial mixte sur le divorce, vol. 1",
+  "callNumber": "1967/68 D5 A1",
+  "pubmin": "1967-05-08",
+  "session": ["27-2"],
+  "language": ["fra"]
+}

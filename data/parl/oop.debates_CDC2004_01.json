@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "debates",
+  "node": [["fra", "c", "debates", "20-4", 1]],
+  "pubmax": "1948-06-30",
+  "language": ["fra"],
+  "session": ["20-4"],
+  "pubmin": "1947-12-05",
+  "label": "Débats de la Chambre des communes, 20e Législature, 4e Session : Vol. 1"
+}

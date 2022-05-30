@@ -1,0 +1,12 @@
+{
+  "pubmin": "1932-02-04",
+  "callNumber": "KE72 C36 17-3 2-101",
+  "label": "House of Commons Bills, 17th Parliament, 3rd Session : 2-102",
+  "language": ["eng"],
+  "session": ["17-3"],
+  "type": "bills",
+  "pubmax": "1932-05-26",
+  "node": [["eng", "c", "bills", "17-3", 1]],
+  "chamber": ["c"],
+  "primeMinisters": "Bennett, Richard Bedford"
+}

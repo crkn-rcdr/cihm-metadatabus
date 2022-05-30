@@ -1,0 +1,11 @@
+{
+  "label": "Débats de la Chambre des communes, 33e Législature, 2e Session : Vol. 4",
+  "pubmin": "1986-09-30",
+  "session": ["33-2"],
+  "language": ["fra"],
+  "pubmax": "1988-10-01",
+  "node": [["fra", "c", "debates", "33-2", 4]],
+  "type": "debates",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian"
+}

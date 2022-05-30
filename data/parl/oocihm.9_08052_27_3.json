@@ -1,0 +1,11 @@
+{
+  "primeMinisters": "Thompson, John Sparrow David",
+  "chamber": ["c"],
+  "node": [["eng", "c", "sessional", "07-4", 3]],
+  "pubmax": "1894-07-23",
+  "type": "sessional",
+  "session": ["07-4"],
+  "language": ["eng"],
+  "label": "Sessional Papers, 7th Parliament, 4th Session : vol. 3",
+  "pubmin": "1894-03-15"
+}

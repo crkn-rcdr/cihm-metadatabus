@@ -1,0 +1,14 @@
+{
+  "node": [["fra", "s", "committees", "32-1", 12]],
+  "pubmax": "1983-11-30",
+  "type": "committees",
+  "chamber": ["s"],
+  "label": "Comités du Sénat, 32e Législature, 1re Session : Comité permanent de l'agriculture, Rapport",
+  "callNumber": "J103 H7 1980/83 A3 A13f",
+  "pubmin": "1980-04-14",
+  "session": ["32-1"],
+  "language": ["fra"],
+  "reportTitle": [
+    "Programmes de mise en marché et de stabilisation de l'industrie du boeuf au Canada : résumé"
+  ]
+}

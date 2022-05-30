@@ -1,0 +1,15 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "pubmax": "1988-10-01",
+  "node": [
+    ["eng", "c", "committees", "33-2", 109],
+    ["fra", "c", "committees", "33-2", 177]
+  ],
+  "type": "committees",
+  "session": ["33-2"],
+  "language": ["eng", "fra"],
+  "callNumber": "33-2 I49 A1 no.1-7",
+  "label": "House of Commons Committees, 33rd Parliament, 2nd Session : Legislative Committee on Bill C-73, an Act to provide for the implementation of an agreement respecting Indian lands in Ontario, Bill C-122, an Act to amend the Indian Act (by-laws and membership rules) and Bill C-123, an Act to amend the Indian Act (minors' funds and surviving spouse's preferential share), vol. 1 no. 1-7 = Comités de la Chambre des communes, 33e Législature, 2e Session : Comité législatif sur le projet de loi C-73, Loi de mise en oeuvre d'un accord concernant les terres indiennes de l'Ontario, Projet de loi C-122, Loi modifiant la Loi sur les Indiens (statuts administratifs et règles d'appartenance) et Projet de loi C-123, Loi modifiant la Loi sur les Indiens (fonds des mineurs et part du conjoint survivant), vol. 1 no. 1-7",
+  "pubmin": "1986-09-30"
+}

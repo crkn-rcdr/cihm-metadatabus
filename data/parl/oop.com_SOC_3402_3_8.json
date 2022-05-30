@@ -1,0 +1,14 @@
+{
+  "pubmin": "1989-04-03",
+  "label": "Senate Committees, 34th Parliament, 2nd Session : Standing Committee on Banking, Trade and Commerce, Thirteenth Report",
+  "callNumber": "34-2 B3 A123",
+  "reportTitle": [
+    "Report on Bill C-62, An Act to amend the Excise Tax Act, the Criminal Code, the Customs Act, the Customs Tariff, the Excise Act, the Income Tax Act, the Statistics Act and the Tax Court of Canada Act"
+  ],
+  "language": ["eng"],
+  "session": ["34-2"],
+  "type": "committees",
+  "node": [["eng", "s", "committees", "34-2", 11]],
+  "pubmax": "1991-05-12",
+  "chamber": ["s"]
+}

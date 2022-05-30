@@ -1,0 +1,11 @@
+{
+  "session": ["22-2"],
+  "language": ["eng"],
+  "callNumber": "1955 D7 A1",
+  "label": "Senate Committees, 22nd Parliament, 2nd Session : Special Committee on the Traffic in Narcotic Drugs in Canada, vol. 1",
+  "pubmin": "1955-01-07",
+  "chamber": ["s"],
+  "pubmax": "1955-07-28",
+  "node": [["eng", "s", "committees", "22-2", 3]],
+  "type": "committees"
+}

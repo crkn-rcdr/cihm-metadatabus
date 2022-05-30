@@ -1,0 +1,12 @@
+{
+  "language": ["fra"],
+  "session": ["14-1"],
+  "pubmin": "1922-03-08",
+  "label": "Projets de loi de la Chambre des communes, 14e Législature, 1re Session : 2-207",
+  "callNumber": "KE72 C361 14-1 2-207",
+  "primeMinisters": "King, William Lyon Mackenzie",
+  "chamber": ["c"],
+  "type": "bills",
+  "node": [["fra", "c", "bills", "14-1", 1]],
+  "pubmax": "1922-06-28"
+}

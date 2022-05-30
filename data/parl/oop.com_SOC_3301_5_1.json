@@ -1,0 +1,14 @@
+{
+  "language": ["eng", "fra"],
+  "session": ["33-1"],
+  "pubmin": "1984-11-05",
+  "callNumber": "33-1 F6 A1 no.1-14",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Foreign Affairs, vol. 1 no. 1-14 = Comités du Sénat, 33e Législature, 1re Session : Comité permanent des affaires étrangères, vol. 1 no. 1-14",
+  "chamber": ["s"],
+  "type": "committees",
+  "pubmax": "1986-08-28",
+  "node": [
+    ["eng", "s", "committees", "33-1", 20],
+    ["fra", "s", "committees", "33-1", 2]
+  ]
+}

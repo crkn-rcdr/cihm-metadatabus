@@ -1,0 +1,11 @@
+{
+  "chamber": ["c"],
+  "primeMinisters": "Macdonald, John Alexander",
+  "pubmax": "1871-04-14",
+  "node": [["fra", "c", "debates", "01-4", 1]],
+  "type": "debates",
+  "session": ["01-4"],
+  "language": ["fra"],
+  "label": "Débats de la Chambre des communes, 1e Législature, 4e Session : Vol. 1",
+  "pubmin": "1871-02-15"
+}

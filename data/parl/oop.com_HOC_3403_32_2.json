@@ -1,0 +1,15 @@
+{
+  "pubmax": "1993-09-08",
+  "node": [
+    ["eng", "c", "committees", "34-3", 56],
+    ["fra", "c", "committees", "34-3", 88]
+  ],
+  "type": "committees",
+  "chamber": ["c"],
+  "primeMinisters": "Mulroney, Martin Brian",
+  "callNumber": "34-3 E554 A1 no.11-23",
+  "label": "House of Commons Committees, 34th Parliament, 3rd Session : Standing Committee on Energy, Mines and Resources, vol. 2 no. 11-23 = Comités de la Chambre des communes, 34e Législature, 3e Session : Comité permanent de l'énergie, des mines et des ressources, vol. 2 no. 11-23",
+  "pubmin": "1991-05-13",
+  "session": ["34-3"],
+  "language": ["eng", "fra"]
+}

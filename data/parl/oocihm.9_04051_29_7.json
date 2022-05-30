@@ -1,0 +1,11 @@
+{
+  "label": "Documents parlementaires, 7e Législature, 6e Session : vol. 7",
+  "pubmin": "1896-01-02",
+  "session": ["07-6"],
+  "language": ["fra"],
+  "pubmax": "1896-04-23",
+  "node": [["fra", "c", "sessional", "07-6", 7]],
+  "type": "sessional",
+  "chamber": ["c"],
+  "primeMinisters": "Bowell, Mackenzie"
+}

@@ -1,0 +1,56 @@
+{
+  "37": {
+    "tagDescription": ["Guaranteed Loans and Sinking Funds"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1913-12-31T23:59:59.999Z]"]
+  },
+  "654": { "tagDescription": ["Missing / Manque"] },
+  "811": {
+    "tagDate": ["[1862-01-01T00:00:00.000Z TO 1866-12-31T23:59:59.999Z]"],
+    "tagDescription": ["Telegraph to New Brunswick"]
+  },
+  "14": { "tagDescription": ["Messrs Derbyshire and Desbarats"] },
+  "656": {
+    "tagDescription": ["Relief to commuted pensioners"],
+    "tagDate": ["[1839-01-01T00:00:00.000Z TO 1840-12-31T23:59:59.999Z]"]
+  },
+  "13": {
+    "tagDescription": ["Queens Printer"],
+    "tagDate": ["1841-01-01T00:00:00.000Z"]
+  },
+  "1677": {
+    "tagDate": ["[1830-01-01T00:00:00.000Z TO 1864-12-31T23:59:59.999Z]"],
+    "tagDescription": [
+      "Report of Hudson Bay Company and North West Territories"
+    ]
+  },
+  "977": {
+    "tagDate": ["1846-01-01T00:00:00.000Z"],
+    "tagDescription": ["Fire at Saguenay, 1846"]
+  },
+  "991": {
+    "tagDescription": ["Montreal Fire, 1852"],
+    "tagDate": ["1852-01-01T00:00:00.000Z"]
+  },
+  "1012": {
+    "tagDescription": ["Report of Hudson Bay Company"],
+    "tagDate": ["[1847-01-01T00:00:00.000Z TO 1848-12-31T23:59:59.999Z]"]
+  },
+  "231": {
+    "tagDescription": ["Boundary between New Brunswick and Canada"],
+    "tagDate": ["[1842-01-01T00:00:00.000Z TO 1854-12-31T23:59:59.999Z]"]
+  },
+  "909": {
+    "tagDescription": [
+      "Fire at Quebec, 1845 Application from the City of Quebec for grant of certain vacant properties. November 1874"
+    ],
+    "tagDate": ["[1846-12-31T23:59:59.999Z TO 1874-01-01T00:00:00.000Z]"]
+  },
+  "964": {
+    "tagDescription": ["Fire at St Johns, Newfoundland, 1846"],
+    "tagDate": ["1846-01-01T00:00:00.000Z"]
+  },
+  "797": {
+    "tagDate": ["1934-01-01T00:00:00.000Z"],
+    "tagDescription": ["Fishing rights of the Governor General"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "callNumber": "33-1 B3 A12",
+  "label": "Senate Committees, 33rd Parliament, 1st Session : Standing Committee on Banking, Trade and Commerce, Tenth Report",
+  "pubmin": "1984-11-05",
+  "session": ["33-1"],
+  "language": ["eng"],
+  "reportTitle": ["Deposit Insurance"],
+  "pubmax": "1986-08-28",
+  "node": [["eng", "s", "committees", "33-1", 5]],
+  "type": "committees",
+  "chamber": ["s"]
+}
