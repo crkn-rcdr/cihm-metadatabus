@@ -45,7 +45,13 @@ $couchdb_ocrtask = $ENV{COUCHDB_OCRTASK} if ( exists $ENV{COUCHDB_OCRTASK} );
 my $couchdb_canvas;
 $couchdb_canvas = $ENV{COUCHDB_CANVAS} if ( exists $ENV{COUCHDB_CANVAS} );
 
+my $couchdb_access;
+$couchdb_access = $ENV{COUCHDB_ACCESS} if ( exists $ENV{COUCHDB_ACCESS} );
+
 GetOptions(
+    'couchdb_ocrtask:s'       => \$couchdb_ocrtask,
+    'couchdb_access:s'        => \$couchdb_access,
+    'couchdb_canvas:s'        => \$couchdb_canvas,
     'lockfile:s'              => \$lockfile,
     'maxprocs:i'              => \$maxprocs,
     'swift_server:s'          => \$swift_server,
@@ -54,8 +60,6 @@ GetOptions(
     'swift_account:s'         => \$swift_account,
     'swift_access_metadata:s' => \$swift_access_metadata,
     'swift_access_files:s'    => \$swift_access_files,
-    'couchdb_ocrtask:s'       => \$couchdb_ocrtask,
-    'couchdb_canvas:s'        => \$couchdb_canvas,
 );
 
 # Only allow one instance to run at a time..
@@ -72,6 +76,10 @@ die "couchdb_canvas is mandatory (environment or parameter)\n"
   if ( !$couchdb_canvas );
 $couchdb_canvas = noEndSlash($couchdb_canvas);
 
+die "couchdb_access is mandatory (environment or parameter)\n"
+  if ( !$couchdb_access );
+$couchdb_access = noEndSlash($couchdb_access);
+
 try {
     CIHM::Meta::Ocrtask->new(
         {
@@ -82,8 +90,9 @@ try {
             swift_account         => $swift_account,
             swift_access_metadata => $swift_access_metadata,
             swift_access_files    => $swift_access_files,
-            couchdb_ocrtask       => $couchdb_ocrtask,
+            couchdb_access        => $couchdb_access,
             couchdb_canvas        => $couchdb_canvas,
+            couchdb_ocrtask       => $couchdb_ocrtask,
             logger                => $logger
         }
     )->ocrtask;

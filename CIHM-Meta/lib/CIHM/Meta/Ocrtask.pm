@@ -77,6 +77,18 @@ sub new {
 "Problem connecting to `canvas` Couchdb database. Check configuration\n";
     }
 
+    $self->{accessdb} = new restclient(
+        server      => $args->{couchdb_access},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->accessdb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->accessdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `access` Couchdb database. Check configuration\n";
+    }
+
     return $self;
 }
 
@@ -114,6 +126,11 @@ sub ocrtaskdb {
 sub canvasdb {
     my $self = shift;
     return $self->{canvasdb};
+}
+
+sub accessdb {
+    my $self = shift;
+    return $self->{accessdb};
 }
 
 sub maxprocs {
@@ -187,6 +204,8 @@ sub ocrtask {
                 my $todo = shift @{ $task->{key} };
                 $self->{todo} = $todo;
                 $self->{task} = $task->{doc};
+
+                $self->log->info( "Processing Task=" . $self->taskid );
 
                 # Handle and record any errors
                 try {
@@ -294,12 +313,20 @@ sub ocrImport {
     if ( $res->code != 200 ) {
         die "$url return code: " . $res->code . "\n";
     }
+
+    # Collect IDs so we can force re-generating of caches
+    my %canvasids;
+    my @updatedcanvases;
     foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
         if ( !defined $canvasdoc->{doc} ) {
             warn "Didn't find " . $canvasdoc->{id} . "\n";
         }
         else {
             my $canvas = $canvasdoc->{doc};
+
+            $canvasids{ $canvas->{'_id'} } = 1;
+
+            my $changed;
 
             my $pdfobjectname = $canvas->{'_id'} . '.pdf';
             my $pdffilename = $workdir . '/' . uri_escape_utf8($pdfobjectname);
@@ -310,21 +337,16 @@ sub ocrImport {
                     $pages = $pdf->get_n_pages;
                 };
                 if ( $pages == 1 ) {
-                    open( my $fh, '<:raw', $pdffilename )
-                      or die "Can't open '$pdffilename': $!";
-                    binmode($fh);
-                    my $filedate = "unknown";
-                    my $mtime    = ( stat($fh) )[9];
-                    if ($mtime) {
-                        my $dt = DateTime->from_epoch( epoch => $mtime );
-                        $filedate = $dt->datetime . "Z";
-                    }
-                    my $size = ( stat($fh) )[7];
+                    my $upload =
+                      $self->updateFile( "pdf", $canvas->{'_id'},
+                        $pdffilename );
 
-                    my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
-                    seek( $fh, 0, 0 );
-                    print Dumper ($pdffilename,$filedate, $size, $md5digest);
-
+                    $canvas->{'ocrPdf'} = {
+                        size      => $upload->{size},
+                        extension => 'pdf',
+                        md5       => $upload->{md5digest}
+                    };
+                    $changed = 1;
                 }
                 else {
                     warn "$pdffilename is not a single page PDF\n";
@@ -353,15 +375,153 @@ sub ocrImport {
                     warn "$xmlfilename is not valid ALTO XML: $_\n";
                 };
                 if ($valid) {
-                    print "$xmlfilename is valid\n";
+                    $self->updateFile( "ocrALTO.xml", $canvas->{'_id'},
+                        $xmlfilename );
+
+                    # Delete any redundant txtmap
+                    $self->swift->object_delete( $self->access_metadata,
+                        $canvas->{'_id'} . "/ocrTXTMAP.xml" );
+
+                    $canvas->{'ocrType'} = 'alto';
+                    $changed = 1;
                 }
             }
             else {
                 warn "$xmlfilename doesn't exist\n";
             }
+            if ($changed) {
+                push @updatedcanvases, $canvas;
+            }
         }
     }
-    die "Still testing\n";
+
+    # Update any potentially changed Canvases.
+    if (@updatedcanvases) {
+        my $res = $self->canvasdb->post(
+            "/_bulk_docs",
+            { docs         => \@updatedcanvases },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code != 201 ) {
+            if ( defined $res->response->content ) {
+                warn $res->response->content . "\n";
+            }
+            die "dbupdate of updated canvases return code: "
+              . $res->code . "\n";
+        }
+    }
+
+    my @ids = keys %canvasids;
+
+    $self->accessdb->type("application/json");
+    $url = "/_design/noid/_view/canvasnoids";
+
+    my $res = $self->accessdb->post(
+        $url,
+        {
+            keys         => \@ids,
+            include_docs => JSON::false
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 200 ) {
+        die "$url return code: " . $res->code . "\n";
+    }
+
+    my %manifestids;
+    foreach my $doc ( @{ $res->data->{rows} } ) {
+        $manifestids{ $doc->{'id'} } = 1;
+    }
+
+    # And force those manifests to be processed
+    foreach my $accessid ( keys %manifestids ) {
+        my $url =
+          "/_design/access/_update/forceUpdate/" . uri_escape($accessid);
+        my $res = $self->accessdb->post( $url, {},
+            { deserializer => 'application/json' } );
+        if ( $res->code != 201 ) {
+            if ( defined $res->response->content ) {
+                warn $res->response->content . "\n";
+            }
+            warn "Attempt to force update for $accessid : " . $res->code . "\n";
+        }
+        else {
+            $self->log->info(
+                $self->taskid . ": update forced for noid=$accessid" );
+        }
+    }
+}
+
+sub updateFile {
+    my ( $self, $type, $id, $filename ) = @_;
+
+    open( my $fh, '<:raw', $filename )
+      or die "Can't open '$filename': $!";
+    binmode($fh);
+    my $filedate = "unknown";
+    my $mtime    = ( stat($fh) )[9];
+    if ($mtime) {
+        my $dt = DateTime->from_epoch( epoch => $mtime );
+        $filedate = $dt->datetime . "Z";
+    }
+    my $size = ( stat($fh) )[7];
+
+    my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
+    seek( $fh, 0, 0 );
+
+    # Currently only 'pdf' and 'ocrALTO.xml' exist.
+    my $container;
+    my $object;
+    if ( $type eq 'pdf' ) {
+        $container = $self->access_files;
+        $object    = $id . ".pdf";
+    }
+    else {
+        $container = $self->access_metadata;
+        $object    = $id . "/ocrALTO.xml";
+    }
+
+    my $res = $self->swift->object_head( $container, $object );
+
+    if ( $res->code == 200 ) {
+        if (   ( int( $res->header('Content-Length') ) == $size )
+            && ( $res->etag eq $md5digest ) )
+        {
+            # Don't send, as it is already there
+            return { size => $size, md5digest => $md5digest };
+        }
+    }
+    elsif ( $res->code == 404 ) {
+
+        # Not found means always send
+
+    }
+    else {
+        die "updateFile container: '$container' , object: '$object'  returned "
+          . $res->code . " - "
+          . $res->message . "\n";
+    }
+
+    # Send file.
+    my $putresp =
+      $self->swift->object_put( $container, $object, $fh,
+        { 'File-Modified' => $filedate } );
+    if ( $putresp->code != 201 ) {
+        die(    "object_put of $object into $container returned "
+              . $putresp->code . " - "
+              . $putresp->message
+              . "\n" );
+    }
+    close $fh;
+
+    # Extra check that everything was OK.
+    warn "Etag mismatch: $md5digest != "
+      . $putresp->etag
+      . " during "
+      . $putresp->transaction_id . "\n"
+      if $md5digest ne $putresp->etag;
+
+    return { size => $size, md5digest => $md5digest };
 }
 
 sub postResults {
