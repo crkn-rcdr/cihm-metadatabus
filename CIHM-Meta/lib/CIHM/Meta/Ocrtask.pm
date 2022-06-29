@@ -11,6 +11,10 @@ use JSON;
 use Data::Dumper;
 use Switch;
 use URI::Escape;
+use DateTime::Format::ISO8601;
+use Data::Dumper;
+use Poppler;
+use Digest::MD5;
 
 =head1 NAME
 
@@ -25,9 +29,11 @@ CIHM::Meta::Ocrtask - Process image exports from, and OCR data imports to, the A
 
 =cut
 
+our $self;
+
 sub new {
     my ( $class, $args ) = @_;
-    my $self = bless {}, $class;
+    our $self = bless {}, $class;
 
     if ( ref($args) ne "HASH" ) {
         die "Argument to CIHM::Meta::Ocrtask->new() not a hash\n";
@@ -42,7 +48,7 @@ sub new {
     }
     $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
 
-    my $test = $self->swift->container_head( $self->access_metadata );
+    my $test = $self->swift->container_head( $self->access_files );
     if ( !$test || $test->code != 204 ) {
         die "Problem connecting to Swift container. Check configuration\n";
     }
@@ -55,7 +61,32 @@ sub new {
     $self->ocrtaskdb->set_persistent_header( 'Accept' => 'application/json' );
     $test = $self->ocrtaskdb->head("/");
     if ( !$test || $test->code != 200 ) {
-        die "Problem connecting to Couchdb database. Check configuration\n";
+        die
+"Problem connecting to `ocrtask` Couchdb database. Check configuration\n";
+    }
+
+    $self->{canvasdb} = new restclient(
+        server      => $args->{couchdb_canvas},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->canvasdb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->canvasdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `canvas` Couchdb database. Check configuration\n";
+    }
+
+    $self->{accessdb} = new restclient(
+        server      => $args->{couchdb_access},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 },
+    );
+    $self->accessdb->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->accessdb->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die
+"Problem connecting to `access` Couchdb database. Check configuration\n";
     }
 
     return $self;
@@ -77,6 +108,11 @@ sub access_metadata {
     return $self->args->{swift_access_metadata};
 }
 
+sub access_files {
+    my $self = shift;
+    return $self->args->{swift_access_files};
+}
+
 sub swift {
     my $self = shift;
     return $self->{swift};
@@ -87,13 +123,70 @@ sub ocrtaskdb {
     return $self->{ocrtaskdb};
 }
 
+sub canvasdb {
+    my $self = shift;
+    return $self->{canvasdb};
+}
+
+sub accessdb {
+    my $self = shift;
+    return $self->{accessdb};
+}
+
 sub maxprocs {
     my $self = shift;
     return $self->args->{maxprocs};
 }
 
+sub task {
+    my $self = shift;
+    return $self->{task};
+}
+
+sub taskid {
+    my $self = shift;
+    return $self->task->{'_id'} if $self->task;
+}
+
+sub todo {
+    my $self = shift;
+    return $self->{todo};
+}
+
+sub clear_warnings {
+    my $self = shift;
+    $self->{warnings} = "";
+}
+
+sub warnings {
+    my $self = shift;
+    return $self->{warnings};
+}
+
+sub collect_warnings {
+    my $warning = shift;
+    our $self;
+    my $taskid = "unknown";
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    if ($self) {
+        $self->{warnings} .= $warning;
+        $self->log->warn( $self->taskid . ": $stripped" );
+    }
+    else {
+        say STDERR "$warning\n";
+    }
+}
+
 sub ocrtask {
     my ($self) = @_;
+
+    $self->clear_warnings();
+
+    # Capture warnings
+    local $SIG{__WARN__} = sub { &collect_warnings };
 
     $self->log->info( "Ocrtask maxprocs=" . $self->maxprocs );
 
@@ -105,64 +198,337 @@ sub ocrtask {
     if ( $res->code == 200 ) {
         if ( exists $res->data->{rows} ) {
             foreach my $task ( @{ $res->data->{rows} } ) {
+                my $status;
+                $self->clear_warnings();
+
                 my $todo = shift @{ $task->{key} };
-                if ( $todo eq 'export' ) {
-                    $self->ocrExport( $task->{doc} );
+                $self->{todo} = $todo;
+                $self->{task} = $task->{doc};
+
+                $self->log->info( "Processing Task=" . $self->taskid );
+
+                # Handle and record any errors
+                try {
+                    $status = JSON::true;
+
+                    if ( $todo eq 'export' ) {
+                        $self->ocrExport();
+                    }
+                    else {
+                        $self->ocrImport();
+                    }
                 }
-                else {
-                    $self->ocrImport( $task->{doc} );
-                }
+                catch {
+                    $status = JSON::false;
+                    $self->log->error( $self->taskid . ": $_" );
+                    $self->{warnings} .= "Caught: " . $_;
+                };
+                $self->postResults( $status, $self->warnings );
             }
         }
     }
     else {
-        die "$url GET return code: " . $res->code."\n";
+        $self->log->error(
+            "ocrtaskdb $url GET return code: " . $res->code . "\n" );
     }
 }
 
 sub ocrExport {
-    my ( $self, $task ) = @_;
+    my ($self) = @_;
 
-    my $taskid = $task->{'_id'};
+    my $workdir = "/home/tdr/ocr/" . $self->task->{name};
+    mkdir $workdir or die "Can't create task work directory $workdir : $!\n";
 
-    switch ( int( rand(3) ) ) {
-        case 0 {
-            $self->postResults( "Export", $taskid, JSON::true )
+    $self->canvasdb->type("application/json");
+    my $url = "/_all_docs";
+
+    my $res = $self->canvasdb->post(
+        $url,
+        {
+            keys         => $self->task->{canvases},
+            include_docs => JSON::true
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 200 ) {
+        die "$url return code: " . $res->code . "\n";
+    }
+    foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
+        if ( !defined $canvasdoc->{doc} ) {
+            warn "Didn't find " . $canvasdoc->{id} . "\n";
         }
-        case 1 {
-            $self->postResults( "Export", $taskid, JSON::true,
-                "Just a little export warning." )
-        }
-        case 2 {
-            $self->postResults( "Export", $taskid, JSON::false,
-                "Why this export failed." )
+        else {
+            my $canvas = $canvasdoc->{doc};
+            my $objectname =
+              $canvas->{'_id'} . '.' . $canvas->{master}->{extension};
+            my $destfilename = $workdir . '/' . uri_escape_utf8($objectname);
+
+            open( my $fh, '>:raw', $destfilename )
+              or die "Could not open file '$destfilename' $!";
+            my $object =
+              $self->swift->object_get( $self->access_files, $objectname,
+                { write_file => $fh } );
+            close $fh;
+            if ( $object->code != 200 ) {
+                die "Swift object_get container: '"
+                  . $self->access_files
+                  . "' , object: '$objectname' destfilename: '$destfilename'  returned "
+                  . $object->code . " - "
+                  . $object->message . "\n";
+            }
+            my $filemodified = $object->object_meta_header('File-Modified');
+            if ($filemodified) {
+                my $dt =
+                  DateTime::Format::ISO8601->parse_datetime($filemodified);
+                if ( !$dt ) {
+                    die
+"Couldn't parse ISO8601 date from $filemodified (GET from $objectname)\n";
+                }
+                my $atime = time;
+                utime $atime, $dt->epoch(), $destfilename;
+            }
         }
     }
 }
 
 sub ocrImport {
-    my ( $self, $task ) = @_;
+    my ($self) = @_;
 
+    my $workdir = "/home/tdr/ocr/" . $self->task->{name};
+    if ( !-d $workdir ) {
+        die "Work directory: $workdir : $!\n";
+    }
 
-    my $taskid = $task->{'_id'};
+    $self->canvasdb->type("application/json");
+    my $url = "/_all_docs";
 
-    switch ( int( rand(3) ) ) {
-        case 0 {
-            $self->postResults( "Import", $taskid, JSON::true )
+    my $res = $self->canvasdb->post(
+        $url,
+        {
+            keys         => $self->task->{canvases},
+            include_docs => JSON::true
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 200 ) {
+        die "$url return code: " . $res->code . "\n";
+    }
+
+    # Collect IDs so we can force re-generating of caches
+    my %canvasids;
+    my @updatedcanvases;
+    foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
+        if ( !defined $canvasdoc->{doc} ) {
+            warn "Didn't find " . $canvasdoc->{id} . "\n";
         }
-        case 1 {
-            $self->postResults( "Import", $taskid, JSON::true,
-                "Just a little import warning." )
+        else {
+            my $canvas = $canvasdoc->{doc};
+
+            $canvasids{ $canvas->{'_id'} } = 1;
+
+            my $changed;
+
+            my $pdfobjectname = $canvas->{'_id'} . '.pdf';
+            my $pdffilename = $workdir . '/' . uri_escape_utf8($pdfobjectname);
+            if ( -f $pdffilename ) {
+                my $pages = 0;
+                try {
+                    my $pdf = Poppler::Document->new_from_file($pdffilename);
+                    $pages = $pdf->get_n_pages;
+                };
+                if ( $pages == 1 ) {
+                    my $upload =
+                      $self->updateFile( "pdf", $canvas->{'_id'},
+                        $pdffilename );
+
+                    $canvas->{'ocrPdf'} = {
+                        size      => $upload->{size},
+                        extension => 'pdf',
+                        md5       => $upload->{md5digest}
+                    };
+                    $changed = 1;
+                }
+                else {
+                    warn "$pdffilename is not a single page PDF\n";
+                }
+            }
+            else {
+                warn "$pdffilename doesn't exist\n";
+            }
+
+            my $xmlobjectname = $canvas->{'_id'} . '.xml';
+            my $xmlfilename = $workdir . '/' . uri_escape_utf8($xmlobjectname);
+            if ( -f $xmlfilename ) {
+                my $valid = 1;
+                try {
+                    my $xml = XML::LibXML->new->parse_file($xmlfilename);
+                    my $xpc = XML::LibXML::XPathContext->new($xml);
+                    $xpc->registerNs( 'alto',
+                        'http://www.loc.gov/standards/alto/ns-v3' );
+                    my $schema =
+                      XML::LibXML::Schema->new( location =>
+                          "/opt/xml/current/unpublished/xsd/alto-3-1.xsd" );
+                    $schema->validate($xml);
+                }
+                catch {
+                    $valid = 0;
+                    warn "$xmlfilename is not valid ALTO XML: $_\n";
+                };
+                if ($valid) {
+                    $self->updateFile( "ocrALTO.xml", $canvas->{'_id'},
+                        $xmlfilename );
+
+                    # Delete any redundant txtmap
+                    $self->swift->object_delete( $self->access_metadata,
+                        $canvas->{'_id'} . "/ocrTXTMAP.xml" );
+
+                    $canvas->{'ocrType'} = 'alto';
+                    $changed = 1;
+                }
+            }
+            else {
+                warn "$xmlfilename doesn't exist\n";
+            }
+            if ($changed) {
+                push @updatedcanvases, $canvas;
+            }
         }
-        case 2 {
-            $self->postResults( "Import", $taskid, JSON::false,
-                "Why this import failed." )
+    }
+
+    # Update any potentially changed Canvases.
+    if (@updatedcanvases) {
+        my $res = $self->canvasdb->post(
+            "/_bulk_docs",
+            { docs         => \@updatedcanvases },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code != 201 ) {
+            if ( defined $res->response->content ) {
+                warn $res->response->content . "\n";
+            }
+            die "dbupdate of updated canvases return code: "
+              . $res->code . "\n";
+        }
+    }
+
+    my @ids = keys %canvasids;
+
+    $self->accessdb->type("application/json");
+    $url = "/_design/noid/_view/canvasnoids";
+
+    my $res = $self->accessdb->post(
+        $url,
+        {
+            keys         => \@ids,
+            include_docs => JSON::false
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 200 ) {
+        die "$url return code: " . $res->code . "\n";
+    }
+
+    my %manifestids;
+    foreach my $doc ( @{ $res->data->{rows} } ) {
+        $manifestids{ $doc->{'id'} } = 1;
+    }
+
+    # And force those manifests to be processed
+    foreach my $accessid ( keys %manifestids ) {
+        my $url =
+          "/_design/access/_update/forceUpdate/" . uri_escape($accessid);
+        my $res = $self->accessdb->post( $url, {},
+            { deserializer => 'application/json' } );
+        if ( $res->code != 201 ) {
+            if ( defined $res->response->content ) {
+                warn $res->response->content . "\n";
+            }
+            warn "Attempt to force update for $accessid : " . $res->code . "\n";
+        }
+        else {
+            $self->log->info(
+                $self->taskid . ": update forced for noid=$accessid" );
         }
     }
 }
 
+sub updateFile {
+    my ( $self, $type, $id, $filename ) = @_;
+
+    open( my $fh, '<:raw', $filename )
+      or die "Can't open '$filename': $!";
+    binmode($fh);
+    my $filedate = "unknown";
+    my $mtime    = ( stat($fh) )[9];
+    if ($mtime) {
+        my $dt = DateTime->from_epoch( epoch => $mtime );
+        $filedate = $dt->datetime . "Z";
+    }
+    my $size = ( stat($fh) )[7];
+
+    my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
+    seek( $fh, 0, 0 );
+
+    # Currently only 'pdf' and 'ocrALTO.xml' exist.
+    my $container;
+    my $object;
+    if ( $type eq 'pdf' ) {
+        $container = $self->access_files;
+        $object    = $id . ".pdf";
+    }
+    else {
+        $container = $self->access_metadata;
+        $object    = $id . "/ocrALTO.xml";
+    }
+
+    my $res = $self->swift->object_head( $container, $object );
+
+    if ( $res->code == 200 ) {
+        if (   ( int( $res->header('Content-Length') ) == $size )
+            && ( $res->etag eq $md5digest ) )
+        {
+            # Don't send, as it is already there
+            return { size => $size, md5digest => $md5digest };
+        }
+    }
+    elsif ( $res->code == 404 ) {
+
+        # Not found means always send
+
+    }
+    else {
+        die "updateFile container: '$container' , object: '$object'  returned "
+          . $res->code . " - "
+          . $res->message . "\n";
+    }
+
+    # Send file.
+    my $putresp =
+      $self->swift->object_put( $container, $object, $fh,
+        { 'File-Modified' => $filedate } );
+    if ( $putresp->code != 201 ) {
+        die(    "object_put of $object into $container returned "
+              . $putresp->code . " - "
+              . $putresp->message
+              . "\n" );
+    }
+    close $fh;
+
+    # Extra check that everything was OK.
+    warn "Etag mismatch during object_put of $object into $container: $md5digest != "
+      . $putresp->etag
+      . " during "
+      . $putresp->transaction_id . "\n"
+      if $md5digest ne $putresp->etag;
+
+    return { size => $size, md5digest => $md5digest };
+}
+
 sub postResults {
-    my ( $self, $which, $taskid, $succeeded, $message ) = @_;
+    my ( $self, $succeeded, $message ) = @_;
+
+    my $which = ( $self->todo eq "export" ) ? "Export" : "Import";
+    my $taskid = $self->taskid;
 
     my $url =
       "/_design/access/_update/updateOCR${which}/" . uri_escape_utf8($taskid);
