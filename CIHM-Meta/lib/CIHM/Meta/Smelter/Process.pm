@@ -36,8 +36,11 @@ sub new {
     if ( !$self->log ) {
         die "Log::Log4perl object parameter is mandatory\n";
     }
-    if ( !$self->swift ) {
-        die "swift object parameter is mandatory\n";
+    if ( !$self->swiftaccess ) {
+        die "swiftaccess object parameter is mandatory\n";
+    }
+    if ( !$self->swiftpreservation ) {
+        die "swiftpreservation object parameter is mandatory\n";
     }
     if ( !$self->dipstagingdb ) {
         die "dipstagingdb object parameter is mandatory\n";
@@ -105,24 +108,29 @@ sub cantaloupe {
     return $self->args->{cantaloupe};
 }
 
-sub swift {
+sub swiftaccess {
     my $self = shift;
-    return $self->args->{swift};
+    return $self->args->{swiftaccess};
 }
 
-sub access_metadata {
+sub swift_access_metadata {
     my $self = shift;
-    return $self->envargs->{access_metadata};
+    return $self->envargs->{swift_access_metadata};
 }
 
-sub access_files {
+sub swift_access_files {
     my $self = shift;
-    return $self->envargs->{access_files};
+    return $self->envargs->{swift_access_files};
 }
 
-sub preservation_files {
+sub swiftpreservation {
     my $self = shift;
-    return $self->envargs->{preservation_files};
+    return $self->args->{swiftpreservation};
+}
+
+sub swift_preservation_files {
+    my $self = shift;
+    return $self->envargs->{swift_preservation_files};
 }
 
 sub xml {
@@ -217,7 +225,6 @@ sub process {
         $self->enhanceCanvases;
     }
 
-    #TODO copy the 'file' to access storage.
     $self->setManifestNoid();
     $self->dmdManifest();
     $self->writeManifest();
@@ -231,7 +238,7 @@ sub get_metadata {
 
     my $object = $self->aip . "/$file";
     while ( $count-- ) {
-        my $r = $self->swift->object_get( $self->preservation_files, $object );
+        my $r = $self->swiftpreservation->object_get( $self->swift_preservation_files, $object );
         if ( $r->code == 200 ) {
             return $r->content;
         }
@@ -408,10 +415,10 @@ sub dmdManifest {
     my $dmdDigest = md5_hex($dmdRecord);
 
     my $object = $noid . '/dmd' . $dmdType . '.xml';
-    my $r = $self->swift->object_head( $self->access_metadata, $object );
+    my $r = $self->swiftaccess->object_head( $self->swift_access_metadata, $object );
     if ( $r->code == 404 || ( $r->etag ne $dmdDigest ) ) {
         $r =
-          $self->swift->object_put( $self->access_metadata, $object,
+          $self->swiftaccess->object_put( $self->swift_access_metadata, $object,
             $dmdRecord );
         if ( $r->code != 201 ) {
             if ( defined $r->response->content ) {
@@ -614,15 +621,17 @@ sub enhanceCanvases {
 
             my $newpath = $doc->{'_id'} . "." . $ext;
 
-            my $response = $self->swift->object_copy(
-                $self->preservation_files, $path,
-                $self->access_files,       $newpath
+# TODO: No longer use object_copy
+
+            my $response = $self->swiftaccess->object_copy(
+                $self->swift_preservation_files, $path,
+                $self->swift_access_files,       $newpath
             );
             if ( $response->code != 201 ) {
                 die "object_copy("
-                  . $self->preservation_files . ","
+                  . $self->swift_preservation_files . ","
                   . $path . ","
-                  . $self->access_files . ","
+                  . $self->swift_access_files . ","
                   . $newpath
                   . ") returned "
                   . $response->code . " - "
@@ -732,11 +741,11 @@ sub loadFileMeta {
     my $more = 1;
     while ($more) {
         my $bagdataresp =
-          $self->swift->container_get( $self->preservation_files,
+          $self->swiftpreservation->container_get( $self->swift_preservation_files,
             \%containeropt );
         if ( $bagdataresp->code != 200 ) {
             die "container_get("
-              . $self->preservation_files
+              . $self->swift_preservation_files
               . ") for $prefix returned "
               . $bagdataresp->code . " - "
               . $bagdataresp->message . "\n";

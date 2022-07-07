@@ -81,17 +81,47 @@ sub initworker {
         die "Problem connecting to Cantaloupe Server. Check configuration\n";
     }
 
-    my %swiftopt = ( furl_options => { timeout => 3600 } );
+    my %swiftaccessopt =
+      %{ $self->restclient_opts( $args->{"swift_access_server_options"} ) };
+
+    my %swiftpreservationopt =
+      %{ $self->restclient_opts( $args->{"swift_preservation_server_options"} )
+      };
+
     foreach ( "server", "user", "password", "account" ) {
-        if ( exists $args->{ "swift_" . $_ } ) {
-            $swiftopt{$_} = $args->{ "swift_" . $_ };
+        if ( exists $args->{ "swift_access_" . $_ } ) {
+            $swiftaccessopt{$_} = $args->{ "swift_access_" . $_ };
+        }
+        if ( exists $args->{ "swift_preservation_" . $_ } ) {
+            $swiftpreservationopt{$_} = $args->{ "swift_preservation_" . $_ };
         }
     }
-    $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
+    $self->{swiftaccess} = CIHM::Swift::Client->new(%swiftaccessopt);
+    $self->{swiftpreservation} =
+      CIHM::Swift::Client->new(%swiftpreservationopt);
 
-    $test = $self->swift->container_head( $self->access_metadata );
+    $test = $self->swiftaccess->container_head( $args->{swift_access_metadata} );
+
     if ( !$test || $test->code != 204 ) {
-        die "Problem connecting to Swift container. Check configuration\n";
+        die "Problem connecting to Swift access container"
+          . $args->{swift_access_metadata}
+          . ". Check configuration\n";
+    }
+
+    $test = $self->swiftaccess->container_head( $args->{swift_access_files} );
+    if ( !$test || $test->code != 204 ) {
+        die "Problem connecting to Swift access container"
+          . $args->{swift_access_files}
+          . ". Check configuration\n";
+    }
+
+    $test =
+      $self->swiftpreservation->container_head(
+        $args->{swift_preservation_files} );
+    if ( !$test || $test->code != 204 ) {
+        die "Problem connecting to Swift preservation container"
+          . $args->{swift_preservation_files}
+          . ". Check configuration\n";
     }
 
     $self->{noidsrv} = new restclient(
@@ -105,6 +135,23 @@ sub initworker {
         die "Problem connecting to Noid server. Check configuration\n";
     }
 
+    return $self;
+}
+
+# Support for above
+sub restclient_opts {
+    my ( $self, $optionstring ) = @_;
+
+    my $options = {};
+
+    try {
+        $options = decode_json($optionstring);
+    }
+    catch {
+        warn "Rest Client Options error: $_\nJSON String=$optionstring\n";    # not $@
+    };
+
+    return $options;
 }
 
 # Simple accessors for now -- Do I want to Moo?
@@ -118,9 +165,14 @@ sub args {
     return $self->{args};
 }
 
-sub access_metadata {
+sub swiftaccess {
     my $self = shift;
-    return $self->args->{access_metadata};
+    return $self->{swiftaccess};
+}
+
+sub swiftpreservation {
+    my $self = shift;
+    return $self->{swiftpreservation};
 }
 
 sub canvasdb {
@@ -141,11 +193,6 @@ sub accessdb {
 sub cantaloupe {
     my $self = shift;
     return $self->{cantaloupe};
-}
-
-sub swift {
-    my $self = shift;
-    return $self->{swift};
 }
 
 sub noidsrv {
@@ -194,15 +241,16 @@ sub smelt {
         $status = 1;
         new CIHM::Meta::Smelter::Process(
             {
-                aip          => $aip,
-                args         => $self->args,
-                log          => $self->log,
-                canvasdb     => $self->canvasdb,
-                dipstagingdb => $self->dipstagingdb,
-                accessdb     => $self->accessdb,
-                cantaloupe   => $self->cantaloupe,
-                swift        => $self->swift,
-                noidsrv      => $self->noidsrv
+                aip               => $aip,
+                args              => $self->args,
+                log               => $self->log,
+                canvasdb          => $self->canvasdb,
+                dipstagingdb      => $self->dipstagingdb,
+                accessdb          => $self->accessdb,
+                cantaloupe        => $self->cantaloupe,
+                swiftaccess       => $self->swiftaccess,
+                swiftpreservation => $self->swiftpreservation,
+                noidsrv           => $self->noidsrv
             }
         )->process;
     }

@@ -13,6 +13,7 @@ use AnyEvent::Fork::Pool;
 use Try::Tiny;
 use JSON;
 use Data::Dumper;
+use IO::Socket::SSL;
 
 =head1 NAME
 
@@ -62,29 +63,9 @@ sub new {
     Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
     $self->{logger} = Log::Log4perl::get_logger("CIHM::TDR");
 
-    $self->{accessdb} = new restclient(
-        server      => $args->{couchdb_access},
-        type        => 'application/json',
-        clientattrs => { timeout => 3600 },
-    );
-    $self->accessdb->set_persistent_header( 'Accept' => 'application/json' );
-    my $test = $self->accessdb->head("/");
-    if ( !$test || $test->code != 200 ) {
-        die
-"Problem connecting to `access` Couchdb database. Check configuration\n";
-    }
-
-    $self->{canvasdb} = new restclient(
-        server      => $args->{couchdb_canvas},
-        type        => 'application/json',
-        clientattrs => { timeout => 3600 },
-    );
-    $self->canvasdb->set_persistent_header( 'Accept' => 'application/json' );
-    $test = $self->canvasdb->head("/");
-    if ( !$test || $test->code != 200 ) {
-        die
-"Problem connecting to `canvas` Couchdb database. Check configuration\n";
-    }
+    # This checks everything a worker will need, prior to any fork()ing.
+    my $test = CIHM::Meta::Smelter::Worker::initworker( $self->args );
+    die "Failure in CIHM::Meta::Smelter::Worker::initworker\n" if ( !$test );
 
     $self->{dipstagingdb} = new restclient(
         server      => $args->{couchdb_dipstaging},
@@ -99,56 +80,6 @@ sub new {
 "Problem connecting to `dipstaging` Couchdb database. Check configuration\n";
     }
 
-    $self->{cantaloupe} = new CIHM::Meta::REST::cantaloupe(
-        url         => $args->{iiif_image_server},
-        jwt_secret  => $args->{iiif_image_password},
-        jwt_payload => '{"uids":[".*"]}',
-        type        => 'application/json',
-        clientattrs => { timeout => 3600 },
-    );
-    $test = $self->cantaloupe->head("/");
-    if ( !$test || $test->code != 200 ) {
-        die "Problem connecting to Cantaloupe Server. Check configuration\n";
-    }
-
-    my %swiftopt = ( furl_options => { timeout => 3600 } );
-    foreach ( "server", "user", "password", "account" ) {
-        if ( exists $args->{ "swift_" . $_ } ) {
-            $swiftopt{$_} = $args->{ "swift_" . $_ };
-        }
-    }
-    $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
-
-    $test = $self->swift->container_head( $self->access_metadata );
-    if ( !$test || $test->code != 204 ) {
-        die "Problem connecting to Swift container"
-          . $self->access_metadata
-          . ". Check configuration\n";
-    }
-    $test = $self->swift->container_head( $self->access_files );
-    if ( !$test || $test->code != 204 ) {
-        die "Problem connecting to Swift container"
-          . $self->access_files
-          . ". Check configuration\n";
-    }
-    $test = $self->swift->container_head( $self->preservation_files );
-    if ( !$test || $test->code != 204 ) {
-        die "Problem connecting to Swift container"
-          . $self->preservation_files
-          . ". Check configuration\n";
-    }
-
-    $self->{noidsrv} = new restclient(
-        server      => $args->{noid_server},
-        type        => 'application/json',
-        clientattrs => { timeout => 3600 }
-    );
-    $self->noidsrv->set_persistent_header( 'Accept' => 'application/json' );
-    $test = $self->noidsrv->head("/");
-    if ( !$test || $test->code != 200 ) {
-        die "Problem connecting to Noid server. Check configuration\n";
-    }
-
     return $self;
 }
 
@@ -156,21 +87,6 @@ sub new {
 sub args {
     my $self = shift;
     return $self->{args};
-}
-
-sub access_metadata {
-    my $self = shift;
-    return $self->args->{access_metadata};
-}
-
-sub access_files {
-    my $self = shift;
-    return $self->args->{access_files};
-}
-
-sub preservation_files {
-    my $self = shift;
-    return $self->args->{preservation_files};
 }
 
 sub skip {
@@ -203,16 +119,6 @@ sub log {
     return $self->{logger};
 }
 
-sub accessdb {
-    my $self = shift;
-    return $self->{accessdb};
-}
-
-sub canvasdb {
-    my $self = shift;
-    return $self->{canvasdb};
-}
-
 sub dipstagingdb {
     my $self = shift;
     return $self->{dipstagingdb};
@@ -221,16 +127,6 @@ sub dipstagingdb {
 sub cantaloupe {
     my $self = shift;
     return $self->{cantaloupe};
-}
-
-sub swift {
-    my $self = shift;
-    return $self->{swift};
-}
-
-sub noidsrv {
-    my $self = shift;
-    return $self->{noidsrv};
 }
 
 sub smelter {
