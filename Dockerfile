@@ -1,4 +1,4 @@
-FROM perl:5.34.1
+FROM perl:5.34.1-bullseye
 
 RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   mkdir -p /etc/canadiana /var/log/tdr /var/lock/tdr && ln -s /home/tdr /etc/canadiana/tdr && chown tdr.tdr /var/log/tdr /var/lock/tdr && \
@@ -6,7 +6,7 @@ RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   \
   apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq cpanminus build-essential libxml-libxml-perl libxml-libxslt-perl libxslt1-dev \
   libxml2-dev libxml2-utils xml-core libaio-dev libssl-dev rsync sudo less lsb-release \
-  poppler-utils libpoppler-dev libpoppler-glib-dev libgirepository1.0-dev && \
+  poppler-utils libpoppler-dev libpoppler-glib-dev libgirepository1.0-dev python3-swiftclient && \
   \
   curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
   VERSION=node_15.x && DISTRO="$(lsb_release -s -c)" && \
