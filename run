@@ -8,7 +8,7 @@
 
 docker build -t cihm-metadatabus . &&
   docker run -it -v $(pwd)/CIHM-Meta:/home/tdr/CIHM-Meta -v $(pwd)/CIHM-Swift:/home/tdr/CIHM-Swift \
-  --add-host "couch-dev.canadiana.ca:192.168.142.38" --add-host "swift-dev.canadiana.ca:192.168.142.38" \
+  --add-host "couch-dev.canadiana.ca:192.168.142.38" --add-host "swift-dev.canadiana.ca:192.168.142.38" --add-host "image-dev.canadiana.ca:192.168.142.38" \
   -v "/var/log/tdr:/var/log/tdr" -v "/var/lock/tdr:/var/lock/tdr" \
   --env-file ./.env  cihm-metadatabus bash
 

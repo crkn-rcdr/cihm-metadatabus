@@ -10,6 +10,8 @@ use XML::LibXML;
 use XML::LibXSLT;
 use Digest::MD5 qw(md5 md5_hex md5_base64);
 use File::Basename;
+use File::Temp;
+use Image::Magick;
 
 #use Data::Dumper;
 
@@ -238,7 +240,9 @@ sub get_metadata {
 
     my $object = $self->aip . "/$file";
     while ( $count-- ) {
-        my $r = $self->swiftpreservation->object_get( $self->swift_preservation_files, $object );
+        my $r =
+          $self->swiftpreservation->object_get( $self->swift_preservation_files,
+            $object );
         if ( $r->code == 200 ) {
             return $r->content;
         }
@@ -415,11 +419,11 @@ sub dmdManifest {
     my $dmdDigest = md5_hex($dmdRecord);
 
     my $object = $noid . '/dmd' . $dmdType . '.xml';
-    my $r = $self->swiftaccess->object_head( $self->swift_access_metadata, $object );
+    my $r =
+      $self->swiftaccess->object_head( $self->swift_access_metadata, $object );
     if ( $r->code == 404 || ( $r->etag ne $dmdDigest ) ) {
-        $r =
-          $self->swiftaccess->object_put( $self->swift_access_metadata, $object,
-            $dmdRecord );
+        $r = $self->swiftaccess->object_put( $self->swift_access_metadata,
+            $object, $dmdRecord );
         if ( $r->code != 201 ) {
             if ( defined $r->response->content ) {
                 warn $r->response->content . "\n";
@@ -619,21 +623,106 @@ sub enhanceCanvases {
                 die "Extension from $path is not valid\n";
             }
 
-            my $newpath = $doc->{'_id'} . "." . $ext;
+            # Convert all images to JPG files.
+            my $newext  = "jpg";
+            my $newpath = $doc->{'_id'} . "." . $newext;
 
-# TODO: No longer use object_copy
+            my $preservationfile =
+              File::Temp->new( UNLINK => 0, SUFFIX => "." . $ext );
 
-            my $response = $self->swiftaccess->object_copy(
-                $self->swift_preservation_files, $path,
-                $self->swift_access_files,       $newpath
-            );
+            my $accessfile =
+              File::Temp->new( UNLINK => 0, SUFFIX => "." . $newext );
+
+            my $response =
+              $self->swiftpreservation->object_get(
+                $self->swift_preservation_files,
+                $path, { write_file => $preservationfile } );
+            if ( $response->code != 200 ) {
+                die(    "GET preservation file object=$path , container="
+                      . $self->swift_preservation_files
+                      . " returned: "
+                      . $response->code . " - "
+                      . $response->message
+                      . "\n" );
+            }
+
+            my $filemodified = $response->object_meta_header('File-Modified');
+
+            my $preservationname = $preservationfile->filename;
+            close $preservationfile;
+
+            print
+"TempName: $preservationname  modified=$filemodified  Preservation: $path  Access: $newpath\n";
+
+            # Normmalize for Access
+
+            my $magic = new Image::Magick;
+
+            my $status = $magic->Read($preservationfile);
+            if ($status) {
+                my $error;
+                switch ($status) {
+
+                    # Skip Exif ImageUniqueID
+                    case /Unknown field with tag 42016 / { }
+
+# https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/imageuniqueid.html
+                    case /Unknown field with tag 41728 / { }
+
+# https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/filesource.html
+                    case /Unknown field with tag 59932 /  { }   # 0xea1c	Padding
+                    case /Exception 350: .*; tag ignored/ { }
+                    else {
+                        $error = 1;
+                    }
+                }
+                if ($error) {
+                    die "$path Read: $status\n";
+                }
+                else {
+                    warn "$path Read: $status\n";
+                }
+            }
+
+# Archivematica uses:
+# convert "%fileFullName%" -sampling-factor 4:4:4 -quality 60 -layers merge "%outputDirectory%%prefix%%fileName%%postfix%.jpg"
+# We are keeping quality to 80% instead.
+
+            $magic->Set( "sampling-factor" => "4:4:4" );
+            die "$path Set sampling-factor 4:4:4: $status\n"
+              if "$status";
+
+            $magic->Set( "quality" => 80 );
+            die "$path Set Quality=80: $status\n"
+              if "$status";
+
+            $status = $magic->Layers( "method" => "merge" );
+            die "$path Layers merge: $status\n"
+              if !ref($status);
+
+            my $accessfilename = $accessfile->filename;
+
+            $status = $magic->Write($accessfilename);
+            die "$path write $accessfilename: $status" if "$status";
+
+            open( my $fh, '<:raw', $accessfilename )
+              or die "Could not open file '$accessfilename' $!";
+
+            my $filedata;
+
+            read $fh, $filedata, -s $accessfilename
+              or die "Could not read file `$accessfilename` $!";
+
+            close $fh;
+
+            $response =
+              $self->swiftaccess->object_put( $self->swift_access_files,
+                $newpath, $filedata, { 'File-Modified' => $filemodified } );
+
             if ( $response->code != 201 ) {
-                die "object_copy("
-                  . $self->swift_preservation_files . ","
-                  . $path . ","
-                  . $self->swift_access_files . ","
-                  . $newpath
-                  . ") returned "
+                die "PUT access file object=$newpath container="
+                  . $self->swift_access_files
+                  . " returned "
                   . $response->code . " - "
                   . $response->message . "\n";
             }
@@ -642,7 +731,7 @@ sub enhanceCanvases {
             my $newdoc = $self->canvasGetDocument( $doc->{'_id'} );
 
             # Set extension, and store
-            $newdoc->{master}->{extension} = $ext;
+            $newdoc->{master}->{extension} = $newext;
             delete $newdoc->{master}->{path};
 
             my $data = $self->canvasPutDocument( $doc->{'_id'}, $newdoc );
@@ -741,7 +830,8 @@ sub loadFileMeta {
     my $more = 1;
     while ($more) {
         my $bagdataresp =
-          $self->swiftpreservation->container_get( $self->swift_preservation_files,
+          $self->swiftpreservation->container_get(
+            $self->swift_preservation_files,
             \%containeropt );
         if ( $bagdataresp->code != 200 ) {
             die "container_get("
