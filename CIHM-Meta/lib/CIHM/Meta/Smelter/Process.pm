@@ -711,7 +711,7 @@ sub enhanceCanvases {
             my $filedata;
 
             read $fh, $filedata, -s $accessfilename
-              or die "Could not read file `$accessfilename` $!";
+              or die "Could not read file '$accessfilename' $!";
 
             close $fh;
 
