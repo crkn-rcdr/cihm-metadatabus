@@ -12,8 +12,7 @@ use Digest::MD5 qw(md5 md5_hex md5_base64);
 use File::Basename;
 use File::Temp;
 use Image::Magick;
-
-#use Data::Dumper;
+use Data::Dumper;
 
 =head1 NAME
 
@@ -602,11 +601,16 @@ sub findCreateCanvases {
 
     $self->{canvases} = \%foundcanvas;
 
-    # Shouldn't be possible, but... https://github.com/crkn-rcdr/cihm-metadatabus/issues/40
+# Shouldn't be possible, but... https://github.com/crkn-rcdr/cihm-metadatabus/issues/40
     foreach my $i ( 0 .. ( @{ $self->manifest->{'canvases'} } - 1 ) ) {
-        die "findCreateCanvases(): Missing ID for canvas index=$i\n"
-          if ( !defined $self->manifest->{'canvases'}->[$i]->{'id'} );
+        if ( !defined $self->manifest->{'canvases'}->[$i]->{'id'} ) {
+
+            $self->log->info( $self->aip . "  "
+                  . Data::Dumper->Dump( [ $self->manifest ], [qw(manifest)] ) );
+            die "enhanceCanvases(): Missing ID for canvas index=$i\n";
+        }
     }
+
 }
 
 sub enhanceCanvases {
@@ -816,10 +820,14 @@ sub enhanceCanvases {
         }
     }
 
-    # Shouldn't be possible, but... https://github.com/crkn-rcdr/cihm-metadatabus/issues/40
+# Shouldn't be possible, but... https://github.com/crkn-rcdr/cihm-metadatabus/issues/40
     foreach my $i ( 0 .. ( @{ $self->manifest->{'canvases'} } - 1 ) ) {
-        die "enhanceCanvases(): Missing ID for canvas index=$i\n"
-          if ( !defined $self->manifest->{'canvases'}->[$i]->{'id'} );
+        if ( !defined $self->manifest->{'canvases'}->[$i]->{'id'} ) {
+
+            $self->log->info( $self->aip . "  "
+                  . Data::Dumper->Dump( [ $self->manifest ], [qw(manifest)] ) );
+            die "enhanceCanvases(): Missing ID for canvas index=$i\n";
+        }
     }
 
 }
