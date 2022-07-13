@@ -601,6 +601,12 @@ sub findCreateCanvases {
     }
 
     $self->{canvases} = \%foundcanvas;
+
+    # Shouldn't be possible, but... https://github.com/crkn-rcdr/cihm-metadatabus/issues/40
+    foreach my $i ( 0 .. ( @{ $self->manifest->{'canvases'} } - 1 ) ) {
+        die "findCreateCanvases(): Missing ID for canvas index=$i\n"
+          if ( !defined $self->manifest->{'canvases'}->[$i]->{'id'} );
+    }
 }
 
 sub enhanceCanvases {
@@ -809,6 +815,13 @@ sub enhanceCanvases {
               . $res->code . "\n";
         }
     }
+
+    # Shouldn't be possible, but... https://github.com/crkn-rcdr/cihm-metadatabus/issues/40
+    foreach my $i ( 0 .. ( @{ $self->manifest->{'canvases'} } - 1 ) ) {
+        die "enhanceCanvases(): Missing ID for canvas index=$i\n"
+          if ( !defined $self->manifest->{'canvases'}->[$i]->{'id'} );
+    }
+
 }
 
 sub loadFileMeta {
