@@ -613,6 +613,35 @@ sub findCreateCanvases {
 
 }
 
+sub magicStatus {
+    my ( $self, $prefix, $status ) = @_;
+
+    my $error;
+    switch ($status) {
+
+        # Skip Exif ImageUniqueID
+        case /Unknown field with tag 42016 / { }
+
+# https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/imageuniqueid.html
+        case /Unknown field with tag 41728 / { }
+
+# https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/filesource.html
+        case /Unknown field with tag 59932 /  { }    # 0xea1c	Padding
+        case /Exception 350: .*; tag ignored/ { }
+        else {
+            $error = 1;
+        }
+    }
+    if ($error) {
+        die "$prefix: $status\n";
+    }
+    else {
+        # Log to systems, not needed for other staff
+        $self->log->warn(
+            $self->aip . ": $prefix: $status" );
+    }
+}
+
 sub enhanceCanvases {
     my ($self) = @_;
 
@@ -665,65 +694,35 @@ sub enhanceCanvases {
             my $magic = new Image::Magick;
 
             my $status = $magic->Read($preservationfile);
-            if ($status) {
-                my $error;
-                switch ($status) {
-
-                    # Skip Exif ImageUniqueID
-                    case /Unknown field with tag 42016 / { }
-
-# https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/imageuniqueid.html
-                    case /Unknown field with tag 41728 / { }
-
-# https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/filesource.html
-                    case /Unknown field with tag 59932 /  { }   # 0xea1c	Padding
-                    case /Exception 350: .*; tag ignored/ { }
-                    else {
-                        $error = 1;
-                    }
-                }
-                if ($error) {
-                    die "$path Read: $status\n";
-                }
-                else {
-                    warn "$path Read: $status\n";
-                }
-            }
+            $self->magicStatus( "$path Read", $status ) if "$status";
 
 # Archivematica uses:
 # convert "%fileFullName%" -sampling-factor 4:4:4 -quality 60 -layers merge "%outputDirectory%%prefix%%fileName%%postfix%.jpg"
 # We are keeping quality to 80% instead.
 
             $magic->Set( "sampling-factor" => "4:4:4" );
-            die "$path Set sampling-factor 4:4:4: $status\n"
+            $self->magicStatus( "$path Set sampling-factor 4:4:4", $status )
               if "$status";
 
             $magic->Set( "quality" => 80 );
-            die "$path Set Quality=80: $status\n"
-              if "$status";
+            $self->magicStatus( "$path Set Quality=80", $status ) if "$status";
 
             $status = $magic->Layers( "method" => "merge" );
-            die "$path Layers merge: $status\n"
+            $self->magicStatus( "$path Layers merge", $status )
               if !ref($status);
 
             my $accessfilename = $accessfile->filename;
 
             $status = $magic->Write($accessfilename);
-            die "$path write $accessfilename: $status" if "$status";
+            $self->magicStatus( "$path write $accessfilename", $status )
+              if "$status";
 
             open( my $fh, '<:raw', $accessfilename )
               or die "Could not open file '$accessfilename' $!";
 
-# TODO: Passing $fh to object_put() isn't working.  No idea why.
-# Used in https://github.com/crkn-rcdr/CIHM-TDR/blob/ca486b1a39d29b03d62464f4d57c05a5c7d37d6e/lib/CIHM/TDR/Swift.pm#L502-L521
-            my $filedata;
-            read $fh, $filedata, -s $accessfilename
-              or die "Could not read file '$accessfilename' $!";
-            close $fh;
-
             $response =
               $self->swiftaccess->object_put( $self->swift_access_files,
-                $newpath, $filedata, { 'File-Modified' => $filemodified } );
+                $newpath, $fh, { 'File-Modified' => $filemodified } );
 
             if ( $response->code != 201 ) {
                 die "PUT access file object=$newpath container="
