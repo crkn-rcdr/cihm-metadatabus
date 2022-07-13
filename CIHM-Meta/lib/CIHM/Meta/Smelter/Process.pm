@@ -628,10 +628,10 @@ sub enhanceCanvases {
             my $newpath = $doc->{'_id'} . "." . $newext;
 
             my $preservationfile =
-              File::Temp->new( UNLINK => 0, SUFFIX => "." . $ext );
+              File::Temp->new( UNLINK => 1, SUFFIX => "." . $ext );
 
             my $accessfile =
-              File::Temp->new( UNLINK => 0, SUFFIX => "." . $newext );
+              File::Temp->new( UNLINK => 1, SUFFIX => "." . $newext );
 
             my $response =
               $self->swiftpreservation->object_get(
@@ -651,11 +651,7 @@ sub enhanceCanvases {
             my $preservationname = $preservationfile->filename;
             close $preservationfile;
 
-            print
-"TempName: $preservationname  modified=$filemodified  Preservation: $path  Access: $newpath\n";
-
             # Normmalize for Access
-
             my $magic = new Image::Magick;
 
             my $status = $magic->Read($preservationfile);
@@ -708,11 +704,11 @@ sub enhanceCanvases {
             open( my $fh, '<:raw', $accessfilename )
               or die "Could not open file '$accessfilename' $!";
 
+# TODO: Passing $fh to object_put() isn't working.  No idea why.
+# Used in https://github.com/crkn-rcdr/CIHM-TDR/blob/ca486b1a39d29b03d62464f4d57c05a5c7d37d6e/lib/CIHM/TDR/Swift.pm#L502-L521
             my $filedata;
-
             read $fh, $filedata, -s $accessfilename
               or die "Could not read file '$accessfilename' $!";
-
             close $fh;
 
             $response =
@@ -875,7 +871,6 @@ sub setManifestNoid {
     $self->manifest->{'_id'} = $manifestnoids[0];
 }
 
-# TODO: For now a direct write to CouchDB, later through a Lapin interface
 sub writeManifest {
     my ($self) = @_;
 
@@ -892,7 +887,6 @@ sub writeManifest {
     }
 }
 
-# TODO: Use API once it exists
 sub getSlug {
     my ( $self, $slug ) = @_;
 
