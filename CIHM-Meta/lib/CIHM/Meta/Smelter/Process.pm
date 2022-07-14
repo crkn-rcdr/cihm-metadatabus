@@ -742,7 +742,7 @@ sub enhanceCanvases {
             # Set new file metadta, and store
             $newdoc->{master}->{extension} = $newext;
             $newdoc->{master}->{size}      = -s $accessfilename;
-            $newdoc->{master}->{md5} = $response->etag;
+            $newdoc->{master}->{md5}       = $response->etag;
             delete $newdoc->{master}->{path};
 
             my $data = $self->canvasPutDocument( $doc->{'_id'}, $newdoc );
