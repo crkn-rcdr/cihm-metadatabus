@@ -523,7 +523,12 @@ sub findCreateCanvases {
         else {
             # Need to create new canvas.
             my $canvas = {
-                source => { from => 'cihm', path => $path },
+                source => {
+                    from   => 'cihm',
+                    path   => $path,
+                    'size' => $self->filemetadata->{$master}->{'bytes'},
+                    'md5'  => $self->filemetadata->{$master}->{'hash'}
+                },
                 master => {
                     path   => $path,
                     'mime' => $div->{'master.mimetype'},
@@ -637,8 +642,7 @@ sub magicStatus {
     }
     else {
         # Log to systems, not needed for other staff
-        $self->log->warn(
-            $self->aip . ": $prefix: $status" );
+        $self->log->warn( $self->aip . ": $prefix: $status" );
     }
 }
 
@@ -735,8 +739,10 @@ sub enhanceCanvases {
             # Get full replacement document
             my $newdoc = $self->canvasGetDocument( $doc->{'_id'} );
 
-            # Set extension, and store
+            # Set new file metadta, and store
             $newdoc->{master}->{extension} = $newext;
+            $newdoc->{master}->{size}      = -s $accessfilename;
+            $newdoc->{master}->{md5} = $response->etag;
             delete $newdoc->{master}->{path};
 
             my $data = $self->canvasPutDocument( $doc->{'_id'}, $newdoc );
