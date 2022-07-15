@@ -668,6 +668,7 @@ sub enhanceCanvases {
 
             # Convert all images to JPG files.
             my $newext  = "jpg";
+            my $newmime = "image/jpeg";
             my $newpath = $doc->{'_id'} . "." . $newext;
 
             my $preservationfile =
@@ -741,6 +742,7 @@ sub enhanceCanvases {
 
             # Set new file metadta, and store
             $newdoc->{master}->{extension} = $newext;
+            $newdoc->{master}->{mime}      = $newmime;
             $newdoc->{master}->{size}      = -s $accessfilename;
             $newdoc->{master}->{md5}       = $response->etag;
             delete $newdoc->{master}->{path};
