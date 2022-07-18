@@ -522,6 +522,14 @@ sub findCreateCanvases {
         }
         else {
             # Need to create new canvas.
+
+            # First, the oops check!
+            if ( !defined $self->filemetadata->{$master}->{'bytes'}
+                || ( $self->filemetadata->{$master}->{'bytes'} == 0 ) )
+            {
+                die "$path is a 0 length file!  The AIP must be fixed!\n";
+            }
+
             my $canvas = {
                 source => {
                     from   => 'cihm',
@@ -612,7 +620,7 @@ sub findCreateCanvases {
 
             $self->log->info( $self->aip . "  "
                   . Data::Dumper->Dump( [ $self->manifest ], [qw(manifest)] ) );
-            die "enhanceCanvases(): Missing ID for canvas index=$i\n";
+            die "findCreateCanvases(): Missing ID for canvas index=$i\n";
         }
     }
 
@@ -689,16 +697,20 @@ sub enhanceCanvases {
                       . $response->message
                       . "\n" );
             }
+            close $preservationfile;
 
             my $filemodified = $response->object_meta_header('File-Modified');
 
-            my $preservationname = $preservationfile->filename;
-            close $preservationfile;
+            my $preservationfilename = $preservationfile->filename;
+            if ( !( -s $preservationfilename ) ) {
+                die
+"$preservationfilename is a 0 length file while downloading $path\n";
+            }
 
             # Normmalize for Access
             my $magic = new Image::Magick;
 
-            my $status = $magic->Read($preservationfile);
+            my $status = $magic->Read($preservationfilename);
             $self->magicStatus( "$path Read", $status ) if "$status";
 
 # Archivematica uses:
@@ -721,6 +733,11 @@ sub enhanceCanvases {
             $status = $magic->Write($accessfilename);
             $self->magicStatus( "$path write $accessfilename", $status )
               if "$status";
+
+            if ( !( -s $accessfilename ) ) {
+                die
+                  "$accessfilename is a 0 length file while converting $path\n";
+            }
 
             open( my $fh, '<:raw', $accessfilename )
               or die "Could not open file '$accessfilename' $!";
