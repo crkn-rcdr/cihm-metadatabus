@@ -442,6 +442,59 @@ sub dmdManifest {
     $self->manifest->{'dmdType'} = lc($dmdType);
 }
 
+sub findManifestCanvases {
+    my ( $self, $foundcanvas ) = @_;
+
+    my $canvascount = ( scalar @{ $self->divs } ) - 1;
+
+    # Create dummy for any missing canvases while setting up manifest
+    my @missingcanvases;
+    $self->manifest->{'canvases'} = [];
+    for my $index ( 0 .. $canvascount - 1 ) {
+
+        # Components in div 1+
+        my $div = $self->divs->[ $index + 1 ];
+        $self->manifest->{'canvases'}->[$index]->{label}->{none} =
+          $div->{label};
+        my $master = $div->{'master.flocat'};
+        my $path   = $self->aip . "/" . $master;
+
+        if (   ( exists $foundcanvas->{$path} )
+            && ( exists $foundcanvas->{$path}->{'_id'} ) )
+        {
+            $self->manifest->{'canvases'}->[$index]->{'id'} =
+              $foundcanvas->{$path}->{'_id'};
+        }
+        else {
+            # Need to create new canvas.
+
+            # First, the oops check!
+            if ( !defined $self->filemetadata->{$master}->{'bytes'}
+                || ( $self->filemetadata->{$master}->{'bytes'} == 0 ) )
+            {
+                die "$path is a 0 length file!  The AIP must be fixed!\n";
+            }
+
+            my $canvas = {
+                source => {
+                    from   => 'cihm',
+                    path   => $path,
+                    'size' => $self->filemetadata->{$master}->{'bytes'},
+                    'md5'  => $self->filemetadata->{$master}->{'hash'}
+                },
+                master => {
+                    path   => $path,
+                    'mime' => $div->{'master.mimetype'},
+                    'size' => $self->filemetadata->{$master}->{'bytes'},
+                    'md5'  => $self->filemetadata->{$master}->{'hash'}
+                }
+            };
+            push @missingcanvases, $canvas;
+        }
+    }
+    return @missingcanvases;
+}
+
 sub findCreateCanvases {
     my ($self) = @_;
 
@@ -503,50 +556,7 @@ sub findCreateCanvases {
     }
 
     # Create any missing canvases while setting up manifest
-    my @missingcanvases;
-    $self->manifest->{'canvases'} = [];
-    for my $index ( 0 .. $canvascount - 1 ) {
-
-        # Components in div 1+
-        my $div = $self->divs->[ $index + 1 ];
-        $self->manifest->{'canvases'}->[$index]->{label}->{none} =
-          $div->{label};
-        my $master = $div->{'master.flocat'};
-        my $path   = $self->aip . "/" . $master;
-
-        if (   ( exists $foundcanvas{$path} )
-            && ( exists $foundcanvas{$path}->{'_id'} ) )
-        {
-            $self->manifest->{'canvases'}->[$index]->{'id'} =
-              $foundcanvas{$path}->{'_id'};
-        }
-        else {
-            # Need to create new canvas.
-
-            # First, the oops check!
-            if ( !defined $self->filemetadata->{$master}->{'bytes'}
-                || ( $self->filemetadata->{$master}->{'bytes'} == 0 ) )
-            {
-                die "$path is a 0 length file!  The AIP must be fixed!\n";
-            }
-
-            my $canvas = {
-                source => {
-                    from   => 'cihm',
-                    path   => $path,
-                    'size' => $self->filemetadata->{$master}->{'bytes'},
-                    'md5'  => $self->filemetadata->{$master}->{'hash'}
-                },
-                master => {
-                    path   => $path,
-                    'mime' => $div->{'master.mimetype'},
-                    'size' => $self->filemetadata->{$master}->{'bytes'},
-                    'md5'  => $self->filemetadata->{$master}->{'hash'}
-                }
-            };
-            push @missingcanvases, $canvas;
-        }
-    }
+    my @missingcanvases = $self->findManifestCanvases( \%foundcanvas );
 
     # Store with noids any that didn't already exist.
     if (@missingcanvases) {
@@ -591,24 +601,21 @@ sub findCreateCanvases {
             $foundcanvas{$path} = $thisdoc;
         }
 
-        for my $index ( 0 .. $canvascount - 1 ) {
+        my @notfound = $self->findManifestCanvases( \%foundcanvas );
+        if (@notfound) {
+            $self->log->info(
+                $self->aip . "  "
+                  . Data::Dumper->Dump(
+                    [ \@notfound ],
+                    [qw(Manifest_Canvases_notfound)]
+                  )
+            );
 
-            # Components in div 1+
-            my $div = $self->divs->[ $index + 1 ];
-            $self->manifest->{'canvases'}->[$index]->{label}->{none} =
-              $div->{label};
-            my $master = $div->{'master.flocat'};
-            my $path   = $self->aip . "/" . $master;
-
-            if (   ( exists $foundcanvas{$path} )
-                && ( exists $foundcanvas{$path}->{'_id'} ) )
-            {
-                $self->manifest->{'canvases'}->[$index]->{'id'} =
-                  $foundcanvas{$path}->{'_id'};
+            my @paths;
+            foreach my $thisdoc (@notfound) {
+                push @paths, $thisdoc->{master}->{path};
             }
-            else {
-                die "Canvas for $path still not found!\n";
-            }
+            die "Paths still missing: @paths \n";
         }
     }
 
