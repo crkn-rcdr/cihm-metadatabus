@@ -10,8 +10,9 @@ use XML::LibXML;
 use XML::LibXSLT;
 use Digest::MD5 qw(md5 md5_hex md5_base64);
 use File::Basename;
-
-#use Data::Dumper;
+use File::Temp;
+use Image::Magick;
+use Data::Dumper;
 
 =head1 NAME
 
@@ -36,8 +37,11 @@ sub new {
     if ( !$self->log ) {
         die "Log::Log4perl object parameter is mandatory\n";
     }
-    if ( !$self->swift ) {
-        die "swift object parameter is mandatory\n";
+    if ( !$self->swiftaccess ) {
+        die "swiftaccess object parameter is mandatory\n";
+    }
+    if ( !$self->swiftpreservation ) {
+        die "swiftpreservation object parameter is mandatory\n";
     }
     if ( !$self->dipstagingdb ) {
         die "dipstagingdb object parameter is mandatory\n";
@@ -105,24 +109,29 @@ sub cantaloupe {
     return $self->args->{cantaloupe};
 }
 
-sub swift {
+sub swiftaccess {
     my $self = shift;
-    return $self->args->{swift};
+    return $self->args->{swiftaccess};
 }
 
-sub access_metadata {
+sub swift_access_metadata {
     my $self = shift;
-    return $self->envargs->{access_metadata};
+    return $self->envargs->{swift_access_metadata};
 }
 
-sub access_files {
+sub swift_access_files {
     my $self = shift;
-    return $self->envargs->{access_files};
+    return $self->envargs->{swift_access_files};
 }
 
-sub preservation_files {
+sub swiftpreservation {
     my $self = shift;
-    return $self->envargs->{preservation_files};
+    return $self->args->{swiftpreservation};
+}
+
+sub swift_preservation_files {
+    my $self = shift;
+    return $self->envargs->{swift_preservation_files};
 }
 
 sub xml {
@@ -217,7 +226,6 @@ sub process {
         $self->enhanceCanvases;
     }
 
-    #TODO copy the 'file' to access storage.
     $self->setManifestNoid();
     $self->dmdManifest();
     $self->writeManifest();
@@ -231,7 +239,9 @@ sub get_metadata {
 
     my $object = $self->aip . "/$file";
     while ( $count-- ) {
-        my $r = $self->swift->object_get( $self->preservation_files, $object );
+        my $r =
+          $self->swiftpreservation->object_get( $self->swift_preservation_files,
+            $object );
         if ( $r->code == 200 ) {
             return $r->content;
         }
@@ -408,11 +418,11 @@ sub dmdManifest {
     my $dmdDigest = md5_hex($dmdRecord);
 
     my $object = $noid . '/dmd' . $dmdType . '.xml';
-    my $r = $self->swift->object_head( $self->access_metadata, $object );
+    my $r =
+      $self->swiftaccess->object_head( $self->swift_access_metadata, $object );
     if ( $r->code == 404 || ( $r->etag ne $dmdDigest ) ) {
-        $r =
-          $self->swift->object_put( $self->access_metadata, $object,
-            $dmdRecord );
+        $r = $self->swiftaccess->object_put( $self->swift_access_metadata,
+            $object, $dmdRecord );
         if ( $r->code != 201 ) {
             if ( defined $r->response->content ) {
                 warn $r->response->content . "\n";
@@ -430,6 +440,59 @@ sub dmdManifest {
         die "Head for $object - returned " . $r->code . "\n";
     }
     $self->manifest->{'dmdType'} = lc($dmdType);
+}
+
+sub findManifestCanvases {
+    my ( $self, $foundcanvas ) = @_;
+
+    my $canvascount = ( scalar @{ $self->divs } ) - 1;
+
+    # Create dummy for any missing canvases while setting up manifest
+    my @missingcanvases;
+    $self->manifest->{'canvases'} = [];
+    for my $index ( 0 .. $canvascount - 1 ) {
+
+        # Components in div 1+
+        my $div = $self->divs->[ $index + 1 ];
+        $self->manifest->{'canvases'}->[$index]->{label}->{none} =
+          $div->{label};
+        my $master = $div->{'master.flocat'};
+        my $path   = $self->aip . "/" . $master;
+
+        if (   ( exists $foundcanvas->{$path} )
+            && ( exists $foundcanvas->{$path}->{'_id'} ) )
+        {
+            $self->manifest->{'canvases'}->[$index]->{'id'} =
+              $foundcanvas->{$path}->{'_id'};
+        }
+        else {
+            # Need to create new canvas.
+
+            # First, the oops check!
+            if ( !defined $self->filemetadata->{$master}->{'bytes'}
+                || ( $self->filemetadata->{$master}->{'bytes'} == 0 ) )
+            {
+                die "$path is a 0 length file!  The AIP must be fixed!\n";
+            }
+
+            my $canvas = {
+                source => {
+                    from   => 'cihm',
+                    path   => $path,
+                    'size' => $self->filemetadata->{$master}->{'bytes'},
+                    'md5'  => $self->filemetadata->{$master}->{'hash'}
+                },
+                master => {
+                    path   => $path,
+                    'mime' => $div->{'master.mimetype'},
+                    'size' => $self->filemetadata->{$master}->{'bytes'},
+                    'md5'  => $self->filemetadata->{$master}->{'hash'}
+                }
+            };
+            push @missingcanvases, $canvas;
+        }
+    }
+    return @missingcanvases;
 }
 
 sub findCreateCanvases {
@@ -493,37 +556,7 @@ sub findCreateCanvases {
     }
 
     # Create any missing canvases while setting up manifest
-    my @missingcanvases;
-    $self->manifest->{'canvases'} = [];
-    for my $index ( 0 .. $canvascount - 1 ) {
-
-        # Components in div 1+
-        my $div = $self->divs->[ $index + 1 ];
-        $self->manifest->{'canvases'}->[$index]->{label}->{none} =
-          $div->{label};
-        my $master = $div->{'master.flocat'};
-        my $path   = $self->aip . "/" . $master;
-
-        if (   ( exists $foundcanvas{$path} )
-            && ( exists $foundcanvas{$path}->{'_id'} ) )
-        {
-            $self->manifest->{'canvases'}->[$index]->{'id'} =
-              $foundcanvas{$path}->{'_id'};
-        }
-        else {
-            # Need to create new canvas.
-            my $canvas = {
-                source => { from => 'cihm', path => $path },
-                master => {
-                    path   => $path,
-                    'mime' => $div->{'master.mimetype'},
-                    'size' => $self->filemetadata->{$master}->{'bytes'},
-                    'md5'  => $self->filemetadata->{$master}->{'hash'}
-                }
-            };
-            push @missingcanvases, $canvas;
-        }
-    }
+    my @missingcanvases = $self->findManifestCanvases( \%foundcanvas );
 
     # Store with noids any that didn't already exist.
     if (@missingcanvases) {
@@ -568,28 +601,64 @@ sub findCreateCanvases {
             $foundcanvas{$path} = $thisdoc;
         }
 
-        for my $index ( 0 .. $canvascount - 1 ) {
+        my @notfound = $self->findManifestCanvases( \%foundcanvas );
+        if (@notfound) {
+            $self->log->info(
+                $self->aip . "  "
+                  . Data::Dumper->Dump(
+                    [ \@notfound ],
+                    [qw(Manifest_Canvases_notfound)]
+                  )
+            );
 
-            # Components in div 1+
-            my $div = $self->divs->[ $index + 1 ];
-            $self->manifest->{'canvases'}->[$index]->{label}->{none} =
-              $div->{label};
-            my $master = $div->{'master.flocat'};
-            my $path   = $self->aip . "/" . $master;
-
-            if (   ( exists $foundcanvas{$path} )
-                && ( exists $foundcanvas{$path}->{'_id'} ) )
-            {
-                $self->manifest->{'canvases'}->[$index]->{'id'} =
-                  $foundcanvas{$path}->{'_id'};
+            my @paths;
+            foreach my $thisdoc (@notfound) {
+                push @paths, $thisdoc->{master}->{path};
             }
-            else {
-                die "Canvas for $path still not found!\n";
-            }
+            die "Paths still missing: @paths \n";
         }
     }
 
     $self->{canvases} = \%foundcanvas;
+
+# Shouldn't be possible, but... https://github.com/crkn-rcdr/cihm-metadatabus/issues/40
+    foreach my $i ( 0 .. ( @{ $self->manifest->{'canvases'} } - 1 ) ) {
+        if ( !defined $self->manifest->{'canvases'}->[$i]->{'id'} ) {
+
+            $self->log->info( $self->aip . "  "
+                  . Data::Dumper->Dump( [ $self->manifest ], [qw(manifest)] ) );
+            die "findCreateCanvases(): Missing ID for canvas index=$i\n";
+        }
+    }
+
+}
+
+sub magicStatus {
+    my ( $self, $prefix, $status ) = @_;
+
+    my $error;
+    switch ($status) {
+
+        # Skip Exif ImageUniqueID
+        case /Unknown field with tag 42016 / { }
+
+# https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/imageuniqueid.html
+        case /Unknown field with tag 41728 / { }
+
+# https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/filesource.html
+        case /Unknown field with tag 59932 /  { }    # 0xea1c	Padding
+        case /Exception 350: .*; tag ignored/ { }
+        else {
+            $error = 1;
+        }
+    }
+    if ($error) {
+        die "$prefix: $status\n";
+    }
+    else {
+        # Log to systems, not needed for other staff
+        $self->log->warn( $self->aip . ": $prefix: $status" );
+    }
 }
 
 sub enhanceCanvases {
@@ -612,19 +681,82 @@ sub enhanceCanvases {
                 die "Extension from $path is not valid\n";
             }
 
-            my $newpath = $doc->{'_id'} . "." . $ext;
+            # Convert all images to JPG files.
+            my $newext  = "jpg";
+            my $newmime = "image/jpeg";
+            my $newpath = $doc->{'_id'} . "." . $newext;
 
-            my $response = $self->swift->object_copy(
-                $self->preservation_files, $path,
-                $self->access_files,       $newpath
-            );
+            my $preservationfile =
+              File::Temp->new( UNLINK => 1, SUFFIX => "." . $ext );
+
+            my $accessfile =
+              File::Temp->new( UNLINK => 1, SUFFIX => "." . $newext );
+
+            my $response =
+              $self->swiftpreservation->object_get(
+                $self->swift_preservation_files,
+                $path, { write_file => $preservationfile } );
+            if ( $response->code != 200 ) {
+                die(    "GET preservation file object=$path , container="
+                      . $self->swift_preservation_files
+                      . " returned: "
+                      . $response->code . " - "
+                      . $response->message
+                      . "\n" );
+            }
+            close $preservationfile;
+
+            my $filemodified = $response->object_meta_header('File-Modified');
+
+            my $preservationfilename = $preservationfile->filename;
+            if ( !( -s $preservationfilename ) ) {
+                die
+"$preservationfilename is a 0 length file while downloading $path\n";
+            }
+
+            # Normmalize for Access
+            my $magic = new Image::Magick;
+
+            my $status = $magic->Read($preservationfilename);
+            $self->magicStatus( "$path Read", $status ) if "$status";
+
+# Archivematica uses:
+# convert "%fileFullName%" -sampling-factor 4:4:4 -quality 60 -layers merge "%outputDirectory%%prefix%%fileName%%postfix%.jpg"
+# We are keeping quality to 80% instead.
+
+            $magic->Set( "sampling-factor" => "4:4:4" );
+            $self->magicStatus( "$path Set sampling-factor 4:4:4", $status )
+              if "$status";
+
+            $magic->Set( "quality" => 80 );
+            $self->magicStatus( "$path Set Quality=80", $status ) if "$status";
+
+            $status = $magic->Layers( "method" => "merge" );
+            $self->magicStatus( "$path Layers merge", $status )
+              if !ref($status);
+
+            my $accessfilename = $accessfile->filename;
+
+            $status = $magic->Write($accessfilename);
+            $self->magicStatus( "$path write $accessfilename", $status )
+              if "$status";
+
+            if ( !( -s $accessfilename ) ) {
+                die
+                  "$accessfilename is a 0 length file while converting $path\n";
+            }
+
+            open( my $fh, '<:raw', $accessfilename )
+              or die "Could not open file '$accessfilename' $!";
+
+            $response =
+              $self->swiftaccess->object_put( $self->swift_access_files,
+                $newpath, $fh, { 'File-Modified' => $filemodified } );
+
             if ( $response->code != 201 ) {
-                die "object_copy("
-                  . $self->preservation_files . ","
-                  . $path . ","
-                  . $self->access_files . ","
-                  . $newpath
-                  . ") returned "
+                die "PUT access file object=$newpath container="
+                  . $self->swift_access_files
+                  . " returned "
                   . $response->code . " - "
                   . $response->message . "\n";
             }
@@ -632,8 +764,11 @@ sub enhanceCanvases {
             # Get full replacement document
             my $newdoc = $self->canvasGetDocument( $doc->{'_id'} );
 
-            # Set extension, and store
-            $newdoc->{master}->{extension} = $ext;
+            # Set new file metadta, and store
+            $newdoc->{master}->{extension} = $newext;
+            $newdoc->{master}->{mime}      = $newmime;
+            $newdoc->{master}->{size}      = -s $accessfilename;
+            $newdoc->{master}->{md5}       = $response->etag;
             delete $newdoc->{master}->{path};
 
             my $data = $self->canvasPutDocument( $doc->{'_id'}, $newdoc );
@@ -715,6 +850,17 @@ sub enhanceCanvases {
               . $res->code . "\n";
         }
     }
+
+# Shouldn't be possible, but... https://github.com/crkn-rcdr/cihm-metadatabus/issues/40
+    foreach my $i ( 0 .. ( @{ $self->manifest->{'canvases'} } - 1 ) ) {
+        if ( !defined $self->manifest->{'canvases'}->[$i]->{'id'} ) {
+
+            $self->log->info( $self->aip . "  "
+                  . Data::Dumper->Dump( [ $self->manifest ], [qw(manifest)] ) );
+            die "enhanceCanvases(): Missing ID for canvas index=$i\n";
+        }
+    }
+
 }
 
 sub loadFileMeta {
@@ -732,11 +878,12 @@ sub loadFileMeta {
     my $more = 1;
     while ($more) {
         my $bagdataresp =
-          $self->swift->container_get( $self->preservation_files,
+          $self->swiftpreservation->container_get(
+            $self->swift_preservation_files,
             \%containeropt );
         if ( $bagdataresp->code != 200 ) {
             die "container_get("
-              . $self->preservation_files
+              . $self->swift_preservation_files
               . ") for $prefix returned "
               . $bagdataresp->code . " - "
               . $bagdataresp->message . "\n";
@@ -776,7 +923,6 @@ sub setManifestNoid {
     $self->manifest->{'_id'} = $manifestnoids[0];
 }
 
-# TODO: For now a direct write to CouchDB, later through a Lapin interface
 sub writeManifest {
     my ($self) = @_;
 
@@ -793,7 +939,6 @@ sub writeManifest {
     }
 }
 
-# TODO: Use API once it exists
 sub getSlug {
     my ( $self, $slug ) = @_;
 

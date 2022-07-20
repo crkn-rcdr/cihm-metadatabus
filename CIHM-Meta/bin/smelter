@@ -23,29 +23,63 @@ my $couchdb_dipstaging;
 $couchdb_dipstaging = $ENV{COUCHDB_DIPSTAGING}
   if ( exists $ENV{COUCHDB_DIPSTAGING} );
 
-my $swift_server;
-$swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
+# Preservation Swift
 
-my $swift_user;
-$swift_user = $ENV{SWIFT_user} if ( exists $ENV{SWIFT_user} );
+my $swift_preservation_server;
+$swift_preservation_server = $ENV{SWIFT_preservation_server}
+  if ( exists $ENV{SWIFT_preservation_server} );
 
-my $swift_password;
-$swift_password = $ENV{SWIFT_password} if ( exists $ENV{SWIFT_password} );
+my $swift_preservation_server_options = '{ "furl_options": { "timeout": 3600 } }';
+$swift_preservation_server_options = $ENV{SWIFT_preservation_server_options}
+  if ( exists $ENV{SWIFT_preservation_server_options} );
 
-my $swift_account;
-$swift_account = $ENV{SWIFT_account} if ( exists $ENV{SWIFT_account} );
+my $swift_preservation_user;
+$swift_preservation_user = $ENV{SWIFT_preservation_user}
+  if ( exists $ENV{SWIFT_preservation_user} );
 
-my $access_metadata;
-$access_metadata = $ENV{SWIFT_access_metadata}
+my $swift_preservation_password;
+$swift_preservation_password = $ENV{SWIFT_preservation_password}
+  if ( exists $ENV{SWIFT_preservation_password} );
+
+my $swift_preservation_account;
+$swift_preservation_account = $ENV{SWIFT_preservation_account}
+  if ( exists $ENV{SWIFT_preservation_account} );
+
+my $swift_preservation_files;
+$swift_preservation_files = $ENV{SWIFT_preservation_files}
+  if ( exists $ENV{SWIFT_preservation_files} );
+
+# Access Swift
+
+my $swift_access_server;
+$swift_access_server = $ENV{SWIFT_access_server}
+  if ( exists $ENV{SWIFT_server} );
+
+my $swift_access_server_options = '{ "furl_options": { "timeout": 3600 } }';
+$swift_access_server_options = $ENV{SWIFT_access_server_options}
+  if ( exists $ENV{SWIFT_access_server_options} );
+
+my $swift_access_user;
+$swift_access_user = $ENV{SWIFT_access_user}
+  if ( exists $ENV{SWIFT_access_user} );
+
+my $swift_access_password;
+$swift_access_password = $ENV{SWIFT_access_password}
+  if ( exists $ENV{SWIFT_access_password} );
+
+my $swift_access_account;
+$swift_access_account = $ENV{SWIFT_access_account}
+  if ( exists $ENV{SWIFT_access_account} );
+
+my $swift_access_metadata;
+$swift_access_metadata = $ENV{SWIFT_access_metadata}
   if ( exists $ENV{SWIFT_access_metadata} );
 
-my $access_files;
-$access_files = $ENV{SWIFT_access_files}
+my $swift_access_files;
+$swift_access_files = $ENV{SWIFT_access_files}
   if ( exists $ENV{SWIFT_access_files} );
 
-my $preservation_files;
-$preservation_files = $ENV{SWIFT_preservation_files}
-  if ( exists $ENV{SWIFT_preservation_files} );
+########
 
 my $noid_server;
 $noid_server = $ENV{NOID_server}
@@ -67,26 +101,33 @@ my $timelimit;
 my $descending;
 my $aip;
 GetOptions(
-    'lockfile:s'                 => \$lockfile,
-    'skip:i'                     => \$skip,
-    'maxprocs:i'                 => \$maxprocs,
-    'limit:i'                    => \$limit,
-    'timelimit:i'                => \$timelimit,
-    'descending'                 => \$descending,
-    'aip:s'                      => \$aip,
-    'couchdb_access:s'           => \$couchdb_access,
-    'couchdb_canvas:s'           => \$couchdb_canvas,
-    'couchdb_dipstaging:s'       => \$couchdb_dipstaging,
-    'swift_server:s'             => \$swift_server,
-    'swift_user:s'               => \$swift_user,
-    'swift_password:s'           => \$swift_password,
-    'swift_account:s'            => \$swift_account,
-    'swift_access_metadata:s'    => \$access_metadata,
-    'swift_access_files:s'       => \$access_files,
-    'swift_preservation_files:s' => \$preservation_files,
-    'noid_server:s'              => \$noid_server,
-    'iiif_image_server:s'        => \$iiif_image_server,
-    'iiif_image_password:s'      => \$iiif_image_password,
+    'lockfile:s'                    => \$lockfile,
+    'skip:i'                        => \$skip,
+    'maxprocs:i'                    => \$maxprocs,
+    'limit:i'                       => \$limit,
+    'timelimit:i'                   => \$timelimit,
+    'descending'                    => \$descending,
+    'aip:s'                         => \$aip,
+    'couchdb_access:s'              => \$couchdb_access,
+    'couchdb_canvas:s'              => \$couchdb_canvas,
+    'couchdb_dipstaging:s'          => \$couchdb_dipstaging,
+    'swift_access_server:s'         => \$swift_access_server,
+    'swift_access_server_options:s' => \$swift_access_server_options,
+    'swift_access_user:s'           => \$swift_access_user,
+    'swift_access_password:s'       => \$swift_access_password,
+    'swift_access_account:s'        => \$swift_access_account,
+    'swift_access_metadata:s'       => \$swift_access_metadata,
+    'swift_access_files:s'          => \$swift_access_files,
+    'swift_preservation_server:s'   => \$swift_preservation_server,
+    'swift_preservation_server_options:s' =>
+      \$swift_preservation_server_options,
+    'swift_preservation_user:s'     => \$swift_preservation_user,
+    'swift_preservation_password:s' => \$swift_preservation_password,
+    'swift_preservation_account:s'  => \$swift_preservation_account,
+    'swift_preservation_files:s'    => \$swift_preservation_files,
+    'noid_server:s'                 => \$noid_server,
+    'iiif_image_server:s'           => \$iiif_image_server,
+    'iiif_image_password:s'         => \$iiif_image_password,
 );
 
 # Only allow one instance to run at a time..
@@ -113,25 +154,31 @@ $noid_server = noEndSlash($noid_server);
 
 CIHM::Meta::Smelter->new(
     {
-        skip                => $skip,
-        maxprocs            => $maxprocs,
-        limit               => $limit,
-        timelimit           => $timelimit,
-        descending          => $descending,
-        aip                 => $aip,
-        couchdb_access      => $couchdb_access,
-        couchdb_canvas      => $couchdb_canvas,
-        couchdb_dipstaging  => $couchdb_dipstaging,
-        swift_server        => $swift_server,
-        swift_user          => $swift_user,
-        swift_password      => $swift_password,
-        swift_account       => $swift_account,
-        access_metadata     => $access_metadata,
-        access_files        => $access_files,
-        preservation_files  => $preservation_files,
-        noid_server         => $noid_server,
-        iiif_image_server   => $iiif_image_server,
-        iiif_image_password => $iiif_image_password,
+        skip                              => $skip,
+        maxprocs                          => $maxprocs,
+        limit                             => $limit,
+        timelimit                         => $timelimit,
+        descending                        => $descending,
+        aip                               => $aip,
+        couchdb_access                    => $couchdb_access,
+        couchdb_canvas                    => $couchdb_canvas,
+        couchdb_dipstaging                => $couchdb_dipstaging,
+        swift_access_server               => $swift_access_server,
+        swift_access_server_options       => $swift_access_server_options,
+        swift_access_user                 => $swift_access_user,
+        swift_access_password             => $swift_access_password,
+        swift_access_account              => $swift_access_account,
+        swift_access_metadata             => $swift_access_metadata,
+        swift_access_files                => $swift_access_files,
+        swift_preservation_server         => $swift_preservation_server,
+        swift_preservation_server_options => $swift_preservation_server_options,
+        swift_preservation_user           => $swift_preservation_user,
+        swift_preservation_password       => $swift_preservation_password,
+        swift_preservation_account        => $swift_preservation_account,
+        swift_preservation_files          => $swift_preservation_files,
+        noid_server                       => $noid_server,
+        iiif_image_server                 => $iiif_image_server,
+        iiif_image_password               => $iiif_image_password,
     }
 )->smelter;
 

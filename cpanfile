@@ -35,3 +35,5 @@ requires 'Text::CSV';
 requires 'DateTime::Format::ISO8601';
 requires 'Poppler';
 
+# Used by Smelter
+requires 'Image::Magick', '== 6.9.12';
