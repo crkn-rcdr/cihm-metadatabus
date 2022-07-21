@@ -1,0 +1,213 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use CIHM::Meta::Ocrtask;
+use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
+use File::Find;
+use Data::Dumper;
+use Digest::MD5;
+
+{
+
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
+
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
+my $lockfile = '/var/lock/tdr/ocrtask';
+$lockfile = $ENV{ocrtask_lockfile} if ( exists $ENV{ocrtask_lockfile} );
+
+my $swift_server;
+$swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
+
+my $swift_user;
+$swift_user = $ENV{SWIFT_user} if ( exists $ENV{SWIFT_user} );
+
+my $swift_password;
+$swift_password = $ENV{SWIFT_password} if ( exists $ENV{SWIFT_password} );
+
+my $swift_account;
+$swift_account = $ENV{SWIFT_account} if ( exists $ENV{SWIFT_account} );
+
+my $swift_access_metadata;
+$swift_access_metadata = $ENV{SWIFT_access_metadata}
+  if ( exists $ENV{SWIFT_access_metadata} );
+
+my $swift_access_files;
+$swift_access_files = $ENV{SWIFT_access_files}
+  if ( exists $ENV{SWIFT_access_files} );
+
+my $couchdb_canvas;
+$couchdb_canvas = $ENV{COUCHDB_CANVAS} if ( exists $ENV{COUCHDB_CANVAS} );
+
+my $couchdb_access;
+$couchdb_access = $ENV{COUCHDB_ACCESS} if ( exists $ENV{COUCHDB_ACCESS} );
+
+GetOptions(
+    'couchdb_access:s'        => \$couchdb_access,
+    'couchdb_canvas:s'        => \$couchdb_canvas,
+    'lockfile:s'              => \$lockfile,
+    'swift_server:s'          => \$swift_server,
+    'swift_user:s'            => \$swift_user,
+    'swift_password:s'        => \$swift_password,
+    'swift_account:s'         => \$swift_account,
+    'swift_access_metadata:s' => \$swift_access_metadata,
+    'swift_access_files:s'    => \$swift_access_files,
+);
+
+# Only allow one instance to run at a time..
+sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
+  or die "can't open lockfile=$lockfile: $!\n";
+flock( FH, LOCK_EX | LOCK_NB )
+  or exit 0;
+
+die "couchdb_canvas is mandatory (environment or parameter)\n"
+  if ( !$couchdb_canvas );
+$couchdb_canvas = noEndSlash($couchdb_canvas);
+
+my $canvasdb = new restclient(
+    server      => $couchdb_canvas,
+    type        => 'application/json',
+    clientattrs => { timeout => 3600 },
+);
+$canvasdb->set_persistent_header( 'Accept' => 'application/json' );
+my $test = $canvasdb->head("/");
+if ( !$test || $test->code != 200 ) {
+    die
+      "Problem connecting to `canvas` Couchdb database. Check configuration\n";
+}
+
+die "couchdb_access is mandatory (environment or parameter)\n"
+  if ( !$couchdb_access );
+$couchdb_access = noEndSlash($couchdb_access);
+
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
+}
+
+=pod
+# Used to scan directory -- takes time because there are many files
+
+my $basepath = "/home/tdr/ocr-todo/_Russell_Ingest";
+
+find(\&matching_aip_dir, $basepath);
+
+
+sub matching_aip_dir {
+    if (-d $_) {
+        print $File::Find::name . "\n";
+    }
+}
+=cut
+
+my $ocrdirs = <<OCRDIRS;
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15869
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15870
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15867
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15868
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15796
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15797
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15795
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 477 - Heritage - completed/lac_reel_t15596
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 477 - Heritage - completed - verified/lac_reel_t15596
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15808
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15809
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15807
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15663
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 482 - Heritage - completed/lac_reel_t15815
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15832
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15833
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15831
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15838
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15839
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15837
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15826
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15827
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15825
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15829
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15830
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15828
+OCRDIRS
+
+my @ocrdirs = split "\n", $ocrdirs;
+
+my @idlookup;
+foreach my $ocrdir (@ocrdirs) {
+    my @temp = split '/', $ocrdir;
+    my $id = "oocihm." . pop @temp;
+
+    print "Processing: $ocrdir  (ID=$id)\n";
+
+    opendir( my $dh, $ocrdir ) || die "Can't open directory $ocrdir: $!\n";
+
+    while ( readdir $dh ) {
+        next if ( !-f "$ocrdir/$_" );
+        next if /\.(xml|pdf|)$/;
+
+        #print "$ocrdir/$_\n";
+
+        my $imagename = "$ocrdir/$_";
+        my $basename  = $imagename;
+        $basename =~ s/\.(jpg|tif|jp2)$//;
+
+        #print "Basename=$basename\n";
+
+        if ( !-f "$basename.pdf" ) {
+            warn "Missing PDF: $basename.pdf\n";
+            next;
+        }
+        if ( !-f "$basename.xml" ) {
+            warn "Missing PDF: $basename.xml\n";
+            next;
+        }
+
+        my $cihmsource = $id . "/data/sip/data/files/$_";
+        open( my $fh, '<:raw', $imagename )
+          or die "Can't open '$imagename': $!";
+        binmode($fh);
+        my $size = ( stat($fh) )[7];
+
+        my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
+        close $fh;
+
+        # Look up existing canvases.
+        my $res = $canvasdb->post(
+            "/_design/access/_view/cihmsource?reduce=false&include_docs=true",
+            { keys => [ [ $cihmsource, $size, $md5digest ] ] },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code != 200 ) {
+            if ( defined $res->response->content ) {
+                warn $res->response->content . "\n";
+            }
+            die "lookup in cihmsource return code: " . $res->code . "\n";
+        }
+        my $canvas = $res->data->{rows}->[0]->{doc};
+
+        if ( !$canvas ) {
+            warn
+              "not found: cihmsource: $cihmsource  size:$size md5:$md5digest\n";
+            next;
+        }
+
+        #print "cihmsource: $cihmsource  size:$size md5:$md5digest\n"
+        #  . Dumper($doc) . "\n";
+
+    }
+    closedir $dh;
+
+}
+
