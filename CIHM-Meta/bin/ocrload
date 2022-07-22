@@ -85,6 +85,8 @@ sub noEndSlash {
     return $url;
 }
 
+my $ocrloadprog = $0;
+
 die "couchdb_canvas is mandatory (environment or parameter)\n"
   if ( !$couchdb_canvas );
 $couchdb_canvas = noEndSlash($couchdb_canvas);
@@ -196,6 +198,8 @@ foreach my $ocrdir (@ocrdirs) {
         next if /\.(xml|pdf|)$/;
 
         #print "$ocrdir/$_\n";
+
+        $0 = $ocrloadprog . " scanning $ocrdir";
 
         my $imagefilename = "$ocrdir/$_";
         my $basename      = $imagefilename;
@@ -418,6 +422,8 @@ foreach my $ocrdir (@ocrdirs) {
 sub updateFile {
     my ( $type, $id, $filename ) = @_;
 
+    $0 = $ocrloadprog . " checking $filename";
+
     open( my $fh, '<:raw', $filename )
       or die "Can't open '$filename': $!";
     binmode($fh);
@@ -464,6 +470,8 @@ sub updateFile {
           . $res->code . " - "
           . $res->message . "\n";
     }
+
+    $0 = $ocrloadprog . " sending $filename->$object";
 
     # Send file.
     my $putresp =
