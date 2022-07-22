@@ -5,13 +5,15 @@ use warnings;
 use FindBin;
 use lib "$FindBin::RealBin/../lib";
 use Getopt::Long;
-use CIHM::Meta::Ocrtask;
 use Fcntl qw(:DEFAULT :flock);
 use Try::Tiny;
 use Log::Log4perl;
 use File::Find;
 use Data::Dumper;
 use Digest::MD5;
+use JSON;
+use Poppler;
+use XML::LibXML;
 
 {
 
@@ -24,8 +26,10 @@ use Digest::MD5;
 Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
 my $logger = Log::Log4perl::get_logger("CIHM::TDR");
 
-my $lockfile = '/var/lock/tdr/ocrtask';
-$lockfile = $ENV{ocrtask_lockfile} if ( exists $ENV{ocrtask_lockfile} );
+my $lockfile = '/var/lock/tdr/ocrload';
+$lockfile = $ENV{ocrload_lockfile} if ( exists $ENV{ocrload_lockfile} );
+
+$logger->info("OcrLoad");
 
 my $swift_server;
 $swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
@@ -71,6 +75,13 @@ sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
 flock( FH, LOCK_EX | LOCK_NB )
   or exit 0;
 
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
+}
+
 die "couchdb_canvas is mandatory (environment or parameter)\n"
   if ( !$couchdb_canvas );
 $couchdb_canvas = noEndSlash($couchdb_canvas);
@@ -91,11 +102,16 @@ die "couchdb_access is mandatory (environment or parameter)\n"
   if ( !$couchdb_access );
 $couchdb_access = noEndSlash($couchdb_access);
 
-sub noEndSlash {
-    my ($url) = @_;
-
-    $url =~ s|/*$||;
-    return $url;
+my $accessdb = new restclient(
+    server      => $couchdb_access,
+    type        => 'application/json',
+    clientattrs => { timeout => 3600 },
+);
+$accessdb->set_persistent_header( 'Accept' => 'application/json' );
+$test = $accessdb->head("/");
+if ( !$test || $test->code != 200 ) {
+    die
+      "Problem connecting to `access` Couchdb database. Check configuration\n";
 }
 
 =pod
@@ -151,6 +167,8 @@ foreach my $ocrdir (@ocrdirs) {
 
     print "Processing: $ocrdir  (ID=$id)\n";
 
+    my @canvasnoids;
+
     opendir( my $dh, $ocrdir ) || die "Can't open directory $ocrdir: $!\n";
 
     while ( readdir $dh ) {
@@ -159,24 +177,26 @@ foreach my $ocrdir (@ocrdirs) {
 
         #print "$ocrdir/$_\n";
 
-        my $imagename = "$ocrdir/$_";
-        my $basename  = $imagename;
+        my $imagefilename = "$ocrdir/$_";
+        my $basename      = $imagefilename;
         $basename =~ s/\.(jpg|tif|jp2)$//;
+        my $xmlfilename = $basename . ".xml";
+        my $pdffilename = $basename . ".pdf";
 
         #print "Basename=$basename\n";
 
-        if ( !-f "$basename.pdf" ) {
-            warn "Missing PDF: $basename.pdf\n";
+        if ( !-f $pdffilename ) {
+            warn "Missing PDF: $pdffilename\n";
             next;
         }
-        if ( !-f "$basename.xml" ) {
-            warn "Missing PDF: $basename.xml\n";
+        if ( !-f $xmlfilename ) {
+            warn "Missing XML: $xmlfilename\n";
             next;
         }
 
         my $cihmsource = $id . "/data/sip/data/files/$_";
-        open( my $fh, '<:raw', $imagename )
-          or die "Can't open '$imagename': $!";
+        open( my $fh, '<:raw', $imagefilename )
+          or die "Can't open '$imagefilename': $!";
         binmode($fh);
         my $size = ( stat($fh) )[7];
 
@@ -203,11 +223,117 @@ foreach my $ocrdir (@ocrdirs) {
             next;
         }
 
+        if ( scalar( @{ $res->data->{rows} } ) > 1 ) {
+            warn
+"Multiple Noids match! cihmsource: $cihmsource  size:$size md5:$md5digest\n";
+        }
+
+        # We will want to force update of any slug that references this canvas.
+        push @canvasnoids, $canvas->{'_id'};
+
+        # Only do a few when debugging....
+        #if ( scalar(@canvasnoids) > 10 ) {
+        #    last;
+        #}
+
+        # Validate the PDF
+        my $pages = 0;
+        try {
+            my $pdf = Poppler::Document->new_from_file($pdffilename);
+            $pages = $pdf->get_n_pages;
+        };
+        if ( $pages == 1 ) {
+
+            # Will do the upload
+        }
+        else {
+            warn "$pdffilename is not a single page PDF\n";
+        }
+
+        # Validate the XML
+        my $valid = 1;
+        try {
+            my $xml = XML::LibXML->new->parse_file($xmlfilename);
+            my $xpc = XML::LibXML::XPathContext->new($xml);
+            $xpc->registerNs( 'alto',
+                'http://www.loc.gov/standards/alto/ns-v3' );
+            my $schema =
+              XML::LibXML::Schema->new(
+                location => "/opt/xml/current/unpublished/xsd/alto-3-1.xsd" );
+            $schema->validate($xml);
+        }
+        catch {
+            $valid = 0;
+            warn "$xmlfilename is not valid ALTO XML: $_\n";
+        };
+        if ($valid) {
+
+            # Will do the upload....
+        }
+
         #print "cihmsource: $cihmsource  size:$size md5:$md5digest\n"
         #  . Dumper($doc) . "\n";
 
     }
     closedir $dh;
 
+    if ( !@canvasnoids ) {
+        warn "No canvases found -- are the images in the directory?\n";
+        next;
+    }
+
+    # Look up what manifests these canvases are in
+    my $url = "/_design/noid/_view/canvasnoids?reduce=false";
+    my $res = $accessdb->post(
+        $url,
+        { keys         => \@canvasnoids },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 200 ) {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        die "lookup in canvasnoids return code: " . $res->code . "\n";
+    }
+
+    my %foundaccess;
+    foreach my $accessdoc ( @{ $res->data->{rows} } ) {
+        $foundaccess{ $accessdoc->{id} } = 1;
+    }
+
+    my @manifestnoids = keys %foundaccess;
+
+    if (@manifestnoids) {
+
+        # Look up what manifests these canvases are in
+        $url = "/_all_docs";
+        $res = $accessdb->post(
+            $url,
+            { keys         => \@manifestnoids, include_docs => JSON::true },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code != 200 ) {
+            if ( defined $res->response->content ) {
+                warn $res->response->content . "\n";
+            }
+            die "lookup in canvasnoids return code: " . $res->code . "\n";
+        }
+
+        my @slugs;
+        foreach my $accessdoc ( @{ $res->data->{rows} } ) {
+            push @slugs, $accessdoc->{doc}->{slug};
+        }
+
+        if (@slugs) {
+            print "Slugs of Manifests: " . join( ' , ', sort (@slugs) ) . "\n";
+        }
+        else {
+            print "Noids of Manifests: "
+              . join( ' , ', sort (@manifestnoids) ) . "\n";
+        }
+    }
+    else {
+        print "Canvases not found in any manifest!\n";
+    }
 }
 
