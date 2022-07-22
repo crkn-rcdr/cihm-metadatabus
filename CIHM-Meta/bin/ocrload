@@ -478,8 +478,7 @@ sub updateFile {
     close $fh;
 
     # Extra check that everything was OK.
-    warn
-"Etag mismatch during object_put of $object into $container: $md5digest != "
+    warn "MD5 mismatch object_put($container): $filename=$md5digest $object="
       . $putresp->etag
       . " during "
       . $putresp->transaction_id . "\n"
