@@ -14,6 +14,9 @@ use Digest::MD5;
 use JSON;
 use Poppler;
 use XML::LibXML;
+use CIHM::Swift::Client;
+use URI::Escape;
+use DateTime::Format::ISO8601;
 
 {
 
@@ -114,6 +117,22 @@ if ( !$test || $test->code != 200 ) {
       "Problem connecting to `access` Couchdb database. Check configuration\n";
 }
 
+my %swiftopt = (
+    furl_options => { timeout => 3600 },
+
+    server   => $swift_server,
+    user     => $swift_user,
+    password => $swift_password,
+    account  => $swift_account,
+
+);
+my $swift = CIHM::Swift::Client->new(%swiftopt);
+
+$test = $swift->container_head($swift_access_files);
+if ( !$test || $test->code != 204 ) {
+    die "Problem connecting to Swift container. Check configuration\n";
+}
+
 =pod
 # Used to scan directory -- takes time because there are many files
 
@@ -168,6 +187,7 @@ foreach my $ocrdir (@ocrdirs) {
     print "Processing: $ocrdir  (ID=$id)\n";
 
     my @canvasnoids;
+    my @updatedcanvases;
 
     opendir( my $dh, $ocrdir ) || die "Can't open directory $ocrdir: $!\n";
 
@@ -231,6 +251,9 @@ foreach my $ocrdir (@ocrdirs) {
         # We will want to force update of any slug that references this canvas.
         push @canvasnoids, $canvas->{'_id'};
 
+        # Indicator whether the $canvas changed.
+        my $changed;
+
         # Only do a few when debugging....
         #if ( scalar(@canvasnoids) > 10 ) {
         #    last;
@@ -244,7 +267,14 @@ foreach my $ocrdir (@ocrdirs) {
         };
         if ( $pages == 1 ) {
 
-            # Will do the upload
+            my $upload = updateFile( "pdf", $canvas->{'_id'}, $pdffilename );
+
+            $canvas->{'ocrPdf'} = {
+                size      => $upload->{size},
+                extension => 'pdf',
+                md5       => $upload->{md5digest}
+            };
+            $changed = 1;
         }
         else {
             warn "$pdffilename is not a single page PDF\n";
@@ -267,6 +297,14 @@ foreach my $ocrdir (@ocrdirs) {
             warn "$xmlfilename is not valid ALTO XML: $_\n";
         };
         if ($valid) {
+            updateFile( "ocrALTO.xml", $canvas->{'_id'}, $xmlfilename );
+
+            # Delete any redundant txtmap
+            $swift->object_delete( $swift_access_metadata,
+                $canvas->{'_id'} . "/ocrTXTMAP.xml" );
+
+            $canvas->{'ocrType'} = 'alto';
+            $changed = 1;
 
             # Will do the upload....
         }
@@ -274,8 +312,29 @@ foreach my $ocrdir (@ocrdirs) {
         #print "cihmsource: $cihmsource  size:$size md5:$md5digest\n"
         #  . Dumper($doc) . "\n";
 
+        if ($changed) {
+            push @updatedcanvases, $canvas;
+        }
     }
     closedir $dh;
+
+    print "Updating " . scalar(@updatedcanvases) . " canvases.\n";
+
+    # Update any potentially changed Canvases.
+    if (@updatedcanvases) {
+        my $res = $canvasdb->post(
+            "/_bulk_docs",
+            { docs         => \@updatedcanvases },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code != 201 ) {
+            if ( defined $res->response->content ) {
+                warn $res->response->content . "\n";
+            }
+            die "dbupdate of updated canvases return code: "
+              . $res->code . "\n";
+        }
+    }
 
     if ( !@canvasnoids ) {
         warn "No canvases found -- are the images in the directory?\n";
@@ -331,9 +390,100 @@ foreach my $ocrdir (@ocrdirs) {
             print "Noids of Manifests: "
               . join( ' , ', sort (@manifestnoids) ) . "\n";
         }
+
+        # And force those manifests to be processed
+        foreach my $accessid (@manifestnoids) {
+            my $url =
+              "/_design/access/_update/forceUpdate/" . uri_escape($accessid);
+            my $res = $accessdb->post( $url, {},
+                { deserializer => 'application/json' } );
+            if ( $res->code != 201 ) {
+                if ( defined $res->response->content ) {
+                    warn $res->response->content . "\n";
+                }
+                warn "Attempt to force update for $accessid : "
+                  . $res->code . "\n";
+            }
+            else {
+                $logger->info("Update forced for noid=$accessid");
+            }
+        }
+
     }
     else {
         print "Canvases not found in any manifest!\n";
     }
 }
 
+sub updateFile {
+    my ( $type, $id, $filename ) = @_;
+
+    open( my $fh, '<:raw', $filename )
+      or die "Can't open '$filename': $!";
+    binmode($fh);
+    my $filedate = "unknown";
+    my $mtime    = ( stat($fh) )[9];
+    if ($mtime) {
+        my $dt = DateTime->from_epoch( epoch => $mtime );
+        $filedate = $dt->datetime . "Z";
+    }
+    my $size = ( stat($fh) )[7];
+
+    my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
+    seek( $fh, 0, 0 );
+
+    # Currently only 'pdf' and 'ocrALTO.xml' exist.
+    my $container;
+    my $object;
+    if ( $type eq 'pdf' ) {
+        $container = $swift_access_files;
+        $object    = $id . ".pdf";
+    }
+    else {
+        $container = $swift_access_metadata;
+        $object    = $id . "/ocrALTO.xml";
+    }
+
+    my $res = $swift->object_head( $container, $object );
+
+    if ( $res->code == 200 ) {
+        if (   ( int( $res->header('Content-Length') ) == $size )
+            && ( $res->etag eq $md5digest ) )
+        {
+            # Don't send, as it is already there
+            return { size => $size, md5digest => $md5digest };
+        }
+    }
+    elsif ( $res->code == 404 ) {
+
+        # Not found means always send
+
+    }
+    else {
+        die "updateFile container: '$container' , object: '$object'  returned "
+          . $res->code . " - "
+          . $res->message . "\n";
+    }
+
+    # Send file.
+    my $putresp =
+      $swift->object_put( $container, $object, $fh,
+        { 'File-Modified' => $filedate } );
+    if ( $putresp->code != 201 ) {
+        die(    "object_put of $object into $container returned "
+              . $putresp->code . " - "
+              . $putresp->message
+              . "\n" );
+    }
+    close $fh;
+
+    # Extra check that everything was OK.
+    warn
+"Etag mismatch during object_put of $object into $container: $md5digest != "
+      . $putresp->etag
+      . " during "
+      . $putresp->transaction_id . "\n"
+      if $md5digest ne $putresp->etag;
+
+    return { size => $size, md5digest => $md5digest };
+}
