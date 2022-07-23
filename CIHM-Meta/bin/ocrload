@@ -29,6 +29,27 @@ use DateTime::Format::ISO8601;
 Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
 my $logger = Log::Log4perl::get_logger("CIHM::TDR");
 
+sub ocrload_warnings {
+    my $warning = shift;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    $logger->warn($stripped);
+    print STDERR "$warning\n";
+}
+local $SIG{__WARN__} = sub { &ocrload_warnings };
+
+sub ocrload_info {
+    my $info = shift;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $info ) =~ s/[^\x00-\x7f]//g;
+
+    $logger->info($stripped);
+    print "$info\n";
+}
+
 my $lockfile = '/var/lock/tdr/ocrload';
 $lockfile = $ENV{ocrload_lockfile} if ( exists $ENV{ocrload_lockfile} );
 
@@ -85,6 +106,7 @@ sub noEndSlash {
     return $url;
 }
 
+# Used to show a different processname during processing
 my $ocrloadprog = $0;
 
 die "couchdb_canvas is mandatory (environment or parameter)\n"
@@ -145,7 +167,7 @@ find(\&matching_aip_dir, $basepath);
 
 sub matching_aip_dir {
     if (-d $_) {
-        print $File::Find::name . "\n";
+        ocrload_info($File::Find::name);
     }
 }
 =cut
@@ -179,14 +201,16 @@ my $ocrdirs = <<OCRDIRS;
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15828
 OCRDIRS
 
-my @ocrdirs = split "\n", $ocrdirs;
+my @ocrdirs = reverse split "\n", $ocrdirs;
+
+
 
 my @idlookup;
 foreach my $ocrdir (@ocrdirs) {
     my @temp = split '/', $ocrdir;
     my $id = "oocihm." . pop @temp;
 
-    print "Processing: $ocrdir  (ID=$id)\n";
+    ocrload_info("Processing: $ocrdir  (ID=$id)");
 
     my @canvasnoids;
     my @updatedcanvases;
@@ -197,8 +221,6 @@ foreach my $ocrdir (@ocrdirs) {
         next if ( !-f "$ocrdir/$_" );
         next if /\.(xml|pdf|)$/;
 
-        #print "$ocrdir/$_\n";
-
         $0 = $ocrloadprog . " scanning $ocrdir";
 
         my $imagefilename = "$ocrdir/$_";
@@ -206,8 +228,6 @@ foreach my $ocrdir (@ocrdirs) {
         $basename =~ s/\.(jpg|tif|jp2)$//;
         my $xmlfilename = $basename . ".xml";
         my $pdffilename = $basename . ".pdf";
-
-        #print "Basename=$basename\n";
 
         if ( !-f $pdffilename ) {
             warn "Missing PDF: $pdffilename\n";
@@ -322,7 +342,7 @@ foreach my $ocrdir (@ocrdirs) {
     }
     closedir $dh;
 
-    print "Updating " . scalar(@updatedcanvases) . " canvases.\n";
+    ocrload_info( "Updating " . scalar(@updatedcanvases) . " canvases." );
 
     # Update any potentially changed Canvases.
     if (@updatedcanvases) {
@@ -388,11 +408,12 @@ foreach my $ocrdir (@ocrdirs) {
         }
 
         if (@slugs) {
-            print "Slugs of Manifests: " . join( ' , ', sort (@slugs) ) . "\n";
+            ocrload_info(
+                "Slugs of Manifests: " . join( ' , ', sort (@slugs) ) );
         }
         else {
-            print "Noids of Manifests: "
-              . join( ' , ', sort (@manifestnoids) ) . "\n";
+            ocrload_info(
+                "Noids of Manifests: " . join( ' , ', sort (@manifestnoids) ) );
         }
 
         # And force those manifests to be processed
@@ -415,7 +436,7 @@ foreach my $ocrdir (@ocrdirs) {
 
     }
     else {
-        print "Canvases not found in any manifest!\n";
+        ocrload_warn("Canvases not found in any manifest!");
     }
 }
 
