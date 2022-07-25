@@ -81,6 +81,9 @@ $couchdb_canvas = $ENV{COUCHDB_CANVAS} if ( exists $ENV{COUCHDB_CANVAS} );
 my $couchdb_access;
 $couchdb_access = $ENV{COUCHDB_ACCESS} if ( exists $ENV{COUCHDB_ACCESS} );
 
+#Change order.  For running a second instance.
+my $reverse;
+
 GetOptions(
     'couchdb_access:s'        => \$couchdb_access,
     'couchdb_canvas:s'        => \$couchdb_canvas,
@@ -91,6 +94,7 @@ GetOptions(
     'swift_account:s'         => \$swift_account,
     'swift_access_metadata:s' => \$swift_access_metadata,
     'swift_access_files:s'    => \$swift_access_files,
+    'reverse'                 => \$reverse
 );
 
 # Only allow one instance to run at a time..
@@ -176,17 +180,18 @@ my $donedirs = <<DONEDIRS;
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15869
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15870
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15867
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15868
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15796
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15797
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15795
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 477 - Heritage - completed - verified/lac_reel_t15596
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15825
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15829
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15830
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15828
 DONEDIRS
 
 my $ocrdirs = <<OCRDIRS;
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15868
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15796
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15797
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15795
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 477 - Heritage - completed/lac_reel_t15596
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 477 - Heritage - completed - verified/lac_reel_t15596
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15808
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15809
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15807
@@ -200,14 +205,14 @@ my $ocrdirs = <<OCRDIRS;
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15837
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15826
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15827
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15825
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15829
 OCRDIRS
 
-#my @ocrdirs = split "\n", $ocrdirs;
-my @ocrdirs = reverse split "\n", $ocrdirs;
+# Forward or reverse....
+my @ocrdirs = split "\n", $ocrdirs;
+if ($reverse) {
+    @ocrdirs = reverse @ocrdirs;
+}
 
-my @idlookup;
 foreach my $ocrdir (@ocrdirs) {
     my @temp = split '/', $ocrdir;
     my $id = "oocihm." . pop @temp;
