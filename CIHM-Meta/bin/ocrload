@@ -172,10 +172,15 @@ sub matching_aip_dir {
 }
 =cut
 
-my $ocrdirs = <<OCRDIRS;
+my $donedirs = <<DONEDIRS;
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15869
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15870
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15867
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15830
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15828
+DONEDIRS
+
+my $ocrdirs = <<OCRDIRS;
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15868
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15796
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15797
@@ -197,20 +202,17 @@ my $ocrdirs = <<OCRDIRS;
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15827
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15825
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15829
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15830
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15828
 OCRDIRS
 
+#my @ocrdirs = split "\n", $ocrdirs;
 my @ocrdirs = reverse split "\n", $ocrdirs;
-
-
 
 my @idlookup;
 foreach my $ocrdir (@ocrdirs) {
     my @temp = split '/', $ocrdir;
     my $id = "oocihm." . pop @temp;
 
-    ocrload_info("Processing: $ocrdir  (ID=$id)");
+    ocrload_info("$id: Processing: $ocrdir");
 
     my @canvasnoids;
     my @updatedcanvases;
@@ -342,7 +344,7 @@ foreach my $ocrdir (@ocrdirs) {
     }
     closedir $dh;
 
-    ocrload_info( "Updating " . scalar(@updatedcanvases) . " canvases." );
+    ocrload_info( "$id: Updating " . scalar(@updatedcanvases) . " canvases." );
 
     # Update any potentially changed Canvases.
     if (@updatedcanvases) {
@@ -409,11 +411,11 @@ foreach my $ocrdir (@ocrdirs) {
 
         if (@slugs) {
             ocrload_info(
-                "Slugs of Manifests: " . join( ' , ', sort (@slugs) ) );
+                "$id: Slugs of Manifests: " . join( ' , ', sort (@slugs) ) );
         }
         else {
-            ocrload_info(
-                "Noids of Manifests: " . join( ' , ', sort (@manifestnoids) ) );
+            ocrload_info( "$id: Noids of Manifests: "
+                  . join( ' , ', sort (@manifestnoids) ) );
         }
 
         # And force those manifests to be processed
@@ -457,7 +459,6 @@ sub updateFile {
     my $size = ( stat($fh) )[7];
 
     my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
-    seek( $fh, 0, 0 );
 
     # Currently only 'pdf' and 'ocrALTO.xml' exist.
     my $container;
@@ -471,47 +472,58 @@ sub updateFile {
         $object    = $id . "/ocrALTO.xml";
     }
 
-    my $res = $swift->object_head( $container, $object );
+    my $tries = 3;
+    do {
+        my $res = $swift->object_head( $container, $object );
 
-    if ( $res->code == 200 ) {
-        if (   ( int( $res->header('Content-Length') ) == $size )
-            && ( $res->etag eq $md5digest ) )
-        {
-            # Don't send, as it is already there
-            return { size => $size, md5digest => $md5digest };
+        if ( $res->code == 200 ) {
+            if (   ( int( $res->header('Content-Length') ) == $size )
+                && ( $res->etag eq $md5digest ) )
+            {
+                # Don't send, as it is already there
+                return { size => $size, md5digest => $md5digest };
+            }
         }
-    }
-    elsif ( $res->code == 404 ) {
+        elsif ( $res->code == 404 ) {
 
-        # Not found means always send
+            # Not found means always send
 
-    }
-    else {
-        die "updateFile container: '$container' , object: '$object'  returned "
-          . $res->code . " - "
-          . $res->message . "\n";
-    }
+        }
+        else {
+            die
+"updateFile container: '$container' , object: '$object'  returned "
+              . $res->code . " - "
+              . $res->message . "\n";
+        }
 
-    $0 = $ocrloadprog . " sending $filename->$object";
+        $0 = $ocrloadprog . " sending $filename->$object";
 
-    # Send file.
-    my $putresp =
-      $swift->object_put( $container, $object, $fh,
-        { 'File-Modified' => $filedate } );
-    if ( $putresp->code != 201 ) {
-        die(    "object_put of $object into $container returned "
-              . $putresp->code . " - "
-              . $putresp->message
-              . "\n" );
-    }
+        # Send file.
+        seek( $fh, 0, 0 );
+        my $putresp =
+          $swift->object_put( $container, $object, $fh,
+            { 'File-Modified' => $filedate } );
+        if ( $putresp->code != 201 ) {
+            die(    "object_put of $object into $container returned "
+                  . $putresp->code . " - "
+                  . $putresp->message
+                  . "\n" );
+        }
+
+        if ( $md5digest eq $putresp->etag ) {
+            $tries = 0;
+        }
+        else {
+            $tries--;
+            warn
+"MD5 mismatch object_put($container): $filename=$md5digest $object="
+              . $putresp->etag
+              . " during "
+              . $putresp->transaction_id
+              . "  retries=$tries\n";
+        }
+    } until ( !$tries );
     close $fh;
-
-    # Extra check that everything was OK.
-    warn "MD5 mismatch object_put($container): $filename=$md5digest $object="
-      . $putresp->etag
-      . " during "
-      . $putresp->transaction_id . "\n"
-      if $md5digest ne $putresp->etag;
 
     return { size => $size, md5digest => $md5digest };
 }
