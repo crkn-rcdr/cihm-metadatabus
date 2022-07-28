@@ -31,6 +31,7 @@ my $logger = Log::Log4perl::get_logger("CIHM::TDR");
 
 sub ocrload_warnings {
     my $warning = shift;
+    chomp $warning;
 
     # Strip wide characters before  trying to log
     ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
@@ -42,6 +43,7 @@ local $SIG{__WARN__} = sub { &ocrload_warnings };
 
 sub ocrload_info {
     my $info = shift;
+    chomp $info;
 
     # Strip wide characters before  trying to log
     ( my $stripped = $info ) =~ s/[^\x00-\x7f]//g;
@@ -189,6 +191,15 @@ my $donedirs = <<DONEDIRS;
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15795
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 477 - Heritage - completed - verified/lac_reel_t15596
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15808
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15809
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15807
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15663
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 482 - Heritage - completed/lac_reel_t15815
+
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15838
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15839
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15837
+/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15826
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15827
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15825
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15829
@@ -197,17 +208,9 @@ my $donedirs = <<DONEDIRS;
 DONEDIRS
 
 my $ocrdirs = <<OCRDIRS;
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15809
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15807
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15663
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 482 - Heritage - completed/lac_reel_t15815
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15832
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15833
 /home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15831
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15838
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15839
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15837
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15826
 OCRDIRS
 
 # Forward or reverse....
