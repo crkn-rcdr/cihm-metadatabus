@@ -39,6 +39,10 @@ my $swift_access_files;
 $swift_access_files = $ENV{SWIFT_access_files}
   if ( exists $ENV{SWIFT_access_files} );
 
+my $swift_retries = 5;
+$swift_retries = $ENV{SWIFT_retries}
+  if ( exists $ENV{SWIFT_retries} );
+
 my $couchdb_ocrtask;
 $couchdb_ocrtask = $ENV{COUCHDB_OCRTASK} if ( exists $ENV{COUCHDB_OCRTASK} );
 
@@ -60,6 +64,7 @@ GetOptions(
     'swift_account:s'         => \$swift_account,
     'swift_access_metadata:s' => \$swift_access_metadata,
     'swift_access_files:s'    => \$swift_access_files,
+    'swift_retries:i'         => \$swift_retries,
 );
 
 # Only allow one instance to run at a time..
@@ -67,6 +72,9 @@ sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
   or die "can't open lockfile=$lockfile: $!\n";
 flock( FH, LOCK_EX | LOCK_NB )
   or exit 0;
+
+$swift_retries = int($swift_retries);
+die "swift_retries must be a positive integer\n" if ( $swift_retries < 1 );
 
 die "couchdb_ocrtask is mandatory (environment or parameter)\n"
   if ( !$couchdb_ocrtask );
@@ -90,6 +98,7 @@ try {
             swift_account         => $swift_account,
             swift_access_metadata => $swift_access_metadata,
             swift_access_files    => $swift_access_files,
+            swift_retries         => $swift_retries,
             couchdb_access        => $couchdb_access,
             couchdb_canvas        => $couchdb_canvas,
             couchdb_ocrtask       => $couchdb_ocrtask,
