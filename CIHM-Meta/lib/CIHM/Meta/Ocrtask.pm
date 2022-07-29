@@ -193,7 +193,7 @@ sub ocrtask {
     # Capture warnings
     local $SIG{__WARN__} = sub { &collect_warnings };
 
-    $self->log->info( "Ocrtask maxprocs=" . $self->maxprocs );
+    $self->log->info( "Ocrtask: maxprocs=" . $self->maxprocs );
 
     $self->ocrtaskdb->type("application/json");
     my $url =
