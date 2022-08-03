@@ -654,8 +654,7 @@ sub ocrCanvases {
                     open( my $fh, '<:raw', $thispdf )
                       or die "Could not open file '$thispdf' $!\n";
 
-                    my $md5 = Digest::MD5->new;
-                    $md5->addfile($fh);
+                    my $md5 = Digest::MD5->new->addfile($fh)->hexdigest;
 
                     seek $fh, 0, SEEK_SET;
 
@@ -667,12 +666,15 @@ sub ocrCanvases {
                               . $putresp->message
                               . "\n" );
                     }
+                    elsif ( $putresp->etag ne $md5 ) {
+                        die "object_put $object didn't return matching etag\n";
+                    }
                     close $fh;
 
                     $canvas->{'ocrPdf'} = {
                         'extension' => 'pdf',
                         'size'      => $bytes,
-                        'md5'       => $md5->hexdigest
+                        'md5'       => $md5
                     };
                     $modified = JSON::true;
                 }

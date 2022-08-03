@@ -113,6 +113,11 @@ sub access_files {
     return $self->args->{swift_access_files};
 }
 
+sub swift_retries {
+    my $self = shift;
+    return $self->args->{swift_retries};
+}
+
 sub swift {
     my $self = shift;
     return $self->{swift};
@@ -188,7 +193,7 @@ sub ocrtask {
     # Capture warnings
     local $SIG{__WARN__} = sub { &collect_warnings };
 
-    $self->log->info( "Ocrtask maxprocs=" . $self->maxprocs );
+    $self->log->info( "Ocrtask: maxprocs=" . $self->maxprocs );
 
     $self->ocrtaskdb->type("application/json");
     my $url =
@@ -502,24 +507,41 @@ sub updateFile {
           . $res->message . "\n";
     }
 
-    # Send file.
-    my $putresp =
-      $self->swift->object_put( $container, $object, $fh,
-        { 'File-Modified' => $filedate } );
-    if ( $putresp->code != 201 ) {
-        die(    "object_put of $object into $container returned "
-              . $putresp->code . " - "
-              . $putresp->message
-              . "\n" );
-    }
-    close $fh;
+    my $tries = $self->swift_retries;
 
-    # Extra check that everything was OK.
-    warn "Etag mismatch during object_put of $object into $container: $md5digest != "
-      . $putresp->etag
-      . " during "
-      . $putresp->transaction_id . "\n"
-      if $md5digest ne $putresp->etag;
+    do {
+
+        # Send file.
+        seek( $fh, 0, 0 );
+        my $putresp =
+          $self->swift->object_put( $container, $object, $fh,
+            { 'File-Modified' => $filedate } );
+        if ( $putresp->code != 201 ) {
+            die(    "object_put of $object into $container returned "
+                  . $putresp->code . " - "
+                  . $putresp->message
+                  . "\n" );
+        }
+
+        if ( $md5digest eq $putresp->etag ) {
+            $tries = 0;
+        }
+        else {
+            # Extra check that everything was OK.
+            warn
+"Etag mismatch during object_put of $object into $container: $filename=$md5digest $object="
+              . $putresp->etag
+              . " during "
+              . $putresp->transaction_id
+              . " retries=$tries\n";
+
+            if ( !$tries ) {
+                die "No more retries\n";
+            }
+        }
+
+    } until ( !$tries );
+    close $fh;
 
     return { size => $size, md5digest => $md5digest };
 }

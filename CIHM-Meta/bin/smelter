@@ -29,7 +29,8 @@ my $swift_preservation_server;
 $swift_preservation_server = $ENV{SWIFT_preservation_server}
   if ( exists $ENV{SWIFT_preservation_server} );
 
-my $swift_preservation_server_options = '{ "furl_options": { "timeout": 3600 } }';
+my $swift_preservation_server_options =
+  '{ "furl_options": { "timeout": 3600 } }';
 $swift_preservation_server_options = $ENV{SWIFT_preservation_server_options}
   if ( exists $ENV{SWIFT_preservation_server_options} );
 
@@ -79,6 +80,10 @@ my $swift_access_files;
 $swift_access_files = $ENV{SWIFT_access_files}
   if ( exists $ENV{SWIFT_access_files} );
 
+my $swift_retries = 5;
+$swift_retries = $ENV{SWIFT_retries}
+  if ( exists $ENV{SWIFT_retries} );
+
 ########
 
 my $noid_server;
@@ -125,10 +130,14 @@ GetOptions(
     'swift_preservation_password:s' => \$swift_preservation_password,
     'swift_preservation_account:s'  => \$swift_preservation_account,
     'swift_preservation_files:s'    => \$swift_preservation_files,
+    'swift_retries:i'               => \$swift_retries,
     'noid_server:s'                 => \$noid_server,
     'iiif_image_server:s'           => \$iiif_image_server,
     'iiif_image_password:s'         => \$iiif_image_password,
 );
+
+$swift_retries = int($swift_retries);
+die "swift_retries must be a positive integer\n" if ( $swift_retries < 1 );
 
 # Only allow one instance to run at a time..
 sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
@@ -176,6 +185,7 @@ CIHM::Meta::Smelter->new(
         swift_preservation_password       => $swift_preservation_password,
         swift_preservation_account        => $swift_preservation_account,
         swift_preservation_files          => $swift_preservation_files,
+        swift_retries                     => $swift_retries,
         noid_server                       => $noid_server,
         iiif_image_server                 => $iiif_image_server,
         iiif_image_password               => $iiif_image_password,

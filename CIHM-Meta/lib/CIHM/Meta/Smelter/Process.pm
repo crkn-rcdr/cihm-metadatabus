@@ -134,6 +134,11 @@ sub swift_preservation_files {
     return $self->envargs->{swift_preservation_files};
 }
 
+sub swift_retries {
+    my $self = shift;
+    return $self->envargs->{swift_retries};
+}
+
 sub xml {
     my $self = shift;
     return $self->{xml};
@@ -749,17 +754,43 @@ sub enhanceCanvases {
             open( my $fh, '<:raw', $accessfilename )
               or die "Could not open file '$accessfilename' $!";
 
-            $response =
-              $self->swiftaccess->object_put( $self->swift_access_files,
-                $newpath, $fh, { 'File-Modified' => $filemodified } );
+            binmode($fh);
 
-            if ( $response->code != 201 ) {
-                die "PUT access file object=$newpath container="
-                  . $self->swift_access_files
-                  . " returned "
-                  . $response->code . " - "
-                  . $response->message . "\n";
-            }
+            my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
+
+            my $tries = $self->swift_retries;
+
+            do {
+                # Send file.
+                seek( $fh, 0, 0 );
+                $response =
+                  $self->swiftaccess->object_put( $self->swift_access_files,
+                    $newpath, $fh, { 'File-Modified' => $filemodified } );
+
+                if ( $response->code != 201 ) {
+                    die "PUT access file object=$newpath container="
+                      . $self->swift_access_files
+                      . " returned "
+                      . $response->code . " - "
+                      . $response->message . "\n";
+                }
+                if ( $md5digest eq $response->etag ) {
+                    $tries = 0;
+                }
+                else {
+                    $tries--;
+                    warn "MD5 mismatch object_put("
+                      . $self->swift_access_files
+                      . "): $accessfilename=$md5digest $newpath="
+                      . $response->etag
+                      . " during "
+                      . $response->transaction_id
+                      . "  retries=$tries\n";
+                    if ( !$tries ) {
+                        die "No more retries\n";
+                    }
+                }
+            } until ( !$tries );
 
             # Get full replacement document
             my $newdoc = $self->canvasGetDocument( $doc->{'_id'} );
@@ -783,7 +814,7 @@ sub enhanceCanvases {
 
     if ($copiedcanvases) {
         $self->log->info(
-            $self->aip . " Copied $copiedcanvases canvas images" );
+            $self->aip . " Normalized $copiedcanvases canvas images" );
     }
 
     # In theory everything is copied to Swift access storage,
