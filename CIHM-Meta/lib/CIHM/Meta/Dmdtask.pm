@@ -563,7 +563,7 @@ sub storeAccess {
         }
     }
 
-    my $dmdRecord = encode( "utf8",$xml);
+    my $dmdRecord = encode( "utf8", $xml );
     my $dmdDigest = md5_hex($dmdRecord);
 
     my $object = "$id/dmd" . uc( $item->{item}->{output} ) . '.xml';
@@ -626,7 +626,7 @@ sub storePreservation {
     my $id  = $doc->{'_id'};
     my $rev = $doc->{'_rev'};
 
-    my $dmdRecord = encode( "utf8",$xml);
+    my $dmdRecord = encode( "utf8", $xml );
 
     # Attach XML
     $self->wipmetadb->clear_headers;
@@ -828,6 +828,18 @@ sub collect_warnings {
     our $self;
 
     $self->{warnings} .= $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    if ($self) {
+        $taskid = $self->taskid;
+        $self->log->warn( $taskid . " (Item): $stripped" );
+    }
+    else {
+        say STDERR "(Item) $warning\n";
+    }
+
 }
 
 sub extractissueinfo_csv {
