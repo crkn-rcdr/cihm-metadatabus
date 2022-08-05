@@ -833,8 +833,7 @@ sub collect_warnings {
     ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
 
     if ($self) {
-        $taskid = $self->taskid;
-        $self->log->warn( $taskid . " (Item): $stripped" );
+        $self->log->warn( $self->taskid . " (Item): $stripped" );
     }
     else {
         say STDERR "(Item) $warning\n";
@@ -1050,8 +1049,9 @@ sub extractdc_csv {
         die "No column starts with 'dc:'. Is this a Dublin Core file?\n";
     }
 
-    my $label_col = first { $headerline[$_] eq 'dc:title' } 0 .. @headerline;
-    if ( !defined $label_col ) {
+    my $label_col = first { $headerline[$_] eq 'label' } 0 .. @headerline;
+    my $title_col = first { $headerline[$_] eq 'dc:title' } 0 .. @headerline;
+    if ( !defined $title_col ) {
         warn "Column 'dc:title' not found.\n";
     }
 
@@ -1096,11 +1096,17 @@ sub extractdc_csv {
         push @{ $self->xml }, decode( "utf8", $doc->toString(0) );
 
         $item{'label'} = '[unknown]';
-        if ($label_col) {
-            my $label_value = $row->[$label_col];
+
+        # First look in a 'label' column
+        # If that doesn't exist use the first title.
+        if ( defined $label_col ) {
+            $item{'label'} = $row->[$label_col];
+        }
+        elsif ( defined $title_col ) {
+            my $title_value = $row->[$title_col];
 
             #split on delimiters
-            my @titles = split( /\s*\|\|\s*/, $label_value );
+            my @titles = split( /\s*\|\|\s*/, $title_value );
             $item{'label'} = $titles[0];
         }
 
