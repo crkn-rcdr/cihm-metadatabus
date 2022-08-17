@@ -497,7 +497,9 @@ sub pagedStore {
                 }
 
                 foreach my $i ( $index .. $last ) {
-                    my $id = $workItems->[$i]->{item}->{id};
+                    my $id        = $workItems->[$i]->{item}->{id};
+                    my $itemindex = $workItems->[$i]->{index};
+
                     if ( !exists $docs{$id} ) {
                         $self->addStorageResult( $workItems->[$i]->{index},
                             JSON::false );
@@ -510,16 +512,16 @@ sub pagedStore {
                           ? (
                             $self->storeAccess(
                                 $docs{$id}, $workItems->[$i],
-                                $self->xml->[$i]
+                                $self->xml->[$itemindex]
                             )
                           )
                           : (
                             $self->storePreservation(
                                 $docs{$id}, $workItems->[$i],
-                                $self->xml->[$i]
+                                $self->xml->[$itemindex]
                             )
                           );
-                        $self->addStorageResult( $workItems->[$i]->{index},
+                        $self->addStorageResult( $itemindex,
                             $response ? JSON::true : JSON::false );
                     }
 
