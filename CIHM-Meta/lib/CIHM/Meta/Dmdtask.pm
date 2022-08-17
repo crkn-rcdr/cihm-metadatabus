@@ -501,7 +501,7 @@ sub pagedStore {
                     my $itemindex = $workItems->[$i]->{index};
 
                     if ( !exists $docs{$id} ) {
-                        $self->addStorageResult( $workItems->[$i]->{index},
+                        $self->addStorageResult( $itemindex,
                             JSON::false );
                         warn "CouchDB document for id=$id wasn't found.\n";
                     }
