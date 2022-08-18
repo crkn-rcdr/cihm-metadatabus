@@ -497,9 +497,11 @@ sub pagedStore {
                 }
 
                 foreach my $i ( $index .. $last ) {
-                    my $id = $workItems->[$i]->{item}->{id};
+                    my $id        = $workItems->[$i]->{item}->{id};
+                    my $itemindex = $workItems->[$i]->{index};
+
                     if ( !exists $docs{$id} ) {
-                        $self->addStorageResult( $workItems->[$i]->{index},
+                        $self->addStorageResult( $itemindex,
                             JSON::false );
                         warn "CouchDB document for id=$id wasn't found.\n";
                     }
@@ -510,16 +512,16 @@ sub pagedStore {
                           ? (
                             $self->storeAccess(
                                 $docs{$id}, $workItems->[$i],
-                                $self->xml->[$i]
+                                $self->xml->[$itemindex]
                             )
                           )
                           : (
                             $self->storePreservation(
                                 $docs{$id}, $workItems->[$i],
-                                $self->xml->[$i]
+                                $self->xml->[$itemindex]
                             )
                           );
-                        $self->addStorageResult( $workItems->[$i]->{index},
+                        $self->addStorageResult( $itemindex,
                             $response ? JSON::true : JSON::false );
                     }
 
@@ -563,7 +565,7 @@ sub storeAccess {
         }
     }
 
-    my $dmdRecord = encode( "utf8",$xml);
+    my $dmdRecord = encode( "utf8", $xml );
     my $dmdDigest = md5_hex($dmdRecord);
 
     my $object = "$id/dmd" . uc( $item->{item}->{output} ) . '.xml';
@@ -626,7 +628,7 @@ sub storePreservation {
     my $id  = $doc->{'_id'};
     my $rev = $doc->{'_rev'};
 
-    my $dmdRecord = encode( "utf8",$xml);
+    my $dmdRecord = encode( "utf8", $xml );
 
     # Attach XML
     $self->wipmetadb->clear_headers;
@@ -828,6 +830,17 @@ sub collect_warnings {
     our $self;
 
     $self->{warnings} .= $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    if ($self) {
+        $self->log->warn( $self->taskid . " (Item): $stripped" );
+    }
+    else {
+        say STDERR "(Item) $warning\n";
+    }
+
 }
 
 sub extractissueinfo_csv {
@@ -1038,8 +1051,9 @@ sub extractdc_csv {
         die "No column starts with 'dc:'. Is this a Dublin Core file?\n";
     }
 
-    my $label_col = first { $headerline[$_] eq 'dc:title' } 0 .. @headerline;
-    if ( !defined $label_col ) {
+    my $label_col = first { $headerline[$_] eq 'label' } 0 .. @headerline;
+    my $title_col = first { $headerline[$_] eq 'dc:title' } 0 .. @headerline;
+    if ( !defined $title_col ) {
         warn "Column 'dc:title' not found.\n";
     }
 
@@ -1084,11 +1098,17 @@ sub extractdc_csv {
         push @{ $self->xml }, decode( "utf8", $doc->toString(0) );
 
         $item{'label'} = '[unknown]';
-        if ($label_col) {
-            my $label_value = $row->[$label_col];
+
+        # First look in a 'label' column
+        # If that doesn't exist use the first title.
+        if ( defined $label_col ) {
+            $item{'label'} = $row->[$label_col];
+        }
+        elsif ( defined $title_col ) {
+            my $title_value = $row->[$title_col];
 
             #split on delimiters
-            my @titles = split( /\s*\|\|\s*/, $label_value );
+            my @titles = split( /\s*\|\|\s*/, $title_value );
             $item{'label'} = $titles[0];
         }
 
