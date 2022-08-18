@@ -194,7 +194,7 @@ sub marc {
     #We’re going to look for 264 if nothing there then look in 260 field. 264 preferred source
     if ( defined $record->field('264') ) {
         addArray( \%flat, 'pu', $record->field('264')->as_string() );
-        $self->setPubMinMax($record->subfield( '260', 'c' ));
+        $self->setPubMinMax($record->subfield( '264', 'c' ));
     } elsif ( defined $record->field('260') ) {
         addArray( \%flat, 'pu', $record->field('260')->as_string() );
         $self->setPubMinMax($record->subfield( '260', 'c' ));
