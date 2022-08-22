@@ -486,28 +486,37 @@ sub updateFile {
         $object    = $id . "/ocrALTO.xml";
     }
 
-    my $res = $self->swift->object_head( $container, $object );
-
-    if ( $res->code == 200 ) {
-        if (   ( int( $res->header('Content-Length') ) == $size )
-            && ( $res->etag eq $md5digest ) )
-        {
-            # Don't send, as it is already there
-            return { size => $size, md5digest => $md5digest };
-        }
-    }
-    elsif ( $res->code == 404 ) {
-
-        # Not found means always send
-
-    }
-    else {
-        die "updateFile container: '$container' , object: '$object'  returned "
-          . $res->code . " - "
-          . $res->message . "\n";
-    }
-
     my $tries = $self->swift_retries;
+
+    # This is a short circuit to redundantly sending, so don't fail on it.
+    do {
+
+        my $res = $self->swift->object_head( $container, $object );
+
+        if ( $res->code == 200 ) {
+            if (   ( int( $res->header('Content-Length') ) == $size )
+                && ( $res->etag eq $md5digest ) )
+            {
+                # Don't send, as it is already there
+                return { size => $size, md5digest => $md5digest };
+            }
+            last;
+        }
+        elsif ( $res->code == 404 ) {
+
+            # Not found means always send
+            last;
+        }
+        else {
+            warn "updateFile HEAD of '$object' into '$container' returned "
+              . $res->code . " - "
+              . $res->message
+              . " retries=$tries\n";
+            $tries--;
+        }
+    } until ( !$tries );
+
+    $tries = $self->swift_retries;
 
     do {
 
@@ -517,14 +526,14 @@ sub updateFile {
           $self->swift->object_put( $container, $object, $fh,
             { 'File-Modified' => $filedate } );
         if ( $putresp->code != 201 ) {
-            die(    "object_put of $object into $container returned "
+            warn(
+                "updateFile object_put of '$object' into '$container' returned "
                   . $putresp->code . " - "
                   . $putresp->message
-                  . "\n" );
+                  . " retries=$tries\n" );
         }
-
-        if ( $md5digest eq $putresp->etag ) {
-            $tries = 0;
+        elsif ( $md5digest eq $putresp->etag ) {
+            last;
         }
         else {
             # Extra check that everything was OK.
@@ -534,14 +543,14 @@ sub updateFile {
               . " during "
               . $putresp->transaction_id
               . " retries=$tries\n";
-
-            if ( !$tries ) {
-                die "No more retries\n";
-            }
         }
-
+        $tries--;
     } until ( !$tries );
     close $fh;
+
+    if ( !$tries ) {
+        die "No more retries\n";
+    }
 
     return { size => $size, md5digest => $md5digest };
 }
