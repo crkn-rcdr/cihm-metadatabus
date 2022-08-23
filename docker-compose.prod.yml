@@ -1,0 +1,15 @@
+version: "3.4"
+
+services:
+  cihm-metadatabus:
+    build:
+      context: .
+    image: cihm-metadatabus:prod
+    networks:
+      access-platform:
+        ipv4_address: 172.30.0.9
+    env_file:
+      - .env
+networks:
+  access-platform:
+    external: true

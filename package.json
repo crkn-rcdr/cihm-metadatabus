@@ -1,0 +1,21 @@
+{
+  "name": "metadatabus",
+  "description": "Metadata Bus",
+  "private": true,
+  "version": "0.0.0",
+  "license": "Unlicense",
+  "contributors": [
+    {
+      "name": "Brittny Lapierre",
+      "email": "blapierre@crkn.ca"
+    },
+    {
+      "name": "Russell McOrmond",
+      "email": "rmcormond@crkn.ca"
+    }
+  ],
+  "scripts": {
+    "docker:dev": "docker-compose -f docker-compose.dev.yml build && docker-compose -f docker-compose.dev.yml run cihm-metadatabus /bin/bash",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml build && docker-compose -f docker-compose.prod.yml run cihm-metadatabus /bin/bash"
+  }
+}
