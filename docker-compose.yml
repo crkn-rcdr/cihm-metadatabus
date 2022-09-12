@@ -1,7 +1,12 @@
 version: "2"
 services:
   cihm-metadatabus:
-    image: cihm-metadatabus
+    build:
+        context: .
+        dockerfile: Dockerfile
+    volumes:
+      - ./CIHM-Meta:/home/tdr/CIHM-Meta
+      - ./CIHM-Swift:/home/tdr/CIHM-Swift
     networks:
       - access-platform
     command: ["echo", "'unsure'"]
