@@ -9,7 +9,7 @@ services:
       - ./CIHM-Swift:/home/tdr/CIHM-Swift
     networks:
       - access-platform
-    command: ["echo", "'unsure'"]
+    command: [ "perl", "./CIHM-Meta/bin/dmdtask" ]
 networks:
   access-platform:
     external:

@@ -176,13 +176,6 @@ sub addArray {
     push @{ $flat->{$field} }, normaliseSpace($data);
 }
 
-sub setPubMinMax {
-    my ( $self, $xmlData ) = @_;
-    if( defined $xmlData ) {
-        $flat{'pubmin'} = iso8601( $xmlData, 0 );
-        $flat{'pubmax'} = iso8601( $xmlData, 1 );
-    }
-}
 
 sub marc {
     my ( $self, $xmlin ) = @_;
@@ -194,10 +187,17 @@ sub marc {
     #We’re going to look for 264 if nothing there then look in 260 field. 264 preferred source
     if ( defined $record->field('264') ) {
         addArray( \%flat, 'pu', $record->field('264')->as_string() );
-        $self->setPubMinMax($record->subfield( '264', 'c' ));
+        if( defined $record->subfield( '264', 'c' ) ) {
+          $flat{'pubmin'} = iso8601( $record->subfield( '264', 'c' ), 0 );
+          $flat{'pubmax'} = iso8601( $record->subfield( '264', 'c' ), 1 );
+        }
     } elsif ( defined $record->field('260') ) {
         addArray( \%flat, 'pu', $record->field('260')->as_string() );
-        $self->setPubMinMax($record->subfield( '260', 'c' ));
+
+        if( defined $record->subfield( '260', 'c' ) ) {
+          $flat{'pubmin'} = iso8601( $record->subfield( '260', 'c' ), 0 );
+          $flat{'pubmax'} = iso8601( $record->subfield( '260', 'c' ), 1 );
+        }
     }
 
     foreach my $field ( $record->field('008') ) {

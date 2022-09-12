@@ -2,7 +2,6 @@ bin/dmdtask
 bin/hammer2
 bin/importocr
 bin/ocrtask
-bin/presentation-diff
 bin/press2
 bin/smelter
 bin/solrstream
