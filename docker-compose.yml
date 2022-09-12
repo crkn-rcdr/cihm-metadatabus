@@ -2,7 +2,7 @@ version: "2"
 services:
   cihm-metadatabus:
     env_file:
-      - .env
+      - env-dist
       - .env.secret
     build:
         context: .
@@ -10,6 +10,7 @@ services:
     volumes:
       - ./CIHM-Meta:/home/tdr/CIHM-Meta
       - ./CIHM-Swift:/home/tdr/CIHM-Swift
+      - ./log:/var/log/tdr
     networks:
       - access-platform
     command: [ "perl", "./CIHM-Meta/bin/dmdtask" ]
