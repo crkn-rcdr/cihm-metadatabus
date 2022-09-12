@@ -8,12 +8,10 @@ use Data::Dumper;
 use MARC::File::XML ( BinaryEncoding => 'utf8', RecordFormat => 'USMARC' );
 use List::MoreUtils qw(uniq);
 
-
 use Exporter qw(import);
 our @EXPORT = qw(
   normaliseSpace
 );
-
 
 sub new {
     my ( $class, $args ) = @_;
@@ -96,10 +94,12 @@ sub issueinfo {
                     }
                 }
                 case "series" {
-                    $flat{'pkey'} = $content;
+
+                    # No longer used by Metadatabus
                 }
                 case "sequence" {
-                    $flat{'seq'} = $content
+
+                    # No longer used by Metadatabus
                 }
                 case "title" {
                     $content =~ s/-+$//g;     # Trim dashes
@@ -194,7 +194,7 @@ sub marc {
     #We’re going to look for 264 if nothing there then look in 260 field. 264 preferred source
     if ( defined $record->field('264') ) {
         addArray( \%flat, 'pu', $record->field('264')->as_string() );
-        $self->setPubMinMax($record->subfield( '260', 'c' ));
+        $self->setPubMinMax($record->subfield( '264', 'c' ));
     } elsif ( defined $record->field('260') ) {
         addArray( \%flat, 'pu', $record->field('260')->as_string() );
         $self->setPubMinMax($record->subfield( '260', 'c' ));
@@ -390,7 +390,7 @@ sub dc {
                     }
                     push @{ $flat{'pu'} }, $content;
                 }
-                case ["relation","coverage","rights"] {
+                case [ "relation", "coverage", "rights" ] {
                     if ( !exists $flat{'no'} ) {
                         $flat{'no'} = [];
                     }
