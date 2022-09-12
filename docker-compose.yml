@@ -4,6 +4,7 @@ services:
     image: cihm-metadatabus
     networks:
       - access-platform
+    command: ["echo", "'unsure'"]
 networks:
   access-platform:
     external:
