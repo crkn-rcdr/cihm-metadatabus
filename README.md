@@ -2,10 +2,20 @@
 
 Docker build environment and libraries for key portions of the metadata bus.
 
-The file `env-dist` has the environment variables that must be put into a `.env` file, adding in passwords as required.
+The file `env-dist` has the environment variables that you would change by adding to `.env.secret` file, adding in passwords as required.
 
-The `./run` is used to run on a local machine for development/testing, before pushing to the Docker registry.
 
+To create a local 'log' directory for testing:
+
+```
+$ mkdir log ; sudo chown 1117.1117 log
+```
+
+To run a shell inside the container, to test any command (the Dockerfile sets the correct path for the shell):
+
+```
+$ docker-compose run cihm-metadatabus bash
+```
 
 A script exists for building and pushing images which should be used:
 
