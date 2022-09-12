@@ -1,6 +1,8 @@
 version: "2"
 services:
   cihm-metadatabus:
+    env_file:
+      - .env.secret
     build:
         context: .
         dockerfile: Dockerfile

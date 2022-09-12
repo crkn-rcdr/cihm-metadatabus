@@ -35,3 +35,4 @@ inc/
 /*.zip
 
 .env
+.env.secret
