@@ -2,6 +2,7 @@ version: "2"
 services:
   cihm-metadatabus:
     env_file:
+      - .env
       - .env.secret
     build:
         context: .
