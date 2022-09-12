@@ -1,0 +1,10 @@
+version: "2"
+services:
+  cihm-metadatabus:
+    image: cihm-metadatabus
+    networks:
+      - access-platform
+networks:
+  access-platform:
+    external:
+      name: access-platform
