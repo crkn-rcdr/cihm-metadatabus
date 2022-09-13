@@ -51,10 +51,12 @@ sub new {
     my %swiftopt = ( furl_options => { timeout => 3600 } );
     foreach ( "server", "user", "password", "account" ) {
         if ( exists $args->{ "swift_" . $_ } ) {
+            $self->log->info($args->{ "swift_" . $_ });
             $swiftopt{$_} = $args->{ "swift_" . $_ };
         }
     }
     $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
+
 
     my $test = $self->swift->container_head( $self->access_metadata );
     if ( !$test || $test->code != 204 ) {

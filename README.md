@@ -16,6 +16,8 @@ To run a shell inside the container, to test any command (the Dockerfile sets th
 ```
 $ docker-compose run cihm-metadatabus bash
 ```
+ex:
+perl CIHM-Meta/bin/dmdtask && cat /var/log/tdr/root.log
 
 A script exists for building and pushing images which should be used:
 
@@ -29,7 +31,7 @@ russell@russell-XPS-13-7390:~/git/cihm-metadatabus$ ./deployimage.sh
 
 Core of Metadtabus. See [HISTORY.md](CIHM-Meta/HISTORY.md) for some of the history of the code.
 
-Tooks:
+Tools:
 
 * dmdtask - handles Descriptive MetaData tasks, which process and update databases with metadata
 * hammer2 - Sources data from the `access` and other databases to create the cache files that will be used by Solr search and presentation (Currently CAP).

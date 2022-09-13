@@ -13,7 +13,7 @@ services:
       - ./log:/var/log/tdr
     networks:
       - access-platform
-    command: [ "perl", "./CIHM-Meta/bin/dmdtask" ]
+    command: [ "echo", "done" ]
 networks:
   access-platform:
     external:
