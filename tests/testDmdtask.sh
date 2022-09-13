@@ -1,3 +1,3 @@
 #!/bin/sh
 
-perl CIHM-Meta/bin/dmdtask && cat /var/log/tdr/root.log
+dmdtask && cat /var/log/tdr/root.log

@@ -4,7 +4,6 @@ cd CIHM-Meta/
 perl Makefile.PL
 make 
 make test 
-make install
 
 cd ..
 docker-compose build
