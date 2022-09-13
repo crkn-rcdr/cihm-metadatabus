@@ -16,8 +16,12 @@ To run a shell inside the container, to test any command (the Dockerfile sets th
 ```
 $ docker-compose run cihm-metadatabus bash
 ```
-ex:
-perl CIHM-Meta/bin/dmdtask && cat /var/log/tdr/root.log
+
+To test a specific script, for example, dmdtask, run:
+
+```
+$ ./test.sh "./tests/testDmdtask.sh"
+```
 
 A script exists for building and pushing images which should be used:
 
