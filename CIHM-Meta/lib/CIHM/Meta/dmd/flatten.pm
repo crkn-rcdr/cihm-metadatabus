@@ -184,7 +184,7 @@ sub marc {
 
     my $record = MARC::Record->new_from_xml($xmlin);
 
-    #We’re going to look for 264 if nothing there then look in 260 field. 264 preferred source
+    # We are going to look for 264 if nothing there then look in 260 field. 264 preferred source
     if ( defined $record->field('264') ) {
         addArray( \%flat, 'pu', $record->field('264')->as_string() );
         if( defined $record->subfield( '264', 'c' ) ) {

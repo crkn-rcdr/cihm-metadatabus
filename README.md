@@ -20,7 +20,7 @@ $ docker-compose run cihm-metadatabus bash
 To test a specific script, for example, dmdtask, run:
 
 ```
-$ ./test.sh "./tests/testDmdtask.sh"
+$ docker-compose run cihm-metadatabus "./tests/testDmdtask.sh"
 ```
 
 A script exists for building and pushing images which should be used:
