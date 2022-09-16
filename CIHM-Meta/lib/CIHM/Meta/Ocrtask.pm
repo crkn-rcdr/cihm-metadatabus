@@ -188,6 +188,9 @@ sub collect_warnings {
 sub ocrtask {
     my ($self) = @_;
 
+    # Used to show a different processname during processing
+    my $ocrloadprog = $0;
+
     $self->clear_warnings();
 
     # Capture warnings
@@ -228,6 +231,7 @@ sub ocrtask {
                     $self->log->error( $self->taskid . ": $_" );
                     $self->{warnings} .= "Caught: " . $_;
                 };
+                $0 = $ocrloadprog;
                 $self->postResults( $status, $self->warnings );
             }
         }
@@ -240,6 +244,9 @@ sub ocrtask {
 
 sub ocrExport {
     my ($self) = @_;
+
+    # Used to show a different processname during processing
+    my $ocrloadprog = $0;
 
     my $workdir = "/home/tdr/ocr/" . $self->task->{name};
     mkdir $workdir or die "Can't create task work directory $workdir : $!\n";
@@ -270,6 +277,10 @@ sub ocrExport {
 
             open( my $fh, '>:raw', $destfilename )
               or die "Could not open file '$destfilename' $!";
+            $0 =
+                $ocrloadprog . " get "
+              . $self->access_files
+              . " $objectname --> $destfilename";
             my $object =
               $self->swift->object_get( $self->access_files, $objectname,
                 { write_file => $fh } );
@@ -298,6 +309,9 @@ sub ocrExport {
 
 sub ocrImport {
     my ($self) = @_;
+
+    # Used to show a different processname during processing
+    my $ocrloadprog = $0;
 
     my $workdir = "/home/tdr/ocr/" . $self->task->{name};
     if ( !-d $workdir ) {
@@ -336,12 +350,14 @@ sub ocrImport {
             my $pdfobjectname = $canvas->{'_id'} . '.pdf';
             my $pdffilename = $workdir . '/' . uri_escape_utf8($pdfobjectname);
             if ( -f $pdffilename ) {
+                $0 = $ocrloadprog . " check $pdffilename";
                 my $pages = 0;
                 try {
                     my $pdf = Poppler::Document->new_from_file($pdffilename);
                     $pages = $pdf->get_n_pages;
                 };
                 if ( $pages == 1 ) {
+                    $0 = $ocrloadprog . " updateFile $pdffilename";
                     my $upload =
                       $self->updateFile( "pdf", $canvas->{'_id'},
                         $pdffilename );
@@ -364,6 +380,7 @@ sub ocrImport {
             my $xmlobjectname = $canvas->{'_id'} . '.xml';
             my $xmlfilename = $workdir . '/' . uri_escape_utf8($xmlobjectname);
             if ( -f $xmlfilename ) {
+                $0 = $ocrloadprog . " check $xmlfilename";
                 my $valid = 1;
                 try {
                     my $xml = XML::LibXML->new->parse_file($xmlfilename);
@@ -380,6 +397,7 @@ sub ocrImport {
                     warn "$xmlfilename is not valid ALTO XML: $_\n";
                 };
                 if ($valid) {
+                    $0 = $ocrloadprog . " updateFile $xmlfilename";
                     $self->updateFile( "ocrALTO.xml", $canvas->{'_id'},
                         $xmlfilename );
 
