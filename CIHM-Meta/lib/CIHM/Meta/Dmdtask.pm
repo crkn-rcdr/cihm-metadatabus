@@ -56,7 +56,6 @@ sub new {
     }
     $self->{swift} = CIHM::Swift::Client->new(%swiftopt);
 
-
     my $test = $self->swift->container_head( $self->access_metadata );
     if ( !$test || $test->code != 204 ) {
         die "Problem connecting to Swift container. Check configuration\n";
