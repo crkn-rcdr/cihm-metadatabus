@@ -182,31 +182,8 @@ sub matching_aip_dir {
 =cut
 
 my $ocrdirs = <<OCRDIRS;
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15795
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15796
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 475 - heritage - done - verified/lac_reel_t15797
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 477 - Heritage - completed - verified/lac_reel_t15596
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15663
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15807
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15808
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 480 - Heritage - completed/lac_reel_t15809
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 482 - Heritage - completed/lac_reel_t15815
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15825
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15826
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 486 - Heritage/lac_reel_t15827
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15828
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15829
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 487 - Heritage/lac_reel_t15830
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15831
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15832
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 488 - Heritage - completed - verified/lac_reel_t15833
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15837
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15838
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 490 - Heritage - completed - verified/lac_reel_t15839
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15867
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15868
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15869
-/home/tdr/ocr-todo/_Russell_Ingest/Batch 500 - Heritage - completed/lac_reel_t15870
+/home/tdr/ocrload/DFAIT/ooe.b441990x_002
+/home/tdr/ocrload/DFAIT/ooe.b4419893_002
 OCRDIRS
 
 # Forward or reverse....
@@ -217,7 +194,7 @@ if ($reverse) {
 
 foreach my $ocrdir (@ocrdirs) {
     my @temp = split '/', $ocrdir;
-    my $id = "oocihm." . pop @temp;
+    my $id = pop @temp;
 
     ocrload_info("$id: Processing: $ocrdir");
 
