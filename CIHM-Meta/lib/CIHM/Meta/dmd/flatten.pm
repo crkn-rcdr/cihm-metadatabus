@@ -185,27 +185,24 @@ sub marc {
     my $record = MARC::Record->new_from_xml($xmlin);
 
     # We are going to look for 264 if nothing there then look in 260 field. 264 preferred source
-    if ( defined $record->field('264') ) {
-        if( defined $record->subfield( '264', 'c' ) ) {
-          $flat{'pubmin'} = iso8601( $record->subfield( '264', 'c' ), 0 );
-          $flat{'pubmax'} = iso8601( $record->subfield( '264', 'c' ), 1 );
-        }
-    } elsif ( defined $record->field('260') ) {
-        if( defined $record->subfield( '260', 'c' ) ) {
-          $flat{'pubmin'} = iso8601( $record->subfield( '260', 'c' ), 0 );
-          $flat{'pubmax'} = iso8601( $record->subfield( '260', 'c' ), 1 );
-        }
-    }
-    
     my @publisharray;
-    push @publisharray, $record->field('264');
-    push @publisharray, $record->field('260');
-
-    foreach my $publishfield ( @publisharray ) {
-      addArray( \%flat, 'pu', $publishfield->as_string() );
-      if (defined $publishfield->subfield("c") && ! defined $flat{'pubmin'}) {
-        $flat{'pubmin'} = iso8601( $publishfield->subfield("c"), 0 );
-        $flat{'pubmax'} = iso8601( $publishfield->subfield("c")  , 1 );
+    if ( defined $record->field('264') ) {
+      push @publisharray, $record->field('264');
+      foreach my $publishfield ( @publisharray ) {
+        addArray( \%flat, 'pu', $publishfield->as_string() );
+        if (defined $publishfield->subfield("c") && ! defined $flat{'pubmin'}) {
+          $flat{'pubmin'} = iso8601( $publishfield->subfield("c"), 0 );
+          $flat{'pubmax'} = iso8601( $publishfield->subfield("c")  , 1 );
+        }
+      }
+    } elsif ( defined $record->field('260') ) {
+      push @publisharray, $record->field('260');
+      foreach my $publishfield ( @publisharray ) {
+        addArray( \%flat, 'pu', $publishfield->as_string() );
+        if (defined $publishfield->subfield("c") && ! defined $flat{'pubmin'}) {
+          $flat{'pubmin'} = iso8601( $publishfield->subfield("c"), 0 );
+          $flat{'pubmax'} = iso8601( $publishfield->subfield("c")  , 1 );
+        }
       }
     }
 
