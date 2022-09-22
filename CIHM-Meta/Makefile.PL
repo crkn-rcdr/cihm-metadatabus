@@ -11,8 +11,7 @@ WriteMakefile(
     LICENSE          => 'artistic_2',
     PL_FILES         => {},
     "EXE_FILES" => [
-      "bin/dmdtask", "bin/hammer2",, "bin/importocr", "bin/ocrtask",
-      "bin/presentation-diff", "bin/press2", "bin/smelter", "bin/solrstream", "bin/walk-canvas-orphan"
+      "bin/dmdtask", "bin/hammer2",, "bin/importocr", "bin/ocrtask", "bin/press2", "bin/smelter", "bin/solrstream", "bin/walk-canvas-orphan"
     ],
     MIN_PERL_VERSION => 5.006,
     CONFIGURE_REQUIRES => {
