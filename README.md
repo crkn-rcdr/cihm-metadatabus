@@ -2,10 +2,41 @@
 
 Docker build environment and libraries for key portions of the metadata bus.
 
-The file `env-dist` has the environment variables that must be put into a `.env` file, adding in passwords as required.
+The file `env-dist` has the environment variables that you would change by adding to `.env.secret` file, adding in passwords as required.
 
-The `./run` is used to run on a local machine for development/testing, before pushing to the Docker registry.
 
+To create a local 'log' directory for testing:
+
+```
+$ mkdir log ; sudo chown 1117.1117 log
+```
+
+To run a shell inside the container, to test any command (the Dockerfile sets the correct path for the shell):
+
+```
+$ docker-compose run cihm-metadatabus bash
+```
+
+To test a specific script, for example, dmdtask, run:
+
+```
+$ docker-compose run cihm-metadatabus bash
+tdr@6495e43707b5:~$ dmdtask
+```
+
+
+Then, in another terminal, run:
+```
+$ tail -f log/root.log
+```
+
+What you run in bash inside the container can be an infinite loop if you wished to run similar to how it is run in production.
+
+```
+$ docker-compose run cihm-metadatabus bash
+Creating cihm-metadatabus_cihm-metadatabus_run ... done
+tdr@6495e43707b5:~$ while :; do dmdtask ; sleep 1m ; done
+```
 
 A script exists for building and pushing images which should be used:
 
@@ -19,7 +50,7 @@ russell@russell-XPS-13-7390:~/git/cihm-metadatabus$ ./deployimage.sh
 
 Core of Metadtabus. See [HISTORY.md](CIHM-Meta/HISTORY.md) for some of the history of the code.
 
-Tooks:
+Tools:
 
 * dmdtask - handles Descriptive MetaData tasks, which process and update databases with metadata
 * hammer2 - Sources data from the `access` and other databases to create the cache files that will be used by Solr search and presentation (Currently CAP).
