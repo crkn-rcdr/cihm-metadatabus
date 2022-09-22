@@ -1,0 +1,20 @@
+version: "2"
+services:
+  cihm-metadatabus:
+    env_file:
+      - env-dist
+      - .env.secret
+    build:
+        context: .
+        dockerfile: Dockerfile
+    volumes:
+      - ./CIHM-Meta:/home/tdr/CIHM-Meta
+      - ./CIHM-Swift:/home/tdr/CIHM-Swift
+      - ./log:/var/log/tdr
+    networks:
+      - access-platform
+    command: [ "echo", "done" ]
+networks:
+  access-platform:
+    external:
+      name: access-platform
