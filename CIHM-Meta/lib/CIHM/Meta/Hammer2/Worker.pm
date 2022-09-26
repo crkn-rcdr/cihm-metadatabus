@@ -56,17 +56,31 @@ sub initworker {
 "Problem connecting to `canvas` Couchdb database. Check configuration\n";
     }
 
-    $self->{internalmetadb} = new restclient(
-        server      => $args->{couchdb_internalmeta2},
+    $self->{cosearch2db} = restclient->new(
+        server      => $args->{couchdb_cosearch2},
         type        => 'application/json',
-        clientattrs => { timeout => 3600 },
+        clientattrs => { timeout => 3600 }
     );
-    $self->internalmetadb->set_persistent_header(
-        'Accept' => 'application/json' );
-    $test = $self->internalmetadb->head("/");
+    $self->cosearch2db->set_persistent_header( 'Accept' => 'application/json' );
+    $test = $self->cosearch2db->head("/");
     if ( !$test || $test->code != 200 ) {
-        die
-"Problem connecting to `internalmeta2` Couchdb database. Check configuration\n";
+        die "Problem connecting to cosearch2 Couchdb database: "
+          . $args->{couchdb_cosearch2}
+          . " Check configuration\n";
+    }
+
+    $self->{copresentation2db} = restclient->new(
+        server      => $args->{couchdb_copresentation2},
+        type        => 'application/json',
+        clientattrs => { timeout => 3600 }
+    );
+    $self->copresentation2db->set_persistent_header(
+        'Accept' => 'application/json' );
+    $test = $self->copresentation2db->head("/");
+    if ( !$test || $test->code != 200 ) {
+        die "Problem connecting to copresentation2 Couchdb database: "
+          . $args->{couchdb_copresentation2}
+          . " Check configuration\n";
     }
 
     $self->{cantaloupe} = new CIHM::Meta::REST::cantaloupe(
@@ -91,7 +105,9 @@ sub initworker {
 
     $test = $self->swift->container_head( $self->access_metadata );
     if ( !$test || $test->code != 204 ) {
-        die "Problem connecting to Swift container. Check configuration\n";
+        die "Problem connecting to Swift container="
+          . $self->access_metadata
+          . ". Check configuration\n";
     }
 
 }
@@ -132,9 +148,14 @@ sub canvasdb {
     return $self->{canvasdb};
 }
 
-sub internalmetadb {
+sub cosearch2db {
     my $self = shift;
-    return $self->{internalmetadb};
+    return $self->{cosearch2db};
+}
+
+sub copresentation2db {
+    my $self = shift;
+    return $self->{copresentation2db};
 }
 
 sub warnings {
@@ -192,7 +213,8 @@ sub swing {
                 cantaloupe         => $self->cantaloupe,
                 accessdb           => $self->accessdb,
                 canvasdb           => $self->canvasdb,
-                internalmetadb     => $self->internalmetadb,
+                cosearch2db        => $self->cosearch2db,
+                copresentation2db  => $self->copresentation2db,
             }
         )->process;
     }

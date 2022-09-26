@@ -10,6 +10,7 @@ use URI::Escape;
 use CIHM::Meta::dmd::flatten qw(normaliseSpace);
 use List::MoreUtils qw(uniq);
 use File::Temp;
+use Data::Dumper;
 
 =head1 NAME
 
@@ -104,9 +105,14 @@ sub canvasdb {
     return $self->args->{canvasdb};
 }
 
-sub internalmetadb {
+sub cosearch2db {
     my $self = shift;
-    return $self->args->{internalmetadb};
+    return $self->args->{cosearch2db};
+}
+
+sub copresentation2db {
+    my $self = shift;
+    return $self->args->{copresentation2db};
 }
 
 sub cantaloupe {
@@ -405,8 +411,6 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 
     }
 
-    $self->clearNoidDocument($slug);
-
 ## Build update document and attachment
 
     $self->updatedoc->{'type'} = 'aip';
@@ -498,134 +502,8 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     $self->updatedoc->{collectionseq} =
       join( ',', keys %{ $self->{collections} } );
 
-    # Create document if it doesn't already exist
-    {
-        my $url = "/_design/tdr/_update/basic/" . uri_escape_utf8($slug);
-
-        my $res = $self->internalmetadb->post( $url, {},
-            { deserializer => 'application/json' } );
-
-        if ( $res->code != 201 && $res->code != 200 ) {
-            warn "$url POST return code: " . $res->code . "\n";
-        }
-
-    }
-
-    my $return = $self->putInternalmetaAttachment(
-        $slug,
-        {
-            type      => "application/json",
-            content   => encode_json $self->attachment,
-            filename  => "hammer.json",
-            updatedoc => $self->updatedoc
-        }
-    );
-    if ($return) {
-        die "Return code $return for putInternalmetaAttachment($slug)\n";
-    }
-}
-
-sub putInternalmetaAttachment {
-    my ( $self, $slug, $args ) = @_;
-    my ( $res, $revision, $updatedoc );
-
-    if ( exists $args->{updatedoc} ) {
-        $updatedoc = $args->{updatedoc};
-    }
-    else {
-        $updatedoc = {};
-    }
-
-    if ( !exists $args->{type} ) {
-
-        # Set JSON as the default attachment mime type
-        $args->{type} = "text/json";
-    }
-    my $filename = $args->{filename};
-    if ( !$slug || !$filename || !( $args->{content} ) ) {
-        die "Missing UID, filename, or content for put_attachment\n";
-    }
-
-    $res = $self->internalmetadb->head( "/" . uri_escape_utf8($slug),
-        {}, { deserializer => 'application/json' } );
-    if ( $res->code == 200 ) {
-        $revision = $res->response->header("etag");
-        $revision =~ s/^\"|\"$//g;
-    }
-    else {
-        warn "putInternalmetaAttachment($slug) HEAD return code: "
-          . $res->code . "\n";
-        return $res->code;
-    }
-    $self->internalmetadb->clear_headers;
-    $self->internalmetadb->set_header( 'If-Match' => $revision );
-    $self->internalmetadb->type( $args->{type} );
-    $res =
-      $self->internalmetadb->put( "/" . uri_escape_utf8($slug) . "/$filename",
-        $args->{content}, { deserializer => 'application/json' } );
-    if ( $res->code != 201 ) {
-        warn "putInternalmetaAttachment($slug) PUT return code: "
-          . $res->code . "\n";
-        return $res->code;
-    }
-    else {
-        # If successfully attached, add attachment information and upload date.
-        $updatedoc->{'upload'} = $filename;
-        my $url = "/_design/tdr/_update/basic/" . uri_escape_utf8($slug);
-
-        my $res = $self->internalmetadb->post( $url, $updatedoc,
-            { deserializer => 'application/json' } );
-
-        if ( $res->code != 201 && $res->code != 200 ) {
-            warn "$url POST within putInternalmetaAttachment return code: "
-              . $res->code . "\n";
-            return $res->code;
-        }
-    }
-    return;
-}
-
-# Clear out any other document that has this noid (slug has changed)
-sub clearNoidDocument {
-    my ( $self, $slug ) = @_;
-
-    $self->internalmetadb->type("application/json");
-    my $url = "/_design/tdr/_view/noid";
-
-    my $res = $self->internalmetadb->post(
-        $url,
-        {
-            keys         => [ $self->noid ],
-            include_docs => JSON::true
-        },
-        { deserializer => 'application/json' }
-    );
-    if ( $res->code != 200 ) {
-        die "clearNoidDocument: $url "
-          . $self->noid
-          . " return code: "
-          . $res->code . "\n";
-    }
-
-    foreach my $doc ( @{ $res->data->{rows} } ) {
-        my $thisslug = $doc->{id};
-        next if $thisslug eq $slug;
-
-        my $thisrev = $doc->{doc}->{_rev};
-
-        my $url = "/" . uri_escape_utf8($thisslug);
-        my $res2 = $self->internalmetadb->delete( $url, { rev => $thisrev } );
-
-        if ( $res->code != 200 ) {
-            die "clearNoidDocument: DELETE $url return code: "
-              . $res->code . "\n";
-        }
-        else {
-            $self->log->info( "Deleted duplicate with same noid="
-                  . $self->noid
-                  . " ($thisslug)" );
-        }
-    }
+    # TODO: $self->attachment and $self->updatedoc previously sent to database.
+    print Dumper ( $self->attachment, $self->updatedoc );
 }
 
 sub findCollections {
