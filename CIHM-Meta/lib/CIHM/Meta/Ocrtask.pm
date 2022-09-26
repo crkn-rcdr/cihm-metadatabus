@@ -151,6 +151,13 @@ sub task {
 sub taskid {
     my $self = shift;
     return $self->task->{'_id'} if $self->task;
+    return "[unknown]";
+}
+
+sub taskname {
+    my $self = shift;
+    return $self->task->{'name'} if $self->task;
+    return "[unknown]";
 }
 
 sub todo {
@@ -213,7 +220,10 @@ sub ocrtask {
                 $self->{todo} = $todo;
                 $self->{task} = $task->{doc};
 
-                $self->log->info( "Processing Task=" . $self->taskid );
+                $self->log->info( "Processing Task="
+                      . $self->taskid
+                      . " Name="
+                      . $self->taskname );
 
                 # Handle and record any errors
                 try {
@@ -265,6 +275,14 @@ sub ocrExport {
     if ( $res->code != 200 ) {
         die "$url return code: " . $res->code . "\n";
     }
+
+    $self->log->info( $self->taskid
+          . ": Found "
+          . scalar( @{ $res->data->{rows} } )
+          . " canvases from task of "
+          . scalar( @{ $self->task->{canvases} } )
+          . " canvases" );
+
     foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
         if ( !defined $canvasdoc->{doc} ) {
             warn "Didn't find " . $canvasdoc->{id} . "\n";
@@ -332,6 +350,13 @@ sub ocrImport {
     if ( $res->code != 200 ) {
         die "$url return code: " . $res->code . "\n";
     }
+
+    $self->log->info( $self->taskid
+          . ": Found "
+          . scalar( @{ $res->data->{rows} } )
+          . " canvases from task of "
+          . scalar( @{ $self->task->{canvases} } )
+          . " canvases" );
 
     # Collect IDs so we can force re-generating of caches
     my %canvasids;
@@ -417,6 +442,10 @@ sub ocrImport {
             }
         }
     }
+
+    $self->log->info( $self->taskid . ": "
+          . scalar(@updatedcanvases)
+          . " canvases were updated" );
 
     # Update any potentially changed Canvases.
     if (@updatedcanvases) {
@@ -507,63 +536,67 @@ sub updateFile {
     my $tries = $self->swift_retries;
 
     # This is a short circuit to redundantly sending, so don't fail on it.
-    do {
+  checkexists: {
+        do {
 
-        my $res = $self->swift->object_head( $container, $object );
+            my $res = $self->swift->object_head( $container, $object );
 
-        if ( $res->code == 200 ) {
-            if (   ( int( $res->header('Content-Length') ) == $size )
-                && ( $res->etag eq $md5digest ) )
-            {
-                # Don't send, as it is already there
-                return { size => $size, md5digest => $md5digest };
+            if ( $res->code == 200 ) {
+                if (   ( int( $res->header('Content-Length') ) == $size )
+                    && ( $res->etag eq $md5digest ) )
+                {
+                    # Don't send, as it is already there
+                    return { size => $size, md5digest => $md5digest };
+                }
+                last;
             }
-            last;
-        }
-        elsif ( $res->code == 404 ) {
+            elsif ( $res->code == 404 ) {
 
-            # Not found means always send
-            last;
-        }
-        else {
-            warn "updateFile HEAD of '$object' into '$container' returned "
-              . $res->code . " - "
-              . $res->message
-              . " retries=$tries\n";
-            $tries--;
-        }
-    } until ( !$tries );
-
+                # Not found means always send
+                last;
+            }
+            else {
+                warn "updateFile HEAD of '$object' into '$container' returned "
+                  . $res->code . " - "
+                  . $res->message
+                  . " retries=$tries\n";
+                $tries--;
+            }
+        } until ( !$tries );
+    }
     $tries = $self->swift_retries;
 
-    do {
+  sendthefile: {
+        do {
 
-        # Send file.
-        seek( $fh, 0, 0 );
-        my $putresp =
-          $self->swift->object_put( $container, $object, $fh,
-            { 'File-Modified' => $filedate } );
-        if ( $putresp->code != 201 ) {
-            warn(
-                "updateFile object_put of '$object' into '$container' returned "
-                  . $putresp->code . " - "
-                  . $putresp->message
-                  . " retries=$tries\n" );
-        }
-        elsif ( $md5digest eq $putresp->etag ) {
-            last;
-        }
-        else {
-            # Extra check that everything was OK.
-            warn
+            # Send file.
+            seek( $fh, 0, 0 );
+            my $putresp =
+              $self->swift->object_put( $container, $object, $fh,
+                { 'File-Modified' => $filedate } );
+            if ( $putresp->code != 201 ) {
+                warn(
+"updateFile object_put of '$object' into '$container' returned "
+                      . $putresp->code . " - "
+                      . $putresp->message
+                      . " retries=$tries\n" );
+            }
+            elsif ( $md5digest eq $putresp->etag ) {
+                last;
+            }
+            else {
+                # Extra check that everything was OK.
+                warn
 "Etag mismatch during object_put of $object into $container: $filename=$md5digest $object="
-              . $putresp->etag
-              . " during "
-              . $putresp->transaction_id
-              . " retries=$tries\n";
-        }
-        $tries--;
-    } until ( !$tries );
+                  . $putresp->etag
+                  . " during "
+                  . $putresp->transaction_id
+                  . " retries=$tries\n";
+            }
+            $tries--;
+        } until ( !$tries );
+    }
+
     close $fh;
 
     if ( !$tries ) {
