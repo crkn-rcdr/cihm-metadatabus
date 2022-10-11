@@ -23,6 +23,8 @@ CIHM::Meta::Hammer2::Process - Handles the processing of individual manifests
 
 =cut
 
+use constant DATAPATH => '/home/tdr/data';
+
 sub new {
     my ( $class, $args ) = @_;
     my $self = bless {}, $class;
@@ -50,11 +52,17 @@ sub new {
 
     $self->{flatten} = CIHM::Meta::dmd::flatten->new;
 
-    $self->{updatedoc}            = {};
+    $self->{docdata}              = {};
     $self->{pageinfo}             = {};
     $self->{attachment}           = [];
     $self->pageinfo->{count}      = 0;
     $self->pageinfo->{dimensions} = 0;
+
+    $self->{searchdoc}  = {};
+    $self->{presentdoc} = {};
+
+    # Flag for update status (false means problem with update)
+    $self->{ustatus} = 1;
 
     return $self;
 }
@@ -120,9 +128,9 @@ sub cantaloupe {
     return $self->args->{cantaloupe};
 }
 
-sub updatedoc {
+sub docdata {
     my $self = shift;
-    return $self->{updatedoc};
+    return $self->{docdata};
 }
 
 sub pageinfo {
@@ -145,6 +153,22 @@ sub attachment {
     return $self->{attachment};
 }
 
+sub slug {
+    my $self = shift;
+    return if !$self->document;
+    return $self->document->{slug};
+}
+
+sub searchdoc {
+    my $self = shift;
+    return $self->{searchdoc};
+}
+
+sub presentdoc {
+    my $self = shift;
+    return $self->{presentdoc};
+}
+
 # Top method
 sub process {
     my ($self) = @_;
@@ -153,12 +177,11 @@ sub process {
       $self->getAccessDocument( uri_escape_utf8( $self->noid ) );
     die "Missing Document\n" if !( $self->document );
 
-    if ( !exists $self->document->{'slug'} ) {
+    if ( !$self->slug ) {
         die "Missing slug\n";
     }
-    my $slug = $self->document->{'slug'};
 
-    $self->log->info( "Processing " . $self->noid . " ($slug)" );
+    $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
 
     if ( !( exists $self->document->{'type'} ) ) {
         die "Missing mandatory field 'type'\n";
@@ -170,8 +193,9 @@ sub process {
             || ( $self->document->{'behavior'} eq "unordered" ) )
         {
             $self->log->info( "Nothing to do for an unordered collection"
-                  . $self->noid
-                  . " ($slug)" );
+                  . $self->noid . " ("
+                  . $self->slug
+                  . ")" );
             return;
         }
     }
@@ -180,7 +204,7 @@ sub process {
         die "Missing dmdType\n";
     }
 
-    my ( $depositor, $objid ) = split( /\./, $slug );
+    my ( $depositor, $objid ) = split( /\./, $self->slug );
 
     my $object =
       $self->noid . '/dmd' . uc( $self->document->{'dmdType'} ) . '.xml';
@@ -209,7 +233,7 @@ sub process {
     else {
         $self->attachment->[0]->{'type'} = 'series';
     }
-    $self->attachment->[0]->{'key'}  = $slug;
+    $self->attachment->[0]->{'key'}  = $self->slug;
     $self->attachment->[0]->{'noid'} = $self->noid;
 
     my %identifier = ( $objid => 1 );
@@ -264,9 +288,10 @@ sub process {
             $self->attachment->[ $i + 1 ]->{'depositor'} = $depositor;
             $self->attachment->[ $i + 1 ]->{'identifier'} =
               [ $objid . "." . ( $i + 1 ) ];
-            $self->attachment->[ $i + 1 ]->{'pkey'}          = $slug;
+            $self->attachment->[ $i + 1 ]->{'pkey'}          = $self->slug;
             $self->attachment->[ $i + 1 ]->{'manifest_noid'} = $self->noid;
-            $self->attachment->[ $i + 1 ]->{'key'} = $slug . "." . ( $i + 1 );
+            $self->attachment->[ $i + 1 ]->{'key'} =
+              $self->slug . "." . ( $i + 1 );
         }
         my @canvases = @{ $self->getCanvasDocuments( \@canvasids ) };
         die "Array length mismatch\n" if ( @canvases != @canvasids );
@@ -413,25 +438,16 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 
 ## Build update document and attachment
 
-    $self->updatedoc->{'type'} = 'aip';
-    $self->updatedoc->{'noid'} = $self->noid;
+    $self->docdata->{'type'} = 'aip';
+    $self->docdata->{'noid'} = $self->noid;
 
     # Manifest is a 'document', ordered collection is a 'series'
-    $self->updatedoc->{'sub-type'} = $self->attachment->[0]->{'type'};
-
-# If not public, then not approved in old system (clean up cosearch/copresentation docs)
-    if ( exists $self->document->{'public'} ) {
-        $self->updatedoc->{'approved'} = JSON::true;
-    }
-    else {
-        $self->updatedoc->{'approved'} = JSON::false;
-
-    }
+    $self->docdata->{'sub-type'} = $self->attachment->[0]->{'type'};
 
     # We may not care about these any more, but will decide later...
     foreach my $field ( 'label', 'pubmin', 'pubmax', 'canonicalDownload' ) {
         if ( defined $self->attachment->[0]->{$field} ) {
-            $self->updatedoc->{$field} = $self->attachment->[0]->{$field};
+            $self->docdata->{$field} = $self->attachment->[0]->{$field};
         }
     }
 
@@ -455,7 +471,7 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
             # Old platform didn't include 'series' records in collections.
             delete $self->{collections}->{$parent};
             $self->attachment->[0]->{'pkey'} = $parent;
-            $self->updatedoc->{'parent'} = $parent;
+            $self->docdata->{'parent'} = $parent;
 
             # The noid was stored in case needed.
             my $noid = $self->{orderedcollections}->{$parent};
@@ -478,7 +494,7 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 
                         # Was a string, needs to be a string.
                         $self->attachment->[0]->{'seq'} = "$seq";
-                        $self->updatedoc->{'seq'} = "$seq";
+                        $self->docdata->{'seq'} = "$seq";
                     }
                     else {
                         warn "My noid wasn't found in Parent=$noid\n";
@@ -494,16 +510,21 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
         }
     }
 
-    if ( !exists $self->updatedoc->{'parent'} ) {
-        $self->updatedoc->{'noparent'} = JSON::true;
+    if ( !exists $self->docdata->{'parent'} ) {
+        $self->docdata->{'noparent'} = JSON::true;
     }
 
     # Always set collection -- will be '' if no collections.
-    $self->updatedoc->{collectionseq} =
+    $self->docdata->{collectionseq} =
       join( ',', keys %{ $self->{collections} } );
 
-    # TODO: $self->attachment and $self->updatedoc previously sent to database.
-    print Dumper ( $self->attachment, $self->updatedoc );
+# If not public, then not public in old cosearch/copresentation system (clean up cosearch/copresentation docs)
+    if ( exists $self->document->{'public'} ) {
+        $self->adddocument();
+    }
+    else {
+        $self->deletedocument();
+    }
 }
 
 sub findCollections {
@@ -648,6 +669,671 @@ sub getAccessCollections {
           . $res->code . "("
           . $res->error . ")\n";
         return;
+    }
+}
+
+sub deletedocument {
+    my ($self) = @_;
+
+    $self->update_couch( $self->cosearch2db );
+    $self->update_couch( $self->copresentation2db );
+}
+
+sub adddocument {
+    my ($self) = @_;
+
+    $self->process_attachment();
+
+    # Map also counts for a minimum of repos, so adding in current array
+    # to presentation.
+    $self->presentdoc->{ $self->slug }->{'repos'} = $self->docdata->{'repos'}
+      if defined $self->docdata->{'repos'};
+
+    # All Items should have a date
+    $self->presentdoc->{ $self->slug }->{'updated'} =
+      DateTime->now()->iso8601() . 'Z';
+
+    # If collections field exists, set accordingly within the item
+    # Note: Not stored within pages, so no need to loop through all keys
+    if ( exists $self->docdata->{'collections'} ) {
+
+        # The 's' is not used in the schemas, so not using here.
+        $self->presentdoc->{ $self->slug }->{'collection'} =
+          $self->docdata->{'collections'};
+        $self->searchdoc->{ $self->slug }->{'collection'} =
+          $self->docdata->{'collections'};
+    }
+
+    # If a parl/${id}.json file exists, process it.
+    if ( -e DATAPATH . "/parl/" . $self->slug . ".json" ) {
+        $self->process_parl();
+    }
+
+    # Determine if series or issue/monograph
+    if ( $self->docdata->{'sub-type'} eq 'series' ) {
+
+        # Process series
+
+        if ( exists $self->docdata->{'parent'} ) {
+            die $self->slug . " is a series and has parent field\n";
+        }
+        if ( scalar( keys %{ $self->presentdoc } ) != 1 ) {
+            die $self->slug
+              . " is a series and has "
+              . scalar( keys %{ $self->presentdoc } )
+              . " records\n";
+        }
+        if ( $self->presentdoc->{ $self->slug }->{'type'} ne 'series' ) {
+            die $self->slug . " is a series, but record type not series\n";
+        }
+        $self->process_series();
+    }
+    else {
+        # Process issue or monograph
+
+        # If 'parent' field exists, process as issue of series
+        if ( exists $self->docdata->{'parent'} ) {
+            $self->process_issue( $self->docdata->{'parent'} );
+        }
+
+        # For the 'collection' field to be complete, processing components
+        # needs to happen after process_issue().
+        $self->process_components();
+    }
+
+    # If a tag json file exists, process it.
+    # - Needs to be processed after process_components() as
+    #   process_externalmetaHP() sets a flag within component field.
+    if ( -e DATAPATH . "/tag/" . $self->slug . ".json" ) {
+        $self->process_externalmetaHP();
+    }
+
+    if (
+        scalar( keys %{ $self->searchdoc } ) !=
+        scalar( keys %{ $self->presentdoc } ) )
+    {
+        warn $self->slug . " had "
+          . scalar( keys %{ $self->searchdoc } )
+          . " searchdoc and "
+          . scalar( keys %{ $self->presentdoc } )
+          . " presentdoc\n";
+    }
+
+    $self->update_couch( $self->cosearch2db,       $self->searchdoc );
+    $self->update_couch( $self->copresentation2db, $self->presentdoc );
+
+    if ( $self->{ustatus} == 0 ) {
+        die "One or more updates were not successful\n";
+    }
+}
+
+# TODO: https://github.com/crkn-rcdr/Access-Platform/issues/400
+# To delete any extra documents that don't match the current IDs (number of pages decreased, slug changed)
+# Use views to create hash of docs based on : IDs of docs, noid view , manifest_noid view
+# Use hash to update _rev of any doc that will be saved (delete key from hash), and then mark to be deleted every document still in hash.
+# Use this also as delete_couch() , where docs=[];
+sub update_couch {
+    my ( $self, $dbo, $docs ) = @_;
+
+    # Same function can be used to simply delete all the old docs
+    if ( !$docs ) {
+        $docs = {};
+    }
+
+    $dbo->type("application/json");
+
+    my %couchdocs;
+
+    # Looking up the ID to get revision of any existing document.
+    my $url = "/_all_docs";
+    my $res = $dbo->post(
+        $url,
+        { keys         => [ $self->slug ] },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code == 200 ) {
+        foreach my $row ( @{ $res->data->{rows} } ) {
+            if (   defined $row->{id}
+                && defined $row->{value}
+                && defined $row->{value}->{rev}
+                && !defined $row->{value}->{deleted} )
+            {
+                $couchdocs{ $row->{id} } = $row->{value}->{rev};
+            }
+        }
+    }
+    else {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        die "update_couch $url return code: " . $res->code . "\n";
+    }
+
+    # Looking up the noid
+    $url = "/_design/access/_view/noid";
+    my $res = $dbo->post(
+        $url,
+        { keys         => [ $self->noid ], include_docs => JSON::true },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code == 200 ) {
+        foreach my $row ( @{ $res->data->{rows} } ) {
+            if (   defined $row->{id}
+                && defined $row->{doc}
+                && defined $row->{doc}->{'_rev'} )
+            {
+                $couchdocs{ $row->{id} } = $row->{doc}->{'_rev'};
+            }
+        }
+    }
+    else {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        die "update_couch $url return code: " . $res->code . "\n";
+    }
+
+    # Looking up the manifest_noid
+    $url = "/_design/access/_view/manifest_noid";
+    my $res = $dbo->post(
+        $url,
+        { keys         => [ $self->noid ], include_docs => JSON::true },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code == 200 ) {
+        foreach my $row ( @{ $res->data->{rows} } ) {
+            if (   defined $row->{id}
+                && defined $row->{doc}
+                && defined $row->{doc}->{'_rev'} )
+            {
+                $couchdocs{ $row->{id} } = $row->{doc}->{'_rev'};
+            }
+        }
+    }
+    else {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        die "update_couch $url return code: " . $res->code . "\n";
+    }
+
+    # Check if we have missed any
+    my @doclookup;
+    foreach my $key ( keys %{$docs} ) {
+        if ( !defined $couchdocs{$key} ) {
+            push @doclookup, $key;
+        }
+    }
+
+    if (@doclookup) {
+
+        # Looking up the slugs of the components
+        $url = "/_all_docs";
+        $res = $dbo->post(
+            $url,
+            { keys         => \@doclookup },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code == 200 ) {
+            foreach my $row ( @{ $res->data->{rows} } ) {
+                if (   defined $row->{id}
+                    && defined $row->{value}
+                    && defined $row->{value}->{rev}
+                    && !defined $row->{value}->{deleted} )
+                {
+                    $couchdocs{ $row->{id} } = $row->{value}->{rev};
+                }
+            }
+        }
+        else {
+            if ( defined $res->response->content ) {
+                warn $res->response->content . "\n";
+            }
+            die "update_couch $url return code: " . $res->code . "\n";
+        }
+    }
+
+    # Initialize structure to be used for bulk update
+    my $postdoc = { docs => [] };
+
+    # Updated or created docs
+    foreach my $docid ( keys %{$docs} ) {
+        if ( defined $couchdocs{$docid} ) {
+            $docs->{$docid}->{"_rev"} =
+              $couchdocs{$docid};
+            delete $couchdocs{$docid};
+        }
+        $docs->{$docid}->{"_id"} = $docid;
+        push @{ $postdoc->{docs} }, $docs->{$docid};
+    }
+
+    # Delete the rest
+    foreach my $docid ( keys %couchdocs ) {
+        push @{ $postdoc->{docs} },
+          {
+            '_id'      => $docid,
+            '_rev'     => $couchdocs{$docid},
+            "_deleted" => JSON::true
+          };
+    }
+
+    $url = "/_bulk_docs";
+    $res = $dbo->post( $url, $postdoc, { deserializer => 'application/json' } );
+
+    if ( $res->code == 201 ) {
+        my @data = @{ $res->data };
+        if ( exists $data[0]->{id} ) {
+            foreach my $thisdoc (@data) {
+
+                # Check if any ID's failed
+                if ( !$thisdoc->{ok} ) {
+                    warn $thisdoc->{id}
+                      . " was not indicated OK update_couch ("
+                      . $dbo->server . ") "
+                      . encode_json($thisdoc) . " \n";
+                    $self->{ustatus} = 0;
+                }
+            }
+        }
+    }
+    else {
+        if ( defined $res->response->content ) {
+            warn $res->response->content . "\n";
+        }
+        die "update_couch $url return code: " . $res->code . "\n";
+    }
+}
+
+sub process_attachment {
+    my ($self) = @_;
+
+    # First loop to generate the item 'tx' field if it doesn't already exist
+    if ( !exists $self->attachment->[0]->{'tx'} ) {
+        my @tx;
+        for my $i ( 1 .. $#{ $self->attachment } ) {
+            my $doc = $self->attachment->[$i];
+            if ( exists $doc->{'tx'} ) {
+                foreach my $t ( @{ $doc->{'tx'} } ) {
+                    push @tx, $t;
+                }
+            }
+        }
+        if (@tx) {
+            $self->attachment->[0]->{'tx'} = \@tx;
+        }
+
+        # If there is now an item 'tx' field, handle its count
+        if ( exists $self->attachment->[0]->{'tx'} ) {
+            my $count = scalar( @{ $self->attachment->[0]->{'tx'} } );
+            if ($count) {
+                $self->attachment->[0]->{'component_count_fulltext'} = $count;
+            }
+        }
+
+    }
+
+    # These fields copied from item into each component.
+    my $pubmin = $self->attachment->[0]->{'pubmin'};
+    my $pubmax = $self->attachment->[0]->{'pubmax'};
+    my $lang   = $self->attachment->[0]->{'lang'};
+
+    # Loop through and copy into cosearch/copresentation
+    for my $i ( 0 .. $#{ $self->attachment } ) {
+        my $doc = $self->attachment->[$i];
+        my $key = $doc->{'key'}
+          || die "Key missing from document in Hammer.json";
+
+        # Copy fields into components
+        if ($i) {
+            if ($pubmin) {
+                $doc->{'pubmin'} = $pubmin;
+            }
+            if ($pubmax) {
+                $doc->{'pubmax'} = $pubmax;
+            }
+            if ($lang) {
+                $doc->{'lang'} = $lang;
+            }
+        }
+
+        # Hash of all fields that are set
+        my %docfields = map { $_ => 1 } keys %{$doc};
+
+        $self->searchdoc->{$key} = {};
+
+        # Copy the fields for cosearch
+        foreach my $cf (
+            "key",                      "type",
+            "depositor",                "label",
+            "pkey",                     "seq",
+            "pubmin",                   "pubmax",
+            "lang",                     "identifier",
+            "pg_label",                 "ti",
+            "au",                       "pu",
+            "su",                       "no",
+            "ab",                       "tx",
+            "no_rights",                "no_source",
+            "component_count_fulltext", "component_count",
+            "noid",                     "manifest_noid"
+          )
+        {
+            $self->searchdoc->{$key}->{$cf} = $doc->{$cf} if exists $doc->{$cf};
+            delete $docfields{$cf};
+        }
+
+        $self->presentdoc->{$key} = {};
+
+        # Copy the fields for copresentation
+        foreach my $cf (
+            "key",                      "type",
+            "label",                    "pkey",
+            "seq",                      "lang",
+            "media",                    "identifier",
+            "canonicalUri",             "canonicalMaster",
+            "canonicalMasterExtension", "canonicalMasterMime",
+            "canonicalMasterSize",      "canonicalMasterMD5",
+            "canonicalMasterWidth",     "canonicalMasterHeight",
+            "canonicalDownload",        "canonicalDownloadExtension",
+            "canonicalDownloadMime",    "canonicalDownloadSize",
+            "canonicalDownloadMD5",     "ti",
+            "au",                       "pu",
+            "su",                       "no",
+            "ab",                       "no_source",
+            "no_rights",                "component_count_fulltext",
+            "component_count",          "noid",
+            "file",                     "ocrPdf",
+            "manifest_noid"
+          )
+        {
+            $self->presentdoc->{$key}->{$cf} = $doc->{$cf}
+              if exists $doc->{$cf};
+            delete $docfields{$cf};
+        }
+
+        if ( keys %docfields ) {
+            warn "Unused Hammer fields in $key: "
+              . join( ",", keys %docfields ) . "\n";
+        }
+    }
+}
+
+sub process_parl {
+    my ($self) = @_;
+
+    my $filename = DATAPATH . "/parl/" . $self->slug . ".json";
+    my $parl     = read_json($filename);
+
+    my %term_map = (
+        language       => "lang",
+        label          => "parlLabel",
+        chamber        => "parlChamber",
+        session        => "parlSession",
+        type           => "parlType",
+        node           => "parlNode",
+        reportTitle    => "parlReportTitle",
+        callNumber     => "parlCallNumber",
+        primeMinisters => "parlPrimeMinisters",
+        pubmin         => "pubmin",
+        pubmax         => "pubmax"
+    );
+
+    my @search_terms =
+      qw/language label chamber session type reportTitle callNumber primeMinisters pubmin pubmax/;
+    foreach my $st (@search_terms) {
+        $self->searchdoc->{ $self->slug }->{ $term_map{$st} } = $parl->{$st}
+          if exists $parl->{$st};
+    }
+
+    foreach my $pt ( keys %term_map ) {
+        $self->presentdoc->{ $self->slug }->{ $term_map{$pt} } = $parl->{$pt}
+          if exists $parl->{$pt};
+    }
+}
+
+# Merging multi-value fields
+sub mergemulti {
+    my ( $doc, $field, $value ) = @_;
+
+    if ( !defined $doc->{$field} ) {
+        $doc->{$field} = $value;
+    }
+    else {
+        # Ensure values being pushed are unique.
+        foreach my $mval ( @{$value} ) {
+            my $found = 0;
+            foreach my $tval ( @{ $doc->{$field} } ) {
+                if ( $mval eq $tval ) {
+                    $found = 1;
+                    last;
+                }
+            }
+            if ( !$found ) {
+                push @{ $doc->{$field} }, $mval;
+            }
+        }
+    }
+}
+
+sub process_externalmetaHP {
+    my ($self) = @_;
+
+    my $filename = DATAPATH . "/tag/" . $self->slug . ".json";
+    my $emHP     = read_json($filename);
+
+    foreach my $seq ( keys %{$emHP} ) {
+        my $pageid = $self->slug . "." . $seq;
+        my $tags   = $emHP->{$seq};
+        if ( defined $self->searchdoc->{$pageid} ) {
+            my %tagfields = map { $_ => 1 } keys %{$tags};
+
+            # Copy the fields for cosearch && copresentation
+            # In parent as well..
+            foreach my $cf (
+                "tag",     "tagPerson",
+                "tagName", "tagPlace",
+                "tagDate", "tagNotebook",
+                "tagDescription"
+              )
+            {
+                if ( exists $tags->{$cf} ) {
+                    if ( ref( $tags->{$cf} ne "ARRAY" ) ) {
+                        die
+                          "externalmetaHP tag $cf for page $pageid not array\n";
+                    }
+
+                    mergemulti( $self->searchdoc->{$pageid}, $cf,
+                        $tags->{$cf} );
+                    mergemulti( $self->presentdoc->{$pageid},
+                        $cf, $tags->{$cf} );
+                    mergemulti( $self->searchdoc->{ $self->slug },
+                        $cf, $tags->{$cf} );
+                    mergemulti( $self->presentdoc->{ $self->slug },
+                        $cf, $tags->{$cf} );
+                }
+                delete $tagfields{$cf};
+            }
+
+            # Set flag in item to indicate this component has tags
+            $self->presentdoc->{ $self->slug }->{'components'}->{$pageid}
+              ->{'hasTags'} = JSON::true;
+
+            # Set flag in item to indicate some component has tags
+            $self->presentdoc->{ $self->slug }->{'hasTags'} = JSON::true;
+
+            if ( keys %tagfields ) {
+                warn "Unused externalmetaHP fields in $pageid: "
+                  . join( ",", keys %tagfields ) . "\n";
+            }
+        }
+        else {
+            warn "externalmetaHP sequence $seq doesn't exist in "
+              . $self->slug . "\n";
+        }
+    }
+}
+
+sub process_issue {
+    my ( $self, $parent ) = @_;
+
+    #TODO: Look up in `access` to find label, etc
+
+=pod
+    # Force parent to be processed (likely again) later, and grab label
+    my $res = $self->internalmeta2->post( "/_design/tdr/_update/parent/$parent",
+        {}, { deserializer => 'application/json' } );
+    if ( $res->code != 201 && $res->code != 200 ) {
+        die "_update/parent/$parent POST return code: " . $res->code . "\n";
+    }
+    if ( $res->data->{return} ne 'updated' ) {
+        die "_update/parent/$parent POST function returned: "
+          . $res->data->{return} . "\n";
+    }
+    $self->presentdoc->{ $self->slug }->{'plabel'} = $res->data->{label};
+    $self->searchdoc->{ $self->slug }->{'plabel'}  = $res->data->{label};
+
+    # Merge collection information
+    if ( exists $res->data->{collection} ) {
+        my %collections;
+        foreach my $a ( @{ $res->data->{'collection'} } ) {
+            $collections{$a} = 1;
+        }
+        foreach
+          my $a ( @{ $self->presentdoc->{ $self->slug }->{'collection'} } )
+        {
+            $collections{$a} = 1;
+        }
+
+        my @collections = sort keys %collections;
+
+        $self->presentdoc->{ $self->slug }->{'collection'} = \@collections;
+
+        $self->searchdoc->{ $self->slug }->{'collection'} =
+          $self->presentdoc->{ $self->slug }->{'collection'};
+    }
+=cut
+
+}
+
+sub process_series {
+    my ($self) = @_;
+
+    my @order;
+    my $items = {};
+
+    #TODO: Order is in the multi-part collection document itself....
+
+=pod
+    # Look up issues for this series
+    $self->internalmeta2->type("application/json");
+    my $res = $self->internalmeta2->get(
+        "/_design/tdr/_view/issues?reduce=false&startkey=[\""
+          . $self->slug
+          . "\"]&endkey=[\""
+          . $self->slug
+          . "\",{}]",
+        {},
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code != 200 ) {
+        die "_view/issues for "
+          . $self->slug
+          . " return code: "
+          . $res->code . "\n";
+    }
+    foreach my $issue ( @{ $res->data->{rows} } ) {
+
+        # Only add issues which have been approved
+        if ( $issue->{value}->{approved} ) {
+            delete $issue->{value}->{approved};
+            push( @order, $issue->{id} );
+
+            # All the other values from the map are currently used
+            # for the items field
+            $items->{ $issue->{id} } = $issue->{value};
+        }
+    }
+    $self->presentdoc->{ $self->slug }->{'order'}     = \@order;
+    $self->presentdoc->{ $self->slug }->{'items'}     = $items;
+    $self->searchdoc->{ $self->slug }->{'item_count'} = scalar(@order);
+=cut
+
+}
+
+=head1 $self->process_components()
+Process component AIPs to build the 'components' and 'order' fields.
+Currently order is numeric order by sequence, but later may be built
+into metadata.xml
+=cut
+
+sub process_components {
+    my ($self) = @_;
+
+    my $components = {};
+    my %seq;
+    my @order;
+
+    foreach my $thisdoc ( keys %{ $self->presentdoc } ) {
+        next if ( $self->presentdoc->{$thisdoc}->{'type'} ne 'page' );
+        $seq{ $self->presentdoc->{$thisdoc}->{'seq'} + 0 } =
+          $self->presentdoc->{$thisdoc}->{'key'};
+        $components->{ $self->presentdoc->{$thisdoc}->{'key'} }->{'label'} =
+          $self->presentdoc->{$thisdoc}->{'label'};
+        if ( exists $self->presentdoc->{$thisdoc}->{'canonicalMaster'} ) {
+            $components->{ $self->presentdoc->{$thisdoc}->{'key'} }
+              ->{'canonicalMaster'} =
+              $self->presentdoc->{$thisdoc}->{'canonicalMaster'};
+        }
+        if (
+            exists $self->presentdoc->{$thisdoc}->{'canonicalMasterExtension'} )
+        {
+            $components->{ $self->presentdoc->{$thisdoc}->{'key'} }
+              ->{'canonicalMasterExtension'} =
+              $self->presentdoc->{$thisdoc}->{'canonicalMasterExtension'};
+        }
+        if ( exists $self->presentdoc->{$thisdoc}->{'noid'} ) {
+            $components->{ $self->presentdoc->{$thisdoc}->{'key'} }->{'noid'} =
+              $self->presentdoc->{$thisdoc}->{'noid'};
+        }
+        if ( exists $self->presentdoc->{$thisdoc}->{'canonicalMasterWidth'} ) {
+            $components->{ $self->presentdoc->{$thisdoc}->{'key'} }
+              ->{'canonicalMasterWidth'} =
+              $self->presentdoc->{$thisdoc}->{'canonicalMasterWidth'};
+        }
+        if ( exists $self->presentdoc->{$thisdoc}->{'canonicalMasterHeight'} ) {
+            $components->{ $self->presentdoc->{$thisdoc}->{'key'} }
+              ->{'canonicalMasterHeight'} =
+              $self->presentdoc->{$thisdoc}->{'canonicalMasterHeight'};
+        }
+        if ( exists $self->presentdoc->{$thisdoc}->{'canonicalDownload'} ) {
+            $components->{ $self->presentdoc->{$thisdoc}->{'key'} }
+              ->{'canonicalDownload'} =
+              $self->presentdoc->{$thisdoc}->{'canonicalDownload'};
+        }
+        if (
+            exists $self->presentdoc->{$thisdoc}->{'canonicalDownloadExtension'}
+          )
+        {
+            $components->{ $self->presentdoc->{$thisdoc}->{'key'} }
+              ->{'canonicalDownloadExtension'} =
+              $self->presentdoc->{$thisdoc}->{'canonicalDownloadExtension'};
+        }
+        if ( defined $self->presentdoc->{ $self->slug }->{'collection'} ) {
+            $self->presentdoc->{$thisdoc}->{'collection'} =
+              $self->presentdoc->{ $self->slug }->{'collection'};
+            $self->searchdoc->{$thisdoc}->{'collection'} =
+              $self->presentdoc->{ $self->slug }->{'collection'};
+        }
+    }
+    foreach my $page ( sort { $a <=> $b } keys %seq ) {
+        push @order, $seq{$page};
+    }
+
+    # A born digital PDF has no pages, but is still a document.
+    if (@order) {
+        $self->{presentdoc}->{ $self->slug }->{'order'}      = \@order;
+        $self->{presentdoc}->{ $self->slug }->{'components'} = $components;
+        $self->{searchdoc}->{ $self->slug }->{'component_count'} =
+          scalar(@order);
     }
 }
 
