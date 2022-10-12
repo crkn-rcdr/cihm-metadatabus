@@ -192,7 +192,7 @@ sub process {
         if (  !( exists $self->document->{'behavior'} )
             || ( $self->document->{'behavior'} eq "unordered" ) )
         {
-            $self->log->info( "Nothing to do for an unordered collection"
+            $self->log->info( "Nothing to do for an unordered collection "
                   . $self->noid . " ("
                   . $self->slug
                   . ")" );
@@ -454,8 +454,7 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 ## Determine what collections this manifest or collection is in
     $self->{collections}        = {};
     $self->{orderedcollections} = {};
-
-    $self->findCollections( $self->noid );
+    $self->{collectiontree}     = $self->findCollections( $self->noid );
 
     # Ignore parent key from issueinfo records.
     # Concept of 'parent' going away as part of retiring 'issueinfo' records.
@@ -483,18 +482,27 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
             if ($parentdoc) {
                 if ( ( ref $parentdoc->{members} ) eq "ARRAY" ) {
                     my $seq;
+                    my $plabel;
                     foreach my $i ( 0 .. ( @{ $parentdoc->{members} } - 1 ) ) {
                         if ( $parentdoc->{members}->[$i]->{id} eq $self->noid )
                         {
                             $seq = $i + 1;
+                            $plabel =
+                              $self->getIIIFText(
+                                $parentdoc->{members}->[$i]->{'label'} );
+                            if ( !$plabel ) {
+                                $plabel =
+                                  $self->getIIIFText( $parentdoc->{'label'} );
+                            }
                             last;
                         }
                     }
                     if ( defined $seq ) {
 
                         # Was a string, needs to be a string.
-                        $self->attachment->[0]->{'seq'} = "$seq";
-                        $self->docdata->{'seq'} = "$seq";
+                        $self->attachment->[0]->{'seq'}    = "$seq";
+                        $self->attachment->[0]->{'plabel'} = "$plabel";
+                        $self->docdata->{'seq'}            = "$seq";
                     }
                     else {
                         warn "My noid wasn't found in Parent=$noid\n";
@@ -530,41 +538,32 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 sub findCollections {
     my ( $self, $noid ) = @_;
 
-    my @lookupnoid;
-    my %collections;
+    my $foundcollections = $self->getAccessCollections($noid);
+    die "Can't getAccessCollections($noid)\n" if ( !$foundcollections );
 
-    push @lookupnoid, $noid;
+    my @collect;
 
-    # Keep looking until there is nothing new
-    while (@lookupnoid) {
-        my $noid = shift @lookupnoid;
+    foreach my $collection ( @{$foundcollections} ) {
+        my $slim = $self->getAccessSlim( $collection->{id} );
+        if ( ref $slim eq 'HASH' ) {
+            $slim->{noid}        = $collection->{id};
+            $slim->{collections} = $self->findCollections( $collection->{id} );
+            push @collect, $slim;
 
-        my $foundcollections = $self->getAccessCollections($noid);
-        die "Can't getAccessCollections()\n" if ( !$foundcollections );
-
-        foreach my $collection ( @{$foundcollections} ) {
-            if ( !exists $collections{ $collection->{'id'} } ) {
-                $collections{ $collection->{'id'} } = 1;
-                push @lookupnoid, $collection->{'id'};
-            }
-        }
-    }
-
-    foreach my $collection ( keys %collections ) {
-        my $slim = $self->getAccessSlim($collection);
-
-        if ( exists $slim->{slug} ) {
+            # Old style
             my $slug = $slim->{slug};
             if ( !exists $self->{collections}->{$slug} ) {
-                $self->{collections}->{$slug} = $collection;
+                $self->{collections}->{$slug} = $collection->{id};
             }
             if ( exists $slim->{behavior}
                 && ( $slim->{behavior} ne "unordered" ) )
             {
-                $self->{orderedcollections}->{$slug} = $collection;
+                $self->{orderedcollections}->{$slug} = $collection->{id};
             }
+
         }
     }
+    return \@collect;
 }
 
 sub getIIIFText {
@@ -638,7 +637,33 @@ sub getAccessSlim {
                     '$eq' => $docid
                 }
             },
-            "fields" => [ "slug", "behavior" ]
+            "fields" => [ "slug", "behavior", "label" ]
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $res->code == 200 ) {
+        return pop @{ $res->data->{docs} };
+    }
+    else {
+        warn "GET $url return code: " . $res->code . "\n";
+        return;
+    }
+}
+
+sub getSearchItem {
+    my ( $self, $docid ) = @_;
+
+    $self->accessdb->type("application/json");
+    my $url = "/_find";
+    my $res = $self->cosearch2db->post(
+        $url,
+        {
+            "selector" => {
+                "noid" => {
+                    '$eq' => $docid
+                }
+            },
+            "fields" => [ "_id", "pubmin", "label" ]
         },
         { deserializer => 'application/json' }
     );
@@ -693,16 +718,14 @@ sub adddocument {
     $self->presentdoc->{ $self->slug }->{'updated'} =
       DateTime->now()->iso8601() . 'Z';
 
-    # If collections field exists, set accordingly within the item
     # Note: Not stored within pages, so no need to loop through all keys
-    if ( exists $self->docdata->{'collections'} ) {
+    my @collections = sort keys %{ $self->{collections} };
+    $self->presentdoc->{ $self->slug }->{'collection'} = \@collections;
+    $self->searchdoc->{ $self->slug }->{'collection'}  = \@collections;
 
-        # The 's' is not used in the schemas, so not using here.
-        $self->presentdoc->{ $self->slug }->{'collection'} =
-          $self->docdata->{'collections'};
-        $self->searchdoc->{ $self->slug }->{'collection'} =
-          $self->docdata->{'collections'};
-    }
+    # New key to build better breadcrumbs in the future
+    $self->presentdoc->{ $self->slug }->{'collection_tree'} =
+      $self->{collectiontree};
 
     # If a parl/${id}.json file exists, process it.
     if ( -e DATAPATH . "/parl/" . $self->slug . ".json" ) {
@@ -731,13 +754,6 @@ sub adddocument {
     else {
         # Process issue or monograph
 
-        # If 'parent' field exists, process as issue of series
-        if ( exists $self->docdata->{'parent'} ) {
-            $self->process_issue( $self->docdata->{'parent'} );
-        }
-
-        # For the 'collection' field to be complete, processing components
-        # needs to happen after process_issue().
         $self->process_components();
     }
 
@@ -767,7 +783,6 @@ sub adddocument {
     }
 }
 
-# TODO: https://github.com/crkn-rcdr/Access-Platform/issues/400
 # To delete any extra documents that don't match the current IDs (number of pages decreased, slug changed)
 # Use views to create hash of docs based on : IDs of docs, noid view , manifest_noid view
 # Use hash to update _rev of any doc that will be saved (delete key from hash), and then mark to be deleted every document still in hash.
@@ -1025,24 +1040,24 @@ sub process_attachment {
 
         # Copy the fields for copresentation
         foreach my $cf (
-            "key",                      "type",
-            "label",                    "pkey",
-            "seq",                      "lang",
-            "media",                    "identifier",
-            "canonicalUri",             "canonicalMaster",
-            "canonicalMasterExtension", "canonicalMasterMime",
-            "canonicalMasterSize",      "canonicalMasterMD5",
-            "canonicalMasterWidth",     "canonicalMasterHeight",
-            "canonicalDownload",        "canonicalDownloadExtension",
-            "canonicalDownloadMime",    "canonicalDownloadSize",
-            "canonicalDownloadMD5",     "ti",
-            "au",                       "pu",
-            "su",                       "no",
-            "ab",                       "no_source",
-            "no_rights",                "component_count_fulltext",
-            "component_count",          "noid",
-            "file",                     "ocrPdf",
-            "manifest_noid"
+            "key",                        "type",
+            "label",                      "pkey",
+            "plabel",                     "seq",
+            "lang",                       "media",
+            "identifier",                 "canonicalUri",
+            "canonicalMaster",            "canonicalMasterExtension",
+            "canonicalMasterMime",        "canonicalMasterSize",
+            "canonicalMasterMD5",         "canonicalMasterWidth",
+            "canonicalMasterHeight",      "canonicalDownload",
+            "canonicalDownloadExtension", "canonicalDownloadMime",
+            "canonicalDownloadSize",      "canonicalDownloadMD5",
+            "ti",                         "au",
+            "pu",                         "su",
+            "no",                         "ab",
+            "no_source",                  "no_rights",
+            "component_count_fulltext",   "component_count",
+            "noid",                       "file",
+            "ocrPdf",                     "manifest_noid"
           )
         {
             $self->presentdoc->{$key}->{$cf} = $doc->{$cf}
@@ -1172,90 +1187,29 @@ sub process_externalmetaHP {
     }
 }
 
-sub process_issue {
-    my ( $self, $parent ) = @_;
-
-    #TODO: Look up in `access` to find label, etc
-
-=pod
-    # Force parent to be processed (likely again) later, and grab label
-    my $res = $self->internalmeta2->post( "/_design/tdr/_update/parent/$parent",
-        {}, { deserializer => 'application/json' } );
-    if ( $res->code != 201 && $res->code != 200 ) {
-        die "_update/parent/$parent POST return code: " . $res->code . "\n";
-    }
-    if ( $res->data->{return} ne 'updated' ) {
-        die "_update/parent/$parent POST function returned: "
-          . $res->data->{return} . "\n";
-    }
-    $self->presentdoc->{ $self->slug }->{'plabel'} = $res->data->{label};
-    $self->searchdoc->{ $self->slug }->{'plabel'}  = $res->data->{label};
-
-    # Merge collection information
-    if ( exists $res->data->{collection} ) {
-        my %collections;
-        foreach my $a ( @{ $res->data->{'collection'} } ) {
-            $collections{$a} = 1;
-        }
-        foreach
-          my $a ( @{ $self->presentdoc->{ $self->slug }->{'collection'} } )
-        {
-            $collections{$a} = 1;
-        }
-
-        my @collections = sort keys %collections;
-
-        $self->presentdoc->{ $self->slug }->{'collection'} = \@collections;
-
-        $self->searchdoc->{ $self->slug }->{'collection'} =
-          $self->presentdoc->{ $self->slug }->{'collection'};
-    }
-=cut
-
-}
-
 sub process_series {
     my ($self) = @_;
 
     my @order;
     my $items = {};
 
-    #TODO: Order is in the multi-part collection document itself....
+    die "{members} is not an array\n"
+      if ( ref $self->document->{members} ne 'ARRAY' );
 
-=pod
-    # Look up issues for this series
-    $self->internalmeta2->type("application/json");
-    my $res = $self->internalmeta2->get(
-        "/_design/tdr/_view/issues?reduce=false&startkey=[\""
-          . $self->slug
-          . "\"]&endkey=[\""
-          . $self->slug
-          . "\",{}]",
-        {},
-        { deserializer => 'application/json' }
-    );
-    if ( $res->code != 200 ) {
-        die "_view/issues for "
-          . $self->slug
-          . " return code: "
-          . $res->code . "\n";
-    }
-    foreach my $issue ( @{ $res->data->{rows} } ) {
+# Order is in the multi-part collection, but values we need are in search documents that need to be processed first!
 
-        # Only add issues which have been approved
-        if ( $issue->{value}->{approved} ) {
-            delete $issue->{value}->{approved};
-            push( @order, $issue->{id} );
-
-            # All the other values from the map are currently used
-            # for the items field
-            $items->{ $issue->{id} } = $issue->{value};
+    foreach my $issue ( @{ $self->document->{members} } ) {
+        my $item = $self->getSearchItem( $issue->{id} );
+        if ($item) {
+            my $slug = delete $item->{'_id'};
+            $items->{$slug} = $item;
+            push @order, $slug;
         }
     }
+
     $self->presentdoc->{ $self->slug }->{'order'}     = \@order;
     $self->presentdoc->{ $self->slug }->{'items'}     = $items;
     $self->searchdoc->{ $self->slug }->{'item_count'} = scalar(@order);
-=cut
 
 }
 
