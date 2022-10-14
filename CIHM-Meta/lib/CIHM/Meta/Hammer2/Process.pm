@@ -10,7 +10,7 @@ use URI::Escape;
 use CIHM::Meta::dmd::flatten qw(normaliseSpace);
 use List::MoreUtils qw(uniq);
 use File::Temp;
-use Data::Dumper;
+#use Data::Dumper;
 
 =head1 NAME
 
@@ -461,10 +461,11 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     delete $self->attachment->[0]->{'pkey'};
     my @parents = keys %{ $self->{orderedcollections} };
     if (@parents) {
-        if ( @parents != 1 ) {
-            warn "A member of more than a single ordered collection\n";
-        }
         my $parent = shift @parents;
+        if ( @parents != 0 ) {
+            warn
+"A member of more than a single ordered collection. Only processing '$parent'\n";
+        }
         if ($parent) {
 
             # Old platform didn't include 'series' records in collections.
@@ -532,6 +533,16 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     }
     else {
         $self->deletedocument();
+    }
+
+    # Force re-processing of collections which this document is a member of.
+    # Nothing is done for "unordered" collections, but
+    # "multi-part" collections have fields dependent on descendents.
+    foreach my $ancestor ( @{ $self->{collectiontree} } ) {
+        my $noid = $ancestor->{noid};
+        if ($noid) {
+            $self->forceAccessUpdate($noid);
+        }
     }
 }
 
@@ -673,6 +684,19 @@ sub getSearchItem {
     else {
         warn "GET $url return code: " . $res->code . "\n";
         return;
+    }
+}
+
+sub forceAccessUpdate {
+    my ( $self, $noid ) = @_;
+
+    $self->accessdb->type("application/json");
+    my $url = "/_design/access/_update/forceUpdate/" . uri_escape_utf8($noid);
+
+    my $res =
+      $self->accessdb->post( $url, {}, { deserializer => 'application/json' } );
+    if ( $res->code != 201 ) {
+        warn "POST $url return code: " . $res->code . "(" . $res->error . ")\n";
     }
 }
 
