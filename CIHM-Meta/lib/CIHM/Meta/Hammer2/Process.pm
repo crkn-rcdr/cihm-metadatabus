@@ -294,7 +294,10 @@ sub process {
             $self->attachment->[ $i + 1 ]->{'key'} =
               $self->slug . "." . ( $i + 1 );
         }
-        my @canvases = @{ $self->getCanvasDocuments( \@canvasids ) };
+        my $tempcanvases = $self->getCanvasDocuments( \@canvasids );
+        die "Can't getCanvasDocuments()\n"
+          if ( ref $tempcanvases ne 'ARRAY' );
+        my @canvases = @{$tempcanvases};
         die "Array length mismatch\n" if ( @canvases != @canvasids );
 
         foreach my $i ( 0 .. ( @canvases - 1 ) ) {
@@ -574,6 +577,9 @@ sub findCollections {
             }
 
         }
+        else {
+            die "Unable to findCollections($noid)\n";
+        }
     }
     return \@collect;
 }
@@ -615,7 +621,10 @@ sub getCanvasDocuments {
         return \@return;
     }
     else {
-        warn "POST $url return code: " . $res->code . "\n";
+        if ( defined $res->response->content ) {
+            $self->log->warn( $res->response->content );
+        }
+        $self->log->warn( "POST $url return code: " . $res->code );
         return;
     }
 }
@@ -631,7 +640,10 @@ sub getAccessDocument {
         return $res->data;
     }
     else {
-        warn "GET $url return code: " . $res->code . "\n";
+        if ( defined $res->response->content ) {
+            $self->log->warn( $res->response->content );
+        }
+        $self->log->warn( "GET $url return code: " . $res->code );
         return;
     }
 }
@@ -657,7 +669,10 @@ sub getAccessSlim {
         return pop @{ $res->data->{docs} };
     }
     else {
-        warn "GET $url return code: " . $res->code . "\n";
+        if ( defined $res->response->content ) {
+            $self->log->warn( $res->response->content );
+        }
+        $self->log->warn( "GET $url return code: " . $res->code );
         return;
     }
 }
@@ -697,14 +712,18 @@ sub forceAccessUpdate {
     my $res =
       $self->accessdb->post( $url, {}, { deserializer => 'application/json' } );
     if ( $res->code != 201 ) {
-        warn "POST $url return code: " . $res->code . "(" . $res->error . ")\n";
+        if ( defined $res->response->content ) {
+            $self->log->warn( $res->response->content );
+        }
+        $self->log->warn(
+            "POST $url return code: " . $res->code . "(" . $res->error . ")" );
     }
 }
 
 sub getAccessCollections {
     my ( $self, $docid ) = @_;
 
-    #TODO: generalize this.  Not sure why this view is special (slow calculation after update?)
+#TODO: generalize this.  Not sure why this view is special (slow calculation after update?)
     my $tries = 5;
 
     $self->accessdb->type("application/json");
@@ -855,9 +874,9 @@ sub update_couch {
     }
     else {
         if ( defined $res->response->content ) {
-            warn $res->response->content . "\n";
+            $self->log->warn( $res->response->content );
         }
-        die "update_couch $url return code: " . $res->code . "\n";
+        die "update_couch() $url return code: " . $res->code . "\n";
     }
 
     # Looking up the noid
