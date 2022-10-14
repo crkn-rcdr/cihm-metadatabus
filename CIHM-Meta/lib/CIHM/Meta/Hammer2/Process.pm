@@ -10,6 +10,7 @@ use URI::Escape;
 use CIHM::Meta::dmd::flatten qw(normaliseSpace);
 use List::MoreUtils qw(uniq);
 use File::Temp;
+
 #use Data::Dumper;
 
 =head1 NAME
@@ -703,22 +704,33 @@ sub forceAccessUpdate {
 sub getAccessCollections {
     my ( $self, $docid ) = @_;
 
+    #TODO: generalize this.  Not sure why this view is special (slow calculation after update?)
+    my $tries = 5;
+
     $self->accessdb->type("application/json");
     my $url = "/_design/access/_view/members";
-    my $res = $self->accessdb->post(
-        $url,
-        { keys         => [$docid] },
-        { deserializer => 'application/json' }
-    );
-    if ( $res->code == 200 ) {
-        return $res->data->{rows};
-    }
-    else {
-        warn "POST $url keys=[$docid] return code: "
-          . $res->code . "("
-          . $res->error . ")\n";
-        return;
-    }
+
+    do {
+        my $res = $self->accessdb->post(
+            $url,
+            { keys         => [$docid] },
+            { deserializer => 'application/json' }
+        );
+        if ( $res->code == 200 ) {
+            return $res->data->{rows};
+        }
+        else {
+            $tries--;
+            if ( defined $res->response->content ) {
+                $self->log->warn( $res->response->content );
+            }
+            $self->log->warn( "POST $url keys=[$docid] return code: "
+                  . $res->code . " ("
+                  . $res->error
+                  . ") retries=$tries" );
+        }
+    } until ( !$tries );
+    return;
 }
 
 sub deletedocument {
@@ -867,9 +879,9 @@ sub update_couch {
     }
     else {
         if ( defined $res->response->content ) {
-            warn $res->response->content . "\n";
+            $self->log->warn( $res->response->content );
         }
-        die "update_couch $url return code: " . $res->code . "\n";
+        die "update_couch() $url return code: " . $res->code . "\n";
     }
 
     # Looking up the manifest_noid
@@ -891,7 +903,7 @@ sub update_couch {
     }
     else {
         if ( defined $res->response->content ) {
-            warn $res->response->content . "\n";
+            $self->log->warn( $res->response->content );
         }
         die "update_couch $url return code: " . $res->code . "\n";
     }
@@ -926,7 +938,7 @@ sub update_couch {
         }
         else {
             if ( defined $res->response->content ) {
-                warn $res->response->content . "\n";
+                $self->log->warn( $res->response->content );
             }
             die "update_couch $url return code: " . $res->code . "\n";
         }
@@ -977,7 +989,7 @@ sub update_couch {
     }
     else {
         if ( defined $res->response->content ) {
-            warn $res->response->content . "\n";
+            $self->log->warn( $res->response->content );
         }
         die "update_couch $url return code: " . $res->code . "\n";
     }
