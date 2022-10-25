@@ -36,9 +36,13 @@ RUN mkdir -p /opt/xml && svn co https://github.com/crkn-rcdr/Digital-Preservatio
   xmlcatalog --noout --add uri http://www.w3.org/2001/03/xml.xsd file:///opt/xml/current/unpublished/xsd/xml.xsd /etc/xml/catalog
 
 WORKDIR /home/tdr
-COPY cpanfile* *.conf /home/tdr/
+COPY cpanfile* *.conf *.tar.gz /home/tdr/
 COPY aliases /etc/aliases
 
+# https://metacpan.org/dist/AnyEvent-Fork-Pool -- file not found.
+# Built dist to manually install via http://software.schmorp.de/pkg/AnyEvent-Fork-Pool.html 
+# Specifically the "Download GNU tarball" from http://cvs.schmorp.de/AnyEvent-Fork-Pool/
+RUN cpanm -n --reinstall /home/tdr/AnyEvent-Fork-Pool-1.2.tar.gz && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
 RUN cpanm -n --installdeps . && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
 
 COPY CIHM-Normalise CIHM-Normalise
