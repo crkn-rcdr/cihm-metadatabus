@@ -16,7 +16,7 @@ use JSON;
 
 =head1 NAME
 
-CIHM::Meta::Hammer2 - Normalize metadata from new access platform databases and file store, and post to "internalmeta2"
+CIHM::Meta::Hammer2 - Normalize metadata from new access platform databases and file store, and post to "cosearch2" and "copresentation2"
 
 
 =head1 SYNOPSIS
@@ -77,7 +77,8 @@ sub new {
     $self->accessdb->type("application/json");
     my $test = $self->accessdb->head("/");
     if ( !$test || $test->code != 200 ) {
-        die "Problem connecting to Couchdb database. Check configuration\n";
+        die
+"Problem connecting to 'access' Couchdb database. Check configuration\n";
     }
 
     $self->{slug} = delete $self->args->{slug};

@@ -17,9 +17,13 @@ $couchdb_access = $ENV{COUCHDB_ACCESS} if ( exists $ENV{COUCHDB_ACCESS} );
 my $couchdb_canvas;
 $couchdb_canvas = $ENV{COUCHDB_CANVAS} if ( exists $ENV{COUCHDB_CANVAS} );
 
-my $couchdb_internalmeta2;
-$couchdb_internalmeta2 = $ENV{COUCHDB_INTERNALMETA2}
-  if ( exists $ENV{COUCHDB_INTERNALMETA2} );
+my $couchdb_cosearch2;
+$couchdb_cosearch2 = $ENV{COUCHDB_COSEARCH2}
+  if ( exists $ENV{COUCHDB_COSEARCH2} );
+
+my $couchdb_copresentation2;
+$couchdb_copresentation2 = $ENV{COUCHDB_COPRESENTATION2}
+  if ( exists $ENV{COUCHDB_COPRESENTATION2} );
 
 my $swift_server;
 $swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
@@ -63,22 +67,23 @@ my $timelimit;
 my $slug;
 
 GetOptions(
-    'lockfile:s'              => \$lockfile,
-    'skip:i'                  => \$skip,
-    'maxprocs:i'              => \$maxprocs,
-    'limit:i'                 => \$limit,
-    'timelimit:i'             => \$timelimit,
-    'couchdb_access:s'        => \$couchdb_access,
-    'couchdb_canvas:s'        => \$couchdb_canvas,
-    'couchdb_internalmeta2:s' => \$couchdb_internalmeta2,
-    'slug:s'                  => \$slug,
-    'swift_server:s'          => \$swift_server,
-    'swift_user:s'            => \$swift_user,
-    'swift_password:s'        => \$swift_password,
-    'swift_account:s'         => \$swift_account,
-    'swift_access_metadata:s' => \$swift_access_metadata,
-    'iiif_image_server:s'     => \$iiif_image_server,
-    'iiif_image_password:s'   => \$iiif_image_password,
+    'lockfile:s'                => \$lockfile,
+    'skip:i'                    => \$skip,
+    'maxprocs:i'                => \$maxprocs,
+    'limit:i'                   => \$limit,
+    'timelimit:i'               => \$timelimit,
+    'couchdb_access:s'          => \$couchdb_access,
+    'couchdb_canvas:s'          => \$couchdb_canvas,
+    'couchdb_cosearch2:s'       => \$couchdb_cosearch2,
+    'couchdb_copresentation2:s' => \$couchdb_copresentation2,
+    'slug:s'                    => \$slug,
+    'swift_server:s'            => \$swift_server,
+    'swift_user:s'              => \$swift_user,
+    'swift_password:s'          => \$swift_password,
+    'swift_account:s'           => \$swift_account,
+    'swift_access_metadata:s'   => \$swift_access_metadata,
+    'iiif_image_server:s'       => \$iiif_image_server,
+    'iiif_image_password:s'     => \$iiif_image_password,
 
 );
 
@@ -96,9 +101,13 @@ die "couchdb_canvas is mandatory (environment or parameter)\n"
   if ( !$couchdb_canvas );
 $couchdb_canvas = noEndSlash($couchdb_canvas);
 
-die "couchdb_access is mandatory (environment or parameter)\n"
-  if ( !$couchdb_internalmeta2 );
-$couchdb_internalmeta2 = noEndSlash($couchdb_internalmeta2);
+die "couchdb_cosearch2 is mandatory (environment or parameter)\n"
+  if ( !$couchdb_cosearch2 );
+$couchdb_cosearch2 = noEndSlash($couchdb_cosearch2);
+
+die "couchdb_copresentation2 is mandatory (environment or parameter)\n"
+  if ( !$couchdb_copresentation2 );
+$couchdb_copresentation2 = noEndSlash($couchdb_copresentation2);
 
 die "iiif_image_server is mandatory (environment or parameter)\n"
   if ( !$iiif_image_server );
@@ -106,23 +115,24 @@ $iiif_image_server = noEndSlash($iiif_image_server);
 
 CIHM::Meta::Hammer2->new(
     {
-        skip                  => $skip,
-        maxprocs              => $maxprocs,
-        limit                 => $limit,
-        timelimit             => $timelimit,
-        couchdb_access        => $couchdb_access,
-        couchdb_canvas        => $couchdb_canvas,
-        couchdb_internalmeta2 => $couchdb_internalmeta2,
-        slug                  => $slug,
-        swift_server          => $swift_server,
-        swift_user            => $swift_user,
-        swift_password        => $swift_password,
-        swift_account         => $swift_account,
-        access_metadata       => $swift_access_metadata,
-        access_files          => $swift_access_files,
-        preservation_files    => $swift_preservation_files,
-        iiif_image_server     => $iiif_image_server,
-        iiif_image_password   => $iiif_image_password,
+        skip                    => $skip,
+        maxprocs                => $maxprocs,
+        limit                   => $limit,
+        timelimit               => $timelimit,
+        couchdb_access          => $couchdb_access,
+        couchdb_canvas          => $couchdb_canvas,
+        couchdb_cosearch2       => $couchdb_cosearch2,
+        couchdb_copresentation2 => $couchdb_copresentation2,
+        slug                    => $slug,
+        swift_server            => $swift_server,
+        swift_user              => $swift_user,
+        swift_password          => $swift_password,
+        swift_account           => $swift_account,
+        access_metadata         => $swift_access_metadata,
+        access_files            => $swift_access_files,
+        preservation_files      => $swift_preservation_files,
+        iiif_image_server       => $iiif_image_server,
+        iiif_image_password     => $iiif_image_password,
     }
 )->hammer;
 
