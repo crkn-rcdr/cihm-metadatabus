@@ -1,0 +1,193 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
+use File::Find;
+use Data::Dumper;
+use Digest::MD5;
+use JSON;
+use Poppler;
+use XML::LibXML;
+use CIHM::Swift::Client;
+use URI::Escape;
+use DateTime::Format::ISO8601;
+use HTTP::Date qw(:DEFAULT time2isoz);
+use Data::Dumper;
+
+{
+
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
+
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
+sub log_warnings {
+    my $warning = shift;
+    chomp $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    $logger->warn($stripped);
+    print STDERR "$warning\n";
+}
+local $SIG{__WARN__} = sub { &log_warnings };
+
+sub log_info {
+    my $info = shift;
+    chomp $info;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $info ) =~ s/[^\x00-\x7f]//g;
+
+    $logger->info($stripped);
+    print "$info\n";
+}
+
+my $lockfile = '/var/lock/tdr/syncdmd';
+$lockfile = $ENV{ocrload_lockfile} if ( exists $ENV{ocrload_lockfile} );
+
+$logger->info("Sync DMD");
+
+my $swift_server;
+$swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
+
+my $swift_user;
+$swift_user = $ENV{SWIFT_user} if ( exists $ENV{SWIFT_user} );
+
+my $swift_password;
+$swift_password = $ENV{SWIFT_password} if ( exists $ENV{SWIFT_password} );
+
+my $swift_account;
+$swift_account = $ENV{SWIFT_account} if ( exists $ENV{SWIFT_account} );
+
+my $swift_access_metadata;
+$swift_access_metadata = $ENV{SWIFT_access_metadata}
+  if ( exists $ENV{SWIFT_access_metadata} );
+
+my $swift_preservation_files;
+$swift_preservation_files = $ENV{SWIFT_preservation_files}
+  if ( exists $ENV{SWIFT_preservation_files} );
+
+my $retries = 3;
+
+#Change order.  For running a second instance.
+my $reverse;
+
+# Limit for containeropt
+my $limit = 10000;
+GetOptions(
+    'lockfile:s'                 => \$lockfile,
+    'swift_server:s'             => \$swift_server,
+    'swift_user:s'               => \$swift_user,
+    'swift_password:s'           => \$swift_password,
+    'swift_account:s'            => \$swift_account,
+    'swift_access_metadata:s'    => \$swift_access_metadata,
+    'swift_preservation_files:s' => \$swift_preservation_files,
+    'retries:i'                  => \$retries,
+    'reverse'                    => \$reverse,
+    'limit:i'                    => \$limit
+);
+
+# Only allow one instance to run at a time..
+sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
+  or die "can't open lockfile=$lockfile: $!\n";
+flock( FH, LOCK_EX | LOCK_NB )
+  or exit 0;
+
+# Used to show a different processname during processing
+my $syncdmdprog = $0;
+
+my %swiftopt = (
+    furl_options => { timeout => 3600 },
+
+    server   => $swift_server,
+    user     => $swift_user,
+    password => $swift_password,
+    account  => $swift_account,
+
+);
+my $swift = CIHM::Swift::Client->new(%swiftopt);
+
+my $test = $swift->container_head($swift_access_metadata);
+if ( !$test || $test->code != 204 ) {
+    die
+"Problem connecting to Swift container:$swift_access_metadata . Check configuration\n";
+}
+
+$test = $swift->container_head($swift_preservation_files);
+if ( !$test || $test->code != 204 ) {
+    die
+"Problem connecting to Swift container:$swift_preservation_files . Check configuration\n";
+}
+
+my %containeropt = (
+    delimiter => '/',
+    limit     => $limit
+);
+
+my %metadatafiles;
+
+do {
+    my %files;
+    my $dataresp =
+      $swift->container_get( $swift_preservation_files, \%containeropt );
+    if ( $dataresp->code != 200 ) {
+        die "container_get("
+          . $swift_preservation_files
+          . ") returned "
+          . $dataresp->code . " - "
+          . $dataresp->message . "\n";
+    }
+
+    undef $containeropt{'marker'};
+    my $count = scalar( @{ $dataresp->content } );
+    if ( $count && $count == $limit ) {
+        if ( defined $dataresp->content->[ $count - 1 ]->{name} ) {
+            $containeropt{'marker'} =
+              $dataresp->content->[ $count - 1 ]->{name};
+        }
+        else {
+            $containeropt{'marker'} =
+              $dataresp->content->[ $count - 1 ]->{subdir};
+        }
+    }
+    foreach my $object ( @{ $dataresp->content } ) {
+        my $subdir = $object->{subdir};
+        if ($subdir) {
+            my $object = $subdir . "data/sip/data/metadata.xml";
+            my $resp =
+              $swift->object_head( $swift_preservation_files, $object );
+            if ( $resp->code != 200 ) {
+                die "object_head"
+                  . $swift_preservation_files . " , "
+                  . $object
+                  . ") returned "
+                  . $resp->code . " - "
+                  . $resp->message . "\n";
+            }
+            my $lastmodified = $resp->headers->header('last-modified');
+            if ($lastmodified) {
+                my $time  = str2time($lastmodified);
+                my $aipid = $subdir;
+                $aipid =~ s|/+||;
+                $metadatafiles{$aipid} = $time;
+
+                print "$aipid=" . time2isoz($time) . "\n";
+            }
+        }
+    }
+} until ( !defined $containeropt{'marker'} );
+
+print Dumper ( \%metadatafiles );
+print "Count=" . scalar( keys %metadatafiles ) . "\n";
