@@ -19,6 +19,11 @@ use URI::Escape;
 use DateTime::Format::ISO8601;
 use HTTP::Date qw(:DEFAULT time2isoz);
 use Data::Dumper;
+use File::Path qw(make_path remove_tree);
+use File::Spec;
+use XML::LibXML;
+use utf8;
+
 
 {
 
@@ -54,8 +59,11 @@ sub log_info {
     print "$info\n";
 }
 
+my $dmddir = '/crkn-nas-wip/_Metadata_Sychronised';
+$dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
+
 my $lockfile = '/var/lock/tdr/syncdmd';
-$lockfile = $ENV{ocrload_lockfile} if ( exists $ENV{ocrload_lockfile} );
+$lockfile = $ENV{syncdmd_lockfile} if ( exists $ENV{syncdmd_lockfile} );
 
 $logger->info("Sync DMD");
 
@@ -88,6 +96,7 @@ my $reverse;
 my $limit = 10000;
 GetOptions(
     'lockfile:s'                 => \$lockfile,
+    'dmddir:s'                   => \$dmddir,
     'swift_server:s'             => \$swift_server,
     'swift_user:s'               => \$swift_user,
     'swift_password:s'           => \$swift_password,
@@ -105,6 +114,14 @@ sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
 flock( FH, LOCK_EX | LOCK_NB )
   or exit 0;
 
+# Create both parent directories...
+my $accessdir       = File::Spec->catfile( $dmddir, 'access' );
+my $preservationdir = File::Spec->catfile( $dmddir, 'preservation' );
+
+my @pathdir = make_path( $accessdir, $preservationdir );
+die "Didn't create $accessdir\n"       if ( !-d $accessdir );
+die "Didn't create $preservationdir\n" if ( !-d $preservationdir );
+
 # Used to show a different processname during processing
 my $syncdmdprog = $0;
 
@@ -119,12 +136,14 @@ my %swiftopt = (
 );
 my $swift = CIHM::Swift::Client->new(%swiftopt);
 
+die "Missing `swift_access_metadata`" if !defined $swift_access_metadata;
 my $test = $swift->container_head($swift_access_metadata);
 if ( !$test || $test->code != 204 ) {
     die
 "Problem connecting to Swift container:$swift_access_metadata . Check configuration\n";
 }
 
+die "Missing `swift_preservation_files`" if !defined $swift_preservation_files;
 $test = $swift->container_head($swift_preservation_files);
 if ( !$test || $test->code != 204 ) {
     die
@@ -136,7 +155,7 @@ my %containeropt = (
     limit     => $limit
 );
 
-my %metadatafiles;
+$containeropt{'marker'} = 'oocihm.40185';
 
 do {
     my %files;
@@ -169,7 +188,7 @@ do {
             my $resp =
               $swift->object_head( $swift_preservation_files, $object );
             if ( $resp->code != 200 ) {
-                die "object_head"
+                die "object_head ("
                   . $swift_preservation_files . " , "
                   . $object
                   . ") returned "
@@ -181,13 +200,119 @@ do {
                 my $time  = str2time($lastmodified);
                 my $aipid = $subdir;
                 $aipid =~ s|/+||;
-                $metadatafiles{$aipid} = $time;
 
-                print "$aipid=" . time2isoz($time) . "\n";
+                # Check the time of the file on filesystem.
+                # only GET if it is a different time
+                getMETS( $aipid, $time, $object )
+
             }
         }
     }
 } until ( !defined $containeropt{'marker'} );
 
-print Dumper ( \%metadatafiles );
-print "Count=" . scalar( keys %metadatafiles ) . "\n";
+sub getMETS {
+    my ( $aipid, $time, $object ) = @_;
+
+    $0 = $syncdmdprog . " getMETS $object";
+
+    my $resp = $swift->object_get( $swift_preservation_files, $object );
+    if ( $resp->code != 200 ) {
+        die "object_get ("
+          . $swift_preservation_files . " , "
+          . $object
+          . ") returned "
+          . $resp->code . " - "
+          . $resp->message . "\n";
+    }
+
+    my $xml = XML::LibXML->new->parse_string( $resp->content );
+    my $xpc = XML::LibXML::XPathContext->new;
+    $xpc->registerNs( 'mets',  "http://www.loc.gov/METS/" );
+    $xpc->registerNs( 'xlink', "http://www.w3.org/1999/xlink" );
+
+    my @nodes =
+      $xpc->findnodes( "descendant::mets:structMap[\@TYPE=\"physical\"]",
+        $xml );
+    if ( scalar(@nodes) != 1 ) {
+        die "Found " . scalar(@nodes) . " structMap(TYPE=physical)\n";
+    }
+    my @divs = $xpc->findnodes( 'descendant::mets:div', $nodes[0] );
+    if (@divs) {
+        my $div  = $divs[0];
+        my $type = $div->getAttribute('TYPE');
+        if (   ( $type ne 'document' )
+            && ( $type ne 'issue' )
+            && ( $type ne 'series' ) )
+        {
+            die
+              "First DIV of METS isn't type=document|issue| , but type=$type\n";
+        }
+        my $dmdid = $div->getAttribute('DMDID');
+        if ($dmdid) {
+            my @dmdsec =
+              $xpc->findnodes( "descendant::mets:dmdSec[\@ID=\"$dmdid\"]",
+                $xml );
+            if ( scalar(@dmdsec) != 1 ) {
+                die "Found " . scalar(@dmdsec) . " dmdSec for ID=$dmdid\n";
+            }
+            my @md = $dmdsec[0]->nonBlankChildNodes();
+            if ( scalar(@md) != 1 ) {
+                die "Found " . scalar(@md) . " children for dmdSec ID=$dmdid\n";
+            }
+            my @types = split( /:/, $md[0]->nodeName );
+            my $type = pop(@types);
+
+            my $mdtype = $md[0]->getAttribute('MDTYPE');
+            if ( $mdtype eq 'OTHER' ) {
+                $mdtype = $md[0]->getAttribute('OTHERMDTYPE');
+            }
+            my @mdrecords = $md[0]->nonBlankChildNodes();
+            my @records   = $mdrecords[0]->nonBlankChildNodes();
+            my $xmlrecord = $records[0]->toString(0);
+
+            storeDMD( $preservationdir, $aipid, $time, $mdtype, $xmlrecord )
+
+        }
+    }
+    else {
+        die "No DIVS in METS for $aipid\n";
+    }
+
+}
+
+sub pathID {
+    my ( $basepath, $id, $type ) = @_;
+
+    # Create a full path based on ID
+    my $idpath = $id;
+    $idpath =~ s/\.[^\.]*$//;
+    $idpath =~ s/\./\//g;
+
+    my $path =
+      File::Spec->catfile( $basepath, $idpath, $id . "-" . $type . ".xml" );
+    return $path;
+
+}
+
+sub storeDMD {
+    my ( $basepath, $id, $time, $type, $xml ) = @_;
+
+    my $path = pathID( $basepath, $id, $type );
+
+    my ( $volume, $directories, $file ) = File::Spec->splitpath($path);
+    make_path($directories);
+
+    $0 = $syncdmdprog . " storeDMD $file";
+
+    open( my $fh, '>:encoding(UTF-8)', $path )
+      or die "Could not open file '$path' $!";
+
+    print $fh $xml;
+    close $fh;
+
+    my $atime = time;
+    utime $atime, $time, $path;
+
+    print "$path = " . time2isoz($time) . "\n";
+
+}
