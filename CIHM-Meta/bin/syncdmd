@@ -21,9 +21,9 @@ use HTTP::Date qw(:DEFAULT time2isoz);
 use Data::Dumper;
 use File::Path qw(make_path remove_tree);
 use File::Spec;
+use File::stat;
 use XML::LibXML;
 use utf8;
-
 
 {
 
@@ -32,6 +32,9 @@ use utf8;
     use Moo;
     with 'Role::REST::Client';
 }
+
+# There are only 3 valid types of descriptive metadata
+my @dmdtypes = ( "issueinfo", "DC", "MARC" );
 
 Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
 my $logger = Log::Log4perl::get_logger("CIHM::TDR");
@@ -92,6 +95,14 @@ my $retries = 3;
 #Change order.  For running a second instance.
 my $reverse;
 
+# Markers for Preservatin and Access
+my $pmarker;
+my $amarker;
+
+# Skip Preservation and Access
+my $pskip;
+my $askip;
+
 # Limit for containeropt
 my $limit = 10000;
 GetOptions(
@@ -105,7 +116,12 @@ GetOptions(
     'swift_preservation_files:s' => \$swift_preservation_files,
     'retries:i'                  => \$retries,
     'reverse'                    => \$reverse,
-    'limit:i'                    => \$limit
+    'limit:i'                    => \$limit,
+    'amarker:s'                  => \$amarker,
+    'pmarker:s'                  => \$pmarker,
+    'askip'                      => \$askip,
+    'pskip'                      => \$pskip,
+
 );
 
 # Only allow one instance to run at a time..
@@ -150,65 +166,127 @@ if ( !$test || $test->code != 204 ) {
 "Problem connecting to Swift container:$swift_preservation_files . Check configuration\n";
 }
 
-my %containeropt = (
-    delimiter => '/',
-    limit     => $limit
-);
+if ( !$pskip ) {
+    my %containeropt = (
+        delimiter => '/',
+        limit     => $limit,
+        marker    => $pmarker
+    );
 
-$containeropt{'marker'} = 'oocihm.40185';
-
-do {
-    my %files;
-    my $dataresp =
-      $swift->container_get( $swift_preservation_files, \%containeropt );
-    if ( $dataresp->code != 200 ) {
-        die "container_get("
-          . $swift_preservation_files
-          . ") returned "
-          . $dataresp->code . " - "
-          . $dataresp->message . "\n";
-    }
-
-    undef $containeropt{'marker'};
-    my $count = scalar( @{ $dataresp->content } );
-    if ( $count && $count == $limit ) {
-        if ( defined $dataresp->content->[ $count - 1 ]->{name} ) {
-            $containeropt{'marker'} =
-              $dataresp->content->[ $count - 1 ]->{name};
+    do {
+        my %files;
+        my $dataresp =
+          $swift->container_get( $swift_preservation_files, \%containeropt );
+        if ( $dataresp->code != 200 ) {
+            die "container_get("
+              . $swift_preservation_files
+              . ") returned "
+              . $dataresp->code . " - "
+              . $dataresp->message . "\n";
         }
-        else {
-            $containeropt{'marker'} =
-              $dataresp->content->[ $count - 1 ]->{subdir};
-        }
-    }
-    foreach my $object ( @{ $dataresp->content } ) {
-        my $subdir = $object->{subdir};
-        if ($subdir) {
-            my $object = $subdir . "data/sip/data/metadata.xml";
-            my $resp =
-              $swift->object_head( $swift_preservation_files, $object );
-            if ( $resp->code != 200 ) {
-                die "object_head ("
-                  . $swift_preservation_files . " , "
-                  . $object
-                  . ") returned "
-                  . $resp->code . " - "
-                  . $resp->message . "\n";
+
+        undef $containeropt{'marker'};
+        my $count = scalar( @{ $dataresp->content } );
+        if ( $count && $count == $limit ) {
+            if ( defined $dataresp->content->[ $count - 1 ]->{name} ) {
+                $containeropt{'marker'} =
+                  $dataresp->content->[ $count - 1 ]->{name};
             }
-            my $lastmodified = $resp->headers->header('last-modified');
-            if ($lastmodified) {
-                my $time  = str2time($lastmodified);
-                my $aipid = $subdir;
-                $aipid =~ s|/+||;
-
-                # Check the time of the file on filesystem.
-                # only GET if it is a different time
-                getMETS( $aipid, $time, $object )
-
+            else {
+                $containeropt{'marker'} =
+                  $dataresp->content->[ $count - 1 ]->{subdir};
             }
         }
-    }
-} until ( !defined $containeropt{'marker'} );
+        foreach my $object ( @{ $dataresp->content } ) {
+            my $subdir = $object->{subdir};
+            if ($subdir) {
+                my $object = $subdir . "data/sip/data/metadata.xml";
+                $0 = $syncdmdprog . " looking at $object";
+                my $resp =
+                  $swift->object_head( $swift_preservation_files, $object );
+                if ( $resp->code != 200 ) {
+                    die "object_head ("
+                      . $swift_preservation_files . " , "
+                      . $object
+                      . ") returned "
+                      . $resp->code . " - "
+                      . $resp->message . "\n";
+                }
+                my $lastmodified = $resp->headers->header('last-modified');
+                if ($lastmodified) {
+                    my $time  = str2time($lastmodified);
+                    my $aipid = $subdir;
+                    $aipid =~ s|/+||;
+
+                    my @foundpaths;
+                  TYPE: foreach my $type (@dmdtypes) {
+                        my $path = pathID( $preservationdir, $aipid, $type );
+                        my $st = stat($path);
+                        next TYPE if !$st;
+
+                        push @foundpaths, ( $st->mtime == $time );
+                    }
+
+           # If there are no files, more than 1 files, or the date didn't match.
+                    if (   scalar(@foundpaths) == 0
+                        || scalar(@foundpaths) > 1
+                        || !( $foundpaths[0] ) )
+                    {
+                        getMETS( $aipid, $time, $object );
+                    }
+                }
+            }
+        }
+    } until ( !defined $containeropt{'marker'} );
+}
+
+if ( !$askip ) {
+    print "Scan Access...\n";
+
+    my %containeropt = (
+        limit  => $limit,
+        marker => $amarker
+    );
+
+    do {
+        my %files;
+        my $dataresp =
+          $swift->container_get( $swift_access_metadata, \%containeropt );
+        if ( $dataresp->code != 200 ) {
+            die "container_get("
+              . $swift_access_metadata
+              . ") returned "
+              . $dataresp->code . " - "
+              . $dataresp->message . "\n";
+        }
+
+        undef $containeropt{'marker'};
+        my $count = scalar( @{ $dataresp->content } );
+        if ( $count && $count == $limit ) {
+            if ( defined $dataresp->content->[ $count - 1 ]->{name} ) {
+                $containeropt{'marker'} =
+                  $dataresp->content->[ $count - 1 ]->{name};
+            }
+            else {
+                $containeropt{'marker'} =
+                  $dataresp->content->[ $count - 1 ]->{subdir};
+            }
+        }
+        foreach my $object ( @{ $dataresp->content } ) {
+            if ( defined $object->{name} ) {
+                my $name = $object->{name};
+                $0 = $syncdmdprog . " looking at $name";
+                my ( $volume, $directories, $file ) =
+                  File::Spec->splitpath($name);
+                next if ( $file eq 'ocrALTO.xml' || $file eq 'ocrTXTMAP.xml' );
+                print "volume=$volume  directories=$directories   file=$file\n";
+            }
+            else {
+                print Dumper ($object);
+            }
+        }
+    } until ( !defined $containeropt{'marker'} );
+}
 
 sub getMETS {
     my ( $aipid, $time, $object ) = @_;
@@ -303,6 +381,14 @@ sub storeDMD {
     make_path($directories);
 
     $0 = $syncdmdprog . " storeDMD $file";
+
+    # Clear any existing files first, in case type changed.
+    foreach my $dmdtype (@dmdtypes) {
+        my $temppath = pathID( $basepath, $id, $dmdtype );
+        my $st = stat($temppath);
+        next if !$st;
+        unlink $temppath;
+    }
 
     open( my $fh, '>:encoding(UTF-8)', $path )
       or die "Could not open file '$path' $!";
