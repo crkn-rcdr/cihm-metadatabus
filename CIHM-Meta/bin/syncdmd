@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+package SyncDMD;
+
 use strict;
 use warnings;
 use FindBin;
@@ -18,7 +20,6 @@ use CIHM::Swift::Client;
 use URI::Escape;
 use DateTime::Format::ISO8601;
 use HTTP::Date qw(:DEFAULT time2isoz);
-use Data::Dumper;
 use File::Path qw(make_path remove_tree);
 use File::Spec;
 use File::stat;
@@ -52,17 +53,6 @@ sub log_warnings {
 }
 local $SIG{__WARN__} = sub { &log_warnings };
 
-sub log_info {
-    my $info = shift;
-    chomp $info;
-
-    # Strip wide characters before  trying to log
-    ( my $stripped = $info ) =~ s/[^\x00-\x7f]//g;
-
-    $logger->info($stripped);
-    print "$info\n";
-}
-
 my $dmddir = '/crkn-nas-wip/_Metadata_Sychronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
 
@@ -73,7 +63,7 @@ my $couchdb_access;
 $couchdb_access = $ENV{COUCHDB_ACCESS}
   if ( exists $ENV{COUCHDB_ACCESS} );
 
-$logger->info("Sync DMD");
+$logger->info("Sync DMD: start");
 
 my $swift_server;
 $swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
@@ -189,7 +179,15 @@ if ( !$test || $test->code != 200 ) {
 }
 
 if ( !$pskip ) {
-    log_info("Scan Preservation...");
+    scan_preservation();
+}
+if ( !$askip ) {
+    scan_access();
+}
+$logger->info("Sync DMD: done");
+
+sub scan_preservation {
+    $logger->info("Scan Preservation...");
 
     my %containeropt = (
         delimiter => '/',
@@ -260,18 +258,18 @@ if ( !$pskip ) {
                     }
                 }
                 else {
-                    log_warnings("No last modified for $object");
+                    warn("No last modified for $object\n");
                 }
             }
             else {
-                log_info( Dumper($object) );
+                warn( "No {subdir} in: \n" . Dumper($object) . "\n" );
             }
         }
     } until ( !defined $containeropt{'marker'} );
 }
 
-if ( !$askip ) {
-    log_info("Scan Access...");
+sub scan_access {
+    $logger->info("Scan Access...");
 
     my $url   = '/_find';
     my $query = {
@@ -332,7 +330,7 @@ if ( !$askip ) {
                 my $path = pathID( $accessdir, $slug, $type );
 
                 my $object = $noid . '/dmd' . $dmdType . '.xml';
-                $0 = $syncdmdprog . " HEAD $object";
+                $0 = $syncdmdprog . " HEAD $object ($slug)";
                 my $r = $swift->object_head( $swift_access_metadata, $object );
 
                 if ( $r->code == 404 ) {
@@ -347,7 +345,7 @@ if ( !$askip ) {
                         my $st = stat($path);
                         next ACCESSOBJECT if ( $st && $st->mtime == $time );
 
-                        $0 = $syncdmdprog . " GET $object";
+                        $0 = $syncdmdprog . " GET $object ($slug)";
 
                         my $resp =
                           $swift->object_get( $swift_access_metadata, $object );
@@ -365,7 +363,7 @@ if ( !$askip ) {
                     }
                     else {
                         log_warn(
-                            "Head of $object didn't have a last-modified header"
+"Head of $object ($slug) didn't have a last-modified header"
                         );
                     }
                 }
@@ -373,11 +371,12 @@ if ( !$askip ) {
                     if ( defined $r->response->content ) {
                         warn $r->response->content . "\n";
                     }
-                    die "Head for $object - returned " . $r->code . "\n";
+                    die "Head for $object ($slug) - returned "
+                      . $r->code . "\n";
                 }
             }
             else {
-                log_warnings("No metadata for $noid($slug)");
+                warn("No metadata for $noid($slug)\n");
             }
         }
     } until ( !$bookmark );
@@ -494,7 +493,7 @@ sub storeDMD {
     my $atime = time;
     utime $atime, $time, $path;
 
-    log_info( "$path = " . time2isoz($time) );
+    $logger->info( "$path = " . time2isoz($time) );
 
 }
 
