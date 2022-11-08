@@ -176,7 +176,6 @@ sub addArray {
     push @{ $flat->{$field} }, normaliseSpace($data);
 }
 
-
 sub marc {
     my ( $self, $xmlin ) = @_;
 
@@ -184,23 +183,22 @@ sub marc {
 
     my $record = MARC::Record->new_from_xml($xmlin);
 
-    # We are going to look for 264 if nothing there then look in 260 field. 264 preferred source
+# We are going to look for 264 if nothing there then look in 260 field. 264 preferred source
     if ( defined $record->field('264') ) {
-      addArray( \%flat, 'pu', $record->field('264')->as_string() );
-      if( defined $record->subfield( '264', 'c' ) ) {
-        $flat{'pubmin'} = iso8601( $record->subfield( '264', 'c' ), 0 );
-        $flat{'pubmax'} = iso8601( $record->subfield( '264', 'c' ), 1 );
-      }
-    } elsif ( defined $record->field('260') ) {
-      addArray( \%flat, 'pu', $record->field('260')->as_string() );
-
-      if( defined $record->subfield( '260', 'c' ) ) {
-        $flat{'pubmin'} = iso8601( $record->subfield( '260', 'c' ), 0 );
-        $flat{'pubmax'} = iso8601( $record->subfield( '260', 'c' ), 1 );
-      }
+        addArray( \%flat, 'pu', $record->field('264')->as_string() );
+        if ( defined $record->subfield( '264', 'c' ) ) {
+            $flat{'pubmin'} = iso8601( $record->subfield( '264', 'c' ), 0 );
+            $flat{'pubmax'} = iso8601( $record->subfield( '264', 'c' ), 1 );
+        }
     }
+    elsif ( defined $record->field('260') ) {
+        addArray( \%flat, 'pu', $record->field('260')->as_string() );
 
-
+        if ( defined $record->subfield( '260', 'c' ) ) {
+            $flat{'pubmin'} = iso8601( $record->subfield( '260', 'c' ), 0 );
+            $flat{'pubmax'} = iso8601( $record->subfield( '260', 'c' ), 1 );
+        }
+    }
 
     foreach my $field ( $record->field('008') ) {
         my @lang = normalise_lang( substr( $field->as_string, 35, 3 ) );
@@ -355,8 +353,16 @@ sub dc {
             switch ($nodename) {
                 case "simpledc" {     #  Skip top level
                 }
+
                 case "date" {
-                    push @dates, $content;
+
+  # Date ranges are supported according to
+  # https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/date/
+                    my @newdates = split( '/', $content );
+                    if ( scalar(@newdates) > 2 ) {
+                        warn "<date> of $content has too many parts\n";
+                    }
+                    push @dates, @newdates;
                 }
 
                 case "language" {
@@ -411,12 +417,6 @@ sub dc {
                     push @{ $flat{'su'} }, $content;
                 }
                 case "title" {
-
-#                    $content =~ s/\-\-$//g;     # Trim double
-#                    $content =~ s/\/+$//g;    # Trim odd slashes
-#                    $content =~
-#                      s/^\s+|\s+$//g;  # Trim space at end and beginning in case
-
                     if ( !exists $flat{'ti'} ) {
                         $flat{'ti'} = [];
                     }
@@ -438,7 +438,12 @@ sub dc {
         }
     }
 
-  # TODO: This is what we have been doing, but should be doing something better.
+    # Temporarily we can support old ranges (in two separate <date> tags),
+    # As well as a range separated by a '/'.
+    # Once data is migrated, we can move to supporting ranges only.
+
+    # Supplying '' as a date, what happens if start or end date is missing,
+    # generates warning.
     if (@dates) {
         if ( int(@dates) == 1 ) {
             $flat{'pubmin'} = iso8601( $dates[0], 0 );
