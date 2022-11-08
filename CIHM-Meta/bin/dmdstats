@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-package SyncDMD;
+package dmdstats;
 
 use strict;
 use warnings;
