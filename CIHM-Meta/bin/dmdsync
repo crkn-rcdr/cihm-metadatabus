@@ -456,9 +456,23 @@ sub pathID {
     my ( $basepath, $id, $type ) = @_;
 
     # Create a full path based on ID
-    my $idpath = $id;
-    $idpath =~ s/\.[^\.]*$//;
-    $idpath =~ s/\./\//g;
+    my $idpath;
+    switch ($id) {
+        case m/^ams\./        { $idpath = 'ams'; }
+        case m/^carl\./       { $idpath = 'carl'; }
+        case m/^numeris\./    { $idpath = 'numeris'; }
+        case m/^omcn\./       { $idpath = 'omcn'; }
+        case m/^oocihm\.lac_/ { $idpath = 'oocihm.lac'; }
+        case m/^oocihm\.N_/   { $idpath = 'oocihm.N'; }
+        case m/^oocihm\./     { $idpath = 'oocihm'; }
+        case m/^ooe\./        { $idpath = 'ooe'; }
+        case m/^ooga\./       { $idpath = 'ooga'; }
+        case m/^oop\./        { $idpath = 'oop'; }
+        case m/^osmsdga\./    { $idpath = 'osmsdga'; }
+        case m/^qmma\./       { $idpath = 'qmma'; }
+        case m/^sru\./        { $idpath = 'sru'; }
+        else                  { $idpath = 'default'; }
+    }
 
     my $path =
       File::Spec->catfile( $basepath, $idpath, $id . "-" . $type . ".xml" );
