@@ -368,8 +368,8 @@ sub scan_access {
                     }
                 }
                 else {
-                    if ( defined $r->response->content ) {
-                        warn $r->response->content . "\n";
+                    if ( defined $r->_fr->content ) {
+                        warn $r->_fr->content . "\n";
                     }
                     die "Head for $object ($slug) - returned "
                       . $r->code . "\n";
