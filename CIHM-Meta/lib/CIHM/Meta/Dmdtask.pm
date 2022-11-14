@@ -501,8 +501,7 @@ sub pagedStore {
                     my $itemindex = $workItems->[$i]->{index};
 
                     if ( !exists $docs{$id} ) {
-                        $self->addStorageResult( $itemindex,
-                            JSON::false );
+                        $self->addStorageResult( $itemindex, JSON::false );
                         warn "CouchDB document for id=$id wasn't found.\n";
                     }
                     else {
@@ -925,6 +924,7 @@ sub extractissueinfo_csv {
 
         #process each metadata record based on the object ID
         my $id = $row->[$objid_column];
+        $id =~ s/^\s+|\s+$//g;
 
         if ( !$id || $id =~ /^\s*$/ ) {
             warn "Line $linecount missing ID - skipping\n";
@@ -1063,6 +1063,8 @@ sub extractdc_csv {
 
         #process each metadata record based on the object ID
         my $id = $row->[$objid_column];
+        $id =~ s/^\s+|\s+$//g;
+
         if ( !$id || $id =~ /^\s*$/ ) {
             warn "Line $linecount missing ID --- skipping!\n";
             next;
