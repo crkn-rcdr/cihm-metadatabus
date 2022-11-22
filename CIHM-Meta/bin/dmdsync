@@ -273,12 +273,13 @@ sub scan_access {
 
     my $url   = '/_find';
     my $query = {
-        "selector" => {
-            "updated" => { '$exists' => JSON::true }
-        },
         "fields" => [ "_id", "slug", "dmdType" ],
         "limit"  => $limit
     };
+
+    if ($amarker) {
+        $query->{'selector'} = { "slug" => { '$gte' => $amarker } };
+    }
 
     if ($reverse) {
         $query->{'sort'} = [ { 'slug' => 'desc' } ];
