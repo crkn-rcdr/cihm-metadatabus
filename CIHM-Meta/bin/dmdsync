@@ -195,18 +195,35 @@ sub scan_preservation {
         marker    => $pmarker
     );
 
-    do {
-        my %files;
-        my $dataresp =
-          $swift->container_get( $swift_preservation_files, \%containeropt );
-        if ( $dataresp->code != 200 ) {
-            die "container_get("
-              . $swift_preservation_files
-              . ") returned "
-              . $dataresp->code . " - "
-              . $dataresp->message . "\n";
-        }
+    my %preservationfiles;
 
+  prescontainer: do {
+
+        my $tries = $retries;
+        my $dataresp;
+      prescontainerget: {
+            do {
+                $dataresp =
+                  $swift->container_get( $swift_preservation_files,
+                    \%containeropt );
+                if ( $dataresp->code == 200 ) {
+                    last prescontainerget;
+                }
+                else {
+                    $tries--;
+                    warn "container_get("
+                      . $swift_preservation_files
+                      . ") returned "
+                      . $dataresp->code . " - "
+                      . $dataresp->message
+                      . " (retries=$tries)\n";
+                }
+            } until ( !$tries );
+
+            if ( !$tries ) {
+                die "No more retries\n";
+            }
+        }
         undef $containeropt{'marker'};
         my $count = scalar( @{ $dataresp->content } );
         if ( $count && $count == $limit ) {
@@ -224,15 +241,32 @@ sub scan_preservation {
             if ($subdir) {
                 my $object = $subdir . "data/sip/data/metadata.xml";
                 $0 = $syncdmdprog . " looking at $object";
-                my $resp =
-                  $swift->object_head( $swift_preservation_files, $object );
-                if ( $resp->code != 200 ) {
-                    die "object_head ("
-                      . $swift_preservation_files . " , "
-                      . $object
-                      . ") returned "
-                      . $resp->code . " - "
-                      . $resp->message . "\n";
+
+                my $tries = $retries;
+                my $resp;
+              presobjhead: {
+                    do {
+                        $resp =
+                          $swift->object_head( $swift_preservation_files,
+                            $object );
+                        if ( $resp->code == 200 ) {
+                            last presobjhead;
+                        }
+                        else {
+                            $tries--;
+                            warn "object_head ("
+                              . $swift_preservation_files . " , "
+                              . $object
+                              . ") returned "
+                              . $resp->code . " - "
+                              . $resp->message
+                              . " (retries=$tries)\n";
+                        }
+                    } until ( !$tries );
+
+                    if ( !$tries ) {
+                        die "No more retries\n";
+                    }
                 }
                 my $lastmodified = $resp->headers->header('last-modified');
                 if ($lastmodified) {
@@ -243,6 +277,10 @@ sub scan_preservation {
                     my @foundpaths;
                   TYPE: foreach my $type (@dmdtypes) {
                         my $path = pathID( $preservationdir, $aipid, $type );
+
+                        if ( !$pmarker ) {
+                            $preservationfiles{$path} = 1;
+                        }
                         my $st = stat($path);
                         next TYPE if !$st;
 
@@ -266,6 +304,11 @@ sub scan_preservation {
             }
         }
     } until ( !defined $containeropt{'marker'} );
+
+    if ( !$pmarker ) {
+        scan_filesystem( $preservationdir, \%preservationfiles );
+        print Dumper ( keys %preservationfiles );
+    }
 }
 
 sub scan_access {
@@ -280,6 +323,9 @@ sub scan_access {
     if ($amarker) {
         $query->{'selector'} = { "slug" => { '$gte' => $amarker } };
     }
+    else {
+        $query->{'selector'} = {};
+    }
 
     if ($reverse) {
         $query->{'sort'} = [ { 'slug' => 'desc' } ];
@@ -289,6 +335,7 @@ sub scan_access {
     }
 
     my $bookmark;
+    my %accessfiles;
 
     do {
         my $res =
@@ -330,50 +377,88 @@ sub scan_access {
                 $type = lc($type) if ( $type eq 'ISSUEINFO' );
                 my $path = pathID( $accessdir, $slug, $type );
 
+                if ( !$amarker ) {
+                    $accessfiles{$path} = 1;
+                }
                 my $object = $noid . '/dmd' . $dmdType . '.xml';
                 $0 = $syncdmdprog . " HEAD $object ($slug)";
-                my $r = $swift->object_head( $swift_access_metadata, $object );
 
-                if ( $r->code == 404 ) {
-                    log_warn("$object not found");
-                }
-                elsif ( $r->code == 200 ) {
-                    my $lastmodified = $r->headers->header('last-modified');
-                    if ($lastmodified) {
-                        my $time = str2time($lastmodified);
+                my $tries = $retries;
+                my $r;
+              accessobjhead:
+                {
+                    do {
+                        $r =
+                          $swift->object_head( $swift_access_metadata,
+                            $object );
+
+                        if ( $r->code == 404 ) {
+                            log_warn("$object not found");
+                            last accessobjhead;
+                        }
+                        elsif ( $r->code == 200 ) {
+                            my $lastmodified =
+                              $r->headers->header('last-modified');
+                            if ($lastmodified) {
+                                my $time = str2time($lastmodified);
 
            # The all important "don't download/write again if it hasn't changed"
-                        my $st = stat($path);
-                        next ACCESSOBJECT if ( $st && $st->mtime == $time );
+                                my $st = stat($path);
+                                next ACCESSOBJECT
+                                  if ( $st && $st->mtime == $time );
 
-                        $0 = $syncdmdprog . " GET $object ($slug)";
+                                $0 = $syncdmdprog . " GET $object ($slug)";
 
-                        my $resp =
-                          $swift->object_get( $swift_access_metadata, $object );
-                        if ( $resp->code != 200 ) {
-                            die "object_get ("
-                              . $swift_access_metadata . " , "
-                              . $object
-                              . ") returned "
-                              . $resp->code . " - "
-                              . $resp->message . "\n";
+                                my $tries = $retries;
+                                my $resp;
+                              accessobjget: do {
+                                    $resp =
+                                      $swift->object_get(
+                                        $swift_access_metadata, $object );
+                                    if ( $resp->code == 200 ) {
+                                        last accessobjget;
+                                    }
+                                    else {
+                                        $tries--;
+                                        warn "object_get ("
+                                          . $swift_access_metadata . " , "
+                                          . $object
+                                          . ") returned "
+                                          . $resp->code . " - "
+                                          . $resp->message
+                                          . " (retries=$tries)\n";
+                                    }
+                                } until ( !$tries );
+
+                                if ( !$tries ) {
+                                    die "No more retries\n";
+                                }
+
+                                storeDMD( $accessdir, $slug, $time, $type,
+                                    $resp->content );
+                            }
+                            else {
+                                log_warn(
+"Head of $object ($slug) didn't have a last-modified header"
+                                );
+                            }
+                            last accessobjhead;
+                        }
+                        else {
+                            if ( defined $r->_fr->content ) {
+                                warn $r->_fr->content . "\n";
+                            }
+                            $tries--;
+                            warn "Head for $object ($slug) - returned "
+                              . $r->code
+                              . " (retries=$tries)\n";
                         }
 
-                        storeDMD( $accessdir, $slug, $time, $type,
-                            $resp->content );
+                    } until ( !$tries );
+
+                    if ( !$tries ) {
+                        die "No more retries\n";
                     }
-                    else {
-                        log_warn(
-"Head of $object ($slug) didn't have a last-modified header"
-                        );
-                    }
-                }
-                else {
-                    if ( defined $r->_fr->content ) {
-                        warn $r->_fr->content . "\n";
-                    }
-                    die "Head for $object ($slug) - returned "
-                      . $r->code . "\n";
                 }
             }
             else {
@@ -381,6 +466,36 @@ sub scan_access {
             }
         }
     } until ( !$bookmark );
+
+    if ( !$amarker ) {
+        scan_filesystem( $accessdir, \%accessfiles );
+        print Dumper ( keys %accessfiles );
+    }
+}
+
+# Odd way to have the logging not indicate __ANON__
+sub scanFilesystem {
+    my ($logline) = @_;
+    $logger->info($logline);
+}
+
+sub scan_filesystem {
+    my ( $basepath, $storedfiles ) = @_;
+
+    # Needed to match up variable scoping -- didn't want global for $storedfiles
+    my $matching_dmd_file = sub {
+        if ( -f $_ ) {
+            $0 = $syncdmdprog . " scanning in $File::Find::dir";
+
+            if ( exists $storedfiles->{$File::Find::name} ) {
+                delete $storedfiles->{$File::Find::name};
+            }
+            else {
+                scanFilesystem("should remove $File::Find::name");
+            }
+        }
+    };
+    find( $matching_dmd_file, $basepath );
 }
 
 sub getMETS {
@@ -388,14 +503,27 @@ sub getMETS {
 
     $0 = $syncdmdprog . " getMETS $object";
 
-    my $resp = $swift->object_get( $swift_preservation_files, $object );
-    if ( $resp->code != 200 ) {
-        die "object_get ("
-          . $swift_preservation_files . " , "
-          . $object
-          . ") returned "
-          . $resp->code . " - "
-          . $resp->message . "\n";
+    my $tries = $retries;
+    my $resp;
+    do {
+        $resp = $swift->object_get( $swift_preservation_files, $object );
+        if ( $resp->code == 200 ) {
+            last;
+        }
+        else {
+            $tries--;
+            warn "object_get ("
+              . $swift_preservation_files . " , "
+              . $object
+              . ") returned "
+              . $resp->code . " - "
+              . $resp->message
+              . " (retries=$tries)\n";
+        }
+    } until ( !$tries );
+
+    if ( !$tries ) {
+        die "No more retries\n";
     }
 
     my $xml = XML::LibXML->new->parse_string( $resp->content );
