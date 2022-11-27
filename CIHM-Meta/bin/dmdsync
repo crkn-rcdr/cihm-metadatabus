@@ -85,7 +85,7 @@ my $swift_preservation_files;
 $swift_preservation_files = $ENV{SWIFT_preservation_files}
   if ( exists $ENV{SWIFT_preservation_files} );
 
-my $retries = 3;
+my $retries = 10;
 
 #Change order.  For running a second instance.
 my $reverse;
@@ -411,27 +411,29 @@ sub scan_access {
 
                                 my $tries = $retries;
                                 my $resp;
-                              accessobjget: do {
-                                    $resp =
-                                      $swift->object_get(
-                                        $swift_access_metadata, $object );
-                                    if ( $resp->code == 200 ) {
-                                        last accessobjget;
-                                    }
-                                    else {
-                                        $tries--;
-                                        warn "object_get ("
-                                          . $swift_access_metadata . " , "
-                                          . $object
-                                          . ") returned "
-                                          . $resp->code . " - "
-                                          . $resp->message
-                                          . " (retries=$tries)\n";
-                                    }
-                                } until ( !$tries );
+                              accessobjget: {
+                                    do {
+                                        $resp =
+                                          $swift->object_get(
+                                            $swift_access_metadata, $object );
+                                        if ( $resp->code == 200 ) {
+                                            last accessobjget;
+                                        }
+                                        else {
+                                            $tries--;
+                                            warn "object_get ("
+                                              . $swift_access_metadata . " , "
+                                              . $object
+                                              . ") returned "
+                                              . $resp->code . " - "
+                                              . $resp->message
+                                              . " (retries=$tries)\n";
+                                        }
+                                    } until ( !$tries );
 
-                                if ( !$tries ) {
-                                    die "No more retries\n";
+                                    if ( !$tries ) {
+                                        die "No more retries\n";
+                                    }
                                 }
 
                                 storeDMD( $accessdir, $slug, $time, $type,
@@ -505,27 +507,28 @@ sub getMETS {
 
     my $tries = $retries;
     my $resp;
-    do {
-        $resp = $swift->object_get( $swift_preservation_files, $object );
-        if ( $resp->code == 200 ) {
-            last;
-        }
-        else {
-            $tries--;
-            warn "object_get ("
-              . $swift_preservation_files . " , "
-              . $object
-              . ") returned "
-              . $resp->code . " - "
-              . $resp->message
-              . " (retries=$tries)\n";
-        }
-    } until ( !$tries );
+  getmetsdo: {
+        do {
+            $resp = $swift->object_get( $swift_preservation_files, $object );
+            if ( $resp->code == 200 ) {
+                last getmetsdo;
+            }
+            else {
+                $tries--;
+                warn "object_get ("
+                  . $swift_preservation_files . " , "
+                  . $object
+                  . ") returned "
+                  . $resp->code . " - "
+                  . $resp->message
+                  . " (retries=$tries)\n";
+            }
+        } until ( !$tries );
 
-    if ( !$tries ) {
-        die "No more retries\n";
+        if ( !$tries ) {
+            die "No more retries\n";
+        }
     }
-
     my $xml = XML::LibXML->new->parse_string( $resp->content );
     my $xpc = XML::LibXML::XPathContext->new;
     $xpc->registerNs( 'mets',  "http://www.loc.gov/METS/" );
