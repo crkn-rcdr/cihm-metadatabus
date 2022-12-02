@@ -49,7 +49,6 @@ sub log_warnings {
     ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
 
     $logger->warn($stripped);
-    print STDERR "$warning\n";
 }
 local $SIG{__WARN__} = sub { &log_warnings };
 
@@ -307,7 +306,6 @@ sub scan_preservation {
 
     if ( !$pmarker ) {
         scan_filesystem( $preservationdir, \%preservationfiles );
-        print Dumper ( keys %preservationfiles );
     }
 }
 
@@ -393,7 +391,7 @@ sub scan_access {
                             $object );
 
                         if ( $r->code == 404 ) {
-                            log_warn("$object not found");
+                            log_warnings("$object not found");
                             last accessobjhead;
                         }
                         elsif ( $r->code == 200 ) {
@@ -440,7 +438,7 @@ sub scan_access {
                                     $resp->content );
                             }
                             else {
-                                log_warn(
+                                log_warnings(
 "Head of $object ($slug) didn't have a last-modified header"
                                 );
                             }
@@ -471,33 +469,30 @@ sub scan_access {
 
     if ( !$amarker ) {
         scan_filesystem( $accessdir, \%accessfiles );
-        print Dumper ( keys %accessfiles );
     }
-}
-
-# Odd way to have the logging not indicate __ANON__
-sub scanFilesystem {
-    my ($logline) = @_;
-    $logger->info($logline);
 }
 
 sub scan_filesystem {
     my ( $basepath, $storedfiles ) = @_;
+
+    my @tounlink;
 
     # Needed to match up variable scoping -- didn't want global for $storedfiles
     my $matching_dmd_file = sub {
         if ( -f $_ ) {
             $0 = $syncdmdprog . " scanning in $File::Find::dir";
 
-            if ( exists $storedfiles->{$File::Find::name} ) {
-                delete $storedfiles->{$File::Find::name};
-            }
-            else {
-                scanFilesystem("should remove $File::Find::name");
+            if ( !( exists $storedfiles->{$File::Find::name} ) ) {
+                push @tounlink, $File::Find::name;
             }
         }
     };
     find( $matching_dmd_file, $basepath );
+
+    foreach my $unlinkfile (@tounlink) {
+        $logger->info("unlinking $unlinkfile");
+        unlink $unlinkfile;
+    }
 }
 
 sub getMETS {
