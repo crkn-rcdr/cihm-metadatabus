@@ -75,9 +75,7 @@ flock( FH, LOCK_EX | LOCK_NB )
 # Used to show a different processname during processing
 my $dmddcmultiprog = $0;
 
-my $preservationdir = $dmddir;
-
-#File::Spec->catfile( $dmddir, 'preservation');
+my $preservationdir = File::Spec->catfile( $dmddir, 'preservation', "numeris" );
 my $preservationcsvdir = File::Spec->catfile( $csvdir, 'preservation' );
 
 $0 = $dmddcmultiprog . " find in $preservationdir";
@@ -98,7 +96,6 @@ sub matching_dmd_file {
                 my $xmlin = do { local $/; <$fh> };
                 close $fh;
                 undef $inThisFile;
-                return;
 
                 # Ugly, but does the trick for now.
                 # Great when we can get rid of these odd hacks for odd data
@@ -110,25 +107,33 @@ s|<simpledc>|<simpledc xmlns:dc="http://purl.org/dc/elements/1.1/">|g;
                 my $xpc = XML::LibXML::XPathContext->new;
                 $xpc->registerNs( 'dc', 'http://purl.org/dc/elements/1.1/' );
 
-                my @nodes = $xpc->findnodes( "//*", $doc );
+                my @datenodes = $xpc->findnodes( "//dc:date", $doc );
 
-                my @dates;
-                foreach my $node (@nodes) {
-                    my $content = $node->textContent;
-                    if ( length($content) ) {
-                        my $nodename = lc( $node->nodeName );
-                        $nodename =~ s|dc:||g;    # Strip namespace if it exists
+                if ( scalar(@datenodes) > 2 ) {
+                    my $warn = "$id has " . scalar(@datenodes) . " dates";
+                    warn "$warn\n";
+                }
+                elsif ( scalar(@datenodes) == 2 ) {
 
-                        if ( $nodename eq 'date' ) {
-                            push @dates, $content;
+                    print "Orig $id:" . $doc->toString(1) . "\n";
+
+                    # Append the second date to the first.
+                    $datenodes[0]
+                      ->appendTextNode( "/" . $datenodes[1]->textContent );
+
+                    # Clean newline too just to look right...
+                    my $sibling = $datenodes[1]->nextSibling();
+                    if ( $sibling->nodeType() == XML_TEXT_NODE ) {
+                        my $text = $sibling->data();
+                        if ( $text =~ /^\s*$/ ) {
+                            $sibling->unbindNode();
                         }
                     }
-                }
-                if ( scalar(@dates) > 1 ) {
-                    my $info = "$id has dates: " . join( ", ", @dates );
 
-                    $logger->info($info);
-                    print "$info\n";
+                    # Remove the second date
+                    $datenodes[1]->unbindNode();
+
+                    print "New:" . $doc->toString(1) . "\n";
                 }
             }
         }
