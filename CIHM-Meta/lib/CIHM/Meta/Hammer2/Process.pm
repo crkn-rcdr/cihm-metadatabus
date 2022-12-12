@@ -189,16 +189,10 @@ sub process {
     }
     my $type = $self->document->{'type'};
 
-    if ( $type eq 'collection' ) {    # This is a collection
-        if (  !( exists $self->document->{'behavior'} )
-            || ( $self->document->{'behavior'} eq "unordered" ) )
-        {
-            $self->log->info( "Nothing to do for an unordered collection "
-                  . $self->noid . " ("
-                  . $self->slug
-                  . ")" );
-            return;
-        }
+    if ( $type eq 'collection' && !( exists $self->document->{'behavior'} ) ) {
+        die "Missing 'behavior' for type='collection' "
+          . $self->noid . " ("
+          . $self->slug . ")\n";
     }
 
     if ( !exists $self->document->{'dmdType'} ) {
@@ -232,15 +226,21 @@ sub process {
         $self->attachment->[0]->{'type'} = 'document';
     }
     else {
+        # TODO: 'series' currently used for any type of collection
         $self->attachment->[0]->{'type'} = 'series';
     }
     $self->attachment->[0]->{'key'}  = $self->slug;
     $self->attachment->[0]->{'noid'} = $self->noid;
 
-    my %identifier = ( $objid => 1 );
+    my %identifier = ( $self->slug => 1 );
+    if ( defined $objid ) {
+        $identifier{$objid} = 1;
+    }
     if ( exists $self->attachment->[0]->{'identifier'} ) {
         foreach my $identifier ( @{ $self->attachment->[0]->{'identifier'} } ) {
-            $identifier{$identifier} = 1;
+            if ( $identifier && $identifier ne '' ) {
+                $identifier{$identifier} = 1;
+            }
         }
     }
     @{ $self->attachment->[0]->{'identifier'} } = keys %identifier;
@@ -787,33 +787,37 @@ sub adddocument {
         $self->process_parl();
     }
 
-    # Determine if series or issue/monograph
-    if ( $self->docdata->{'sub-type'} eq 'series' ) {
+    # Determine if collection or manifest
+    if ( $self->document->{'type'} eq 'collection' ) {
 
-        # Process series
+        # Process collection (old: only series)
 
         if ( exists $self->docdata->{'parent'} ) {
-            die $self->slug . " is a series and has parent field\n";
+            die $self->slug
+              . " is a collection and has parent field (not yet supported)\n";
         }
+
+        # TODO: These tests seem redundant, as problem unlikely.
         if ( scalar( keys %{ $self->presentdoc } ) != 1 ) {
             die $self->slug
-              . " is a series and has "
+              . " is a collection and has "
               . scalar( keys %{ $self->presentdoc } )
               . " records\n";
         }
         if ( $self->presentdoc->{ $self->slug }->{'type'} ne 'series' ) {
-            die $self->slug . " is a series, but record type not series\n";
+            die $self->slug
+              . " is a collection, but record type not 'series'\n";
         }
-        $self->process_series();
+        $self->process_collection();
     }
     else {
-        # Process issue or monograph
+        # Process manifest (old: issue or monograph)
 
-        $self->process_components();
+        $self->process_manifest();
     }
 
     # If a tag json file exists, process it.
-    # - Needs to be processed after process_components() as
+    # - Needs to be processed after process_manifest() as
     #   process_externalmetaHP() sets a flag within component field.
     if ( -e DATAPATH . "/tag/" . $self->slug . ".json" ) {
         $self->process_externalmetaHP();
@@ -1242,7 +1246,7 @@ sub process_externalmetaHP {
     }
 }
 
-sub process_series {
+sub process_collection {
     my ($self) = @_;
 
     my @order;
@@ -1251,7 +1255,12 @@ sub process_series {
     die "{members} is not an array\n"
       if ( ref $self->document->{members} ne 'ARRAY' );
 
-# Order is in the multi-part collection, but values we need are in search documents that need to be processed first!
+    # Search interface wants a count.
+    $self->searchdoc->{ $self->slug }->{'item_count'} =
+      scalar( @{ $self->document->{members} } );
+
+   # Order is in the multi-part collection,
+   # but values we need are in search documents that need to be processed first!
 
     foreach my $issue ( @{ $self->document->{members} } ) {
         my $item = $self->getSearchItem( $issue->{id} );
@@ -1260,21 +1269,19 @@ sub process_series {
             $items->{$slug} = $item;
             push @order, $slug;
         }
+        else {
+            warn "Item not found: " . $issue->{id} . "\n";
+        }
     }
+    $self->presentdoc->{ $self->slug }->{'items'} = $items;
 
-    $self->presentdoc->{ $self->slug }->{'order'}     = \@order;
-    $self->presentdoc->{ $self->slug }->{'items'}     = $items;
-    $self->searchdoc->{ $self->slug }->{'item_count'} = scalar(@order);
-
+    # So far we only support "unordered" and "multi-part" collections.
+    if ( $self->document->{'behavior'} eq "multi-part" ) {
+        $self->presentdoc->{ $self->slug }->{'order'} = \@order;
+    }
 }
 
-=head1 $self->process_components()
-Process component AIPs to build the 'components' and 'order' fields.
-Currently order is numeric order by sequence, but later may be built
-into metadata.xml
-=cut
-
-sub process_components {
+sub process_manifest {
     my ($self) = @_;
 
     my $components = {};
