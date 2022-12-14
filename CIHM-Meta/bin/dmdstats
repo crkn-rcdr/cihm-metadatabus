@@ -1,0 +1,124 @@
+#!/usr/bin/env perl
+
+package dmdstats;
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
+use File::Find;
+use Data::Dumper;
+use Digest::MD5;
+use JSON;
+use Poppler;
+use XML::LibXML;
+use CIHM::Swift::Client;
+use URI::Escape;
+use DateTime::Format::ISO8601;
+use HTTP::Date qw(:DEFAULT time2isoz);
+use File::Path qw(make_path remove_tree);
+use File::Spec;
+use File::stat;
+use XML::LibXML;
+use utf8;
+use Switch;
+use Text::CSV qw( csv );
+
+# There are only 3 valid types of descriptive metadata
+my @dmdtypes = ( "issueinfo", "DC", "MARC" );
+
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
+sub log_warnings {
+    my $warning = shift;
+    chomp $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    $logger->warn($stripped);
+    print STDERR "$warning\n";
+}
+local $SIG{__WARN__} = sub { &log_warnings };
+
+my $dmddir = '/crkn-nas-wip/_Metadata_Sychronised';
+$dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
+
+my $lockfile = '/var/lock/tdr/dmdstats';
+$lockfile = $ENV{dmdstats_lockfile} if ( exists $ENV{dmdstats_lockfile} );
+
+$logger->info("DMD stats: start");
+
+GetOptions(
+    'lockfile:s' => \$lockfile,
+    'dmddir:s'   => \$dmddir,
+);
+
+# Only allow one instance to run at a time..
+sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
+  or die "can't open lockfile=$lockfile: $!\n";
+flock( FH, LOCK_EX | LOCK_NB )
+  or exit 0;
+
+# Used to show a different processname during processing
+my $dmdstatsprog = $0;
+
+my %results;
+
+find( \&matching_dmd_file, $dmddir );
+
+sub matching_dmd_file {
+    if ( -f $_ ) {
+        $0 = $dmdstatsprog . " counting in $File::Find::dir";
+        if (/^(.*)-(\w*)\.xml$/) {
+            my $id      = $1;
+            my $dmdType = $2;
+
+            if ( $File::Find::dir =~ /$dmddir\/([^\/]+)\/(.*)$/ ) {
+                my $repo   = $1;
+                my $prefix = $2;
+
+                if ( defined $results{$repo}{$prefix}{$dmdType} ) {
+                    $results{$repo}{$prefix}{$dmdType}++;
+                }
+                else {
+                    $results{$repo}{$prefix}{$dmdType} = 1;
+                }
+            }
+            else {
+                warn $File::Find::dir . "  -- doesn't match pattern\n";
+            }
+        }
+        else {
+            warn $_ . "  -- doesn't match pattern (in $File::Find::dir )\n";
+        }
+    }
+}
+
+my @res = [ "repository", "prefix" ];
+push @{ $res[0] }, sort @dmdtypes, "totals";
+
+foreach my $repo ( sort keys %results ) {
+    foreach my $prefix ( sort keys %{ $results{$repo} } ) {
+        my @thisline = ( $repo, $prefix );
+        my $total = 0;
+        foreach my $dmdType ( sort @dmdtypes ) {
+            if ( defined $results{$repo}{$prefix}{$dmdType} ) {
+                push @thisline, $results{$repo}{$prefix}{$dmdType};
+                $total += $results{$repo}{$prefix}{$dmdType};
+            }
+            else {
+                push @thisline, 0;
+            }
+        }
+        push @thisline, $total;
+        push @res, [@thisline];
+    }
+}
+
+csv( in => \@res, out => \*STDOUT );

@@ -1,0 +1,144 @@
+#!/usr/bin/env perl
+
+package dmdPreservationDCMultiDate;
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
+use File::Find;
+use Data::Dumper;
+use Digest::MD5;
+use JSON;
+use Poppler;
+use XML::LibXML;
+use CIHM::Swift::Client;
+use URI::Escape;
+use DateTime::Format::ISO8601;
+use HTTP::Date qw(:DEFAULT time2isoz);
+use File::Path qw(make_path remove_tree);
+use File::Spec;
+use File::stat;
+use XML::LibXML;
+use utf8;
+use Switch;
+
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
+my $inThisFile;
+
+sub log_warnings {
+    my $warning = shift;
+    chomp $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+    $stripped =~ s/\R/ /g;
+
+    if ( defined $inThisFile ) {
+        print STDERR "$stripped in $inThisFile\n";
+        $logger->warn("$stripped in $inThisFile");
+    }
+    else {
+        $logger->warn($stripped);
+        print STDERR "$stripped\n";
+    }
+}
+local $SIG{__WARN__} = sub { &log_warnings };
+
+my $dmddir = '/crkn-nas-wip/_Metadata_Sychronised';
+my $csvdir = '/crkn-nas-wip/_Metadata_Fixed/';
+
+my $lockfile = '/var/lock/tdr/dmdDCmultidate';
+$lockfile = $ENV{dmddcmultidate_lockfile}
+  if ( exists $ENV{dmddcmultidate_lockfile} );
+
+$logger->info("DMD Preservation DC MultiDate: start");
+
+GetOptions(
+    'lockfile:s' => \$lockfile,
+    'dmddir:s'   => \$dmddir,
+    'csvdir:s'   => \$csvdir,
+);
+
+# Only allow one instance to run at a time..
+sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
+  or die "can't open lockfile=$lockfile: $!\n";
+flock( FH, LOCK_EX | LOCK_NB )
+  or exit 0;
+
+# Used to show a different processname during processing
+my $dmddcmultiprog = $0;
+
+my $preservationdir = File::Spec->catfile( $dmddir, 'preservation', "numeris" );
+my $preservationcsvdir = File::Spec->catfile( $csvdir, 'preservation' );
+
+$0 = $dmddcmultiprog . " find in $preservationdir";
+find( \&matching_dmd_file, $preservationdir );
+
+sub matching_dmd_file {
+    if ( -f $_ ) {
+        $0 = $dmddcmultiprog . " looking for DC in $File::Find::dir";
+        if (/^(.*)-(\w*)\.xml$/) {
+            my $id      = $1;
+            my $dmdType = $2;
+
+            if ( 1 || $dmdType eq 'DC' ) {
+                $inThisFile = $File::Find::name;
+                open my $fh, '<:encoding(UTF-8)', $File::Find::name
+                  or die "can't open DC file=$File::Find::name: $!\n";
+
+                my $xmlin = do { local $/; <$fh> };
+                close $fh;
+                undef $inThisFile;
+
+                # Ugly, but does the trick for now.
+                # Great when we can get rid of these odd hacks for odd data
+                $xmlin =~
+s|<simpledc>|<simpledc xmlns:dc="http://purl.org/dc/elements/1.1/">|g;
+
+                my $doc = XML::LibXML->new->parse_string($xmlin);
+
+                my $xpc = XML::LibXML::XPathContext->new;
+                $xpc->registerNs( 'dc', 'http://purl.org/dc/elements/1.1/' );
+
+                my @datenodes = $xpc->findnodes( "//dc:date", $doc );
+
+                if ( scalar(@datenodes) > 2 ) {
+                    my $warn = "$id has " . scalar(@datenodes) . " dates";
+                    warn "$warn\n";
+                }
+                elsif ( scalar(@datenodes) == 2 ) {
+
+                    print "Orig $id:" . $doc->toString(1) . "\n";
+
+                    # Append the second date to the first.
+                    $datenodes[0]
+                      ->appendTextNode( "/" . $datenodes[1]->textContent );
+
+                    # Clean newline too just to look right...
+                    my $sibling = $datenodes[1]->nextSibling();
+                    if ( $sibling->nodeType() == XML_TEXT_NODE ) {
+                        my $text = $sibling->data();
+                        if ( $text =~ /^\s*$/ ) {
+                            $sibling->unbindNode();
+                        }
+                    }
+
+                    # Remove the second date
+                    $datenodes[1]->unbindNode();
+
+                    print "New:" . $doc->toString(1) . "\n";
+                }
+            }
+        }
+        else {
+            warn $_ . "  -- doesn't match pattern (in $File::Find::dir )\n";
+        }
+    }
+}

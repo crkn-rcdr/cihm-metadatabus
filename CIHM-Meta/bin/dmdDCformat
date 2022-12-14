@@ -1,0 +1,123 @@
+#!/usr/bin/env perl
+
+package dmdDCformat;
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
+use File::Find;
+use Data::Dumper;
+use Digest::MD5;
+use JSON;
+use Poppler;
+use XML::LibXML;
+use CIHM::Swift::Client;
+use URI::Escape;
+use DateTime::Format::ISO8601;
+use HTTP::Date qw(:DEFAULT time2isoz);
+use File::Path qw(make_path remove_tree);
+use File::Spec;
+use File::stat;
+use XML::LibXML;
+use utf8;
+use Switch;
+
+# There are only 3 valid types of descriptive metadata
+my @dmdtypes = ( "issueinfo", "DC", "MARC" );
+
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
+sub log_warnings {
+    my $warning = shift;
+    chomp $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    $logger->warn($stripped);
+    print STDERR "$warning\n";
+}
+local $SIG{__WARN__} = sub { &log_warnings };
+
+my $dmddir = '/crkn-nas-wip/_Metadata_Sychronised';
+$dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
+
+my $lockfile = '/var/lock/tdr/dmdDCformat';
+$lockfile = $ENV{dmddcformat_lockfile}
+  if ( exists $ENV{dmddcformat_lockfile} );
+
+$logger->info("DMD DC format: start");
+
+GetOptions(
+    'lockfile:s' => \$lockfile,
+    'dmddir:s'   => \$dmddir,
+);
+
+# Only allow one instance to run at a time..
+sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
+  or die "can't open lockfile=$lockfile: $!\n";
+flock( FH, LOCK_EX | LOCK_NB )
+  or exit 0;
+
+# Used to show a different processname during processing
+my $dmddcformatprog = $0;
+
+my $accessdir = File::Spec->catfile( $dmddir, 'access' );
+
+$0 = $dmddcformatprog . " find in $accessdir";
+find( \&matching_dmd_file, $accessdir );
+
+sub matching_dmd_file {
+    if ( -f $_ ) {
+        $0 = $dmddcformatprog . " looking for DC in $File::Find::dir";
+        if (/^(.*)-(\w*)\.xml$/) {
+            my $id      = $1;
+            my $dmdType = $2;
+
+            if ( $dmdType eq 'DC' ) {
+                open my $fh, '<:encoding(UTF-8)', $File::Find::name
+                  or die "can't open DC file=$File::Find::name: $!\n";
+
+                my $xmlin = do { local $/; <$fh> };
+                close $fh;
+
+                # Ugly, but does the trick for now.
+                # Great when we can get rid of these odd hacks for odd data
+                $xmlin =~
+s|<simpledc>|<simpledc xmlns:dc="http://purl.org/dc/elements/1.1/">|g;
+
+                my $doc = XML::LibXML->new->parse_string($xmlin);
+
+                my $xpc = XML::LibXML::XPathContext->new;
+                $xpc->registerNs( 'dc', 'http://purl.org/dc/elements/1.1/' );
+
+                my @nodes = $xpc->findnodes( "//*", $doc );
+
+                my @formats;
+                foreach my $node (@nodes) {
+                    my $content = $node->textContent;
+                    if ( length($content) ) {
+                        my $nodename = lc( $node->nodeName );
+                        $nodename =~ s|dc:||g;    # Strip namespace if it exists
+
+                        if ( $nodename eq 'format' ) {
+                            push @formats, $content;
+                        }
+                    }
+                }
+                if ( scalar(@formats) ) {
+                    print "$id has formats: " . join( ", ", @formats ) . "\n";
+                }
+            }
+        }
+        else {
+            warn $_ . "  -- doesn't match pattern (in $File::Find::dir )\n";
+        }
+    }
+}
