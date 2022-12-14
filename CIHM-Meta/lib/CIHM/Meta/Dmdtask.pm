@@ -1023,8 +1023,28 @@ sub extractdc_csv {
 
     my @headerline;
     try {
-        @headerline =
-          $csv->header( $fh, { detect_bom => 1, munge_column_names => "lc" } );
+        my %cols;
+        @headerline = $csv->header(
+            $fh,
+            {
+                detect_bom         => 1,
+                munge_column_names => sub {
+                    my $cn = $_;
+                    lc $cn;
+
+                    $cn =~ s/^\s+|\s+$//g;
+                    $cn =~ s/^dc\./dc:/;
+                    if ( !defined $cols{$cn} ) {
+                        $cols{$cn} = 0;
+                        return $cn;
+                    }
+                    else {
+                        $cols{$cn}++;
+                        return $cn . "(" . $cols{$cn} . ")";
+                    }
+                }
+            }
+        );
     }
     catch {
         my $error = $_;
@@ -1048,7 +1068,7 @@ sub extractdc_csv {
       first { $headerline[$_] && substr( $headerline[$_], 0, 3 ) eq 'dc:' }
     0 .. @headerline;
     if ( !defined $hasDC ) {
-        die "No column starts with 'dc:'. Is this a Dublin Core file?\n";
+        die "No column starts with 'dc:' or 'dc.'. Is this a Dublin Core file?\n";
     }
 
     my $label_col = first { $headerline[$_] eq 'label' } 0 .. @headerline;
@@ -1086,9 +1106,25 @@ sub extractdc_csv {
         $root->setNamespace( 'http://purl.org/dc/elements/1.1/', 'dc', 0 );
 
         # map header to dc element and process values
-        foreach my $thisheader (@headerline) {
+        foreach my $headerindex ( 0 .. @headerline ) {
+            my $thisheader = $headerline[$headerindex];
+
             if ( substr( $thisheader, 0, 3 ) eq 'dc:' ) {
-                set_element( $thisheader, \@headerline, $row, $root );
+
+                my $value = $row->[$headerindex];
+                $value =~ s/^\s+|\s+$//g;
+
+                # Removing (), which was added to make header unique.
+                $thisheader =~ s/\(\d+\)$//;
+
+                if ( $value ne '' ) {
+
+                    #split on delimiters
+                    my @values = split( /\s*\|\|\s*/, $value );
+                    foreach (@values) {
+                        $root->appendTextChild( $thisheader, $_ );
+                    }
+                }
             }
         }
 
@@ -1118,20 +1154,6 @@ sub extractdc_csv {
 
         # Store the item
         push @{ $self->items }, \%item;
-    }
-}
-
-sub set_element {
-    my ( $header, $header_array, $row, $root ) = @_;
-
-    my $header_index =
-      first { @$header_array[$_] eq $header } 0 .. @$header_array;
-    my $value = $row->[$header_index];
-
-    #split on delimiters
-    my @values = split( /\s*\|\|\s*/, $value );
-    foreach (@values) {
-        $root->appendTextChild( $header, $_ );
     }
 }
 

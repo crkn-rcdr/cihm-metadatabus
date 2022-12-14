@@ -5,6 +5,7 @@ use strict;
 use XML::LibXML;
 use Try::Tiny;
 use JSON;
+use JSON::Parse 'read_json';
 use Switch;
 use URI::Escape;
 use CIHM::Meta::dmd::flatten qw(normaliseSpace);
