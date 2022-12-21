@@ -712,7 +712,7 @@ sub forceAccessUpdate {
 
     my $res =
       $self->accessdb->post( $url, {}, { deserializer => 'application/json' } );
-    if ( $res->code != 201 ) {
+    if ( ( $res->code != 201 ) && ( $res->code != 409 ) ) {
         if ( defined $res->response->content ) {
             $self->log->warn( $res->response->content );
         }
