@@ -26,6 +26,7 @@ use File::stat;
 use XML::LibXML;
 use utf8;
 use Switch;
+use CIHM::Meta::DCCSV;
 
 Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
 my $logger = Log::Log4perl::get_logger("CIHM::TDR");
@@ -75,11 +76,41 @@ flock( FH, LOCK_EX | LOCK_NB )
 # Used to show a different processname during processing
 my $dmddcmultiprog = $0;
 
-my $preservationdir = File::Spec->catfile( $dmddir, 'preservation', "numeris" );
-my $preservationcsvdir = File::Spec->catfile( $csvdir, 'preservation' );
+#
+my $dccsv;
 
-$0 = $dmddcmultiprog . " find in $preservationdir";
-find( \&matching_dmd_file, $preservationdir );
+## Test an ID
+#$dccsv = CIHM::Meta::DCCSV->new( { csvdir => $csvdir } );
+#$dccsv->addElement( "oocihm.7a9790", "thisis" , "atest" );
+#exit 0;
+
+my $preservationdir = File::Spec->catfile( $dmddir, 'preservation' );
+opendir( my $dh, $preservationdir ) || die "Can't open $preservationdir: $!";
+while ( readdir $dh ) {
+    if ( substr( $_, 0, 1 ) ne "." ) {
+        my $prefixdir = $_;
+
+        my $preservationcsvdir =
+          File::Spec->catfile( $csvdir, 'preservation', $prefixdir );
+        my $preservationsubdir =
+          File::Spec->catfile( $dmddir, 'preservation', $prefixdir );
+
+        $dccsv = CIHM::Meta::DCCSV->new( { csvdir => $preservationcsvdir } );
+
+        $0 = $dmddcmultiprog . " find in $preservationsubdir";
+        print "Find for $prefixdir\n";
+
+        find( \&matching_dmd_file, $preservationsubdir );
+
+        print "Write for $prefixdir\n";
+
+        $dccsv->writeCSV();
+        undef $dccsv;
+    }
+}
+closedir $dh;
+
+exit 0;
 
 sub matching_dmd_file {
     if ( -f $_ ) {
@@ -88,7 +119,7 @@ sub matching_dmd_file {
             my $id      = $1;
             my $dmdType = $2;
 
-            if ( 1 || $dmdType eq 'DC' ) {
+            if ( $dmdType eq 'DC' ) {
                 $inThisFile = $File::Find::name;
                 open my $fh, '<:encoding(UTF-8)', $File::Find::name
                   or die "can't open DC file=$File::Find::name: $!\n";
@@ -115,7 +146,7 @@ s|<simpledc>|<simpledc xmlns:dc="http://purl.org/dc/elements/1.1/">|g;
                 }
                 elsif ( scalar(@datenodes) == 2 ) {
 
-                    print "Orig $id:" . $doc->toString(1) . "\n";
+              #                    print "Orig $id:" . $doc->toString(1) . "\n";
 
                     # Append the second date to the first.
                     $datenodes[0]
@@ -133,7 +164,23 @@ s|<simpledc>|<simpledc xmlns:dc="http://purl.org/dc/elements/1.1/">|g;
                     # Remove the second date
                     $datenodes[1]->unbindNode();
 
-                    print "New:" . $doc->toString(1) . "\n";
+                    #print "Fixed DC:" . $doc->toString(1) . "\n";
+
+                    my @allnodes = $xpc->findnodes( "//*", $doc );
+
+                    foreach my $node (@allnodes) {
+                        my $content = normaliseSpace( $node->textContent );
+
+                        if ( length($content) ) {
+                            my $nodename = lc( $node->nodeName );
+                            $nodename =~
+                              s|dc:||g;    # Strip namespace if it exists
+
+                            if ( $nodename ne "simpledc" ) {
+                                $dccsv->addElement( $id, $nodename, $content );
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -141,4 +188,13 @@ s|<simpledc>|<simpledc xmlns:dc="http://purl.org/dc/elements/1.1/">|g;
             warn $_ . "  -- doesn't match pattern (in $File::Find::dir )\n";
         }
     }
+}
+
+sub normaliseSpace {
+    my $content = shift;
+
+    $content =~ s/^\s+|\s+$//g;    # Trim space at end and beginning.
+    $content =~ s/\s+/ /g;         # Remove extra spaces
+
+    return $content;
 }
