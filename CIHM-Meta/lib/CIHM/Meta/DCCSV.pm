@@ -6,6 +6,8 @@ use Log::Log4perl;
 use Try::Tiny;
 use Data::Dumper;
 use Switch;
+use Text::CSV;
+use File::Path qw(make_path remove_tree);
 
 use constant DCELEMENTS => qw(
   title
@@ -83,11 +85,72 @@ sub writeCSV {
 
     return if ( !keys %{ $self->dcrecords } );
 
-    print "csvdir: " . $self->csvdir . "\n";
+    make_path( $self->csvdir );
 
     foreach my $prefix ( sort keys %{ $self->dcrecords } ) {
-        print "$prefix count="
-          . scalar( keys %{ $self->dcrecords->{$prefix} } ) . "\n";
+
+        # Maximum number of elements over all identifiers.
+        my %maxelement;
+
+        foreach my $identifier ( sort keys %{ $self->dcrecords->{$prefix} } ) {
+            foreach my $element (DCELEMENTS) {
+                if ( !defined $maxelement{$element} ) {
+                    $maxelement{$element} = 1;
+                }
+                my $count = scalar(
+                    @{
+                        $self->dcrecords->{$prefix}->{$identifier}->{$element}
+                    }
+                );
+                $maxelement{$element} = $count
+                  if ( $count > $maxelement{$element} );
+            }
+        }
+
+        # Build the CSV array
+        my @csvrows;
+        {
+            # Create header
+            my @header;
+            push @header, "objid";
+            foreach my $element (DCELEMENTS) {
+                foreach ( 1 .. $maxelement{$element} ) {
+                    push @header, "dc." . $element;
+                }
+            }
+            push @csvrows, \@header
+        }
+        foreach my $identifier ( sort keys %{ $self->dcrecords->{$prefix} } ) {
+
+            my @row;
+            push @row, $identifier;
+
+            foreach my $element (DCELEMENTS) {
+                foreach my $index ( 0 .. $maxelement{$element} - 1 ) {
+                    if (
+                        defined $self->dcrecords->{$prefix}->{$identifier}
+                        ->{$element}->[$index] )
+                    {
+                        push @row, $self->dcrecords->{$prefix}->{$identifier}
+                          ->{$element}->[$index];
+                    }
+                    else {
+                        push @row, '';
+                    }
+                }
+            }
+            push @csvrows, \@row;
+        }
+
+        my $csvfile = $self->csvdir . "/$prefix.csv";
+        print "Writing: $csvfile\n";
+
+        # Write as CSV
+        my $csv = Text::CSV->new( { binary => 1, auto_diag => 1 } );
+        open my $fh, ">:encoding(utf8)", $csvfile or die "opening $csvfile: $!";
+        $csv->say( $fh, $_ ) for @csvrows;
+        close $fh or die "closing $csvfile: $!"
+
     }
 }
 

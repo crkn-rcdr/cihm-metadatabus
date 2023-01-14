@@ -20,7 +20,6 @@ use CIHM::Swift::Client;
 use URI::Escape;
 use DateTime::Format::ISO8601;
 use HTTP::Date qw(:DEFAULT time2isoz);
-use File::Path qw(make_path remove_tree);
 use File::Spec;
 use File::stat;
 use XML::LibXML;
@@ -53,7 +52,7 @@ sub log_warnings {
 local $SIG{__WARN__} = sub { &log_warnings };
 
 my $dmddir = '/crkn-nas-wip/_Metadata_Sychronised';
-my $csvdir = '/crkn-nas-wip/_Metadata_Fixed/';
+my $csvdir = '/crkn-nas-wip/_Metadata_Fixed/dcDateRanges';
 
 my $lockfile = '/var/lock/tdr/dmdDCmultidate';
 $lockfile = $ENV{dmddcmultidate_lockfile}
