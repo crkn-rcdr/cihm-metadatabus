@@ -45,7 +45,7 @@ sub log_warnings {
 }
 local $SIG{__WARN__} = sub { &log_warnings };
 
-my $dmddir = '/crkn-nas-wip/_Metadata_Sychronised';
+my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
 
 my $lockfile = '/var/lock/tdr/dmdDCmultidate';
