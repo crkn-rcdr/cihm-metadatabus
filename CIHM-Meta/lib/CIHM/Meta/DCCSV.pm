@@ -168,14 +168,19 @@ sub getPrefix {
         case /^numeris\.RD/ {
             $prefix = "numeris.RD"
         }
-
-        #        case /^oocihm\.\d_/ {
-        #            my @x = split( '_', $id );
-        #            $prefix = join( '_', splice( @x, 0, 2 ) );
-        #        }
-        #        case /^oocihm\.\d\d/ {
-        #            $prefix = substr( $id, 0, 9 );
-        #        }
+        case /^oocihm\.N_/ {
+            my @x = split( '_', $id );
+            $prefix = join( '_', splice( @x, 0, 2 ) );
+        }
+        case /^oocihm\.\d_/ {
+            $prefix = substr( $id, 0, 10 );
+        }
+        case /^oocihm\.\d\d/ {
+            $prefix = substr( $id, 0, 9 );
+        }
+        case /^oocihm\.lac_reel_/ {
+            $prefix = substr( $id, 0, 18 );
+        }
         else {
             my @x = split( /\./, $id );
             my @y = @x;

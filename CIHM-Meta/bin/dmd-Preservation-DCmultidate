@@ -54,23 +54,12 @@ local $SIG{__WARN__} = sub { &log_warnings };
 my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 my $csvdir = '/crkn-nas-wip/_Metadata_Fixed/dcDateRanges';
 
-my $lockfile = '/var/lock/tdr/dmdDCmultidate';
-$lockfile = $ENV{dmddcmultidate_lockfile}
-  if ( exists $ENV{dmddcmultidate_lockfile} );
-
 $logger->info("DMD Preservation DC MultiDate: start");
 
 GetOptions(
-    'lockfile:s' => \$lockfile,
-    'dmddir:s'   => \$dmddir,
-    'csvdir:s'   => \$csvdir,
+    'dmddir:s' => \$dmddir,
+    'csvdir:s' => \$csvdir,
 );
-
-# Only allow one instance to run at a time..
-sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
-  or die "can't open lockfile=$lockfile: $!\n";
-flock( FH, LOCK_EX | LOCK_NB )
-  or exit 0;
 
 # Used to show a different processname during processing
 my $dmddcmultiprog = $0;
