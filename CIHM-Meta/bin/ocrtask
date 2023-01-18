@@ -16,6 +16,9 @@ my $logger = Log::Log4perl::get_logger("CIHM::TDR");
 my $lockfile = '/var/lock/tdr/ocrtask';
 $lockfile = $ENV{ocrtask_lockfile} if ( exists $ENV{ocrtask_lockfile} );
 
+my $ocrdir = '/crkn-nas-wip/_OCR/';
+$lockfile = $ENV{ocrtask_ocrdir} if ( exists $ENV{ocrtask_ocrdir} );
+
 my $maxprocs = 4;
 $maxprocs = $ENV{ocrtask_maxprocs} if ( exists $ENV{ocrtask_maxprocs} );
 
@@ -57,6 +60,7 @@ GetOptions(
     'couchdb_access:s'        => \$couchdb_access,
     'couchdb_canvas:s'        => \$couchdb_canvas,
     'lockfile:s'              => \$lockfile,
+    'ocrdir:s'                => \$ocrdir,
     'maxprocs:i'              => \$maxprocs,
     'swift_server:s'          => \$swift_server,
     'swift_user:s'            => \$swift_user,
@@ -102,7 +106,8 @@ try {
             couchdb_access        => $couchdb_access,
             couchdb_canvas        => $couchdb_canvas,
             couchdb_ocrtask       => $couchdb_ocrtask,
-            logger                => $logger
+            logger                => $logger,
+            ocrdir                => $ocrdir,
         }
     )->ocrtask;
 }

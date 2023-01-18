@@ -103,6 +103,11 @@ sub log {
     return $self->args->{logger};
 }
 
+sub ocrdir {
+    my $self = shift;
+    return $self->args->{ocrdir};
+}
+
 sub access_metadata {
     my $self = shift;
     return $self->args->{swift_access_metadata};
@@ -258,7 +263,7 @@ sub ocrExport {
     # Used to show a different processname during processing
     my $ocrloadprog = $0;
 
-    my $workdir = "/home/tdr/ocr/" . $self->task->{name};
+    my $workdir = $self->ocrdir . "/" . $self->task->{name};
     mkdir $workdir or die "Can't create task work directory $workdir : $!\n";
 
     $self->canvasdb->type("application/json");
@@ -331,7 +336,7 @@ sub ocrImport {
     # Used to show a different processname during processing
     my $ocrloadprog = $0;
 
-    my $workdir = "/home/tdr/ocr/" . $self->task->{name};
+    my $workdir = $self->ocrdir . "/" . $self->task->{name};
     if ( !-d $workdir ) {
         die "Work directory: $workdir : $!\n";
     }
