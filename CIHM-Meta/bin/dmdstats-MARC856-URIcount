@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-package dmdstats;
+package dmdstatsMARC856URIcount;
 
 use strict;
 use warnings;
