@@ -49,28 +49,25 @@ local $SIG{__WARN__} = sub { &log_warnings };
 my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
 
-my $lockfile = '/var/lock/tdr/dmdstats';
-$lockfile = $ENV{dmdstats_lockfile} if ( exists $ENV{dmdstats_lockfile} );
+my $outfile = '/crkn-nas-wip/_Metadata_Synchronised/analysis/dmdstats.csv';
 
 $logger->info("DMD stats: start");
 
 GetOptions(
-    'lockfile:s' => \$lockfile,
-    'dmddir:s'   => \$dmddir,
+    'outfile:s' => \$outfile,
+    'dmddir:s'  => \$dmddir,
 );
-
-# Only allow one instance to run at a time..
-sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
-  or die "can't open lockfile=$lockfile: $!\n";
-flock( FH, LOCK_EX | LOCK_NB )
-  or exit 0;
 
 # Used to show a different processname during processing
 my $dmdstatsprog = $0;
 
 my %results;
 
-find( \&matching_dmd_file, $dmddir );
+my $preservationdir = File::Spec->catfile( $dmddir, 'preservation' );
+find( \&matching_dmd_file, $preservationdir );
+
+my $accessdir = File::Spec->catfile( $dmddir, 'access' );
+find( \&matching_dmd_file, $accessdir );
 
 sub matching_dmd_file {
     if ( -f $_ ) {
@@ -121,4 +118,4 @@ foreach my $repo ( sort keys %results ) {
     }
 }
 
-csv( in => \@res, out => \*STDOUT );
+csv( in => \@res, out => $outfile );
