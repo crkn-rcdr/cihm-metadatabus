@@ -1,0 +1,134 @@
+#!/usr/bin/env perl
+
+package dmdstatsMARC533list;
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
+use File::Find;
+use Data::Dumper;
+use Digest::MD5;
+use JSON;
+use Poppler;
+use XML::LibXML;
+use MARC::File::XML ( BinaryEncoding => 'utf8', RecordFormat => 'USMARC' );
+use CIHM::Swift::Client;
+use URI::Escape;
+use DateTime::Format::ISO8601;
+use HTTP::Date qw(:DEFAULT time2isoz);
+use File::Path qw(make_path remove_tree);
+use File::Spec;
+use File::stat;
+use XML::LibXML;
+use utf8;
+use Switch;
+use Text::CSV qw( csv );
+
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
+sub log_warnings {
+    my $warning = shift;
+    chomp $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+
+    $logger->warn($stripped);
+    print STDERR "$warning\n";
+}
+local $SIG{__WARN__} = sub { &log_warnings };
+
+my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
+$dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
+
+my $outdir = '/crkn-nas-wip/_Metadata_Synchronised/analysis/MARC533lists/';
+
+$logger->info("DMD stats: start");
+
+GetOptions(
+    'outdir:s' => \$outdir,
+    'dmddir:s' => \$dmddir,
+);
+
+# Used to show a different processname during processing
+my $dmdstatsprog = $0;
+
+my %results;
+my @morethan = [ 'slug', 'subfield', 'string' ];
+
+my $accessdir = File::Spec->catfile( $dmddir, 'access' );
+find( \&matching_dmd_file, $accessdir );
+
+sub matching_dmd_file {
+    if ( -f $_ ) {
+        $0 = $dmdstatsprog . " scanning in $File::Find::dir";
+        if (/^(.*)-(\w*)\.xml$/) {
+            my $id      = $1;
+            my $dmdType = $2;
+            return if $dmdType ne "MARC";
+
+            if ( $File::Find::dir =~ /$dmddir\/([^\/]+)\/(.*)$/ ) {
+                my $repo   = $1;
+                my $prefix = $2;
+
+                open my $fh, '<:encoding(UTF-8)', $File::Find::name
+                  or die "can't open DC file=$File::Find::name: $!\n";
+
+                my $xmlin = do { local $/; <$fh> };
+                close $fh;
+
+                my $record = MARC::Record->new_from_xml($xmlin);
+
+                # Looking for 533 where there are more subfields than 'a'
+                # https://www.loc.gov/marc/bibliographic/bd533.html
+                foreach my $field ( $record->field('533') ) {
+                    my @subfields = $field->subfields();
+
+                    if (   ( scalar(@subfields) != 1 )
+                        || ( $subfields[0][0] ne 'a' ) )
+                    {
+                        foreach my $subfield (@subfields) {
+                            my ( $sf, $value ) = @{$subfield};
+
+                            if ( !( grep { $sf eq $_ } qw(a b c d) ) ) {
+                                print "$id has subfield $sf = $value\n";
+                            }
+                            push @morethan, [ $id, $sf, $value ];
+                        }
+
+                        if ( !defined $results{$prefix} ) {
+                            $results{$prefix} = [];
+                        }
+                        push @{ $results{$prefix} },
+                          [ $id, $field->as_string() ];
+                    }
+                }
+            }
+            else {
+                warn $File::Find::dir . "  -- doesn't match pattern\n";
+            }
+        }
+        else {
+            warn $_ . "  -- doesn't match pattern (in $File::Find::dir )\n";
+        }
+    }
+}
+
+foreach my $prefix ( sort keys %results ) {
+
+    my @res = [ 'slug', '533 string' ];
+    push @res, @{ $results{$prefix} };
+
+    my $outfile = File::Spec->catfile( $outdir, "access-$prefix-MARC533.csv" );
+    csv( in => \@res, out => $outfile );
+
+}
+
+my $outfile = File::Spec->catfile( $outdir, "more-than-abcd.csv" );
+csv( in => \@morethan, out => $outfile );
