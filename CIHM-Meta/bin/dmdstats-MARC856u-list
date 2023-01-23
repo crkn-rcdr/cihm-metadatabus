@@ -66,7 +66,7 @@ find( \&matching_dmd_file, $accessdir );
 
 sub matching_dmd_file {
     if ( -f $_ ) {
-        $0 = $dmdstatsprog . " counting in $File::Find::dir";
+        $0 = $dmdstatsprog . " scanning in $File::Find::dir";
         if (/^(.*)-(\w*)\.xml$/) {
             my $id      = $1;
             my $dmdType = $2;

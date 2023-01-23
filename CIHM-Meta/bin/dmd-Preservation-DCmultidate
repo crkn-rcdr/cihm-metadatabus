@@ -52,7 +52,7 @@ sub log_warnings {
 local $SIG{__WARN__} = sub { &log_warnings };
 
 my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
-my $csvdir = '/crkn-nas-wip/_Metadata_Fixed/dcDateRanges';
+my $csvdir = '/crkn-nas-wip/_Metadata_Synchronised/Fixed/dcDateRanges';
 
 $logger->info("DMD Preservation DC MultiDate: start");
 
