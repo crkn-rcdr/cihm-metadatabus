@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-package dmdstatsMARC533list;
+package dmdstatsMARCfieldslist;
 
 use strict;
 use warnings;
@@ -47,7 +47,7 @@ local $SIG{__WARN__} = sub { &log_warnings };
 my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
 
-my $outdir = '/crkn-nas-wip/_Metadata_Synchronised/analysis/MARC533lists/';
+my $outdir = '/crkn-nas-wip/_Metadata_Synchronised/analysis/MARCfieldslist/';
 
 $logger->info("DMD stats: start");
 
@@ -59,11 +59,32 @@ GetOptions(
 # Used to show a different processname during processing
 my $dmdstatsprog = $0;
 
+# Needs to be a global....
 my %results;
-my @morethan = [ 'slug', 'subfield', 'string' ];
 
-my $accessdir = File::Spec->catfile( $dmddir, 'access' );
-find( \&matching_dmd_file, $accessdir );
+foreach my $environment ( "access", "preservation" ) {
+
+    # clear first, as this is a loop
+    for ( keys %results ) {
+        delete $results{$_};
+    }
+
+    my $scandir = File::Spec->catfile( $dmddir, $environment );
+    find( \&matching_dmd_file, $scandir );
+
+    foreach my $prefix ( sort keys %results ) {
+        foreach my $tag ( sort keys %{ $results{$prefix} } ) {
+
+            my @res = [ 'slug', "$tag string" ];
+            push @res, @{ $results{$prefix}{$tag} };
+
+            my $outfile = File::Spec->catfile( $outdir,
+                "$environment-access-$prefix-MARC$tag.csv" );
+            $0 = $dmdstatsprog . " writing $outfile";
+            csv( in => \@res, out => $outfile );
+        }
+    }
+}
 
 sub matching_dmd_file {
     if ( -f $_ ) {
@@ -85,29 +106,14 @@ sub matching_dmd_file {
 
                 my $record = MARC::Record->new_from_xml($xmlin);
 
-                # Looking for 533 where there are more subfields than 'a'
-                # https://www.loc.gov/marc/bibliographic/bd533.html
-                foreach my $field ( $record->field('533') ) {
-                    my @subfields = $field->subfields();
+                foreach my $field ( $record->fields() ) {
+                    my $tag    = $field->tag();
+                    my $string = $field->as_string();
 
-                    if (   ( scalar(@subfields) != 1 )
-                        || ( $subfields[0][0] ne 'a' ) )
-                    {
-                        foreach my $subfield (@subfields) {
-                            my ( $sf, $value ) = @{$subfield};
-
-                            if ( !( grep { $sf eq $_ } qw(a b c d) ) ) {
-                                print "$id has subfield $sf = $value\n";
-                                push @morethan, [ $id, $sf, $value ];
-                            }
-                        }
-
-                        if ( !defined $results{$prefix} ) {
-                            $results{$prefix} = [];
-                        }
-                        push @{ $results{$prefix} },
-                          [ $id, $field->as_string() ];
+                    if ( !defined $results{$prefix}{$tag} ) {
+                        $results{$prefix}{$tag} = [];
                     }
+                    push @{ $results{$prefix}{$tag} }, [ $id, $string ];
                 }
             }
             else {
@@ -120,15 +126,3 @@ sub matching_dmd_file {
     }
 }
 
-foreach my $prefix ( sort keys %results ) {
-
-    my @res = [ 'slug', '533 string' ];
-    push @res, @{ $results{$prefix} };
-
-    my $outfile = File::Spec->catfile( $outdir, "access-$prefix-MARC533.csv" );
-    csv( in => \@res, out => $outfile );
-
-}
-
-my $outfile = File::Spec->catfile( $outdir, "more-than-abcd.csv" );
-csv( in => \@morethan, out => $outfile );
