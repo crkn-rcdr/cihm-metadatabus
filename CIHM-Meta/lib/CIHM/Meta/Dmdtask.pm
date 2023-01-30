@@ -389,6 +389,10 @@ sub handleTask {
 
                 case "csvdc" { $self->extractdc_csv($attach); }
 
+                case "marc856" {
+                    $self->extractxml_marc($attach);
+                    $self->process_marc("856");
+                }
                 case "marc490" {
                     $self->extractxml_marc($attach);
                     $self->process_marc("490");
@@ -1068,7 +1072,8 @@ sub extractdc_csv {
       first { $headerline[$_] && substr( $headerline[$_], 0, 3 ) eq 'dc:' }
     0 .. @headerline;
     if ( !defined $hasDC ) {
-        die "No column starts with 'dc:' or 'dc.'. Is this a Dublin Core file?\n";
+        die
+          "No column starts with 'dc:' or 'dc.'. Is this a Dublin Core file?\n";
     }
 
     my $label_col = first { $headerline[$_] eq 'label' } 0 .. @headerline;
@@ -1241,6 +1246,32 @@ sub process_marc {
 
         my $objid;
         switch ($idschema) {
+            case "856" {
+
+                # There may be many 856's, and each may have many 'u' subfields
+                # https://www.loc.gov/marc/bibliographic/bd856.html
+                foreach my $field ( $record->field('856') ) {
+                    foreach my $subfield ( $field->subfield("u") ) {
+                        if ( $subfield =~
+                            /\.canadiana\.ca\/view\/([\p{L}\p{Nl}\p{Nd}\-_\.]+)/
+                          )
+                        {
+                            if ($objid) {
+                                warn
+                                  "Already found $objid , but also found $1\n";
+                            }
+                            else {
+                                $objid = $1;
+                            }
+                        }
+                    }
+                }
+                if ( !$objid ) {
+                    warn
+                      "Can't find canadiana.ca URL in any 856\$u subfields\n";
+                    $objid = '[unknown]';
+                }
+            }
             case "ooe" {
                 $objid = substr( $record->subfield( '035', 'a' ), 1 );
             }
