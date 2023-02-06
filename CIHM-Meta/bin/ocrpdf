@@ -1,0 +1,116 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use CIHM::Meta::OcrPdf;
+use Fcntl qw(:DEFAULT :flock);
+
+my $lockfile = '/var/lock/tdr/ocrpdf';
+$lockfile = $ENV{ocrpdf_lockfile} if ( exists $ENV{ocrpdf_lockfile} );
+
+my $couchdb_access;
+$couchdb_access = $ENV{COUCHDB_ACCESS} if ( exists $ENV{COUCHDB_ACCESS} );
+
+my $couchdb_canvas;
+$couchdb_canvas = $ENV{COUCHDB_CANVAS} if ( exists $ENV{COUCHDB_CANVAS} );
+
+my $swift_server;
+$swift_server = $ENV{SWIFT_server} if ( exists $ENV{SWIFT_server} );
+
+my $swift_user;
+$swift_user = $ENV{SWIFT_user} if ( exists $ENV{SWIFT_user} );
+
+my $swift_password;
+$swift_password = $ENV{SWIFT_password} if ( exists $ENV{SWIFT_password} );
+
+my $swift_account;
+$swift_account = $ENV{SWIFT_account} if ( exists $ENV{SWIFT_account} );
+
+my $swift_access_metadata;
+$swift_access_metadata = $ENV{SWIFT_access_metadata}
+  if ( exists $ENV{SWIFT_access_metadata} );
+
+my $swift_access_files;
+$swift_access_files = $ENV{SWIFT_access_files}
+  if ( exists $ENV{SWIFT_access_files} );
+
+my $pdfboxapp;
+$pdfboxapp = "/pdfbox-app-" . $ENV{PDFBOXAPPVER} . ".jar"
+  if ( exists $ENV{PDFBOXAPPVER} );
+
+# Local parameters
+my $skip     = 0;
+my $maxprocs = 4;
+my $limit;
+my $timelimit;
+
+# For processing a single slug, regardless of queue.
+my $slug;
+
+GetOptions(
+    'lockfile:s'              => \$lockfile,
+    'couchdb_access:s'        => \$couchdb_access,
+    'couchdb_canvas:s'        => \$couchdb_canvas,
+    'swift_server:s'          => \$swift_server,
+    'swift_user:s'            => \$swift_user,
+    'swift_password:s'        => \$swift_password,
+    'swift_account:s'         => \$swift_account,
+    'swift_access_metadata:s' => \$swift_access_metadata,
+    'swift_access_files:s'    => \$swift_access_files,
+    'pdfboxapp:s'             => \$pdfboxapp,
+    'skip:i'                  => \$skip,
+    'maxprocs:i'              => \$maxprocs,
+    'limit:i'                 => \$limit,
+    'timelimit:i'             => \$timelimit,
+    'slug:s'                  => \$slug,
+
+);
+
+# Only allow one instance to run at a time..
+sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
+  or die "can't open lockfile=$lockfile: $!\n";
+flock( FH, LOCK_EX | LOCK_NB )
+  or exit 0;
+
+die "couchdb_access is mandatory (environment or parameter)\n"
+  if ( !$couchdb_access );
+$couchdb_access = noEndSlash($couchdb_access);
+
+die "couchdb_canvas is mandatory (environment or parameter)\n"
+  if ( !$couchdb_canvas );
+$couchdb_canvas = noEndSlash($couchdb_canvas);
+
+die "pdfboxapp is mandatory (environment or parameter)\n"
+  if ( !$pdfboxapp );
+
+CIHM::Meta::OcrPdf->new(
+    {
+        couchdb_access  => $couchdb_access,
+        couchdb_canvas  => $couchdb_canvas,
+        swift_server    => $swift_server,
+        swift_user      => $swift_user,
+        swift_password  => $swift_password,
+        swift_account   => $swift_account,
+        access_metadata => $swift_access_metadata,
+        access_files    => $swift_access_files,
+        pdfboxapp       => $pdfboxapp,
+        skip            => $skip,
+        maxprocs        => $maxprocs,
+        limit           => $limit,
+        timelimit       => $timelimit,
+        slug            => $slug,
+    }
+)->OcrPdf;
+
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
+}
+
+1;
+__END__
