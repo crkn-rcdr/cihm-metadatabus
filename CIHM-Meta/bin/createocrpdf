@@ -25,10 +25,12 @@ $couchdb_access = $ENV{COUCHDB_ACCESS}
 
 my $success;
 my $message;
+my $usenoids;
 GetOptions(
     'couchdb_access:s' => \$couchdb_access,
     'message:s'        => \$message,
-    'success'          => \$success
+    'success'          => \$success,
+    'usenoids'         => \$usenoids
 );
 
 die "couchdb_access is mandatory (environment or parameter)\n"
@@ -52,15 +54,12 @@ my $url;
 my $data = {};
 switch ($command) {
     case "request" {
-        print "request\n";
         $url = "/_design/metadatabus/_update/requestOCRPDF/";
     }
     case "cancel" {
-        print "cancel\n";
         $url = "/_design/metadatabus/_update/cancelOCRPDF/";
     }
     case "update" {
-        print "update\n";
         $url  = "/_design/metadatabus/_update/updateOCRPDF/";
         $data = {
             succeeded => $success ? JSON::true : JSON::false,
@@ -74,7 +73,40 @@ if ( !$url ) {
     die "No URL to use\n";
 }
 
-foreach my $noid (@ARGV) {
+my @noids;
+
+if ($usenoids) {
+    @noids = @ARGV;
+}
+else {
+
+    my $uri = "/_design/access/_view/slug";
+    my $res = $accessdb->post(
+        $uri,
+        {
+            keys         => \@ARGV,
+            include_docs => JSON::false
+        },
+        { deserializer => 'application/json' }
+    );
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        warn $uri . " POST return code: " . $res->code . "\n";
+    }
+    else {
+        foreach my $row ( @{ $res->data->{rows} } ) {
+            if ( defined $row->{id} ) {
+                push @noids, $row->{id};
+            }
+            else {
+                print Data::Dumper->Dump( [$row], ["SlugLookupRow"] );
+            }
+        }
+    }
+
+}
+
+foreach my $noid (@noids) {
 
     my $uri = $url . uri_escape_utf8($noid);
     my $res =
@@ -84,7 +116,7 @@ foreach my $noid (@ARGV) {
         warn $uri . " POST return code: " . $res->code . "\n";
     }
     else {
-        print Dumper ( $res->data );
+        print Data::Dumper->Dump( [ $res->data ], [$noid] );
     }
 }
 
