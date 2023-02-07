@@ -10,9 +10,8 @@ use Switch;
 use URI::Escape;
 use List::MoreUtils qw(uniq);
 use File::Temp;
+use Digest::MD5 qw(md5 md5_hex md5_base64);
 use Data::Dumper;
-
-#use Data::Dumper;
 
 =head1 NAME
 
@@ -63,6 +62,11 @@ sub access_metadata {
     return $self->worker->args->{access_metadata};
 }
 
+sub swift_retries {
+    my $self = shift;
+    return $self->worker->args->{swift_retries};
+}
+
 sub access_files {
     my $self = shift;
     return $self->worker->args->{access_files};
@@ -103,8 +107,6 @@ sub presentdoc {
 sub process {
     my ($self) = @_;
 
-    $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
-
     $self->{document} =
       $self->getAccessDocument( uri_escape_utf8( $self->noid ) );
     die "Missing Document\n" if !( $self->document );
@@ -112,6 +114,8 @@ sub process {
     if ( !$self->slug ) {
         die "Missing slug\n";
     }
+
+    $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
 
     if ( ref( $self->document->{canvases} ) ne 'ARRAY' ) {
         die "No canvases\n";
@@ -138,8 +142,6 @@ sub process {
     my $tempdir = File::Temp->newdir( CLEANUP => 0 );
 
     chdir $tempdir || die "Can't change directory to $tempdir\n";
-
-    print Dumper ( $tempdir . "" );
 
     my @pdffilenames;
 
@@ -181,18 +183,55 @@ sub process {
     }
 
     my $objectname = $self->noid . ".pdf";
-    print "Will post to $objectname\n";
 
-    #print Dumper ( $self->document, \@canvasdocs );
+    open( my $fh, '<:raw', "joined.pdf" )
+      or die "Could not open file 'joined.pdf' $!";
 
-    # While testing with 69429/m0vt1gh9g53f
-    #$self->worker->setocrpdf(
-    #    {
-    #        "size" => 734477,
-    #        "path" => "oocihm.67718/data/sip/data/files/oocihm.67718.pdf"
-    #    }
-    #);
+    binmode($fh);
 
+    my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
+
+    my $tries = $self->swift_retries;
+
+    do {
+        # Send file.
+        seek( $fh, 0, 0 );
+        my $response =
+          $self->swift->object_put( $self->access_files, $objectname, $fh );
+
+        if ( $response->code != 201 ) {
+            die "PUT access file object=$objectname container="
+              . $self->swift_access_files
+              . " returned "
+              . $response->code . " - "
+              . $response->message . "\n";
+        }
+        if ( $md5digest eq $response->etag ) {
+            $tries = 0;
+        }
+        else {
+            $tries--;
+            warn "MD5 mismatch object_put("
+              . $self->swift_access_files
+              . "): joined.pdf=$md5digest $objectname="
+              . $response->etag
+              . " during "
+              . $response->transaction_id
+              . "  retries=$tries\n";
+            if ( !$tries ) {
+                die "No more retries\n";
+            }
+        }
+    } until ( !$tries );
+
+    $self->worker->setocrpdf(
+        {
+            extension => 'pdf',
+            size      => -s "joined.pdf",
+            md5       => $md5digest,
+            mime      => "application/pdf"
+        }
+    );
 }
 
 sub getCanvasDocuments {
@@ -246,52 +285,6 @@ sub getAccessDocument {
         }
         $self->log->warn( "GET $url return code: " . $res->code );
         return;
-    }
-}
-
-sub getAccessSlim {
-    my ( $self, $docid ) = @_;
-
-    $self->accessdb->type("application/json");
-    my $url = "/_find";
-    my $res = $self->accessdb->post(
-        $url,
-        {
-            "selector" => {
-                "_id" => {
-                    '$eq' => $docid
-                }
-            },
-            "fields" => [ "slug", "behavior", "label" ]
-        },
-        { deserializer => 'application/json' }
-    );
-    if ( $res->code == 200 ) {
-        return pop @{ $res->data->{docs} };
-    }
-    else {
-        if ( defined $res->response->content ) {
-            $self->log->warn( $res->response->content );
-        }
-        $self->log->warn( "GET $url return code: " . $res->code );
-        return;
-    }
-}
-
-sub forceAccessUpdate {
-    my ( $self, $noid ) = @_;
-
-    $self->accessdb->type("application/json");
-    my $url = "/_design/access/_update/forceUpdate/" . uri_escape_utf8($noid);
-
-    my $res =
-      $self->accessdb->post( $url, {}, { deserializer => 'application/json' } );
-    if ( ( $res->code != 201 ) && ( $res->code != 409 ) ) {
-        if ( defined $res->response->content ) {
-            $self->log->warn( $res->response->content );
-        }
-        $self->log->warn(
-            "POST $url return code: " . $res->code . "(" . $res->error . ")" );
     }
 }
 

@@ -150,8 +150,8 @@ sub createpdf {
         $status = JSON::true;
         new CIHM::Meta::OcrPdf::Process(
             {
-                noid               => $noid,
-                worker             => $self
+                noid   => $noid,
+                worker => $self
             }
         )->process;
     }
@@ -194,6 +194,27 @@ sub postResults {
 
     if ( $res->code != 201 && $res->code != 200 ) {
         warn $uri . " POST return code: " . $res->code . "\n";
+    }
+    elsif ( defined $self->{ocrpdf} ) {
+
+        my $url =
+          "/_design/access/_update/forceUpdate/" . uri_escape_utf8($noid);
+
+        my $res =
+          $self->accessdb->post( $url, {},
+            { deserializer => 'application/json' } );
+        if ( ( $res->code != 201 ) && ( $res->code != 409 ) ) {
+            if ( defined $res->response->content ) {
+                $self->log->warn( $res->response->content );
+            }
+            $self->log->warn( "POST $url return code: "
+                  . $res->code . "("
+                  . $res->error
+                  . ")" );
+        }
+        else {
+            $self->log->info("Initiating update for $noid");
+        }
     }
 }
 
