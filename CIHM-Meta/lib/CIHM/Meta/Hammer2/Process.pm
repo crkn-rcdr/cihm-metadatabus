@@ -1271,6 +1271,7 @@ sub process_collection {
    # Order is in the multi-part collection,
    # but values we need are in search documents that need to be processed first!
 
+    my @notfound;
     foreach my $issue ( @{ $self->document->{members} } ) {
         my $item = $self->getSearchItem( $issue->{id} );
         if ($item) {
@@ -1279,10 +1280,14 @@ sub process_collection {
             push @order, $slug;
         }
         else {
-            warn "Item not found: " . $issue->{id} . "\n";
+            push @notfound, $issue->{id};
         }
     }
     $self->presentdoc->{ $self->slug }->{'items'} = $items;
+
+    if (@notfound) {
+        warn "Noids not found in Search documents: " . join( ' ', @notfound ),"\n";
+    }
 
     # So far we only support "unordered" and "multi-part" collections.
     if ( $self->document->{'behavior'} eq "multi-part" ) {
