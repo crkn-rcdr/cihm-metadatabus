@@ -264,10 +264,14 @@ sub process {
     }
 
     if ( exists $self->document->{'ocrPdf'} ) {
-        $self->attachment->[0]->{'canonicalDownload'} =
-          $self->document->{'ocrPdf'}->{'path'};
-        $self->attachment->[0]->{'canonicalDownloadSize'} =
-          $self->document->{'ocrPdf'}->{'size'};
+
+        # This is the old way, referencing Preservation Swift storage.
+        if ( defined $self->document->{'ocrPdf'}->{'path'} ) {
+            $self->attachment->[0]->{'canonicalDownload'} =
+              $self->document->{'ocrPdf'}->{'path'};
+            $self->attachment->[0]->{'canonicalDownloadSize'} =
+              $self->document->{'ocrPdf'}->{'size'};
+        }
         $self->attachment->[0]->{'ocrPdf'} =
           $self->document->{'ocrPdf'};
     }
@@ -307,8 +311,12 @@ sub process {
                 %master = %{ $canvases[$i]{'master'} }
                   if defined $canvases[$i]{'master'};
                 my %ocrPdf;
-                %ocrPdf = %{ $canvases[$i]{'ocrPdf'} }
-                  if defined $canvases[$i]{'ocrPdf'};
+
+                if ( defined $canvases[$i]{'ocrPdf'} ) {
+                    %ocrPdf = %{ $canvases[$i]{'ocrPdf'} };
+                    $self->attachment->[ $i + 1 ]->{'ocrPdf'} =
+                      $canvases[$i]{'ocrPdf'};
+                }
 
                 $self->attachment->[ $i + 1 ]->{'canonicalMasterHeight'} =
                   $master{height}
