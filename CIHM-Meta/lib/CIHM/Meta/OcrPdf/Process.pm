@@ -139,7 +139,7 @@ sub process {
     }
     die "Not all canvases have OCR data\n" if ( !$allocr );
 
-    my $tempdir = File::Temp->newdir( CLEANUP => 0 );
+    my $tempdir = File::Temp->newdir( CLEANUP => 1 );
 
     chdir $tempdir || die "Can't change directory to $tempdir\n";
 
