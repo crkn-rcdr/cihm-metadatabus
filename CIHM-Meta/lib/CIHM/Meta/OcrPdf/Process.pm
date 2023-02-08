@@ -141,8 +141,6 @@ sub process {
 
     my $tempdir = File::Temp->newdir( CLEANUP => 1 );
 
-    chdir $tempdir || die "Can't change directory to $tempdir\n";
-
     my @pdffilenames;
 
     foreach my $i ( 0 .. ( @{$canvasdocs} - 1 ) ) {
@@ -152,9 +150,9 @@ sub process {
 
         my $destfile = $i . ".pdf";
 
-        push @pdffilenames, $destfile;
-        open( my $fh, '>:raw', $destfile )
-          or die "Could not open file '$destfile' $!";
+        push @pdffilenames, "$tempdir/$destfile";
+        open( my $fh, '>:raw', "$tempdir/$destfile" )
+          or die "Could not open file '$tempdir/$destfile' $!";
         my $object = $self->swift->object_get( $self->access_files, $objectname,
             { write_file => $fh } );
         close $fh;
@@ -172,20 +170,20 @@ sub process {
       . $ENV{PDFBOXAPPVER}
       . ".jar PDFMerger "
       . join( ' ', @pdffilenames )
-      . " joined.pdf ";
+      . " $tempdir/joined.pdf ";
 
     my $output = `$cmd 2>&1`;
     warn "$output\n" if $output;
 
-    if ( !-f "joined.pdf" ) {
+    if ( !-f "$tempdir/joined.pdf" ) {
         warn "Command: $cmd\n";
         die "No multi-page PDF file was generated\n";
     }
 
     my $objectname = $self->noid . ".pdf";
 
-    open( my $fh, '<:raw', "joined.pdf" )
-      or die "Could not open file 'joined.pdf' $!";
+    open( my $fh, '<:raw', "$tempdir/joined.pdf" )
+      or die "Could not open file '$tempdir/joined.pdf' $!";
 
     binmode($fh);
 
@@ -227,7 +225,7 @@ sub process {
     $self->worker->setocrpdf(
         {
             extension => 'pdf',
-            size      => -s "joined.pdf",
+            size      => -s "$tempdir/joined.pdf",
             md5       => $md5digest,
             mime      => "application/pdf"
         }
