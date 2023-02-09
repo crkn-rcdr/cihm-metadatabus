@@ -133,7 +133,7 @@ sub process {
     my $allocr = JSON::true;
     foreach my $i ( 0 .. ( @{$canvasdocs} - 1 ) ) {
         if ( !defined $canvasdocs->[$i]->{ocrPdf} ) {
-            warn "Missing odfPdf for canvas index=$i\n";
+#            warn "Missing odfPdf for canvas index=$i\n";
             $allocr = JSON::false;
         }
     }
