@@ -140,6 +140,7 @@ sub createpdf {
 
     $self->{noid}    = $noid;
     $self->{message} = '';
+    delete $self->{ocrpdf};
 
     AE::log debug => "$noid Before ($$)";
 
