@@ -9,7 +9,7 @@ use JSON::Parse 'read_json';
 use Switch;
 use URI::Escape;
 use CIHM::Meta::dmd::flatten qw(normaliseSpace);
-use List::MoreUtils qw(uniq);
+use List::MoreUtils qw(uniq any);
 use File::Temp;
 
 #use Data::Dumper;
@@ -233,18 +233,25 @@ sub process {
     $self->attachment->[0]->{'key'}  = $self->slug;
     $self->attachment->[0]->{'noid'} = $self->noid;
 
-    my %identifier = ( $self->slug => 1 );
-    if ( defined $objid ) {
-        $identifier{$objid} = 1;
+    if ( !exists $self->attachment->[0]->{'identifier'} ) {
+        $self->attachment->[0]->{'identifier'} = [];
     }
-    if ( exists $self->attachment->[0]->{'identifier'} ) {
-        foreach my $identifier ( @{ $self->attachment->[0]->{'identifier'} } ) {
-            if ( $identifier && $identifier ne '' ) {
-                $identifier{$identifier} = 1;
-            }
-        }
+    if (
+        !(
+            any { $_ eq $self->slug }
+            @{ $self->attachment->[0]->{'identifier'} }
+        )
+      )
+    {
+        push @{ $self->attachment->[0]->{'identifier'} }, $self->slug;
     }
-    @{ $self->attachment->[0]->{'identifier'} } = keys %identifier;
+
+    if ( ( defined $objid )
+        && !( any { $_ eq $objid } @{ $self->attachment->[0]->{'identifier'} } )
+      )
+    {
+        push @{ $self->attachment->[0]->{'identifier'} }, $objid;
+    }
 
     $self->attachment->[0]->{'label'} =
       $self->getIIIFText( $self->document->{'label'} );
@@ -1286,7 +1293,8 @@ sub process_collection {
     $self->presentdoc->{ $self->slug }->{'items'} = $items;
 
     if (@notfound) {
-        warn "Noids not found in Search documents: " . join( ' ', @notfound ),"\n";
+        warn "Noids not found in Search documents: " . join( ' ', @notfound ),
+          "\n";
     }
 
     # So far we only support "unordered" and "multi-part" collections.
