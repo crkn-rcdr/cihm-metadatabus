@@ -118,7 +118,9 @@ sub process {
     $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
 
     if ( ref( $self->document->{canvases} ) ne 'ARRAY' ) {
-        die "No canvases\n";
+        $self->log->info(
+            "No canvases array for " . $self->noid . " (" . $self->slug . ")" );
+        return;
     }
 
     my @canvasids;
@@ -128,12 +130,19 @@ sub process {
         push @canvasids, $self->document->{'canvases'}->[$i]->{'id'};
     }
 
+    if ( scalar(@canvasids) < 2 ) {
+        $self->log->info( "Less than 2 canvasesfor "
+              . $self->noid . " ("
+              . $self->slug
+              . ")" );
+        return;
+    }
+
     my $canvasdocs = $self->getCanvasDocuments( \@canvasids );
 
     my $allocr = JSON::true;
     foreach my $i ( 0 .. ( @{$canvasdocs} - 1 ) ) {
         if ( !defined $canvasdocs->[$i]->{ocrPdf} ) {
-#            warn "Missing odfPdf for canvas index=$i\n";
             $allocr = JSON::false;
         }
     }
