@@ -208,7 +208,7 @@ sub process {
 
         if ( $response->code != 201 ) {
             die "PUT access file object=$objectname container="
-              . $self->swift_access_files
+              . $self->access_files
               . " returned "
               . $response->code . " - "
               . $response->message . "\n";
@@ -219,7 +219,7 @@ sub process {
         else {
             $tries--;
             warn "MD5 mismatch object_put("
-              . $self->swift_access_files
+              . $self->access_files
               . "): joined.pdf=$md5digest $objectname="
               . $response->etag
               . " during "
