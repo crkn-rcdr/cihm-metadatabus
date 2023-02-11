@@ -207,6 +207,9 @@ sub process {
           $self->swift->object_put( $self->access_files, $objectname, $fh );
 
         if ( $response->code != 201 ) {
+            if ( $response->code == 413 ) {
+                warn "Object is " . ( -s "$tempdir/joined.pdf" ) . " bytes.\n";
+            }
             die "PUT access file object=$objectname container="
               . $self->access_files
               . " returned "
