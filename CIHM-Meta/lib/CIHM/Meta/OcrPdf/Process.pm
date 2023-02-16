@@ -131,7 +131,7 @@ sub process {
     }
 
     if ( scalar(@canvasids) < 2 ) {
-        $self->log->info( "Less than 2 canvasesfor "
+        $self->log->info( "Less than 2 canvases for "
               . $self->noid . " ("
               . $self->slug
               . ")" );
