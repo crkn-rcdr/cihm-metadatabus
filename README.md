@@ -14,12 +14,14 @@ $ mkdir log ; sudo chown 1117.1117 log
 To run a shell inside the container, to test any command (the Dockerfile sets the correct path for the shell):
 
 ```
+$ docker-compose build --pull
 $ docker-compose run cihm-metadatabus bash
 ```
 
 To test a specific script, for example, dmdtask, run:
 
 ```
+$ docker-compose build --pull
 $ docker-compose run cihm-metadatabus bash
 tdr@6495e43707b5:~$ dmdtask
 ```
@@ -33,6 +35,7 @@ $ tail -f log/root.log
 What you run in bash inside the container can be an infinite loop if you wished to run similar to how it is run in production.
 
 ```
+$ docker-compose build --pull
 $ docker-compose run cihm-metadatabus bash
 Creating cihm-metadatabus_cihm-metadatabus_run ... done
 tdr@6495e43707b5:~$ while :; do dmdtask ; sleep 1m ; done
