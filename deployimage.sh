@@ -3,7 +3,7 @@
 echo
 echo "Building cihm-metadatabus:latest"
 
-docker build -t cihm-metadatabus:latest .
+docker build --pull -t cihm-metadatabus:latest .
 
 if [ "$?" -ne "0" ]; then
   exit $?
