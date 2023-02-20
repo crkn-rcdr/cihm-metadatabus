@@ -1,0 +1,128 @@
+#!/usr/bin/env perl
+
+package SyncDMD;
+
+use strict;
+use warnings;
+use Getopt::Long;
+use Data::Dumper;
+use JSON;
+use utf8;
+use Switch;
+use URI::Escape;
+
+{
+
+    package restclient;
+
+    use Moo;
+    with 'Role::REST::Client';
+}
+
+my $couchdb_access;
+$couchdb_access = $ENV{COUCHDB_ACCESS}
+  if ( exists $ENV{COUCHDB_ACCESS} );
+
+my $success;
+my $message;
+my $usenoids;
+GetOptions(
+    'couchdb_access:s' => \$couchdb_access,
+    'message:s'        => \$message,
+    'success'          => \$success,
+    'usenoids'         => \$usenoids
+);
+
+die "couchdb_access is mandatory (environment or parameter)\n"
+  if ( !$couchdb_access );
+$couchdb_access = noEndSlash($couchdb_access);
+
+my $accessdb = new restclient(
+    server      => $couchdb_access,
+    type        => 'application/json',
+    clientattrs => { timeout => 3600 },
+);
+$accessdb->set_persistent_header( 'Accept' => 'application/json' );
+my $test = $accessdb->head("/");
+if ( !$test || $test->code != 200 ) {
+    die
+      "Problem connecting to `access` Couchdb database. Check configuration\n";
+}
+
+my $command = shift @ARGV;
+my $url;
+my $data = {};
+switch ($command) {
+    case "request" {
+        $url = "/_design/metadatabus/_update/requestOCRPDF/";
+    }
+    case "cancel" {
+        $url = "/_design/metadatabus/_update/cancelOCRPDF/";
+    }
+    case "update" {
+        $url  = "/_design/metadatabus/_update/updateOCRPDF/";
+        $data = {
+            succeeded => $success ? JSON::true : JSON::false,
+            message => $message
+          }
+    }
+    else { print "First argument command=$command is unknown\n" }
+}
+
+if ( !$url ) {
+    die "No URL to use\n";
+}
+
+my @noids;
+
+if ($usenoids) {
+    @noids = @ARGV;
+}
+else {
+
+    my $uri = "/_design/access/_view/slug";
+    my $res = $accessdb->post(
+        $uri,
+        {
+            keys         => \@ARGV,
+            include_docs => JSON::false
+        },
+        { deserializer => 'application/json' }
+    );
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        warn $uri . " POST return code: " . $res->code . "\n";
+    }
+    else {
+        foreach my $row ( @{ $res->data->{rows} } ) {
+            if ( defined $row->{id} ) {
+                push @noids, $row->{id};
+            }
+            else {
+                print Data::Dumper->Dump( [$row], ["SlugLookupRow"] );
+            }
+        }
+    }
+
+}
+
+foreach my $noid (@noids) {
+
+    my $uri = $url . uri_escape_utf8($noid);
+    my $res =
+      $accessdb->post( $uri, $data, { deserializer => 'application/json' } );
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        warn $uri . " POST return code: " . $res->code . "\n";
+    }
+    else {
+        print Data::Dumper->Dump( [ $res->data ], [$noid] );
+    }
+}
+
+sub noEndSlash {
+    my ($url) = @_;
+
+    $url =~ s|/*$||;
+    return $url;
+}

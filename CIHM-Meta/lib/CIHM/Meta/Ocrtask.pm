@@ -358,7 +358,7 @@ sub ocrImport {
           . scalar( @{ $self->task->{canvases} } )
           . " canvases" );
 
-    # Collect IDs so we can force re-generating of caches
+    # Collect IDs so we can generate multi-page OCR PDF files
     my %canvasids;
     my @updatedcanvases;
     foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
@@ -485,21 +485,21 @@ sub ocrImport {
         $manifestids{ $doc->{'id'} } = 1;
     }
 
-    # And force those manifests to be processed
+    # Attempt to generate OCR PDF for manifests where OCR data was added
     foreach my $accessid ( keys %manifestids ) {
         my $url =
-          "/_design/access/_update/forceUpdate/" . uri_escape($accessid);
+          "/_design/metadatabus/_update/requestOCRPDF/" . uri_escape($accessid);
         my $res = $self->accessdb->post( $url, {},
             { deserializer => 'application/json' } );
         if ( $res->code != 201 ) {
             if ( defined $res->response->content ) {
                 warn $res->response->content . "\n";
             }
-            warn "Attempt to force update for $accessid : " . $res->code . "\n";
+            warn "Attempt to request multi-page OCR PDF generation for noid=$accessid : " . $res->code . "\n";
         }
         else {
             $self->log->info(
-                $self->taskid . ": update forced for noid=$accessid" );
+                $self->taskid . ": multi-page OCR PDF generation requested for noid=$accessid" );
         }
     }
 }
