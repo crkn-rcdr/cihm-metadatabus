@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ 
+docker build -t dmd-test . && docker run -it -v `pwd`:/home/tdr/lib/CIHM/Meta/dmd -v `pwd`/t:/home/tdr/t dmd-test bash

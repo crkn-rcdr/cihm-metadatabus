@@ -3,10 +3,10 @@ package CIHM::Meta::dmd::flatten;
 use strict;
 use Switch;
 use XML::LibXML;
-use CIHM::Normalise;
 use Data::Dumper;
 use MARC::File::XML ( BinaryEncoding => 'utf8', RecordFormat => 'USMARC' );
 use List::MoreUtils qw(uniq);
+use CIHM::Meta::dmd::Normalise;
 
 use Exporter qw(import);
 our @EXPORT = qw(

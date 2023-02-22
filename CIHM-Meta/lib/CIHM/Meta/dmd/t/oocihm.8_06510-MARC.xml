@@ -1,0 +1,104 @@
+<collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/MARC21/slim" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+  <leader>01605nas a2200361 a 4500</leader>
+  <controlfield tag="006">m        d        </controlfield>
+  <controlfield tag="007">cr bn---uuuuuu</controlfield>
+  <controlfield tag="008">090622d18381838nscwr   s     0    0eng d</controlfield>
+  <datafield tag="016" ind1=" " ind2=" ">
+    <subfield code="a">2009600147X  </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CaOOCIHM</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">CaOOCIHM</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-cn-ns</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2=" ">
+    <subfield code="a">805</subfield>
+    <subfield code="2">21</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Halifax pearl</subfield>
+    <subfield code="h">[electronic resource].</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Halifax [N.S.] :</subfield>
+    <subfield code="b">W. Cunnabell,</subfield>
+    <subfield code="c">[1838]</subfield>
+  </datafield>
+  <datafield tag="310" ind1=" " ind2=" ">
+    <subfield code="a">Weekly</subfield>
+  </datafield>
+  <datafield tag="362" ind1="0" ind2=" ">
+    <subfield code="a">Vol. 2, no. 1 (Jan. 6, 1838)-v. 2, no. 52 (Dec. 28, 1838)</subfield>
+  </datafield>
+  <datafield tag="490" ind1="0" ind2=" ">
+    <subfield code="a">CIHM/ICMH Digital series = CIHM/ICMH collection numeÌriseÌe ;</subfield>
+    <subfield code="v">no. 8_06510</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Title from caption.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Title from title screen.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes advertising matter.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Issues reproduced: Vol. 2, no. 1 (Jan. 6, 1838)-v. 2, no. 52 (Dec. 28, 1838)</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Editor: Thomas Taylor.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">"A volume devoted to polite literature, science and religion."</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes index.</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="b">Ottawa :</subfield>
+    <subfield code="c">Canadiana.org,</subfield>
+    <subfield code="d">2009.</subfield>
+  </datafield>
+  <datafield tag="534" ind1=" " ind2=" ">
+    <subfield code="e">1 v. ; 37 cm.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Literature</subfield>
+    <subfield code="v">Periodicals.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="5">
+    <subfield code="a">Canadian periodicals (English)</subfield>
+    <subfield code="z">Nova Scotia</subfield>
+    <subfield code="z">Halifax.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="6">
+    <subfield code="a">LitteÌrature</subfield>
+    <subfield code="v">PeÌriodiques.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="6">
+    <subfield code="a">PeÌriodiques canadiens-anglais</subfield>
+    <subfield code="z">Nouvelle-EÌcosse</subfield>
+    <subfield code="z">Halifax.</subfield>
+  </datafield>
+  <datafield tag="780" ind1="0" ind2="0">
+    <subfield code="t">Pearl (Halifax, N.S.)</subfield>
+    <subfield code="d">Halifax, N.S. : W. Cunnabell, [1837]</subfield>
+    <subfield code="k">CIHM/ ICMH Digital series = CIHM/ICMH collection numeÌriseÌe ;</subfield>
+    <subfield code="w">(CaOONL) 20096001488</subfield>
+  </datafield>
+  <datafield tag="785" ind1="0" ind2="0">
+    <subfield code="t">Colonial pearl.</subfield>
+    <subfield code="d">Halifax, N.S. : T. Taylor, [1839-1840]</subfield>
+    <subfield code="k">CIHM/ICMH Digital series = CIHM/ICMH collection numeÌriseÌe ;</subfield>
+    <subfield code="w">(CaOONL) 20096001453</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">http://eco.canadiana.ca/view/oocihm.8_06510</subfield>
+  </datafield>
+</record>
+</collection>
