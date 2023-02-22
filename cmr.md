@@ -26,40 +26,43 @@ In the past there were many crosswalks depending on source of data.  This has be
 
 field | type | Description
 ------|------|----
-key | string | slug for this record
-noid | string | noid for this record |
-type | string | One of "series", "document", "page"
 depositor | string | The part of the slug before the first "." (calculated)
-label | string | Label currently copied from Access IIIF label (Not IIIF string which supports language)
+key | string | slug for this record
+label | string | Label currently copied from Access IIIF label (Not a IIIF string, so no language support)
+noid | string | noid for this record
+type | string | One of "series", "document", "page"
 
 
 ## Optional control fields
 
 field | type | Description
 ------|------|---
+collection | array of strings | array of the slugs of collections this document is part of (excluding pkey)
+component_count | positive integer | Number of images in a manifest
+component_count_fulltext | positive integer | Number of images which have XML OCR data
+identifier | array of strings | Displayed array of identifiers.
+item count | positive integer | Number of members in a collection
+lang | array of strings | 3-character ISO 639-3 language code
 manifest_noid| string(noid} | noid of manifest, used by type=page
 pkey | string(slug) | Parent slug for issue of a series (its "multi-part" collectin), or pages of a manifest
 plabel | string | Label of parent for issue of a series (lookup when building record)
-seq | Positive Integer | Used to sort issues of a series (currently an array index from multi-part collection)
-pubmin | string | Minimum ISO 8601 date for a publication date range.
 pubmax | string | Maximum ISO 8601 date for a publication date range.
-lang | array of strings | 3-character ISO 639-3 language code
-identifier | array of strings | Displayed array of identifiers
-collection | array of strings | array of the slugs of collections this document is part of (excluding pkey)
-item count | positive integer | Number of members in a collection
-component_count | positive integer | Number of images in a manifest
-component_count_fulltext | positive integer | Number of images which have XML OCR data
+pubmin | string | Minimum ISO 8601 date for a publication date range.
+seq | Positive Integer | Used to sort issues of a series (currently an array index from multi-part collection)
+
+Note on `identifier`:  The {slug} and the part of the {slug} after the first "." are appended to the array that is built from the descriptive metadata crosswalks.  These are a legacy from earlier iterations of the software stack when "depositors" and "CIHM numbers" had meaning.
+
 
 ## Optional Description and content
 
 field | type | Description
 ------|------|---
-ti | array of text | Title
+ab | array of text | Description
 au | array of text | Author/Creator
+no | array of text | Notes
 pu | array of text | Published
 su | array of text | Subject
-no | array of text | Notes
-ab | array of text | Description
+ti | array of text | Title
 tx | array of text | Text (added from OCR data)
 
 
@@ -75,12 +78,12 @@ Tags are used in search, but display was removed because data was dirty.
 field | type | Description
 ------|------|----
 tag | array of text |
-tagPerson | array of text |
-tagName | array of text |
-tagPlace | array of text | 
 tagDate | array of date ranges |
-tagNotebook | array of text |
 tagDescription | array of text |
+tagName | array of text |
+tagNotebook | array of text |
+tagPerson | array of text |
+tagPlace | array of text | 
 
 ## Optional Library of Parliament fields
 
@@ -91,11 +94,11 @@ Hack to enable the browse tree, and portal-specific search facets.
 
 field | type | Description |
 ------|------|---
-parlLabel | string | 
+parlCallNumber | string
 parlChamber | array of strings | Chamber
+parlLabel | string
+parlPrimeMinisters | string
+parlReportTitle | array of text
 parlSession | array of strings | Session
-parlType | string | 
-parl ReportTitle | array of text |
-parlCallNumber | string |
-parlPrimeMinisters | string |
+parlType | string
 
