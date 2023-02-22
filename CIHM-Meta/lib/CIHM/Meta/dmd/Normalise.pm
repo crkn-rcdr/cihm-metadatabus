@@ -1,8 +1,8 @@
-package CIHM::Normalise;
+package CIHM::Meta::dmd::Normalise;
 
 =head1  NAME
 
-CIHM::Normalise - some string normalisation functions
+CIHM::Meta::dmd::Normalise - some string normalisation functions
 
 =head1 VERSION
 
