@@ -26,6 +26,7 @@ use File::stat;
 use XML::LibXML;
 use utf8;
 use Switch;
+use Encode qw(decode encode);
 
 {
 
@@ -385,6 +386,8 @@ sub scan_access {
                             last accessobjhead;
                         }
                         elsif ( $r->code == 200 ) {
+                            my $contentlength =
+                              $r->headers->header('content-length');
                             my $lastmodified =
                               $r->headers->header('last-modified');
                             if ($lastmodified) {
@@ -393,7 +396,9 @@ sub scan_access {
            # The all important "don't download/write again if it hasn't changed"
                                 my $st = stat($path);
                                 next ACCESSOBJECT
-                                  if ( $st && $st->mtime == $time );
+                                  if ( $st
+                                    && $st->mtime == $time
+                                    && $st->size == $contentlength );
 
                                 $0 = $syncdmdprog . " GET $object ($slug)";
 
@@ -425,7 +430,7 @@ sub scan_access {
                                 }
 
                                 storeDMD( $accessdir, $slug, $time, $type,
-                                    $resp->content );
+                                    decode( 'UTF-8', $resp->content ) );
                             }
                             else {
                                 log_warnings(
