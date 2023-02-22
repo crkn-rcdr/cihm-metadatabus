@@ -7,7 +7,7 @@ use Test::More;
 plan tests => 1;
 
 BEGIN {
-    use_ok( 'CIHM::Normalise' ) || print "Bail out!\n";
+    use_ok( 'CIHM::Meta::dmd::Normalise' ) || print "Bail out!\n";
 }
 
-diag( "Testing CIHM::Normalise $CIHM::Normalise::VERSION, Perl $], $^X" );
+diag( "Testing CIHM::Meta::dmd::Normalise $CIHM::Meta::dmd::Normalise::VERSION, Perl $], $^X" );
