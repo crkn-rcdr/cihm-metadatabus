@@ -3,15 +3,15 @@ use 5.006;
 use strict;
 use warnings FATAL => 'all';
 use Test::More;
-use CIHM::Meta::dmd::flatten;
-use CIHM::Meta::dmd::Normalise;
+use CIHM::Normalise::flatten;
+use CIHM::Normalise;
 use Data::Dumper;
 use File::Basename;
 use File::Slurp;
 
 
 
-my $flatten = CIHM::Meta::dmd::flatten->new;
+my $flatten = CIHM::Normalise::flatten->new;
 my $dirname = dirname(__FILE__);
 
 my $marcfile = read_file("$dirname/oocihm.8_06510-MARC.xml");
