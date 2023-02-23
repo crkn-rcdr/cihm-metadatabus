@@ -7,7 +7,7 @@ use Test::More;
 plan tests => 1;
 
 BEGIN {
-    use_ok( 'CIHM::Meta::dmd::flatten' ) || print "Bail out!\n";
+    use_ok( 'CIHM::Normalise::flatten' ) || print "Bail out!\n";
 }
 
-diag( "Testing CIHM::Meta::dmd::flatten, Perl $], $^X" );
+diag( "Testing CIHM::Normalise::flatten, Perl $], $^X" );

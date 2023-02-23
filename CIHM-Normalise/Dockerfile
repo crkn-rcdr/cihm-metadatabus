@@ -7,8 +7,7 @@ WORKDIR /home/tdr
 COPY --chown=tdr:tdr . /home/tdr
 
 
-RUN mkdir -p /home/tdr/lib/CIHM/Meta/dmd && mv /home/tdr/*.pm /home/tdr/lib/CIHM/Meta/dmd && \
-    cpanm -n --installdeps . && perl Makefile.PL && make test
+RUN cpanm -n --installdeps . && perl Makefile.PL
 
 ENV PERL5LIB /home/tdr/lib
 USER tdr

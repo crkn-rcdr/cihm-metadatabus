@@ -4,10 +4,10 @@ use warnings FATAL => 'all';
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME             => 'CIHM::Meta::dmd::Normalise',
+    NAME             => 'CIHM::Normalise',
     AUTHOR           => q{Russell McOrmond <rmcormond@crkn.ca>},
-    VERSION_FROM     => 'lib/CIHM/Meta/dmd/Normalise.pm',
-    ABSTRACT_FROM    => 'lib/CIHM/Meta/dmd/Normalise.pm',
+    VERSION_FROM     => 'lib/CIHM/Normalise.pm',
+    ABSTRACT_FROM    => 'lib/CIHM/Normalise.pm',
     LICENSE          => 'Artistic_2_0',
     PL_FILES         => {},
     MIN_PERL_VERSION => 5.006,
@@ -21,5 +21,5 @@ WriteMakefile(
         'Date::Manip' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES => 'CIHM-Meta-dmd-Normalise-*' },
+    clean => { FILES => 'CIHM-Normalise-*' },
 );

@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => 'all';
 use Test::More;
 
-use CIHM::Meta::dmd::Normalise;
+use CIHM::Normalise;
 
 # Test minimum and maximum templates, supplying only year.
 is (iso8601("1999",0),   "1999-01-01T00:00:00.000Z", ' minimum template' );

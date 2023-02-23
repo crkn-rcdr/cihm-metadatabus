@@ -1,4 +1,4 @@
-package CIHM::Meta::dmd::Normalise;
+package CIHM::Normalise;
 
 =head1  NAME
 
