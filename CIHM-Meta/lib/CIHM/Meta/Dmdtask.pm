@@ -7,7 +7,7 @@ use Try::Tiny;
 use JSON;
 use Switch;
 use CIHM::Swift::Client;
-use CIHM::Meta::dmd::flatten qw(normaliseSpace);
+use CIHM::Normalise::flatten;
 use List::Util qw(first);
 use List::MoreUtils qw(uniq);
 use MARC::Batch;
@@ -105,7 +105,7 @@ sub new {
     # processed by a slave so we don't try to do the same AIP twice.
     $self->{inprogress} = {};
 
-    $self->{flatten} = CIHM::Meta::dmd::flatten->new;
+    $self->{flatten} = CIHM::Normalise::flatten->new;
 
     $self->{items}         = [];
     $self->{xml}           = [];

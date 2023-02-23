@@ -8,11 +8,6 @@ use MARC::File::XML ( BinaryEncoding => 'utf8', RecordFormat => 'USMARC' );
 use List::MoreUtils qw(uniq);
 use CIHM::Normalise;
 
-use Exporter qw(import);
-our @EXPORT = qw(
-  normaliseSpace
-);
-
 sub new {
     my ( $class, $args ) = @_;
     my $self = bless {}, $class;
@@ -462,15 +457,6 @@ sub dc {
     }
 
     return \%flat;
-}
-
-sub normaliseSpace {
-    my $content = shift;
-
-    $content =~ s/^\s+|\s+$//g;    # Trim space at end and beginning.
-    $content =~ s/\s+/ /g;         # Remove extra spaces
-
-    return $content;
 }
 
 1;
