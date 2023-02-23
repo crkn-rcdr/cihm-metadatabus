@@ -38,10 +38,21 @@ use Exporter qw(import);
 our @EXPORT = qw(
   iso8601
   normalise_lang
+  normaliseSpace
 );
 
 our $DEBUG  = 0;    # Output extended debugging information to stderr
 our $FAILED = 1;    # Output notices of failure to find a date to stderr
+
+sub normaliseSpace {
+    my $content = shift;
+
+    $content =~ s/^\s+|\s+$//g;    # Trim space at end and beginning.
+    $content =~ s/\s+/ /g;         # Remove extra spaces
+
+    return $content;
+}
+
 
 =head2 iso8601(I<$datestring>,I<$max>)
 
