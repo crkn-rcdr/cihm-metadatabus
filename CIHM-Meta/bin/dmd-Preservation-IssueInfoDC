@@ -1,0 +1,213 @@
+#!/usr/bin/env perl
+
+package dmdPreservationIssueinfoDC;
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
+use File::Find;
+use Data::Dumper;
+use Digest::MD5;
+use JSON;
+use Poppler;
+use XML::LibXML;
+use CIHM::Swift::Client;
+use URI::Escape;
+use DateTime::Format::ISO8601;
+use HTTP::Date qw(:DEFAULT time2isoz);
+use File::Spec;
+use File::stat;
+use XML::LibXML;
+use utf8;
+use Switch;
+use CIHM::Meta::DCCSV;
+
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
+my $inThisFile;
+
+sub log_warnings {
+    my $warning = shift;
+    chomp $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+    $stripped =~ s/\R/ /g;
+
+    if ( defined $inThisFile ) {
+        print STDERR "$stripped in $inThisFile\n";
+        $logger->warn("$stripped in $inThisFile");
+    }
+    else {
+        $logger->warn($stripped);
+        print STDERR "$stripped\n";
+    }
+}
+local $SIG{__WARN__} = sub { &log_warnings };
+
+my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
+my $csvdir = '/crkn-nas-wip/_Metadata_Synchronised/Fixed/IssueinfoDC';
+
+$logger->info("DMD Preservation Issueinfo DC: start");
+
+GetOptions(
+    'dmddir:s' => \$dmddir,
+    'csvdir:s' => \$csvdir,
+);
+
+# Used to show a different processname during processing
+my $dmddcprog = $0;
+
+#
+my $dccsv;
+
+## Test an ID
+#$dccsv = CIHM::Meta::DCCSV->new( { csvdir => $csvdir } );
+#$dccsv->addElement( "oocihm.7a9790", "thisis" , "atest" );
+#exit 0;
+
+my $preservationdir = File::Spec->catfile( $dmddir, 'preservation' );
+opendir( my $dh, $preservationdir ) || die "Can't open $preservationdir: $!";
+while ( readdir $dh ) {
+    if ( substr( $_, 0, 1 ) ne "." ) {
+        my $prefixdir = $_;
+        my $preservationcsvdir =
+          File::Spec->catfile( $csvdir, 'preservation', $prefixdir );
+        my $preservationsubdir =
+          File::Spec->catfile( $dmddir, 'preservation', $prefixdir );
+
+        $dccsv = CIHM::Meta::DCCSV->new( { csvdir => $preservationcsvdir } );
+
+        $0 = $dmddcprog . " find in $preservationsubdir";
+        print "Find for $prefixdir\n";
+
+        find( \&matching_dmd_file, $preservationsubdir );
+
+        print "Write for $prefixdir\n";
+
+        $dccsv->writeCSV();
+        undef $dccsv;
+
+    }
+}
+closedir $dh;
+
+exit 0;
+
+sub matching_dmd_file {
+    if ( -f $_ ) {
+        $0 = $dmddcprog . " looking for Issueinfo in $File::Find::dir";
+        if (/^(.*)-(\w*)\.xml$/) {
+            my $id      = $1;
+            my $dmdType = $2;
+
+            if ( $dmdType eq 'issueinfo' ) {
+                $inThisFile = $File::Find::name;
+
+                open my $fh, '<:encoding(UTF-8)', $File::Find::name
+                  or die "can't open DC file=$File::Find::name: $!\n";
+
+                my $xmlin = do { local $/; <$fh> };
+                close $fh;
+                undef $inThisFile;
+
+                my $doc = XML::LibXML->new->parse_string($xmlin);
+
+                my $xpc = XML::LibXML::XPathContext->new;
+                $xpc->registerNs( 'issueinfo',
+                    'http://canadiana.ca/schema/2012/xsd/issueinfo' );
+
+                my @allnodes = $xpc->findnodes( "//*", $doc );
+
+                foreach my $node (@allnodes) {
+                    my $content = normaliseSpace( $node->textContent );
+                    my $name    = lc( $node->nodeName );
+
+                    if ( $name eq 'coverage' ) {
+                        my ( $start, $end );
+                        my @attributes = $node->attributes();
+                        foreach my $attribute (@attributes) {
+                            switch ( $attribute->nodeName ) {
+                                case "start" {
+                                    $start = $attribute->value;
+                                }
+                                case "end" {
+                                    $end = $attribute->value;
+                                }
+                                else {
+                                    warn
+"$File::Find::name Unknown attribute name: "
+                                      . $attribute->nodeName
+                                      . " value: "
+                                      . $attribute->value . " \n";
+                                }
+                            }
+                        }
+                        $content = "$start/$end";
+                    }
+
+                    if ( length($content) ) {
+                        switch ($name) {
+                            case "issueinfo" {    #  Skip top level
+                            }
+                            case "series" {
+                                $dccsv->addElement( $id, "relation", $content );
+                            }
+                            case "title" {
+                                $dccsv->addElement( $id, "title", $content );
+                            }
+                            case "sequence" {     #  Unused
+                            }
+                            case "language" {
+                                $dccsv->addElement( $id, "language", $content );
+                            }
+                            case "coverage" {
+                                $dccsv->addElement( $id, "coverage", $content );
+                            }
+                            case "published" {
+                                $dccsv->addElement( $id, "date", $content );
+                            }
+                            case "pubstatement" {
+                                $dccsv->addElement( $id, "publisher",
+                                    $content );
+                            }
+                            case "source" {
+                                $dccsv->addElement( $id, "source", $content );
+                            }
+                            case "identifier" {
+                                $dccsv->addElement( $id, "identifier",
+                                    $content );
+                            }
+                            case "note" {
+                                $dccsv->addElement( $id, "description",
+                                    $content );
+                            }
+                            else {
+                                warn "Unknown issueinfo node name: "
+                                  . $node->nodeName . "\n";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else {
+            warn $_ . "  -- doesn't match pattern (in $File::Find::dir )\n";
+        }
+    }
+}
+
+sub normaliseSpace {
+    my $content = shift;
+
+    $content =~ s/^\s+|\s+$//g;    # Trim space at end and beginning.
+    $content =~ s/\s+/ /g;         # Remove extra spaces
+
+    return $content;
+}

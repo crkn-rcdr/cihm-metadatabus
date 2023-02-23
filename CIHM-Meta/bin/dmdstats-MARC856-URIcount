@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-package dmdstats;
+package dmdstatsMARC856URIcount;
 
 use strict;
 use warnings;
@@ -16,6 +16,7 @@ use Digest::MD5;
 use JSON;
 use Poppler;
 use XML::LibXML;
+use MARC::File::XML ( BinaryEncoding => 'utf8', RecordFormat => 'USMARC' );
 use CIHM::Swift::Client;
 use URI::Escape;
 use DateTime::Format::ISO8601;
@@ -27,9 +28,6 @@ use XML::LibXML;
 use utf8;
 use Switch;
 use Text::CSV qw( csv );
-
-# There are only 3 valid types of descriptive metadata
-my @dmdtypes = ( "issueinfo", "DC", "MARC" );
 
 Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
 my $logger = Log::Log4perl::get_logger("CIHM::TDR");
@@ -49,7 +47,8 @@ local $SIG{__WARN__} = sub { &log_warnings };
 my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
 
-my $outfile = '/crkn-nas-wip/_Metadata_Synchronised/analysis/dmdstats.csv';
+my $outfile =
+  '/crkn-nas-wip/_Metadata_Synchronised/analysis/dmdstats-MARC856-URIcount.csv';
 
 $logger->info("DMD stats: start");
 
@@ -62,6 +61,7 @@ GetOptions(
 my $dmdstatsprog = $0;
 
 my %results;
+my $maxcount = 0;
 
 my $preservationdir = File::Spec->catfile( $dmddir, 'preservation' );
 find( \&matching_dmd_file, $preservationdir );
@@ -75,16 +75,38 @@ sub matching_dmd_file {
         if (/^(.*)-(\w*)\.xml$/) {
             my $id      = $1;
             my $dmdType = $2;
+            return if $dmdType ne "MARC";
 
             if ( $File::Find::dir =~ /$dmddir\/([^\/]+)\/(.*)$/ ) {
                 my $repo   = $1;
                 my $prefix = $2;
 
-                if ( defined $results{$repo}{$prefix}{$dmdType} ) {
-                    $results{$repo}{$prefix}{$dmdType}++;
+                open my $fh, '<:encoding(UTF-8)', $File::Find::name
+                  or die "can't open DC file=$File::Find::name: $!\n";
+
+                my $xmlin = do { local $/; <$fh> };
+                close $fh;
+
+                my $record = MARC::Record->new_from_xml($xmlin);
+
+                # There may be many 856's, and each may have many 'u' subfields
+                # https://www.loc.gov/marc/bibliographic/bd856.html
+                my $locationcount = 0;
+                foreach my $field ( $record->field('856') ) {
+                    foreach my $subfield ( $field->subfield("u") ) {
+                        $locationcount++;
+                    }
+                }
+                if ( $locationcount > $maxcount ) {
+                    $maxcount = $locationcount;
+                    print "$id in $repo/$prefix has $maxcount\n";
+                }
+
+                if ( defined $results{$repo}{$prefix}{$locationcount} ) {
+                    $results{$repo}{$prefix}{$locationcount}++;
                 }
                 else {
-                    $results{$repo}{$prefix}{$dmdType} = 1;
+                    $results{$repo}{$prefix}{$locationcount} = 1;
                 }
             }
             else {
@@ -98,16 +120,16 @@ sub matching_dmd_file {
 }
 
 my @res = [ "repository", "prefix" ];
-push @{ $res[0] }, sort @dmdtypes, "totals";
+push @{ $res[0] }, ( 0 .. $maxcount ), "totals";
 
 foreach my $repo ( sort keys %results ) {
     foreach my $prefix ( sort keys %{ $results{$repo} } ) {
         my @thisline = ( $repo, $prefix );
         my $total = 0;
-        foreach my $dmdType ( sort @dmdtypes ) {
-            if ( defined $results{$repo}{$prefix}{$dmdType} ) {
-                push @thisline, $results{$repo}{$prefix}{$dmdType};
-                $total += $results{$repo}{$prefix}{$dmdType};
+        foreach my $locationcount ( 0 .. $maxcount ) {
+            if ( defined $results{$repo}{$prefix}{$locationcount} ) {
+                push @thisline, $results{$repo}{$prefix}{$locationcount};
+                $total += $results{$repo}{$prefix}{$locationcount};
             }
             else {
                 push @thisline, 0;

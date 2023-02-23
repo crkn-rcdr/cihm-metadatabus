@@ -26,6 +26,7 @@ use File::stat;
 use XML::LibXML;
 use utf8;
 use Switch;
+use Encode qw(decode encode);
 
 {
 
@@ -52,11 +53,8 @@ sub log_warnings {
 }
 local $SIG{__WARN__} = sub { &log_warnings };
 
-my $dmddir = '/crkn-nas-wip/_Metadata_Sychronised';
+my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
-
-my $lockfile = '/var/lock/tdr/syncdmd';
-$lockfile = $ENV{syncdmd_lockfile} if ( exists $ENV{syncdmd_lockfile} );
 
 my $couchdb_access;
 $couchdb_access = $ENV{COUCHDB_ACCESS}
@@ -100,7 +98,6 @@ my $askip;
 # Limit for containeropt
 my $limit = 10000;
 GetOptions(
-    'lockfile:s'                 => \$lockfile,
     'dmddir:s'                   => \$dmddir,
     'swift_server:s'             => \$swift_server,
     'swift_user:s'               => \$swift_user,
@@ -118,12 +115,6 @@ GetOptions(
     'couchdb_access:s'           => \$couchdb_access,
 
 );
-
-# Only allow one instance to run at a time..
-sysopen( FH, $lockfile, O_WRONLY | O_CREAT )
-  or die "can't open lockfile=$lockfile: $!\n";
-flock( FH, LOCK_EX | LOCK_NB )
-  or exit 0;
 
 die "couchdb_access is mandatory (environment or parameter)\n"
   if ( !$couchdb_access );
@@ -395,6 +386,8 @@ sub scan_access {
                             last accessobjhead;
                         }
                         elsif ( $r->code == 200 ) {
+                            my $contentlength =
+                              $r->headers->header('content-length');
                             my $lastmodified =
                               $r->headers->header('last-modified');
                             if ($lastmodified) {
@@ -403,7 +396,9 @@ sub scan_access {
            # The all important "don't download/write again if it hasn't changed"
                                 my $st = stat($path);
                                 next ACCESSOBJECT
-                                  if ( $st && $st->mtime == $time );
+                                  if ( $st
+                                    && $st->mtime == $time
+                                    && $st->size == $contentlength );
 
                                 $0 = $syncdmdprog . " GET $object ($slug)";
 
@@ -435,7 +430,7 @@ sub scan_access {
                                 }
 
                                 storeDMD( $accessdir, $slug, $time, $type,
-                                    $resp->content );
+                                    decode( 'UTF-8', $resp->content ) );
                             }
                             else {
                                 log_warnings(
