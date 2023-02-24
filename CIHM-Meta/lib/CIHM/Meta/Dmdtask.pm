@@ -7,7 +7,7 @@ use Try::Tiny;
 use JSON;
 use Switch;
 use CIHM::Swift::Client;
-use CIHM::Meta::dmd::flatten qw(normaliseSpace);
+use CIHM::Normalise::flatten;
 use List::Util qw(first);
 use List::MoreUtils qw(uniq);
 use MARC::Batch;
@@ -105,7 +105,7 @@ sub new {
     # processed by a slave so we don't try to do the same AIP twice.
     $self->{inprogress} = {};
 
-    $self->{flatten} = CIHM::Meta::dmd::flatten->new;
+    $self->{flatten} = CIHM::Normalise::flatten->new;
 
     $self->{items}         = [];
     $self->{xml}           = [];
@@ -385,8 +385,6 @@ sub handleTask {
             die "Missing `metadata` attachment\n" if !$attach;
 
             switch ( $self->document->{format} ) {
-                case "csvissueinfo" { $self->extractissueinfo_csv($attach); }
-
                 case "csvdc" { $self->extractdc_csv($attach); }
 
                 case "marc856" {
@@ -846,170 +844,6 @@ sub collect_warnings {
 
 }
 
-sub extractissueinfo_csv {
-    my ( $self, $data ) = @_;
-
-    my @sequence = (
-        'series',     'title',     'sequence',     'language',
-        'coverage',   'published', 'pubstatement', 'source',
-        'identifier', 'note'
-    );
-
-    # Library has a parse(), but storing as file to handle Embedded newlines
-    # https://metacpan.org/pod/Text::CSV#Embedded-newlines
-    my $tmp = File::Temp->new( UNLINK => 0, SUFFIX => '.csv' );
-    print $tmp $data;
-    my $tempname = $tmp->filename;
-    close $tmp;
-
-    #process csv file
-    my $csv = Text::CSV->new( { binary => 1 } );
-    open my $fh, "<:encoding(utf8)", $tempname
-      or die "Cannot read $tempname: $!\n";
-
-    my @headerline;
-    try {
-        @headerline =
-          $csv->header( $fh, { detect_bom => 1, munge_column_names => "lc" } );
-    }
-    catch {
-        my $error = $_;
-        $error =~ s! at \S+ line \d+.*!!g;
-        die "csv->header: $error\n" if ( $error =~ /\S/ );
-    };
-    die "Problem with header line\n" if ( !@headerline );
-
-    if ( defined $csv->{ENCODING} ) {
-        $self->log->info( "Encoding: " . $csv->{ENCODING} );
-    }
-
-    #get object id
-    my $objid_column = first { $headerline[$_] eq 'objid' } 0 .. @headerline;
-    if ( !defined $objid_column ) {
-        die "Column 'objid' not found.\n";
-    }
-
-    # Create hash from headerline
-    my %headers;
-    my @unknownheader;
-    for ( my $i = 0 ; $i < scalar(@headerline) ; $i++ ) {
-        my $header = $headerline[$i];
-        my $value = { index => $i };
-        if ( index( $header, '=' ) != -1 ) {
-            my $type;
-            ( $header, $type ) = split( '=', $header );
-            $value->{type} = $type;
-        }
-
-        if (   $header eq 'objid'
-            || $header eq 'label'
-            || first { $_ eq $header } @sequence )
-        {
-            if ( !exists $headers{$header} ) {
-                $headers{$header} = [];
-            }
-            push @{ $headers{$header} }, $value;
-        }
-        else {
-            push @unknownheader, $header;
-        }
-    }
-    if (@unknownheader) {
-        warn "The following headers are unknown: "
-          . join( ',', @unknownheader ) . "\n";
-    }
-    die "'title' header missing\n" if ( !defined $headers{'title'} );
-    die "'label' header missing\n" if ( !defined $headers{'label'} );
-
-    my %series;
-    my $linecount = 1;    # first line was header
-    while ( my $row = $csv->getline($fh) ) {
-        $linecount++;
-
-        #process each metadata record based on the object ID
-        my $id = $row->[$objid_column];
-        $id =~ s/^\s+|\s+$//g;
-
-        if ( !$id || $id =~ /^\s*$/ ) {
-            warn "Line $linecount missing ID - skipping\n";
-            next;
-        }
-
-        # Capture warnings
-        $self->clear_warnings();
-        local $SIG{__WARN__} = sub { &collect_warnings };
-
-        my %item = (
-            id      => $id,
-            output  => 'issueinfo',
-            message => '',
-            parsed  => JSON::true
-        );
-
-        my $doc = XML::LibXML::Document->new( "1.0", "UTF-8" );
-        my $root = $doc->createElement('issueinfo');
-        $root->setAttribute(
-            'xmlns' => 'http://canadiana.ca/schema/2012/xsd/issueinfo' );
-
-        foreach my $element (@sequence) {
-            if ( exists $headers{$element} ) {
-                foreach my $elementtype ( @{ $headers{$element} } ) {
-                    my $value = $row->[ $elementtype->{'index'} ];
-                    if ( $element eq "coverage" ) {
-                        my $child     = XML::LibXML::Element->new($element);
-                        my $attribute = 0;
-                        if ( $value =~ /start=([0-9-]+)/i ) {
-                            $child->setAttribute( 'start', $1 );
-                            $attribute++;
-                        }
-                        if ( $value =~ /end=([0-9-]+)/i ) {
-                            $child->setAttribute( 'end', $1 );
-                            $attribute++;
-                        }
-                        $root->appendChild($child);
-
-                        if ( !$attribute ) {
-                            warn "Unable to parse coverage value: $value\n";
-                        }
-                    }
-                    else {
-                        my $type = $elementtype->{'type'};
-
-                        #split on delimiters
-                        my @values = split( /\s*\|\|\s*/, $value );
-                        foreach (@values) {
-                            my $child = XML::LibXML::Element->new($element);
-                            $child->appendTextNode($_);
-                            if ($type) {
-                                $child->setAttribute( 'type', $type );
-                            }
-                            $root->appendChild($child);
-                        }
-                    }
-                }
-            }
-        }
-
-        #create xml file
-        $doc->setDocumentElement($root);
-
-        # Store the XML (for more processing)
-        # Need to convert the bytes from XML::LibXML to UTF8 string.
-        push @{ $self->xml }, decode( "utf8", $doc->toString(0) );
-
-        $item{'label'} = $row->[ $headers{'label'}[0]->{'index'} ];
-        if ( !$item{'label'} ) {
-            $item{'label'} = '[unknown]';
-        }
-
-        $item{message} .= $self->warnings;
-
-        # Store the item
-        push @{ $self->items }, \%item;
-
-    }
-}
-
 sub extractdc_csv {
     my ( $self, $data ) = @_;
 
@@ -1345,9 +1179,6 @@ sub validate_xml {
             }
             case "dc" {
                 $xsdfile = '/opt/xml/current/unpublished/xsd/simpledc.xsd';
-            }
-            case "issueinfo" {
-                $xsdfile = '/opt/xml/current/published/xsd/issueinfo.xsd';
             }
             else { die "Don't recognize output=" . $item->{output} . "\n"; }
         }

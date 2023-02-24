@@ -8,7 +8,8 @@ use JSON;
 use JSON::Parse 'read_json';
 use Switch;
 use URI::Escape;
-use CIHM::Meta::dmd::flatten qw(normaliseSpace);
+use CIHM::Normalise::flatten;
+use CIHM::Normalise;
 use List::MoreUtils qw(uniq any);
 use File::Temp;
 
@@ -52,7 +53,7 @@ sub new {
         die "Parameter 'noid' is mandatory\n";
     }
 
-    $self->{flatten} = CIHM::Meta::dmd::flatten->new;
+    $self->{flatten} = CIHM::Normalise::flatten->new;
 
     $self->{docdata}              = {};
     $self->{pageinfo}             = {};

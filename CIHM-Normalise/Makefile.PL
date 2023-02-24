@@ -1,11 +1,11 @@
-use 5.006;
+#use 5.006;
 use strict;
 use warnings FATAL => 'all';
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME             => 'CIHM::Normalise',
-    AUTHOR           => q{Russell McOrmond <russell.mcormond@canadiana.ca>},
+    AUTHOR           => q{Russell McOrmond <rmcormond@crkn.ca>},
     VERSION_FROM     => 'lib/CIHM/Normalise.pm',
     ABSTRACT_FROM    => 'lib/CIHM/Normalise.pm',
     LICENSE          => 'Artistic_2_0',
