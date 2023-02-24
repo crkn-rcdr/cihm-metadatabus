@@ -1,0 +1,8 @@
+requires 'Date::Manip';
+requires 'Switch';
+requires 'XML::LibXML';
+requires 'MARC::File::XML';
+requires 'List::MoreUtils';
+requires 'Data::Dumper';
+requires 'File::Slurp';
+requires 'JSON';
