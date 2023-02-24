@@ -33,23 +33,23 @@ Identifers and Labels are determined based on the "Metadata File Type" set when 
 * Optional "label" column. If this column doesn't exist, the first 'dc:title' (or 'dc.title', which is equivalent) value will be used
 
 ### MARC - ID in 490
-* Label extracted from 245$a, and set to "[unknown]" if missing.
+* Label extracted from first 245$a, and set to "[unknown]" if missing.
 * Identifier extracted from 490
   * If $3 exists, join $3 and $v with an "_" separating
   * If $3 didn't exist, use $v
 
 ### MARC - ID in oocihm interpretation
-* Label extracted from 245$a, and set to "[unknown]" if missing.
+* Label extracted from first 245$a, and set to "[unknown]" if missing.
 * Identifier extracted from 490
   * If $3 exists, join $3 and $v with an "_" separating
-  * If $3 didn't exist, use $v, but convert any "-" to '\_', and strip out anything that isn't a number of "\_"
+  * If $3 didn't exist, use $v, but convert any "-" to '\_', and strip out anything that isn't a number or "\_"
 
 ### MARC - ID in ooe interpretation
-* Label extracted from 245$a, and set to "[unknown]" if missing.
+* Label extracted from first 245$a, and set to "[unknown]" if missing.
 * Identifier extracted from 035$a, skipping the first character.
 
 ### MARC - ID in 856 URI
-* Label extracted from 245$a, and set to "[unknown]" if missing.
+* Label extracted from first 245$a, and set to "[unknown]" if missing.
 * Loop through all 856$u subfields, looking for ".canadiana.ca/view/{slug}" pattern
   * First one found, the {slug} is used as the identifier.
   * Warn if more matches were found, in case that was an "oops"
