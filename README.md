@@ -5,9 +5,10 @@ The Metadabus was created to automate management of data that was being loaded i
 
 Key documents:
 
-* [Building, testing and deploying software](build-test.md)
-* [History of software stack](stack.md)
-* [CMR and Crosswalks to CMR](cmr.md)
+* [Building, testing and deploying software](doc/build-test.md)
+* [History of software stack](doc/stack.md)
+* [CMR and Crosswalks to CMR](doc/cmr.md)
+* [Descriptive Metadata tasks](doc/dmdtask.md) (microservice for "Load Metadata")
 
 Other relevant repositories:
 

@@ -51,7 +51,7 @@ russell@russell-XPS-13-7390:~/git/cihm-metadatabus$ ./deployimage.sh
 
 ## CIHM-Meta
 
-Core of Metadtabus. See [HISTORY.md](CIHM-Meta/HISTORY.md) for some of the history of the code.
+Core of Metadtabus. See [HISTORY.md](../CIHM-Meta/HISTORY.md) for some of the history of the code.
 
 Tools:
 
