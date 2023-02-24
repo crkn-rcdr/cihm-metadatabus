@@ -71,7 +71,7 @@ Most of the libraries have names which make it obvious which of the above tools 
 
 ## CIHM-Normalise
 
-Library temporary outside of CIHM::Meta for historical reasons.  Will [soon be merged](https://github.com/crkn-rcdr/cihm-metadatabus/issues/19).
+Normalization functions.  This includes crosswalks from MARC, Issueinfo and Simple Dublin Core to CMR.
 
 ## CIHM-Swift
 
