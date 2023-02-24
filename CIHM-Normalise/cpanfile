@@ -5,3 +5,4 @@ requires 'MARC::File::XML';
 requires 'List::MoreUtils';
 requires 'Data::Dumper';
 requires 'File::Slurp';
+requires 'JSON';
