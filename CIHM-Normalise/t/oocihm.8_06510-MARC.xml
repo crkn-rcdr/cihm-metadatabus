@@ -35,7 +35,7 @@
     <subfield code="a">Vol. 2, no. 1 (Jan. 6, 1838)-v. 2, no. 52 (Dec. 28, 1838)</subfield>
   </datafield>
   <datafield tag="490" ind1="0" ind2=" ">
-    <subfield code="a">CIHM/ICMH Digital series = CIHM/ICMH collection numeÌriseÌe ;</subfield>
+    <subfield code="a">CIHM/ICMH Digital series = CIHM/ICMH collection numérisée ;</subfield>
     <subfield code="v">no. 8_06510</subfield>
   </datafield>
   <datafield tag="500" ind1=" " ind2=" ">
@@ -77,24 +77,24 @@
     <subfield code="z">Halifax.</subfield>
   </datafield>
   <datafield tag="650" ind1=" " ind2="6">
-    <subfield code="a">LitteÌrature</subfield>
-    <subfield code="v">PeÌriodiques.</subfield>
+    <subfield code="a">Littérature</subfield>
+    <subfield code="v">Périodiques.</subfield>
   </datafield>
   <datafield tag="650" ind1=" " ind2="6">
-    <subfield code="a">PeÌriodiques canadiens-anglais</subfield>
-    <subfield code="z">Nouvelle-EÌcosse</subfield>
+    <subfield code="a">Périodiques canadiens-anglais</subfield>
+    <subfield code="z">Nouvelle-Écosse</subfield>
     <subfield code="z">Halifax.</subfield>
   </datafield>
   <datafield tag="780" ind1="0" ind2="0">
     <subfield code="t">Pearl (Halifax, N.S.)</subfield>
     <subfield code="d">Halifax, N.S. : W. Cunnabell, [1837]</subfield>
-    <subfield code="k">CIHM/ ICMH Digital series = CIHM/ICMH collection numeÌriseÌe ;</subfield>
+    <subfield code="k">CIHM/ ICMH Digital series = CIHM/ICMH collection numérisée ;</subfield>
     <subfield code="w">(CaOONL) 20096001488</subfield>
   </datafield>
   <datafield tag="785" ind1="0" ind2="0">
     <subfield code="t">Colonial pearl.</subfield>
     <subfield code="d">Halifax, N.S. : T. Taylor, [1839-1840]</subfield>
-    <subfield code="k">CIHM/ICMH Digital series = CIHM/ICMH collection numeÌriseÌe ;</subfield>
+    <subfield code="k">CIHM/ICMH Digital series = CIHM/ICMH collection numérisée ;</subfield>
     <subfield code="w">(CaOONL) 20096001453</subfield>
   </datafield>
   <datafield tag="856" ind1="4" ind2="0">

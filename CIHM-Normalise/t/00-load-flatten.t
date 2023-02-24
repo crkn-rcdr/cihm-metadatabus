@@ -9,5 +9,3 @@ plan tests => 1;
 BEGIN {
     use_ok( 'CIHM::Normalise::flatten' ) || print "Bail out!\n";
 }
-
-diag( "Testing CIHM::Normalise::flatten, Perl $], $^X" );
