@@ -69,7 +69,7 @@ tx | array of text | Text (added from OCR data)
 ## Optional Heritage Premium metadata fields
 
 Special data for https://heritage.canadiana.ca/
-Data side-loaded from [data/tag](data/tag)
+Data side-loaded from [data/tag](../data/tag)
 
 Hack to make use of tags generated through contract for the Heritage Premium project.
 Tags are used in search, but display was removed because data was dirty.
@@ -88,7 +88,7 @@ tagPlace | array of text |
 ## Optional Library of Parliament fields
 
 Special data for https://parl.canadiana.ca/
-Data side-loaded from [data/parl](data/parl)
+Data side-loaded from [data/parl](../data/parl)
 
 Hack to enable the browse tree, and portal-specific search facets.
 
