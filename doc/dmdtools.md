@@ -58,7 +58,7 @@ Will be used to load metadata in order to initiate metadata updates to clean up 
 
 See [Digital-Preservation/issues/31](https://github.com/crkn-rcdr/Digital-Preservation/issues/31)
 
-This is part of the ARchivematica adoption project
+This is part of the Archivematica adoption project
 
 ## dmd-Preservation-IssueInfoDC
 
@@ -67,7 +67,7 @@ Dublin Core with the metadata loader. Will be used to load metadata in order to 
 
 See [Digital-Preservation/issues/32](https://github.com/crkn-rcdr/Digital-Preservation/issues/32).
 
-This is part of the ARchivematica adoption project.
+This is part of the Archivematica adoption project.
 
 
 ## dmd-Preservation-MARCDC (soon)
@@ -77,4 +77,4 @@ Dublin Core with the metadata loader. Will be used to load metadata in order to 
 
 See [Digital-Preservation/issues/33](https://github.com/crkn-rcdr/Digital-Preservation/issues/33).
 
-This is part of the ARchivematica adoption project.
+This is part of the Archivematica adoption project.
