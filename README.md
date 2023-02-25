@@ -9,7 +9,7 @@ Key documents:
 * [History of software stack](doc/stack.md)
 * [CMR and Crosswalks to CMR](doc/cmr.md)
 * [Descriptive Metadata tasks](doc/dmdtask.md) (microservice for "Load Metadata")
-* [Descriptive MEtadata Tools](doc/dmdtools.md)
+* [Descriptive Metadata Tools](doc/dmdtools.md)
 
 Other relevant repositories:
 
