@@ -1094,18 +1094,19 @@ sub process_attachment {
 
         # Copy the fields for cosearch
         foreach my $cf (
-            "key",                      "type",
-            "depositor",                "label",
-            "pkey",                     "seq",
-            "pubmin",                   "pubmax",
-            "lang",                     "identifier",
-            "pg_label",                 "ti",
-            "au",                       "pu",
-            "su",                       "no",
-            "ab",                       "tx",
-            "no_rights",                "no_source",
-            "component_count_fulltext", "component_count",
-            "noid",                     "manifest_noid"
+            "key",             "type",
+            "depositor",       "label",
+            "pkey",            "plabel",
+            "seq",             "pubmin",
+            "pubmax",          "lang",
+            "identifier",      "pg_label",
+            "ti",              "au",
+            "pu",              "su",
+            "no",              "ab",
+            "tx",              "no_rights",
+            "no_source",       "component_count_fulltext",
+            "component_count", "noid",
+            "manifest_noid"
           )
         {
             $self->searchdoc->{$key}->{$cf} = $doc->{$cf} if exists $doc->{$cf};
