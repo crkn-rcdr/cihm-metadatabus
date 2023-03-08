@@ -111,7 +111,7 @@ sub matching_dmd_file {
                 $inThisFile = $File::Find::name;
 
                 open my $fh, '<:encoding(UTF-8)', $File::Find::name
-                  or die "can't open DC file=$File::Find::name: $!\n";
+                  or die "can't open IssueInfo file=$File::Find::name: $!\n";
 
                 my $xmlin = do { local $/; <$fh> };
                 close $fh;

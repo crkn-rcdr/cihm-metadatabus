@@ -1,0 +1,343 @@
+#!/usr/bin/env perl
+
+package dmdPreservationMARCDC;
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::RealBin/../lib";
+use Getopt::Long;
+use Fcntl qw(:DEFAULT :flock);
+use Try::Tiny;
+use Log::Log4perl;
+use File::Find;
+use Data::Dumper;
+use Digest::MD5;
+use JSON;
+use Poppler;
+use XML::LibXML;
+use CIHM::Swift::Client;
+use URI::Escape;
+use DateTime::Format::ISO8601;
+use HTTP::Date qw(:DEFAULT time2isoz);
+use File::Spec;
+use File::stat;
+use XML::LibXML;
+use utf8;
+use Switch;
+use CIHM::Meta::DCCSV;
+use MARC::File::XML ( BinaryEncoding => 'utf8', RecordFormat => 'USMARC' );
+
+Log::Log4perl->init_once("/etc/canadiana/tdr/log4perl.conf");
+my $logger = Log::Log4perl::get_logger("CIHM::TDR");
+
+my $inThisFile;
+
+sub log_warnings {
+    my $warning = shift;
+    chomp $warning;
+
+    # Strip wide characters before  trying to log
+    ( my $stripped = $warning ) =~ s/[^\x00-\x7f]//g;
+    $stripped =~ s/\R/ /g;
+
+    if ( defined $inThisFile ) {
+        print STDERR "$stripped in $inThisFile\n";
+        $logger->warn("$stripped in $inThisFile");
+    }
+    else {
+        $logger->warn($stripped);
+        print STDERR "$stripped\n";
+    }
+}
+local $SIG{__WARN__} = sub { &log_warnings };
+
+my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
+my $csvdir = '/crkn-nas-wip/_Metadata_Synchronised/Fixed/MARCDC';
+
+$logger->info("DMD Preservation MARC DC: start");
+
+GetOptions(
+    'dmddir:s' => \$dmddir,
+    'csvdir:s' => \$csvdir,
+);
+
+# Used to show a different processname during processing
+my $dmddcprog = $0;
+
+#
+my $dccsv;
+
+## Test an ID
+#$dccsv = CIHM::Meta::DCCSV->new( { csvdir => $csvdir } );
+#$dccsv->addElement( "oocihm.7a9790", "thisis" , "atest" );
+#exit 0;
+
+my $preservationdir = File::Spec->catfile( $dmddir, 'preservation' );
+opendir( my $dh, $preservationdir ) || die "Can't open $preservationdir: $!";
+while ( readdir $dh ) {
+    if ( substr( $_, 0, 1 ) ne "." ) {
+        my $prefixdir = $_;
+        my $preservationcsvdir =
+          File::Spec->catfile( $csvdir, 'preservation', $prefixdir );
+        my $preservationsubdir =
+          File::Spec->catfile( $dmddir, 'preservation', $prefixdir );
+
+        $dccsv = CIHM::Meta::DCCSV->new( { csvdir => $preservationcsvdir } );
+
+        $0 = $dmddcprog . " find in $preservationsubdir";
+        print "Find for $prefixdir\n";
+
+        find( \&matching_dmd_file, $preservationsubdir );
+
+        print "Write for $prefixdir\n";
+
+        $dccsv->writeCSV();
+        undef $dccsv;
+
+    }
+}
+closedir $dh;
+
+exit 0;
+
+sub matching_dmd_file {
+    if ( -f $_ ) {
+        $0 = $dmddcprog . " looking for MARC in $File::Find::dir";
+        if (/^(.*)-(\w*)\.xml$/) {
+            my $id      = $1;
+            my $dmdType = $2;
+
+            if ( $dmdType eq 'MARC' ) {
+                $inThisFile = $File::Find::name;
+
+                open my $fh, '<:encoding(UTF-8)', $File::Find::name
+                  or die "can't open MARC file=$File::Find::name: $!\n";
+
+                my $xmlin = do { local $/; <$fh> };
+                close $fh;
+                undef $inThisFile;
+
+                my $record = MARC::Record->new_from_xml($xmlin);
+
+                my @fields = $record->fields();
+
+=pod
+
+This is the crosswalk.
+
+This loops through each MARC field in XML order, and has different rules depending on which tag is found.
+
+*   $id is the AIP ID that is built into the filename of the XML file
+    ie: "oocihm.64947-MARC.xml" is for the AIP ID "oocihm.64947"
+
+*   $dccsv->addElement($id, element, content) adds a Dublin Core element to the record for a given $id.
+    Elements are the 15 elements https://www.dublincore.org/specifications/dublin-core/dces/
+
+*   https://www.loc.gov/marc/marc2dc.html "II. MARC to Dublin Core Crosswalk (Unqualified)"
+    This will be used, except where staff determine some reason to do otherwise.
+    Ignoring leader, unless it is determined it is necessary to extract additional "type" information
+
+
+=cut
+
+                foreach my $field (@fields) {
+                    my $tag     = $field->tag();
+                    my $content = $field->as_string();
+
+                    if ( $content && length($content) )
+                    {    #only if there is some content do we try to add
+
+                        switch ($tag) {
+
+                            case [
+                                "100", "110", "111", "700",
+                                "710", "711", "720"
+                              ] {
+                                $dccsv->addElement( $id, "contributor",
+                                    $content );
+                            }
+
+                            case [ "651", "662", "751", "752" ] {
+                                $dccsv->addElement( $id, "coverage", $content );
+                            }
+
+                            case "008" {
+                                print "Find date and language in $content ?\n";
+                                if ( $content =~ /^.{7}(\d{4})/ ) {
+                                    my $date = $1;
+                                    print "Adding Date: $date\n";
+                                    $dccsv->addElement( $id, "date", $date );
+                                }
+                                if ( $content =~ /^.{35}(\w{3})/ ) {
+                                    my $language = $1;
+                                    print "Adding language: $language\n";
+                                    $dccsv->addElement( $id, "language",
+                                        $language );
+                                }
+                            }
+                            case "260" {
+                                print
+                                  "Find date and publisher in $content ? \n";
+                                my $date = $field->as_string("cg");
+                                if ( $date && length($date) ) {
+                                    print "Adding date: $date\n";
+                                    $dccsv->addElement( $id, "date", $date );
+                                }
+
+                                my $language = $field->as_string("ab");
+                                if ( $language && length($language) ) {
+                                    print "Adding language: $language\n";
+                                    $dccsv->addElement( $id, "language",
+                                        $language );
+                                }
+                            }
+
+                            case "340" {
+                                $dccsv->addElement( $id, "format", $content );
+                            }
+
+                            case "856" {
+                                print
+                                  "Find format and identifiers $content ? \n";
+
+                                # May be repeated
+                                foreach my $format ( $field->as_string("q") ) {
+                                    if ( $format && length($format) ) {
+                                        $dccsv->addElement( $id, "format",
+                                            $format );
+                                    }
+                                }
+
+                                # May be repeated
+                                foreach
+                                  my $identifier ( $field->as_string("u") )
+                                {
+                                    if ( $identifier && length($identifier) ) {
+                                        $dccsv->addElement( $id, "identifier",
+                                            $identifier );
+                                    }
+                                }
+
+                            }
+                            case [ "020", "022", "024" ] {
+                                foreach
+                                  my $identifier ( $field->as_string("a") )
+                                {
+                                    if ( $identifier && length($identifier) ) {
+                                        $dccsv->addElement( $id, "identifier",
+                                            $identifier );
+                                    }
+                                }
+                            }
+
+                            case "041" {
+                                my $language = $field->as_string("abdefghj");
+                                if ( $language && length($language) ) {
+                                    $dccsv->addElement( $id, "language",
+                                        $language );
+                                }
+                            }
+                            case "546" {
+                                $dccsv->addElement( $id, "language", $content );
+                                next;
+                            }
+
+                            case "530" {
+                                $dccsv->addElement( $id, "relation", $content );
+                                next;
+                            }
+
+                            # Regexp as these are strings: 760-787$o$t
+                            case /^(7[67]\d)|(78[0-7])$/ {
+                                foreach my $relation ( $field->as_string("ot") )
+                                {
+                                    $dccsv->addElement( $id, "relation",
+                                        $relation );
+                                }
+                            }
+
+                            case [ "506", "540" ] {
+                                $dccsv->addElement( $id, "relation", $content );
+                                next;
+                            }
+
+                            case "534" {
+                                foreach my $source ( $field->as_string("t") ) {
+                                    $dccsv->addElement( $id, "source",
+                                        $source );
+                                }
+                                next;
+                            }
+                            case "786" {
+                                foreach my $source ( $field->as_string("ot") ) {
+                                    $dccsv->addElement( $id, "source",
+                                        $source );
+                                }
+                            }
+
+                            case [
+                                "050", "060", "080", "082", "600",
+                                "610", "611", "630", "650", "653"
+                              ] {
+                                $dccsv->addElement( $id, "subject", $content );
+                            }
+
+                            case "245" {
+
+                                # LOC indicates to use the entire field
+                                # This may be more of what is expected.
+                                my $propertitle = $field->as_string('anp');
+                                if ( $propertitle && length($propertitle) ) {
+                                    $dccsv->addElement( $id, "title",
+                                        $propertitle );
+                                }
+                            }
+                            case "246" {
+                                $dccsv->addElement( $id, "title", $content );
+                            }
+                            case "655" {
+                                $dccsv->addElement( $id, "language", $content );
+                            }
+
+  # Description is special -- there are other things 5xx tags are used for above
+  # that needed "next" to get here
+                            case /^5/ {
+                                if (   $tag ne "506"
+                                    && $tag ne "530"
+                                    && $tag ne "540"
+                                    && $tag ne "546" )
+                                {
+                                    $dccsv->addElement( $id, "description",
+                                        $content );
+                                }
+                            }
+
+                            else {
+                                print "$tag has value "
+                                  . $field->as_string() . "\n";
+                            }
+
+                        }
+                    }
+                }
+
+                print "$id : $File::Find::name : "
+                  . $record->title_proper() . "\n";
+
+            }
+        }
+        else {
+            warn $_ . "  -- doesn't match pattern (in $File::Find::dir )\n";
+        }
+    }
+}
+
+sub normaliseSpace {
+    my $content = shift;
+
+    $content =~ s/^\s+|\s+$//g;    # Trim space at end and beginning.
+    $content =~ s/\s+/ /g;         # Remove extra spaces
+
+    return $content;
+}
