@@ -111,6 +111,9 @@ sub matching_dmd_file {
             if ( $dmdType eq 'MARC' ) {
                 $inThisFile = $File::Find::name;
 
+                # Add AIP ID as an identifier
+                $dccsv->addElement( $id, "identifier", $id );
+
                 open my $fh, '<:encoding(UTF-8)', $File::Find::name
                   or die "can't open MARC file=$File::Find::name: $!\n";
 
