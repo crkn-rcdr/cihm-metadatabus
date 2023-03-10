@@ -49,7 +49,7 @@ local $SIG{__WARN__} = sub { &log_warnings };
 my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
 my $outfile = File::Spec->catfile( $dmddir, 'analysis/dmdstats.csv' );
-my $outdir  = File::Spec->catfile( $dmddir, 'analysis/dhdstats-AIPIDlists/' );
+my $outdir  = File::Spec->catfile( $dmddir, 'analysis/dmdstats-AIPIDlists/' );
 
 $logger->info("DMD stats: start");
 
