@@ -110,8 +110,11 @@ sub matching_dmd_file {
             if ( $dmdType eq 'issueinfo' ) {
                 $inThisFile = $File::Find::name;
 
+                # Add AIP ID as an identifier
+                $dccsv->addElement( $id, "identifier", $id );
+
                 open my $fh, '<:encoding(UTF-8)', $File::Find::name
-                  or die "can't open DC file=$File::Find::name: $!\n";
+                  or die "can't open IssueInfo file=$File::Find::name: $!\n";
 
                 my $xmlin = do { local $/; <$fh> };
                 close $fh;

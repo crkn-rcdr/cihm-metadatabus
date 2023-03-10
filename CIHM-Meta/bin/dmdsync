@@ -580,20 +580,25 @@ sub pathID {
     # Create a full path based on ID
     my $idpath;
     switch ($id) {
-        case m/^ams\./        { $idpath = 'ams'; }
-        case m/^carl\./       { $idpath = 'carl'; }
-        case m/^numeris\./    { $idpath = 'numeris'; }
-        case m/^omcn\./       { $idpath = 'omcn'; }
-        case m/^oocihm\.lac_/ { $idpath = 'oocihm.lac'; }
-        case m/^oocihm\.N_/   { $idpath = 'oocihm.N'; }
-        case m/^oocihm\./     { $idpath = 'oocihm'; }
-        case m/^ooe\./        { $idpath = 'ooe'; }
-        case m/^ooga\./       { $idpath = 'ooga'; }
-        case m/^oop\./        { $idpath = 'oop'; }
-        case m/^osmsdga\./    { $idpath = 'osmsdga'; }
-        case m/^qmma\./       { $idpath = 'qmma'; }
-        case m/^sru\./        { $idpath = 'sru'; }
-        else                  { $idpath = 'default'; }
+        case m/^ams\./              { $idpath = 'ams'; }
+        case m/^carl\./             { $idpath = 'carl'; }
+        case m/^numeris\./          { $idpath = 'numeris'; }
+        case m/^omcn\./             { $idpath = 'omcn'; }
+        case m/^oocihm\.lac_reel_c/ { $idpath = 'oocihm.lac_reel_c'; }
+        case m/^oocihm\.lac_reel_h/ { $idpath = 'oocihm.lac_reel_h'; }
+        case m/^oocihm\.lac_reel_t/ { $idpath = 'oocihm.lac_reel_t'; }
+        case m/^oocihm\.lac_/       { $idpath = 'oocihm.lac'; }
+        case m/^oocihm\.N_/         { $idpath = 'oocihm.N'; }
+        case m/^oocihm\.9_/         { $idpath = 'oocihm.9_'; }
+        case m/^oocihm\.8_/         { $idpath = 'oocihm.8_'; }
+        case m/^oocihm\./           { $idpath = 'oocihm'; }
+        case m/^ooe\./              { $idpath = 'ooe'; }
+        case m/^ooga\./             { $idpath = 'ooga'; }
+        case m/^oop\./              { $idpath = 'oop'; }
+        case m/^osmsdga\./          { $idpath = 'osmsdga'; }
+        case m/^qmma\./             { $idpath = 'qmma'; }
+        case m/^sru\./              { $idpath = 'sru'; }
+        else                        { $idpath = 'default'; }
     }
 
     my $path =
