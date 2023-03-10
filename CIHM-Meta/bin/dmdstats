@@ -48,26 +48,29 @@ local $SIG{__WARN__} = sub { &log_warnings };
 
 my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
-
-my $outfile = '/crkn-nas-wip/_Metadata_Synchronised/analysis/dmdstats.csv';
+my $outfile = File::Spec->catfile( $dmddir, 'analysis/dmdstats.csv' );
+my $outdir  = File::Spec->catfile( $dmddir, 'analysis/dhdstats-AIPIDlists/' );
 
 $logger->info("DMD stats: start");
 
 GetOptions(
     'outfile:s' => \$outfile,
+    'outdir:s'  => \$outdir,
     'dmddir:s'  => \$dmddir,
 );
+
+# Make sure a clean output directory exists.
+make_path($outdir);
+remove_tree( $outdir, { safe => 1, keep_root => 1, verbose => 1 } );
 
 # Used to show a different processname during processing
 my $dmdstatsprog = $0;
 
 my %results;
-
-my $preservationdir = File::Spec->catfile( $dmddir, 'preservation' );
-find( \&matching_dmd_file, $preservationdir );
-
-my $accessdir = File::Spec->catfile( $dmddir, 'access' );
-find( \&matching_dmd_file, $accessdir );
+foreach my $repository ( "access", "preservation" ) {
+    my $scandir = File::Spec->catfile( $dmddir, $repository );
+    find( \&matching_dmd_file, $scandir );
+}
 
 sub matching_dmd_file {
     if ( -f $_ ) {
@@ -80,12 +83,10 @@ sub matching_dmd_file {
                 my $repo   = $1;
                 my $prefix = $2;
 
-                if ( defined $results{$repo}{$prefix}{$dmdType} ) {
-                    $results{$repo}{$prefix}{$dmdType}++;
+                if ( !( defined $results{$repo}{$prefix}{$dmdType} ) ) {
+                    $results{$repo}{$prefix}{$dmdType} = [];
                 }
-                else {
-                    $results{$repo}{$prefix}{$dmdType} = 1;
-                }
+                push @{ $results{$repo}{$prefix}{$dmdType} }, $id;
             }
             else {
                 warn $File::Find::dir . "  -- doesn't match pattern\n";
@@ -106,8 +107,21 @@ foreach my $repo ( sort keys %results ) {
         my $total = 0;
         foreach my $dmdType ( sort @dmdtypes ) {
             if ( defined $results{$repo}{$prefix}{$dmdType} ) {
-                push @thisline, $results{$repo}{$prefix}{$dmdType};
-                $total += $results{$repo}{$prefix}{$dmdType};
+                my @aipids = @{ $results{$repo}{$prefix}{$dmdType} };
+                my $count  = scalar(@aipids);
+
+                push @thisline, $count;
+                $total += $count;
+
+                my $outfile =
+                  File::Spec->catfile( $outdir, "$repo-$prefix-$dmdType.csv" );
+                $0 = $dmdstatsprog . " writing $outfile";
+
+                open my $fh, '>', $outfile or die "Cannot open $outfile: $!";
+                foreach (@aipids) {
+                    print $fh "$_\n";
+                }
+                close $fh;
             }
             else {
                 push @thisline, 0;
