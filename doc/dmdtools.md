@@ -20,7 +20,14 @@ Files are separated into various directories based on their identifier (AIP ID o
 
 ## dmdstats
 
-Creates a file `_Metadata_Synchronised/analysis/dmdstats.csv` which offers some basic statistics of the type of metadata in each of the above directories.
+Offers some basic statistics of the type of metadata in each of the above directories.
+
+* `_Metadata_Synchronised/analysis/dmdstats.csv` - table with counts of each type of metadata
+* `_Metadata_Synchronised/analysis/dmdstats-AIPIDlists` - set of lists of the identifiers of each type
+
+
+# Future MARC cleanup
+
 
 ## dmdstats-MARC856-URIcount
 
@@ -51,10 +58,12 @@ Creates a series of .csv files in `_Metadata_Synchronised/analysis/MARC533lists/
 
 See [issue 68](https://github.com/crkn-rcdr/cihm-metadatabus/issues/68)
 
+
+# Experimental
+
 ## dmd-Preservation-DCmultidate
 
-Creates a series of .csv files in `_Metadata_Synchronised/Fixed/dcDateRanges` which are encoded in the format we use for loading Dublin Core with the metadata loader.
-Will be used to load metadata in order to initiate metadata updates to clean up the custom way dates were encoded.
+Creates a series of .csv files in `_Metadata_Synchronised/Fixed/dcDateRanges` which are encoded in the format we use for loading Dublin Core with the metadata loader. Was used to load metadata in order to initiate metadata updates to clean up the custom way dates were encoded.
 
 See [Digital-Preservation/issues/31](https://github.com/crkn-rcdr/Digital-Preservation/issues/31)
 
@@ -63,7 +72,7 @@ This is part of the Archivematica adoption project
 ## dmd-Preservation-IssueInfoDC
 
 Creates a series of .csv files in `_Metadata_Synchronised/Fixed/IssueinfoDC` which are encoded in the format we use for loading
-Dublin Core with the metadata loader. Will be used to load metadata in order to initiate metadata updates to transform any Issuinfo records into DC.
+Dublin Core with the metadata loader.
 
 See [Digital-Preservation/issues/32](https://github.com/crkn-rcdr/Digital-Preservation/issues/32).
 
@@ -73,7 +82,7 @@ This is part of the Archivematica adoption project.
 ## dmd-Preservation-MARCDC (soon)
 
 Creates a series of .csv files in `_Metadata_Synchronised/Fixed/MARCDC` which are encoded in the format we use for loading
-Dublin Core with the metadata loader. Will be used to load metadata in order to initiate metadata updates to transform any Issuinfo records into DC.
+Dublin Core with the metadata loader.
 
 See [Digital-Preservation/issues/33](https://github.com/crkn-rcdr/Digital-Preservation/issues/33).
 
