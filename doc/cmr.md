@@ -41,7 +41,7 @@ collection | array of strings | array of the slugs of collections this document 
 component_count | positive integer | Number of images in a manifest
 component_count_fulltext | positive integer | Number of images which have XML OCR data
 identifier | array of strings | Displayed array of identifiers.
-item count | positive integer | Number of members in a collection
+item_count | positive integer | Number of members in a collection
 lang | array of strings | 3-character ISO 639-3 language code
 manifest_noid| string(noid} | noid of manifest, used by type=page
 pkey | string(slug) | Parent slug for issue of a series (its "multi-part" collectin), or pages of a manifest
@@ -60,11 +60,30 @@ field | type | Description
 ab | array of text | Description
 au | array of text | Author/Creator
 no | array of text | Notes
+no_rights | array of text | Notes
+no_source | array of text | Notes
 pu | array of text | Published
 su | array of text | Subject
 ti | array of text | Title
 tx | array of text | Text (added from OCR data)
 
+## Optional Presentation-only fields
+
+field | type | Description
+------|------|---
+components | object | JSON object containing information about each component of the item. Key-value pair looks like: $id: {label: $label, canonicalMaster: $canonicalMaster, canonicalDownload: $canonicalDownload, hasTags: $(true if component has tag metadata), noid: $canvasNoid }
+canonicalMaster | string | old-style reference to image
+canonicalMasterSize | positive integer | 
+canonicalMasterMime | string |
+canonicalMasterMD5 | string |
+canonicalMasterWidth | positive integer | 
+canonicalMasterHeight | positive integer | 
+canonicalMasterDownload | string | old-style reference to PDF download
+canonicalMasterDownloadSize | positive integer | 
+canonicalMasterDownloadMime | string |
+canonicalMasterDownloadMD5 | string |
+items | object | JSON object containing information about each issue of the series. Key-value pair looks like: $id: {label: $label, pubmin: $pubmin}. Items that are not approved will not be included.
+order | array | Array containing child (item/component) IDs in the correct order.
 
 ## Optional Heritage Premium metadata fields
 
@@ -84,6 +103,7 @@ tagName | array of text |
 tagNotebook | array of text |
 tagPerson | array of text |
 tagPlace | array of text | 
+hasTags | boolean | flag set in manifest to indicate some image has tags.
 
 ## Optional Library of Parliament fields
 
@@ -100,5 +120,7 @@ parlLabel | string
 parlPrimeMinisters | string
 parlReportTitle | array of text
 parlSession | array of strings | Session
-parlType | string
-
+parlType | string |
+parlNode | string |
+pubmin | string | Replaces field in descriptive metadata
+pubmax | string | Replaces descriptive metadata
