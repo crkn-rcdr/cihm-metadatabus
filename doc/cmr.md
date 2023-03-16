@@ -22,7 +22,7 @@ In the past there were many crosswalks depending on source of data.  This has be
 * [MARC](marc-crosswalk.md)
 
 
-It is important to note that [Solr search](https://github.com/crkn-rcdr/solr) and [CAP](https://github.com/crkn-rcdr/cap) do not support Dublin Core, Issueinfo orMARC. These only support CMR, where most of the semantics or richer metadata formats like MARC are lost in the crosswalks and unavailable to search as facets.
+It is important to note that [Solr search](https://github.com/crkn-rcdr/solr) and [CAP](https://github.com/crkn-rcdr/cap) do not support Dublin Core, Issueinfo or MARC. These only support CMR, where most of the semantics or richer metadata formats like MARC are lost in the crosswalks and unavailable to search as facets.
 
 # Simple lookup table of currently used fields
 
