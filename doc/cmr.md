@@ -30,7 +30,6 @@ It is important to note that [Solr search](https://github.com/crkn-rcdr/solr) an
 
 field | type | Description
 ------|------|----
-depositor | string | The part of the slug before the first "." (calculated)
 key | string | slug for this record
 label | string | Label currently copied from Access IIIF label (Not a IIIF string, so no language support)
 noid | string | noid for this record
@@ -50,14 +49,12 @@ lang | array of strings | 3-character ISO 639-3 language code
 manifest_noid| string(noid} | noid of manifest, used by type=page
 pkey | string(slug) | Parent slug for issue of a series (its "multi-part" collectin), or pages of a manifest
 plabel | string | Label of parent for issue of a series (lookup when building record)
-pubmax | string | Maximum ISO 8601 date for a publication date range.
-pubmin | string | Minimum ISO 8601 date for a publication date range.
 seq | Positive Integer | Used to sort issues of a series (currently an array index from multi-part collection)
 
 Note on `identifier`:  The {slug} and the part of the {slug} after the first "." are appended to the array that is built from the descriptive metadata crosswalks.  These are a legacy from earlier iterations of the software stack when "depositors" and "CIHM numbers" had meaning.
 
 
-## Optional Description and content
+## Optional Description
 
 field | type | Description
 ------|------|---
@@ -69,25 +66,41 @@ no_source | array of text | Notes
 pu | array of text | Published
 su | array of text | Subject
 ti | array of text | Title
+
+
+## Search-only fields
+
+field | type | Description
+------|------|---
+depositor | string | The part of the slug before the first "." (calculated, deprecated)
+pubmax | string | Maximum ISO 8601 date for a publication date range.
+pubmin | string | Minimum ISO 8601 date for a publication date range.
 tx | array of text | Text (added from OCR data)
 
-## Optional Presentation-only fields
+
+## Presentation-only fields
 
 field | type | Description
 ------|------|---
 components | object | JSON object containing information about each component of the item. Key-value pair looks like: $id: {label: $label, canonicalMaster: $canonicalMaster, canonicalDownload: $canonicalDownload, hasTags: $(true if component has tag metadata), noid: $canvasNoid }
-canonicalMaster | string | old-style reference to image
+canonicalMaster | string | old-style reference to image (see 'file' field)
+canonicalMasterExtension | string |
 canonicalMasterSize | positive integer | 
 canonicalMasterMime | string |
 canonicalMasterMD5 | string |
 canonicalMasterWidth | positive integer | 
 canonicalMasterHeight | positive integer | 
-canonicalMasterDownload | string | old-style reference to PDF download
-canonicalMasterDownloadSize | positive integer | 
-canonicalMasterDownloadMime | string |
-canonicalMasterDownloadMD5 | string |
+canonicalDownload | string | old-style reference to PDF download (see 'ocrPdf' field)
+canonicalDownloadExtension | string |
+canonicalDownloadSize | positive integer |
+canonicalDownloadMime | string |
+canonicalDownloadMD5 | string |
 items | object | JSON object containing information about each issue of the series. Key-value pair looks like: $id: {label: $label, pubmin: $pubmin}. Items that are not approved will not be included.
 order | array | Array containing child (item/component) IDs in the correct order.
+file | object | [FileRef{}](https://github.com/crkn-rcdr/Access-Platform/blob/main/packages/data/src/util/FileRef.ts) for other (possibly born digital?)  download.
+ocrPdf | object | [FileRef{}](https://github.com/crkn-rcdr/Access-Platform/blob/main/packages/data/src/util/FileRef.ts) for multi-page OCR PDF download.
+collectiontree | object | **experimental** - See: [CAP issue 138](https://github.com/crkn-rcdr/cap/issues/138)
+updated | string | date string of last time cache was updated
 
 ## Optional Heritage Premium metadata fields
 
@@ -128,3 +141,15 @@ parlType | string |
 parlNode | string |
 pubmin | string | Replaces field in descriptive metadata
 pubmax | string | Replaces descriptive metadata
+
+
+## Deprecated/unknown fields
+
+These are things discovered while documenting that are leftovers from previous revisions.
+
+field | type | Description |
+------|------|---
+pg_label | deprecate | Mentioned in Hammer for cosearch, but doesn't exist in any current documentation
+media | deprecate | Mentioned in Hammer for copresentation, but was removed from documentation years ago.
+canonicalUri | deprecate | Mentioned in Hammer for copresentation, but hasn't existed for years?
+repos | deprecate | Was used in the past in presentation, but should be removed.
