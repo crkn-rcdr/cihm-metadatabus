@@ -11,14 +11,18 @@ While some details have changed since, a good place to start is [CMR version 1.2
 * We moved from expressing the format in XML to JSON
 * We use the field names as they are expressed within the Solr schema, saving an additional crosswalk
 * There are additional fields added from sources other than a descriptive metadata crosswalk
+* The file [cmr.xml is no longer stored in an AIP](https://github.com/crkn-rcdr/Digital-Preservation/blob/71310c6161a049712cbcef311da0beb804e8d8a1/xml/published/schema/2012/txt/aip.txt#L54) with the crosswalks happening at ingest time, but where the (regularly enhanced) crosswalks are done as part of creating records to be indexed in Solr and made available to CAP for presentation.
 
 # Crosswalks
 
-In the past there were many crosswalks depending on source of data.  This has been reduced to 3, and we only support metadata which Canadiana/CRKN loads.
+In the past there were many crosswalks depending on source of data.  This has been reduced to 3, and we only support metadata which Canadiana/CRKN loads that has been encoded using fields, data types and other aspects of these remaining crosswalks.
 
-* Simple Dublin Core (link to be added)
-* IssueInfo (link to be added)
-* MARC (link to be added)
+* [Simple Dublin Core](dc-crosswalk.md)
+* [IssueInfo](issueinfo-crosswalk.md)
+* [MARC](marc-crosswalk.md)
+
+
+It is important to note that [Solr search](https://github.com/crkn-rcdr/solr) and [CAP](https://github.com/crkn-rcdr/cap) do not support Dublin Core, Issueinfo orMARC. These only support CMR, where most of the semantics or richer metadata formats like MARC are lost in the crosswalks and unavailable to search as facets.
 
 # Simple lookup table of currently used fields
 
