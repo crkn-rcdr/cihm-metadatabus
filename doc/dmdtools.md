@@ -79,7 +79,7 @@ See [Digital-Preservation/issues/32](https://github.com/crkn-rcdr/Digital-Preser
 This is part of the Archivematica adoption project.
 
 
-## dmd-Preservation-MARCDC (soon)
+## dmd-Preservation-MARCDC
 
 Creates a series of .csv files in `_Metadata_Synchronised/Fixed/MARCDC` which are encoded in the format we use for loading
 Dublin Core with the metadata loader.
