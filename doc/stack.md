@@ -4,7 +4,7 @@ The Metadabus was created to automate management of data that was being loaded i
 
 
 * Code for the Canadiana Access Portal (CAP) started earlier, but first commit to the Subversion repository (which was copied to Git and GitHub) was on [April 26, 2010](https://github.com/crkn-rcdr/cap/tree/6e03c7e5337fcc978465b02062708b1fffb15ae6/).
-* The 1.0 version of the Canadiana Metadata Repository (CMR) data schema was [announced by William Wueppelmann on Mon, 12/20/2010](https://web.archive.org/web/20150912073813/http://www.canadiana.ca/en/content/cmr-canadiana-metadata-repository-schema) via a blog article, and made [available on the webiste](https://web.archive.org/web/20130711000227/http://www.canadiana.ca/en/cmr).
+* Version 1.0 (2010-08-20) of the Canadiana Metadata Repository (CMR) data schema was [announced by William Wueppelmann on Mon, 20120-12-20](https://web.archive.org/web/20150912073813/http://www.canadiana.ca/en/content/cmr-canadiana-metadata-repository-schema) via a blog article, and made [available on the webiste](https://web.archive.org/web/20130711000227/http://www.canadiana.ca/en/cmr).
 * The Canadiana Discovery Portal (CDP) and its API was presented at the second Code4Lib North (McMaster University, May 5-6, 2011)
   * http://hdl.handle.net/11375/14376   (Video [also on YouTube](https://www.youtube.com/watch?v=KD7w-1pAdxU))
 * The [Beta.canadiana.ca URL](https://web.archive.org/web/20101201000000*/beta.canadiana.ca) became [Search.canadiana.ca](https://web.archive.org/web/20120201000000*/search.canadiana.ca), and a redirect was kept for many years (The word "beta" didn't have meaning outside software people, so many thought it was an official service).
