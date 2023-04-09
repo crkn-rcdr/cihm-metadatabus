@@ -37,3 +37,6 @@ requires 'Poppler';
 
 # Used by Smelter
 requires 'Image::Magick', '== 6.9.12';
+
+# Used by dmdstats
+requires 'Archive::Zip';
