@@ -14,19 +14,17 @@ use File::Find;
 use Data::Dumper;
 use Digest::MD5;
 use JSON;
-use Poppler;
-use XML::LibXML;
-use CIHM::Swift::Client;
 use URI::Escape;
 use DateTime::Format::ISO8601;
 use HTTP::Date qw(:DEFAULT time2isoz);
 use File::Path qw(make_path remove_tree);
 use File::Spec;
 use File::stat;
-use XML::LibXML;
+use File::chdir;
 use utf8;
 use Switch;
 use Text::CSV qw( csv );
+use Archive::Zip qw( :ERROR_CODES :CONSTANTS );
 
 # There are only 3 valid types of descriptive metadata
 my @dmdtypes = ( "issueinfo", "DC", "MARC" );
@@ -49,19 +47,25 @@ local $SIG{__WARN__} = sub { &log_warnings };
 my $dmddir = '/crkn-nas-wip/_Metadata_Synchronised';
 $dmddir = $ENV{syncdmd_dmddir} if ( exists $ENV{syncdmd_dmddir} );
 my $outfile = File::Spec->catfile( $dmddir, 'analysis/dmdstats.csv' );
-my $outdir  = File::Spec->catfile( $dmddir, 'analysis/dmdstats-AIPIDlists/' );
-
-$logger->info("DMD stats: start");
+my $outdir  = File::Spec->catfile( $dmddir, 'analysis/dmdstats-IDlists/' );
+my $zipdir  = File::Spec->catfile( $dmddir, 'dmdZIP/' );
 
 GetOptions(
     'outfile:s' => \$outfile,
     'outdir:s'  => \$outdir,
+    'zipdir:s'  => \$zipdir,
     'dmddir:s'  => \$dmddir,
 );
 
 # Make sure a clean output directory exists.
 make_path($outdir);
 remove_tree( $outdir, { safe => 1, keep_root => 1, verbose => 1 } );
+
+# Make sure a clean output directory exists.
+make_path($zipdir);
+remove_tree( $zipdir, { safe => 1, keep_root => 1, verbose => 1 } );
+
+$logger->info("DMD stats: start");
 
 # Used to show a different processname during processing
 my $dmdstatsprog = $0;
@@ -133,3 +137,34 @@ foreach my $repo ( sort keys %results ) {
 }
 
 csv( in => \@res, out => $outfile );
+
+foreach my $repo ( sort keys %results ) {
+    foreach my $prefix ( sort keys %{ $results{$repo} } ) {
+        local $CWD = File::Spec->catfile( $dmddir, $repo, $prefix );
+
+        foreach my $dmdType ( sort @dmdtypes ) {
+            if ( defined $results{$repo}{$prefix}{$dmdType} ) {
+                my $zipfile =
+                  File::Spec->catfile( $zipdir, "$repo-$prefix-$dmdType.zip" );
+                $0 = $dmdstatsprog . " creating $zipfile";
+
+                my $zip = Archive::Zip->new();
+                foreach my $id ( @{ $results{$repo}{$prefix}{$dmdType} } ) {
+                    my $xmlfile = $id . "-" . $dmdType . ".xml";
+                    if ( -f $xmlfile ) {
+                        $zip->addFile($xmlfile);
+                    }
+                    else {
+                        warn "$xmlfile not found\n";
+                    }
+                }
+                $0 = $dmdstatsprog . " writing $zipfile";
+
+                # Save the Zip file
+                unless ( $zip->writeToFileNamed($zipfile) == AZ_OK ) {
+                    die 'write error';
+                }
+            }
+        }
+    }
+}

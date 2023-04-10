@@ -23,8 +23,9 @@ Files are separated into various directories based on their identifier (AIP ID o
 Offers some basic statistics of the type of metadata in each of the above directories.
 
 * `_Metadata_Synchronised/analysis/dmdstats.csv` - table with counts of each type of metadata
-* `_Metadata_Synchronised/analysis/dmdstats-AIPIDlists` - set of lists of the identifiers of each type
-
+* `_Metadata_Synchronised/analysis/dmdstats-IDlists/` - set of lists of the identifiers of each type
+* `_Metadata_Synchronised/dmdZIP/` - set of zip files of the XML files of each type
+* `_Metadata_Synchronised/dmdZIP-backup/` - Periodic (manual) backups of the dmdZIP files to allow comparisons
 
 # Future MARC cleanup
 
