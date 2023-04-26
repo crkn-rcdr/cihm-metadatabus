@@ -464,7 +464,6 @@ sub findManifestCanvases {
                     'md5'  => $self->filemetadata->{$master}->{'hash'}
                 },
                 master => {
-                    path   => $path,
                     'mime' => $div->{'master.mimetype'},
                     'size' => $self->filemetadata->{$master}->{'bytes'},
                     'md5'  => $self->filemetadata->{$master}->{'hash'}
@@ -657,7 +656,7 @@ sub enhanceCanvases {
 
             # Image not copied yet
             my $path = $doc->{source}->{path};
-            die "source.path not defined for $canvaskey\n" if ( !path );
+            die "source.path not defined for $canvaskey\n" if ( !$path );
 
             # Parse using the valid list of extensions.
             my ( $base, $dir, $ext ) =
