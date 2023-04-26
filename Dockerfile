@@ -36,7 +36,7 @@ RUN mkdir -p /opt/xml && svn co https://github.com/crkn-rcdr/Digital-Preservatio
   xmlcatalog --noout --add uri http://www.w3.org/2001/03/xml.xsd file:///opt/xml/current/unpublished/xsd/xml.xsd /etc/xml/catalog
 
 # https://pdfbox.apache.org/download.html
-ENV PDFBOXAPPVER=2.0.27
+ENV PDFBOXAPPVER=2.0.28
 RUN wget -nv "https://dlcdn.apache.org/pdfbox/$PDFBOXAPPVER/pdfbox-app-$PDFBOXAPPVER.jar" \
   "https://dlcdn.apache.org/pdfbox/$PDFBOXAPPVER/pdfbox-app-$PDFBOXAPPVER.jar.asc" \
   && gpg --keyserver  keyserver.ubuntu.com --recv-key 7A3C9FE21DFDBF44 \
