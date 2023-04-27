@@ -5,7 +5,12 @@ Some tools have been created to help with data migration and cleanup.
 
 The output of these tools is stored on a CIFS server on the CRKN LAN.
 
-`\\crkn-nas\wip\_Metadata_Synchronized\`
+~~`\\crkn-nas\wip\_Metadata_Synchronized\`~~
+
+Until the name is available again, please use:
+
+`\\10.200.1.35\wip\_Metadata_Synchronized\`
+
 
 
 Source Code: [CIHM-Meta/bin](../CIHM-Meta/bin)
