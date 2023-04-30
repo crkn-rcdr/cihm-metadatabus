@@ -807,7 +807,7 @@ sub enhanceCanvases {
 
         # Actually test to confirm that the canvas can be processed as an image.
         my $path =
-          uri_escape_utf8( $doc->{'_id'} ) . "/full/!80,80/0/default.jpg";
+          uri_escape_utf8( $doc->{'_id'} ) . "/full/!80,80/0/default.jpg?cache=false";
         my $res =
           $self->cantaloupe->get( $path, {}, { deserializer => undef } );
 
