@@ -175,65 +175,32 @@ sub process {
     $self->loadDipDoc();
     my $slug = $self->dipdoc->{slug};
     if ( !$slug || $slug eq '' ) {
-        die "Missing slug\n";
-    }
-
-    $self->log->info( $self->aip . " Processing  Slug=$slug" );
-
-    if ( my $getres = $self->getSlug($slug) ) {
-        die "Slug=$slug already exists\n";
-    }
-
-    $self->manifest->{slug} = $slug;
-
-    $self->loadFileMeta();
-
-    $self->parseMETS();
-
-    # Item is in div 0
-    my $div   = $self->divs->[0];
-    my $label = $div->{label};
-
-    if ( !$label || $label eq '' ) {
-        die "Missing item label\n";
-    }
-    $self->manifest->{label}->{none} = $label;
-
-# This is a hack to support the records currently in the custom preservatin platform.
-# There is only ever one multi-page PDF.
-
-# In the future this would be a check of any PDF file to see if they are single page (canvas attached to type="manifest")
-# or multi-page (potentially multiple type="pdf" documents from single AIP)
-
-    # OCR PDF's won't be part of AIPs and their METS records
-    my $borndigital = $self->bornDigital();
-    if ($borndigital) {
-        $self->manifest->{type} = 'pdf';
-
-        # Distribution is the born digital file
-        if ( defined $div->{'distribution.flocat'} ) {
-            die "Distribution not PDF"
-              if ( $div->{'distribution.mimetype'} ne 'application/pdf' );
-            $self->manifest->{'file'} = {
-                'path' => $self->aip . "/" . $div->{'distribution.flocat'},
-                'size' =>
-                  $self->filemetadata->{ $div->{'distribution.flocat'} }
-                  ->{'bytes'},
-                'md5' =>
-                  $self->filemetadata->{ $div->{'distribution.flocat'} }
-                  ->{'hash'}
-            };
-        }
+        $self->log->info(
+            $self->aip . " Processing (No manifest will be created)" );
     }
     else {
-        $self->manifest->{type} = 'manifest';
-        $self->findCreateCanvases();
-        $self->enhanceCanvases;
+        $self->log->info( $self->aip . " Processing  Slug=$slug" );
+        if ( my $getres = $self->getSlug($slug) ) {
+            die "Slug=$slug already exists\n";
+        }
+
+        $self->{manifest} = {
+            slug  => $slug,
+            label => { none => "Manifest for $slug" },
+            type  => 'manifest'
+        };
     }
 
-    $self->setManifestNoid();
-    $self->dmdManifest();
-    $self->writeManifest();
+    $self->loadFileMeta();
+    $self->parseMETS();
+    $self->findCreateCanvases();
+    $self->enhanceCanvases;
+
+    if ( exists $self->manifest->{slug} ) {
+        $self->setManifestNoid();
+        $self->dmdManifest();
+        $self->writeManifest();
+    }
 }
 
 sub get_metadata {
@@ -384,20 +351,6 @@ sub aipfile {
     return substr( File::Spec->rel2abs( $href, '//' . $metsdir ), 1 );
 }
 
-sub bornDigital {
-    my ($self) = @_;
-
-# It is born digital if the page divs only have dmd information (txtmap made from PDF) and a label.
-    for my $index ( 1 .. ( scalar @{ $self->divs } ) - 1 ) {
-        foreach my $key ( keys %{ $self->divs->[$index] } ) {
-            if ( ( $key ne 'label' ) && ( substr( $key, 0, 4 ) ne 'dmd.' ) ) {
-                return 0;
-            }
-        }
-    }
-    return 1;
-}
-
 sub dmdManifest {
     my $self = shift;
 
@@ -467,6 +420,29 @@ sub findManifestCanvases {
         if (   ( exists $foundcanvas->{$path} )
             && ( exists $foundcanvas->{$path}->{'_id'} ) )
         {
+            # Some 'source' fields were missing data in some older records.
+            if (   ( !exists $foundcanvas->{$path}->{'source'} )
+                || ( !exists $foundcanvas->{$path}->{'source'}->{'size'} )
+                || ( !exists $foundcanvas->{$path}->{'source'}->{'md5'} ) )
+            {
+                $foundcanvas->{$path}->{'source'} = {
+                    from   => 'cihm',
+                    path   => $path,
+                    'size' => $self->filemetadata->{$master}->{'bytes'},
+                    'md5'  => $self->filemetadata->{$master}->{'hash'}
+                };
+
+                my $data =
+                  $self->canvasPutDocument( $foundcanvas->{$path}->{'_id'},
+                    $foundcanvas->{$path} );
+
+                die "Put of canvas failed during findManifestCanvases()\n"
+                  if !$data;
+
+                $foundcanvas->{$path}->{'_rev'} = $data->{'rev'};
+
+            }
+
             $self->manifest->{'canvases'}->[$index]->{'id'} =
               $foundcanvas->{$path}->{'_id'};
         }
@@ -488,7 +464,6 @@ sub findManifestCanvases {
                     'md5'  => $self->filemetadata->{$master}->{'hash'}
                 },
                 master => {
-                    path   => $path,
                     'mime' => $div->{'master.mimetype'},
                     'size' => $self->filemetadata->{$master}->{'bytes'},
                     'md5'  => $self->filemetadata->{$master}->{'hash'}
@@ -673,10 +648,15 @@ sub enhanceCanvases {
     foreach my $canvaskey ( keys %{ $self->canvases } ) {
         my $doc = $self->canvases->{$canvaskey};
 
-        if ( exists $doc->{master} && exists $doc->{master}->{path} ) {
+        # Every canvas should be normalized to a JPEG.
+        if (   ( !exists $doc->{master} )
+            || ( !exists $doc->{master}->{extension} )
+            || $doc->{master}->{extension} ne "jpg" )
+        {
 
             # Image not copied yet
-            my $path = $doc->{master}->{path};
+            my $path = $doc->{source}->{path};
+            die "source.path not defined for $canvaskey\n" if ( !$path );
 
             # Parse using the valid list of extensions.
             my ( $base, $dir, $ext ) =
@@ -827,7 +807,7 @@ sub enhanceCanvases {
 
         # Actually test to confirm that the canvas can be processed as an image.
         my $path =
-          uri_escape_utf8( $doc->{'_id'} ) . "/full/!80,80/0/default.jpg";
+          uri_escape_utf8( $doc->{'_id'} ) . "/full/!80,80/0/default.jpg?cache=false";
         my $res =
           $self->cantaloupe->get( $path, {}, { deserializer => undef } );
 
