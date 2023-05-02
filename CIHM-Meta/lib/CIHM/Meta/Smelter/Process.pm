@@ -628,6 +628,7 @@ sub magicStatus {
 # https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/filesource.html
         case /Unknown field with tag 59932 /  { }    # 0xea1c	Padding
         case /Exception 350: .*; tag ignored/ { }
+        case /Exception 350: .*; value incorrectly truncated during reading/ { }
         else {
             $error = 1;
         }
@@ -807,7 +808,8 @@ sub enhanceCanvases {
 
         # Actually test to confirm that the canvas can be processed as an image.
         my $path =
-          uri_escape_utf8( $doc->{'_id'} ) . "/full/!80,80/0/default.jpg?cache=false";
+          uri_escape_utf8( $doc->{'_id'} )
+          . "/full/!80,80/0/default.jpg?cache=false";
         my $res =
           $self->cantaloupe->get( $path, {}, { deserializer => undef } );
 
