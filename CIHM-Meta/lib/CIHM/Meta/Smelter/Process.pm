@@ -185,9 +185,10 @@ sub process {
         }
 
         $self->{manifest} = {
-            slug  => $slug,
-            label => { none => "Import images into Access from aip=" . $self->aip },
-            type  => 'manifest'
+            slug => $slug,
+            label =>
+              { none => "Import images into Access from aip=" . $self->aip },
+            type => 'manifest'
         };
     }
 
@@ -577,8 +578,13 @@ sub magicStatus {
 
 # https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/filesource.html
         case /Unknown field with tag 59932 /  { }    # 0xea1c	Padding
-        case /Exception 350: .*; tag ignored/ { }
-        case /Exception 350: .*; value incorrectly truncated during reading/ { }
+        case /^Exception 350: .*; tag ignored/ { }
+        case /^Exception 350: .*; value incorrectly truncated during reading/ { }
+        case /^Exception 3\d\d: / {
+
+            # Warn staff about 3xx warnings, until decided to make silent.
+            warn "$prefix: $status\n";
+        }
         else {
             $error = 1;
         }
