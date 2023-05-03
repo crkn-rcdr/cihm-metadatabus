@@ -224,7 +224,7 @@ sub process {
     undef $xmlrecord;
 
     $self->attachment->[0]->{'depositor'} = $depositor;
-    if ( $type eq "manifest" || $type eq "pdf" ) {
+    if ( $type eq "manifest" ) {
         $self->attachment->[0]->{'type'} = 'document';
     }
     else {
@@ -261,25 +261,7 @@ sub process {
       s/^\s+|\s+$//g;    # Trim spaces from beginning and end of label
     $self->attachment->[0]->{'label'} =~ s/\s+/ /g;    # Remove extra spaces
 
-    if ( exists $self->document->{'file'} ) {
-        $self->attachment->[0]->{'canonicalDownload'} =
-          $self->document->{'file'}->{'path'};
-        $self->attachment->[0]->{'canonicalDownloadSize'} =
-          $self->document->{'file'}->{'size'};
-        $self->attachment->[0]->{'file'} =
-          $self->document->{'file'};
-
-    }
-
     if ( exists $self->document->{'ocrPdf'} ) {
-
-        # This is the old way, referencing Preservation Swift storage.
-        if ( defined $self->document->{'ocrPdf'}->{'path'} ) {
-            $self->attachment->[0]->{'canonicalDownload'} =
-              $self->document->{'ocrPdf'}->{'path'};
-            $self->attachment->[0]->{'canonicalDownloadSize'} =
-              $self->document->{'ocrPdf'}->{'size'};
-        }
         $self->attachment->[0]->{'ocrPdf'} =
           $self->document->{'ocrPdf'};
     }
@@ -332,9 +314,6 @@ sub process {
                 $self->attachment->[ $i + 1 ]->{'canonicalMasterWidth'} =
                   $master{width}
                   if ( defined $master{width} );
-                $self->attachment->[ $i + 1 ]->{'canonicalMaster'} =
-                  $master{path}
-                  if ( defined $master{path} );
                 $self->attachment->[ $i + 1 ]->{'canonicalMasterExtension'} =
                   $master{extension}
                   if ( defined $master{extension} );
@@ -344,9 +323,6 @@ sub process {
                 $self->attachment->[ $i + 1 ]->{'canonicalMasterMime'} =
                   $master{mime}
                   if ( defined $master{mime} );
-                $self->attachment->[ $i + 1 ]->{'canonicalDownload'} =
-                  $ocrPdf{path}
-                  if ( defined $ocrPdf{path} );
                 $self->attachment->[ $i + 1 ]->{'canonicalDownloadExtension'} =
                   $ocrPdf{extension}
                   if ( defined $ocrPdf{extension} );
@@ -401,60 +377,6 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                   if $ocr;
             }
         }
-    }
-
-    # 'tx' field and number of pages is put in item for born digital PDF files
-    if ( $type eq "pdf" ) {
-        if ( !exists $self->document->{'file'} ) {
-            die "{file} wasn't set\n";
-        }
-        my $object;
-        my $container;
-        if ( exists $self->document->{'file'}->{'path'} ) {
-            $object    = $self->document->{'file'}->{'path'};
-            $container = $self->preservation_files;
-        }
-        elsif ( exists $self->document->{'file'}->{'extension'} ) {
-            $object =
-              $self->noid . "." . $self->document->{'file'}->{'extension'};
-            $container = $self->access_files;
-        }
-        else {
-            die "{file} must have a {path} or {extension|\n";
-        }
-
-        my $temp = File::Temp->new( UNLINK => 1, SUFFIX => '.pdf' );
-
-        my $r = $self->swift->object_get( $container, $object,
-            { write_file => $temp } );
-        if ( $r->code != 200 ) {
-            die(    "GET object=$object , contaimer=$container returned: "
-                  . $r->code
-                  . "\n" );
-        }
-        my $pdfname = $temp->filename;
-        close $temp;
-
-      # This is worth replacing at some point in the future.
-      # But not a focus now, as we want to replace Hammer2 completely soonish...
-        my $pdfpages;
-        open( my $fh, "/usr/bin/pdfinfo $pdfname |" )
-          || die "Can't open pipe from pdfinfo for $pdfname\n";
-        while ( my $infoline = <$fh> ) {
-            if ( $infoline =~ /Pages:\s*(\d+)$/ ) {
-                $pdfpages = $1 + 0;
-            }
-        }
-        $self->attachment->[0]->{'component_count'} = $pdfpages;
-        close $fh;
-
-        open( my $fh, "/usr/bin/pdftotext -q $pdfname - |" )
-          || die "Can't open pipe from pdftotext for $pdfname\n";
-        binmode( $fh, ":encoding(UTF-8)" );
-        my $tx = do { local $/; <$fh> };
-        $self->attachment->[0]->{'tx'} = [$tx];
-        close $fh;
-
     }
 
 ## Build update document and attachment
@@ -1368,13 +1290,11 @@ sub process_manifest {
         push @order, $seq{$page};
     }
 
-    # A born digital PDF has no pages, but is still a document.
-    if (@order) {
-        $self->{presentdoc}->{ $self->slug }->{'order'}      = \@order;
-        $self->{presentdoc}->{ $self->slug }->{'components'} = $components;
-        $self->{searchdoc}->{ $self->slug }->{'component_count'} =
-          scalar(@order);
-    }
+    $self->{presentdoc}->{ $self->slug }->{'order'}      = \@order;
+    $self->{presentdoc}->{ $self->slug }->{'components'} = $components;
+    $self->{searchdoc}->{ $self->slug }->{'component_count'} =
+      scalar(@order);
+
 }
 
 1;
