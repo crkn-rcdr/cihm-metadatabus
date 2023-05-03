@@ -186,7 +186,7 @@ sub process {
 
         $self->{manifest} = {
             slug  => $slug,
-            label => { none => "Manifest for $slug" },
+            label => { none => "Import images into Access from aip=" . $self->aip },
             type  => 'manifest'
         };
     }
@@ -198,7 +198,6 @@ sub process {
 
     if ( exists $self->manifest->{slug} ) {
         $self->setManifestNoid();
-        $self->dmdManifest();
         $self->writeManifest();
     }
 }
@@ -349,55 +348,6 @@ sub aipfile {
         }
     }
     return substr( File::Spec->rel2abs( $href, '//' . $metsdir ), 1 );
-}
-
-sub dmdManifest {
-    my $self = shift;
-
-    # Item is in div 0
-    my $div  = $self->divs->[0];
-    my $noid = $self->manifest->{'_id'};
-
-    if ( $div->{'dmd.type'} ne 'mdWrap' ) {
-        die "item dmd isn't in mdWrap\n";
-    }
-    my $dmdId   = $div->{'dmd.id'};
-    my $dmdType = uc( $div->{'dmd.mdtype'} );
-
-    my @dmdsec =
-      $self->xpc->findnodes( "descendant::mets:dmdSec[\@ID=\"$dmdId\"]",
-        $self->xml );
-    my @md        = $dmdsec[0]->nonBlankChildNodes();
-    my @mdrecords = $md[0]->nonBlankChildNodes();
-    my @records   = $mdrecords[0]->nonBlankChildNodes();
-    my $xmlrecord = $records[0]->toString(0);
-    my $dmdRecord =
-      utf8::is_utf8($xmlrecord) ? Encode::encode_utf8($xmlrecord) : $xmlrecord;
-    my $dmdDigest = md5_hex($dmdRecord);
-
-    my $object = $noid . '/dmd' . $dmdType . '.xml';
-    my $r =
-      $self->swiftaccess->object_head( $self->swift_access_metadata, $object );
-    if ( $r->code == 404 || ( $r->etag ne $dmdDigest ) ) {
-        $r = $self->swiftaccess->object_put( $self->swift_access_metadata,
-            $object, $dmdRecord );
-        if ( $r->code != 201 ) {
-            if ( defined $r->response->content ) {
-                warn $r->response->content . "\n";
-            }
-            die "Failed writing $object - returned " . $r->code . "\n";
-        }
-        elsif ( $r->etag ne $dmdDigest ) {
-            die "object_put didn't return matching etag\n";
-        }
-    }
-    elsif ( $r->code != 200 ) {
-        if ( defined $r->response->content ) {
-            warn $r->response->content . "\n";
-        }
-        die "Head for $object - returned " . $r->code . "\n";
-    }
-    $self->manifest->{'dmdType'} = lc($dmdType);
 }
 
 sub findManifestCanvases {
