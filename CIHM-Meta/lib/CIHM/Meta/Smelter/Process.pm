@@ -822,7 +822,7 @@ sub enhanceCanvases {
         }
 
         # Now get the dimensions/etc.
-        $path = uri_escape_utf8( $doc->{'_id'} ) . "/info.json";
+        $path = uri_escape_utf8( $doc->{'_id'} ) . "/info.json?cache=false";
         my $res = $self->cantaloupe->get( $path, {},
             { deserializer => 'application/json' } );
 
