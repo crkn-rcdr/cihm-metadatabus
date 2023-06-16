@@ -1,6 +1,9 @@
 {
   "pubmax": "1991-05-12",
-  "node": [["eng", "c", "journals", "34-2", 2]],
+  "node": [
+    ["eng", "c", "journals", "34-2", 2],
+    ["fra", "c", "journals", "34-2", 2]
+  ],
   "type": "journals",
   "chamber": ["c"],
   "primeMinisters": "Mulroney, Martin Brian",
