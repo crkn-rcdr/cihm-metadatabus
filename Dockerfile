@@ -36,7 +36,7 @@ RUN mkdir -p /opt/xml && svn co https://github.com/crkn-rcdr/Digital-Preservatio
   xmlcatalog --noout --add uri http://www.w3.org/2001/03/xml.xsd file:///opt/xml/current/unpublished/xsd/xml.xsd /etc/xml/catalog
 
 # https://pdfbox.apache.org/download.html
-ENV PDFBOXAPPVER=2.0.28
+ENV PDFBOXAPPVER=2.0.29
 RUN wget -nv "https://dlcdn.apache.org/pdfbox/$PDFBOXAPPVER/pdfbox-app-$PDFBOXAPPVER.jar" \
   "https://dlcdn.apache.org/pdfbox/$PDFBOXAPPVER/pdfbox-app-$PDFBOXAPPVER.jar.asc" \
   && gpg --keyserver  keyserver.ubuntu.com --recv-key 7A3C9FE21DFDBF44 \
@@ -50,7 +50,7 @@ COPY aliases /etc/aliases
 # https://metacpan.org/dist/AnyEvent-Fork-Pool -- file not found.
 # Built dist to manually install via http://software.schmorp.de/pkg/AnyEvent-Fork-Pool.html 
 # Specifically the "Download GNU tarball" from http://cvs.schmorp.de/AnyEvent-Fork-Pool/
-RUN cpanm -n --reinstall /home/tdr/AnyEvent-Fork-Pool-1.2.tar.gz && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
+#RUN cpanm -n --reinstall /home/tdr/AnyEvent-Fork-Pool-1.3.tar.gz && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
 RUN cpanm -n --installdeps . && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
 
 COPY CIHM-Normalise CIHM-Normalise

@@ -443,6 +443,8 @@ sub findCreateCanvases {
         my $fm = $self->filemetadata->{$master};
         die "Missing filemetadata for $master" if ( !$fm );
 
+        $self->log->info( $fm->{name} . " - " . $fm->{bytes}  . " - " .  $fm->{hash} );
+
         push @lookup, [ $fm->{name}, $fm->{bytes}, $fm->{hash} ];
     }
 
@@ -468,7 +470,6 @@ sub findCreateCanvases {
             {
                 my $path = $thisdoc->{source}->{path};
                 if ( exists $foundcanvas{$path} ) {
-
                     $self->log->info( $self->aip
                           . " Duplicate canvases: "
                           . $foundcanvas{$path}->{'_id'} . " and "
@@ -662,9 +663,9 @@ sub enhanceCanvases {
             my $status = $magic->Read($preservationfilename);
             $self->magicStatus( "$path Read", $status ) if "$status";
 
-# Archivematica uses:
-# convert "%fileFullName%" -sampling-factor 4:4:4 -quality 60 -layers merge "%outputDirectory%%prefix%%fileName%%postfix%.jpg"
-# We are keeping quality to 80% instead.
+            # Archivematica uses:
+            # convert "%fileFullName%" -sampling-factor 4:4:4 -quality 60 -layers merge "%outputDirectory%%prefix%%fileName%%postfix%.jpg"
+            # We are keeping quality to 80% instead.
 
             $magic->Set( "sampling-factor" => "4:4:4" );
             $self->magicStatus( "$path Set sampling-factor 4:4:4", $status )
