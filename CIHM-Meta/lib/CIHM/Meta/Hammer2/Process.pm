@@ -176,6 +176,8 @@ sub presentdoc {
 sub process {
     my ($self) = @_;
 
+    $self->log->info( "Starting!" );
+
     $self->{document} =
       $self->getAccessDocument( uri_escape_utf8( $self->noid ) );
     die "Missing Document\n" if !( $self->document );
@@ -224,7 +226,7 @@ sub process {
 ## First attachment array element is the item
 
     # Fill in dmdSec information first
-    $self->log->warinfon( "Flattening metadata..." );
+    $self->log->info( "Flattening metadata..." );
     $self->attachment->[0] = $self->flatten->byType(
         $self->document->{'dmdType'},
         utf8::is_utf8($xmlrecord)
@@ -276,7 +278,7 @@ sub process {
         push @{ $self->attachment->[0]->{'identifier'} }, $objid;
     }
 
-    $self->log->wainforn( "Got ids..." );
+    $self->log->info( "Got ids..." );
 
 
     $self->log->info( "Getting label..." );
@@ -759,37 +761,46 @@ sub adddocument {
 
     # Map also counts for a minimum of repos, so adding in current array
     # to presentation.
+
+    $self->log->info( " Map also counts for a minimum of repos..." );
     $self->presentdoc->{ $self->slug }->{'repos'} = $self->docdata->{'repos'}
       if defined $self->docdata->{'repos'};
 
     # All Items should have a date
+    $self->log->info( "All Items should have a date..." );
     $self->presentdoc->{ $self->slug }->{'updated'} =
       DateTime->now()->iso8601() . 'Z';
 
     # Note: Not stored within pages, so no need to loop through all keys
+    $self->log->info( "Note: Not stored within pages..." );
     my @collections = sort keys %{ $self->{collections} };
     $self->presentdoc->{ $self->slug }->{'collection'} = \@collections;
     $self->searchdoc->{ $self->slug }->{'collection'}  = \@collections;
 
     # New key to build better breadcrumbs in the future
+    $self->log->info( "New key to build better breadcrumbs in the future" );
     $self->presentdoc->{ $self->slug }->{'collection_tree'} =
       $self->{collectiontree};
 
     # If a parl/${id}.json file exists, process it.
+    $self->log->info( "If a parl/${id}.json file exists, process it." );
     if ( -e DATAPATH . "/parl/" . $self->slug . ".json" ) {
         $self->process_parl();
     }
 
+    $self->log->info( "Determine if collection or manifest." );
     # Determine if collection or manifest
     if ( $self->document->{'type'} eq 'collection' ) {
 
         # Process collection (old: only series)
 
+        $self->log->info( "Process collection (old: only series)." );
         if ( exists $self->docdata->{'parent'} ) {
             die $self->slug
               . " is a collection and has parent field (not yet supported)\n";
         }
 
+        $self->log->info( "TODO: These tests seem redundant, as problem unlikely." );
         # TODO: These tests seem redundant, as problem unlikely.
         if ( scalar( keys %{ $self->presentdoc } ) != 1 ) {
             die $self->slug
@@ -1246,15 +1257,18 @@ sub process_collection {
     my @order;
     my $items = {};
 
+    $self->log->info( "Processing collection..." );
     die "{members} is not an array\n"
       if ( ref $self->document->{members} ne 'ARRAY' );
 
     # Search interface wants a count.
+    $self->log->info( "Search interface wants a count." );
     $self->searchdoc->{ $self->slug }->{'item_count'} =
       scalar( @{ $self->document->{members} } );
 
    # Order is in the multi-part collection,
    # but values we need are in search documents that need to be processed first!
+    $self->log->info( "Order is in the multi-part collection..." );
 
     my @notfound;
     foreach my $issue ( @{ $self->document->{members} } ) {
@@ -1276,6 +1290,7 @@ sub process_collection {
     }
 
     # So far we only support "unordered" and "multi-part" collections.
+    $self->log->info( "# So far we only support 'unordered and 'multi-part' collections..." );
     if ( $self->document->{'behavior'} eq "multi-part" ) {
         $self->presentdoc->{ $self->slug }->{'order'} = \@order;
     }

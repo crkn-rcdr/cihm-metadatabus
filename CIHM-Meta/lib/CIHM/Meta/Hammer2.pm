@@ -142,7 +142,6 @@ sub hammer {
     my $somework;
 
     # Handle single without creating a pool.
-    $self->maxprocs = 1;
     if ( $self->maxprocs == 1 ) {
         while ( my $noid = $self->getNextNOID() ) {
             $somework = 1;
