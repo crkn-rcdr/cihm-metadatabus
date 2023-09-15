@@ -186,17 +186,25 @@ sub process {
 
     $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
 
+
+    $self->log->warn( "Getting type..." );
     if ( !( exists $self->document->{'type'} ) ) {
         die "Missing mandatory field 'type'\n";
     }
     my $type = $self->document->{'type'};
+    $self->log->warn( "Got type." );
 
+
+    $self->log->warn( "Getting behavior..." );
     if ( $type eq 'collection' && !( exists $self->document->{'behavior'} ) ) {
         die "Missing 'behavior' for type='collection' "
           . $self->noid . " ("
           . $self->slug . ")\n";
     }
+    $self->log->warn( "Got behaviour." );
 
+
+    $self->log->warn( "Getting metadata..." );
     if ( !exists $self->document->{'dmdType'} ) {
         die "Missing dmdType\n";
     }
@@ -211,9 +219,12 @@ sub process {
     }
     my $xmlrecord = $r->content;
 
+    $self->log->warn( "Got metadata" );
+
 ## First attachment array element is the item
 
     # Fill in dmdSec information first
+    $self->log->warn( "Flattening metadata..." );
     $self->attachment->[0] = $self->flatten->byType(
         $self->document->{'dmdType'},
         utf8::is_utf8($xmlrecord)
@@ -222,6 +233,11 @@ sub process {
     );
     undef $r;
     undef $xmlrecord;
+
+    $self->log->warn( "Flatened metadata." );
+
+
+    $self->log->warn( "Get IIIF type..." );
 
     $self->attachment->[0]->{'depositor'} = $depositor;
     if ( $type eq "manifest" ) {
@@ -237,6 +253,12 @@ sub process {
     if ( !exists $self->attachment->[0]->{'identifier'} ) {
         $self->attachment->[0]->{'identifier'} = [];
     }
+
+    $self->log->warn( "Got IIIF type." );
+
+
+    $self->log->warn( "Getting ids..." );
+
     if (
         !(
             any { $_ eq $self->slug }
@@ -254,6 +276,11 @@ sub process {
         push @{ $self->attachment->[0]->{'identifier'} }, $objid;
     }
 
+    $self->log->warn( "Got ids..." );
+
+
+    $self->log->warn( "Getting label..." );
+
     $self->attachment->[0]->{'label'} =
       $self->getIIIFText( $self->document->{'label'} );
 
@@ -261,14 +288,23 @@ sub process {
       s/^\s+|\s+$//g;    # Trim spaces from beginning and end of label
     $self->attachment->[0]->{'label'} =~ s/\s+/ /g;    # Remove extra spaces
 
+
+    $self->log->warn( "Got label." );
+
+
+    $self->log->warn( "Getting OCR..." );
     if ( exists $self->document->{'ocrPdf'} ) {
         $self->attachment->[0]->{'ocrPdf'} =
           $self->document->{'ocrPdf'};
     }
+    $self->log->warn( "Got OCR." );
 
 ## All other attachment array elements are components
 
+
+    $self->log->warn( "Checking for canvases?" );
     if ( $self->document->{'canvases'} ) {
+        $self->log->warn( "Processing canvases..." );
         my @canvasids;
         foreach my $i ( 0 .. ( @{ $self->document->{'canvases'} } - 1 ) ) {
             die "Missing ID for canvas index=$i\n"
@@ -377,17 +413,22 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                   if $ocr;
             }
         }
+        $self->log->warn( "Done processing canvases." );
     }
 
 ## Build update document and attachment
 
+    $self->log->warn( "Build update document and attachment..." );
     $self->docdata->{'type'} = 'aip';
     $self->docdata->{'noid'} = $self->noid;
 
     # Manifest is a 'document', ordered collection is a 'series'
+
+    $self->log->warn( "Manifest is a 'document', ordered collection is a 'series'..." );
     $self->docdata->{'sub-type'} = $self->attachment->[0]->{'type'};
 
     # We may not care about these any more, but will decide later...
+    $self->log->warn( "'label', 'pubmin', 'pubmax', 'canonicalDownload'..." );
     foreach my $field ( 'label', 'pubmin', 'pubmax', 'canonicalDownload' ) {
         if ( defined $self->attachment->[0]->{$field} ) {
             $self->docdata->{$field} = $self->attachment->[0]->{$field};
@@ -395,6 +436,8 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     }
 
 ## Determine what collections this manifest or collection is in
+    $self->log->warn( "Determine what collections this manifest or collection is in..." );
+    
     $self->{collections}        = {};
     $self->{orderedcollections} = {};
     $self->{collectiontree}     = $self->findCollections( $self->noid );
@@ -412,6 +455,8 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
         if ($parent) {
 
             # Old platform didn't include 'series' records in collections.
+            $self->log->warn( "Old platform didn't include 'series' records in collections..." );
+    
             delete $self->{collections}->{$parent};
             $self->attachment->[0]->{'pkey'} = $parent;
             $self->docdata->{'parent'} = $parent;
@@ -421,6 +466,8 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 
             # This is all going away, so doen't have to be ideal design.
             # This is how we create a sequence at the moment.
+            $self->log->warn( "This is how we create a sequence at the moment..." );
+    
             my $parentdoc = $self->getAccessDocument( uri_escape_utf8($noid) );
 
             if ($parentdoc) {
@@ -460,6 +507,7 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                 warn "Unable to load parent=$noid doc\n";
             }
         }
+        $self->log->warn( "Done setting collection tree." );
     }
 
     if ( !exists $self->docdata->{'parent'} ) {
@@ -467,10 +515,13 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     }
 
     # Always set collection -- will be '' if no collections.
+    $self->log->warn( "Always set collection -- will be '' if no collections..." );
     $self->docdata->{collectionseq} =
       join( ',', keys %{ $self->{collections} } );
 
 # If not public, then not public in old cosearch/copresentation system (clean up cosearch/copresentation docs)
+   
+    $self->log->warn( " If not public, then not public in old cosearch/copresentation system (clean up cosearch/copresentation docs)..." );
     if ( exists $self->document->{'public'} ) {
         $self->adddocument();
     }
@@ -481,12 +532,15 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     # Force re-processing of collections which this document is a member of.
     # Nothing is done for "unordered" collections, but
     # "multi-part" collections have fields dependent on descendents.
+    $self->log->warn( "Force re-processing of collections which this document is a member of...." );
+    
     foreach my $ancestor ( @{ $self->{collectiontree} } ) {
         my $noid = $ancestor->{noid};
         if ($noid) {
             $self->forceAccessUpdate($noid);
         }
     }
+    $self->log->warn( "Done processing." );
 }
 
 sub findCollections {
