@@ -1271,6 +1271,9 @@ sub process_collection {
     $self->log->info( "Order is in the multi-part collection..." );
 
     my @notfound;
+
+    $self->log->info( "Looping over all item members..." );
+    $self->log->info( scalar( @{ $self->document->{members} } ));
     foreach my $issue ( @{ $self->document->{members} } ) {
         my $item = $self->getSearchItem( $issue->{id} );
         if ($item) {
