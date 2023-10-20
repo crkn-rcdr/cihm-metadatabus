@@ -783,7 +783,7 @@ sub adddocument {
       $self->{collectiontree};
 
     # If a parl/${id}.json file exists, process it.
-    $self->log->info( "If a parl/${id}.json file exists, process it." );
+    $self->log->info( "If a parl/id.json file exists, process it." );
     if ( -e DATAPATH . "/parl/" . $self->slug . ".json" ) {
         $self->process_parl();
     }

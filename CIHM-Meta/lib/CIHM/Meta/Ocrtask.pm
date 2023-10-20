@@ -416,10 +416,10 @@ sub ocrImport {
                     my $xml = XML::LibXML->new->parse_file($xmlfilename);
                     my $xpc = XML::LibXML::XPathContext->new($xml);
                     $xpc->registerNs( 'alto',
-                        'http://www.loc.gov/standards/alto/ns-v3' );
+                        'http://www.loc.gov/standards/alto/v4' );
                     my $schema =
                       XML::LibXML::Schema->new( location =>
-                          "/opt/xml/current/unpublished/xsd/alto-3-1.xsd" );
+                          "/opt/xml/current/unpublished/xsd/alto-4-4.xsd" );
                     $schema->validate($xml);
                 }
                 catch {
