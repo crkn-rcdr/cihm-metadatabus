@@ -33,6 +33,7 @@ RUN mkdir -p /opt/xml && svn co https://github.com/crkn-rcdr/Digital-Preservatio
   xmlcatalog --noout --add uri http://www.loc.gov/standards/xlink/xlink.xsd file:///opt/xml/current/unpublished/xsd/xlink.xsd /etc/xml/catalog && \
   xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-0.xsd file:///opt/xml/current/unpublished/xsd/alto-3-0.xsd /etc/xml/catalog && \
   xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-1.xsd file:///opt/xml/current/unpublished/xsd/alto-3-1.xsd /etc/xml/catalog && \
+  xmlcatalog --noout --add uri http://www.loc.gov/alto/v4/alto-4-2.xsd file:///opt/xml/current/unpublished/xsd/alto-4-2.xsd /etc/xml/catalog && \
   xmlcatalog --noout --add uri http://www.w3.org/2001/03/xml.xsd file:///opt/xml/current/unpublished/xsd/xml.xsd /etc/xml/catalog
 
 # https://pdfbox.apache.org/download.html
