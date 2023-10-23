@@ -444,6 +444,8 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     $self->{orderedcollections} = {};
     $self->{collectiontree}     = $self->findCollections( $self->noid );
 
+    $self->log->info( "Filling out CAP data for parent..." );
+
     # Ignore parent key from issueinfo records.
     # Concept of 'parent' going away as part of retiring 'issueinfo' records.
     delete $self->attachment->[0]->{'pkey'};
@@ -531,14 +533,15 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
         $self->deletedocument();
     }
 
-    # Force re-processing of collections which this document is a member of.
-    # Nothing is done for "unordered" collections, but
-    # "multi-part" collections have fields dependent on descendents.
-    $self->log->info( "Force re-processing of collections which this document is a member of...." );
     
     foreach my $ancestor ( @{ $self->{collectiontree} } ) {
         my $noid = $ancestor->{noid};
-        if ($noid) {
+        my $behavior = $ancestor->{behavior};
+        if ($noid && $behavior eq "multi-part") {
+            # Force re-processing of collections which this document is a member of.
+            # Nothing is done for "unordered" collections, but
+            # "multi-part" collections have fields dependent on descendents.
+            $self->log->info( "Force re-processing of collections which this document is a member of...." );
             $self->forceAccessUpdate($noid);
         }
     }
@@ -547,15 +550,19 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 
 sub findCollections {
     my ( $self, $noid ) = @_;
+    $self->log->info( "findCollections..." );
 
     my $foundcollections = $self->getAccessCollections($noid);
     die "Can't getAccessCollections($noid)\n" if ( !$foundcollections );
+    $self->log->info( "getAccessCollections..." );
 
     my @collect;
 
     foreach my $collection ( @{$foundcollections} ) {
+        $self->log->info( "getAccessSlim..." );
         my $slim = $self->getAccessSlim( $collection->{id} );
         if ( ref $slim eq 'HASH' ) {
+            $self->log->info( "got AccessSlim..." );
             $slim->{noid}        = $collection->{id};
             $slim->{collections} = $self->findCollections( $collection->{id} );
             push @collect, $slim;
@@ -563,11 +570,13 @@ sub findCollections {
             # Old style
             my $slug = $slim->{slug};
             if ( !exists $self->{collections}->{$slug} ) {
+                $self->log->info( "old style..." );
                 $self->{collections}->{$slug} = $collection->{id};
             }
             if ( exists $slim->{behavior}
                 && ( $slim->{behavior} ne "unordered" ) )
             {
+                $self->log->info( "unordered..." );
                 $self->{orderedcollections}->{$slug} = $collection->{id};
             }
 
@@ -576,6 +585,8 @@ sub findCollections {
             die "Unable to findCollections($noid)\n";
         }
     }
+
+    $self->log->info( "found collections" );
     return \@collect;
 }
 
