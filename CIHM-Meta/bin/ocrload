@@ -293,6 +293,7 @@ foreach my $ocrdir (@ocrdirs) {
         # Validate the XML
         my $valid = 1;
         try {
+            $logger->info("Attempting V3");
             my $xml = XML::LibXML->new->parse_file($xmlfilename);
             my $xpc = XML::LibXML::XPathContext->new($xml);
             $xpc->registerNs( 'alto',
@@ -301,11 +302,29 @@ foreach my $ocrdir (@ocrdirs) {
               XML::LibXML::Schema->new(
                 location => "/opt/xml/current/unpublished/xsd/alto-3-1.xsd" );
             $schema->validate($xml);
+            $logger->info("Done");
         }
         catch {
-            $valid = 0;
-            warn "$xmlfilename is not valid ALTO XML: $_\n";
+            try {
+                my $xml = XML::LibXML->new->parse_file($xmlfilename);
+                my $xpc = XML::LibXML::XPathContext->new($xml);
+                $logger->info("V3 failed attampting v4");
+                $xpc->registerNs( 'alto',
+                    'http://www.loc.gov/standards/alto/ns-v4' );
+                my $schema =
+                XML::LibXML::Schema->new(
+                    location => "/opt/xml/current/unpublished/xsd/alto-4-2.xsd" );
+                $logger->info("Three");
+                $schema->validate($xml);
+                $logger->info("Done");
+            }
+            catch {
+                $logger->info("Invalid");
+                $valid = 0;
+                warn "$xmlfilename is not valid ALTO XML: $_\n";
+            };
         };
+        
         if ($valid) {
             updateFile( "ocrALTO.xml", $canvas->{'_id'}, $xmlfilename );
 

@@ -388,7 +388,9 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                 my $xpc = XML::LibXML::XPathContext->new($xml);
                 $xpc->registerNs( 'txt',
                     'http://canadiana.ca/schema/2012/xsd/txtmap' );
-                $xpc->registerNs( 'alto',
+                $xpc->registerNs( 'alto4',
+                    'http://www.loc.gov/standards/alto/ns-v4#' );
+                $xpc->registerNs( 'alto3',
                     'http://www.loc.gov/standards/alto/ns-v3' );
                 if (   $xpc->exists( '//txt:txtmap', $xml )
                     || $xpc->exists( '//txtmap', $xml ) )
@@ -396,9 +398,10 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                     $ocr = $xml->textContent;
                 }
                 elsif (
-                       $xpc->exists( '//alto', $xml )
-                    || $xpc->exists('//alto:alto'),
-                    $xml
+                    $xpc->exists( '//alto3', $xml )
+                    || $xpc->exists('//alto3:alto3'), $xml
+                    || $xpc->exists( '//alto4', $xml )
+                    || $xpc->exists('//alto4:alto4'), $xml
                   )
                 {
                     $ocr = '';
