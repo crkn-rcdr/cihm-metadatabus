@@ -29,8 +29,9 @@ RUN echo "\n<policy domain=\" coder\" rights=\"read|write\" pattern=\"PDF\" />\n
 
 
 # Cache some xsd's for validation
-# If you want to add a scheme you have to add the file to the Digital Preservation github repo
-RUN mkdir -p /opt/xml && svn co https://github.com/crkn-rcdr/Digital-Preservation.git/trunk/xml /opt/xml/current && \
+# Clone the repo: https://github.com/crkn-rcdr/Digital-Preservation
+# Copy the contents or the xml dir into your /opt/xml/current directory, ex: sudo cp -r /home/brittny/Digital-Preservation/xml /opt/xml/current
+RUN mkdir -p /opt/xml && \
   xmlcatalog --noout --add uri http://www.loc.gov/standards/xlink/xlink.xsd file:///opt/xml/current/unpublished/xsd/xlink.xsd /etc/xml/catalog && \
   xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-0.xsd file:///opt/xml/current/unpublished/xsd/alto-3-0.xsd /etc/xml/catalog && \
   xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-1.xsd file:///opt/xml/current/unpublished/xsd/alto-3-1.xsd /etc/xml/catalog && \
