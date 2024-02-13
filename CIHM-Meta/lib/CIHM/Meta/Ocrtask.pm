@@ -413,19 +413,47 @@ sub ocrImport {
                 $0 = $ocrloadprog . " check $xmlfilename";
                 my $valid = 1;
                 try {
+                    # Version 3
+                    $self->log->info( "validate v3" );
                     my $xml = XML::LibXML->new->parse_file($xmlfilename);
                     my $xpc = XML::LibXML::XPathContext->new($xml);
+
                     $xpc->registerNs( 'alto',
                         'http://www.loc.gov/standards/alto/ns-v3' );
-                    my $schema =
+                    my $schema3 =
                       XML::LibXML::Schema->new( location =>
                           "/opt/xml/current/unpublished/xsd/alto-3-1.xsd" );
-                    $schema->validate($xml);
+
+                    $schema3->validate($xml);
+                    $self->log->info( "done" );
                 }
                 catch {
-                    $valid = 0;
-                    warn "$xmlfilename is not valid ALTO XML: $_\n";
+                    $self->log->info( "validate v3 failed, trying v4..." );
+                    # Version 4
+                    try {
+                        my $xml = XML::LibXML->new->parse_file($xmlfilename);
+                        my $xpc = XML::LibXML::XPathContext->new($xml);
+                        $self->log->info( "registerNs" );
+                        $xpc->registerNs( 'alto',
+                            'http://www.loc.gov/standards/alto/ns-v4' );
+                        
+                        $self->log->info( "Schema->new" );
+                        my $schema4 =
+                        XML::LibXML::Schema->new( location =>
+                            "/opt/xml/current/unpublished/xsd/alto-4-2.xsd" );
+
+                        $self->log->info( "validate" );
+                        $schema4->validate($xml);
+
+                        $self->log->info( "done" );
+                    }
+                    catch {
+                        $self->log->info( "validate v4 failed" );
+                        $valid = 0;
+                        warn "$xmlfilename is not valid ALTO XML: $_\n";
+                    };
                 };
+
                 if ($valid) {
                     $0 = $ocrloadprog . " updateFile $xmlfilename";
                     $self->updateFile( "ocrALTO.xml", $canvas->{'_id'},

@@ -176,6 +176,8 @@ sub presentdoc {
 sub process {
     my ($self) = @_;
 
+    $self->log->info( "Starting!" );
+
     $self->{document} =
       $self->getAccessDocument( uri_escape_utf8( $self->noid ) );
     die "Missing Document\n" if !( $self->document );
@@ -186,17 +188,25 @@ sub process {
 
     $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
 
+
+    $self->log->info( "Getting type..." );
     if ( !( exists $self->document->{'type'} ) ) {
         die "Missing mandatory field 'type'\n";
     }
     my $type = $self->document->{'type'};
+    $self->log->info( "Got type." );
 
+
+    $self->log->info( "Getting behavior..." );
     if ( $type eq 'collection' && !( exists $self->document->{'behavior'} ) ) {
         die "Missing 'behavior' for type='collection' "
           . $self->noid . " ("
           . $self->slug . ")\n";
     }
+    $self->log->info( "Got behaviour." );
 
+
+    $self->log->info( "Getting metadata..." );
     if ( !exists $self->document->{'dmdType'} ) {
         die "Missing dmdType\n";
     }
@@ -211,9 +221,12 @@ sub process {
     }
     my $xmlrecord = $r->content;
 
+    $self->log->info( "Got metadata" );
+
 ## First attachment array element is the item
 
     # Fill in dmdSec information first
+    $self->log->info( "Flattening metadata..." );
     $self->attachment->[0] = $self->flatten->byType(
         $self->document->{'dmdType'},
         utf8::is_utf8($xmlrecord)
@@ -223,8 +236,13 @@ sub process {
     undef $r;
     undef $xmlrecord;
 
+    $self->log->info( "Flatened metadata." );
+
+
+    $self->log->info( "Get IIIF type..." );
+
     $self->attachment->[0]->{'depositor'} = $depositor;
-    if ( $type eq "manifest" || $type eq "pdf" ) {
+    if ( $type eq "manifest" ) {
         $self->attachment->[0]->{'type'} = 'document';
     }
     else {
@@ -237,6 +255,12 @@ sub process {
     if ( !exists $self->attachment->[0]->{'identifier'} ) {
         $self->attachment->[0]->{'identifier'} = [];
     }
+
+    $self->log->info( "Got IIIF type." );
+
+
+    $self->log->info( "Getting ids..." );
+
     if (
         !(
             any { $_ eq $self->slug }
@@ -254,6 +278,11 @@ sub process {
         push @{ $self->attachment->[0]->{'identifier'} }, $objid;
     }
 
+    $self->log->info( "Got ids..." );
+
+
+    $self->log->info( "Getting label..." );
+
     $self->attachment->[0]->{'label'} =
       $self->getIIIFText( $self->document->{'label'} );
 
@@ -261,32 +290,23 @@ sub process {
       s/^\s+|\s+$//g;    # Trim spaces from beginning and end of label
     $self->attachment->[0]->{'label'} =~ s/\s+/ /g;    # Remove extra spaces
 
-    if ( exists $self->document->{'file'} ) {
-        $self->attachment->[0]->{'canonicalDownload'} =
-          $self->document->{'file'}->{'path'};
-        $self->attachment->[0]->{'canonicalDownloadSize'} =
-          $self->document->{'file'}->{'size'};
-        $self->attachment->[0]->{'file'} =
-          $self->document->{'file'};
 
-    }
+    $self->log->info( "Got label." );
 
+
+    $self->log->info( "Getting OCR..." );
     if ( exists $self->document->{'ocrPdf'} ) {
-
-        # This is the old way, referencing Preservation Swift storage.
-        if ( defined $self->document->{'ocrPdf'}->{'path'} ) {
-            $self->attachment->[0]->{'canonicalDownload'} =
-              $self->document->{'ocrPdf'}->{'path'};
-            $self->attachment->[0]->{'canonicalDownloadSize'} =
-              $self->document->{'ocrPdf'}->{'size'};
-        }
         $self->attachment->[0]->{'ocrPdf'} =
           $self->document->{'ocrPdf'};
     }
+    $self->log->info( "Got OCR." );
 
 ## All other attachment array elements are components
 
+
+    $self->log->info( "Checking for canvases?" );
     if ( $self->document->{'canvases'} ) {
+        $self->log->info( "Processing canvases..." );
         my @canvasids;
         foreach my $i ( 0 .. ( @{ $self->document->{'canvases'} } - 1 ) ) {
             die "Missing ID for canvas index=$i\n"
@@ -332,9 +352,6 @@ sub process {
                 $self->attachment->[ $i + 1 ]->{'canonicalMasterWidth'} =
                   $master{width}
                   if ( defined $master{width} );
-                $self->attachment->[ $i + 1 ]->{'canonicalMaster'} =
-                  $master{path}
-                  if ( defined $master{path} );
                 $self->attachment->[ $i + 1 ]->{'canonicalMasterExtension'} =
                   $master{extension}
                   if ( defined $master{extension} );
@@ -344,9 +361,6 @@ sub process {
                 $self->attachment->[ $i + 1 ]->{'canonicalMasterMime'} =
                   $master{mime}
                   if ( defined $master{mime} );
-                $self->attachment->[ $i + 1 ]->{'canonicalDownload'} =
-                  $ocrPdf{path}
-                  if ( defined $ocrPdf{path} );
                 $self->attachment->[ $i + 1 ]->{'canonicalDownloadExtension'} =
                   $ocrPdf{extension}
                   if ( defined $ocrPdf{extension} );
@@ -374,7 +388,9 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                 my $xpc = XML::LibXML::XPathContext->new($xml);
                 $xpc->registerNs( 'txt',
                     'http://canadiana.ca/schema/2012/xsd/txtmap' );
-                $xpc->registerNs( 'alto',
+                $xpc->registerNs( 'alto4',
+                    'http://www.loc.gov/standards/alto/ns-v4#' );
+                $xpc->registerNs( 'alto3',
                     'http://www.loc.gov/standards/alto/ns-v3' );
                 if (   $xpc->exists( '//txt:txtmap', $xml )
                     || $xpc->exists( '//txtmap', $xml ) )
@@ -382,9 +398,10 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                     $ocr = $xml->textContent;
                 }
                 elsif (
-                       $xpc->exists( '//alto', $xml )
-                    || $xpc->exists('//alto:alto'),
-                    $xml
+                    $xpc->exists( '//alto3', $xml )
+                    || $xpc->exists('//alto3:alto3'), $xml
+                    || $xpc->exists( '//alto4', $xml )
+                    || $xpc->exists('//alto4:alto4'), $xml
                   )
                 {
                     $ocr = '';
@@ -401,71 +418,22 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                   if $ocr;
             }
         }
-    }
-
-    # 'tx' field and number of pages is put in item for born digital PDF files
-    if ( $type eq "pdf" ) {
-        if ( !exists $self->document->{'file'} ) {
-            die "{file} wasn't set\n";
-        }
-        my $object;
-        my $container;
-        if ( exists $self->document->{'file'}->{'path'} ) {
-            $object    = $self->document->{'file'}->{'path'};
-            $container = $self->preservation_files;
-        }
-        elsif ( exists $self->document->{'file'}->{'extension'} ) {
-            $object =
-              $self->noid . "." . $self->document->{'file'}->{'extension'};
-            $container = $self->access_files;
-        }
-        else {
-            die "{file} must have a {path} or {extension|\n";
-        }
-
-        my $temp = File::Temp->new( UNLINK => 1, SUFFIX => '.pdf' );
-
-        my $r = $self->swift->object_get( $container, $object,
-            { write_file => $temp } );
-        if ( $r->code != 200 ) {
-            die(    "GET object=$object , contaimer=$container returned: "
-                  . $r->code
-                  . "\n" );
-        }
-        my $pdfname = $temp->filename;
-        close $temp;
-
-      # This is worth replacing at some point in the future.
-      # But not a focus now, as we want to replace Hammer2 completely soonish...
-        my $pdfpages;
-        open( my $fh, "/usr/bin/pdfinfo $pdfname |" )
-          || die "Can't open pipe from pdfinfo for $pdfname\n";
-        while ( my $infoline = <$fh> ) {
-            if ( $infoline =~ /Pages:\s*(\d+)$/ ) {
-                $pdfpages = $1 + 0;
-            }
-        }
-        $self->attachment->[0]->{'component_count'} = $pdfpages;
-        close $fh;
-
-        open( my $fh, "/usr/bin/pdftotext -q $pdfname - |" )
-          || die "Can't open pipe from pdftotext for $pdfname\n";
-        binmode( $fh, ":encoding(UTF-8)" );
-        my $tx = do { local $/; <$fh> };
-        $self->attachment->[0]->{'tx'} = [$tx];
-        close $fh;
-
+        $self->log->info( "Done processing canvases." );
     }
 
 ## Build update document and attachment
 
+    $self->log->info( "Build update document and attachment..." );
     $self->docdata->{'type'} = 'aip';
     $self->docdata->{'noid'} = $self->noid;
 
     # Manifest is a 'document', ordered collection is a 'series'
+
+    $self->log->info( "Manifest is a 'document', ordered collection is a 'series'..." );
     $self->docdata->{'sub-type'} = $self->attachment->[0]->{'type'};
 
     # We may not care about these any more, but will decide later...
+    $self->log->info( "'label', 'pubmin', 'pubmax', 'canonicalDownload'..." );
     foreach my $field ( 'label', 'pubmin', 'pubmax', 'canonicalDownload' ) {
         if ( defined $self->attachment->[0]->{$field} ) {
             $self->docdata->{$field} = $self->attachment->[0]->{$field};
@@ -473,9 +441,13 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     }
 
 ## Determine what collections this manifest or collection is in
+    $self->log->info( "Determine what collections this manifest or collection is in..." );
+    
     $self->{collections}        = {};
     $self->{orderedcollections} = {};
     $self->{collectiontree}     = $self->findCollections( $self->noid );
+
+    $self->log->info( "Filling out CAP data for parent..." );
 
     # Ignore parent key from issueinfo records.
     # Concept of 'parent' going away as part of retiring 'issueinfo' records.
@@ -490,6 +462,8 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
         if ($parent) {
 
             # Old platform didn't include 'series' records in collections.
+            $self->log->info( "Old platform didn't include 'series' records in collections..." );
+    
             delete $self->{collections}->{$parent};
             $self->attachment->[0]->{'pkey'} = $parent;
             $self->docdata->{'parent'} = $parent;
@@ -499,6 +473,8 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
 
             # This is all going away, so doen't have to be ideal design.
             # This is how we create a sequence at the moment.
+            $self->log->info( "This is how we create a sequence at the moment..." );
+    
             my $parentdoc = $self->getAccessDocument( uri_escape_utf8($noid) );
 
             if ($parentdoc) {
@@ -538,6 +514,7 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
                 warn "Unable to load parent=$noid doc\n";
             }
         }
+        $self->log->info( "Done setting collection tree." );
     }
 
     if ( !exists $self->docdata->{'parent'} ) {
@@ -545,10 +522,13 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
     }
 
     # Always set collection -- will be '' if no collections.
+    $self->log->info( "Always set collection -- will be '' if no collections..." );
     $self->docdata->{collectionseq} =
       join( ',', keys %{ $self->{collections} } );
 
 # If not public, then not public in old cosearch/copresentation system (clean up cosearch/copresentation docs)
+   
+    $self->log->info( " If not public, then not public in old cosearch/copresentation system (clean up cosearch/copresentation docs)..." );
     if ( exists $self->document->{'public'} ) {
         $self->adddocument();
     }
@@ -556,28 +536,36 @@ s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g
         $self->deletedocument();
     }
 
-    # Force re-processing of collections which this document is a member of.
-    # Nothing is done for "unordered" collections, but
-    # "multi-part" collections have fields dependent on descendents.
+    
     foreach my $ancestor ( @{ $self->{collectiontree} } ) {
         my $noid = $ancestor->{noid};
-        if ($noid) {
+        my $behavior = $ancestor->{behavior};
+        if ($noid && $behavior eq "multi-part") {
+            # Force re-processing of collections which this document is a member of.
+            # Nothing is done for "unordered" collections, but
+            # "multi-part" collections have fields dependent on descendents.
+            $self->log->info( "Force re-processing of collections which this document is a member of...." );
             $self->forceAccessUpdate($noid);
         }
     }
+    $self->log->info( "Done processing." );
 }
 
 sub findCollections {
     my ( $self, $noid ) = @_;
+    $self->log->info( "findCollections..." );
 
     my $foundcollections = $self->getAccessCollections($noid);
     die "Can't getAccessCollections($noid)\n" if ( !$foundcollections );
+    $self->log->info( "getAccessCollections..." );
 
     my @collect;
 
     foreach my $collection ( @{$foundcollections} ) {
+        $self->log->info( "getAccessSlim..." );
         my $slim = $self->getAccessSlim( $collection->{id} );
         if ( ref $slim eq 'HASH' ) {
+            $self->log->info( "got AccessSlim..." );
             $slim->{noid}        = $collection->{id};
             $slim->{collections} = $self->findCollections( $collection->{id} );
             push @collect, $slim;
@@ -585,11 +573,13 @@ sub findCollections {
             # Old style
             my $slug = $slim->{slug};
             if ( !exists $self->{collections}->{$slug} ) {
+                $self->log->info( "old style..." );
                 $self->{collections}->{$slug} = $collection->{id};
             }
             if ( exists $slim->{behavior}
                 && ( $slim->{behavior} ne "unordered" ) )
             {
+                $self->log->info( "unordered..." );
                 $self->{orderedcollections}->{$slug} = $collection->{id};
             }
 
@@ -598,6 +588,8 @@ sub findCollections {
             die "Unable to findCollections($noid)\n";
         }
     }
+
+    $self->log->info( "found collections" );
     return \@collect;
 }
 
@@ -783,37 +775,46 @@ sub adddocument {
 
     # Map also counts for a minimum of repos, so adding in current array
     # to presentation.
+
+    $self->log->info( " Map also counts for a minimum of repos..." );
     $self->presentdoc->{ $self->slug }->{'repos'} = $self->docdata->{'repos'}
       if defined $self->docdata->{'repos'};
 
     # All Items should have a date
+    $self->log->info( "All Items should have a date..." );
     $self->presentdoc->{ $self->slug }->{'updated'} =
       DateTime->now()->iso8601() . 'Z';
 
     # Note: Not stored within pages, so no need to loop through all keys
+    $self->log->info( "Note: Not stored within pages..." );
     my @collections = sort keys %{ $self->{collections} };
     $self->presentdoc->{ $self->slug }->{'collection'} = \@collections;
     $self->searchdoc->{ $self->slug }->{'collection'}  = \@collections;
 
     # New key to build better breadcrumbs in the future
+    $self->log->info( "New key to build better breadcrumbs in the future" );
     $self->presentdoc->{ $self->slug }->{'collection_tree'} =
       $self->{collectiontree};
 
     # If a parl/${id}.json file exists, process it.
+    $self->log->info( "If a parl/id.json file exists, process it." );
     if ( -e DATAPATH . "/parl/" . $self->slug . ".json" ) {
         $self->process_parl();
     }
 
+    $self->log->info( "Determine if collection or manifest." );
     # Determine if collection or manifest
     if ( $self->document->{'type'} eq 'collection' ) {
 
         # Process collection (old: only series)
 
+        $self->log->info( "Process collection (old: only series)." );
         if ( exists $self->docdata->{'parent'} ) {
             die $self->slug
               . " is a collection and has parent field (not yet supported)\n";
         }
 
+        $self->log->info( "TODO: These tests seem redundant, as problem unlikely." );
         # TODO: These tests seem redundant, as problem unlikely.
         if ( scalar( keys %{ $self->presentdoc } ) != 1 ) {
             die $self->slug
@@ -1270,17 +1271,23 @@ sub process_collection {
     my @order;
     my $items = {};
 
+    $self->log->info( "Processing collection..." );
     die "{members} is not an array\n"
       if ( ref $self->document->{members} ne 'ARRAY' );
 
     # Search interface wants a count.
+    $self->log->info( "Search interface wants a count." );
     $self->searchdoc->{ $self->slug }->{'item_count'} =
       scalar( @{ $self->document->{members} } );
 
    # Order is in the multi-part collection,
    # but values we need are in search documents that need to be processed first!
+    $self->log->info( "Order is in the multi-part collection..." );
 
     my @notfound;
+
+    $self->log->info( "Looping over all item members..." );
+    $self->log->info( scalar( @{ $self->document->{members} } ));
     foreach my $issue ( @{ $self->document->{members} } ) {
         my $item = $self->getSearchItem( $issue->{id} );
         if ($item) {
@@ -1300,6 +1307,7 @@ sub process_collection {
     }
 
     # So far we only support "unordered" and "multi-part" collections.
+    $self->log->info( "# So far we only support 'unordered and 'multi-part' collections..." );
     if ( $self->document->{'behavior'} eq "multi-part" ) {
         $self->presentdoc->{ $self->slug }->{'order'} = \@order;
     }
@@ -1368,13 +1376,11 @@ sub process_manifest {
         push @order, $seq{$page};
     }
 
-    # A born digital PDF has no pages, but is still a document.
-    if (@order) {
-        $self->{presentdoc}->{ $self->slug }->{'order'}      = \@order;
-        $self->{presentdoc}->{ $self->slug }->{'components'} = $components;
-        $self->{searchdoc}->{ $self->slug }->{'component_count'} =
-          scalar(@order);
-    }
+    $self->{presentdoc}->{ $self->slug }->{'order'}      = \@order;
+    $self->{presentdoc}->{ $self->slug }->{'components'} = $components;
+    $self->{searchdoc}->{ $self->slug }->{'component_count'} =
+      scalar(@order);
+
 }
 
 1;

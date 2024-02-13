@@ -185,9 +185,10 @@ sub process {
         }
 
         $self->{manifest} = {
-            slug  => $slug,
-            label => { none => "Manifest for $slug" },
-            type  => 'manifest'
+            slug => $slug,
+            label =>
+              { none => "Import images into Access from aip=" . $self->aip },
+            type => 'manifest'
         };
     }
 
@@ -198,7 +199,6 @@ sub process {
 
     if ( exists $self->manifest->{slug} ) {
         $self->setManifestNoid();
-        $self->dmdManifest();
         $self->writeManifest();
     }
 }
@@ -351,55 +351,6 @@ sub aipfile {
     return substr( File::Spec->rel2abs( $href, '//' . $metsdir ), 1 );
 }
 
-sub dmdManifest {
-    my $self = shift;
-
-    # Item is in div 0
-    my $div  = $self->divs->[0];
-    my $noid = $self->manifest->{'_id'};
-
-    if ( $div->{'dmd.type'} ne 'mdWrap' ) {
-        die "item dmd isn't in mdWrap\n";
-    }
-    my $dmdId   = $div->{'dmd.id'};
-    my $dmdType = uc( $div->{'dmd.mdtype'} );
-
-    my @dmdsec =
-      $self->xpc->findnodes( "descendant::mets:dmdSec[\@ID=\"$dmdId\"]",
-        $self->xml );
-    my @md        = $dmdsec[0]->nonBlankChildNodes();
-    my @mdrecords = $md[0]->nonBlankChildNodes();
-    my @records   = $mdrecords[0]->nonBlankChildNodes();
-    my $xmlrecord = $records[0]->toString(0);
-    my $dmdRecord =
-      utf8::is_utf8($xmlrecord) ? Encode::encode_utf8($xmlrecord) : $xmlrecord;
-    my $dmdDigest = md5_hex($dmdRecord);
-
-    my $object = $noid . '/dmd' . $dmdType . '.xml';
-    my $r =
-      $self->swiftaccess->object_head( $self->swift_access_metadata, $object );
-    if ( $r->code == 404 || ( $r->etag ne $dmdDigest ) ) {
-        $r = $self->swiftaccess->object_put( $self->swift_access_metadata,
-            $object, $dmdRecord );
-        if ( $r->code != 201 ) {
-            if ( defined $r->response->content ) {
-                warn $r->response->content . "\n";
-            }
-            die "Failed writing $object - returned " . $r->code . "\n";
-        }
-        elsif ( $r->etag ne $dmdDigest ) {
-            die "object_put didn't return matching etag\n";
-        }
-    }
-    elsif ( $r->code != 200 ) {
-        if ( defined $r->response->content ) {
-            warn $r->response->content . "\n";
-        }
-        die "Head for $object - returned " . $r->code . "\n";
-    }
-    $self->manifest->{'dmdType'} = lc($dmdType);
-}
-
 sub findManifestCanvases {
     my ( $self, $foundcanvas ) = @_;
 
@@ -492,6 +443,8 @@ sub findCreateCanvases {
         my $fm = $self->filemetadata->{$master};
         die "Missing filemetadata for $master" if ( !$fm );
 
+        $self->log->info( $fm->{name} . " - " . $fm->{bytes}  . " - " .  $fm->{hash} );
+
         push @lookup, [ $fm->{name}, $fm->{bytes}, $fm->{hash} ];
     }
 
@@ -517,7 +470,6 @@ sub findCreateCanvases {
             {
                 my $path = $thisdoc->{source}->{path};
                 if ( exists $foundcanvas{$path} ) {
-
                     $self->log->info( $self->aip
                           . " Duplicate canvases: "
                           . $foundcanvas{$path}->{'_id'} . " and "
@@ -622,13 +574,24 @@ sub magicStatus {
         # Skip Exif ImageUniqueID
         case /Unknown field with tag 42016 / { }
 
+        #Skip 450
+        #oocihm.lac_reel_t16588_fix: oocihm.lac_reel_t16588_fix/data/sip/data/files/t-16588-00812.tif Set Quality=80: Exception 350: Unknown field with tag 41728 (0xa300) encountered. `TIFFReadDirectory' @ warning/tiff.c/TIFFWarnings/985
+        #verified Swift AIP: oocihm.8_04182_299
+        #oocihm.lac_reel_t16588_fix: oocihm.lac_reel_t16588_fix/data/sip/data/files/t-16588-01696.tif Read: Exception 450: Read error on strip 7; got 793988 bytes, expected 1047424. `TIFFFillStrip' @ error/tiff.c/TIFFErrors/606
+        case /^Exception 450: / { }
+
 # https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/imageuniqueid.html
         case /Unknown field with tag 41728 / { }
 
 # https://www.awaresystems.be/imaging/tiff/tifftags/privateifd/exif/filesource.html
         case /Unknown field with tag 59932 /  { }    # 0xea1c	Padding
-        case /Exception 350: .*; tag ignored/ { }
-        case /Exception 350: .*; value incorrectly truncated during reading/ { }
+        case /^Exception 350: .*; tag ignored/ { }
+        case /^Exception 350: .*; value incorrectly truncated during reading/ { }
+        case /^Exception 3\d\d: / {
+
+            # Warn staff about 3xx warnings, until decided to make silent.
+            warn "$prefix: $status\n";
+        }
         else {
             $error = 1;
         }
@@ -655,10 +618,13 @@ sub enhanceCanvases {
             || $doc->{master}->{extension} ne "jpg" )
         {
 
+
+            $self->log->info( "1" );
             # Image not copied yet
             my $path = $doc->{source}->{path};
             die "source.path not defined for $canvaskey\n" if ( !$path );
 
+            $self->log->info( "2" );
             # Parse using the valid list of extensions.
             my ( $base, $dir, $ext ) =
               fileparse( $path, ( "jpg", "jp2", "jpeg", "tif", "tiff" ) );
@@ -667,10 +633,15 @@ sub enhanceCanvases {
                 die "Extension from $path is not valid\n";
             }
 
+            $self->log->info( "3" );
+
             # Convert all images to JPG files.
             my $newext  = "jpg";
             my $newmime = "image/jpeg";
             my $newpath = $doc->{'_id'} . "." . $newext;
+
+
+            $self->log->info( "4" );
 
             my $preservationfile =
               File::Temp->new( UNLINK => 1, SUFFIX => "." . $ext );
@@ -678,6 +649,8 @@ sub enhanceCanvases {
             my $accessfile =
               File::Temp->new( UNLINK => 1, SUFFIX => "." . $newext );
 
+
+            $self->log->info( "5" );
             my $response =
               $self->swiftpreservation->object_get(
                 $self->swift_preservation_files,
@@ -692,7 +665,11 @@ sub enhanceCanvases {
             }
             close $preservationfile;
 
+            $self->log->info( "6" );
+
             my $filemodified = $response->object_meta_header('File-Modified');
+
+            $self->log->info( "7" );
 
             my $preservationfilename = $preservationfile->filename;
             if ( !( -s $preservationfilename ) ) {
@@ -700,19 +677,27 @@ sub enhanceCanvases {
 "$preservationfilename is a 0 length file while downloading $path\n";
             }
 
+            $self->log->info( "8" );
+
             # Normmalize for Access
             my $magic = new Image::Magick;
 
             my $status = $magic->Read($preservationfilename);
             $self->magicStatus( "$path Read", $status ) if "$status";
 
-# Archivematica uses:
-# convert "%fileFullName%" -sampling-factor 4:4:4 -quality 60 -layers merge "%outputDirectory%%prefix%%fileName%%postfix%.jpg"
-# We are keeping quality to 80% instead.
+
+            $self->log->info( "9" );
+
+            # Archivematica uses:
+            # convert "%fileFullName%" -sampling-factor 4:4:4 -quality 60 -layers merge "%outputDirectory%%prefix%%fileName%%postfix%.jpg"
+            # We are keeping quality to 80% instead.
 
             $magic->Set( "sampling-factor" => "4:4:4" );
             $self->magicStatus( "$path Set sampling-factor 4:4:4", $status )
               if "$status";
+
+            
+            $self->log->info( "10" );
 
             $magic->Set( "quality" => 80 );
             $self->magicStatus( "$path Set Quality=80", $status ) if "$status";
@@ -720,6 +705,9 @@ sub enhanceCanvases {
             $status = $magic->Layers( "method" => "merge" );
             $self->magicStatus( "$path Layers merge", $status )
               if !ref($status);
+
+            
+            $self->log->info( "11" );
 
             my $accessfilename = $accessfile->filename;
 
@@ -732,6 +720,9 @@ sub enhanceCanvases {
                   "$accessfilename is a 0 length file while converting $path\n";
             }
 
+
+            $self->log->info( "12" );
+
             open( my $fh, '<:raw', $accessfilename )
               or die "Could not open file '$accessfilename' $!";
 
@@ -740,6 +731,9 @@ sub enhanceCanvases {
             my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
 
             my $tries = $self->swift_retries;
+
+
+            $self->log->info( "13" );
 
             do {
                 # Send file.
@@ -773,6 +767,9 @@ sub enhanceCanvases {
                 }
             } until ( !$tries );
 
+
+            $self->log->info( "14" );
+
             # Get full replacement document
             my $newdoc = $self->canvasGetDocument( $doc->{'_id'} );
 
@@ -788,6 +785,9 @@ sub enhanceCanvases {
 
             $newdoc->{'_rev'} = $data->{'rev'};
             $self->canvases->{$canvaskey} = $newdoc;
+
+
+            $self->log->info( "15" );
 
             $copiedcanvases++;
         }
@@ -822,7 +822,7 @@ sub enhanceCanvases {
         }
 
         # Now get the dimensions/etc.
-        $path = uri_escape_utf8( $doc->{'_id'} ) . "/info.json";
+        $path = uri_escape_utf8( $doc->{'_id'} ) . "/info.json?cache=false";
         my $res = $self->cantaloupe->get( $path, {},
             { deserializer => 'application/json' } );
 

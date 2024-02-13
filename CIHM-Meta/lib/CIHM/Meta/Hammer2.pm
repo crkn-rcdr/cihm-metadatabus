@@ -27,7 +27,6 @@ CIHM::Meta::Hammer2 - Normalize metadata from new access platform databases and 
 =cut
 
 {
-
     package restclient;
 
     use Moo;
