@@ -224,6 +224,7 @@ sub ocrtask {
                 my $todo = shift @{ $task->{key} };
                 $self->{todo} = $todo;
                 $self->{task} = $task->{doc};
+                $self->postProgress(0);
 
                 $self->log->info( "Processing Task="
                       . $self->taskid
@@ -269,6 +270,30 @@ sub ocrExport {
     $self->canvasdb->type("application/json");
     my $url = "/_all_docs";
 
+    my %canvas_titles = {};
+    $self->accessdb->type("application/json");
+    my $manifestres = $self->accessdb->post(
+        "/_design/noid/_view/canvasnoids",
+        {
+            keys         => $self->task->{canvases},
+            include_docs => JSON::true
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $manifestres->code != 200 ) {
+        die "/_design/noid/_view/canvasnoids return code: " . $manifestres->code . "\n";
+    }
+    foreach my $row ( @{ $manifestres->data->{rows} } ) {
+        my $image_num = 1;
+        foreach my $canvas_obj ( @{ $row->{'doc'}->{'canvases'} } ) {
+            if($row->{'key'} eq $canvas_obj->{'id'} ) {
+               $canvas_titles{ $row->{'key'} } = $row->{'doc'}->{'slug'} . '.' . $image_num; 
+               #$self->log->info( $canvas_titles{ $row->{'key'} } );
+            }
+            $image_num = $image_num + 1;
+        }
+    }
+
     my $res = $self->canvasdb->post(
         $url,
         {
@@ -288,15 +313,17 @@ sub ocrExport {
           . scalar( @{ $self->task->{canvases} } )
           . " canvases" );
 
+    my $currentIndex = 1;
+    my $numCanvases = @{$self->task->{canvases}};
     foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
         if ( !defined $canvasdoc->{doc} ) {
             warn "Didn't find " . $canvasdoc->{id} . "\n";
         }
         else {
             my $canvas = $canvasdoc->{doc};
-            my $objectname =
-              $canvas->{'_id'} . '.' . $canvas->{master}->{extension};
-            my $destfilename = $workdir . '/' . uri_escape_utf8($objectname);
+            my $objectname = $canvas->{'_id'} . '.' . $canvas->{master}->{extension};
+            my $destname = $canvas_titles{ $canvas->{'_id'} } . '.' . $canvas->{master}->{extension};
+            my $destfilename = $workdir . '/' . uri_escape_utf8($destname);
 
             open( my $fh, '>:raw', $destfilename )
               or die "Could not open file '$destfilename' $!";
@@ -321,12 +348,15 @@ sub ocrExport {
                   DateTime::Format::ISO8601->parse_datetime($filemodified);
                 if ( !$dt ) {
                     die
-"Couldn't parse ISO8601 date from $filemodified (GET from $objectname)\n";
+"Couldn't parse ISO8601 date from $filemodified (GET from $objectname, $destname)\n";
                 }
                 my $atime = time;
                 utime $atime, $dt->epoch(), $destfilename;
             }
         }
+        $currentIndex = $currentIndex + 1;
+        my $progress = ($currentIndex / $numCanvases)*100;
+        $self->postProgress($progress);
     }
 }
 
@@ -363,9 +393,35 @@ sub ocrImport {
           . scalar( @{ $self->task->{canvases} } )
           . " canvases" );
 
+    my %canvas_titles = {};
+    $self->accessdb->type("application/json");
+    my $manifestres = $self->accessdb->post(
+        "/_design/noid/_view/canvasnoids",
+        {
+            keys         => $self->task->{canvases},
+            include_docs => JSON::true
+        },
+        { deserializer => 'application/json' }
+    );
+    if ( $manifestres->code != 200 ) {
+        die "/_design/noid/_view/canvasnoids return code: " . $manifestres->code . "\n";
+    }
+    foreach my $row ( @{ $manifestres->data->{rows} } ) {
+        my $image_num = 1;
+        foreach my $canvas_obj ( @{ $row->{'doc'}->{'canvases'} } ) {
+            if($row->{'key'} eq $canvas_obj->{'id'} ) {
+               $canvas_titles{ $row->{'key'} } = $row->{'doc'}->{'slug'} . '.' . $image_num; 
+               $self->log->info( $canvas_titles{ $row->{'key'} } );
+            }
+            $image_num = $image_num + 1;
+        }
+    }
+
     # Collect IDs so we can generate multi-page OCR PDF files
     my %canvasids;
     my @updatedcanvases;
+    my $currentIndex = 1;
+    my $numCanvases = @{$self->task->{canvases}};
     foreach my $canvasdoc ( @{ $res->data->{rows} } ) {
         if ( !defined $canvasdoc->{doc} ) {
             warn "Didn't find " . $canvasdoc->{id} . "\n";
@@ -377,13 +433,15 @@ sub ocrImport {
 
             my $changed;
 
+            my $pdforiginalname = $canvas_titles{ $canvas->{'_id'} } . '.pdf';
+            my $pdforiginalfilename = $workdir . '/' . uri_escape_utf8($pdforiginalname);
             my $pdfobjectname = $canvas->{'_id'} . '.pdf';
             my $pdffilename = $workdir . '/' . uri_escape_utf8($pdfobjectname);
-            if ( -f $pdffilename ) {
-                $0 = $ocrloadprog . " check $pdffilename";
+            if ( -f $pdforiginalfilename ) {
+                $0 = $ocrloadprog . " check $pdforiginalfilename";
                 my $pages = 0;
                 try {
-                    my $pdf = Poppler::Document->new_from_file($pdffilename);
+                    my $pdf = Poppler::Document->new_from_file($pdforiginalfilename);
                     $pages = $pdf->get_n_pages;
                 };
                 if ( $pages == 1 ) {
@@ -407,15 +465,19 @@ sub ocrImport {
                 warn "$pdffilename doesn't exist\n";
             }
 
+
+
+            my $xmloriginalname = $canvas_titles{ $canvas->{'_id'} }  . '.xml';
+            my $xmloriginalfilename = $workdir . '/' . uri_escape_utf8($xmloriginalname);
             my $xmlobjectname = $canvas->{'_id'} . '.xml';
             my $xmlfilename = $workdir . '/' . uri_escape_utf8($xmlobjectname);
-            if ( -f $xmlfilename ) {
-                $0 = $ocrloadprog . " check $xmlfilename";
+            if ( -f $xmloriginalfilename ) {
+                $0 = $ocrloadprog . " check $xmloriginalfilename";
                 my $valid = 1;
                 try {
                     # Version 3
                     $self->log->info( "validate v3" );
-                    my $xml = XML::LibXML->new->parse_file($xmlfilename);
+                    my $xml = XML::LibXML->new->parse_file($xmloriginalfilename);
                     my $xpc = XML::LibXML::XPathContext->new($xml);
 
                     $xpc->registerNs( 'alto',
@@ -474,6 +536,10 @@ sub ocrImport {
                 push @updatedcanvases, $canvas;
             }
         }
+
+        $currentIndex = $currentIndex + 1;
+        my $progress = ($currentIndex / $numCanvases)*100;
+        $self->postProgress($progress);
     }
 
     $self->log->info( $self->taskid . ": "
@@ -663,6 +729,25 @@ sub postResults {
         if ( exists $res->data->{error} ) {
             $self->log->error( $taskid . ": " . $res->data->{error} );
         }
+    }
+}
+
+sub postProgress {
+    my ( $self, $progress ) = @_;
+
+    my $which = ( $self->todo eq "export" ) ? "Export" : "Import";
+    my $taskid = $self->taskid;
+
+    my $url =
+      "/_design/access/_update/updateOCRProgress/" . uri_escape_utf8($taskid);
+    my $updatedoc = { priority => $progress };
+
+    my $res =
+      $self->ocrtaskdb->post( $url, $updatedoc,
+        { deserializer => 'application/json' } );
+
+    if ( $res->code != 201 && $res->code != 200 ) {
+        die "$url POST return code: " . $res->code . "\n";
     }
 }
 
