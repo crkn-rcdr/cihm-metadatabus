@@ -433,6 +433,11 @@ sub ocrImport {
             my $pdfobjectname = $canvas->{'_id'} . '.pdf';
             my $pdflocalfile = $canvas_titles{ $canvas->{'_id'} } . '.pdf';
             my $pdffilename = $workdir . '/' . uri_escape_utf8($pdflocalfile);
+            # support old naming convention
+            if ( !(-f $pdffilename ) ) {
+                $pdffilename = $workdir . '/' . uri_escape_utf8($pdfobjectname);
+            }
+
             if ( -f $pdffilename ) {
                 $0 = $ocrloadprog . " check $pdffilename";
                 my $pages = 0;
@@ -464,6 +469,11 @@ sub ocrImport {
             my $xmlobjectname = $canvas->{'_id'} . '.xml';
             my $xmllocalfilename = $canvas_titles{ $canvas->{'_id'} } . '.xml';
             my $xmlfilename = $workdir . '/' . uri_escape_utf8($xmllocalfilename);
+            # support old naming convention
+            if ( !(-f $xmlfilename ) ) {
+                $xmlfilename = $workdir . '/' . uri_escape_utf8($xmlobjectname);
+            }
+
             if ( -f $xmlfilename ) {
                 $0 = $ocrloadprog . " check $xmlfilename";
                 my $valid = 1;
@@ -477,7 +487,7 @@ sub ocrImport {
                         'http://www.loc.gov/standards/alto/ns-v3' );
                     my $schema3 =
                       XML::LibXML::Schema->new( location =>
-                          "/opt/xml/current/unpublished/xsd/alto-3-1.xsd" );
+                          "/home/tdr/xml/unpublished/xsd/alto-3-1.xsd" );
 
                     $schema3->validate($xml);
                     $self->log->info( "done" );
@@ -495,7 +505,7 @@ sub ocrImport {
                         $self->log->info( "Schema->new" );
                         my $schema4 =
                         XML::LibXML::Schema->new( location =>
-                            "/opt/xml/current/unpublished/xsd/alto-4-2.xsd" );
+                            "/home/tdr/xml/unpublished/xsd/alto-4-2.xsd" );
 
                         $self->log->info( "validate" );
                         $schema4->validate($xml);

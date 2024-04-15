@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--   CMETS Profile Schema Version 1.0  -->
+
+<METS_Profile xmlns="http://www.loc.gov/METS_Profile/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mets="http://www.loc.gov/METS/"
+xsi:schemaLocation="
+      http://www.loc.gov/METS_Profile/
+      http://www.loc.gov/standards/mets/profile_docs/mets.profile.v1-2.xsd
+      http://www.loc.gov/METS/
+      http://www.loc.gov/standards/mets/mets.xsd
+    ">
+    <URI LOCTYPE="URL">http://canadiana.ca/schema/2012/mets/cmets</URI>
+    <title>Canadiana.org Trustworthy Digital Repository METS Profile</title>
+    <abstract>
+        This profile documents the standard for supplying and encoding metadata within the Canadiana.org TDR.
+    </abstract>
+    <date>2017-04-19T12:00:00Z</date>
+    <contact>
+        <name>Julienne Pascoe</name>
+        <institution>Canadiana.org</institution>
+        <address>440 Laurier Ave. West, Suite 200, Ottawa ON K1R 7X6, Canada</address>
+        <phone>613-235-2628</phone>
+        <email>julienne.pascoe@canadiana.ca</email>
+    </contact>
+    <related_profile/>
+    <extension_schema>
+        <name>MARCXML MARC 21 Schema</name>
+        <URI>http://www.loc.gov/MARC21/slim</URI>
+        <context>Used for encoding descriptive metadata at the series or document level. Preferred for bibliographic material.</context>
+    </extension_schema>
+    <extension_schema>
+        <name>Simple Dublin Core Container</name>
+        <URI>http://dublincore.org/schemas/xmls/qdc/2008/02/11/simpledc.xsd</URI>
+        <context>Alternate format for encoding descriptive metadata at the series or document level. Suitable for simple
+            records, but see the description rules below for use guidelines.</context>
+    </extension_schema>
+    <extension_schema>
+        <name>DCMI Metadata Terms</name>
+        <URI>http://purl.org/dc/elements/1.1/</URI>
+        <context>Dublin Core elements used within a Simple Dublin Core record.</context>
+    </extension_schema>
+    <extension_schema>
+        <name>IssueInfo</name>
+        <URI>http://canadiana.ca/schema/2012/xsd/issueinfo</URI>
+        <context>Used to encode issue metadata and linking information for issue records.
+        </context>
+    </extension_schema>
+    <extension_schema>
+        <name>ALTO</name>
+        <URI>https://www.loc.gov/standards/alto/v3/alto.xsd</URI>
+        <context>A standardized XML format used to store layout information and OCR for document pages. This format is preferred
+            over the other accepted OCR format, txtmap.</context>
+    </extension_schema>
+    <extension_schema>
+        <name>Txtmap</name>
+        <URI>http://canadiana.ca/schema/2012/xsd/txtmap</URI>
+        <context>Used to encode OCR or other full text for document pages.</context>
+    </extension_schema>
+    <extension_schema>
+        <name>JHOVE XML Handler Output Schema</name>
+        <URI>http://hul.harvard.edu/ois/xml/xsd/jhove/jhove.xsd</URI>
+        <context>JHoVE XML output may be included within the administrative techMD element. For details on JHOVE see http://hul.harvard.edu/jhove/.</context>
+    </extension_schema>
+    <description_rules>
+        <p>
+            MARC Records should follow standard cataloguing rules (i.e. AACR2 or RDA).
+        </p>
+        <p>
+            Dublin Core records may use any of the standard DC elements. It is recommended to use the DC recommended guidelines
+            best practices for usage. During the creation of internal data structures for access, these fields
+            will be interpreted in specific ways:
+        </p>
+        <p>
+            If there is one dc:date field, it will be treated as the date of publication. If there are two or more dc:date
+            fields, the first two will be treated as the start and end of a publication date range. Additional
+            dc:date fields are ignored. To guarantee the correct parsing of dates, they should be ISO 8601-compliant
+            dates in one of the following formats: YYYY, YYYY-MM, YYYY-MM-DDTHH:MM:SS.sssZ.
+        </p>
+        <p>
+            The dc:language field(s) will be used to determine the language(s) of the document. ISO 639-3 language codes should
+            be used. Other formats might not be parsed correctly.
+        </p>
+    </description_rules>
+    <controlled_vocabularies/>
+    <structural_requirements>
+        <metsHdr>
+            <requirement>
+                <p>The OBJID attribute must uniquely identify the object among all of the submitter's content. It
+                    must be between 5 and 64 characters in length and consist only of ASCII alphanumeric characters
+                    and the underscore (A-Za-z0-9_).
+                </p>
+            </requirement>
+        </metsHdr>
+        <dmdSec>
+            <requirement>
+                <p>There must be a &lt;dmdSec&gt; element for the main item (series, issue or monographic document).
+                    If the item is a document (issue or monograph) it may also contain child &lt;dmdSec&gt; elements
+                    for each page in the &lt;structMap&gt;.
+                </p>
+            </requirement>
+            <requirement>
+                <p>The content of each &lt;dmdSec&gt; element must be an inline record wrapped in an &lt;xmlData&gt;
+                    element or an &lt;mdRef&gt; element. The record format depends on the type of object it references:</p>
+                <p>For series and monographic documents, it must be a MARCXML record or a Simple Dublin Core record.</p>
+                <p>For issues, it must be an IssueInfo record.</p>
+                <p>For components, there are legacy METS records that have txtmap records stored as a dmdSec. As of
+                    this version of our proile, all Txtmap data is optional and will be stored as files rather
+                    than described as metadata. A Txtmap in a dmdSec or in a file element will be treated as equivalent.</p>
+            </requirement>
+        </dmdSec>
+        <amdSec>
+            <requirement>
+                <p>Items with components and associated files (documents or issues) may contain an amdSec for the
+                    main item with techMD sections for each component.</p>
+            </requirement>
+            <requirement>
+                <p>Each amdSec contains at least one techMD element. Each techMD element contains technical metadata
+                    that corresponds to a file in the files directory of the containing Bagit archive.
+                </p>
+            </requirement>
+            <requirement>
+                <p>Each techMD element is provided an ADMID. This version of the profile supports the techMD sub-element
+                    and the technical metadata file: JHOVE.
+                </p>
+            </requirement>
+            <requirement>
+                <p>Each techMD element contains an mdRef element referencing the location of the XML file containing
+                    the administrative metadata. The MDTYPE attribute is set to "OTHER" and the OTHERMDTYPE attribute
+                    set to the metadata scheme of the file. Other optional attributes are MIMETYPE and LABEL.</p>
+            </requirement>
+            <requirement>
+                <!-->Upgrade to latest METS v2 will include example attributes: EXAMPLES="ex01"-->
+                <p>For JHOVE files the following attributes are required: MIMETYPE, LOCTYPE, MDTYPE, OTHERMDTYPE,
+                    xlink:href. See Example 1.</p>
+            </requirement>
+        </amdSec>
+        <fileSec>
+            <requirement>
+                <p>
+                    Series records may have one &lt;fileGrp&gt; with USE="canonical" although the canonical use value is being deprecated. Document records may also have &lt;fileGrp&gt;
+                    elements with USE="master" and, optionally, USE="distribution".
+                </p>
+                <p>
+                    There are two ways of grouping files: by fileGrp use such as Master or Distribution or by their component representation
+                    (for instance all files that refer to a page). The first option, by fileGrp use, is being deprecated.
+                </p>
+                <p>
+                    If the files are grouped by use, the master images for each page in a document are placed in the master group and
+                    the PDF of the document is placed in the distribution group.
+                </p>
+                <p>
+                    If the files are grouped according to their referent, ie all manifestations of the component (eg a page of a volume
+                    or issue) are grouped into the same fileGrp, the use of each file is indicated at the file
+                    level.
+                </p>
+                <p>
+                    Use is first determined at the file level. Each &lt;file&gt; element may have a USE attribute containing one of
+                    the following values: "master" or "derivative". If a file element does not contain a USE attribute
+                    then this information will be acquired from the parent fileGrp USE attribute.
+                </p>
+                <p>
+                    Each file element must contain an FLocat element which specifies external location of the content file in its xlink:href
+                    attribute.The FLocat element must contain an xlink:href attribute, as well as a LOCTYPE attribute
+                    indicating the type of href being provided.
+                </p>
+                <p>
+                    The file element must also contain the following attributes: an ID for identifying this element and a MIMETYPE
+                    for the data file being referenced. Other optional attributes include: SIZE, CREATED, CHECKSUM,
+                    CHECKSUMTYPE.
+                </p>
+                <p>
+                    An ADMID attribute on each file attribute points to the technical metadata for that file held within the amdSec.
+                </p>
+                <p>
+                	The attribute USE="canonical" is being deprecated, it was previously used to indicate the principal URI associated with the 
+                	resource. This was created for use with the CMR profile, which has now been deprecated.
+                </p>
+            </requirement>
+        </fileSec>
+        <structMap>
+            <requirement>
+                <p>
+                    There must be a single &lt;structMap&gt; element with attribute TYPE="physical".
+                </p>
+                <p>
+                    The root &lt;div&gt; element must have the attribute TYPE="document" for monographic documents, TYPE="series" for
+                    a series metadata submission and TYPE="issue" for a document that is part of a series. Series
+                    have no further &lt;div&gt; elements and must not have any &lt;fptr&gt; elements, as they are
+                    metadata-only submissions. Documents and issues must have one &lt;div&gt; element for each
+                    page they contain, appearing in sequential order. A document should include a &lt;fptr&gt;
+                    to a distributable PDF version of the document as a whole, if one exists.
+                </p>
+                <p>
+                    Each part of a document must be represented by a &lt;div&gt; with the attribute TYPE="page". If there is a master
+                    image file for that page then it must contain a &lt;fptr&gt; which references the master image
+                    file for that page. Note that a page in this context might not correspond to one physical page
+                    of the original book (e.g. if the book was digitized with two facing pages for each image,
+                    or if a large fold-out is split into multiple images). In some cases, such as with born-digital
+                    content, there will not be a master image for each page, but one file for the entire object.
+                    A &lt;fptr&gt; referencing the image file for each page is not required in these instances.
+                </p>
+                <p>
+                    Each &lt;div&gt; element must contain a LABEL attribute to describe the item. For a series or monographic document,
+                    it should be the common title of the item. For an issue, it should be the issue title without
+                    the common series title (e.g., "vol. 5, issue 1 : January 1895"). For a page, it should be
+                    the page number, sequence, or similar description (e.g. "p. 9" or "Front Cover").
+                </p>
+                <p>
+                    Each &lt;div&gt; element must include a DMDID attribute which references the ID attribute of the corresponding
+                    &lt;dmdSec&gt; element.
+                </p>
+            </requirement>
+        </structMap>
+        <structLink>
+            <requirement>
+                <p>
+                    The mdRef and FLocat elements use the xlink:href attribute to point to external resources. For these elements the
+                    attribute LOCTYPE can be set to "URI" or "URL". If set to URL, the path is relative to the
+                    METS file, and includes the directory and corresponding name of the file as it appears in the
+                    directory. If set to URI, and the element is FLocat, the files are located in the files directory.
+                    If the element is mdRef then the files are located in the metadata directory.
+                </p>
+            </requirement>
+        </structLink>
+    </structural_requirements>
+    <technical_requirements>
+        <content_files>
+            <requirement>
+                <p>
+                    Master images must be encoded as TIFF with GROUP 4 compression or uncompressed, JPEG or JPEG 2000.</p>
+            </requirement>
+            <requirement>
+                <p>
+                    Filenames may consist only of the following ASCII characters: A-Za-z0-9._ and -.
+                </p>
+                <p>
+                    The stated MIME type for a given file indicates the type of file it is based on established file format standards.
+                </p>
+            </requirement>
+        </content_files>
+    </technical_requirements>
+    <tool/>
+    <!-->Example elements are included with the most recent version of METS v2
+    <Example ID="ex01">
+        <mets:amdSec>
+            <mets:techMD ID="jhove.master.MississaugaTimes_2.1">
+                <mets:mdRef LOCTYPE="URL" xlink:href="metadata/0001.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="jhove"
+                />
+            </mets:techMD>
+        </mets:amdSec>
+    </Example>
+    -->
+    <Appendix NUMBER="1">
+
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="b2148559_001">
+            <mets:dmdSec ID="dmd.b2148559_001">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="issueinfo">
+                    <mets:xmlData>
+                        <issueinfo xmlns="http://canadiana.ca/schema/2012/xsd/issueinfo">
+                            <series>b2148559</series>
+                            <title>Trade and Industrial Development Program quarterly activity report Asia and Pacific
+                                = Programme d'expansion commerciale et industrielle rapport trimestriel des activités
+                                Asie et Pacifique. --</title>
+                            <sequence>1</sequence>
+                            <language>fra</language>
+                            <published>1987</published>
+                            <pubstatement>[Ottawa] : Affaires extérieures Canada, 1987-1990</pubstatement>
+                            <identifier>CA1 EA676 T712 EXF</identifier>
+                            <note>Bilingual</note>
+                            <note>b2148547</note>
+                        </issueinfo>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.1">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t>CAI EA676 T712 EX F 1987dîw. 3rnal Affairs Affaires extérieures iada Canada STORAGE
+                                    TRADE AND INDUSTRIAL DEVELOPMENT PROGRAM PROGRAMME D’EXPANSION COMMERCIALE
+                                    ET INDUSTRIELLE QUARTERLY ACTIVITY REPORT b RAPPORT TRIMESTRIEL DES ACTIVITÉS
+                                    ^èCxfli ■c ASIA AND PACIFIC ASIE ET PACIFIQUE NON • CIRCULATING J CONSULTER
+                                    SUR PLACE Dept, of External Affairs Mio. des Affaires extérieures J AN 14 1933
+                                    RETURN Tû DEPARTMENTAL RETOURNER A LA LIBRARY BIBLIOTHEQUE OU MINISTERE APRIL
+                                    - JUNE 1987 (1st QUARTER FY 1987-88) AVRIL - JUIN 1987 (1er TRIMESTRE, AF 1987-88)
+
+                                </t>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.2">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t/>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.3">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t>14 Allalres extérieures Canada External Allairs Canada External Affairs Canada
+                                    Affaires extérieures Canada Security /SfcurllJ Security /S4r urlli TO/1 GGB,
+                                    RGB, ROB, LGB, UGH GGB, RGB, RGB, LGB, UGB UNCLASSIFIED Acceeelon/R4f4rwnce
+                                    FROM/OF TO/1 UNCLASSIFIED Acctnl on/R6tSrenc e FROM/DE * IMT IHT Flle/Do»»ler
+                                    File /Oo«« 1er REFERENCE • RÉFERENCE REFERENCE • RÉFÉRENCE SUBJECT SUJET QUARTERLY
+                                    ACTIVITY REPORT 7 Grlohpr 19R7 SUBJECT SUJET RAPPORT TRIMESTRIEL SUR LES ACTIVITÉS
+                                    7 octobre 1987 Number//Vvmrfro Numbtr/Num/is TPP-0438 TPP-0438 ENCLOSURES ENCLOSURES
+                                    ANNEXES ANNEXES 1&gt;- H3 W - W ill DISTRIBUTION In the Department's continuing
+                                    efforts to Improve the management of the Export and Investment Promotion Program,
+                                    I am pleased to see that we are now able, In this Quarterly Trade Tracking
+                                    Report, to display the progress being made by posts In the execution of the
+                                    planned activities as outlined in the export and Investment promotion plans
+                                    submitted by each post last fall. This review of progress will improve our
+                                    ability to keep abreast of developments In your posts In a more disciplined
+                                    fashion. This report will enable you and your officers to monitor the progress
+                                    of program Implementation in your posts by comparing planned activities In
+                                    priority sectors with quarterly activity highlights and results. It joins the
+                                    Quarterly Results and Activity Report which has been, and will continue to
+                                    be sent to you. On the whole I am pleased with the quality of the progress
+                                    reports submitted by the posts. Sane missions have taken particular care to
+                                    set out precise activity statements In their plans which have made their quarterly
+                                    activity and results summaries In this report very effective program evaluation
+                                    tools. I vculd hope that those posts who have not yet Indicated a carmencement
+                                    of their planned activities will be more forthcoming in their next report.
+                                    Our ability to continue to defend and build upon our current level of trade
+                                    and Investment resources abroad will be Increasingly dependent upon the reliability
+                                    of Information your posts provide to identify their activities, workload and
+                                    results which the tracking system was designed In part to accomplish. 7, G.E.
+                                    Shannon Deputy Minister International Trade DISTRIBUTION Je suis heureux de
+                                    constater que, dans le cadre des efforts que le Ministère ne cesse de déployer
+                                    pour améliorer la gestion du Programme de promotion des exportations et des
+                                    investissements, ncus sarnies maintenant en mesure, dans le présent rapport
+                                    trimestriel sur les activités et les résultats, d'indiquer les progrès accomplis
+                                    par chacune des missions dans la réalisation des activités prévues dans les
+                                    plans de promotion des exportations et des Investissements qu'elles ont présentés
+                                    l'automne dernier. En raison de cet examen des progrès, nous serons mieux en
+                                    mesure de nous tenir au courant, de façon plus disciplinée, des développements
+                                    qui surviennent dans vos missions. Grâce au rapport, vos agents et vous pourrez
+                                    comparer les activités prévues dans les secteurs prioritaires aux activités
+                                    qui se sont déroulées et aux résultats qui ont-été obtenus au cours d'un trimestre
+                                    et, par conséquent, surveiller les progrès réalisés en ce qui concerne la mise
+                                    en oeuvre du programme dans vos missions. Ce rapport s'ajoute au Rapport trimestriel
+                                    sur les activités et les résultats qui vous a été envoyé jusqu'ici et qui continuera
+                                    de vois être transmis. Dans l'ensemble, je suis satisfait de la qualité des
+                                    rapports d'étape qu'ont présentés les missions. Certaines missions ont pris
+                                    bien soin d'établir des énoncés d'activités précis dans leurs plans, ce qui
+                                    fait des résumés trimestriels sur les activités et les résultats que renferme
+                                    le rapport susmentionné des eut Ils très efficaces d'évaluation du programme.
+                                    J'ose espérer que les missions qui n'ont pas encore signalé avoir entrepris
+                                    les activités qu'elles avaient prévues se montreront plus coimunlcatives dans
+                                    leur prochain rapport. Notre aptitude 3 continuer de maintenir et d'accroître
+                                    notre niveau actuel de ressources en matière de ccnmerce et d'Investissements
+                                    â l'étranger reposera de plus en plus sur la qualité des renseignements que
+                                    vos missions nous transmettent pour déterminer les activités, la charge de
+                                    travail et les résultats pour lequel le système de suivi a, en partie, été
+                                    mis sur pied. Le sous-mlnlstre du Commerce extérieur, 7G.E. Shannon
+
+                                </t>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.4">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t>AVIS IMPORTANT IMPORTANT Nous avons voulu donner à ce nouveau rapport une présentation
+                                    qui soit aussi lisible que possible et rectifier quelques irrégularités et
+                                    problèmes liés à 1'entrée des données et aux réponses présentées par les missions,
+                                    ce qui a retardé la publication de la première édit ion. Vous remarquerez que
+                                    dans les pages suivantes, nombre de sections devant contenir les données des
+                                    missions ont été laissées en blanc. C'est parce que celles-ci n'ont pas fait
+                                    rapport de leurs activités trimestrielles dans les secteurs qu'elles ont identifiés
+                                    dans leur plan comme étant des secteurs prioritaires (voir page 30 du Guide
+                                    et les instructions sur le formulaire 'Rapport des activités et des résultats'
+                                    , sous la rubrique "Activités de promotion des exportations"). Autrement dit,
+                                    le système est programmé uniquement pour comparer les activités et les résultats
+                                    trimestriels avec les activités prioritaires énoncées dans le plan annuel de
+                                    la mission. Un certain nombre de missions ont présenté des rapports d'activités
+                                    trimestrielles pour des secteurs autres que ceux qui ont été identifiés dans
+                                    leur plan annuel, de sorte qu'il devient impossible à leur Direction générale
+                                    de surveiller les activités prioritaires planifiées pour la période. The first
+                                    edition of this new report has been delayed by efforts to configure the report
+                                    in as readable a format as possible and to deal with some anomalies and teething
+                                    problems associated with mission responses and data entry. Readers will note
+                                    that many of the sections for post inputs on the following pages are blank.
+                                    This is a result of missions not providing quarterly activities on the sectors
+                                    they identified in their plans as being their post priorities (see guide page
+                                    30 ; see Tracking report form instructions under "Export Promotion Activities).
+                                    Put another way, the system is programmed only to compare quarterly activities
+                                    and results with priority activities outlined in the post annual Plan. A number
+                                    ,of posts provided quarterly activities statements for sectors other than those
+                                    they identified in their annual plan, thereby making it impossible for their
+                                    bureaux to monitor their intended priority activities. For this first report
+                                    only, the actual activities reported by posts who did not conform' to instructions
+                                    have been included as section 2 as an indication that those posts in fact submitted
+                                    quarterly activity reports. Future editions of this report will also include
+                                    "Special Activities in Export and Investment Promotion Program" as submitted
+                                    by posts in their quarterly tracking eports. As well future editions will be
+                                    published within hirty days of the cut off date for the submission of quarterly
+                                    reports by missions. L, Pour ce premier rapport seulement, nous avons présenté,
+                                    dans la section 2, les activités réelles dont ont fait rapport les missions,
+                                    contrairement aux instructions, afin d'indiquer qu'elles ont effectivement
+                                    présenté des rapports d'activités trimestrielles. JJ La section "Activités
+                                    spéciales dans le cadre du Programme de promotion des exportations et des investissements",
+                                    telle que présentée par les missions dans leur Rapport des activités et des
+                                    résultats, figurera dans les éditions ultérieures. En outre, celles-ci seront
+                                    publiées dans les 30 jours qui suivent la date limite de présentation des rapports
+                                    trimestriels par les missions. NOTICE
+
+                                </t>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.5">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t>ASIA &amp; PACIFIC ASIE ET PACIFIQUE Mission Page Bangkok 1 Canberra 6 Dhaka 8
+                                    Hong Kong 13 Islamabad 17 Jakarta 21 Kuala Lumpur 26 Manila 34 Melbourne 38
+                                    New Delhi 43 Osaka 48 Peking 52 Seoul 58 Shanghai 66 Singapore 70 Sydney 77
+                                    Tokyo 83 Wellington 94 ■a
+
+                                </t>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.6">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t/>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.7">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t>QUARTERLY PROGRESS REPORT OF EXPORT PROMOTION PROGRAM AT MISSIONS ABROAD FOR FISCAL
+                                    YEAR 87 FORECAST OF KEY ACTIVITIES AND ANTICIPATED RESULTS STATED IN MISSION'S
+                                    ANNUAL PLAN REPORT 4 87/09/25 POST :504-BANGK0K 005-C0MM. 1 &amp; INFORM. EQP.
+                                    8&lt; SERV THAILAND ACTIVITIES PROPOSED IN POST PLAN: PLANNING: PAGE : ANTICIPATED
+                                    RESULTS: ALL SUB-SECTORS POST FOLLOWING UP WITH VISITORS FROM TELECOMS SECTOR
+                                    WHO VISITED EXPO'86 UNDER CIDA SPONSORSHIP. INTRODUCTION OF NEW CANADIAN FIRMS
+                                    AND TECHNOLOGIES TO THAI MARKET. ONGOING FOLLOW-UP IN AREAS OF OPPORTUNITY
+                                    AS IDENTIFIED IN 1986 CONSULTANT'S REPORT ON THAI TELECOMMUNICATIONS SECTOR.
+                                    INTRODUCTION OF NEW CDN TECHNOLOGIES,PARTI­ CULARLY TO STATE RAILWAY,ELECTRICITY
+                                    GENER­ ATING AUTHORITY,?, MINISTRIES. OFFICIALS OF COMMUNICATIONS AUTHORITY
+                                    OF THAILAND TO ATTEND ITU CONFERENCE IN VANCOUVER, JULY 1988. TOUR OF CANADIAN
+                                    TELECOM INDUSTRY TO FOLLOW. INTRODUCTION OF NEW CANADIAN FIRMS TO THAI MARKET.
+                                    MONITOR PROGRESS OF 5TH AND 6TH PROJECTS OF TELEPHONE ORGANIZATION OF THAILAND.
+                                    IDENTIFY OPPORTUNITIES ANS ASSESS LEVEL OF COMPETITION. COMPETITIVE BIDS SUBMITTED
+                                    BY ESTABLISHED FIRMS. TRACKING: ACTIVITIES UNDERTAKEN IN QUARTER: QUARTERLY
+                                    RESULTS REPORTED: QUARTER: 1 ARRANGE RECEPTION FOR VISIT OF SINCLAIR VOLK,
+                                    MANAGER SPECTRUM MANAGEMENT, DOC OTTAWA. QUARTER 2 QUARTER 3 QUARTER: 4 i NINE
+                                    ATTENDED EVENT. INTELLIGENCE OBTAINED LED TO LNS'S PARTICIPATION IN TENDER
+                                    FOR FREQUENCY MONITORING VAN.
+
+                                </t>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.8">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t>REPORT 4 87/09/25 QUARTERLY PROGRESS REPORT OF EXPORT PROMOTION PROGRAM AT MISSIONS
+                                    ABROAD FOR FISCAL YEAR 87 FORECAST OF KEY ACTIVITIES AND ANTICIPATED RESULTS
+                                    STATED IN MISSION'S ANNUAL PLAN POST :504-BANGK0K PLANNING: 007-POWER &amp;
+                                    ENERGY EQUIP. THAILAND PAGE ; 2 S&lt; SERV. ACTIVITIES PROPOSED IN POST PLAN:
+                                    ANTICIPATED RESULTS: ALL SUB-SECTORS PREPARATION AND DISTRIBUTION OF A MARKET
+                                    OPPORTUNITIES STUDY TO CANADIAN COMPANIES. TO INCREASE AWARENESS IN CDA OF
+                                    THIS MARKET WHERE TWO CANADIAN COMPANIES HAVE ALREADY ENJOYED REMARKABLE SUCCESSES.
+                                    ASSIST CANADIAN COMPANIES TO LOCATE RELIABLE LOCAL REPRESENTA­ TIVES AND TO
+                                    GIVE RECOMMENDATIONS ON HOW TO PURSUE MAJOR PROJECTS INFORM CANADIAN COMPANIES
+                                    OF OPPORTUNITIES WHICH WILL RESULT IN INCREASING MARKET SHARE. HAVE FREQUENT
+                                    CONTACTS WITH EGAT FOR POTENTIAL THERMAL b HYDRO PROJECTS. INCREASE AWARENESS
+                                    OF CANADA AS A POTENTIAL SOURCE OF SUPPLY AND SERVICES. FOLLOW UP FUTURE PROCUREMENT
+                                    RE MAE MÜH UNIT 10 POWER BOILER. FURTHER SALES OF POWER BOILERS TO EGAT. TRACKING:
+                                    ACTIVITIES UNDERTAKEN IN QUARTER: QUARTER: 1 INVITE TWO SENIOR EGAT OFFICIALS
+                                    TO VISIT CANADA ON POWER TRANSMISSION AND DISTRIBUTION MISSION. QUARTER: 2
+                                    QUARTER: 3 QUARTER: 4 QUARTERLY RESULTS REPORTED: TWO ASSISTANT GENERAL MANAGERS
+                                    FROM EGAT VISITED CDA DURING 13-27 JUNE AND WERE IMPRESSED WITH CDN CAPABILITY
+                                    IN POWER SECTOR.
+
+                                </t>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.9">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t>QUARTERLY PROGRESS REPORT OF EXPORT PROMOTION PROGRAM AT MISSIONS ABROAD FOR FISCAL
+                                    YEAR 87 FORECAST OF KEY ACTIVITIES AND ANTICIPATED RESULTS STATED IN MISSION'S
+                                    ANNUAL PLAN REPORT 4 87/09/25 POST :504-BANGK0K 3 008-TRANSPORT SYS, EQUIP,
+                                    COMP, SERV. THAILAND ACTIVITIES PROPOSED IN POST PLAN. PLANNING: PAGE : ANTICIPATED
+                                    RESULTS: ALL SUB-SECTORS I MASS RAPID TRANSIT:MINISTER OF INTERIOR HAS BEEN
+                                    INVITED TO VISIT THE CANADIAN INSTALLATIONS, AT PRIVATE AND PUBLIC EXPENSE.
+                                    THIS MINISTER WILL BE PIVOTAL DECISION MAKER ON WHO GETS CONTRACT AWARD. ANTICIPATED
+                                    IN 1988. THE Cl DA FUNDED CONVERSION OF A PILOT SET OF ENGINES HAS YET TO BE
+                                    TRANSFERRED FROM CANADA TO THAILAND. SUBSEQUENT SIX MONTHS OF TESTING COULD
+                                    LEAD TO TECHNOLOGY AND EQUIPMENT PURCHASES. PREPARATION OF RECOMMENDED STRATEGIC
+                                    PLAN TO MAXIMIZE CANADIAN OPPORTUNITY TO LAND MASS RAPID TRANSIT PROJECT. POSSIBILITY
+                                    OF UP TO $1. 5 BILLION IN BUSINESS PROVISION OF QUALIFIED ENGINEERING PERSONNEL
+                                    (CIDA FUNDED IF POS­ SIBLE) TO EXPRESS TRANSIT AUTHORITY TO BUILD-IN AS MUCH
+                                    PRO-CANADIANISM AS POSSIBLE. COULD LEAD TO SPECIFICATIONS THAT FAVOUR CANADIAN
+                                    SYSTEMS. PURSUE ALL OPPORTUNITIES TO PROMOTE SALE OF CANADIAN AIRCRAFT INCLUDING
+                                    PARTS AND REPAIR SERVICES. SALES WORTH TOTAL OF *50 MILLION. ACTIVITIES UNDERTAKEN
+                                    IN QUARTER: TRACKING: QUARTER: 1 PRESENTATION TO STATE RAILWAY OF THAILAND
+                                    ON CDN CAPABILITIES. QUARTER 2 QUARTER: 3 QUARTER 4 QUARTERLY RESULTS REPORTED:
+                                    SRT RECOMMENDED SOME LOCAL COMPANIES TO POST FOR POSSIBLE CDN REPRESENTATION.
+                                    POST RECEIVED FROM SRT STANDARD SPECIFICATIONS FOR RAIL COACHES, LOCOMOTIVES,
+                                    ETC.
+
+                                </t>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.b2148559_001.10">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txtmap xmlns="http://canadiana.ca/schema/2012/xsd/txtmap">
+                            <page>
+                                <t>REPORT 4 87/09/25 QUARTERLY PROGRESS REPORT OF EXPORT PROMOTION PROGRAM AT MISSIONS
+                                    ABROAD FOR FISCAL YEAR 87 FORECAST OF KEY ACTIVITIES AND ANTICIPATED RESULTS
+                                    STATED IN MISSION'S ANNUAL PLAN POST :504-BANGK0K PLANNING: Oil-OIL PAGE :
+                                    4 GAS EQUIPMENT, SERVICES THAILAND ACTIVITIES PROPOSED IN POST PLAN: ANTICIPATED
+                                    RESULTS: ALL SUB-SECTORS îj PETRO CANADA INTL ASSISTANCE CORP. WORKING TO CONCLUDE
+                                    TECHNICAL COOPERATION AGREEMENT WITH PETROLEUM AUTHORITY OF THAILAND, MORE
+                                    ACTIVE INVOLVEMENT OF PCIAC ?&lt; CANADIAN SUPPLIERS IN THAI MARKET. PARTICIPATION
+                                    BY AMBASSADOR IN ADVISORY BOARD TO PETROLEUM INSTITUTE OF THAILAND (PTIT).
+                                    CLOSER TIES TO PTIT AS VEHICLE FOR INTRODU­ CING CANADIAN TECHNOLOGY. MEET
+                                    WITH SENIOR OFFICIALS OF DOMESTIC AND FOREIGN OIL COMPANIES TO INTEREST THEM
+                                    IN CANADIAN OIL AND GAS PRODUCTION &amp; PROCESSING EQUIPMENT AND CAPABILITY.
+                                    INCREASE LEVEL OF VISITS OF THAI BUYERS TO CANADA, LEADING TO EVENTUAL INCREMENTAL
+                                    SALES. ASSIST WITH SET UP OF PETROLEUM INSTITUTE OF THAILAND IN CO-OPE­ RATION
+                                    WITH PCIAC. INTRODUCTION OF CANADIAN TECHNOLOGY AND TRAINING SERVICES THROUGH
+                                    THE INSTITUTE. TRACKING: ACTIVITIES UNDERTAKEN IN QUARTER: QUARTER: 1 ARRANGE
+                                    DINNER FOR VISIT OF TECHNICAL EXPERTS FROM PCIAC. QUARTER: 2 QUARTER: 3 QUARTER:
+                                    4 QUARTERLY RESULTS REPORTED: 20 SENIOR OFFICIALS IN OIL AND GAS INDUSTRY ATTENDED.
+                                    CDN OIL/GAS TECHNOLOGY WAS WELL PROMOTED IN THIS EVENT. 1
+
+                                </t>
+                            </page>
+                        </txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:amdSec>
+                <mets:techMD ID="jhove_distribution.b2148559_001">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/fulldocument.pdf.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="jhove"
+                    />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.1">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0001.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.2">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0002.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.3">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0003.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.4">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0004.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.5">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0005.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.6">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0006.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.7">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0007.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.8">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0008.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.9">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0009.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+                <mets:techMD ID="jhove_master.b2148559_001.10">
+                    <mets:mdRef LOCTYPE="URL" xlink:href="metadata/b2148559_001_0010.jpg.jhove.xml" MIMETYPE="text/xml" MDTYPE="OTHER"
+                    OTHERMDTYPE="jhove" />
+                </mets:techMD>
+            </mets:amdSec>
+            <mets:fileSec>
+                <mets:fileGrp USE="master">
+                    <mets:file ADMID="jhove_master.b2148559_001.1" ID="master.b2148559_001.1" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0001.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.2" ID="master.b2148559_001.2" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0002.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.3" ID="master.b2148559_001.3" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0003.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.4" ID="master.b2148559_001.4" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0004.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.5" ID="master.b2148559_001.5" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0005.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.6" ID="master.b2148559_001.6" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0006.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.7" ID="master.b2148559_001.7" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0007.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.8" ID="master.b2148559_001.8" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0008.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.9" ID="master.b2148559_001.9" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0009.jpg" />
+                    </mets:file>
+                    <mets:file ADMID="jhove_master.b2148559_001.10" ID="master.b2148559_001.10" MIMETYPE="image/jpeg">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="b2148559_001_0010.jpg" />
+                    </mets:file>
+                </mets:fileGrp>
+                <mets:fileGrp USE="distribution">
+                    <mets:file ADMID="jhove_distribution.b2148559_001" ID="distribution.b2148559_001" MIMETYPE="application/pdf">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="fulldocument.pdf" />
+                    </mets:file>
+                </mets:fileGrp>
+                <mets:fileGrp USE="canonical">
+                    <mets:file ID="canonical.b2148559_001" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.1" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.1" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.2" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.2" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.3" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.3" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.4" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.4" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.5" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.5" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.6" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.6" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.7" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.7" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.8" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.8" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.9" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.9" />
+                    </mets:file>
+                    <mets:file ID="canonical.b2148559_001.10" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://gac.canadiana.ca/b2148559_001.10" />
+                    </mets:file>
+                </mets:fileGrp>
+            </mets:fileSec>
+            <mets:structMap TYPE="physical">
+                <mets:div TYPE="issue" LABEL="avril-juin 1987" DMDID="dmd.b2148559_001">
+                    <mets:fptr FILEID="distribution.b2148559_001" />
+                    <mets:fptr FILEID="canonical.b2148559_001" />
+                    <mets:div TYPE="page" LABEL="Image 1" DMDID="dmd.b2148559_001.1">
+                        <mets:fptr FILEID="master.b2148559_001.1" />
+                        <mets:fptr FILEID="canonical.b2148559_001.1" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 2" DMDID="dmd.b2148559_001.2">
+                        <mets:fptr FILEID="master.b2148559_001.2" />
+                        <mets:fptr FILEID="canonical.b2148559_001.2" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 3" DMDID="dmd.b2148559_001.3">
+                        <mets:fptr FILEID="master.b2148559_001.3" />
+                        <mets:fptr FILEID="canonical.b2148559_001.3" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 4" DMDID="dmd.b2148559_001.4">
+                        <mets:fptr FILEID="master.b2148559_001.4" />
+                        <mets:fptr FILEID="canonical.b2148559_001.4" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 5" DMDID="dmd.b2148559_001.5">
+                        <mets:fptr FILEID="master.b2148559_001.5" />
+                        <mets:fptr FILEID="canonical.b2148559_001.5" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 6" DMDID="dmd.b2148559_001.6">
+                        <mets:fptr FILEID="master.b2148559_001.6" />
+                        <mets:fptr FILEID="canonical.b2148559_001.6" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 7" DMDID="dmd.b2148559_001.7">
+                        <mets:fptr FILEID="master.b2148559_001.7" />
+                        <mets:fptr FILEID="canonical.b2148559_001.7" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 8" DMDID="dmd.b2148559_001.8">
+                        <mets:fptr FILEID="master.b2148559_001.8" />
+                        <mets:fptr FILEID="canonical.b2148559_001.8" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 9" DMDID="dmd.b2148559_001.9">
+                        <mets:fptr FILEID="master.b2148559_001.9" />
+                        <mets:fptr FILEID="canonical.b2148559_001.9" />
+                    </mets:div>
+                    <mets:div TYPE="page" LABEL="Image 10" DMDID="dmd.b2148559_001.10">
+                        <mets:fptr FILEID="master.b2148559_001.10" />
+                        <mets:fptr FILEID="canonical.b2148559_001.10" />
+                    </mets:div>
+                </mets:div>
+            </mets:structMap>
+        </mets:mets>
+    </Appendix>
+    <Appendix NUMBER="2">
+        <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap"
+        OBJID="00989">
+            <mets:dmdSec ID="dmd.oocihm.00989">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="DC">
+                    <mets:xmlData>
+                        <simpledc xmlns:dc="http://purl.org/dc/elements/1.1/">
+                            <dc:title>Inquest on Mary Boyd, held at Provincial Lunatic Asylum, Toronto 5th and 6th of May,
+                                1868 : evidence and correspondence in full : with comments of the Toronto Press.
+                            </dc:title>
+                            <dc:creator>Campbell, Duncan, 1811-1879.
+                            </dc:creator>
+                            <dc:date>1868</dc:date>
+                            <dc:publisher>Toronto : [s.n.], 1868
+                            </dc:publisher>
+                            <dc:source>Scanned from a CIHM microfiche of the original publication held by the Public Archives
+                                of Canada Library.
+                            </dc:source>
+                            <dc:identifier>00989</dc:identifier>
+                            <dc:identifier>http://eco.canadiana.ca/view/oocihm.00989</dc:identifier>
+                            <dc:language>eng</dc:language>
+                            <dc:subject>Boyd, Mary</dc:subject>
+                        </simpledc>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:dmdSec ID="dmd.oocihm.00989.0001">
+                <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="txtmap">
+                    <mets:xmlData>
+                        <txt:txtmap>
+                            <txt:page>
+                                <txt:t>
+                                    Technical Notes / Notes techniques The institute has attempted to obtain the best original copy available for filming.
+                                    Physical feetures of this copy which may alter any of the images in the reproduction
+                                    are checked below Coloured covers/ Couvertures de couleur Coloured maps/ Cartes
+                                    géographiques en couleur r--- Pages discoloured, stained or foxed/ L- Pages
+                                    décoîorées, tachetées ou piquées r-, Tight bindîng (may cause shadows or L
+                                    J distortion along interior margin)/ Reliure serré (peut causer de l'ombre
+                                    ou de la distortion le long de da marge intérieure) Additional comments/ Orgi
+                                    L. Commentaires supplémentaires L'institut a microfilmé le meilleur exemplaire
+                                    qu'il lui a été possible de se procurer Certains défauts susceptibles de nuire
+                                    à la qualité de la reproduction sont notés ci-dessous. Coloured pages/ LJ Pages
+                                    de couleur Coloured plates/ Planches en couleur ri Show through/ Transparence
+                                    Pages damaged/ Pages endommagées nal copy restored and laminated. Bibliograpnic
+                                    Notes / Notes bibliographiques Only edition available/ Seule édition disponible
+                                    Bound with other material/ Relié avec d'autres documents Cover title missing/
+                                    'Le titre de couverture mancue Plates missing/ W . Des planches manquent Additional
+                                    comments/ Commentaires supplémentaires ---- Pagination incorrect/ vo Erreurs
+                                    de pagination Pages missing/ W Des pages manquent '- aps missing/ Des cartes
+                                    géograohiques manouent Page iv msnumbered ii. Blank leaves which were added
+                                    during restoration may apoear within the text. Whenevr possible, these have
+                                    been omitted from filming.
+                                </txt:t>
+                            </txt:page>
+                        </txt:txtmap>
+                    </mets:xmlData>
+                </mets:mdWrap>
+            </mets:dmdSec>
+            <mets:fileSec>
+                <mets:fileGrp USE="master">
+                    <mets:file ID="master.oocihm.00989.0001" MIMETYPE="image/tiff">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="oocihm.00989.0001.tif" />
+                    </mets:file>
+                </mets:fileGrp>
+                <mets:fileGrp USE="distribution">
+                    <mets:file ID="distribution.oocihm.00989" MIMETYPE="application/pdf">
+                        <mets:FLocat LOCTYPE="URN" xlink:href="oocihm.00989.pdf" />
+                    </mets:file>
+                </mets:fileGrp>
+                <mets:fileGrp USE="canonical">
+                    <mets:file ID="canonical.oocihm.00989" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://eco.canadiana.ca/view/oocihm.00989" />
+                    </mets:file>
+                    <mets:file ID="canonical.oocihm.00989.0001" MIMETYPE="text/html">
+                        <mets:FLocat LOCTYPE="URL" xlink:href="http://eco.canadiana.ca/view/oocihm.00989.1" />
+                    </mets:file>
+                </mets:fileGrp>
+            </mets:fileSec>
+            <mets:structMap TYPE="physical">
+                <mets:div ID="oocihm.00989" TYPE="document" LABEL="Inquest on Mary Boyd, held at Provincial Lunatic Asylum, Toronto 5th and 6th of May, 1868 : evidence and correspondence in full : with comments of the Toronto Press."
+                DMDID="dmd.oocihm.00989">
+                    <mets:fptr FILEID="distribution.oocihm.00989" />
+                    <mets:fptr FILEID="canonical.oocihm.00989" />
+                    <mets:div ID="oocihm.00989.0001" TYPE="page" LABEL="technical data sheet" DMDID="dmd.oocihm.00989.0001">
+                        <mets:fptr FILEID="master.oocihm.00989.0001" />
+                        <mets:fptr FILEID="canonical.oocihm.00989.0001" />
+                    </mets:div>
+                </mets:div>
+            </mets:structMap>
+        </mets:mets>
+    </Appendix>
+</METS_Profile>

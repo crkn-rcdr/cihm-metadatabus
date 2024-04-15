@@ -1175,10 +1175,10 @@ sub validate_xml {
         my $xsdfile;
         switch ( $item->{output} ) {
             case "marc" {
-                $xsdfile = '/opt/xml/current/unpublished/xsd/MARC21slim.xsd';
+                $xsdfile = '/home/tdr/xml/unpublished/xsd/MARC21slim.xsd';
             }
             case "dc" {
-                $xsdfile = '/opt/xml/current/unpublished/xsd/simpledc.xsd';
+                $xsdfile = '/home/tdr/xml/unpublished/xsd/simpledc.xsd';
             }
             else { die "Don't recognize output=" . $item->{output} . "\n"; }
         }

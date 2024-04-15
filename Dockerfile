@@ -30,17 +30,17 @@ RUN echo "\n<policy domain=\" coder\" rights=\"read|write\" pattern=\"PDF\" />\n
 
 # Cache some xsd's for validation
 # Clone the repo: https://github.com/crkn-rcdr/Digital-Preservation
-# Copy the contents or the xml dir into your /opt/xml/current directory, ex: sudo cp -r /home/brittny/Digital-Preservation/xml /opt/xml/current
-RUN mkdir -p /opt/xml && \
-  xmlcatalog --noout --add uri http://www.loc.gov/standards/xlink/xlink.xsd file:///opt/xml/current/unpublished/xsd/xlink.xsd /etc/xml/catalog && \
-  xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-0.xsd file:///opt/xml/current/unpublished/xsd/alto-3-0.xsd /etc/xml/catalog && \
-  xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-1.xsd file:///opt/xml/current/unpublished/xsd/alto-3-1.xsd /etc/xml/catalog && \
-  xmlcatalog --noout --add uri http://www.loc.gov/alto/v4/alto-4-2.xsd file:///opt/xml/current/unpublished/xsd/alto-4-2.xsd /etc/xml/catalog && \
-  xmlcatalog --noout --add uri http://www.w3.org/2001/03/xml.xsd file:///opt/xml/current/unpublished/xsd/xml.xsd /etc/xml/catalog
+# Copy the contents or the xml dir into your /home/tdr/xml directory, ex: sudo cp -r /home/brittny/Digital-Preservation/xml /home/tdr/xml
+
+RUN xmlcatalog --noout --add uri http://www.loc.gov/standards/xlink/xlink.xsd file:///home/tdr/xml/unpublished/xsd/xlink.xsd /etc/xml/catalog && \
+  xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-0.xsd file:///home/tdr/xml/unpublished/xsd/alto-3-0.xsd /etc/xml/catalog && \
+  xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-1.xsd file:///home/tdr/xml/unpublished/xsd/alto-3-1.xsd /etc/xml/catalog && \
+  xmlcatalog --noout --add uri http://www.loc.gov/alto/v4/alto-4-2.xsd file:///home/tdr/xml/unpublished/xsd/alto-4-2.xsd /etc/xml/catalog && \
+  xmlcatalog --noout --add uri http://www.w3.org/2001/03/xml.xsd file:///home/tdr/xml/unpublished/xsd/xml.xsd /etc/xml/catalog
 
 # https://pdfbox.apache.org/download.html
 # This number will need to be updated every so often
-ENV PDFBOXAPPVER=2.0.30
+ENV PDFBOXAPPVER=2.0.31
 RUN wget -nv "https://dlcdn.apache.org/pdfbox/$PDFBOXAPPVER/pdfbox-app-$PDFBOXAPPVER.jar" \
   "https://dlcdn.apache.org/pdfbox/$PDFBOXAPPVER/pdfbox-app-$PDFBOXAPPVER.jar.asc" \
   && gpg --keyserver  keyserver.ubuntu.com --recv-key 7A3C9FE21DFDBF44 \
@@ -61,6 +61,7 @@ COPY CIHM-Normalise CIHM-Normalise
 COPY CIHM-Meta CIHM-Meta
 COPY CIHM-Swift CIHM-Swift
 COPY data data
+COPY xml xml
 
 ENV PERL5LIB /home/tdr/CIHM-Meta/lib:/home/tdr/CIHM-Normalise/lib:/home/tdr/CIHM-Swift/lib
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/tdr/CIHM-Meta/bin:/home/tdr/CIHM-Swift/bin

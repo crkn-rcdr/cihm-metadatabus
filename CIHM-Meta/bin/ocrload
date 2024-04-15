@@ -300,7 +300,7 @@ foreach my $ocrdir (@ocrdirs) {
                 'http://www.loc.gov/standards/alto/ns-v3' );
             my $schema =
               XML::LibXML::Schema->new(
-                location => "/opt/xml/current/unpublished/xsd/alto-3-1.xsd" );
+                location => "/home/tdr/xml/unpublished/xsd/alto-3-1.xsd" );
             $schema->validate($xml);
             $logger->info("Done");
         }
@@ -313,7 +313,7 @@ foreach my $ocrdir (@ocrdirs) {
                     'http://www.loc.gov/standards/alto/ns-v4' );
                 my $schema =
                 XML::LibXML::Schema->new(
-                    location => "/opt/xml/current/unpublished/xsd/alto-4-2.xsd" );
+                    location => "/home/tdr/xml/unpublished/xsd/alto-4-2.xsd" );
                 $logger->info("Three");
                 $schema->validate($xml);
                 $logger->info("Done");
