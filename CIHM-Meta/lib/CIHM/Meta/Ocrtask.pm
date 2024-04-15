@@ -288,7 +288,6 @@ sub ocrExport {
         foreach my $canvas_obj ( @{ $row->{'doc'}->{'canvases'} } ) {
             if($row->{'key'} eq $canvas_obj->{'id'} ) {
                $canvas_titles{ $row->{'key'} } = $row->{'doc'}->{'slug'} . '.' . $image_num; 
-               #$self->log->info( $canvas_titles{ $row->{'key'} } );
             }
             $image_num = $image_num + 1;
         }
@@ -394,7 +393,6 @@ sub ocrImport {
           . " canvases" );
 
     my %canvas_titles = {};
-    $self->accessdb->type("application/json");
     my $manifestres = $self->accessdb->post(
         "/_design/noid/_view/canvasnoids",
         {
@@ -411,7 +409,6 @@ sub ocrImport {
         foreach my $canvas_obj ( @{ $row->{'doc'}->{'canvases'} } ) {
             if($row->{'key'} eq $canvas_obj->{'id'} ) {
                $canvas_titles{ $row->{'key'} } = $row->{'doc'}->{'slug'} . '.' . $image_num; 
-               $self->log->info( $canvas_titles{ $row->{'key'} } );
             }
             $image_num = $image_num + 1;
         }
@@ -433,15 +430,14 @@ sub ocrImport {
 
             my $changed;
 
-            my $pdforiginalname = $canvas_titles{ $canvas->{'_id'} } . '.pdf';
-            my $pdforiginalfilename = $workdir . '/' . uri_escape_utf8($pdforiginalname);
             my $pdfobjectname = $canvas->{'_id'} . '.pdf';
-            my $pdffilename = $workdir . '/' . uri_escape_utf8($pdfobjectname);
-            if ( -f $pdforiginalfilename ) {
-                $0 = $ocrloadprog . " check $pdforiginalfilename";
+            my $pdflocalfile = $canvas_titles{ $canvas->{'_id'} } . '.pdf';
+            my $pdffilename = $workdir . '/' . uri_escape_utf8($pdflocalfile);
+            if ( -f $pdffilename ) {
+                $0 = $ocrloadprog . " check $pdffilename";
                 my $pages = 0;
                 try {
-                    my $pdf = Poppler::Document->new_from_file($pdforiginalfilename);
+                    my $pdf = Poppler::Document->new_from_file($pdffilename);
                     $pages = $pdf->get_n_pages;
                 };
                 if ( $pages == 1 ) {
@@ -465,19 +461,16 @@ sub ocrImport {
                 warn "$pdffilename doesn't exist\n";
             }
 
-
-
-            my $xmloriginalname = $canvas_titles{ $canvas->{'_id'} }  . '.xml';
-            my $xmloriginalfilename = $workdir . '/' . uri_escape_utf8($xmloriginalname);
             my $xmlobjectname = $canvas->{'_id'} . '.xml';
-            my $xmlfilename = $workdir . '/' . uri_escape_utf8($xmlobjectname);
-            if ( -f $xmloriginalfilename ) {
-                $0 = $ocrloadprog . " check $xmloriginalfilename";
+            my $xmllocalfilename = $canvas_titles{ $canvas->{'_id'} } . '.xml';
+            my $xmlfilename = $workdir . '/' . uri_escape_utf8($xmllocalfilename);
+            if ( -f $xmlfilename ) {
+                $0 = $ocrloadprog . " check $xmlfilename";
                 my $valid = 1;
                 try {
                     # Version 3
                     $self->log->info( "validate v3" );
-                    my $xml = XML::LibXML->new->parse_file($xmloriginalfilename);
+                    my $xml = XML::LibXML->new->parse_file($xmlfilename);
                     my $xpc = XML::LibXML::XPathContext->new($xml);
 
                     $xpc->registerNs( 'alto',
