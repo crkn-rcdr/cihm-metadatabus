@@ -598,6 +598,8 @@ sub pathID {
         case m/^osmsdga\./          { $idpath = 'osmsdga'; }
         case m/^qmma\./             { $idpath = 'qmma'; }
         case m/^sru\./              { $idpath = 'sru'; }
+        case m/^sfu\./              { $idpath = 'sfu'; }
+        case m/^aeu\./              { $idpath = 'aeu'; }
         else                        { $idpath = 'default'; }
     }
 
