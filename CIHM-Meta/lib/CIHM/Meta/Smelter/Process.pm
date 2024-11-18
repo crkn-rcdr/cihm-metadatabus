@@ -215,14 +215,16 @@ sub process {
                     "none" => "Image " . ($i + 1)
                 }
             };
+
+            my $object = $self->swift->object_get( $self->access_files, $image_noid );
             
             # Define the database image
             my $database_image = {
                 "_id" => $image_noid,
                 "master" => {
                     "size" => 1636223,
-                    "height" => 2969,
-                    "width" => 2303,
+                    "height" => $item->{"height"},
+                    "width" => $item->{"width"},
                     "md5" => "ed4dca697eadf39bede43e1466313d3f",
                     "mime" => "image/jpeg",
                     "extension" => "jpg"
