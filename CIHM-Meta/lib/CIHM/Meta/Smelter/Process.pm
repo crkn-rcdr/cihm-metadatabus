@@ -216,16 +216,24 @@ sub process {
                 }
             };
 
-            my $object = $self->swift->object_get( $self->access_files, $image_noid );
+            my $accessfile =
+              File::Temp->new( UNLINK => 1, SUFFIX => ".jpg" );
+            my $object = $self->swift->object_get( $self->access_files, $image_noid, { write_file => $accessfile } );
+            close $accessfile;
+            my $accessfilename = $accessfile->filename;
+            open( my $fh, '<:raw', $accessfilename )
+              or die "Could not open file '$accessfilename' $!";
+            binmode($fh);
+            my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
             
             # Define the database image
             my $database_image = {
                 "_id" => $image_noid,
                 "master" => {
-                    "size" => 1636223,
+                    "size" => -s $accessfilename,
                     "height" => $item->{"height"},
                     "width" => $item->{"width"},
-                    "md5" => "ed4dca697eadf39bede43e1466313d3f",
+                    "md5" => $md5digest,
                     "mime" => "image/jpeg",
                     "extension" => "jpg"
                 },
