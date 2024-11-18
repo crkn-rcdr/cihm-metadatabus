@@ -253,13 +253,13 @@ sub process {
         }
         $self->canvases = @newcanvases;
         $self->manifest = $database_access_obj;  
+        if ( exists $self->manifest->{slug} ) {
+            $self->writeManifest();
+        }
     } else {
         print "Error: Unable to fetch the manifest. Status code: " . $response->status_line . "\n";
     }
 
-    if ( exists $self->manifest->{slug} ) {
-        $self->writeManifest();
-    }
 }
 
 sub writeManifest {
