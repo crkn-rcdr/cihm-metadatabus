@@ -175,99 +175,122 @@ sub process {
     my ($self) = @_;
 
     $self->loadDipDoc();
-    my $manifest_slug = $self->dipdoc->{slug};
-    my $manifest_noid = "69429/mCa08E9Je9k"; #TODO: lookup NOID from slug
-    my $manifest_url = "https://crkn-iiif-presentation-api.azurewebsites.net/manifest/" . $manifest_noid;
+    #my $manifest_slug = $self->dipdoc->{slug};
+    #my $manifest_noid = "69429/mCa08E9Je9k"; #TODO: lookup NOID from slug
+    #my $manifest_url = "https://crkn-iiif-presentation-api.azurewebsites.net/manifest/" . $manifest_noid;
+    my $manifest_url = $self->dipdoc->{url};
 
-    # Create a new UserAgent object
-    my $ua = LWP::UserAgent->new;
-    
-    # Send the GET request
-    my $response = $ua->get($manifest_url);
-    
-    # Check if the request was successful (status code 200)
-    if ($response->is_success) {
-        # Decode the JSON response
-        my $json = decode_json($response->decoded_content);
-        
-        # Create the database access object
-        my $database_access_obj = {
-            "_id" => $manifest_noid,
-            "label" => {
-                "none" => $json->{"label"}{"en"}
-            },
-            "slug" => $manifest_slug,
-            "canvases" => []
-        };
-        
-        # Initialize index for canvases
-        my $i = 0;
-        my @newcanvases;
-        # Loop through the "items" in the manifest and build the "canvases"
-        for my $item (@{ $json->{"items"} }) {
-            # Replace the canvas URL
-            my $image_noid = $item->{"id"};
-            $image_noid =~ s{https://crkn-iiif-presentation-api.azurewebsites.net/canvas/}{};
-            
-            push @{ $database_access_obj->{"canvases"} }, {
-                "id" => $image_noid,
-                "label" => {
-                    "none" => "Image " . ($i + 1)
-                }
-            };
+    # Use a regular expression to extract the part after "/manifest/"
+    if ($url =~ /\/manifest\/([^\/]+)/) {
+        my $manifest_noid = $1;  # $1 holds the matched group
 
-            my $accessfile =
-              File::Temp->new( UNLINK => 1, SUFFIX => ".jpg" );
-            my $object = $self->swift->object_get( $self->access_files, $image_noid, { write_file => $accessfile } );
-            close $accessfile;
-            my $accessfilename = $accessfile->filename;
-            open( my $fh, '<:raw', $accessfilename )
-              or die "Could not open file '$accessfilename' $!";
-            binmode($fh);
-            my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
-            
-            # Define the database image
-            my $database_image = {
-                "_id" => $image_noid,
-                "master" => {
-                    "size" => -s $accessfilename,
-                    "height" => $item->{"height"},
-                    "width" => $item->{"width"},
-                    "md5" => $md5digest,
-                    "mime" => "image/jpeg",
-                    "extension" => "jpg"
-                },
-                "source" => {
-                    "from" => "iiif",
-                    "url" => $json->{"id"}
-                },
-            };
-            push @newcanvases, $database_image;
-            
-            $i++;
-        }
-        # Store any that were modified
-        if (@newcanvases) {
-            my $res = $self->canvasdb->post(
-                "/_bulk_docs",
-                { docs         => \@newcanvases },
-                { deserializer => 'application/json' }
-            );
-            if ( $res->code != 201 ) {
-                if ( defined $res->response->content ) {
-                    warn $res->response->content . "\n";
+        # Create a new UserAgent object
+        my $ua = LWP::UserAgent->new;
+        
+        # Send the GET request
+        my $response = $ua->get($manifest_url);
+        
+        # Check if the request was successful (status code 200)
+        if ($response->is_success) {
+            # Decode the JSON response
+            my $json = decode_json($response->decoded_content);
+    
+            my $manifest_slug;
+            foreach my $metadata_item (@{$json->{metadata}}) {
+                if ($metadata_item->{label}{en}[0] eq 'Slug') {
+                    $manifest_slug = $metadata_item->{value}{en}[0];
+                    last;  # Exit loop once the "Slug" value is found
                 }
-                die "Update after Cantaloupe dimension returned code: "
-                . $res->code . "\n";
             }
-        }
-        $self->canvases = @newcanvases;
-        $self->manifest = $database_access_obj;  
-        if ( exists $self->manifest->{slug} ) {
-            $self->writeManifest();
+            
+            # Print the value of "Slug"
+            if (defined $manifest_slug) {
+                print "Slug: $manifest_slug\n";
+            } else {
+                print "Slug not found in metadata.\n";
+            }
+    
+            # Create the database access object
+            my $database_access_obj = {
+                "_id" => $manifest_noid,
+                "label" => {
+                    "none" => $json->{"label"}{"en"}
+                },
+                "slug" => $manifest_slug,
+                "canvases" => []
+            };
+            
+            # Initialize index for canvases
+            my $i = 0;
+            my @newcanvases;
+            # Loop through the "items" in the manifest and build the "canvases"
+            for my $item (@{ $json->{"items"} }) {
+                # Replace the canvas URL
+                my $image_noid = $item->{"id"};
+                $image_noid =~ s{https://crkn-iiif-presentation-api.azurewebsites.net/canvas/}{};
+                
+                push @{ $database_access_obj->{"canvases"} }, {
+                    "id" => $image_noid,
+                    "label" => {
+                        "none" => "Image " . ($i + 1)
+                    }
+                };
+    
+                my $accessfile =
+                  File::Temp->new( UNLINK => 1, SUFFIX => ".jpg" );
+                my $object = $self->swift->object_get( $self->access_files, $image_noid, { write_file => $accessfile } );
+                close $accessfile;
+                my $accessfilename = $accessfile->filename;
+                open( my $fh, '<:raw', $accessfilename )
+                  or die "Could not open file '$accessfilename' $!";
+                binmode($fh);
+                my $md5digest = Digest::MD5->new->addfile($fh)->hexdigest;
+                
+                # Define the database image
+                my $database_image = {
+                    "_id" => $image_noid,
+                    "master" => {
+                        "size" => -s $accessfilename,
+                        "height" => $item->{"height"},
+                        "width" => $item->{"width"},
+                        "md5" => $md5digest,
+                        "mime" => "image/jpeg",
+                        "extension" => "jpg"
+                    },
+                    "source" => {
+                        "from" => "iiif",
+                        "url" => $json->{"id"}
+                    },
+                };
+                push @newcanvases, $database_image;
+                
+                $i++;
+            }
+            # Store any that were modified
+            if (@newcanvases) {
+                my $res = $self->canvasdb->post(
+                    "/_bulk_docs",
+                    { docs         => \@newcanvases },
+                    { deserializer => 'application/json' }
+                );
+                if ( $res->code != 201 ) {
+                    if ( defined $res->response->content ) {
+                        warn $res->response->content . "\n";
+                    }
+                    die "Update after Cantaloupe dimension returned code: "
+                    . $res->code . "\n";
+                }
+            }
+            $self->canvases = @newcanvases;
+            $self->manifest = $database_access_obj;  
+            if ( exists $self->manifest->{slug} ) {
+                $self->writeManifest();
+            }
+        } else {
+            die "Error: Unable to fetch the manifest. Status code: " . $response->status_line . "\n";
         }
     } else {
-        print "Error: Unable to fetch the manifest. Status code: " . $response->status_line . "\n";
+        die "Invalid manifest URL.\n";
     }
 
 }
