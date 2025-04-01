@@ -1,6 +1,5 @@
 requires 'Log::Log4perl';
 requires 'common::sense';
-requires 'MIME::Types';
 requires 'Class::Singleton';
 requires 'Config::General';
 requires 'DateTime';
@@ -40,3 +39,6 @@ requires 'Image::Magick', '== 6.9.12';
 
 # Used by dmdstats
 requires 'Archive::Zip';
+
+
+requires 'MIME::Types';
