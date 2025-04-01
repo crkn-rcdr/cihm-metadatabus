@@ -326,7 +326,7 @@ foreach my $ocrdir (@ocrdirs) {
         };
         
         if ($valid) {
-            updateFile( "ocrALTO.xml", $canvas->{'_id'}, $xmlfilename );
+            updateFile( "ocrTXTMAP.xml", $canvas->{'_id'}, $xmlfilename );
 
             # Delete any redundant txtmap
             $swift->object_delete( $swift_access_metadata,

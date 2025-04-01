@@ -40,7 +40,7 @@ RUN xmlcatalog --noout --add uri http://www.loc.gov/standards/xlink/xlink.xsd fi
 
 # https://pdfbox.apache.org/download.html
 # This number will need to be updated every so often
-ENV PDFBOXAPPVER=2.0.31
+ENV PDFBOXAPPVER=2.0.33
 RUN wget -nv "https://dlcdn.apache.org/pdfbox/$PDFBOXAPPVER/pdfbox-app-$PDFBOXAPPVER.jar" \
   "https://dlcdn.apache.org/pdfbox/$PDFBOXAPPVER/pdfbox-app-$PDFBOXAPPVER.jar.asc" \
   && gpg --keyserver  keyserver.ubuntu.com --recv-key 7A3C9FE21DFDBF44 \

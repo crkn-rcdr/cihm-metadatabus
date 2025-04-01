@@ -521,7 +521,8 @@ sub ocrImport {
 
                 if ($valid) {
                     $0 = $ocrloadprog . " updateFile $xmlfilename";
-                    $self->updateFile( "ocrALTO.xml", $canvas->{'_id'},
+                    # Used to be ocrALTO
+                    $self->updateFile( "ocrTXTMAP.xml", $canvas->{'_id'},
                         $xmlfilename );
 
                     # Delete any redundant txtmap

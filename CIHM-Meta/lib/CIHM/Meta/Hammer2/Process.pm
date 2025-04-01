@@ -368,8 +368,9 @@ sub process {
 
             if ( defined $canvases[$i]{'ocrType'} ) {
                 my $noid = $self->attachment->[ $i + 1 ]->{'noid'};
+                # $canvases[$i]{'ocrType'}
                 my $object =
-                  $noid . '/ocr' . uc( $canvases[$i]{'ocrType'} ) . '.xml';
+                  $noid . '/ocrTXTMAP.xml';
                 my $r =
                   $self->swift->object_get( $self->access_metadata, $object );
                 if ( $r->code != 200 ) {

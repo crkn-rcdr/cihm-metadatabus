@@ -602,6 +602,9 @@ sub pathID {
         case m/^aeu\./              { $idpath = 'aeu'; }
         case m/^mw\./               { $idpath = 'mw'; }
         case m/^oon\./              { $idpath = 'oon'; }
+        case m/^nswa\./             { $idpath = 'nswa'; }
+        case m/^nshd\./             { $idpath = 'nshd'; }
+        case m/^odw\./              { $idpath = 'odw'; }
         else                        { $idpath = 'default'; }
     }
 
