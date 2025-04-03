@@ -13,6 +13,8 @@ use File::Basename;
 use File::Temp;
 use Image::Magick;
 use Data::Dumper;
+use Crypt::JWT qw(encode_jwt);
+use LWP::UserAgent;
 
 =head1 NAME
 
@@ -169,6 +171,113 @@ sub filemetadata {
     return $self->{filemetadata};
 }
 
+sub mint_noid {
+    my ($m, $noid_type) = @_;
+
+    my $ark_noid_api_url = $ENV{ARK_server} . "/noid";
+    my $AAD_CLIENT_SECRET = $ENV{ARK_secret};
+ 
+    # Calculate the expiration time: current time in UTC plus 1 day
+    my $expiration = DateTime->now(time_zone => 'UTC')->add(days => 1);
+
+    # Create a JSON Web Token (JWT) with an expiration claim
+    my $token = encode_jwt(
+        payload => { exp => $expiration->epoch },
+        key     => $AAD_CLIENT_SECRET,
+        alg     => 'HS256'
+    );
+ 
+    # If no token was generated, raise an exception
+    die "No access token generated." unless $token;
+ 
+    # Prepare the request headers
+    my %headers = (
+        'Authorization' => "Bearer $token",
+        'Content-Type'  => 'application/json',
+    );
+ 
+    # Prepare the payload
+    my %payload = (
+        "naan" =>"69429",
+        "type_" =>$noid_type,                   
+        "m" => $m        
+    );
+ 
+    # Initialize HTTP client
+    my $ua = LWP::UserAgent->new;
+ 
+    # Send the POST request to the NOID generation API
+    my $response = $ua->post(
+        $ark_noid_api_url,
+        'Content-Type' => 'application/json',
+        Authorization => "Bearer $token",
+        Content => encode_json(\%payload),
+    );
+ 
+    # Check the response
+    if ($response->is_success) {
+        my $response_data = decode_json($response->decoded_content);
+        return $response_data->{ark};
+    } elsif ($response->code >= 400 && $response->code < 500) {
+        die "API call failed: " . $response->status_line;
+    } else {
+        die "HTTP request failed: " . $response->status_line;
+    }
+}
+
+sub map_noid {
+    my ($slug, $noid) = @_;
+
+    my $ark_noid_api_url = $ENV{ARK_server} . "/slug";
+    my $AAD_CLIENT_SECRET = $ENV{ARK_secret};
+ 
+    # Calculate the expiration time: current time in UTC plus 1 day
+    my $expiration = DateTime->now(time_zone => 'UTC')->add(days => 1);
+
+    # Create a JSON Web Token (JWT) with an expiration claim
+    my $token = encode_jwt(
+        payload => { exp => $expiration->epoch },
+        key     => $AAD_CLIENT_SECRET,
+        alg     => 'HS256'
+    );
+ 
+    # If no token was generated, raise an exception
+    die "No access token generated." unless $token;
+ 
+    # Prepare the request headers
+    my %headers = (
+        'Authorization' => "Bearer $token",
+        'Content-Type'  => 'application/json',
+    );
+ 
+    # Prepare the payload
+    my %payload = (
+        slug   => $slug,
+        ark  => $noid
+    );
+ 
+    # Initialize HTTP client
+    my $ua = LWP::UserAgent->new;
+ 
+    # Send the POST request to the NOID map API
+    my $response = $ua->post(
+        $ark_noid_api_url,
+        'Content-Type' => 'application/json',
+        Authorization => "Bearer $token",
+        Content => encode_json(\%payload),
+    );
+ 
+    # Check the response
+    if ($response->is_success) {
+        my $response_data = decode_json($response->decoded_content);
+        return $response_data;
+    } elsif ($response->code >= 400 && $response->code < 500) {
+        die "API call failed: " . $response->status_line;
+    } else {
+        die "HTTP request failed: " . $response->status_line;
+    }
+}
+
 sub process {
     my ($self) = @_;
 
@@ -200,6 +309,10 @@ sub process {
     if ( exists $self->manifest->{slug} ) {
         $self->setManifestNoid();
         $self->writeManifest();
+
+        $self->log->info( $self->manifest->{slug} );
+        $self->log->info( $self->manifest->{'_id'} );
+        map_noid($self->manifest->{slug}, $self->manifest->{'_id'} )
     }
 }
 
@@ -916,21 +1029,12 @@ sub loadFileMeta {
 # See https://github.com/crkn-rcdr/noid for details
 sub mintNoids {
     my ( $self, $number, $type ) = @_;
-
     return [] if ( !$number );
-
-    my $res = $self->noidsrv->post( "/mint/$number/$type", {},
-        { deserializer => 'application/json' } );
-    if ( $res->code != 200 ) {
-        die "Fail communicating with noid server for /mint/$number/$type: "
-          . $res->code . "\n";
-    }
-    return $res->data->{ids};
+    return mint_noid($number, $type);
 }
 
 sub setManifestNoid {
     my ($self) = @_;
-
     my @manifestnoids = @{ $self->mintNoids( 1, 'manifest' ) };
     die "Couldn't allocate 1 manifest noid\n" if ( scalar @manifestnoids != 1 );
     $self->manifest->{'_id'} = $manifestnoids[0];

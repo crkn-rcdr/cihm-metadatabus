@@ -207,7 +207,7 @@ sub map_noid {
     # Initialize HTTP client
     my $ua = LWP::UserAgent->new;
  
-    # Send the POST request to the NOID generation API
+    # Send the PUT request to the NOID map API
     my $response = $ua->put(
         $ark_noid_api_url,
         'Content-Type' => 'application/json',
