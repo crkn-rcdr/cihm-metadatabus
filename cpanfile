@@ -42,3 +42,7 @@ requires 'Archive::Zip';
 
 
 requires 'MIME::Types';
+
+requires 'Crypt::JWT';
+requires 'LWP::UserAgent';
+requires 'LWP::Protocol::https';

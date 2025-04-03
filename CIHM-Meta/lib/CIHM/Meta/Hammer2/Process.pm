@@ -12,7 +12,8 @@ use CIHM::Normalise::flatten;
 use CIHM::Normalise;
 use List::MoreUtils qw(uniq any);
 use File::Temp;
-
+use Crypt::JWT qw(encode_jwt);
+use LWP::UserAgent;
 #use Data::Dumper;
 
 =head1 NAME
@@ -172,6 +173,59 @@ sub presentdoc {
     return $self->{presentdoc};
 }
 
+sub map_noid {
+    my ($slug, $noid) = @_;
+
+    my $ark_noid_api_url = $ENV{ARK_server} . "/slug";
+    my $AAD_CLIENT_SECRET = $ENV{ARK_secret};
+ 
+    # Calculate the expiration time: current time in UTC plus 1 day
+    my $expiration = DateTime->now(time_zone => 'UTC')->add(days => 1);
+
+    # Create a JSON Web Token (JWT) with an expiration claim
+    my $token = encode_jwt(
+        payload => { exp => $expiration->epoch },
+        key     => $AAD_CLIENT_SECRET,
+        alg     => 'HS256'
+    );
+ 
+    # If no token was generated, raise an exception
+    die "No access token generated." unless $token;
+ 
+    # Prepare the request headers
+    my %headers = (
+        'Authorization' => "Bearer $token",
+        'Content-Type'  => 'application/json',
+    );
+ 
+    # Prepare the payload
+    my %payload = (
+        slug   => $slug,
+        ark  => $noid
+    );
+ 
+    # Initialize HTTP client
+    my $ua = LWP::UserAgent->new;
+ 
+    # Send the POST request to the NOID generation API
+    my $response = $ua->put(
+        $ark_noid_api_url,
+        'Content-Type' => 'application/json',
+        Authorization => "Bearer $token",
+        Content => encode_json(\%payload),
+    );
+ 
+    # Check the response
+    if ($response->is_success) {
+        my $response_data = decode_json($response->decoded_content);
+        return $response_data;
+    } elsif ($response->code >= 400 && $response->code < 500) {
+        die "API call failed: " . $response->status_line;
+    } else {
+        die "HTTP request failed: " . $response->status_line;
+    }
+}
+
 # Top method
 sub process {
     my ($self) = @_;
@@ -187,7 +241,10 @@ sub process {
     }
 
     $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
-
+    my $mapres = map_noid($self->slug, $self->noid);
+    $self->log->info( "mapres.");
+    $self->log->info( encode_json($mapres) );
+    $self->log->info( "Mapped.");
 
     $self->log->info( "Getting type..." );
     if ( !( exists $self->document->{'type'} ) ) {
@@ -223,7 +280,7 @@ sub process {
 
     $self->log->info( "Got metadata" );
 
-## First attachment array element is the item
+    ## First attachment array element is the item
 
     # Fill in dmdSec information first
     $self->log->info( "Flattening metadata..." );

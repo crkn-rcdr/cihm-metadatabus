@@ -200,7 +200,7 @@ sub swing {
     my $status;
 
     # Handle and record any errors
-    try {
+    #try {
         $status = JSON::true;
         new CIHM::Meta::Hammer2::Process(
             {
@@ -217,12 +217,11 @@ sub swing {
                 copresentation2db  => $self->copresentation2db,
             }
         )->process;
-    }
-    catch {
-        $status = JSON::false;
-        $self->log->error("$noid: $_");
-        $self->{message} .= "Caught: " . $_;
-    };
+    #}
+    #catch {
+    #    $status = JSON::false;
+    #    $self->{message} .= "Caught: " . $_;
+    #};
     $self->postResults( $noid, $status, $self->{message} );
 
     AE::log debug => "$noid After ($$)";
