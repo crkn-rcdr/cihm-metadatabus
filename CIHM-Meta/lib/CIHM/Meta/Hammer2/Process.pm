@@ -274,7 +274,11 @@ sub process {
       $self->noid . '/dmd' . uc( $self->document->{'dmdType'} ) . '.xml';
     my $r = $self->swift->object_get( $self->access_metadata, $object );
     if ( $r->code != 200 ) {
-        die( "Accessing $object returned code: " . $r->code . "\n" );
+        $object =~ s|/([ms])|/g|g; # handle id change
+        $r = $self->swift->object_get( $self->access_metadata, $object );
+        if ( $r->code != 200 ) {
+            die( "Accessing $object returned code: " . $r->code . "\n" );
+        }
     }
     my $xmlrecord = $r->content;
 
@@ -431,49 +435,49 @@ sub process {
                 my $r =
                   $self->swift->object_get( $self->access_metadata, $object );
                 if ( $r->code != 200 ) {
-                    die(
-                        "Accessing $object returned code: " . $r->code . "\n" );
-                }
-                my $xmlrecord = $r->content;
+                    $self->log->info( "Accessing $object returned code: " . $r->code . "\n" );
+                } else {
+                    my $xmlrecord = $r->content;
 
-                # Add Namespace if missing
-                $xmlrecord =~
-s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g;
-                $xmlrecord =~ s|</txt:txtmap>|</txtmap>|g;
+                    # Add Namespace if missing
+                    $xmlrecord =~
+    s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g;
+                    $xmlrecord =~ s|</txt:txtmap>|</txtmap>|g;
 
-                my $ocr;
-                my $xml = XML::LibXML->new->parse_string($xmlrecord);
-                my $xpc = XML::LibXML::XPathContext->new($xml);
-                $xpc->registerNs( 'txt',
-                    'http://canadiana.ca/schema/2012/xsd/txtmap' );
-                $xpc->registerNs( 'alto4',
-                    'http://www.loc.gov/standards/alto/ns-v4#' );
-                $xpc->registerNs( 'alto3',
-                    'http://www.loc.gov/standards/alto/ns-v3' );
-                if (   $xpc->exists( '//txt:txtmap', $xml )
-                    || $xpc->exists( '//txtmap', $xml ) )
-                {
-                    $ocr = $xml->textContent;
-                }
-                elsif (
-                    $xpc->exists( '//alto3', $xml )
-                    || $xpc->exists('//alto3:alto3'), $xml
-                    || $xpc->exists( '//alto4', $xml )
-                    || $xpc->exists('//alto4:alto4'), $xml
-                  )
-                {
-                    $ocr = '';
-                    foreach
-                      my $content ( $xpc->findnodes( '//*[@CONTENT]', $xml ) )
+                    my $ocr;
+                    my $xml = XML::LibXML->new->parse_string($xmlrecord);
+                    my $xpc = XML::LibXML::XPathContext->new($xml);
+                    $xpc->registerNs( 'txt',
+                        'http://canadiana.ca/schema/2012/xsd/txtmap' );
+                    $xpc->registerNs( 'alto4',
+                        'http://www.loc.gov/standards/alto/ns-v4#' );
+                    $xpc->registerNs( 'alto3',
+                        'http://www.loc.gov/standards/alto/ns-v3' );
+                    if (   $xpc->exists( '//txt:txtmap', $xml )
+                        || $xpc->exists( '//txtmap', $xml ) )
                     {
-                        $ocr .= " " . $content->getAttribute('CONTENT');
+                        $ocr = $xml->textContent;
                     }
+                    elsif (
+                        $xpc->exists( '//alto3', $xml )
+                        || $xpc->exists('//alto3:alto3'), $xml
+                        || $xpc->exists( '//alto4', $xml )
+                        || $xpc->exists('//alto4:alto4'), $xml
+                    )
+                    {
+                        $ocr = '';
+                        foreach
+                        my $content ( $xpc->findnodes( '//*[@CONTENT]', $xml ) )
+                        {
+                            $ocr .= " " . $content->getAttribute('CONTENT');
+                        }
+                    }
+                    else {
+                        die "Unknown XML schema for noid=$noid\n";
+                    }
+                    $self->attachment->[ $i + 1 ]->{'tx'} = [ normaliseSpace($ocr) ]
+                    if $ocr;
                 }
-                else {
-                    die "Unknown XML schema for noid=$noid\n";
-                }
-                $self->attachment->[ $i + 1 ]->{'tx'} = [ normaliseSpace($ocr) ]
-                  if $ocr;
             }
         }
         $self->log->info( "Done processing canvases." );
