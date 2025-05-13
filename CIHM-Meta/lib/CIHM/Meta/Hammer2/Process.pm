@@ -220,9 +220,10 @@ sub map_noid {
         my $response_data = decode_json($response->decoded_content);
         return $response_data;
     } elsif ($response->code >= 400 && $response->code < 500) {
+        return "Client error response:\n" . $response->decoded_content; 
         die "API call failed: " . $response->status_line;
     } else {
-        die "HTTP request failed: " . $response->status_line;
+        return "Client error response:\n" . $response->decoded_content; 
     }
 }
 
@@ -242,9 +243,11 @@ sub process {
 
     $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
     my $mapres = map_noid($self->slug, $self->noid);
-    $self->log->info( "mapres.");
-    $self->log->info( encode_json($mapres) );
-    $self->log->info( "Mapped.");
+    if (ref $mapres) {
+        $self->log->info( encode_json($mapres) );
+    } else {
+        $self->log->info($mapres);
+    }
 
     $self->log->info( "Getting type..." );
     if ( !( exists $self->document->{'type'} ) ) {
@@ -918,7 +921,7 @@ sub adddocument {
     $self->update_couch( $self->copresentation2db, $self->presentdoc );
 
     if ( $self->{ustatus} == 0 ) {
-        die "One or more updates were not successful\n";
+        warn "One or more updates were not successful\n";
     }
 }
 
@@ -938,7 +941,7 @@ sub update_couch {
 
     my %couchdocs;
 
-    # Looking up the ID to get revision of any existing document.
+    # 1. Looking up the ID to get revision of any existing document
     my $url = "/_all_docs";
     my $res = $dbo->post(
         $url,
@@ -947,156 +950,126 @@ sub update_couch {
     );
     if ( $res->code == 200 ) {
         foreach my $row ( @{ $res->data->{rows} } ) {
-            if (   defined $row->{id}
-                && defined $row->{value}
-                && defined $row->{value}->{rev}
-                && !defined $row->{value}->{deleted} )
-            {
+            if ( defined $row->{id} && defined $row->{value}->{rev} && !defined $row->{value}->{deleted} ) {
                 $couchdocs{ $row->{id} } = $row->{value}->{rev};
             }
         }
-    }
-    else {
-        if ( defined $res->response->content ) {
-            $self->log->warn( $res->response->content );
-        }
-        die "update_couch() $url return code: " . $res->code . "\n";
+    } else {
+        $self->log->warn( $res->response->content ) if defined $res->response->content;
+        $self->log->warn( "1 update_couch() $url return code: " . $res->code . "\n" );
     }
 
-    # Looking up the noid
+    # 2. noid view
     $url = "/_design/access/_view/noid";
-    my $res = $dbo->post(
+    $res = $dbo->post(
         $url,
-        { keys         => [ $self->noid ], include_docs => JSON::true },
+        { keys => [ $self->noid ], include_docs => JSON::true },
         { deserializer => 'application/json' }
     );
     if ( $res->code == 200 ) {
         foreach my $row ( @{ $res->data->{rows} } ) {
-            if (   defined $row->{id}
-                && defined $row->{doc}
-                && defined $row->{doc}->{'_rev'} )
-            {
+            if ( defined $row->{id} && defined $row->{doc}->{'_rev'} ) {
                 $couchdocs{ $row->{id} } = $row->{doc}->{'_rev'};
             }
         }
-    }
-    else {
-        if ( defined $res->response->content ) {
-            $self->log->warn( $res->response->content );
-        }
-        die "update_couch() $url return code: " . $res->code . "\n";
+    } else {
+        $self->log->warn( $res->response->content ) if defined $res->response->content;
+        $self->log->warn( "2 update_couch() $url return code: " . $res->code . "\n" );
     }
 
-    # Looking up the manifest_noid
+    # 3. manifest_noid view
     $url = "/_design/access/_view/manifest_noid";
-    my $res = $dbo->post(
+    $res = $dbo->post(
         $url,
-        { keys         => [ $self->noid ], include_docs => JSON::true },
+        { keys => [ $self->noid ], include_docs => JSON::true },
         { deserializer => 'application/json' }
     );
     if ( $res->code == 200 ) {
         foreach my $row ( @{ $res->data->{rows} } ) {
-            if (   defined $row->{id}
-                && defined $row->{doc}
-                && defined $row->{doc}->{'_rev'} )
-            {
+            if ( defined $row->{id} && defined $row->{doc}->{'_rev'} ) {
                 $couchdocs{ $row->{id} } = $row->{doc}->{'_rev'};
             }
         }
-    }
-    else {
-        if ( defined $res->response->content ) {
-            $self->log->warn( $res->response->content );
-        }
-        die "update_couch $url return code: " . $res->code . "\n";
+    } else {
+        $self->log->warn( $res->response->content ) if defined $res->response->content;
+        $self->log->warn( "3 update_couch() $url return code: " . $res->code . "\n" );
     }
 
-    # Check if we have missed any
+    # 4. Additional lookups for any docs not found yet
     my @doclookup;
     foreach my $key ( keys %{$docs} ) {
-        if ( !defined $couchdocs{$key} ) {
-            push @doclookup, $key;
-        }
+        push @doclookup, $key unless defined $couchdocs{$key};
     }
 
     if (@doclookup) {
-
-        # Looking up the slugs of the components
         $url = "/_all_docs";
         $res = $dbo->post(
             $url,
-            { keys         => \@doclookup },
+            { keys => \@doclookup },
             { deserializer => 'application/json' }
         );
         if ( $res->code == 200 ) {
             foreach my $row ( @{ $res->data->{rows} } ) {
-                if (   defined $row->{id}
-                    && defined $row->{value}
-                    && defined $row->{value}->{rev}
-                    && !defined $row->{value}->{deleted} )
-                {
+                if ( defined $row->{id} && defined $row->{value}->{rev} && !defined $row->{value}->{deleted} ) {
                     $couchdocs{ $row->{id} } = $row->{value}->{rev};
                 }
             }
-        }
-        else {
-            if ( defined $res->response->content ) {
-                $self->log->warn( $res->response->content );
-            }
-            die "update_couch $url return code: " . $res->code . "\n";
+        } else {
+            $self->log->warn( $res->response->content ) if defined $res->response->content;
+            $self->log->warn( "4 update_couch() $url return code: " . $res->code . "\n" );
         }
     }
 
-    # Initialize structure to be used for bulk update
+    # 5. Prepare docs for update or deletion
     my $postdoc = { docs => [] };
 
-    # Updated or created docs
     foreach my $docid ( keys %{$docs} ) {
         if ( defined $couchdocs{$docid} ) {
-            $docs->{$docid}->{"_rev"} =
-              $couchdocs{$docid};
+            $docs->{$docid}->{"_rev"} = $couchdocs{$docid};
             delete $couchdocs{$docid};
         }
         $docs->{$docid}->{"_id"} = $docid;
         push @{ $postdoc->{docs} }, $docs->{$docid};
     }
 
-    # Delete the rest
     foreach my $docid ( keys %couchdocs ) {
-        push @{ $postdoc->{docs} },
-          {
+        push @{ $postdoc->{docs} }, {
             '_id'      => $docid,
             '_rev'     => $couchdocs{$docid},
             "_deleted" => JSON::true
-          };
+        };
     }
 
-    $url = "/_bulk_docs";
-    $res = $dbo->post( $url, $postdoc, { deserializer => 'application/json' } );
+    # 6. Batched bulk update
+    my $bulk_url   = "/_bulk_docs";
+    my $all_docs   = $postdoc->{docs};
+    my $batch_size = 100;
 
-    if ( $res->code == 201 ) {
-        my @data = @{ $res->data };
-        if ( exists $data[0]->{id} ) {
-            foreach my $thisdoc (@data) {
+    while ( my @batch = splice( @$all_docs, 0, $batch_size ) ) {
+        my $res = $dbo->post(
+            $bulk_url,
+            { docs => \@batch },
+            { deserializer => 'application/json' }
+        );
 
-                # Check if any ID's failed
+        if ( $res->code == 201 ) {
+            foreach my $thisdoc ( @{ $res->data } ) {
                 if ( !$thisdoc->{ok} ) {
                     warn $thisdoc->{id}
-                      . " was not indicated OK update_couch ("
+                      . " was not OK during batched update_couch ("
                       . $dbo->server . ") "
-                      . encode_json($thisdoc) . " \n";
+                      . encode_json($thisdoc) . "\n";
                     $self->{ustatus} = 0;
                 }
             }
+        } else {
+            $self->log->warn( $res->response->content ) if defined $res->response->content;
+            $self->log->warn("Batched update_couch() $bulk_url return code: " . $res->code . "\n");
+            $self->{ustatus} = 0;
         }
-    }
-    else {
-        if ( defined $res->response->content ) {
-            $self->log->warn( $res->response->content );
-        }
-        die "update_couch $url return code: " . $res->code . "\n";
     }
 }
+
 
 sub process_attachment {
     my ($self) = @_;
@@ -1362,6 +1335,7 @@ sub process_collection {
         }
     }
     $self->presentdoc->{ $self->slug }->{'items'} = $items;
+    $self->log->info( "Done items hash" );
 
     if (@notfound) {
         warn "Noids not found in Search documents: " . join( ' ', @notfound ),
