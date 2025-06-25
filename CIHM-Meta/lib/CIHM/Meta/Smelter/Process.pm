@@ -219,9 +219,9 @@ sub mint_noid {
         my $response_data = decode_json($response->decoded_content);
         return $response_data->{ark};
     } elsif ($response->code >= 400 && $response->code < 500) {
-        die "API call failed: " . $response->status_line;
+        return "API call failed: " . $response->status_line;
     } else {
-        die "HTTP request failed: " . $response->status_line;
+        return "HTTP request failed: " . $response->status_line;
     }
 }
 
@@ -272,9 +272,9 @@ sub map_noid {
         my $response_data = decode_json($response->decoded_content);
         return $response_data;
     } elsif ($response->code >= 400 && $response->code < 500) {
-        die "API call failed: " . $response->status_line;
+        return "API call failed: " . $response->status_line;
     } else {
-        die "HTTP request failed: " . $response->status_line;
+        return "HTTP request failed: " . $response->status_line;
     }
 }
 

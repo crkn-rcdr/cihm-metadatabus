@@ -221,7 +221,6 @@ sub map_noid {
         return $response_data;
     } elsif ($response->code >= 400 && $response->code < 500) {
         return "Client error response:\n" . $response->decoded_content; 
-        die "API call failed: " . $response->status_line;
     } else {
         return "Client error response:\n" . $response->decoded_content; 
     }
