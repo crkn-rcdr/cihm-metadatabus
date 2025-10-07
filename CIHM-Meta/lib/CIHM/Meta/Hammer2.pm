@@ -153,7 +153,7 @@ sub hammer {
           AnyEvent::Fork->new->require("CIHM::Meta::Hammer2::Worker")
           ->AnyEvent::Fork::Pool::run(
             "CIHM::Meta::Hammer2::Worker::swing",
-            max        => $self->maxprocs,
+            max        => 3,#$self->maxprocs,
             load       => 2,
             on_destroy => ( my $cv_finish = AE::cv ),
           );

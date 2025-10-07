@@ -242,30 +242,17 @@ sub process {
 
     $self->log->info( "Processing " . $self->noid . " (" . $self->slug . ")" );
     my $mapres = map_noid($self->slug, $self->noid);
-    if (ref $mapres) {
-        $self->log->info( encode_json($mapres) );
-    } else {
-        $self->log->info($mapres);
-    }
 
-    $self->log->info( "Getting type..." );
     if ( !( exists $self->document->{'type'} ) ) {
         die "Missing mandatory field 'type'\n";
     }
     my $type = $self->document->{'type'};
-    $self->log->info( "Got type." );
 
-
-    $self->log->info( "Getting behavior..." );
     if ( $type eq 'collection' && !( exists $self->document->{'behavior'} ) ) {
         die "Missing 'behavior' for type='collection' "
           . $self->noid . " ("
           . $self->slug . ")\n";
     }
-    $self->log->info( "Got behaviour." );
-
-
-    $self->log->info( "Getting metadata..." );
     if ( !exists $self->document->{'dmdType'} ) {
         die "Missing dmdType\n";
     }
@@ -284,12 +271,9 @@ sub process {
     }
     my $xmlrecord = $r->content;
 
-    $self->log->info( "Got metadata" );
-
     ## First attachment array element is the item
 
     # Fill in dmdSec information first
-    $self->log->info( "Flattening metadata..." );
     $self->attachment->[0] = $self->flatten->byType(
         $self->document->{'dmdType'},
         utf8::is_utf8($xmlrecord)
@@ -298,11 +282,6 @@ sub process {
     );
     undef $r;
     undef $xmlrecord;
-
-    $self->log->info( "Flatened metadata." );
-
-
-    $self->log->info( "Get IIIF type..." );
 
     $self->attachment->[0]->{'depositor'} = $depositor;
     if ( $type eq "manifest" ) {
@@ -318,11 +297,6 @@ sub process {
     if ( !exists $self->attachment->[0]->{'identifier'} ) {
         $self->attachment->[0]->{'identifier'} = [];
     }
-
-    $self->log->info( "Got IIIF type." );
-
-
-    $self->log->info( "Getting ids..." );
 
     if (
         !(
@@ -341,11 +315,6 @@ sub process {
         push @{ $self->attachment->[0]->{'identifier'} }, $objid;
     }
 
-    $self->log->info( "Got ids..." );
-
-
-    $self->log->info( "Getting label..." );
-
     $self->attachment->[0]->{'label'} =
       $self->getIIIFText( $self->document->{'label'} );
 
@@ -353,16 +322,10 @@ sub process {
       s/^\s+|\s+$//g;    # Trim spaces from beginning and end of label
     $self->attachment->[0]->{'label'} =~ s/\s+/ /g;    # Remove extra spaces
 
-
-    $self->log->info( "Got label." );
-
-
-    $self->log->info( "Getting OCR..." );
     if ( exists $self->document->{'ocrPdf'} ) {
         $self->attachment->[0]->{'ocrPdf'} =
           $self->document->{'ocrPdf'};
     }
-    $self->log->info( "Got OCR." );
 
 ## All other attachment array elements are components
 
@@ -431,61 +394,57 @@ sub process {
 
             if ( defined $canvases[$i]{'ocrType'} ) {
                 my $noid = $self->attachment->[ $i + 1 ]->{'noid'};
-                # $canvases[$i]{'ocrType'}
-                my $object =
-                  $noid . '/ocrTXTMAP.xml';
-                my $r =
-                  $self->swift->object_get( $self->access_metadata, $object );
+                my $object = $noid . '/ocrTXTMAP.xml';
+                my $r = $self->swift->object_get( $self->access_metadata, $object );
+
                 if ( $r->code != 200 ) {
-                    $self->log->info( "Accessing $object returned code: " . $r->code . "\n" );
-                } else {
-                    my $xmlrecord = $r->content;
-
-                    # Add Namespace if missing
-                    $xmlrecord =~
-    s|<txt:txtmap>|<txtmap xmlns:txt="http://canadiana.ca/schema/2012/xsd/txtmap">|g;
-                    $xmlrecord =~ s|</txt:txtmap>|</txtmap>|g;
-
-                    my $ocr;
-                    my $xml = XML::LibXML->new->parse_string($xmlrecord);
-                    my $xpc = XML::LibXML::XPathContext->new($xml);
-                    $xpc->registerNs( 'txt',
-                        'http://canadiana.ca/schema/2012/xsd/txtmap' );
-                    $xpc->registerNs( 'alto4',
-                        'http://www.loc.gov/standards/alto/ns-v4#' );
-                    $xpc->registerNs( 'alto3',
-                        'http://www.loc.gov/standards/alto/ns-v3' );
-                    if (   $xpc->exists( '//txt:txtmap', $xml )
-                        || $xpc->exists( '//txtmap', $xml ) )
-                    {
-                        $ocr = $xml->textContent;
-                    }
-                    elsif (
-                        $xpc->exists( '//alto3', $xml )
-                        || $xpc->exists('//alto3:alto3'), $xml
-                        || $xpc->exists( '//alto4', $xml )
-                        || $xpc->exists('//alto4:alto4'), $xml
-                    )
-                    {
-                        $ocr = '';
-                        foreach
-                        my $content ( $xpc->findnodes( '//*[@CONTENT]', $xml ) )
-                        {
-                            $ocr .= " " . $content->getAttribute('CONTENT');
-                        }
-                    }
-                    else {
-                        die "Unknown XML schema for noid=$noid\n";
-                    }
-                    $self->attachment->[ $i + 1 ]->{'tx'} = [ normaliseSpace($ocr) ]
-                    if $ocr;
+                    $self->log->info("Accessing $object returned code: " . $r->code);
+                    next;
                 }
+
+                my $xmlrecord = $r->content;
+
+                # Sanitize XML — strip anything after closing root
+                $xmlrecord =~ s|(</txtmap>).*|$1|s;
+                $xmlrecord =~ s|(</alto3>).*|$1|s;
+                $xmlrecord =~ s|(</alto4>).*|$1|s;
+                $xmlrecord =~ s/[\x00-\x08\x0B\x0C\x0E-\x1F]//g; # remove control chars
+
+                my $xml;
+                eval {
+                    $xml = XML::LibXML->new->parse_string($xmlrecord);
+                    1;
+                } or do {
+                    my $err = $@ || 'Unknown XML parse error';
+                    $self->log->warn("Failed to parse $object: $err");
+                    next; # skip this page safely
+                };
+
+                my $xpc = XML::LibXML::XPathContext->new($xml);
+                $xpc->registerNs('txt', 'http://canadiana.ca/schema/2012/xsd/txtmap');
+                $xpc->registerNs('alto4', 'http://www.loc.gov/standards/alto/ns-v4#');
+                $xpc->registerNs('alto3', 'http://www.loc.gov/standards/alto/ns-v3');
+
+                my $ocr;
+                if ( $xpc->exists('//txt:txtmap', $xml) || $xpc->exists('//txtmap', $xml) ) {
+                    $ocr = $xml->textContent;
+                }
+                elsif ( $xpc->exists('//alto3:alto', $xml) || $xpc->exists('//alto4:alto', $xml) ) {
+                    $ocr = join ' ', map { $_->getAttribute('CONTENT') }
+                            $xpc->findnodes('//*[@CONTENT]', $xml);
+                }
+                else {
+                    $self->log->warn("Unknown XML schema for noid=$noid");
+                    next;
+                }
+
+                $self->attachment->[ $i + 1 ]->{'tx'} = [ normaliseSpace($ocr) ] if $ocr;
             }
         }
         $self->log->info( "Done processing canvases." );
     }
 
-## Build update document and attachment
+    ## Build update document and attachment
 
     $self->log->info( "Build update document and attachment..." );
     $self->docdata->{'type'} = 'aip';
