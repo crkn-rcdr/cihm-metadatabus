@@ -10,9 +10,10 @@ RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   poppler-utils libpoppler-dev libpoppler-glib-dev libgirepository1.0-dev python3-swiftclient \
   imagemagick-6-common libmagickcore-6.q16-6 default-jre && \
   \
-  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
-  VERSION=node_15.x && DISTRO="$(lsb_release -s -c)" && \
-  echo "deb https://deb.nodesource.com/$VERSION $DISTRO main" > /etc/apt/sources.list.d/nodesource.list && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -yq ca-certificates curl gnupg && \
+  mkdir -p /etc/apt/keyrings && \
+  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg && \
+  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x bullseye main" > /etc/apt/sources.list.d/nodesource.list && \
   apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq nodejs && \
   \
   apt-get clean
