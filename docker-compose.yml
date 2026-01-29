@@ -10,5 +10,5 @@ services:
     volumes:
       - ./CIHM-Meta:/home/tdr/CIHM-Meta
       - ./CIHM-Swift:/home/tdr/CIHM-Swift
-      - ./log:/var/log/tdr
+      - ./logs:/var/log/tdr
     command: [ "echo", "done" ]
