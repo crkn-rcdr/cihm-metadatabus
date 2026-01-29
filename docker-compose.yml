@@ -11,10 +11,4 @@ services:
       - ./CIHM-Meta:/home/tdr/CIHM-Meta
       - ./CIHM-Swift:/home/tdr/CIHM-Swift
       - ./log:/var/log/tdr
-    networks:
-      - access-platform
     command: [ "echo", "done" ]
-networks:
-  access-platform:
-    external:
-      name: access-platform
