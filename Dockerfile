@@ -1,7 +1,7 @@
 FROM perl:5.36.0-bullseye
 
 RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
-  mkdir -p /etc/canadiana /var/log/tdr /var/lock/tdr && ln -s /home/tdr /etc/canadiana/tdr && chown tdr.tdr /var/log/tdr /var/lock/tdr && \
+  mkdir -p /etc/canadiana /var/log/tdr /var/lock/tdr && touch /var/log/tdr/root.log && ln -s /home/tdr /etc/canadiana/tdr && chown tdr.tdr /var/log/tdr /var/lock/tdr && \
   ln -sf /usr/share/zoneinfo/America/Montreal /etc/localtime && \
   ln -sf /usr/include/x86_64-linux-gnu/ImageMagick-6/ /usr/local/include/ && \
   \
