@@ -396,10 +396,14 @@ sub process {
                 my $noid = $self->attachment->[ $i + 1 ]->{'noid'};
                 my $object = $noid . '/ocrTXTMAP.xml';
                 my $r = $self->swift->object_get( $self->access_metadata, $object );
-
                 if ( $r->code != 200 ) {
                     $self->log->info("Accessing $object returned code: " . $r->code);
-                    next;
+                    $object = $noid . '/ocrALTO.xml';
+                    $r = $self->swift->object_get( $self->access_metadata, $object );
+                    if ( $r->code != 200 ) {
+                        $self->log->info("Accessing $object returned code: " . $r->code);
+                        next;
+                    }
                 }
 
                 my $xmlrecord = $r->content;
