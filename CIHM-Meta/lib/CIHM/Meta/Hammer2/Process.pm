@@ -427,7 +427,7 @@ sub process {
                 my $xpc = XML::LibXML::XPathContext->new($xml);
                 $xpc->registerNs('txt', 'http://canadiana.ca/schema/2012/xsd/txtmap');
                 $xpc->registerNs('alto4', 'http://www.loc.gov/standards/alto/ns-v4#');
-                $xpc->registerNs('alto3', 'http://www.loc.gov/standards/alto/ns-v3');
+                $xpc->registerNs('alto3', 'http://www.loc.gov/standards/alto/ns-v3#');
 
                 my $ocr;
                 if ( $xpc->exists('//txt:txtmap', $xml) || $xpc->exists('//txtmap', $xml) ) {
