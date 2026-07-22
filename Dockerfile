@@ -1,5 +1,5 @@
 FROM perl:5.36.0-bullseye
-
+ 
 RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   mkdir -p /etc/canadiana /var/log/tdr /var/lock/tdr && \
   install -o tdr -g tdr -m 664 /dev/null /var/log/tdr/root.log && \
@@ -21,7 +21,7 @@ RUN groupadd -g 1117 tdr && useradd -u 1117 -g tdr -m tdr && \
   \
   ln -sf "$(perl -MConfig -e 'print "$Config{archlibexp}/CORE/$Config{libperl}"')" /usr/local/lib/libperl.so && \
   apt-get clean && rm -rf /var/lib/apt/lists/*
-
+ 
 # Upgrades to ImageMagick now have a policy file which needs to be adjusted.
 # https://stackoverflow.com/questions/42928765/convertnot-authorized-aaaa-error-constitute-c-readimage-453
 # We've also had memory issues.
@@ -31,7 +31,7 @@ RUN echo "\n<policy domain=\" coder\" rights=\"read|write\" pattern=\"PDF\" />\n
   sed -i -E 's/name="map" value=".+"/name="map" value="8GiB"/g' /etc/ImageMagick-6/policy.xml && \
   sed -i -E 's/name="area" value=".+"/name="area" value="8GiB"/g' /etc/ImageMagick-6/policy.xml && \
   sed -i -E 's/name="disk" value=".+"/name="disk" value="8GiB"/g' /etc/ImageMagick-6/policy.xml
-
+ 
 # Cache some xsd's for validation
 # Clone the repo: https://github.com/crkn-rcdr/Digital-Preservation
 # Copy the contents or the xml dir into your /home/tdr/xml directory, ex: sudo cp -r /home/brittny/Digital-Preservation/xml /home/tdr/xml
@@ -40,7 +40,7 @@ RUN xmlcatalog --noout --add uri http://www.loc.gov/standards/xlink/xlink.xsd fi
   xmlcatalog --noout --add uri http://www.loc.gov/alto/v3/alto-3-1.xsd file:///home/tdr/xml/unpublished/xsd/alto-3-1.xsd /etc/xml/catalog && \
   xmlcatalog --noout --add uri http://www.loc.gov/alto/v4/alto-4-2.xsd file:///home/tdr/xml/unpublished/xsd/alto-4-2.xsd /etc/xml/catalog && \
   xmlcatalog --noout --add uri http://www.w3.org/2001/03/xml.xsd file:///home/tdr/xml/unpublished/xsd/xml.xsd /etc/xml/catalog
-
+ 
 # https://pdfbox.apache.org/download.html
 # This number will need to be updated every so often
 ENV PDFBOXAPPVER=2.0.33
@@ -50,25 +50,25 @@ RUN wget -nv \
   && wget -nv -O pdfbox_KEYS "https://archive.apache.org/dist/pdfbox/KEYS" \
   && gpg --batch --import pdfbox_KEYS \
   && gpg --batch --verify "pdfbox-app-$PDFBOXAPPVER.jar.asc" "pdfbox-app-$PDFBOXAPPVER.jar"
-
+ 
 WORKDIR /home/tdr
 COPY cpanfile* *.conf *.tar.gz /home/tdr/
 COPY aliases /etc/aliases
-
+ 
 # https://metacpan.org/dist/AnyEvent-Fork-Pool -- file not found.
 # Built dist to manually install via http://software.schmorp.de/pkg/AnyEvent-Fork-Pool.html
 # Specifically the "Download GNU tarball" from http://cvs.schmorp.de/AnyEvent-Fork-Pool/
 #RUN cpanm -n --reinstall /home/tdr/AnyEvent-Fork-Pool-1.3.tar.gz && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
 RUN cpanm -n --installdeps . && rm -rf /root/.cpanm || (cat /root/.cpanm/work/*/build.log && exit 1)
-
+ 
 COPY CIHM-Normalise CIHM-Normalise
 COPY CIHM-Meta CIHM-Meta
 COPY CIHM-Swift CIHM-Swift
 COPY data data
 COPY xml xml
-
+ 
 ENV PERL5LIB /home/tdr/CIHM-Meta/lib:/home/tdr/CIHM-Normalise/lib:/home/tdr/CIHM-Swift/lib
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/tdr/CIHM-Meta/bin:/home/tdr/CIHM-Swift/bin
-
+ 
 SHELL ["/bin/bash", "-c"]
 USER tdr
