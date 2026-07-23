@@ -47,9 +47,9 @@ touch .env.secret
 Create the local log directory and log file, give read write permissions:
 
 ```
-mkdir -p logs
-touch ./logs/root.log
-chmod 666 ./logs/root.log
+sudo mkdir -p logs
+sudo touch ./logs/root.log
+sudo chmod 666 ./logs/root.log
 ```
 
 ## Build the local Docker image
