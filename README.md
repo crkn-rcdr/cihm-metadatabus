@@ -16,22 +16,22 @@ These steps create a local checkout with the required submodule, build the Docke
 The main repository includes `CIHM-Meta`, `CIHM-Normalise`, `data`, and `xml`. `CIHM-Swift` is a Git submodule, so clone recursively:
 
 ```
-$ git clone --recurse-submodules git@github.com:crkn-rcdr/cihm-metadatabus.git
-$ cd cihm-metadatabus
+git clone --recurse-submodules git@github.com:crkn-rcdr/cihm-metadatabus.git
+cd cihm-metadatabus
 ```
 
 If you already cloned the repository without submodules, initialize them before building:
 
 ```
-$ git submodule update --init --recursive
+git submodule update --init --recursive
 ```
 
 The Docker build uses the checked-in `xml/` directory for schema validation. If you need to refresh those schema files from their source, clone the Digital Preservation repository beside this one:
 
 ```
-$ cd ..
-$ git clone git@github.com:crkn-rcdr/Digital-Preservation.git
-$ cd cihm-metadatabus
+cd ..
+git clone git@github.com:crkn-rcdr/Digital-Preservation.git
+cd cihm-metadatabus
 ```
 
 CAP and Solr are runtime/integration dependencies, but they are not required to build this local Docker image.
@@ -41,14 +41,15 @@ CAP and Solr are runtime/integration dependencies, but they are not required to 
 Create a local secrets file. `env-dist` contains the default variable names and non-secret examples; put private passwords or local overrides in `.env.secret`.
 
 ```
-$ touch .env.secret
+touch .env.secret
 ```
 
-Create the local log directory with the UID/GID used by the `tdr` user in the container:
+Create the local log directory and log file, give read write permissions:
 
 ```
-$ mkdir -p logs
-$ sudo chown -R 1117:1117 logs
+mkdir -p logs
+touch ./logs/root.log
+chmod 666 ./logs/root.log
 ```
 
 ## Build the local Docker image
@@ -56,7 +57,7 @@ $ sudo chown -R 1117:1117 logs
 The examples below use Docker Compose v2. If your workstation uses the legacy command, replace `docker compose` with `docker-compose`.
 
 ```
-$ docker compose build --pull
+docker compose build --pull
 ```
 
 ## Run commands in local Docker
@@ -64,36 +65,36 @@ $ docker compose build --pull
 Open an interactive shell in the container:
 
 ```
-$ docker compose run --rm cihm-metadatabus bash
+docker compose run --rm cihm-metadatabus bash
 ```
 
 The Docker image sets `PATH` and `PERL5LIB`, so metadata bus commands can be launched directly from that shell:
 
 ```
-tdr@container:~$ dmdtask
-tdr@container:~$ hammer2
-tdr@container:~$ ocrtask
-tdr@container:~$ reposync
-tdr@container:~$ smelter
-tdr@container:~$ solrstream
+tdr@container:~dmdtask
+tdr@container:~hammer2
+tdr@container:~ocrtask
+tdr@container:~reposync
+tdr@container:~smelter
+tdr@container:~solrstream
 ```
 
 You can also run one command without opening a shell:
 
 ```
-$ docker compose run --rm cihm-metadatabus dmdtask
+docker compose run --rm cihm-metadatabus dmdtask
 ```
 
 For a production-like loop during local testing, run the command from the container shell:
 
 ```
-tdr@container:~$ while :; do dmdtask; sleep 1m; done
+tdr@container:~while :; do dmdtask; sleep 1m; done
 ```
 
 Logs written to `/var/log/tdr` in the container are available on the host in `logs/`:
 
 ```
-$ tail -f logs/root.log
+tail -f logs/root.log
 ```
 
 
